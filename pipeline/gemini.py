@@ -9,6 +9,8 @@ from typing import Any
 import httpx
 from json_repair import repair_json
 
+from .utils import load_dotenv
+
 API_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key}"
 DEFAULT_MODEL = "gemini-3.5-flash"
 GEMINI_PRICING_SOURCE = "https://ai.google.dev/gemini-api/docs/pricing"
@@ -51,7 +53,10 @@ def generate_json(
     timeout_seconds: int = 1200,
     max_attempts: int = 2,
     thinking_level: str | None = None,
+    tools: list[dict[str, Any]] | None = None,
+    response_mime_type: str | None = "application/json",
 ) -> tuple[dict[str, Any], dict[str, Any]]:
+    load_dotenv()
     key = os.environ.get("GOOGLE_API_KEY")
     if not key:
         raise RuntimeError("GOOGLE_API_KEY is required for Gemini stages")
@@ -59,20 +64,24 @@ def generate_json(
     started = time.monotonic()
     response: httpx.Response | None = None
     generation_config: dict[str, Any] = {
-        "responseMimeType": "application/json",
         "maxOutputTokens": max_output_tokens,
         "temperature": temperature,
     }
+    if response_mime_type:
+        generation_config["responseMimeType"] = response_mime_type
     if thinking_level:
         generation_config["thinkingConfig"] = {"thinkingLevel": thinking_level}
+    payload: dict[str, Any] = {
+        "contents": [{"parts": [{"text": prompt}]}],
+        "generationConfig": generation_config,
+    }
+    if tools:
+        payload["tools"] = tools
     for attempt in range(1, max_attempts + 1):
         try:
             response = httpx.post(
                 API_URL.format(model=model, key=key),
-                json={
-                    "contents": [{"parts": [{"text": prompt}]}],
-                    "generationConfig": generation_config,
-                },
+                json=payload,
                 timeout=timeout_seconds,
             )
             break
@@ -100,7 +109,11 @@ def generate_json(
         meta["estimated_cost_usd"] = estimated_cost
         meta["pricing"] = pricing_details(model)
 
-    text = body["candidates"][0]["content"]["parts"][0]["text"]
+    candidate = body["candidates"][0]
+    grounding = candidate.get("groundingMetadata")
+    if grounding:
+        meta["grounding"] = _compact_grounding_metadata(grounding)
+    text = candidate["content"]["parts"][0]["text"]
     return _parse_json_text(text), meta
 
 
@@ -131,3 +144,23 @@ def _pricing_for_model(model: str) -> dict[str, float] | None:
 def _int_usage(usage: dict[str, Any], key: str) -> int:
     value = usage.get(key, 0)
     return int(value) if isinstance(value, int | float) else 0
+
+
+def _compact_grounding_metadata(grounding: dict[str, Any]) -> dict[str, Any]:
+    queries = [str(item) for item in grounding.get("webSearchQueries", []) if str(item).strip()]
+    chunks = []
+    for chunk in grounding.get("groundingChunks", []) or []:
+        web = chunk.get("web") if isinstance(chunk, dict) else None
+        if isinstance(web, dict):
+            chunks.append(
+                {
+                    "title": web.get("title"),
+                    "uri": web.get("uri"),
+                }
+            )
+    return {
+        "web_search_queries": queries,
+        "web_search_query_count": len(queries),
+        "grounding_chunks": chunks[:40],
+        "grounding_chunk_count": len(chunks),
+    }

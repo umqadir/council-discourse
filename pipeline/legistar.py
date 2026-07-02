@@ -25,7 +25,11 @@ class LegistarEvent:
     event_time: str | None
     location: str | None
     agenda_pdf_url: str | None
+    minutes_pdf_url: str | None
     insite_url: str | None
+    video_path: str | None
+    agenda_status_name: str | None
+    minutes_status_name: str | None
 
 
 def _decode_base64_url(value: str) -> str:
@@ -77,7 +81,11 @@ def event_from_api(raw: dict) -> LegistarEvent:
         event_time=raw.get("EventTime"),
         location=raw.get("EventLocation"),
         agenda_pdf_url=raw.get("EventAgendaFile"),
+        minutes_pdf_url=raw.get("EventMinutesFile"),
         insite_url=raw.get("EventInSiteURL"),
+        video_path=raw.get("EventVideoPath"),
+        agenda_status_name=raw.get("EventAgendaStatusName"),
+        minutes_status_name=raw.get("EventMinutesStatusName"),
     )
 
 
@@ -105,6 +113,39 @@ class LegistarClient:
                 params={
                     "$filter": f"EventLastModifiedUtc gt datetime'{cursor}'",
                     "$orderby": "EventLastModifiedUtc asc",
+                    "$top": str(page_size),
+                    "$skip": str(skip),
+                    "token": self.token,
+                },
+            )
+            response.raise_for_status()
+            payload = response.json()
+            if not isinstance(payload, list):
+                raise RuntimeError(f"unexpected Legistar events response: {type(payload).__name__}")
+            batch = [event_from_api(item) for item in payload]
+            events.extend(batch)
+            if len(batch) < page_size:
+                return events
+            skip += page_size
+
+    def get_events_by_date_window(
+        self,
+        start_date: str,
+        end_date: str,
+        page_size: int = 1000,
+    ) -> list[LegistarEvent]:
+        events: list[LegistarEvent] = []
+        skip = 0
+        date_filter = (
+            f"EventDate ge datetime'{start_date[:10]}' "
+            f"and EventDate lt datetime'{end_date[:10]}'"
+        )
+        while True:
+            response = self.client.get(
+                f"{self.base_url}/events",
+                params={
+                    "$filter": date_filter,
+                    "$orderby": "EventDate asc, EventTime asc",
                     "$top": str(page_size),
                     "$skip": str(skip),
                     "token": self.token,
@@ -149,6 +190,53 @@ def parse_event_datetime(event_date: str | None, event_time: str | None) -> date
             except ValueError:
                 pass
     return None
+
+
+def infer_meeting_type(
+    body_name: str | None,
+    agenda_status_name: str | None = None,
+    minutes_status_name: str | None = None,
+) -> str:
+    text = " ".join(
+        value or ""
+        for value in (body_name, agenda_status_name, minutes_status_name)
+    ).lower()
+    body = (body_name or "").strip().lower()
+    if body == "city council" or "stated meeting" in text:
+        return "STATED_MEETING"
+    if any(term in text for term in ("land use", "zoning", "franchises", "landmarks", "public siting")):
+        return "LAND_USE"
+    if "vote" in text or "voting" in text:
+        return "VOTE"
+    return "HEARING"
+
+
+def body_slug(body_name: str | None) -> str:
+    return slugify(body_name or "new-york-city-council")
+
+
+def meeting_slug(event_date: str | None, event_time: str | None, body_name: str | None) -> str | None:
+    if not event_date:
+        return None
+    date_part = event_date[:10]
+    parts = [date_part]
+    time_part = time_slug(event_time or "")
+    if time_part:
+        parts.append(time_part)
+    parts.append(body_slug(body_name))
+    return "-".join(part for part in parts if part)
+
+
+def time_slug(value: str) -> str:
+    match = re.match(r"^\s*(\d{1,2}):(\d{2})\s*([AP]M)\s*$", value, re.I)
+    if match:
+        hour = int(match.group(1))
+        return f"{hour:02d}{match.group(2)}-{match.group(3).lower()}"
+    return slugify(value)
+
+
+def slugify(value: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
 
 
 def location_room_prefixes(location: str | None) -> set[str]:

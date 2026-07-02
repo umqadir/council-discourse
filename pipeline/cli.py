@@ -22,9 +22,16 @@ def add_common(parser: argparse.ArgumentParser) -> None:
 
 
 def cmd_discover(args: argparse.Namespace) -> int:
+    if bool(args.legistar_start) != bool(args.legistar_end):
+        print("--legistar-start and --legistar-end must be supplied together", file=sys.stderr)
+        return 2
     conn = db.connect(args.db)
-    rss_count = discover_viebit_rss(conn, args.rss_url)
-    event_count, skipped_legistar = discover_legistar(conn)
+    rss_count = 0 if args.no_rss else discover_viebit_rss(conn, args.rss_url)
+    event_count, skipped_legistar = discover_legistar(
+        conn,
+        start_date=args.legistar_start,
+        end_date=args.legistar_end,
+    )
     if skipped_legistar:
         print(f"viebit_rss={rss_count}; legistar=skipped (LEGISTAR_TOKEN unset)")
     else:
@@ -39,11 +46,13 @@ def _run_rows(
     stage_col: str,
     complete_status: str,
     meeting_label: str,
+    *,
+    skip_completed: bool = True,
 ) -> int:
     failures = 0
     for row in rows:
         key = str(row["meeting_key"])
-        if row[stage_col] == complete_status:
+        if skip_completed and row[stage_col] == complete_status:
             print(f"{meeting_label} {key} (already {complete_status})", flush=True)
             continue
         print(f"{meeting_label} {key}", flush=True)
@@ -65,7 +74,7 @@ def cmd_fetch(args: argparse.Namespace) -> int:
     if not rows:
         print("no fetch candidates")
         return 0
-    return _run_rows(conn, rows, fetch_meeting, "fetch_status", "fetched", "fetch")
+    return _run_rows(conn, rows, fetch_meeting, "fetch_status", "fetched", "fetch", skip_completed=not args.force)
 
 
 def cmd_prepare(args: argparse.Namespace) -> int:
@@ -77,7 +86,15 @@ def cmd_prepare(args: argparse.Namespace) -> int:
     if not rows:
         print("no prepare candidates")
         return 0
-    return _run_rows(conn, rows, prepare_meeting, "prepare_status", "prepared", "prepare")
+    return _run_rows(
+        conn,
+        rows,
+        prepare_meeting,
+        "prepare_status",
+        "prepared",
+        "prepare",
+        skip_completed=not args.force,
+    )
 
 
 def _meeting_from_dir(meeting_dir: Path) -> Meeting:
@@ -95,9 +112,17 @@ def _meeting_from_dir(meeting_dir: Path) -> Meeting:
         body_name=payload.get("body_name") or payload.get("body"),
         event_date=payload.get("event_date") or payload.get("date"),
         event_time=payload.get("event_time") or payload.get("time"),
+        event_location=payload.get("event_location"),
         duration_seconds=payload.get("duration_seconds") or payload.get("duration_sec"),
         agenda_pdf_url=payload.get("agenda_pdf_url"),
+        minutes_pdf_url=payload.get("minutes_pdf_url"),
         insite_url=payload.get("insite_url"),
+        event_video_path=payload.get("event_video_path"),
+        agenda_status_name=payload.get("agenda_status_name"),
+        minutes_status_name=payload.get("minutes_status_name"),
+        meeting_type=payload.get("meeting_type"),
+        meeting_slug=payload.get("meeting_slug") or payload.get("slug"),
+        video_web_url=payload.get("video_web_url"),
     )
 
 
@@ -257,6 +282,9 @@ def build_parser() -> argparse.ArgumentParser:
     discover = subparsers.add_parser("discover", help="poll Viebit RSS and Legistar events")
     add_common(discover)
     discover.add_argument("--rss-url", help="alternate RSS URL, primarily for testing")
+    discover.add_argument("--no-rss", action="store_true", help="skip Viebit RSS polling")
+    discover.add_argument("--legistar-start", help="date-window start for Legistar backfill, YYYY-MM-DD")
+    discover.add_argument("--legistar-end", help="exclusive date-window end for Legistar backfill, YYYY-MM-DD")
     discover.set_defaults(func=cmd_discover)
 
     fetch = subparsers.add_parser("fetch", help="download media artifacts and extract audio")
@@ -264,6 +292,7 @@ def build_parser() -> argparse.ArgumentParser:
     fetch.add_argument("--meeting-key", help="fetch one meeting")
     fetch.add_argument("--all-pending", action="store_true", help="fetch pending meetings instead of oldest RSS rows")
     fetch.add_argument("--limit", type=int, help="limit meetings, oldest first")
+    fetch.add_argument("--force", action="store_true", help="run even if fetch_status is already fetched")
     fetch.set_defaults(func=cmd_fetch)
 
     prepare = subparsers.add_parser("prepare", help="prepare caption and agenda text artifacts")
@@ -271,6 +300,7 @@ def build_parser() -> argparse.ArgumentParser:
     prepare.add_argument("--meeting-key", help="prepare one meeting")
     prepare.add_argument("--all-pending", action="store_true", help="prepare pending fetched meetings")
     prepare.add_argument("--limit", type=int, help="limit meetings, oldest first")
+    prepare.add_argument("--force", action="store_true", help="run even if prepare_status is already prepared")
     prepare.set_defaults(func=cmd_prepare)
 
     transcribe_cmd = subparsers.add_parser("transcribe", help="run ASR over prepared audio")
@@ -278,7 +308,7 @@ def build_parser() -> argparse.ArgumentParser:
     transcribe_cmd.add_argument("--meeting-key", help="transcribe one registry meeting")
     transcribe_cmd.add_argument("--meeting-dir", type=Path, help="transcribe an artifact directory without registry updates")
     transcribe_cmd.add_argument("--limit", type=int, help="limit registry meetings, oldest first")
-    transcribe_cmd.add_argument("--backend", default="local-mlx", choices=["local-mlx", "api"])
+    transcribe_cmd.add_argument("--backend", default="local", choices=["local", "local-mlx", "remote"])
     transcribe_cmd.add_argument("--model", help="backend model override")
     transcribe_cmd.set_defaults(func=cmd_transcribe)
 

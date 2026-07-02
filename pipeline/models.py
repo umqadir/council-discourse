@@ -15,6 +15,14 @@ class Meeting:
     body_name: str | None = None
     event_date: str | None = None
     event_time: str | None = None
+    event_location: str | None = None
     duration_seconds: float | None = None
     agenda_pdf_url: str | None = None
+    minutes_pdf_url: str | None = None
     insite_url: str | None = None
+    event_video_path: str | None = None
+    agenda_status_name: str | None = None
+    minutes_status_name: str | None = None
+    meeting_type: str | None = None
+    meeting_slug: str | None = None
+    video_web_url: str | None = None

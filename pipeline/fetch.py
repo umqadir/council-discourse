@@ -64,6 +64,20 @@ def _extract_audio(mp4: Path, audio: Path) -> bool:
     return True
 
 
+def _remux_faststart(mp4: Path, video_web: Path) -> bool:
+    if _has_file(video_web, 10_000):
+        return False
+    tmp = video_web.with_name(f".{video_web.stem}.tmp{video_web.suffix}")
+    if tmp.exists():
+        tmp.unlink()
+    subprocess.run(
+        ["ffmpeg", "-y", "-loglevel", "error", "-i", str(mp4), "-c", "copy", "-movflags", "+faststart", str(tmp)],
+        check=True,
+    )
+    os.replace(tmp, video_web)
+    return True
+
+
 def _extract_wav(audio: Path, wav: Path) -> bool:
     if _has_file(wav, 10_000):
         return False
@@ -116,6 +130,7 @@ def fetch_meeting(conn: sqlite3.Connection, row: sqlite3.Row, meetings_dir: Path
     thumbnail = meeting_dir / "thumbnail.jpg"
     agenda = meeting_dir / "agenda.pdf"
     mp4 = meeting_dir / "video.mp4"
+    video_web = meeting_dir / "video-web.mp4"
     audio = meeting_dir / "audio.m4a"
     wav = meeting_dir / "audio-16k.wav"
 
@@ -124,14 +139,16 @@ def fetch_meeting(conn: sqlite3.Connection, row: sqlite3.Row, meetings_dir: Path
     if meeting.agenda_pdf_url:
         _download(meeting.agenda_pdf_url, agenda)
 
-    if not _has_file(audio, 10_000) or not _has_file(wav, 10_000):
+    if not _has_file(audio, 10_000) or not _has_file(wav, 10_000) or not _has_file(video_web, 10_000):
         _download(cdn_url(viebit_hash, filename, "mp4"), mp4, min_size=10_000)
+    if not _has_file(video_web, 10_000):
+        _remux_faststart(mp4, video_web)
     if not _has_file(audio, 10_000):
         _extract_audio(mp4, audio)
     if not _has_file(wav, 10_000):
         _extract_wav(audio, wav)
     duration = _probe_duration(audio)
-    if mp4.exists() and _has_file(audio, 10_000):
+    if mp4.exists() and _has_file(audio, 10_000) and _has_file(video_web, 10_000):
         mp4.unlink()
 
     db.update_meeting(

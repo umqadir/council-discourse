@@ -1,5 +1,8 @@
-data/
+/data/
 .venv/
+.uv-cache/
+.hf-cache/
+.mlx-cache/
 __pycache__/
 *.mp4
 *.m4a

@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 import re
 from collections import Counter
 from pathlib import Path
@@ -16,7 +17,7 @@ from .artifacts import (
 )
 from .gemini import DEFAULT_MODEL, estimate_tokens, generate_json, pricing_details
 from .models import Meeting
-from .roster import roster_csv_for_prompt
+from .roster import current_roster, roster_csv_for_prompt
 from .runlog import append_gemini_runlog
 
 MAX_PROMPT_TOKENS = 700_000
@@ -24,8 +25,11 @@ CHUNK_TARGET_TOKENS = 550_000
 CHUNK_OVERLAP = 240
 BOUNDARY_SNIPPET_UTTERANCES = 5
 MAX_SPEAKER_HINTS = 160
+MAX_VERIFICATION_CANDIDATES = 120
+VERIFICATION_MODEL = "gemini-3.1-flash-lite"
 SOURCE_SPEAKER_KEYS = ("diarized_speaker", "speaker_label", "speaker_id", "channel", "speaker")
 INTRO_HINT_TERMS = ("MY NAME IS", "I'M ", "I AM ", "CALL THE", "PANEL", "FROM THE", "GO TO ZOOM")
+GENERIC_SPEAKERS = {"UNKNOWN", "Council Staff", "Member of the Public", "Speaker"}
 NAME_STOPWORDS = {
     "A",
     "ABOUT",
@@ -130,6 +134,11 @@ def name_speakers_meeting(meeting: Meeting, model: str = DEFAULT_MODEL) -> Path:
         out["speaker"] = speaker_by_index[index] or "UNKNOWN"
         named.append(out)
 
+    verification, verification_meta = _verify_non_roster_speakers(named, meeting)
+    elapsed_total += float(verification_meta.get("elapsed_sec", 0))
+    cost_total += float(verification_meta.get("estimated_cost_usd") or 0)
+    usage_totals.update({k: int(v) for k, v in verification_meta.get("usage", {}).items() if isinstance(v, int)})
+
     output = meeting.meeting_dir / "utterances-named.jsonl"
     write_jsonl(output, named)
     meta_payload: dict[str, Any] = {
@@ -149,6 +158,7 @@ def name_speakers_meeting(meeting: Meeting, model: str = DEFAULT_MODEL) -> Path:
         meta_payload["chunk_records"] = chunk_records
     if reconciliation:
         meta_payload["reconciliation"] = reconciliation
+    meta_payload["verification"] = verification
     write_json(meeting.meeting_dir / "name-speakers-meta.json", meta_payload)
     append_gemini_runlog(
         meeting.meeting_dir,
@@ -501,6 +511,264 @@ def _apply_label_mappings(
         label = _source_speaker_label(row)
         if label in speaker_by_label:
             speaker_by_index[index] = speaker_by_label[label]
+
+
+def _verify_non_roster_speakers(
+    named: list[dict[str, Any]],
+    meeting: Meeting,
+) -> tuple[dict[str, Any], dict[str, Any]]:
+    candidates = _verification_candidates(named, meeting)
+    verification: dict[str, Any] = {
+        "enabled": True,
+        "model": VERIFICATION_MODEL,
+        "candidate_count": len(candidates),
+        "candidates": candidates,
+        "results": [],
+        "applied_corrections": [],
+    }
+    if not candidates:
+        return verification, {"elapsed_sec": 0.0, "usage": {}, "estimated_cost_usd": 0.0}
+
+    prompt = _verification_prompt(meeting, candidates)
+    result, meta = generate_json(
+        prompt,
+        model=VERIFICATION_MODEL,
+        temperature=0.0,
+        max_output_tokens=16_384,
+        tools=[{"google_search": {}}],
+        response_mime_type=None,
+    )
+    corrections = _extract_verification_results(result)
+    verification["results"] = corrections
+    if meta.get("grounding"):
+        verification["grounding"] = meta["grounding"]
+
+    candidates_by_id = {item["id"]: item for item in candidates}
+    candidates_by_speaker = {item["speaker"]: item for item in candidates}
+    speaker_map: dict[str, str] = {}
+    for correction in corrections:
+        candidate = candidates_by_id.get(str(correction.get("id") or ""))
+        if candidate is None:
+            candidate = candidates_by_speaker.get(_clean_speaker(str(correction.get("input_speaker") or "")))
+        if candidate is None:
+            continue
+        corrected = _corrected_speaker(candidate, correction)
+        if not corrected or corrected == candidate["speaker"]:
+            continue
+        confidence = str(correction.get("confidence") or "").strip().lower()
+        if confidence not in {"high"}:
+            continue
+        speaker_map[candidate["speaker"]] = corrected
+        verification["applied_corrections"].append(
+            {
+                "id": candidate["id"],
+                "before": candidate["speaker"],
+                "after": corrected,
+                "confidence": confidence,
+                "evidence": str(correction.get("evidence") or correction.get("reason") or "").strip()[:500],
+            }
+        )
+
+    if speaker_map:
+        for row in named:
+            speaker = _clean_speaker(str(row.get("speaker") or "UNKNOWN"))
+            if speaker in speaker_map:
+                row["speaker"] = speaker_map[speaker]
+    return verification, meta
+
+
+def _verification_candidates(named: list[dict[str, Any]], meeting: Meeting) -> list[dict[str, Any]]:
+    roster_keys = {_name_key(row.get("name", "")) for row in current_roster(meeting.event_date)}
+    roster_keys.discard("")
+    by_speaker: dict[str, dict[str, Any]] = {}
+    order: list[str] = []
+    for index, row in enumerate(named):
+        speaker = _clean_speaker(str(row.get("speaker") or "UNKNOWN"))
+        if not _needs_verification(speaker, roster_keys):
+            continue
+        if speaker not in by_speaker:
+            context_before = _speaker_context_before(named, index)
+            by_speaker[speaker] = {
+                "id": f"v{len(order) + 1:03d}",
+                "speaker": speaker,
+                "name": _speaker_base_name(speaker),
+                "first_index": index,
+                "first_timestamp": sec_to_clock(float(row.get("t0") or 0)),
+                "utterance_count": 0,
+                "role_org_hint": "",
+                "quote_snippet": "",
+                "context_before": context_before,
+            }
+            order.append(speaker)
+        item = by_speaker[speaker]
+        item["utterance_count"] += 1
+        text = " ".join(str(row.get("text") or "").split())
+        window = _speaker_forward_window(named, index, speaker)
+        if text and (
+            not item["quote_snippet"]
+            or (_looks_like_intro(text) and _text_mentions_name(text, str(item["name"])))
+        ):
+            item["quote_snippet"] = (window or text)[:600]
+        if not item["role_org_hint"]:
+            item["role_org_hint"] = _role_org_hint(speaker, window or text)
+    return [by_speaker[speaker] for speaker in order[:MAX_VERIFICATION_CANDIDATES]]
+
+
+def _needs_verification(speaker: str, roster_keys: set[str]) -> bool:
+    if speaker in GENERIC_SPEAKERS or speaker.upper() in {"UNKNOWN", "UNK"}:
+        return False
+    base = _speaker_base_name(speaker)
+    if len(base.split()) < 2:
+        return False
+    return _name_key(base) not in roster_keys
+
+
+def _speaker_base_name(speaker: str) -> str:
+    value = re.sub(r"^Member\s+of\s+the\s+Public\s*-\s*", "", speaker, flags=re.I)
+    value = re.sub(r"^Council\s+Staff\s*-\s*", "", value, flags=re.I)
+    value = re.sub(r"^(Dr|Mr|Ms|Mrs|Mx)\.?\s+", "", value, flags=re.I)
+    return " ".join(value.split())
+
+
+def _name_key(value: str) -> str:
+    value = _speaker_base_name(str(value))
+    return " ".join(re.findall(r"[a-z]+", value.lower()))
+
+
+def _speaker_context_before(named: list[dict[str, Any]], index: int) -> str:
+    lines = []
+    for row in named[max(0, index - 3) : index]:
+        speaker = str(row.get("speaker") or "UNKNOWN")
+        text = " ".join(str(row.get("text") or "").split())
+        if text:
+            lines.append(f"{speaker}: {text[:220]}")
+    return "\n".join(lines)
+
+
+def _speaker_forward_window(named: list[dict[str, Any]], index: int, speaker: str, limit: int = 5) -> str:
+    lines = []
+    for row in named[index : min(len(named), index + limit)]:
+        if _clean_speaker(str(row.get("speaker") or "UNKNOWN")) != speaker:
+            break
+        text = " ".join(str(row.get("text") or "").split())
+        if text:
+            lines.append(text)
+    return " ".join(lines)
+
+
+def _looks_like_intro(text: str) -> bool:
+    upper = text.upper()
+    return bool(
+        re.search(r"\bMY NAME IS\s+[A-Z]", upper)
+        or re.search(r"\bI(?:'M| AM)\s+[A-Z][A-Z'.-]+\s+[A-Z][A-Z'.-]+", upper)
+        or re.search(r"\b(?:FROM|REPRESENTING|ON BEHALF OF)\s+[A-Z]", upper)
+    )
+
+
+def _text_mentions_name(text: str, name: str) -> bool:
+    text_tokens = set(re.findall(r"[A-Z][A-Z'.-]*", text.upper()))
+    name_tokens = [token for token in re.findall(r"[A-Z][A-Z'.-]*", name.upper()) if len(token) > 2]
+    return bool(name_tokens and name_tokens[-1] in text_tokens)
+
+
+def _role_org_hint(speaker: str, text: str) -> str:
+    speaker_tail = ""
+    if " - " in speaker:
+        speaker_tail = speaker.split(" - ", 1)[1]
+    for pattern in (
+        r"\b(?:from|with|at|representing|on behalf of)\s+([^.;:]{3,100})",
+        r"\b(?:director|president|chair|commissioner|counsel|attorney)\s+(?:of|for|at)\s+([^.;:]{3,100})",
+    ):
+        match = re.search(pattern, text, flags=re.I)
+        if match:
+            return " ".join(match.group(1).split())[:120]
+    return speaker_tail[:120]
+
+
+def _verification_prompt(meeting: Meeting, candidates: list[dict[str, Any]]) -> str:
+    payload = json.dumps(candidates, indent=2)
+    return f"""You are verifying noisy ASR speaker names from a NYC Council meeting transcript.
+
+Use the built-in Google Search grounding tool to verify or correct spelling for the listed non-roster speakers. These are public witnesses, agency staff, advocates, or other non-Council speakers. The initial names may be phonetic ASR spellings.
+
+Meeting:
+- key: {meeting.meeting_key}
+- body: {meeting.body_name or "NYC Council"}
+- date: {meeting.event_date or "unknown"}
+- time: {meeting.event_time or "unknown"}
+
+Rules:
+- Correct only spelling/name form for the same person supported by search evidence and the transcript context.
+- Do not replace a person with an organization, agency, or title.
+- Do not infer a different person who merely has a similar name.
+- If evidence is weak, keep the original and use confidence "low".
+- For public witness names, return corrected_speaker in the same style: "Member of the Public - Correct Name".
+- Return one result for every input id.
+
+Candidates:
+{payload}
+
+Return JSON only:
+{{
+  "results": [
+    {{
+      "id": "v001",
+      "input_speaker": "Member of the Public - Jeanne Ryan",
+      "corrected_speaker": "Member of the Public - Jean Ryan",
+      "verified_name": "Jean Ryan",
+      "confidence": "high",
+      "evidence": "Brief search-grounded reason, including role/org match when available"
+    }}
+  ]
+}}
+"""
+
+
+def _extract_verification_results(result: dict[str, Any] | list[Any]) -> list[dict[str, Any]]:
+    raw = result
+    if isinstance(result, dict):
+        raw = result.get("results") or result.get("corrections") or result.get("verified_names") or []
+    if not isinstance(raw, list):
+        return []
+    output = []
+    for item in raw:
+        if isinstance(item, dict):
+            output.append(item)
+    return output
+
+
+def _corrected_speaker(candidate: dict[str, Any], correction: dict[str, Any]) -> str | None:
+    raw = str(
+        correction.get("corrected_speaker")
+        or correction.get("speaker")
+        or correction.get("corrected")
+        or ""
+    ).strip()
+    name = str(
+        correction.get("verified_name")
+        or correction.get("corrected_name")
+        or correction.get("name")
+        or ""
+    ).strip()
+    original = str(candidate["speaker"])
+    if raw:
+        corrected = _clean_speaker(raw)
+    elif name:
+        corrected = _speaker_with_original_style(original, name)
+    else:
+        return None
+    if corrected.upper() in {"UNKNOWN", "UNK"} or corrected in GENERIC_SPEAKERS:
+        return None
+    if len(_speaker_base_name(corrected).split()) < 2:
+        return None
+    return corrected
+
+
+def _speaker_with_original_style(original: str, corrected_name: str) -> str:
+    name = " ".join(corrected_name.split())
+    if re.match(r"^Member\s+of\s+the\s+Public\s*-", original, flags=re.I):
+        return f"Member of the Public - {name}"
+    return name
 
 
 def _source_speaker_label(row: dict[str, Any]) -> str | None:

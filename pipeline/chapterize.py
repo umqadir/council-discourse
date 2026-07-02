@@ -160,6 +160,8 @@ def _meeting_context(meeting: Meeting) -> str:
 
 
 def _meeting_type(meeting: Meeting) -> str:
+    if meeting.meeting_type in ALLOWED_MEETING_TAGS:
+        return meeting.meeting_type
     values = [meeting.meeting_key, meeting.body_name or ""]
     meeting_json = meeting.meeting_dir / "meeting.json"
     if meeting_json.exists():

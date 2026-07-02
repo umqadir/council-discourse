@@ -2,7 +2,13 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from pipeline.legistar import extract_viebit_filename_from_insite_html, filename_matches_event
+from pipeline.legistar import (
+    extract_viebit_filename_from_insite_html,
+    filename_matches_event,
+    infer_meeting_type,
+    meeting_slug,
+    viebit_filename_from_url,
+)
 from pipeline.prepare import dedupe_rollup, parse_vtt
 from pipeline.viebit import parse_filename_timestamp, parse_rss, room_prefix
 
@@ -35,6 +41,19 @@ def test_filename_timestamp_and_backstop_match() -> None:
         "10:00 AM",
         "Council Chambers - City Hall",
     )
+
+
+def test_legistar_video_path_and_slug_helpers() -> None:
+    url = "https://councilnyc.viebit.com/vod/?s=true&v=NYCC-PV-CH-CHA_260528-100627.mp4"
+
+    assert viebit_filename_from_url(url) == "NYCC-PV-CH-CHA_260528-100627"
+    assert (
+        meeting_slug("2026-05-28T00:00:00", "10:00 AM", "Committee on Finance")
+        == "2026-05-28-1000-am-committee-on-finance"
+    )
+    assert infer_meeting_type("City Council") == "STATED_MEETING"
+    assert infer_meeting_type("Subcommittee on Zoning and Franchises") == "LAND_USE"
+    assert infer_meeting_type("Committee on Transportation and Infrastructure") == "HEARING"
 
 
 def test_vtt_rollup_dedupe(tmp_path: Path) -> None:

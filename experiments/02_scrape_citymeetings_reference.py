@@ -19,7 +19,10 @@ MEETINGS = {
     "2025-04-23-transportation": "https://citymeetings.nyc/meetings/new-york-city-council/2025-04-23-1000-am-committee-on-transportation-and-infrastructure/",
     "2025-04-24-stated": "https://citymeetings.nyc/meetings/new-york-city-council/2025-04-24-0130-pm-stated-meeting/",
 }
-N_SAMPLE_CHAPTERS = 4  # full transcripts to pull per meeting
+SAMPLE_CHAPTERS = {
+    "2025-04-23-transportation": 14,
+    "2025-04-24-stated": 4,
+}
 
 client = httpx.Client(timeout=60, follow_redirects=True, headers={"User-Agent": "Mozilla/5.0"})
 
@@ -65,6 +68,16 @@ def parse_chapter_page(url: str) -> dict:
     }
 
 
+def evenly_spaced_chapters(chapters: list[dict], count: int) -> list[dict]:
+    chapters = [chapter for chapter in chapters if chapter.get("url")]
+    if len(chapters) <= count:
+        return chapters
+    if count <= 1:
+        return [chapters[len(chapters) // 2]]
+    indices = [round(i * (len(chapters) - 1) / (count - 1)) for i in range(count)]
+    return [chapters[index] for index in dict.fromkeys(indices)]
+
+
 for slug, url in MEETINGS.items():
     d = DATA / slug
     d.mkdir(parents=True, exist_ok=True)
@@ -77,12 +90,12 @@ for slug, url in MEETINGS.items():
     (d / "citymeetings-chapters.json").write_text(json.dumps(chapters, indent=2))
 
     samples = []
-    step = max(1, len(chapters) // N_SAMPLE_CHAPTERS) if chapters else 1
-    for ch in chapters[::step][:N_SAMPLE_CHAPTERS]:
+    for ch in evenly_spaced_chapters(chapters, SAMPLE_CHAPTERS.get(slug, 4)):
         if not ch["url"]:
             continue
+        html_path = d / f"citymeetings-chapter-{ch['chapter_id']}.html"
         info = parse_chapter_page(ch["url"])
-        (d / f"citymeetings-chapter-{ch['chapter_id']}.html").write_text(info.pop("html"))
+        html_path.write_text(info.pop("html"))
         samples.append(info)
         print(f"  sampled chapter {ch['chapter_id']}: {info['title']!r} ({info['n_seek_elements']} seeks)", flush=True)
     (d / "citymeetings-chapter-samples.json").write_text(json.dumps(samples, indent=2))

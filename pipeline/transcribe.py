@@ -18,15 +18,15 @@ DEFAULT_PARAKEET_MODEL = "mlx-community/parakeet-tdt-0.6b-v3"
 
 def transcribe_meeting(
     meeting: Meeting,
-    backend: str = "local-mlx",
+    backend: str = "local",
     model: str | None = None,
 ) -> Path:
-    if backend == "api":
+    if backend == "remote":
         raise NotImplementedError(
-            "api transcription backend is not implemented yet. It will require a provider "
-            "selection plus one of MISTRAL_API_KEY, ELEVENLABS_API_KEY, or ASSEMBLYAI_API_KEY."
+            "remote transcription backend is not implemented yet. The provider interface is "
+            "reserved for the remote ASR backend selection."
         )
-    if backend != "local-mlx":
+    if backend not in {"local", "local-mlx"}:
         raise ValueError(f"unsupported transcription backend: {backend}")
     return transcribe_local_mlx(meeting, model=model or DEFAULT_PARAKEET_MODEL)
 
@@ -136,4 +136,3 @@ def _package_version(name: str) -> str | None:
         return importlib.metadata.version(name)
     except importlib.metadata.PackageNotFoundError:
         return None
-

@@ -1,0 +1,68 @@
+name: Pipeline
+
+on:
+  schedule:
+    - cron: "0 */3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    env:
+      UV_CACHE_DIR: .uv-cache
+      LEGISTAR_TOKEN: ${{ secrets.LEGISTAR_TOKEN }}
+      GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v7
+
+      - name: Install system tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg poppler-utils
+
+      - name: Discover, fetch, and prepare
+        run: |
+          uv run python -m pipeline discover
+          uv run python -m pipeline fetch --all-pending --limit 3
+          uv run python -m pipeline prepare --all-pending --limit 3
+
+      - name: Transcribe with remote backend
+        if: ${{ secrets.REMOTE_ASR_API_KEY != '' }}
+        env:
+          REMOTE_ASR_API_KEY: ${{ secrets.REMOTE_ASR_API_KEY }}
+        run: uv run python -m pipeline transcribe --backend remote --limit 3
+
+      - name: Name speakers and chapterize
+        if: ${{ secrets.GOOGLE_API_KEY != '' }}
+        run: |
+          uv run python -m pipeline name-speakers --limit 3
+          uv run python -m pipeline chapterize --limit 3
+
+      - name: Export site data
+        run: uv run python -m pipeline export-site
+
+      - name: Commit derived artifacts
+        run: |
+          git add -f site/src/data/meetings
+          find data/meetings -type f \( -name '*.json' -o -name '*.jsonl' -o -name '*.txt' \) -print0 | xargs -0 -r git add -f
+          if git diff --cached --quiet; then
+            echo "No derived artifact changes"
+          else
+            git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "Update pipeline artifacts"
+            git push
+          fi
+
+      - name: Deploy site
+        run: echo "Cloudflare Pages deploy is intentionally stubbed."

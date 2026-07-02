@@ -9,7 +9,7 @@ from .config import MEETINGS_DIR, REGISTRY_DB
 from .models import Meeting
 from .utils import safe_key, utc_now_iso
 
-SCHEMA_VERSION = "1"
+SCHEMA_VERSION = "2"
 
 MEETING_COLUMNS = [
     "meeting_key",
@@ -24,7 +24,15 @@ MEETING_COLUMNS = [
     "event_location",
     "event_last_modified_utc",
     "agenda_pdf_url",
+    "minutes_pdf_url",
     "insite_url",
+    "event_video_path",
+    "agenda_status_name",
+    "minutes_status_name",
+    "meeting_type",
+    "meeting_slug",
+    "body_slug",
+    "video_web_url",
     "duration_seconds",
     "discover_status",
     "fetch_status",
@@ -70,7 +78,15 @@ def init_db(conn: sqlite3.Connection) -> None:
             event_location TEXT,
             event_last_modified_utc TEXT,
             agenda_pdf_url TEXT,
+            minutes_pdf_url TEXT,
             insite_url TEXT,
+            event_video_path TEXT,
+            agenda_status_name TEXT,
+            minutes_status_name TEXT,
+            meeting_type TEXT,
+            meeting_slug TEXT,
+            body_slug TEXT,
+            video_web_url TEXT,
             duration_seconds REAL,
             discover_status TEXT NOT NULL DEFAULT 'pending',
             fetch_status TEXT NOT NULL DEFAULT 'pending',
@@ -93,8 +109,26 @@ def init_db(conn: sqlite3.Connection) -> None:
             WHERE viebit_filename IS NOT NULL;
         """
     )
+    _migrate_meetings_table(conn)
     set_meta(conn, "schema_version", SCHEMA_VERSION)
     conn.commit()
+
+
+def _migrate_meetings_table(conn: sqlite3.Connection) -> None:
+    existing = {row["name"] for row in conn.execute("PRAGMA table_info(meetings)").fetchall()}
+    additions = {
+        "minutes_pdf_url": "TEXT",
+        "event_video_path": "TEXT",
+        "agenda_status_name": "TEXT",
+        "minutes_status_name": "TEXT",
+        "meeting_type": "TEXT",
+        "meeting_slug": "TEXT",
+        "body_slug": "TEXT",
+        "video_web_url": "TEXT",
+    }
+    for column, kind in additions.items():
+        if column not in existing:
+            conn.execute(f"ALTER TABLE meetings ADD COLUMN {column} {kind}")
 
 
 def get_meta(conn: sqlite3.Connection, key: str) -> str | None:
@@ -125,18 +159,23 @@ def meeting_key_for(values: dict[str, Any]) -> str:
 def _find_existing_row(conn: sqlite3.Connection, values: dict[str, Any]) -> sqlite3.Row | None:
     event_id = values.get("legistar_event_id")
     filename = values.get("viebit_filename")
+    event_row = None
+    filename_row = None
     if event_id is not None:
-        row = conn.execute(
+        event_row = conn.execute(
             "SELECT * FROM meetings WHERE legistar_event_id = ?", (event_id,)
         ).fetchone()
-        if row:
-            return row
     if filename:
-        row = conn.execute(
+        filename_row = conn.execute(
             "SELECT * FROM meetings WHERE viebit_filename = ?", (filename,)
         ).fetchone()
-        if row:
-            return row
+    if event_row and filename_row and event_row["meeting_key"] != filename_row["meeting_key"]:
+        conn.execute("DELETE FROM meetings WHERE meeting_key = ?", (event_row["meeting_key"],))
+        return filename_row
+    if event_row:
+        return event_row
+    if filename_row:
+        return filename_row
     return None
 
 
@@ -348,9 +387,17 @@ def meeting_from_row(row: sqlite3.Row, meetings_dir: Path = MEETINGS_DIR) -> Mee
         body_name=row["body_name"],
         event_date=row["event_date"],
         event_time=row["event_time"],
+        event_location=row["event_location"],
         duration_seconds=row["duration_seconds"],
         agenda_pdf_url=row["agenda_pdf_url"],
+        minutes_pdf_url=row["minutes_pdf_url"],
         insite_url=row["insite_url"],
+        event_video_path=row["event_video_path"],
+        agenda_status_name=row["agenda_status_name"],
+        minutes_status_name=row["minutes_status_name"],
+        meeting_type=row["meeting_type"],
+        meeting_slug=row["meeting_slug"],
+        video_web_url=row["video_web_url"],
     )
 
 

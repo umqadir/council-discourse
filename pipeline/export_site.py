@@ -9,7 +9,7 @@ from typing import Any
 
 from . import db
 from .artifacts import clean_text, normalize_utterances, parse_clock, read_json, read_jsonl, round_sec
-from .config import DATA_DIR, REGISTRY_DB, ROOT, VIEBIT_CDN_URL
+from .config import DATA_DIR, REGISTRY_DB, ROOT
 
 SITE_DATA_DIR = ROOT / "site" / "src" / "data" / "meetings"
 BENCHMARK_DIR = DATA_DIR / "benchmark"
@@ -109,9 +109,17 @@ def _benchmark_meetings() -> list[dict[str, Any]]:
                     body_name=payload.get("body_name") or payload.get("body"),
                     event_date=payload.get("event_date") or payload.get("date"),
                     event_time=payload.get("event_time") or payload.get("time"),
+                    event_location=payload.get("event_location"),
                     duration_seconds=payload.get("duration_seconds") or payload.get("duration_sec"),
                     agenda_pdf_url=payload.get("agenda_pdf_url"),
+                    minutes_pdf_url=payload.get("minutes_pdf_url"),
                     insite_url=payload.get("insite_url"),
+                    event_video_path=payload.get("event_video_path"),
+                    agenda_status_name=payload.get("agenda_status_name"),
+                    minutes_status_name=payload.get("minutes_status_name"),
+                    meeting_type=payload.get("meeting_type"),
+                    meeting_slug=payload.get("meeting_slug") or payload.get("slug"),
+                    video_web_url=payload.get("video_web_url"),
                 ),
                 payload,
                 BENCHMARK_OVERRIDES.get(key),
@@ -128,8 +136,8 @@ def _convert_meeting(meeting, payload: dict[str, Any], override: dict[str, Any] 
     date = str(meeting.event_date or payload.get("date") or "")[:10]
     time = str(meeting.event_time or payload.get("time") or "")
     title = override["title"] if override else _meeting_title(meeting)
-    body = override["body"] if override else "New York City Council"
-    slug = override["slug"] if override else _meeting_slug(date, time, title)
+    body = override["body"] if override else (meeting.body_name or "New York City Council")
+    slug = override["slug"] if override else (meeting.meeting_slug or _meeting_slug(date, time, body))
     duration = float(meeting.duration_seconds or payload.get("duration_sec") or _last_utterance_end(utterances))
 
     chapter_starts = [_chapter_start(chapter) for chapter in chapters_result["chapters"]]
@@ -299,12 +307,10 @@ def _slugify(value: str) -> str:
 
 
 def _video_url(meeting, payload: dict[str, Any]) -> str:
-    filename = meeting.viebit_filename or payload.get("viebit_file") or ""
-    filename = str(filename).removesuffix(".mp4")
-    viebit_hash = meeting.viebit_hash or payload.get("viebit_hash") or ""
-    if filename and viebit_hash:
-        return VIEBIT_CDN_URL.format(hash=viebit_hash, filename=filename, ext="mp4")
-    return ""
+    configured = meeting.video_web_url or payload.get("video_web_url")
+    if configured:
+        return str(configured)
+    return f"/videos/{meeting.meeting_key}.mp4"
 
 
 def _last_utterance_end(utterances: Iterable[dict[str, Any]]) -> float:

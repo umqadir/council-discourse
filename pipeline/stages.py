@@ -8,7 +8,7 @@ from .speakers import name_speakers_meeting
 from .transcribe import transcribe_meeting
 
 
-def transcribe(meeting: Meeting, backend: str = "local-mlx", model: str | None = None) -> Path:
+def transcribe(meeting: Meeting, backend: str = "local", model: str | None = None) -> Path:
     """ASR interface: audio files in meeting_dir -> utterances.jsonl."""
     return transcribe_meeting(meeting, backend=backend, model=model)
 
