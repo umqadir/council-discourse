@@ -168,3 +168,11 @@ Mistral Batch API explicitly supports /v1/audio/transcriptions at 50% off ->
 Voxtral ASR line ~$9/mo instead of $18 at 40 meetings/mo. Async turnaround
 (unquantified in docs) — verify latency empirically before making batch the
 prod default; keep sync path for time-sensitive runs.
+
+## 11. Video transcode decision (2026-07-02)
+Hosted copies transcode to 480p H.264 CRF 32, 64k mono AAC, faststart
+(measured: -89% vs source copy; chyron text legible, faces fine — verified frame).
+Storage line: ~$2-3/mo year-end instead of ~$17. Caveat: transcoding a 3h meeting
+costs ~30-60 CPU-min; at 40 meetings/mo this may exceed GH Actions' 2,000 free
+private-repo minutes -> either make repo public (free unlimited Actions) or
+transcode locally. Flag repo-visibility decision to user.
