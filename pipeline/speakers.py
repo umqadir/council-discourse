@@ -117,6 +117,69 @@ ORG_LINE_TERMS = (
     "services",
 )
 NAME_SUFFIX_TOKENS = {"jr", "sr", "ii", "iii", "iv"}
+LABEL_MAPPING_JSON_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "labels": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "label": {"type": "string"},
+                    "name": {"type": "string"},
+                    "role": {"type": "string"},
+                    "org": {"type": "string"},
+                    "confidence": {"type": "string"},
+                    "reason": {"type": "string"},
+                },
+                "required": ["label", "name"],
+                "additionalProperties": True,
+            },
+        },
+        "range_overrides": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "start_index": {"type": "integer"},
+                    "end_index": {"type": "integer"},
+                    "name": {"type": "string"},
+                    "role": {"type": "string"},
+                    "org": {"type": "string"},
+                    "confidence": {"type": "string"},
+                    "reason": {"type": "string"},
+                },
+                "required": ["start_index", "end_index", "name"],
+                "additionalProperties": True,
+            },
+        },
+    },
+    "required": ["labels"],
+    "additionalProperties": True,
+}
+VERIFICATION_JSON_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "results": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "id": {"type": "string"},
+                    "input_speaker": {"type": "string"},
+                    "corrected_speaker": {"type": "string"},
+                    "verified_name": {"type": "string"},
+                    "confidence": {"type": "string"},
+                    "evidence": {"type": "string"},
+                },
+                "required": ["id", "input_speaker", "corrected_speaker", "confidence"],
+                "additionalProperties": True,
+            },
+        }
+    },
+    "required": ["results"],
+    "additionalProperties": True,
+}
 
 
 def name_speakers_meeting(
@@ -127,6 +190,14 @@ def name_speakers_meeting(
     output_path: Path | None = None,
     meta_path: Path | None = None,
     runlog_stage: str = "name_speakers",
+    write_runlog: bool = True,
+    llm_base_url: str | None = None,
+    llm_api_key: str | None = None,
+    llm_api_key_env: str | None = None,
+    verification_model: str | None = VERIFICATION_MODEL,
+    verification_base_url: str | None = None,
+    verification_api_key: str | None = None,
+    verification_api_key_env: str | None = None,
 ) -> Path:
     input_path = input_path or _speaker_input_path(meeting.meeting_dir)
     output = output_path or meeting.meeting_dir / "utterances-named.jsonl"
@@ -147,6 +218,7 @@ def name_speakers_meeting(
     usage_totals: Counter[str] = Counter()
     elapsed_total = 0.0
     cost_total = 0.0
+    exact_cost_total = 0.0
 
     chunks = _chunk_labels(labels, LABELS_PER_PROMPT)
     for chunk_number, chunk_labels in enumerate(chunks, start=1):
@@ -156,13 +228,25 @@ def name_speakers_meeting(
             label_evidence=[evidence[label] for label in chunk_labels],
             label_count=len(labels),
         )
-        result, meta = generate_json(prompt, model=model, temperature=0.1, thinking_level="low")
+        result, meta = generate_json(
+            prompt,
+            model=model,
+            temperature=0.1,
+            thinking_level="low",
+            base_url=llm_base_url,
+            api_key=llm_api_key,
+            api_key_env=llm_api_key_env,
+            json_schema=LABEL_MAPPING_JSON_SCHEMA,
+        )
         elapsed_total += float(meta.get("elapsed_sec", 0))
         cost_total += float(meta.get("estimated_cost_usd") or 0)
+        exact_cost = meta.get("exact_cost_usd")
+        if isinstance(exact_cost, int | float):
+            exact_cost_total += float(exact_cost)
         usage_totals.update({k: int(v) for k, v in meta.get("usage", {}).items() if isinstance(v, int)})
         chunk_mappings = _extract_label_mapping_records(result)
         if not chunk_mappings:
-            raise RuntimeError(f"Gemini speaker response had no usable label mappings for chunk {chunk_number}")
+            raise RuntimeError(f"{model} speaker response had no usable label mappings for chunk {chunk_number}")
         chunk_mappings = _with_unknown_mappings_for_missing_labels(chunk_labels, chunk_mappings)
         chunk_overrides = _extract_label_range_overrides(result)
         mappings.extend(chunk_mappings)
@@ -173,6 +257,11 @@ def name_speakers_meeting(
                 "labels": chunk_labels,
                 "usage": meta.get("usage", {}),
                 "estimated_cost_usd": meta.get("estimated_cost_usd"),
+                "exact_cost_usd": meta.get("exact_cost_usd"),
+                "cost_source": meta.get("cost_source"),
+                "provider": meta.get("provider"),
+                "structured_mode": meta.get("structured_mode"),
+                "pricing": meta.get("pricing"),
                 "mappings": chunk_mappings,
                 "range_overrides": chunk_overrides,
             }
@@ -180,14 +269,26 @@ def name_speakers_meeting(
 
     named = join_label_mappings(utterances, mappings, range_overrides)
 
-    verification, verification_meta = _verify_non_roster_speakers(named, meeting)
+    verification, verification_meta = _verify_non_roster_speakers(
+        named,
+        meeting,
+        model=verification_model,
+        base_url=verification_base_url,
+        api_key=verification_api_key,
+        api_key_env=verification_api_key_env,
+    )
     elapsed_total += float(verification_meta.get("elapsed_sec", 0))
     cost_total += float(verification_meta.get("estimated_cost_usd") or 0)
+    exact_cost = verification_meta.get("exact_cost_usd")
+    if isinstance(exact_cost, int | float):
+        exact_cost_total += float(exact_cost)
     usage_totals.update({k: int(v) for k, v in verification_meta.get("usage", {}).items() if isinstance(v, int)})
 
     write_jsonl(output, named)
+    pricing = _first_chunk_value(chunk_records, "pricing") or pricing_details(model)
     meta_payload: dict[str, Any] = {
         "model": model,
+        "provider": _first_chunk_value(chunk_records, "provider") or ("openai-compatible" if llm_base_url else "gemini"),
         "input": str(input_path),
         "output": str(output),
         "utterance_count": len(utterances),
@@ -199,27 +300,38 @@ def name_speakers_meeting(
         "elapsed_sec": round(elapsed_total, 3),
         "usage": dict(usage_totals),
         "estimated_cost_usd": round(cost_total, 6),
-        "pricing": pricing_details(model),
+        "pricing": pricing,
         "mappings": mappings,
         "range_overrides": range_overrides,
     }
+    if exact_cost_total:
+        meta_payload["exact_cost_usd"] = round(exact_cost_total, 6)
     if chunk_records:
         meta_payload["chunk_records"] = chunk_records
     meta_payload["verification"] = verification
     write_json(meta_output, meta_payload)
-    append_gemini_runlog(
-        meeting.meeting_dir,
-        runlog_stage,
-        model,
-        meta_payload,
-        {
-            "mode": meta_payload["mode"],
-            "chunks": len(chunks),
-            "label_count": len(labels),
-            "utterance_count": len(utterances),
-        },
-    )
+    if write_runlog:
+        append_gemini_runlog(
+            meeting.meeting_dir,
+            runlog_stage,
+            model,
+            meta_payload,
+            {
+                "mode": meta_payload["mode"],
+                "chunks": len(chunks),
+                "label_count": len(labels),
+                "utterance_count": len(utterances),
+            },
+        )
     return output
+
+
+def _first_chunk_value(chunk_records: list[dict[str, Any]], key: str) -> Any:
+    for record in chunk_records:
+        value = record.get(key)
+        if value is not None:
+            return value
+    return None
 
 
 def _speaker_input_path(meeting_dir: Path) -> Path:
@@ -904,14 +1016,19 @@ def _apply_label_mappings(
 def _verify_non_roster_speakers(
     named: list[dict[str, Any]],
     meeting: Meeting,
+    *,
+    model: str | None = VERIFICATION_MODEL,
+    base_url: str | None = None,
+    api_key: str | None = None,
+    api_key_env: str | None = None,
 ) -> tuple[dict[str, Any], dict[str, Any]]:
     name_anchors, org_anchors, anchor_sources = _spelling_anchor_sets(meeting)
     name_anchor_corrections = _apply_name_spelling_anchors(named, name_anchors)
     candidates = _verification_candidates(named, meeting)
     org_anchor_corrections = _apply_candidate_org_anchors(candidates, org_anchors)
     verification: dict[str, Any] = {
-        "enabled": True,
-        "model": VERIFICATION_MODEL,
+        "enabled": model is not None,
+        "model": model,
         "candidate_count": len(candidates),
         "candidates": candidates,
         "results": [],
@@ -925,17 +1042,25 @@ def _verify_non_roster_speakers(
             "applied_org_anchors": org_anchor_corrections,
         },
     }
+    if model is None:
+        verification["llm_skipped_reason"] = "verification_model_disabled"
+        return verification, {"elapsed_sec": 0.0, "usage": {}, "estimated_cost_usd": 0.0}
     if not candidates:
         return verification, {"elapsed_sec": 0.0, "usage": {}, "estimated_cost_usd": 0.0}
 
     prompt = _verification_prompt(meeting, candidates)
+    tools = [{"google_search": {}}] if base_url is None else None
     result, meta = generate_json(
         prompt,
-        model=VERIFICATION_MODEL,
+        model=model,
         temperature=0.0,
         max_output_tokens=16_384,
-        tools=[{"google_search": {}}],
-        response_mime_type=None,
+        tools=tools,
+        response_mime_type=None if tools else "application/json",
+        base_url=base_url,
+        api_key=api_key,
+        api_key_env=api_key_env,
+        json_schema=VERIFICATION_JSON_SCHEMA,
     )
     corrections = _extract_verification_results(result)
     verification["results"] = corrections

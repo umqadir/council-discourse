@@ -325,11 +325,19 @@ def _score(
     usage = meta.get("usage", {}) if isinstance(meta.get("usage"), dict) else {}
     asr_usage = asr_meta.get("usage", {}) if isinstance(asr_meta.get("usage"), dict) else {}
     split = asr_meta.get("split", {}) if isinstance(asr_meta.get("split"), dict) else {}
+    prompt_tokens = usage.get("promptTokenCount", usage.get("prompt_tokens", "n/a"))
+    output_tokens = usage.get("candidatesTokenCount", usage.get("completion_tokens", "n/a"))
+    thoughts_tokens = usage.get("thoughtsTokenCount", "n/a")
+    total_tokens = usage.get("totalTokenCount", usage.get("total_tokens", "n/a"))
+    cost = meta.get("exact_cost_usd", meta.get("estimated_cost_usd", 0))
+    cost_source = "exact" if meta.get("exact_cost_usd") is not None else "estimated"
     lines = [
         f"# Speaker Naming Eval - {benchmark.title()} / {asr}",
         "",
         f"- Benchmark: {benchmark}",
         f"- ASR: {asr}",
+        f"- LLM provider: {meta.get('provider', 'gemini')}",
+        f"- LLM model: {meta.get('model', 'unknown')}",
         f"- References parsed: {len(references)}",
         f"- Matched by time (+/- {MATCH_TOLERANCE_SEC:.0f}s): {len(raw_matches)}",
         f"- Scored after de-skew: {matched}",
@@ -340,8 +348,8 @@ def _score(
         f"- Unmatched references: {len(misses)}",
         f"- Naming mode: {meta.get('mode', 'unknown')}",
         f"- Chunks: {meta.get('chunks', 'unknown')}",
-        f"- Gemini tokens: prompt={usage.get('promptTokenCount', 'n/a')}, output={usage.get('candidatesTokenCount', 'n/a')}, thoughts={usage.get('thoughtsTokenCount', 'n/a')}, total={usage.get('totalTokenCount', 'n/a')}",
-        f"- Estimated Gemini cost: ${float(meta.get('estimated_cost_usd') or 0):.4f}",
+        f"- LLM tokens: prompt={prompt_tokens}, output={output_tokens}, thoughts={thoughts_tokens}, total={total_tokens}",
+        f"- LLM cost ({cost_source}): ${float(cost or 0):.4f}",
         f"- ASR wall time: {asr_meta.get('wall_clock_sec', 'n/a')}s",
         f"- ASR utterances: {asr_meta.get('utterance_count', 'n/a')}",
         f"- ASR usage: audio_seconds={asr_usage.get('prompt_audio_seconds', 'n/a')}, total_tokens={asr_usage.get('total_tokens', 'n/a')}, request_count={asr_usage.get('request_count', 'n/a')}",

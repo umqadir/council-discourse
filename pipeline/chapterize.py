@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import re
 from collections import Counter
+from pathlib import Path
 from typing import Any
 
 from .artifacts import (
@@ -35,18 +36,64 @@ CHAPTER_TYPE_ORDER = [
 ]
 ALLOWED_CHAPTER_TYPES = set(CHAPTER_TYPE_ORDER)
 SERIAL_VOTE_PARENT_TYPES = {"VOICE_VOTE", "VOTE"}
+CHAPTER_JSON_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "meeting_summary": {"type": "array", "items": {"type": "string"}},
+        "summary": {"type": "array", "items": {"type": "string"}},
+        "tags": {"type": "array", "items": {"type": "string"}},
+        "chapters": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "start": {"type": "string"},
+                    "start_index": {"type": "integer"},
+                    "start_sec": {"type": "number"},
+                    "type": {"type": "string"},
+                    "title": {"type": "string"},
+                    "summary": {"type": "string"},
+                },
+                "required": ["type", "title", "summary"],
+                "additionalProperties": True,
+            },
+        },
+    },
+    "required": ["chapters"],
+    "additionalProperties": True,
+}
 
 
-def chapterize_meeting(meeting: Meeting, model: str = DEFAULT_MODEL) -> tuple[str, str]:
-    input_path = _chapter_input_path(meeting)
-    utterances = normalize_utterances(read_jsonl(input_path))
+def chapterize_meeting(
+    meeting: Meeting,
+    model: str = DEFAULT_MODEL,
+    *,
+    input_path: str | None = None,
+    output_path: str | None = None,
+    derived_path: str | None = None,
+    runlog_stage: str = "chapterize",
+    write_runlog: bool = True,
+    llm_base_url: str | None = None,
+    llm_api_key: str | None = None,
+    llm_api_key_env: str | None = None,
+) -> tuple[str, str]:
+    input_path_obj = Path(input_path) if input_path else _chapter_input_path(meeting)
+    utterances = normalize_utterances(read_jsonl(input_path_obj))
     if not utterances:
-        raise RuntimeError(f"no utterances found in {input_path}")
+        raise RuntimeError(f"no utterances found in {input_path_obj}")
 
     meeting_type = _meeting_type(meeting)
     prompt = _chapter_prompt(meeting, utterances)
     temperature = 0.2 if meeting_type == "STATED_MEETING" else 0.3
-    result, meta = generate_json(prompt, model=model, temperature=temperature)
+    result, meta = generate_json(
+        prompt,
+        model=model,
+        temperature=temperature,
+        base_url=llm_base_url,
+        api_key=llm_api_key,
+        api_key_env=llm_api_key_env,
+        json_schema=CHAPTER_JSON_SCHEMA,
+    )
     metas = [meta]
     chapters = _resolve_chapters(result, utterances, meeting.duration_seconds)
     chapters = _postprocess_chapters(chapters, utterances, meeting, meeting.duration_seconds)
@@ -57,6 +104,10 @@ def chapterize_meeting(meeting: Meeting, model: str = DEFAULT_MODEL) -> tuple[st
             retry_prompt,
             model=model,
             temperature=min(0.4, temperature + 0.1),
+            base_url=llm_base_url,
+            api_key=llm_api_key,
+            api_key_env=llm_api_key_env,
+            json_schema=CHAPTER_JSON_SCHEMA,
         )
         metas.append(retry_meta)
         retry_chapters = _resolve_chapters(retry_result, utterances, meeting.duration_seconds)
@@ -80,26 +131,32 @@ def chapterize_meeting(meeting: Meeting, model: str = DEFAULT_MODEL) -> tuple[st
         }
     )
 
-    chapters_path = meeting.meeting_dir / "chapters.json"
-    derived_path = meeting.meeting_dir / "meeting-derived.json"
+    chapters_path = Path(output_path) if output_path else meeting.meeting_dir / "chapters.json"
+    derived_output_path = Path(derived_path) if derived_path else meeting.meeting_dir / "meeting-derived.json"
     stage_meta = {
         "model": model,
+        "provider": meta.get("provider"),
+        "input": str(input_path_obj),
         "elapsed_sec": meta["elapsed_sec"],
         "usage": meta.get("usage", {}),
         "estimated_cost_usd": meta.get("estimated_cost_usd"),
+        "exact_cost_usd": meta.get("exact_cost_usd"),
+        "cost_source": meta.get("cost_source"),
         "pricing": meta.get("pricing"),
+        "structured_mode": meta.get("structured_mode"),
         "chapters": chapters,
     }
     write_json(chapters_path, stage_meta)
-    write_json(derived_path, derived)
-    append_gemini_runlog(
-        meeting.meeting_dir,
-        "chapterize",
-        model,
-        stage_meta,
-        {"chapter_count": len(chapters), "meeting_type": meeting_type},
-    )
-    return str(chapters_path), str(derived_path)
+    write_json(derived_output_path, derived)
+    if write_runlog:
+        append_gemini_runlog(
+            meeting.meeting_dir,
+            runlog_stage,
+            model,
+            stage_meta,
+            {"chapter_count": len(chapters), "meeting_type": meeting_type},
+        )
+    return str(chapters_path), str(derived_output_path)
 
 
 def _chapter_input_path(meeting: Meeting):
@@ -317,9 +374,17 @@ def _combined_generation_meta(metas: list[dict[str, Any]]) -> dict[str, Any]:
         return metas[0]
     combined = dict(metas[-1])
     combined["elapsed_sec"] = round(sum(float(meta.get("elapsed_sec") or 0.0) for meta in metas), 3)
-    costs = [meta.get("estimated_cost_usd") for meta in metas]
-    if all(isinstance(cost, int | float) for cost in costs):
-        combined["estimated_cost_usd"] = round(sum(float(cost) for cost in costs), 6)
+    usage_totals: Counter[str] = Counter()
+    for meta in metas:
+        usage = meta.get("usage")
+        if isinstance(usage, dict):
+            usage_totals.update({k: int(v) for k, v in usage.items() if isinstance(v, int | float)})
+    if usage_totals:
+        combined["usage"] = dict(usage_totals)
+    for key in ("estimated_cost_usd", "exact_cost_usd"):
+        costs = [meta.get(key) for meta in metas]
+        if all(isinstance(cost, int | float) for cost in costs):
+            combined[key] = round(sum(float(cost) for cost in costs), 6)
     combined["attempts"] = metas
     return combined
 
