@@ -155,3 +155,10 @@ correct-person-wrong-spelling). Mistral SDK 2.5.1 exposes the transcription bias
 field as `context_bias` on `AudioTranscriptionRequest`; the live API currently
 validates it as comma-separated items without whitespace, so the pipeline sends
 hyphen-joined roster/committee/agency items and records that in ASR metadata.
+
+## 9. Open-ASR ceiling result (2026-07-02, closes the self-hosting question)
+whisper-large-v3 (best open long-form ASR) + pyannote community-1 on the transportation
+benchmark: 81.5% same-person (vs Voxtral 87.6%), 56 min wall (vs 5 min), though better
+name spelling (75.8% vs 70.4% strict). Self-hosted/GPU ASR is rejected on quality;
+Voxtral confirmed as prod ASR. Local dev profile stays parakeet (speed). Whisper's
+spelling edge supports the roster-anchored spelling-correction round for Voxtral.
