@@ -16,11 +16,15 @@ import httpx
 from .artifacts import clean_text, read_json, round_sec, write_json, write_jsonl
 from .config import ROOT
 from .models import Meeting
+from .roster import current_roster
 from .utils import load_dotenv
 
 DEFAULT_PARAKEET_MODEL = "mlx-community/parakeet-tdt-0.6b-v3"
 DEFAULT_VOXTRAL_MODEL = "voxtral-mini-2602"
 VOXTRAL_API_URL = "https://api.mistral.ai/v1/audio/transcriptions"
+VOXTRAL_CONTEXT_BIAS_PARAM = "context_bias"
+VOXTRAL_CONTEXT_BIAS_LIMIT = 100
+VOXTRAL_CONTEXT_BIAS_ENV = "VOXTRAL_CONTEXT_BIAS"
 VOXTRAL_SPLIT_THRESHOLD_SEC = 10_800.0
 VOXTRAL_SILENCE_WINDOW_SEC = 1_800.0
 VOXTRAL_LABEL_LIMITATION = (
@@ -28,11 +32,110 @@ VOXTRAL_LABEL_LIMITATION = (
     "and later are suffixed with _partN so the speaker-naming stage does not merge "
     "unrelated speakers across API requests."
 )
+COMMON_NYC_AGENCY_BIAS_TERMS = (
+    "NYCHA",
+    "New York City Housing Authority",
+    "DCWP",
+    "Department of Consumer and Worker Protection",
+    "DOT",
+    "Department of Transportation",
+    "SBS",
+    "Department of Small Business Services",
+    "DCP",
+    "Department of City Planning",
+    "HPD",
+    "Department of Housing Preservation and Development",
+    "NYPD",
+    "FDNY",
+    "DSNY",
+    "Department of Sanitation",
+    "DOB",
+    "Department of Buildings",
+    "DEP",
+    "Department of Environmental Protection",
+    "DOHMH",
+    "Department of Health and Mental Hygiene",
+    "HRA",
+    "Human Resources Administration",
+    "ACS",
+    "Administration for Children's Services",
+    "TLC",
+    "Taxi and Limousine Commission",
+    "MTA",
+    "Metropolitan Transportation Authority",
+)
+COMMITTEE_AGENCY_BIAS_TERMS = (
+    (
+        ("transportation", "infrastructure"),
+        (
+            "DOT",
+            "NYC DOT",
+            "Department of Transportation",
+            "MTA",
+            "Metropolitan Transportation Authority",
+            "TLC",
+            "Taxi and Limousine Commission",
+        ),
+    ),
+    (
+        ("consumer", "worker protection"),
+        (
+            "DCWP",
+            "Department of Consumer and Worker Protection",
+            "SBS",
+            "Department of Small Business Services",
+            "Dining Out NYC",
+            "revocable consent",
+        ),
+    ),
+    (
+        ("housing", "buildings"),
+        (
+            "NYCHA",
+            "New York City Housing Authority",
+            "HPD",
+            "Department of Housing Preservation and Development",
+            "DOB",
+            "Department of Buildings",
+        ),
+    ),
+    (
+        ("land use", "zoning", "franchises", "planning"),
+        (
+            "DCP",
+            "Department of City Planning",
+            "CPC",
+            "City Planning Commission",
+            "ULURP",
+            "Board of Standards and Appeals",
+        ),
+    ),
+    (
+        ("finance", "budget"),
+        (
+            "OMB",
+            "Office of Management and Budget",
+            "IBO",
+            "Independent Budget Office",
+            "DOF",
+            "Department of Finance",
+        ),
+    ),
+    (
+        ("health", "mental hygiene", "hospitals"),
+        (
+            "DOHMH",
+            "Department of Health and Mental Hygiene",
+            "H+H",
+            "NYC Health and Hospitals",
+        ),
+    ),
+)
 
 
 def transcribe_meeting(
     meeting: Meeting,
-    backend: str = "local",
+    backend: str = "voxtral",
     model: str | None = None,
 ) -> Path:
     if backend == "remote":
@@ -117,6 +220,7 @@ def transcribe_voxtral(meeting: Meeting, model: str = DEFAULT_VOXTRAL_MODEL) -> 
     meeting.meeting_dir.mkdir(parents=True, exist_ok=True)
 
     duration = _meeting_duration(meeting, audio)
+    context_bias, context_bias_meta = _voxtral_context_bias_for_meeting(meeting)
     started = time.monotonic()
     parts: list[dict[str, Any]]
     split_meta: dict[str, Any]
@@ -148,6 +252,7 @@ def transcribe_voxtral(meeting: Meeting, model: str = DEFAULT_VOXTRAL_MODEL) -> 
                 meeting.meeting_dir,
                 parts,
                 model,
+                context_bias,
             )
         split_meta = {
             "enabled": True,
@@ -163,6 +268,7 @@ def transcribe_voxtral(meeting: Meeting, model: str = DEFAULT_VOXTRAL_MODEL) -> 
             meeting.meeting_dir,
             parts,
             model,
+            context_bias,
         )
         split_meta = {
             "enabled": False,
@@ -195,6 +301,7 @@ def transcribe_voxtral(meeting: Meeting, model: str = DEFAULT_VOXTRAL_MODEL) -> 
         "rtf": round(wall_clock / duration, 4) if duration else None,
         "usage": usage,
         "split": split_meta,
+        "context_bias": context_bias_meta,
     }
     write_json(meta_path, meta)
     _write_generic_transcribe_meta_if_safe(meeting.meeting_dir, meta)
@@ -231,6 +338,172 @@ def _meeting_duration(meeting: Meeting, audio: Path) -> float:
     if meeting.duration_seconds and float(meeting.duration_seconds) > 0:
         return float(meeting.duration_seconds)
     return _audio_duration(audio)
+
+
+def _voxtral_context_bias_for_meeting(meeting: Meeting) -> tuple[list[str], dict[str, Any]]:
+    load_dotenv()
+    enabled = _env_flag_enabled(VOXTRAL_CONTEXT_BIAS_ENV, default=True)
+    meta: dict[str, Any] = {
+        "enabled": enabled,
+        "param": VOXTRAL_CONTEXT_BIAS_PARAM,
+        "limit": VOXTRAL_CONTEXT_BIAS_LIMIT,
+        "param_source": "mistralai 2.5.1 AudioTranscriptionRequest.context_bias",
+        "serialization": "comma_separated",
+        "term_format": "hyphen_joined_no_whitespace",
+    }
+    if not enabled:
+        meta["terms"] = []
+        meta["count"] = 0
+        return [], meta
+
+    roster_records: list[tuple[str, str]] = []
+    roster_variant_records: list[tuple[str, str]] = []
+    committee_records: list[tuple[str, str]] = []
+    agency_records: list[tuple[str, str]] = []
+    warnings: list[str] = []
+    try:
+        for row in current_roster(meeting.event_date):
+            variants = _name_bias_variants(str(row.get("name") or ""))
+            if not variants:
+                continue
+            roster_records.append((variants[0], "roster"))
+            for term in variants[1:]:
+                roster_variant_records.append((term, "roster_variant"))
+    except Exception as exc:
+        warnings.append(f"roster_unavailable:{type(exc).__name__}")
+
+    for term in _committee_bias_terms(meeting.body_name):
+        committee_records.append((term, "committee"))
+    for term in _agency_bias_terms(meeting.body_name):
+        agency_records.append((term, "agency"))
+
+    terms: list[str] = []
+    source_counts: dict[str, int] = {}
+    seen: set[str] = set()
+    records = roster_records + committee_records + agency_records + roster_variant_records
+    for term, source in records:
+        cleaned = _context_bias_api_item(term)
+        if not cleaned:
+            continue
+        key = cleaned.casefold()
+        if key in seen:
+            continue
+        seen.add(key)
+        terms.append(cleaned)
+        source_counts[source] = source_counts.get(source, 0) + 1
+        if len(terms) >= VOXTRAL_CONTEXT_BIAS_LIMIT:
+            break
+
+    meta["count"] = len(terms)
+    meta["source_counts"] = source_counts
+    meta["terms"] = terms
+    if warnings:
+        meta["warnings"] = warnings
+    return terms, meta
+
+
+def _env_flag_enabled(name: str, *, default: bool) -> bool:
+    value = os.environ.get(name)
+    if value is None:
+        return default
+    return value.strip().lower() not in {"0", "false", "no", "off"}
+
+
+def _name_bias_variants(name: str) -> list[str]:
+    cleaned = _clean_context_bias_term(name)
+    if not cleaned:
+        return []
+    variants = [cleaned]
+    no_periods = _clean_context_bias_term(cleaned.replace(".", ""))
+    if no_periods:
+        variants.append(no_periods)
+    no_initials = _clean_context_bias_term(re.sub(r"\s+[A-Z]\.(?=\s)", " ", cleaned))
+    if no_initials:
+        variants.append(no_initials)
+    no_suffix = _clean_context_bias_term(re.sub(r",?\s+Jr\.?$", "", no_initials or cleaned, flags=re.I))
+    if no_suffix:
+        variants.append(no_suffix)
+    return _ordered_unique_text(variants)
+
+
+def _committee_bias_terms(body_name: str | None) -> list[str]:
+    body = _clean_context_bias_term(body_name or "")
+    if not body:
+        return []
+    terms = [body]
+    base = _clean_context_bias_term(re.sub(r"\s*\([^)]*\)", "", body))
+    if base:
+        terms.append(base)
+    for match in re.finditer(r"\b((?:sub)?committee\s+on\s+[^()]+)", body, flags=re.I):
+        committee = _clean_context_bias_term(match.group(1))
+        if committee:
+            terms.append(committee)
+            terms.append(_clean_context_bias_term(re.sub(r"^(?:sub)?committee\s+on\s+", "", committee, flags=re.I)))
+    for parenthetical in re.findall(r"\(([^)]*)\)", body):
+        value = _clean_context_bias_term(
+            re.sub(r"^(?:jointly?\s+with|joint\s+with)\s+", "", parenthetical, flags=re.I)
+        )
+        if not value:
+            continue
+        if re.match(r"^(?:sub)?committee\s+on\s+", value, flags=re.I):
+            terms.append(value)
+        else:
+            terms.append(f"Committee on {value}")
+            terms.append(value)
+    if "stated meeting" in body.lower():
+        terms.extend(["City Council Stated Meeting", "Stated Meeting"])
+    terms.extend(["New York City Council", "City Council"])
+    return _ordered_unique_text(term for term in terms if term)
+
+
+def _agency_bias_terms(body_name: str | None) -> list[str]:
+    text = (body_name or "").lower()
+    terms: list[str] = []
+    for keywords, agency_terms in COMMITTEE_AGENCY_BIAS_TERMS:
+        if any(keyword in text for keyword in keywords):
+            terms.extend(agency_terms)
+    terms.extend(COMMON_NYC_AGENCY_BIAS_TERMS)
+    return _ordered_unique_text(terms)
+
+
+def _clean_context_bias_term(value: str) -> str:
+    return " ".join(str(value).replace("\n", " ").split()).strip(" ,;:")
+
+
+def _context_bias_api_item(value: str) -> str:
+    cleaned = _clean_context_bias_term(value).replace(",", "")
+    cleaned = re.sub(r"\s+", "-", cleaned)
+    cleaned = re.sub(r"-{2,}", "-", cleaned).strip("-;:")
+    return cleaned if cleaned and not re.search(r"[\s,]", cleaned) else ""
+
+
+def _ordered_unique_text(values) -> list[str]:
+    seen: set[str] = set()
+    output: list[str] = []
+    for value in values:
+        text = _clean_context_bias_term(str(value))
+        key = text.casefold()
+        if not text or key in seen:
+            continue
+        seen.add(key)
+        output.append(text)
+    return output
+
+
+def _voxtral_request_form_data(model: str, context_bias: list[str]) -> dict[str, str | list[str]]:
+    data: dict[str, str | list[str]] = {
+        "model": model,
+        "diarize": "true",
+        "timestamp_granularities": ["segment"],
+    }
+    bias_terms = []
+    for term in context_bias[:VOXTRAL_CONTEXT_BIAS_LIMIT]:
+        cleaned = _context_bias_api_item(term)
+        if cleaned:
+            bias_terms.append(cleaned)
+    if bias_terms:
+        data[VOXTRAL_CONTEXT_BIAS_PARAM] = ",".join(bias_terms)
+    return data
 
 
 def _find_silence_split(audio: Path, duration: float) -> tuple[float, str]:
@@ -326,6 +599,7 @@ def _transcribe_voxtral_parts(
     meeting_dir: Path,
     parts: list[dict[str, Any]],
     model: str,
+    context_bias: list[str],
 ) -> tuple[list[dict[str, Any]], list[dict[str, Any]], dict[str, Any], list[dict[str, Any]]]:
     utterances: list[dict[str, Any]] = []
     labeled: list[dict[str, Any]] = []
@@ -336,7 +610,11 @@ def _transcribe_voxtral_parts(
     languages: list[str] = []
 
     for part in parts:
-        result, request_meta = _request_voxtral_transcription(Path(part["path"]), model)
+        result, request_meta = _request_voxtral_transcription(
+            Path(part["path"]),
+            model,
+            context_bias=context_bias,
+        )
         part_index = int(part["index"])
         raw_path = meeting_dir / f"voxtral-transcript-part-{part_index}.json"
         write_json(raw_path, result)
@@ -402,6 +680,7 @@ def _request_voxtral_transcription(
     audio: Path,
     model: str,
     *,
+    context_bias: list[str] | None = None,
     max_attempts: int = 3,
 ) -> tuple[dict[str, Any], dict[str, Any]]:
     load_dotenv()
@@ -419,11 +698,7 @@ def _request_voxtral_transcription(
                 response = httpx.post(
                     VOXTRAL_API_URL,
                     headers={"Authorization": f"Bearer {key}", "Accept": "application/json"},
-                    data={
-                        "model": model,
-                        "diarize": "true",
-                        "timestamp_granularities": "segment",
-                    },
+                    data=_voxtral_request_form_data(model, context_bias or []),
                     files={"file": (audio.name, file_handle, _mime_type(audio))},
                     timeout=timeout,
                 )
@@ -439,6 +714,8 @@ def _request_voxtral_transcription(
                 "wall_clock_sec": round_sec(wall_clock),
                 "http_status": response.status_code,
                 "attempts": attempt,
+                "context_bias_param": VOXTRAL_CONTEXT_BIAS_PARAM,
+                "context_bias_count": len(context_bias or []),
             }
         if response.status_code not in {408, 409, 425, 429} and response.status_code < 500:
             break

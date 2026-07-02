@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import re
+import unicodedata
 from collections import Counter
 from pathlib import Path
 from typing import Any
@@ -70,6 +71,52 @@ NAME_STOPWORDS = {
     "VERY",
     "WITH",
 }
+CANONICAL_ORG_ANCHORS = (
+    "New York City Council",
+    "New York City Department of Transportation",
+    "Department of Transportation",
+    "New York City Department of Consumer and Worker Protection",
+    "Department of Consumer and Worker Protection",
+    "New York City Department of Small Business Services",
+    "Department of Small Business Services",
+    "New York City Department of City Planning",
+    "Department of City Planning",
+    "New York City Housing Authority",
+    "Department of Housing Preservation and Development",
+    "New York City Police Department",
+    "Fire Department of the City of New York",
+    "Department of Sanitation",
+    "Department of Buildings",
+    "Department of Environmental Protection",
+    "Department of Health and Mental Hygiene",
+    "Human Resources Administration",
+    "Administration for Children's Services",
+    "Taxi and Limousine Commission",
+    "Metropolitan Transportation Authority",
+)
+ORG_LINE_TERMS = (
+    "administration",
+    "agency",
+    "alliance",
+    "association",
+    "authority",
+    "board",
+    "bureau",
+    "charities",
+    "coalition",
+    "commission",
+    "committee",
+    "council",
+    "department",
+    "foundation",
+    "hospital",
+    "initiative",
+    "office",
+    "plans",
+    "project",
+    "services",
+)
+NAME_SUFFIX_TOKENS = {"jr", "sr", "ii", "iii", "iv"}
 
 
 def name_speakers_meeting(
@@ -858,14 +905,25 @@ def _verify_non_roster_speakers(
     named: list[dict[str, Any]],
     meeting: Meeting,
 ) -> tuple[dict[str, Any], dict[str, Any]]:
+    name_anchors, org_anchors, anchor_sources = _spelling_anchor_sets(meeting)
+    name_anchor_corrections = _apply_name_spelling_anchors(named, name_anchors)
     candidates = _verification_candidates(named, meeting)
+    org_anchor_corrections = _apply_candidate_org_anchors(candidates, org_anchors)
     verification: dict[str, Any] = {
         "enabled": True,
         "model": VERIFICATION_MODEL,
         "candidate_count": len(candidates),
         "candidates": candidates,
         "results": [],
-        "applied_corrections": [],
+        "applied_corrections": list(name_anchor_corrections),
+        "anchoring": {
+            "enabled": True,
+            "name_anchor_count": len(name_anchors),
+            "org_anchor_count": len(org_anchors),
+            "sources": anchor_sources,
+            "applied_name_anchors": name_anchor_corrections,
+            "applied_org_anchors": org_anchor_corrections,
+        },
     }
     if not candidates:
         return verification, {"elapsed_sec": 0.0, "usage": {}, "estimated_cost_usd": 0.0}
@@ -916,6 +974,349 @@ def _verify_non_roster_speakers(
             if speaker in speaker_map:
                 row["speaker"] = speaker_map[speaker]
     return verification, meta
+
+
+def _spelling_anchor_sets(meeting: Meeting) -> tuple[list[str], list[str], dict[str, int]]:
+    name_records: list[tuple[str, str]] = []
+    org_records: list[tuple[str, str]] = []
+    for row in current_roster(meeting.event_date):
+        name = _clean_speaker(str(row.get("name") or ""))
+        if name and name != "UNKNOWN":
+            name_records.append((name, "roster"))
+    for name in _legistar_known_names(meeting.meeting_dir):
+        name_records.append((name, "legistar"))
+    for org in CANONICAL_ORG_ANCHORS:
+        org_records.append((org, "common"))
+    for org in _legistar_known_orgs(meeting.meeting_dir):
+        org_records.append((org, "legistar"))
+
+    sources: dict[str, int] = {}
+    names = _unique_anchor_values(name_records, sources)
+    orgs = _unique_anchor_values(org_records, sources)
+    return names, orgs, sources
+
+
+def _unique_anchor_values(records: list[tuple[str, str]], sources: dict[str, int]) -> list[str]:
+    output: list[str] = []
+    seen: set[str] = set()
+    for value, source in records:
+        cleaned = _clean_speaker(value)
+        key = _anchor_key(cleaned)
+        if not key or key in seen or cleaned in GENERIC_SPEAKERS:
+            continue
+        seen.add(key)
+        output.append(cleaned)
+        sources[source] = sources.get(source, 0) + 1
+    return output
+
+
+def _apply_name_spelling_anchors(named: list[dict[str, Any]], anchors: list[str]) -> list[dict[str, Any]]:
+    speaker_map: dict[str, str] = {}
+    corrections: list[dict[str, Any]] = []
+    seen: set[str] = set()
+    for row in named:
+        speaker = _clean_speaker(str(row.get("speaker") or "UNKNOWN"))
+        if speaker in seen:
+            continue
+        seen.add(speaker)
+        if not _allows_deterministic_name_anchor(speaker):
+            continue
+        corrected = _snap_to_name_anchor(_speaker_base_name(speaker), anchors)
+        if not corrected:
+            continue
+        replacement = _speaker_with_anchor_style(speaker, corrected)
+        if _anchor_key(replacement) == _anchor_key(speaker):
+            continue
+        speaker_map[speaker] = replacement
+        corrections.append(
+            {
+                "id": "anchor",
+                "before": speaker,
+                "after": replacement,
+                "confidence": "deterministic-anchor",
+                "method": "roster_or_legistar_fuzzy_match",
+                "evidence": "Speaker name matched a roster or Legistar-known name by edit-distance/phonetic anchor.",
+            }
+        )
+
+    if speaker_map:
+        for row in named:
+            speaker = _clean_speaker(str(row.get("speaker") or "UNKNOWN"))
+            if speaker in speaker_map:
+                row["speaker"] = speaker_map[speaker]
+    return corrections
+
+
+def _apply_candidate_org_anchors(
+    candidates: list[dict[str, Any]],
+    anchors: list[str],
+) -> list[dict[str, Any]]:
+    corrections: list[dict[str, Any]] = []
+    for candidate in candidates:
+        before = _clean_speaker(str(candidate.get("role_org_hint") or ""))
+        if not before:
+            continue
+        after = _snap_to_org_anchor(before, anchors)
+        if not after or _anchor_key(after) == _anchor_key(before):
+            continue
+        candidate["role_org_hint"] = after
+        corrections.append(
+            {
+                "id": candidate.get("id"),
+                "before": before,
+                "after": after,
+                "confidence": "deterministic-anchor",
+                "method": "org_fuzzy_match",
+            }
+        )
+    return corrections
+
+
+def _allows_deterministic_name_anchor(speaker: str) -> bool:
+    if speaker in GENERIC_SPEAKERS or speaker.upper() in {"UNKNOWN", "UNK"}:
+        return False
+    if re.match(r"^Member\s+of\s+the\s+Public\s*-", speaker, flags=re.I):
+        return False
+    return len(_anchor_name_tokens(speaker)) >= 2
+
+
+def _speaker_with_anchor_style(original: str, corrected_name: str) -> str:
+    name = " ".join(corrected_name.split())
+    if re.match(r"^Council\s+Staff\s*-", original, flags=re.I):
+        return f"Council Staff - {name}"
+    return name
+
+
+def _snap_to_name_anchor(name: str, anchors: list[str]) -> str | None:
+    scored = []
+    for anchor in anchors:
+        score = _name_anchor_score(name, anchor)
+        if score is not None:
+            scored.append((score, anchor))
+    if not scored:
+        return None
+    scored.sort(key=lambda item: (item[0], len(item[1])))
+    if len(scored) > 1 and scored[0][0] == scored[1][0] and _anchor_key(scored[0][1]) != _anchor_key(scored[1][1]):
+        return None
+    return scored[0][1]
+
+
+def _snap_to_org_anchor(value: str, anchors: list[str]) -> str | None:
+    if len(_anchor_name_tokens(value)) > 10:
+        return None
+    scored = []
+    for anchor in anchors:
+        score = _org_anchor_score(value, anchor)
+        if score is not None:
+            scored.append((score, anchor))
+    if not scored:
+        return None
+    scored.sort(key=lambda item: (item[0], len(item[1])))
+    if len(scored) > 1 and scored[0][0] == scored[1][0] and _anchor_key(scored[0][1]) != _anchor_key(scored[1][1]):
+        return None
+    return scored[0][1]
+
+
+def _name_anchor_score(candidate: str, anchor: str) -> int | None:
+    candidate_tokens = _anchor_name_tokens(candidate)
+    anchor_tokens = _anchor_name_tokens(anchor)
+    if len(candidate_tokens) < 2 or len(anchor_tokens) < 2:
+        return None
+    if candidate_tokens == anchor_tokens:
+        return 0
+    if "".join(candidate_tokens) == "".join(anchor_tokens):
+        return 0
+    if len(candidate_tokens) == len(anchor_tokens):
+        distances = [_token_anchor_distance(left, right) for left, right in zip(candidate_tokens, anchor_tokens)]
+        if all(distance is not None for distance in distances):
+            return sum(int(distance) for distance in distances)
+    if (
+        abs(len(candidate_tokens) - len(anchor_tokens)) <= 2
+        and _token_anchor_distance(candidate_tokens[0], anchor_tokens[0]) is not None
+        and _token_anchor_distance(candidate_tokens[-1], anchor_tokens[-1]) is not None
+    ):
+        middle_penalty = abs(len(candidate_tokens) - len(anchor_tokens)) * 2
+        return (
+            int(_token_anchor_distance(candidate_tokens[0], anchor_tokens[0]) or 0)
+            + int(_token_anchor_distance(candidate_tokens[-1], anchor_tokens[-1]) or 0)
+            + middle_penalty
+        )
+    return None
+
+
+def _org_anchor_score(candidate: str, anchor: str) -> int | None:
+    candidate_tokens = _anchor_name_tokens(candidate)
+    anchor_tokens = _anchor_name_tokens(anchor)
+    if not candidate_tokens or not anchor_tokens:
+        return None
+    if candidate_tokens == anchor_tokens:
+        return 0
+    if "".join(candidate_tokens) == "".join(anchor_tokens):
+        return 0
+    if len(candidate_tokens) == len(anchor_tokens):
+        distances = [_token_anchor_distance(left, right) for left, right in zip(candidate_tokens, anchor_tokens)]
+        if all(distance is not None for distance in distances):
+            return sum(int(distance) for distance in distances)
+    if len(candidate_tokens) >= 2 and len(anchor_tokens) >= 2:
+        candidate_text = " ".join(candidate_tokens)
+        anchor_text = " ".join(anchor_tokens)
+        distance = _edit_distance(candidate_text, anchor_text)
+        if distance <= 2:
+            return distance
+    return None
+
+
+def _token_anchor_distance(left: str, right: str) -> int | None:
+    if left == right:
+        return 0
+    distance = _edit_distance(left, right)
+    if distance <= 2:
+        return distance
+    if len(left) > 2 and len(right) > 2 and _soundex(left) == _soundex(right):
+        return 2
+    return None
+
+
+def _anchor_name_tokens(value: str) -> list[str]:
+    folded = _ascii_fold(_speaker_base_name(value))
+    tokens = re.findall(r"[a-z0-9]+", folded.lower())
+    return [token for token in tokens if len(token) > 1 and token not in NAME_SUFFIX_TOKENS]
+
+
+def _anchor_key(value: str) -> str:
+    return " ".join(_anchor_name_tokens(value))
+
+
+def _ascii_fold(value: str) -> str:
+    return unicodedata.normalize("NFKD", str(value)).encode("ascii", "ignore").decode("ascii")
+
+
+def _soundex(value: str) -> str:
+    token = re.sub(r"[^a-z]", "", _ascii_fold(value).lower())
+    if not token:
+        return ""
+    codes = {
+        **dict.fromkeys("bfpv", "1"),
+        **dict.fromkeys("cgjkqsxz", "2"),
+        **dict.fromkeys("dt", "3"),
+        "l": "4",
+        **dict.fromkeys("mn", "5"),
+        "r": "6",
+    }
+    first = token[0].upper()
+    encoded: list[str] = []
+    previous = codes.get(token[0], "")
+    for char in token[1:]:
+        code = codes.get(char, "")
+        if code and code != previous:
+            encoded.append(code)
+        previous = code
+    return (first + "".join(encoded) + "000")[:4]
+
+
+def _legistar_known_names(meeting_dir: Path) -> list[str]:
+    text = _legistar_front_matter(meeting_dir)
+    if not text:
+        return []
+    names: list[str] = []
+    for line in _clean_legistar_lines(text):
+        candidate = line
+        if ":" in candidate:
+            candidate = candidate.split(":", 1)[1].strip()
+        candidate = re.sub(r",\s*(Speaker|Chairperson|Chair|Council Member|Majority Leader).*$", "", candidate)
+        candidate = _clean_speaker(candidate)
+        if _looks_like_legistar_person_name(candidate):
+            names.append(candidate)
+    return _ordered_unique_strings(names)
+
+
+def _legistar_known_orgs(meeting_dir: Path) -> list[str]:
+    text = _legistar_front_matter(meeting_dir)
+    if not text:
+        return []
+    orgs: list[str] = []
+    lines = _clean_legistar_lines(text)
+    for index, line in enumerate(lines):
+        candidate = line
+        if candidate.lower().endswith((" of", " and", " for", " at")) and index + 1 < len(lines):
+            candidate = f"{candidate} {lines[index + 1]}"
+        if _looks_like_legistar_org(candidate):
+            orgs.append(_clean_speaker(candidate))
+    return _ordered_unique_strings(orgs)
+
+
+def _legistar_front_matter(meeting_dir: Path) -> str:
+    for name in ("official-transcript.txt", "agenda.txt"):
+        path = meeting_dir / name
+        if path.exists():
+            text = path.read_text(errors="replace")
+            return text[:16_000]
+    return ""
+
+
+def _clean_legistar_lines(text: str) -> list[str]:
+    lines: list[str] = []
+    for raw in text.splitlines():
+        line = re.sub(r"^\s*\d+\s+", "", raw).strip()
+        line = re.sub(r"\s+", " ", line).strip(" -")
+        if not line or len(line) < 3:
+            continue
+        if any(term in line.lower() for term in ("world wide dictation", "phone:", "www.", "start:", "recess:")):
+            continue
+        lines.append(line)
+    return lines
+
+
+def _looks_like_legistar_person_name(value: str) -> bool:
+    if not value or value.upper() == value:
+        return False
+    if any(term in value.lower() for term in ("committee", "council", "city of", "held at", "transcript")):
+        return False
+    tokens = _anchor_name_tokens(value)
+    if len(tokens) < 2 or len(tokens) > 5:
+        return False
+    return bool(re.match(r"^[A-Z][A-Za-z'.-]+(?:\s+[A-Z][A-Za-z'.-]+|,\s*Jr\.?|\s+Jr\.?)+$", value))
+
+
+def _looks_like_legistar_org(value: str) -> bool:
+    lowered = value.lower()
+    if not any(term in lowered for term in ORG_LINE_TERMS):
+        return False
+    if any(term in lowered for term in ("transcript of", "city of new york", "held at")):
+        return False
+    tokens = _anchor_name_tokens(value)
+    return 2 <= len(tokens) <= 12
+
+
+def _ordered_unique_strings(values: list[str]) -> list[str]:
+    seen: set[str] = set()
+    output: list[str] = []
+    for value in values:
+        cleaned = _clean_speaker(value)
+        key = _anchor_key(cleaned)
+        if not key or key in seen:
+            continue
+        seen.add(key)
+        output.append(cleaned)
+    return output
+
+
+def _edit_distance(left: str, right: str) -> int:
+    if left == right:
+        return 0
+    previous = list(range(len(right) + 1))
+    for i, left_char in enumerate(left, start=1):
+        current = [i]
+        for j, right_char in enumerate(right, start=1):
+            current.append(
+                min(
+                    previous[j] + 1,
+                    current[j - 1] + 1,
+                    previous[j - 1] + (0 if left_char == right_char else 1),
+                )
+            )
+        previous = current
+    return previous[-1]
 
 
 def _verification_candidates(named: list[dict[str, Any]], meeting: Meeting) -> list[dict[str, Any]]:

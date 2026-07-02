@@ -10,7 +10,7 @@ Target: feature and performance parity with the original, then cost-optimized.
 |---|---|---|
 | Discovery | Legistar Web API (token) + viebit RSS; InSite video-link decode as join | Verified working; RSS gives ~1-2h post-meeting latency |
 | Video serving | Re-host on Cloudflare R2: faststart remux (`-c copy`) at ingest, progressive MP4 via R2 public bucket | ~$15/mo at 500-meeting scale (zero egress); direct viebit playback ruled out (see 6) |
-| ASR + diarization | Local parakeet-mlx ASR for timestamps/text, then pyannote.audio 4.x `speaker-diarization-community-1` for speaker labels | Parakeet is fast on M-series but has no speakers; dedicated diarization avoids long-transcript LLM identity collapse |
+| ASR + diarization | Voxtral (`voxtral-mini-2602`) for production ASR+diarization, with local parakeet-mlx + pyannote retained as fallback | Best benchmark speaker accuracy so far, fast enough for CI, GPU-free; local path remains useful when avoiding API spend |
 | Speaker naming | Gemini label→name mapping over diarized-label evidence, with roster + agenda context and verification/correction pass | Maps dozens of labels instead of assigning thousands of utterances; mirrors the robust citymeetings pattern |
 | Chaptering + summaries | LLM over full transcript with agenda/context; chunk-merge only if benchmark shows long-context degradation | Original's chunking machinery was a 2024-model workaround |
 | LLM tier | Benchmark Gemini 3.5 Flash / 3.1 Flash-Lite / Haiku 4.5 / DeepSeek V4 vs GPT-5.5 anchor | Cost table says even frontier is ~$1.20/meeting; pick minimum tier matching citymeetings quality |
@@ -51,9 +51,11 @@ discover (hourly on weekdays)
   join: InSite Video.aspx base64 → viebit filename ──┘
 process (per new video, ~30-60 min job)
   fetch MP4 + VTT from viebit CDN → extract 16k mono audio (ffmpeg)
-  ASR (parakeet-mlx, no speaker labels)              → utterances w/ timestamps
-  diarize (pyannote community-1 on audio-16k.wav)     → diarization turns + labeled utterances
+  ASR + diarization (Voxtral, context-biased with roster/committee/agency terms)
+                                                       → utterances + diarized labels
+  local fallback: parakeet-mlx ASR + pyannote community-1 diarization
   speaker naming LLM label→name mapping (roster + agenda + intro evidence) + verification pass
+    with deterministic roster/Legistar spelling anchors before grounded public-name correction
   chaptering LLM pass (full transcript + agenda/matter context)
   summaries (chapter, meeting) + meeting/chapter type labels
   QA gates (coverage %, speaker-unknown %, chapter len distribution, ts monotonicity)
@@ -149,4 +151,7 @@ Voxtral also ~8x faster wall-clock, ~$0.30-0.70/meeting, GPU-free (works in CI).
 DECISION: Voxtral = production ASR+diarization; local path retained as free fallback.
 Next quality levers: roster context-biasing at transcription time (Voxtral supports
 100 bias terms), verification-pass spelling anchoring (60/307 misses were
-correct-person-wrong-spelling).
+correct-person-wrong-spelling). Mistral SDK 2.5.1 exposes the transcription bias
+field as `context_bias` on `AudioTranscriptionRequest`; the live API currently
+validates it as comma-separated items without whitespace, so the pipeline sends
+hyphen-joined roster/committee/agency items and records that in ASR metadata.

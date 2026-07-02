@@ -44,8 +44,10 @@ const { url, poster, startSec, title } = Astro.props;
     });
 
     player.ready(() => {
-      player.currentTime(start);
-      player.pause();
+      player.one("loadedmetadata", () => {
+        player.currentTime(start);
+        player.pause();
+      });
       window.chapterVideoPlayer = player;
     });
 
