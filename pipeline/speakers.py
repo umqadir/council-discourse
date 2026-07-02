@@ -18,8 +18,8 @@ from .models import Meeting
 from .roster import roster_csv_for_prompt
 
 MAX_PROMPT_TOKENS = 150_000
-CHUNK_TARGET_TOKENS = 125_000
-CHUNK_OVERLAP = 60
+CHUNK_TARGET_TOKENS = 60_000
+CHUNK_OVERLAP = 120
 
 
 def name_speakers_meeting(meeting: Meeting, model: str = DEFAULT_MODEL) -> Path:
@@ -222,4 +222,3 @@ def _clean_speaker(value: str) -> str:
     if speaker.lower() in {"unknown", "unk"}:
         return "UNKNOWN"
     return speaker or "UNKNOWN"
-

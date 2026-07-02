@@ -7,13 +7,14 @@ import time
 from typing import Any
 
 import httpx
+from json_repair import repair_json
 
 API_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key}"
 DEFAULT_MODEL = "gemini-3.5-flash"
 
 
 def estimate_tokens(text: str) -> int:
-    return max(1, int(len(text) / 4))
+    return max(1, int(len(text) / 2))
 
 
 def generate_json(
@@ -58,5 +59,10 @@ def _parse_json_text(text: str) -> dict[str, Any]:
     if stripped.startswith("```"):
         stripped = re.sub(r"^```(?:json)?\s*", "", stripped)
         stripped = re.sub(r"\s*```$", "", stripped)
-    return json.loads(stripped)
-
+    try:
+        return json.loads(stripped)
+    except json.JSONDecodeError:
+        repaired = repair_json(stripped)
+        if isinstance(repaired, str):
+            return json.loads(repaired)
+        return repaired

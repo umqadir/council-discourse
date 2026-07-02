@@ -5,6 +5,7 @@ requires-python = ">=3.13"
 dependencies = [
     "beautifulsoup4>=4.15.0",
     "httpx>=0.28.1",
+    "json-repair>=0.61.1",
     "parakeet-mlx>=0.5.2",
 ]
 
