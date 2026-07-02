@@ -19,9 +19,24 @@ def diarize(meeting: Meeting, model: str = DEFAULT_DIARIZATION_MODEL, device: st
     return diarize_meeting(meeting, model=model, device=device)
 
 
-def name_speakers(meeting: Meeting, model: str = "gemini-3.5-flash") -> Path:
+def name_speakers(
+    meeting: Meeting,
+    model: str = "gemini-3.5-flash",
+    *,
+    input_path: Path | None = None,
+    output_path: Path | None = None,
+    meta_path: Path | None = None,
+    runlog_stage: str = "name_speakers",
+) -> Path:
     """Speaker naming interface: utterances-labeled.jsonl -> utterances-named.jsonl."""
-    return name_speakers_meeting(meeting, model=model)
+    return name_speakers_meeting(
+        meeting,
+        model=model,
+        input_path=input_path,
+        output_path=output_path,
+        meta_path=meta_path,
+        runlog_stage=runlog_stage,
+    )
 
 
 def chapterize(meeting: Meeting, model: str = "gemini-3.5-flash") -> Path:

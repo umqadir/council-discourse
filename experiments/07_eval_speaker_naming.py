@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import bisect
+import argparse
 import re
 import sys
 from collections import Counter
@@ -16,10 +17,12 @@ sys.path.insert(0, str(ROOT))
 
 from pipeline.artifacts import captions_to_utterances, read_json, read_jsonl, write_jsonl
 from pipeline.models import Meeting
-from pipeline.stages import diarize, name_speakers
+from pipeline.stages import diarize, name_speakers, transcribe
 
-BENCHMARK = ROOT / "data" / "benchmark" / "2025-04-23-transportation"
-OUTPUT = BENCHMARK / "speaker-naming-eval.md"
+BENCHMARKS = {
+    "transportation": ROOT / "data" / "benchmark" / "2025-04-23-transportation",
+    "stated": ROOT / "data" / "benchmark" / "2025-04-24-stated",
+}
 MATCH_TOLERANCE_SEC = 8.0
 NICKNAME_CANONICAL_FIRST_NAMES = {
     "alex": "Alexandra",
@@ -116,9 +119,55 @@ class MatchedUtterance:
 
 
 def main() -> int:
-    force = "--force" in sys.argv
-    use_existing_utterances = "--use-existing-utterances" in sys.argv
-    meeting = _meeting()
+    args = _parse_args()
+    benchmark_dir = BENCHMARKS[args.benchmark]
+    meeting = _meeting(benchmark_dir)
+    if args.asr == "local":
+        named_path = _run_local_config(
+            meeting,
+            force=args.force,
+            use_existing_utterances=args.use_existing_utterances,
+            model=args.model,
+        )
+        meta_path = meeting.meeting_dir / "name-speakers-meta.json"
+        asr_meta_path = meeting.meeting_dir / "transcribe-meta.json"
+    else:
+        named_path = _run_voxtral_config(meeting, benchmark=args.benchmark, force=args.force, model=args.model)
+        meta_path = meeting.meeting_dir / "name-speakers-voxtral-meta.json"
+        asr_meta_path = meeting.meeting_dir / "transcribe-voxtral-meta.json"
+    named = read_jsonl(named_path)
+    references = _read_citymeetings_references(benchmark_dir)
+    meta = read_json(meta_path) if meta_path.exists() else {}
+    asr_meta = read_json(asr_meta_path) if asr_meta_path.exists() else {}
+    report = _score(
+        named,
+        references,
+        meta,
+        asr_meta=asr_meta,
+        benchmark=args.benchmark,
+        asr=args.asr,
+    )
+    output = benchmark_dir / f"speaker-naming-eval-{args.asr}-{args.benchmark}.md"
+    output.write_text(report)
+    print(report)
+    return 0
+
+
+def _parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Evaluate speaker naming against citymeetings references.")
+    parser.add_argument("--benchmark", choices=sorted(BENCHMARKS), default="transportation")
+    parser.add_argument("--asr", choices=["local", "voxtral"], default="local")
+    parser.add_argument("--model", default="gemini-3.5-flash", help="Gemini model for speaker naming")
+    parser.add_argument("--force", action="store_true", help="rerun the selected ASR/naming path")
+    parser.add_argument(
+        "--use-existing-utterances",
+        action="store_true",
+        help="local ASR only: do not rebuild pseudo utterances from clean captions",
+    )
+    return parser.parse_args()
+
+
+def _run_local_config(meeting: Meeting, *, force: bool, use_existing_utterances: bool, model: str) -> Path:
     prepared_pseudo_utterances = False
     if not use_existing_utterances:
         _prepare_pseudo_utterances(meeting)
@@ -135,15 +184,26 @@ def main() -> int:
         or not named_path.exists()
         or not _is_label_mapping_meta(meeting.meeting_dir / "name-speakers-meta.json")
     ):
-        named_path = name_speakers(meeting)
-    named = read_jsonl(named_path)
-    references = _read_citymeetings_references(BENCHMARK)
-    meta_path = meeting.meeting_dir / "name-speakers-meta.json"
-    meta = read_json(meta_path) if meta_path.exists() else {}
-    report = _score(named, references, meta)
-    OUTPUT.write_text(report)
-    print(report)
-    return 0
+        named_path = name_speakers(meeting, model=model)
+    return named_path
+
+
+def _run_voxtral_config(meeting: Meeting, *, benchmark: str, force: bool, model: str) -> Path:
+    labeled_path = meeting.meeting_dir / "utterances-voxtral-labeled.jsonl"
+    if force or not labeled_path.exists():
+        transcribe(meeting, backend="voxtral")
+    named_path = meeting.meeting_dir / "utterances-voxtral-named.jsonl"
+    meta_path = meeting.meeting_dir / "name-speakers-voxtral-meta.json"
+    if force or not named_path.exists() or not _is_label_mapping_meta(meta_path):
+        named_path = name_speakers(
+            meeting,
+            model=model,
+            input_path=labeled_path,
+            output_path=named_path,
+            meta_path=meta_path,
+            runlog_stage=f"name_speakers_voxtral_{benchmark}",
+        )
+    return named_path
 
 
 def _is_label_mapping_meta(meta_path: Path) -> bool:
@@ -153,11 +213,11 @@ def _is_label_mapping_meta(meta_path: Path) -> bool:
     return meta.get("mode") == "label_mapping"
 
 
-def _meeting() -> Meeting:
-    payload = read_json(BENCHMARK / "meeting.json")
+def _meeting(benchmark_dir: Path) -> Meeting:
+    payload = read_json(benchmark_dir / "meeting.json")
     return Meeting(
-        meeting_key="2025-04-23-transportation",
-        meeting_dir=BENCHMARK,
+        meeting_key=str(payload.get("slug") or benchmark_dir.name),
+        meeting_dir=benchmark_dir,
         legistar_event_id=payload.get("legistar_event_id"),
         legistar_event_guid=payload.get("legistar_event_guid"),
         viebit_filename=payload.get("viebit_file"),
@@ -210,7 +270,15 @@ def _read_citymeetings_references(root: Path) -> list[ReferenceUtterance]:
     return refs
 
 
-def _score(named: list[dict[str, Any]], references: list[ReferenceUtterance], meta: dict[str, Any]) -> str:
+def _score(
+    named: list[dict[str, Any]],
+    references: list[ReferenceUtterance],
+    meta: dict[str, Any],
+    *,
+    asr_meta: dict[str, Any],
+    benchmark: str,
+    asr: str,
+) -> str:
     starts = [float(row["t0"]) for row in named]
     misses = []
     raw_matches: list[MatchedUtterance] = []
@@ -255,9 +323,13 @@ def _score(named: list[dict[str, Any]], references: list[ReferenceUtterance], me
     speaker_counts = Counter(item.expected for item in scored)
     max_share = max(speaker_counts.values(), default=0) / matched if matched else 0
     usage = meta.get("usage", {}) if isinstance(meta.get("usage"), dict) else {}
+    asr_usage = asr_meta.get("usage", {}) if isinstance(asr_meta.get("usage"), dict) else {}
+    split = asr_meta.get("split", {}) if isinstance(asr_meta.get("split"), dict) else {}
     lines = [
-        "# Speaker Naming Eval - 2025-04-23 Transportation",
+        f"# Speaker Naming Eval - {benchmark.title()} / {asr}",
         "",
+        f"- Benchmark: {benchmark}",
+        f"- ASR: {asr}",
         f"- References parsed: {len(references)}",
         f"- Matched by time (+/- {MATCH_TOLERANCE_SEC:.0f}s): {len(raw_matches)}",
         f"- Scored after de-skew: {matched}",
@@ -270,6 +342,10 @@ def _score(named: list[dict[str, Any]], references: list[ReferenceUtterance], me
         f"- Chunks: {meta.get('chunks', 'unknown')}",
         f"- Gemini tokens: prompt={usage.get('promptTokenCount', 'n/a')}, output={usage.get('candidatesTokenCount', 'n/a')}, thoughts={usage.get('thoughtsTokenCount', 'n/a')}, total={usage.get('totalTokenCount', 'n/a')}",
         f"- Estimated Gemini cost: ${float(meta.get('estimated_cost_usd') or 0):.4f}",
+        f"- ASR wall time: {asr_meta.get('wall_clock_sec', 'n/a')}s",
+        f"- ASR utterances: {asr_meta.get('utterance_count', 'n/a')}",
+        f"- ASR usage: audio_seconds={asr_usage.get('prompt_audio_seconds', 'n/a')}, total_tokens={asr_usage.get('total_tokens', 'n/a')}, request_count={asr_usage.get('request_count', 'n/a')}",
+        f"- ASR split: {split.get('enabled', 'n/a')}",
         "",
         "## Verification Corrections",
         "",

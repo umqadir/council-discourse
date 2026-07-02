@@ -72,8 +72,18 @@ NAME_STOPWORDS = {
 }
 
 
-def name_speakers_meeting(meeting: Meeting, model: str = DEFAULT_MODEL) -> Path:
-    input_path = _speaker_input_path(meeting.meeting_dir)
+def name_speakers_meeting(
+    meeting: Meeting,
+    model: str = DEFAULT_MODEL,
+    *,
+    input_path: Path | None = None,
+    output_path: Path | None = None,
+    meta_path: Path | None = None,
+    runlog_stage: str = "name_speakers",
+) -> Path:
+    input_path = input_path or _speaker_input_path(meeting.meeting_dir)
+    output = output_path or meeting.meeting_dir / "utterances-named.jsonl"
+    meta_output = meta_path or meeting.meeting_dir / "name-speakers-meta.json"
     utterances = normalize_utterances(read_jsonl(input_path))
     if not utterances:
         raise RuntimeError(f"no utterances found in {input_path}")
@@ -128,11 +138,11 @@ def name_speakers_meeting(meeting: Meeting, model: str = DEFAULT_MODEL) -> Path:
     cost_total += float(verification_meta.get("estimated_cost_usd") or 0)
     usage_totals.update({k: int(v) for k, v in verification_meta.get("usage", {}).items() if isinstance(v, int)})
 
-    output = meeting.meeting_dir / "utterances-named.jsonl"
     write_jsonl(output, named)
     meta_payload: dict[str, Any] = {
         "model": model,
         "input": str(input_path),
+        "output": str(output),
         "utterance_count": len(utterances),
         "mode": "label_mapping",
         "label_count": len(labels),
@@ -149,10 +159,10 @@ def name_speakers_meeting(meeting: Meeting, model: str = DEFAULT_MODEL) -> Path:
     if chunk_records:
         meta_payload["chunk_records"] = chunk_records
     meta_payload["verification"] = verification
-    write_json(meeting.meeting_dir / "name-speakers-meta.json", meta_payload)
+    write_json(meta_output, meta_payload)
     append_gemini_runlog(
         meeting.meeting_dir,
-        "name_speakers",
+        runlog_stage,
         model,
         meta_payload,
         {
