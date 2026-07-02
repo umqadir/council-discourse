@@ -118,7 +118,8 @@ class MatchedUtterance:
 def main() -> int:
     force = "--force" in sys.argv
     meeting = _meeting()
-    _prepare_pseudo_utterances(meeting)
+    if "--use-existing-utterances" not in sys.argv:
+        _prepare_pseudo_utterances(meeting)
     named_path = meeting.meeting_dir / "utterances-named.jsonl"
     if force or not named_path.exists():
         named_path = name_speakers(meeting)
