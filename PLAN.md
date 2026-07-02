@@ -14,11 +14,11 @@ Target: feature and performance parity with the original, then cost-optimized.
 | Speaker naming | LLM pass over full transcript w/ member roster + agenda; verification judge pass | 2025-era approach (Sonnet 3.7 was first to pass); today's mid-tier should clear it |
 | Chaptering + summaries | LLM over full transcript with agenda/context; chunk-merge only if benchmark shows long-context degradation | Original's chunking machinery was a 2024-model workaround |
 | LLM tier | Benchmark Gemini 3.5 Flash / 3.1 Flash-Lite / Haiku 4.5 / DeepSeek V4 vs GPT-5.5 anchor | Cost table says even frontier is ~$1.20/meeting; pick minimum tier matching citymeetings quality |
-| Pipeline runtime | GitHub Actions scheduled workflows (public repo, gothamizer) | Free, cron-native, no server to manage, gh CLI-managed |
+| Pipeline runtime | Dual mode: local CLI runs (Mac, manual/cron) AND remote cron (GitHub Actions, private repo) | Laptop isn't always on; same CLI both places |
 | Data store | Artifacts in Cloudflare R2 + build-ready JSON/SQLite committed or cached | R2 = zero egress fees; site build pulls from it |
 | Web app | Static site generation (Astro), client-side filtering (Alpine), Cloudflare Pages | ~27k pages is trivial SSG scale; zero backend to operate; free hosting |
 | OG images | Pre-rendered at build (satori → PNG) | Original ran a microservice; static is simpler |
-| Accounts/identity | Everything prod under gothamizer (GitHub, Cloudflare, ASR + LLM API accounts) | User requirement; no umqadir/Claude fingerprints |
+| Accounts/identity | User's personal accounts (umqadir GitHub, personal Cloudflare/API accounts) | User decision 2026-07-02 (reversed earlier gothamizer plan) |
 
 ## 1. What parity means (from research/01)
 
