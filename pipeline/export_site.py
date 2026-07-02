@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import os
 import re
 import shutil
 from collections.abc import Iterable
@@ -14,6 +15,13 @@ from .config import DATA_DIR, REGISTRY_DB, ROOT
 SITE_DATA_DIR = ROOT / "site" / "src" / "data" / "meetings"
 BENCHMARK_DIR = DATA_DIR / "benchmark"
 CHAPTER_MODEL = "gemini-3.5-flash"
+COUNCIL_BODY = "New York City Council"
+COUNCIL_LOCATION_MARKERS = (
+    "council chambers",
+    "committee room",
+    "city hall",
+    "250 broadway",
+)
 
 BENCHMARK_OVERRIDES = {
     "2025-04-23-transportation": {
@@ -135,9 +143,9 @@ def _convert_meeting(meeting, payload: dict[str, Any], override: dict[str, Any] 
     utterances = normalize_utterances(read_jsonl(utterances_path)) if utterances_path else []
     date = str(meeting.event_date or payload.get("date") or "")[:10]
     time = str(meeting.event_time or payload.get("time") or "")
-    title = override["title"] if override else _meeting_title(meeting)
-    body = override["body"] if override else (meeting.body_name or "New York City Council")
-    slug = override["slug"] if override else (meeting.meeting_slug or _meeting_slug(date, time, body))
+    title = override["title"] if override else _meeting_title(meeting, payload)
+    body = override["body"] if override else _site_body(meeting, payload)
+    slug = override["slug"] if override else _meeting_slug(date, time, title)
     duration = float(meeting.duration_seconds or payload.get("duration_sec") or _last_utterance_end(utterances))
 
     chapter_starts = [_chapter_start(chapter) for chapter in chapters_result["chapters"]]
@@ -270,9 +278,32 @@ def _tags(derived: dict[str, Any], override: dict[str, Any] | None) -> list[str]
     return ["HEARING"]
 
 
-def _meeting_title(meeting) -> str:
-    body = meeting.body_name or "Meeting"
-    if "stated" in body.lower():
+def _site_body(meeting, payload: dict[str, Any]) -> str:
+    body = str(meeting.body_name or payload.get("body_name") or payload.get("body") or "").strip()
+    location = str(meeting.event_location or payload.get("event_location") or payload.get("location") or "")
+    if _is_council_location(location) or _is_council_body_name(body):
+        return COUNCIL_BODY
+    return body or COUNCIL_BODY
+
+
+def _is_council_location(location: str) -> bool:
+    value = location.lower()
+    return any(marker in value for marker in COUNCIL_LOCATION_MARKERS)
+
+
+def _is_council_body_name(body: str) -> bool:
+    value = body.lower()
+    return (
+        value in {"city council", "new york city council"}
+        or value.startswith("committee on ")
+        or value.startswith("subcommittee on ")
+    )
+
+
+def _meeting_title(meeting, payload: dict[str, Any]) -> str:
+    body = str(meeting.body_name or payload.get("body_name") or payload.get("body") or "Meeting").strip()
+    meeting_type = str(meeting.meeting_type or payload.get("meeting_type") or "")
+    if "stated" in body.lower() or meeting_type == "STATED_MEETING" or body.lower() == "city council":
         return "Stated Meeting"
     return body
 
@@ -307,6 +338,9 @@ def _slugify(value: str) -> str:
 
 
 def _video_url(meeting, payload: dict[str, Any]) -> str:
+    video_base_url = os.environ.get("VIDEO_BASE_URL", "").strip().rstrip("/")
+    if video_base_url:
+        return f"{video_base_url}/{meeting.meeting_key}/video-web.mp4"
     configured = meeting.video_web_url or payload.get("video_web_url")
     if configured:
         return str(configured)

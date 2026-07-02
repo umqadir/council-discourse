@@ -55,10 +55,33 @@ export function chapterTypeLabel(type: string): string {
   return labels[type] ?? type.replace(/_/g, " ");
 }
 
-export function firstSentences(text: string, count = 2): string {
-  const sentences = text.match(/[^.!?]+[.!?]+/g);
-  if (!sentences || sentences.length <= count) {
-    return text;
+export function firstSentences(text: string, count = 2, maxChars = 300): string {
+  const clean = text.replace(/\s+/g, " ").trim();
+  if (!clean) {
+    return "";
   }
-  return sentences.slice(0, count).join(" ").trim();
+
+  const sentences =
+    clean.match(/[^.!?]+(?:[.!?]+|$)/g)?.map((sentence) => sentence.trim()).filter(Boolean) ?? [clean];
+  const selected: string[] = [];
+  const hardMaxChars = Math.round(maxChars * 1.25);
+
+  for (const sentence of sentences.slice(0, count)) {
+    const candidate = [...selected, sentence].join(" ");
+    if (candidate.length > maxChars && selected.length > 0) {
+      break;
+    }
+    selected.push(sentence);
+  }
+
+  const teaser = selected.join(" ").trim() || clean;
+  return teaser.length > hardMaxChars ? truncateWords(teaser, maxChars) : teaser;
+}
+
+function truncateWords(text: string, maxChars: number): string {
+  const clipped = text.slice(0, maxChars).trimEnd();
+  const lastSpace = clipped.lastIndexOf(" ");
+  const boundary = lastSpace > Math.floor(maxChars * 0.65) ? lastSpace : clipped.length;
+  const trimmed = clipped.slice(0, boundary).replace(/[.,;:!?-]+$/, "").trimEnd();
+  return `${trimmed}...`;
 }

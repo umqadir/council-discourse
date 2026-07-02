@@ -2,12 +2,12 @@
   "body": "New York City Council",
   "chapters": [
     {
-      "end_sec": 73.0,
+      "end_sec": 73.83,
       "id": "001",
-      "slug": "hearing-call-to-order-and-instructions",
-      "start_sec": 28.0,
-      "summary": "Committee staff calls the joint hearing to order and reminds attendees to silence electronic devices. Instructions are provided for members of the public wishing to sign up and testify before the committees.",
-      "title": "Hearing Call to Order and Instructions",
+      "slug": "committee-staff-instructions-and-hearing-call-to-order",
+      "start_sec": 28.83,
+      "summary": "Committee staff calls the joint hearing to order, reminding attendees to silence electronic devices and outlining the procedures for witness testimony.",
+      "title": "Committee Staff Instructions and Hearing Call to Order",
       "type": "PROCEDURE",
       "utterances": [
         {
@@ -123,12 +123,12 @@
       ]
     },
     {
-      "end_sec": 159.0,
+      "end_sec": 159.23,
       "id": "002",
-      "slug": "chair-menin-opening-remarks-on-dining-out-nyc-program",
-      "start_sec": 73.0,
-      "summary": "Committee on Consumer and Worker Protection Chair Julie Menin welcomes attendees and outlines the legislative history of Local Law 121 of 2023, which established the permanent Dining Out NYC program. She highlights the transition of over 13,000 businesses from the temporary pandemic-era program to the permanent framework.",
-      "title": "Chair Menin Opening Remarks on Dining Out NYC Program",
+      "slug": "chair-menin-opening-remarks-background-on-local-law-121-and-the-permanent-outdoor-dining-program",
+      "start_sec": 73.83,
+      "summary": "Chair Julie Menin welcomes attendees and provides historical context on Local Law 121 of 2023, which established the permanent 'Dining Out NYC' program to transition from temporary pandemic-era rules.",
+      "title": "Chair Menin Opening Remarks: Background on Local Law 121 and the Permanent Outdoor Dining Program",
       "type": "REMARKS",
       "utterances": [
         {
@@ -384,12 +384,12 @@
       ]
     },
     {
-      "end_sec": 391.0,
+      "end_sec": 243.07,
       "id": "003",
-      "slug": "chair-menin-on-dot-application-backlogs-and-delays",
-      "start_sec": 159.0,
-      "summary": "Chair Julie Menin expresses serious concerns regarding the Department of Transportation's ability to manage the outdoor dining program. She highlights that only 67 restaurants have completed the full application process, leaving thousands of small businesses in a state of absolute uncertainty during peak season.",
-      "title": "Chair Menin on DOT Application Backlogs and Delays",
+      "slug": "chair-menin-opening-remarks-concerns-over-dot-s-management-and-application-backlogs",
+      "start_sec": 159.23,
+      "summary": "Chair Julie Menin expresses her long-standing concerns regarding the Department of Transportation's ability to manage a licensing program, highlighting severe delays that have left small businesses in uncertainty.",
+      "title": "Chair Menin Opening Remarks: Concerns Over DOT's Management and Application Backlogs",
       "type": "REMARKS",
       "utterances": [
         {
@@ -616,7 +616,18 @@
           "speaker": "Julie Menin",
           "t_sec": 241.63,
           "text": "THESE SERIOUS DELAYS. SO HERE"
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 399.07,
+      "id": "004",
+      "slug": "chair-menin-opening-remarks-low-approval-rates-and-restaurant-uncertainty",
+      "start_sec": 243.07,
+      "summary": "Chair Julie Menin highlights that only 67 restaurants have completed the full application process, representing less than 2% of total applicants, and calls the rollout disastrous for small businesses.",
+      "title": "Chair Menin Opening Remarks: Low Approval Rates and Restaurant Uncertainty",
+      "type": "REMARKS",
+      "utterances": [
         {
           "speaker": "Julie Menin",
           "t_sec": 243.07,
@@ -1036,23 +1047,23 @@
           "speaker": "Julie Menin",
           "t_sec": 390.2,
           "text": "BROOKS POWERS FOR HER OPENING"
-        }
-      ]
-    },
-    {
-      "end_sec": 576.0,
-      "id": "004",
-      "slug": "chair-brooks-powers-opening-remarks-on-outdoor-dining-history",
-      "start_sec": 391.0,
-      "summary": "Committee on Transportation and Infrastructure Chair Selvena N. Brooks-Powers delivers opening remarks detailing the joint hearing's agenda. She reviews the legislative history of sidewalk cafes, the temporary pandemic-era open restaurants program, and the enactment of Local Law 121.",
-      "title": "Chair Brooks-Powers Opening Remarks on Outdoor Dining History",
-      "type": "REMARKS",
-      "utterances": [
+        },
         {
           "speaker": "Julie Menin",
           "t_sec": 391.2,
           "text": "REMARKS. THANK YOU. THANK YOU."
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 436.23,
+      "id": "005",
+      "slug": "chair-brooks-powers-opening-remarks-introduction-of-intro-857-and-joint-hearing-focus",
+      "start_sec": 399.07,
+      "summary": "Chair Selvena Brooks-Powers introduces the joint hearing focus on the Dining Out NYC program and proposed Intro 857 regarding the towing of vehicles that encumber city streets.",
+      "title": "Chair Brooks-Powers Opening Remarks: Introduction of Intro 857 and Joint Hearing Focus",
+      "type": "REMARKS",
+      "utterances": [
         {
           "speaker": "Selvena N. Brooks-Powers",
           "t_sec": 399.07,
@@ -1147,7 +1158,18 @@
           "speaker": "Selvena N. Brooks-Powers",
           "t_sec": 433.83,
           "text": "THAT ARE AN ENCUMBRANCE ON THE"
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 576.97,
+      "id": "006",
+      "slug": "chair-brooks-powers-opening-remarks-evolution-of-outdoor-dining-and-local-law-121",
+      "start_sec": 436.23,
+      "summary": "Chair Selvena Brooks-Powers outlines the evolution of outdoor dining from pre-pandemic sidewalk cafes to the temporary pandemic-era program and the subsequent enactment of Local Law 121.",
+      "title": "Chair Brooks-Powers Opening Remarks: Evolution of Outdoor Dining and Local Law 121",
+      "type": "REMARKS",
+      "utterances": [
         {
           "speaker": "Selvena N. Brooks-Powers",
           "t_sec": 436.23,
@@ -1481,12 +1503,12 @@
       ]
     },
     {
-      "end_sec": 733.0,
-      "id": "005",
-      "slug": "chair-brooks-powers-on-dot-application-processing-issues",
-      "start_sec": 576.0,
-      "summary": "Chair Selvena N. Brooks-Powers discusses the Department of Transportation's struggles to process outdoor dining applications in a timely manner. She addresses concerns regarding incomplete site plans, onerous online forms, lack of language accessibility, and the high costs associated with seasonal storage requirements.",
-      "title": "Chair Brooks-Powers on DOT Application Processing Issues",
+      "end_sec": 733.73,
+      "id": "007",
+      "slug": "chair-brooks-powers-opening-remarks-implementation-challenges-costs-and-accessibility",
+      "start_sec": 576.97,
+      "summary": "Chair Selvena Brooks-Powers details the implementation challenges reported by businesses, including onerous online forms, lack of language accessibility, high construction and storage costs, and changed clearance standards.",
+      "title": "Chair Brooks-Powers Opening Remarks: Implementation Challenges, Costs, and Accessibility",
       "type": "REMARKS",
       "utterances": [
         {
@@ -1883,23 +1905,23 @@
           "speaker": "Selvena N. Brooks-Powers",
           "t_sec": 729.8,
           "text": "RENEE TAYLOR, MY CHIEF OF"
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 733.33,
+          "text": "STAFF."
         }
       ]
     },
     {
       "end_sec": 787.0,
-      "id": "006",
-      "slug": "committee-transition-to-advocate-testimony-panel",
-      "start_sec": 733.0,
-      "summary": "Chair Selvena N. Brooks-Powers transitions the hearing to receive testimony from advocate groups and small business owners before hearing from the administration. She recognizes attending council members and calls the first panel of witnesses to the table.",
-      "title": "Committee Transition to Advocate Testimony Panel",
+      "id": "008",
+      "slug": "transition-to-public-advocate-and-business-panel",
+      "start_sec": 733.73,
+      "summary": "Chair Brooks-Powers transitions the hearing to receive testimony from public advocates and restaurant owners first, in order to address their concerns before hearing from the administration.",
+      "title": "Transition to Public Advocate and Business Panel",
       "type": "PROCEDURE",
       "utterances": [
-        {
-          "speaker": "Selvena N. Brooks-Powers",
-          "t_sec": 733.33,
-          "text": "STAFF."
-        },
         {
           "speaker": "Selvena N. Brooks-Powers",
           "t_sec": 733.73,
@@ -2058,12 +2080,12 @@
       ]
     },
     {
-      "end_sec": 1125.0,
-      "id": "007",
-      "slug": "andrew-rigie-on-declining-outdoor-dining-participation",
+      "end_sec": 1125.03,
+      "id": "009",
+      "slug": "andrew-rigie-testimony-nyc-hospitality-alliance",
       "start_sec": 787.0,
-      "summary": "Andrew Rigie, Executive Director of the NYC Hospitality Alliance, testifies on the dramatic drop in outdoor dining participation under the permanent program. He proposes seven key reforms, including year-round roadway dining and reduced fees, to fulfill the original vision of the Dining Out NYC program.",
-      "title": "Andrew Rigie on Declining Outdoor Dining Participation",
+      "summary": "Andrew Rigie, Executive Director of the NYC Hospitality Alliance, testifies on the dramatic decline in outdoor dining participation, the failure of citywide equity goals, and outlines seven proposed reforms.",
+      "title": "Andrew Rigie Testimony: NYC Hospitality Alliance",
       "type": "TESTIMONY",
       "utterances": [
         {
@@ -3014,12 +3036,12 @@
       ]
     },
     {
-      "end_sec": 1654.0,
-      "id": "008",
-      "slug": "robert-bookman-on-revocable-consent-and-regulatory-hurdles",
-      "start_sec": 1125.0,
-      "summary": "Robert Bookman, Counsel to the NYC Hospitality Alliance, testifies on the structural flaws of the permanent outdoor dining program. He criticizes the decision to keep the complex revocable consent process on top of licensing and highlights the difficulties small businesses face with online-only applications.",
-      "title": "Robert Bookman on Revocable Consent and Regulatory Hurdles",
+      "end_sec": 1654.5,
+      "id": "010",
+      "slug": "robert-bookman-testimony-nyc-hospitality-alliance",
+      "start_sec": 1125.03,
+      "summary": "Robert Bookman, Counsel to the NYC Hospitality Alliance, discusses structural issues with the revocable consent process, stricter clearance rules, and the financial hurdles preventing small restaurants from applying.",
+      "title": "Robert Bookman Testimony: NYC Hospitality Alliance",
       "type": "TESTIMONY",
       "utterances": [
         {
@@ -4590,12 +4612,12 @@
       ]
     },
     {
-      "end_sec": 1802.0,
-      "id": "009",
-      "slug": "max-bookman-on-confusing-application-procedures",
-      "start_sec": 1654.0,
-      "summary": "Max Bookman, Partner at Pesetsky & Bookman, testifies on the confusing and frustrating nature of the DOT application process. Drawing from his experience managing over 200 applications, he emphasizes that small business owners should not have to become licensing experts to operate outdoor setups.",
-      "title": "Max Bookman on Confusing Application Procedures",
+      "end_sec": 1802.23,
+      "id": "011",
+      "slug": "max-bookman-testimony-nyc-hospitality-alliance",
+      "start_sec": 1654.5,
+      "summary": "Max Bookman, Partner at a licensing law firm, shares his experience managing over 200 DOT outdoor dining applications and describes the process as overly confusing and frustrating for business owners.",
+      "title": "Max Bookman Testimony: NYC Hospitality Alliance",
       "type": "TESTIMONY",
       "utterances": [
         {
@@ -5021,12 +5043,12 @@
       ]
     },
     {
-      "end_sec": 1899.0,
-      "id": "010",
-      "slug": "chrisette-woods-on-planning-uncertainty-and-winterization",
-      "start_sec": 1802.0,
-      "summary": "Chrisette Woods, second-generation owner of Sylvia's Restaurant in Harlem, testifies on the difficulties of operating without timely application approvals. She advocates for allowing enclosed setups during winter months to help sustain business operations and maintain staff employment year-round.",
-      "title": "Chrisette Woods on Planning Uncertainty and Winterization",
+      "end_sec": 1899.7,
+      "id": "012",
+      "slug": "chris-woods-testimony-sylvia-s-restaurant",
+      "start_sec": 1802.23,
+      "summary": "Chris Woods, second-generation owner of Sylvia's Restaurant in Harlem, testifies about the confusion in the application process and the need for winterized setups to maintain employment and seating capacity.",
+      "title": "Chris Woods Testimony: Sylvia's Restaurant",
       "type": "TESTIMONY",
       "utterances": [
         {
@@ -5248,11 +5270,11 @@
     },
     {
       "end_sec": 2216.0,
-      "id": "011",
-      "slug": "megan-rickerson-on-financial-costs-of-seasonal-setups",
-      "start_sec": 1899.0,
-      "summary": "Megan Rickerson, owner of Someday Bar in Boerum Hill, Brooklyn, breaks down the high financial costs of participating in the permanent program. She explains that seasonal build, breakdown, and storage requirements impose an unsustainable financial burden on neighborhood establishments.",
-      "title": "Megan Rickerson on Financial Costs of Seasonal Setups",
+      "id": "013",
+      "slug": "megan-rickerson-testimony-someday-bar",
+      "start_sec": 1899.7,
+      "summary": "Megan Rickerson, owner of Someday Bar in Boerum Hill, provides a detailed financial breakdown of the high costs of compliance, explaining that the seasonal roadway rules make the program financially unviable for neighborhood spots.",
+      "title": "Megan Rickerson Testimony: Someday Bar",
       "type": "TESTIMONY",
       "utterances": [
         {
@@ -6033,12 +6055,12 @@
       ]
     },
     {
-      "end_sec": 2440.0,
-      "id": "012",
-      "slug": "robert-guarino-on-sidewalk-clearance-rule-impacts",
+      "end_sec": 2440.63,
+      "id": "014",
+      "slug": "robert-marino-testimony-new-york-city-chef-group",
       "start_sec": 2216.0,
-      "summary": "Robert Guarino, partner in a NYC restaurant group, testifies on how new sidewalk clearance regulations have negatively impacted his Hell's Kitchen restaurant, Nizza. He explains that the new rules forced a 40% reduction in outdoor seating capacity, directly impacting staffing and revenue.",
-      "title": "Robert Guarino on Sidewalk Clearance Rule Impacts",
+      "summary": "Robert Marino, partner in the New York City Chef Group, testifies about the negative impact of changed sidewalk clearance rules on his Hell's Kitchen restaurant, Nizza, which reduced outdoor seating by 40%.",
+      "title": "Robert Marino Testimony: New York City Chef Group",
       "type": "TESTIMONY",
       "utterances": [
         {
@@ -6684,12 +6706,12 @@
       ]
     },
     {
-      "end_sec": 2675.0,
-      "id": "013",
-      "slug": "chair-menin-questions-panel-on-economic-and-job-losses",
-      "start_sec": 2440.0,
-      "summary": "Chair Julie Menin asks the NYC Hospitality Alliance panel to quantify the economic and job losses resulting from the poor rollout of the permanent program. Andrew Rigie and Robert Bookman respond by highlighting lost tax revenues, reduced server jobs, and the sharp decline in active setups across the outer boroughs.",
-      "title": "Chair Menin Questions Panel on Economic and Job Losses",
+      "end_sec": 2674.8,
+      "id": "015",
+      "slug": "chair-menin-questions-hospitality-alliance-on-economic-and-job-losses",
+      "start_sec": 2440.63,
+      "summary": "Chair Julie Menin asks the NYC Hospitality Alliance panel to quantify the economic and job losses experienced by restaurants due to the poor rollout of the permanent outdoor dining program.",
+      "title": "Chair Menin Questions Hospitality Alliance on Economic and Job Losses",
       "type": "QA",
       "utterances": [
         {
@@ -7341,23 +7363,23 @@
           "speaker": "Member of the Public - Robert Bookman",
           "t_sec": 2674.47,
           "text": "AND."
-        },
-        {
-          "speaker": "Julie Menin",
-          "t_sec": 2674.8,
-          "text": ">>THE CITY IS LOSING. OKAY, A"
         }
       ]
     },
     {
-      "end_sec": 2919.0,
-      "id": "014",
-      "slug": "chair-menin-questions-panel-on-language-access-and-system-bugs",
-      "start_sec": 2675.0,
-      "summary": "Chair Julie Menin asks the panel about language accessibility issues and technical bugs in the online application system. Andrew Rigie and Max Bookman confirm that the lack of physical walk-in centers and the inability to save progress mid-application create severe barriers for immigrant business owners.",
-      "title": "Chair Menin Questions Panel on Language Access and System Bugs",
+      "end_sec": 2798.77,
+      "id": "016",
+      "slug": "chair-menin-questions-panel-on-language-accessibility-and-online-application-issues",
+      "start_sec": 2674.8,
+      "summary": "Chair Julie Menin and the panel discuss the lack of language accessibility in the application process and the technical frustrations of the online-only system for immigrant business owners.",
+      "title": "Chair Menin Questions Panel on Language Accessibility and Online Application Issues",
       "type": "QA",
       "utterances": [
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 2674.8,
+          "text": ">>THE CITY IS LOSING. OKAY, A"
+        },
         {
           "speaker": "Julie Menin",
           "t_sec": 2675.67,
@@ -7752,7 +7774,18 @@
           "speaker": "Member of the Public - Robert Bookman",
           "t_sec": 2797.77,
           "text": "REALLY BEEN LOST HERE?"
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 2919.77,
+      "id": "017",
+      "slug": "chair-menin-and-robert-bookman-debate-dot-vs-dcwp-program-management",
+      "start_sec": 2798.77,
+      "summary": "Chair Julie Menin and Robert Bookman discuss why the outdoor dining program should have remained under the jurisdiction of the Department of Consumer and Worker Protection (DCWP) rather than the Department of Transportation.",
+      "title": "Chair Menin and Robert Bookman Debate DOT vs. DCWP Program Management",
+      "type": "QA",
+      "utterances": [
         {
           "speaker": "Julie Menin",
           "t_sec": 2798.77,
@@ -8122,23 +8155,23 @@
           "speaker": "Julie Menin",
           "t_sec": 2916.3,
           "text": "REMEDIED, AND THAT'S ONE OF"
-        }
-      ]
-    },
-    {
-      "end_sec": 3082.0,
-      "id": "015",
-      "slug": "chair-menin-questions-panel-on-low-application-completion-rates",
-      "start_sec": 2919.0,
-      "summary": "Chair Julie Menin asks the panel why only 67 restaurants have successfully completed the full application and revocable consent process. Robert Bookman explains that DOT's interpretation of when the review clock starts has severely bottlenecked the entire pipeline.",
-      "title": "Chair Menin Questions Panel on Low Application Completion Rates",
-      "type": "QA",
-      "utterances": [
+        },
         {
           "speaker": "Julie Menin",
           "t_sec": 2919.03,
           "text": "THE GOALS OF THIS HEARING, I"
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 3082.63,
+      "id": "018",
+      "slug": "chair-menin-questions-robert-bookman-on-low-approval-rates",
+      "start_sec": 2919.77,
+      "summary": "Chair Julie Menin asks Robert Bookman to explain why only 67 restaurants have completed the full application process, pointing to DOT's misinterpretation of when the review clock starts.",
+      "title": "Chair Menin Questions Robert Bookman on Low Approval Rates",
+      "type": "QA",
+      "utterances": [
         {
           "speaker": "Julie Menin",
           "t_sec": 2919.77,
@@ -8628,23 +8661,23 @@
           "speaker": "Julie Menin",
           "t_sec": 3074.03,
           "text": "TO CHAIR BROOKS POWERS FOR HER"
-        }
-      ]
-    },
-    {
-      "end_sec": 3179.0,
-      "id": "016",
-      "slug": "chair-brooks-powers-questions-megan-rickerson-on-architectural-fees",
-      "start_sec": 3082.0,
-      "summary": "Chair Selvena N. Brooks-Powers asks Megan Rickerson to clarify the recurring nature of architectural and legal fees under the permanent program. Rickerson explains that while professional fees are one-time costs, the annual build and breakdown expenses remain a significant recurring burden.",
-      "title": "Chair Brooks-Powers Questions Megan Rickerson on Architectural Fees",
-      "type": "QA",
-      "utterances": [
+        },
         {
           "speaker": "Julie Menin",
           "t_sec": 3082.03,
           "text": "QUESTIONING."
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 3179.77,
+      "id": "019",
+      "slug": "chair-brooks-powers-questions-megan-rickerson-on-restaurant-setup-and-storage-costs",
+      "start_sec": 3082.63,
+      "summary": "Chair Selvena Brooks-Powers asks Megan Rickerson to clarify the one-time versus recurring costs associated with hiring architects, lawyers, and contractors to build and store seasonal roadway setups.",
+      "title": "Chair Brooks-Powers Questions Megan Rickerson on Restaurant Setup and Storage Costs",
+      "type": "QA",
+      "utterances": [
         {
           "speaker": "Selvena N. Brooks-Powers",
           "t_sec": 3082.63,
@@ -8904,23 +8937,23 @@
           "speaker": "Selvena N. Brooks-Powers",
           "t_sec": 3175.57,
           "text": "YOU'RE ABLE TO GIVE TO YOUR"
-        }
-      ]
-    },
-    {
-      "end_sec": 3645.0,
-      "id": "017",
-      "slug": "chair-brooks-powers-questions-panel-on-projected-revenues-and-recommendations",
-      "start_sec": 3179.0,
-      "summary": "Chair Selvena N. Brooks-Powers asks the panel about projected revenues under the new model and recommendations to improve the application process. Robert Bookman and Andrew Rigie recommend establishing in-person assistance centers, allowing quarterly fee payments, and simplifying sidewalk clearance rules.",
-      "title": "Chair Brooks-Powers Questions Panel on Projected Revenues and Recommendations",
-      "type": "QA",
-      "utterances": [
+        },
         {
           "speaker": "Selvena N. Brooks-Powers",
           "t_sec": 3179.23,
           "text": "YOUR CUSTOMERS."
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 3286.37,
+      "id": "020",
+      "slug": "chair-brooks-powers-questions-panel-on-projected-revenues-and-break-even-points",
+      "start_sec": 3179.77,
+      "summary": "Chair Selvena Brooks-Powers asks the panel about projected revenues under the new model and whether small businesses can realistically break even given the high costs and weather dependencies.",
+      "title": "Chair Brooks-Powers Questions Panel on Projected Revenues and Break-Even Points",
+      "type": "QA",
+      "utterances": [
         {
           "speaker": "Selvena N. Brooks-Powers",
           "t_sec": 3179.77,
@@ -9200,7 +9233,18 @@
           "speaker": "Selvena N. Brooks-Powers",
           "t_sec": 3284.9,
           "text": ">>BUSINESS OWNERS AS WELL."
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 3650.37,
+      "id": "021",
+      "slug": "chair-brooks-powers-and-robert-bookman-discuss-recommendations-for-program-accessibility",
+      "start_sec": 3286.37,
+      "summary": "Chair Selvena Brooks-Powers and Robert Bookman discuss immediate recommendations to improve the program, including in-person support centers, quarterly fee payments, and simplified clearance rules.",
+      "title": "Chair Brooks-Powers and Robert Bookman Discuss Recommendations for Program Accessibility",
+      "type": "QA",
+      "utterances": [
         {
           "speaker": "Member of the Public - Robert Bookman",
           "t_sec": 3286.37,
@@ -10345,18 +10389,7 @@
           "speaker": "Julie Menin",
           "t_sec": 3644.47,
           "text": "FOR THIS PANEL, WE'LL START"
-        }
-      ]
-    },
-    {
-      "end_sec": 4054.0,
-      "id": "018",
-      "slug": "council-member-brewer-questions-panel-on-paperwork-and-community-boards",
-      "start_sec": 3645.0,
-      "summary": "Council Member Gale Brewer asks the panel about simplifying paperwork, the role of community boards, and replacing revocable consents with a simpler permit process. Andrew Rigie and Robert Bookman discuss how community board reviews have become overly technical and advocate for eliminating the revocable consent overlay.",
-      "title": "Council Member Brewer Questions Panel on Paperwork and Community Boards",
-      "type": "QA",
-      "utterances": [
+        },
         {
           "speaker": "Julie Menin",
           "t_sec": 3645.3,
@@ -10371,7 +10404,18 @@
           "speaker": "Julie Menin",
           "t_sec": 3650.03,
           "text": "."
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 4064.27,
+      "id": "022",
+      "slug": "council-member-brewer-questions-panel-on-simplifying-floor-plans-and-technical-reviews",
+      "start_sec": 3650.37,
+      "summary": "Council Member Gale Brewer asks the panel about simplifying floor plan requirements and the challenges of technical measurement reviews conducted by volunteer community board members.",
+      "title": "Council Member Brewer Questions Panel on Simplifying Floor Plans and Technical Reviews",
+      "type": "QA",
+      "utterances": [
         {
           "speaker": "Gale A. Brewer",
           "t_sec": 3650.37,
@@ -11671,18 +11715,7 @@
           "speaker": "Julie Menin",
           "t_sec": 4052.97,
           "text": "NEXT, WE'LL HEARFROM COUNSEL"
-        }
-      ]
-    },
-    {
-      "end_sec": 4302.0,
-      "id": "019",
-      "slug": "council-member-narcisse-questions-panel-on-liquor-licenses-and-paperwork",
-      "start_sec": 4054.0,
-      "summary": "Council Member Mercedes Narcisse asks the business owners about the viability of outdoor dining without a liquor license and the administrative burden of paperwork. Megan Rickerson and Chrisette Woods explain that outdoor dining is financially unviable without alcohol service due to low food margins.",
-      "title": "Council Member Narcisse Questions Panel on Liquor Licenses and Paperwork",
-      "type": "QA",
-      "utterances": [
+        },
         {
           "speaker": "Julie Menin",
           "t_sec": 4054.73,
@@ -11702,7 +11735,18 @@
           "speaker": "Julie Menin",
           "t_sec": 4059.33,
           "text": "AMANDA PAT AREAS REMEMBER"
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 4302.43,
+      "id": "023",
+      "slug": "council-member-narcisse-questions-panel-on-liquor-license-requirements-and-staff-burdens",
+      "start_sec": 4064.27,
+      "summary": "Council Member Mercedes Narcisse asks the business owners about the viability of outdoor dining without a liquor license and the operational burdens placed on restaurant staff to police outdoor spaces.",
+      "title": "Council Member Narcisse Questions Panel on Liquor License Requirements and Staff Burdens",
+      "type": "QA",
+      "utterances": [
         {
           "speaker": "Mercedes Narcisse",
           "t_sec": 4064.27,
@@ -12366,11 +12410,11 @@
       ]
     },
     {
-      "end_sec": 4674.0,
-      "id": "020",
+      "end_sec": 4674.67,
+      "id": "024",
       "slug": "council-member-oss-questions-panel-on-rats-sanitation-and-dot-responsiveness",
-      "start_sec": 4302.0,
-      "summary": "Council Member Chi Oss\u00e9 asks the panel to respond to common criticisms regarding rats and sanitation, and evaluates DOT's responsiveness. Robert Guarino and Megan Rickerson explain that new flooring regulations address rodent concerns, while Max Bookman notes that DOT staff is responsive but constrained by confusing rules.",
+      "start_sec": 4302.43,
+      "summary": "Council Member Chi Oss\u00e9 asks the business owners to respond to sanitation and rodent concerns associated with outdoor dining, and questions the panel on DOT's responsiveness to application issues.",
       "title": "Council Member Oss\u00e9 Questions Panel on Rats, Sanitation, and DOT Responsiveness",
       "type": "QA",
       "utterances": [
@@ -13392,12 +13436,12 @@
       ]
     },
     {
-      "end_sec": 4785.0,
-      "id": "021",
-      "slug": "council-member-louis-presents-towing-legislation-int-0857-2024",
-      "start_sec": 4674.0,
-      "summary": "Council Member Farah N. Louis presents Int 0857-2024, which requires the Department of Sanitation to tow vehicles that encumber city streets within 72 hours of notification. She explains that the bill aims to reclaim public space, improve street safety, and address the issue of abandoned vehicles.",
-      "title": "Council Member Louis Presents Towing Legislation Int 0857-2024",
+      "end_sec": 4775.9,
+      "id": "025",
+      "slug": "council-member-holden-introduces-intro-857-a-on-towing-abandoned-vehicles",
+      "start_sec": 4674.67,
+      "summary": "Council Member Robert Holden introduces Intro 857-A, explaining that the bill requires the Department of Sanitation to tow abandoned and inoperable vehicles within 72 hours of notification to reclaim public space.",
+      "title": "Council Member Holden Introduces Intro 857-A on Towing Abandoned Vehicles",
       "type": "REMARKS",
       "utterances": [
         {
@@ -13664,7 +13708,18 @@
           "speaker": "Robert F. Holden",
           "t_sec": 4770.23,
           "text": "SPACE BACK TO PUBLIC USE."
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 4850.37,
+      "id": "026",
+      "slug": "transition-to-administration-panel-and-chair-menin-criticism-of-dot-commissioner-absence",
+      "start_sec": 4775.9,
+      "summary": "Chair Julie Menin transitions the hearing to the administration panel, expressing deep disappointment that the DOT Commissioner is not personally present to answer questions about the program.",
+      "title": "Transition to Administration Panel and Chair Menin Criticism of DOT Commissioner Absence",
+      "type": "PROCEDURE",
+      "utterances": [
         {
           "speaker": "Julie Menin",
           "t_sec": 4775.9,
@@ -13694,18 +13749,7 @@
           "speaker": "Julie Menin",
           "t_sec": 4783.9,
           "text": "RIVERA. SO WE ARE NOW GOING TO"
-        }
-      ]
-    },
-    {
-      "end_sec": 4850.0,
-      "id": "022",
-      "slug": "chair-menin-introduces-dot-administration-panel",
-      "start_sec": 4785.0,
-      "summary": "Chair Julie Menin introduces the administration panel from the Department of Transportation, including First Deputy Commissioner Margaret Forgione. Menin expresses strong disappointment that the DOT Commissioner did not attend the hearing in person.",
-      "title": "Chair Menin Introduces DOT Administration Panel",
-      "type": "PROCEDURE",
-      "utterances": [
+        },
         {
           "speaker": "Julie Menin",
           "t_sec": 4785.17,
@@ -13884,12 +13928,12 @@
       ]
     },
     {
-      "end_sec": 5285.0,
-      "id": "023",
-      "slug": "technical-recess-due-to-audio-video-issues",
-      "start_sec": 4850.0,
-      "summary": "The committees temporarily pause the joint hearing to resolve technical issues with the audio and video broadcasting systems in the Council Chambers.",
-      "title": "Technical Recess Due to Audio/Video Issues",
+      "end_sec": 4876.67,
+      "id": "027",
+      "slug": "dot-first-deputy-commissioner-margaret-forgione-sworn-in-and-technical-recess",
+      "start_sec": 4850.37,
+      "summary": "DOT First Deputy Commissioner Margaret Forgione is sworn in by committee counsel, followed by a brief recess to resolve a technical issue with the audio system.",
+      "title": "DOT First Deputy Commissioner Margaret Forgione Sworn In and Technical Recess",
       "type": "PROCEDURE",
       "utterances": [
         {
@@ -13986,7 +14030,18 @@
           "speaker": "UNKNOWN",
           "t_sec": 4875.87,
           "text": ">>BUT THERE'S A TECHNICAL"
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 5297.07,
+      "id": "028",
+      "slug": "hearing-resumption-and-introduction-of-dot-panel",
+      "start_sec": 4876.67,
+      "summary": "Chair Julie Menin resumes the hearing after the technical issue is resolved, welcoming back First Deputy Commissioner Margaret Forgione to begin her testimony.",
+      "title": "Hearing Resumption and Introduction of DOT Panel",
+      "type": "PROCEDURE",
+      "utterances": [
         {
           "speaker": "Julie Menin",
           "t_sec": 4876.67,
@@ -14026,18 +14081,7 @@
           "speaker": "Julie Menin",
           "t_sec": 5097.1,
           "text": "THANK YOU. WONDERFUL. OKAY, WE"
-        }
-      ]
-    },
-    {
-      "end_sec": 5297.0,
-      "id": "024",
-      "slug": "resuming-the-hearing-after-technical-recess",
-      "start_sec": 5285.0,
-      "summary": "Chair Julie Menin reconvenes the joint hearing following the resolution of technical issues and invites the DOT administration panel to begin their testimony.",
-      "title": "Resuming the Hearing After Technical Recess",
-      "type": "PROCEDURE",
-      "utterances": [
+        },
         {
           "speaker": "Julie Menin",
           "t_sec": 5285.07,
@@ -14081,12 +14125,12 @@
       ]
     },
     {
-      "end_sec": 5611.0,
-      "id": "025",
-      "slug": "margaret-forgione-on-history-and-goals-of-dining-out-nyc",
-      "start_sec": 5297.0,
-      "summary": "Margaret Forgione, First Deputy Commissioner of the Department of Transportation, testifies on the history and goals of the Dining Out NYC program. She highlights the transition from the temporary pandemic-era program to a permanent, regulated framework designed to balance small business support with quality-of-life concerns.",
-      "title": "Margaret Forgione on History and Goals of Dining Out NYC",
+      "end_sec": 5417.33,
+      "id": "029",
+      "slug": "agency-testimony-dot-s-overview-of-the-permanent-dining-out-nyc-program",
+      "start_sec": 5297.07,
+      "summary": "First Deputy Commissioner Margaret Forgione provides an overview of the permanent Dining Out NYC program, highlighting that over 2,500 restaurants are authorized to operate for the first permanent season.",
+      "title": "Agency Testimony: DOT's Overview of the Permanent Dining Out NYC Program",
       "type": "AGENCY_TESTIMONY",
       "utterances": [
         {
@@ -14463,7 +14507,18 @@
           "speaker": "UNKNOWN",
           "t_sec": 5412.93,
           "text": "THAT WE HAVE A SO FAR NOW TO"
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 5611.33,
+      "id": "030",
+      "slug": "agency-testimony-historical-context-and-regulatory-balance-of-outdoor-dining",
+      "start_sec": 5417.33,
+      "summary": "First Deputy Commissioner Margaret Forgione outlines the history of outdoor dining in NYC, from the pre-pandemic DCWP program to the pandemic-era emergency program, and explains the regulatory balance of Local Law 121.",
+      "title": "Agency Testimony: Historical Context and Regulatory Balance of Outdoor Dining",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
         {
           "speaker": "UNKNOWN",
           "t_sec": 5417.33,
@@ -15047,12 +15102,12 @@
       ]
     },
     {
-      "end_sec": 5744.0,
-      "id": "026",
-      "slug": "margaret-forgione-on-dot-outreach-and-application-stats",
-      "start_sec": 5611.0,
-      "summary": "First Deputy Commissioner Margaret Forgione details DOT's extensive outreach efforts, including webinars, email blasts, and in-person visits. She provides updated application statistics, noting that nearly 3,900 applications have been received and that conditional approvals were issued to expedite the roadway dining season.",
-      "title": "Margaret Forgione on DOT Outreach and Application Stats",
+      "end_sec": 5744.8,
+      "id": "031",
+      "slug": "agency-testimony-outreach-application-statistics-and-conditional-approvals",
+      "start_sec": 5611.33,
+      "summary": "First Deputy Commissioner Margaret Forgione details DOT's extensive outreach efforts, application statistics, and the implementation of conditional approvals to allow roadway cafes to operate by the April 1 deadline.",
+      "title": "Agency Testimony: Outreach, Application Statistics, and Conditional Approvals",
       "type": "AGENCY_TESTIMONY",
       "utterances": [
         {
@@ -15453,12 +15508,12 @@
       ]
     },
     {
-      "end_sec": 5901.0,
-      "id": "027",
-      "slug": "chair-menin-questions-dot-on-low-number-of-full-approvals",
-      "start_sec": 5744.0,
-      "summary": "Chair Julie Menin questions DOT First Deputy Commissioner Margaret Forgione on why only 67 businesses have received full approval. Forgione explains that 80% of applicants are authorized to operate under conditional approvals while their applications progress through the multi-step review process.",
-      "title": "Chair Menin Questions DOT on Low Number of Full Approvals",
+      "end_sec": 5901.57,
+      "id": "032",
+      "slug": "chair-menin-questions-dot-on-low-approval-rates-and-application-backlogs",
+      "start_sec": 5744.8,
+      "summary": "Chair Julie Menin questions DOT on why only 67 businesses have received full approval, challenging the agency's claim that the program is going well.",
+      "title": "Chair Menin Questions DOT on Low Approval Rates and Application Backlogs",
       "type": "QA",
       "utterances": [
         {
@@ -15879,12 +15934,12 @@
       ]
     },
     {
-      "end_sec": 6062.0,
-      "id": "028",
-      "slug": "chair-menin-questions-dot-on-walk-in-centers-and-pending-applications",
-      "start_sec": 5901.0,
-      "summary": "Chair Julie Menin questions DOT on the lack of a walk-in licensing center and how the agency handles substandard drawings. Margaret Forgione and Associate Deputy Commissioner Michelle Craven explain that DOT staff works directly with restaurants online and via Zoom to correct site plans rather than rejecting them.",
-      "title": "Chair Menin Questions DOT on Walk-In Centers and Pending Applications",
+      "end_sec": 6039.1,
+      "id": "033",
+      "slug": "chair-menin-questions-dot-on-pending-applications-and-walk-in-licensing-centers",
+      "start_sec": 5901.57,
+      "summary": "Chair Julie Menin asks DOT about the status of the remaining 20% of applications and suggests establishing walk-in licensing centers in every borough to assist struggling business owners.",
+      "title": "Chair Menin Questions DOT on Pending Applications and Walk-In Licensing Centers",
       "type": "QA",
       "utterances": [
         {
@@ -16326,7 +16381,18 @@
           "speaker": "Julie Menin",
           "t_sec": 6037.63,
           "text": "WE'RE HEARING FROM RESTAURANTS"
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 6152.27,
+      "id": "034",
+      "slug": "chair-menin-questions-dot-on-low-restaurant-application-rates",
+      "start_sec": 6039.1,
+      "summary": "Chair Julie Menin asks DOT why only 3,200 restaurants applied for the permanent program compared to the 13,000 that participated during the pandemic peak.",
+      "title": "Chair Menin Questions DOT on Low Restaurant Application Rates",
+      "type": "QA",
+      "utterances": [
         {
           "speaker": "Julie Menin",
           "t_sec": 6039.1,
@@ -16411,18 +16477,7 @@
           "speaker": "UNKNOWN",
           "t_sec": 6061.7,
           "text": "TO GO TO, WE WILL, WE WILL"
-        }
-      ]
-    },
-    {
-      "end_sec": 6151.0,
-      "id": "029",
-      "slug": "chair-menin-questions-dot-on-low-application-rates",
-      "start_sec": 6062.0,
-      "summary": "Chair Julie Menin questions DOT on the low application rate compared to the temporary program. Margaret Forgione defends the participation rate, comparing it to similar transitions in Paris, and notes that DOT is actively working to increase outreach to boost enrollment.",
-      "title": "Chair Menin Questions DOT on Low Application Rates",
-      "type": "QA",
-      "utterances": [
+        },
         {
           "speaker": "UNKNOWN",
           "t_sec": 6062.87,
@@ -16692,23 +16747,23 @@
           "speaker": "UNKNOWN",
           "t_sec": 6147.8,
           "text": "EVERY DAY. SO THE NUMBERS KEEP"
-        }
-      ]
-    },
-    {
-      "end_sec": 6194.0,
-      "id": "030",
-      "slug": "chair-menin-questions-dot-on-language-accessibility-timeline",
-      "start_sec": 6151.0,
-      "summary": "Chair Julie Menin questions DOT on why the application was initially launched only in English and Spanish. Michelle Craven clarifies that the application is now available in 12 languages, and agrees to provide the exact timeline of when the additional languages were implemented.",
-      "title": "Chair Menin Questions DOT on Language Accessibility Timeline",
-      "type": "QA",
-      "utterances": [
+        },
         {
           "speaker": "Julie Menin",
           "t_sec": 6151.23,
           "text": "GOING UP REGULARLY. WHY."
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 6192.13,
+      "id": "035",
+      "slug": "chair-menin-questions-dot-on-language-accessibility-of-the-application",
+      "start_sec": 6152.27,
+      "summary": "Chair Julie Menin questions DOT on the language accessibility of the application, and DOT clarifies that the application is now available in 12 languages.",
+      "title": "Chair Menin Questions DOT on Language Accessibility of the Application",
+      "type": "QA",
+      "utterances": [
         {
           "speaker": "Julie Menin",
           "t_sec": 6152.27,
@@ -16853,23 +16908,23 @@
           "speaker": "Julie Menin",
           "t_sec": 6189.73,
           "text": "WE'LL FIND OUT AND GET MORE."
-        },
-        {
-          "speaker": "UNKNOWN",
-          "t_sec": 6192.13,
-          "text": ">>CLARITY. OKAY, OKAY. WHAT"
         }
       ]
     },
     {
-      "end_sec": 6480.0,
-      "id": "031",
-      "slug": "chair-menin-questions-dot-on-revocable-consents-and-fees",
-      "start_sec": 6194.0,
-      "summary": "Chair Julie Menin asks DOT how they plan to address advocate complaints regarding revocable consents, high fees, and backlogs. Margaret Forgione and Michelle Craven discuss the constraints of the City Charter and outline the administrative measures taken to assign dedicated plan reviewers to each applicant.",
-      "title": "Chair Menin Questions DOT on Revocable Consents and Fees",
+      "end_sec": 6249.77,
+      "id": "036",
+      "slug": "chair-menin-questions-dot-on-addressing-restaurant-owner-complaints",
+      "start_sec": 6192.13,
+      "summary": "Chair Julie Menin asks DOT how they plan to address the myriad of complaints raised by restaurant owners regarding the confusing and expensive application process.",
+      "title": "Chair Menin Questions DOT on Addressing Restaurant Owner Complaints",
       "type": "QA",
       "utterances": [
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 6192.13,
+          "text": ">>CLARITY. OKAY, OKAY. WHAT"
+        },
         {
           "speaker": "UNKNOWN",
           "t_sec": 6194.1,
@@ -17014,7 +17069,18 @@
           "speaker": "UNKNOWN",
           "t_sec": 6248.83,
           "text": "MAKING IMPROVEMENTS, BUT MAYBE"
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 6479.47,
+      "id": "037",
+      "slug": "michelle-craven-explains-dot-s-plan-review-process-and-outreach-efforts",
+      "start_sec": 6249.77,
+      "summary": "Associate Deputy Commissioner Michelle Craven explains DOT's dedicated plan review process, outreach efforts, and how reviewers work directly with restaurants to correct substandard drawings.",
+      "title": "Michelle Craven Explains DOT's Plan Review Process and Outreach Efforts",
+      "type": "QA",
+      "utterances": [
         {
           "speaker": "UNKNOWN",
           "t_sec": 6249.77,
@@ -17669,23 +17735,23 @@
           "speaker": "UNKNOWN",
           "t_sec": 6476.2,
           "text": "MAKE SURE THEY UNDERSTOOD IT."
-        },
-        {
-          "speaker": "Julie Menin",
-          "t_sec": 6479.47,
-          "text": "THAT'S JUST A SAMPLING OF IT."
         }
       ]
     },
     {
-      "end_sec": 6654.0,
-      "id": "032",
-      "slug": "chair-menin-questions-dot-on-sidewalk-clearance-and-scaffolding",
-      "start_sec": 6480.0,
-      "summary": "Chair Julie Menin asks DOT about allowing greater flexibility for sidewalk clearances and addressing scaffolding conflicts. Margaret Forgione explains that sidewalk clearances are based on a data-driven pedestrian mobility plan designed to ensure safe pedestrian flow on crowded corridors.",
-      "title": "Chair Menin Questions DOT on Sidewalk Clearance and Scaffolding",
+      "end_sec": 6654.8,
+      "id": "038",
+      "slug": "chair-menin-questions-dot-on-sidewalk-clearances-and-scaffolding-rules",
+      "start_sec": 6479.47,
+      "summary": "Chair Julie Menin questions DOT on the flexibility of sidewalk clearance requirements and how scaffolding rules impact outdoor dining setups.",
+      "title": "Chair Menin Questions DOT on Sidewalk Clearances and Scaffolding Rules",
       "type": "QA",
       "utterances": [
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 6479.47,
+          "text": "THAT'S JUST A SAMPLING OF IT."
+        },
         {
           "speaker": "Julie Menin",
           "t_sec": 6480.4,
@@ -18175,23 +18241,23 @@
           "speaker": "UNKNOWN",
           "t_sec": 6649.73,
           "text": "RESTAURANTS OPERATING AS WE"
-        }
-      ]
-    },
-    {
-      "end_sec": 6854.0,
-      "id": "033",
-      "slug": "chair-menin-questions-dot-on-staffing-levels-and-processing-times",
-      "start_sec": 6654.0,
-      "summary": "Chair Julie Menin questions DOT on whether their current staffing levels are sufficient to address the application backlog. Margaret Forgione states that the current staff is sufficient, attributing processing delays to mandatory review periods required by the City Charter and local laws.",
-      "title": "Chair Menin Questions DOT on Staffing Levels and Processing Times",
-      "type": "QA",
-      "utterances": [
+        },
         {
           "speaker": "UNKNOWN",
           "t_sec": 6654.53,
           "text": "COULD."
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 6747.8,
+      "id": "039",
+      "slug": "chair-menin-questions-dot-on-staffing-levels-and-budget-allocations",
+      "start_sec": 6654.8,
+      "summary": "Chair Julie Menin asks DOT if the agency has filled the additional staff positions funded in the FY 2025 budget to process outdoor dining applications.",
+      "title": "Chair Menin Questions DOT on Staffing Levels and Budget Allocations",
+      "type": "QA",
+      "utterances": [
         {
           "speaker": "Julie Menin",
           "t_sec": 6654.8,
@@ -18456,7 +18522,18 @@
           "speaker": "Julie Menin",
           "t_sec": 6747.2,
           "text": "THIS PROGRAM."
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 6813.0,
+      "id": "040",
+      "slug": "chair-menin-questions-dot-on-application-processing-times",
+      "start_sec": 6747.8,
+      "summary": "Chair Julie Menin questions DOT on the average time it takes to process an application and requests examples of applications that were approved within a few weeks.",
+      "title": "Chair Menin Questions DOT on Application Processing Times",
+      "type": "QA",
+      "utterances": [
         {
           "speaker": "UNKNOWN",
           "t_sec": 6747.8,
@@ -18686,7 +18763,18 @@
           "speaker": "UNKNOWN",
           "t_sec": 6812.0,
           "text": "OF THAT SHOW? YES, THAT."
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 6841.3,
+      "id": "041",
+      "slug": "chair-menin-asks-dot-about-year-round-roadway-dining-flexibility",
+      "start_sec": 6813.0,
+      "summary": "Chair Julie Menin asks DOT if the agency is open to legislative amendments that would allow for a year-round roadway dining program to reduce storage burdens on restaurants.",
+      "title": "Chair Menin Asks DOT About Year-Round Roadway Dining Flexibility",
+      "type": "QA",
+      "utterances": [
         {
           "speaker": "Julie Menin",
           "t_sec": 6813.0,
@@ -18781,23 +18869,23 @@
           "speaker": "Julie Menin",
           "t_sec": 6840.37,
           "text": "RESPECTFUL MY COLLEAGUES, SO"
-        },
-        {
-          "speaker": "Selvena N. Brooks-Powers",
-          "t_sec": 6841.3,
-          "text": "LET ME TURN IT OVER TO CHAIR"
         }
       ]
     },
     {
-      "end_sec": 7066.0,
-      "id": "034",
-      "slug": "chair-brooks-powers-questions-dot-on-sidewalk-and-roadway-review-steps",
-      "start_sec": 6854.0,
-      "summary": "Chair Selvena N. Brooks-Powers asks DOT to walk through the step-by-step review process for both sidewalk and roadway cafe applications. Margaret Forgione details the timeline for preliminary reviews, community board notifications, public hearings, and City Council review periods.",
-      "title": "Chair Brooks-Powers Questions DOT on Sidewalk and Roadway Review Steps",
+      "end_sec": 7008.0,
+      "id": "042",
+      "slug": "chair-brooks-powers-questions-dot-on-sidewalk-cafe-review-process",
+      "start_sec": 6841.3,
+      "summary": "Chair Selvena Brooks-Powers asks DOT to walk through the step-by-step review process for sidewalk cafe licenses and revocable consents, including community board timelines.",
+      "title": "Chair Brooks-Powers Questions DOT on Sidewalk Cafe Review Process",
       "type": "QA",
       "utterances": [
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 6841.3,
+          "text": "LET ME TURN IT OVER TO CHAIR"
+        },
         {
           "speaker": "Selvena N. Brooks-Powers",
           "t_sec": 6854.67,
@@ -19277,7 +19365,18 @@
           "speaker": "UNKNOWN",
           "t_sec": 7003.53,
           "text": ">>AND GOES TO THE CONTROLLER"
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 7103.63,
+      "id": "043",
+      "slug": "chair-brooks-powers-questions-dot-on-roadway-cafe-review-process",
+      "start_sec": 7008.0,
+      "summary": "Chair Selvena Brooks-Powers asks DOT to detail the review process for roadway cafes, including public hearing requirements and charter-mandated advertising timelines.",
+      "title": "Chair Brooks-Powers Questions DOT on Roadway Cafe Review Process",
+      "type": "QA",
+      "utterances": [
         {
           "speaker": "UNKNOWN",
           "t_sec": 7008.0,
@@ -19442,18 +19541,7 @@
           "speaker": "Selvena N. Brooks-Powers",
           "t_sec": 7065.77,
           "text": "THE LICENSE. THANK YOU FOR"
-        }
-      ]
-    },
-    {
-      "end_sec": 7215.0,
-      "id": "035",
-      "slug": "chair-brooks-powers-questions-dot-on-common-application-issues",
-      "start_sec": 7066.0,
-      "summary": "Chair Selvena N. Brooks-Powers asks DOT about common issues applicants face during the preliminary review stage and coordination with DCWP. Margaret Forgione and Michelle Craven identify inadequate site plans, delayed public hearing payments, and missing paperwork as primary bottlenecks.",
-      "title": "Chair Brooks-Powers Questions DOT on Common Application Issues",
-      "type": "QA",
-      "utterances": [
+        },
         {
           "speaker": "Selvena N. Brooks-Powers",
           "t_sec": 7066.63,
@@ -19528,7 +19616,18 @@
           "speaker": "Selvena N. Brooks-Powers",
           "t_sec": 7102.97,
           "text": "APPLICATIONS. NEXT."
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 7240.03,
+      "id": "044",
+      "slug": "chair-brooks-powers-questions-dot-on-common-preliminary-review-issues",
+      "start_sec": 7103.63,
+      "summary": "Chair Selvena Brooks-Powers asks DOT about the most common issues applicants face during the preliminary review stage, such as payment delays and missing paperwork.",
+      "title": "Chair Brooks-Powers Questions DOT on Common Preliminary Review Issues",
+      "type": "QA",
+      "utterances": [
         {
           "speaker": "Selvena N. Brooks-Powers",
           "t_sec": 7103.63,
@@ -19793,18 +19892,7 @@
           "speaker": "UNKNOWN",
           "t_sec": 7210.0,
           "text": "WE COULD AVOID THEM. HMM. I'M"
-        }
-      ]
-    },
-    {
-      "end_sec": 7337.0,
-      "id": "036",
-      "slug": "chair-brooks-powers-questions-dot-on-sidewalk-clearance-changes",
-      "start_sec": 7215.0,
-      "summary": "Chair Selvena N. Brooks-Powers asks DOT how they determined the clearance distances between sidewalk cafes and other street elements like subway stairs and tree beds. Michelle Craven explains that DOT held extensive interagency meetings to align clearances with safety standards and utility access needs.",
-      "title": "Chair Brooks-Powers Questions DOT on Sidewalk Clearance Changes",
-      "type": "QA",
-      "utterances": [
+        },
         {
           "speaker": "UNKNOWN",
           "t_sec": 7215.33,
@@ -19869,7 +19957,18 @@
           "speaker": "UNKNOWN",
           "t_sec": 7239.63,
           "text": "CAFES."
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 7337.4,
+      "id": "045",
+      "slug": "chair-brooks-powers-questions-dot-on-sidewalk-clearances-and-utility-coordination",
+      "start_sec": 7240.03,
+      "summary": "Chair Selvena Brooks-Powers questions DOT on how sidewalk clearance requirements were determined and how the agency coordinates with utilities and sister agencies.",
+      "title": "Chair Brooks-Powers Questions DOT on Sidewalk Clearances and Utility Coordination",
+      "type": "QA",
+      "utterances": [
         {
           "speaker": "Selvena N. Brooks-Powers",
           "t_sec": 7240.03,
@@ -20148,12 +20247,12 @@
       ]
     },
     {
-      "end_sec": 7470.0,
-      "id": "037",
-      "slug": "chair-brooks-powers-questions-dot-on-federal-funding-and-marketplace-directory",
-      "start_sec": 7337.0,
-      "summary": "Chair Selvena N. Brooks-Powers asks DOT for an update on federal funding secured by Congresswoman Grace Meng for outdoor setups and the status of the online marketplace directory. Michelle Craven provides installation updates for setups in Queens and discusses the utility of the marketplace directory.",
-      "title": "Chair Brooks-Powers Questions DOT on Federal Funding and Marketplace Directory",
+      "end_sec": 7470.9,
+      "id": "046",
+      "slug": "chair-brooks-powers-questions-dot-on-federal-funding-and-the-marketplace-directory",
+      "start_sec": 7337.4,
+      "summary": "Chair Selvena Brooks-Powers asks DOT for an update on federal funding secured for outdoor setups in Queens and the usage of the online Marketplace Directory.",
+      "title": "Chair Brooks-Powers Questions DOT on Federal Funding and the Marketplace Directory",
       "type": "QA",
       "utterances": [
         {
@@ -20439,12 +20538,12 @@
       ]
     },
     {
-      "end_sec": 7582.0,
-      "id": "038",
-      "slug": "council-member-brewer-questions-dot-on-shortening-the-process",
-      "start_sec": 7470.0,
-      "summary": "Council Member Gale Brewer asks DOT for suggestions to shorten the application process and whether revocable consents can be replaced by permits. Margaret Forgione and Michelle Craven express openness to discussing legislative changes with the Council to streamline review periods.",
-      "title": "Council Member Brewer Questions DOT on Shortening the Process",
+      "end_sec": 7582.83,
+      "id": "047",
+      "slug": "council-member-brewer-questions-dot-on-simplifying-floor-plans-and-technical-reviews",
+      "start_sec": 7470.9,
+      "summary": "Council Member Gale Brewer asks DOT if revocable consents can be replaced with a simpler permit process and how the agency coordinates with other city departments.",
+      "title": "Council Member Brewer Questions DOT on Simplifying Floor Plans and Technical Reviews",
       "type": "QA",
       "utterances": [
         {
@@ -20796,23 +20895,23 @@
           "speaker": "UNKNOWN",
           "t_sec": 7579.57,
           "text": "TALK MORE, BUT PROBABLY OFF"
-        }
-      ]
-    },
-    {
-      "end_sec": 7729.0,
-      "id": "039",
-      "slug": "council-member-brewer-questions-dot-on-interagency-coordination-and-website-updates",
-      "start_sec": 7582.0,
-      "summary": "Council Member Gale Brewer asks DOT about coordination with other city agencies and updates to the public website to show legal versus illegal setups. Margaret Forgione and Michelle Craven explain that interagency coordination occurs on an ad-hoc basis and that the website is continually updated.",
-      "title": "Council Member Brewer Questions DOT on Interagency Coordination and Website Updates",
-      "type": "QA",
-      "utterances": [
+        },
         {
           "speaker": "UNKNOWN",
           "t_sec": 7582.63,
           "text": "LINE."
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 7645.37,
+      "id": "048",
+      "slug": "council-member-brewer-questions-dot-on-interagency-coordination",
+      "start_sec": 7582.83,
+      "summary": "Council Member Gale Brewer asks DOT about the level of coordination with the Fire Department, Sanitation, and City Planning through the quarterly task force.",
+      "title": "Council Member Brewer Questions DOT on Interagency Coordination",
+      "type": "QA",
+      "utterances": [
         {
           "speaker": "Gale A. Brewer",
           "t_sec": 7582.83,
@@ -21002,7 +21101,18 @@
           "speaker": "Gale A. Brewer",
           "t_sec": 7643.23,
           "text": ">>HOC. OKAY, UM, THE OTHER"
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 7713.4,
+      "id": "049",
+      "slug": "council-member-brewer-questions-dot-on-adding-setup-status-to-the-website",
+      "start_sec": 7645.37,
+      "summary": "Council Member Gale Brewer asks DOT if the legal or illegal status of outdoor dining setups can be clearly indicated on the agency's public website.",
+      "title": "Council Member Brewer Questions DOT on Adding Setup Status to the Website",
+      "type": "QA",
+      "utterances": [
         {
           "speaker": "UNKNOWN",
           "t_sec": 7645.37,
@@ -21217,7 +21327,18 @@
           "speaker": "Gale A. Brewer",
           "t_sec": 7712.0,
           "text": ". OKAY, IT NEEDS A NEEDS THAT."
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 7792.0,
+      "id": "050",
+      "slug": "council-member-brewer-questions-dot-on-street-cleaning-and-paving-coordination",
+      "start_sec": 7713.4,
+      "summary": "Council Member Gale Brewer asks DOT how the agency coordinates street cleaning and road paving around active roadway dining setups.",
+      "title": "Council Member Brewer Questions DOT on Street Cleaning and Paving Coordination",
+      "type": "QA",
+      "utterances": [
         {
           "speaker": "Gale A. Brewer",
           "t_sec": 7713.4,
@@ -21277,18 +21398,7 @@
           "speaker": "Gale A. Brewer",
           "t_sec": 7728.6,
           "text": ">>TIME I'VE GOT THE OTHER"
-        }
-      ]
-    },
-    {
-      "end_sec": 7956.0,
-      "id": "040",
-      "slug": "council-member-brewer-questions-dot-on-street-cleaning-and-fee-structures",
-      "start_sec": 7729.0,
-      "summary": "Council Member Gale Brewer asks DOT about street cleaning, road paving coordination, and fee structures. Margaret Forgione explains that the removable design of roadway setups allows for paving, and defends the fee structure as reasonable compared to commercial indoor rents.",
-      "title": "Council Member Brewer Questions DOT on Street Cleaning and Fee Structures",
-      "type": "QA",
-      "utterances": [
+        },
         {
           "speaker": "UNKNOWN",
           "t_sec": 7729.27,
@@ -21498,7 +21608,18 @@
           "speaker": "Gale A. Brewer",
           "t_sec": 7790.67,
           "text": "CURB, OKAY? AND THE OTHER"
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 7961.0,
+      "id": "051",
+      "slug": "council-member-brewer-questions-dot-on-fee-structures-and-indoor-rent-comparisons",
+      "start_sec": 7792.0,
+      "summary": "Council Member Gale Brewer questions DOT on the fee structure for outdoor dining, and DOT provides examples comparing outdoor fees to indoor commercial rent.",
+      "title": "Council Member Brewer Questions DOT on Fee Structures and Indoor Rent Comparisons",
+      "type": "QA",
+      "utterances": [
         {
           "speaker": "Gale A. Brewer",
           "t_sec": 7792.0,
@@ -21928,18 +22049,7 @@
           "speaker": "Julie Menin",
           "t_sec": 7953.93,
           "text": "COMMENT ON IT. THANK YOU. YOU"
-        }
-      ]
-    },
-    {
-      "end_sec": 8122.0,
-      "id": "041",
-      "slug": "council-member-narcisse-questions-dot-on-road-paving-and-fee-calculations",
-      "start_sec": 7956.0,
-      "summary": "Council Member Mercedes Narcisse asks DOT about road paving coordination and whether there is flexibility in fee calculations for struggling businesses. Margaret Forgione explains the notification process for road milling and paving, and notes that standard fee rates cannot be modified on a one-off basis.",
-      "title": "Council Member Narcisse Questions DOT on Road Paving and Fee Calculations",
-      "type": "QA",
-      "utterances": [
+        },
         {
           "speaker": "Julie Menin",
           "t_sec": 7956.07,
@@ -21949,7 +22059,18 @@
           "speaker": "Mercedes Narcisse",
           "t_sec": 7957.13,
           "text": "MUCH AND NOW COUNCIL NARCIS."
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 8086.27,
+      "id": "052",
+      "slug": "council-member-narcisse-questions-dot-on-setup-size-flexibility-and-liquor-liability-insurance",
+      "start_sec": 7961.0,
+      "summary": "Council Member Mercedes Narcisse asks DOT about flexibility in modifying setup sizes for struggling businesses and the requirement for additional liquor liability insurance.",
+      "title": "Council Member Narcisse Questions DOT on Setup Size Flexibility and Liquor Liability Insurance",
+      "type": "QA",
+      "utterances": [
         {
           "speaker": "Mercedes Narcisse",
           "t_sec": 7961.0,
@@ -22314,7 +22435,18 @@
           "speaker": "Mercedes Narcisse",
           "t_sec": 8083.73,
           "text": ">>KNOW. YEAH, I JUST WANTED"
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 8231.83,
+      "id": "053",
+      "slug": "council-member-narcisse-questions-dot-on-corner-daylighting-impacts",
+      "start_sec": 8086.27,
+      "summary": "Council Member Mercedes Narcisse questions DOT on how corner daylighting safety rules impact the available space for roadway cafes.",
+      "title": "Council Member Narcisse Questions DOT on Corner Daylighting Impacts",
+      "type": "QA",
+      "utterances": [
         {
           "speaker": "Mercedes Narcisse",
           "t_sec": 8086.27,
@@ -22409,18 +22541,7 @@
           "speaker": "Mercedes Narcisse",
           "t_sec": 8120.6,
           "text": "THANK YOU FOR THAT THE"
-        }
-      ]
-    },
-    {
-      "end_sec": 8236.0,
-      "id": "042",
-      "slug": "council-member-narcisse-questions-dot-on-liquor-liability-insurance-and-daylighting",
-      "start_sec": 8122.0,
-      "summary": "Council Member Mercedes Narcisse asks DOT about additional liquor liability insurance requirements and how daylighting rules affect corner restaurants. Margaret Forgione explains that the million-dollar insurance requirement is a city standard, and confirms that daylighting rules restrict setups in corner no-standing zones.",
-      "title": "Council Member Narcisse Questions DOT on Liquor Liability Insurance and Daylighting",
-      "type": "QA",
-      "utterances": [
+        },
         {
           "speaker": "Mercedes Narcisse",
           "t_sec": 8122.8,
@@ -22720,7 +22841,18 @@
           "speaker": "Julie Menin",
           "t_sec": 8230.43,
           "text": "CHAIR VETERAN ERIN. THANK YOU"
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 8347.0,
+      "id": "054",
+      "slug": "council-member-restler-questions-dot-on-program-success-and-low-approval-rates",
+      "start_sec": 8231.83,
+      "summary": "Council Member Lincoln Restler challenges DOT's characterization of the program as a success, pointing to the low approval rates and the loss of thousands of outdoor dining setups.",
+      "title": "Council Member Restler Questions DOT on Program Success and Low Approval Rates",
+      "type": "QA",
+      "utterances": [
         {
           "speaker": "Julie Menin",
           "t_sec": 8231.83,
@@ -22730,18 +22862,7 @@
           "speaker": "Julie Menin",
           "t_sec": 8233.1,
           "text": "FILED BY COUNCIL MEMBER LUIS."
-        }
-      ]
-    },
-    {
-      "end_sec": 8513.0,
-      "id": "043",
-      "slug": "council-member-restler-questions-dot-on-low-approval-rates",
-      "start_sec": 8236.0,
-      "summary": "Council Member Lincoln Restler questions DOT on the low percentage of approved roadway cafes, characterizing the permanent program as an unmitigated failure. Margaret Forgione disputes this characterization, stating that 2,603 restaurants are currently authorized to operate and that the program is transitioning successfully.",
-      "title": "Council Member Restler Questions DOT on Low Approval Rates",
-      "type": "QA",
-      "utterances": [
+        },
         {
           "speaker": "Lincoln Restler",
           "t_sec": 8236.7,
@@ -23046,7 +23167,18 @@
           "speaker": "Lincoln Restler",
           "t_sec": 8346.27,
           "text": "THE PROCESS. LET'S JUST DRILL"
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 8485.1,
+      "id": "055",
+      "slug": "council-member-restler-disputes-dot-s-statistics-on-pandemic-era-participation",
+      "start_sec": 8347.0,
+      "summary": "Council Member Lincoln Restler disputes DOT's statistics regarding the peak number of participating restaurants during the pandemic, arguing that the program has been severely diminished.",
+      "title": "Council Member Restler Disputes DOT's Statistics on Pandemic-Era Participation",
+      "type": "QA",
+      "utterances": [
         {
           "speaker": "Lincoln Restler",
           "t_sec": 8347.0,
@@ -23511,7 +23643,18 @@
           "speaker": "Lincoln Restler",
           "t_sec": 8483.87,
           "text": "NUMBER THAT OPERATED AT ANY"
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 8617.13,
+      "id": "056",
+      "slug": "council-member-restler-and-chair-menin-discuss-upcoming-legislation-to-revamp-outdoor-dining",
+      "start_sec": 8485.1,
+      "summary": "Council Member Lincoln Restler and Chair Julie Menin discuss the need for new legislation to revamp the outdoor dining program and potentially transfer jurisdiction to a licensing agency.",
+      "title": "Council Member Restler and Chair Menin Discuss Upcoming Legislation to Revamp Outdoor Dining",
+      "type": "QA",
+      "utterances": [
         {
           "speaker": "Lincoln Restler",
           "t_sec": 8485.1,
@@ -23611,18 +23754,7 @@
           "speaker": "Lincoln Restler",
           "t_sec": 8512.77,
           "text": "THEM A LITTLE BIT."
-        }
-      ]
-    },
-    {
-      "end_sec": 8617.0,
-      "id": "044",
-      "slug": "chair-menin-and-council-member-restler-discuss-transferring-program-to-dcwp",
-      "start_sec": 8513.0,
-      "summary": "Chair Julie Menin and Council Member Lincoln Restler discuss the possibility of introducing legislation to transfer the outdoor dining program's jurisdiction from DOT to the Department of Consumer and Worker Protection (DCWP) to utilize their licensing expertise.",
-      "title": "Chair Menin and Council Member Restler Discuss Transferring Program to DCWP",
-      "type": "QA",
-      "utterances": [
+        },
         {
           "speaker": "UNKNOWN",
           "t_sec": 8513.3,
@@ -23981,12 +24113,12 @@
       ]
     },
     {
-      "end_sec": 8675.0,
-      "id": "045",
-      "slug": "chair-menin-questions-dot-on-outreach-to-former-temporary-participants",
-      "start_sec": 8617.0,
-      "summary": "Chair Julie Menin asks DOT if they have directly contacted all 13,144 former temporary program participants. Margaret Forgione explains that DOT inspectors and staff have visited and emailed every active food service establishment multiple times to encourage participation.",
-      "title": "Chair Menin Questions DOT on Outreach to Former Temporary Participants",
+      "end_sec": 8675.73,
+      "id": "057",
+      "slug": "chair-menin-asks-dot-about-outreach-to-pandemic-era-participants",
+      "start_sec": 8617.13,
+      "summary": "Chair Julie Menin asks DOT if the agency sent direct communications to all 13,000 restaurants that participated in the temporary pandemic-era program.",
+      "title": "Chair Menin Asks DOT About Outreach to Pandemic-Era Participants",
       "type": "QA",
       "utterances": [
         {
@@ -24167,12 +24299,12 @@
       ]
     },
     {
-      "end_sec": 8862.0,
-      "id": "046",
-      "slug": "council-member-louis-questions-dot-on-sla-and-dohmh-coordination",
-      "start_sec": 8675.0,
-      "summary": "Council Member Farah N. Louis asks DOT about coordinating with the State Liquor Authority (SLA) and the Department of Health and Mental Hygiene (DOHMH). Michelle Craven explains that DOT has an excellent relationship with the SLA, which recognizes conditional approvals for outdoor alcohol service.",
-      "title": "Council Member Louis Questions DOT on SLA and DOHMH Coordination",
+      "end_sec": 8817.77,
+      "id": "058",
+      "slug": "council-member-louis-questions-dot-on-sla-coordination-for-outdoor-alcohol-service",
+      "start_sec": 8675.73,
+      "summary": "Council Member Farah Louis asks DOT about the coordination between the city and the State Liquor Authority (SLA) for businesses seeking to serve alcohol in outdoor setups.",
+      "title": "Council Member Louis Questions DOT on SLA Coordination for Outdoor Alcohol Service",
       "type": "QA",
       "utterances": [
         {
@@ -24584,7 +24716,18 @@
           "speaker": "Farah N. Louis",
           "t_sec": 8816.83,
           "text": "ALCOHOL OUTSIDE. ALL RIGHT, SO"
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 8856.27,
+      "id": "059",
+      "slug": "council-member-louis-questions-dot-on-interagency-health-and-safety-standards",
+      "start_sec": 8817.77,
+      "summary": "Council Member Farah Louis asks DOT about interagency communication mechanisms to ensure small businesses do not receive conflicting information regarding health and safety standards.",
+      "title": "Council Member Louis Questions DOT on Interagency Health and Safety Standards",
+      "type": "QA",
+      "utterances": [
         {
           "speaker": "Farah N. Louis",
           "t_sec": 8817.77,
@@ -24714,23 +24857,23 @@
           "speaker": "Julie Menin",
           "t_sec": 8855.27,
           "text": "YOU. CHAIRS. GREAT. THANK YOU"
-        },
-        {
-          "speaker": "Julie Menin",
-          "t_sec": 8856.27,
-          "text": "SO MUCH AND THEN COUNCILMEMBER"
         }
       ]
     },
     {
-      "end_sec": 9009.0,
-      "id": "047",
-      "slug": "council-member-rivera-questions-dot-on-marketplace-costs-and-vestibules",
-      "start_sec": 8862.0,
-      "summary": "Council Member Carlina Rivera asks DOT about the high cost of materials in the online marketplace and whether sidewalk vestibules are permitted. Michelle Craven explains that the marketplace offers various budget options, and clarifies that wind-blocking vestibules are not part of the Dining Out NYC program.",
-      "title": "Council Member Rivera Questions DOT on Marketplace Costs and Vestibules",
+      "end_sec": 8947.73,
+      "id": "060",
+      "slug": "council-member-rivera-questions-dot-on-marketplace-costs-and-compliant-setups",
+      "start_sec": 8856.27,
+      "summary": "Council Member Carlina Rivera questions DOT on the high costs of compliant setups available in the online marketplace and how the city can support sustainable investments.",
+      "title": "Council Member Rivera Questions DOT on Marketplace Costs and Compliant Setups",
       "type": "QA",
       "utterances": [
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 8856.27,
+          "text": "SO MUCH AND THEN COUNCILMEMBER"
+        },
         {
           "speaker": "Carlina Rivera",
           "t_sec": 8862.13,
@@ -24985,7 +25128,18 @@
           "speaker": "UNKNOWN",
           "t_sec": 8947.53,
           "text": "."
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 9025.1,
+      "id": "061",
+      "slug": "council-member-rivera-questions-dot-on-vestibules-and-winterizing-sidewalk-cafes",
+      "start_sec": 8947.73,
+      "summary": "Council Member Carlina Rivera asks DOT if vestibules and winterizing enclosures are permitted under the permanent sidewalk cafe guidelines.",
+      "title": "Council Member Rivera Questions DOT on Vestibules and Winterizing Sidewalk Cafes",
+      "type": "QA",
+      "utterances": [
         {
           "speaker": "Carlina Rivera",
           "t_sec": 8947.73,
@@ -25170,18 +25324,7 @@
           "speaker": "UNKNOWN",
           "t_sec": 9008.47,
           "text": "PENDING. CORRECT."
-        }
-      ]
-    },
-    {
-      "end_sec": 9111.0,
-      "id": "048",
-      "slug": "council-member-rivera-questions-dot-on-pending-applications-and-scaling-up",
-      "start_sec": 9009.0,
-      "summary": "Council Member Carlina Rivera asks DOT about pending applications and the agency's capacity to scale up to handle a larger number of operators. Margaret Forgione confirms that DOT has about 800 applications in active discussions and is fully prepared to scale up staffing if participation grows.",
-      "title": "Council Member Rivera Questions DOT on Pending Applications and Scaling Up",
-      "type": "QA",
-      "utterances": [
+        },
         {
           "speaker": "UNKNOWN",
           "t_sec": 9009.47,
@@ -25221,7 +25364,18 @@
           "speaker": "UNKNOWN",
           "t_sec": 9024.83,
           "text": "ALONG."
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 9111.37,
+      "id": "062",
+      "slug": "council-member-rivera-questions-dot-on-pending-applications-and-scaling-capacity",
+      "start_sec": 9025.1,
+      "summary": "Council Member Carlina Rivera questions DOT on the number of pending applications and whether the agency has the capacity to scale up to handle higher volumes.",
+      "title": "Council Member Rivera Questions DOT on Pending Applications and Scaling Capacity",
+      "type": "QA",
+      "utterances": [
         {
           "speaker": "Carlina Rivera",
           "t_sec": 9025.1,
@@ -25485,12 +25639,12 @@
       ]
     },
     {
-      "end_sec": 9234.0,
-      "id": "049",
-      "slug": "chair-menin-opens-public-testimony-and-outlines-rules",
-      "start_sec": 9111.0,
-      "summary": "Chair Julie Menin formally opens the floor for public testimony. She outlines the rules of decorum, time limits for speakers, and instructions for submitting written statements to the committee sergeant-at-arms.",
-      "title": "Chair Menin Opens Public Testimony and Outlines Rules",
+      "end_sec": 9234.43,
+      "id": "063",
+      "slug": "transition-to-public-testimony-and-decorum-rules",
+      "start_sec": 9111.37,
+      "summary": "Chair Julie Menin outlines the rules of decorum and time limits for public testimony, inviting the first panel of public witnesses to come forward.",
+      "title": "Transition to Public Testimony and Decorum Rules",
       "type": "PROCEDURE",
       "utterances": [
         {
@@ -25761,12 +25915,12 @@
       ]
     },
     {
-      "end_sec": 9427.0,
-      "id": "050",
-      "slug": "valerie-de-la-rosa-on-community-board-review-backlogs",
-      "start_sec": 9234.0,
-      "summary": "Valerie De La Rosa, Chair of Manhattan Community Board 5, testifies on the massive backlog of applications currently being reviewed by local boards. She highlights concerns regarding narrow street travel-width waivers, ADA compliance, and the impact of large outdoor setups on residential loading zones.",
-      "title": "Valerie De La Rosa on Community Board Review Backlogs",
+      "end_sec": 9427.43,
+      "id": "064",
+      "slug": "valerie-de-la-rosa-testimony-manhattan-community-board-5",
+      "start_sec": 9234.43,
+      "summary": "Valerie De La Rosa, Chair of Manhattan Community Board 5, testifies on the board's review of over 300 applications, highlighting concerns about emergency travel widths, ADA compliance, and the need for robust enforcement.",
+      "title": "Valerie De La Rosa Testimony: Manhattan Community Board 5",
       "type": "TESTIMONY",
       "utterances": [
         {
@@ -26257,12 +26411,12 @@
       ]
     },
     {
-      "end_sec": 9592.0,
-      "id": "051",
-      "slug": "lacey-tauber-on-brooklyn-borough-president-s-recommendations",
-      "start_sec": 9427.0,
-      "summary": "Lacey Tauber, representing Brooklyn Borough President Antonio Reynoso, testifies in support of restoring a year-round roadway dining program. She outlines recommendations to expedite approvals, remove community board oversight, and alleviate cost burdens for small and immigrant-owned businesses.",
-      "title": "Lacey Tauber on Brooklyn Borough President's Recommendations",
+      "end_sec": 9592.67,
+      "id": "065",
+      "slug": "lacey-tauber-testimony-brooklyn-borough-president-antonio-reynoso",
+      "start_sec": 9427.43,
+      "summary": "Lacey Tauber, representing Brooklyn Borough President Antonio Reynoso, testifies in support of restoring a year-round roadway dining program and reducing bureaucratic and cost burdens on small businesses.",
+      "title": "Lacey Tauber Testimony: Brooklyn Borough President Antonio Reynoso",
       "type": "TESTIMONY",
       "utterances": [
         {
@@ -26768,12 +26922,12 @@
       ]
     },
     {
-      "end_sec": 9839.0,
-      "id": "052",
-      "slug": "jean-ryan-on-ada-accessibility-in-outdoor-dining",
-      "start_sec": 9592.0,
-      "summary": "Jean Ryan, President of Disabled in Action of Metropolitan New York, testifies on the critical importance of maintaining strict ADA accessibility in outdoor dining setups. She opposes returning to year-round temporary sheds, citing past issues with inaccessible ramps, high stools, and blocked sidewalks.",
-      "title": "Jean Ryan on ADA Accessibility in Outdoor Dining",
+      "end_sec": 9839.97,
+      "id": "066",
+      "slug": "jean-ryan-testimony-disabled-in-action-of-metropolitan-ny",
+      "start_sec": 9592.67,
+      "summary": "Jean Ryan, President of Disabled in Action of Metropolitan NY, advocates strongly for ADA accessibility in outdoor dining setups, opposing year-round sheds that block sidewalks and create physical barriers.",
+      "title": "Jean Ryan Testimony: Disabled in Action of Metropolitan NY",
       "type": "TESTIMONY",
       "utterances": [
         {
@@ -27354,12 +27508,12 @@
       ]
     },
     {
-      "end_sec": 10003.0,
-      "id": "053",
-      "slug": "kathleen-irvin-on-nys-restaurant-association-concerns",
-      "start_sec": 9839.0,
-      "summary": "Kathleen Irvin, representing the New York State Restaurant Association, testifies on the challenges of the permanent program's rollout. She highlights the late announcement of conditional approvals, the logistical burdens of seasonal roadway storage, and the need for year-round roadway dining options.",
-      "title": "Kathleen Irvin on NYS Restaurant Association Concerns",
+      "end_sec": 10003.97,
+      "id": "067",
+      "slug": "kathleen-irwin-testimony-new-york-state-restaurant-association",
+      "start_sec": 9839.97,
+      "summary": "Kathleen Irwin, representing the New York State Restaurant Association, acknowledges DOT's educational resources but highlights significant challenges with application backlogs, seasonality, and high costs.",
+      "title": "Kathleen Irwin Testimony: New York State Restaurant Association",
       "type": "TESTIMONY",
       "utterances": [
         {
@@ -27860,12 +28014,12 @@
       ]
     },
     {
-      "end_sec": 10130.0,
-      "id": "054",
-      "slug": "cecil-brooks-jr-on-storefront-flexibility-and-year-round-options",
-      "start_sec": 10003.0,
-      "summary": "Cecil Brooks Jr., testifying on behalf of Open Plans, shares research on the challenges faced by small businesses and pop-up shops. He recommends implementing a year-round option, allowing storefront expansion agreements with neighboring businesses, and increasing transparency around material costs.",
-      "title": "Cecil Brooks Jr. on Storefront Flexibility and Year-Round Options",
+      "end_sec": 10130.77,
+      "id": "068",
+      "slug": "cecil-testimony-open-plans",
+      "start_sec": 10003.97,
+      "summary": "Cecil, representing Open Plans, discusses research on public space activation, recommending year-round roadway dining and greater flexibility for small businesses with limited storefront frontage.",
+      "title": "Cecil Testimony: Open Plans",
       "type": "TESTIMONY",
       "utterances": [
         {
@@ -28211,12 +28365,12 @@
       ]
     },
     {
-      "end_sec": 10299.0,
-      "id": "055",
-      "slug": "sara-lind-on-amending-legislation-for-year-round-roadway-dining",
-      "start_sec": 10130.0,
-      "summary": "Sara Lind, Co-Executive Director of Open Plans, testifies on the need to amend the permanent program to allow year-round roadway dining. She argues that seasonal rules drastically lower participation and create unnecessary storage challenges, while year-round options encourage higher-quality investments.",
-      "title": "Sara Lind on Amending Legislation for Year-Round Roadway Dining",
+      "end_sec": 10395.47,
+      "id": "069",
+      "slug": "sara-lind-testimony-open-plans",
+      "start_sec": 10130.77,
+      "summary": "Sara Lind, Co-Executive Director of Open Plans, urges the Council to amend the legislation to allow year-round roadway dining, noting that seasonal storage and deconstruction costs are prohibitive for small businesses.",
+      "title": "Sara Lind Testimony: Open Plans",
       "type": "TESTIMONY",
       "utterances": [
         {
@@ -28783,18 +28937,7 @@
           "speaker": "Member of the Public - Sara Lind",
           "t_sec": 10297.63,
           "text": "EXPEDITERS TO FEEL CONFIDENT"
-        }
-      ]
-    },
-    {
-      "end_sec": 10548.0,
-      "id": "056",
-      "slug": "charlotta-janssen-on-chez-oskar-summonses-and-restrictive-canopy-rules",
-      "start_sec": 10299.0,
-      "summary": "Charlotta Janssen, owner of Chez Oskar in Bed-Stuy, Brooklyn, testifies about receiving multiple summonses for her outdoor canopy setup. She criticizes the new rules as anti-business and anti-design, urging the city to allow enclosed canopies and self-certification for compliant operators.",
-      "title": "Charlotta Janssen on Chez Oskar Summonses and Restrictive Canopy Rules",
-      "type": "TESTIMONY",
-      "utterances": [
+        },
         {
           "speaker": "Member of the Public - Sara Lind",
           "t_sec": 10299.47,
@@ -28989,7 +29132,18 @@
           "speaker": "Julie Menin",
           "t_sec": 10393.8,
           "text": ">>SO OKAY, COME ON."
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 10548.3,
+      "id": "070",
+      "slug": "charlotta-janssen-testimony-chez-oskar",
+      "start_sec": 10395.47,
+      "summary": "Charlotta Janssen, owner of Chez Oskar in Bed-Stuy, describes the severe financial and operational toll of complying with the new rules, calling the regulations anti-business and anti-community.",
+      "title": "Charlotta Janssen Testimony: Chez Oskar",
+      "type": "TESTIMONY",
+      "utterances": [
         {
           "speaker": "Member of the Public - Charlotta Janssen",
           "t_sec": 10395.47,
@@ -29363,12 +29517,12 @@
       ]
     },
     {
-      "end_sec": 10732.0,
-      "id": "057",
-      "slug": "kevin-mulligan-on-sidewalk-storage-and-seasonal-logistical-hurdles",
-      "start_sec": 10548.0,
-      "summary": "Kevin Mulligan, owner of The Laurels in the East Village, testifies on the logistical absurdity of storing outdoor furniture nightly under the new rules. He explains that the ban on enclosed sidewalk cafes forces businesses to stack furniture on the pavement, creating unsightly and unsafe conditions.",
-      "title": "Kevin Mulligan on Sidewalk Storage and Seasonal Logistical Hurdles",
+      "end_sec": 10732.83,
+      "id": "071",
+      "slug": "kevin-mulligan-testimony-the-laurels",
+      "start_sec": 10548.3,
+      "summary": "Kevin Mulligan, owner of The Laurels in the East Village, criticizes the ban on enclosed sidewalk cafes, explaining the logistical impossibility of storing large amounts of furniture overnight.",
+      "title": "Kevin Mulligan Testimony: The Laurels",
       "type": "TESTIMONY",
       "utterances": [
         {
@@ -29874,12 +30028,12 @@
       ]
     },
     {
-      "end_sec": 10852.0,
-      "id": "058",
-      "slug": "mary-hanchar-on-enforcement-garbage-and-infrastructure-capacity",
-      "start_sec": 10732.0,
-      "summary": "Mary Hanchar, a NYC resident, testifies on the negative impacts of outdoor dining, focusing on enforcement failures, garbage accumulation, and infrastructure strain. She questions how restaurants can double their seating capacity without expanding their kitchens or adding restrooms.",
-      "title": "Mary Hanchar on Enforcement, Garbage, and Infrastructure Capacity",
+      "end_sec": 10852.87,
+      "id": "072",
+      "slug": "mary-honcho-testimony-resident-perspective",
+      "start_sec": 10732.83,
+      "summary": "Mary Honcho, a 46-year resident of NYC, raises concerns about the quality of life impacts of outdoor dining, including garbage accumulation, kitchen capacity limits, and bathroom availability.",
+      "title": "Mary Honcho Testimony: Resident Perspective",
       "type": "TESTIMONY",
       "utterances": [
         {
@@ -30180,12 +30334,12 @@
       ]
     },
     {
-      "end_sec": 10955.0,
-      "id": "059",
-      "slug": "augustine-hope-on-quality-of-life-issues-in-the-west-village",
-      "start_sec": 10852.0,
-      "summary": "Augustine Hope, representing the West Village Residents Association, testifies on how the outdoor dining program has disproportionately impacted his community. He highlights quality-of-life issues, including trash, late-night noise, and lack of accessibility, and urges the city to maintain seasonal roadway limits.",
-      "title": "Augustine Hope on Quality-of-Life Issues in the West Village",
+      "end_sec": 10955.23,
+      "id": "073",
+      "slug": "augustine-hope-testimony-west-village-residents-association",
+      "start_sec": 10852.87,
+      "summary": "Augustine Hope, representing the West Village Residents Association, testifies about the disproportionate negative impact of roadway dining setups on residential quality of life, citing noise and trash.",
+      "title": "Augustine Hope Testimony: West Village Residents Association",
       "type": "TESTIMONY",
       "utterances": [
         {
@@ -30471,12 +30625,12 @@
       ]
     },
     {
-      "end_sec": 11142.0,
-      "id": "060",
-      "slug": "leslie-clark-on-pedestrian-space-and-residential-zoning-impacts",
-      "start_sec": 10955.0,
-      "summary": "Leslie Clark, representing the West Village Residents Association, testifies against reducing sidewalk clearance requirements. She argues that the expansion of outdoor dining into residential zones has created an onerous burden for local residents who now face constant noise under their windows.",
-      "title": "Leslie Clark on Pedestrian Space and Residential Zoning Impacts",
+      "end_sec": 11104.9,
+      "id": "074",
+      "slug": "leslie-clark-testimony-west-village-residents-association",
+      "start_sec": 10955.23,
+      "summary": "Leslie Clark, representing the West Village Residents Association, criticizes the reduction of pedestrian clearances on sidewalks and praises the pre-pandemic enforcement model of the DCWP.",
+      "title": "Leslie Clark Testimony: West Village Residents Association",
       "type": "TESTIMONY",
       "utterances": [
         {
@@ -30833,7 +30987,18 @@
           "speaker": "Julie Menin",
           "t_sec": 11101.77,
           "text": "REQUEST FOR TRANSLATION"
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 11183.87,
+      "id": "075",
+      "slug": "transition-to-translated-panel",
+      "start_sec": 11104.9,
+      "summary": "Chair Julie Menin introduces the next panel of public witnesses, noting that translation services will be utilized for Spanish-speaking presenters.",
+      "title": "Transition to Translated Panel",
+      "type": "PROCEDURE",
+      "utterances": [
         {
           "speaker": "Julie Menin",
           "t_sec": 11104.9,
@@ -30893,18 +31058,7 @@
           "speaker": "Julie Menin",
           "t_sec": 11140.47,
           "text": "? OKAY, ON."
-        }
-      ]
-    },
-    {
-      "end_sec": 11485.0,
-      "id": "061",
-      "slug": "isabel-rosario-on-street-vendors-and-shared-public-space",
-      "start_sec": 11142.0,
-      "summary": "Isabel Rosario, representing the Street Vendor Project, testifies in Spanish (with translation) on the shared use of public space. She expresses support for outdoor dining but emphasizes the need for regulations that allow street vendors and restaurants to coexist and support the local economy.",
-      "title": "Isabel Rosario on Street Vendors and Shared Public Space",
-      "type": "TESTIMONY",
-      "utterances": [
+        },
         {
           "speaker": "Julie Menin",
           "t_sec": 11142.53,
@@ -30959,7 +31113,18 @@
           "speaker": "Julie Menin",
           "t_sec": 11180.23,
           "text": "THIS LITTLE."
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 11450.73,
+      "id": "076",
+      "slug": "isabel-rosario-testimony-street-vendors-project",
+      "start_sec": 11183.87,
+      "summary": "Isabel Rosario, a street vendor and board member of the Street Vendors Project, testifies (via translator) about the mutual benefits of public space activation and supports year-round outdoor dining.",
+      "title": "Isabel Rosario Testimony: Street Vendors Project",
+      "type": "TESTIMONY",
+      "utterances": [
         {
           "speaker": "Member of the Public - Isabel Rosario",
           "t_sec": 11183.87,
@@ -31474,7 +31639,18 @@
           "speaker": "Member of the Public - Isabel Rosario",
           "t_sec": 11447.13,
           "text": ">>WASTING WHAT HAVE."
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 11726.8,
+      "id": "077",
+      "slug": "marlene-ansaldo-testimony-street-vendors-project",
+      "start_sec": 11450.73,
+      "summary": "Marlene Ansaldo, a street vendor and board member of the Street Vendors Project, testifies (via translator) to request reduced fees for small businesses to help them grow and contribute to the city's economy.",
+      "title": "Marlene Ansaldo Testimony: Street Vendors Project",
+      "type": "TESTIMONY",
+      "utterances": [
         {
           "speaker": "Member of the Public - Marlene Ansaldo",
           "t_sec": 11450.73,
@@ -31524,18 +31700,7 @@
           "speaker": "Member of the Public - Marlene Ansaldo",
           "t_sec": 11480.93,
           "text": "A MICROPHONE UP. INDEED."
-        }
-      ]
-    },
-    {
-      "end_sec": 11752.0,
-      "id": "062",
-      "slug": "marlene-saldos-on-reducing-fees-for-small-outdoor-dining-setups",
-      "start_sec": 11485.0,
-      "summary": "Marlene Saldos, a street vendor and board member of the Street Vendor Project, testifies in Spanish (with translation) on the high financial burdens faced by small businesses. She urges the city to reduce fees for outdoor dining setups to help small, neighborhood restaurants survive and grow.",
-      "title": "Marlene Saldos on Reducing Fees for Small Outdoor Dining Setups",
-      "type": "TESTIMONY",
-      "utterances": [
+        },
         {
           "speaker": "Member of the Public - Marlene Ansaldo",
           "t_sec": 11485.2,
@@ -31960,7 +32125,18 @@
           "speaker": "Member of the Public - Marlene Ansaldo",
           "t_sec": 11726.33,
           "text": "THANK YOU."
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 11895.63,
+      "id": "078",
+      "slug": "norma-mckay-testimony-resident-perspective",
+      "start_sec": 11726.8,
+      "summary": "Norma McKay, a member of the public, complains about the takeover of sidewalks by restaurants that ignore rules, and criticizes the lack of effective enforcement by the Department of Transportation.",
+      "title": "Norma McKay Testimony: Resident Perspective",
+      "type": "TESTIMONY",
+      "utterances": [
         {
           "speaker": "Julie Menin",
           "t_sec": 11726.8,
@@ -32040,18 +32216,7 @@
           "speaker": "Julie Menin",
           "t_sec": 11749.87,
           "text": "YOU SO MUCH. OKAY, IT'S NAME"
-        }
-      ]
-    },
-    {
-      "end_sec": 11895.0,
-      "id": "063",
-      "slug": "norma-mc-on-dot-enforcement-failures-and-sidewalk-takeovers",
-      "start_sec": 11752.0,
-      "summary": "Norma Mc, a NYC resident, testifies on the negative impacts of outdoor dining, criticizing the lack of effective enforcement by DOT. She argues that non-compliant restaurants have taken over public sidewalks, making them impassable and driving out local retail shops.",
-      "title": "Norma Mc on DOT Enforcement Failures and Sidewalk Takeovers",
-      "type": "TESTIMONY",
-      "utterances": [
+        },
         {
           "speaker": "Member of the Public - Norma McKay",
           "t_sec": 11752.77,
@@ -32360,12 +32525,12 @@
       ]
     },
     {
-      "end_sec": 12029.0,
-      "id": "064",
-      "slug": "sharon-brown-on-proposing-a-delivery-based-outdoor-dining-model",
-      "start_sec": 11895.0,
-      "summary": "Sharon Brown, a member of the public, testifies on the need for year-round outdoor dining options. She proposes a creative delivery-based model where the city builds enclosed dining spaces in designated public areas, such as beaches, to prevent sidewalk clogging in front of restaurants.",
-      "title": "Sharon Brown on Proposing a Delivery-Based Outdoor Dining Model",
+      "end_sec": 12029.3,
+      "id": "079",
+      "slug": "sharon-brown-testimony-resident-perspective",
+      "start_sec": 11895.63,
+      "summary": "Sharon Brown, a resident, suggests a delivery option where the city or restaurants can set up outdoor dining spaces in distant locations, such as beaches, to avoid clogging residential windows.",
+      "title": "Sharon Brown Testimony: Resident Perspective",
       "type": "TESTIMONY",
       "utterances": [
         {
@@ -32651,12 +32816,12 @@
       ]
     },
     {
-      "end_sec": 12140.0,
-      "id": "065",
-      "slug": "madison-pinkney-on-sidewalk-accessibility-and-ada-enforcement",
-      "start_sec": 12029.0,
-      "summary": "Madison Pinkney, a legal fellow at New York Lawyers for the Public Interest, testifies on the critical need for sidewalk accessibility. She urges the City Council to ensure robust enforcement of clear path requirements and recommends that DOT publish an annual report of accessibility complaints.",
-      "title": "Madison Pinkney on Sidewalk Accessibility and ADA Enforcement",
+      "end_sec": 12125.3,
+      "id": "080",
+      "slug": "madison-pinckney-testimony-new-york-lawyers-for-the-public-interest",
+      "start_sec": 12029.3,
+      "summary": "Madison Pinckney, a legal fellow at New York Lawyers for the Public Interest, advocates for robust ADA accessibility enforcement and annual reporting of accessibility complaints.",
+      "title": "Madison Pinckney Testimony: New York Lawyers for the Public Interest",
       "type": "TESTIMONY",
       "utterances": [
         {
@@ -32938,7 +33103,18 @@
           "speaker": "Julie Menin",
           "t_sec": 12123.73,
           "text": "GOING TO GO TO ZOOM. WE'VE GOT"
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 12284.0,
+      "id": "081",
+      "slug": "john-grimes-testimony-west-village-resident",
+      "start_sec": 12125.3,
+      "summary": "John Grimes, a 35-year resident of the West Village, testifies via Zoom to oppose any loosening of outdoor dining rules, citing noise, drunken behavior, and the lack of an environmental impact study.",
+      "title": "John Grimes Testimony: West Village Resident",
+      "type": "TESTIMONY",
+      "utterances": [
         {
           "speaker": "Julie Menin",
           "t_sec": 12125.3,
@@ -32958,18 +33134,7 @@
           "speaker": "Julie Menin",
           "t_sec": 12130.93,
           "text": "HELD AND MICHELLE CAMPO. LOOK,"
-        }
-      ]
-    },
-    {
-      "end_sec": 12284.0,
-      "id": "066",
-      "slug": "john-grimes-on-west-village-quality-of-life-and-noise-violations",
-      "start_sec": 12140.0,
-      "summary": "John Grimes, a 35-year resident of the West Village, testifies via Zoom against loosening outdoor dining regulations. He describes the program as an illegal giveaway of public land to the hospitality industry and details his personal struggles with late-night noise and non-compliant setups.",
-      "title": "John Grimes on West Village Quality-of-Life and Noise Violations",
-      "type": "TESTIMONY",
-      "utterances": [
+        },
         {
           "speaker": "Member of the Public - John Grimes",
           "t_sec": 12140.73,
@@ -33383,12 +33548,12 @@
       ]
     },
     {
-      "end_sec": 12445.0,
-      "id": "067",
-      "slug": "kiara-on-outdoor-dining-benefits-for-immunocompromised-residents",
+      "end_sec": 12433.7,
+      "id": "082",
+      "slug": "kiara-sakiheld-testimony-lower-east-side-resident",
       "start_sec": 12284.0,
-      "summary": "Kiara, a Lower East Side resident, testifies via Zoom in favor of expanding outdoor dining accommodations. She explains that outdoor setups are the only safe way for immunocompromised and high-risk New Yorkers to socialize and participate in public life.",
-      "title": "Kiara on Outdoor Dining Benefits for Immunocompromised Residents",
+      "summary": "Kiara Sakiheld, a Lower East Side resident, testifies via Zoom in favor of outdoor dining as a crucial public health accommodation for immunocompromised individuals.",
+      "title": "Kiara Sakiheld Testimony: Lower East Side Resident",
       "type": "TESTIMONY",
       "utterances": [
         {
@@ -33860,7 +34025,18 @@
           "speaker": "Julie Menin",
           "t_sec": 12412.47,
           "text": "PLEASE. YOU BEGIN."
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 12481.6,
+      "id": "083",
+      "slug": "michelle-campo-testimony-lower-east-side-resident",
+      "start_sec": 12433.7,
+      "summary": "Michelle Campo, a Lower East Side resident, briefly testifies via Zoom to note the lack of balance in the program and submits her full written testimony for the record.",
+      "title": "Michelle Campo Testimony: Lower East Side Resident",
+      "type": "TESTIMONY",
+      "utterances": [
         {
           "speaker": "Member of the Public - Michelle Campo",
           "t_sec": 12433.7,
@@ -33875,18 +34051,7 @@
           "speaker": "Member of the Public - Michelle Campo",
           "t_sec": 12440.5,
           "text": "TEXT, YOURUNN EEDED."
-        }
-      ]
-    },
-    {
-      "end_sec": 12490.0,
-      "id": "068",
-      "slug": "michelle-campo-on-hearing-balance-and-written-submission",
-      "start_sec": 12445.0,
-      "summary": "Michelle Campo testifies via Zoom, expressing frustration with the long wait times to speak. She notes that she will submit her full testimony in writing and comments on the lack of balance in the hearing's scheduling.",
-      "title": "Michelle Campo on Hearing Balance and Written Submission",
-      "type": "TESTIMONY",
-      "utterances": [
+        },
         {
           "speaker": "Member of the Public - Michelle Campo",
           "t_sec": 12445.2,
@@ -33961,7 +34126,18 @@
           "speaker": "Julie Menin",
           "t_sec": 12480.2,
           "text": ">>OKAY. THANK YOU VERY MUCH."
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 12490.27,
+      "id": "084",
+      "slug": "transition-to-final-zoom-panel",
+      "start_sec": 12481.6,
+      "summary": "Chair Julie Menin calls the final panel of public witnesses registered to testify via Zoom.",
+      "title": "Transition to Final Zoom Panel",
+      "type": "PROCEDURE",
+      "utterances": [
         {
           "speaker": "Julie Menin",
           "t_sec": 12481.6,
@@ -33980,12 +34156,12 @@
       ]
     },
     {
-      "end_sec": 12648.0,
-      "id": "069",
-      "slug": "peter-davies-on-soho-quality-of-life-and-seating-capacity-conflicts",
-      "start_sec": 12490.0,
-      "summary": "Peter Davies, representing the Broadway Residents Coalition in SOHO, testifies via Zoom on the inherent conflict between large outdoor dining setups and residential quality of life. He highlights a specific case of a small establishment seeking to expand its seating capacity tenfold without adequate restroom facilities.",
-      "title": "Peter Davies on SOHO Quality-of-Life and Seating Capacity Conflicts",
+      "end_sec": 12647.5,
+      "id": "085",
+      "slug": "peter-davies-testimony-broadway-residents-coalition",
+      "start_sec": 12490.27,
+      "summary": "Peter Davies, representing the Broadway Residents Coalition in SOHO, testifies via Zoom about the inherent conflicts of expanded outdoor seating and the lack of bathrooms for large setups.",
+      "title": "Peter Davies Testimony: Broadway Residents Coalition",
       "type": "TESTIMONY",
       "utterances": [
         {
@@ -34247,23 +34423,23 @@
           "speaker": "Julie Menin",
           "t_sec": 12644.57,
           "text": "I'M NOT SURE."
-        },
-        {
-          "speaker": "Member of the Public - Sandy Rayburn",
-          "t_sec": 12647.5,
-          "text": ">>THANK YOU. THANK YOU, SANDY"
         }
       ]
     },
     {
-      "end_sec": 12807.0,
-      "id": "070",
-      "slug": "sandy-rayburn-opposing-privatization-of-public-space",
-      "start_sec": 12648.0,
-      "summary": "Sandy Rayburn, an 80-year resident of NYC, testifies via Zoom against the permanent privatization of public sidewalks and roadways. She criticizes the NYC Hospitality Alliance's proposals, citing past issues with rodent infestations, oppressive noise, and DOT's failure to provide adequate oversight.",
-      "title": "Sandy Rayburn Opposing Privatization of Public Space",
+      "end_sec": 12807.13,
+      "id": "086",
+      "slug": "sandy-rayburn-testimony-lower-east-side-resident",
+      "start_sec": 12647.5,
+      "summary": "Sandy Rayburn, a Lower East Side resident, testifies via Zoom to strongly oppose year-round outdoor dining, citing rodent infestations, oppressive noise, and ADA violations.",
+      "title": "Sandy Rayburn Testimony: Lower East Side Resident",
       "type": "TESTIMONY",
       "utterances": [
+        {
+          "speaker": "Member of the Public - Sandy Rayburn",
+          "t_sec": 12647.5,
+          "text": ">>THANK YOU. THANK YOU, SANDY"
+        },
         {
           "speaker": "Member of the Public - Sandy Rayburn",
           "t_sec": 12648.67,
@@ -34627,12 +34803,12 @@
       ]
     },
     {
-      "end_sec": 12940.0,
-      "id": "071",
-      "slug": "elizabeth-adams-on-equity-benefits-of-outdoor-dining",
-      "start_sec": 12807.0,
-      "summary": "Elizabeth Adams, representing Transportation Alternatives, testifies via Zoom on the crisis facing the Dining Out NYC program. She argues that the seasonal roadway restriction has decimated participation, particularly in outer-borough communities of color that benefited most from the temporary program.",
-      "title": "Elizabeth Adams on Equity Benefits of Outdoor Dining",
+      "end_sec": 12944.8,
+      "id": "087",
+      "slug": "elizabeth-adams-testimony-transportation-alternatives",
+      "start_sec": 12807.13,
+      "summary": "Elizabeth Adams, representing Transportation Alternatives, testifies via Zoom that the permanent program is at a crisis point due to low application rates and equity issues caused by seasonal restrictions.",
+      "title": "Elizabeth Adams Testimony: Transportation Alternatives",
       "type": "TESTIMONY",
       "utterances": [
         {
@@ -35064,23 +35240,23 @@
           "speaker": "Julie Menin",
           "t_sec": 12939.53,
           "text": ">>THANK YOU, ELIZABETH. I"
-        }
-      ]
-    },
-    {
-      "end_sec": 13165.0,
-      "id": "072",
-      "slug": "council-member-paladino-questions-elizabeth-adams-on-street-intrusions",
-      "start_sec": 12940.0,
-      "summary": "Council Member Vickie Paladino questions Elizabeth Adams on the negative impacts of outdoor dining setups on parking spaces and commercial traffic. Adams defends the program, noting that outdoor dining occupies less than 0.1% of the city's parking spaces and represents a highly productive use of public space.",
-      "title": "Council Member Paladino Questions Elizabeth Adams on Street Intrusions",
-      "type": "QA",
-      "utterances": [
+        },
         {
           "speaker": "Julie Menin",
           "t_sec": 12940.87,
           "text": "THINK COUNCIL PALADINO HAD"
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 13173.23,
+      "id": "088",
+      "slug": "council-member-paladino-questions-elizabeth-adams-on-parking-spaces-and-rat-infestations",
+      "start_sec": 12944.8,
+      "summary": "Council Member Vickie Paladino questions Elizabeth Adams, arguing that the pandemic is over, outdoor sheds are an intrusion on public streets and parking spaces, and they cause rat infestations.",
+      "title": "Council Member Paladino Questions Elizabeth Adams on Parking Spaces and Rat Infestations",
+      "type": "QA",
+      "utterances": [
         {
           "speaker": "Vickie Paladino",
           "t_sec": 12944.8,
@@ -35600,18 +35776,7 @@
           "speaker": "Julie Menin",
           "t_sec": 13162.5,
           "text": "FOLLOWED BY SAMIR 11."
-        }
-      ]
-    },
-    {
-      "end_sec": 13310.0,
-      "id": "073",
-      "slug": "michelle-cooper-smith-on-confusing-rules-and-year-round-roadway-dining",
-      "start_sec": 13165.0,
-      "summary": "Michelle Cooper Smith, a Lower East Side resident and community board member, testifies via Zoom on the confusing nature of the permanent program. She advocates for year-round roadway dining to simplify the rules and prevent businesses from being penalized during public hearings.",
-      "title": "Michelle Cooper Smith on Confusing Rules and Year-Round Roadway Dining",
-      "type": "TESTIMONY",
-      "utterances": [
+        },
         {
           "speaker": "Julie Menin",
           "t_sec": 13165.97,
@@ -35631,7 +35796,18 @@
           "speaker": "Julie Menin",
           "t_sec": 13171.1,
           "text": ">>I'M SORRY. OKAY."
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 13310.9,
+      "id": "089",
+      "slug": "michelle-cooper-smith-testimony-lower-east-side-resident",
+      "start_sec": 13173.23,
+      "summary": "Michelle Cooper Smith, a Lower East Side resident and former community board member, testifies via Zoom that the permanent application process is too onerous and confusing for small business owners.",
+      "title": "Michelle Cooper Smith Testimony: Lower East Side Resident",
+      "type": "TESTIMONY",
+      "utterances": [
         {
           "speaker": "Member of the Public - Michelle Cooper Smith",
           "t_sec": 13173.23,
@@ -36040,12 +36216,12 @@
       ]
     },
     {
-      "end_sec": 13457.0,
-      "id": "074",
-      "slug": "samir-lavingia-on-sunday-morning-restrictions-and-seasonal-rules",
-      "start_sec": 13310.0,
-      "summary": "Samir Lavingia, Vice Chair of the Transportation and Environment Committee for Manhattan Community Board 5, testifies via Zoom in support of outdoor dining. He criticizes the Sunday morning start-time restrictions and argues that seasonal rules prevent small businesses from investing in high-quality setups.",
-      "title": "Samir Lavingia on Sunday Morning Restrictions and Seasonal Rules",
+      "end_sec": 13482.4,
+      "id": "090",
+      "slug": "samir-lavingia-testimony-manhattan-community-board-5",
+      "start_sec": 13310.9,
+      "summary": "Samir Lavingia, a member of Manhattan Community Board 5, testifies via Zoom in support of outdoor dining but criticizes Sunday morning restrictions and the requirement to break down structures seasonally.",
+      "title": "Samir Lavingia Testimony: Manhattan Community Board 5",
       "type": "TESTIMONY",
       "utterances": [
         {
@@ -36482,18 +36658,7 @@
           "speaker": "Julie Menin",
           "t_sec": 13454.33,
           "text": "HEAR YOU. PLEASE BEGIN. MARY."
-        }
-      ]
-    },
-    {
-      "end_sec": 13646.0,
-      "id": "075",
-      "slug": "mary-on-safety-cleanliness-and-west-village-roadway-dining",
-      "start_sec": 13457.0,
-      "summary": "Mary, a West Village resident, testifies via Zoom against the expansion of roadway dining, citing safety and cleanliness concerns. She shares her experiences working in restaurants during the pandemic and argues that non-compliant setups block emergency vehicle access and accumulate trash.",
-      "title": "Mary on Safety, Cleanliness, and West Village Roadway Dining",
-      "type": "TESTIMONY",
-      "utterances": [
+        },
         {
           "speaker": "Julie Menin",
           "t_sec": 13457.47,
@@ -36533,7 +36698,18 @@
           "speaker": "Julie Menin",
           "t_sec": 13481.2,
           "text": "COULD TESTIFY NOW,"
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 13646.63,
+      "id": "091",
+      "slug": "mary-kathleen-collins-testimony-west-village-resident",
+      "start_sec": 13482.4,
+      "summary": "Mary Kathleen Collins, a West Village resident, testifies via Zoom to oppose outdoor dining due to safety, cleanliness, and the obstruction of emergency vehicle access on narrow streets.",
+      "title": "Mary Kathleen Collins Testimony: West Village Resident",
+      "type": "TESTIMONY",
+      "utterances": [
         {
           "speaker": "Member of the Public - Mary Kathleen Collins",
           "t_sec": 13482.4,
@@ -36887,12 +37063,12 @@
       ]
     },
     {
-      "end_sec": 13777.0,
-      "id": "076",
-      "slug": "kathleen-collins-on-ada-compliance-and-sidewalk-clear-paths",
-      "start_sec": 13646.0,
-      "summary": "Kathleen Collins, a lifetime New Yorker with a mobility disability, testifies via Zoom in support of the Dining Out NYC program, provided it maintains strict ADA compliance. She emphasizes the need for sufficient space between tables for wheelchairs and clear sidewalk paths for pedestrians.",
-      "title": "Kathleen Collins on ADA Compliance and Sidewalk Clear Paths",
+      "end_sec": 13779.13,
+      "id": "092",
+      "slug": "kathleen-collins-testimony-disabled-resident-perspective",
+      "start_sec": 13646.63,
+      "summary": "Kathleen Collins, a lifetime New Yorker with a disability, testifies via Zoom in support of the Dining Out NYC program provided it is implemented correctly with proper ADA spacing and ramps.",
+      "title": "Kathleen Collins Testimony: Disabled Resident Perspective",
       "type": "TESTIMONY",
       "utterances": [
         {
@@ -37304,23 +37480,23 @@
           "speaker": "Julie Menin",
           "t_sec": 13773.83,
           "text": ". THANK YOU. CHRISTOPHER LEON"
-        }
-      ]
-    },
-    {
-      "end_sec": 13918.0,
-      "id": "077",
-      "slug": "christopher-leon-johnson-on-defensive-architecture-and-shed-restrictions",
-      "start_sec": 13777.0,
-      "summary": "Christopher Leon Johnson testifies in support of outdoor dining but urges the city to restrict setups to wider streets. He also recommends implementing defensive architectural designs for outdoor sheds to prevent them from being used for shelter or public urination.",
-      "title": "Christopher Leon Johnson on Defensive Architecture and Shed Restrictions",
-      "type": "TESTIMONY",
-      "utterances": [
+        },
         {
           "speaker": "Julie Menin",
           "t_sec": 13777.77,
           "text": "JOHNSON, YOU BEGIN. YEAH."
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 13934.47,
+      "id": "093",
+      "slug": "christopher-leon-johnson-testimony-resident-perspective",
+      "start_sec": 13779.13,
+      "summary": "Christopher Leon Johnson testifies via Zoom in support of outdoor dining, but calls for defensive architecture to prevent homeless individuals from using the structures as shelters.",
+      "title": "Christopher Leon Johnson Testimony: Resident Perspective",
+      "type": "TESTIMONY",
+      "utterances": [
         {
           "speaker": "Member of the Public - Christopher Leon Johnson",
           "t_sec": 13779.13,
@@ -37765,18 +37941,7 @@
           "speaker": "Julie Menin",
           "t_sec": 13915.07,
           "text": "OUR LAST SPEAKER IS NED SHOW"
-        }
-      ]
-    },
-    {
-      "end_sec": 14059.0,
-      "id": "078",
-      "slug": "ned-solansky-on-landscape-architecture-and-year-round-roadway-dining",
-      "start_sec": 13918.0,
-      "summary": "Ned Solansky, a landscape architect and Lower East Side resident, testifies via Zoom against year-round roadway dining. He argues that roadway setups create constant noise and crowds, and criticizes the lack of professional architectural oversight in the design of outdoor structures.",
-      "title": "Ned Solansky on Landscape Architecture and Year-Round Roadway Dining",
-      "type": "TESTIMONY",
-      "utterances": [
+        },
         {
           "speaker": "Julie Menin",
           "t_sec": 13918.73,
@@ -37786,7 +37951,18 @@
           "speaker": "Julie Menin",
           "t_sec": 13926.27,
           "text": "ON MUTED ABOUT RIGHT HERE. WE"
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 14098.57,
+      "id": "094",
+      "slug": "ned-showlansky-testimony-landscape-architect-perspective",
+      "start_sec": 13934.47,
+      "summary": "Ned Showlansky, a landscape architect and Lower East Side resident, testifies via Zoom to oppose year-round roadway dining, citing noise, crowds, and the privatization of public space.",
+      "title": "Ned Showlansky Testimony: Landscape Architect Perspective",
+      "type": "TESTIMONY",
+      "utterances": [
         {
           "speaker": "Member of the Public - Ned Showlansky",
           "t_sec": 13934.47,
@@ -38146,18 +38322,7 @@
           "speaker": "Member of the Public - Ned Showlansky",
           "t_sec": 14055.33,
           "text": ". THANK YOU,"
-        }
-      ]
-    },
-    {
-      "end_sec": 14178.944,
-      "id": "079",
-      "slug": "chair-menin-adjourns-joint-committee-hearing",
-      "start_sec": 14059.0,
-      "summary": "Chair Julie Menin calls the final registered names on the Zoom list and, seeing no further speakers, thanks attendees and committee staff. Chair Menin and Chair Brooks-Powers formally adjourn the joint committee hearing.",
-      "title": "Chair Menin Adjourns Joint Committee Hearing",
-      "type": "PROCEDURE",
-      "utterances": [
+        },
         {
           "speaker": "Julie Menin",
           "t_sec": 14059.13,
@@ -38247,7 +38412,18 @@
           "speaker": "Julie Menin",
           "t_sec": 14093.23,
           "text": "YOURSELF IF YOU WISH TO SPEAK."
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 14178.944,
+      "id": "095",
+      "slug": "hearing-adjournment-and-closing-remarks",
+      "start_sec": 14098.57,
+      "summary": "Chair Julie Menin and Chair Selvena Brooks-Powers thank the participants for their compelling testimony and adjourn the joint legislative hearing.",
+      "title": "Hearing Adjournment and Closing Remarks",
+      "type": "PROCEDURE",
+      "utterances": [
         {
           "speaker": "Julie Menin",
           "t_sec": 14098.57,
@@ -38380,9 +38556,9 @@
   "duration_sec": 14178.944,
   "slug": "2025-04-23-1000-am-committee-on-transportation-and-infrastructure",
   "summary": [
-    "A joint hearing examined Dining Out NYC, the permanent outdoor dining program that replaced the temporary pandemic-era program.",
-    "Discussion focused on application complexity, approval delays, restaurant costs, seasonal roadway dining rules, clearance requirements, and accessibility.",
-    "The meeting includes opening remarks, DOT testimony, council member questioning, and public testimony from restaurant, disability, transportation, and neighborhood advocates."
+    "The Committees on Transportation and Infrastructure and Consumer and Worker Protection held a joint oversight hearing to evaluate the rollout of the permanent 'Dining Out NYC' outdoor dining program.",
+    "Small business owners and advocacy groups testified about significant challenges with the program, including high setup and storage costs due to seasonal roadway rules, confusing online forms, and a massive application backlog at the Department of Transportation.",
+    "The Department of Transportation defended its implementation, noting that over 2,600 restaurants are currently authorized to operate under conditional approvals, and committed to working with the Council to streamline the process."
   ],
   "tags": [
     "HEARING"

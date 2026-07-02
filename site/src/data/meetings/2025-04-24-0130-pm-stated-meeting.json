@@ -2,13 +2,13 @@
   "body": "New York City Council",
   "chapters": [
     {
-      "end_sec": 415.64,
+      "end_sec": 107.64,
       "id": "001",
-      "slug": "roll-call-and-convening-of-the-meeting",
+      "slug": "call-to-order-and-roll-call",
       "start_sec": 45.68,
-      "summary": "Council staff calls the meeting to order, requests quiet on the floor, and instructs attendees to silence electronic devices. Majority Leader Amanda Far\u00edas welcomes the public and outlines the rules of conduct for the meeting, followed by the roll call of council members.",
-      "title": "Roll Call and Convening of the Meeting",
-      "type": "ROLL_CALL",
+      "summary": "Council staff calls the meeting to order, requests quiet on the floor, and asks council members to take their seats. Majority Leader Amanda Far\u00edas welcomes the public and outlines the rules of conduct for the meeting.",
+      "title": "Call to Order and Roll Call",
+      "type": "PROCEDURE",
       "utterances": [
         {
           "speaker": "Council Staff",
@@ -64,7 +64,18 @@
           "speaker": "Amanda C. Far\u00edas",
           "t_sec": 105.24,
           "text": "Each other with respect."
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 415.64,
+      "id": "002",
+      "slug": "roll-call",
+      "start_sec": 107.64,
+      "summary": "Council staff conducts the roll call of members present for the stated meeting, noting the presence of various council members and recognizing State Assembly Member Kalman Yeger in attendance.",
+      "title": "Roll Call",
+      "type": "ROLL_CALL",
+      "utterances": [
         {
           "speaker": "Council Staff",
           "t_sec": 107.64,
@@ -179,10 +190,10 @@
     },
     {
       "end_sec": 615.48,
-      "id": "002",
+      "id": "003",
       "slug": "invocation-by-reverend-patrick-j-keating",
       "start_sec": 415.64,
-      "summary": "Reverend Patrick J. Keating, Deputy CEO of Catholic Charities Brooklyn and Queens, delivers the invocation. He prays for the city's leadership, first responders, and vulnerable residents, while reflecting on the legacy of Pope Francis.",
+      "summary": "Reverend Patrick J. Keating, Deputy CEO of Catholic Charities Brooklyn and Queens, delivers the invocation. He prays for the city council, first responders, and vulnerable New Yorkers, while also honoring the memory of Pope Francis.",
       "title": "Invocation by Reverend Patrick J. Keating",
       "type": "INVOCATION",
       "utterances": [
@@ -305,11 +316,11 @@
     },
     {
       "end_sec": 708.88,
-      "id": "003",
-      "slug": "council-member-brannan-honors-reverend-keating-and-remembers-pope-francis",
+      "id": "004",
+      "slug": "motion-to-spread-invocation-on-the-record-and-tribute-to-pope-francis",
       "start_sec": 615.48,
-      "summary": "Council Member Justin Brannan thanks Reverend Keating for delivering the invocation and moves to spread the invocation on the record. He honors the memory of Pope Francis, praising his legacy of humility, compassion, and advocacy for the poor.",
-      "title": "Council Member Brannan Honors Reverend Keating and Remembers Pope Francis",
+      "summary": "Council Member Justin Brannan thanks Reverend Keating for the invocation and pays tribute to the legacy of Pope Francis, highlighting his advocacy for the poor and marginalized. Brannan moves to spread the invocation in full upon the record.",
+      "title": "Motion to Spread Invocation on the Record and Tribute to Pope Francis",
       "type": "REMARKS",
       "utterances": [
         {
@@ -405,12 +416,12 @@
       ]
     },
     {
-      "end_sec": 720.96,
-      "id": "004",
-      "slug": "adoption-of-minutes",
+      "end_sec": 740.48,
+      "id": "005",
+      "slug": "adoption-of-minutes-and-communications",
       "start_sec": 708.88,
-      "summary": "Council Member Susan Zhuang makes a motion to adopt the minutes of the stated meeting held on April 10, 2025, which is approved.",
-      "title": "Adoption of Minutes",
+      "summary": "Council Member Susan Zhuang moves to adopt the minutes of the previous meeting. The clerk notes that there are no messages from the mayor and reads a communication regarding the election of Simcha Felder to the 44th District.",
+      "title": "Adoption of Minutes and Communications",
       "type": "PROCEDURE",
       "utterances": [
         {
@@ -422,18 +433,7 @@
           "speaker": "Susan Zhuang",
           "t_sec": 712.96,
           "text": "I make a motion that the minutes of the standard meeting of April 10th, 2025 be adopted as printed."
-        }
-      ]
-    },
-    {
-      "end_sec": 736.32,
-      "id": "005",
-      "slug": "communications-and-petitions",
-      "start_sec": 720.96,
-      "summary": "The Council clerk notes that there are no messages from the mayor or petitions. The clerk reads a communication regarding the election of Simcha Felder to the 44th Council District, which is ordered printed and filed.",
-      "title": "Communications and Petitions",
-      "type": "PROCEDURE",
-      "utterances": [
+        },
         {
           "speaker": "Council Staff",
           "t_sec": 720.96,
@@ -468,18 +468,7 @@
           "speaker": "Council Staff",
           "t_sec": 735.84,
           "text": "None."
-        }
-      ]
-    },
-    {
-      "end_sec": 993.0,
-      "id": "006",
-      "slug": "roll-call-vote-on-land-use-call-ups-m121",
-      "start_sec": 736.32,
-      "summary": "The Council clerk conducts a roll call vote on the day's land use call-ups under M121. The call-ups are adopted by a vote of 46 in the affirmative and one in the negative.",
-      "title": "Roll Call Vote on Land Use Call-Ups (M121)",
-      "type": "ROLL_CALL",
-      "utterances": [
+        },
         {
           "speaker": "Council Staff",
           "t_sec": 736.32,
@@ -494,7 +483,18 @@
           "speaker": "Amanda C. Far\u00edas",
           "t_sec": 739.76,
           "text": "Thank you."
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 987.24,
+      "id": "006",
+      "slug": "roll-call-vote-on-land-use-call-ups",
+      "start_sec": 740.48,
+      "summary": "The clerk conducts a roll call vote on the day's land use call-ups, with council members casting their votes individually.",
+      "title": "Roll Call Vote on Land Use Call-ups",
+      "type": "ROLL_CALL",
+      "utterances": [
         {
           "speaker": "Amanda C. Far\u00edas",
           "t_sec": 740.48,
@@ -1044,28 +1044,39 @@
           "speaker": "Adrienne E. Adams",
           "t_sec": 974.52,
           "text": "Aye."
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 996.12,
+      "id": "007",
+      "slug": "vote-outcome-on-land-use-call-ups",
+      "start_sec": 987.24,
+      "summary": "The clerk announces that the land use call-ups are adopted by a vote of 46 in the affirmative and one in the negative.",
+      "title": "Vote Outcome on Land Use Call-ups",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
         {
           "speaker": "Council Staff",
           "t_sec": 987.24,
           "text": "Today's land use call-ups are adopted by a vote of 46 in the affirmative and one in the negative."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 993.0,
+          "text": "We will now have communication from Speaker Adrian Adams."
         }
       ]
     },
     {
       "end_sec": 1056.0,
-      "id": "007",
-      "slug": "speaker-adams-mourns-the-passing-of-community-pillar-exenia-met",
-      "start_sec": 993.0,
-      "summary": "Speaker Adrienne Adams begins her communications by acknowledging the tragic death of Exenia Met, a beloved Harlem grandmother and community pillar who was killed by a stray bullet while trying to stop neighborhood violence.",
-      "title": "Speaker Adams Mourns the Passing of Community Pillar Exenia Met",
+      "id": "008",
+      "slug": "speaker-adams-pays-tribute-to-exenia-met",
+      "start_sec": 996.12,
+      "summary": "Speaker Adrienne Adams begins her communications by acknowledging the tragic death of Exenia Met, a beloved Harlem grandmother who was killed by a stray bullet while trying to stop neighborhood violence.",
+      "title": "Speaker Adams Pays Tribute to Exenia Met",
       "type": "REMARKS",
       "utterances": [
-        {
-          "speaker": "Amanda C. Far\u00edas",
-          "t_sec": 993.0,
-          "text": "We will now have communication from Speaker Adrian Adams."
-        },
         {
           "speaker": "Adrienne E. Adams",
           "t_sec": 996.12,
@@ -1090,11 +1101,11 @@
     },
     {
       "end_sec": 1229.0,
-      "id": "008",
-      "slug": "speaker-adams-condemns-the-deportation-of-bronx-teenager-maruel-gutierrez-and-mayor-s-stance-on",
+      "id": "009",
+      "slug": "speaker-adams-condemns-trump-administration-deportation-and-mayor-s-ice-policy",
       "start_sec": 1056.0,
-      "summary": "Speaker Adams addresses the deportation of Bronx teenager Maruel Gutierrez to El Salvador by the Trump administration. She criticizes Mayor Adams for failing to speak out against the action and warns that allowing ICE presence on Rikers Island undermines public safety.",
-      "title": "Speaker Adams Condemns the Deportation of Bronx Teenager Maruel Gutierrez and Mayor's Stance on ICE",
+      "summary": "Speaker Adams addresses the deportation of Bronx teenager Maruel Gutierrez by the Trump administration. She criticizes Mayor Eric Adams for his silence on the matter and warns against allowing ICE operations on Rikers Island.",
+      "title": "Speaker Adams Condemns Trump Administration Deportation and Mayor's ICE Policy",
       "type": "REMARKS",
       "utterances": [
         {
@@ -1176,11 +1187,11 @@
     },
     {
       "end_sec": 1308.72,
-      "id": "009",
-      "slug": "speaker-adams-recognizes-passover-easter-earth-day-holocaust-remembrance-day-and-denim-day",
+      "id": "010",
+      "slug": "speaker-adams-recognizes-holidays-and-heritage-days",
       "start_sec": 1229.0,
-      "summary": "Speaker Adams reflects on several recent and upcoming observances, including Passover, Easter, Earth Day, Holocaust Remembrance Day, and Denim Day, emphasizing the values of compassion, environmental action, and solidarity with survivors of sexual violence.",
-      "title": "Speaker Adams Recognizes Passover, Easter, Earth Day, Holocaust Remembrance Day, and Denim Day",
+      "summary": "Speaker Adams reflects on the significance of Passover, Easter, Earth Day, Holocaust Remembrance Day, and the upcoming Denim Day to support survivors of sexual violence.",
+      "title": "Speaker Adams Recognizes Holidays and Heritage Days",
       "type": "REMARKS",
       "utterances": [
         {
@@ -1237,10 +1248,10 @@
     },
     {
       "end_sec": 1359.52,
-      "id": "010",
+      "id": "011",
       "slug": "speaker-adams-welcomes-jcca-s-arches-and-wishes-happy-birthdays",
       "start_sec": 1308.72,
-      "summary": "Speaker Adams welcomes a group of young adults from JCCA's Arches program to the Council chambers. She also wishes an early happy birthday to Council Members Mercedes Narcisse and Chris Marte.",
+      "summary": "Speaker Adams welcomes young adults from JCCA's Arches program to the chambers and wishes happy birthdays to Council Members Mercedes Narcisse and Chris Marte.",
       "title": "Speaker Adams Welcomes JCCA's Arches and Wishes Happy Birthdays",
       "type": "CEREMONY",
       "utterances": [
@@ -1273,12 +1284,12 @@
     },
     {
       "end_sec": 1439.96,
-      "id": "011",
+      "id": "012",
       "slug": "speaker-adams-outlines-land-use-and-finance-agenda-items",
       "start_sec": 1359.52,
-      "summary": "Speaker Adams introduces the day's legislative agenda, starting with the Brownsville NCP land use application to facilitate deeply affordable housing. She also outlines finance items, including a bill adjusting the Independent Budget Office's report timeline and the establishment of the East Harlem 125th Street BID.",
+      "summary": "Speaker Adams outlines the stated agenda, starting with the Brownsville NCP affordable housing project and several finance items, including a bill regarding the Independent Budget Office's executive budget report.",
       "title": "Speaker Adams Outlines Land Use and Finance Agenda Items",
-      "type": "PROCEDURE",
+      "type": "REMARKS",
       "utterances": [
         {
           "speaker": "Adrienne E. Adams",
@@ -1329,12 +1340,12 @@
     },
     {
       "end_sec": 1514.32,
-      "id": "012",
+      "id": "013",
       "slug": "speaker-adams-outlines-home-rule-and-general-legislation-agenda-items",
       "start_sec": 1439.96,
-      "summary": "Speaker Adams reviews home rule item SLR1, which authorizes the discontinuance of certain parkland in Flushing Meadows Corona Park conditional on the development of a gaming facility. She also introduces a resolution calling on healthcare institutions to contract with law-abiding industrial laundry companies.",
+      "summary": "Speaker Adams details home rule item SLR1 regarding Flushing Meadows Corona Park, a resolution on industrial laundry contracts, and a charter amendment regarding former public servants.",
       "title": "Speaker Adams Outlines Home Rule and General Legislation Agenda Items",
-      "type": "PROCEDURE",
+      "type": "REMARKS",
       "utterances": [
         {
           "speaker": "Adrienne E. Adams",
@@ -1380,12 +1391,12 @@
     },
     {
       "end_sec": 1595.96,
-      "id": "013",
-      "slug": "speaker-adams-outlines-legislation-combating-deed-theft-and-promoting-community-hiring",
+      "id": "014",
+      "slug": "speaker-adams-outlines-deed-theft-and-community-hiring-legislation",
       "start_sec": 1514.32,
-      "summary": "Speaker Adams highlights a package of bills aimed at combating deed theft and predatory real estate practices. She also outlines bills requiring local development corporations and the Economic Development Corporation to report on community hiring and benefits.",
-      "title": "Speaker Adams Outlines Legislation Combating Deed Theft and Promoting Community Hiring",
-      "type": "PROCEDURE",
+      "summary": "Speaker Adams highlights a package of bills to combat deed theft and predatory real estate practices, as well as legislation requiring reporting on community hiring programs by local development corporations.",
+      "title": "Speaker Adams Outlines Deed Theft and Community Hiring Legislation",
+      "type": "REMARKS",
       "utterances": [
         {
           "speaker": "Adrienne E. Adams",
@@ -1425,13 +1436,13 @@
       ]
     },
     {
-      "end_sec": 1663.88,
-      "id": "014",
-      "slug": "speaker-adams-outlines-stormwater-management-and-water-infrastructure-legislation",
+      "end_sec": 1776.32,
+      "id": "015",
+      "slug": "speaker-adams-outlines-stormwater-and-helicopter-noise-legislation",
       "start_sec": 1595.96,
-      "summary": "Speaker Adams discusses resolutions calling for fair allocation of federal water infrastructure funds to New York City. She also introduces legislation requiring the Department of Environmental Protection to develop a plan to increase stormwater system capacity.",
-      "title": "Speaker Adams Outlines Stormwater Management and Water Infrastructure Legislation",
-      "type": "PROCEDURE",
+      "summary": "Speaker Adams discusses legislation to increase stormwater system capacity and a package of bills and resolutions aimed at regulating non-essential helicopter flights to mitigate noise pollution.",
+      "title": "Speaker Adams Outlines Stormwater and Helicopter Noise Legislation",
+      "type": "REMARKS",
       "utterances": [
         {
           "speaker": "Adrienne E. Adams",
@@ -1472,18 +1483,7 @@
           "speaker": "Adrienne E. Adams",
           "t_sec": 1659.32,
           "text": "Thank you, staff members Andrew Bourne and Sierra Townsend."
-        }
-      ]
-    },
-    {
-      "end_sec": 1776.32,
-      "id": "015",
-      "slug": "speaker-adams-outlines-legislation-regulating-non-essential-helicopter-flights",
-      "start_sec": 1663.88,
-      "summary": "Speaker Adams introduces a package of bills and resolutions aimed at mitigating helicopter noise pollution. The legislation calls on the FAA to ban non-essential helicopter travel and proposes restrictions on flights operating out of city-owned heliports.",
-      "title": "Speaker Adams Outlines Legislation Regulating Non-Essential Helicopter Flights",
-      "type": "PROCEDURE",
-      "utterances": [
+        },
         {
           "speaker": "Adrienne E. Adams",
           "t_sec": 1663.88,
@@ -1544,11 +1544,11 @@
     {
       "end_sec": 1973.84,
       "id": "016",
-      "slug": "speaker-adams-outlines-legislation-protecting-transgender-gender-nonconforming-and-nonbinary-new",
+      "slug": "speaker-adams-outlines-transgender-and-gender-nonconforming-protection-legislation",
       "start_sec": 1776.32,
-      "summary": "Speaker Adams details a comprehensive package of bills and resolutions designed to protect the rights, healthcare access, and personal information of transgender, gender nonconforming, and nonbinary individuals in New York City.",
-      "title": "Speaker Adams Outlines Legislation Protecting Transgender, Gender Nonconforming, and Nonbinary New Yorkers",
-      "type": "PROCEDURE",
+      "summary": "Speaker Adams introduces a package of bills and resolutions designed to protect and support transgender, gender nonconforming, and nonbinary New Yorkers against federal rollbacks.",
+      "title": "Speaker Adams Outlines Transgender and Gender Nonconforming Protection Legislation",
+      "type": "REMARKS",
       "utterances": [
         {
           "speaker": "Adrienne E. Adams",
@@ -1660,10 +1660,10 @@
     {
       "end_sec": 2067.48,
       "id": "017",
-      "slug": "council-member-nurse-advocates-for-the-brownsville-ncp-affordable-housing-project",
+      "slug": "council-member-nurse-discusses-brownsville-ncp-housing-project",
       "start_sec": 1973.84,
-      "summary": "Council Member Sandy Nurse expresses strong support for the Brownsville NCP project, which will bring 75 units of deeply affordable housing to Community Board 16. She thanks HPD and the Fifth Avenue Committee for collaborating to meet the community's need for three-bedroom units.",
-      "title": "Council Member Nurse Advocates for the Brownsville NCP Affordable Housing Project",
+      "summary": "Council Member Sandy Nurse speaks in support of the Brownsville NCP project, which will bring 75 units of deeply affordable housing to Community Board 16, highlighting the inclusion of three-bedroom units.",
+      "title": "Council Member Nurse Discusses Brownsville NCP Housing Project",
       "type": "REMARKS",
       "utterances": [
         {
@@ -1751,10 +1751,10 @@
     {
       "end_sec": 2184.16,
       "id": "018",
-      "slug": "council-member-cab-n-urges-support-for-transgender-and-non-binary-resource-hub-legislation",
+      "slug": "council-member-cab-n-urges-support-for-transgender-rights-legislation",
       "start_sec": 2067.48,
-      "summary": "Council Member Tiffany Cab\u00e1n urges her colleagues to pass Intro 1200, which mandates the creation of a resource hub and a know-your-rights campaign for the trans and gender nonconforming community. She emphasizes that New York City must actively lead in protecting trans lives.",
-      "title": "Council Member Cab\u00e1n Urges Support for Transgender and Non-Binary Resource Hub Legislation",
+      "summary": "Council Member Tiffany Cab\u00e1n urges colleagues to pass the transgender rights package, emphasizing that New York City must actively lead in protecting the survival and rights of trans residents.",
+      "title": "Council Member Cab\u00e1n Urges Support for Transgender Rights Legislation",
       "type": "REMARKS",
       "utterances": [
         {
@@ -1882,10 +1882,10 @@
     {
       "end_sec": 2317.56,
       "id": "019",
-      "slug": "council-member-avil-s-advocates-for-community-hiring-and-edc-transparency-bills",
+      "slug": "council-member-avil-s-discusses-community-hiring-and-edc-accountability-bills",
       "start_sec": 2184.16,
-      "summary": "Council Member Alexa Avil\u00e9s urges support for Intros 860 and 861, which aim to hold the Economic Development Corporation accountable. She explains that the bills will bring transparency to community hiring metrics and community benefit agreements.",
-      "title": "Council Member Avil\u00e9s Advocates for Community Hiring and EDC Transparency Bills",
+      "summary": "Council Member Alexa Avil\u00e9s advocates for her bills, Intros 860 and 861, which aim to increase transparency and accountability regarding community hiring and benefits in EDC-led economic development projects.",
+      "title": "Council Member Avil\u00e9s Discusses Community Hiring and EDC Accountability Bills",
       "type": "REMARKS",
       "utterances": [
         {
@@ -1933,10 +1933,10 @@
     {
       "end_sec": 2440.52,
       "id": "020",
-      "slug": "council-member-gennaro-explains-stormwater-capacity-and-sewer-infrastructure-legislation",
+      "slug": "council-member-gennaro-discusses-stormwater-management-legislation",
       "start_sec": 2317.56,
-      "summary": "Council Member James Gennaro discusses Intro 115A, which requires a long-term plan to increase the capacity of the city's storm sewers. He notes that climate change has made extreme rainfall events far more frequent, necessitating significant infrastructure upgrades.",
-      "title": "Council Member Gennaro Explains Stormwater Capacity and Sewer Infrastructure Legislation",
+      "summary": "Council Member Jim Gennaro discusses Intro 115A, which requires the DEP to develop a plan to increase stormwater sewer capacity to combat the increasing frequency of severe flooding events.",
+      "title": "Council Member Gennaro Discusses Stormwater Management Legislation",
       "type": "REMARKS",
       "utterances": [
         {
@@ -2029,10 +2029,10 @@
     {
       "end_sec": 2561.84,
       "id": "021",
-      "slug": "council-member-hanif-introduces-the-affirm-act-to-protect-gender-affirming-care",
+      "slug": "council-member-hanif-discusses-the-affirm-act-for-gender-affirming-care",
       "start_sec": 2440.52,
-      "summary": "Council Member Shahana Hanif introduces Intro 1201, the Affirm Act, which establishes safe harbor protections for individuals accessing gender-affirming care in New York City. She thanks her co-sponsors and calls for robust funding for LGBTQ initiatives in the upcoming budget.",
-      "title": "Council Member Hanif Introduces the Affirm Act to Protect Gender-Affirming Care",
+      "summary": "Council Member Shahana Hanif speaks in support of Intro 1201, the Affirm Act, which establishes safe harbor protections for individuals accessing gender-affirming care in New York City.",
+      "title": "Council Member Hanif Discusses the Affirm Act for Gender-Affirming Care",
       "type": "REMARKS",
       "utterances": [
         {
@@ -2120,10 +2120,10 @@
     {
       "end_sec": 2655.88,
       "id": "022",
-      "slug": "council-member-vernikov-opposes-transgender-rights-legislation-package",
+      "slug": "council-member-vernikov-opposes-transgender-rights-legislation",
       "start_sec": 2561.84,
-      "summary": "Council Member Inna Vernikov speaks in opposition to the package of transgender rights bills, arguing that they infringe on parental rights and encourage minors to make irreversible medical decisions. She also states that biological males should not compete in women's sports.",
-      "title": "Council Member Vernikov Opposes Transgender Rights Legislation Package",
+      "summary": "Council Member Inna Vernikov voices strong opposition to the transgender rights legislative package, arguing that it infringes on parental rights and compromises fairness in women's sports.",
+      "title": "Council Member Vernikov Opposes Transgender Rights Legislation",
       "type": "REMARKS",
       "utterances": [
         {
@@ -2181,10 +2181,10 @@
     {
       "end_sec": 2759.84,
       "id": "023",
-      "slug": "council-member-mealy-expresses-concerns-over-affordability-levels-in-brownsville-ncp",
+      "slug": "council-member-mealy-discusses-affordability-in-brownsville-ncp",
       "start_sec": 2655.88,
-      "summary": "Council Member Darlene Mealy raises concerns about the modified affordability levels of the Brownsville NCP project. She argues that city-owned vacant land should be utilized for 100% affordable housing that directly benefits the local community.",
-      "title": "Council Member Mealy Expresses Concerns Over Affordability Levels in Brownsville NCP",
+      "summary": "Council Member Darlene Mealy expresses concerns regarding the modified affordability levels of the Brownsville NCP project, arguing that city-owned land should remain 100% affordable to the lowest income brackets.",
+      "title": "Council Member Mealy Discusses Affordability in Brownsville NCP",
       "type": "REMARKS",
       "utterances": [
         {
@@ -2272,10 +2272,10 @@
     {
       "end_sec": 2820.56,
       "id": "024",
-      "slug": "council-member-hudson-advocates-for-inclusive-gender-options-on-city-forms",
+      "slug": "council-member-hudson-discusses-gender-option-legislation",
       "start_sec": 2759.84,
-      "summary": "Council Member Crystal Hudson urges passage of Intro 246, which requires city agencies to include an 'X' gender option on demographic forms. She emphasizes the importance of protecting marginalized communities against federal actions.",
-      "title": "Council Member Hudson Advocates for Inclusive Gender Options on City Forms",
+      "summary": "Council Member Crystal Hudson speaks in support of Intro 246, which requires city agencies to include an 'X' gender option on demographic forms to ensure inclusivity.",
+      "title": "Council Member Hudson Discusses Gender Option Legislation",
       "type": "REMARKS",
       "utterances": [
         {
@@ -2326,12 +2326,12 @@
       ]
     },
     {
-      "end_sec": 2938.6,
+      "end_sec": 2943.72,
       "id": "025",
-      "slug": "majority-leader-far-as-explains-legislation-restricting-non-essential-helicopter-flights",
+      "slug": "majority-leader-far-as-discusses-helicopter-noise-mitigation-legislation",
       "start_sec": 2820.56,
-      "summary": "Majority Leader Amanda Far\u00edas speaks in support of Intro 26A, which prohibits non-essential helicopter flights from operating out of city-owned heliports unless they meet strict noise standards. She frames the bill as a crucial step for public health, safety, and environmental equity.",
-      "title": "Majority Leader Far\u00edas Explains Legislation Restricting Non-Essential Helicopter Flights",
+      "summary": "Majority Leader Amanda Far\u00edas advocates for Intro 26A, which prohibits non-essential helicopter flights from operating out of city-owned heliports unless they meet strict FAA noise standards.",
+      "title": "Majority Leader Far\u00edas Discusses Helicopter Noise Mitigation Legislation",
       "type": "REMARKS",
       "utterances": [
         {
@@ -2418,23 +2418,23 @@
           "speaker": "Amanda C. Far\u00edas",
           "t_sec": 2932.28,
           "text": "I urge my colleagues to vote yes to curbing noise pollution in New York City with introduction 26."
-        }
-      ]
-    },
-    {
-      "end_sec": 3078.28,
-      "id": "026",
-      "slug": "reports-of-standing-committees-and-general-orders-calendar",
-      "start_sec": 2938.6,
-      "summary": "The Council clerk reads the reports of various standing committees, including Economic Development, Environmental Protection, Finance, Governmental Operations, and Women and Gender Equity, coupling the bills onto the general orders calendar.",
-      "title": "Reports of Standing Committees and General Orders Calendar",
-      "type": "PROCEDURE",
-      "utterances": [
+        },
         {
           "speaker": "Amanda C. Far\u00edas",
           "t_sec": 2938.6,
           "text": "And seeing no one else signed up to speak."
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 3022.64,
+      "id": "026",
+      "slug": "reports-of-standing-committees-and-general-orders-calendar",
+      "start_sec": 2943.72,
+      "summary": "Council staff reads the reports of various standing committees, including Economic Development, Environmental Protection, Finance, Governmental Operations, and Women and Gender Equity, coupling the items on the general orders calendar.",
+      "title": "Reports of Standing Committees and General Orders Calendar",
+      "type": "PROCEDURE",
+      "utterances": [
         {
           "speaker": "Council Staff",
           "t_sec": 2943.72,
@@ -2629,7 +2629,18 @@
           "speaker": "Council Staff",
           "t_sec": 3021.52,
           "text": "Coupled on general orders."
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 3078.28,
+      "id": "027",
+      "slug": "roll-call-vote-on-general-orders",
+      "start_sec": 3022.64,
+      "summary": "The clerk begins the roll call vote on the coupled general orders calendar, with Council Members Marte and Vernikov casting their initial votes.",
+      "title": "Roll Call Vote on General Orders",
+      "type": "ROLL_CALL",
+      "utterances": [
         {
           "speaker": "Amanda C. Far\u00edas",
           "t_sec": 3022.64,
@@ -2684,11 +2695,11 @@
     },
     {
       "end_sec": 3146.44,
-      "id": "027",
-      "slug": "council-member-avil-s-explains-vote-on-community-hiring-and-transgender-rights",
+      "id": "028",
+      "slug": "council-member-avil-s-explains-vote-on-general-orders",
       "start_sec": 3078.28,
-      "summary": "During the roll call vote, Council Member Alexa Avil\u00e9s explains her vote, thanking advocates who shaped the community hiring bills. She also expresses strong solidarity with the transgender, gender nonconforming, and nonbinary community before voting aye on all items.",
-      "title": "Council Member Avil\u00e9s Explains Vote on Community Hiring and Transgender Rights",
+      "summary": "Council Member Alexa Avil\u00e9s explains her vote, thanking advocates who shaped the community hiring bills and expressing proud solidarity with the transgender and gender nonconforming community.",
+      "title": "Council Member Avil\u00e9s Explains Vote on General Orders",
       "type": "REMARKS",
       "utterances": [
         {
@@ -2750,11 +2761,11 @@
     },
     {
       "end_sec": 3220.96,
-      "id": "028",
-      "slug": "council-member-ayala-explains-vote-on-lgbtq-sensitivity-and-public-schools",
+      "id": "029",
+      "slug": "council-member-ayala-explains-vote-on-general-orders",
       "start_sec": 3146.44,
-      "summary": "Council Member Diana Ayala explains her vote, addressing misconceptions about public school curricula. She emphasizes that sensitivity and empathy training are vital to protect LGBTQ students from bullying and ridicule.",
-      "title": "Council Member Ayala Explains Vote on LGBTQ Sensitivity and Public Schools",
+      "summary": "Council Member Diana Ayala explains her vote, sharing her perspective as a parent of public school students to demystify and defend inclusive school curriculums.",
+      "title": "Council Member Ayala Explains Vote on General Orders",
       "type": "REMARKS",
       "utterances": [
         {
@@ -2795,12 +2806,12 @@
       ]
     },
     {
-      "end_sec": 3362.68,
-      "id": "029",
-      "slug": "council-member-bottcher-explains-vote-on-transgender-rights-and-personal-experience",
+      "end_sec": 3343.8,
+      "id": "030",
+      "slug": "council-member-bottcher-explains-vote-on-general-orders",
       "start_sec": 3220.96,
-      "summary": "Council Member Erik Bottcher explains his vote by drawing parallels between the historical struggles of gay and lesbian rights and the current fight for transgender rights. He urges the Council to pass protective legislation and reject harmful stereotypes.",
-      "title": "Council Member Bottcher Explains Vote on Transgender Rights and Personal Experience",
+      "summary": "Council Member Eric Bottcher explains his vote, drawing parallels between past struggles for gay rights and the current fight for trans rights, urging compassion and legal safeguards.",
+      "title": "Council Member Bottcher Explains Vote on General Orders",
       "type": "REMARKS",
       "utterances": [
         {
@@ -2937,7 +2948,18 @@
           "speaker": "Council Staff",
           "t_sec": 3341.96,
           "text": "Thank you."
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 3362.68,
+      "id": "031",
+      "slug": "roll-call-vote-on-general-orders-continued",
+      "start_sec": 3343.8,
+      "summary": "The roll call vote on the general orders calendar continues with Council Members Brannan, Brewer, and Brooks-Powers casting their votes.",
+      "title": "Roll Call Vote on General Orders Continued",
+      "type": "ROLL_CALL",
+      "utterances": [
         {
           "speaker": "Council Staff",
           "t_sec": 3343.8,
@@ -2976,12 +2998,12 @@
       ]
     },
     {
-      "end_sec": 3557.4,
-      "id": "030",
-      "slug": "council-member-cab-n-explains-vote-defending-transgender-healthcare-access",
+      "end_sec": 3465.36,
+      "id": "032",
+      "slug": "council-member-cab-n-explains-vote-on-general-orders",
       "start_sec": 3362.68,
-      "summary": "Council Member Tiffany Cab\u00e1n explains her vote, strongly defending access to gender-affirming healthcare. She cites medical studies showing that such care significantly reduces depression and suicidality among trans youth.",
-      "title": "Council Member Cab\u00e1n Explains Vote Defending Transgender Healthcare Access",
+      "summary": "Council Member Tiffany Cab\u00e1n explains her vote, strongly defending access to gender-affirming healthcare as life-saving medical care supported by major medical associations.",
+      "title": "Council Member Cab\u00e1n Explains Vote on General Orders",
       "type": "REMARKS",
       "utterances": [
         {
@@ -3098,7 +3120,18 @@
           "speaker": "Council Staff",
           "t_sec": 3464.08,
           "text": "Thank you."
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 3557.4,
+      "id": "033",
+      "slug": "roll-call-vote-on-general-orders-continued-2",
+      "start_sec": 3465.36,
+      "summary": "The roll call vote continues with Council Members Carr, Dinowitz, Felder, Feliz, Gennaro, Guti\u00e9rrez, Hanif, and Holden casting their votes.",
+      "title": "Roll Call Vote on General Orders Continued",
+      "type": "ROLL_CALL",
+      "utterances": [
         {
           "speaker": "Council Staff",
           "t_sec": 3465.36,
@@ -3217,12 +3250,12 @@
       ]
     },
     {
-      "end_sec": 3686.88,
-      "id": "031",
-      "slug": "council-member-hudson-explains-vote-sharing-story-of-transgender-staff-member",
+      "end_sec": 3628.08,
+      "id": "034",
+      "slug": "council-member-hudson-explains-vote-on-general-orders",
       "start_sec": 3557.4,
-      "summary": "Council Member Crystal Hudson explains her vote by sharing a personal story about her director of constituent services, who is a trans woman. She challenges opponents of trans rights to tell her hardworking staff member to her face that her life does not matter.",
-      "title": "Council Member Hudson Explains Vote Sharing Story of Transgender Staff Member",
+      "summary": "Council Member Crystal Hudson explains her vote, sharing a personal story about a dedicated black trans woman on her staff to emphasize the human dignity of trans New Yorkers.",
+      "title": "Council Member Hudson Explains Vote on General Orders",
       "type": "REMARKS",
       "utterances": [
         {
@@ -3304,7 +3337,18 @@
           "speaker": "Council Staff",
           "t_sec": 3625.44,
           "text": "Thank you."
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 3679.36,
+      "id": "035",
+      "slug": "roll-call-vote-on-general-orders-continued-3",
+      "start_sec": 3628.08,
+      "summary": "The roll call vote continues with Council Members Joseph, Lee, and Marmorato casting their votes on the general orders calendar.",
+      "title": "Roll Call Vote on General Orders Continued",
+      "type": "ROLL_CALL",
+      "utterances": [
         {
           "speaker": "Council Staff",
           "t_sec": 3628.08,
@@ -3349,7 +3393,18 @@
           "speaker": "Kristy Marmorato",
           "t_sec": 3667.28,
           "text": "Thank you."
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 3784.48,
+      "id": "036",
+      "slug": "council-members-mealy-menin-nurse-and-oss-explain-votes",
+      "start_sec": 3679.36,
+      "summary": "Council Members Mealy, Menin, Nurse, and Oss\u00e9 explain their votes. Nurse clarifies the affordability of the Brownsville NCP project, while Oss\u00e9 speaks in defense of the trans community.",
+      "title": "Council Members Mealy, Menin, Nurse, and Oss\u00e9 Explain Votes",
+      "type": "REMARKS",
+      "utterances": [
         {
           "speaker": "Council Staff",
           "t_sec": 3679.36,
@@ -3369,18 +3424,7 @@
           "speaker": "Darlene Mealy",
           "t_sec": 3684.4,
           "text": "Intro 246A."
-        }
-      ]
-    },
-    {
-      "end_sec": 3784.48,
-      "id": "032",
-      "slug": "council-member-nurse-explains-vote-clarifying-brownsville-ncp-affordability",
-      "start_sec": 3686.88,
-      "summary": "Council Member Sandy Nurse explains her vote, clarifying that the Brownsville NCP project is 100% affordable and under market value. She thanks those who worked in good faith on the development.",
-      "title": "Council Member Nurse Explains Vote Clarifying Brownsville NCP Affordability",
-      "type": "REMARKS",
-      "utterances": [
+        },
         {
           "speaker": "Chi A. Oss\u00e9",
           "t_sec": 3686.88,
@@ -3389,12 +3433,12 @@
       ]
     },
     {
-      "end_sec": 3791.68,
-      "id": "033",
-      "slug": "council-member-oss-explains-vote-on-transgender-rights-package",
+      "end_sec": 3891.2,
+      "id": "037",
+      "slug": "council-member-paladino-explains-vote-on-general-orders",
       "start_sec": 3784.48,
-      "summary": "Council Member Chi Oss\u00e9 explains his vote in support of the transgender rights package. He sharply criticizes colleagues who oppose the bills, noting that trans individuals are not the ones causing harm in the community.",
-      "title": "Council Member Oss\u00e9 Explains Vote on Transgender Rights Package",
+      "summary": "Council Member Vickie Paladino explains her vote, calling for mutual respect and a middle ground while voting 'no' on the transgender rights package.",
+      "title": "Council Member Paladino Explains Vote on General Orders",
       "type": "REMARKS",
       "utterances": [
         {
@@ -3411,18 +3455,7 @@
           "speaker": "Chi A. Oss\u00e9",
           "t_sec": 3788.32,
           "text": "So I on all."
-        }
-      ]
-    },
-    {
-      "end_sec": 3891.2,
-      "id": "034",
-      "slug": "council-member-paladino-explains-vote-and-criticizes-council-division",
-      "start_sec": 3791.68,
-      "summary": "Council Member Vickie Paladino explains her vote, praising Council Member Bottcher's remarks but criticizing the hostility and division within the chamber. She votes no on the transgender rights bills and aye on the remaining items.",
-      "title": "Council Member Paladino Explains Vote and Criticizes Council Division",
-      "type": "REMARKS",
-      "utterances": [
+        },
         {
           "speaker": "Council Staff",
           "t_sec": 3791.68,
@@ -3571,13 +3604,13 @@
       ]
     },
     {
-      "end_sec": 3926.76,
-      "id": "035",
-      "slug": "council-member-restler-explains-vote-in-support-of-transgender-community",
+      "end_sec": 3971.96,
+      "id": "038",
+      "slug": "roll-call-vote-on-general-orders-continued-4",
       "start_sec": 3891.2,
-      "summary": "Council Member Lincoln Restler explains his vote, stating that it is more important than ever to stand with and fight for the transgender community. He proudly votes aye on all items.",
-      "title": "Council Member Restler Explains Vote in Support of Transgender Community",
-      "type": "REMARKS",
+      "summary": "The roll call vote continues with Council Members Powers, Restler, Riley, Rivera, Salaam, and Salamanca casting their votes.",
+      "title": "Roll Call Vote on General Orders Continued",
+      "type": "ROLL_CALL",
       "utterances": [
         {
           "speaker": "Council Staff",
@@ -3633,18 +3666,7 @@
           "speaker": "Council Staff",
           "t_sec": 3924.2,
           "text": "Rivero."
-        }
-      ]
-    },
-    {
-      "end_sec": 3980.76,
-      "id": "036",
-      "slug": "council-member-rivera-explains-vote-supporting-lgbtq-community",
-      "start_sec": 3926.76,
-      "summary": "Council Member Carlina Rivera explains her vote, highlighting that the transgender community is disproportionately targeted and marginalized. She aligns herself with the supportive comments of her colleagues and votes aye on all items.",
-      "title": "Council Member Rivera Explains Vote Supporting LGBTQ Community",
-      "type": "REMARKS",
-      "utterances": [
+        },
         {
           "speaker": "Carlina Rivera",
           "t_sec": 3926.76,
@@ -3689,7 +3711,18 @@
           "speaker": "Carlina Rivera",
           "t_sec": 3968.44,
           "text": "Um, and with that, I proudly vote aye on all."
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 4026.88,
+      "id": "039",
+      "slug": "council-member-sanchez-explains-vote-on-general-orders",
+      "start_sec": 3971.96,
+      "summary": "Council Member Pierina Sanchez explains her vote, congratulating colleagues on the Affirm Act and aligning herself with remarks supporting trans New Yorkers.",
+      "title": "Council Member Sanchez Explains Vote on General Orders",
+      "type": "REMARKS",
+      "utterances": [
         {
           "speaker": "Council Staff",
           "t_sec": 3971.96,
@@ -3714,18 +3747,7 @@
           "speaker": "Council Staff",
           "t_sec": 3978.2,
           "text": "Sanchez."
-        }
-      ]
-    },
-    {
-      "end_sec": 4035.6,
-      "id": "037",
-      "slug": "council-member-sanchez-explains-vote-honoring-former-gender-non-conforming-staff-member",
-      "start_sec": 3980.76,
-      "summary": "Council Member Pierina Sanchez explains her vote, congratulating her colleagues and honoring her former deputy chief of staff, a gender non-conforming individual who contributed significantly to city policy. She votes aye on all items except SLR1, on which she abstains.",
-      "title": "Council Member Sanchez Explains Vote Honoring Former Gender Non-Conforming Staff Member",
-      "type": "REMARKS",
-      "utterances": [
+        },
         {
           "speaker": "Pierina Ana Sanchez",
           "t_sec": 3980.76,
@@ -3755,23 +3777,23 @@
           "speaker": "Pierina Ana Sanchez",
           "t_sec": 4022.8,
           "text": "Thank you."
-        },
-        {
-          "speaker": "Council Staff",
-          "t_sec": 4026.88,
-          "text": "Thank you, Councilmember."
         }
       ]
     },
     {
       "end_sec": 4072.0,
-      "id": "038",
-      "slug": "council-member-schulman-explains-vote-on-lgbtqia-caucus-legislation",
-      "start_sec": 4035.6,
-      "summary": "Council Member Lynn Schulman explains her vote, expressing pride as a member of the LGBTQIA+ caucus in passing the day's legislative package, and votes aye on all items.",
-      "title": "Council Member Schulman Explains Vote on LGBTQIA+ Caucus Legislation",
-      "type": "REMARKS",
+      "id": "040",
+      "slug": "roll-call-vote-on-general-orders-continued-5",
+      "start_sec": 4026.88,
+      "summary": "The roll call vote continues with Council Members Schulman, Stevens, and Ung casting their votes on the general orders calendar.",
+      "title": "Roll Call Vote on General Orders Continued",
+      "type": "ROLL_CALL",
       "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 4026.88,
+          "text": "Thank you, Councilmember."
+        },
         {
           "speaker": "Council Staff",
           "t_sec": 4035.6,
@@ -3826,11 +3848,11 @@
     },
     {
       "end_sec": 4154.52,
-      "id": "039",
-      "slug": "council-member-williams-explains-vote-on-civil-rights-and-deed-fraud-legislation",
+      "id": "041",
+      "slug": "council-member-williams-explains-vote-on-general-orders",
       "start_sec": 4072.0,
-      "summary": "Council Member Nantasha Williams explains her vote, highlighting her role as chair of the Civil and Human Rights Committee. She also discusses her bill to combat deed fraud, thanking Brooklyn Legal Services Corporation A for their partnership.",
-      "title": "Council Member Williams Explains Vote on Civil Rights and Deed Fraud Legislation",
+      "summary": "Council Member Nantasha Williams explains her vote, highlighting the importance of the trans rights package and her bill to combat deed fraud to protect homeowners.",
+      "title": "Council Member Williams Explains Vote on General Orders",
       "type": "REMARKS",
       "utterances": [
         {
@@ -3902,11 +3924,11 @@
     },
     {
       "end_sec": 4255.2,
-      "id": "040",
-      "slug": "council-member-zhuang-explains-vote-and-calls-for-professionalism",
+      "id": "042",
+      "slug": "council-member-zhuang-explains-vote-on-general-orders",
       "start_sec": 4154.52,
-      "summary": "Council Member Susan Zhuang explains her vote, thanking Council Member Bottcher for his perspective. She emphasizes that council members are elected to protect and represent their communities, and calls for an end to childish behavior in the chambers.",
-      "title": "Council Member Zhuang Explains Vote and Calls for Professionalism",
+      "summary": "Council Member Susan Zhuang explains her vote, emphasizing that council members are elected to represent and protect their communities rather than engage in divisive rhetoric.",
+      "title": "Council Member Zhuang Explains Vote on General Orders",
       "type": "REMARKS",
       "utterances": [
         {
@@ -4023,11 +4045,11 @@
     },
     {
       "end_sec": 4338.2,
-      "id": "041",
-      "slug": "minority-leader-ariola-explains-vote-and-calls-for-respect-in-chambers",
+      "id": "043",
+      "slug": "council-member-ariola-explains-vote-on-general-orders",
       "start_sec": 4255.2,
-      "summary": "Minority Leader Joann Ariola explains her vote, criticizing members who brought up personal indiscretions of other colleagues during the vote. She calls for mutual respect in the chamber and votes no on the transgender rights bills and SLR1.",
-      "title": "Minority Leader Ariola Explains Vote and Calls for Respect in Chambers",
+      "summary": "Council Member Joann Ariola explains her vote, criticizing personal attacks made during the session and casting her votes on the general orders calendar.",
+      "title": "Council Member Ariola Explains Vote on General Orders",
       "type": "REMARKS",
       "utterances": [
         {
@@ -4119,11 +4141,11 @@
     },
     {
       "end_sec": 4619.72,
-      "id": "042",
-      "slug": "roll-call-vote-results-and-adoption-of-general-orders-calendar",
+      "id": "044",
+      "slug": "vote-outcome-on-general-orders-calendar",
       "start_sec": 4338.2,
-      "summary": "The Council clerk announces the final vote tallies for the general orders calendar. All coupled items are adopted, with specific tallies read for SLR1, Intro 26A, Intro 246A, and the transgender rights bills.",
-      "title": "Roll Call Vote Results and Adoption of General Orders Calendar",
+      "summary": "The clerk announces the final vote tallies, confirming the adoption of all items on the general orders calendar, including SLR1, Intro 26A, and the transgender rights package.",
+      "title": "Vote Outcome on General Orders Calendar",
       "type": "VOTE_OUTCOME",
       "utterances": [
         {
@@ -4229,11 +4251,11 @@
       ]
     },
     {
-      "end_sec": 4636.64,
-      "id": "043",
+      "end_sec": 4633.64,
+      "id": "045",
       "slug": "introduction-and-reading-of-bills",
       "start_sec": 4619.72,
-      "summary": "The Council clerk notes that all newly introduced bills have been referred to their respective committees as indicated on the day's agenda.",
+      "summary": "The clerk notes that all introduced bills have been referred to committees as indicated on the agenda, and the council transitions to the discussion of resolutions.",
       "title": "Introduction and Reading of Bills",
       "type": "PROCEDURE",
       "utterances": [
@@ -4261,7 +4283,18 @@
           "speaker": "Amanda C. Far\u00edas",
           "t_sec": 4628.28,
           "text": "And I'd like to first recognize Councilmember Nurse, followed by Gennaro, then Brewer."
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 4724.4,
+      "id": "046",
+      "slug": "council-member-gennaro-discusses-resolution-8-lead-service-line-replacement-funding",
+      "start_sec": 4633.64,
+      "summary": "Council Member Jim Gennaro discusses Resolution 8, calling on state agencies to fairly allocate federal infrastructure funds to New York City for lead service line replacement.",
+      "title": "Council Member Gennaro Discusses Resolution 8: Lead Service Line Replacement Funding",
+      "type": "REMARKS",
+      "utterances": [
         {
           "speaker": "Sandy Nurse",
           "t_sec": 4633.64,
@@ -4271,18 +4304,7 @@
           "speaker": "Amanda C. Far\u00edas",
           "t_sec": 4635.84,
           "text": "No problem."
-        }
-      ]
-    },
-    {
-      "end_sec": 4738.0,
-      "id": "044",
-      "slug": "council-member-gennaro-discusses-resolution-8-on-lead-service-line-replacement-funding",
-      "start_sec": 4636.64,
-      "summary": "Council Member James Gennaro speaks in support of Resolution 8, which calls for a fair allocation of federal infrastructure funds for lead service line replacement, arguing that New York City has been unfairly shortchanged by the state.",
-      "title": "Council Member Gennaro Discusses Resolution 8 on Lead Service Line Replacement Funding",
-      "type": "REMARKS",
-      "utterances": [
+        },
         {
           "speaker": "Amanda C. Far\u00edas",
           "t_sec": 4636.64,
@@ -4347,7 +4369,18 @@
           "speaker": "James F. Gennaro",
           "t_sec": 4720.32,
           "text": "Thank you very much."
-        },
+        }
+      ]
+    },
+    {
+      "end_sec": 4789.16,
+      "id": "047",
+      "slug": "council-member-brewer-discusses-helicopter-noise-resolutions",
+      "start_sec": 4724.4,
+      "summary": "Council Member Gail Brewer discusses Resolutions 233A and 226A, which call on federal and state authorities to ban or restrict non-essential helicopter flights over the city.",
+      "title": "Council Member Brewer Discusses Helicopter Noise Resolutions",
+      "type": "REMARKS",
+      "utterances": [
         {
           "speaker": "Amanda C. Far\u00edas",
           "t_sec": 4724.4,
@@ -4362,18 +4395,7 @@
           "speaker": "Amanda C. Far\u00edas",
           "t_sec": 4730.72,
           "text": "SLR one was adopted by a vote of 41 in the affirmative, two in the negative, and five abstentions."
-        }
-      ]
-    },
-    {
-      "end_sec": 4789.16,
-      "id": "045",
-      "slug": "council-member-brewer-discusses-resolutions-banning-non-essential-helicopter-flights",
-      "start_sec": 4738.0,
-      "summary": "Council Member Gale Brewer discusses Resolutions 233A and 226A, which call on the federal and state governments to ban non-essential helicopter travel over New York City to address rampant noise complaints.",
-      "title": "Council Member Brewer Discusses Resolutions Banning Non-Essential Helicopter Flights",
-      "type": "REMARKS",
-      "utterances": [
+        },
         {
           "speaker": "Amanda C. Far\u00edas",
           "t_sec": 4738.0,
@@ -4412,12 +4434,12 @@
       ]
     },
     {
-      "end_sec": 4835.16,
-      "id": "046",
-      "slug": "council-member-nurse-discusses-resolution-327-on-retroactive-property-tax-exemptions",
+      "end_sec": 4842.28,
+      "id": "048",
+      "slug": "council-member-nurse-discusses-resolution-327-retroactive-property-tax-exemptions",
       "start_sec": 4789.16,
-      "summary": "Council Member Sandy Nurse discusses Resolution 327, which calls on the state to pass legislation allowing eligible property owners to receive retroactive property tax exemptions to prevent foreclosure and financial hardship.",
-      "title": "Council Member Nurse Discusses Resolution 327 on Retroactive Property Tax Exemptions",
+      "summary": "Council Member Sandy Nurse discusses Resolution 327, calling on the state to pass legislation allowing eligible property owners to receive retroactive property tax exemptions.",
+      "title": "Council Member Nurse Discusses Resolution 327: Retroactive Property Tax Exemptions",
       "type": "REMARKS",
       "utterances": [
         {
@@ -4449,23 +4471,23 @@
           "speaker": "Sandy Nurse",
           "t_sec": 4832.2,
           "text": "Thank you, Majority Leader."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 4835.16,
+          "text": "Recognizing Councilmember Bacher, followed by Krishna."
         }
       ]
     },
     {
       "end_sec": 4935.92,
-      "id": "047",
-      "slug": "council-member-krishnan-discusses-resolution-852-to-protect-social-security",
-      "start_sec": 4835.16,
-      "summary": "Council Member Shekar Krishnan introduces Resolution 852, calling on the federal government to protect Social Security from potential cuts proposed by the Trump administration and the DOGE team.",
-      "title": "Council Member Krishnan Discusses Resolution 852 to Protect Social Security",
+      "id": "049",
+      "slug": "council-member-krishnan-discusses-resolution-852-protecting-social-security",
+      "start_sec": 4842.28,
+      "summary": "Council Member Shekar Krishnan discusses Resolution 852, calling on the federal government to protect Social Security from proposed cuts and defend benefits for seniors.",
+      "title": "Council Member Krishnan Discusses Resolution 852: Protecting Social Security",
       "type": "REMARKS",
       "utterances": [
-        {
-          "speaker": "Amanda C. Far\u00edas",
-          "t_sec": 4835.16,
-          "text": "Recognizing Councilmember Bacher, followed by Krishna."
-        },
         {
           "speaker": "Amanda C. Far\u00edas",
           "t_sec": 4842.28,
@@ -4570,10 +4592,10 @@
     },
     {
       "end_sec": 4962.6,
-      "id": "048",
+      "id": "050",
       "slug": "voice-vote-on-resolution-8-lead-service-line-replacement-funding",
       "start_sec": 4935.92,
-      "summary": "The Council conducts a voice vote on Resolution 8, which calls for fair allocation of grants and loans for lead service line replacement. The resolution is adopted.",
+      "summary": "The Council conducts a voice vote and adopts Resolution 8, urging fair allocation of federal funds for lead service line replacement.",
       "title": "Voice Vote on Resolution 8: Lead Service Line Replacement Funding",
       "type": "VOICE_VOTE",
       "utterances": [
@@ -4616,11 +4638,11 @@
     },
     {
       "end_sec": 4982.04,
-      "id": "049",
-      "slug": "voice-vote-on-resolution-85a-noise-tax-on-non-essential-helicopter-flights",
+      "id": "051",
+      "slug": "voice-vote-on-resolution-85a-helicopter-noise-tax",
       "start_sec": 4962.6,
-      "summary": "The Council conducts a voice vote on Resolution 85A, calling on the state to establish a noise tax on non-essential helicopter and seaplane flights. The resolution is adopted.",
-      "title": "Voice Vote on Resolution 85A: Noise Tax on Non-Essential Helicopter Flights",
+      "summary": "The Council conducts a voice vote and adopts Resolution 85A, calling for a noise tax on non-essential helicopter and seaplane flights.",
+      "title": "Voice Vote on Resolution 85A: Helicopter Noise Tax",
       "type": "VOICE_VOTE",
       "utterances": [
         {
@@ -4657,11 +4679,11 @@
     },
     {
       "end_sec": 4999.88,
-      "id": "050",
-      "slug": "voice-vote-on-resolution-144a-water-infrastructure-funding-upgrades",
+      "id": "052",
+      "slug": "voice-vote-on-resolution-144a-water-infrastructure-funding",
       "start_sec": 4982.04,
-      "summary": "The Council conducts a voice vote on Resolution 144A, calling on the state to remove restrictive barriers on water infrastructure funding for New York City. The resolution is adopted.",
-      "title": "Voice Vote on Resolution 144A: Water Infrastructure Funding Upgrades",
+      "summary": "The Council conducts a voice vote and adopts Resolution 144A, calling for the removal of funding caps on water infrastructure upgrades.",
+      "title": "Voice Vote on Resolution 144A: Water Infrastructure Funding",
       "type": "VOICE_VOTE",
       "utterances": [
         {
@@ -4698,11 +4720,11 @@
     },
     {
       "end_sec": 5019.96,
-      "id": "051",
-      "slug": "voice-vote-on-resolution-226a-prohibiting-non-essential-flights-at-municipal-heliports",
+      "id": "053",
+      "slug": "voice-vote-on-resolution-226a-restricting-heliport-operations",
       "start_sec": 4999.88,
-      "summary": "The Council conducts a voice vote on Resolution 226A, calling on the state to prohibit certain non-essential flight operations at municipal heliports. The resolution is adopted.",
-      "title": "Voice Vote on Resolution 226A: Prohibiting Non-Essential Flights at Municipal Heliports",
+      "summary": "The Council conducts a voice vote and adopts Resolution 226A, calling for a prohibition on certain non-essential flight operations at municipal heliports.",
+      "title": "Voice Vote on Resolution 226A: Restricting Heliport Operations",
       "type": "VOICE_VOTE",
       "utterances": [
         {
@@ -4734,11 +4756,11 @@
     },
     {
       "end_sec": 5036.76,
-      "id": "052",
-      "slug": "voice-vote-on-resolution-233a-banning-non-essential-helicopter-travel-over-new-york-city",
+      "id": "054",
+      "slug": "voice-vote-on-resolution-233a-banning-non-essential-helicopter-flights",
       "start_sec": 5019.96,
-      "summary": "The Council conducts a voice vote on Resolution 233A, calling on the FAA to ban all non-essential helicopter travel over New York City. The resolution is adopted.",
-      "title": "Voice Vote on Resolution 233A: Banning Non-Essential Helicopter Travel Over New York City",
+      "summary": "The Council conducts a voice vote and adopts Resolution 233A, calling on the FAA to ban non-essential helicopter travel over New York City.",
+      "title": "Voice Vote on Resolution 233A: Banning Non-Essential Helicopter Flights",
       "type": "VOICE_VOTE",
       "utterances": [
         {
@@ -4770,10 +4792,10 @@
     },
     {
       "end_sec": 5055.92,
-      "id": "053",
+      "id": "055",
       "slug": "voice-vote-on-resolution-327-retroactive-property-tax-exemptions",
       "start_sec": 5036.76,
-      "summary": "The Council conducts a voice vote on Resolution 327, calling on the state to authorize retroactive property tax exemptions for eligible property owners. The resolution is adopted.",
+      "summary": "The Council conducts a voice vote and adopts Resolution 327, calling for state legislation to authorize retroactive property tax exemptions.",
       "title": "Voice Vote on Resolution 327: Retroactive Property Tax Exemptions",
       "type": "VOICE_VOTE",
       "utterances": [
@@ -4806,11 +4828,11 @@
     },
     {
       "end_sec": 5078.08,
-      "id": "054",
-      "slug": "voice-vote-on-resolution-598-industrial-laundry-company-standards-for-healthcare-institutions",
+      "id": "056",
+      "slug": "voice-vote-on-resolution-598-industrial-laundry-contracts",
       "start_sec": 5055.92,
-      "summary": "The Council conducts a voice vote on Resolution 598, calling on healthcare institutions to contract with industrial laundry companies that respect workers' rights. The resolution is adopted.",
-      "title": "Voice Vote on Resolution 598: Industrial Laundry Company Standards for Healthcare Institutions",
+      "summary": "The Council conducts a voice vote and adopts Resolution 598, calling on healthcare institutions to contract with laundry companies that respect workers' rights.",
+      "title": "Voice Vote on Resolution 598: Industrial Laundry Contracts",
       "type": "VOICE_VOTE",
       "utterances": [
         {
@@ -4852,11 +4874,11 @@
     },
     {
       "end_sec": 5098.8,
-      "id": "055",
-      "slug": "voice-vote-on-resolution-771-extending-protections-over-personal-health-information",
+      "id": "057",
+      "slug": "voice-vote-on-resolution-771-personal-health-information-protections",
       "start_sec": 5078.08,
-      "summary": "The Council conducts a voice vote on Resolution 771, calling on the governor to sign legislation extending protections over personal health information. The resolution is adopted.",
-      "title": "Voice Vote on Resolution 771: Extending Protections Over Personal Health Information",
+      "summary": "The Council conducts a voice vote and adopts Resolution 771, calling on the governor to sign legislation extending protections over personal health information.",
+      "title": "Voice Vote on Resolution 771: Personal Health Information Protections",
       "type": "VOICE_VOTE",
       "utterances": [
         {
@@ -4888,11 +4910,11 @@
     },
     {
       "end_sec": 5123.76,
-      "id": "056",
-      "slug": "voice-vote-on-resolution-774-transgender-health-standards-of-care-in-hospitals",
+      "id": "058",
+      "slug": "voice-vote-on-resolution-774-transgender-standards-of-care-in-hospitals",
       "start_sec": 5098.8,
-      "summary": "The Council conducts a voice vote on Resolution 774, calling on the state to require hospitals to adhere to the World Professional Association for Transgender Health Standards of Care. The resolution is adopted.",
-      "title": "Voice Vote on Resolution 774: Transgender Health Standards of Care in Hospitals",
+      "summary": "The Council conducts a voice vote and adopts Resolution 774, calling for regulations requiring hospitals to adhere to WPATH standards of care.",
+      "title": "Voice Vote on Resolution 774: Transgender Standards of Care in Hospitals",
       "type": "VOICE_VOTE",
       "utterances": [
         {
@@ -4924,11 +4946,11 @@
     },
     {
       "end_sec": 5146.72,
-      "id": "057",
-      "slug": "voice-vote-on-resolution-781-restricting-out-of-state-access-to-prescription-monitoring-data",
+      "id": "059",
+      "slug": "voice-vote-on-resolution-781-restricting-out-of-state-prescription-data-access",
       "start_sec": 5123.76,
-      "summary": "The Council conducts a voice vote on Resolution 781, calling on the state to prohibit out-of-state access to prescription monitoring data for certain medications. The resolution is adopted.",
-      "title": "Voice Vote on Resolution 781: Restricting Out-of-State Access to Prescription Monitoring Data",
+      "summary": "The Council conducts a voice vote and adopts Resolution 781, calling for a prohibition on out-of-state access to prescription monitoring data for certain medications.",
+      "title": "Voice Vote on Resolution 781: Restricting Out-of-State Prescription Data Access",
       "type": "VOICE_VOTE",
       "utterances": [
         {
@@ -4960,10 +4982,10 @@
     },
     {
       "end_sec": 5181.0,
-      "id": "058",
+      "id": "060",
       "slug": "voice-vote-on-resolution-793-sensitive-health-information-protections",
       "start_sec": 5146.72,
-      "summary": "The Council conducts a voice vote on Resolution 793, calling on the state to provide additional protections for sensitive health information related to abortion or gender-affirming care. The resolution is adopted.",
+      "summary": "The Council conducts a voice vote and adopts Resolution 793, calling for additional protections for sensitive health information related to abortion or gender-affirming care.",
       "title": "Voice Vote on Resolution 793: Sensitive Health Information Protections",
       "type": "VOICE_VOTE",
       "utterances": [
@@ -4996,11 +5018,11 @@
     },
     {
       "end_sec": 5292.88,
-      "id": "059",
-      "slug": "council-member-brewer-pays-tribute-to-greenmarket-co-founder-barry-benepe",
+      "id": "061",
+      "slug": "council-member-brewer-pays-tribute-to-barry-benepe",
       "start_sec": 5181.0,
-      "summary": "During general discussion, Council Member Gale Brewer pays tribute to Barry Benepe, the co-founder of the Greenmarket, who passed away at age 96. She highlights his contributions to the city's parks, bike infrastructure, and local agriculture.",
-      "title": "Council Member Brewer Pays Tribute to Greenmarket Co-Founder Barry Benepe",
+      "summary": "During general discussion, Council Member Gail Brewer pays tribute to Barry Benepe, the co-founder of the Greenmarket, who passed away at age 96, highlighting his contributions to the city.",
+      "title": "Council Member Brewer Pays Tribute to Barry Benepe",
       "type": "REMARKS",
       "utterances": [
         {
@@ -5097,11 +5119,11 @@
     },
     {
       "end_sec": 5379.0,
-      "id": "060",
-      "slug": "council-member-holden-introduces-legislation-on-fire-hydrant-obstruction-and-rodeo-animal-abuse",
+      "id": "062",
+      "slug": "council-member-holden-introduces-fire-hydrant-and-rodeo-animal-protection-bills",
       "start_sec": 5292.88,
-      "summary": "Council Member Robert Holden introduces Intro 1256 to strengthen enforcement against obstructing fire hydrants, and Intro 1255 to ban inhumane animal practices in rodeos within New York City.",
-      "title": "Council Member Holden Introduces Legislation on Fire Hydrant Obstruction and Rodeo Animal Abuse",
+      "summary": "Council Member Robert Holden introduces legislation to strengthen enforcement against fire hydrant obstruction and to ban inhumane animal practices in rodeos.",
+      "title": "Council Member Holden Introduces Fire Hydrant and Rodeo Animal Protection Bills",
       "type": "REMARKS",
       "utterances": [
         {
@@ -5163,11 +5185,11 @@
     },
     {
       "end_sec": 5461.32,
-      "id": "061",
-      "slug": "council-member-sanchez-introduces-legislation-to-improve-housing-connect-lottery-system",
+      "id": "063",
+      "slug": "council-member-sanchez-introduces-housing-connect-improvement-bills",
       "start_sec": 5379.0,
-      "summary": "Council Member Pierina Sanchez introduces three bills (Intros 1264, 1265, and 1266) aimed at improving the Housing Connect lottery system by reducing wait times, providing text/email updates, and establishing in-person assistance programs.",
-      "title": "Council Member Sanchez Introduces Legislation to Improve Housing Connect Lottery System",
+      "summary": "Council Member Pierina Sanchez introduces a package of three bills aimed at improving the Housing Connect application system, reducing wait times, and providing assistance to applicants.",
+      "title": "Council Member Sanchez Introduces Housing Connect Improvement Bills",
       "type": "REMARKS",
       "utterances": [
         {
@@ -5234,11 +5256,11 @@
     },
     {
       "end_sec": 5551.68,
-      "id": "062",
-      "slug": "council-member-lee-introduces-legislation-requiring-behavioral-training-for-juvenile-detention-s",
+      "id": "064",
+      "slug": "council-member-lee-introduces-juvenile-detention-staff-training-bill",
       "start_sec": 5461.32,
-      "summary": "Council Member Linda Lee introduces Intro 1259, which requires direct service staff in juvenile detention facilities to receive foundational training in behavioral support, de-escalation, and trauma-informed care.",
-      "title": "Council Member Lee Introduces Legislation Requiring Behavioral Training for Juvenile Detention Staff",
+      "summary": "Council Member Linda Lee introduces Intro 1259, which requires direct service staff in juvenile detention facilities to receive training in behavioral support and de-escalation strategies.",
+      "title": "Council Member Lee Introduces Juvenile Detention Staff Training Bill",
       "type": "REMARKS",
       "utterances": [
         {
@@ -5305,11 +5327,11 @@
     },
     {
       "end_sec": 5647.72,
-      "id": "063",
-      "slug": "council-member-krishnan-re-emphasizes-resolution-852-to-protect-social-security",
+      "id": "065",
+      "slug": "council-member-krishnan-discusses-resolution-to-protect-social-security",
       "start_sec": 5551.68,
-      "summary": "Council Member Shekar Krishnan speaks again to urge his colleagues on both sides of the aisle to sign on to Resolution 852 to protect Social Security from federal budget cuts.",
-      "title": "Council Member Krishnan Re-emphasizes Resolution 852 to Protect Social Security",
+      "summary": "Council Member Shekar Krishnan reiterates the importance of protecting Social Security and urges colleagues to support his resolution calling on the federal government to prevent cuts.",
+      "title": "Council Member Krishnan Discusses Resolution to Protect Social Security",
       "type": "REMARKS",
       "utterances": [
         {
@@ -5375,12 +5397,12 @@
       ]
     },
     {
-      "end_sec": 5675.72,
-      "id": "064",
-      "slug": "council-member-mealy-welcomes-council-member-simcha-felder",
+      "end_sec": 5678.76,
+      "id": "066",
+      "slug": "council-member-mealy-welcomes-simcha-felder-and-kalman-yeger",
       "start_sec": 5647.72,
-      "summary": "Council Member Darlene Mealy welcomes newly elected Council Member Simcha Felder back to the City Council and congratulates former Council Member Kalman Yeager on his election to the State Assembly.",
-      "title": "Council Member Mealy Welcomes Council Member Simcha Felder",
+      "summary": "Council Member Darlene Mealy welcomes newly elected Council Member Simcha Felder back to the Council and congratulates Kalman Yeger on his transition to the State Assembly.",
+      "title": "Council Member Mealy Welcomes Simcha Felder and Kalman Yeger",
       "type": "REMARKS",
       "utterances": [
         {
@@ -5422,23 +5444,23 @@
           "speaker": "Darlene Mealy",
           "t_sec": 5674.52,
           "text": "Thank you."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 5675.72,
+          "text": "Seeing no one else signed up to speak."
         }
       ]
     },
     {
       "end_sec": 5695.829,
-      "id": "065",
+      "id": "067",
       "slug": "adjournment",
-      "start_sec": 5675.72,
-      "summary": "Speaker Adrienne Adams officially adjourns the stated meeting of April 24, 2025.",
+      "start_sec": 5678.76,
+      "summary": "Speaker Adrienne Adams formally adjourns the stated meeting of April 24, 2025.",
       "title": "Adjournment",
       "type": "PROCEDURE",
       "utterances": [
-        {
-          "speaker": "Amanda C. Far\u00edas",
-          "t_sec": 5675.72,
-          "text": "Seeing no one else signed up to speak."
-        },
         {
           "speaker": "Amanda C. Far\u00edas",
           "t_sec": 5678.76,
@@ -5461,9 +5483,9 @@
   "duration_sec": 5695.829,
   "slug": "2025-04-24-0130-pm-stated-meeting",
   "summary": [
-    "The Council passed a comprehensive package of legislation aimed at protecting and expanding resources for transgender, gender nonconforming, and nonbinary New Yorkers.",
-    "The Council approved measures to regulate non-essential helicopter flights to mitigate noise pollution and increase the capacity of the city's stormwater system.",
-    "Multiple Council members introduced new legislation, including bills to improve the Housing Connect lottery system and require behavioral training for juvenile detention staff."
+    "The Council passed a comprehensive legislative package aimed at protecting and expanding rights for transgender, gender nonconforming, and nonbinary New Yorkers, which sparked intense debate among members.",
+    "Legislation was approved to mitigate helicopter noise pollution by restricting non-essential flights at city heliports that do not meet strict FAA noise standards.",
+    "The Council voted on various land use, finance, and environmental measures, including the Brownsville NCP affordable housing project and stormwater management plans."
   ],
   "tags": [
     "STATED_MEETING",

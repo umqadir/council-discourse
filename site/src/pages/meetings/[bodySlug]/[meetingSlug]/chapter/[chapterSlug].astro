@@ -4,7 +4,7 @@ import BaseLayout from "@layouts/BaseLayout.astro";
 import Breadcrumbs from "@components/Breadcrumbs.astro";
 import Badge from "@components/Badge.astro";
 import VideoPlayer from "@components/VideoPlayer.astro";
-import { bodySlug, getBodies } from "@lib/data";
+import { getBodies } from "@lib/data";
 import { formatClock, formatDate, formatDuration } from "@lib/format";
 
 export function getStaticPaths() {
@@ -111,10 +111,11 @@ const description = `${chapter.title}, a ${formatDuration(duration)} segment fro
           {
             previous && (
               <a
-                class="underline decoration-line hover:decoration-civic"
-                href={`/meetings/${bodySlug(meeting)}/${meeting.slug}/chapter/${previous.slug}/`}
+                class="group inline-flex max-w-sm flex-col gap-1 underline decoration-line hover:decoration-civic"
+                href={`/meetings/${body.slug}/${meeting.slug}/chapter/${previous.slug}/`}
               >
-                Previous: {previous.title}
+                <span>&larr; Previous chapter</span>
+                <span class="font-serif text-lg leading-tight text-ink group-hover:text-civic">{previous.title}</span>
               </a>
             )
           }
@@ -123,10 +124,11 @@ const description = `${chapter.title}, a ${formatDuration(duration)} segment fro
           {
             next && (
               <a
-                class="underline decoration-line hover:decoration-civic"
-                href={`/meetings/${bodySlug(meeting)}/${meeting.slug}/chapter/${next.slug}/`}
+                class="group inline-flex max-w-sm flex-col gap-1 underline decoration-line hover:decoration-civic"
+                href={`/meetings/${body.slug}/${meeting.slug}/chapter/${next.slug}/`}
               >
-                Next: {next.title}
+                <span>Next chapter &rarr;</span>
+                <span class="font-serif text-lg leading-tight text-ink group-hover:text-civic">{next.title}</span>
               </a>
             )
           }

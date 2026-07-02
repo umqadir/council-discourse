@@ -6,7 +6,7 @@ description: Frequently asked questions about Council Discourse transcripts, sum
 
 ## Where does the video come from?
 
-The chapter pages stream the public Viebit MP4 for each NYC Council meeting directly in a video.js player.
+The chapter pages stream MP4 files prepared from public NYC Council video records in a video.js player.
 
 ## Are transcripts official?
 
