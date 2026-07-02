@@ -162,3 +162,9 @@ benchmark: 81.5% same-person (vs Voxtral 87.6%), 56 min wall (vs 5 min), though 
 name spelling (75.8% vs 70.4% strict). Self-hosted/GPU ASR is rejected on quality;
 Voxtral confirmed as prod ASR. Local dev profile stays parakeet (speed). Whisper's
 spelling edge supports the roster-anchored spelling-correction round for Voxtral.
+
+## 10. ASR batch pricing (2026-07-02)
+Mistral Batch API explicitly supports /v1/audio/transcriptions at 50% off ->
+Voxtral ASR line ~$9/mo instead of $18 at 40 meetings/mo. Async turnaround
+(unquantified in docs) — verify latency empirically before making batch the
+prod default; keep sync path for time-sensitive runs.
