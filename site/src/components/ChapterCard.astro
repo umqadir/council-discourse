@@ -1,0 +1,44 @@
+---
+import Badge from "@components/Badge.astro";
+import { chapterTypeLabel, firstSentences, formatClock, formatDuration } from "@lib/format";
+import type { Chapter, Meeting } from "@lib/types";
+import { bodySlug } from "@lib/data";
+
+interface Props {
+  meeting: Meeting;
+  chapter: Chapter;
+}
+
+const { meeting, chapter } = Astro.props;
+const duration = chapter.end_sec - chapter.start_sec;
+const href = `/meetings/${bodySlug(meeting)}/${meeting.slug}/chapter/${chapter.slug}/`;
+---
+
+<a
+  href={href}
+  class="group block border-t border-line py-5 text-ink no-underline transition-colors hover:border-civic"
+  data-type={chapter.type}
+  x-show="selected[$el.dataset.type]"
+  x-cloak
+>
+  <article class="grid gap-3 md:grid-cols-[8rem_minmax(0,1fr)] md:gap-6">
+    <div class="text-sm tabular text-muted">
+      <div>{formatClock(chapter.start_sec)}</div>
+      <div>{formatDuration(duration)}</div>
+    </div>
+    <div class="min-w-0">
+      <div class="mb-2">
+        <Badge type={chapter.type} />
+      </div>
+      <h3 class="font-serif text-xl font-semibold leading-tight text-ink group-hover:text-civic-dark">
+        {chapter.title}
+      </h3>
+      <p class="mt-2 line-clamp-3 leading-7 text-muted">
+        {firstSentences(chapter.summary, 2)}
+      </p>
+      <div class="mt-2 text-xs font-semibold uppercase tracking-[0.12em] text-muted">
+        {chapterTypeLabel(chapter.type)}
+      </div>
+    </div>
+  </article>
+</a>

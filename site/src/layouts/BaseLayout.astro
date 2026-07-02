@@ -1,0 +1,67 @@
+---
+import "@styles/global.css";
+
+interface Props {
+  title: string;
+  description: string;
+  image?: string;
+}
+
+const { title, description, image = "/og-placeholder.svg" } = Astro.props;
+const siteName = "Council Discourse";
+const pageTitle = title.includes(siteName) ? title : `${title} | ${siteName}`;
+const canonical = new URL(Astro.url.pathname, Astro.site).toString();
+const ogImage = new URL(image, Astro.site).toString();
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+  </head>
+  <body class="font-sans antialiased">
+    <a
+      href="#content"
+      class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:bg-paper focus:px-3 focus:py-2"
+    >
+      Skip to content
+    </a>
+    <header class="border-b border-line bg-paper/95 shadow-hairline">
+      <div class="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-4 md:flex-row md:items-end md:justify-between md:px-6">
+        <div>
+          <a href="/" class="font-serif text-2xl font-semibold leading-none text-ink no-underline">
+            Council Discourse
+          </a>
+          <p class="mt-1 text-sm text-muted">NYC Council meetings, chaptered and searchable by time.</p>
+        </div>
+        <nav aria-label="Primary" class="flex flex-wrap gap-x-5 gap-y-2 text-sm font-semibold">
+          <a class="underline decoration-line hover:decoration-civic" href="/meetings/new-york-city-council/">Meetings</a>
+          <a class="underline decoration-line hover:decoration-civic" href="/about/">About</a>
+          <a class="underline decoration-line hover:decoration-civic" href="/faq/">FAQ</a>
+        </nav>
+      </div>
+    </header>
+    <main id="content">
+      <slot />
+    </main>
+    <footer class="mt-14 border-t border-line bg-wash/60">
+      <div class="mx-auto flex max-w-6xl flex-col gap-2 px-4 py-8 text-sm text-muted md:flex-row md:items-center md:justify-between md:px-6">
+        <p>Summaries and transcripts are generated from public NYC Council video records.</p>
+        <a class="underline decoration-line hover:decoration-civic" href="mailto:hello@example.com">Report an issue</a>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,85 @@
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/500.css";
+@import "@fontsource/inter/600.css";
+@import "@fontsource/source-serif-4/400.css";
+@import "@fontsource/source-serif-4/600.css";
+@import "@fontsource/source-serif-4/700.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    color-scheme: light;
+    background: theme("colors.paper");
+  }
+
+  body {
+    min-height: 100vh;
+    background:
+      linear-gradient(rgba(20, 19, 17, 0.025) 1px, transparent 1px),
+      theme("colors.paper");
+    background-size: 100% 30px;
+    color: theme("colors.ink");
+    font-feature-settings:
+      "liga" 1,
+      "calt" 1;
+    text-rendering: optimizeLegibility;
+  }
+
+  a {
+    color: theme("colors.civic");
+    text-underline-offset: 0.18em;
+  }
+
+  a:hover {
+    color: theme("colors.civic-dark");
+  }
+
+  :focus-visible {
+    outline: 2px solid theme("colors.civic");
+    outline-offset: 3px;
+  }
+}
+
+@layer utilities {
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .prose-site h2 {
+    margin-top: 2rem;
+    font-family: theme("fontFamily.serif");
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.15;
+    color: theme("colors.ink");
+  }
+
+  .prose-site p {
+    color: theme("colors.muted");
+  }
+
+  .prose-site a {
+    font-weight: 600;
+    text-decoration-line: underline;
+    text-decoration-color: theme("colors.line");
+  }
+
+  .prose-site ul {
+    margin-left: 1.25rem;
+    list-style: disc;
+  }
+
+  [x-cloak] {
+    display: none !important;
+  }
+}

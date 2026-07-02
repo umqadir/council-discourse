@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Council Discourse</title>
+  <desc id="desc">A warm paper social preview for NYC Council meeting transcripts.</desc>
+  <rect width="1200" height="630" fill="#fbf8f1"/>
+  <path d="M80 110H1120M80 520H1120" stroke="#ded7ca" stroke-width="3"/>
+  <text x="80" y="260" fill="#141311" font-family="Georgia, serif" font-size="86" font-weight="700">Council Discourse</text>
+  <text x="84" y="345" fill="#174a7c" font-family="Arial, sans-serif" font-size="34" font-weight="700">NYC Council meetings, chaptered by time</text>
+  <text x="84" y="420" fill="#625f58" font-family="Arial, sans-serif" font-size="28">Summaries, transcripts, and direct video timestamps.</text>
+</svg>

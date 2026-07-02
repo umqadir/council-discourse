@@ -1,0 +1,39 @@
+---
+import Badge from "@components/Badge.astro";
+import { bodySlug } from "@lib/data";
+import { firstSentences, formatDate, formatDuration } from "@lib/format";
+import type { Meeting } from "@lib/types";
+
+interface Props {
+  meeting: Meeting;
+}
+
+const { meeting } = Astro.props;
+const href = `/meetings/${bodySlug(meeting)}/${meeting.slug}/`;
+const summary = firstSentences(meeting.summary.join(" "), 3);
+---
+
+<article
+  class="grid gap-3 border-t border-line py-5 md:grid-cols-[9rem_minmax(0,1fr)] md:gap-8"
+  data-tags={meeting.tags.join(" ")}
+  x-show="visible($el.dataset.tags)"
+>
+  <div class="text-sm tabular text-muted">
+    <div>{formatDate(meeting.date)}</div>
+    <div>{meeting.time}</div>
+  </div>
+  <div class="min-w-0">
+    <div class="mb-2 flex flex-wrap gap-2">
+      {meeting.tags.map((tag) => <Badge type={tag} kind="meeting" />)}
+    </div>
+    <h2 class="font-serif text-2xl font-semibold leading-tight">
+      <a class="underline decoration-line hover:decoration-civic" href={href}>
+        {meeting.title}
+      </a>
+    </h2>
+    <div class="mt-1 text-sm tabular text-muted">
+      {formatDate(meeting.date)} · {meeting.time} · {formatDuration(meeting.duration_sec)}
+    </div>
+    <p class="mt-3 max-w-3xl leading-7 text-muted">{summary}</p>
+  </div>
+</article>
