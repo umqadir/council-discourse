@@ -82,3 +82,13 @@ the speed). Fallback for max accuracy: mlx-whisper large-v3 with Silero VAD +
 condition_on_previous_text=False (or whisperx-mlx for forced-alignment word stamps).
 Rejected for this hardware: VibeVoice (30-60GB RAM, 59-min cap), Voxtral Realtime
 (no WER edge), Qwen3-ASR (5-min aligner cap), MOSS (8B, no MLX port), ARK-ASR (no MLX).
+
+## Addendum 2: whisper implementation check for M4 (2026-07-02)
+Freshness check on whisper impls (fast-moving): mlx-whisper ~1.78x whisper.cpp;
+whisper.cpp ~3x faster-whisper on Apple hw; only WhisperKit (Argmax, ANE) is
+potentially faster (+1.3-1.8x over Metal on M3/M4). Same weights = same output
+quality; implementation only affects speed. Local primary remains parakeet-mlx
+(~60-70x RT, no whisper comes close). mlx-whisper stays the accuracy-fallback;
+IF local whisper ever becomes a hot path, benchmark WhisperKit first.
+Sources: github.com/anvanvan/mac-whisper-speedtest; notes.billmill.org (Jan 2026
+mlx vs cpp); voicci.com apple-silicon-whisper-performance; promptquorum.com 2026 STT comparison.
