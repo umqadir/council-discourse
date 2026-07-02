@@ -1,0 +1,5 @@
+data/
+*.mp4
+*.m4a
+*.wav
+.env
