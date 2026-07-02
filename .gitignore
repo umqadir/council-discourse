@@ -8,3 +8,8 @@ __pycache__/
 *.m4a
 *.wav
 .env
+node_modules/
+.wrangler/
+.hf-cache/
+.uv-cache/
+.mlx-cache/
