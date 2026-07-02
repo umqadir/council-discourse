@@ -29,6 +29,9 @@ const chapterTypeEntries = [...chapterCounts.entries()].sort(([a], [b]) =>
 );
 const selectedTypes = Object.fromEntries(chapterTypeEntries.map(([type]) => [type, true]));
 const filterData = JSON.stringify(selectedTypes);
+const summaryLead = meeting.summary.slice(0, 4);
+const summaryTail = meeting.summary.slice(4);
+const hasSummaryTail = summaryTail.length > 0;
 const description = `${meeting.title} on ${formatDate(meeting.date)}. Read summaries and chaptered transcript timestamps.`;
 const ogImage = meetingOgPath(body.slug, meeting.slug);
 
@@ -47,8 +50,8 @@ if (!getMeeting(body.slug, meeting.slug)) {
     ]}
   />
 
-  <section class="mx-auto max-w-reading px-4 py-8 md:px-6">
-    <div class="space-y-3">
+  <section class="mx-auto max-w-6xl px-4 py-8 md:px-6">
+    <div class="max-w-reading space-y-3">
       <p class="text-sm font-semibold uppercase tracking-[0.16em] text-civic">{meeting.body}</p>
       <h1 class="font-serif text-4xl font-semibold leading-tight">{meeting.title}</h1>
       <div class="text-sm tabular text-muted">
@@ -58,42 +61,47 @@ if (!getMeeting(body.slug, meeting.slug)) {
         {meeting.tags.map((tag) => <Badge type={tag} kind="meeting" />)}
       </div>
     </div>
-
-    <section class="mt-9 border-t border-line pt-6">
-      <h2 class="font-serif text-2xl font-semibold">Summary</h2>
-      <ul class="mt-4 space-y-3 leading-7 text-muted">
-        {meeting.summary.map((item) => <li class="border-l-2 border-line pl-4">{item}</li>)}
-      </ul>
-    </section>
   </section>
 
   <section
-    class="mx-auto grid max-w-6xl gap-8 px-4 pb-12 md:grid-cols-[14rem_minmax(0,1fr)] md:px-6"
+    class="mx-auto grid max-w-6xl gap-x-10 gap-y-8 px-4 pb-12 md:px-6 lg:grid-cols-[20rem_minmax(0,1fr)]"
     x-data={`{ selected: ${filterData} }`}
   >
-    <aside>
-      <details class="border-y border-line py-3 md:hidden">
-        <summary class="cursor-pointer font-semibold">Filter chapters</summary>
-        <div class="mt-4 space-y-3">
+    <aside class="min-w-0 lg:sticky lg:top-6 lg:self-start">
+      <div class="border-t border-line pt-6">
+        <h2 class="font-serif text-2xl font-semibold">Summary</h2>
+        <div x-data="{ showAll: false }">
+          <ul class="mt-4 space-y-3 leading-7 text-muted">
+            {summaryLead.map((item) => <li class="border-l-2 border-line pl-4">{item}</li>)}
+            {
+              summaryTail.map((item) => (
+                <li class="border-l-2 border-line pl-4" x-show="showAll" x-cloak>
+                  {item}
+                </li>
+              ))
+            }
+          </ul>
           {
-            chapterTypeEntries.map(([type, count]) => (
-              <label class="flex items-center justify-between gap-3 text-sm">
-                <span class="flex items-center gap-2">
-                  <input class="h-4 w-4 accent-civic" type="checkbox" x-model={`selected.${type}`} />
-                  <span>{chapterTypeLabel(type)}</span>
-                </span>
-                <span class="tabular text-muted">{count}</span>
-              </label>
-            ))
+            hasSummaryTail && (
+              <button
+                type="button"
+                class="mt-3 text-sm font-semibold text-civic underline decoration-line hover:text-civic-dark"
+                @click="showAll = !showAll"
+                x-text="showAll ? 'Less' : 'More'"
+              >
+                More
+              </button>
+            )
           }
         </div>
-      </details>
-      <div class="hidden md:block">
+      </div>
+
+      <div class="mt-8 border-t border-line pt-6">
         <h2 class="font-serif text-xl font-semibold">Chapter type</h2>
-        <div class="mt-4 space-y-3">
+        <div class="mt-4 flex flex-wrap gap-x-5 gap-y-3 lg:flex-col lg:gap-0 lg:space-y-3">
           {
             chapterTypeEntries.map(([type, count]) => (
-              <label class="flex items-center justify-between gap-3 text-sm">
+              <label class="flex items-center gap-3 text-sm lg:justify-between">
                 <span class="flex items-center gap-2">
                   <input class="h-4 w-4 accent-civic" type="checkbox" x-model={`selected.${type}`} />
                   <span>{chapterTypeLabel(type)}</span>
