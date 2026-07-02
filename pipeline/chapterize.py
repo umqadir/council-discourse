@@ -34,6 +34,7 @@ CHAPTER_TYPE_ORDER = [
     "CEREMONY",
 ]
 ALLOWED_CHAPTER_TYPES = set(CHAPTER_TYPE_ORDER)
+SERIAL_VOTE_PARENT_TYPES = {"VOICE_VOTE", "VOTE"}
 
 
 def chapterize_meeting(meeting: Meeting, model: str = DEFAULT_MODEL) -> tuple[str, str]:
@@ -42,10 +43,32 @@ def chapterize_meeting(meeting: Meeting, model: str = DEFAULT_MODEL) -> tuple[st
     if not utterances:
         raise RuntimeError(f"no utterances found in {input_path}")
 
+    meeting_type = _meeting_type(meeting)
     prompt = _chapter_prompt(meeting, utterances)
-    result, meta = generate_json(prompt, model=model, temperature=0.3)
+    temperature = 0.2 if meeting_type == "STATED_MEETING" else 0.3
+    result, meta = generate_json(prompt, model=model, temperature=temperature)
+    metas = [meta]
     chapters = _resolve_chapters(result, utterances, meeting.duration_seconds)
     chapters = _postprocess_chapters(chapters, utterances, meeting, meeting.duration_seconds)
+    retry_note = _coarse_retry_note(meeting_type, len(chapters), meeting.duration_seconds)
+    if retry_note:
+        retry_prompt = f"{prompt}\n\nQUALITY GATE:\n{retry_note}\nReturn a complete replacement JSON object, not a patch."
+        retry_result, retry_meta = generate_json(
+            retry_prompt,
+            model=model,
+            temperature=min(0.4, temperature + 0.1),
+        )
+        metas.append(retry_meta)
+        retry_chapters = _resolve_chapters(retry_result, utterances, meeting.duration_seconds)
+        retry_chapters = _postprocess_chapters(retry_chapters, utterances, meeting, meeting.duration_seconds)
+        if _chapter_count_distance(meeting_type, len(retry_chapters), meeting.duration_seconds) <= _chapter_count_distance(
+            meeting_type,
+            len(chapters),
+            meeting.duration_seconds,
+        ):
+            result = retry_result
+            chapters = retry_chapters
+    meta = _combined_generation_meta(metas)
     derived = _meeting_derived(result, meeting)
     derived.update(
         {
@@ -74,7 +97,7 @@ def chapterize_meeting(meeting: Meeting, model: str = DEFAULT_MODEL) -> tuple[st
         "chapterize",
         model,
         stage_meta,
-        {"chapter_count": len(chapters), "meeting_type": _meeting_type(meeting)},
+        {"chapter_count": len(chapters), "meeting_type": meeting_type},
     )
     return str(chapters_path), str(derived_path)
 
@@ -112,12 +135,12 @@ TRANSCRIPT (timestamped ASR text; speaker names may be inferred and ASR errors a
 </transcript>
 
 Divide the ENTIRE meeting into consecutive, non-overlapping chapters. Rules:
-- A chapter should answer "one thing happened here." Prefer 1-5 minute chapters for substantive remarks and much shorter chapters for votes, roll calls, adoptions, and procedural outcomes.
-- FINE granularity is essential. Split aggressively:
-  * Opening remarks: one chapter per distinct topic the speaker covers (a 5-minute opening becomes 3-5 chapters).
-  * Agency/public testimony: one chapter per testifying person; long testimony splits by topic.
-  * Q&A: one chapter per question-and-answer exchange (a member asking about a new topic starts a new chapter, even mid-round). Never merge multiple members into one chapter.
-  * Votes/roll calls/procedure: each discrete vote, roll call, adoption, or outcome is its own short chapter.
+- A chapter should answer "one thing happened here." Prefer 1-5 minute chapters for substantive remarks and Q&A, and shorter chapters for real votes, roll calls, adoptions, and outcomes. Avoid micro-chapters for transition-only lines.
+- FINE granularity is essential, but split on civic events and topic changes, not every sentence:
+  * Opening remarks: one chapter per distinct topic the speaker covers; a dense 5-minute opening often becomes 4-6 chapters.
+  * Agency/public testimony: one chapter per testifying person; split long prepared testimony by topic when it runs past several minutes.
+  * Q&A: one chapter per question-and-answer exchange or topic thread. A member asking about a new topic starts a new chapter, even mid-round. Never merge multiple council members into one chapter.
+  * Votes/roll calls/procedure: each discrete substantive vote, roll call, adoption, or outcome is its own short chapter; do not create standalone chapters for brief transitions, repeated name-only roll-call fragments, or staff housekeeping.
 {meeting_type_rules}
 - Cover the whole meeting; no gaps. First chapter starts at the meeting's first speech.
 - chapter type: one of {chapter_types}.
@@ -182,13 +205,19 @@ def _meeting_type(meeting: Meeting) -> str:
 def _meeting_type_rules(meeting_type: str) -> str:
     if meeting_type == "STATED_MEETING":
         return """- STATED MEETING splitting rules:
-  * Every agenda item's vote, adoption, disposition, or announced result is its own chapter. Use VOICE_VOTE for ayes/nays voice votes and VOTE_OUTCOME for announced tallies or adoption results.
-  * Roll calls are separate ROLL_CALL chapters. If members explain their votes during a roll call, split each council member's floor remarks/explanation of vote into its own REMARKS chapter, then resume the roll call or outcome chapter. Group name-only roll-call stretches; a name-only roll-call stretch under 60 seconds is not its own chapter.
+  * A typical 90-120 minute stated meeting often lands around 50-75 chapters, depending on agenda density. Prefer item-level civic events, but do not inflate the count with name-only roll-call continuations or purely formal one-liners.
+  * Every agenda item's vote, adoption, disposition, or announced result is its own chapter. Use VOICE_VOTE for ayes/nays voice votes and VOTE_OUTCOME for announced tallies or adoption results. Use generic VOTE only when neither label fits.
+  * Roll calls are separate ROLL_CALL chapters only when the roll call itself is a substantial event. If members explain their votes during a roll call, each council member's floor remarks/explanation of vote is its own REMARKS chapter. Do not create separate chapters for short resumed name-only roll-call stretches between explanations; fold those into the adjacent REMARKS or final VOTE_OUTCOME chapter.
   * Do not merge a run of resolutions, introductions, land-use items, or finance items into one vote chapter. When the transcript reads Resolution/Introduction/LU numbers one after another and says each is adopted, create one short VOICE_VOTE or VOTE_OUTCOME chapter per number, even if each chapter is only 10-30 seconds. Never use plural titles like "Voice Votes on Resolutions"; use titles like "Voice Vote on Resolution 8: Lead Service Line Replacement Funding".
   * Split agenda overviews by matter group when the Speaker or Majority Leader moves from one item/package to the next.
+  * Treat member statements, explanations of vote, substantive communications from members, and new bill introductions as REMARKS unless the main event is the vote itself. Fold purely formal one-line motions, communications readings, and adjournment into neighboring chapters unless they include a substantive outcome.
   * Ceremonial items each get their own chapter: use INVOCATION for prayers/invocations and CEREMONY for honoree presentations, tributes, proclamations, or recognitions."""
     return """- HEARING/GENERAL splitting rules:
+  * Fine granularity is especially important in long hearings: chapters are typically 1-4 minutes, and a 4-hour oversight hearing should usually produce roughly 90-130 chapters unless much of it is silence or procedure.
   * Keep council member floor remarks separate by speaker and topic.
+  * Split long Q&A rounds aggressively by topic thread. If one generated QA chapter would cover more than about 4 minutes, look for the next question, follow-up, witness answer, or topic shift and start a new QA chapter there.
+  * Split long agency testimony by topic when a prepared statement moves from history to current implementation, statistics, process, future plans, or recommendations; a 7-minute prepared statement is usually several chapters.
+  * Public testimony is normally one chapter per witness. Do not make separate panel-transition chapters unless the transition contains substantive instructions or context.
   * For voting moments in hearings, split the motion, roll call, and final outcome when the transcript has separate starts for them."""
 
 
@@ -252,6 +281,49 @@ def _postprocess_chapters(
     return _with_chapter_ends(chapters, utterances, duration_seconds)
 
 
+def _coarse_retry_note(meeting_type: str, chapter_count: int, duration_seconds: float | None) -> str | None:
+    floor = _chapter_count_floor(meeting_type, duration_seconds)
+    if floor is None or chapter_count >= floor:
+        return None
+    hours = (duration_seconds or 0.0) / 3600
+    return (
+        f"The draft has only {chapter_count} chapters for a {hours:.1f}-hour {meeting_type} meeting, "
+        f"which is too coarse. Produce at least {floor} chapters by splitting long Q&A, testimony, "
+        "member remarks, agenda-item discussions, and item-level votes at their natural topic boundaries. "
+        "Keep chapters useful and consecutive; do not add empty transition chapters just to hit the count."
+    )
+
+
+def _chapter_count_floor(meeting_type: str, duration_seconds: float | None) -> int | None:
+    if not duration_seconds:
+        return None
+    hours = duration_seconds / 3600
+    if meeting_type == "HEARING":
+        return max(12, round(hours * 20))
+    if meeting_type == "STATED_MEETING" and duration_seconds >= 3600:
+        return max(35, round(hours * 30))
+    return None
+
+
+def _chapter_count_distance(meeting_type: str, chapter_count: int, duration_seconds: float | None) -> int:
+    floor = _chapter_count_floor(meeting_type, duration_seconds)
+    if floor is None or chapter_count >= floor:
+        return 0
+    return floor - chapter_count
+
+
+def _combined_generation_meta(metas: list[dict[str, Any]]) -> dict[str, Any]:
+    if len(metas) == 1:
+        return metas[0]
+    combined = dict(metas[-1])
+    combined["elapsed_sec"] = round(sum(float(meta.get("elapsed_sec") or 0.0) for meta in metas), 3)
+    costs = [meta.get("estimated_cost_usd") for meta in metas]
+    if all(isinstance(cost, int | float) for cost in costs):
+        combined["estimated_cost_usd"] = round(sum(float(cost) for cost in costs), 6)
+    combined["attempts"] = metas
+    return combined
+
+
 _AGENDA_ITEM_START_RE = re.compile(
     r"^\s*(Resolution|Introduction|Intro|LU|Land Use(?: Item)?)\s+"
     r"([0-9]+[A-Z]?(?:-[A-Z])?|one|two|three|four|five|six|seven|eight|nine|ten|"
@@ -288,7 +360,7 @@ def _split_serial_voice_votes(
 ) -> list[dict[str, Any]]:
     output: list[dict[str, Any]] = []
     for chapter in chapters:
-        if chapter.get("type") != "VOICE_VOTE":
+        if chapter.get("type") not in SERIAL_VOTE_PARENT_TYPES:
             output.append(chapter)
             continue
 
