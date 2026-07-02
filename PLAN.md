@@ -9,7 +9,7 @@ Target: feature and performance parity with the original, then cost-optimized.
 | Area | Decision | Why |
 |---|---|---|
 | Discovery | Legistar Web API (token) + viebit RSS; InSite video-link decode as join | Verified working; RSS gives ~1-2h post-meeting latency |
-| Video serving | Direct viebit CDN URLs in our own player (video.js), YouTube embed fallback | $0; original paid Mux to re-host the same files |
+| Video serving | Re-host on Cloudflare R2: faststart remux (`-c copy`) at ingest, progressive MP4 via R2 public bucket | ~$15/mo at 500-meeting scale (zero egress); direct viebit playback ruled out (see 6) |
 | ASR + diarization | Benchmark: Voxtral Transcribe V2 vs ElevenLabs Scribe v2 vs AssemblyAI U-3 (+ Deepgram Nova-3 as citymeetings-baseline) | $0.18–0.69 per meeting; timestamps always from ASR, never LLM |
 | Speaker naming | LLM pass over full transcript w/ member roster + agenda; verification judge pass | 2025-era approach (Sonnet 3.7 was first to pass); today's mid-tier should clear it |
 | Chaptering + summaries | LLM over full transcript with agenda/context; chunk-merge only if benchmark shows long-context degradation | Original's chunking machinery was a 2024-model workaround |
@@ -125,3 +125,17 @@ ASR $220–260, LLM $15–150, one-time.
   Q&A round splitting granularity + names (ASR input will fix names).
 - Clock parity: citymeetings seek offsets match viebit video time (median 3.8s,
   29/29 sampled) — direct viebit serving preserves click-to-seek exactly.
+
+## 7. Video serving decision (2026-07-02, supersedes earlier "direct viebit" line in 6)
+Direct viebit playback fails in practice despite open MP4 access:
+- Viebit MP4s are NOT faststart (ftyp/free/1.2GB mdat; moov at tail) — browser
+  stalls at readyState 0 for a long time before first frame; chapter-seek UX unusable.
+- Viebit's own player uses on-the-fly HLS at /otfpvv/ with SIGNED URLs (~12h expiry)
+  AND bot-gating (curl → 418). Hotlinking that would mean adversarially spoofing
+  city infrastructure — rejected.
+DECISION: re-host video on Cloudflare R2 (personal account), remuxing to faststart
+at ingest (`ffmpeg -c copy -movflags +faststart`, no re-encode; ~seconds per meeting).
+Progressive MP4 + range requests gives instant seek. Storage ~2GB/meeting → $15/mo
+at full scale; optional later: 720p re-encode to halve it. Pipeline artifact:
+video-web.mp4. Site takes a per-meeting video URL (R2 in prod; local file in dev).
+Needs (morning): wrangler OAuth grant or R2 API token on the personal Cloudflare account.
