@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import re
 from collections import Counter
 from pathlib import Path
 from typing import Any
@@ -22,7 +23,46 @@ MAX_PROMPT_TOKENS = 700_000
 CHUNK_TARGET_TOKENS = 550_000
 CHUNK_OVERLAP = 240
 BOUNDARY_SNIPPET_UTTERANCES = 5
+MAX_SPEAKER_HINTS = 160
 SOURCE_SPEAKER_KEYS = ("diarized_speaker", "speaker_label", "speaker_id", "channel", "speaker")
+INTRO_HINT_TERMS = ("MY NAME IS", "I'M ", "I AM ", "CALL THE", "PANEL", "FROM THE", "GO TO ZOOM")
+NAME_STOPWORDS = {
+    "A",
+    "ABOUT",
+    "ACTUALLY",
+    "AM",
+    "AN",
+    "AND",
+    "ARE",
+    "AS",
+    "ASSOCIATE",
+    "AT",
+    "BEFORE",
+    "BIG",
+    "COUNSEL",
+    "DEPUTY",
+    "DIRECTOR",
+    "EXECUTIVE",
+    "FIRST",
+    "FOR",
+    "FROM",
+    "I",
+    "IM",
+    "IN",
+    "IS",
+    "LEGAL",
+    "MY",
+    "NOT",
+    "NOW",
+    "OF",
+    "ROLLING",
+    "SORRY",
+    "SURE",
+    "THE",
+    "TO",
+    "VERY",
+    "WITH",
+}
 
 
 def name_speakers_meeting(meeting: Meeting, model: str = DEFAULT_MODEL) -> Path:
@@ -48,11 +88,13 @@ def name_speakers_meeting(meeting: Meeting, model: str = DEFAULT_MODEL) -> Path:
             utterances=utterances[chunk["start"] : chunk["end"]],
             offset=chunk["start"],
         )
-        result, meta = generate_json(prompt, model=model, temperature=0.1)
+        result, meta = generate_json(prompt, model=model, temperature=0.1, thinking_level="low")
         elapsed_total += float(meta.get("elapsed_sec", 0))
         cost_total += float(meta.get("estimated_cost_usd") or 0)
         usage_totals.update({k: int(v) for k, v in meta.get("usage", {}).items() if isinstance(v, int)})
-        chunk_assignments = _extract_assignments(result)
+        chunk_assignments = _extract_assignments(result, default_end=chunk["end"])
+        if not chunk_assignments:
+            raise RuntimeError(f"Gemini speaker response had no usable assignments for chunk {chunk_number}")
         assignments.extend(chunk_assignments)
         _apply_assignments(speaker_by_index, chunk_assignments, chunk["start"], chunk["end"])
         chunk_records.append(
@@ -186,6 +228,7 @@ def _speaker_prompt(
     offset: int,
 ) -> str:
     transcript = "\n".join(_transcript_line(offset + i, row) for i, row in enumerate(utterances))
+    speaker_hints = _speaker_hints(utterances, offset)
     return f"""You are assigning speaker names to every utterance in a NYC Council transcript.
 
 MEETING CONTEXT:
@@ -194,17 +237,24 @@ MEETING CONTEXT:
 CURRENT COUNCIL ROSTER CSV (party may be blank if the source dataset lacks it):
 {roster_csv}
 
+AUTO-EXTRACTED SPEAKER HINTS (noisy; verify against the transcript before using):
+{speaker_hints}
+
 INFERENCE RULES:
 - Assign one speaker to every utterance index in the transcript.
 - Resolve identities globally across the full meeting; do not reset assumptions at public-witness handoffs or later Q&A rounds.
 - Prefer direct self-introductions over all other evidence.
 - Next strongest evidence: a chair, clerk, or counsel introduces the next speaker.
 - If a witness or agency official is introduced and then answers several questions, keep that name until the transcript clearly switches speakers.
+- If a public witness says "my name is" or "I'm Name", assign "Member of the Public - Name" rather than UNKNOWN.
+- For public witness panels, an introduction such as "Andrew Rigie, Rob Bookman, Max Bookman" means later prepared remarks can switch between those panelists without a new chair prompt. Do not carry the first witness's name over a different named panelist's prepared remarks.
+- If ASR renders a public witness name inconsistently, prefer the spelling from the chair's panel introduction over a phonetically garbled self-introduction.
 - Use content, procedural context, roll-call order, and roster names only when the text supports it.
 - Do not invent people. If a public witness states a name, use "Member of the Public - Name".
 - Allowed fallbacks are exactly "Council Staff", "Member of the Public", "Member of the Public - Name", and "UNKNOWN".
 - For council members, use the roster name only, for example "Julie Menin", not titles.
-- Use inclusive index ranges and cover every index exactly once.
+- Return a compact ordered list of speaker changes. Each segment starts at start_index and continues until the next segment's start_index minus one. The final segment covers through the last transcript index.
+- Include a new segment at every speaker change. Cover every index exactly once by inference from the ordered starts.
 
 TRANSCRIPT:
 <transcript>
@@ -213,8 +263,9 @@ TRANSCRIPT:
 
 Return JSON only:
 {{
-  "assignments": [
-    {{"start_index": 0, "end_index": 12, "speaker": "Julie Menin"}}
+  "segments": [
+    {{"start_index": 0, "speaker": "Council Staff"}},
+    {{"start_index": 22, "speaker": "Julie Menin"}}
   ]
 }}
 """
@@ -226,30 +277,48 @@ def _transcript_line(index: int, row: dict[str, Any]) -> str:
     return f"[{index}] {sec_to_clock(row['t0'])}-{sec_to_clock(row['t1'])}:{label_text} {row['text']}"
 
 
-def _extract_assignments(result: dict[str, Any]) -> list[dict[str, Any]]:
-    raw = result.get("assignments") or result.get("ranges") or result.get("speaker_ranges")
+def _extract_assignments(result: dict[str, Any] | list[Any], default_end: int | None = None) -> list[dict[str, Any]]:
+    if isinstance(result, list):
+        raw = result
+    else:
+        raw = result.get("segments") or result.get("assignments") or result.get("ranges") or result.get(
+            "speaker_ranges"
+        )
     if not isinstance(raw, list):
         raise RuntimeError(f"Gemini speaker response lacks assignments: {result}")
-    return _parse_assignments(raw)
+    return _parse_assignments(raw, default_end=default_end)
 
 
-def _parse_assignments(raw: list[Any]) -> list[dict[str, Any]]:
+def _parse_assignments(raw: list[Any], default_end: int | None = None) -> list[dict[str, Any]]:
     assignments = []
     for item in raw:
         if not isinstance(item, dict):
             continue
         start = item.get("start_index", item.get("start", item.get("from")))
-        end = item.get("end_index", item.get("end", item.get("to", start)))
+        end = item.get("end_index", item.get("end", item.get("to")))
         speaker = str(item.get("speaker") or item.get("name") or "UNKNOWN").strip()
         if start is None:
             continue
         assignments.append(
             {
                 "start_index": int(start),
-                "end_index": int(end),
+                "end_index": int(end) if end is not None else None,
                 "speaker": _clean_speaker(speaker),
             }
         )
+    if default_end is None:
+        for assignment in assignments:
+            if assignment["end_index"] is None or int(assignment["end_index"]) < int(assignment["start_index"]):
+                assignment["end_index"] = assignment["start_index"]
+        return assignments
+
+    assignments.sort(key=lambda assignment: int(assignment["start_index"]))
+    for index, assignment in enumerate(assignments):
+        next_start = int(assignments[index + 1]["start_index"]) if index + 1 < len(assignments) else default_end
+        if assignment["end_index"] is None or int(assignment["end_index"]) < int(assignment["start_index"]):
+            assignment["end_index"] = max(int(assignment["start_index"]), next_start - 1)
+        else:
+            assignment["end_index"] = min(int(assignment["end_index"]), default_end - 1)
     return assignments
 
 
@@ -281,7 +350,7 @@ def _reconcile_chunk_assignments(
     model: str,
 ) -> tuple[dict[str, Any], dict[str, Any]]:
     prompt = _reconciliation_prompt(utterances, chunks, speaker_by_index, roster_csv, context)
-    result, meta = generate_json(prompt, model=model, temperature=0.0)
+    result, meta = generate_json(prompt, model=model, temperature=0.0, thinking_level="low")
     mappings = _extract_label_mappings(result)
     overrides = _extract_range_overrides(result)
     _apply_label_mappings(speaker_by_index, utterances, mappings)
@@ -443,6 +512,69 @@ def _source_speaker_label(row: dict[str, Any]) -> str | None:
         if label and label.upper() not in {"UNKNOWN", "UNK"}:
             return label
     return None
+
+
+def _speaker_hints(utterances: list[dict[str, Any]], offset: int) -> str:
+    hints: list[str] = []
+    seen: set[str] = set()
+    for local_index, row in enumerate(utterances):
+        text = str(row.get("text") or "")
+        upper = text.upper()
+        if not any(term in upper for term in INTRO_HINT_TERMS):
+            continue
+        window_rows = utterances[local_index : min(len(utterances), local_index + 4)]
+        window = " ".join(str(item.get("text") or "") for item in window_rows)
+        names = _intro_names(window)
+        if names:
+            for name in names:
+                key = name.lower()
+                if key in seen:
+                    continue
+                seen.add(key)
+                hints.append(
+                    f"[{offset + local_index}] {sec_to_clock(row['t0'])}: possible named speaker {name} | {window[:220]}"
+                )
+                if len(hints) >= MAX_SPEAKER_HINTS:
+                    return "\n".join(hints)
+        elif any(term in upper for term in ("CALL THE", "PANEL", "GO TO ZOOM")):
+            key = window[:120].lower()
+            if key not in seen:
+                seen.add(key)
+                hints.append(
+                    f"[{offset + local_index}] {sec_to_clock(row['t0'])}: possible panel introduction | {window[:220]}"
+                )
+                if len(hints) >= MAX_SPEAKER_HINTS:
+                    return "\n".join(hints)
+    return "\n".join(hints) if hints else "No speaker self-introduction hints found."
+
+
+def _intro_names(text: str) -> list[str]:
+    patterns = [
+        r"\bMY NAME IS\s+([A-Z][A-Z'.-]*(?:\s+[A-Z][A-Z'.-]*){0,4})",
+        r"\b(?:HI|HELLO|GOOD MORNING|THANK YOU)\.?\s+I'M\s+([A-Z][A-Z'.-]*(?:\s+[A-Z][A-Z'.-]*){1,4})",
+    ]
+    names = []
+    upper = text.upper()
+    for pattern in patterns:
+        for match in re.finditer(pattern, upper):
+            name = _clean_intro_name(match.group(1))
+            if name:
+                names.append(name)
+    return names
+
+
+def _clean_intro_name(value: str) -> str | None:
+    tokens = []
+    for token in re.findall(r"[A-Z][A-Z'.-]*", value.upper()):
+        stripped = token.strip("'.-").replace("'", "")
+        if stripped in NAME_STOPWORDS:
+            break
+        tokens.append(stripped)
+        if len(tokens) >= 4:
+            break
+    if len(tokens) < 2:
+        return None
+    return " ".join(token.capitalize() for token in tokens)
 
 
 def _clean_speaker(value: str) -> str:

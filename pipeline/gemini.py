@@ -49,25 +49,40 @@ def generate_json(
     max_output_tokens: int = 65536,
     temperature: float = 0.2,
     timeout_seconds: int = 1200,
+    max_attempts: int = 2,
+    thinking_level: str | None = None,
 ) -> tuple[dict[str, Any], dict[str, Any]]:
     key = os.environ.get("GOOGLE_API_KEY")
     if not key:
         raise RuntimeError("GOOGLE_API_KEY is required for Gemini stages")
 
     started = time.monotonic()
-    response = httpx.post(
-        API_URL.format(model=model, key=key),
-        json={
-            "contents": [{"parts": [{"text": prompt}]}],
-            "generationConfig": {
-                "responseMimeType": "application/json",
-                "maxOutputTokens": max_output_tokens,
-                "temperature": temperature,
-            },
-        },
-        timeout=timeout_seconds,
-    )
+    response: httpx.Response | None = None
+    generation_config: dict[str, Any] = {
+        "responseMimeType": "application/json",
+        "maxOutputTokens": max_output_tokens,
+        "temperature": temperature,
+    }
+    if thinking_level:
+        generation_config["thinkingConfig"] = {"thinkingLevel": thinking_level}
+    for attempt in range(1, max_attempts + 1):
+        try:
+            response = httpx.post(
+                API_URL.format(model=model, key=key),
+                json={
+                    "contents": [{"parts": [{"text": prompt}]}],
+                    "generationConfig": generation_config,
+                },
+                timeout=timeout_seconds,
+            )
+            break
+        except (httpx.TimeoutException, httpx.NetworkError, httpx.RemoteProtocolError):
+            if attempt >= max_attempts:
+                raise
+            time.sleep(min(30, 2**attempt))
     elapsed = time.monotonic() - started
+    if response is None:
+        raise RuntimeError(f"Gemini {model} did not return a response")
     body = response.json()
     if response.status_code != 200:
         raise RuntimeError(f"Gemini {model} failed: {json.dumps(body)[:2000]}")
@@ -78,6 +93,8 @@ def generate_json(
         "elapsed_sec": round(elapsed, 3),
         "usage": usage,
     }
+    if thinking_level:
+        meta["thinking_level"] = thinking_level
     estimated_cost = estimate_usage_cost_usd(model, usage)
     if estimated_cost is not None:
         meta["estimated_cost_usd"] = estimated_cost
