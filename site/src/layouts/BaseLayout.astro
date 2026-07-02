@@ -22,6 +22,7 @@ const ogImage = new URL(image, Astro.site).toString();
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={description} />
@@ -45,7 +46,7 @@ const ogImage = new URL(image, Astro.site).toString();
           <a href="/" class="font-serif text-2xl font-semibold leading-none text-ink no-underline">
             Council Discourse
           </a>
-          <p class="mt-1 text-sm text-muted">NYC Council meetings, chaptered and searchable by time.</p>
+          <p class="mt-1 text-sm text-muted">NYC Council meetings, chaptered and linked by time.</p>
         </div>
         <nav aria-label="Primary" class="flex flex-wrap gap-x-5 gap-y-2 text-sm font-semibold">
           <a class="underline decoration-line hover:decoration-civic" href="/meetings/new-york-city-council/">Meetings</a>

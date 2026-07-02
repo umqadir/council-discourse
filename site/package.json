@@ -17,8 +17,7 @@
     "@fontsource/inter": "^5.2.6",
     "@fontsource/source-serif-4": "^5.2.8",
     "alpinejs": "^3.15.2",
-    "astro": "^5.16.4",
-    "video.js": "^8.23.4"
+    "astro": "^5.16.4"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.21",

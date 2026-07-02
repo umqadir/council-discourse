@@ -1,6 +1,4 @@
 ---
-import "video.js/dist/video-js.css";
-
 interface Props {
   url: string;
   poster: string;
@@ -10,6 +8,8 @@ interface Props {
 
 const { url, poster, startSec, title } = Astro.props;
 ---
+
+<link rel="stylesheet" href="https://vjs.zencdn.net/8.23.4/video-js.css" />
 
 <div class="chapter-video border border-line bg-black">
   <video
@@ -27,18 +27,17 @@ const { url, poster, startSec, title } = Astro.props;
   </video>
 </div>
 
-<script>
-  import videojs from "video.js";
-
+<script is:inline src="https://vjs.zencdn.net/8.23.4/video.min.js"></script>
+<script is:inline>
   function setupChapterVideo() {
     const element = document.querySelector("[data-chapter-video]");
-    if (!element || element.dataset.videoReady === "true") {
+    if (!element || element.dataset.videoReady === "true" || !window.videojs) {
       return;
     }
     element.dataset.videoReady = "true";
 
     const start = Number(element.dataset.start || 0);
-    const player = videojs(element, {
+    const player = window.videojs(element, {
       controls: true,
       fluid: true,
       preload: "metadata",
