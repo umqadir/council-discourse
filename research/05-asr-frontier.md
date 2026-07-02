@@ -72,3 +72,13 @@ At ~500 meeting-hours/year: $90–800/year — cost is a tiebreaker; speaker-att
 - Metrics: WER (gold), **cpWER (headline)**, DER/speaker-count error, timestamp offset vs video (20 sampled utterances — required for click-to-seek UX), positional degradation bins, hallucination on non-speech spans, cost + wall-clock + failure behavior.
 - Tools: `meeteval` (cpWER), `pyannote.metrics` (DER). Identical 16kHz mono inputs. One holdout meeting until finalists chosen.
 - Likely end-state to validate: diarization-strong cheap transcriber + LLM naming/correction pass + ASR-layer timestamps.
+
+## Addendum: local ASR verification for the M4/32GB Mac (2026-07-02)
+Focused re-check confirmed: **parakeet-mlx v0.5.2 + mlx-community/parakeet-tdt-0.6b-v3**
+is the optimal local backend (60-70x realtime on M-series; native token-level
+timestamps with 120s/15s chunking that doesn't drift over hours; non-autoregressive
+so no silence hallucination; long-form WER 6.68 vs whisper large-v3's 6.43 at ~40x
+the speed). Fallback for max accuracy: mlx-whisper large-v3 with Silero VAD +
+condition_on_previous_text=False (or whisperx-mlx for forced-alignment word stamps).
+Rejected for this hardware: VibeVoice (30-60GB RAM, 59-min cap), Voxtral Realtime
+(no WER edge), Qwen3-ASR (5-min aligner cap), MOSS (8B, no MLX port), ARK-ASR (no MLX).
