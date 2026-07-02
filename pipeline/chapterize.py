@@ -45,6 +45,7 @@ def chapterize_meeting(meeting: Meeting, model: str = DEFAULT_MODEL) -> tuple[st
     prompt = _chapter_prompt(meeting, utterances)
     result, meta = generate_json(prompt, model=model, temperature=0.3)
     chapters = _resolve_chapters(result, utterances, meeting.duration_seconds)
+    chapters = _postprocess_chapters(chapters, utterances, meeting, meeting.duration_seconds)
     derived = _meeting_derived(result, meeting)
     derived.update(
         {
@@ -180,8 +181,8 @@ def _meeting_type_rules(meeting_type: str) -> str:
     if meeting_type == "STATED_MEETING":
         return """- STATED MEETING splitting rules:
   * Every agenda item's vote, adoption, disposition, or announced result is its own chapter. Use VOICE_VOTE for ayes/nays voice votes and VOTE_OUTCOME for announced tallies or adoption results.
-  * Roll calls are separate ROLL_CALL chapters. If members explain their votes during a roll call, split each council member's floor remarks/explanation of vote into its own REMARKS chapter, then resume the roll call or outcome chapter.
-  * Do not merge a run of resolutions, introductions, land-use items, or finance items into one vote chapter; each item or item group being acted on gets a separate chapter.
+  * Roll calls are separate ROLL_CALL chapters. If members explain their votes during a roll call, split each council member's floor remarks/explanation of vote into its own REMARKS chapter, then resume the roll call or outcome chapter. Group name-only roll-call stretches; a name-only roll-call stretch under 60 seconds is not its own chapter.
+  * Do not merge a run of resolutions, introductions, land-use items, or finance items into one vote chapter. When the transcript reads Resolution/Introduction/LU numbers one after another and says each is adopted, create one short VOICE_VOTE or VOTE_OUTCOME chapter per number, even if each chapter is only 10-30 seconds. Never use plural titles like "Voice Votes on Resolutions"; use titles like "Voice Vote on Resolution 8: Lead Service Line Replacement Funding".
   * Split agenda overviews by matter group when the Speaker or Majority Leader moves from one item/package to the next.
   * Ceremonial items each get their own chapter: use INVOCATION for prayers/invocations and CEREMONY for honoree presentations, tributes, proclamations, or recognitions."""
     return """- HEARING/GENERAL splitting rules:
@@ -230,6 +231,149 @@ def _resolve_chapters(
     if not chapters:
         raise RuntimeError("Gemini returned no usable chapters")
 
+    inferred_duration = duration_seconds or (starts[-1] + 5 if starts else chapters[-1]["start_sec"] + 5)
+    for index, chapter in enumerate(chapters):
+        next_start = chapters[index + 1]["start_sec"] if index + 1 < len(chapters) else inferred_duration
+        chapter["end_sec"] = round(max(chapter["start_sec"] + 1, next_start), 3)
+    return chapters
+
+
+def _postprocess_chapters(
+    chapters: list[dict[str, Any]],
+    utterances: list[dict[str, Any]],
+    meeting: Meeting,
+    duration_seconds: float | None,
+) -> list[dict[str, Any]]:
+    if _meeting_type(meeting) != "STATED_MEETING":
+        return chapters
+    chapters = _split_serial_voice_votes(chapters, utterances)
+    return _with_chapter_ends(chapters, utterances, duration_seconds)
+
+
+_AGENDA_ITEM_START_RE = re.compile(
+    r"^\s*(Resolution|Introduction|Intro|LU|Land Use(?: Item)?)\s+"
+    r"([0-9]+[A-Z]?(?:-[A-Z])?|one|two|three|four|five|six|seven|eight|nine|ten|"
+    r"eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty)\b",
+    re.IGNORECASE,
+)
+_NUMBER_WORDS = {
+    "one": "1",
+    "two": "2",
+    "three": "3",
+    "four": "4",
+    "five": "5",
+    "six": "6",
+    "seven": "7",
+    "eight": "8",
+    "nine": "9",
+    "ten": "10",
+    "eleven": "11",
+    "twelve": "12",
+    "thirteen": "13",
+    "fourteen": "14",
+    "fifteen": "15",
+    "sixteen": "16",
+    "seventeen": "17",
+    "eighteen": "18",
+    "nineteen": "19",
+    "twenty": "20",
+}
+
+
+def _split_serial_voice_votes(
+    chapters: list[dict[str, Any]],
+    utterances: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    output: list[dict[str, Any]] = []
+    for chapter in chapters:
+        if chapter.get("type") != "VOICE_VOTE":
+            output.append(chapter)
+            continue
+
+        item_starts = _agenda_item_starts_in_span(utterances, chapter["start_sec"], chapter["end_sec"])
+        if len(item_starts) < 2:
+            output.append(chapter)
+            continue
+
+        for item_index, (row, match) in enumerate(item_starts):
+            row_start = utterance_start(row)
+            next_start = (
+                utterance_start(item_starts[item_index + 1][0])
+                if item_index + 1 < len(item_starts)
+                else chapter["end_sec"]
+            )
+            output.append(
+                {
+                    "start": sec_to_clock(row_start),
+                    "start_sec": round(row_start, 3),
+                    "end_sec": round(max(row_start + 1, float(next_start)), 3),
+                    "type": "VOICE_VOTE",
+                    "title": _serial_voice_vote_title(match, row.get("text") or ""),
+                    "summary": _serial_voice_vote_summary(match, row.get("text") or ""),
+                }
+            )
+    return output
+
+
+def _agenda_item_starts_in_span(
+    utterances: list[dict[str, Any]],
+    start_sec: float,
+    end_sec: float,
+) -> list[tuple[dict[str, Any], re.Match[str]]]:
+    matches: list[tuple[dict[str, Any], re.Match[str]]] = []
+    for row in utterances:
+        row_start = utterance_start(row)
+        if row_start < start_sec - 3 or row_start >= end_sec:
+            continue
+        match = _AGENDA_ITEM_START_RE.match(str(row.get("text") or ""))
+        if match:
+            matches.append((row, match))
+    return matches
+
+
+def _serial_voice_vote_title(match: re.Match[str], text: str) -> str:
+    item = _agenda_item_label(match)
+    topic = _agenda_item_topic(match, text)
+    return f"Voice Vote on {item}: {topic}" if topic else f"Voice Vote on {item}"
+
+
+def _serial_voice_vote_summary(match: re.Match[str], text: str) -> str:
+    item = _agenda_item_label(match)
+    topic = _agenda_item_topic(match, text)
+    if topic:
+        return f"The Council took a voice vote on {item}, concerning {topic}. The ayes had it and the item was adopted."
+    return f"The Council took a voice vote on {item}. The ayes had it and the item was adopted."
+
+
+def _agenda_item_label(match: re.Match[str]) -> str:
+    kind = match.group(1).title()
+    if kind == "Intro":
+        kind = "Introduction"
+    elif kind.startswith("Lu"):
+        kind = "LU"
+    number = match.group(2)
+    number = _NUMBER_WORDS.get(number.lower(), number.upper())
+    return f"{kind} {number}"
+
+
+def _agenda_item_topic(match: re.Match[str], text: str) -> str:
+    topic = text[match.end() :].strip(" .:-")
+    topic = re.sub(r"^(calls on|calls for|calls upon|would|approves?|authorizes?)\s+", "", topic, flags=re.IGNORECASE)
+    topic = re.sub(r"\s+", " ", topic).strip(" .")
+    words = topic.split()
+    if len(words) > 12:
+        topic = " ".join(words[:12]).rstrip(",;:") + "..."
+    return topic
+
+
+def _with_chapter_ends(
+    chapters: list[dict[str, Any]],
+    utterances: list[dict[str, Any]],
+    duration_seconds: float | None,
+) -> list[dict[str, Any]]:
+    if not chapters:
+        return chapters
+    starts = [utterance_start(row) for row in utterances]
     inferred_duration = duration_seconds or (starts[-1] + 5 if starts else chapters[-1]["start_sec"] + 5)
     for index, chapter in enumerate(chapters):
         next_start = chapters[index + 1]["start_sec"] if index + 1 < len(chapters) else inferred_duration
