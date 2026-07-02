@@ -5,6 +5,7 @@ import Breadcrumbs from "@components/Breadcrumbs.astro";
 import Badge from "@components/Badge.astro";
 import ChapterCard from "@components/ChapterCard.astro";
 import { getBodies, getMeeting } from "@lib/data";
+import { meetingOgPath } from "@lib/og";
 import { chapterTypeLabel, formatDate, formatDuration } from "@lib/format";
 
 export function getStaticPaths() {
@@ -29,13 +30,14 @@ const chapterTypeEntries = [...chapterCounts.entries()].sort(([a], [b]) =>
 const selectedTypes = Object.fromEntries(chapterTypeEntries.map(([type]) => [type, true]));
 const filterData = JSON.stringify(selectedTypes);
 const description = `${meeting.title} on ${formatDate(meeting.date)}. Read summaries and chaptered transcript timestamps.`;
+const ogImage = meetingOgPath(body.slug, meeting.slug);
 
 if (!getMeeting(body.slug, meeting.slug)) {
   throw new Error(`Missing meeting ${meeting.slug}`);
 }
 ---
 
-<BaseLayout title={`${meeting.title} - ${formatDate(meeting.date)}`} description={description}>
+<BaseLayout title={`${meeting.title} - ${formatDate(meeting.date)}`} description={description} image={ogImage}>
   <AlpineScript />
   <Breadcrumbs
     items={[

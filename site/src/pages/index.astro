@@ -2,13 +2,14 @@
 import BaseLayout from "@layouts/BaseLayout.astro";
 import MeetingRow from "@components/MeetingRow.astro";
 import { getMeetings } from "@lib/data";
+import { homeOgPath } from "@lib/og";
 
 const meetings = getMeetings();
 const description =
   "Council Discourse publishes NYC Council meeting summaries, chapters, transcripts, and direct video timestamps.";
 ---
 
-<BaseLayout title="Council Discourse" description={description}>
+<BaseLayout title="Council Discourse" description={description} image={homeOgPath}>
   <section class="mx-auto grid max-w-6xl gap-8 px-4 py-10 md:grid-cols-[minmax(0,1.4fr)_minmax(18rem,0.6fr)] md:px-6">
     <div class="max-w-3xl">
       <p class="text-sm font-semibold uppercase tracking-[0.16em] text-civic">Public meeting record</p>

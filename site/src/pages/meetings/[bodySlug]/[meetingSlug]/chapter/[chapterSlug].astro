@@ -5,6 +5,7 @@ import Breadcrumbs from "@components/Breadcrumbs.astro";
 import Badge from "@components/Badge.astro";
 import VideoPlayer from "@components/VideoPlayer.astro";
 import { getBodies } from "@lib/data";
+import { chapterOgPath } from "@lib/og";
 import { formatClock, formatDate, formatDuration } from "@lib/format";
 
 export function getStaticPaths() {
@@ -28,9 +29,10 @@ const next = index < meeting.chapters.length - 1 ? meeting.chapters[index + 1] :
 const duration = chapter.end_sec - chapter.start_sec;
 const meetingHref = `/meetings/${body.slug}/${meeting.slug}/`;
 const description = `${chapter.title}, a ${formatDuration(duration)} segment from ${meeting.title} on ${formatDate(meeting.date)}.`;
+const ogImage = chapterOgPath(body.slug, meeting.slug, chapter.slug);
 ---
 
-<BaseLayout title={`${chapter.title} - ${meeting.title}`} description={description}>
+<BaseLayout title={`${chapter.title} - ${meeting.title}`} description={description} image={ogImage}>
   <AlpineScript />
   <Breadcrumbs
     items={[
