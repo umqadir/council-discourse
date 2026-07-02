@@ -11,3 +11,17 @@ PLAN.md section 8: Voxtral (voxtral-mini-2602) is now the production ASR backend
 
 ## Hard constraints
 Only this repo; no browser/MCP; no Metal jobs; never print keys; .git read-only (no commits; list changed files).
+
+## Addendum (post-matrix): confirm GLM-5.2 as production LLM
+The model matrix showed z-ai/glm-5.2 (via OpenRouter) beats gemini-3.5-flash on ALL
+quality metrics at equal cost (see experiments/out/model-matrix-summary.md) — and did so
+WITHOUT the verification pass. Extend this round:
+1. Run naming with glm-5.2 + the full verification pass enabled on both benchmarks;
+   also apply your new roster/spelling anchoring. Report same-person + strict vs the
+   matrix numbers (87.9/98.6) and vs gemini-with-verification (87.6/95.9).
+2. If glm-5.2-with-verification >= gemini on both benchmarks: flip the production
+   default model for naming AND chaptering to glm-5.2 via OpenRouter (config-driven,
+   gemini stays one flag away), including the pipeline config and PLAN.md update.
+3. Note operational considerations honestly: OpenRouter dependency for prod, z-ai
+   provider rate limits if visible in headers, structured-output reliability observed.
+Budget addendum: +$2 OpenRouter.
