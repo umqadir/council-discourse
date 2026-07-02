@@ -140,3 +140,13 @@ Progressive MP4 + range requests gives instant seek. Storage ~2GB/meeting → $1
 at full scale; optional later: 720p re-encode to halve it. Pipeline artifact:
 video-web.mp4. Site takes a per-meeting video URL (R2 in prod; local file in dev).
 Needs (morning): wrangler OAuth grant or R2 API token on the personal Cloudflare account.
+
+## 8. ASR backend decision (2026-07-02)
+Head-to-head on benchmark meetings vs citymeetings' human-reviewed speaker names
+(same-person accuracy): Voxtral (voxtral-mini-2602, diarize=true) 87.6% transportation /
+95.9% stated; local parakeet-mlx + pyannote community-1 84.0% transportation.
+Voxtral also ~8x faster wall-clock, ~$0.30-0.70/meeting, GPU-free (works in CI).
+DECISION: Voxtral = production ASR+diarization; local path retained as free fallback.
+Next quality levers: roster context-biasing at transcription time (Voxtral supports
+100 bias terms), verification-pass spelling anchoring (60/307 misses were
+correct-person-wrong-spelling).
