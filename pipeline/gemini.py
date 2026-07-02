@@ -11,10 +11,36 @@ from json_repair import repair_json
 
 API_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key}"
 DEFAULT_MODEL = "gemini-3.5-flash"
+GEMINI_PRICING_SOURCE = "https://ai.google.dev/gemini-api/docs/pricing"
+GEMINI_PRICING_PER_MILLION_USD = {
+    "gemini-3.5-flash": {"input": 1.50, "output": 9.00},
+    "gemini-3.1-flash-lite": {"input": 0.25, "output": 1.50},
+}
 
 
 def estimate_tokens(text: str) -> int:
     return max(1, int(len(text) / 2))
+
+
+def estimate_usage_cost_usd(model: str, usage: dict[str, Any]) -> float | None:
+    pricing = _pricing_for_model(model)
+    if pricing is None:
+        return None
+    input_tokens = _int_usage(usage, "promptTokenCount")
+    output_tokens = _int_usage(usage, "candidatesTokenCount") + _int_usage(usage, "thoughtsTokenCount")
+    cost = (input_tokens * pricing["input"] + output_tokens * pricing["output"]) / 1_000_000
+    return round(cost, 6)
+
+
+def pricing_details(model: str) -> dict[str, Any] | None:
+    pricing = _pricing_for_model(model)
+    if pricing is None:
+        return None
+    return {
+        "source": GEMINI_PRICING_SOURCE,
+        "input_per_million_usd": pricing["input"],
+        "output_per_million_usd": pricing["output"],
+    }
 
 
 def generate_json(
@@ -46,12 +72,19 @@ def generate_json(
     if response.status_code != 200:
         raise RuntimeError(f"Gemini {model} failed: {json.dumps(body)[:2000]}")
 
-    text = body["candidates"][0]["content"]["parts"][0]["text"]
-    return _parse_json_text(text), {
+    usage = body.get("usageMetadata", {})
+    meta = {
         "model": model,
         "elapsed_sec": round(elapsed, 3),
-        "usage": body.get("usageMetadata", {}),
+        "usage": usage,
     }
+    estimated_cost = estimate_usage_cost_usd(model, usage)
+    if estimated_cost is not None:
+        meta["estimated_cost_usd"] = estimated_cost
+        meta["pricing"] = pricing_details(model)
+
+    text = body["candidates"][0]["content"]["parts"][0]["text"]
+    return _parse_json_text(text), meta
 
 
 def _parse_json_text(text: str) -> dict[str, Any]:
@@ -66,3 +99,18 @@ def _parse_json_text(text: str) -> dict[str, Any]:
         if isinstance(repaired, str):
             return json.loads(repaired)
         return repaired
+
+
+def _pricing_for_model(model: str) -> dict[str, float] | None:
+    normalized = model.rsplit("/", 1)[-1]
+    if normalized in GEMINI_PRICING_PER_MILLION_USD:
+        return GEMINI_PRICING_PER_MILLION_USD[normalized]
+    for prefix, pricing in GEMINI_PRICING_PER_MILLION_USD.items():
+        if normalized.startswith(prefix):
+            return pricing
+    return None
+
+
+def _int_usage(usage: dict[str, Any], key: str) -> int:
+    value = usage.get(key, 0)
+    return int(value) if isinstance(value, int | float) else 0
