@@ -106,5 +106,16 @@ ASR $220–260, LLM $15–150, one-time.
 ## 5. Open questions being resolved by experiments
 - Which ASR wins on far-field council audio; whether diarization holds for 3h+ / 30+ speakers
 - Whether cheap-tier LLMs chapter a 4h meeting in one pass without degradation
-- Whether viebit MP4 direct playback is reliable cross-browser (CORS/range checks)
 - Speaker-naming accuracy without web-search verification loop (add if needed)
+
+## 6. Experiment findings so far (2026-07-01)
+- Gemini audio-native transcription (3.1-flash-lite probe on real hearing audio):
+  timestamps drift (median +44s mid-meeting, p10–p90 spread >100s) and long stretches
+  collapse into few utterances. CONFIRMS: audio-LLMs are not the transcriber;
+  timestamps come from a dedicated ASR layer.
+- Single-pass full-transcript chaptering works: Gemini 3.5 Flash on a 4h/131k-token
+  hearing → 79 chapters, 66s, ~$0.25; 3.1 Flash-Lite → 67 chapters, 14s, ~$0.05.
+  Granularity responds well to prompt anchoring (citymeetings reference: 110).
+- Viebit CDN: direct MP4 playback viable (accept-ranges: bytes; plain <video> needs
+  no CORS). VTT captions same-day; official transcript PDFs confirmed for both
+  benchmark meetings.
