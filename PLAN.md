@@ -119,3 +119,9 @@ ASR $220–260, LLM $15–150, one-time.
 - Viebit CDN: direct MP4 playback viable (accept-ranges: bytes; plain <video> needs
   no CORS). VTT captions same-day; official transcript PDFs confirmed for both
   benchmark meetings.
+- Chapter quality vs citymeetings human-reviewed reference (boundary F1 @30s,
+  CC-caption input): 3.5-flash 73% (hearing) / 76% (stated); 3.1-flash-lite 59% / 52%.
+  DECIDED: Gemini 3.5 Flash for chaptering (~$0.25/meeting). Remaining gaps:
+  Q&A round splitting granularity + names (ASR input will fix names).
+- Clock parity: citymeetings seek offsets match viebit video time (median 3.8s,
+  29/29 sampled) — direct viebit serving preserves click-to-seek exactly.
