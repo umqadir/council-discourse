@@ -2,24 +2,23 @@ from __future__ import annotations
 
 from pathlib import Path
 
+from .chapterize import chapterize_meeting
 from .models import Meeting
+from .speakers import name_speakers_meeting
+from .transcribe import transcribe_meeting
 
 
-def transcribe(meeting: Meeting) -> Path:
+def transcribe(meeting: Meeting, backend: str = "local-mlx", model: str | None = None) -> Path:
     """ASR interface: audio files in meeting_dir -> utterances.jsonl."""
-    output = meeting.meeting_dir / "utterances.jsonl"
-    raise NotImplementedError(f"ASR benchmark pending; expected output is {output}")
+    return transcribe_meeting(meeting, backend=backend, model=model)
 
 
-def name_speakers(meeting: Meeting) -> Path:
+def name_speakers(meeting: Meeting, model: str = "gemini-3.5-flash") -> Path:
     """Speaker naming interface: utterances.jsonl -> utterances-named.jsonl."""
-    input_path = meeting.meeting_dir / "utterances.jsonl"
-    output = meeting.meeting_dir / "utterances-named.jsonl"
-    raise NotImplementedError(f"speaker naming pending; read {input_path}, write {output}")
+    return name_speakers_meeting(meeting, model=model)
 
 
-def chapterize(meeting: Meeting) -> Path:
+def chapterize(meeting: Meeting, model: str = "gemini-3.5-flash") -> Path:
     """Chaptering interface: utterances-named.jsonl + agenda context -> chapters.json."""
-    input_path = meeting.meeting_dir / "utterances-named.jsonl"
-    output = meeting.meeting_dir / "chapters.json"
-    raise NotImplementedError(f"chaptering benchmark pending; read {input_path}, write {output}")
+    chapters_path, _ = chapterize_meeting(meeting, model=model)
+    return Path(chapters_path)

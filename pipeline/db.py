@@ -277,6 +277,66 @@ def select_prepare_candidates(
     return list(conn.execute(sql, params))
 
 
+def select_transcribe_candidates(
+    conn: sqlite3.Connection,
+    meeting_key: str | None = None,
+    limit: int | None = None,
+) -> list[sqlite3.Row]:
+    if meeting_key:
+        return [get_meeting(conn, meeting_key)]
+    sql = """
+        SELECT * FROM meetings
+        WHERE prepare_status = 'prepared'
+          AND transcribe_status != 'transcribed'
+        ORDER BY COALESCE(viebit_pub_date, discovered_at) ASC, meeting_key ASC
+    """
+    params: tuple[Any, ...] = ()
+    if limit is not None:
+        sql += " LIMIT ?"
+        params = (limit,)
+    return list(conn.execute(sql, params))
+
+
+def select_name_speakers_candidates(
+    conn: sqlite3.Connection,
+    meeting_key: str | None = None,
+    limit: int | None = None,
+) -> list[sqlite3.Row]:
+    if meeting_key:
+        return [get_meeting(conn, meeting_key)]
+    sql = """
+        SELECT * FROM meetings
+        WHERE transcribe_status = 'transcribed'
+          AND name_speakers_status != 'named'
+        ORDER BY COALESCE(viebit_pub_date, discovered_at) ASC, meeting_key ASC
+    """
+    params: tuple[Any, ...] = ()
+    if limit is not None:
+        sql += " LIMIT ?"
+        params = (limit,)
+    return list(conn.execute(sql, params))
+
+
+def select_chapterize_candidates(
+    conn: sqlite3.Connection,
+    meeting_key: str | None = None,
+    limit: int | None = None,
+) -> list[sqlite3.Row]:
+    if meeting_key:
+        return [get_meeting(conn, meeting_key)]
+    sql = """
+        SELECT * FROM meetings
+        WHERE name_speakers_status = 'named'
+          AND chapterize_status != 'chapterized'
+        ORDER BY COALESCE(viebit_pub_date, discovered_at) ASC, meeting_key ASC
+    """
+    params: tuple[Any, ...] = ()
+    if limit is not None:
+        sql += " LIMIT ?"
+        params = (limit,)
+    return list(conn.execute(sql, params))
+
+
 def meeting_from_row(row: sqlite3.Row, meetings_dir: Path = MEETINGS_DIR) -> Meeting:
     return Meeting(
         meeting_key=str(row["meeting_key"]),
@@ -288,6 +348,7 @@ def meeting_from_row(row: sqlite3.Row, meetings_dir: Path = MEETINGS_DIR) -> Mee
         body_name=row["body_name"],
         event_date=row["event_date"],
         event_time=row["event_time"],
+        duration_seconds=row["duration_seconds"],
         agenda_pdf_url=row["agenda_pdf_url"],
         insite_url=row["insite_url"],
     )

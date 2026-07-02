@@ -15,5 +15,6 @@ class Meeting:
     body_name: str | None = None
     event_date: str | None = None
     event_time: str | None = None
+    duration_seconds: float | None = None
     agenda_pdf_url: str | None = None
     insite_url: str | None = None

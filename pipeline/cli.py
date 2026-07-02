@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 import sqlite3
 import sys
 from pathlib import Path
@@ -8,8 +9,12 @@ from pathlib import Path
 from . import db
 from .config import REGISTRY_DB
 from .discover import discover_legistar, discover_viebit_rss
+from .export_site import export_site
 from .fetch import fetch_meeting
+from .models import Meeting
 from .prepare import prepare_meeting
+from .stages import chapterize, name_speakers, transcribe
+from .utils import utc_now_iso
 
 
 def add_common(parser: argparse.ArgumentParser) -> None:
@@ -73,6 +78,132 @@ def cmd_prepare(args: argparse.Namespace) -> int:
         print("no prepare candidates")
         return 0
     return _run_rows(conn, rows, prepare_meeting, "prepare_status", "prepared", "prepare")
+
+
+def _meeting_from_dir(meeting_dir: Path) -> Meeting:
+    payload = {}
+    meeting_json = meeting_dir / "meeting.json"
+    if meeting_json.exists():
+        payload = json.loads(meeting_json.read_text())
+    return Meeting(
+        meeting_key=str(payload.get("meeting_key") or payload.get("slug") or meeting_dir.name),
+        meeting_dir=meeting_dir,
+        legistar_event_id=payload.get("legistar_event_id"),
+        legistar_event_guid=payload.get("legistar_event_guid"),
+        viebit_filename=payload.get("viebit_filename") or payload.get("viebit_file"),
+        viebit_hash=payload.get("viebit_hash"),
+        body_name=payload.get("body_name") or payload.get("body"),
+        event_date=payload.get("event_date") or payload.get("date"),
+        event_time=payload.get("event_time") or payload.get("time"),
+        duration_seconds=payload.get("duration_seconds") or payload.get("duration_sec"),
+        agenda_pdf_url=payload.get("agenda_pdf_url"),
+        insite_url=payload.get("insite_url"),
+    )
+
+
+def _run_meeting_dir_stage(args: argparse.Namespace, stage_name: str, handler) -> int:
+    meeting = _meeting_from_dir(args.meeting_dir)
+    print(f"{stage_name} {meeting.meeting_key}", flush=True)
+    output = handler(meeting)
+    print(f"  wrote {output}", flush=True)
+    return 0
+
+
+def cmd_transcribe(args: argparse.Namespace) -> int:
+    if args.meeting_dir:
+        return _run_meeting_dir_stage(
+            args,
+            "transcribe",
+            lambda meeting: transcribe(meeting, backend=args.backend, model=args.model),
+        )
+
+    conn = db.connect(args.db)
+    rows = db.select_transcribe_candidates(conn, args.meeting_key, args.limit or 1)
+    if not rows:
+        print("no transcribe candidates")
+        return 0
+
+    def run_one(conn: sqlite3.Connection, row: sqlite3.Row) -> None:
+        meeting = db.meeting_from_row(row)
+        transcribe(meeting, backend=args.backend, model=args.model)
+        db.update_meeting(
+            conn,
+            meeting.meeting_key,
+            {
+                "transcribe_status": "transcribed",
+                "last_error": None,
+                "updated_at": utc_now_iso(),
+            },
+        )
+
+    return _run_rows(conn, rows, run_one, "transcribe_status", "transcribed", "transcribe")
+
+
+def cmd_name_speakers(args: argparse.Namespace) -> int:
+    if args.meeting_dir:
+        return _run_meeting_dir_stage(
+            args,
+            "name-speakers",
+            lambda meeting: name_speakers(meeting, model=args.model),
+        )
+
+    conn = db.connect(args.db)
+    rows = db.select_name_speakers_candidates(conn, args.meeting_key, args.limit or 1)
+    if not rows:
+        print("no name-speakers candidates")
+        return 0
+
+    def run_one(conn: sqlite3.Connection, row: sqlite3.Row) -> None:
+        meeting = db.meeting_from_row(row)
+        name_speakers(meeting, model=args.model)
+        db.update_meeting(
+            conn,
+            meeting.meeting_key,
+            {
+                "name_speakers_status": "named",
+                "last_error": None,
+                "updated_at": utc_now_iso(),
+            },
+        )
+
+    return _run_rows(conn, rows, run_one, "name_speakers_status", "named", "name-speakers")
+
+
+def cmd_chapterize(args: argparse.Namespace) -> int:
+    if args.meeting_dir:
+        return _run_meeting_dir_stage(
+            args,
+            "chapterize",
+            lambda meeting: chapterize(meeting, model=args.model),
+        )
+
+    conn = db.connect(args.db)
+    rows = db.select_chapterize_candidates(conn, args.meeting_key, args.limit or 1)
+    if not rows:
+        print("no chapterize candidates")
+        return 0
+
+    def run_one(conn: sqlite3.Connection, row: sqlite3.Row) -> None:
+        meeting = db.meeting_from_row(row)
+        chapterize(meeting, model=args.model)
+        db.update_meeting(
+            conn,
+            meeting.meeting_key,
+            {
+                "chapterize_status": "chapterized",
+                "last_error": None,
+                "updated_at": utc_now_iso(),
+            },
+        )
+
+    return _run_rows(conn, rows, run_one, "chapterize_status", "chapterized", "chapterize")
+
+
+def cmd_export_site(args: argparse.Namespace) -> int:
+    written = export_site(args.db, include_benchmark=not args.no_benchmark)
+    for path in written:
+        print(f"wrote {path}", flush=True)
+    return 0
 
 
 def _fmt(value, width: int) -> str:
@@ -141,6 +272,36 @@ def build_parser() -> argparse.ArgumentParser:
     prepare.add_argument("--all-pending", action="store_true", help="prepare pending fetched meetings")
     prepare.add_argument("--limit", type=int, help="limit meetings, oldest first")
     prepare.set_defaults(func=cmd_prepare)
+
+    transcribe_cmd = subparsers.add_parser("transcribe", help="run ASR over prepared audio")
+    add_common(transcribe_cmd)
+    transcribe_cmd.add_argument("--meeting-key", help="transcribe one registry meeting")
+    transcribe_cmd.add_argument("--meeting-dir", type=Path, help="transcribe an artifact directory without registry updates")
+    transcribe_cmd.add_argument("--limit", type=int, help="limit registry meetings, oldest first")
+    transcribe_cmd.add_argument("--backend", default="local-mlx", choices=["local-mlx", "api"])
+    transcribe_cmd.add_argument("--model", help="backend model override")
+    transcribe_cmd.set_defaults(func=cmd_transcribe)
+
+    speakers_cmd = subparsers.add_parser("name-speakers", help="assign speaker names with Gemini")
+    add_common(speakers_cmd)
+    speakers_cmd.add_argument("--meeting-key", help="name speakers for one registry meeting")
+    speakers_cmd.add_argument("--meeting-dir", type=Path, help="name speakers in an artifact directory without registry updates")
+    speakers_cmd.add_argument("--limit", type=int, help="limit registry meetings, oldest first")
+    speakers_cmd.add_argument("--model", default="gemini-3.5-flash")
+    speakers_cmd.set_defaults(func=cmd_name_speakers)
+
+    chapterize_cmd = subparsers.add_parser("chapterize", help="chapterize a named transcript with Gemini")
+    add_common(chapterize_cmd)
+    chapterize_cmd.add_argument("--meeting-key", help="chapterize one registry meeting")
+    chapterize_cmd.add_argument("--meeting-dir", type=Path, help="chapterize an artifact directory without registry updates")
+    chapterize_cmd.add_argument("--limit", type=int, help="limit registry meetings, oldest first")
+    chapterize_cmd.add_argument("--model", default="gemini-3.5-flash")
+    chapterize_cmd.set_defaults(func=cmd_chapterize)
+
+    export_cmd = subparsers.add_parser("export-site", help="write Astro meeting JSON from completed artifacts")
+    add_common(export_cmd)
+    export_cmd.add_argument("--no-benchmark", action="store_true", help="exclude data/benchmark meetings")
+    export_cmd.set_defaults(func=cmd_export_site)
 
     status = subparsers.add_parser("status", help="print registry stage states")
     add_common(status)

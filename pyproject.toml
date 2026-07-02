@@ -3,7 +3,9 @@ name = "council-discourse"
 version = "0.1.0"
 requires-python = ">=3.13"
 dependencies = [
+    "beautifulsoup4>=4.15.0",
     "httpx>=0.28.1",
+    "parakeet-mlx>=0.5.2",
 ]
 
 [dependency-groups]
