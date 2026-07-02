@@ -7,7 +7,6 @@ from pathlib import Path
 from typing import Any
 
 from .artifacts import (
-    captions_to_utterances,
     normalize_utterances,
     read_json,
     read_jsonl,
@@ -27,7 +26,11 @@ BOUNDARY_SNIPPET_UTTERANCES = 5
 MAX_SPEAKER_HINTS = 160
 MAX_VERIFICATION_CANDIDATES = 120
 VERIFICATION_MODEL = "gemini-3.1-flash-lite"
-SOURCE_SPEAKER_KEYS = ("diarized_speaker", "speaker_label", "speaker_id", "channel", "speaker")
+SOURCE_SPEAKER_KEYS = ("label", "diarized_speaker", "speaker_label", "speaker_id", "channel", "speaker")
+LABELS_PER_PROMPT = 40
+LABEL_SAMPLE_WINDOWS = 8
+LABEL_WINDOW_RADIUS = 3
+MAX_SAMPLE_LINE_CHARS = 220
 INTRO_HINT_TERMS = ("MY NAME IS", "I'M ", "I AM ", "CALL THE", "PANEL", "FROM THE", "GO TO ZOOM")
 GENERIC_SPEAKERS = {"UNKNOWN", "Council Staff", "Member of the Public", "Speaker"}
 NAME_STOPWORDS = {
@@ -74,65 +77,51 @@ def name_speakers_meeting(meeting: Meeting, model: str = DEFAULT_MODEL) -> Path:
     utterances = normalize_utterances(read_jsonl(input_path))
     if not utterances:
         raise RuntimeError(f"no utterances found in {input_path}")
+    labels = _labels_in_order(utterances)
+    if not labels:
+        raise RuntimeError(f"no diarization labels found in {input_path}")
 
     roster_csv = roster_csv_for_prompt(meeting.event_date)
     context = _meeting_context(meeting)
-    assignments: list[dict[str, Any]] = []
+    evidence = _build_label_evidence(utterances)
+    mappings: list[dict[str, Any]] = []
+    range_overrides: list[dict[str, Any]] = []
     chunk_records: list[dict[str, Any]] = []
     usage_totals: Counter[str] = Counter()
     elapsed_total = 0.0
     cost_total = 0.0
 
-    chunks = _chunk_utterances(utterances, roster_csv, context)
-    speaker_by_index: list[str | None] = [None] * len(utterances)
-    for chunk_number, chunk in enumerate(chunks, start=1):
-        prompt = _speaker_prompt(
+    chunks = _chunk_labels(labels, LABELS_PER_PROMPT)
+    for chunk_number, chunk_labels in enumerate(chunks, start=1):
+        prompt = _label_mapping_prompt(
             roster_csv=roster_csv,
             context=context,
-            utterances=utterances[chunk["start"] : chunk["end"]],
-            offset=chunk["start"],
+            label_evidence=[evidence[label] for label in chunk_labels],
+            label_count=len(labels),
         )
         result, meta = generate_json(prompt, model=model, temperature=0.1, thinking_level="low")
         elapsed_total += float(meta.get("elapsed_sec", 0))
         cost_total += float(meta.get("estimated_cost_usd") or 0)
         usage_totals.update({k: int(v) for k, v in meta.get("usage", {}).items() if isinstance(v, int)})
-        chunk_assignments = _extract_assignments(result, default_end=chunk["end"])
-        if not chunk_assignments:
-            raise RuntimeError(f"Gemini speaker response had no usable assignments for chunk {chunk_number}")
-        assignments.extend(chunk_assignments)
-        _apply_assignments(speaker_by_index, chunk_assignments, chunk["start"], chunk["end"])
+        chunk_mappings = _extract_label_mapping_records(result)
+        if not chunk_mappings:
+            raise RuntimeError(f"Gemini speaker response had no usable label mappings for chunk {chunk_number}")
+        chunk_mappings = _with_unknown_mappings_for_missing_labels(chunk_labels, chunk_mappings)
+        chunk_overrides = _extract_label_range_overrides(result)
+        mappings.extend(chunk_mappings)
+        range_overrides.extend(chunk_overrides)
         chunk_records.append(
             {
                 "chunk": chunk_number,
-                "start": chunk["start"],
-                "end": chunk["end"],
+                "labels": chunk_labels,
                 "usage": meta.get("usage", {}),
                 "estimated_cost_usd": meta.get("estimated_cost_usd"),
-                "assignments": chunk_assignments,
+                "mappings": chunk_mappings,
+                "range_overrides": chunk_overrides,
             }
         )
 
-    reconciliation: dict[str, Any] | None = None
-    if len(chunks) > 1:
-        reconciliation, reconciliation_meta = _reconcile_chunk_assignments(
-            utterances=utterances,
-            chunks=chunks,
-            speaker_by_index=speaker_by_index,
-            roster_csv=roster_csv,
-            context=context,
-            model=model,
-        )
-        elapsed_total += float(reconciliation_meta.get("elapsed_sec", 0))
-        cost_total += float(reconciliation_meta.get("estimated_cost_usd") or 0)
-        usage_totals.update(
-            {k: int(v) for k, v in reconciliation_meta.get("usage", {}).items() if isinstance(v, int)}
-        )
-
-    named = []
-    for index, row in enumerate(utterances):
-        out = dict(row)
-        out["speaker"] = speaker_by_index[index] or "UNKNOWN"
-        named.append(out)
+    named = join_label_mappings(utterances, mappings, range_overrides)
 
     verification, verification_meta = _verify_non_roster_speakers(named, meeting)
     elapsed_total += float(verification_meta.get("elapsed_sec", 0))
@@ -145,19 +134,20 @@ def name_speakers_meeting(meeting: Meeting, model: str = DEFAULT_MODEL) -> Path:
         "model": model,
         "input": str(input_path),
         "utterance_count": len(utterances),
-        "mode": "single_pass" if len(chunks) == 1 else "chunked_fallback",
+        "mode": "label_mapping",
+        "label_count": len(labels),
+        "labels": labels,
         "chunks": len(chunks),
-        "chunk_ranges": [{"start": chunk["start"], "end": chunk["end"]} for chunk in chunks],
+        "chunk_ranges": [{"labels": chunk} for chunk in chunks],
         "elapsed_sec": round(elapsed_total, 3),
         "usage": dict(usage_totals),
         "estimated_cost_usd": round(cost_total, 6),
         "pricing": pricing_details(model),
-        "assignments": assignments,
+        "mappings": mappings,
+        "range_overrides": range_overrides,
     }
     if chunk_records:
         meta_payload["chunk_records"] = chunk_records
-    if reconciliation:
-        meta_payload["reconciliation"] = reconciliation
     meta_payload["verification"] = verification
     write_json(meeting.meeting_dir / "name-speakers-meta.json", meta_payload)
     append_gemini_runlog(
@@ -165,22 +155,21 @@ def name_speakers_meeting(meeting: Meeting, model: str = DEFAULT_MODEL) -> Path:
         "name_speakers",
         model,
         meta_payload,
-        {"mode": meta_payload["mode"], "chunks": len(chunks), "utterance_count": len(utterances)},
+        {
+            "mode": meta_payload["mode"],
+            "chunks": len(chunks),
+            "label_count": len(labels),
+            "utterance_count": len(utterances),
+        },
     )
     return output
 
 
 def _speaker_input_path(meeting_dir: Path) -> Path:
-    utterances = meeting_dir / "utterances.jsonl"
+    utterances = meeting_dir / "utterances-labeled.jsonl"
     if utterances.exists():
         return utterances
-    captions = meeting_dir / "captions-clean.jsonl"
-    if captions.exists():
-        converted = captions_to_utterances(read_jsonl(captions))
-        output = meeting_dir / "utterances.jsonl"
-        write_jsonl(output, converted)
-        return output
-    raise RuntimeError(f"missing utterances.jsonl or captions-clean.jsonl in {meeting_dir}")
+    raise RuntimeError(f"missing utterances-labeled.jsonl in {meeting_dir}; run diarize first")
 
 
 def _meeting_context(meeting: Meeting) -> str:
@@ -200,6 +189,348 @@ def _meeting_context(meeting: Meeting) -> str:
     if agenda_txt.exists():
         parts.append("Agenda text excerpt:\n" + agenda_txt.read_text(errors="replace")[:8000])
     return "\n".join(parts)
+
+
+def _labels_in_order(utterances: list[dict[str, Any]]) -> list[str]:
+    labels = []
+    seen: set[str] = set()
+    for row in utterances:
+        label = _source_speaker_label(row)
+        if not label or label in seen:
+            continue
+        seen.add(label)
+        labels.append(label)
+    return labels
+
+
+def _chunk_labels(labels: list[str], chunk_size: int) -> list[list[str]]:
+    return [labels[index : index + chunk_size] for index in range(0, len(labels), chunk_size)]
+
+
+def _build_label_evidence(utterances: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
+    indices_by_label: dict[str, list[int]] = {}
+    total_duration = 0.0
+    for index, row in enumerate(utterances):
+        total_duration += max(0.0, float(row["t1"]) - float(row["t0"]))
+        label = _source_speaker_label(row)
+        if label:
+            indices_by_label.setdefault(label, []).append(index)
+
+    evidence: dict[str, dict[str, Any]] = {}
+    for label, indices in indices_by_label.items():
+        active_sec = sum(max(0.0, float(utterances[index]["t1"]) - float(utterances[index]["t0"])) for index in indices)
+        sample_indices = _sample_indices_for_label(utterances, label, indices)
+        evidence[label] = {
+            "label": label,
+            "utterance_count": len(indices),
+            "total_speech_sec": round(active_sec, 1),
+            "speech_share": round(active_sec / total_duration, 4) if total_duration else 0,
+            "first_index": indices[0],
+            "last_index": indices[-1],
+            "first_activity": sec_to_clock(float(utterances[indices[0]]["t0"])),
+            "last_activity": sec_to_clock(float(utterances[indices[-1]]["t0"])),
+            "samples": [_label_sample_window(utterances, index) for index in sample_indices],
+        }
+    return evidence
+
+
+def _sample_indices_for_label(
+    utterances: list[dict[str, Any]],
+    label: str,
+    indices: list[int],
+    limit: int = LABEL_SAMPLE_WINDOWS,
+) -> list[int]:
+    interesting = [index for index in indices if _is_interesting_label_sample(utterances, index, label)]
+    anchors = [indices[0], indices[-1]]
+    evenly_spaced = _evenly_spaced_indices(indices, limit)
+    selected = _ordered_unique(interesting[: limit // 2] + anchors + evenly_spaced)
+    if len(selected) < limit:
+        selected = _ordered_unique(selected + indices)
+    return sorted(selected[:limit])
+
+
+def _is_interesting_label_sample(utterances: list[dict[str, Any]], index: int, label: str) -> bool:
+    row = utterances[index]
+    text = str(row.get("text") or "")
+    upper = text.upper()
+    if any(term in upper for term in INTRO_HINT_TERMS):
+        return True
+    previous = utterances[index - 1] if index > 0 else None
+    next_row = utterances[index + 1] if index + 1 < len(utterances) else None
+    if previous and _source_speaker_label(previous) != label:
+        return True
+    if next_row and _source_speaker_label(next_row) != label:
+        return True
+    nearby = " ".join(
+        str(item.get("text") or "")
+        for item in utterances[max(0, index - 2) : min(len(utterances), index + 3)]
+        if _source_speaker_label(item) != label
+    ).upper()
+    return any(
+        term in nearby
+        for term in (
+            "THANK YOU",
+            "NEXT",
+            "GO TO",
+            "COUNCIL MEMBER",
+            "CHAIR",
+            "COMMISSIONER",
+            "MR.",
+            "MS.",
+            "DOCTOR",
+        )
+    )
+
+
+def _label_sample_window(utterances: list[dict[str, Any]], center: int) -> dict[str, Any]:
+    start = max(0, center - LABEL_WINDOW_RADIUS)
+    end = min(len(utterances), center + LABEL_WINDOW_RADIUS + 1)
+    lines = []
+    for index in range(start, end):
+        row = utterances[index]
+        marker = "TARGET" if index == center else "context"
+        label = _source_speaker_label(row) or "NO_LABEL"
+        text = " ".join(str(row.get("text") or "").split())[:MAX_SAMPLE_LINE_CHARS]
+        lines.append(f"[{index}] {sec_to_clock(float(row['t0']))} {marker} {label}: {text}")
+    return {
+        "target_index": center,
+        "target_time": sec_to_clock(float(utterances[center]["t0"])),
+        "window": lines,
+    }
+
+
+def _evenly_spaced_indices(values: list[int], count: int) -> list[int]:
+    if count >= len(values):
+        return list(values)
+    if count <= 1:
+        return [values[len(values) // 2]]
+    return [values[round(i * (len(values) - 1) / (count - 1))] for i in range(count)]
+
+
+def _ordered_unique(values: list[int]) -> list[int]:
+    seen: set[int] = set()
+    output = []
+    for value in values:
+        if value in seen:
+            continue
+        seen.add(value)
+        output.append(value)
+    return output
+
+
+def _label_mapping_prompt(
+    roster_csv: str,
+    context: str,
+    label_evidence: list[dict[str, Any]],
+    label_count: int,
+) -> str:
+    evidence_json = json.dumps(label_evidence, indent=2)
+    return f"""You are mapping diarized speaker labels to real speaker names for a NYC Council transcript.
+
+MEETING CONTEXT:
+{context}
+
+CURRENT COUNCIL ROSTER CSV (party may be blank if the source dataset lacks it):
+{roster_csv}
+
+DIARIZED LABEL EVIDENCE:
+The full meeting has {label_count} labels. This prompt contains the labels below. Each sample window includes the target utterance and nearby dialogue from other labels.
+{evidence_json}
+
+TASK:
+- Return one mapping for every label in this prompt.
+- The name field is the final display speaker string for the transcript.
+- For council members, use the roster name only, for example "Julie Menin".
+- For public witnesses with a stated or introduced name, use "Member of the Public - Full Name".
+- Allowed generic names are exactly "Council Staff", "Member of the Public", "Speaker", and "UNKNOWN".
+- Use role and org for additional context such as Chair, Council Member, Commissioner, agency, advocacy group, or public witness organization.
+- Prefer self-introductions over introductions by others. Next strongest: a chair, clerk, counsel, or committee staff introducing or addressing the speaker.
+- Use speech content and roster context only when the dialogue supports it.
+- Do not assign a whole label to a person if the samples show that the label is an impure roll-call/procedural bucket. Choose the dominant identity for the label, then add range_overrides for specific utterance ranges that clearly belong to another person.
+- Keep confidence low when the evidence is ambiguous. Do not invent names.
+
+Return JSON only:
+{{
+  "labels": [
+    {{
+      "label": "SPK_00",
+      "name": "Julie Menin",
+      "role": "Council Member",
+      "org": "New York City Council",
+      "confidence": "high",
+      "reason": "brief evidence summary"
+    }}
+  ],
+  "range_overrides": [
+    {{
+      "start_index": 1200,
+      "end_index": 1204,
+      "name": "Council Staff",
+      "role": "Clerk",
+      "org": "New York City Council",
+      "confidence": "medium",
+      "reason": "roll-call segment uses the wrong diarized label"
+    }}
+  ]
+}}
+"""
+
+
+def _extract_label_mapping_records(result: dict[str, Any] | list[Any]) -> list[dict[str, Any]]:
+    raw: Any = result
+    if isinstance(result, dict):
+        raw = (
+            result.get("labels")
+            or result.get("label_mappings")
+            or result.get("speaker_mappings")
+            or result.get("mappings")
+            or []
+        )
+    if not isinstance(raw, list):
+        return []
+
+    mappings = []
+    for item in raw:
+        if not isinstance(item, dict):
+            continue
+        label = str(item.get("label") or item.get("diarized_label") or item.get("speaker_label") or "").strip()
+        if not label:
+            continue
+        name = _clean_speaker(str(item.get("name") or item.get("speaker") or item.get("display_name") or "UNKNOWN"))
+        role = " ".join(str(item.get("role") or "").split())
+        org = " ".join(str(item.get("org") or item.get("organization") or "").split())
+        confidence_raw = item.get("confidence", "low")
+        mappings.append(
+            {
+                "label": label,
+                "name": name,
+                "speaker": _speaker_from_mapping(name, role),
+                "role": role,
+                "org": org,
+                "confidence": _confidence_value(confidence_raw),
+                "confidence_label": str(confidence_raw),
+                "reason": str(item.get("reason") or item.get("evidence") or "").strip()[:500],
+            }
+        )
+    return mappings
+
+
+def _with_unknown_mappings_for_missing_labels(
+    labels: list[str],
+    mappings: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    by_label = {str(item["label"]): item for item in mappings}
+    for label in labels:
+        if label in by_label:
+            continue
+        by_label[label] = {
+            "label": label,
+            "name": "UNKNOWN",
+            "speaker": "UNKNOWN",
+            "role": "",
+            "org": "",
+            "confidence": 0.2,
+            "confidence_label": "missing",
+            "reason": "Gemini did not return this label.",
+        }
+    return [by_label[label] for label in labels]
+
+
+def _extract_label_range_overrides(result: dict[str, Any] | list[Any]) -> list[dict[str, Any]]:
+    raw: Any = []
+    if isinstance(result, dict):
+        raw = result.get("range_overrides") or result.get("overrides") or []
+    if not isinstance(raw, list):
+        return []
+
+    overrides = []
+    for item in raw:
+        if not isinstance(item, dict):
+            continue
+        start = item.get("start_index", item.get("start", item.get("from")))
+        end = item.get("end_index", item.get("end", item.get("to", start)))
+        if start is None:
+            continue
+        name = _clean_speaker(str(item.get("name") or item.get("speaker") or item.get("display_name") or "UNKNOWN"))
+        role = " ".join(str(item.get("role") or "").split())
+        org = " ".join(str(item.get("org") or item.get("organization") or "").split())
+        confidence_raw = item.get("confidence", "medium")
+        overrides.append(
+            {
+                "start_index": int(start),
+                "end_index": int(end) if end is not None else int(start),
+                "name": name,
+                "speaker": _speaker_from_mapping(name, role),
+                "role": role,
+                "org": org,
+                "confidence": _confidence_value(confidence_raw),
+                "confidence_label": str(confidence_raw),
+                "reason": str(item.get("reason") or item.get("evidence") or "").strip()[:500],
+            }
+        )
+    return overrides
+
+
+def join_label_mappings(
+    utterances: list[dict[str, Any]],
+    mappings: list[dict[str, Any]],
+    range_overrides: list[dict[str, Any]] | None = None,
+) -> list[dict[str, Any]]:
+    mapping_by_label = {str(item.get("label")): item for item in mappings if item.get("label")}
+    named = []
+    for row in normalize_utterances(utterances):
+        label = _source_speaker_label(row)
+        mapping = mapping_by_label.get(label or "")
+        speaker = _clean_speaker(str(mapping.get("speaker") if mapping else "UNKNOWN"))
+        confidence = _confidence_value(mapping.get("confidence") if mapping else "low")
+        named.append(
+            {
+                "t0": row["t0"],
+                "t1": row["t1"],
+                "text": row["text"],
+                "speaker": speaker,
+                "confidence": confidence,
+            }
+        )
+
+    for override in range_overrides or []:
+        start = max(0, int(override.get("start_index", 0)))
+        end = min(len(named) - 1, int(override.get("end_index", start)))
+        if end < start:
+            continue
+        speaker = _clean_speaker(str(override.get("speaker") or override.get("name") or "UNKNOWN"))
+        confidence = _confidence_value(override.get("confidence", "medium"))
+        for index in range(start, end + 1):
+            named[index]["speaker"] = speaker
+            named[index]["confidence"] = confidence
+    return named
+
+
+def _speaker_from_mapping(name: str, role: str) -> str:
+    speaker = _clean_speaker(name)
+    if speaker.upper() in {"UNKNOWN", "UNK"} or speaker in GENERIC_SPEAKERS:
+        return speaker
+    if re.match(r"^Member\s+of\s+the\s+Public\s*-", speaker, flags=re.I):
+        return speaker
+    role_lower = role.lower()
+    if any(term in role_lower for term in ("member of the public", "public witness", "testifier")):
+        return f"Member of the Public - {speaker}"
+    return speaker
+
+
+def _confidence_value(value: Any) -> float:
+    if isinstance(value, int | float):
+        return round(max(0.0, min(1.0, float(value))), 3)
+    text = str(value or "").strip().lower()
+    if text in {"very high", "high", "certain"}:
+        return 0.9
+    if text in {"medium", "moderate"}:
+        return 0.65
+    if text in {"low", "weak"}:
+        return 0.35
+    if text in {"unknown", "missing", "none"}:
+        return 0.2
+    return 0.5
 
 
 def _chunk_utterances(

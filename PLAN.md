@@ -10,8 +10,8 @@ Target: feature and performance parity with the original, then cost-optimized.
 |---|---|---|
 | Discovery | Legistar Web API (token) + viebit RSS; InSite video-link decode as join | Verified working; RSS gives ~1-2h post-meeting latency |
 | Video serving | Re-host on Cloudflare R2: faststart remux (`-c copy`) at ingest, progressive MP4 via R2 public bucket | ~$15/mo at 500-meeting scale (zero egress); direct viebit playback ruled out (see 6) |
-| ASR + diarization | Benchmark: Voxtral Transcribe V2 vs ElevenLabs Scribe v2 vs AssemblyAI U-3 (+ Deepgram Nova-3 as citymeetings-baseline) | $0.18–0.69 per meeting; timestamps always from ASR, never LLM |
-| Speaker naming | LLM pass over full transcript w/ member roster + agenda; verification judge pass | 2025-era approach (Sonnet 3.7 was first to pass); today's mid-tier should clear it |
+| ASR + diarization | Local parakeet-mlx ASR for timestamps/text, then pyannote.audio 4.x `speaker-diarization-community-1` for speaker labels | Parakeet is fast on M-series but has no speakers; dedicated diarization avoids long-transcript LLM identity collapse |
+| Speaker naming | Gemini label→name mapping over diarized-label evidence, with roster + agenda context and verification/correction pass | Maps dozens of labels instead of assigning thousands of utterances; mirrors the robust citymeetings pattern |
 | Chaptering + summaries | LLM over full transcript with agenda/context; chunk-merge only if benchmark shows long-context degradation | Original's chunking machinery was a 2024-model workaround |
 | LLM tier | Benchmark Gemini 3.5 Flash / 3.1 Flash-Lite / Haiku 4.5 / DeepSeek V4 vs GPT-5.5 anchor | Cost table says even frontier is ~$1.20/meeting; pick minimum tier matching citymeetings quality |
 | Pipeline runtime | Dual mode: local CLI runs (Mac, manual/cron) AND remote cron (GitHub Actions, private repo) | Laptop isn't always on; same CLI both places |
@@ -51,8 +51,9 @@ discover (hourly on weekdays)
   join: InSite Video.aspx base64 → viebit filename ──┘
 process (per new video, ~30-60 min job)
   fetch MP4 + VTT from viebit CDN → extract 16k mono audio (ffmpeg)
-  ASR w/ diarization (winner of benchmark)           → utterances w/ timestamps
-  speaker naming LLM pass (roster + agenda + intro heuristics) + judge pass
+  ASR (parakeet-mlx, no speaker labels)              → utterances w/ timestamps
+  diarize (pyannote community-1 on audio-16k.wav)     → diarization turns + labeled utterances
+  speaker naming LLM label→name mapping (roster + agenda + intro evidence) + verification pass
   chaptering LLM pass (full transcript + agenda/matter context)
   summaries (chapter, meeting) + meeting/chapter type labels
   QA gates (coverage %, speaker-unknown %, chapter len distribution, ts monotonicity)

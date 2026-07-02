@@ -13,7 +13,7 @@ from .export_site import export_site
 from .fetch import fetch_meeting
 from .models import Meeting
 from .prepare import prepare_meeting
-from .stages import chapterize, name_speakers, transcribe
+from .stages import chapterize, diarize, name_speakers, transcribe
 from .utils import utc_now_iso
 
 
@@ -164,6 +164,36 @@ def cmd_transcribe(args: argparse.Namespace) -> int:
     return _run_rows(conn, rows, run_one, "transcribe_status", "transcribed", "transcribe")
 
 
+def cmd_diarize(args: argparse.Namespace) -> int:
+    if args.meeting_dir:
+        return _run_meeting_dir_stage(
+            args,
+            "diarize",
+            lambda meeting: diarize(meeting, model=args.model, device=args.device),
+        )
+
+    conn = db.connect(args.db)
+    rows = db.select_diarize_candidates(conn, args.meeting_key, args.limit or 1)
+    if not rows:
+        print("no diarize candidates")
+        return 0
+
+    def run_one(conn: sqlite3.Connection, row: sqlite3.Row) -> None:
+        meeting = db.meeting_from_row(row)
+        diarize(meeting, model=args.model, device=args.device)
+        db.update_meeting(
+            conn,
+            meeting.meeting_key,
+            {
+                "diarize_status": "diarized",
+                "last_error": None,
+                "updated_at": utc_now_iso(),
+            },
+        )
+
+    return _run_rows(conn, rows, run_one, "diarize_status", "diarized", "diarize")
+
+
 def cmd_name_speakers(args: argparse.Namespace) -> int:
     if args.meeting_dir:
         return _run_meeting_dir_stage(
@@ -250,6 +280,7 @@ def cmd_status(args: argparse.Namespace) -> int:
         ("fetch", 8),
         ("prep", 8),
         ("asr", 8),
+        ("diar", 8),
         ("spk", 8),
         ("chap", 8),
     ]
@@ -267,6 +298,7 @@ def cmd_status(args: argparse.Namespace) -> int:
                     _fmt(row["fetch_status"], 8),
                     _fmt(row["prepare_status"], 8),
                     _fmt(row["transcribe_status"], 8),
+                    _fmt(row["diarize_status"], 8),
                     _fmt(row["name_speakers_status"], 8),
                     _fmt(row["chapterize_status"], 8),
                 ]
@@ -311,6 +343,15 @@ def build_parser() -> argparse.ArgumentParser:
     transcribe_cmd.add_argument("--backend", default="local", choices=["local", "local-mlx", "remote"])
     transcribe_cmd.add_argument("--model", help="backend model override")
     transcribe_cmd.set_defaults(func=cmd_transcribe)
+
+    diarize_cmd = subparsers.add_parser("diarize", help="run speaker diarization and label ASR utterances")
+    add_common(diarize_cmd)
+    diarize_cmd.add_argument("--meeting-key", help="diarize one registry meeting")
+    diarize_cmd.add_argument("--meeting-dir", type=Path, help="diarize an artifact directory without registry updates")
+    diarize_cmd.add_argument("--limit", type=int, help="limit registry meetings, oldest first")
+    diarize_cmd.add_argument("--model", default="pyannote/speaker-diarization-community-1")
+    diarize_cmd.add_argument("--device", choices=["mps", "cpu"], help="torch device override; default prefers MPS")
+    diarize_cmd.set_defaults(func=cmd_diarize)
 
     speakers_cmd = subparsers.add_parser("name-speakers", help="assign speaker names with Gemini")
     add_common(speakers_cmd)

@@ -16,7 +16,7 @@ sys.path.insert(0, str(ROOT))
 
 from pipeline.artifacts import captions_to_utterances, read_json, read_jsonl, write_jsonl
 from pipeline.models import Meeting
-from pipeline.stages import name_speakers
+from pipeline.stages import diarize, name_speakers
 
 BENCHMARK = ROOT / "data" / "benchmark" / "2025-04-23-transportation"
 OUTPUT = BENCHMARK / "speaker-naming-eval.md"
@@ -117,11 +117,24 @@ class MatchedUtterance:
 
 def main() -> int:
     force = "--force" in sys.argv
+    use_existing_utterances = "--use-existing-utterances" in sys.argv
     meeting = _meeting()
-    if "--use-existing-utterances" not in sys.argv:
+    prepared_pseudo_utterances = False
+    if not use_existing_utterances:
         _prepare_pseudo_utterances(meeting)
+        prepared_pseudo_utterances = True
+    labeled_path = meeting.meeting_dir / "utterances-labeled.jsonl"
+    ran_diarize = False
+    if force or prepared_pseudo_utterances or not labeled_path.exists():
+        labeled_path = diarize(meeting)
+        ran_diarize = True
     named_path = meeting.meeting_dir / "utterances-named.jsonl"
-    if force or not named_path.exists():
+    if (
+        force
+        or ran_diarize
+        or not named_path.exists()
+        or not _is_label_mapping_meta(meeting.meeting_dir / "name-speakers-meta.json")
+    ):
         named_path = name_speakers(meeting)
     named = read_jsonl(named_path)
     references = _read_citymeetings_references(BENCHMARK)
@@ -131,6 +144,13 @@ def main() -> int:
     OUTPUT.write_text(report)
     print(report)
     return 0
+
+
+def _is_label_mapping_meta(meta_path: Path) -> bool:
+    if not meta_path.exists():
+        return False
+    meta = read_json(meta_path)
+    return meta.get("mode") == "label_mapping"
 
 
 def _meeting() -> Meeting:

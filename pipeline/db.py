@@ -9,7 +9,7 @@ from .config import MEETINGS_DIR, REGISTRY_DB
 from .models import Meeting
 from .utils import safe_key, utc_now_iso
 
-SCHEMA_VERSION = "2"
+SCHEMA_VERSION = "3"
 
 MEETING_COLUMNS = [
     "meeting_key",
@@ -38,6 +38,7 @@ MEETING_COLUMNS = [
     "fetch_status",
     "prepare_status",
     "transcribe_status",
+    "diarize_status",
     "name_speakers_status",
     "chapterize_status",
     "discovered_at",
@@ -92,6 +93,7 @@ def init_db(conn: sqlite3.Connection) -> None:
             fetch_status TEXT NOT NULL DEFAULT 'pending',
             prepare_status TEXT NOT NULL DEFAULT 'pending',
             transcribe_status TEXT NOT NULL DEFAULT 'stubbed',
+            diarize_status TEXT NOT NULL DEFAULT 'stubbed',
             name_speakers_status TEXT NOT NULL DEFAULT 'stubbed',
             chapterize_status TEXT NOT NULL DEFAULT 'stubbed',
             discovered_at TEXT,
@@ -125,6 +127,7 @@ def _migrate_meetings_table(conn: sqlite3.Connection) -> None:
         "meeting_slug": "TEXT",
         "body_slug": "TEXT",
         "video_web_url": "TEXT",
+        "diarize_status": "TEXT NOT NULL DEFAULT 'stubbed'",
     }
     for column, kind in additions.items():
         if column not in existing:
@@ -209,6 +212,7 @@ def upsert_meeting(conn: sqlite3.Connection, values: dict[str, Any]) -> sqlite3.
         ("fetch_status", "pending"),
         ("prepare_status", "pending"),
         ("transcribe_status", "stubbed"),
+        ("diarize_status", "stubbed"),
         ("name_speakers_status", "stubbed"),
         ("chapterize_status", "stubbed"),
     ]:
@@ -345,8 +349,28 @@ def select_name_speakers_candidates(
         return [get_meeting(conn, meeting_key)]
     sql = """
         SELECT * FROM meetings
-        WHERE transcribe_status = 'transcribed'
+        WHERE diarize_status = 'diarized'
           AND name_speakers_status != 'named'
+        ORDER BY COALESCE(viebit_pub_date, discovered_at) ASC, meeting_key ASC
+    """
+    params: tuple[Any, ...] = ()
+    if limit is not None:
+        sql += " LIMIT ?"
+        params = (limit,)
+    return list(conn.execute(sql, params))
+
+
+def select_diarize_candidates(
+    conn: sqlite3.Connection,
+    meeting_key: str | None = None,
+    limit: int | None = None,
+) -> list[sqlite3.Row]:
+    if meeting_key:
+        return [get_meeting(conn, meeting_key)]
+    sql = """
+        SELECT * FROM meetings
+        WHERE transcribe_status = 'transcribed'
+          AND diarize_status != 'diarized'
         ORDER BY COALESCE(viebit_pub_date, discovered_at) ASC, meeting_key ASC
     """
     params: tuple[Any, ...] = ()
