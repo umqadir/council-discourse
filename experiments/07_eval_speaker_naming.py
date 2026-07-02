@@ -131,10 +131,26 @@ def main() -> int:
         )
         meta_path = meeting.meeting_dir / "name-speakers-meta.json"
         asr_meta_path = meeting.meeting_dir / "transcribe-meta.json"
+    elif args.asr == "whisper":
+        named_path = _run_existing_labeled_config(
+            meeting,
+            asr=args.asr,
+            benchmark=args.benchmark,
+            force=args.force,
+            model=args.model,
+        )
+        meta_path = meeting.meeting_dir / "name-speakers-whisper-meta.json"
+        asr_meta_path = meeting.meeting_dir / "transcribe-whisper-meta.json"
     else:
-        named_path = _run_voxtral_config(meeting, benchmark=args.benchmark, force=args.force, model=args.model)
-        meta_path = meeting.meeting_dir / "name-speakers-voxtral-meta.json"
-        asr_meta_path = meeting.meeting_dir / "transcribe-voxtral-meta.json"
+        named_path = _run_remote_asr_config(
+            meeting,
+            asr=args.asr,
+            benchmark=args.benchmark,
+            force=args.force,
+            model=args.model,
+        )
+        meta_path = meeting.meeting_dir / f"name-speakers-{args.asr}-meta.json"
+        asr_meta_path = meeting.meeting_dir / f"transcribe-{args.asr}-meta.json"
     named = read_jsonl(named_path)
     references = _read_citymeetings_references(benchmark_dir)
     meta = read_json(meta_path) if meta_path.exists() else {}
@@ -156,7 +172,7 @@ def main() -> int:
 def _parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Evaluate speaker naming against citymeetings references.")
     parser.add_argument("--benchmark", choices=sorted(BENCHMARKS), default="transportation")
-    parser.add_argument("--asr", choices=["local", "voxtral"], default="local")
+    parser.add_argument("--asr", choices=["local", "voxtral", "whisper", "scribe", "assemblyai"], default="local")
     parser.add_argument("--model", default="gemini-3.5-flash", help="Gemini model for speaker naming")
     parser.add_argument("--force", action="store_true", help="rerun the selected ASR/naming path")
     parser.add_argument(
@@ -188,12 +204,12 @@ def _run_local_config(meeting: Meeting, *, force: bool, use_existing_utterances:
     return named_path
 
 
-def _run_voxtral_config(meeting: Meeting, *, benchmark: str, force: bool, model: str) -> Path:
-    labeled_path = meeting.meeting_dir / "utterances-voxtral-labeled.jsonl"
+def _run_remote_asr_config(meeting: Meeting, *, asr: str, benchmark: str, force: bool, model: str) -> Path:
+    labeled_path = meeting.meeting_dir / f"utterances-{asr}-labeled.jsonl"
     if force or not labeled_path.exists():
-        transcribe(meeting, backend="voxtral")
-    named_path = meeting.meeting_dir / "utterances-voxtral-named.jsonl"
-    meta_path = meeting.meeting_dir / "name-speakers-voxtral-meta.json"
+        transcribe(meeting, backend=asr)
+    named_path = meeting.meeting_dir / f"utterances-{asr}-named.jsonl"
+    meta_path = meeting.meeting_dir / f"name-speakers-{asr}-meta.json"
     if force or not named_path.exists() or not _is_label_mapping_meta(meta_path):
         named_path = name_speakers(
             meeting,
@@ -201,7 +217,25 @@ def _run_voxtral_config(meeting: Meeting, *, benchmark: str, force: bool, model:
             input_path=labeled_path,
             output_path=named_path,
             meta_path=meta_path,
-            runlog_stage=f"name_speakers_voxtral_{benchmark}",
+            runlog_stage=f"name_speakers_{asr}_{benchmark}",
+        )
+    return named_path
+
+
+def _run_existing_labeled_config(meeting: Meeting, *, asr: str, benchmark: str, force: bool, model: str) -> Path:
+    labeled_path = meeting.meeting_dir / f"utterances-{asr}-labeled.jsonl"
+    if not labeled_path.exists():
+        raise RuntimeError(f"missing {labeled_path}; run or generate the {asr} labeled ASR artifact first")
+    named_path = meeting.meeting_dir / f"utterances-{asr}-named.jsonl"
+    meta_path = meeting.meeting_dir / f"name-speakers-{asr}-meta.json"
+    if force or not named_path.exists() or not _is_label_mapping_meta(meta_path):
+        named_path = name_speakers(
+            meeting,
+            model=model,
+            input_path=labeled_path,
+            output_path=named_path,
+            meta_path=meta_path,
+            runlog_stage=f"name_speakers_{asr}_{benchmark}",
         )
     return named_path
 

@@ -21,16 +21,33 @@ from .utils import load_dotenv
 
 DEFAULT_PARAKEET_MODEL = "mlx-community/parakeet-tdt-0.6b-v3"
 DEFAULT_VOXTRAL_MODEL = "voxtral-mini-2602"
+DEFAULT_SCRIBE_MODEL = "scribe_v2"
+DEFAULT_ASSEMBLYAI_MODEL = "universal-3-pro"
 VOXTRAL_API_URL = "https://api.mistral.ai/v1/audio/transcriptions"
+ELEVENLABS_STT_URL = "https://api.elevenlabs.io/v1/speech-to-text"
+ASSEMBLYAI_BASE_URL = "https://api.assemblyai.com/v2"
 VOXTRAL_CONTEXT_BIAS_PARAM = "context_bias"
 VOXTRAL_CONTEXT_BIAS_LIMIT = 100
 VOXTRAL_CONTEXT_BIAS_ENV = "VOXTRAL_CONTEXT_BIAS"
 VOXTRAL_SPLIT_THRESHOLD_SEC = 10_800.0
+SCRIBE_SPLIT_THRESHOLD_SEC = 10_800.0
+ASSEMBLYAI_SPLIT_THRESHOLD_SEC = 0.0
 VOXTRAL_SILENCE_WINDOW_SEC = 1_800.0
+REMOTE_SILENCE_WINDOW_SEC = 1_800.0
+SCRIBE_ESTIMATED_USD_PER_HOUR = 0.40
+ASSEMBLYAI_ESTIMATED_USD_PER_HOUR = 0.37
+ASR_VENDOR_MAX_COST_USD = 5.0
+ASSEMBLYAI_POLL_INTERVAL_SEC = 10.0
+ASSEMBLYAI_POLL_TIMEOUT_SEC = 21_600.0
 VOXTRAL_LABEL_LIMITATION = (
     "Voxtral diarization labels are request-local. For split audio, labels from part 2 "
     "and later are suffixed with _partN so the speaker-naming stage does not merge "
     "unrelated speakers across API requests."
+)
+REQUEST_LOCAL_LABEL_LIMITATION = (
+    "Diarization labels are request-local. For split audio, labels from part 2 and later "
+    "are suffixed with _partN so the speaker-naming stage does not merge unrelated "
+    "speakers across API requests."
 )
 COMMON_NYC_AGENCY_BIAS_TERMS = (
     "NYCHA",
@@ -145,6 +162,10 @@ def transcribe_meeting(
         )
     if backend in {"voxtral", "mistral-voxtral"}:
         return transcribe_voxtral(meeting, model=model or DEFAULT_VOXTRAL_MODEL)
+    if backend in {"scribe", "elevenlabs", "elevenlabs-scribe"}:
+        return transcribe_scribe(meeting, model=model or DEFAULT_SCRIBE_MODEL)
+    if backend in {"assemblyai", "assembly-ai"}:
+        return transcribe_assemblyai(meeting, model=model or DEFAULT_ASSEMBLYAI_MODEL)
     if backend not in {"local", "local-mlx"}:
         raise ValueError(f"unsupported transcription backend: {backend}")
     return transcribe_local_mlx(meeting, model=model or DEFAULT_PARAKEET_MODEL)
@@ -308,6 +329,229 @@ def transcribe_voxtral(meeting: Meeting, model: str = DEFAULT_VOXTRAL_MODEL) -> 
     return output
 
 
+def transcribe_scribe(meeting: Meeting, model: str = DEFAULT_SCRIBE_MODEL) -> Path:
+    audio = _remote_audio_path(meeting.meeting_dir)
+    output = meeting.meeting_dir / "utterances-scribe.jsonl"
+    labeled_output = meeting.meeting_dir / "utterances-scribe-labeled.jsonl"
+    meta_path = meeting.meeting_dir / "transcribe-scribe-meta.json"
+    transcript_path = meeting.meeting_dir / "scribe-transcript.json"
+    meeting.meeting_dir.mkdir(parents=True, exist_ok=True)
+
+    duration = _meeting_duration(meeting, audio)
+    cost_meta = _vendor_cost_meta(
+        duration,
+        rate_env="SCRIBE_ESTIMATED_USD_PER_HOUR",
+        default_rate=SCRIBE_ESTIMATED_USD_PER_HOUR,
+    )
+    _enforce_vendor_budget("ElevenLabs Scribe", cost_meta)
+
+    split_threshold = _env_float("SCRIBE_SPLIT_THRESHOLD_SEC", SCRIBE_SPLIT_THRESHOLD_SEC)
+    started = time.monotonic()
+    if split_threshold and duration > split_threshold:
+        split_sec, split_reason = _find_silence_split(audio, duration, window_sec=REMOTE_SILENCE_WINDOW_SEC)
+        with tempfile.TemporaryDirectory(prefix=".scribe-", dir=meeting.meeting_dir) as tmp_name:
+            part_paths = _split_audio(audio, split_sec, Path(tmp_name), prefix="scribe")
+            parts = [
+                {
+                    "index": 1,
+                    "path": part_paths[0],
+                    "source_audio_file": str(audio),
+                    "temporary_audio": True,
+                    "offset_sec": 0.0,
+                    "speaker_suffix": "",
+                    "split_end_sec": split_sec,
+                },
+                {
+                    "index": 2,
+                    "path": part_paths[1],
+                    "source_audio_file": str(audio),
+                    "temporary_audio": True,
+                    "offset_sec": split_sec,
+                    "speaker_suffix": "_part2",
+                    "split_start_sec": split_sec,
+                },
+            ]
+            utterances, labeled, merged_result, part_records = _transcribe_scribe_parts(
+                meeting.meeting_dir,
+                parts,
+                model,
+            )
+        split_meta = {
+            "enabled": True,
+            "threshold_sec": split_threshold,
+            "split_sec": round_sec(split_sec),
+            "split_reason": split_reason,
+            "parts": part_records,
+            "speaker_label_limitation": REQUEST_LOCAL_LABEL_LIMITATION,
+        }
+    else:
+        parts = [{"index": 1, "path": audio, "offset_sec": 0.0, "speaker_suffix": ""}]
+        utterances, labeled, merged_result, part_records = _transcribe_scribe_parts(
+            meeting.meeting_dir,
+            parts,
+            model,
+        )
+        split_meta = {
+            "enabled": False,
+            "threshold_sec": split_threshold,
+            "parts": part_records,
+        }
+
+    wall_clock = time.monotonic() - started
+    if not utterances:
+        raise RuntimeError("ElevenLabs Scribe returned no timestamped utterances")
+
+    labels = sorted({str(row["label"]) for row in labeled if str(row.get("label") or "").strip()})
+    write_jsonl(output, utterances)
+    write_jsonl(labeled_output, labeled)
+    write_json(transcript_path, merged_result)
+    meta = {
+        "backend": "scribe",
+        "engine": "elevenlabs-speech-to-text",
+        "model": model,
+        "audio_file": str(audio),
+        "audio_duration_sec": round_sec(duration),
+        "utterances_output": str(output),
+        "labeled_output": str(labeled_output),
+        "raw_transcript_output": str(transcript_path),
+        "utterance_count": len(utterances),
+        "label_count": len(labels),
+        "labels": labels,
+        "wall_clock_sec": round_sec(wall_clock),
+        "rtf": round(wall_clock / duration, 4) if duration else None,
+        "usage": {
+            "prompt_audio_seconds": round_sec(duration),
+            "audio_seconds": round_sec(duration),
+            "request_count": len(part_records),
+        },
+        "estimated_cost_usd": cost_meta["estimated_cost_usd"],
+        "cost_estimate": cost_meta,
+        "split": split_meta,
+        "schema": merged_result.get("schema", {}),
+    }
+    write_json(meta_path, meta)
+    return output
+
+
+def transcribe_assemblyai(meeting: Meeting, model: str = DEFAULT_ASSEMBLYAI_MODEL) -> Path:
+    load_dotenv()
+    model = _assemblyai_model_from_env(model)
+    speech_models = _assemblyai_speech_models(model)
+    audio = _remote_audio_path(meeting.meeting_dir)
+    output = meeting.meeting_dir / "utterances-assemblyai.jsonl"
+    labeled_output = meeting.meeting_dir / "utterances-assemblyai-labeled.jsonl"
+    meta_path = meeting.meeting_dir / "transcribe-assemblyai-meta.json"
+    transcript_path = meeting.meeting_dir / "assemblyai-transcript.json"
+    meeting.meeting_dir.mkdir(parents=True, exist_ok=True)
+
+    duration = _meeting_duration(meeting, audio)
+    cost_meta = _vendor_cost_meta(
+        duration,
+        rate_env="ASSEMBLYAI_ESTIMATED_USD_PER_HOUR",
+        default_rate=ASSEMBLYAI_ESTIMATED_USD_PER_HOUR,
+    )
+    _enforce_vendor_budget("AssemblyAI", cost_meta)
+
+    split_threshold = _env_float("ASSEMBLYAI_SPLIT_THRESHOLD_SEC", ASSEMBLYAI_SPLIT_THRESHOLD_SEC)
+    started = time.monotonic()
+    if split_threshold and duration > split_threshold:
+        with tempfile.TemporaryDirectory(prefix=".assemblyai-", dir=meeting.meeting_dir) as tmp_name:
+            if duration > split_threshold * 2:
+                parts, split_reason = _fixed_duration_audio_parts(
+                    audio,
+                    duration,
+                    split_threshold,
+                    Path(tmp_name),
+                    prefix="assemblyai",
+                )
+                split_sec = None
+            else:
+                split_sec, split_reason = _find_silence_split(audio, duration, window_sec=REMOTE_SILENCE_WINDOW_SEC)
+                part_paths = _split_audio(audio, split_sec, Path(tmp_name), prefix="assemblyai")
+                parts = [
+                    {
+                        "index": 1,
+                        "path": part_paths[0],
+                        "source_audio_file": str(audio),
+                        "temporary_audio": True,
+                        "offset_sec": 0.0,
+                        "speaker_suffix": "",
+                        "split_end_sec": split_sec,
+                    },
+                    {
+                        "index": 2,
+                        "path": part_paths[1],
+                        "source_audio_file": str(audio),
+                        "temporary_audio": True,
+                        "offset_sec": split_sec,
+                        "speaker_suffix": "_part2",
+                        "split_start_sec": split_sec,
+                    },
+                ]
+            utterances, labeled, merged_result, part_records = _transcribe_assemblyai_parts(
+                meeting.meeting_dir,
+                parts,
+                model,
+            )
+        split_meta = {
+            "enabled": True,
+            "threshold_sec": split_threshold,
+            "split_reason": split_reason,
+            "parts": part_records,
+            "speaker_label_limitation": REQUEST_LOCAL_LABEL_LIMITATION,
+        }
+        if split_sec is not None:
+            split_meta["split_sec"] = round_sec(split_sec)
+    else:
+        parts = [{"index": 1, "path": audio, "offset_sec": 0.0, "speaker_suffix": ""}]
+        utterances, labeled, merged_result, part_records = _transcribe_assemblyai_parts(
+            meeting.meeting_dir,
+            parts,
+            model,
+        )
+        split_meta = {
+            "enabled": False,
+            "threshold_sec": split_threshold,
+            "parts": part_records,
+        }
+
+    wall_clock = time.monotonic() - started
+    if not utterances:
+        raise RuntimeError("AssemblyAI returned no timestamped utterances")
+
+    labels = sorted({str(row["label"]) for row in labeled if str(row.get("label") or "").strip()})
+    write_jsonl(output, utterances)
+    write_jsonl(labeled_output, labeled)
+    write_json(transcript_path, merged_result)
+    meta = {
+        "backend": "assemblyai",
+        "engine": "assemblyai-transcript",
+        "model": model,
+        "speech_models": speech_models,
+        "audio_file": str(audio),
+        "audio_duration_sec": round_sec(duration),
+        "utterances_output": str(output),
+        "labeled_output": str(labeled_output),
+        "raw_transcript_output": str(transcript_path),
+        "utterance_count": len(utterances),
+        "label_count": len(labels),
+        "labels": labels,
+        "wall_clock_sec": round_sec(wall_clock),
+        "rtf": round(wall_clock / duration, 4) if duration else None,
+        "usage": {
+            "prompt_audio_seconds": round_sec(duration),
+            "audio_seconds": round_sec(duration),
+            "request_count": len(part_records),
+        },
+        "estimated_cost_usd": cost_meta["estimated_cost_usd"],
+        "cost_estimate": cost_meta,
+        "split": split_meta,
+        "schema": merged_result.get("schema", {}),
+    }
+    write_json(meta_path, meta)
+    return output
+
+
 def _audio_path(meeting_dir: Path) -> Path:
     for name in ("audio-16k.wav", "audio.wav", "audio.m4a"):
         path = meeting_dir / name
@@ -326,12 +570,16 @@ def _audio_duration(path: Path) -> float:
     return float(proc.stdout.strip())
 
 
-def _voxtral_audio_path(meeting_dir: Path) -> Path:
+def _remote_audio_path(meeting_dir: Path) -> Path:
     for name in ("audio.m4a", "audio-16k.wav", "audio.wav"):
         path = meeting_dir / name
         if path.exists() and path.stat().st_size > 10_000:
             return path
     raise RuntimeError(f"missing prepared audio in {meeting_dir}: expected audio.m4a")
+
+
+def _voxtral_audio_path(meeting_dir: Path) -> Path:
+    return _remote_audio_path(meeting_dir)
 
 
 def _meeting_duration(meeting: Meeting, audio: Path) -> float:
@@ -506,10 +754,15 @@ def _voxtral_request_form_data(model: str, context_bias: list[str]) -> dict[str,
     return data
 
 
-def _find_silence_split(audio: Path, duration: float) -> tuple[float, str]:
+def _find_silence_split(
+    audio: Path,
+    duration: float,
+    *,
+    window_sec: float = VOXTRAL_SILENCE_WINDOW_SEC,
+) -> tuple[float, str]:
     _require_command("ffmpeg")
     target = duration / 2
-    window = min(VOXTRAL_SILENCE_WINDOW_SEC, max(120.0, duration - 120.0))
+    window = min(window_sec, max(120.0, duration - 120.0))
     window_start = max(0.0, target - window / 2)
     window_duration = min(window, duration - window_start)
     silences = _detect_silences(audio, window_start, window_duration)
@@ -572,10 +825,10 @@ def _window_time_to_absolute(value: float, window_start: float, window_duration:
     return value
 
 
-def _split_audio(audio: Path, split_sec: float, tmp_dir: Path) -> tuple[Path, Path]:
+def _split_audio(audio: Path, split_sec: float, tmp_dir: Path, *, prefix: str = "voxtral") -> tuple[Path, Path]:
     _require_command("ffmpeg")
-    part1 = tmp_dir / "voxtral-part-1.m4a"
-    part2 = tmp_dir / "voxtral-part-2.m4a"
+    part1 = tmp_dir / f"{prefix}-part-1.m4a"
+    part2 = tmp_dir / f"{prefix}-part-2.m4a"
     common = [
         "ffmpeg",
         "-hide_banner",
@@ -587,6 +840,51 @@ def _split_audio(audio: Path, split_sec: float, tmp_dir: Path) -> tuple[Path, Pa
     _run_ffmpeg(common + ["-i", str(audio), "-t", f"{split_sec:.3f}"] + encode_args + [str(part1)])
     _run_ffmpeg(common + ["-ss", f"{split_sec:.3f}", "-i", str(audio)] + encode_args + [str(part2)])
     return part1, part2
+
+
+def _fixed_duration_audio_parts(
+    audio: Path,
+    duration: float,
+    max_part_sec: float,
+    tmp_dir: Path,
+    *,
+    prefix: str,
+) -> tuple[list[dict[str, Any]], str]:
+    _require_command("ffmpeg")
+    if max_part_sec <= 0:
+        raise ValueError("max_part_sec must be positive")
+    parts: list[dict[str, Any]] = []
+    start = 0.0
+    index = 1
+    common = [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-y",
+    ]
+    encode_args = ["-vn", "-ac", "1", "-ar", "16000", "-c:a", "aac", "-b:a", "64k"]
+    while start < duration - 0.5:
+        part_duration = min(max_part_sec, duration - start)
+        path = tmp_dir / f"{prefix}-part-{index}.m4a"
+        cmd = common + ["-ss", f"{start:.3f}", "-i", str(audio), "-t", f"{part_duration:.3f}"]
+        _run_ffmpeg(cmd + encode_args + [str(path)])
+        part: dict[str, Any] = {
+            "index": index,
+            "path": path,
+            "source_audio_file": str(audio),
+            "temporary_audio": True,
+            "offset_sec": start,
+            "speaker_suffix": "" if index == 1 else f"_part{index}",
+            "split_start_sec": start,
+            "split_end_sec": min(duration, start + part_duration),
+        }
+        if index == 1:
+            part.pop("split_start_sec")
+        parts.append(part)
+        start += part_duration
+        index += 1
+    return parts, f"fixed_duration_chunks_{round_sec(max_part_sec)}s"
 
 
 def _run_ffmpeg(cmd: list[str]) -> None:
@@ -780,6 +1078,805 @@ def _voxtral_result_to_rows(
         merged_segment["part"] = part_index
         merged_segments.append(merged_segment)
     return utterances, labeled, merged_segments
+
+
+def _transcribe_scribe_parts(
+    meeting_dir: Path,
+    parts: list[dict[str, Any]],
+    model: str,
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]], dict[str, Any], list[dict[str, Any]]]:
+    utterances: list[dict[str, Any]] = []
+    labeled: list[dict[str, Any]] = []
+    merged_segments: list[dict[str, Any]] = []
+    merged_words: list[dict[str, Any]] = []
+    merged_text: list[str] = []
+    part_records: list[dict[str, Any]] = []
+    languages: list[str] = []
+    schemas: list[dict[str, Any]] = []
+
+    for part in parts:
+        result, request_meta = _request_scribe_transcription(Path(part["path"]), model)
+        part_index = int(part["index"])
+        raw_path = meeting_dir / f"scribe-transcript-part-{part_index}.json"
+        write_json(raw_path, result)
+        offset = float(part.get("offset_sec") or 0)
+        speaker_suffix = str(part.get("speaker_suffix") or "")
+        part_utterances, part_labeled, part_segments, part_words = _scribe_result_to_rows(
+            result,
+            offset_sec=offset,
+            speaker_suffix=speaker_suffix,
+            part_index=part_index,
+        )
+        utterances.extend(part_utterances)
+        labeled.extend(part_labeled)
+        merged_segments.extend(part_segments)
+        merged_words.extend(part_words)
+        text = clean_text(result.get("text"))
+        if text:
+            merged_text.append(text)
+        language = clean_text(result.get("language_code") or result.get("language"))
+        if language and language not in languages:
+            languages.append(language)
+        schemas.append(_response_schema_summary(result))
+        speakers = sorted({str(row["label"]) for row in part_labeled if str(row.get("label") or "").strip()})
+        part_records.append(
+            _remote_part_record(
+                part,
+                raw_path,
+                request_meta,
+                segment_count=len(part_segments),
+                utterance_count=len(part_utterances),
+                speaker_count=len(speakers),
+            )
+        )
+
+    utterances.sort(key=lambda row: (float(row["t0"]), float(row["t1"])))
+    labeled.sort(key=lambda row: (float(row["t0"]), float(row["t1"])))
+    merged_segments.sort(key=lambda row: (float(row.get("start", 0)), float(row.get("end", 0))))
+    merged_words.sort(key=lambda row: (float(row.get("start", 0)), float(row.get("end", 0))))
+    merged_result: dict[str, Any] = {
+        "model": model,
+        "text": "\n".join(merged_text),
+        "segments": merged_segments,
+        "words": merged_words,
+        "schema": _merge_schema_summaries(schemas),
+    }
+    if languages:
+        merged_result["language"] = languages[0] if len(languages) == 1 else languages
+    return utterances, labeled, merged_result, part_records
+
+
+def _request_scribe_transcription(
+    audio: Path,
+    model: str,
+    *,
+    max_attempts: int = 3,
+) -> tuple[dict[str, Any], dict[str, Any]]:
+    load_dotenv()
+    key = os.environ.get("ELEVENLABS_API_KEY")
+    if not key:
+        raise RuntimeError("ELEVENLABS_API_KEY is required for ElevenLabs Scribe transcription")
+
+    timeout = httpx.Timeout(connect=30.0, read=7_200.0, write=7_200.0, pool=30.0)
+    started = time.monotonic()
+    response: httpx.Response | None = None
+    last_error: Exception | None = None
+    for attempt in range(1, max_attempts + 1):
+        try:
+            with audio.open("rb") as file_handle:
+                response = httpx.post(
+                    ELEVENLABS_STT_URL,
+                    headers={"xi-api-key": key, "Accept": "application/json"},
+                    data={"model_id": model, "diarize": "true"},
+                    files={"file": (audio.name, file_handle, _mime_type(audio))},
+                    timeout=timeout,
+                )
+        except (httpx.TimeoutException, httpx.NetworkError, httpx.RemoteProtocolError) as exc:
+            last_error = exc
+            if attempt >= max_attempts:
+                raise
+            time.sleep(min(60, 5 * 2 ** (attempt - 1)))
+            continue
+        if response.status_code < 400:
+            wall_clock = time.monotonic() - started
+            return response.json(), {
+                "wall_clock_sec": round_sec(wall_clock),
+                "http_status": response.status_code,
+                "attempts": attempt,
+            }
+        if response.status_code not in {408, 409, 425, 429} and response.status_code < 500:
+            break
+        if attempt >= max_attempts:
+            break
+        time.sleep(min(60, 5 * 2 ** (attempt - 1)))
+
+    wall_clock = time.monotonic() - started
+    if response is not None:
+        raise RuntimeError(
+            f"ElevenLabs Scribe failed with HTTP {response.status_code} after "
+            f"{round_sec(wall_clock)}s and {max_attempts} attempts: {response.text[:2000]}"
+        )
+    raise RuntimeError(f"ElevenLabs Scribe failed after {round_sec(wall_clock)}s: {last_error}")
+
+
+def _scribe_result_to_rows(
+    result: dict[str, Any],
+    *,
+    offset_sec: float,
+    speaker_suffix: str,
+    part_index: int,
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]]]:
+    raw_segments = result.get("segments")
+    if isinstance(raw_segments, list):
+        segments = [_scribe_normalized_segment(segment) for segment in raw_segments if isinstance(segment, dict)]
+        segments = [segment for segment in segments if segment is not None]
+    else:
+        segments = []
+    if not segments:
+        words = result.get("words")
+        if not isinstance(words, list):
+            raise RuntimeError(f"ElevenLabs Scribe response lacks timestamped segments/words: {result.keys()}")
+        segments = _scribe_segments_from_words(words)
+
+    utterances: list[dict[str, Any]] = []
+    labeled: list[dict[str, Any]] = []
+    merged_segments: list[dict[str, Any]] = []
+    for segment in segments:
+        text = clean_text(segment.get("text"))
+        if not text:
+            continue
+        start = float(segment["start"]) + offset_sec
+        end = float(segment["end"]) + offset_sec
+        if end <= start:
+            continue
+        row = {
+            "t0": round_sec(start),
+            "t1": round_sec(end),
+            "text": text,
+        }
+        raw_speaker = _clean_speaker_label(segment.get("speaker_id") or segment.get("speaker")) or "UNKNOWN"
+        label = f"{raw_speaker}{speaker_suffix}" if speaker_suffix else raw_speaker
+        utterances.append(row)
+        labeled_row = dict(row)
+        labeled_row["label"] = label
+        labeled_row["speaker_id"] = raw_speaker
+        labeled_row["scribe_part"] = part_index
+        if segment.get("word_count") is not None:
+            labeled_row["word_count"] = int(segment["word_count"])
+        labeled.append(labeled_row)
+
+        merged_segment = dict(segment)
+        merged_segment["text"] = text
+        merged_segment["start"] = row["t0"]
+        merged_segment["end"] = row["t1"]
+        merged_segment["speaker_id"] = label
+        if label != raw_speaker:
+            merged_segment["raw_speaker_id"] = raw_speaker
+        merged_segment["part"] = part_index
+        merged_segments.append(merged_segment)
+
+    merged_words = _offset_scribe_words(
+        result.get("words") if isinstance(result.get("words"), list) else [],
+        offset_sec=offset_sec,
+        speaker_suffix=speaker_suffix,
+        part_index=part_index,
+    )
+    return utterances, labeled, merged_segments, merged_words
+
+
+def _scribe_normalized_segment(segment: dict[str, Any]) -> dict[str, Any] | None:
+    text = clean_text(segment.get("text") or segment.get("transcript"))
+    start = _seconds_value(segment.get("start", segment.get("start_time")))
+    end = _seconds_value(segment.get("end", segment.get("end_time")))
+    words = segment.get("words")
+    if (start is None or end is None) and isinstance(words, list):
+        timestamped_words = [_scribe_word_record(word) for word in words if isinstance(word, dict)]
+        timestamped_words = [word for word in timestamped_words if word is not None]
+        if timestamped_words:
+            start = timestamped_words[0]["start"] if start is None else start
+            end = timestamped_words[-1]["end"] if end is None else end
+            if not text:
+                text = _join_word_tokens([str(word["text"]) for word in timestamped_words])
+    if start is None or end is None or end <= start or not text:
+        return None
+    out = dict(segment)
+    out["text"] = text
+    out["start"] = round_sec(start)
+    out["end"] = round_sec(end)
+    out["speaker_id"] = _clean_speaker_label(
+        segment.get("speaker_id") or segment.get("speaker") or segment.get("speaker_label")
+    ) or "UNKNOWN"
+    if isinstance(words, list):
+        out["word_count"] = sum(1 for word in words if isinstance(word, dict) and _scribe_word_record(word))
+    return out
+
+
+def _scribe_segments_from_words(words: list[Any]) -> list[dict[str, Any]]:
+    records = [_scribe_word_record(word) for word in words if isinstance(word, dict)]
+    records = [record for record in records if record is not None]
+    if not records:
+        return []
+
+    segments: list[dict[str, Any]] = []
+    current: list[dict[str, Any]] = []
+
+    def flush() -> None:
+        if not current:
+            return
+        text = _join_word_tokens([str(item["text"]) for item in current])
+        if text:
+            segments.append(
+                {
+                    "text": text,
+                    "start": round_sec(current[0]["start"]),
+                    "end": round_sec(current[-1]["end"]),
+                    "speaker_id": current[0]["speaker_id"],
+                    "word_count": len(current),
+                    "source": "derived_from_words",
+                }
+            )
+        current.clear()
+
+    for record in records:
+        if current:
+            previous = current[-1]
+            current_duration = float(previous["end"]) - float(current[0]["start"])
+            speaker_changed = record["speaker_id"] != current[0]["speaker_id"]
+            gap = float(record["start"]) - float(previous["end"])
+            too_long = current_duration >= 12.0 or len(current) >= 35
+            if speaker_changed or gap > 1.2 or too_long:
+                flush()
+        current.append(record)
+        text = str(record["text"])
+        current_duration = float(record["end"]) - float(current[0]["start"])
+        if len(current) >= 4 and current_duration >= 1.0 and re.search(r"[.!?]$", text):
+            flush()
+    flush()
+    return segments
+
+
+def _scribe_word_record(word: dict[str, Any]) -> dict[str, Any] | None:
+    word_type = clean_text(word.get("type")).lower()
+    text = clean_text(word.get("text") or word.get("word"))
+    if word_type and word_type not in {"word", "audio_event", "spacing"} and not text:
+        return None
+    if not text or word_type == "spacing":
+        return None
+    start = _seconds_value(word.get("start", word.get("start_time")))
+    end = _seconds_value(word.get("end", word.get("end_time")))
+    if start is None or end is None or end <= start:
+        return None
+    return {
+        "text": text,
+        "start": float(start),
+        "end": float(end),
+        "speaker_id": _clean_speaker_label(
+            word.get("speaker_id") or word.get("speaker") or word.get("speaker_label")
+        ) or "UNKNOWN",
+    }
+
+
+def _offset_scribe_words(
+    words: list[Any],
+    *,
+    offset_sec: float,
+    speaker_suffix: str,
+    part_index: int,
+) -> list[dict[str, Any]]:
+    output: list[dict[str, Any]] = []
+    for word in words:
+        if not isinstance(word, dict):
+            continue
+        start = _seconds_value(word.get("start", word.get("start_time")))
+        end = _seconds_value(word.get("end", word.get("end_time")))
+        if start is None or end is None:
+            continue
+        raw_speaker = _clean_speaker_label(
+            word.get("speaker_id") or word.get("speaker") or word.get("speaker_label")
+        )
+        out = dict(word)
+        out["start"] = round_sec(float(start) + offset_sec)
+        out["end"] = round_sec(float(end) + offset_sec)
+        if raw_speaker:
+            out["speaker_id"] = f"{raw_speaker}{speaker_suffix}" if speaker_suffix else raw_speaker
+            if speaker_suffix:
+                out["raw_speaker_id"] = raw_speaker
+        out["part"] = part_index
+        output.append(out)
+    return output
+
+
+def _transcribe_assemblyai_parts(
+    meeting_dir: Path,
+    parts: list[dict[str, Any]],
+    model: str,
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]], dict[str, Any], list[dict[str, Any]]]:
+    utterances: list[dict[str, Any]] = []
+    labeled: list[dict[str, Any]] = []
+    merged_segments: list[dict[str, Any]] = []
+    merged_words: list[dict[str, Any]] = []
+    merged_text: list[str] = []
+    part_records: list[dict[str, Any]] = []
+    schemas: list[dict[str, Any]] = []
+
+    for part in parts:
+        result, request_meta = _request_assemblyai_transcription(Path(part["path"]), model)
+        part_index = int(part["index"])
+        raw_path = meeting_dir / f"assemblyai-transcript-part-{part_index}.json"
+        write_json(raw_path, result)
+        offset = float(part.get("offset_sec") or 0)
+        speaker_suffix = str(part.get("speaker_suffix") or "")
+        part_utterances, part_labeled, part_segments, part_words = _assemblyai_result_to_rows(
+            result,
+            offset_sec=offset,
+            speaker_suffix=speaker_suffix,
+            part_index=part_index,
+        )
+        utterances.extend(part_utterances)
+        labeled.extend(part_labeled)
+        merged_segments.extend(part_segments)
+        merged_words.extend(part_words)
+        text = clean_text(result.get("text"))
+        if text:
+            merged_text.append(text)
+        schemas.append(_response_schema_summary(result))
+        speakers = sorted({str(row["label"]) for row in part_labeled if str(row.get("label") or "").strip()})
+        record = _remote_part_record(
+            part,
+            raw_path,
+            request_meta,
+            segment_count=len(part_segments),
+            utterance_count=len(part_utterances),
+            speaker_count=len(speakers),
+        )
+        if request_meta.get("transcript_id"):
+            record["transcript_id"] = request_meta["transcript_id"]
+        part_records.append(record)
+
+    utterances.sort(key=lambda row: (float(row["t0"]), float(row["t1"])))
+    labeled.sort(key=lambda row: (float(row["t0"]), float(row["t1"])))
+    merged_segments.sort(key=lambda row: (float(row.get("start", 0)), float(row.get("end", 0))))
+    merged_words.sort(key=lambda row: (float(row.get("start", 0)), float(row.get("end", 0))))
+    merged_result = {
+        "model": model,
+        "speech_models": _assemblyai_speech_models(model),
+        "text": "\n".join(merged_text),
+        "utterances": merged_segments,
+        "words": merged_words,
+        "schema": _merge_schema_summaries(schemas),
+    }
+    return utterances, labeled, merged_result, part_records
+
+
+def _request_assemblyai_transcription(
+    audio: Path,
+    model: str,
+) -> tuple[dict[str, Any], dict[str, Any]]:
+    load_dotenv()
+    key = os.environ.get("ASSEMBLYAI_API_KEY")
+    if not key:
+        raise RuntimeError("ASSEMBLYAI_API_KEY is required for AssemblyAI transcription")
+
+    upload_timeout = httpx.Timeout(connect=30.0, read=1_800.0, write=7_200.0, pool=30.0)
+    poll_timeout = httpx.Timeout(connect=30.0, read=120.0, write=120.0, pool=30.0)
+    started = time.monotonic()
+    transcript_id = ""
+    with httpx.Client(headers={"authorization": key}, timeout=upload_timeout) as client:
+        with audio.open("rb") as file_handle:
+            upload_response = client.post(
+                f"{ASSEMBLYAI_BASE_URL}/upload",
+                headers={"content-type": "application/octet-stream"},
+                content=file_handle,
+            )
+        if upload_response.status_code >= 400:
+            raise RuntimeError(
+                f"AssemblyAI upload failed with HTTP {upload_response.status_code}: "
+                f"{upload_response.text[:2000]}"
+            )
+        upload_url = upload_response.json().get("upload_url")
+        if not upload_url:
+            raise RuntimeError(f"AssemblyAI upload response lacked upload_url: {upload_response.text[:2000]}")
+
+        speech_models = _assemblyai_speech_models(model)
+        payload = {
+            "audio_url": upload_url,
+            "speaker_labels": True,
+            "speech_models": speech_models,
+        }
+        create_response = client.post(
+            f"{ASSEMBLYAI_BASE_URL}/transcript",
+            headers={"content-type": "application/json"},
+            json=payload,
+        )
+        if create_response.status_code >= 400:
+            raise RuntimeError(
+                f"AssemblyAI transcript create failed with HTTP {create_response.status_code}: "
+                f"{create_response.text[:2000]}"
+            )
+        created = create_response.json()
+        transcript_id = str(created.get("id") or "")
+        if not transcript_id:
+            raise RuntimeError(f"AssemblyAI transcript create response lacked id: {create_response.text[:2000]}")
+
+    poll_started = time.monotonic()
+    poll_count = 0
+    with httpx.Client(headers={"authorization": key}, timeout=poll_timeout) as client:
+        while True:
+            poll_count += 1
+            response = client.get(f"{ASSEMBLYAI_BASE_URL}/transcript/{transcript_id}")
+            if response.status_code >= 400:
+                raise RuntimeError(
+                    f"AssemblyAI transcript poll failed with HTTP {response.status_code}: "
+                    f"{response.text[:2000]}"
+                )
+            result = response.json()
+            status = str(result.get("status") or "").lower()
+            if status == "completed":
+                wall_clock = time.monotonic() - started
+                return result, {
+                    "wall_clock_sec": round_sec(wall_clock),
+                    "transcript_id": transcript_id,
+                    "poll_count": poll_count,
+                    "speech_models": speech_models,
+                    "create_payload": {"speaker_labels": True, "speech_models": speech_models},
+                }
+            if status == "error":
+                raise RuntimeError(
+                    "AssemblyAI transcript failed: "
+                    + clean_text(result.get("error") or result.get("error_message") or result)
+                )
+            if time.monotonic() - poll_started > ASSEMBLYAI_POLL_TIMEOUT_SEC:
+                raise RuntimeError(
+                    f"AssemblyAI transcript {transcript_id} did not complete within "
+                    f"{ASSEMBLYAI_POLL_TIMEOUT_SEC}s; last status={status or 'unknown'}"
+                )
+            time.sleep(ASSEMBLYAI_POLL_INTERVAL_SEC)
+
+
+def _assemblyai_result_to_rows(
+    result: dict[str, Any],
+    *,
+    offset_sec: float,
+    speaker_suffix: str,
+    part_index: int,
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]]]:
+    raw_utterances = result.get("utterances")
+    if isinstance(raw_utterances, list) and raw_utterances:
+        segments = _assemblyai_segments_from_utterances(raw_utterances)
+    else:
+        segments = []
+    if not segments:
+        words = result.get("words")
+        if not isinstance(words, list):
+            raise RuntimeError(f"AssemblyAI response lacks timestamped utterances/words: {result.keys()}")
+        segments = _assemblyai_segments_from_words(words)
+
+    utterances: list[dict[str, Any]] = []
+    labeled: list[dict[str, Any]] = []
+    merged_segments: list[dict[str, Any]] = []
+    for segment in segments:
+        text = clean_text(segment.get("text"))
+        if not text:
+            continue
+        start = float(segment["start"]) + offset_sec
+        end = float(segment["end"]) + offset_sec
+        if end <= start:
+            continue
+        row = {
+            "t0": round_sec(start),
+            "t1": round_sec(end),
+            "text": text,
+        }
+        raw_speaker = _clean_speaker_label(segment.get("speaker") or segment.get("speaker_id")) or "UNKNOWN"
+        label = f"{raw_speaker}{speaker_suffix}" if speaker_suffix else raw_speaker
+        utterances.append(row)
+        labeled_row = dict(row)
+        labeled_row["label"] = label
+        labeled_row["speaker_id"] = raw_speaker
+        labeled_row["assemblyai_part"] = part_index
+        if segment.get("confidence") is not None:
+            labeled_row["confidence"] = round(float(segment["confidence"]), 4)
+        if segment.get("word_count") is not None:
+            labeled_row["word_count"] = int(segment["word_count"])
+        labeled.append(labeled_row)
+
+        merged_segment = dict(segment)
+        merged_segment["text"] = text
+        merged_segment["start"] = row["t0"]
+        merged_segment["end"] = row["t1"]
+        merged_segment["speaker"] = label
+        if label != raw_speaker:
+            merged_segment["raw_speaker"] = raw_speaker
+        merged_segment["part"] = part_index
+        merged_segments.append(merged_segment)
+
+    merged_words = _offset_assemblyai_words(
+        result.get("words") if isinstance(result.get("words"), list) else [],
+        offset_sec=offset_sec,
+        speaker_suffix=speaker_suffix,
+        part_index=part_index,
+    )
+    return utterances, labeled, merged_segments, merged_words
+
+
+def _assemblyai_normalized_utterance(item: dict[str, Any]) -> dict[str, Any] | None:
+    text = clean_text(item.get("text"))
+    start = _millis_value(item.get("start"))
+    end = _millis_value(item.get("end"))
+    if start is None or end is None or end <= start or not text:
+        return None
+    out = dict(item)
+    out["text"] = text
+    out["start"] = round_sec(start)
+    out["end"] = round_sec(end)
+    out["speaker"] = _clean_speaker_label(item.get("speaker") or item.get("speaker_id")) or "UNKNOWN"
+    words = item.get("words")
+    if isinstance(words, list):
+        out["word_count"] = len(words)
+    return out
+
+
+def _assemblyai_segments_from_utterances(utterances: list[Any]) -> list[dict[str, Any]]:
+    segments: list[dict[str, Any]] = []
+    fallback_segments: list[dict[str, Any]] = []
+    for item in utterances:
+        if not isinstance(item, dict):
+            continue
+        normalized = _assemblyai_normalized_utterance(item)
+        if normalized is not None:
+            fallback_segments.append(normalized)
+        speaker = _clean_speaker_label(item.get("speaker") or item.get("speaker_id")) or "UNKNOWN"
+        confidence = item.get("confidence")
+        words = item.get("words")
+        if not isinstance(words, list) or not words:
+            continue
+        word_rows = []
+        for word in words:
+            if not isinstance(word, dict):
+                continue
+            with_speaker = dict(word)
+            with_speaker.setdefault("speaker", speaker)
+            word_rows.append(with_speaker)
+        for segment in _assemblyai_segments_from_words(word_rows):
+            segment["source"] = "derived_from_utterance_words"
+            segment["speaker"] = speaker
+            if confidence is not None:
+                segment["confidence"] = confidence
+            segments.append(segment)
+    return segments or fallback_segments
+
+
+def _assemblyai_segments_from_words(words: list[Any]) -> list[dict[str, Any]]:
+    records = [_assemblyai_word_record(word) for word in words if isinstance(word, dict)]
+    records = [record for record in records if record is not None]
+    if not records:
+        return []
+
+    segments: list[dict[str, Any]] = []
+    current: list[dict[str, Any]] = []
+
+    def flush() -> None:
+        if not current:
+            return
+        text = _join_word_tokens([str(item["text"]) for item in current])
+        if text:
+            segments.append(
+                {
+                    "text": text,
+                    "start": round_sec(current[0]["start"]),
+                    "end": round_sec(current[-1]["end"]),
+                    "speaker": current[0]["speaker"],
+                    "word_count": len(current),
+                    "source": "derived_from_words",
+                }
+            )
+        current.clear()
+
+    for record in records:
+        if current:
+            previous = current[-1]
+            current_duration = float(previous["end"]) - float(current[0]["start"])
+            speaker_changed = record["speaker"] != current[0]["speaker"]
+            gap = float(record["start"]) - float(previous["end"])
+            too_long = current_duration >= 12.0 or len(current) >= 35
+            if speaker_changed or gap > 1.2 or too_long:
+                flush()
+        current.append(record)
+        text = str(record["text"])
+        current_duration = float(record["end"]) - float(current[0]["start"])
+        if len(current) >= 4 and current_duration >= 1.0 and re.search(r"[.!?]$", text):
+            flush()
+    flush()
+    return segments
+
+
+def _assemblyai_word_record(word: dict[str, Any]) -> dict[str, Any] | None:
+    text = clean_text(word.get("text") or word.get("word"))
+    start = _millis_value(word.get("start"))
+    end = _millis_value(word.get("end"))
+    if not text or start is None or end is None or end <= start:
+        return None
+    return {
+        "text": text,
+        "start": float(start),
+        "end": float(end),
+        "speaker": _clean_speaker_label(word.get("speaker") or word.get("speaker_id")) or "UNKNOWN",
+    }
+
+
+def _offset_assemblyai_words(
+    words: list[Any],
+    *,
+    offset_sec: float,
+    speaker_suffix: str,
+    part_index: int,
+) -> list[dict[str, Any]]:
+    output: list[dict[str, Any]] = []
+    for word in words:
+        if not isinstance(word, dict):
+            continue
+        start = _millis_value(word.get("start"))
+        end = _millis_value(word.get("end"))
+        if start is None or end is None:
+            continue
+        raw_speaker = _clean_speaker_label(word.get("speaker") or word.get("speaker_id"))
+        out = dict(word)
+        out["start"] = round_sec(float(start) + offset_sec)
+        out["end"] = round_sec(float(end) + offset_sec)
+        if raw_speaker:
+            out["speaker"] = f"{raw_speaker}{speaker_suffix}" if speaker_suffix else raw_speaker
+            if speaker_suffix:
+                out["raw_speaker"] = raw_speaker
+        out["part"] = part_index
+        output.append(out)
+    return output
+
+
+def _remote_part_record(
+    part: dict[str, Any],
+    raw_path: Path,
+    request_meta: dict[str, Any],
+    *,
+    segment_count: int,
+    utterance_count: int,
+    speaker_count: int,
+) -> dict[str, Any]:
+    record = {
+        "index": int(part["index"]),
+        "offset_sec": round_sec(float(part.get("offset_sec") or 0)),
+        "speaker_suffix": str(part.get("speaker_suffix") or ""),
+        "request_wall_clock_sec": request_meta["wall_clock_sec"],
+        "attempts": request_meta.get("attempts", 1),
+        "poll_count": request_meta.get("poll_count"),
+        "segment_count": segment_count,
+        "utterance_count": utterance_count,
+        "speaker_count": speaker_count,
+        "raw_transcript_output": str(raw_path),
+    }
+    if part.get("source_audio_file"):
+        record["source_audio_file"] = str(part["source_audio_file"])
+    if part.get("temporary_audio"):
+        record["temporary_audio_name"] = Path(part["path"]).name
+    else:
+        record["audio_file"] = str(part["path"])
+    if "split_start_sec" in part:
+        record["split_start_sec"] = round_sec(float(part["split_start_sec"]))
+    if "split_end_sec" in part:
+        record["split_end_sec"] = round_sec(float(part["split_end_sec"]))
+    return {key: value for key, value in record.items() if value is not None}
+
+
+def _seconds_value(value: Any) -> float | None:
+    if value is None or value == "":
+        return None
+    try:
+        return float(value)
+    except (TypeError, ValueError):
+        return None
+
+
+def _millis_value(value: Any) -> float | None:
+    raw = _seconds_value(value)
+    if raw is None:
+        return None
+    return raw / 1000.0
+
+
+def _clean_speaker_label(value: Any) -> str:
+    return re.sub(r"\s+", "_", clean_text(value)).strip("_")
+
+
+def _join_word_tokens(tokens: list[str]) -> str:
+    text = " ".join(clean_text(token) for token in tokens if clean_text(token))
+    text = re.sub(r"\s+([,.!?;:%)\]])", r"\1", text)
+    text = re.sub(r"([(])\s+", r"\1", text)
+    text = re.sub(r"\s+'", "'", text)
+    return clean_text(text)
+
+
+def _response_schema_summary(payload: dict[str, Any]) -> dict[str, Any]:
+    summary: dict[str, Any] = {
+        "top_level_keys": sorted(str(key) for key in payload.keys()),
+    }
+    for key, value in payload.items():
+        if isinstance(value, list):
+            summary[f"{key}_count"] = len(value)
+            first = next((item for item in value if isinstance(item, dict)), None)
+            if first is not None:
+                summary[f"{key}_item_keys"] = sorted(str(item_key) for item_key in first.keys())
+    return summary
+
+
+def _merge_schema_summaries(schemas: list[dict[str, Any]]) -> dict[str, Any]:
+    if not schemas:
+        return {}
+    top_level_keys: set[str] = set()
+    list_counts: dict[str, int] = {}
+    item_keys: dict[str, set[str]] = {}
+    for schema in schemas:
+        top_level_keys.update(str(key) for key in schema.get("top_level_keys", []))
+        for key, value in schema.items():
+            if key.endswith("_count") and isinstance(value, int):
+                list_counts[key] = list_counts.get(key, 0) + value
+            if key.endswith("_item_keys") and isinstance(value, list):
+                item_keys.setdefault(key, set()).update(str(item) for item in value)
+    out: dict[str, Any] = {"top_level_keys": sorted(top_level_keys)}
+    out.update({key: value for key, value in sorted(list_counts.items())})
+    out.update({key: sorted(value) for key, value in sorted(item_keys.items())})
+    return out
+
+
+def _env_float(name: str, default: float) -> float:
+    value = os.environ.get(name)
+    if value is None:
+        return default
+    try:
+        return float(value)
+    except ValueError:
+        return default
+
+
+def _assemblyai_model_from_env(default: str) -> str:
+    value = os.environ.get("ASSEMBLYAI_SPEECH_MODEL")
+    return clean_text(value) or default
+
+
+def _assemblyai_speech_models(model: str) -> list[str]:
+    configured = os.environ.get("ASSEMBLYAI_SPEECH_MODELS")
+    if configured:
+        models = [clean_text(item) for item in configured.split(",")]
+        models = [item for item in models if item]
+        if models:
+            return models
+    cleaned = clean_text(model)
+    if cleaned == "universal":
+        return ["universal-3-pro"]
+    return [cleaned or DEFAULT_ASSEMBLYAI_MODEL]
+
+
+def _vendor_cost_meta(duration_sec: float, *, rate_env: str, default_rate: float) -> dict[str, Any]:
+    load_dotenv()
+    rate = _env_float(rate_env, default_rate)
+    max_cost = _env_float("ASR_VENDOR_MAX_COST_USD", ASR_VENDOR_MAX_COST_USD)
+    estimated = (duration_sec / 3600.0) * rate if duration_sec else 0.0
+    return {
+        "estimated_cost_usd": round(estimated, 4),
+        "audio_hours": round(duration_sec / 3600.0, 4) if duration_sec else 0.0,
+        "usd_per_hour": rate,
+        "rate_env": rate_env,
+        "max_cost_usd": max_cost,
+        "max_cost_env": "ASR_VENDOR_MAX_COST_USD",
+    }
+
+
+def _enforce_vendor_budget(provider: str, cost_meta: dict[str, Any]) -> None:
+    estimated = float(cost_meta.get("estimated_cost_usd") or 0)
+    max_cost = float(cost_meta.get("max_cost_usd") or ASR_VENDOR_MAX_COST_USD)
+    if estimated > max_cost:
+        raise RuntimeError(
+            f"{provider} estimated ASR cost ${estimated:.2f} exceeds configured budget "
+            f"${max_cost:.2f}; aborting before upload"
+        )
 
 
 def _add_numeric_usage(total: dict[str, int | float], usage: dict[str, Any]) -> None:

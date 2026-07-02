@@ -40,6 +40,41 @@ def test_extract_label_mapping_schema_normalizes_public_witnesses() -> None:
     ]
 
 
+def test_extract_label_mapping_unwraps_single_object_list_response() -> None:
+    mappings = _extract_label_mapping_records(
+        [
+            {
+                "labels": [
+                    {
+                        "label": "A",
+                        "name": "Julie Menin",
+                        "role": "Council Member",
+                        "confidence": "high",
+                    }
+                ]
+            }
+        ]
+    )
+    overrides = _extract_label_range_overrides(
+        [
+            {
+                "range_overrides": [
+                    {
+                        "start_index": 2,
+                        "end_index": 3,
+                        "name": "Council Staff",
+                        "confidence": "medium",
+                    }
+                ]
+            }
+        ]
+    )
+
+    assert mappings[0]["label"] == "A"
+    assert mappings[0]["speaker"] == "Julie Menin"
+    assert overrides[0]["speaker"] == "Council Staff"
+
+
 def test_join_label_mappings_preserves_named_utterance_schema_and_overrides() -> None:
     utterances = [
         {"t0": 0.0, "t1": 1.0, "text": "hello", "label": "SPK_00"},

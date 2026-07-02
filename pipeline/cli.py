@@ -340,7 +340,11 @@ def build_parser() -> argparse.ArgumentParser:
     transcribe_cmd.add_argument("--meeting-key", help="transcribe one registry meeting")
     transcribe_cmd.add_argument("--meeting-dir", type=Path, help="transcribe an artifact directory without registry updates")
     transcribe_cmd.add_argument("--limit", type=int, help="limit registry meetings, oldest first")
-    transcribe_cmd.add_argument("--backend", default="voxtral", choices=["local", "local-mlx", "remote", "voxtral"])
+    transcribe_cmd.add_argument(
+        "--backend",
+        default="voxtral",
+        choices=["local", "local-mlx", "remote", "voxtral", "scribe", "assemblyai"],
+    )
     transcribe_cmd.add_argument("--model", help="backend model override")
     transcribe_cmd.set_defaults(func=cmd_transcribe)
 

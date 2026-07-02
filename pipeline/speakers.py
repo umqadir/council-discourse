@@ -555,6 +555,13 @@ def _extract_label_mapping_records(result: dict[str, Any] | list[Any]) -> list[d
             or result.get("mappings")
             or []
         )
+    elif (
+        isinstance(result, list)
+        and len(result) == 1
+        and isinstance(result[0], dict)
+        and any(key in result[0] for key in ("labels", "label_mappings", "speaker_mappings", "mappings"))
+    ):
+        return _extract_label_mapping_records(result[0])
     if not isinstance(raw, list):
         return []
 
@@ -609,6 +616,13 @@ def _extract_label_range_overrides(result: dict[str, Any] | list[Any]) -> list[d
     raw: Any = []
     if isinstance(result, dict):
         raw = result.get("range_overrides") or result.get("overrides") or []
+    elif (
+        isinstance(result, list)
+        and len(result) == 1
+        and isinstance(result[0], dict)
+        and any(key in result[0] for key in ("range_overrides", "overrides"))
+    ):
+        return _extract_label_range_overrides(result[0])
     if not isinstance(raw, list):
         return []
 
