@@ -134,3 +134,11 @@ citymeetings.nyc covered: City Council (primary), NYC Charter Revision Commissio
 8. **Roster** (weekly): refresh `/bodies` + `/officerecords` + `/persons`; seed historical from Socrata.
 
 The single fragile link is step 4's base64 scrape of InSite; everything else is stable structured data. Once token arrives, verify whether NYC populates `EventVideoPath`/`EventMedia` in the API — if so, step 4 collapses into step 2.
+
+## Addendum (2026-07-02, verified with token)
+NYC DOES populate `EventVideoPath` in the API: 75% of April 2025 events, 46% of
+June 2026 events (missing = mostly cancelled/deferred or video not yet linked).
+Values are viebit VOD page URLs (`councilnyc.viebit.com/vod/?s=true&v={FILENAME}.mp4`),
+resolvable to direct MP4/VTT via the VOD page's player hash. So: **Legistar API is
+the primary discovery+join path for backfill; viebit RSS covers same-day recency;
+InSite base64 scraping is unnecessary.**
