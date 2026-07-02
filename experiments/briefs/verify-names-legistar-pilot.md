@@ -26,3 +26,12 @@ Pick from the June 2026 registry: (1) the already-fetched stated meeting NYCC-PV
 - 3 meetings fully processed + site builds with them; costs reported
 - Workflow YAML committed (inert without secrets)
 - Final report: what's done, numbers, judgment calls needed, total new spend.
+
+## Addendum (11:25) — video serving changes, include in this run
+Investigation concluded (see PLAN.md section 7): viebit MP4s are non-faststart
+(video stalls in browser), and viebit HLS is signed+bot-gated (not usable). Decision:
+re-host on Cloudflare R2 later; for now:
+1. Add a `remux` step to the fetch/prepare stage: `ffmpeg -i video.mp4 -c copy -movflags +faststart video-web.mp4` (keep alongside audio artifacts; cheap, no re-encode).
+2. Make the site's chapter-page video URL per-meeting configurable: meeting metadata gets `video_web_url` (prod: R2 public URL, to be filled when creds arrive) with dev fallback `/videos/{meeting-key}.mp4` — and add an npm-run helper that symlinks data/meetings/*/video-web.mp4 into site/public/videos/ for local preview.
+3. Do NOT create any Cloudflare resources or need any new accounts in this run.
+Also: the earlier eval-run cost anomaly ($1.98 for 4 chunks) must not recur — do not re-run Gemini stages that already have artifacts unless the brief requires it.
