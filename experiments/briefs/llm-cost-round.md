@@ -20,10 +20,15 @@ stop when the line is cheap enough. All configs must re-clear existing benchmark
    speakers+chapters+summaries together (one full-transcript read instead of three).
    glm-5.2 only. Both benchmarks. Watch for task interference + output truncation;
    report honestly.
-3. DO NOT build candidate-first chaptering or evidence-ledger machinery, and do
-   NOT test alternative base models (incl. Mistral Large 3 — cut by supervisor:
-   weak prior, and caching likely makes the swap moot). Report whether 1-2 get
-   the LLM line under ~$4/mo; if yes we stop.
+3. CONSIDERED ALT-MODEL SLOT (run after 1-2; cheap): test DeepSeek V4 Pro
+   (deepseek/deepseek-v4-pro — NOT Flash) on naming + chaptering, both benchmarks.
+   Rationale: ~half GLM's OpenRouter price with a strong current reasoning
+   reputation, and the V4 family already demonstrated reliable structured output
+   in our matrix (Flash hit 81.5% — Pro plausibly closes the 6pts). Optionally add
+   qwen-3.6-plus if its OpenRouter price undercuts GLM meaningfully. Mistral Large 3
+   excluded (supervisor call: weak quality prior, payoff mooted by caching).
+4. DO NOT build candidate-first chaptering or evidence-ledger machinery. Report
+   whether 1-3 get the LLM line under ~$4/mo with quality held; if yes we stop.
 
 Budget: $5 across OpenRouter+Mistral+Z.AI. Write results to
 experiments/out/llm-cost-round.md with a decision table incl. $/meeting measured.
