@@ -223,10 +223,12 @@ jobs:
             --low-level-retries 10
 
       - name: Install site dependencies
-        run: pnpm --dir site install --frozen-lockfile
+        working-directory: site
+        run: pnpm install --frozen-lockfile
 
       - name: Build site
-        run: pnpm --dir site build
+        working-directory: site
+        run: pnpm build
 
       - name: Upload site dist
         uses: actions/upload-artifact@v4
