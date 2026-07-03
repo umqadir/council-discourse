@@ -275,4 +275,5 @@ PY
 
       - name: Deploy Cloudflare Pages
         if: ${{ env.CLOUDFLARE_API_TOKEN != '' }}
-        run: pnpm dlx wrangler pages deploy site/dist --project-name council-discourse --config site/wrangler.toml
+        working-directory: site
+        run: pnpm dlx wrangler pages deploy dist --project-name council-discourse
