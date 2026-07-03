@@ -41,8 +41,19 @@ is the domain.
    export in the site build step (which has no registry). Guarded behind
    SKIP_EXPORT + absolute registry path `d53135e`. **Run 28667740163 in flight.**
 
-Pattern: pipeline through **process → R2 sync** is proven green in CI. Only the
-export→build→deploy tail remains unverified end-to-end.
+8. Run 28667740163 went **all-green** (discover, 6 process, export, deploy) — but
+   published nothing: `merged_results=0`. `upload-artifact@v4` flattened each
+   result to bare `<key>.json`; the download extracted to `.` while `merge-results`
+   globbed `data/processed-results/*.json` → zero matches, so the 6 processed
+   meetings' status never merged and the committed registry regressed to all-stubbed.
+   Fix `2094835`: merge-results uses `rglob` (robust to any flattening) + download
+   targets `data/processed-results`. Validation run **28674934125** in flight.
+
+Lesson: a mechanically-green run is not a working run — verify it PUBLISHES new
+content, not just that jobs exit 0.
+
+Pattern: pipeline through **process → R2 sync** is proven green in CI. The
+merge→export→commit→deploy tail is now fixed and under validation.
 
 ### Known: CI-processed meetings not yet persisted
 The export-site job commits the registry only at its END. Every failed run so far
