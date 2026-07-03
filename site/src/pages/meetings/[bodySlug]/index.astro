@@ -1,11 +1,7 @@
 ---
-import AlpineScript from "@components/AlpineScript.astro";
 import BaseLayout from "@layouts/BaseLayout.astro";
-import Breadcrumbs from "@components/Breadcrumbs.astro";
-import MeetingRow from "@components/MeetingRow.astro";
-import { getBodies, getMeetingsForBody } from "@lib/data";
-import { meetingTagLabel } from "@lib/format";
-import type { MeetingTag } from "@lib/types";
+import { getBodies } from "@lib/data";
+import { homeOgPath } from "@lib/og";
 
 export function getStaticPaths() {
   return getBodies().map((body) => ({
@@ -15,73 +11,23 @@ export function getStaticPaths() {
 }
 
 const { body } = Astro.props;
-const meetings = getMeetingsForBody(body.slug);
-const tagCounts = new Map<MeetingTag, number>();
-
-for (const meeting of meetings) {
-  for (const tag of meeting.tags) {
-    tagCounts.set(tag, (tagCounts.get(tag) ?? 0) + 1);
-  }
-}
-
-const tagEntries = [...tagCounts.entries()];
-const selectedTags = Object.fromEntries(tagEntries.map(([tag]) => [tag, true]));
-const filterData = JSON.stringify(selectedTags);
-const description = `Browse ${body.name} meetings with summaries, chaptered transcripts, and direct video timestamps.`;
+const description = `${body.name} meeting summaries, chaptered transcripts, and direct video timestamps now live on the Council Discourse homepage.`;
 ---
 
-<BaseLayout title={`${body.name} Meetings`} description={description}>
-  <AlpineScript />
-  <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: `${body.name} Meetings` }]} />
-
-  <section
-    class="mx-auto grid max-w-6xl gap-8 px-4 py-8 md:grid-cols-[14rem_minmax(0,1fr)] md:px-6"
-    x-data={`{ selected: ${filterData}, visible(tags) { return tags.split(' ').some((tag) => this.selected[tag]); } }`}
-  >
-    <aside class="md:pt-2">
-      <details class="border-y border-line py-3 md:hidden">
-        <summary class="cursor-pointer font-semibold">Filter by tag</summary>
-        <div class="mt-4 space-y-3">
-          {
-            tagEntries.map(([tag, count]) => (
-              <label class="flex items-center justify-between gap-3 text-sm">
-                <span class="flex items-center gap-2">
-                  <input class="h-4 w-4 accent-civic" type="checkbox" x-model={`selected.${tag}`} />
-                  <span>{meetingTagLabel(tag)}</span>
-                </span>
-                <span class="tabular text-muted">{count}</span>
-              </label>
-            ))
-          }
-        </div>
-      </details>
-      <div class="hidden md:block">
-        <h2 class="font-serif text-xl font-semibold">Filters</h2>
-        <div class="mt-4 space-y-3">
-          {
-            tagEntries.map(([tag, count]) => (
-              <label class="flex items-center justify-between gap-3 text-sm">
-                <span class="flex items-center gap-2">
-                  <input class="h-4 w-4 accent-civic" type="checkbox" x-model={`selected.${tag}`} />
-                  <span>{meetingTagLabel(tag)}</span>
-                </span>
-                <span class="tabular text-muted">{count}</span>
-              </label>
-            ))
-          }
-        </div>
-      </div>
-    </aside>
-
-    <div class="min-w-0">
-      <header class="mb-5 border-b border-line pb-4">
-        <p class="text-sm font-semibold uppercase tracking-[0.16em] text-civic">Meetings</p>
-        <h1 class="mt-2 font-serif text-4xl font-semibold leading-tight">{body.name}</h1>
-        <p class="mt-2 max-w-3xl leading-7 text-muted">
-          Reverse-chronological meeting records with summaries, meeting tags, and chaptered video.
-        </p>
-      </header>
-      {meetings.map((meeting) => <MeetingRow meeting={meeting} />)}
-    </div>
+<BaseLayout
+  title="Council Discourse"
+  description={description}
+  image={homeOgPath}
+  canonicalPath="/"
+  redirectTo="/"
+>
+  <section class="mx-auto max-w-reading px-4 py-10 md:px-6">
+    <h1 class="font-serif text-3xl font-semibold">This meeting list has moved.</h1>
+    <p class="mt-3 leading-7 text-muted">
+      The full {body.name} meeting list is now the Council Discourse homepage.
+    </p>
+    <a class="mt-4 inline-flex text-sm font-semibold underline decoration-line hover:decoration-civic" href="/">
+      Go to the meeting list
+    </a>
   </section>
 </BaseLayout>

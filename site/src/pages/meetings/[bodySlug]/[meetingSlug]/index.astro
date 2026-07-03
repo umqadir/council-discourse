@@ -45,7 +45,6 @@ if (!getMeeting(body.slug, meeting.slug)) {
   <Breadcrumbs
     items={[
       { label: "Home", href: "/" },
-      { label: `${body.name} Meetings`, href: `/meetings/${body.slug}/` },
       { label: `${meeting.title} - ${formatDate(meeting.date)}` },
     ]}
   />

@@ -5,12 +5,14 @@ interface Props {
   title: string;
   description: string;
   image?: string;
+  canonicalPath?: string;
+  redirectTo?: string;
 }
 
-const { title, description, image = "/og-placeholder.svg" } = Astro.props;
+const { title, description, image = "/og-placeholder.svg", canonicalPath, redirectTo } = Astro.props;
 const siteName = "Council Discourse";
 const pageTitle = title.includes(siteName) ? title : `${title} | ${siteName}`;
-const canonical = new URL(Astro.url.pathname, Astro.site).toString();
+const canonical = new URL(canonicalPath ?? Astro.url.pathname, Astro.site).toString();
 const ogImage = new URL(image, Astro.site).toString();
 ---
 
@@ -19,6 +21,7 @@ const ogImage = new URL(image, Astro.site).toString();
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    {redirectTo && <meta http-equiv="refresh" content={`0; url=${redirectTo}`} />}
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
@@ -49,7 +52,6 @@ const ogImage = new URL(image, Astro.site).toString();
           <p class="mt-1 text-sm text-muted">NYC Council meetings, chaptered and linked by time.</p>
         </div>
         <nav aria-label="Primary" class="flex flex-wrap gap-x-5 gap-y-2 text-sm font-semibold">
-          <a class="underline decoration-line hover:decoration-civic" href="/meetings/new-york-city-council/">Meetings</a>
           <a class="underline decoration-line hover:decoration-civic" href="/about/">About</a>
           <a class="underline decoration-line hover:decoration-civic" href="/faq/">FAQ</a>
         </nav>
