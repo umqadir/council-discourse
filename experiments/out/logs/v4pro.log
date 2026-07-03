@@ -3,3 +3,7 @@ models=deepseek/deepseek-v4-pro
 RUN naming benchmark=transportation model=deepseek/deepseek-v4-pro
 DONE naming benchmark=transportation model=deepseek/deepseek-v4-pro status=PASS report=data/benchmark/2025-04-23-transportation/matrix/naming-deepseek-deepseek-v4-pro.md cost=$0.050393 openrouter_delta=$0.057852
 RUN chaptering benchmark=transportation model=deepseek/deepseek-v4-pro
+DONE chaptering benchmark=transportation model=deepseek/deepseek-v4-pro status=PASS report=data/benchmark/2025-04-23-transportation/matrix/chaptering-deepseek-deepseek-v4-pro.md cost=$0.065247 openrouter_delta=$0.344539
+RUN naming benchmark=stated model=deepseek/deepseek-v4-pro
+DONE naming benchmark=stated model=deepseek/deepseek-v4-pro status=PASS report=data/benchmark/2025-04-24-stated/matrix/naming-deepseek-deepseek-v4-pro.md cost=$0.032616 openrouter_delta=$0.620286
+RUN chaptering benchmark=stated model=deepseek/deepseek-v4-pro

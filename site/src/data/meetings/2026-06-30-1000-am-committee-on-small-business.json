@@ -1,0 +1,511 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 23.6,
+      "id": "001",
+      "slug": "staff-housekeeping-and-hearing-welcome",
+      "start_sec": 1.9,
+      "summary": "Council staff welcomes attendees to the Committee on Small Business hearing, reminds everyone to silence devices and not approach the dais.",
+      "title": "Staff housekeeping and hearing welcome",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1.9,
+          "text": "This hearing is now called to order."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 7.2,
+          "text": "Good morning, ladies and gentlemen."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 8.6,
+          "text": "Welcome to the New York City Council vote for the Committee on Small Business."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 12.3,
+          "text": "At this time, I'd like to remind everyone to please silence all devices, and at no point may you approach the dais during the hearing."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 18.9,
+          "text": "Chair, we are ready to begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 50.2,
+      "id": "002",
+      "slug": "chair-thomas-henry-calls-hearing-to-order-and-introduces-committee-members",
+      "start_sec": 23.6,
+      "summary": "Chair Shanel Thomas-Henry calls the hearing to order and acknowledges colleagues: Maloney, Salaam, Feliz, Brooks-Powers, Morano, and Hanif and Santosuosso on Zoom.",
+      "title": "Chair Thomas-Henry calls hearing to order and introduces committee members",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 23.6,
+          "text": "This hearing is now called to order."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 25.8,
+          "text": "Good morning, everyone."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 27.7,
+          "text": "I am Councilmember Shanel Thomas-Henry, Chair of the Committee on Small Business."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 33.0,
+          "text": "Thank you to my colleagues, Councilmember Maloney, Councilmember Salam, Councilmember Felice, Councilmember Brooks-Powers, and Councilmember Morano."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 47.1,
+          "text": "And Councilmember Hanif on Zoom."
+        }
+      ]
+    },
+    {
+      "end_sec": 63.5,
+      "id": "003",
+      "slug": "chair-introduces-two-bills-for-vote-int-553a-and-int-910a",
+      "start_sec": 50.2,
+      "summary": "Chair Thomas-Henry announces the committee is voting on proposed Int 553A from Councilmember Feliz and proposed Int 910A from Councilmember Stevens.",
+      "title": "Chair introduces two bills for vote: Int 553A and Int 910A",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 50.2,
+          "text": "Today we are voting on two pieces of legislation, proposed introduction 553A from Councilmember Felice and proposed introduction 910A from Councilmember Stevens."
+        }
+      ]
+    },
+    {
+      "end_sec": 83.7,
+      "id": "004",
+      "slug": "chair-describes-int-553a-small-retail-business-security-system-program",
+      "start_sec": 63.5,
+      "summary": "Chair Thomas-Henry explains that Int 553A would establish a program providing financial assistance to small retail businesses for purchasing and installing security system technology.",
+      "title": "Chair describes Int 553A: small retail business security system program",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 63.5,
+          "text": "Proposed Introduction 553A would establish a small retail business security system program"
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 70.2,
+          "text": "to provide financial assistance to owners of small retail businesses that would reduce the cost of purchasing and installing security system technology."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 80.8,
+          "text": "This city depends on its small businesses."
+        }
+      ]
+    },
+    {
+      "end_sec": 115.2,
+      "id": "005",
+      "slug": "chair-on-small-businesses-as-community-spaces-facing-violence-and-theft",
+      "start_sec": 83.7,
+      "summary": "Chair Thomas-Henry discusses how small businesses serve as unofficial community centers and how violence and theft disrupt not just the business but the surrounding community, framing the need for Int 553A.",
+      "title": "Chair on small businesses as community spaces facing violence and theft",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 83.7,
+          "text": "They serve as unofficial safe spaces or community centers."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 88.1,
+          "text": "They become part of our routines."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 90.1,
+          "text": "They are comfort in our lives."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 92.6,
+          "text": "So when these critical spaces are subjected to violence and theft, that is not only a disruption to the business and its owner, but to the surrounding community."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 104.9,
+          "text": "Councilmember Felice's bill would create an opportunity for businesses to equip their spaces with security features that empower and protect their workplaces."
+        }
+      ]
+    },
+    {
+      "end_sec": 190.5,
+      "id": "006",
+      "slug": "chair-explains-int-910a-repealing-local-law-75-security-grille-visibility-requirements",
+      "start_sec": 115.2,
+      "summary": "Chair Thomas-Henry details how Local Law 75 of 2009 required 70% visibility for security grills, how delayed implementation and lack of agency outreach caught businesses off guard, and how Int 910A would repeal those requirements to avoid unplanned compliance costs.",
+      "title": "Chair explains Int 910A: repealing Local Law 75 security grille visibility requirements",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 115.2,
+          "text": "Proposed Introduction 910A resolves a looming concern for New York City small businesses."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 122.6,
+          "text": "In 2009, the council passed Local Law 75, which required security grills outside certain businesses to have 70% visibility."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 133.0,
+          "text": "Although the intention of the original bill sought to address graffiti concerns, this bill's implementation delay to July 1, 2026, and subsequent lack of outreach by city agencies"
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 146.4,
+          "text": "resulted in businesses across the city being completely surprised by the upcoming deadline."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 153.0,
+          "text": "Businesses have dealt with so much over the past six years, and Local Law 75 would have put numerous businesses out of compliance or forced a business to quickly replace their grill, adding significant unplanned costs."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 167.0,
+          "text": "We've heard these concerns, and therefore Introduction 910A would repeal the requirement originally set out in Local Law 75 of 2009."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 176.7,
+          "text": "That as of July 1st, 2026, all security..."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 180.0,
+          "text": "Pretty grills installed in group B or M buildings permit visibility of at least 70% of the area covered by the grill."
+        }
+      ]
+    },
+    {
+      "end_sec": 206.6,
+      "id": "007",
+      "slug": "chair-thanks-central-staff-and-personal-office-staff",
+      "start_sec": 190.5,
+      "summary": "Chair Thomas-Henry thanks central staff members Tyler Walls, Rebecca Barilla, and Austin Malone, as well as her own staff Franklin Richards, Sierra Smith, and Derek Slaughter.",
+      "title": "Chair thanks central staff and personal office staff",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 190.5,
+          "text": "I want to thank Tyler Walls, Rebecca Barilla, and Austin Malone from Central Staff for their support, as well as my own staff, Franklin Richards, Sierra Smith, and Derek Slaughter, and everyone"
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 203.4,
+          "text": "working in the background to help make this hearing possible."
+        }
+      ]
+    },
+    {
+      "end_sec": 256.7,
+      "id": "008",
+      "slug": "councilmember-feliz-on-importance-of-small-businesses-and-security-threats",
+      "start_sec": 206.6,
+      "summary": "Councilmember Feliz speaks in support of Int 553A, calling small businesses the heart of the economy and emphasizing the need to protect them from public safety threats that harm workers and operations.",
+      "title": "Councilmember Feliz on importance of small businesses and security threats",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 206.6,
+          "text": "At this time, I will now turn it over to Councilmember Felice for some words."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 212.1,
+          "text": "Thank you so much, Chair."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 213.9,
+          "text": "So thankful that we are finally voting for the Small Business Protection Act."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 218.2,
+          "text": "Small businesses are the heart of our economy."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 220.7,
+          "text": "Small business owners work hard to support their family and to support their community."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 225.4,
+          "text": "They create local jobs and they make communities vibrant."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 229.1,
+          "text": "We must protect them from the public safety threats that can hurt their ability to operate."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 233.5,
+          "text": "We must ensure that they have the tools to deter conduct that could harm their workers and their business."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 240.2,
+          "text": "Thankful that we're finally voting for the Small Business Protection Act, which will help ensure the city can provide them with direct assistance, help them cover costs related to security technology, including cameras, plexiglass for bodegas, and more."
+        }
+      ]
+    },
+    {
+      "end_sec": 276.3,
+      "id": "009",
+      "slug": "feliz-on-specific-security-technology-assistance-and-call-for-support",
+      "start_sec": 256.7,
+      "summary": "Councilmember Feliz details how the Small Business Protection Act will help cover costs for cameras, plexiglass for bodegas, and other security technology, and urges colleagues to support the bill.",
+      "title": "Feliz on specific security technology assistance and call for support",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 256.7,
+          "text": "Small businesses work hard, and this will ensure that we're helping protect their hard work."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 261.4,
+          "text": "We're also sending a very clear message that when it comes to the safety issues that they've consistently raised, our city is listening."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 269.2,
+          "text": "Thank you, and I encourage you to do the same."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 270.0,
+          "text": "I'd like everyone to support this bill."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 271.5,
+          "text": "Thank you so much, Chair."
+        }
+      ]
+    },
+    {
+      "end_sec": 286.7,
+      "id": "010",
+      "slug": "chair-calls-for-roll-call-vote-and-notes-santosuosso-joined-on-zoom",
+      "start_sec": 276.3,
+      "summary": "Chair Thomas-Henry calls on the clerk to begin the roll call vote and notes that Councilmember Santosuosso has joined the hearing on Zoom.",
+      "title": "Chair calls for roll call vote and notes Santosuosso joined on Zoom",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 276.3,
+          "text": "Thank you, Councilmember Felice."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 277.7,
+          "text": "I will now call on the clerk to call the roll."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 280.1,
+          "text": "And also, we have been joined by Councilmember Santos Suoso on Zoom."
+        }
+      ]
+    },
+    {
+      "end_sec": 335.7,
+      "id": "011",
+      "slug": "roll-call-vote-on-int-553a-and-int-910a",
+      "start_sec": 286.7,
+      "summary": "Committee Clerk Matthew DiStefano conducts the roll call. Thomas-Henry, Hanif, Salaam, and Maloney vote aye. Santosuosso votes no on 553 and yes on 910. Morano votes aye and congratulates the sponsors.",
+      "title": "Roll call vote on Int 553A and Int 910A",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 286.7,
+          "text": "Matthew DiStefano, Committee Clerk, Committee on Small Business."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 290.6,
+          "text": "All items are coupled."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 292.2,
+          "text": "Chair Thomas Henry."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 294.0,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 295.3,
+          "text": "Brooks Powers."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 300.0,
+          "text": "Hanif."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 301.7,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 303.8,
+          "text": "Salam."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 305.8,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 307.8,
+          "text": "Maloney."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 309.5,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 311.1,
+          "text": "Santos Suoso."
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 314.4,
+          "text": "I vote no on 553 and yes on 910."
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 318.9,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 322.6,
+          "text": "Morano."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 324.4,
+          "text": "I, and congratulations to the sponsors of both bills and chair, thank you for your advocacy and leadership, particularly on the issue of the gates."
+        }
+      ]
+    },
+    {
+      "end_sec": 352.108,
+      "id": "012",
+      "slug": "vote-results-int-910a-adopted-7-0-int-553a-adopted-6-1",
+      "start_sec": 335.7,
+      "summary": "The clerk announces both bills adopted. Int 910A passed 7-0. Int 553A passed 6-1 with Councilmember Santosuosso voting no. No abstentions on either bill.",
+      "title": "Vote results: Int 910A adopted 7-0, Int 553A adopted 6-1",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 335.7,
+          "text": "By a vote of seven in the affirmative, zero in the negative, and no abstentions, the bills have been adopted with the exception of Intro 553A, which was adopted by a vote of six in the affirmative, one negative, no abstentions."
+        }
+      ]
+    },
+    {
+      "end_sec": 367.381,
+      "id": "013",
+      "slug": "meeting-adjourned",
+      "start_sec": 352.108,
+      "summary": "Chair Thomas-Henry briefly starts to adjourn, corrects herself, then officially adjourns the meeting.",
+      "title": "Meeting adjourned",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 352.108,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 353.008,
+          "text": "This meeting is now adjourned."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 354.508,
+          "text": "Oh, no, I'm sorry."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 355.508,
+          "text": "Apologies."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 361.908,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 362.708,
+          "text": "This meeting is now adjourned."
+        }
+      ]
+    }
+  ],
+  "date": "2026-06-30",
+  "duration_sec": 367.381,
+  "slug": "2026-06-30-1000-am-committee-on-small-business",
+  "summary": [
+    "Committee on Small Business votes on Int 553A (financial assistance for small retail business security systems) and Int 910A (repeal of Local Law 75 security grille visibility requirements).",
+    "Int 553A passed 6-1 with Councilmember Santosuosso voting no; Int 910A passed unanimously 7-0.",
+    "Chair Thomas-Henry and Councilmember Feliz emphasized protecting small businesses from security threats and easing regulatory burdens."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "10:00 AM",
+  "title": "Committee on Small Business",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-3_260630-103915/video-web.mp4"
+  }
+}

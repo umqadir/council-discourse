@@ -1,0 +1,425 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 22.2,
+      "id": "001",
+      "slug": "chair-guti-rrez-opens-hearing-and-introduces-intro-580a-on-universal-child-care",
+      "start_sec": 0.1,
+      "summary": "Chair Jennifer Guti\u00e9rrez opens the subcommittee hearing and introduces proposed Intro 580A, her lead-sponsored bill establishing an Office of Child Care and Early Childhood Education to provide universal child care at no cost to families.",
+      "title": "Chair Guti\u00e9rrez opens hearing and introduces Intro 580A on universal child care",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 0.1,
+          "text": "and to Suoso who's joining us online."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 2.8,
+          "text": "Today the subcommittee will consider a bill I'm very proud to be the lead sponsor of, proposed intro 580A."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 8.3,
+          "text": "This bill establishes an office of child care and early childhood education to assist the mayor in the planning and implementation of child care for any child who resides in the city at no cost to a parent, step parent, caregiver, guardian, or relative."
+        }
+      ]
+    },
+    {
+      "end_sec": 40.9,
+      "id": "002",
+      "slug": "guti-rrez-reflects-on-three-year-history-and-advocacy-behind-intro-580a",
+      "start_sec": 22.2,
+      "summary": "Guti\u00e9rrez recounts rallying outside City Hall three years ago with Councilmember Kevin Riley, advocates, educators, and families to introduce the bill, and reflects on what they have learned from one another since.",
+      "title": "Guti\u00e9rrez reflects on three-year history and advocacy behind Intro 580A",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 22.2,
+          "text": "Three years ago I stood outside City Hall with my colleague Kevin Riley, advocates, early childhood educators, and families to rally around the introduction of this bill."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 30.0,
+          "text": "In those three years, we've been able to learn so much from one another."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 33.0,
+          "text": "I'm excited to hold this vote today on a bill so many have fought for and to take this important step in improving New York City's early childhood education system."
+        }
+      ]
+    },
+    {
+      "end_sec": 67.6,
+      "id": "003",
+      "slug": "guti-rrez-outlines-mandates-of-intro-580a-coordination-funding-and-site-identification",
+      "start_sec": 40.9,
+      "summary": "Guti\u00e9rrez details the specific mandates of Intro 580A: coordinating child care provision, developing implementation recommendations, considering costs and funding sources, and supporting agencies in identifying locations for additional programs.",
+      "title": "Guti\u00e9rrez outlines mandates of Intro 580A: coordination, funding, and site identification",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 40.9,
+          "text": "Specifically, this bill requires the Office of Child Care and Early Childhood Education to coordinate the provision of child care in the city, including, among other mandates, developing recommendations for implementation,"
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 52.6,
+          "text": "considering costs and potential sources of funding for the expansion of child care, and supporting agencies in identifying potential locations for additional child care programs."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 61.8,
+          "text": "It outlines a clear pathway and actionable steps to achieving universal child care in New York City."
+        }
+      ]
+    },
+    {
+      "end_sec": 96.9,
+      "id": "004",
+      "slug": "councilmember-riley-on-why-child-care-needs-intentional-planning-and-coordination",
+      "start_sec": 67.6,
+      "summary": "Guti\u00e9rrez yields to co-sponsor Councilmember Kevin Riley, who thanks the chair for her leadership and argues that child care requires intentional planning, strong coordination, and sustained leadership\u2014not treatment as an afterthought.",
+      "title": "Councilmember Riley on why child care needs intentional planning and coordination",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 67.6,
+          "text": "I want to now turn it over to my co-sponsor from the Bronx, Councilmember Kevin Riley, for his remarks."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 73.3,
+          "text": "Thank you, Chair Gutierrez, and good morning, everyone."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 75.9,
+          "text": "I want to thank the chair for her leadership on Intro 580A and for bringing this important legislation before the council."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 83.0,
+          "text": "I'm proud to serve as a co-prime sponsor because this bill reflects something we've known for a long time."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 88.4,
+          "text": "Child care cannot be treated as an act."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 90.0,
+          "text": "afterthought."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 91.0,
+          "text": "It requires intentional planning, strong coordination, and sustained leadership across city government."
+        }
+      ]
+    },
+    {
+      "end_sec": 130.7,
+      "id": "005",
+      "slug": "riley-on-how-intro-580a-creates-office-and-foundation-for-universal-child-care",
+      "start_sec": 96.9,
+      "summary": "Riley explains how Intro 580A creates the Office of Child Care and Early Childhood Education to identify service gaps and coordinate resources, laying the foundation for smarter policymaking and greater accountability toward universal child care.",
+      "title": "Riley on how Intro 580A creates office and foundation for universal child care",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 96.9,
+          "text": "Intro 580A creates the Office of Child Care and Early Childhood Education to help ensure our city's plans strategically, identifying gaps in services, and coordinating resources so families can access the support that they truly need."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 111.4,
+          "text": "This legislation lays the foundation for smarter policymaking and greater accountability as we continue to work towards universal child care."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 119.4,
+          "text": "I'm proud to support this bill and look forward to standing with my colleagues later today as we celebrate this important step for the New York City's children and families."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 127.5,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 129.0,
+          "text": "Thank you, Councilmember Riley."
+        }
+      ]
+    },
+    {
+      "end_sec": 142.7,
+      "id": "006",
+      "slug": "guti-rrez-introduces-intro-15a-on-background-checks-for-child-care-providers",
+      "start_sec": 130.7,
+      "summary": "Guti\u00e9rrez introduces proposed Intro 15A, sponsored by Councilmember Shaun Abreu, regarding requirements and reporting for background checks for child care providers, employees, and volunteers.",
+      "title": "Guti\u00e9rrez introduces Intro 15A on background checks for child care providers",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 130.7,
+          "text": "Additionally, the subcommittee will also consider proposed Intro 15A, sponsored by Councilmember Shaun-Abreu, in relation to requirements and reporting for background checks for child care providers, employees, and volunteers."
+        }
+      ]
+    },
+    {
+      "end_sec": 169.0,
+      "id": "007",
+      "slug": "guti-rrez-details-background-check-provisions-and-exemptions-in-intro-15a",
+      "start_sec": 142.7,
+      "summary": "Guti\u00e9rrez explains the provisions of Intro 15A: prohibiting DOHMH from requiring a subsequent background check if one was already completed, unless the individual has not been employed by a child care provider for more than 180 consecutive days in the past five years, or if a check is required by law or for safety.",
+      "title": "Guti\u00e9rrez details background check provisions and exemptions in Intro 15A",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 142.7,
+          "text": "This bill would prohibit the Department of Health and Mental Hygiene from requiring a subsequent background check of an individual for the purposes of working in a center-based child care program"
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 151.6,
+          "text": "if DOHMH has already completed a background check, unless the individual has not been employed by a child care provider in the city for more than 180 consecutive days in the past five years."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 162.3,
+          "text": "A child care program requests a background check or a background check is otherwise required by law or necessary for the purposes of safety."
+        }
+      ]
+    },
+    {
+      "end_sec": 177.2,
+      "id": "008",
+      "slug": "guti-rrez-urges-support-for-both-bills-and-recognizes-councilmember-julie-won",
+      "start_sec": 169.0,
+      "summary": "Guti\u00e9rrez urges all colleagues to support both pieces of legislation and recognizes Councilmember Julie Won, who is joining the hearing virtually.",
+      "title": "Guti\u00e9rrez urges support for both bills and recognizes Councilmember Julie Won",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 169.0,
+          "text": "With that, I encourage all my colleagues to support both pieces of legislation we're considering today."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 173.2,
+          "text": "And I'd like to recognize Councilmember Julie-Won, who is joining us virtually."
+        }
+      ]
+    },
+    {
+      "end_sec": 201.3,
+      "id": "009",
+      "slug": "guti-rrez-thanks-subcommittee-and-personal-staff-for-work-on-the-bills",
+      "start_sec": 177.2,
+      "summary": "Guti\u00e9rrez thanks the subcommittee staff at MERC\u2014Julia Goldsmith-Pinkham, Katie Selena, Grace Amato, Julene Lawless, and Margaret Barnsley\u2014as well as her own staff Frank Hulka and El Alau, chief of staff Anya Lair, and Anna Bessendorf from the Speaker's Office.",
+      "title": "Guti\u00e9rrez thanks subcommittee and personal staff for work on the bills",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 177.2,
+          "text": "Finally, I would like to thank the subcommittee staff, the folks at MERC."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 180.0,
+          "text": "Made it happen."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 180.9,
+          "text": "Miss Julia Goldsmith-Pinkham, Katie Selena, Grace Amato, and Julene Lawless and Margaret Barnsley, as well as my own killer staff, Frank Hulka, El Alau, for their work."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 190.2,
+          "text": "And I also want to shout out Miss Anya Lair, who is my longtime chief of staff, senior advisor, who helped bring us here, and Miss Anna Bessendorf, who now works for the Speaker's Office, who was also with me when we first wrote this bill."
+        }
+      ]
+    },
+    {
+      "end_sec": 203.5,
+      "id": "010",
+      "slug": "chair-calls-for-vote-clerk-announces-coupled-roll-call-on-both-items",
+      "start_sec": 201.3,
+      "summary": "Chair Guti\u00e9rrez calls for the vote, and Committee Clerk William Martin announces the roll call vote for the Subcommittee on Early Childhood Education, noting both items are coupled for a single vote.",
+      "title": "Chair calls for vote; clerk announces coupled roll call on both items",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 201.3,
+          "text": "Clerk, we're ready to begin the vote."
+        }
+      ]
+    },
+    {
+      "end_sec": 237.14,
+      "id": "011",
+      "slug": "roll-call-vote-on-intro-580a-and-intro-15a",
+      "start_sec": 203.5,
+      "summary": "Committee Clerk William Martin conducts the roll call. Guti\u00e9rrez votes aye, Santosuosso votes aye, Riley votes aye, Joseph votes aye, and Felder votes aye. Brewer's vote is not captured in the transcript audio.",
+      "title": "Roll call vote on Intro 580A and Intro 15A",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 203.5,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 203.9,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 204.3,
+          "text": "William Martin, Committee Clerk, Roll Call Vote Subcommittee on Early Childhood Education."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 208.6,
+          "text": "Both items are coupled."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 210.1,
+          "text": "Chair Gutierrez."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 211.2,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 212.5,
+          "text": "Santos Suoso."
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 218.24,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 219.44,
+          "text": "One."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 222.24,
+          "text": "Thank you, Council Member."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 226.24,
+          "text": "Riley."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 227.24,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 228.64,
+          "text": "Brewer."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 232.34,
+          "text": "Joseph."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 233.24,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 234.74,
+          "text": "Felder."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 235.74,
+          "text": "Aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 248.661,
+      "id": "012",
+      "slug": "both-items-approved-7-0-by-subcommittee",
+      "start_sec": 237.14,
+      "summary": "The clerk announces both items have been approved by the subcommittee with a vote of seven in the affirmative, zero in the negative, and no abstentions. Chair Guti\u00e9rrez thanks colleagues and advocates.",
+      "title": "Both items approved 7-0 by subcommittee",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 237.14,
+          "text": "With a vote of seven and the affirmative zero and the negative no abstentions, both items have been approved by the subcommittee."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 242.84,
+          "text": "Madam Chair, that is a full."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 244.04,
+          "text": "Thank you all so much."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 244.84,
+          "text": "Thanks to the advocates."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 245.64,
+          "text": "See you in a little bit."
+        }
+      ]
+    }
+  ],
+  "date": "2026-06-30",
+  "duration_sec": 248.661,
+  "slug": "2026-06-30-1000-am-subcommittee-on-early-childhood-education",
+  "summary": [
+    "The Subcommittee on Early Childhood Education held a hearing on two bills: Intro 580A establishing an Office of Child Care and Early Childhood Education for universal child care, and Intro 15A on background check requirements for child care providers.",
+    "Chair Jennifer Guti\u00e9rrez and co-sponsor Councilmember Kevin Riley delivered remarks on the three-year advocacy effort behind Intro 580A and its mandates for coordinated child care planning.",
+    "Both bills were approved by a roll call vote of 7-0 with no abstentions."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "10:00 AM",
+  "title": "Subcommittee on Early Childhood Education",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-1_260630-103828/video-web.mp4"
+  }
+}

@@ -1,0 +1,4048 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 33.032,
+      "id": "001",
+      "slug": "hearing-called-to-order-and-housekeeping",
+      "start_sec": 12.2,
+      "summary": "Council staff opens the hearing of the Committee on Sanitation and Solid Waste Management, reminds attendees not to approach the dais and to silence electronic devices, and invites the Chair to begin.",
+      "title": "Hearing called to order and housekeeping",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 12.2,
+          "text": "Good morning and welcome to today's New York City hearing on Committee on Sanitation and Solid Waste Management."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 20.8,
+          "text": "At this time, during today's hearing, no one may approach the dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 25.2,
+          "text": "Please silence any electronic devices that you may have."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 28.4,
+          "text": "Chair, you may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 88.532,
+      "id": "002",
+      "slug": "chair-sanchez-welcomes-committee-and-apologizes-for-delay",
+      "start_sec": 33.032,
+      "summary": "Chair Justin Sanchez opens the hearing, apologizes for the delayed start, thanks attendees for their patience, and acknowledges council members present including Lewis, Zhuang, Carr, Thomas-Henry, and Maloney.",
+      "title": "Chair Sanchez welcomes committee and apologizes for delay",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 33.032,
+          "text": "Good morning and welcome to the Committee on Sanitation and Solid Waste Management."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 38.132,
+          "text": "I am Justin Sanchez, Council Member and Chair of this committee."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 41.532,
+          "text": "Thank you all for joining us today and truly, truly, truly apologize for the delay in this morning's proceedings."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 48.632,
+          "text": "That is not the way that we like to operate on this committee, so really apologize and thank you for everyone for being here on time."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 54.832,
+          "text": "It is truly appreciated."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 56.632,
+          "text": "And also working with us to change the committee to an earlier time because the entire plan was to get everyone out earlier if I hadn't been so late."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 64.932,
+          "text": "So thank you everyone and I'd also like to acknowledge the council members who are with us here today."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 71.432,
+          "text": "Council member Lewis, council member Zhuang, council member Carr."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 76.032,
+          "text": "Minority Leader Carr, and Councilmember Shanel-Thomas-Henry, and I know that Councilmember Virginia-Maloney was also here and will be returning to join us shortly."
+        }
+      ]
+    },
+    {
+      "end_sec": 171.232,
+      "id": "003",
+      "slug": "chair-sanchez-outlines-the-six-bills-on-today-s-agenda",
+      "start_sec": 88.532,
+      "summary": "Sanchez summarizes the purpose of the hearing: six bills including Intro 75 (sidewalk cleanliness enforcement), Intro 353 (commercial waste zone working group), Intro 356 (community composters charging/selling), Intro 367 (commercial waste at city transfer stations), Intro 369 (organic waste composting facilities per borough), and Intro 911A (Staten Island CWZ awardees and implementation delay).",
+      "title": "Chair Sanchez outlines the six bills on today's agenda",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 88.532,
+          "text": "So, the purpose of today's hearing is to hear six bills, five of which are sponsored by Councilmember Sandy Nurse."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 95.032,
+          "text": "Intro number 75 would amend the Department of Sanitation's enforcement routing program to allow for businesses to receive fines for sidewalk cleanliness violations during their hours of operations, or between the hours of 8 a.m."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 106.832,
+          "text": "And 7 p.m."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 107.932,
+          "text": "Intro number 353 would establish a commercial waste zone working group."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 112.232,
+          "text": "Intro number 356 would require DSNY to adopt rules allowing community composters to charge the public for organic waste collection at drop-off sites."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 120.232,
+          "text": "community composters to sell compost generated from drop-off sites to the public."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 124.532,
+          "text": "Intro number 367 would require DSNY to accept and process commercial solid waste at all city-owned or operated marine and rail transfer stations and to publicly report the amount"
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 136.932,
+          "text": "and type of waste received at such stations on an annual basis."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 140.232,
+          "text": "And intro number 369 would require DSNY to establish one or more organic waste composting facilities in each borough."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 148.932,
+          "text": "We will also be hearing intro 911A, sponsored by Councilmember David Carr, which would require DSNY to enter into agreements with six commercial waste haulers for the borough of Staten Island."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 160.832,
+          "text": "And delay implementation of the Staten Island commercial waste zone until February 1st, 2028."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 166.432,
+          "text": "I will now turn it over to Councilmember Carr to provide a statement on his bill."
+        }
+      ]
+    },
+    {
+      "end_sec": 365.332,
+      "id": "004",
+      "slug": "minority-leader-carr-introduces-intro-911a-on-staten-island-cwz",
+      "start_sec": 171.232,
+      "summary": "Council Member David Carr presents Intro 911A, arguing Staten Island had a functioning commercial carting market that did not need the CWZ program. He expresses concern about reduced consumer choice, local businesses being boxed out, and companies inflating value for sale before fulfilling awards. He urges a pause on CWZ implementation and expanding to six carters for Staten Island.",
+      "title": "Minority Leader Carr introduces Intro 911A on Staten Island CWZ",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 171.232,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 172.232,
+          "text": "I appreciate you having this hearing today, and I really want to commend you on your leadership of the committee throughout the course of this year."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 177.532,
+          "text": "I look forward to continuing to work with you in improving our quality of life across all of our boroughs."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 181.932,
+          "text": "And I just want to welcome our friend here today."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 185.632,
+          "text": "I can promise you my cats, if they were here, would not be as well-behaved as he is."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 189.832,
+          "text": "Commissioner, always a pleasure to see you."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 192.132,
+          "text": "I really appreciate your partnership since you returned to the agency and working on a whole host of issues to improve quality of life for Staten Islanders."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 200.332,
+          "text": "And I really want to thank everyone at the Sanitation Department, particularly in the borough operations in Staten Island and Brooklyn, for the phenomenal job they do each and every week."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 211.632,
+          "text": "Introduction 911A is introduced, I think, to resolve a problem that has arisen as a result of the implementation of the commercial waste zones."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 221.332,
+          "text": "In my view, when I was a part of the work of my predecessor, Steve Mattio, he opposed this legislation because he felt that it was a..."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 230.032,
+          "text": "Solution to a problem in some parts of our city, but not one that we were facing in Staten Island and yet created negative externalities for our borough."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 238.232,
+          "text": "We had a perfectly working market situation in Staten Island with respect to commercial carding and"
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 245.732,
+          "text": "there were not the negative consequences that you're seeing in other places where you had multiple carters serving blocks, different businesses had different contracts, and the negative results that attended to that, namely congestion,"
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 260.632,
+          "text": "truck traffic and noise at unfortunate hours, and just repeated visits by different trucks on the same block."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 267.432,
+          "text": "That was never something we experienced on Staten Island, and so this is a solution that is great for other parts of the city and not necessarily one that was needed in Staten Island, but we are now limited as Staten Islanders in who we can choose to contract with."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 283.032,
+          "text": "Generally speaking against those kind of market interferences because I think consumers should have a choice that they should have a choice as to who their Carter is and in particular I'm concerned about the possibility"
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 294.132,
+          "text": "that long-time Staten Island businesses would then be cut out of a market in which they have been ably serving for a number of"
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 300.132,
+          "text": "years."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 301.232,
+          "text": "Additionally, you know, I'm concerned about one of the other consequences of this legislation, which is that before"
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 309.232,
+          "text": "a CWZ could even be implemented or before an award could even become operational, you have companies that are seeking to sell before they even begin the work of their award."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 320.532,
+          "text": "And I think that creates the possibility"
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 323.032,
+          "text": "where an awardee inflates the value of their company in order to be sold and without ever having done any of the work."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 331.132,
+          "text": "And I think that's something that we have to guard against."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 333.032,
+          "text": "We have to protect the department."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 334.132,
+          "text": "We have to protect the taxpayer."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 335.732,
+          "text": "And we have to protect the consumers in each of the zones."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 338.532,
+          "text": "And so that is why I'm putting forward Introduction 911A because I think we need a pause on the implementation of the CWZ."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 345.032,
+          "text": "And I think we also need to make sure that Staten Islanders have as many choices as they can."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 349.832,
+          "text": "And I think the unique circumstances that we have in our borough justify doing things differently there than we would do in the other commercial waste zones."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 357.732,
+          "text": "And so I urge my colleagues to be supportive of this legislation, and I look forward to hearing testimony from the department."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 363.732,
+          "text": "Thank you, Chair."
+        }
+      ]
+    },
+    {
+      "end_sec": 420.732,
+      "id": "005",
+      "slug": "chair-sanchez-recognizes-additional-members-and-administers-oath-to-dsny-witnesses",
+      "start_sec": 365.332,
+      "summary": "Sanchez recognizes Councilmember Vernikov on Zoom and Maloney in person, then turns to committee counsel to administer the oath to Commissioner Gregory Anderson, Assistant Commissioner Frank Marshall, and Director Jen McDonnell.",
+      "title": "Chair Sanchez recognizes additional members and administers oath to DSNY witnesses",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 365.332,
+          "text": "Thank you, Minority Leader Carr."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 367.532,
+          "text": "I look forward to the dialogue today, and I would like to thank everyone on my team for their work on this legislation."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 374.332,
+          "text": "We will start by, oh, I also want to recognize Councilmember Vernikoff, who has joined us via Zoom, and recognize that Councilmember Maloney is now with us in person."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 384.132,
+          "text": "We will start by hearing testimony from DSNY, then we will turn it over to"
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 390.032,
+          "text": "hear testimony from members of the public, and I will now turn it over to our committee counsel to administer the oath."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 398.332,
+          "text": "Good morning, Commissioner Anderson, Assistant Commissioner Marshall, and Director Jen McDonnell."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 406.832,
+          "text": "Do you affirm, may you please raise your right hands?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 409.632,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 410.132,
+          "text": "Do you affirm to tell the truth, the whole truth, and nothing but the truth when testifying and responding to council member questions today?"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 416.432,
+          "text": "I do."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 417.732,
+          "text": "Thank you, you may begin."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 419.832,
+          "text": "Great."
+        }
+      ]
+    },
+    {
+      "end_sec": 595.532,
+      "id": "006",
+      "slug": "commissioner-anderson-opens-with-agency-updates-on-organics-containerization-and-cwz-signup",
+      "start_sec": 420.732,
+      "summary": "Anderson celebrates the Council's passage of Intro 31 (commercial organics expansion) and Intro 92 (ASP stickers), announces Brooklyn Community District 2 containerization signups, the publication of the draft EIS for containerization, and the start of customer signup for Midtown South and Staten Island commercial waste zones.",
+      "title": "Commissioner Anderson opens with agency updates on organics, containerization, and CWZ signup",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 420.732,
+          "text": "Good morning, Chair Sanchez and members of the Committee on Sanitation and Solid Waste Management."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 424.432,
+          "text": "I'm Gregory Anderson, Commissioner of the New York City Department of Sanitation, and I'm joined by Jen McDonald, Deputy Commissioner for Solid Waste Management, and Frank Marshall, Assistant Commissioner for the Bureau of Commercial Waste."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 435.132,
+          "text": "Thank you for the opportunity to testify in front of this committee today."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 439.332,
+          "text": "Before I get into my prepared testimony, I just want to provide a few updates."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 442.232,
+          "text": "There's a lot of exciting things happening in sanitation."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 445.732,
+          "text": "First, happy fiscal new year to everyone."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 449.432,
+          "text": "We were very excited to see yesterday that the City Council passed Intro 31, which would allow sanitation to expand the commercial organics program to all food-related businesses."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 459.832,
+          "text": "And we look forward to implementing that over the course of the next few months ahead of the December 1st deadline in the bill."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 466.632,
+          "text": "And second, we are very excited that the council passed Intro 92, sponsored by our dear friend, Councilmember Gail Brewer, to allow us to use stickers to"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 480.632,
+          "text": "alert the public of violators of alternate side parking."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 484.832,
+          "text": "So we look forward to rolling that out in the coming months as well."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 489.032,
+          "text": "As it is July 1st, we have exciting news around containerization."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 493.732,
+          "text": "First, today is the first day of signups and registration for Brooklyn Community District 2."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 501.132,
+          "text": "So all businesses with 10 or more units in Brooklyn Community District 2 will be able to sign up to receive their Empire bins."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 509.832,
+          "text": "They're mandatory for buildings 31 plus units and they are optional for buildings with 10 to 30 units."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 515.632,
+          "text": "They can choose either the Empire bins or wheelie bins, whichever they prefer."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 520.332,
+          "text": "They just have to let us know which they prefer."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 522.832,
+          "text": "So we will start doing outreach today."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 524.132,
+          "text": "We have teams out on the ground, and I'm heading over there shortly after this hearing to film a quick little video."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 532.332,
+          "text": "Secondly, on containerization, very excited to announce that we have published our draft environmental impact statement for the containerization program."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 542.232,
+          "text": "This is something that the department has worked on tirelessly for the last year plus."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 547.832,
+          "text": "It's the result of an incredible amount of analysis, public engagement, and we really want to thank our team who's worked on this, as well as our partner agencies at DOT, DEP,"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 559.132,
+          "text": "Mayor's Office of Environmental Coordination, and others who have been part of this process."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 564.132,
+          "text": "And we will have a hearing on the final scope of work in the DEIS coming up in July."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 569.632,
+          "text": "And lastly,"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 570.432,
+          "text": "It is July 1st, as I mentioned, which means that starting today, customers in the Midtown South and Staten Island commercial waste zones can sign up with one of their three selected carters."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 581.832,
+          "text": "And that sign-up period continues through August 31st."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 584.932,
+          "text": "So we are also having outreach staff out there today."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 589.032,
+          "text": "It'll be limited for the next couple days because of the heat wave, but starting next week we'll be out there in full force."
+        }
+      ]
+    },
+    {
+      "end_sec": 705.032,
+      "id": "007",
+      "slug": "dsny-testifies-in-support-of-intro-75-on-sidewalk-cleanliness-enforcement",
+      "start_sec": 595.532,
+      "summary": "Anderson expresses strong support for Intro 75, explaining it fixes a historic limitation restricting enforcement to two one-hour windows. He emphasizes the goal is compliance, not revenue, and describes outreach and education efforts with SBS, BIDs, and chambers of commerce.",
+      "title": "DSNY testifies in support of Intro 75 on sidewalk cleanliness enforcement",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 595.532,
+          "text": "So turning to the bills we have in front of us today, first, Intro 75, sponsored by Councilmember Nurse, would allow sanitation to conduct cleanliness enforcement for commercial premises during all posted business hours, or from"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 611.332,
+          "text": "8 a.m."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 611.732,
+          "text": "To 7 p.m."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 612.932,
+          "text": "For businesses that don't have posted hours."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 615.632,
+          "text": "We strongly support this legislation, which we think will improve the cleanliness of our commercial corridors."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 621.232,
+          "text": "This addresses a longstanding issue that currently restricts our enforcement of dirty sidewalks to just two one-hour periods per day."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 632.132,
+          "text": "And for commercial properties, this limitation can prevent us from performing effective enforcement for some of the worst actors, those individual businesses that can mar the appearance of an entire commercial corridor."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 644.332,
+          "text": "This legislation would fix this historic wrong and allow for common sense and consistent enforcement during a business's posted operating hours."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 652.832,
+          "text": "Our goal, to be clear, is never enforcement for enforcement's sake, nor is it for the sake of revenue, for that matter, as well."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 660.032,
+          "text": "Our goal is and always will be to achieve compliance and cleanliness, particularly among repeat offenders."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 666.632,
+          "text": "And we thank the council for their action in the last few years to try to give us more tools in this area."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 673.532,
+          "text": "Our outreach and business engagement staff work closely with our partner agencies like SBS, our business improvement districts, chambers of commerce, and other stakeholders to ensure that education remains our first tool to achieve that compliance"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 687.032,
+          "text": "and to give New York City businesses the information tools they need to comply with longstanding sanitation laws."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 694.232,
+          "text": "All property owners have a responsibility to keep their sidewalks and their properties clean, and DSNY is grateful to Councilmember Nurse and Chair Sanchez for their leadership in advancing this important bill."
+        }
+      ]
+    },
+    {
+      "end_sec": 796.632,
+      "id": "008",
+      "slug": "dsny-on-intro-353-cwz-working-group-and-intro-356-community-composter-fees",
+      "start_sec": 705.032,
+      "summary": "Anderson welcomes the working group concept in Intro 353 and says DSNY plans to advance it regardless. On Intro 356, he says current rules do not prohibit charging for organic waste drop-off or selling compost, and with prior city-funded restrictions no longer in effect, the bill is not necessary at this time.",
+      "title": "DSNY on Intro 353 (CWZ working group) and Intro 356 (community composter fees)",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 705.032,
+          "text": "Intro 353, sponsored by Councilmember Nurse, would require the creation of a commercial waste zones working group."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 710.732,
+          "text": "There's a lot of words here in my testimony on this."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 713.332,
+          "text": "I'll just skip to the end, which is..."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 716.732,
+          "text": "We certainly welcome the opportunity to conduct additional engagement through a formalized working group and plan to advance the formalized working group whether or not this bill moves."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 727.132,
+          "text": "So we'll look forward to working with the council to get that done."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 731.432,
+          "text": "For Intro 356, again sponsored by Councilmember Nurse, would require sanitation to adopt rules to permit"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 738.632,
+          "text": "community partners to charge for the collection of organic waste at drop-off site and to sell compost to the public."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 745.232,
+          "text": "DSNY rules currently do not prohibit this practice."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 749.032,
+          "text": "Previous sanitation"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 750.132,
+          "text": "contracts with certain community partners did prohibit programs funded by the city from charging for these services, but because those programs are no longer baseline funded in the administration's budget, these restrictions no longer apply."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 765.332,
+          "text": "So I think"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 766.632,
+          "text": "You know, the takeaway here is we look forward to working with the council to understand the intent of this legislation, but we don't think it's necessary at this time."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 776.332,
+          "text": "And given that the council has provided significant funding on the order of $5.25 million in the Schedule C posted yesterday, we do think that"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 786.732,
+          "text": "publicly funded programs do need to balance access equity with the financial sustainability of the organizations that are funded by the council."
+        }
+      ]
+    },
+    {
+      "end_sec": 839.032,
+      "id": "009",
+      "slug": "dsny-opposes-intro-367-on-commercial-waste-at-city-transfer-stations",
+      "start_sec": 796.632,
+      "summary": "Anderson states DSNY opposes Intro 367 as written but has committed conceptually to accepting commercial waste at marine and rail transfer stations in both the 2006 and 2026 solid waste management plans. He says the department plans to begin this process after full CWZ implementation by end of 2027.",
+      "title": "DSNY opposes Intro 367 on commercial waste at city transfer stations",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 796.632,
+          "text": "Intro 367, sponsored by Councilmember Nurse, would require sanitation to accept commercial waste at our city's transfer stations."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 804.932,
+          "text": "And while we oppose the bill as it is written, we have said previously and committed conceptually to the acceptance of commercial waste at our transfer stations in both the 2006 final and 2026 draft solid waste management plans."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 817.932,
+          "text": "And the permits for these facilities do allow them to accept commercial waste today."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 822.532,
+          "text": "As we said at the swamp hearing in the beginning of April, we plan to begin this process after we finish the complete citywide implementation of commercial waste zones by the end of 2027."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 833.732,
+          "text": "And we look forward to continuing these conversations as we approach that date next year."
+        }
+      ]
+    },
+    {
+      "end_sec": 878.632,
+      "id": "010",
+      "slug": "dsny-opposes-intro-369-on-per-borough-composting-facilities",
+      "start_sec": 839.032,
+      "summary": "Anderson opposes Intro 369's requirement for composting facilities in each borough with 180,000 wet ton capacity, citing regulatory, operational, and fiscal realities that make implementation impossible. He notes openness to conversations about expanding composting capacity.",
+      "title": "DSNY opposes Intro 369 on per-borough composting facilities",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 839.032,
+          "text": "Next, Intro 360."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 840.032,
+          "text": "9 would require sanitation to establish one or more organic waste composting facilities in each borough with the capacity to process at least 100,000 wet ton 180,000 wet tons of organic waste annually"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 851.232,
+          "text": "and while we appreciate the council's interest in expanding processing capacity citywide we do oppose the bill's requirement for compost facilities in each borough with this capacity"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 861.932,
+          "text": "given the simple regulatory operational and fiscal realities that make that would make implementation impossible"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 868.432,
+          "text": "So we are happy to have further conversations with council about our efforts to expand composting capacity, but we don't think this bill would be implementable."
+        }
+      ]
+    },
+    {
+      "end_sec": 935.632,
+      "id": "011",
+      "slug": "dsny-opposes-intro-911a-on-staten-island-cwz-expansion-and-delay",
+      "start_sec": 878.632,
+      "summary": "Anderson opposes Intro 911A, saying it would undermine the CWZ program's core benefits of decreased truck traffic, improved safety, and consumer protections. He notes the Staten Island zone implementation started that morning and opposes disrupting the system mid-implementation.",
+      "title": "DSNY opposes Intro 911A on Staten Island CWZ expansion and delay",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 878.632,
+          "text": "And lastly, Intro 911A, sponsored by Councilmember Carr, would increase the number of carters in the Staten Island commercial waste zone from no more than three to a total of six and delay the implementation of such zone."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 891.832,
+          "text": "Sanitation opposes this bill as it would undermine the commercial waste zone program."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 896.432,
+          "text": "Its core benefits of decreased truck traffic, improved safety, and strengthened consumer protections."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 902.032,
+          "text": "And we cannot support the disruption to this system in the midst of implementation, particularly, as I mentioned previously, with the Staten Island Zone implementation starting this morning."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 913.032,
+          "text": "Nor do we support depriving Staten Island residences and businesses from the clear benefits this program provides, which we've seen in the six zones that are already implemented."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 922.432,
+          "text": "So thank you for the opportunity to testify today, and I am now happy to answer your questions."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 928.332,
+          "text": "I will turn it over first to..."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 931.332,
+          "text": "Minority leader Carr to ask about intro 911."
+        }
+      ]
+    },
+    {
+      "end_sec": 1099.332,
+      "id": "012",
+      "slug": "carr-questions-anderson-on-benefits-of-cwz-for-staten-island",
+      "start_sec": 935.632,
+      "summary": "Carr presses Anderson on whether expanding to six carters would undermine CWZ benefits, arguing new awardees would still meet program standards. Anderson counters that CWZ brings safety, recycling compliance, and service quality benefits, and that making exceptions creates a slippery slope.",
+      "title": "Carr questions Anderson on benefits of CWZ for Staten Island",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 935.632,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 935.932,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 936.932,
+          "text": "And Commissioner, you mentioned containerization earlier."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 939.632,
+          "text": "I just want to thank you again for extending both the funding and the grace period for individual compliance and righting a wrong of the previous administration and making sure folks have time to actually get the bins."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 951.332,
+          "text": "So thank you again for that."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 952.432,
+          "text": "I know you worked closely with the Chair and Councilmember Morano on getting that done."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 957.232,
+          "text": "With respect to Intro 911A, I think one of the things that I've been concerned about is that there's no real attendant benefit for Staten Island because it's, again, as I said in my statement, you're not resolving a problem that we had."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 970.432,
+          "text": "It was a problem that existed in other boroughs."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 972.832,
+          "text": "And more importantly, I dispute the notion that whatever benefits that do come with the program are being disrupted by..."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 979.632,
+          "text": "This legislation because I'm not actually seeking to change the standards by which additional awardees would be selected."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 986.632,
+          "text": "So could you kind of describe what your concerns are from your perspective with what we're proposing here today?"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 993.832,
+          "text": "Yeah, so I would dispute the notion that there's no benefit to Staten Island from commercial waste zones."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1000.032,
+          "text": "I think the benefits are"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1001.932,
+          "text": "many."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1003.032,
+          "text": "And while the truck traffic concern may not have been as great on Staten Island as it was in other places, I think that there are very real concerns around safety for both workers and the public."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1016.832,
+          "text": "There are very real concerns around the lack of compliance with commercial"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1020.032,
+          "text": "commercial recycling requirements and commercial organics requirements."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1025.732,
+          "text": "And I think very, very serious concerns around the kind of services that haulers that had been operating on Staten Island and across the five boroughs."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1037.832,
+          "text": "In the prior system."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1038.732,
+          "text": "And so commercial waste zones brings a number of benefits, not just reducing the total truck traffic, but that is certainly a significant one."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1047.732,
+          "text": "And the program parameters writ large, I think, bring a number of benefits to Staten Islanders."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1054.732,
+          "text": "But if there were new awardees,"
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1057.032,
+          "text": "they would have to comply with the requirements of the program."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1060.332,
+          "text": "If they were an existing hauler already operating, they would now have to comply with the standards that need to be met for any commercial waste zone awardee."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1068.232,
+          "text": "So I'm struggling to understand how bringing additional folks into the system for consumers to choose would..."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1078.932,
+          "text": "Would denude a lot of the additional requirements that they would have to meet."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1082.432,
+          "text": "They would have to meet the same standards as any other awardee."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1085.432,
+          "text": "So I don't think that there's really a diminishment in the benefits of the CWZ."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1089.932,
+          "text": "If anything, you're just bringing more folks into compliance who may not have been before, and yet they continue to operate."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1095.332,
+          "text": "Consumers continue to have more choices."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1098.232,
+          "text": "I think that there's..."
+        }
+      ]
+    },
+    {
+      "end_sec": 1208.832,
+      "id": "013",
+      "slug": "carr-and-anderson-debate-consumer-choice-and-staten-island-s-unique-circumstances",
+      "start_sec": 1099.332,
+      "summary": "Carr argues 21% of Staten Island businesses must find a new carter unnecessarily, and that the bill preserves consumer choice without diminishing CWZ standards. Anderson responds that 79% already use one of the three selected carters, the program was debated for years, and exceptions would invite 'what about me' demands from others.",
+      "title": "Carr and Anderson debate consumer choice and Staten Island's unique circumstances",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1099.332,
+          "text": "I think there's no trade-off here between the goals of the authors of the CWZ program and what I'm trying to do here."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1107.232,
+          "text": "Yeah, I think the challenge is that"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1110.432,
+          "text": "We have been working to implement this for seven years now, and this bill is getting a hearing on the day that the Staten Island Zone is being implemented."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1119.332,
+          "text": "A full two years plus after these contracts were awarded, a full six years after the RFP was released."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1129.932,
+          "text": "And I think, just to be frank, it is a slippery slope once you start to make exceptions for certain parts of the city or certain carters in a program like this."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1144.632,
+          "text": "I think our concern would be that others would stand up and say, well, what about me?"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1149.332,
+          "text": "What about me?"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1150.532,
+          "text": "And the commercial waste zone system was designed very, very,"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1156.332,
+          "text": "deliberately and carefully by the council and the sanitation department over the course of many, many years in order to build a system that works, that operate, that gives businesses choice."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1169.132,
+          "text": "There are many places across the country, particularly in the South, in Florida, in Texas, in Los Angeles, where businesses only get one choice."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1178.132,
+          "text": "For their hauler."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1179.032,
+          "text": "We specifically said that's not acceptable."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1181.632,
+          "text": "We want to give businesses choice, and today businesses on Staten Island can choose any of those three carters that they want to provide their waste collection services."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1190.632,
+          "text": "And 79% of businesses on Staten Island already use one of those three carters."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1195.732,
+          "text": "So it's really only 21% of businesses on Staten Island that have to pick a new carter."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1200.132,
+          "text": "We're confident that the three carters that are out there today are able to provide very high quality, very low cost services for Staten Island businesses."
+        }
+      ]
+    },
+    {
+      "end_sec": 1326.432,
+      "id": "014",
+      "slug": "carr-presses-on-timing-and-pause-for-staten-island-cwz",
+      "start_sec": 1208.832,
+      "summary": "Carr contends there is still time to pause and minimize unintended consequences for Staten Island, arguing the borough is unique. Anderson responds that the bill being heard on implementation day, after seven years of work and investment by carters, indicates it is too late for that conversation.",
+      "title": "Carr presses on timing and pause for Staten Island CWZ",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1208.832,
+          "text": "Well, a fifth is a pretty substantial number of folks."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1211.732,
+          "text": "I admit it's not a majority, but I think that's a large number of folks who are now looking for a new carter when they didn't feel the need to choose one."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1218.132,
+          "text": "Right."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1218.332,
+          "text": "And I think that, you know, it's about whether or not I or the department or anyone in government wants to substitute our judgment for who the best carding service for a customer is."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1227.532,
+          "text": "Right."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1227.732,
+          "text": "And I think that the."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1229.632,
+          "text": "The concerns that I have is that it's going to end up harming businesses."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1237.032,
+          "text": "And I think that I understand their price controls, but I think ultimately at the end of the day that we're taking away these choices from consumers and we're boxing out local businesses that have been serving these communities for some time."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1250.132,
+          "text": "And I think that that's why we're at this point, because we're on the precipice of implementation, as you say, but there's still two months, as you say, for folks to choose one of the new three carters."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1260.532,
+          "text": "So I don't think that there's no time to turn things around and kind of take a pause and have a conversation."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1266.332,
+          "text": "About how we can minimize the negative consequences, unintended, I think, for a borough that I think you would admit is unique among the other four."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1273.632,
+          "text": "And I think that there's reasons for us to treat our borough differently."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1278.432,
+          "text": "And I think that's one of the things we've been pushing for as a united delegation is to say Staten Island's different, each borough is different, and there's a way for us to justify rationally a different treatment for different places."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1290.132,
+          "text": "avoids the what about me problem that you're describing."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1294.132,
+          "text": "I just think, you know, the fact that this bill is being heard on the day that implementation is starting, I think indicates that it's, you know, we have already invested a tremendous amount of effort and thought."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1304.932,
+          "text": "The Carters have invested a tremendous amount of their time and money into preparing for these, for this program."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1311.132,
+          "text": "And, you know, I think"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1313.332,
+          "text": "if that were something that Staten Islanders strongly felt two years ago, five years ago, seven years ago when this bill was passed by the city council, that would have been the appropriate time for that conversation."
+        }
+      ]
+    },
+    {
+      "end_sec": 1500.932,
+      "id": "015",
+      "slug": "chair-sanchez-questions-anderson-on-carter-buyout-and-contract-transfer-process",
+      "start_sec": 1326.432,
+      "summary": "Sanchez asks about the process by which a third Staten Island awardee was bought out and whether it sets a precedent that buying a carter automatically yields a city contract. Anderson explains the due diligence process, noting pricing and contractual requirements remain unchanged after acquisitions.",
+      "title": "Chair Sanchez questions Anderson on carter buyout and contract transfer process",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 1326.432,
+          "text": "One of the, thank you member, minority leader Carr for your questions."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 1331.832,
+          "text": "One of the concerns that I have, separated and aside from the Staten Island issue is, I know that Staten Island had a Carter that was changed to, was bought out by another Carter."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 1347.132,
+          "text": "And can you explain the process of how they automatically were,"
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 1352.632,
+          "text": "Yes, they did buy out that third carter that had been the awardee."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 1357.632,
+          "text": "But for the future, one of the concerns that I have is, does that set a precedent that if you buy out any of the other carters, you automatically have a contract with the city?"
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 1366.132,
+          "text": "Could you just explain a little bit more on how that process came to be and for the future, what that process will look like for other times?"
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 1375.232,
+          "text": "I know we were in a bit of a..."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 1377.232,
+          "text": "Situation as we were trying to get the CW"
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 1380.032,
+          "text": "UZ online for today, but just understanding what that process can look like for the future and if there are any adjustments or amendments that can be made so that it doesn't look like all you have to do is buy somebody out and then you get a city contract."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1393.332,
+          "text": "Yeah, so we've actually seen a large amount of merger and acquisition activity in the commercial waste industry since"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1403.232,
+          "text": "since Local Law 199 passed in 2019, and then also since the awards were done in 2024."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1413.532,
+          "text": "For example, the first zone that was implemented, the Queen Central Zone, one of the awardees was purchased by another company,"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1421.832,
+          "text": "Royal was purchased by Waste Connections."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1424.232,
+          "text": "That award was then transferred to the other awardee."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1427.732,
+          "text": "There's a due diligence and review process that Frank and his staff conduct to ensure that the purchasing company has the financial wherewithal to provide the service that we require,"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1443.132,
+          "text": "that they're able to meet all of the standards and contractual requirements."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1448.032,
+          "text": "And most importantly, the pricing does not change."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1451.232,
+          "text": "So if one company merges with another or acquires another, the pricing that was in that initial RFP stands as the pricing that they're required to honor."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1461.732,
+          "text": "And so, you know, it's not simply you're buying the award, but you are, you know, purchasing the company and agreeing to..."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1470.032,
+          "text": "meet all of the same requirements that that predecessor company had committed to."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1474.832,
+          "text": "And that's common across New York City contracts."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1477.532,
+          "text": "We have situations where, and this has happened, for example, with our recycling vendor."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1482.532,
+          "text": "It's gone through, in the time that I've worked at sanitation for the last 12 years or so, has gone through three different names, three different corporate ownership structures."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1491.432,
+          "text": "That kind of thing happens in the corporate world, and that kind of thing happens in the entities that we as the city do business with quite regularly."
+        }
+      ]
+    },
+    {
+      "end_sec": 1687.032,
+      "id": "016",
+      "slug": "sanchez-asks-about-reopening-rfp-when-a-carter-cannot-fulfill-an-award",
+      "start_sec": 1500.932,
+      "summary": "Sanchez presses whether DSNY would be open to amending the process so that if a carter cannot fulfill its promises, the RFP is reopened for bidding. Anderson explains that where open slots exist, DSNY does issue new RFPs, and describes the Staten Island situation where the subcontractor became the prime after acquisition.",
+      "title": "Sanchez asks about reopening RFP when a carter cannot fulfill an award",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 1500.932,
+          "text": "Is there a world or would it complicate more things?"
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 1504.432,
+          "text": "I think one of the frustrations that the Staten Island businesses are feeling is for that third RFP, folks are feeling like, well, once that company is gone, why didn't we get a chance to then all bid for it again?"
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 1518.432,
+          "text": "Because there are six different carters that already exist on Staten Island."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 1522.032,
+          "text": "Why couldn't I throw my hat in the ring to try and get that now that this person is not doing it?"
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 1527.532,
+          "text": "Would you be open to amending the process of the..."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 1533.932,
+          "text": "If a Carter cannot fulfill its promises that we open up the RFP process committed directly to the agreed upon contract already, just folks get to bid if they want that contract or would that add a crazy"
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 1549.632,
+          "text": "level layer to the process?"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1551.232,
+          "text": "Yeah, I don't know that we would necessarily be able to"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1555.732,
+          "text": "to implement rules like that."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1557.532,
+          "text": "I think that the kinds of merger and acquisition"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1560.032,
+          "text": "activity that we've seen in the industry are actually a net positive for the industry because we are seeing that well-capitalized companies that are able to invest in new technology, able to invest in cleaner trucks, able to invest in"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1573.332,
+          "text": "really advanced worker safety training, are making investments by purchasing other companies."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1578.632,
+          "text": "And I think that's exactly the kind of thing that we want to see in the industry for it to"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1583.032,
+          "text": "grow and develop and become more sophisticated compared to the industry of the old days, particularly when we started to study the industry."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1593.432,
+          "text": "There are places where if two companies that are already given awards in a zone merge together and there's no other eligible carters that responded to the RFP,"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1605.632,
+          "text": "where there may be an open slot, and in that case, we will bid out that open slot."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1609.932,
+          "text": "We are doing that right now in two zones, and I think RFP responses came back a few weeks ago."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1616.532,
+          "text": "We're in the process of evaluating those, and we'll have new awards in the future."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1620.832,
+          "text": "Local Law 199 gives the department pretty broad discretion on how to"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1626.432,
+          "text": "how to decide when and where to fill zones."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1629.832,
+          "text": "We can either assign the zone contract to an existing carter, we can do a new RFP, we can go back to the list of carters that previously had bid on the zone."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1640.332,
+          "text": "And I think if you look at the original RFP for the Staten Island zone, we had five carters bid on that zone."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1647.232,
+          "text": "One of the five carters, who's"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1650.232,
+          "text": "in the back row of this room, already had 15 zones, so they weren't eligible under the language of the law."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1657.332,
+          "text": "The other four carters, one of them was priority, the other one was century, century bought priority, so they would have been the next in line to get the zone anyway."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1664.532,
+          "text": "So I think any way you wanna sort of"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1667.632,
+          "text": "slice it, you know, I think we followed the appropriate procedure here and we are confident that Staten Island businesses will get the service they deserve."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 1675.832,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 1677.132,
+          "text": "I'd like to recognize that we've also been joined by Councilmember Ong and I would like to turn it over to Councilmember Maloney for questions."
+        }
+      ]
+    },
+    {
+      "end_sec": 1829.6,
+      "id": "017",
+      "slug": "maloney-questions-anderson-on-intro-369-composting-capacity-and-demand-data",
+      "start_sec": 1687.032,
+      "summary": "Council Member Maloney asks whether DSNY has data on demand for composting facilities in each borough. Anderson explains the size requirement is impractical, noting the Staten Island facility processes 40,000 wet tons and the bill requires nearly five times that in each borough, which is not feasible in Manhattan or most boroughs.",
+      "title": "Maloney questions Anderson on Intro 369 composting capacity and demand data",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 1687.032,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 1688.332,
+          "text": "And thank you for your testimony."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 1690.832,
+          "text": "I am glad to see Intro 75 and your support."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 1694.932,
+          "text": "I think enforcement of sanitation from business hours is a sensible solution."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 1701.832,
+          "text": "And I wanted to ask about Intro 369, where your testimony indicates that there are"
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 1710.732,
+          "text": "concerns around expanding capacity citywide."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 1714.332,
+          "text": "And I wanted to know if you have data on the demand in each borough and a study or inquiry into"
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 1726.832,
+          "text": "the demand and whether or not these"
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 1730.532,
+          "text": "organic waste composting facilities are needed in each borough."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1734.832,
+          "text": "Yeah, so I think in general we support the councils"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1740.032,
+          "text": "Intent to expand composting capacity in New York City and in the surrounding metropolitan area."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1745.832,
+          "text": "I think, you know, composting is a very land intensive activity and Councilmember Carr has been out to our Staten Island compost facility with Jen and I"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1759.832,
+          "text": "and you know that facility processes 40,000 wet tons per year."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1765.132,
+          "text": "We're talking about a facility that's almost five times that size in each borough."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1771.132,
+          "text": "You know, that's a big facility."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1772.532,
+          "text": "You couldn't find that space in Manhattan or really realistically in most of the other boroughs."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1779.632,
+          "text": "So our opposition to the bill is specifically around the size requirement, the fact that we would have to site one in each borough."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1787.632,
+          "text": "So I think we're open to conversations with the council around where should we go directionally with composting."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1794.132,
+          "text": "I think we are very excited to, now that the administration has transferred some of the"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1800.3,
+          "text": "Rikers properties to DCAS."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1802.2,
+          "text": "We're very excited to work with DCAS to see if we can actually construct a sizable composting facility there."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1809.7,
+          "text": "So I think there's a lot of potential in this space, but the approach of this bill, I think, just was not the right direction."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 1816.9,
+          "text": "Thank you for clarifying your position."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 1818.7,
+          "text": "And then yield back to the chair."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 1820.4,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 1822.8,
+          "text": "Councilmember Ung, do you have any questions?"
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 1826.8,
+          "text": "Great."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 1827.5,
+          "text": "Second round to Councilmember Carr."
+        }
+      ]
+    },
+    {
+      "end_sec": 2078.904,
+      "id": "018",
+      "slug": "carr-s-second-round-on-rfp-process-for-carter-acquisitions",
+      "start_sec": 1829.6,
+      "summary": "Carr argues the law does not leave DSNY with sufficient options, expressing concern that the current structure incentivizes buyouts to game the system. He asks whether DSNY retains discretion to require a new RFP even after BIC approves an acquisition. Anderson confirms DSNY retains discretion but must have a rational basis.",
+      "title": "Carr's second round on RFP process for carter acquisitions",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1829.6,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1830.9,
+          "text": "Commissioner, thank you for explaining the approach to the substitution with respect to the third awardee in the Staten Island zone."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1840.6,
+          "text": "I think one of my concerns is not that the department did anything inconsistent with the law."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1845.3,
+          "text": "My problem is..."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1846.9,
+          "text": "The way the law is structured, right?"
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1848.5,
+          "text": "And I think that the, what you described, right, I think kind of still leaves me with concerns because I think a new RFP"
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1859.4,
+          "text": "would have been the most appropriate thing because once you've done an RFP and now it actually incentivizes those who may think they're in the queue"
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1868.8,
+          "text": "to be substituted in for a Carter if they're able to do a buyout, the structure of the law is now creating conversations that wouldn't have happened otherwise."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1878.7,
+          "text": "And I think that when you have an acquisition that comes in the middle of an award period, I think that's a very different thing to assess than"
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1887.4,
+          "text": "what we were looking at where this conversation"
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1890.0,
+          "text": "Station was happening in advance of the award coming into effect."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1894.3,
+          "text": "And so I still think that there should be a protocol that requires the department in advance of the implementation of the zone or moving forward in advance of a new award whenever that day comes"
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1908.7,
+          "text": "for there to be a new RFP if there's going to be a potential sale or an awardee isn't going to be activating their award and serving."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1918.2,
+          "text": "I think, and that gives an opportunity for the department to refresh the list of people who are potentially available or companies that are potentially available to execute that award if they get selected."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1935.492,
+          "text": "I appreciate the point you're making, but I think we followed the letter of Local Law 199 in this process and just, I think, fundamentally disagree with that kind of approach."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1949.892,
+          "text": "I think acquisition happens in these kinds of industries."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1955.292,
+          "text": "I think it's not something for us to necessarily shy away from."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1958.092,
+          "text": "So you said the local law gives the agency broad discretion."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1960.792,
+          "text": "Do you believe it gives you the discretion to choose to do a new RFP in these circumstances if you wanted?"
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1966.692,
+          "text": "Or if you deemed it appropriate?"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1968.992,
+          "text": "Where we've had open awards, we've done new RFPs in other areas."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1975.192,
+          "text": "Yes."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1975.892,
+          "text": "So in the case of a potential acquisition, you could do another RFP without any amendment to the local law?"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1981.692,
+          "text": "Particularly if we denied the contract assignment or if the selected awardee were to pull out of the zone for some reason."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1991.592,
+          "text": "The situation here was one Carter was..."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 1994.992,
+          "text": "Was prepared to start offering the service with the other Carter as a designated Carter, which is also allowed for under the law."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 2002.492,
+          "text": "And the acquisition simply inverted those two parties and the Carter that was going to be the subcontractor became the prime."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 2011.292,
+          "text": "So it's,"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 2012.992,
+          "text": "From our perspective, it was not a tremendous change."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 2015.492,
+          "text": "But if BIC approves the purchase, do you still retain discretion?"
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 2019.692,
+          "text": "No, I know they did, but do you still retain discretion as a department?"
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 2022.592,
+          "text": "Department not to allow the award to transfer."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 2025.892,
+          "text": "Or is it your view that once BIC approves the acquisition?"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 2029.292,
+          "text": "We retain discretion for sure, but the discretion is subject to some parameters around having a rational basis for whatever direction we go."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 2043.192,
+          "text": "Yeah, I think the way the law is structured, it's not leaving you with sufficient options because I think that this is just creating some bad incentives"
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 2052.192,
+          "text": "on the industry side for folks who made a bid, they didn't get in, and they see an opportunity to get in because they know that they can game it out, that they're likely, much like in the situation you described,"
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 2064.392,
+          "text": "one of the carters wasn't eligible because they'd already gotten enough zones under the law, and they see an opportunity to move up, and I think we have to seek to address that moving forward."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 2073.692,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2077.604,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 2248.268,
+      "id": "019",
+      "slug": "sanchez-questions-anderson-on-organic-waste-travel-distance-and-transfer-process",
+      "start_sec": 2078.904,
+      "summary": "Sanchez asks about the distance organic waste travels before anaerobic digestion and the transfer steps involved. Deputy Commissioner Jen McDonald describes the network of eight contracts and transfer stations, explaining how food and yard waste are separated and sent to compost facilities or digesters.",
+      "title": "Sanchez questions Anderson on organic waste travel distance and transfer process",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2078.904,
+          "text": "So I want to talk briefly about Enter 369."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2082.904,
+          "text": "On average, what is the distance that organic waste must travel from New York City residents before it is anaerobically digested?"
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2091.104,
+          "text": "And can you describe each of the waste transfers involved in this travel?"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 2097.004,
+          "text": "Sure, I'll start off and then hand it over to Deputy Commissioner McDonald to talk about all of the specific facilities that we use."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 2105.204,
+          "text": "But in general, waste doesn't actually travel that far to be either composted or"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 2114.204,
+          "text": "process through anaerobic digestion."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 2116.004,
+          "text": "We have a number of facilities in New York City that receive that material."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 2118.804,
+          "text": "We have facilities in New Jersey that receive that material."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 2121.904,
+          "text": "And then they're transferring it on to generally either the Newtown Creek wastewater treatment plant or a wastewater treatment plant that co-digests the material in New Jersey."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 2133.504,
+          "text": "So Jen can speak to the specifics of that."
+        },
+        {
+          "speaker": "Jen McDonald",
+          "t_sec": 2138.568,
+          "text": "Yes, thank you, Commissioner and Chair Sanchez."
+        },
+        {
+          "speaker": "Jen McDonald",
+          "t_sec": 2141.568,
+          "text": "The department issued a procurement in 2023 to secure additional capacity for the receipt, processing, and beneficial use"
+        },
+        {
+          "speaker": "Jen McDonald",
+          "t_sec": 2150.668,
+          "text": "of all the organics collected by DSNY and also those generated by agencies and institutions that we collaborate with, such as the schools and parks."
+        },
+        {
+          "speaker": "Jen McDonald",
+          "t_sec": 2160.268,
+          "text": "So as a result of that procurement, we awarded eight contracts."
+        },
+        {
+          "speaker": "Jen McDonald",
+          "t_sec": 2164.268,
+          "text": "Seven of those contracts have been activated, and they are associated with a variety of transfer stations located throughout the city."
+        },
+        {
+          "speaker": "Jen McDonald",
+          "t_sec": 2171.668,
+          "text": "So that does minimize the travel distance."
+        },
+        {
+          "speaker": "Jen McDonald",
+          "t_sec": 2174.668,
+          "text": "Once the trucks collect the organic material, it goes to a transfer station."
+        },
+        {
+          "speaker": "Jen McDonald",
+          "t_sec": 2178.668,
+          "text": "One of those, it's actually eight locations."
+        },
+        {
+          "speaker": "Jen McDonald",
+          "t_sec": 2182.268,
+          "text": "Seven of them are transfer stations, and one is the Staten Island Compost Facility that we've spoken about today."
+        },
+        {
+          "speaker": "Jen McDonald",
+          "t_sec": 2187.068,
+          "text": "So we have direct deliveries of collected material from Staten Island and South Brooklyn that go to that facility."
+        },
+        {
+          "speaker": "Jen McDonald",
+          "t_sec": 2194.568,
+          "text": "So overall, citywide, we have a robust network of locations that minimizes the distance that trucks have to travel after collecting organics."
+        },
+        {
+          "speaker": "Jen McDonald",
+          "t_sec": 2203.768,
+          "text": "Once the material is received at the transfer stations, it is sometimes separated by subtype."
+        },
+        {
+          "speaker": "Jen McDonald",
+          "t_sec": 2209.168,
+          "text": "So, for example, we have a very convenient and efficient program whereby we collect food waste and yard waste together at the curb."
+        },
+        {
+          "speaker": "Jen McDonald",
+          "t_sec": 2218.268,
+          "text": "So at some of the transfer stations, they separate the material into piles of yard waste and food waste so that they can process them differentially."
+        },
+        {
+          "speaker": "Jen McDonald",
+          "t_sec": 2226.268,
+          "text": "Sometimes the woody yard waste will go to composting and the organics, the wetter, heavier food waste to co-digestion."
+        },
+        {
+          "speaker": "Jen McDonald",
+          "t_sec": 2235.268,
+          "text": "So it really depends on the transfer station and then from there it will go to compost facilities and or digesters for the beneficial use processing part of the resource recovery pathway."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2246.868,
+          "text": "Awesome."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2247.168,
+          "text": "Thank you for that."
+        }
+      ]
+    },
+    {
+      "end_sec": 2309.768,
+      "id": "020",
+      "slug": "sanchez-questions-on-intro-367-carter-interest-in-city-transfer-stations",
+      "start_sec": 2248.268,
+      "summary": "Sanchez asks whether DSNY has received requests from carters to use marine or rail transfer stations. Anderson says no direct requests but some carters indicated interest during the RFP process, particularly for Upper Manhattan zones. Sanchez also confirms there is only one city-owned rail transfer station, on Staten Island.",
+      "title": "Sanchez questions on Intro 367: carter interest in city transfer stations",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2248.268,
+          "text": "And speaking about transfer stations, we're going to turn over to Intro 367."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2253.568,
+          "text": "Has the department received requests from carters to use the department's marine transfer stations or rail transfer stations?"
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2261.768,
+          "text": "If so, which carters have made this request and which facilities were they interested in?"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 2267.168,
+          "text": "We haven't received requests, but we did when we did the RFP part two for the commercial waste zone awards, we did ask carters to indicate if they would be interested in using our transfer stations."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 2279.268,
+          "text": "Some of them did indicate interest, particularly those that will eventually service the Upper East Side zone."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 2286.068,
+          "text": "I think there were some of those and some of the other zones in Upper Manhattan."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 2290.468,
+          "text": "So certainly once we have completed implementation, we'll reach out to those."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2295.268,
+          "text": "And how many city-owned or operated rail transfer stations are there in New York City?"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 2301.168,
+          "text": "Just one."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2302.268,
+          "text": "Just one."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 2303.168,
+          "text": "Staten Island, which is not currently permitted for commercial waste, so we'd have to do a permanent modification."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2308.568,
+          "text": "Okay, cool."
+        }
+      ]
+    },
+    {
+      "end_sec": 2383.856,
+      "id": "021",
+      "slug": "sanchez-questions-on-intro-75-enforcement-resource-needs",
+      "start_sec": 2309.768,
+      "summary": "Sanchez asks how enforcement resource needs would change under Intro 75. Anderson says needs would not change but resources would be used more effectively, giving the example of businesses like bars that are not open during the current enforcement windows.",
+      "title": "Sanchez questions on Intro 75 enforcement resource needs",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2309.768,
+          "text": "And in terms of entry of 75, can you describe how"
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2315.568,
+          "text": "how the department's enforcement resource needs would change if this bill were to be enacted?"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 2321.368,
+          "text": "Yeah, so I don't think our enforcement resource needs would change, but we'd be able to use those resources more effectively in order to conduct that enforcement."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 2330.668,
+          "text": "And I think one of the examples that our team talks about a lot is"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 2335.468,
+          "text": "You can have an area, so the two one-hour periods are different district by district."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 2342.568,
+          "text": "You could have a district where one of the commercial routing hours is 10 a.m."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 2346.068,
+          "text": "To 11 a.m., but a business may not open, you know, let's say they're a bar or something like that that doesn't open until noon or later."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 2354.668,
+          "text": "That means that during that 10 to 11 a.m."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 2356.968,
+          "text": "Window, we can't even write them a ticket because they're not open."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 2360.068,
+          "text": "So what this would allow us to do is go to that business anytime they're open, observe the condition, and then issue a violation."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 2366.968,
+          "text": "So we'd be able to..."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 2369.168,
+          "text": "Use our existing enforcement resources more effectively."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2376.556,
+          "text": "No questions from them."
+        }
+      ]
+    },
+    {
+      "end_sec": 2611.368,
+      "id": "022",
+      "slug": "chair-sanchez-transitions-to-public-testimony-and-gives-instructions",
+      "start_sec": 2383.856,
+      "summary": "Sanchez dismisses DSNY, opens the hearing for public testimony, and reminds attendees of decorum rules including no singing on Zoom, two-minute speaking limits, and procedures for submitting written testimony.",
+      "title": "Chair Sanchez transitions to public testimony and gives instructions",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2383.856,
+          "text": "I want to thank you all for your time, and I think we can open it up for the public testimony."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 2391.656,
+          "text": "Great."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 2392.356,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 2392.756,
+          "text": "Stay cool and enjoy the July 4th weekend."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2394.556,
+          "text": "Have a summer."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2409.332,
+          "text": "River?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2416.032,
+          "text": "Do I have to check in for zoning?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2418.532,
+          "text": "Do I have to check in for zoning?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2433.032,
+          "text": "So I don't have to go."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2434.832,
+          "text": "I don't care."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2501.008,
+          "text": "Okay, I now open the hearing for public testimony."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2504.508,
+          "text": "I remind all members of the public that this is a government proceeding and that decorum shall be observed at all times."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2512.008,
+          "text": "That includes no singing on Zoom."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2517.76,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2519.96,
+          "text": "As such, members of the public shall remain silent at all times."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2523.56,
+          "text": "The witness table is reserved for people who wish to testify."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2526.56,
+          "text": "No video recording or photography is allowed from the witness table."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2530.06,
+          "text": "Further, members of the public may not present audio or video recordings as testimony, but may submit transcripts of such recordings to the Sergeant at Arms for inclusion in the hearing record."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2539.26,
+          "text": "If you wish to speak at today's hearing, please fill out an appearance card with the Sergeant at Arms and wait to be recognized."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2544.86,
+          "text": "When recognized, you will have two minutes to speak on the legislation on our agenda today."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2549.26,
+          "text": "If you have a written statement or additional written testimony you wish to submit for the record, please provide a copy of that testimony to the Sergeant at Arms."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2556.56,
+          "text": "You may also email written testimony to testimony at council.nyc.gov within 72 hours of this hearing."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2565.16,
+          "text": "Audio and video recordings will not be accepted."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2569.06,
+          "text": "I will now call the first panel."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2571.16,
+          "text": "Can I please have Josh Raff, Justin Wood, also known as Justin number one, and Joyce Bialik."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 2594.268,
+          "text": "Really?"
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 2609.068,
+          "text": "You may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 2726.34,
+      "id": "023",
+      "slug": "josh-raff-action-environmental-supports-cwz-working-group-opposes-intro-911a",
+      "start_sec": 2611.368,
+      "summary": "Josh Raff of Action Environmental Services supports Intros 75, 356, 367, and 369, strongly supports Intro 353's working group as a productive stakeholder forum, and staunchly opposes Intro 911A, saying it undermines Local Law 199 and would set a harmful precedent by disrupting the Staten Island zone before launch.",
+      "title": "Josh Raff (Action Environmental) supports CWZ working group, opposes Intro 911A",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Josh Raff",
+          "t_sec": 2611.368,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Member of the Public - Josh Raff",
+          "t_sec": 2612.068,
+          "text": "Good morning, Chair."
+        },
+        {
+          "speaker": "Member of the Public - Josh Raff",
+          "t_sec": 2613.068,
+          "text": "My name is Josh Hariff, and I serve as the Marcus Vice President for New York City Action Environmental Services, a subsidiary of Interstate Waste."
+        },
+        {
+          "speaker": "Member of the Public - Josh Raff",
+          "t_sec": 2619.168,
+          "text": "Thank you for the opportunity to deliver testimony regarding the bills considered during today's hearing."
+        },
+        {
+          "speaker": "Member of the Public - Josh Raff",
+          "t_sec": 2624.068,
+          "text": "With respect to bills 75, 356, 367, and 369, Action Carding supports reasonable legislation that encourages street cleanliness, expands access to composting, and promotes economically feasible disposal options."
+        },
+        {
+          "speaker": "Member of the Public - Josh Raff",
+          "t_sec": 2636.968,
+          "text": "Action is poised to support commercial businesses with relevant compliance education in alignment with the progression of these bills."
+        },
+        {
+          "speaker": "Member of the Public - Josh Raff",
+          "t_sec": 2643.368,
+          "text": "Furthermore, Action Carding staunchly supports Bill 353 introduced by Councilwoman Nurse."
+        },
+        {
+          "speaker": "Member of the Public - Josh Raff",
+          "t_sec": 2648.368,
+          "text": "The creation of a commercial waste zones working group would structure a healthy dialogue amongst critical stakeholders who are responsible for the successful realization of local law 199's key objectives."
+        },
+        {
+          "speaker": "Member of the Public - Josh Raff",
+          "t_sec": 2659.068,
+          "text": "Awarded carters engage with the DSNY to successfully onboard zones."
+        },
+        {
+          "speaker": "Member of the Public - Josh Raff",
+          "t_sec": 2662.868,
+          "text": "However, there are limited opportunities to provide or absorb more holistic feedback amongst industry colleagues."
+        },
+        {
+          "speaker": "Member of the Public - Josh Raff",
+          "t_sec": 2668.368,
+          "text": "This working group would be a productive forum."
+        },
+        {
+          "speaker": "Member of the Public - Josh Raff",
+          "t_sec": 2670.368,
+          "text": "To discuss customers' experiences transitioning to CWZ service agreements, operational best practices and technologies that prioritize safety, and opportunities for efficiency improvements within an evolving regulatory landscape."
+        },
+        {
+          "speaker": "Member of the Public - Josh Raff",
+          "t_sec": 2683.768,
+          "text": "In contrast, Action Carding staunchly opposes the adoption of Bill 911A, which would unnecessarily alter the operating framework and timely implementation of the CWZ program."
+        },
+        {
+          "speaker": "Member of the Public - Josh Raff",
+          "t_sec": 2693.468,
+          "text": "This bill undermines Local Law 199's intended goals by diluting the required caliber for CWZ awardees and neglecting the DSNY's ability to course-correct underperforming zones."
+        },
+        {
+          "speaker": "Member of the Public - Josh Raff",
+          "t_sec": 2703.568,
+          "text": "Staten Island's residents and businesses deserve to benefit from reduced truck traffic, vigilant safety standards, and transparency in the same regard as other boroughs."
+        },
+        {
+          "speaker": "Member of the Public - Josh Raff",
+          "t_sec": 2711.468,
+          "text": "Therefore, Action Carding encourages this committee to avoid establishing a harmful precedent by disrupting the program's potential before the zone even launches."
+        },
+        {
+          "speaker": "Member of the Public - Josh Raff",
+          "t_sec": 2719.168,
+          "text": "Thank you for your time."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2720.768,
+          "text": "Thank you, Josh."
+        }
+      ]
+    },
+    {
+      "end_sec": 2864.716,
+      "id": "024",
+      "slug": "joyce-bialik-on-composting-for-healthy-food-access-in-low-income-neighborhoods",
+      "start_sec": 2726.34,
+      "summary": "Joyce Bialik of the Manhattan Solid Waste Advisory Board and WE Act for Environmental Justice proposes linking city composting support to healthy food access, suggesting the city map existing farms and gardens, subsidize new growing and composting facilities in underserved areas, and ensure contamination-free compost for nutritious produce.",
+      "title": "Joyce Bialik on composting for healthy food access in low-income neighborhoods",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Joyce Bialik",
+          "t_sec": 2726.34,
+          "text": "Good morning, Chair and dog."
+        },
+        {
+          "speaker": "Member of the Public - Joyce Bialik",
+          "t_sec": 2729.84,
+          "text": "My name is Joyce Bialik, and I'm a member of the Manhattan Solid Waste Advisory Board, as well as We Act for Environmental Justice."
+        },
+        {
+          "speaker": "Member of the Public - Joyce Bialik",
+          "t_sec": 2738.94,
+          "text": "I'm here today to suggest how the city's support of composting can also support"
+        },
+        {
+          "speaker": "Member of the Public - Joyce Bialik",
+          "t_sec": 2745.64,
+          "text": "one of the values of the mayor's grocery stores, namely making healthy foods accessible to low-income residents."
+        },
+        {
+          "speaker": "Member of the Public - Joyce Bialik",
+          "t_sec": 2754.54,
+          "text": "Many of the farms and gardens currently in our city do their own composting and use the compost to grow fruits and vegetables."
+        },
+        {
+          "speaker": "Member of the Public - Joyce Bialik",
+          "t_sec": 2763.64,
+          "text": "If clean, wholesome food scraps are used to make clean compost, we get clean, wholesome, nutritious fruits and vegetables."
+        },
+        {
+          "speaker": "Member of the Public - Joyce Bialik",
+          "t_sec": 2773.54,
+          "text": "Studies have shown that some of the chemicals found in produce not grown organically are forever chemicals and that small children and pregnant women are particularly vulnerable."
+        },
+        {
+          "speaker": "Member of the Public - Joyce Bialik",
+          "t_sec": 2787.34,
+          "text": "Currently, the city's farms and gardens are not distributed evenly across the city, nor are they selling their produce directly to the public or using some of their land to increase compost."
+        },
+        {
+          "speaker": "Member of the Public - Joyce Bialik",
+          "t_sec": 2801.74,
+          "text": "To create compost, the city could build a system that maps the current distribution of these farms and community gardens and subsidizes the development of additional"
+        },
+        {
+          "speaker": "Member of the Public - Joyce Bialik",
+          "t_sec": 2811.34,
+          "text": "of additional"
+        },
+        {
+          "speaker": "Member of the Public - Joyce Bialik",
+          "t_sec": 2812.04,
+          "text": "growing and composting facilities wherever possible in areas where they are lacking."
+        },
+        {
+          "speaker": "Member of the Public - Joyce Bialik",
+          "t_sec": 2818.54,
+          "text": "The city also should guarantee ongoing support for the compost facilities that currently exist."
+        },
+        {
+          "speaker": "Member of the Public - Joyce Bialik",
+          "t_sec": 2825.24,
+          "text": "Priority for the farms, gardens, and compost facilities would be given to low-income neighborhoods, and the city would develop a means for each customer to pay directly to the farm or garden"
+        },
+        {
+          "speaker": "Member of the Public - Joyce Bialik",
+          "t_sec": 2837.94,
+          "text": "at a rate commensurate to that used in the city's grocery stores."
+        },
+        {
+          "speaker": "Member of the Public - Joyce Bialik",
+          "t_sec": 2843.04,
+          "text": "The city would monitor the growing and selling to ensure the availability of healthy, affordable products that are grown only with contamination-free compost from clean, wholesome food scraps."
+        },
+        {
+          "speaker": "Member of the Public - Joyce Bialik",
+          "t_sec": 2856.74,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2857.44,
+          "text": "Thanks so much, Joyce."
+        }
+      ]
+    },
+    {
+      "end_sec": 3088.86,
+      "id": "025",
+      "slug": "justin-wood-nylpi-supports-intros-367-and-369-opposes-911a",
+      "start_sec": 2864.716,
+      "summary": "Justin Wood of New York Lawyers for the Public Interest strongly supports Intro 367 as an environmental justice priority and Intro 369 for local composting capacity. He opposes Intro 911A, warning it would disrupt CWZ benefits and potentially invite litigation from awarded haulers.",
+      "title": "Justin Wood (NYLPI) supports Intros 367 and 369, opposes 911A",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Justin Wood",
+          "t_sec": 2864.716,
+          "text": "Good morning, Chair."
+        },
+        {
+          "speaker": "Member of the Public - Justin Wood",
+          "t_sec": 2867.516,
+          "text": "Thank you so much for holding this hearing."
+        },
+        {
+          "speaker": "Member of the Public - Justin Wood",
+          "t_sec": 2871.616,
+          "text": "And congratulations to you and Majority Leader Abreu and the Council on the passage of Intro 31 last night."
+        },
+        {
+          "speaker": "Member of the Public - Justin Wood",
+          "t_sec": 2877.916,
+          "text": "We strongly support that."
+        },
+        {
+          "speaker": "Member of the Public - Justin Wood",
+          "t_sec": 2879.016,
+          "text": "And of course, on the passage of a robust city budget."
+        },
+        {
+          "speaker": "Member of the Public - Justin Wood",
+          "t_sec": 2882.716,
+          "text": "My name is Justin Wood, Director of Policy at New York Lawyers for the Public Interest, and we're a member of Transform and Don't Trash New York City."
+        },
+        {
+          "speaker": "Member of the Public - Justin Wood",
+          "t_sec": 2889.916,
+          "text": "As another summer of extreme heat descends on us as we speak, the federal government continues an assault on renewable energy, climate science, public health, and the very concept of environmental justice."
+        },
+        {
+          "speaker": "Member of the Public - Justin Wood",
+          "t_sec": 2900.216,
+          "text": "So it's in that context that we offer this."
+        },
+        {
+          "speaker": "Member of the Public - Justin Wood",
+          "t_sec": 2903.416,
+          "text": "Strong support for intros 367 and 369 introduced by Councilmember Nurse."
+        },
+        {
+          "speaker": "Member of the Public - Justin Wood",
+          "t_sec": 2910.516,
+          "text": "Intro 367, to accept commercial waste at marine and rail facilities owned by the city, is a major and decades-old priority for environmental justice communities that continue to bear the pollution and safety burdens of unjustly cited concentrations of waste transfer stations"
+        },
+        {
+          "speaker": "Member of the Public - Justin Wood",
+          "t_sec": 2925.916,
+          "text": "based on trucks in outer borough communities."
+        },
+        {
+          "speaker": "Member of the Public - Justin Wood",
+          "t_sec": 2928.916,
+          "text": "These facilities were designed at their inception to accept commercial waste overnight."
+        },
+        {
+          "speaker": "Member of the Public - Justin Wood",
+          "t_sec": 2933.716,
+          "text": "The 2006 Solid Waste Management Plan's environmental impact study explicitly proposed that they be used for this and found there would be minimal impacts on surrounding communities."
+        },
+        {
+          "speaker": "Member of the Public - Justin Wood",
+          "t_sec": 2944.016,
+          "text": "So we'll submit a more detailed written statement, but we strongly support that and any underlying studies."
+        },
+        {
+          "speaker": "Member of the Public - Justin Wood",
+          "t_sec": 2949.316,
+          "text": "that sanitation needs to conduct to arrive at any subsidy or price that would be necessary to induce commercial haulers to use these facilities."
+        },
+        {
+          "speaker": "Member of the Public - Justin Wood",
+          "t_sec": 2958.616,
+          "text": "We similarly strongly support Intro 369, requiring the city to operate at least one major aerobic composting facility in each borough, building on the successful expansion of the Fresh Kills facility we heard about today."
+        },
+        {
+          "speaker": "Member of the Public - Justin Wood",
+          "t_sec": 2971.016,
+          "text": "With the passage of Intro 31 and the long-awaited implementation and enforcement of commercial and residential"
+        },
+        {
+          "speaker": "Member of the Public - Justin Wood",
+          "t_sec": 2977.016,
+          "text": "recycling rules, now is the time to begin planning to process far more organic waste locally and produce rich soil fertilizer for our parks, farms, and gardens."
+        },
+        {
+          "speaker": "Member of the Public - Justin Wood",
+          "t_sec": 2987.716,
+          "text": "Finally, if I may, we strongly oppose Intro 911A, which would retroactively delay and undermine implementation of CWZ in Staten Island."
+        },
+        {
+          "speaker": "Member of the Public - Justin Wood",
+          "t_sec": 2997.516,
+          "text": "Simply put, Staten Islanders, and I happen to be a resident of the borough, residents, sanitation workers, and businesses deserve the immediate benefits that started today of the CWZ system that was studied, debated, and legislated almost a decade ago."
+        },
+        {
+          "speaker": "Member of the Public - Justin Wood",
+          "t_sec": 3012.716,
+          "text": "Safer streets, cleaner air, recycling, composting, food donation services, and an affordable price structure that ensures Staten Island businesses can save money by diverting more waste from landfills are all good things."
+        },
+        {
+          "speaker": "Member of the Public - Justin Wood",
+          "t_sec": 3025.616,
+          "text": "I would just add that"
+        },
+        {
+          "speaker": "Member of the Public - Justin Wood",
+          "t_sec": 3027.716,
+          "text": "If this bill were to pass, we would be concerned that the city would be subject to almost certainly to litigation by the haulers that have already been awarded these zones and implementation began today."
+        },
+        {
+          "speaker": "Member of the Public - Justin Wood",
+          "t_sec": 3039.216,
+          "text": "And we would urge the council not to disrupt the good things that are happening."
+        },
+        {
+          "speaker": "Member of the Public - Justin Wood",
+          "t_sec": 3043.116,
+          "text": "Our partners in organized labor at the Teamsters, for example, have been able to organize substantial numbers of workers in this historically dangerous and exploitative industry."
+        },
+        {
+          "speaker": "Member of the Public - Justin Wood",
+          "t_sec": 3051.516,
+          "text": "So thank you very much."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 3052.616,
+          "text": "Thanks so much, Justin."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 3054.216,
+          "text": "And with that, this first panel is relieved."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 3057.116,
+          "text": "Thank you so much."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 3060.916,
+          "text": "Now I'd like to bring up Eric Goldstein, Rhonda Kayser, and Jamiri Rush."
+        },
+        {
+          "speaker": "Gregory Anderson",
+          "t_sec": 3071.26,
+          "text": "I hope I said that right."
+        }
+      ]
+    },
+    {
+      "end_sec": 3272.06,
+      "id": "026",
+      "slug": "eric-goldstein-nrdc-on-composting-capacity-transfer-stations-and-911a",
+      "start_sec": 3088.86,
+      "summary": "Eric Goldstein of the Natural Resources Defense Council calls compost processing capacity the most important issue before the committee, strongly supporting Intros 369 and 367. He opposes Intro 911A as counter to the council's intent and supports Intro 356 for community composter fees.",
+      "title": "Eric Goldstein (NRDC) on composting capacity, transfer stations, and 911A",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Eric Goldstein",
+          "t_sec": 3088.86,
+          "text": "Good morning, Chair."
+        },
+        {
+          "speaker": "Member of the Public - Eric Goldstein",
+          "t_sec": 3089.76,
+          "text": "Thank you for having us at this hearing."
+        },
+        {
+          "speaker": "Member of the Public - Eric Goldstein",
+          "t_sec": 3091.56,
+          "text": "Eric Goldstein from the Natural Resources Defense Council."
+        },
+        {
+          "speaker": "Member of the Public - Eric Goldstein",
+          "t_sec": 3094.36,
+          "text": "I'll summarize our written testimony."
+        },
+        {
+          "speaker": "Member of the Public - Eric Goldstein",
+          "t_sec": 3097.26,
+          "text": "We strongly support Intro 369."
+        },
+        {
+          "speaker": "Member of the Public - Eric Goldstein",
+          "t_sec": 3100.26,
+          "text": "The issue of compost processing capacity could be the most important issue to come before this committee this year."
+        },
+        {
+          "speaker": "Member of the Public - Eric Goldstein",
+          "t_sec": 3107.46,
+          "text": "This could be a legacy issue for you."
+        },
+        {
+          "speaker": "Member of the Public - Eric Goldstein",
+          "t_sec": 3110.06,
+          "text": "Here's why."
+        },
+        {
+          "speaker": "Member of the Public - Eric Goldstein",
+          "t_sec": 3111.16,
+          "text": "Composting organics are the single largest portion of the waste stream."
+        },
+        {
+          "speaker": "Member of the Public - Eric Goldstein",
+          "t_sec": 3116.76,
+          "text": "A third of our waste is food scraps, yard waste, food soil, paper."
+        },
+        {
+          "speaker": "Member of the Public - Eric Goldstein",
+          "t_sec": 3120.86,
+          "text": "If it goes to landfills, it creates methane."
+        },
+        {
+          "speaker": "Member of the Public - Eric Goldstein",
+          "t_sec": 3123.46,
+          "text": "If it goes to incinerators, its high moisture content fouls up the burning process and generates localized pollution."
+        },
+        {
+          "speaker": "Member of the Public - Eric Goldstein",
+          "t_sec": 3130.16,
+          "text": "If it goes to..."
+        },
+        {
+          "speaker": "Member of the Public - Eric Goldstein",
+          "t_sec": 3131.86,
+          "text": "Sewage treatment plants for co-digestion, while that may be better than landfilling and incineration,"
+        },
+        {
+          "speaker": "Member of the Public - Eric Goldstein",
+          "t_sec": 3138.96,
+          "text": "mixing it with sewage sludge means that you cannot compost the digestate, and so it's not the highest and best use for compostable material."
+        },
+        {
+          "speaker": "Member of the Public - Eric Goldstein",
+          "t_sec": 3148.16,
+          "text": "We definitely need more capacity for composting in city, which also brings jobs and could save money in our exporting costs over time."
+        },
+        {
+          "speaker": "Member of the Public - Eric Goldstein",
+          "t_sec": 3157.46,
+          "text": "We hope to be able to work with you."
+        },
+        {
+          "speaker": "Member of the Public - Eric Goldstein",
+          "t_sec": 3159.66,
+          "text": "and Sandy Nurse to get this bill in shape where it can be accepted."
+        },
+        {
+          "speaker": "Member of the Public - Eric Goldstein",
+          "t_sec": 3165.26,
+          "text": "But we do say that it's hard to find the more important issue for the long-term sustainability of our system than to address the issue of getting additional composting capacity in the city."
+        },
+        {
+          "speaker": "Member of the Public - Eric Goldstein",
+          "t_sec": 3180.36,
+          "text": "Very quickly, we also strongly support Intro 367."
+        },
+        {
+          "speaker": "Member of the Public - Eric Goldstein",
+          "t_sec": 3184.76,
+          "text": "This is an environmental justice issue that has lingered for years."
+        },
+        {
+          "speaker": "Member of the Public - Eric Goldstein",
+          "t_sec": 3189.56,
+          "text": "Three communities get the overwhelming bulk of commercial waste."
+        },
+        {
+          "speaker": "Member of the Public - Eric Goldstein",
+          "t_sec": 3193.26,
+          "text": "Opening up the modern marine transfer stations in the city's own rail facilities to commercial waste could alleviate that burden."
+        },
+        {
+          "speaker": "Member of the Public - Eric Goldstein",
+          "t_sec": 3201.36,
+          "text": "We know that Commissioner Anderson has the expertise, the staff, and the authority to get this work done if he is authorized to do so by the council."
+        },
+        {
+          "speaker": "Member of the Public - Eric Goldstein",
+          "t_sec": 3211.36,
+          "text": "Finally, we strongly oppose Intro 9-11."
+        },
+        {
+          "speaker": "Member of the Public - Eric Goldstein",
+          "t_sec": 3215.26,
+          "text": "This bill would directly run counter to the intent of the council when it passed the waste zone legislation."
+        },
+        {
+          "speaker": "Member of the Public - Eric Goldstein",
+          "t_sec": 3228.36,
+          "text": "It was debated for years."
+        },
+        {
+          "speaker": "Member of the Public - Eric Goldstein",
+          "t_sec": 3230.76,
+          "text": "In fact, only one of the three Staten Island council members voted against this introduction."
+        },
+        {
+          "speaker": "Member of the Public - Eric Goldstein",
+          "t_sec": 3237.36,
+          "text": "So in other words, there was support."
+        },
+        {
+          "speaker": "Member of the Public - Eric Goldstein",
+          "t_sec": 3239.36,
+          "text": "They had the opportunity."
+        },
+        {
+          "speaker": "Member of the Public - Eric Goldstein",
+          "t_sec": 3240.66,
+          "text": "There was support."
+        },
+        {
+          "speaker": "Member of the Public - Eric Goldstein",
+          "t_sec": 3241.36,
+          "text": "The program is ongoing now."
+        },
+        {
+          "speaker": "Member of the Public - Eric Goldstein",
+          "t_sec": 3243.96,
+          "text": "And it would also set a horrible precedent to exempt one borough from"
+        },
+        {
+          "speaker": "Member of the Public - Eric Goldstein",
+          "t_sec": 3249.36,
+          "text": "from citywide legislation."
+        },
+        {
+          "speaker": "Member of the Public - Eric Goldstein",
+          "t_sec": 3251.06,
+          "text": "So we urge that that program be sent to the landfills."
+        },
+        {
+          "speaker": "Member of the Public - Eric Goldstein",
+          "t_sec": 3254.66,
+          "text": "And last but not least, we also strongly support 356, allowing community composting operations to charge for organic waste drop-offs."
+        },
+        {
+          "speaker": "Member of the Public - Eric Goldstein",
+          "t_sec": 3262.86,
+          "text": "We explain why in our testimony."
+        },
+        {
+          "speaker": "Member of the Public - Eric Goldstein",
+          "t_sec": 3264.56,
+          "text": "Thank you for your attention."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 3266.16,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 3266.36,
+          "text": "Appreciate it."
+        }
+      ]
+    },
+    {
+      "end_sec": 3398.952,
+      "id": "027",
+      "slug": "jameer-rush-cafeteria-culture-on-school-composting-pilot-and-intro-369",
+      "start_sec": 3272.06,
+      "summary": "Jameer Rush of Cafeteria Culture describes a pilot program where one compost coordinator diverted over a ton of food scraps from four schools, arguing Intro 369 would enable scalable local composting that reduces truck traffic and supports education and community engagement.",
+      "title": "Jameer Rush (Cafeteria Culture) on school composting pilot and Intro 369",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Jameer Rush",
+          "t_sec": 3272.06,
+          "text": "Good morning and thank you for the opportunity for me to testify."
+        },
+        {
+          "speaker": "Member of the Public - Jameer Rush",
+          "t_sec": 3274.96,
+          "text": "My name is Jameer Rush and I work with Cafeteria Culture and I urge you to pass and show 369, which will require composting processing capacity in every borough of New York City."
+        },
+        {
+          "speaker": "Member of the Public - Jameer Rush",
+          "t_sec": 3289.56,
+          "text": "This year, Caviteer Culture launched a pilot program that showed what local composting can accomplish."
+        },
+        {
+          "speaker": "Member of the Public - Jameer Rush",
+          "t_sec": 3295.16,
+          "text": "I was hired as a compost cranter to collect cafeteria food scraps, educate students about composting, and transport those scraps to nearby community composting sites or on-site tumblers."
+        },
+        {
+          "speaker": "Member of the Public - Jameer Rush",
+          "t_sec": 3305.26,
+          "text": "Since late October 2005, I have led students to divert more than one ton of food scraps from just four schools."
+        },
+        {
+          "speaker": "Member of the Public - Jameer Rush",
+          "t_sec": 3312.46,
+          "text": "PS 46, PS 34, PS 15, and PS 30."
+        },
+        {
+          "speaker": "Member of the Public - Jameer Rush",
+          "t_sec": 3318.76,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Member of the Public - Jameer Rush",
+          "t_sec": 3320.16,
+          "text": "Every pound of compost we use in the school gardens we created at these schools comes from compost powers, locals, composting sites."
+        },
+        {
+          "speaker": "Member of the Public - Jameer Rush",
+          "t_sec": 3328.152,
+          "text": "So instead of trucking our food waste across the city and burning our other communities, we turn these food scraps into a local resource that nourishes our gardens, supports environmental education, and strengthens our neighborhoods."
+        },
+        {
+          "speaker": "Member of the Public - Jameer Rush",
+          "t_sec": 3341.952,
+          "text": "This is exactly why Intro 369 matters."
+        },
+        {
+          "speaker": "Member of the Public - Jameer Rush",
+          "t_sec": 3345.452,
+          "text": "Local composting reduces unnecessary truck traffic, builds resilient neighborhood infrastructure, and creates opportunities for education, jobs, and community engagement."
+        },
+        {
+          "speaker": "Member of the Public - Jameer Rush",
+          "t_sec": 3354.352,
+          "text": "Our pilot proves that integrating school cafeterias into neighborhood composting is practical, efficient, and scalable."
+        },
+        {
+          "speaker": "Member of the Public - Jameer Rush",
+          "t_sec": 3362.452,
+          "text": "Just one compost coordinator, me, working with four diverted, whoa,"
+        },
+        {
+          "speaker": "Member of the Public - Jameer Rush",
+          "t_sec": 3367.152,
+          "text": "Just one compost coordinator working with four schools diverted more than a ton of organic matter in a matter of months."
+        },
+        {
+          "speaker": "Member of the Public - Jameer Rush",
+          "t_sec": 3375.552,
+          "text": "Imagine how every school in every borough could achieve."
+        },
+        {
+          "speaker": "Member of the Public - Jameer Rush",
+          "t_sec": 3378.952,
+          "text": "Whoa."
+        },
+        {
+          "speaker": "Member of the Public - Jameer Rush",
+          "t_sec": 3379.552,
+          "text": "Imagine what every school in every borough could achieve with the right infrastructure."
+        },
+        {
+          "speaker": "Member of the Public - Jameer Rush",
+          "t_sec": 3383.552,
+          "text": "We ask you to please pass Intro 369 and invest in a composting system."
+        },
+        {
+          "speaker": "Member of the Public - Jameer Rush",
+          "t_sec": 3388.952,
+          "text": "That keeps resources where they are generated and benefits every New York City community."
+        },
+        {
+          "speaker": "Member of the Public - Jameer Rush",
+          "t_sec": 3392.752,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 3393.752,
+          "text": "Thank you for your testimony."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 3394.552,
+          "text": "Whoa."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 3395.152,
+          "text": "Buzz it, you know."
+        }
+      ]
+    },
+    {
+      "end_sec": 3569.94,
+      "id": "028",
+      "slug": "rhonda-keyser-cafeteria-culture-on-efficiency-of-school-food-scrap-collection",
+      "start_sec": 3398.952,
+      "summary": "Rhonda Keyser explains that schools generate large consistent volumes of food scraps, making them the most efficient places to recover organics. She describes students' hands-on learning and sense of ownership at compost sites, urging the council to pass Intro 369.",
+      "title": "Rhonda Keyser (Cafeteria Culture) on efficiency of school food scrap collection",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Rhonda Keyser",
+          "t_sec": 3398.952,
+          "text": "Hi, I'm Rhonda Kaiser."
+        },
+        {
+          "speaker": "Member of the Public - Rhonda Keyser",
+          "t_sec": 3400.452,
+          "text": "I'm Program and Policy Director for Cafeteria Culture."
+        },
+        {
+          "speaker": "Member of the Public - Rhonda Keyser",
+          "t_sec": 3403.652,
+          "text": "Our team works together with Mr."
+        },
+        {
+          "speaker": "Member of the Public - Rhonda Keyser",
+          "t_sec": 3405.052,
+          "text": "Rush to evaluate and to shape the food scraps collection pilot."
+        },
+        {
+          "speaker": "Member of the Public - Rhonda Keyser",
+          "t_sec": 3410.652,
+          "text": "And one of the biggest lessons from our pilot is how efficient it is to collect food scraps."
+        },
+        {
+          "speaker": "Member of the Public - Rhonda Keyser",
+          "t_sec": 3416.552,
+          "text": "from schools."
+        },
+        {
+          "speaker": "Member of the Public - Rhonda Keyser",
+          "t_sec": 3418.752,
+          "text": "We realize that our opinion differs from DSNY about whether this is possible, intro 369 is possible, but it's a new idea, and new ideas require conversational generosity."
+        },
+        {
+          "speaker": "Member of the Public - Rhonda Keyser",
+          "t_sec": 3430.752,
+          "text": "So that's what we're hoping to engage in."
+        },
+        {
+          "speaker": "Member of the Public - Rhonda Keyser",
+          "t_sec": 3435.152,
+          "text": "And that's what we're hoping to receive."
+        },
+        {
+          "speaker": "Member of the Public - Rhonda Keyser",
+          "t_sec": 3438.052,
+          "text": "And because in just four schools, one compost coordinator diverted more than a ton of food scraps in only a few months, reaching that same amount of"
+        },
+        {
+          "speaker": "Member of the Public - Rhonda Keyser",
+          "t_sec": 3446.852,
+          "text": "people, individuals, by asking individual households to separate and set out their food scraps would require educating and engaging hundreds, if not thousands, of families."
+        },
+        {
+          "speaker": "Member of the Public - Rhonda Keyser",
+          "t_sec": 3454.552,
+          "text": "Schools generate large, consistent volumes of food scraps every day, making it the easiest and most efficient places to recover organics."
+        },
+        {
+          "speaker": "Member of the Public - Rhonda Keyser",
+          "t_sec": 3461.652,
+          "text": "And then by integrating schools into neighborhood composting systems, students learn how and they learn why and actually how to divert their food scraps through hands-on education."
+        },
+        {
+          "speaker": "Member of the Public - Rhonda Keyser",
+          "t_sec": 3471.552,
+          "text": "And while teaching them about recycling programs and the virtue of separating their waste is a great idea, actually giving them the value of the benefit of their..."
+        },
+        {
+          "speaker": "Member of the Public - Rhonda Keyser",
+          "t_sec": 3481.852,
+          "text": "so-called waste, but actually resources, they actually feel the difference."
+        },
+        {
+          "speaker": "Member of the Public - Rhonda Keyser",
+          "t_sec": 3487.052,
+          "text": "And it's palpable what students can understand about it."
+        },
+        {
+          "speaker": "Member of the Public - Rhonda Keyser",
+          "t_sec": 3492.252,
+          "text": "And I've said this many times, but our students from PSMS 46 visited Polo Grounds and they looked around and they said to Domingo, do you own this site?"
+        },
+        {
+          "speaker": "Member of the Public - Rhonda Keyser",
+          "t_sec": 3500.552,
+          "text": "And he said, this is funded by taxes, so technically we all own this site."
+        },
+        {
+          "speaker": "Member of the Public - Rhonda Keyser",
+          "t_sec": 3506.452,
+          "text": "and the kids beamed to think that they owned a site, that they could actually make a difference and make a huge difference."
+        },
+        {
+          "speaker": "Member of the Public - Rhonda Keyser",
+          "t_sec": 3513.352,
+          "text": "These are students, some of our most vulnerable students, who could make a huge difference where the Brown Bin program doesn't exist."
+        },
+        {
+          "speaker": "Member of the Public - Rhonda Keyser",
+          "t_sec": 3521.452,
+          "text": "Our program disrupts the truck-based and harmful and polluting industrial model, and it offers a new solution and another world is possible."
+        },
+        {
+          "speaker": "Member of the Public - Rhonda Keyser",
+          "t_sec": 3531.252,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 3531.852,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 3534.452,
+          "text": "And with that, this panel is relieved."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 3537.352,
+          "text": "Thank you so much."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 3538.452,
+          "text": "Can I please bring up Mary Ellen Sullivan, Matthew Chivello, and Wendy Frank?"
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 3562.54,
+          "text": "You may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 3717.4,
+      "id": "029",
+      "slug": "mary-ellen-sullivan-swabs-on-intro-369-and-biosolids-concerns",
+      "start_sec": 3569.94,
+      "summary": "Mary Ellen Sullivan of the Manhattan, Brooklyn, Bronx, and Queens Solid Waste Advisory Boards strongly supports Intro 369, warning that co-digesting organics with sewage creates contaminated biosolids. She recommends re-establishing a compost siting task force, prioritizing nonprofit composters, and integrating environmental justice and workforce development.",
+      "title": "Mary Ellen Sullivan (SWABs) on Intro 369 and biosolids concerns",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Mary Ellen Sullivan",
+          "t_sec": 3569.94,
+          "text": "Okay, great."
+        },
+        {
+          "speaker": "Member of the Public - Mary Ellen Sullivan",
+          "t_sec": 3570.94,
+          "text": "I am Mary Ellen Sullivan."
+        },
+        {
+          "speaker": "Member of the Public - Mary Ellen Sullivan",
+          "t_sec": 3572.44,
+          "text": "The Manhattan, Brooklyn, Bronx, and Queens Solid Waste Advisory Board strongly support Intro 369 and its goal to establish local composting capacity in each of the five boroughs."
+        },
+        {
+          "speaker": "Member of the Public - Mary Ellen Sullivan",
+          "t_sec": 3584.84,
+          "text": "Intro 369 provides a clear and practical framework for developing a resilient, equitable, and locally-based organics processing infrastructure consistent with the SWAB's ongoing recommendation that New York City should prioritize local composting."
+        },
+        {
+          "speaker": "Member of the Public - Mary Ellen Sullivan",
+          "t_sec": 3600.5,
+          "text": "New York City residents and commercial businesses generate almost 2 million tons of organic material annually, with the vast majority of this being sent to landfills, incinerators, or co-digestion facilities."
+        },
+        {
+          "speaker": "Member of the Public - Mary Ellen Sullivan",
+          "t_sec": 3614.1,
+          "text": "New York City is losing out on an opportunity to turn our organic waste into something valuable, new jobs, additional tax revenue, reduced environmental harm, and locally made compost to apply in our parks and neighborhoods."
+        },
+        {
+          "speaker": "Member of the Public - Mary Ellen Sullivan",
+          "t_sec": 3628.7,
+          "text": "Co-digesting organics with sewage creates more sewage sludge, a waste that is difficult and expensive to dispose of."
+        },
+        {
+          "speaker": "Member of the Public - Mary Ellen Sullivan",
+          "t_sec": 3635.8,
+          "text": "Current DEP policy is to maximize beneficial use of biosolid."
+        },
+        {
+          "speaker": "Member of the Public - Mary Ellen Sullivan",
+          "t_sec": 3641.1,
+          "text": "That means land application."
+        },
+        {
+          "speaker": "Member of the Public - Mary Ellen Sullivan",
+          "t_sec": 3643.3,
+          "text": "Yet municipalities across New York State and the entire country are waking up to the shock of land polluted by biosolids, and they are beginning to oppose this practice and take action."
+        },
+        {
+          "speaker": "Member of the Public - Mary Ellen Sullivan",
+          "t_sec": 3655.6,
+          "text": "The policy of our own New York Farm Bureau is to stand in opposition to land application of biosolids that have detectable levels of PFAS, PFOS, and heavy metals."
+        },
+        {
+          "speaker": "Member of the Public - Mary Ellen Sullivan",
+          "t_sec": 3666.2,
+          "text": "The solution is obvious, compost our waste organically."
+        },
+        {
+          "speaker": "Member of the Public - Mary Ellen Sullivan",
+          "t_sec": 3670.0,
+          "text": "To strengthen Intro 369, we respectfully recommend the following modifications."
+        },
+        {
+          "speaker": "Member of the Public - Mary Ellen Sullivan",
+          "t_sec": 3675.8,
+          "text": "Re-establish the compost siting task force so that Section 2B of Intro 369 can be realized."
+        },
+        {
+          "speaker": "Member of the Public - Mary Ellen Sullivan",
+          "t_sec": 3682.8,
+          "text": "Explicitly include and prioritize nonprofit organizations, including but not limited to the New York City Compost Network."
+        },
+        {
+          "speaker": "Member of the Public - Mary Ellen Sullivan",
+          "t_sec": 3690.8,
+          "text": "as eligible entities to participate in this activity, ensure that facility siting decisions incorporate environmental justice considerations, and avoid the environmental justice errors of our current waste system,"
+        },
+        {
+          "speaker": "Member of the Public - Mary Ellen Sullivan",
+          "t_sec": 3705.4,
+          "text": "integrate robust public education to the rollout, and integrate workforce development programs into this."
+        },
+        {
+          "speaker": "Member of the Public - Mary Ellen Sullivan",
+          "t_sec": 3711.9,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 3833.16,
+      "id": "030",
+      "slug": "matthew-civello-manhattan-swab-on-intro-367-and-waste-equity",
+      "start_sec": 3717.4,
+      "summary": "Matthew Civello, chair of the Manhattan SWAB, supports Intro 367 as building on the waste equity law to reduce truck traffic in overburdened communities. He requests DSNY make public its findings on carter interest in using marine transfer stations and a feasibility evaluation.",
+      "title": "Matthew Civello (Manhattan SWAB) on Intro 367 and waste equity",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Matthew Civello",
+          "t_sec": 3717.4,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Member of the Public - Matthew Civello",
+          "t_sec": 3718.6,
+          "text": "I'm Matthew Savello, chair of the Manhattan Solid Waste Advisory Board, and I thank you for this opportunity to provide testimony at today's hearing."
+        },
+        {
+          "speaker": "Member of the Public - Matthew Civello",
+          "t_sec": 3726.3,
+          "text": "The Solid Waste Advisory Board support Intro 367, which would require the Department of Sanitation to accept commercial solid waste"
+        },
+        {
+          "speaker": "Member of the Public - Matthew Civello",
+          "t_sec": 3734.5,
+          "text": "at city-owned marine and rail transfer stations and publicly report the amount and type of waste received."
+        },
+        {
+          "speaker": "Member of the Public - Matthew Civello",
+          "t_sec": 3741.2,
+          "text": "Implemented carefully, Intro 367 could significantly reduce waste transfer burdens and truck traffic in overburdened communities of Brooklyn Community District 1, Queens Community District 12, Bronx Community Districts 1 and 2."
+        },
+        {
+          "speaker": "Member of the Public - Matthew Civello",
+          "t_sec": 3755.6,
+          "text": "Intro 367 builds directly on local law 152, the waste equity law, enacted to reduce the disproportionate impacts of truck traffic and waste processing in environmental justice communities,"
+        },
+        {
+          "speaker": "Member of the Public - Matthew Civello",
+          "t_sec": 3768.7,
+          "text": "and with a hope of preventing new neighborhoods from becoming the next dumping grounds."
+        },
+        {
+          "speaker": "Member of the Public - Matthew Civello",
+          "t_sec": 3773.1,
+          "text": "Intro 367 could now help provide meaningful relief"
+        },
+        {
+          "speaker": "Member of the Public - Matthew Civello",
+          "t_sec": 3777.1,
+          "text": "to those communities that have carried those burdens for decades."
+        },
+        {
+          "speaker": "Member of the Public - Matthew Civello",
+          "t_sec": 3780.0,
+          "text": "decades."
+        },
+        {
+          "speaker": "Member of the Public - Matthew Civello",
+          "t_sec": 3781.5,
+          "text": "Before this committee in 2023, the Department of Sanitation stated that it had asked commercial waste zone proposers whether they were interested in using the city's marine transfer stations and that the RFP process would help determine that demand."
+        },
+        {
+          "speaker": "Member of the Public - Matthew Civello",
+          "t_sec": 3795.1,
+          "text": "We respectfully request that those findings be made public along with a public evaluation of the feasibility and benefits of accepting commercial waste at these facilities."
+        },
+        {
+          "speaker": "Member of the Public - Matthew Civello",
+          "t_sec": 3805.5,
+          "text": "A better utilization of the city's marine and rail transfer stations as suggested by Intro 367"
+        },
+        {
+          "speaker": "Member of the Public - Matthew Civello",
+          "t_sec": 3811.9,
+          "text": "can improve the distribution of commercial waste across the city of New York, reduce truck traffic in historically overburdened neighborhoods, and help fulfill the promise of the waste equity law."
+        },
+        {
+          "speaker": "Member of the Public - Matthew Civello",
+          "t_sec": 3824.8,
+          "text": "Again, thank you for the opportunity to testify today."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 3827.8,
+          "text": "Thank you so much for your testimony."
+        }
+      ]
+    },
+    {
+      "end_sec": 4014.168,
+      "id": "031",
+      "slug": "wendy-frank-swabs-on-intros-356-and-353-working-group-recommendations",
+      "start_sec": 3833.16,
+      "summary": "Wendy Frank supports Intro 356 for community composter financial sustainability and Intro 353's working group, recommending expanded membership including commercial waste customers and micro-haulers, annual public reports, and greater transparency. She also reminds the committee about composting at large citywide events.",
+      "title": "Wendy Frank (SWABs) on Intros 356 and 353 working group recommendations",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Wendy Frank",
+          "t_sec": 3833.16,
+          "text": "Hi there, Wendy Frank from the Manhattan Solid Waste Advisory Board."
+        },
+        {
+          "speaker": "Member of the Public - Wendy Frank",
+          "t_sec": 3836.76,
+          "text": "The Manhattan, Brooklyn, Bronx, and Queens Solid Waste Advisory Boards support both Intro 356 and Intro 353 and commend the council for advancing these important measures."
+        },
+        {
+          "speaker": "Member of the Public - Wendy Frank",
+          "t_sec": 3848.76,
+          "text": "Intro 356 would provide community composters with a more sustainable and diversified funding model by allowing them to charge for food scrap collections and sell the compost they produce."
+        },
+        {
+          "speaker": "Member of the Public - Wendy Frank",
+          "t_sec": 3861.06,
+          "text": "The swabs recommend expanding the bill to also allow community composters to charge local entities for food scrap pickup and drop-off services."
+        },
+        {
+          "speaker": "Member of the Public - Wendy Frank",
+          "t_sec": 3870.46,
+          "text": "This additional flexibility would strengthen the long-term financial sustainability of community compost programs across New York City."
+        },
+        {
+          "speaker": "Member of the Public - Wendy Frank",
+          "t_sec": 3878.36,
+          "text": "The swabs also support Intro 353, establishing a commercial waste zone working group with representation from waste industry labor, environmental organizations, environmental justice advocates, and"
+        },
+        {
+          "speaker": "Member of the Public - Wendy Frank",
+          "t_sec": 3893.96,
+          "text": "micro haulers."
+        },
+        {
+          "speaker": "Member of the Public - Wendy Frank",
+          "t_sec": 3895.26,
+          "text": "This diverse membership will ensure that commercial waste zones achieve the objectives established under local law 199 of 2019."
+        },
+        {
+          "speaker": "Member of the Public - Wendy Frank",
+          "t_sec": 3905.96,
+          "text": "We recommend the working group issue an annual public report evaluating the implementation of commercial waste zones, including their impacts on truck traffic, emissions, public, and worker safety, and other key performance."
+        },
+        {
+          "speaker": "Member of the Public - Wendy Frank",
+          "t_sec": 3920.36,
+          "text": "At the conclusion of its work, the group will also issue recommendations for improving the program."
+        },
+        {
+          "speaker": "Member of the Public - Wendy Frank",
+          "t_sec": 3926.46,
+          "text": "Finally, we recommend adding commercial waste customers to the working group and providing opportunities for solid waste advisory boards and other stakeholders to observe meetings."
+        },
+        {
+          "speaker": "Member of the Public - Wendy Frank",
+          "t_sec": 3938.36,
+          "text": "Greater transparency and broader participation will strengthen both the working group and the successful implementation of commercial waste zones."
+        },
+        {
+          "speaker": "Member of the Public - Wendy Frank",
+          "t_sec": 3947.86,
+          "text": "Thank you for your consideration."
+        },
+        {
+          "speaker": "Member of the Public - Wendy Frank",
+          "t_sec": 3949.46,
+          "text": "And also, you may remember me from the last hearing when..."
+        },
+        {
+          "speaker": "Member of the Public - Wendy Frank",
+          "t_sec": 3952.96,
+          "text": "I informed you about bananas."
+        },
+        {
+          "speaker": "Member of the Public - Wendy Frank",
+          "t_sec": 3958.76,
+          "text": "And when you have a large citywide event with over 40,000 people and you don't compost those bananas, it's bananas."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 3968.56,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 3970.06,
+          "text": "Thank you so much for your testimony."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 3972.56,
+          "text": "And this panel is relieved."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 3974.66,
+          "text": "And for our next and last panel, can I please have Domingo Morales, Justin Green, and Aaron Wright."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 3991.668,
+          "text": "I want to end with Aaron."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 3993.268,
+          "text": "Perfect."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 4003.668,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 4159.58,
+      "id": "032",
+      "slug": "domingo-morales-compost-power-on-nycha-composting-and-intros-369-356",
+      "start_sec": 4014.168,
+      "summary": "Domingo Morales of Compost Power, operating eight compost sites on public housing campuses, supports Intro 369 for local composting capacity and Intro 356 for financial sustainability. He describes a hyperlocal model of collecting, processing, and distributing compost on NYCHA campuses for free food and education.",
+      "title": "Domingo Morales (Compost Power) on NYCHA composting and Intros 369, 356",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 4014.168,
+          "text": "Domingo, you can begin."
+        },
+        {
+          "speaker": "Member of the Public - Domingo Morales",
+          "t_sec": 4018.968,
+          "text": "Thank you for having me."
+        },
+        {
+          "speaker": "Member of the Public - Domingo Morales",
+          "t_sec": 4020.068,
+          "text": "I'm Domingo Morales from Compost Power."
+        },
+        {
+          "speaker": "Member of the Public - Domingo Morales",
+          "t_sec": 4022.768,
+          "text": "We operate eight compost sites on public housing campuses throughout the city."
+        },
+        {
+          "speaker": "Member of the Public - Domingo Morales",
+          "t_sec": 4028.368,
+          "text": "And I'm here to support Intro 369."
+        },
+        {
+          "speaker": "Member of the Public - Domingo Morales",
+          "t_sec": 4031.668,
+          "text": "I think it would behoove New York City to have more local compost in New York."
+        },
+        {
+          "speaker": "Member of the Public - Domingo Morales",
+          "t_sec": 4037.968,
+          "text": "I think the seven transfer stations that we do have, it's like a double route where we have to take it to a transfer station, emulsify it, turn it to a liquid form, and then take it to a water treatment plant."
+        },
+        {
+          "speaker": "Member of the Public - Domingo Morales",
+          "t_sec": 4050.868,
+          "text": "And that just doubles the amount of trucking that we need."
+        },
+        {
+          "speaker": "Member of the Public - Domingo Morales",
+          "t_sec": 4053.668,
+          "text": "Also, there's a lot of biosolids that end up in landfill anyway."
+        },
+        {
+          "speaker": "Member of the Public - Domingo Morales",
+          "t_sec": 4057.168,
+          "text": "I think with the compost."
+        },
+        {
+          "speaker": "Member of the Public - Domingo Morales",
+          "t_sec": 4059.168,
+          "text": "Sites that we have in New York City, we're able to keep a hyperlocal model, like at our public housing campuses, we're able to collect the waste on campus, process it on campus, distribute the compost on campus, grow free food for"
+        },
+        {
+          "speaker": "Member of the Public - Domingo Morales",
+          "t_sec": 4072.768,
+          "text": "residents, provide environmental education for young adults, as well as the kids who attend the local schools in the community, and even in some cases, seniors are coming out to sift through finished compost and use their finished compost on their gardening efforts."
+        },
+        {
+          "speaker": "Member of the Public - Domingo Morales",
+          "t_sec": 4088.368,
+          "text": "I think public housing has the second largest tree canopy in New York City, so it's beneficial to have local processing sites on public housing."
+        },
+        {
+          "speaker": "Member of the Public - Domingo Morales",
+          "t_sec": 4096.468,
+          "text": "And I think with Intro 369, Department of Sanitation can't do it by themselves."
+        },
+        {
+          "speaker": "Member of the Public - Domingo Morales",
+          "t_sec": 4101.868,
+          "text": "So they'll need to tap into other community composting support networks."
+        },
+        {
+          "speaker": "Member of the Public - Domingo Morales",
+          "t_sec": 4106.668,
+          "text": "They'll need to partner with New York City Housing Authority."
+        },
+        {
+          "speaker": "Member of the Public - Domingo Morales",
+          "t_sec": 4108.868,
+          "text": "They'll need to partner with Parks Department in order to get the space to build these composting sites that we need."
+        },
+        {
+          "speaker": "Member of the Public - Domingo Morales",
+          "t_sec": 4114.568,
+          "text": "So it will provide a more holistic approach to organic waste in New York City, and it will provide more of a community tapped in."
+        },
+        {
+          "speaker": "Member of the Public - Domingo Morales",
+          "t_sec": 4122.768,
+          "text": "So I'm in support for that bill."
+        },
+        {
+          "speaker": "Member of the Public - Domingo Morales",
+          "t_sec": 4124.468,
+          "text": "I also think Intro 356, we're in support for that as well because those are rules that were in place when Department of Sanitation controlled the New York City Compost Project."
+        },
+        {
+          "speaker": "Member of the Public - Domingo Morales",
+          "t_sec": 4135.968,
+          "text": "They no longer fund the New York City Compost Project."
+        },
+        {
+          "speaker": "Member of the Public - Domingo Morales",
+          "t_sec": 4139.468,
+          "text": "We now have the New York City Community Compost Network that's funded by City Council."
+        },
+        {
+          "speaker": "Member of the Public - Domingo Morales",
+          "t_sec": 4144.568,
+          "text": "And I think if we allow people to explore different options for funding, we'll be able to make community compost a little bit more sustainable."
+        },
+        {
+          "speaker": "Member of the Public - Matthew Civello",
+          "t_sec": 4152.368,
+          "text": "Thank you so much for your testimony."
+        }
+      ]
+    },
+    {
+      "end_sec": 4304.008,
+      "id": "033",
+      "slug": "justin-green-big-reuse-on-expanding-composting-infrastructure-citywide",
+      "start_sec": 4159.58,
+      "summary": "Justin Green of Big Reuse supports expanding composting capacity, citing potential sites at NYCHA, parks, community gardens, and brownfield sites. He argues against relying on anaerobic digestion due to contaminated biosolids and advocates for compost as green infrastructure that improves water absorption and plant growth.",
+      "title": "Justin Green (Big Reuse) on expanding composting infrastructure citywide",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Justin Green",
+          "t_sec": 4159.58,
+          "text": "On now on hi I'm Justin green I'm the executive director of big Reeves thanks for having us all here to testify when a second pretty much everything Domingo said"
+        },
+        {
+          "speaker": "Member of the Public - Justin Green",
+          "t_sec": 4170.38,
+          "text": "both of us have been composting in New York City for a while now and we can see the capacity that's available in the city to grow green infrastructure to increase composting"
+        },
+        {
+          "speaker": "Member of the Public - Justin Green",
+          "t_sec": 4182.88,
+          "text": "capacity throughout the city."
+        },
+        {
+          "speaker": "Member of the Public - Justin Green",
+          "t_sec": 4184.88,
+          "text": "So at NYCHA Lake Domingos piloted and run for years."
+        },
+        {
+          "speaker": "Member of the Public - Justin Green",
+          "t_sec": 4189.78,
+          "text": "In parks, we're working with Central Parks to set up a site, or we have a site operating in Central Park now to compost all their landscaping waste."
+        },
+        {
+          "speaker": "Member of the Public - Justin Green",
+          "t_sec": 4198.48,
+          "text": "We can expand that to other parks."
+        },
+        {
+          "speaker": "Member of the Public - Justin Green",
+          "t_sec": 4200.98,
+          "text": "We all work, both of us work in community gardens and helping them maximize their composting."
+        },
+        {
+          "speaker": "Member of the Public - Justin Green",
+          "t_sec": 4206.08,
+          "text": "And there's large-scale brownfield sites in northern Astoria, in East Williamsburg, that are huge brownfield sites that could be"
+        },
+        {
+          "speaker": "Member of the Public - Justin Green",
+          "t_sec": 4216.28,
+          "text": "not great for building residential because of the brownfield nature, but could be used for green infrastructure projects like this."
+        },
+        {
+          "speaker": "Member of the Public - Justin Green",
+          "t_sec": 4224.98,
+          "text": "And there are examples of these kind of large-scale capacity systems being installed in buildings, enclosed, so there's no odor issues going to the outside community."
+        },
+        {
+          "speaker": "Member of the Public - Justin Green",
+          "t_sec": 4236.88,
+          "text": "So it's possible."
+        },
+        {
+          "speaker": "Member of the Public - Justin Green",
+          "t_sec": 4238.38,
+          "text": "If we can dream big, we can make this happen in the city, reduce our impact on other communities from"
+        },
+        {
+          "speaker": "Member of the Public - Justin Green",
+          "t_sec": 4243.68,
+          "text": "exporting our waste, reduce our reliance on anaerobic digestion, which as a lot of speakers have talked about, reduces"
+        },
+        {
+          "speaker": "Member of the Public - Justin Green",
+          "t_sec": 4252.48,
+          "text": "unusable biosolids at this point, and not the compost we had all fought to have be produced through all of our work."
+        },
+        {
+          "speaker": "Member of the Public - Justin Green",
+          "t_sec": 4261.98,
+          "text": "The biosolids are contaminated with everything that goes down into the sewer, PFAS, microplastics, anything else everyone pours down the drain in the city ends up in our biosolids at the sewage treatment plant."
+        },
+        {
+          "speaker": "Member of the Public - Justin Green",
+          "t_sec": 4274.48,
+          "text": "So it's not particularly usable."
+        },
+        {
+          "speaker": "Member of the Public - Justin Green",
+          "t_sec": 4277.88,
+          "text": "But compost is, and with growing resiliency needs in the city,"
+        },
+        {
+          "speaker": "Member of the Public - Justin Green",
+          "t_sec": 4282.28,
+          "text": "And compost provides sort of greater water absorption, greater plant growth, and other green infrastructure improvements."
+        },
+        {
+          "speaker": "Member of the Public - Justin Green",
+          "t_sec": 4290.58,
+          "text": "And I think we could do it."
+        },
+        {
+          "speaker": "Member of the Public - Justin Green",
+          "t_sec": 4291.88,
+          "text": "Thanks."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 4296.508,
+          "text": "No better way to end our hearing today than with..."
+        }
+      ]
+    },
+    {
+      "end_sec": 4474.508,
+      "id": "034",
+      "slug": "erin-wright-bp-reynoso-s-office-on-cwz-bills-and-intro-369",
+      "start_sec": 4304.008,
+      "summary": "Erin Wright representing Brooklyn Borough President Antonio Reynoso urges passage of Intro 353's working group and Intro 367 for marine transfer stations, expresses concern about Intro 911A's precedent, and provides written comments on Intro 369. She notes positive early CWZ implementation results on safety, unionization, and costs.",
+      "title": "Erin Wright (BP Reynoso's office) on CWZ bills and Intro 369",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Erin Wright",
+          "t_sec": 4304.008,
+          "text": "Thank you so much."
+        },
+        {
+          "speaker": "Member of the Public - Erin Wright",
+          "t_sec": 4305.108,
+          "text": "Good morning, Chair, and thank you for holding this hearing."
+        },
+        {
+          "speaker": "Member of the Public - Erin Wright",
+          "t_sec": 4307.508,
+          "text": "My name is Erin Wright, and I'm here representing Brooklyn Borough President Antonio Reynoso."
+        },
+        {
+          "speaker": "Member of the Public - Erin Wright",
+          "t_sec": 4312.408,
+          "text": "He appreciates your ongoing attention to the rollout of commercial waste zones, a program he created during his time in your position."
+        },
+        {
+          "speaker": "Member of the Public - Erin Wright",
+          "t_sec": 4319.208,
+          "text": "When fully implemented, this program will address issues with the private carting industry by limiting vehicle miles traveled, increasing enforcement of dangerous driving,"
+        },
+        {
+          "speaker": "Member of the Public - Erin Wright",
+          "t_sec": 4327.908,
+          "text": "incentivizing the replacement of out-of-date fleets, requiring more attention to worker safety, and increasing diversion of waste from landfills."
+        },
+        {
+          "speaker": "Member of the Public - Erin Wright",
+          "t_sec": 4336.208,
+          "text": "Despite unfortunate delays and our continued calls for DSNY to speed up the program's rollout, the BP has been pleased with its implementation so far."
+        },
+        {
+          "speaker": "Member of the Public - Erin Wright",
+          "t_sec": 4344.508,
+          "text": "Initial information indicates that increased enforcement in the active zones is leading to improved safety outcomes, that more workers now have union protection, and that the program has not caused costs to rise dramatically as some have predicted."
+        },
+        {
+          "speaker": "Member of the Public - Erin Wright",
+          "t_sec": 4356.908,
+          "text": "I'm here to provide comments on the three bills being heard today in relation to CWZ as well as Intro 369."
+        },
+        {
+          "speaker": "Member of the Public - Erin Wright",
+          "t_sec": 4364.608,
+          "text": "First, Intro 353 would create a CWZ working group."
+        },
+        {
+          "speaker": "Member of the Public - Erin Wright",
+          "t_sec": 4368.208,
+          "text": "The Council has been considering this bill for many years and it's time to finally pass it."
+        },
+        {
+          "speaker": "Member of the Public - Erin Wright",
+          "t_sec": 4372.808,
+          "text": "Having experts at the table from both within and outside the industry can only help guide the process and ensure its continued success."
+        },
+        {
+          "speaker": "Member of the Public - Erin Wright",
+          "t_sec": 4380.408,
+          "text": "Intro 367 would require DSNY to establish a plan"
+        },
+        {
+          "speaker": "Member of the Public - Erin Wright",
+          "t_sec": 4383.808,
+          "text": "for accepting commercial waste at the marine transfer stations."
+        },
+        {
+          "speaker": "Member of the Public - Erin Wright",
+          "t_sec": 4387.208,
+          "text": "BP Reynoso originally introduced this bill when he was at City Council, and unfortunately DSNY continues to slow roll this necessary measure, which would remove dangerous and polluting waste trucks from our streets."
+        },
+        {
+          "speaker": "Member of the Public - Erin Wright",
+          "t_sec": 4398.508,
+          "text": "Thanks to advocacy by the EJ community, marine transfer stations,"
+        },
+        {
+          "speaker": "Member of the Public - Erin Wright",
+          "t_sec": 4404.608,
+          "text": "Remove waste by barge and rail rather than long haul truck."
+        },
+        {
+          "speaker": "Member of the Public - Erin Wright",
+          "t_sec": 4408.008,
+          "text": "This bill would push DSNY to create a clear plan that would support our EJ communities and we urge the council to pass it quickly."
+        },
+        {
+          "speaker": "Member of the Public - Erin Wright",
+          "t_sec": 4414.808,
+          "text": "Intro 911A would increase the number of carters allowed to participate in CWZ in Staten Island."
+        },
+        {
+          "speaker": "Member of the Public - Erin Wright",
+          "t_sec": 4420.708,
+          "text": "BP Reynoso has concerns about this proposal and the precedent it could set for other zones citywide."
+        },
+        {
+          "speaker": "Member of the Public - Erin Wright",
+          "t_sec": 4427.008,
+          "text": "Further comments are provided in writing on 369 in addition to a copy of our report on the bill."
+        },
+        {
+          "speaker": "Member of the Public - Erin Wright",
+          "t_sec": 4433.808,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 4434.908,
+          "text": "I just want to show everyone what experience looks like."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 4443.508,
+          "text": "We really thank you for all your testimony and your reports and Brooklyn Borough President Antonio Reynoso for all of his work on this committee and the work that he will continue to do."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 4454.708,
+          "text": "So thank you."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 4457.108,
+          "text": "And with that, this panel is dismissed."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 4460.908,
+          "text": "And we thought we were done."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 4462.208,
+          "text": "We are not done."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 4464.808,
+          "text": "They have joined us on Zoom from the ether."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 4469.508,
+          "text": "Lou, can you hear us?"
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 4472.408,
+          "text": "You may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 4614.508,
+      "id": "035",
+      "slug": "lewis-dubuque-nwra-on-intro-353-367-and-911a",
+      "start_sec": 4474.508,
+      "summary": "Lou Dubuque of the National Waste and Recycling Association strongly supports Intro 353's working group, supports expanding marine and rail use with concerns about mandatory participation under Intro 367, and notes written testimony was submitted on Intro 911A. His oral testimony is cut off by the time limit.",
+      "title": "Lewis Dubuque (NWRA) on Intro 353, 367, and 911A",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Lewis Dubuque",
+          "t_sec": 4474.508,
+          "text": "Yes, I can hear everyone."
+        },
+        {
+          "speaker": "Member of the Public - Lewis Dubuque",
+          "t_sec": 4476.608,
+          "text": "Good afternoon, Chair Sanchez and members of the committee."
+        },
+        {
+          "speaker": "Member of the Public - Lewis Dubuque",
+          "t_sec": 4479.408,
+          "text": "My name is Lou Dubuque, Vice President for the Northeast Region for the National Waste and Recycling Association."
+        },
+        {
+          "speaker": "Member of the Public - Lewis Dubuque",
+          "t_sec": 4485.708,
+          "text": "NWRA represents the private companies that collect and manage commercial waste and recyclables throughout New York City."
+        },
+        {
+          "speaker": "Member of the Public - Lewis Dubuque",
+          "t_sec": 4492.108,
+          "text": "Our members will serve customers in 19 of the city's 20 commercial waste zones when fully implemented."
+        },
+        {
+          "speaker": "Member of the Public - Lewis Dubuque",
+          "t_sec": 4498.208,
+          "text": "I want to thank you for the opportunity to testify in intros 353, 367, and 911A."
+        },
+        {
+          "speaker": "Member of the Public - Lewis Dubuque",
+          "t_sec": 4504.608,
+          "text": "First, NWRA strongly supports Intro 353, establishing a commercial waste zone working group."
+        },
+        {
+          "speaker": "Member of the Public - Lewis Dubuque",
+          "t_sec": 4511.708,
+          "text": "Two years ago, I testified before this committee in support of creating a formal stakeholder working group because we believed a program as large and complex as the CWZ would require ongoing collaboration."
+        },
+        {
+          "speaker": "Member of the Public - Lewis Dubuque",
+          "t_sec": 4523.908,
+          "text": "As implementation has progressed, that has proved to be exactly the case."
+        },
+        {
+          "speaker": "Member of the Public - Lewis Dubuque",
+          "t_sec": 4528.308,
+          "text": "The CWZ program is unlike anything else in the country."
+        },
+        {
+          "speaker": "Member of the Public - Lewis Dubuque",
+          "t_sec": 4532.208,
+          "text": "While there have been challenges, our industry remains fully committed to making it successful."
+        },
+        {
+          "speaker": "Member of the Public - Lewis Dubuque",
+          "t_sec": 4537.308,
+          "text": "Our members have invested millions of dollars in new equipment, facilities, employees, and infrastructure to help achieve the city's goals of improving safety, reducing traffic, lowering emissions, and providing reliable services."
+        },
+        {
+          "speaker": "Member of the Public - Lewis Dubuque",
+          "t_sec": 4550.708,
+          "text": "A permanent working group will allow DSNY, industry, labor, elected officials, and other stakeholders to identify challenges early and develop practical solutions together and continue improving the program."
+        },
+        {
+          "speaker": "Member of the Public - Lewis Dubuque",
+          "t_sec": 4563.808,
+          "text": "over time."
+        },
+        {
+          "speaker": "Member of the Public - Lewis Dubuque",
+          "t_sec": 4565.008,
+          "text": "We respectfully urge the committee to approve Intro 353."
+        },
+        {
+          "speaker": "Member of the Public - Lewis Dubuque",
+          "t_sec": 4570.208,
+          "text": "Regarding Intro 367, NRA supports expanding environmentally responsible transportation options, including greater use of marine and rail."
+        },
+        {
+          "speaker": "Member of the Public - Lewis Dubuque",
+          "t_sec": 4579.508,
+          "text": "Those are all goals we share."
+        },
+        {
+          "speaker": "Member of the Public - Lewis Dubuque",
+          "t_sec": 4582.308,
+          "text": "However, we have serious concerns that participation becomes mandatory."
+        },
+        {
+          "speaker": "Member of the Public - Lewis Dubuque",
+          "t_sec": 4586.308,
+          "text": "During the CWZ procurement, companies developed bids, negotiated disposal agreements, invested in infrastructure, and established customer pricing based on the rules that existed at the time."
+        },
+        {
+          "speaker": "Member of the Public - Lewis Dubuque",
+          "t_sec": 4598.408,
+          "text": "Requiring companies after contract..."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 4600.208,
+          "text": "Thank you, your time expired."
+        },
+        {
+          "speaker": "Member of the Public - Lewis Dubuque",
+          "t_sec": 4603.108,
+          "text": "Okay, we've submitted written testimony earlier, so you'll have the chance to read that there."
+        },
+        {
+          "speaker": "Member of the Public - Lewis Dubuque",
+          "t_sec": 4609.808,
+          "text": "Thank you for the opportunity to testify today."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 4612.508,
+          "text": "Thank you so much."
+        }
+      ]
+    },
+    {
+      "end_sec": 4629.867,
+      "id": "036",
+      "slug": "chair-sanchez-closes-the-hearing",
+      "start_sec": 4614.508,
+      "summary": "Sanchez asks if there are any additional public comments, hearing none, wishes everyone a happy summer and adjourns until September.",
+      "title": "Chair Sanchez closes the hearing",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 4614.508,
+          "text": "Are there any other takers for comments at this time?"
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 4620.408,
+          "text": "Going once, going twice."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 4623.108,
+          "text": "Hearing none."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 4624.108,
+          "text": "Happy summer, everyone."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 4625.108,
+          "text": "I will see you in September."
+        }
+      ]
+    }
+  ],
+  "date": "2026-07-01",
+  "duration_sec": 4629.867,
+  "slug": "2026-07-01-1000-am-committee-on-sanitation-and-solid-waste-management",
+  "summary": [
+    "Committee on Sanitation and Solid Waste Management holds a hearing on six bills covering sidewalk cleanliness enforcement, commercial waste zone working group, community composting fees, commercial waste at city transfer stations, per-borough composting facilities, and Staten Island CWZ expansion and delay.",
+    "DSNY Commissioner Gregory Anderson testifies in support of Intro 75, welcomes the working group concept in Intro 353, deems Intro 356 unnecessary, and opposes Intros 367, 369, and 911A citing implementation, feasibility, and program integrity concerns.",
+    "Public witnesses from environmental organizations, solid waste advisory boards, composting groups, and the waste industry largely support expanding composting capacity and the CWZ working group, while most oppose Intro 911A's disruption of the Staten Island commercial waste zone."
+  ],
+  "tags": [
+    "HEARING"
+  ],
+  "time": "10:00 AM",
+  "title": "Committee on Sanitation and Solid Waste Management",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-PV-CH-COM_260701-104102/video-web.mp4"
+  }
+}

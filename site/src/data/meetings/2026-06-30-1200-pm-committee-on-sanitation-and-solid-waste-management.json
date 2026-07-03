@@ -1,0 +1,771 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 42.932,
+      "id": "001",
+      "slug": "staff-housekeeping-and-hearing-setup",
+      "start_sec": 0.8,
+      "summary": "Council staff conduct pre-hearing preparations, confirm attendees, and remind those present to silence electronic devices and not approach the dais.",
+      "title": "Staff housekeeping and hearing setup",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 0.8,
+          "text": "Is Gail coming?"
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 4.9,
+          "text": "No."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 25.6,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 26.6,
+          "text": "Welcome to the New York City Council."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 28.2,
+          "text": "Vote for the coming out of sanitation and solid waste management."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 31.4,
+          "text": "Please sign all self-electronic devices."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 33.5,
+          "text": "Moving forward, no one is to approach the dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 35.8,
+          "text": "Chair Sanchez, we are ready to begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 64.332,
+      "id": "002",
+      "slug": "chair-sanchez-opens-hearing-on-budget-day",
+      "start_sec": 42.932,
+      "summary": "Chair Justin Sanchez welcomes everyone and notes it is Budget Day, then restarts his opening remarks after a brief pause for water.",
+      "title": "Chair Sanchez opens hearing on Budget Day",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 42.932,
+          "text": "Good morning, everyone."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 44.132,
+          "text": "Happy Budget Day."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 45.332,
+          "text": "Oh."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 49.632,
+          "text": "That's why I needed more water."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 53.732,
+          "text": "Alrighty, let's start that again."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 55.732,
+          "text": "Good morning, everyone, and happy Budget Day."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 62.032,
+          "text": "Yay."
+        }
+      ]
+    },
+    {
+      "end_sec": 94.632,
+      "id": "003",
+      "slug": "chair-sanchez-states-hearing-purpose-vote-on-intro-31a-and-intro-92a",
+      "start_sec": 64.332,
+      "summary": "Sanchez explains the committee is voting on Intro 31A, sponsored by Majority Leader Abreu, and Intro 92A by Councilmember Gale Brewer, both previously heard on May 19, 2026.",
+      "title": "Chair Sanchez states hearing purpose: vote on Intro 31A and Intro 92A",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 64.332,
+          "text": "Welcome to today's hearing by the Committee on Sanitation and Solid Waste Management."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 69.132,
+          "text": "The purpose of this hearing is to hold a vote on Introduction 31A, sponsored by Majority Leader Shaun-Abreu, and Introduction 92A by Councilmember Gail Brewer."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 79.232,
+          "text": "The committee previously heard these bills at a hearing on May 19, 2026, where it received testimonies from representatives of the Department of Sanitation and interested members of the public."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 91.232,
+          "text": "If you weren't there, you missed out on some riveting action."
+        }
+      ]
+    },
+    {
+      "end_sec": 130.432,
+      "id": "004",
+      "slug": "chair-sanchez-describes-intro-31a-organic-waste-separation-requirements",
+      "start_sec": 94.632,
+      "summary": "Sanchez outlines how Intro 31A would require DSNY to designate additional covered establishments for organic waste separation by December 2026, with compliance tied to commercial waste zone rollout, and would require carters to provide food donation information.",
+      "title": "Chair Sanchez describes Intro 31A organic waste separation requirements",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 94.632,
+          "text": "Intro number 31A would require DSNY to, by December 1st, 2026, designate additional covered establishments to be subject to requirements regarding separation and disposal of organic waste."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 108.132,
+          "text": "Any establishment so designated would be required to comply with such requirements on the latter of June 1st, 2027, or when the establishment's commercial waste zone goes into effect."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 119.332,
+          "text": "The bill would also require commercial waste zone awardee carters to provide information on the donation of excess edible food to any establishment."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 128.332,
+          "text": "receiving organic waste collection."
+        }
+      ]
+    },
+    {
+      "end_sec": 155.432,
+      "id": "005",
+      "slug": "chair-sanchez-reads-abreu-statement-on-expanding-organic-waste-designation",
+      "start_sec": 130.432,
+      "summary": "Sanchez reads Majority Leader Abreu's statement explaining that Intro 31A would require DSNY to review and designate additional business categories for organic waste separation, building on the city's growing organics system and household requirements.",
+      "title": "Chair Sanchez reads Abreu statement on expanding organic waste designation",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 130.432,
+          "text": "I will now read a statement on behalf of Council Member, Majority Leader, Abreu."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 137.732,
+          "text": "Thank you, Chair Sanchez."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 138.932,
+          "text": "You're welcome."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 139.832,
+          "text": "For allowing me to speak on my bill."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 143.932,
+          "text": "You have a lovely vase."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 146.032,
+          "text": "Intro 31A would require the Department of Sanitation to review and designate additional categories of businesses that may be subject to organic waste separation and disposal requirements."
+        }
+      ]
+    },
+    {
+      "end_sec": 226.732,
+      "id": "006",
+      "slug": "abreu-statement-environmental-and-cost-benefits-of-organic-waste-separation",
+      "start_sec": 155.432,
+      "summary": "Continuing Abreu's statement, Sanchez describes how requiring more businesses to separate organics reduces landfill strain, lowers disposal costs under commercial waste zone rules, and fosters a more sustainable commercial waste system.",
+      "title": "Abreu statement: environmental and cost benefits of organic waste separation",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 155.432,
+          "text": "This will help ensure more establishments participate in our organic collections recycling system and practice responsible waste management."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 163.532,
+          "text": "This bill..."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 164.832,
+          "text": "Builds on the growing success of our city's organics waste system, helping reduce strain on landfill and support our environmental goals."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 173.232,
+          "text": "Households are now required to separate their organic waste, and businesses should be held to the same standard."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 178.432,
+          "text": "This bill is not just good for the environment, it's great."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 182.532,
+          "text": "But also good for businesses'bottom lines by reducing waste disposal costs."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 187.632,
+          "text": "Under the city's current commercial waste zone rules, carters that collect commercial waste must charge less for organic waste collection than general refuse collection."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 195.332,
+          "text": "Requiring new types of establishments to separate organics will help save their businesses money as more of their waste is collected at the mandated lower rates."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 204.332,
+          "text": "Ultimately, it will cost businesses less to do the right thing for our environment."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 209.632,
+          "text": "Intro 31A will help foster a more sustainable and environmental-friendly commercial waste system in our city, and I look forward to working with my colleagues."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 218.332,
+          "text": "to move this bill forward."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 220.732,
+          "text": "I don't know why there's a pause there, but there is, so I'll say it out loud, pause."
+        }
+      ]
+    },
+    {
+      "end_sec": 265.604,
+      "id": "007",
+      "slug": "chair-sanchez-introduces-intro-92a-on-alternate-side-parking-stickers",
+      "start_sec": 226.732,
+      "summary": "Sanchez introduces Intro 92A, which would permit DSNY, DOT, and designated agencies to place stickers on vehicle windows to enforce alternate side parking rules, joking that the stickers will be sticky and hated.",
+      "title": "Chair Sanchez introduces Intro 92A on alternate side parking stickers",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 226.732,
+          "text": "All right."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 227.632,
+          "text": "I want to say thank you to Councilmember Gail Brewer for joining us."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 232.032,
+          "text": "And that brings us to Intro 92A, which would permit the Department of Transportation, DSNY, and any department designated by DSNY to place a sticker."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 241.932,
+          "text": "No larger than 8.5 by 11 inches on the window of any motor vehicle as a method of enforcing alternate side parking rules."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 249.532,
+          "text": "It will be sticky."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 250.732,
+          "text": "You will hate it."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 251.732,
+          "text": "It will suck."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 252.932,
+          "text": "Move your cars."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 254.632,
+          "text": "I will now turn it over to Councilmember Brewer to provide a statement on her bill."
+        }
+      ]
+    },
+    {
+      "end_sec": 296.704,
+      "id": "008",
+      "slug": "brewer-on-history-of-sanitation-stickers-as-effective-street-cleaning-tool",
+      "start_sec": 265.604,
+      "summary": "Councilmember Gale Brewer recounts how DSNY began placing day-glow green stickers in 1987 on vehicles with repeated alternate side violations, calling them one of the city's most effective tools for keeping streets clean before the Council banned them in 2012.",
+      "title": "Brewer on history of sanitation stickers as effective street cleaning tool",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 265.604,
+          "text": "Bernacoff is very nice to switch for a minute."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 268.004,
+          "text": "This morning I'm very nice."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 268.804,
+          "text": "So even though she hates the stickers."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 272.804,
+          "text": "So thank you very much, Mr."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 274.304,
+          "text": "Chair."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 274.704,
+          "text": "I have to say in 87, sanitation started placing day glow green stickers on vehicles, those who had repeated alternate side violations."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 285.304,
+          "text": "That was because things were not being cleaned on the street."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 288.504,
+          "text": "These stickers are credited as one of the city's single most effective tools for helping keep our streets clean for all New Yorkers."
+        }
+      ]
+    },
+    {
+      "end_sec": 348.504,
+      "id": "009",
+      "slug": "brewer-on-2012-sticker-ban-and-scope-of-alternate-side-violations",
+      "start_sec": 296.704,
+      "summary": "Brewer explains that after the 2012 ban, many drivers calculate it is cheaper to risk a $65 ticket than pay for garage parking, citing a 2026 DSNY survey estimating half a million cars violate street cleaning regulations weekly, preventing cleaning of over 3,000 miles of streets.",
+      "title": "Brewer on 2012 sticker ban and scope of alternate side violations",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 296.704,
+          "text": "Then after the council, and I must admit, I think I probably voted for it, banned the stickers in 2012, too many people make the following calculation."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 306.004,
+          "text": "It's cheaper to not move your car for alternate side parking and risk paying the $65 parking ticket than to pay for a garage."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 314.604,
+          "text": "In April 26 survey, the Department of Sanitation estimated half a million cars violated street cleaning regulations on over 1,200 routes each week."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 325.904,
+          "text": "Preventing the cleaning of more than 3,000 miles of streets."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 330.604,
+          "text": "Street cleaning works when cars move."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 332.304,
+          "text": "It doesn't work otherwise."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 334.304,
+          "text": "The sanitation sweepers cannot clean the curbling."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 337.704,
+          "text": "They weave in and out of parked cars while litter, debris, and grime build up."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 342.204,
+          "text": "So I believe it's time to restore this tool to improve compliance and help keep streets clean for all New Yorkers."
+        }
+      ]
+    },
+    {
+      "end_sec": 422.304,
+      "id": "010",
+      "slug": "brewer-on-restoring-stickers-camera-alternative-and-acknowledgments",
+      "start_sec": 348.504,
+      "summary": "Brewer argues for restoring stickers to improve compliance, notes she would prefer cameras on sanitation sweepers if Albany passed enabling legislation, thanks Speaker Menon, Chair Sanchez, DSNY leadership, and her staff, and closes by urging New Yorkers to move their cars.",
+      "title": "Brewer on restoring stickers, camera alternative, and acknowledgments",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 348.504,
+          "text": "I have to say,"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 348.704,
+          "text": "to say would have been great if the state passed the cameras on the sanitation sweepers."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 354.404,
+          "text": "Norman Stysel, a former member of the commissioner of sanitation, wrote in the Daily News yesterday that's what he would prefer, but it did not happen."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 363.804,
+          "text": "We need the stickers."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 365.604,
+          "text": "I want to thank Speaker Menon."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 366.904,
+          "text": "I want to thank Sanitation Chair Sanchez for their support."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 370.404,
+          "text": "As well as Morgan Barrett, Joanna Castro, Andrew Vasquez, Jeff Baker, and of course, in my office, Cynthia Hornig and Shula Puder."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 380.104,
+          "text": "I also want to thank the Commissioner Anderson from Sanitation, former Commissioner Logan."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 385.504,
+          "text": "And New York's strongest for their vocal support of this legislation."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 389.204,
+          "text": "They've already started making stickers and their tireless efforts to keep our city clean."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 393.704,
+          "text": "I know some people don't like this."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 395.804,
+          "text": "What I say is tell me another way to move those damn cars."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 399.804,
+          "text": "And I also say that if the Albany finally passes the cameras whenever, then this would only be for the most egregious cars."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 409.604,
+          "text": "You don't pay extra for a sticker."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 411.304,
+          "text": "You just can't get the damn thing off."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 412.904,
+          "text": "And so you will be targeted as you did not move your car."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 416.104,
+          "text": "Thank you very much."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 416.904,
+          "text": "And I love on my block to put stickers up because nobody moves."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 420.104,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 430.704,
+      "id": "011",
+      "slug": "chair-sanchez-hands-to-clerk-for-roll-call-vote-on-both-bills",
+      "start_sec": 422.304,
+      "summary": "Sanchez thanks Brewer and turns the proceedings over to Committee Clerk William Martin to conduct a roll call vote on Intro 31A and Intro 92A, which are coupled together.",
+      "title": "Chair Sanchez hands to clerk for roll call vote on both bills",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 422.304,
+          "text": "Thank you, Councilmember Brewer."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 424.304,
+          "text": "And with that, I will now turn it over to the clerk to take the vote on Enchos 31A and 92A."
+        }
+      ]
+    },
+    {
+      "end_sec": 475.276,
+      "id": "012",
+      "slug": "roll-call-vote-on-intro-31a-and-intro-92a",
+      "start_sec": 430.704,
+      "summary": "Clerk William Martin conducts the roll call. Chair Sanchez, Councilmembers Louis, Hanif, Ung, Zhuang, Hankerson, Maloney, Santosuosso, Thomas-Henry, and Wilson vote aye; Councilmember Vernikov votes no.",
+      "title": "Roll call vote on Intro 31A and Intro 92A",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 430.704,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 431.204,
+          "text": "William Martin, Committee Clerk, Roll Call Vote Committee on Sanitation and Solid Waste Management."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 435.204,
+          "text": "Both items are coupled."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 437.104,
+          "text": "Chair Sanchez."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 438.904,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 439.904,
+          "text": "Lewis."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 440.804,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 442.004,
+          "text": "Hanif."
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 445.404,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 446.004,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 449.104,
+          "text": "Ong."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 451.604,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 452.504,
+          "text": "Zhuang."
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 454.204,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 455.604,
+          "text": "Hankerson."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 457.504,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 458.604,
+          "text": "Maloney."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 459.704,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 461.204,
+          "text": "Santos-Suosto."
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 463.104,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 463.904,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 465.104,
+          "text": "Thomas Henry."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 466.404,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 467.704,
+          "text": "Wilson."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 468.904,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 470.004,
+          "text": "Vernikov."
+        },
+        {
+          "speaker": "Inna Vernikov",
+          "t_sec": 471.204,
+          "text": "No and all."
+        }
+      ]
+    },
+    {
+      "end_sec": 496.512,
+      "id": "013",
+      "slug": "vote-result-10-1-both-intro-31a-and-92a-adopted-by-committee",
+      "start_sec": 475.276,
+      "summary": "Clerk Martin announces the vote of 10 in the affirmative and 1 in the negative with no abstentions, adopting both items. Chair Sanchez closes the hearing and reminds members of the next hearing tomorrow.",
+      "title": "Vote result: 10-1, both Intro 31A and 92A adopted by committee",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 475.276,
+          "text": "With a vote of 10 in the affirmative, 1 in the negative, and no abstentions, both items have been adopted by the committee."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 480.276,
+          "text": "Mr."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 480.576,
+          "text": "Chair, that is a full committee."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 482.976,
+          "text": "Thank you, everyone."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 483.776,
+          "text": "And I will see my members of the Sanitation Committee tomorrow for our next hearing."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 488.676,
+          "text": "Thank you, everyone."
+        }
+      ]
+    }
+  ],
+  "date": "2026-06-30",
+  "duration_sec": 496.512,
+  "slug": "2026-06-30-1200-pm-committee-on-sanitation-and-solid-waste-management",
+  "summary": [
+    "Committee on Sanitation and Solid Waste Management holds a hearing to vote on Intro 31A (expanding organic waste separation requirements for businesses) and Intro 92A (restoring parking stickers for alternate side parking enforcement).",
+    "Chair Sanchez reads a statement from Majority Leader Abreu on the environmental and cost benefits of Intro 31A, and Councilmember Gale Brewer advocates for Intro 92A citing the history of sticker effectiveness and widespread non-compliance with alternate side parking.",
+    "Both bills pass committee with a 10-1 vote, with Councilmember Vernikov voting no."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "12:00 PM",
+  "title": "Committee on Sanitation and Solid Waste Management",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-2_260630-102524/video-web.mp4"
+  }
+}

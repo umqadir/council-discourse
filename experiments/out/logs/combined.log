@@ -1,1 +1,4 @@
 RUN combined benchmark=transportation model=z-ai/glm-5.2
+DONE combined benchmark=transportation status=PASS cost=$0.572367 same=0.8630573248407644 f1_30=0.7064676616915424 err=
+RUN combined benchmark=stated model=z-ai/glm-5.2
+DONE combined benchmark=stated status=PASS cost=$0.343048 same=1.0 f1_30=0.7536231884057971 err=
