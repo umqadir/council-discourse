@@ -11,9 +11,9 @@ Target: feature and performance parity with the original, then cost-optimized.
 | Discovery | Legistar Web API (token) + viebit RSS; InSite video-link decode as join | Verified working; RSS gives ~1-2h post-meeting latency |
 | Video serving | Re-host on Cloudflare R2: faststart remux (`-c copy`) at ingest, progressive MP4 via R2 public bucket | ~$15/mo at 500-meeting scale (zero egress); direct viebit playback ruled out (see 6) |
 | ASR + diarization | Voxtral (`voxtral-mini-2602`) for production ASR+diarization, with local parakeet-mlx + pyannote retained as fallback | Best benchmark speaker accuracy so far, fast enough for CI, GPU-free; local path remains useful when avoiding API spend |
-| Speaker naming | Gemini label→name mapping over diarized-label evidence, with roster + agenda context and verification/correction pass | Maps dozens of labels instead of assigning thousands of utterances; mirrors the robust citymeetings pattern |
-| Chaptering + summaries | LLM over full transcript with agenda/context; chunk-merge only if benchmark shows long-context degradation | Original's chunking machinery was a 2024-model workaround |
-| LLM tier | Benchmark Gemini 3.5 Flash / 3.1 Flash-Lite / Haiku 4.5 / DeepSeek V4 vs GPT-5.5 anchor | Cost table says even frontier is ~$1.20/meeting; pick minimum tier matching citymeetings quality |
+| Speaker naming | glm-5.2 (OpenRouter) label→name mapping over diarized-label evidence, with roster + agenda context, deterministic roster/Legistar spelling anchors, and a web-grounded verification/correction pass | Maps dozens of labels instead of thousands of utterances; glm-5.2 beats Gemini on both benchmarks and avoids whole-speaker block collapse (see 12) |
+| Chaptering + summaries | glm-5.2 (OpenRouter) over full transcript with agenda/context; chunk-merge only if benchmark shows long-context degradation | Original's chunking machinery was a 2024-model workaround |
+| LLM tier | Production naming + chaptering = z-ai/glm-5.2 via OpenRouter; Gemini 3.5 Flash one flag away (`COUNCIL_LLM_PROVIDER=gemini`) | Model matrix + spelling round: glm-5.2 wins on all quality metrics at ~equal cost (see 12) |
 | Pipeline runtime | Dual mode: local CLI runs (Mac, manual/cron) AND remote cron (GitHub Actions, private repo) | Laptop isn't always on; same CLI both places |
 | Data store | Artifacts in Cloudflare R2 + build-ready JSON/SQLite committed or cached | R2 = zero egress fees; site build pulls from it |
 | Web app | Static site generation (Astro), client-side filtering (Alpine), Cloudflare Pages | ~27k pages is trivial SSG scale; zero backend to operate; free hosting |
@@ -54,9 +54,10 @@ process (per new video, ~30-60 min job)
   ASR + diarization (Voxtral, context-biased with roster/committee/agency terms)
                                                        → utterances + diarized labels
   local fallback: parakeet-mlx ASR + pyannote community-1 diarization
-  speaker naming LLM label→name mapping (roster + agenda + intro evidence) + verification pass
-    with deterministic roster/Legistar spelling anchors before grounded public-name correction
-  chaptering LLM pass (full transcript + agenda/matter context)
+  speaker naming LLM label→name mapping (glm-5.2 via OpenRouter; roster + agenda + intro
+    evidence) + verification pass, with deterministic roster/Legistar spelling anchors before
+    grounded public-name correction (verification stays on gemini-3.1-flash-lite for search grounding)
+  chaptering LLM pass (glm-5.2 via OpenRouter; full transcript + agenda/matter context)
   summaries (chapter, meeting) + meeting/chapter type labels
   QA gates (coverage %, speaker-unknown %, chapter len distribution, ts monotonicity)
   write artifacts to R2; flag low-confidence items for review
@@ -152,9 +153,10 @@ DECISION: Voxtral = production ASR+diarization; local path retained as free fall
 Next quality levers: roster context-biasing at transcription time (Voxtral supports
 100 bias terms), verification-pass spelling anchoring (60/307 misses were
 correct-person-wrong-spelling). Mistral SDK 2.5.1 exposes the transcription bias
-field as `context_bias` on `AudioTranscriptionRequest`; the live API currently
-validates it as comma-separated items without whitespace, so the pipeline sends
-hyphen-joined roster/committee/agency items and records that in ASR metadata.
+field as `context_bias: Optional[List[str]]` (multipart) on `AudioTranscriptionRequest`
+(confirmed by inspecting the installed SDK's typed model). The live API validates each
+item as comma-separated with no whitespace, so the pipeline sends hyphen-joined
+roster/committee/agency items and records the param, count, and sources in ASR metadata.
 
 ## 9. Open-ASR ceiling result (2026-07-02, closes the self-hosting question)
 whisper-large-v3 (best open long-form ASR) + pyannote community-1 on the transportation
@@ -176,3 +178,43 @@ Storage line: ~$2-3/mo year-end instead of ~$17. Caveat: transcoding a 3h meetin
 costs ~30-60 CPU-min; at 40 meetings/mo this may exceed GH Actions' 2,000 free
 private-repo minutes -> either make repo public (free unlimited Actions) or
 transcode locally. Flag repo-visibility decision to user.
+
+## 12. Spelling round + GLM-5.2 production LLM (2026-07-02)
+Spelling-quality round on the Voxtral benchmarks (roster context-biasing was already wired;
+verification-pass now snaps council/Legistar-known names to canonical spelling before the
+web-grounded public-name correction). Naming reruns on the existing Voxtral ASR, scored vs
+citymeetings human-reviewed names (same-person / strict spelling):
+
+| benchmark | Gemini 3.5 Flash | glm-5.2 (OpenRouter) | brief baseline |
+|---|---|---|---|
+| transportation | 87.9% / 70.7% | 87.9% / 70.7% | 87.6% / 70.4% |
+| stated | 77.0% / 54.1% (see note) | 97.3% / 74.3% | 95.9% / 73.0% |
+
+Both models run the same anchoring + verification. Deterministic roster/Legistar spelling
+anchors are correct (unit-verified: "Julie Menon"->"Julie Menin", "Amanda Farrias"->"Amanda
+Farias") but fire zero times on these two meetings: the label-mapping prompt already carries
+the roster CSV, so council members come out spelled correctly, and the residual strict misses
+are public-witness nickname/formal variants ("Rob" vs "Robert Bookman", "Sara" vs "Sarah Lind")
+that are not roster names and are genuinely same-person. So anchoring is a safety net for the
+rare mis-spelled roster name, not a lever on the current benchmark residual.
+
+Note on Gemini stated 77.0%: a single label→name error collapsed a 15-utterance block
+(Hanif labelled as Krishnan). This is Gemini 3.5 Flash run-to-run variance on the mapping;
+the earlier 95.9% baseline was a cleaner draw. glm-5.2 on the identical ASR produced no such
+collapse (only two isolated UNKNOWN misses), which is the steadiness the model matrix predicted.
+
+DECISION: production naming AND chaptering default = z-ai/glm-5.2 via OpenRouter. glm-5.2 with
+the full verification pass meets or beats Gemini on same-person on both benchmarks (87.9 vs 87.6;
+97.3 vs 95.9) and on strict spelling (70.7 vs 70.4; 74.3 vs 73.0), and is markedly steadier on
+the label→name mapping. Config-driven in pipeline/config.py (`naming_llm_config()`); Gemini is
+one flag away (`COUNCIL_LLM_PROVIDER=gemini`, or a bare `--model gemini-3.5-flash`). Verification
+stays on gemini-3.1-flash-lite because it needs Google Search grounding for public-name spelling.
+
+Operational notes: OpenRouter is now a production dependency for the two LLM passes (Voxtral ASR
+already depends on Mistral; hosting still has no other external runtime). glm-5.2 structured output
+via OpenRouter's `response_format: json_schema` was reliable — all four naming chunks across both
+benchmarks parsed on the first attempt with no fallback to the tool-call path and no JSON repair.
+OpenRouter returned no rate-limit throttling on these serial runs; per-call latency ran higher than
+Gemini (~a few extra seconds/call from glm-5.2 reasoning), acceptable for the batch pipeline. Cost:
+naming ~$0.24-0.25/meeting (OpenRouter model-pricing estimate; the per-generation exact-cost lookup
+intermittently returned nothing and the code falls back to the pricing estimate).

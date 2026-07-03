@@ -7,7 +7,7 @@ import sys
 from pathlib import Path
 
 from . import db
-from .config import REGISTRY_DB
+from .config import GEMINI_LLM, REGISTRY_DB, naming_llm_config
 from .discover import discover_legistar, discover_viebit_rss
 from .export_site import export_site
 from .fetch import fetch_meeting
@@ -19,6 +19,43 @@ from .utils import utc_now_iso
 
 def add_common(parser: argparse.ArgumentParser) -> None:
     parser.add_argument("--db", type=Path, default=REGISTRY_DB, help="SQLite registry path")
+
+
+def _add_llm_override_args(parser: argparse.ArgumentParser) -> None:
+    parser.add_argument(
+        "--llm-base-url",
+        default=None,
+        help="OpenAI-compatible base URL override for the naming/chaptering LLM",
+    )
+    parser.add_argument(
+        "--llm-api-key-env",
+        default=None,
+        help="env var holding the OpenAI-compatible API key (e.g. OPENROUTER_API_KEY)",
+    )
+
+
+def _resolve_llm(args: argparse.Namespace) -> dict[str, str | None]:
+    """Merge CLI flags over the production LLM config for naming/chaptering stages."""
+    config = dict(naming_llm_config())
+    # A bare `--model gemini-*` (a native Gemini id, no provider slug) without a base_url
+    # override means the user wants Gemini's own API path, not the OpenRouter default.
+    if (
+        args.model
+        and args.llm_base_url is None
+        and "/" not in args.model
+        and args.model.lower().startswith("gemini")
+    ):
+        config = dict(GEMINI_LLM)
+    model = args.model or config["model"]
+    base_url = args.llm_base_url if args.llm_base_url is not None else config["base_url"]
+    api_key_env = args.llm_api_key_env or config["api_key_env"]
+    # Gemini uses its own key path (GOOGLE_API_KEY) with base_url=None; only pass an
+    # OpenAI-compatible key env when a base_url is actually in play.
+    return {
+        "model": model,
+        "llm_base_url": base_url or None,
+        "llm_api_key_env": api_key_env if base_url else None,
+    }
 
 
 def cmd_discover(args: argparse.Namespace) -> int:
@@ -195,11 +232,12 @@ def cmd_diarize(args: argparse.Namespace) -> int:
 
 
 def cmd_name_speakers(args: argparse.Namespace) -> int:
+    llm = _resolve_llm(args)
     if args.meeting_dir:
         return _run_meeting_dir_stage(
             args,
             "name-speakers",
-            lambda meeting: name_speakers(meeting, model=args.model),
+            lambda meeting: name_speakers(meeting, **llm),
         )
 
     conn = db.connect(args.db)
@@ -210,7 +248,7 @@ def cmd_name_speakers(args: argparse.Namespace) -> int:
 
     def run_one(conn: sqlite3.Connection, row: sqlite3.Row) -> None:
         meeting = db.meeting_from_row(row)
-        name_speakers(meeting, model=args.model)
+        name_speakers(meeting, **llm)
         db.update_meeting(
             conn,
             meeting.meeting_key,
@@ -225,11 +263,12 @@ def cmd_name_speakers(args: argparse.Namespace) -> int:
 
 
 def cmd_chapterize(args: argparse.Namespace) -> int:
+    llm = _resolve_llm(args)
     if args.meeting_dir:
         return _run_meeting_dir_stage(
             args,
             "chapterize",
-            lambda meeting: chapterize(meeting, model=args.model),
+            lambda meeting: chapterize(meeting, **llm),
         )
 
     conn = db.connect(args.db)
@@ -240,7 +279,7 @@ def cmd_chapterize(args: argparse.Namespace) -> int:
 
     def run_one(conn: sqlite3.Connection, row: sqlite3.Row) -> None:
         meeting = db.meeting_from_row(row)
-        chapterize(meeting, model=args.model)
+        chapterize(meeting, **llm)
         db.update_meeting(
             conn,
             meeting.meeting_key,
@@ -357,20 +396,22 @@ def build_parser() -> argparse.ArgumentParser:
     diarize_cmd.add_argument("--device", choices=["mps", "cpu"], help="torch device override; default prefers MPS")
     diarize_cmd.set_defaults(func=cmd_diarize)
 
-    speakers_cmd = subparsers.add_parser("name-speakers", help="assign speaker names with Gemini")
+    speakers_cmd = subparsers.add_parser("name-speakers", help="assign speaker names (glm-5.2 via OpenRouter by default)")
     add_common(speakers_cmd)
     speakers_cmd.add_argument("--meeting-key", help="name speakers for one registry meeting")
     speakers_cmd.add_argument("--meeting-dir", type=Path, help="name speakers in an artifact directory without registry updates")
     speakers_cmd.add_argument("--limit", type=int, help="limit registry meetings, oldest first")
-    speakers_cmd.add_argument("--model", default="gemini-3.5-flash")
+    speakers_cmd.add_argument("--model", default=None, help="naming LLM override; defaults to the production config")
+    _add_llm_override_args(speakers_cmd)
     speakers_cmd.set_defaults(func=cmd_name_speakers)
 
-    chapterize_cmd = subparsers.add_parser("chapterize", help="chapterize a named transcript with Gemini")
+    chapterize_cmd = subparsers.add_parser("chapterize", help="chapterize a named transcript (glm-5.2 via OpenRouter by default)")
     add_common(chapterize_cmd)
     chapterize_cmd.add_argument("--meeting-key", help="chapterize one registry meeting")
     chapterize_cmd.add_argument("--meeting-dir", type=Path, help="chapterize an artifact directory without registry updates")
     chapterize_cmd.add_argument("--limit", type=int, help="limit registry meetings, oldest first")
-    chapterize_cmd.add_argument("--model", default="gemini-3.5-flash")
+    chapterize_cmd.add_argument("--model", default=None, help="chaptering LLM override; defaults to the production config")
+    _add_llm_override_args(chapterize_cmd)
     chapterize_cmd.set_defaults(func=cmd_chapterize)
 
     export_cmd = subparsers.add_parser("export-site", help="write Astro meeting JSON from completed artifacts")
