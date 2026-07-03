@@ -253,3 +253,16 @@ resume. The acceptance retry case is NYCC-PV-CH-CHA_260528-100627 (5.9h).
 NO historical backfill. Coverage is forward-only from July 2026 (plus the two 2025
 benchmark meetings and the June 2026 pilot/tranche set already processed). Kills the
 one-time backfill spend; storage grows only with ongoing coverage.
+
+## 13. LLM cost round results (2026-07-03, experiments/out/llm-cost-round.md)
+- GPT Pro's caching thesis disproven for our architecture: naming sends per-label
+  evidence windows (no transcript), chaptering already emits summaries in one call —
+  no shared prefix to cache (0 cached tokens observed across 8 calls).
+- Combined single pass: fails quality gates AND costs more. Dead.
+- PRODUCTION SPLIT ADOPTED: naming = DeepSeek V4 Pro (ties GLM gates at ~1/3 cost),
+  chaptering/summaries = GLM-5.2 (V4 Pro fails chaptering gates). $0.221/meeting
+  measured (~$8.8/mo at 40 meetings; 42% below GLM-only). Config: per-stage
+  resolvers in pipeline/config.py w/ COUNCIL_NAMING_LLM_* / COUNCIL_CHAPTER_LLM_* envs.
+- Open lever if a hard ceiling ever matters: Z.AI-direct GLM pricing/caching.
+Steady-state monthly at 40 meetings: ASR $9 + LLM $8.8 + verification ~$1 + R2 $2-3
+= ~$21/mo (~$0.53/meeting marginal).
