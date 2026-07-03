@@ -192,7 +192,7 @@ jobs:
         with:
           pattern: processed-*
           merge-multiple: true
-          path: .
+          path: data/processed-results
 
       - name: Merge registry results
         run: uv run python -m pipeline merge-results --results-dir data/processed-results

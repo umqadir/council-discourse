@@ -418,7 +418,7 @@ def merge_results(db_path: Path, results_dir: Path) -> int:
     if not results_dir.exists():
         return 0
     count = 0
-    for path in sorted(results_dir.glob("*.json")):
+    for path in sorted(results_dir.rglob("*.json")):
         payload = read_json(path)
         row = payload.get("row")
         if not isinstance(row, dict) or not row.get("meeting_key"):
