@@ -47,3 +47,20 @@ def safe_key(value: str) -> str:
 
 def run_checked(cmd: Sequence[str]) -> subprocess.CompletedProcess[str]:
     return subprocess.run(cmd, check=True, text=True, capture_output=True)
+
+
+def with_retries(fn, attempts: int = 3, base_delay: float = 5.0):
+    """Call fn() with exponential backoff on any exception; re-raise the last."""
+    import time
+
+    last = None
+    for i in range(attempts):
+        try:
+            return fn()
+        except Exception as exc:  # noqa: BLE001 - deliberate broad retry boundary
+            last = exc
+            if i < attempts - 1:
+                delay = base_delay * (2**i)
+                print(f"  retryable failure ({exc}); retrying in {delay:.0f}s", flush=True)
+                time.sleep(delay)
+    raise last

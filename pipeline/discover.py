@@ -13,6 +13,7 @@ from .legistar import (
     viebit_filename_from_url,
 )
 from .utils import load_dotenv
+from .utils import with_retries
 from .viebit import fetch_rss, normalize_filename, resolve_viebit_hash
 
 LEGISTAR_CURSOR_KEY = "legistar_event_last_modified_utc"
@@ -22,7 +23,7 @@ LEGISTAR_BOOTSTRAP_CURSOR = os.environ.get("COUNCIL_COVERAGE_START", "2026-06-20
 
 
 def discover_viebit_rss(conn: sqlite3.Connection, rss_url: str | None = None) -> int:
-    items = fetch_rss(rss_url) if rss_url else fetch_rss()
+    items = with_retries(lambda: fetch_rss(rss_url) if rss_url else fetch_rss())
     for item in items:
         db.upsert_meeting(
             conn,
@@ -139,9 +140,9 @@ def discover_legistar(
     count = 0
     try:
         if start_date and end_date:
-            events = client.get_events_by_date_window(start_date, end_date)
+            events = with_retries(lambda: client.get_events_by_date_window(start_date, end_date))
         else:
-            events = client.get_events_modified_since(cursor)
+            events = with_retries(lambda: client.get_events_modified_since(cursor))
         for event in events:
             try:
                 values = _values_from_event(event)
