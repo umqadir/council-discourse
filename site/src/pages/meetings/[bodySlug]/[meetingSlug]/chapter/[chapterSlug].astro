@@ -28,6 +28,7 @@ const previous = index > 0 ? meeting.chapters[index - 1] : undefined;
 const next = index < meeting.chapters.length - 1 ? meeting.chapters[index + 1] : undefined;
 const duration = chapter.end_sec - chapter.start_sec;
 const meetingHref = `/meetings/${body.slug}/${meeting.slug}/`;
+const meetingBreadcrumbLabel = `${meeting.title} — ${formatDate(meeting.date)}`;
 const description = `${chapter.title}, a ${formatDuration(duration)} segment from ${meeting.title} on ${formatDate(meeting.date)}.`;
 const ogImage = chapterOgPath(body.slug, meeting.slug, chapter.slug);
 ---
@@ -37,7 +38,7 @@ const ogImage = chapterOgPath(body.slug, meeting.slug, chapter.slug);
   <Breadcrumbs
     items={[
       { label: "Home", href: "/" },
-      { label: `${meeting.title} - ${formatDate(meeting.date)}`, href: meetingHref },
+      { label: meetingBreadcrumbLabel, href: meetingHref },
       { label: chapter.title },
     ]}
   />

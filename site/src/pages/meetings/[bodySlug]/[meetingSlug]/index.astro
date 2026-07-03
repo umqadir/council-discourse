@@ -34,6 +34,7 @@ const summaryTail = meeting.summary.slice(4);
 const hasSummaryTail = summaryTail.length > 0;
 const description = `${meeting.title} on ${formatDate(meeting.date)}. Read summaries and chaptered transcript timestamps.`;
 const ogImage = meetingOgPath(body.slug, meeting.slug);
+const breadcrumbLabel = `${meeting.title} — ${formatDate(meeting.date)}`;
 
 if (!getMeeting(body.slug, meeting.slug)) {
   throw new Error(`Missing meeting ${meeting.slug}`);
@@ -45,7 +46,7 @@ if (!getMeeting(body.slug, meeting.slug)) {
   <Breadcrumbs
     items={[
       { label: "Home", href: "/" },
-      { label: `${meeting.title} - ${formatDate(meeting.date)}` },
+      { label: breadcrumbLabel },
     ]}
   />
 
