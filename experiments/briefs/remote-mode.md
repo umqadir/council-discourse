@@ -18,3 +18,13 @@ PLAN.md = source of truth (read sections 7-11). The pipeline runs locally today;
 
 ## Hard constraints
 Only this repo; no browser/MCP; no Metal jobs; never print secrets. Careful: another agent is concurrently editing pipeline/speakers.py + transcribe.py (spelling/GLM round) — do NOT edit those two files; if your glue needs them, use existing interfaces only.
+
+## Addendum: voxtral production wiring bug (found 2026-07-02 21:15)
+When run as production backend, voxtral transcribe writes utterances-voxtral*.jsonl
+but stages.name_speakers requires utterances-labeled.jsonl -> pipeline breaks
+end-to-end. Fix properly: voxtral as production backend writes canonical
+utterances.jsonl + utterances-labeled.jsonl (+ transcribe-meta.json); keep the
+-voxtral- names only for benchmark/eval mode (flag or dir-based). Add an
+end-to-end test. Also: Mistral returned 429 service_tier_capacity_exceeded on a
+5.9h meeting (~80 burst chunk requests) — add exponential backoff + inter-chunk
+delay + resume-partial to the voxtral splitter.
