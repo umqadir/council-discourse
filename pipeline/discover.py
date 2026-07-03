@@ -141,9 +141,15 @@ def discover_legistar(
         else:
             events = client.get_events_modified_since(cursor)
         for event in events:
-            values = _values_from_event(event)
-            _attach_video_filename(conn, client, event, values)
-            db.upsert_meeting(conn, values)
+            try:
+                values = _values_from_event(event)
+                _attach_video_filename(conn, client, event, values)
+                db.upsert_meeting(conn, values)
+            except Exception as exc:
+                # One malformed event (bad date strings, dead pages, missing fields)
+                # must never abort the sync of everything else.
+                print(f"  skipping malformed event {getattr(event, 'event_id', '?')}: {exc}", flush=True)
+                continue
             if event.last_modified_utc and event.last_modified_utc > latest_cursor:
                 latest_cursor = event.last_modified_utc
             count += 1
