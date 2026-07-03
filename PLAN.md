@@ -245,3 +245,8 @@ Prod ASR writes canonical downstream files (`utterances.jsonl`, `utterances-labe
 `data/benchmark`. Long production Voxtral runs use fixed-duration chunks with persisted raw part
 JSON, exponential backoff on 429/5xx, `Retry-After` honoring, inter-chunk delay, and partial-result
 resume. The acceptance retry case is NYCC-PV-CH-CHA_260528-100627 (5.9h).
+
+## 12. Backfill decision (2026-07-03, user)
+NO historical backfill. Coverage is forward-only from July 2026 (plus the two 2025
+benchmark meetings and the June 2026 pilot/tranche set already processed). Kills the
+one-time backfill spend; storage grows only with ongoing coverage.
