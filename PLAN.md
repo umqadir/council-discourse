@@ -218,3 +218,30 @@ OpenRouter returned no rate-limit throttling on these serial runs; per-call late
 Gemini (~a few extra seconds/call from glm-5.2 reasoning), acceptable for the batch pipeline. Cost:
 naming ~$0.24-0.25/meeting (OpenRouter model-pricing estimate; the per-generation exact-cost lookup
 intermittently returned nothing and the code falls back to the pricing estimate).
+
+## 13. Remote production mode (2026-07-02)
+GitHub Actions is the production runner. Schedule: every 2 hours at 13:00-03:00 UTC
+(NYC meeting day through evening publish), plus manual `workflow_dispatch`. The workflow is
+single-run serialized with a concurrency group; per-meeting processing is a matrix with
+`max-parallel: 2`, one meeting per job, 120 minute timeout.
+
+Job shape:
+- `discover`: poll Viebit RSS + Legistar, update `data/registry.db`, emit a pending-meeting
+  JSON matrix, and upload the registry as an artifact.
+- `process`: for each meeting key, run the prod profile only: fetch source MP4/captions/agenda,
+  transcode `video-web.mp4` to 480p H.264 CRF 32 + 64k mono AAC + faststart, upload to R2
+  bucket `council-discourse-videos` through rclone/S3, delete source MP4, run Voxtral ASR with
+  diarization, name speakers, and chapterize. Failed meetings write `last_error` but keep their
+  pending stage state so the next cron retries them.
+- `export-site`: single writer. Download per-meeting result artifacts, merge registry rows,
+  checkpoint SQLite WAL state, export Astro JSON, build the site, and commit
+  `data/registry.db` + `site/src/data/meetings` with `[skip ci]`.
+- `deploy`: separate Cloudflare Pages deploy job using `wrangler pages deploy site/dist
+  --project-name council-discourse`. TODO: repository secret `CLOUDFLARE_API_TOKEN` is required;
+  the job warns and skips deploy until the supervisor sets it.
+
+Prod ASR writes canonical downstream files (`utterances.jsonl`, `utterances-labeled.jsonl`,
+`transcribe-meta.json`). `utterances-voxtral*.jsonl` remains the benchmark/eval convention under
+`data/benchmark`. Long production Voxtral runs use fixed-duration chunks with persisted raw part
+JSON, exponential backoff on 429/5xx, `Retry-After` honoring, inter-chunk delay, and partial-result
+resume. The acceptance retry case is NYCC-PV-CH-CHA_260528-100627 (5.9h).

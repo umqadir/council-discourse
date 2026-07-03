@@ -12,6 +12,7 @@ from .discover import discover_legistar, discover_viebit_rss
 from .export_site import export_site
 from .fetch import fetch_meeting
 from .models import Meeting
+from .production import checkpoint_db, merge_results, pending_matrix_json, process_one
 from .prepare import prepare_meeting
 from .stages import chapterize, diarize, name_speakers, transcribe
 from .utils import utc_now_iso
@@ -70,9 +71,17 @@ def cmd_discover(args: argparse.Namespace) -> int:
         end_date=args.legistar_end,
     )
     if skipped_legistar:
-        print(f"viebit_rss={rss_count}; legistar=skipped (LEGISTAR_TOKEN unset)")
+        print(
+            f"viebit_rss={rss_count}; legistar=skipped (LEGISTAR_TOKEN unset)",
+            file=sys.stderr if args.emit_pending_json else sys.stdout,
+        )
     else:
-        print(f"viebit_rss={rss_count}; legistar_events={event_count}")
+        print(
+            f"viebit_rss={rss_count}; legistar_events={event_count}",
+            file=sys.stderr if args.emit_pending_json else sys.stdout,
+        )
+    if args.emit_pending_json:
+        print(pending_matrix_json(conn, limit=args.pending_limit))
     return 0
 
 
@@ -294,9 +303,37 @@ def cmd_chapterize(args: argparse.Namespace) -> int:
 
 
 def cmd_export_site(args: argparse.Namespace) -> int:
-    written = export_site(args.db, include_benchmark=not args.no_benchmark)
+    written = export_site(args.db, include_benchmark=not args.no_benchmark, allow_empty=args.allow_empty)
     for path in written:
         print(f"wrote {path}", flush=True)
+    return 0
+
+
+def cmd_process_one(args: argparse.Namespace) -> int:
+    return process_one(
+        args.db,
+        args.meeting_key,
+        result_json=args.result_json,
+        dry_run=args.dry_run,
+        fail_on_error=args.fail_on_error,
+    )
+
+
+def cmd_pending_matrix(args: argparse.Namespace) -> int:
+    conn = db.connect(args.db)
+    print(pending_matrix_json(conn, limit=args.limit))
+    return 0
+
+
+def cmd_merge_results(args: argparse.Namespace) -> int:
+    count = merge_results(args.db, args.results_dir)
+    print(f"merged_results={count}")
+    return 0
+
+
+def cmd_checkpoint_db(args: argparse.Namespace) -> int:
+    checkpoint_db(args.db)
+    print(f"checkpointed {args.db}")
     return 0
 
 
@@ -356,6 +393,8 @@ def build_parser() -> argparse.ArgumentParser:
     discover.add_argument("--no-rss", action="store_true", help="skip Viebit RSS polling")
     discover.add_argument("--legistar-start", help="date-window start for Legistar backfill, YYYY-MM-DD")
     discover.add_argument("--legistar-end", help="exclusive date-window end for Legistar backfill, YYYY-MM-DD")
+    discover.add_argument("--emit-pending-json", action="store_true", help="print a GitHub Actions matrix of pending meetings")
+    discover.add_argument("--pending-limit", type=int, help="limit emitted pending meetings, oldest first")
     discover.set_defaults(func=cmd_discover)
 
     fetch = subparsers.add_parser("fetch", help="download media artifacts and extract audio")
@@ -417,7 +456,30 @@ def build_parser() -> argparse.ArgumentParser:
     export_cmd = subparsers.add_parser("export-site", help="write Astro meeting JSON from completed artifacts")
     add_common(export_cmd)
     export_cmd.add_argument("--no-benchmark", action="store_true", help="exclude data/benchmark meetings")
+    export_cmd.add_argument("--allow-empty", action="store_true", help="keep existing site data if no completed meetings exist")
     export_cmd.set_defaults(func=cmd_export_site)
+
+    pending_cmd = subparsers.add_parser("pending-matrix", help="emit a GitHub Actions matrix of pending prod meetings")
+    add_common(pending_cmd)
+    pending_cmd.add_argument("--limit", type=int, help="limit pending meetings, oldest first")
+    pending_cmd.set_defaults(func=cmd_pending_matrix)
+
+    process_cmd = subparsers.add_parser("process-one", help="run one registry meeting through the prod cloud profile")
+    add_common(process_cmd)
+    process_cmd.add_argument("--meeting-key", required=True, help="registry meeting key to process")
+    process_cmd.add_argument("--result-json", type=Path, help="write mergeable per-meeting result JSON")
+    process_cmd.add_argument("--dry-run", action="store_true", help="exercise registry gates without network/API/upload work")
+    process_cmd.add_argument("--fail-on-error", action="store_true", help="exit nonzero on meeting failure")
+    process_cmd.set_defaults(func=cmd_process_one)
+
+    merge_cmd = subparsers.add_parser("merge-results", help="merge process-one result JSON files into the registry")
+    add_common(merge_cmd)
+    merge_cmd.add_argument("--results-dir", type=Path, required=True, help="directory containing process-one result JSON files")
+    merge_cmd.set_defaults(func=cmd_merge_results)
+
+    checkpoint_cmd = subparsers.add_parser("checkpoint-db", help="checkpoint SQLite WAL state into the registry DB file")
+    add_common(checkpoint_cmd)
+    checkpoint_cmd.set_defaults(func=cmd_checkpoint_db)
 
     status = subparsers.add_parser("status", help="print registry stage states")
     add_common(status)

@@ -53,6 +53,7 @@ def export_site(
     db_path: Path = REGISTRY_DB,
     out_dir: Path = SITE_DATA_DIR,
     include_benchmark: bool = True,
+    allow_empty: bool = False,
 ) -> list[Path]:
     meetings = []
     if include_benchmark:
@@ -60,6 +61,8 @@ def export_site(
     meetings.extend(_registry_meetings(db_path))
 
     if not meetings:
+        if allow_empty:
+            return sorted(out_dir.glob("*.json")) if out_dir.exists() else []
         raise RuntimeError("no completed meetings found to export")
 
     shutil.rmtree(out_dir, ignore_errors=True)

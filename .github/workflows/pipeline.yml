@@ -2,19 +2,31 @@ name: Pipeline
 
 on:
   schedule:
-    - cron: "0 */3 * * *"
+    - cron: "0 13-23/2 * * *"
+    - cron: "0 1-3/2 * * *"
   workflow_dispatch:
+
+concurrency:
+  group: production-pipeline
+  cancel-in-progress: false
 
 permissions:
   contents: write
 
+env:
+  UV_CACHE_DIR: .uv-cache
+  PYTHONUNBUFFERED: "1"
+  R2_BUCKET: council-discourse-videos
+  VIDEO_BASE_URL: ${{ vars.VIDEO_BASE_URL }}
+
 jobs:
-  pipeline:
+  discover:
     runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.discover.outputs.matrix }}
+      has_pending: ${{ steps.discover.outputs.has_pending }}
     env:
-      UV_CACHE_DIR: .uv-cache
       LEGISTAR_TOKEN: ${{ secrets.LEGISTAR_TOKEN }}
-      GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
     steps:
       - name: Check out repository
         uses: actions/checkout@v5
@@ -32,37 +44,205 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y ffmpeg poppler-utils
 
-      - name: Discover, fetch, and prepare
+      - name: Discover pending meetings
+        id: discover
         run: |
-          uv run python -m pipeline discover
-          uv run python -m pipeline fetch --all-pending --limit 3
-          uv run python -m pipeline prepare --all-pending --limit 3
+          matrix="$(uv run python -m pipeline discover --emit-pending-json)"
+          has_pending="$(MATRIX="$matrix" python - <<'PY'
+import json
+import os
 
-      - name: Transcribe with remote backend
-        if: ${{ secrets.REMOTE_ASR_API_KEY != '' }}
-        env:
-          REMOTE_ASR_API_KEY: ${{ secrets.REMOTE_ASR_API_KEY }}
-        run: uv run python -m pipeline transcribe --backend remote --limit 3
+print("true" if json.loads(os.environ["MATRIX"]).get("include") else "false")
+PY
+)"
+          {
+            echo "matrix<<JSON"
+            printf '%s\n' "$matrix"
+            echo "JSON"
+            echo "has_pending=$has_pending"
+          } >> "$GITHUB_OUTPUT"
 
-      - name: Name speakers and chapterize
-        if: ${{ secrets.GOOGLE_API_KEY != '' }}
+      - name: Checkpoint registry
+        run: uv run python -m pipeline checkpoint-db
+
+      - name: Upload registry state
+        uses: actions/upload-artifact@v4
+        with:
+          name: registry-state
+          path: data/registry.db
+          if-no-files-found: error
+          retention-days: 7
+
+  process:
+    needs: discover
+    if: ${{ needs.discover.outputs.has_pending == 'true' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix: ${{ fromJSON(needs.discover.outputs.matrix) }}
+    env:
+      LEGISTAR_TOKEN: ${{ secrets.LEGISTAR_TOKEN }}
+      MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+      GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+      ASSEMBLYAI_API_KEY: ${{ secrets.ASSEMBLYAI_API_KEY }}
+      R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      R2_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v7
+
+      - name: Install system tools
         run: |
-          uv run python -m pipeline name-speakers --limit 3
-          uv run python -m pipeline chapterize --limit 3
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg poppler-utils rclone
+
+      - name: Download registry state
+        uses: actions/download-artifact@v4
+        with:
+          name: registry-state
+          path: data
+
+      - name: Process meeting
+        run: |
+          uv run python -m pipeline process-one \
+            --meeting-key "${{ matrix.meeting_key }}" \
+            --result-json "data/processed-results/${{ matrix.meeting_key }}.json"
+
+      - name: Upload meeting result
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: processed-${{ matrix.meeting_key }}
+          path: |
+            data/processed-results/${{ matrix.meeting_key }}.json
+            data/meetings/${{ matrix.meeting_key }}/meeting.json
+            data/meetings/${{ matrix.meeting_key }}/captions-clean.jsonl
+            data/meetings/${{ matrix.meeting_key }}/captions-clean.txt
+            data/meetings/${{ matrix.meeting_key }}/agenda.txt
+            data/meetings/${{ matrix.meeting_key }}/utterances.jsonl
+            data/meetings/${{ matrix.meeting_key }}/utterances-labeled.jsonl
+            data/meetings/${{ matrix.meeting_key }}/utterances-named.jsonl
+            data/meetings/${{ matrix.meeting_key }}/chapters.json
+            data/meetings/${{ matrix.meeting_key }}/meeting-derived.json
+            data/meetings/${{ matrix.meeting_key }}/*-meta.json
+            data/meetings/${{ matrix.meeting_key }}/gemini-runlog.jsonl
+          if-no-files-found: warn
+          retention-days: 7
+
+  export-site:
+    needs:
+      - discover
+      - process
+    if: ${{ always() && needs.discover.result == 'success' }}
+    runs-on: ubuntu-latest
+    env:
+      GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v7
+
+      - name: Set up Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+
+      - name: Enable pnpm
+        run: corepack enable
+
+      - name: Download registry state
+        uses: actions/download-artifact@v4
+        with:
+          name: registry-state
+          path: data
+
+      - name: Download processed meeting artifacts
+        if: ${{ needs.discover.outputs.has_pending == 'true' }}
+        uses: actions/download-artifact@v4
+        with:
+          pattern: processed-*
+          merge-multiple: true
+          path: .
+
+      - name: Merge registry results
+        run: uv run python -m pipeline merge-results --results-dir data/processed-results
 
       - name: Export site data
-        run: uv run python -m pipeline export-site
+        run: uv run python -m pipeline export-site --allow-empty
 
-      - name: Commit derived artifacts
+      - name: Install site dependencies
+        run: pnpm --dir site install --frozen-lockfile
+
+      - name: Build site
+        run: pnpm --dir site build
+
+      - name: Upload site dist
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-dist
+          path: site/dist
+          if-no-files-found: error
+          retention-days: 7
+
+      - name: Commit registry and site data
         run: |
-          git add -f site/src/data/meetings
-          find data/meetings -type f \( -name '*.json' -o -name '*.jsonl' -o -name '*.txt' \) -print0 | xargs -0 -r git add -f
+          git add -f data/registry.db site/src/data/meetings
           if git diff --cached --quiet; then
-            echo "No derived artifact changes"
+            echo "No registry or site data changes"
           else
-            git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "Update pipeline artifacts"
+            git -c user.name="github-actions[bot]" \
+              -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+              commit -m "Update pipeline registry and site data [skip ci]"
             git push
           fi
 
-      - name: Deploy site
-        run: echo "Cloudflare Pages deploy is intentionally stubbed."
+  deploy:
+    needs: export-site
+    if: ${{ always() && needs.export-site.result == 'success' }}
+    runs-on: ubuntu-latest
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+    steps:
+      - name: Set up Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+
+      - name: Enable pnpm
+        run: corepack enable
+
+      - name: Download site dist
+        uses: actions/download-artifact@v4
+        with:
+          name: site-dist
+          path: site/dist
+
+      - name: TODO Cloudflare token
+        if: ${{ env.CLOUDFLARE_API_TOKEN == '' }}
+        run: |
+          echo "::warning::TODO: set the CLOUDFLARE_API_TOKEN repository secret to enable wrangler Pages deploy."
+
+      - name: Deploy Cloudflare Pages
+        if: ${{ env.CLOUDFLARE_API_TOKEN != '' }}
+        run: pnpm dlx wrangler pages deploy site/dist --project-name council-discourse

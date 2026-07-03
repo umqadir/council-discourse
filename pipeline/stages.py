@@ -2,16 +2,28 @@ from __future__ import annotations
 
 from pathlib import Path
 
+from .config import DATA_DIR
 from .chapterize import chapterize_meeting
 from .diarize import DEFAULT_DIARIZATION_MODEL, diarize_meeting
 from .models import Meeting
 from .speakers import name_speakers_meeting
-from .transcribe import transcribe_meeting
+from .transcribe import DEFAULT_VOXTRAL_MODEL, transcribe_meeting
+from .voxtral_prod import transcribe_voxtral_production
 
 
 def transcribe(meeting: Meeting, backend: str = "voxtral", model: str | None = None) -> Path:
     """ASR interface: audio files in meeting_dir -> utterances.jsonl."""
+    if backend in {"voxtral", "mistral-voxtral"} and not _is_benchmark_dir(meeting.meeting_dir):
+        return transcribe_voxtral_production(meeting, model=model or DEFAULT_VOXTRAL_MODEL)
     return transcribe_meeting(meeting, backend=backend, model=model)
+
+
+def _is_benchmark_dir(meeting_dir: Path) -> bool:
+    try:
+        meeting_dir.resolve().relative_to((DATA_DIR / "benchmark").resolve())
+        return True
+    except ValueError:
+        return False
 
 
 def diarize(meeting: Meeting, model: str = DEFAULT_DIARIZATION_MODEL, device: str | None = None) -> Path:
