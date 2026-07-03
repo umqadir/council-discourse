@@ -20,6 +20,27 @@ export const onRequest = defineMiddleware(async (context, next) => {
   }
 
   const runtime = getRuntime(context.locals);
+
+  // Static-recent window: chapter pages and OG images for the newest meetings
+  // are prerendered into the deploy as static assets at these same URLs.
+  // _routes.json cannot carve them out per meeting (rules cap at 100
+  // characters each and 100 entries total), so the worker runs for every
+  // chapter path and serves the prerendered asset when one exists; only older
+  // chapters fall through to the SSR render below.
+  const assets = runtime?.env?.ASSETS;
+  if (assets) {
+    try {
+      const asset = await assets.fetch(context.request.url);
+      if (asset.ok) {
+        const response = withClientCache(asset);
+        response.headers.set("X-Static-Window", "HIT");
+        return response;
+      }
+    } catch {
+      // Fall through to the SSR render.
+    }
+  }
+
   const cache = runtime?.caches?.default ?? globalThis.caches?.default;
   if (!cache) {
     return withClientCache(await next());

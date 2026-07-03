@@ -85,12 +85,19 @@ function readRecentMeetings() {
   return recent;
 }
 
+// Cloudflare Pages caps _routes.json rules at 100 characters each and 100
+// entries total, so long meeting slugs cannot appear in include/exclude rules.
+const ROUTES_RULE_MAX_CHARS = 100;
+const ROUTES_RULE_MAX_COUNT = 100;
+
 // Relocates the /staging/* output for recent chapters to the canonical
-// /meetings/.../chapter/... and /og/chapter/... URLs, then marks those path
-// prefixes as static assets in _routes.json so Cloudflare Pages serves them
-// directly instead of invoking the SSR worker. Older chapters remain worker
-// routes at identical URLs. Exclusions are per-meeting wildcards to stay well
-// under the 100-rule _routes.json limit.
+// /meetings/.../chapter/... and /og/chapter/... URLs. No per-meeting
+// _routes.json rules are written (they exceed Cloudflare's rule limits);
+// instead the SSR middleware serves a prerendered asset via env.ASSETS when
+// one exists, and only older chapters fall through to the SSR render. The
+// hook also drops any Astro-generated exclude rule over the 100-character
+// limit — the worker's own asset fallback still serves those prerendered
+// pages — and caps the total rule count.
 function staticRecentWindowIntegration(recent) {
   return {
     name: "static-recent-window",
@@ -121,15 +128,20 @@ function staticRecentWindowIntegration(recent) {
         const routesPath = path.join(distDir, "_routes.json");
         if (fs.existsSync(routesPath)) {
           const routes = JSON.parse(fs.readFileSync(routesPath, "utf8"));
-          const exclude = new Set(routes.exclude ?? []);
+          const include = routes.include ?? [];
           // Keep Astro's "/staging/*" exclude: the relocated output no longer
           // exists there, so those internal URLs resolve to a static-asset 404
-          // instead of ever reaching the SSR worker.
-          for (const { bodySlug, meetingSlug } of recent) {
-            exclude.add(`/meetings/${bodySlug}/${meetingSlug}/chapter/*`);
-            exclude.add(`/og/chapter/${bodySlug}/${meetingSlug}/*`);
+          // instead of ever reaching the SSR worker. Rules over the length
+          // limit are dropped — the worker's asset fallback serves those
+          // prerendered pages — and the combined rule count is capped.
+          const exclude = (routes.exclude ?? []).filter(
+            (rule) => rule.length <= ROUTES_RULE_MAX_CHARS,
+          );
+          const dropped = (routes.exclude ?? []).length - exclude.length;
+          if (dropped > 0) {
+            logger.info(`static-recent-window: dropped ${dropped} over-length exclude rules`);
           }
-          routes.exclude = [...exclude];
+          routes.exclude = exclude.slice(0, Math.max(0, ROUTES_RULE_MAX_COUNT - include.length));
           fs.writeFileSync(routesPath, `${JSON.stringify(routes, null, 2)}\n`);
         }
 

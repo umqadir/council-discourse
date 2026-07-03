@@ -1,0 +1,19 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+
+export const prerender = true;
+---
+
+<BaseLayout title="Page not found" description="The page you requested does not exist.">
+  <section class="mx-auto max-w-reading px-4 py-16 md:px-6">
+    <h1 class="font-serif text-4xl font-semibold leading-tight">Page not found</h1>
+    <p class="mt-4 leading-7 text-muted">
+      The page you requested does not exist or may have moved.
+    </p>
+    <p class="mt-4">
+      <a class="font-semibold underline decoration-line hover:decoration-civic" href="/">
+        Browse recent meetings
+      </a>
+    </p>
+  </section>
+</BaseLayout>

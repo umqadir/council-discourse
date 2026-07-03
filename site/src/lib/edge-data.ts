@@ -19,8 +19,13 @@ export interface R2BucketBinding {
   get(key: string): Promise<R2ObjectBody | null>;
 }
 
+export interface AssetsBinding {
+  fetch(input: Request | string): Promise<Response>;
+}
+
 export interface EdgeEnv {
   DATA?: R2BucketBinding;
+  ASSETS?: AssetsBinding;
 }
 
 export interface CloudflareRuntime {
