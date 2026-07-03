@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "astro dev --host 0.0.0.0",
     "predev": "pnpm prepare:data",
-    "prepare:data": "PYTHONPATH=.. UV_CACHE_DIR=../.uv-cache uv run --project .. python -m pipeline export-site",
+    "prepare:data": "[ \"$SKIP_EXPORT\" = \"1\" ] || PYTHONPATH=.. UV_CACHE_DIR=../.uv-cache uv run --project .. python -m pipeline export-site --db ../data/registry.db",
     "videos:link": "node scripts/link-local-videos.mjs",
     "prebuild": "pnpm prepare:data",
     "build": "astro build",

@@ -228,6 +228,8 @@ jobs:
 
       - name: Build site
         working-directory: site
+        env:
+          SKIP_EXPORT: "1"
         run: pnpm build
 
       - name: Upload site dist
