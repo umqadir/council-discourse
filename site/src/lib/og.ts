@@ -1,6 +1,7 @@
 import { initWasm, Resvg } from "@resvg/resvg-wasm";
-import satori from "satori";
+import satori, { init as initSatori } from "satori/standalone";
 import resvgWasm from "@resvg/resvg-wasm/index_bg.wasm";
+import yogaWasm from "satori/yoga.wasm";
 import inter500 from "@fontsource/inter/files/inter-latin-500-normal.woff?bytes";
 import inter600 from "@fontsource/inter/files/inter-latin-600-normal.woff?bytes";
 import sourceSerif600 from "@fontsource/source-serif-4/files/source-serif-4-latin-600-normal.woff?bytes";
@@ -51,6 +52,7 @@ const fonts = [
 ];
 
 let resvgReady: Promise<void> | undefined;
+let satoriReady: Promise<void> | undefined;
 
 function bytesToArrayBuffer(bytes: Uint8Array): ArrayBuffer {
   return bytes.buffer.slice(bytes.byteOffset, bytes.byteOffset + bytes.byteLength);
@@ -59,6 +61,11 @@ function bytesToArrayBuffer(bytes: Uint8Array): ArrayBuffer {
 async function ensureResvg(): Promise<void> {
   resvgReady ??= initWasm(resvgWasm);
   await resvgReady;
+}
+
+async function ensureSatori(): Promise<void> {
+  satoriReady ??= initSatori(yogaWasm);
+  await satoriReady;
 }
 
 // Minimal hyperscript so we can build the satori element tree from a .ts file
@@ -237,6 +244,7 @@ function card(options: CardOptions): Node {
 }
 
 async function render(node: Node): Promise<Uint8Array> {
+  await ensureSatori();
   await ensureResvg();
   const svg = await satori(node as unknown as Parameters<typeof satori>[0], {
     width: WIDTH,

@@ -1,0 +1,525 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 22.4,
+      "id": "001",
+      "slug": "committee-clerk-opens-the-education-committee-vote-meeting",
+      "start_sec": 5.4,
+      "summary": "Council staff announces the start of the New York City Council vote for the Committee on Education and reminds attendees to silence electronic devices and not approach the dais.",
+      "title": "Committee Clerk opens the Education Committee vote meeting",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 5.4,
+          "text": "Good morning and welcome to today's New York City Council vote for the Committee on Education."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 11.0,
+          "text": "At this time, please silence all electronic devices and no one may approach the dais at any time."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 17.1,
+          "text": "Chair Dinowitz, we are ready to begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 32.9,
+      "id": "002",
+      "slug": "chair-dinowitz-introduces-himself-and-welcomes-attendees",
+      "start_sec": 22.4,
+      "summary": "Councilmember Eric Dinowitz introduces himself as a public school alum, teacher, and chair of the Committee on Education, and welcomes everyone to the day's vote.",
+      "title": "Chair Dinowitz introduces himself and welcomes attendees",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 22.4,
+          "text": "Good morning, everyone."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 23.8,
+          "text": "I'm Councilmember Eric Dinowitz, a proud public school alum, teacher, and now chair of the Committee on Education."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 30.8,
+          "text": "And welcome to today's vote."
+        }
+      ]
+    },
+    {
+      "end_sec": 58.392,
+      "id": "003",
+      "slug": "chair-dinowitz-acknowledges-committee-members-present",
+      "start_sec": 32.9,
+      "summary": "Chair Dinowitz acknowledges the colleagues in attendance: Councilmembers Louis, Schulman, Gutierrez, Farias, Brewer, Krishnan, Narcisse, Wong, Zhuang, Joseph, Lee, and De La Rosa.",
+      "title": "Chair Dinowitz acknowledges committee members present",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 32.9,
+          "text": "First, I'd like to acknowledge my colleagues that are here, Councilmembers Lewis, Shulman, Gutierrez, Farias."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 47.992,
+          "text": "Brewer, Krishnan, Narcisse, Wong, Zhuang, Joseph, Lee, and De La Rosa."
+        }
+      ]
+    },
+    {
+      "end_sec": 115.852,
+      "id": "004",
+      "slug": "chair-dinowitz-presents-proposed-int-15a-on-background-check-requirements",
+      "start_sec": 58.392,
+      "summary": "Chair Dinowitz describes Proposed Int 15A, sponsored by Councilmember Shaun-Abreu, which would prohibit DOHMH from requiring a subsequent background check if one was already completed, unless the individual has not been employed for more than 180 consecutive days in the past five years. The bill aims to correct inefficiencies and ease administrative burden on child care providers.",
+      "title": "Chair Dinowitz presents Proposed Int 15A on background check requirements",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 58.392,
+          "text": "Today, the Committee on Education will consider two pieces of legislation related to child care and early childhood education."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 65.292,
+          "text": "Proposed Introduction 15A, sponsored by Councilmember Shaun-Abreu, would prohibit the Department of Health and Mental Hygiene from requiring a subsequent background check of an individual for the purposes of working in a center-based child care program"
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 79.792,
+          "text": "if DOHMH had already completed a background check, unless the individual has not been employed by a child care provider in the city for more than 180 consecutive days in the past five years."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 91.492,
+          "text": "A child care program requests a background check, or a background check is otherwise required by law or necessary for the purposes of safety."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 100.392,
+          "text": "This bill aims to correct inefficiencies, inefficacies in the background check process and ease some of the administrative burden on child care providers."
+        }
+      ]
+    },
+    {
+      "end_sec": 168.352,
+      "id": "005",
+      "slug": "chair-dinowitz-presents-proposed-int-580a-establishing-office-of-child-care",
+      "start_sec": 115.852,
+      "summary": "Chair Dinowitz describes Proposed Int 580A, sponsored by Councilmembers Gutierrez and Riley, which would establish an office of child care and early childhood education to oversee planning and implementation of child care at no cost to families. The office would coordinate child care provision, develop implementation recommendations, consider funding sources, and support agencies in identifying locations for additional programs.",
+      "title": "Chair Dinowitz presents Proposed Int 580A establishing Office of Child Care",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 115.852,
+          "text": "The committee will also be considering proposed introduction 580A, sponsored by subcommittee on early child education chair, council members Jen Gutierrez, as well as council member Kevin Riley."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 127.752,
+          "text": "This bill would establish an office of child care and early childhood education to oversee the planning and implementation of child care for any child who resides in the city at no cost to a parent, step-parent, guardian, or relative of such child."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 142.952,
+          "text": "The bill would require the office to coordinate the provision of child care in the city, including, among other mandates, developing recommendations for implementation, considering costs and potential sources of funding for the expansion of child care,"
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 156.452,
+          "text": "and supporting agencies in identifying potential locations for additional child care programs."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 162.252,
+          "text": "I would like to turn it over to the bill's sponsor, Councilmember Gutierrez, for her remarks."
+        }
+      ]
+    },
+    {
+      "end_sec": 196.452,
+      "id": "006",
+      "slug": "councilmember-guti-rrez-thanks-staff-and-colleagues-for-int-580a",
+      "start_sec": 168.352,
+      "summary": "Councilmember Guti\u00e9rrez thanks the staff who helped put the bill together and her colleagues who signed on through multiple reintroductions. She dedicates the legislation to child care and early childhood education advocates and providers, especially women of color who have not felt seen or supported.",
+      "title": "Councilmember Guti\u00e9rrez thanks staff and colleagues for Int 580A",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 168.352,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 169.652,
+          "text": "I will be so brief."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 171.552,
+          "text": "I just want to take this time to thank the entire staff that helped put this together."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 175.152,
+          "text": "All of my colleagues that very early on signed on, re-signed on, and then re-signed on again at the third reintroduction."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 181.852,
+          "text": "And I just want to dedicate this to all the advocates, all the providers, all the majority women and women of color that have been saying that they have not felt seen or supported as child care providers, as early childhood education providers."
+        }
+      ]
+    },
+    {
+      "end_sec": 217.752,
+      "id": "007",
+      "slug": "councilmember-guti-rrez-on-universal-child-care-vision",
+      "start_sec": 196.452,
+      "summary": "Guti\u00e9rrez praises the Speaker and Mayor for their commitment to child care, expresses excitement about New York City leading on universal child care, and envisions how the city will transform with a legitimate universal child care system.",
+      "title": "Councilmember Guti\u00e9rrez on universal child care vision",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 196.452,
+          "text": "I'm really thankful to the speaker and to this mayor who both, I think,"
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 201.852,
+          "text": "have never shied away from their commitment to this."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 204.452,
+          "text": "And I'm really excited to see how our city transforms when we have a legitimate universal child care system."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 210.752,
+          "text": "I think this is a space where New York can lead."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 213.352,
+          "text": "And I'm very excited about that future."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 215.352,
+          "text": "Thank you, Chair."
+        }
+      ]
+    },
+    {
+      "end_sec": 257.252,
+      "id": "008",
+      "slug": "chair-dinowitz-on-budget-investment-supporting-legislation-and-staff-thanks",
+      "start_sec": 217.752,
+      "summary": "Chair Dinowitz notes the upcoming budget vote significantly invests in early childhood education and says these bills improve system functionality. He encourages colleagues to support both bills and thanks committee staff (Carvajal, Rivera, Salina, Amato, Lane Lawless) and his own staff (Salter, Klaus).",
+      "title": "Chair Dinowitz on budget investment, supporting legislation, and staff thanks",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 217.752,
+          "text": "Thank you, Council Member."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 220.552,
+          "text": "Today, we'll soon be voting on a budget that significantly invests in New York City's early childhood education system."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 227.452,
+          "text": "And as a committee, we have the opportunity to improve the functionality of that system and set up that investment for a greater chance of success."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 237.052,
+          "text": "And I encourage my colleagues to support both of these pieces of legislation."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 240.952,
+          "text": "And finally, I'd like to thank the committee staff, Alejandro Carvajal, Chloe Rivera, Katie Salina, Grace Amato, and Andrew Lane Lawless, as well as my own staff, Theo Salter and Jenna Klaus."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 255.052,
+          "text": "We're ready to begin the vote."
+        }
+      ]
+    },
+    {
+      "end_sec": 262.552,
+      "id": "009",
+      "slug": "committee-clerk-martin-initiates-coupled-roll-call-vote",
+      "start_sec": 257.252,
+      "summary": "Committee Clerk William Martin announces the roll call vote for the Committee on Education, noting that both items are coupled for the vote.",
+      "title": "Committee Clerk Martin initiates coupled roll call vote",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 257.252,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 257.552,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 258.052,
+          "text": "William Martin, Committee Clerk, Roll Call Vote Committee on Education."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 261.052,
+          "text": "Both items are coupled."
+        }
+      ]
+    },
+    {
+      "end_sec": 284.752,
+      "id": "010",
+      "slug": "roll-call-vote-dinowitz-through-guti-rrez",
+      "start_sec": 262.552,
+      "summary": "Chair Dinowitz votes aye. Councilmember Louis votes aye and congratulates bill sponsors. De La Rosa votes aye. Far\u00edas votes aye and congratulates Councilmember Gutierrez. Guti\u00e9rrez votes aye with thanks.",
+      "title": "Roll call vote: Dinowitz through Guti\u00e9rrez",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 262.552,
+          "text": "Chair Dinowitz."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 263.952,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 265.052,
+          "text": "Lewis."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 266.052,
+          "text": "Aye on all."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 266.552,
+          "text": "Congratulations to all the bill sponsors."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 269.152,
+          "text": "Brewer."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 272.852,
+          "text": "De La Rosa."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 274.252,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 275.452,
+          "text": "Far\u00edas."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 277.152,
+          "text": "Aye, but aye."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 277.652,
+          "text": "Congratulations to Councilmember Gutierrez."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 280.752,
+          "text": "Gutierrez."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 282.552,
+          "text": "Thank you so much."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 283.352,
+          "text": "Aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 308.652,
+      "id": "011",
+      "slug": "roll-call-vote-joseph-through-wong",
+      "start_sec": 284.752,
+      "summary": "Roll call continues for Councilmembers Joseph, Krishnan, Lee, Narcisse, Shulman, Zhuang, and Wong, with affirmative votes recorded. Guti\u00e9rrez offers congratulations during the roll.",
+      "title": "Roll call vote: Joseph through Wong",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 284.752,
+          "text": "Joseph."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 287.752,
+          "text": "Krishnan."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 290.052,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 291.552,
+          "text": "Lee."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 292.352,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 293.852,
+          "text": "Narcisse."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 296.452,
+          "text": "Congratulations."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 297.352,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 298.652,
+          "text": "Shulman."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 301.752,
+          "text": "Zhuang."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 302.752,
+          "text": "I."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 304.652,
+          "text": "Wong."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 306.952,
+          "text": "I am both."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 308.152,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 322.901,
+      "id": "012",
+      "slug": "vote-outcome-both-items-adopted-13-0-committee-adjourned",
+      "start_sec": 308.652,
+      "summary": "Clerk Martin announces the vote result: 13 in the affirmative, zero in the negative, no abstentions. Both items are adopted by the committee. Chair Dinowitz adjourns the meeting.",
+      "title": "Vote outcome: Both items adopted 13-0, committee adjourned",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 308.652,
+          "text": "With a vote of 13 in the affirmative, zero."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 310.852,
+          "text": "In the negative, no abstentions."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 312.152,
+          "text": "Both items have been adopted by the committee."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 314.252,
+          "text": "Mr."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 314.452,
+          "text": "Chair, that is a full committee."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 316.952,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 317.352,
+          "text": "The committee is adjourned."
+        }
+      ]
+    }
+  ],
+  "date": "2026-06-30",
+  "duration_sec": 322.901,
+  "slug": "2026-06-30-1100-am-committee-on-education",
+  "summary": [
+    "The Committee on Education held a vote on two child care bills: Proposed Int 15A on background check requirements and Proposed Int 580A establishing an Office of Child Care and Early Childhood Education.",
+    "Councilmember Guti\u00e9rrez, sponsor of Int 580A, dedicated the bill to child care advocates and providers, predominantly women of color, who have pushed for a legitimate universal child care system.",
+    "Both items passed with a 13-0 vote and no abstentions."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "11:00 AM",
+  "title": "Committee on Education",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-1_260630-110612/video-web.mp4"
+  }
+}

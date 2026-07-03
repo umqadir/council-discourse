@@ -1,0 +1,1018 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 21.9,
+      "id": "001",
+      "slug": "call-to-order-and-hearing-announcements",
+      "start_sec": 9.2,
+      "summary": "Council staff calls the hearing to order, welcomes attendees, and gives housekeeping reminders.",
+      "title": "Call to order and hearing announcements",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 9.2,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 9.9,
+          "text": "Welcome to the New York City Council hearing for the Committee on Parks and Recreation."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 15.2,
+          "text": "Police lines all sell electronic devices."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 17.1,
+          "text": "Moving forward, no one is to approach the days."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 19.7,
+          "text": "Chair Hankerson, we are ready to begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 77.6,
+      "id": "002",
+      "slug": "chair-hankerson-celebrates-historic-parks-budget-baseline",
+      "start_sec": 21.9,
+      "summary": "Chair Ty Hankerson celebrates the historic parks budget baseline, thanking advocates, the former chair, and park workers for their fight.",
+      "title": "Chair Hankerson celebrates historic parks budget baseline",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 21.9,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 22.3,
+          "text": "Good morning, everyone."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 23.3,
+          "text": "My name is Ty Hankerson."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 24.3,
+          "text": "I serve as the chair on the Committee of Parks and Recreation."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 27.1,
+          "text": "And before I start with the remarks for today, I just want to say that this is an amazing day for parks with a historic baseline, and that is something to be proud of."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 37.6,
+          "text": "I want to say to all of the advocates, New Yorkers for Parks, Play for Coalition, to everyone who has lent their voice to this fight over the years, to the former chair, Shekar Krishnan, to our speaker, to our finance chair, thank you so much for fighting for our parks."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 51.4,
+          "text": "This is what our parks deserve."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 54.1,
+          "text": "And even to all of the parkies, you know, who may not be watching this because I don't know who watches the council channel, but to all of the parkies, this budget is for you."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 64.8,
+          "text": "So for everyone that's ever felt like your city has not paid attention or taken you for granted, know that today shows that we honor you and that we are fighting for you."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 75.0,
+          "text": "All right."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 76.0,
+          "text": "With that."
+        }
+      ]
+    },
+    {
+      "end_sec": 128.0,
+      "id": "003",
+      "slug": "chair-hankerson-outlines-103-thoroughfare-co-naming-bill",
+      "start_sec": 77.6,
+      "summary": "Chair Hankerson introduces the pre-considered bill to co-name 103 thoroughfares and public spaces, highlighting several co-namings in his district.",
+      "title": "Chair Hankerson outlines 103 thoroughfare co-naming bill",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 77.6,
+          "text": "Today, I'd like to welcome you all to this hearing of the Committee on Parks and Recreation, where we will vote on two bills and a resolution."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 84.0,
+          "text": "One of the bills is a pre-considered bill that would ceremonially co-name 103, 103,"
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 90.1,
+          "text": "thoroughfares and public spaces throughout the city."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 92.5,
+          "text": "Co-naming bills are the result of Council's periodic process where we seek to honor individuals and organizations that have made lasting contributions to our city."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 101.0,
+          "text": "Some of these include co-names for active community members, heroic New Yorkers who sacrificed their lives for others, people who committed their lives to public service, or those who greatly enriched the city's cultural landscape."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 114.9,
+          "text": "Of the 103 co-namings of this bill, I am proud to have sponsored Sri Lakshmi, Noreen Munder, Reverend Dr."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 122.8,
+          "text": "Emmanuel Osei-Anchapong, and Mrs."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 125.9,
+          "text": "Kathy Hunt in my district."
+        }
+      ]
+    },
+    {
+      "end_sec": 149.6,
+      "id": "004",
+      "slug": "chair-hankerson-outlines-intro-859a-on-biographical-info-for-co-namings",
+      "start_sec": 128.0,
+      "summary": "Chair Hankerson introduces Intro 859A, sponsored by Council Member Brewer, which requires DORIS to post biographical information for street and park name changes.",
+      "title": "Chair Hankerson outlines Intro 859A on biographical info for co-namings",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 128.0,
+          "text": "We will also vote on Intro 859A, sponsored by Councilmember Brewer, which would specify the process to be used by the Department of Records and Information Services to comply with existing law"
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 139.5,
+          "text": "that requires the posting of biographical information for the subjects of street and park name changes when no biographical information can be otherwise found in the legislative record."
+        }
+      ]
+    },
+    {
+      "end_sec": 215.3,
+      "id": "005",
+      "slug": "chair-hankerson-outlines-knicks-championship-resolution",
+      "start_sec": 149.6,
+      "summary": "Chair Hankerson introduces a resolution honoring the 2026 NBA champion New York Knicks with ceremonial location names like Brunson Way and Towns Square.",
+      "title": "Chair Hankerson outlines Knicks championship resolution",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 149.6,
+          "text": "Last but certainly not least, we will vote on a resolution honoring our NBA champions, New York Knicks, sponsored by Deputy Speaker Dr."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 158.0,
+          "text": "Nantasha Williams."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 159.3,
+          "text": "It calls for various famed New York City locations to be ceremonially named for one year in honor of the 2026 champions."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 168.4,
+          "text": "The names and locations include Fifth Avenue as Knicks and Five Ave, Broadway as Brunson Way, Victory Boulevard in Staten Island as Captain Clutch Boulevard, Knickerbocker Boulevard,"
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 180.2,
+          "text": "Avenue in Brooklyn as Alvarado Avenue, Times Square as Towns Square, Queens Boulevard as Hart Boulevard, the Brooklyn Bridge as Bridges Bridge,"
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 189.4,
+          "text": "the Manhattan Bridge as Ananabe Bridge, the Williamsburg Bridge as Coach Brown Bridge, and the Bronx River as Breen River."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 199.6,
+          "text": "We could have added some more."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 202.4,
+          "text": "I'd like to congratulate my colleagues who have proposed these pieces of legislation."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 205.7,
+          "text": "I urge all of my colleagues on the committee to vote in favor of the legislation before us."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 209.9,
+          "text": "Thank you again and welcome."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 211.0,
+          "text": "At this time, I'd like to turn it over to Councilmember Brewer and then Councilmember Narcis for their statements."
+        }
+      ]
+    },
+    {
+      "end_sec": 360.776,
+      "id": "006",
+      "slug": "council-member-brewer-on-intro-859a-and-cecile-richards-way",
+      "start_sec": 215.3,
+      "summary": "Council Member Gale Brewer speaks on Intro 859A, explaining its purpose to update the DORIS digital map with bios for 9/11 first responders, and celebrates the co-naming of Cecile Richards Way.",
+      "title": "Council Member Brewer on Intro 859A and Cecile Richards Way",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 215.3,
+          "text": "Thank you very much, Chair, and I am here about 859A."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 220.3,
+          "text": "This is about the omnibus street co-naming bill."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 223.5,
+          "text": "It is a long history."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 225.0,
+          "text": "We have a long history in New York."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 226.8,
+          "text": "And we need tools to remember those who came before us, whether their name is on a building or a street sign or anywhere."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 233.1,
+          "text": "These folks shaped our neighborhoods and future generations."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 236.2,
+          "text": "In 2023,"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 238.3,
+          "text": "The council passed my local law 104 requiring the Department of Records and Information Services, known as DORIS, to create an interactive digital map of these co-namings."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 248.7,
+          "text": "Every single person we had names of up to that point is in that digital map."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 257.2,
+          "text": "Yet between 2002 and 2003, more than 400 streets were co-named for first responders killed on 9-11, and the city lacked biographical information to update the map."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 270.0,
+          "text": "I remember going to a lot of funerals at that time."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 273.1,
+          "text": "And to the credit of Doris, particularly former Commissioner Pauline Toole and her staff, they researched all 400"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 282.3,
+          "text": "of the individuals lost on that terrible day because they could not until then get their bios."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 290.0,
+          "text": "Into 859A allows Doris to update the map so New Yorkers and visitors can quickly learn the stories behind these heroes without having to search through years of records."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 299.5,
+          "text": "I want to say that to the credit of Doris, they felt that it should go through the council to be official and not just go up on the website."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 307.2,
+          "text": "I want to thank Committee Counsel Chris Sartori, Senior Legislative Policy Analyst Patrick Mulville for their work on this, as well as Local Law 104."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 318.5,
+          "text": "I think we're also ecstatic that Cecile Richards will be Cecile Richards Way on the corner of 83rd Street and Central Park West."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 327.6,
+          "text": "She was a civil rights, women's rights leader of her generation, head of Planned Parenthood for many, many years, and the daughter of Ann Richards, who was governor of Texas for many years."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 342.5,
+          "text": "I want to thank Deborah Maherans and Carol Portlock for their persistence, and also to thank her husband, Kirk Adams, for his support of this co-naming."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 352.5,
+          "text": "Thank you very much."
+        }
+      ]
+    },
+    {
+      "end_sec": 467.376,
+      "id": "007",
+      "slug": "council-member-narcisse-on-four-co-namings-in-district-46",
+      "start_sec": 360.776,
+      "summary": "Council Member Mercedes Narcisse honors four individuals from her district being co-named: John Leonard, Fred Wilkins, Audrey Dust, and Gianna.",
+      "title": "Council Member Narcisse on four co-namings in District 46",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 360.776,
+          "text": "Thank you to my colleagues for supporting this bill, which let us memorialize four heroes from my district, District 46."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 369.576,
+          "text": "John Leonard ran the legendary Landy's Pork store on Avenue N for over 60 years, the same store"
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 378.276,
+          "text": "his father opened back in 1958 and never let neighbors go, I mean, without help."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 386.176,
+          "text": "If you're hungry, he got your back."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 388.076,
+          "text": "If you need something, he got your back."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 389.876,
+          "text": "Whatever the community we're doing, always involve, always go above and beyond."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 395.276,
+          "text": "And then we have Fred Wilkins, spent almost 40 years entering the call as a volunteer with Flatlands Volunteer Ambulance Corps, training EMT and saving lives every day."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 408.876,
+          "text": "Those are the people we should honor at all time and give them the space where they spend their lives giving back to the community."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 416.876,
+          "text": "Audrey Dust taught at PS91 for 32 years and never stopped giving after even she retired."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 425.876,
+          "text": "50 years volunteering at Downstate Medical Center."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 429.176,
+          "text": "Thousands of hats knit by hands she will do and bring to the children."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 434.476,
+          "text": "Those are the things we can never forget."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 436.476,
+          "text": "Gianna."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 437.876,
+          "text": "Was a young person."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 439.876,
+          "text": "And even through cancer, she was giving, she was organizing."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 443.876,
+          "text": "She was making even adults feel better in the community."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 447.276,
+          "text": "She was present for everything that the young folks were doing, all the folks were doing."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 452.176,
+          "text": "I'm sure she was the youngest one giving back."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 454.576,
+          "text": "So we are..."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 456.276,
+          "text": "We're saying to them, thank you for your service."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 459.176,
+          "text": "You deserve it."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 460.376,
+          "text": "And the community that you work so hard for will never forget you."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 464.576,
+          "text": "So thank you, my colleagues."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 465.676,
+          "text": "Thank you, Chair."
+        }
+      ]
+    },
+    {
+      "end_sec": 504.892,
+      "id": "008",
+      "slug": "chair-hankerson-calls-public-testimony",
+      "start_sec": 467.376,
+      "summary": "Chair Hankerson transitions to public testimony and calls Leah Cooper and Sharon Marshall to the table.",
+      "title": "Chair Hankerson calls public testimony",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 467.376,
+          "text": "Thank you, Councilmember."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 468.276,
+          "text": "At this time, we're going to turn it over to public testimony."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 472.476,
+          "text": "We're going to call Leah Cooper and Sharon Marshall to the..."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 480.592,
+          "text": "Not to the stand."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 483.992,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 484.792,
+          "text": "To the table."
+        }
+      ]
+    },
+    {
+      "end_sec": 606.352,
+      "id": "009",
+      "slug": "sharon-marshall-testifies-for-edith-mott-young-way",
+      "start_sec": 504.892,
+      "summary": "Sharon Marshall, president-elect of the Brooklyn Alumni Chapter of Delta Sigma Theta, speaks in support of co-naming Union Street as Edith Mott Young Way.",
+      "title": "Sharon Marshall testifies for Edith Mott Young Way",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Sharon Marshall",
+          "t_sec": 504.892,
+          "text": "So good morning."
+        },
+        {
+          "speaker": "Member of the Public - Sharon Marshall",
+          "t_sec": 508.592,
+          "text": "I want to thank you, Chair Hankerson and the distinguished members of the Parks and Recreation Committee for giving me this opportunity to speak on behalf of the co-naming of"
+        },
+        {
+          "speaker": "Member of the Public - Sharon Marshall",
+          "t_sec": 523.292,
+          "text": "Edith Mott Young Way on Union between Albany and Kingston Avenues in Brooklyn, New York."
+        },
+        {
+          "speaker": "Member of the Public - Sharon Marshall",
+          "t_sec": 531.492,
+          "text": "My name is Sharon Marshall."
+        },
+        {
+          "speaker": "Member of the Public - Sharon Marshall",
+          "t_sec": 533.492,
+          "text": "I am the president-elect for the Brooklyn Alumni Chapter of Delta Sigma Theta Sorority Incorporated."
+        },
+        {
+          "speaker": "Member of the Public - Sharon Marshall",
+          "t_sec": 540.392,
+          "text": "In fact, my term starts tomorrow, well, tonight at midnight."
+        },
+        {
+          "speaker": "Member of the Public - Sharon Marshall",
+          "t_sec": 544.592,
+          "text": "And so I want to share with you that Brooklyn Alumni Chapter has over 350 members that do significant work in the community."
+        },
+        {
+          "speaker": "Member of the Public - Sharon Marshall",
+          "t_sec": 555.792,
+          "text": "But to be able to also have it anchored with this co-naming as a place where a founder of Delta Sigma Theta actually resided during..."
+        },
+        {
+          "speaker": "Member of the Public - Sharon Marshall",
+          "t_sec": 568.292,
+          "text": "Her time is especially poignant and significant for us."
+        },
+        {
+          "speaker": "Member of the Public - Sharon Marshall",
+          "t_sec": 576.592,
+          "text": "If you are not familiar, Delta Sigma Theta was founded in 1913 at Howard University by 22 visionary women, including our founding soror, Edith Mott Young."
+        },
+        {
+          "speaker": "Member of the Public - Sharon Marshall",
+          "t_sec": 591.092,
+          "text": "And so I will turn it over to Sor Leah Cooper, who is our chair of Heritage and Archives, who has worked diligently to have this day happen."
+        }
+      ]
+    },
+    {
+      "end_sec": 805.652,
+      "id": "010",
+      "slug": "leah-cooper-testifies-for-edith-mott-young-way",
+      "start_sec": 606.352,
+      "summary": "Leah Cooper, Heritage and Archives Chair for Delta Sigma Theta, testifies in support of the Edith Mott Young Way co-naming, detailing Young's legacy as a founder of the sorority and her contributions to Brooklyn.",
+      "title": "Leah Cooper testifies for Edith Mott Young Way",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Leah Cooper",
+          "t_sec": 606.352,
+          "text": "Good morning, Chair Hankerson and distinguished members of the Committee on Parks and Recreation."
+        },
+        {
+          "speaker": "Member of the Public - Leah Cooper",
+          "t_sec": 613.952,
+          "text": "Thank you for the opportunity to testify today."
+        },
+        {
+          "speaker": "Member of the Public - Leah Cooper",
+          "t_sec": 617.352,
+          "text": "My name is Leah Cooper and I serve as the Heritage and Archives Chair for Brooklyn Alumni's Chapter of Delta Sigma Theta Sorority Incorporated."
+        },
+        {
+          "speaker": "Member of the Public - Leah Cooper",
+          "t_sec": 627.552,
+          "text": "I respectfully ask for your favorable vote to co-name Union Street between Albany and Kingston in Brooklyn as Edith Mott Youngway."
+        },
+        {
+          "speaker": "Member of the Public - Leah Cooper",
+          "t_sec": 638.352,
+          "text": "Street namings are among the most meaningful ways New York City preserves its history."
+        },
+        {
+          "speaker": "Member of the Public - Leah Cooper",
+          "t_sec": 644.752,
+          "text": "They remind us that the people who shared our neighborhoods deserve to be remembered where they lived, served, and inspired others."
+        },
+        {
+          "speaker": "Member of the Public - Leah Cooper",
+          "t_sec": 654.552,
+          "text": "Edith Mott Young was one of the 22 founders of Delta Sigma Theta Sorority Incorporated, but today we are not asking you to honor her because she helped found a historic organization."
+        },
+        {
+          "speaker": "Member of the Public - Leah Cooper",
+          "t_sec": 667.452,
+          "text": "We are asking you to honor her because she made Brooklyn her home, devoted her life to education and public service, and in 1949, she helped establish what became the Brooklyn Alumni Chapter."
+        },
+        {
+          "speaker": "Member of the Public - Leah Cooper",
+          "t_sec": 683.052,
+          "text": "From that beginning grew more than 75 years of scholarships, mentoring, youth development, health initiatives, civic engagement, and"
+        },
+        {
+          "speaker": "Member of the Public - Leah Cooper",
+          "t_sec": 693.952,
+          "text": "and community service that continue to benefit Brooklyn today."
+        },
+        {
+          "speaker": "Member of the Public - Leah Cooper",
+          "t_sec": 698.652,
+          "text": "This proposal is supported by a broad coalition of residents, elected officials, community organizations, clergy, businesses, and neighborhood partners because Edith Mott Young,"
+        },
+        {
+          "speaker": "Member of the Public - Leah Cooper",
+          "t_sec": 711.252,
+          "text": "Young's legacy belongs not only to Delta Sigma Theta, but to"
+        },
+        {
+          "speaker": "Member of the Public - Leah Cooper",
+          "t_sec": 716.352,
+          "text": "Brooklyn itself."
+        },
+        {
+          "speaker": "Member of the Public - Leah Cooper",
+          "t_sec": 718.552,
+          "text": "Recognizing her does not rewrite history, it completes it."
+        },
+        {
+          "speaker": "Member of the Public - Leah Cooper",
+          "t_sec": 723.952,
+          "text": "It ensures that a woman whose contributions have shaped this, our borough, for generations is finally recognized in this public landscape where her legacy began."
+        },
+        {
+          "speaker": "Member of the Public - Leah Cooper",
+          "t_sec": 736.352,
+          "text": "By voting yes today, you will preserve Brooklyn's history, honoring a lifetime of service, and inspire future generations to ask, who was Edith Mott Young?"
+        },
+        {
+          "speaker": "Member of the Public - Leah Cooper",
+          "t_sec": 748.552,
+          "text": "Every time the question is asked, another chapter of our city's history will be told."
+        },
+        {
+          "speaker": "Member of the Public - Leah Cooper",
+          "t_sec": 754.752,
+          "text": "On behalf of the Brooklyn Alumni Chapter of Delta Sigma Theta Sorority Incorporated, Edith Mott Young's family,"
+        },
+        {
+          "speaker": "Member of the Public - Leah Cooper",
+          "t_sec": 762.652,
+          "text": "and the many lives her legacy continues to touch, I respectfully ask for your favorable vote to establish Edith Mott Young Way."
+        },
+        {
+          "speaker": "Member of the Public - Leah Cooper",
+          "t_sec": 772.552,
+          "text": "Thank you for your time, your consideration, and your service to the people of New York City."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 778.352,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 780.452,
+          "text": "At this time, we are going to call the..."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 804.652,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 804.952,
+          "text": "Hello."
+        }
+      ]
+    },
+    {
+      "end_sec": 810.852,
+      "id": "011",
+      "slug": "committee-clerk-announces-roll-call-vote",
+      "start_sec": 805.652,
+      "summary": "Committee Clerk William Martin announces the roll call vote on all coupled items.",
+      "title": "Committee Clerk announces roll call vote",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 805.652,
+          "text": "William Martin, Committee Clerk, Roll Call Vote Committee on Parks and Recreation."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 809.352,
+          "text": "All items are coupled."
+        }
+      ]
+    },
+    {
+      "end_sec": 925.808,
+      "id": "012",
+      "slug": "roll-call-vote-on-coupled-items",
+      "start_sec": 810.852,
+      "summary": "Committee members cast their votes, with Council Members Sanchez and Morano explaining their votes to honor local families and Staten Islanders Dorothy Day and John Hudson Dilgen.",
+      "title": "Roll call vote on coupled items",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 810.852,
+          "text": "Chair Hankerson."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 812.352,
+          "text": "Would I?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 814.552,
+          "text": "Krishnan."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 816.552,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 817.752,
+          "text": "Lee."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 820.844,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 822.244,
+          "text": "Marte."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 823.144,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 824.444,
+          "text": "Narcisse."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 825.844,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 827.144,
+          "text": "Nurse."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 829.644,
+          "text": "Sanchez."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 831.344,
+          "text": "Permission to explain my vote?"
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 839.344,
+          "text": "The same thing earlier."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 840.744,
+          "text": "I just want to uplift a few of our local families, Luisa Pinheiro's family and Gloria Thomas'family, who we are also renaming thoroughfares for, and I look forward to those ceremonies with them."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 852.844,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 853.744,
+          "text": "And with that, I vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 855.444,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 856.944,
+          "text": "Ong."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 859.444,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 860.144,
+          "text": "Salaam."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 862.144,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 864.044,
+          "text": "Santos Suoso."
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 866.144,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 867.344,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 869.908,
+          "text": "Moran, all."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 871.108,
+          "text": "Permission to explain my vote."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 873.908,
+          "text": "I'd like to enthusiastically vote aye, but I really want to thank my colleagues for their votes for the street namings in my district, especially for two incredible Staten Islanders, one woman,"
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 886.208,
+          "text": "both of whom should be saints, one of whom is a household name, and that's Dorothy Day."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 890.508,
+          "text": "A lot of you may have seen her picture on the wall at City Hall."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 893.508,
+          "text": "And we're going to be honoring her on her birthday on November 8th."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 897.008,
+          "text": "And the other is a young man who you might not have heard of named John Hudson Dilgen, who should also be a saint, who passed away far too young after dealing his whole life with a debilitating disease called EB."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 910.208,
+          "text": "And through his work and his advocacy, they've really furthered the cause of EB research significantly."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 916.708,
+          "text": "And he's been a model Staten Islander."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 918.908,
+          "text": "And I thank you all for your support for those street namings in my district."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 923.108,
+          "text": "With that, I'll vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 925.308,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 933.708,
+      "id": "013",
+      "slug": "committee-clerk-announces-11-0-vote-all-items-approved",
+      "start_sec": 925.808,
+      "summary": "The committee clerk announces the final vote of 11 in the affirmative, zero in the negative, approving all items.",
+      "title": "Committee Clerk announces 11-0 vote, all items approved",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 925.808,
+          "text": "I have a vote of 11 in the affirmative, zero in the negative, and no abstentions."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 929.808,
+          "text": "All items have been approved by the committee."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 931.808,
+          "text": "Mr."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 932.008,
+          "text": "Chair, that is a full committee."
+        }
+      ]
+    },
+    {
+      "end_sec": 940.949,
+      "id": "014",
+      "slug": "chair-hankerson-adjourns-meeting",
+      "start_sec": 933.708,
+      "summary": "Chair Hankerson adjourns the committee meeting.",
+      "title": "Chair Hankerson adjourns meeting",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 933.708,
+          "text": "Thank you, Mr."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 934.808,
+          "text": "Clerk."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 935.308,
+          "text": "This committee is adjourned."
+        }
+      ]
+    }
+  ],
+  "date": "2026-06-30",
+  "duration_sec": 940.949,
+  "slug": "2026-06-30-1100-am-committee-on-parks-and-recreation",
+  "summary": [
+    "The Committee on Parks and Recreation votes on Intro 859A, which requires the online publication of biographical information for street and park co-namings, and a resolution honoring the 2026 NBA champion New York Knicks.",
+    "The committee also votes on a pre-considered bill to ceremonially co-name 103 thoroughfares and public spaces across the city.",
+    "Public testimony is heard from members of the Delta Sigma Theta Sorority in support of the Edith Mott Young Way co-naming in Brooklyn.",
+    "Council Members Gale Brewer and Mercedes Narcisse provide remarks honoring individuals being co-named in their districts, including Cecile Richards and several local community leaders."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "11:00 AM",
+  "title": "Committee on Parks and Recreation",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-2_260630-113910/video-web.mp4"
+  }
+}

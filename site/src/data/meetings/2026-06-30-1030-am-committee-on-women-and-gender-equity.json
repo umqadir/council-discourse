@@ -1,0 +1,400 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 19.4,
+      "id": "001",
+      "slug": "committee-clerk-opens-hearing-and-gives-housekeeping-instructions",
+      "start_sec": 4.2,
+      "summary": "Council staff welcomes attendees to the Committee on Women and Gender Equity vote, asks everyone to silence electronic devices, and confirms the chair is ready to begin.",
+      "title": "Committee clerk opens hearing and gives housekeeping instructions",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 4.2,
+          "text": "Good morning and welcome to today's New York City Council vote for the Committee on Women and Gender Equity."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 10.9,
+          "text": "At this time, please silence all electronic devices and no one may approach the dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 15.9,
+          "text": "Chair, we are ready to begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 39.8,
+      "id": "002",
+      "slug": "chair-far-as-welcomes-members-and-acknowledges-colleagues-present",
+      "start_sec": 19.4,
+      "summary": "Councilmember Amanda Far\u00edas introduces herself as Chair of the Committee on Women and Gender Equity and acknowledges Councilmembers Guti\u00e9rrez, Aldebol, Schulman, Cab\u00e1n, and Santosuosso (virtual).",
+      "title": "Chair Far\u00edas welcomes members and acknowledges colleagues present",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 19.4,
+          "text": "Good morning, everyone."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 20.4,
+          "text": "I'm Councilmember Amanda Far\u00edas, Chair of the Committee on Women and Gender Equity."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 23.7,
+          "text": "Welcome to today's vote."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 25.4,
+          "text": "I'd first like to acknowledge my colleagues who are present, Councilmember Gutierrez, Aldebol Shulman, and we're joined by Councilmember Caban."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 32.5,
+          "text": "Thank you all for being here."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 35.4,
+          "text": "And we are also joined by Councilmember Santosuoso, who's virtual."
+        }
+      ]
+    },
+    {
+      "end_sec": 61.8,
+      "id": "003",
+      "slug": "chair-far-as-introduces-resolution-69-opposing-trump-s-executive-order-on-transgender-students",
+      "start_sec": 39.8,
+      "summary": "Far\u00edas announces the committee will consider Resolution 69, sponsored by Councilmember Cab\u00e1n, which opposes President Trump's executive order restricting protections for transgender students and calls on the NY State Department of Education to uphold protective policies.",
+      "title": "Chair Far\u00edas introduces Resolution 69 opposing Trump's executive order on transgender students",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 39.8,
+          "text": "Today, the committee will consider Resolution 69, sponsored by Councilmember Tiffany Caban, unequivocally opposing President Trump's executive order restricting protections for transgender students and calling on the New York State Department of Education"
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 52.2,
+          "text": "to ensure that all schools in New York City continue to uphold policies that protect the rights and dignity of transgender and gender nonconforming students, regardless of federal directives."
+        }
+      ]
+    },
+    {
+      "end_sec": 70.0,
+      "id": "004",
+      "slug": "chair-far-as-on-trump-s-executive-orders-targeting-transgender-gender-expansive-and-intersex-peo",
+      "start_sec": 61.8,
+      "summary": "Far\u00edas describes how within months of taking office, Trump rolled out executive orders openly targeting transgender, gender expansive, and intersex people, followed by a rapid escalation in state anti-transgender legislation.",
+      "title": "Chair Far\u00edas on Trump's executive orders targeting transgender, gender expansive, and intersex people",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 61.8,
+          "text": "Within months of taking office, President Trump rolled out a series of executive orders that openly targeted transgender, gender expansive, and intersex people."
+        }
+      ]
+    },
+    {
+      "end_sec": 90.0,
+      "id": "005",
+      "slug": "chair-far-as-on-wave-of-600-anti-transgender-bills-and-discriminatory-impacts",
+      "start_sec": 70.0,
+      "summary": "Far\u00edas notes over 600 anti-transgender bills were introduced by end of 2025, citing healthcare bans, funding cuts, and education restrictions that strip vital resources from transgender people.",
+      "title": "Chair Far\u00edas on wave of 600+ anti-transgender bills and discriminatory impacts",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 70.0,
+          "text": "What followed was a rapid escalation in state legislation targeting transgender people, followed with over 600 anti-transgender bills having been introduced by the end of 2025."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 80.6,
+          "text": "From health care bans to funding cuts to education restrictions, this discriminatory policymaking is stripping vital access to resources for transgender people."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 89.8,
+          "text": "Executive."
+        }
+      ]
+    },
+    {
+      "end_sec": 110.6,
+      "id": "006",
+      "slug": "chair-far-as-on-executive-order-14190-and-nyc-shield-laws-protecting-trans-students",
+      "start_sec": 90.0,
+      "summary": "Far\u00edas explains Executive Order 14190 (January 29, 2025) aims to eliminate protections for transgender students by rescinding federal funding, but notes NYC has shield laws protecting transgender and gender nonconforming students.",
+      "title": "Chair Far\u00edas on Executive Order 14190 and NYC shield laws protecting trans students",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 90.0,
+          "text": "Executive Order 14190 passed on January 29, 2025, aimed at eliminating protections for transgender students by calling on federal agencies to rescind and withhold funding from K-12 schools that support transgender students."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 103.5,
+          "text": "Fortunately, New York City has a number of shield laws that protect transgender and gender nonconforming students at school."
+        }
+      ]
+    },
+    {
+      "end_sec": 129.7,
+      "id": "007",
+      "slug": "chair-far-as-urges-committee-support-for-resolution-69",
+      "start_sec": 110.6,
+      "summary": "Far\u00edas states the city must continue upholding rights of transgender and gender nonconforming students to ensure safe, inclusive, and affirming education, and encourages fellow council members to support the resolution.",
+      "title": "Chair Far\u00edas urges committee support for Resolution 69",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 110.6,
+          "text": "As a city, we must continue to uphold the rights of transgender and gender nonconforming students and ensure every student has access to a safe, inclusive, and affirming education."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 120.2,
+          "text": "I encourage my fellow council members to support Resolution 69."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 124.1,
+          "text": "With that, I'd like to turn it over to the sponsor of the resolution, Councilmember Caban, for her remarks."
+        }
+      ]
+    },
+    {
+      "end_sec": 143.0,
+      "id": "008",
+      "slug": "councilmember-cab-n-on-trump-administration-targeting-trans-and-gender-nonconforming-students",
+      "start_sec": 129.7,
+      "summary": "Sponsor Councilmember Cab\u00e1n notes the Trump administration made targeting trans and gender nonconforming kids a priority, which the Supreme Court backed that same morning, and emphasizes the need for city and state to uphold human rights laws.",
+      "title": "Councilmember Cab\u00e1n on Trump administration targeting trans and gender nonconforming students",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Tiffany L. Cab\u00e1n",
+          "t_sec": 129.7,
+          "text": "Thank you so much, Chair."
+        },
+        {
+          "speaker": "Tiffany L. Cab\u00e1n",
+          "t_sec": 131.0,
+          "text": "I think it's already been said, but the Trump administration has made it its priority to target trans and gender nonconforming kids, which the Supreme Court put its weight behind just this morning."
+        }
+      ]
+    },
+    {
+      "end_sec": 171.8,
+      "id": "009",
+      "slug": "councilmember-cab-n-on-specific-restrictions-and-call-to-protect-children",
+      "start_sec": 143.0,
+      "summary": "Cab\u00e1n details how the executive order prevents trans students from accessing bathrooms matching their gender identity, participating in sports, and using preferred names and pronouns. She declares the city must be '10 toes down' on protecting children and thanks colleagues for supporting the resolution.",
+      "title": "Councilmember Cab\u00e1n on specific restrictions and call to protect children",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Tiffany L. Cab\u00e1n",
+          "t_sec": 143.0,
+          "text": "And its executive order prevents them from accessing bathrooms, matching their gender identity, taking part in sports, and using their preferred names and pronouns."
+        },
+        {
+          "speaker": "Tiffany L. Cab\u00e1n",
+          "t_sec": 150.4,
+          "text": "And so our city and state must continue to uphold human rights laws, which protect trans students from discrimination, especially in the face of federal threats."
+        },
+        {
+          "speaker": "Tiffany L. Cab\u00e1n",
+          "t_sec": 159.1,
+          "text": "We need to be 10 toes down on the fact that we are going to protect our children, period."
+        },
+        {
+          "speaker": "Tiffany L. Cab\u00e1n",
+          "t_sec": 164.5,
+          "text": "So thank you to my colleagues for supporting this resolution, and I look forward to its passage."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 170.4,
+          "text": "Thank you, Councilmember Kavan."
+        }
+      ]
+    },
+    {
+      "end_sec": 196.5,
+      "id": "010",
+      "slug": "chair-far-as-thanks-committee-staff-for-preparing-the-hearing",
+      "start_sec": 171.8,
+      "summary": "Far\u00edas thanks her staff (Dan Curtin, Josephine Karras) and the Women and Gender Equity Committee staff (Julia Goldsmith Pinkham, Katie Selena, Ailey Stauffer) for preparing the meeting, then calls for the vote to begin.",
+      "title": "Chair Far\u00edas thanks committee staff for preparing the hearing",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 171.8,
+          "text": "Finally, I'd like to thank my own staff, Dan Curtin and Josephine Karras, and the members of the Women and Gender Equity Committee staff, Senior Committee Counsel Julia Goldsmith."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 180.1,
+          "text": "Pinkham, legislative policy analyst Katie Selena, and financial analyst Ailey Stauffer, who worked to prepare this meeting."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 190.8,
+          "text": "Hi, Billy."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 191.4,
+          "text": "Clerk, we are ready to begin the vote."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 196.2,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 222.6,
+      "id": "011",
+      "slug": "roll-call-vote-on-resolution-69",
+      "start_sec": 196.5,
+      "summary": "Committee Clerk William Martin conducts the roll call vote. Chair Far\u00edas, Councilmembers Guti\u00e9rrez, Schulman, Aldebol, and Santosuosso each vote aye on Resolution 69.",
+      "title": "Roll call vote on Resolution 69",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 196.5,
+          "text": "Good morning, William Martin, Committee Clerk, Roll Call Vote Committee on Women and Gender Equity on Resolution 69."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 202.5,
+          "text": "Chair Farias."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 204.0,
+          "text": "I proudly vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 205.6,
+          "text": "Gutierrez."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 207.2,
+          "text": "Congrats."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 207.7,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 209.1,
+          "text": "Shulman."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 211.3,
+          "text": "Congrats, vote A."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 213.2,
+          "text": "Al the ball."
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 215.8,
+          "text": "Congratulations and vote aye, vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 218.7,
+          "text": "Santos, vosso."
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 220.7,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 221.6,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 236.203,
+      "id": "012",
+      "slug": "resolution-69-approved-unanimously-by-full-committee",
+      "start_sec": 222.6,
+      "summary": "The clerk announces Resolution 69 passes with a vote of 5 in the affirmative, 0 in the negative, and no abstentions\u2014a full committee vote. Chair Far\u00edas thanks members and adjourns the hearing.",
+      "title": "Resolution 69 approved unanimously by full committee",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 222.6,
+          "text": "With a vote of five in the affirmative, zero in the negative, and no abstentions, resolution has been approved by the committee."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 228.1,
+          "text": "Madam Chair, that is a full committee."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 230.4,
+          "text": "Thank you to the committee members for your votes."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 232.7,
+          "text": "This hearing is now adjourned."
+        }
+      ]
+    }
+  ],
+  "date": "2026-06-30",
+  "duration_sec": 236.203,
+  "slug": "2026-06-30-1030-am-committee-on-women-and-gender-equity",
+  "summary": [
+    "The Committee on Women and Gender Equity held a vote on Resolution 69, opposing President Trump's executive order restricting protections for transgender students.",
+    "Chair Far\u00edas and sponsor Councilmember Cab\u00e1n detailed the wave of anti-transgender federal actions and called on NYC and NYS to continue upholding protective policies for trans and gender nonconforming students.",
+    "Resolution 69 passed unanimously with a 5-0 vote from all committee members present."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "10:30 AM",
+  "title": "Committee on Women and Gender Equity",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-1_260630-104738/video-web.mp4"
+  }
+}

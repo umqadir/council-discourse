@@ -1,0 +1,661 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 29.2,
+      "id": "001",
+      "slug": "council-staff-opens-hearing-and-gives-housekeeping-reminders",
+      "start_sec": 6.4,
+      "summary": "Council staff opens the hearing of the Committee on Cultural Affairs, Libraries, and International Relations, reminding attendees to silence devices and not approach the dais.",
+      "title": "Council staff opens hearing and gives housekeeping reminders",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 6.4,
+          "text": "Good morning, ladies and gentlemen."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 8.0,
+          "text": "Welcome to the New York City Council vote for the Committee on Cultural Affairs, Libraries, and International Intergroup Relations."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 15.3,
+          "text": "At this time, I'd like to remind everyone to please silence all devices, and at no point during the vote may you approach the dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 22.1,
+          "text": "Chair, we are ready to begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 66.3,
+      "id": "002",
+      "slug": "chair-williams-introduces-res-5-and-res-15-on-u-s-250th-anniversary-and-freedom-day",
+      "start_sec": 29.2,
+      "summary": "Chair Williams introduces the two previously heard resolutions: Res 5 commemorating the 250th anniversary of the United States, and Res 15 declaring July 2 as Freedom Day.",
+      "title": "Chair Williams introduces Res 5 and Res 15 on U.S. 250th anniversary and Freedom Day",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 29.2,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 30.6,
+          "text": "I am Deputy Speaker Nantasha Williams, Chair of the Committee on Cultural Affairs, Libraries, and International Relations."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 36.4,
+          "text": "Today, the committee will vote on two resolutions, which have already been heard."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 41.7,
+          "text": "Resolution number five, sponsored by the Speaker and Councilmember Carr, commemorating the 250th anniversary of the U.S."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 49.7,
+          "text": "Resolution number 15, sponsored by Councilmember Areola, which would declare July 2nd annually in the City of New York as Freedom Day to commemorate the anniversary of the vote of the Second Continental Congress to declare independence from Great"
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 63.6,
+          "text": "Britain in 1776."
+        }
+      ]
+    },
+    {
+      "end_sec": 93.6,
+      "id": "003",
+      "slug": "chair-williams-introduces-pre-considered-resolution-on-african-descent-education",
+      "start_sec": 66.3,
+      "summary": "Chair Williams introduces a pre-considered resolution sponsored by Council Member Rita Joseph calling on the State Legislature to require instruction on the history and contributions of people of African descent in public schools.",
+      "title": "Chair Williams introduces pre-considered resolution on African descent education",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 66.3,
+          "text": "Additionally, the committee will hear and vote on five pre-considered resolutions, a pre-considered resolution sponsored by Councilmember Rita Joseph, which would call on the New York State Legislature to introduce and pass and the governor to sign"
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 80.4,
+          "text": "legislation to amend the education law in relations to requiring instruction on the history, contributions, and experiences of people of African descent."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 90.0,
+          "text": "descent in public schools."
+        }
+      ]
+    },
+    {
+      "end_sec": 107.4,
+      "id": "004",
+      "slug": "chair-williams-introduces-resolution-on-nyc-s-role-in-the-birth-of-the-united-states",
+      "start_sec": 93.6,
+      "summary": "Chair Williams introduces a pre-considered resolution sponsored by Council Member Gennaro commemorating New York City's pivotal political and military role in the birth of the United States 250 years ago.",
+      "title": "Chair Williams introduces resolution on NYC's role in the birth of the United States",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 93.6,
+          "text": "We'll also hear a pre-considered resolution sponsored by Councilmember Gennaro, which would commemorate the pivotal political and military role of New York City in the birth of the U.S."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 102.7,
+          "text": "Of America, U.S."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 103.9,
+          "text": "Of America, United States of America, 250 years ago."
+        }
+      ]
+    },
+    {
+      "end_sec": 121.5,
+      "id": "005",
+      "slug": "chair-williams-introduces-resolution-on-nypl-historical-documents-exhibition",
+      "start_sec": 107.4,
+      "summary": "Chair Williams introduces a pre-considered resolution sponsored by Council Member Marte celebrating historical documents on display at the New York Public Library as part of the nation's 250th anniversary events.",
+      "title": "Chair Williams introduces resolution on NYPL historical documents exhibition",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 107.4,
+          "text": "A pre-considered resolution sponsored by Councilmember Marte, which would celebrate the historical documents that contributed to the birth of the United States of America and are on display at the New York Public Library as part of the nation's 250th anniversary."
+        }
+      ]
+    },
+    {
+      "end_sec": 167.3,
+      "id": "006",
+      "slug": "chair-williams-introduces-knicks-day-and-knicks-championship-resolutions",
+      "start_sec": 121.5,
+      "summary": "Chair Williams introduces two pre-considered resolutions: one declaring June 13 as New York Knicks Day, and another celebrating 'Knicks in five' as the Knicks win the 2026 NBA Championship, both sponsored by multiple council members.",
+      "title": "Chair Williams introduces Knicks Day and Knicks championship resolutions",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 121.5,
+          "text": "A pre-considered resolution sponsored by Councilmember Maloney, Kevin Riley,"
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 126.8,
+          "text": "Amanda Far\u00edas, Chris Marte, Farah Lewis, and the Speaker, which would declare June 13th as New York Knicks Day in the City of New York to celebrate the contributions of the world-class"
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 138.7,
+          "text": "basketball team to the city's culture and civic identity."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 143.1,
+          "text": "And a pre-considered resolution sponsored by the speaker and council members, Maloney, Farias, Marte, Riley, and Lewis, which would celebrate the Nixon Five as the New York Knicks win the 2026 NBA championship."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 155.4,
+          "text": "Let's hear from some of the sponsors to give some remarks."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 162.4,
+          "text": "And first up, we have Councilmember Marte."
+        }
+      ]
+    },
+    {
+      "end_sec": 235.7,
+      "id": "007",
+      "slug": "council-member-marte-on-nypl-1776-and-beyond-exhibition-resolution",
+      "start_sec": 167.3,
+      "summary": "Council Member Marte presents his resolution recognizing the New York Public Library's '1776 and Beyond' exhibition, highlighting NYC's role as a Revolutionary War battleground and the importance of reflecting on the promises and exclusions of the founding era. He jokes about Nicolas Cage not stealing the documents.",
+      "title": "Council Member Marte on NYPL '1776 and Beyond' exhibition resolution",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 167.3,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 168.2,
+          "text": "I'm proud to introduce this resolution recognizing the New York Public Library declaring America."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 173.7,
+          "text": "1776 and beyond exhibition as we approach the 250th anniversary of the United States."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 180.7,
+          "text": "New York City was not just a setting for the American Revolution."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 184.5,
+          "text": "It was one of its battlegrounds, and it's where..."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 187.5,
+          "text": "It was a place where the ideas, conflicts, and contradictions of this country were being tested from the very beginning."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 194.1,
+          "text": "This exhibition gives New Yorkers a rare chance to see that history up close, from documents that helped spark the revolution to Jefferson's handwritten copy of the Declaration of Independence."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 205.1,
+          "text": "It also gives us the chance to reflect honestly on the promises that were made at the founding of this country, the people who were excluded from them, and the work that remains to build a democracy that lives upon these ideals."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 217.4,
+          "text": "I want to thank the New York Public Library for making these documents accessible to the public, and I want to make sure that no one tells Nicolas Cage because we don't want them stolen."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 227.2,
+          "text": "And I urge my colleagues to support this resolution."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 230.0,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 231.7,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 232.3,
+          "text": "Next up, Councilmember Joseph."
+        }
+      ]
+    },
+    {
+      "end_sec": 309.996,
+      "id": "008",
+      "slug": "council-member-joseph-on-requiring-african-descent-history-instruction-in-schools",
+      "start_sec": 235.7,
+      "summary": "Council Member Joseph advocates for her resolution calling on the State Legislature to require instruction on the history, contributions, and experiences of people of African descent in public schools, arguing that inclusive education fosters critical thinking and prepares engaged citizens.",
+      "title": "Council Member Joseph on requiring African descent history instruction in schools",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 235.7,
+          "text": "Wonderful."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 236.1,
+          "text": "Thank you, Deputy Speaker Williams."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 238.1,
+          "text": "I'm proud to support this resolution calling on the New York State Legislature to amend the education law to require instruction in our schools on the history, contributions, and experiences of people of African descent."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 249.4,
+          "text": "Our classrooms should reflect the rich diversity of our communities."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 253.3,
+          "text": "They serve."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 254.0,
+          "text": "Teaching the history and contributions of African descent is not an addition to American history."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 258.4,
+          "text": "It is an essential part of it."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 260.3,
+          "text": "From science and the arts to civic leadership, labor, education, and the ongoing fight for justice, these stories have shaped our nation and deserve to be taught with the depth and"
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 270.0,
+          "text": "and accuracy they warrant."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 271.6,
+          "text": "As an educator, I know that students thrive when they see themselves reflected in the curriculum and when they are given the opportunity to learn a full shared of their history."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 280.2,
+          "text": "An inclusive education fosters critical thinking, strengthens cultural understandings, and prepares young people to become engaged and informed citizens."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 287.9,
+          "text": "This resolution is an important step toward ensuring that our education system tells a more complete and truthful story, one that honors the resilience, achievement, and enduring impact of African descent."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 298.6,
+          "text": "Thank you, Deputy Speaker."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 303.496,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 304.096,
+          "text": "And finally, let me ask Councilmember Maloney to talk about her remarks."
+        }
+      ]
+    },
+    {
+      "end_sec": 378.696,
+      "id": "009",
+      "slug": "council-member-maloney-on-new-york-knicks-day-resolution",
+      "start_sec": 309.996,
+      "summary": "Council Member Maloney introduces her resolution declaring June 13 as New York Knicks Day, describing the citywide celebration after the Knicks' 2026 NBA Championship and how the moment united all five boroughs.",
+      "title": "Council Member Maloney on New York Knicks Day resolution",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 309.996,
+          "text": "Thank you, Deputy Speaker Williams."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 312.796,
+          "text": "Some moments transcend sports and they become part of a city's identity."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 317.196,
+          "text": "And we've certainly felt that over the past few weeks when after 53 years, the Knicks finally brought the Larry O'Brien trophy back to New York."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 325.596,
+          "text": "Car horns echoed through the neighborhoods."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 327.896,
+          "text": "Entire blocks spilled into the streets chanting Knicks and five."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 331.596,
+          "text": "Packed sports bars erupted."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 334.096,
+          "text": "Neighbors who had never met embraced like old friends and strangers high-fived on subway platforms."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 339.796,
+          "text": "For one night, every borough celebrated as one city."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 343.396,
+          "text": "So I'm proud to introduce a resolution that would declare June 13th New York's Knicks Day in the city of New York to commemorate this historic 2026 NBA championship."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 355.696,
+          "text": "An annual Knicks Day will ensure future generations remember that not only the Knicks won their first championship, but that for one summer, New York came together across every borough to celebrate one of the greatest moments in city sports history."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 368.896,
+          "text": "I respectfully ask for the committee's support."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 372.496,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 377.096,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 437.696,
+      "id": "010",
+      "slug": "chair-williams-thanks-staff-and-reflects-on-slavery-and-freedom-day",
+      "start_sec": 378.696,
+      "summary": "Chair Williams thanks committee staff, especially senior policy analyst Regina who drafted six resolutions, then delivers personal remarks invoking Frederick Douglass's 'What to the slave is the Fourth of July?' and urging recognition of those not free during the country's founding.",
+      "title": "Chair Williams thanks staff and reflects on slavery and Freedom Day",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 378.696,
+          "text": "I really want to thank my staff and committee staff who worked on preparing for today, including Regina, the committee senior policy analyst who drafted six of these resolutions."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 390.096,
+          "text": "And I just wanted to say something completely off script."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 395.196,
+          "text": "But, you know, when I think about Freedom Day, I know we have a resolution on Freedom Day, another resolution just simply commemorating the 250th anniversary of the United States of America."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 407.596,
+          "text": "I think it's so important that we continue to tell a fuller story and we speak the names of individuals who are not free, like many of my ancestors who were forcibly brought to this country."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 420.696,
+          "text": "And so, you know, I always have to echo Frederick Douglass's comments."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 425.096,
+          "text": "What to the slave is the Fourth of July?"
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 427.296,
+          "text": "What to descendants of slaves is 250 years of this country?"
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 432.596,
+          "text": "And with that, I'll ask the clerk to call the roll."
+        }
+      ]
+    },
+    {
+      "end_sec": 460.572,
+      "id": "011",
+      "slug": "chair-williams-checks-for-public-testimony-before-vote",
+      "start_sec": 437.696,
+      "summary": "Committee Clerk Matthew DiStefano begins the roll call, but Chair Williams interrupts to check for public testimony. With none offered, the clerk resumes the roll call.",
+      "title": "Chair Williams checks for public testimony before vote",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 437.696,
+          "text": "Matthew DiStefano, Committee Clerk, Committee on Cultural Affairs, Libraries, and International Relations."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 444.196,
+          "text": "All items are coupled."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 446.196,
+          "text": "Chair Williams."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 449.972,
+          "text": "I was supposed to ask if there's testimony."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 452.872,
+          "text": "Excuse me."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 453.872,
+          "text": "It's not your fault."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 454.872,
+          "text": "It's mine."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 455.872,
+          "text": "If there's any testimony, no testimony."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 457.772,
+          "text": "Okay, great."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 458.672,
+          "text": "Just kidding."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 459.372,
+          "text": "Back to the roll."
+        }
+      ]
+    },
+    {
+      "end_sec": 484.476,
+      "id": "012",
+      "slug": "roll-call-vote-on-all-resolutions",
+      "start_sec": 460.572,
+      "summary": "The clerk calls the roll: Chair Williams, Council Members Lewis, Hudson, Oss\u00e9, Stevens, Ung, and Maloney all vote aye on all items.",
+      "title": "Roll call vote on all resolutions",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 460.572,
+          "text": "All right."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 461.072,
+          "text": "Chair Williams."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 462.672,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 464.572,
+          "text": "Lewis."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 465.672,
+          "text": "Aye on all."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 466.172,
+          "text": "Congratulations."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 468.172,
+          "text": "Hudson."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 469.772,
+          "text": "Aye on all."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 471.472,
+          "text": "Osei."
+        },
+        {
+          "speaker": "Chi A. Oss\u00e9",
+          "t_sec": 472.572,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 474.372,
+          "text": "Stevens."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 478.472,
+          "text": "Ung."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 481.276,
+          "text": "Maloney."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 482.476,
+          "text": "I vote aye on all."
+        }
+      ]
+    },
+    {
+      "end_sec": 495.488,
+      "id": "013",
+      "slug": "all-resolutions-adopted-6-0-hearing-closed",
+      "start_sec": 484.476,
+      "summary": "The clerk announces the items adopted by a vote of six in the affirmative, zero in the negative, with no abstentions, and closes the hearing.",
+      "title": "All resolutions adopted 6-0, hearing closed",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 484.476,
+          "text": "And by a vote of six in the affirmative, zero in the negative, and no abstentions, the items have been adopted."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 491.076,
+          "text": "Okay, this hearing is closed."
+        }
+      ]
+    }
+  ],
+  "date": "2026-06-30",
+  "duration_sec": 495.488,
+  "slug": "2026-06-30-1030-am-committee-on-cultural-affairs-libraries-and-international-relations",
+  "summary": [
+    "The Committee on Cultural Affairs, Libraries, and International Relations heard and voted on seven resolutions commemorating the U.S. 250th anniversary, declaring Freedom Day, requiring African descent history instruction, recognizing NYC's Revolutionary role, celebrating NYPL historical documents, and honoring the 2026 Knicks NBA Championship.",
+    "Council Members Marte, Joseph, and Maloney delivered remarks on their respective pre-considered resolutions before the vote.",
+    "All items passed unanimously 6-0 with no public testimony offered."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "10:30 AM",
+  "title": "Committee on Cultural Affairs, Libraries and International Relations",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-3_260630-105328/video-web.mp4"
+  }
+}
