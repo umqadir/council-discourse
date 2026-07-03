@@ -86,7 +86,13 @@ def _attach_video_filename(conn: sqlite3.Connection, client: LegistarClient, eve
     if filename and _filename_plausible_for_event(filename, event):
         values["viebit_filename"] = filename
     if not values.get("viebit_filename"):
-        html = client.fetch_meeting_detail_html(event)
+        try:
+            html = client.fetch_meeting_detail_html(event)
+        except Exception as exc:
+            # A dead/retired InSite page (404/410/timeouts) means no video info for
+            # this event right now; discovery must continue with the rest.
+            print(f"  detail-page fetch failed for event {event.event_id}: {exc}", flush=True)
+            html = None
         if html:
             from .legistar import extract_viebit_filename_from_insite_html
 
