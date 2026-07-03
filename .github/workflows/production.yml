@@ -247,12 +247,25 @@ jobs:
           git add -f data/registry.db site/src/data/meetings
           if git diff --cached --quiet; then
             echo "No registry or site data changes"
-          else
+            exit 0
+          fi
+          git -c user.name="github-actions[bot]" \
+            -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+            commit -m "Update pipeline registry and site data [skip ci]"
+          # main may have moved during the ~1h run (manual pushes, etc.).
+          # Rebase onto latest and retry so a moving ref never fails the pipeline.
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              echo "pushed on attempt $attempt"; exit 0
+            fi
+            echo "push rejected (attempt $attempt); rebasing onto origin/main"
+            git fetch origin main
             git -c user.name="github-actions[bot]" \
               -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
-              commit -m "Update pipeline registry and site data [skip ci]"
-            git push
-          fi
+              rebase origin/main || { git rebase --abort; git reset --soft origin/main; git add -f data/registry.db site/src/data/meetings; git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "Update pipeline registry and site data [skip ci]"; }
+            sleep $((attempt * 3))
+          done
+          echo "::error::could not push registry/site data after retries"; exit 1
 
   deploy:
     needs: export-site
