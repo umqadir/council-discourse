@@ -3,6 +3,9 @@
 .uv-cache/
 .hf-cache/
 .mlx-cache/
+.npm-cache/
+.pnpm-store/
+.wrangler-config/
 __pycache__/
 *.mp4
 *.m4a
@@ -10,6 +13,7 @@ __pycache__/
 .env
 node_modules/
 .wrangler/
+site/r2-data/
 .hf-cache/
 .uv-cache/
 .mlx-cache/
