@@ -49,12 +49,12 @@ jobs:
         run: |
           matrix="$(uv run python -m pipeline discover --emit-pending-json)"
           has_pending="$(MATRIX="$matrix" python - <<'PY'
-import json
-import os
-
-print("true" if json.loads(os.environ["MATRIX"]).get("include") else "false")
-PY
-)"
+          import json
+          import os
+          
+          print("true" if json.loads(os.environ["MATRIX"]).get("include") else "false")
+          PY
+          )"
           {
             echo "matrix<<JSON"
             printf '%s\n' "$matrix"
