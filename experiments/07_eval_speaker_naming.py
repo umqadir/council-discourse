@@ -148,22 +148,27 @@ def main() -> int:
             benchmark=args.benchmark,
             force=args.force,
             model=args.model,
+            label=args.label,
+            llm_base_url=args.llm_base_url,
+            llm_api_key_env=args.llm_api_key_env,
         )
-        meta_path = meeting.meeting_dir / f"name-speakers-{args.asr}-meta.json"
+        suffix = f"{args.asr}-{args.label}" if args.label else args.asr
+        meta_path = meeting.meeting_dir / f"name-speakers-{suffix}-meta.json"
         asr_meta_path = meeting.meeting_dir / f"transcribe-{args.asr}-meta.json"
     named = read_jsonl(named_path)
     references = _read_citymeetings_references(benchmark_dir)
     meta = read_json(meta_path) if meta_path.exists() else {}
     asr_meta = read_json(asr_meta_path) if asr_meta_path.exists() else {}
+    report_asr = f"{args.asr}-{args.label}" if args.label else args.asr
     report = _score(
         named,
         references,
         meta,
         asr_meta=asr_meta,
         benchmark=args.benchmark,
-        asr=args.asr,
+        asr=report_asr,
     )
-    output = benchmark_dir / f"speaker-naming-eval-{args.asr}-{args.benchmark}.md"
+    output = benchmark_dir / f"speaker-naming-eval-{report_asr}-{args.benchmark}.md"
     output.write_text(report)
     print(report)
     return 0
@@ -173,12 +178,27 @@ def _parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Evaluate speaker naming against citymeetings references.")
     parser.add_argument("--benchmark", choices=sorted(BENCHMARKS), default="transportation")
     parser.add_argument("--asr", choices=["local", "voxtral", "whisper", "scribe", "assemblyai"], default="local")
-    parser.add_argument("--model", default="gemini-3.5-flash", help="Gemini model for speaker naming")
+    parser.add_argument("--model", default="gemini-3.5-flash", help="naming LLM model id")
     parser.add_argument("--force", action="store_true", help="rerun the selected ASR/naming path")
     parser.add_argument(
         "--use-existing-utterances",
         action="store_true",
         help="local ASR only: do not rebuild pseudo utterances from clean captions",
+    )
+    parser.add_argument(
+        "--llm-base-url",
+        default=None,
+        help="OpenAI-compatible base URL for the naming LLM (e.g. https://openrouter.ai/api/v1)",
+    )
+    parser.add_argument(
+        "--llm-api-key-env",
+        default=None,
+        help="env var holding the API key for the OpenAI-compatible naming LLM (e.g. OPENROUTER_API_KEY)",
+    )
+    parser.add_argument(
+        "--label",
+        default=None,
+        help="artifact/report label to keep runs distinct (e.g. glm-5.2); defaults to plain ASR name",
     )
     return parser.parse_args()
 
@@ -204,12 +224,23 @@ def _run_local_config(meeting: Meeting, *, force: bool, use_existing_utterances:
     return named_path
 
 
-def _run_remote_asr_config(meeting: Meeting, *, asr: str, benchmark: str, force: bool, model: str) -> Path:
+def _run_remote_asr_config(
+    meeting: Meeting,
+    *,
+    asr: str,
+    benchmark: str,
+    force: bool,
+    model: str,
+    label: str | None = None,
+    llm_base_url: str | None = None,
+    llm_api_key_env: str | None = None,
+) -> Path:
     labeled_path = meeting.meeting_dir / f"utterances-{asr}-labeled.jsonl"
-    if force or not labeled_path.exists():
+    if not labeled_path.exists():
         transcribe(meeting, backend=asr)
-    named_path = meeting.meeting_dir / f"utterances-{asr}-named.jsonl"
-    meta_path = meeting.meeting_dir / f"name-speakers-{asr}-meta.json"
+    suffix = f"{asr}-{label}" if label else asr
+    named_path = meeting.meeting_dir / f"utterances-{suffix}-named.jsonl"
+    meta_path = meeting.meeting_dir / f"name-speakers-{suffix}-meta.json"
     if force or not named_path.exists() or not _is_label_mapping_meta(meta_path):
         named_path = name_speakers(
             meeting,
@@ -217,7 +248,9 @@ def _run_remote_asr_config(meeting: Meeting, *, asr: str, benchmark: str, force:
             input_path=labeled_path,
             output_path=named_path,
             meta_path=meta_path,
-            runlog_stage=f"name_speakers_{asr}_{benchmark}",
+            runlog_stage=f"name_speakers_{suffix}_{benchmark}",
+            llm_base_url=llm_base_url,
+            llm_api_key_env=llm_api_key_env,
         )
     return named_path
 
