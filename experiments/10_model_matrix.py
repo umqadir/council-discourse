@@ -34,6 +34,8 @@ BENCHMARKS = {
 }
 CANDIDATES = [
     ("deepseek/deepseek-v4-flash", None),
+    ("deepseek/deepseek-v4-pro", None),
+    ("qwen/qwen3.6-plus", None),
     ("openai/gpt-5.4-mini", None),
     ("z-ai/glm-5.2", "moonshotai/kimi-k2.6"),
     ("google/gemini-3.1-flash-lite", None),

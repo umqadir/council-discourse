@@ -1,0 +1,1 @@
+RUN combined benchmark=transportation model=z-ai/glm-5.2

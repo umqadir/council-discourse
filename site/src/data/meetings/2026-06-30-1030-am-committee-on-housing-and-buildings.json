@@ -1,0 +1,686 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 21.2,
+      "id": "001",
+      "slug": "staff-calls-housing-and-buildings-committee-to-order",
+      "start_sec": 9.3,
+      "summary": "Council staff opens the hearing, reminds attendees to silence devices, and confirms Chair Sanchez is ready to begin the committee meeting.",
+      "title": "Staff calls Housing and Buildings Committee to order",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 9.3,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 9.9,
+          "text": "Welcome to the New York City Council."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 11.5,
+          "text": "Vote for the Committee on Housing and Building."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 13.2,
+          "text": "Please silence all cell phone and electronic devices."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 15.6,
+          "text": "Moving forward, no one is to approach the dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 17.9,
+          "text": "Chair Sanchez, we are ready to begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 54.2,
+      "id": "002",
+      "slug": "chair-sanchez-opens-with-gratitude-to-speaker-menin-and-coalition",
+      "start_sec": 21.2,
+      "summary": "Chair Pierina Ana Sanchez introduces herself and thanks Speaker Julie Menin, the City Council leadership, and the Progressive Caucus for holding the line on FEPS settlement negotiations, calling the moment monumental.",
+      "title": "Chair Sanchez opens with gratitude to Speaker Menin and coalition",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 21.2,
+          "text": "Thank you, sergeants, and good morning."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 23.6,
+          "text": "I'm Councilmember Pierina Sanchez, very sleep-deprived and with remarks that aren't totally edited, so good luck."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 31.5,
+          "text": "And chair of the Committee on Housing and Buildings."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 34.7,
+          "text": "I'm joined today by my colleagues, and before I begin any remarks, I want to start with gratitude to Speaker Julie-Menin for really holding the line on a settlement on the FEPS"
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 46.2,
+          "text": "legislation and negotiation, to the leadership of the City Council, to the Progressive Caucus, especially we are in a monumental moment."
+        }
+      ]
+    },
+    {
+      "end_sec": 73.5,
+      "id": "003",
+      "slug": "sanchez-introduces-t-2026-2097-rental-assistance-voucher-legislation",
+      "start_sec": 54.2,
+      "summary": "Sanchez introduces the preconsidered bill T-2026-2097, sponsored by her, which establishes a new rental assistance program for New Yorkers facing imminent eviction and shelter residents previously excluded from City FEHEPS, advancing a component of the settlement between the Council, the Mamdani administration, and the Legal Aid Society.",
+      "title": "Sanchez introduces T-2026-2097 rental assistance voucher legislation",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 54.2,
+          "text": "Today, we will vote on a pre-considered introduction, T-2026-2097, sponsored by me, that will establish a new"
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 63.7,
+          "text": "rental assistance program for New Yorkers facing imminent eviction and those living in shelter who were previously excluded from the existing City FEHEPS program."
+        }
+      ]
+    },
+    {
+      "end_sec": 119.3,
+      "id": "004",
+      "slug": "history-of-city-feps-and-multi-year-legal-battle",
+      "start_sec": 73.5,
+      "summary": "Sanchez recounts the history of City FEPS from its 2018 establishment through the 2023 Council expansion vote, the previous mayor's refusal to implement the law, and the joint lawsuit with Legal Aid Society that led to the current settlement with the Mamdani administration.",
+      "title": "History of City FEPS and multi-year legal battle",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 73.5,
+          "text": "This legislation is advancing a component of a settlement between the City Council, the Mamdani administration, and the Legal Aid Society, ending more than two years of litigation."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 84.5,
+          "text": "City FEPS was established in 2018 to secure stable housing for the most vulnerable New Yorkers."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 90.0,
+          "text": "In 2023, the council voted to expand the City FEPS program to provide housing to hundreds of thousands of our most vulnerable New Yorkers."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 98.4,
+          "text": "But the previous mayoral administration refused to implement the law, even after mayoral veto was overturned, would not implement the law."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 106.6,
+          "text": "So Legal Aid Society and the council joined together to bring an action to court."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 112.2,
+          "text": "And after a multi-year legal battle and countless hours of negotiation beginning with the Mamdani administration,"
+        }
+      ]
+    },
+    {
+      "end_sec": 167.6,
+      "id": "005",
+      "slug": "settlement-goals-funding-commitments-and-estimated-impact",
+      "start_sec": 119.3,
+      "summary": "Sanchez details the legislation's goals of preserving 2023 FEPS reforms, with $175 million in FY27 and $125 million baseline annually, projected to serve approximately 9,600 families with housing stability they have awaited for years.",
+      "title": "Settlement goals, funding commitments, and estimated impact",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 119.3,
+          "text": "today's settlement, the FY27 budget, and this piece of legislation together represent a historic agreement that ensures New Yorkers facing homelessness will finally benefit from a significant expansion in New York City housing vouchers."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 134.2,
+          "text": "The legislation brought forward today preserves the key goals of the 2023 City for Heps reform laws to keep New Yorkers facing evictions in their homes and to remove arbitrary eligibility barriers for New Yorkers living in shelters."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 148.7,
+          "text": "With concrete funding commitment as well of $175 million in fiscal year 27 and $125 million baseline starting next year."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 157.8,
+          "text": "This legislation will provide tens of thousands of New Yorkers, approximately 9,600 families, the stability and relief that they have been waiting on for years."
+        }
+      ]
+    },
+    {
+      "end_sec": 216.0,
+      "id": "006",
+      "slug": "sanchez-clarifies-shelter-population-eligibility-thresholds",
+      "start_sec": 167.6,
+      "summary": "Addressing press misunderstandings, Sanchez explains that eligibility is largely intact: families and adults in shelter earning above 200% FPL and below 50% AMI qualify, with expanded access to runaway homeless youth, DYCD shelter residents, HPD shelter residents, and MACJ shelter residents.",
+      "title": "Sanchez clarifies shelter population eligibility thresholds",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 167.6,
+          "text": "There has been some misunderstandings in the press, so I want to just spell out some of what is in this legislation in terms of eligibility."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 175.4,
+          "text": "Eligibility is largely kept intact, so we are expanding access to"
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 181.3,
+          "text": "To this new voucher program for families and adults in shelter who earn above 200 FPL and below 50% of AMI."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 191.3,
+          "text": "So what that means is that we're keeping the increased income threshold from the 2023 laws."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 197.1,
+          "text": "We're also expanding access to runaway homeless youth, those people, folks living, our young people living in DYCD shelters, those who are living in HPD shelters, and those who are living in MOCJ, MACJ shelters."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 211.2,
+          "text": "So there has been no cutting of eligibility for folks in shelter."
+        }
+      ]
+    },
+    {
+      "end_sec": 270.0,
+      "id": "007",
+      "slug": "community-eligibility-no-work-requirement-and-funding-allocation",
+      "start_sec": 216.0,
+      "summary": "Sanchez describes the new community eligibility category for renters facing eviction in rent-stabilized apartments at 50% AMI, confirms there is no work requirement, and explains funding will be evenly split between in-shelter and in-community populations, with a provision allowing future expansion.",
+      "title": "Community eligibility, no work requirement, and funding allocation",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 216.0,
+          "text": "In community, we are similarly keeping the income threshold at 50% of AMI, which is an increase, and also just a new category of eligibility altogether because folks in community were previously not eligible for these vouchers."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 230.7,
+          "text": "And so folks in community who are facing eviction actively in housing court and who are living in a rent-stabilized apartment will be eligible for the voucher."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 238.8,
+          "text": "There's no work requirement across the board."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 241.5,
+          "text": "And importantly, the legislation includes a provision that allows the administration and the city council to expand access as and if, who knows, life is funny, things change, there is extra money"
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 256.2,
+          "text": "in a future time."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 257.6,
+          "text": "So to ensure that the fair distribution of available vouchers, funding will be evenly allocated between the in-shelter eligible population and the in-community eligible population."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 268.5,
+          "text": "We are codifying the..."
+        }
+      ]
+    },
+    {
+      "end_sec": 298.6,
+      "id": "008",
+      "slug": "codified-reforms-ending-90-day-rule-and-utility-allowance-fix",
+      "start_sec": 270.0,
+      "summary": "Sanchez notes the legislation codifies reform laws from 2023, including ending the 90-day shelter rule championed by then-Councilmember Diana Ayala and reforming the utility allowance advanced by Councilmember Tiffany Caban.",
+      "title": "Codified reforms: ending 90-day rule and utility allowance fix",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 270.0,
+          "text": "at the reform laws, some of the reform laws that were passed, including the 90-day rule that was passed by then, or"
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 278.6,
+          "text": "ending the 90-day rule, rather, that was passed by then-Councilmember and Deputy Speaker Diana Ayala, and reforming the utility allowance that was passed by Councilmember Tiffany Caban."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 290.6,
+          "text": "And I told you it was unedited, but I want to make sure that the facts are right."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 294.4,
+          "text": "This is the only time I won't have a time limit to talk about this."
+        }
+      ]
+    },
+    {
+      "end_sec": 333.7,
+      "id": "009",
+      "slug": "sanchez-frames-historic-shift-from-shelter-reliance-to-permanent-homes",
+      "start_sec": 298.6,
+      "summary": "Sanchez emphasizes the legislation represents a historic win, responsibly expanding vouchers through a capped appropriation rather than an entitlement, and pivoting the city from costly shelter reliance toward permanent housing for vulnerable families.",
+      "title": "Sanchez frames historic shift from shelter reliance to permanent homes",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 298.6,
+          "text": "But I just cannot emphasize enough that this is a historic win for vulnerable New Yorkers."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 303.3,
+          "text": "We're expanding housing vouchers responsibly."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 306.9,
+          "text": "We're controlling the cost because this is a capped appropriation."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 310.1,
+          "text": "It is not an entitlement program."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 312.0,
+          "text": "And we're putting most fundamentally, most important to me personally, is that we're putting the city on a stronger pathway."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 319.2,
+          "text": "Pivoting us from costly shelter reliance toward permanent homes."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 322.9,
+          "text": "Today, we're marking the day where we stop prioritizing paying more for worse outcomes for our families, outcomes that destabilize our communities."
+        }
+      ]
+    },
+    {
+      "end_sec": 401.9,
+      "id": "010",
+      "slug": "sanchez-acknowledges-staff-advocates-and-coalition-partners",
+      "start_sec": 333.7,
+      "summary": "Sanchez thanks the legislative division staff including Andrea Vasquez, Jeff Baker, and general counsel Maka Ehebe; finance division staff; Mayor's counsel Steve Banks; and the Homes Can't Wait Coalition, Legal Aid Society, Vocal New York, WIN, Coalition for the Homeless, and other advocates, as well as her own team.",
+      "title": "Sanchez acknowledges staff, advocates, and coalition partners",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 333.7,
+          "text": "And with that, I have a long list of acknowledgements, but I've kept you long enough, so I just want to finally thank, of course, the staff, the ledge division."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 342.0,
+          "text": "I see you, Andrea Vasquez, Smita Desmug, Jeff Baker, of course, our general counsel, Maka Ehebe, our finance division, Jonathan Rosenberg, Nick Connell, Julia Haramis."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 355.2,
+          "text": "I've given him, this is awkward, but I've given him a nickname that I said I wouldn't say in public, but"
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 360.2,
+          "text": "You know, we're there."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 361.6,
+          "text": "The general counsel at the mayor's side, Stevie B, Steve Banks, we got to the finish line here."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 367.9,
+          "text": "Really, really appreciate all the work."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 370.2,
+          "text": "And the coalition, the Homes Can't Wait Coalition, Legal Aid Society, Vocal New York, WIN, Coalition for the Homeless, VOA, Safety Net Project, CSS."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 379.1,
+          "text": "There are more, but I just want to thank you all for holding the line, getting us to this finish line."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 384.1,
+          "text": "And to my team, my chief of staff, Maria Villalobos, Ben Ratner, Kim Castellanos, Gerard Fernandez, Dylan Campos, Maria Jose Mares, Soraya Bonilla, Oriana Roa Acevedo, our interns, Mia, Marcus, and Ari."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 397.6,
+          "text": "Everybody worked so hard on this."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 399.9,
+          "text": "Thank you for indulging me."
+        }
+      ]
+    },
+    {
+      "end_sec": 431.028,
+      "id": "011",
+      "slug": "roll-call-vote-on-t-2026-2097",
+      "start_sec": 401.9,
+      "summary": "Committee Clerk William Martin conducts the roll call. Chair Sanchez votes aye, followed by Council Members Riley, Feliz, Abreu, and others casting affirmative votes with congratulations to the Chair.",
+      "title": "Roll call vote on T-2026-2097",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 401.9,
+          "text": "And with that, unless our colleagues want to say anything, I think I ask the clerk to call the roll."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 409.9,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 410.2,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 410.6,
+          "text": "William Martin, Committee Clerk."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 411.9,
+          "text": "Roll call vote."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 412.5,
+          "text": "Committee on Housing and Buildings."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 414.9,
+          "text": "Chair, Perina Sanchez."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 418.0,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 419.5,
+          "text": "Riley."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 422.6,
+          "text": "Feliz."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 423.6,
+          "text": "Proudly vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 425.4,
+          "text": "Abreu."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 426.4,
+          "text": "Congrats, Chair."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 427.2,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 428.5,
+          "text": "Hudson."
+        }
+      ]
+    },
+    {
+      "end_sec": 498.324,
+      "id": "012",
+      "slug": "council-member-hudson-explains-her-aye-vote",
+      "start_sec": 431.028,
+      "summary": "Crystal Hudson acknowledges Chair Sanchez and her team's tireless efforts, noting the outcome is not exactly where they wanted but represents significant progress, and casts her vote in the affirmative.",
+      "title": "Council Member Hudson explains her aye vote",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 431.028,
+          "text": "Permission to explain my vote."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 436.628,
+          "text": "Permission granted."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 437.428,
+          "text": "Thank you so kindly."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 439.128,
+          "text": "I just wanted to take a moment to acknowledge you and your tireless efforts, really those of you and your team and everybody involved in bringing this home."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 451.028,
+          "text": "It's not exactly where we wanted to be, but it's still a lot more than it would have been without your fight and hard work."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 458.928,
+          "text": "So thank you."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 460.028,
+          "text": "And with that, I vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 463.624,
+          "text": "Joseph."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 465.424,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 466.024,
+          "text": "Congrats, Pi."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 467.324,
+          "text": "I hope you get some sleep now."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 471.624,
+          "text": "Williams."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 473.324,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 474.924,
+          "text": "Congrats."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 477.024,
+          "text": "Salam."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 478.824,
+          "text": "I vote aye and congrats as well."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 481.524,
+          "text": "Zhuang."
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 483.124,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 483.524,
+          "text": "Congratulations."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 485.424,
+          "text": "Maloney."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 486.824,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 487.724,
+          "text": "Congratulations."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 488.624,
+          "text": "Sanchez won."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 490.824,
+          "text": "Wilson."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 492.124,
+          "text": "I would like to align myself with Councilmember Hudson's comments and vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 497.824,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 515.52,
+      "id": "013",
+      "slug": "item-adopted-by-full-committee-11-0",
+      "start_sec": 498.324,
+      "summary": "The clerk announces the vote of 11 in the affirmative, 0 in the negative, with no abstentions. The item is adopted by the full committee, and Chair Sanchez closes the vote.",
+      "title": "Item adopted by full committee 11-0",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 498.324,
+          "text": "With a vote of 11 in the affirmative, 0 in the negative, and no abstentions, item has been adopted by the committee."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 504.024,
+          "text": "Madam Chair, that is a full committee."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 506.324,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 507.424,
+          "text": "Thank you, Billy."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 508.024,
+          "text": "And with that, this vote is closed."
+        }
+      ]
+    }
+  ],
+  "date": "2026-06-30",
+  "duration_sec": 515.52,
+  "slug": "2026-06-30-1030-am-committee-on-housing-and-buildings",
+  "summary": [
+    "The Committee on Housing and Buildings voted 11-0 to approve preconsidered legislation T-2026-2097, establishing a rental assistance voucher program as part of a settlement with the Mamdani administration and Legal Aid Society ending multi-year FEPS litigation.",
+    "The legislation provides approximately $175 million in FY27 and a $125 million annual baseline, serving an estimated 9,600 families facing eviction or living in shelter, with funding split evenly between in-shelter and in-community populations.",
+    "Chair Sanchez emphasized the bill shifts the city from costly shelter reliance toward permanent housing while preserving key 2023 FEPS reforms including expanded income thresholds, elimination of the 90-day rule, and no work requirements."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "10:30 AM",
+  "title": "Committee on Housing and Buildings",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-2_260630-112401/video-web.mp4"
+  }
+}

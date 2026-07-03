@@ -269,6 +269,9 @@ def _generate_json_openai_compatible(
         }
         if response_id:
             meta["generation_id"] = response_id
+        cached = _cached_prompt_tokens(usage)
+        if cached is not None:
+            meta["cached_prompt_tokens"] = cached
         if "openrouter.ai" in base_url:
             _attach_openrouter_cost(meta, model=model, api_key=key)
 
@@ -519,7 +522,14 @@ def _estimate_openrouter_usage_cost_usd(usage: Any, pricing: dict[str, Any] | No
     total = 0.0
     prompt_price = _float_or_none(pricing.get("prompt")) or 0.0
     completion_price = _float_or_none(pricing.get("completion")) or 0.0
-    total += prompt_tokens * prompt_price
+    cache_read_price = _float_or_none(pricing.get("input_cache_read"))
+    cached_tokens = _cached_prompt_tokens(usage) or 0
+    if cache_read_price is not None and cached_tokens:
+        uncached = max(0, prompt_tokens - cached_tokens)
+        total += uncached * prompt_price
+        total += cached_tokens * cache_read_price
+    else:
+        total += prompt_tokens * prompt_price
     total += completion_tokens * completion_price
     details = usage.get("completion_tokens_details")
     if isinstance(details, dict):
@@ -545,6 +555,23 @@ def _pricing_for_model(model: str) -> dict[str, float] | None:
     for prefix, pricing in GEMINI_PRICING_PER_MILLION_USD.items():
         if normalized.startswith(prefix):
             return pricing
+    return None
+
+
+def _cached_prompt_tokens(usage: Any) -> int | None:
+    """Cached (prefix-hit) prompt tokens if the provider reports them.
+
+    OpenRouter/OpenAI-compatible providers surface this as
+    usage.prompt_tokens_details.cached_tokens; some also send cached_tokens
+    at the top level. Returns None when the provider reports no cache info.
+    """
+    if not isinstance(usage, dict):
+        return None
+    details = usage.get("prompt_tokens_details")
+    if isinstance(details, dict) and "cached_tokens" in details:
+        return _int_usage(details, "cached_tokens")
+    if "cached_tokens" in usage:
+        return _int_usage(usage, "cached_tokens")
     return None
 
 

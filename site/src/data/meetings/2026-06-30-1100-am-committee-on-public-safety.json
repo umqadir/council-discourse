@@ -1,0 +1,356 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 22.7,
+      "id": "001",
+      "slug": "staff-opens-hearing-and-reminds-audience-of-rules",
+      "start_sec": 6.4,
+      "summary": "Council staff welcomes attendees to the Public Safety Committee vote, reminds everyone to silence devices, and notes that no one may approach the dais during the vote.",
+      "title": "Staff opens hearing and reminds audience of rules",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 6.4,
+          "text": "Good morning, ladies and gentlemen."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 7.9,
+          "text": "Welcome to the New York City Council vote for the Committee on Public Safety."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 12.4,
+          "text": "At this time, I'd like to remind everyone to please silence all devices and at no point during the vote may approach the dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 18.7,
+          "text": "Chair, we are ready to begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 40.4,
+      "id": "002",
+      "slug": "chair-feliz-introduces-self-and-committee-members-present",
+      "start_sec": 22.7,
+      "summary": "Councilmember Oswald Feliz, Chair of the Committee on Public Safety, opens the hearing and acknowledges all committee members present: Gutierrez, Wong, Hankerson, Ariola, Sanchez, Nurse, Banks, and Hanks.",
+      "title": "Chair Feliz introduces self and committee members present",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 22.7,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 23.9,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 24.6,
+          "text": "I am Councilmember Oswald Feliz, Chair of the Committee on Public Safety."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 29.1,
+          "text": "Today I'm joined by every member of the Public Safety Committee, Councilmembers Gutierrez, Wong, Hankerson, Areola, Justin Sanchez, Nurse, Banks, and Hanks."
+        }
+      ]
+    },
+    {
+      "end_sec": 46.7,
+      "id": "003",
+      "slug": "feliz-introduces-proposed-intro-929a-on-nypd-security-perimeter-transparency",
+      "start_sec": 40.4,
+      "summary": "Chair Feliz announces the committee will vote on proposed introduction 929A, sponsored by Councilmember Encarnacion, which requires the NYPD to publish a transparency report on security perimeters adjacent to educational facilities.",
+      "title": "Feliz introduces proposed intro 929A on NYPD security perimeter transparency",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 40.4,
+          "text": "Today, the committee will vote on proposed introduction number 929A, sponsored by Councilmember Encarnacion."
+        }
+      ]
+    },
+    {
+      "end_sec": 70.5,
+      "id": "004",
+      "slug": "feliz-describes-bill-requirements-nypd-report-on-crowd-control-risks-at-schools",
+      "start_sec": 46.7,
+      "summary": "Feliz explains the bill requires NYPD to report on its plan to address physical obstruction, injury, intimidation, and interference at entrances and exits of certain educational facilities through security perimeters.",
+      "title": "Feliz describes bill requirements: NYPD report on crowd control risks at schools",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 46.7,
+          "text": "This bill would require the NYPD to publish a transparency report on its plan to address and contain the risk of physical obstruction, physical injury, intimidation, and interferences."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 59.3,
+          "text": "At entrances to and exits from certain educational facilities in the city, through the use of security perimeters, and more."
+        }
+      ]
+    },
+    {
+      "end_sec": 89.9,
+      "id": "005",
+      "slug": "feliz-on-report-purpose-clarity-on-crowd-control-and-improved-communication-during-protests",
+      "start_sec": 70.5,
+      "summary": "Feliz states the transparency report will provide the Council and public with clarity on NYPD's crowd control approach during protests at educational facilities and require improved communication between the city, school administrators, and protesters.",
+      "title": "Feliz on report purpose: clarity on crowd control and improved communication during protests",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 70.5,
+          "text": "This report will provide the council and the public with needed clarity regarding NYPD's approach to crowd control"
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 77.8,
+          "text": "during protests occurring at certain educational facilities and require improved communication between the city, school administrators, and individuals exercising their rights to protest."
+        }
+      ]
+    },
+    {
+      "end_sec": 111.3,
+      "id": "006",
+      "slug": "feliz-on-expected-benefits-public-confidence-and-balancing-protester-rights-with-school-access",
+      "start_sec": 89.9,
+      "summary": "Feliz argues the report will improve public confidence in NYPD operations and ensure a proper balance between protecting protester rights and guaranteeing individuals, particularly children, have access to educational facilities. He then yields to the clerk for the vote.",
+      "title": "Feliz on expected benefits: public confidence and balancing protester rights with school access",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 89.9,
+          "text": "I'm"
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 90.0,
+          "text": "I believe this report will improve public confidence in NYPD operations and ensure that a proper balance is struck between protecting the rights of protesters while guaranteeing individuals, particularly young children, have access to"
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 105.1,
+          "text": "educational facilities."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 107.1,
+          "text": "I would now like to yield the microphone to the clerk for the vote."
+        }
+      ]
+    },
+    {
+      "end_sec": 119.1,
+      "id": "007",
+      "slug": "clerk-begins-roll-call-vote-on-proposed-intro-929a",
+      "start_sec": 111.3,
+      "summary": "Committee Clerk Matthew DiStefano announces the roll call vote on proposed introduction 929A and begins calling members by name.",
+      "title": "Clerk begins roll call vote on proposed intro 929A",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 111.3,
+          "text": "Matthew DiStefano, Committee Clerk, Committee on Public Safety."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 115.1,
+          "text": "Roll call vote on proposed intro number 929A."
+        }
+      ]
+    },
+    {
+      "end_sec": 126.232,
+      "id": "008",
+      "slug": "roll-call-feliz-and-gutierrez-vote-gutierrez-votes-no",
+      "start_sec": 119.1,
+      "summary": "The clerk calls Chair Feliz and Councilmember Gutierrez. Gutierrez votes no on proposed intro 929A.",
+      "title": "Roll call: Feliz and Gutierrez vote; Gutierrez votes no",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 119.1,
+          "text": "Chair Feliz."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 121.5,
+          "text": "Gutierrez."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 123.7,
+          "text": "No."
+        }
+      ]
+    },
+    {
+      "end_sec": 139.332,
+      "id": "009",
+      "slug": "roll-call-hanks-votes-aye-nurse-and-banks-called",
+      "start_sec": 126.232,
+      "summary": "Councilmember Hanks votes aye. The clerk calls Nurse (no audible response) and Banks, who votes aye.",
+      "title": "Roll call: Hanks votes aye; Nurse and Banks called",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 126.232,
+          "text": "Hanks."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 128.032,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 129.932,
+          "text": "Nurse."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 134.632,
+          "text": "Banks."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 137.232,
+          "text": "I."
+        }
+      ]
+    },
+    {
+      "end_sec": 155.232,
+      "id": "010",
+      "slug": "roll-call-hankerson-sanchez-and-wong-vote",
+      "start_sec": 139.332,
+      "summary": "The clerk calls Hankerson (no audible response), Sanchez votes aye, and Wong votes aye on proposed intro 929A.",
+      "title": "Roll call: Hankerson, Sanchez, and Wong vote",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 139.332,
+          "text": "Hankerson."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 144.732,
+          "text": "Sanchez."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 146.432,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 148.432,
+          "text": "Wong."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 153.032,
+          "text": "I vote aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 158.732,
+      "id": "011",
+      "slug": "roll-call-ariola-votes-aye-and-clerk-announces-final-tally",
+      "start_sec": 155.232,
+      "summary": "Councilmember Ariola votes aye. The clerk announces the final tally: seven in the affirmative, two in the negative, with no abstentions.",
+      "title": "Roll call: Ariola votes aye and clerk announces final tally",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 155.232,
+          "text": "Ariola."
+        },
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 156.832,
+          "text": "I vote aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 168.376,
+      "id": "012",
+      "slug": "proposed-intro-929a-adopted-by-committee-vote-of-7-2",
+      "start_sec": 158.732,
+      "summary": "The clerk confirms proposed introduction 929A has been adopted by a vote of seven in the affirmative and two in the negative, with no abstentions.",
+      "title": "Proposed intro 929A adopted by committee vote of 7-2",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 158.732,
+          "text": "My vote of seven, the item has been adopted by the vote of seven in the affirmative, two in the negative with no abstentions."
+        }
+      ]
+    },
+    {
+      "end_sec": 176.192,
+      "id": "013",
+      "slug": "feliz-announces-bill-passes-committee-and-adjourns-hearing",
+      "start_sec": 168.376,
+      "summary": "Chair Feliz thanks the committee, announces the bill passes, and officially adjourns the hearing.",
+      "title": "Feliz announces bill passes committee and adjourns hearing",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 168.376,
+          "text": "Thank you so much."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 169.376,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 169.876,
+          "text": "The bill passes the committee, and this hearing is hereby adjourned."
+        }
+      ]
+    }
+  ],
+  "date": "2026-06-30",
+  "duration_sec": 176.192,
+  "slug": "2026-06-30-1100-am-committee-on-public-safety",
+  "summary": [
+    "The Public Safety Committee voted 7-2 to approve proposed intro 929A, requiring the NYPD to publish a transparency report on security perimeters adjacent to educational facilities.",
+    "Councilmember Gutierrez voted no; all other voting members voted aye, with the bill sponsored by Councilmember Encarnacion.",
+    "The hearing was brief, consisting of Chair Feliz's opening remarks on the bill's purpose and a roll call vote with no testimony or Q&A."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "11:00 AM",
+  "title": "Committee on Public Safety",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-3_260630-111821/video-web.mp4"
+  }
+}
