@@ -1,6 +1,6 @@
 import { initWasm, Resvg } from "@resvg/resvg-wasm";
 import satori from "satori";
-import resvgWasm from "@resvg/resvg-wasm/index_bg.wasm?bytes";
+import resvgWasm from "@resvg/resvg-wasm/index_bg.wasm";
 import inter500 from "@fontsource/inter/files/inter-latin-500-normal.woff?bytes";
 import inter600 from "@fontsource/inter/files/inter-latin-600-normal.woff?bytes";
 import sourceSerif600 from "@fontsource/source-serif-4/files/source-serif-4-latin-600-normal.woff?bytes";

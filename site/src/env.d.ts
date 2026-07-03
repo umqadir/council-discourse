@@ -9,6 +9,11 @@ declare module "*?bytes" {
   export default bytes;
 }
 
+declare module "*.wasm" {
+  const module: WebAssembly.Module;
+  export default module;
+}
+
 declare namespace App {
   interface Locals {
     runtime?: import("@lib/edge-data").CloudflareRuntime;
