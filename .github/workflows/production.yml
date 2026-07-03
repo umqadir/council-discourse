@@ -49,7 +49,7 @@ jobs:
       - name: Discover pending meetings
         id: discover
         run: |
-          uv run python -m pipeline discover --emit-pending-json --pending-limit 6 > /tmp/pending.json
+          uv run python -m pipeline discover --emit-pending-json --pending-limit 12 > /tmp/pending.json
           matrix="$(cat /tmp/pending.json)"
           has_pending="$(MATRIX_FILE=/tmp/pending.json python - <<'PY'
           import json
@@ -83,7 +83,7 @@ jobs:
     timeout-minutes: 120
     strategy:
       fail-fast: false
-      max-parallel: 2
+      max-parallel: 5
       matrix: ${{ fromJSON(needs.discover.outputs.matrix) }}
     env:
       LEGISTAR_TOKEN: ${{ secrets.LEGISTAR_TOKEN }}
