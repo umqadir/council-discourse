@@ -55,6 +55,13 @@
     overflow: hidden;
   }
 
+  .line-clamp-6 {
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
   .prose-site h2 {
     margin-top: 2rem;
     font-family: theme("fontFamily.serif");

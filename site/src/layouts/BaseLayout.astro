@@ -51,19 +51,17 @@ const ogImage = new URL(image, Astro.site).toString();
           </a>
           <p class="mt-1 text-sm text-muted">NYC Council meetings, chaptered and linked by time.</p>
         </div>
-        <nav aria-label="Primary" class="flex flex-wrap gap-x-5 gap-y-2 text-sm font-semibold">
-          <a class="underline decoration-line hover:decoration-civic" href="/about/">About</a>
-          <a class="underline decoration-line hover:decoration-civic" href="/faq/">FAQ</a>
-        </nav>
       </div>
     </header>
     <main id="content">
       <slot />
     </main>
     <footer class="mt-14 border-t border-line bg-wash/60">
-      <div class="mx-auto flex max-w-6xl flex-col gap-2 px-4 py-8 text-sm text-muted md:flex-row md:items-center md:justify-between md:px-6">
-        <p>Summaries and transcripts are generated from public NYC Council video records.</p>
-        <a class="underline decoration-line hover:decoration-civic" href="/faq/#report-an-issue">Report an issue</a>
+      <div class="mx-auto max-w-6xl px-4 py-8 text-sm text-muted md:px-6">
+        <p>
+          Transcripts, chapters, and speaker names are AI-generated and may contain errors —
+          <a class="underline decoration-line hover:decoration-civic" href="mailto:hello@example.org">report an issue</a>.
+        </p>
       </div>
     </footer>
   </body>

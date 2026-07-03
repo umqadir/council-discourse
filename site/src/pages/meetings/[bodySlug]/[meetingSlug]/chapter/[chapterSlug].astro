@@ -1,12 +1,9 @@
 ---
-import AlpineScript from "@components/AlpineScript.astro";
 import BaseLayout from "@layouts/BaseLayout.astro";
-import Breadcrumbs from "@components/Breadcrumbs.astro";
-import Badge from "@components/Badge.astro";
-import VideoPlayer from "@components/VideoPlayer.astro";
+import ChapterView from "@components/ChapterView.astro";
 import { getRuntime, loadEdgeChapter } from "@lib/edge-data";
 import { chapterOgPath } from "@lib/og";
-import { formatClock, formatDate, formatDuration } from "@lib/format";
+import { formatDate, formatDuration } from "@lib/format";
 
 export const prerender = false;
 
@@ -24,122 +21,11 @@ if (result.status === "missing-binding") {
 }
 
 const { meeting, chapter, index } = result;
-const previous = index > 0 ? meeting.chapters[index - 1] : undefined;
-const next = index < meeting.chapters.length - 1 ? meeting.chapters[index + 1] : undefined;
 const duration = chapter.end_sec - chapter.start_sec;
-const meetingHref = `/meetings/${bodySlug}/${meeting.slug}/`;
-const meetingBreadcrumbLabel = `${meeting.title} — ${formatDate(meeting.date)}`;
 const description = `${chapter.title}, a ${formatDuration(duration)} segment from ${meeting.title} on ${formatDate(meeting.date)}.`;
 const ogImage = chapterOgPath(String(bodySlug), meeting.slug, chapter.slug);
 ---
 
 <BaseLayout title={`${chapter.title} - ${meeting.title}`} description={description} image={ogImage}>
-  <AlpineScript />
-  <Breadcrumbs
-    items={[
-      { label: "Home", href: "/" },
-      { label: meetingBreadcrumbLabel, href: meetingHref },
-      { label: chapter.title },
-    ]}
-  />
-
-  <section class="mx-auto max-w-reading px-4 py-8 md:px-6">
-    <div>
-      <Badge type={chapter.type} />
-      <h1 class="mt-3 font-serif text-4xl font-semibold leading-tight">{chapter.title}</h1>
-      <div class="mt-3 text-sm tabular text-muted">
-        {meeting.body} · {formatDate(meeting.date)} · starts {formatClock(chapter.start_sec)} · {formatDuration(duration)}
-      </div>
-    </div>
-
-    <div class="mt-7">
-      <VideoPlayer
-        url={meeting.video.url}
-        poster={meeting.video.poster}
-        startSec={chapter.start_sec}
-        title={chapter.title}
-      />
-    </div>
-
-    <section class="mt-8" x-data="{ tab: 'summary' }">
-      <div class="flex border-b border-line text-sm font-semibold">
-        <button
-          type="button"
-          class="border-b-2 px-4 py-2"
-          @click="tab = 'summary'"
-          :class="tab === 'summary' ? 'border-civic text-civic' : 'border-transparent text-muted hover:text-ink'"
-        >
-          Summary
-        </button>
-        <button
-          type="button"
-          class="border-b-2 px-4 py-2"
-          @click="tab = 'transcript'"
-          :class="tab === 'transcript' ? 'border-civic text-civic' : 'border-transparent text-muted hover:text-ink'"
-        >
-          Transcript
-        </button>
-      </div>
-
-      <div class="mt-6 leading-8 text-muted" x-show="tab === 'summary'">
-        <p>{chapter.summary}</p>
-      </div>
-
-      <div class="mt-6 space-y-5" x-show="tab === 'transcript'" x-cloak>
-        {
-          chapter.utterances.map((utterance) => (
-            <div class="grid gap-2 border-t border-line pt-4 sm:grid-cols-[8rem_minmax(0,1fr)]">
-              <div class="text-sm">
-                <div class="font-semibold text-ink">{utterance.speaker}</div>
-                <button
-                  class="tabular text-xs font-semibold text-civic underline decoration-line hover:text-civic-dark"
-                  type="button"
-                  data-seek={utterance.t_sec}
-                  onclick="window.seekChapterVideo?.(this.dataset.seek)"
-                >
-                  {formatClock(utterance.t_sec)}
-                </button>
-              </div>
-              <p class="max-w-prose leading-8 text-ink">{utterance.text}</p>
-            </div>
-          ))
-        }
-      </div>
-    </section>
-
-    <footer class="mt-10 border-t border-line pt-5">
-      <div class="flex flex-col gap-4 text-sm font-semibold md:flex-row md:items-start md:justify-between">
-        <div>
-          {
-            previous && (
-              <a
-                class="group inline-flex max-w-sm flex-col gap-1 underline decoration-line hover:decoration-civic"
-                href={`/meetings/${bodySlug}/${meeting.slug}/chapter/${previous.slug}/`}
-              >
-                <span>&larr; Previous chapter</span>
-                <span class="font-serif text-lg leading-tight text-ink group-hover:text-civic">{previous.title}</span>
-              </a>
-            )
-          }
-        </div>
-        <div class="md:text-right">
-          {
-            next && (
-              <a
-                class="group inline-flex max-w-sm flex-col gap-1 underline decoration-line hover:decoration-civic"
-                href={`/meetings/${bodySlug}/${meeting.slug}/chapter/${next.slug}/`}
-              >
-                <span>Next chapter &rarr;</span>
-                <span class="font-serif text-lg leading-tight text-ink group-hover:text-civic">{next.title}</span>
-              </a>
-            )
-          }
-        </div>
-      </div>
-      <div class="mt-5 flex flex-wrap gap-x-5 gap-y-2 text-sm">
-        <a class="underline decoration-line hover:decoration-civic" href="/faq/#report-an-issue">Report an issue</a>
-        <a class="underline decoration-line hover:decoration-civic" href="/faq/#transcription-errors">About transcription errors</a>
-      </div>
-    </footer>
-  </section>
+  <ChapterView meeting={meeting} chapter={chapter} index={index} bodySlug={String(bodySlug)} />
 </BaseLayout>

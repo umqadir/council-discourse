@@ -70,29 +70,4 @@ const description =
       {meetings.map((meeting) => <MeetingRow meeting={meeting} />)}
     </div>
   </section>
-
-  <section class="mx-auto max-w-6xl px-4 pb-12 md:px-6" aria-labelledby="newsletter-heading">
-    <div class="border-t border-line pt-6">
-      <div class="grid gap-4 border-l-4 border-civic bg-wash/70 px-5 py-4 md:grid-cols-[minmax(0,1fr)_minmax(18rem,auto)] md:items-end">
-        <div>
-          <h2 id="newsletter-heading" class="font-serif text-2xl font-semibold">Newsletter</h2>
-          <p class="mt-1 leading-7 text-muted">
-            A weekly email placeholder for newly processed meetings and notable chapters.
-          </p>
-        </div>
-        <div class="flex gap-2">
-          <input
-            class="min-w-0 flex-1 border border-line bg-paper px-3 py-2 text-sm"
-            type="email"
-            placeholder="email@example.com"
-            aria-label="Email address"
-            disabled
-          />
-          <button class="bg-civic px-4 py-2 text-sm font-semibold text-white" type="button" disabled>
-            Soon
-          </button>
-        </div>
-      </div>
-    </div>
-  </section>
 </BaseLayout>

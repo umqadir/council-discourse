@@ -51,6 +51,37 @@ BENCHMARK_OVERRIDES = {
     },
 }
 
+# ASR transcripts frequently split a decimal number into two "sentences",
+# e.g. "$125. 8 billion" for "$125.8 billion" or "3. 5 percent" for "3.5
+# percent". The reliable tell is a period + space between two digit runs where
+# the trailing run is immediately followed by a scale/unit token (%, percent,
+# billion, million, ...) or continues into another decimal fragment. Requiring
+# that unit anchor deliberately leaves genuine sentence boundaries like
+# "...held in 2012. 5 members voted no." untouched, since "members" is not a
+# numeric unit.
+_UNIT = r"(?:%|(?:percent|billion|million|thousand|trillion|bn|mm?)\b)"
+# Innermost fragment: "<digit>. <digits><unit>" -> "<digit>.<digits><unit>".
+_DECIMAL_UNIT = re.compile(rf"(\d)\.\s+(\d+\s*{_UNIT})", re.IGNORECASE)
+# Chained fragment: "<digit>. <digits>." feeding into a fragment we already
+# know terminates in a unit, so "$1. 234.5 billion" collapses left-to-right.
+_DECIMAL_CHAIN = re.compile(r"(\d)\.\s+(\d+\.\d)")
+# A stray space before the decimal point ("$125 .8 billion").
+_DECIMAL_PRESPACE = re.compile(r"(\d)\s+\.(\d)")
+
+
+def normalize_summary_text(value: str) -> str:
+    """Repair ASR decimal-split artifacts in prose without altering wording."""
+    text = str(value or "")
+    # Run repeatedly so chained artifacts ("$1. 234. 5 billion") fully collapse.
+    while True:
+        repaired = _DECIMAL_PRESPACE.sub(r"\1.\2", text)
+        repaired = _DECIMAL_UNIT.sub(r"\1.\2", repaired)
+        repaired = _DECIMAL_CHAIN.sub(r"\1.\2", repaired)
+        if repaired == text:
+            break
+        text = repaired
+    return re.sub(r"[ \t]+", " ", text).strip()
+
 
 def export_site(
     db_path: Path = REGISTRY_DB,
@@ -186,7 +217,7 @@ def _convert_meeting(meeting, payload: dict[str, Any], override: dict[str, Any] 
                 "slug": _chapter_slug(title_text, index, seen_slugs),
                 "type": str(chapter.get("type") or "REMARKS"),
                 "title": title_text,
-                "summary": str(chapter.get("summary") or ""),
+                "summary": normalize_summary_text(chapter.get("summary") or ""),
                 "start_sec": round_sec(start_sec),
                 "end_sec": round_sec(max(start_sec + 1, end_sec)),
                 "utterances": _utterances_for_chapter(utterances, utterances_path, start_sec, end_sec),
@@ -289,9 +320,10 @@ def _caption_utterances_for_chapter(
 def _summary(derived: dict[str, Any], override: dict[str, Any] | None) -> list[str]:
     if derived.get("summary"):
         summary = derived["summary"]
-        return summary if isinstance(summary, list) else [str(summary)]
+        items = summary if isinstance(summary, list) else [str(summary)]
+        return [normalize_summary_text(item) for item in items]
     if override:
-        return list(override["summary"])
+        return [normalize_summary_text(item) for item in override["summary"]]
     return ["Summary pending."]
 
 

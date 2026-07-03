@@ -36,6 +36,56 @@ export function getMeetings(): Meeting[] {
   return meetingCache;
 }
 
+// Static-recent window: prerender chapter pages + OG images for the newest
+// meetings (where nearly all traffic lands) as static assets, leaving older
+// meetings to the SSR chapter route at identical URLs. Sized so the total dist
+// file count stays well under Cloudflare Pages' ~20k asset ceiling: bounded by
+// both a day window from the newest meeting and a hard chapter budget.
+const RECENT_WINDOW_DAYS = 90;
+const RECENT_CHAPTER_BUDGET = 6000;
+const DAY_MS = 24 * 60 * 60 * 1000;
+
+export interface RecentChapterRoute {
+  bodySlug: string;
+  meetingSlug: string;
+  chapterSlug: string;
+}
+
+let recentChapterCache: RecentChapterRoute[] | undefined;
+
+export function getRecentChapterRoutes(): RecentChapterRoute[] {
+  if (recentChapterCache) {
+    return recentChapterCache;
+  }
+
+  const meetings = getMeetings();
+  const newest = meetings[0];
+  const routes: RecentChapterRoute[] = [];
+
+  if (newest) {
+    const cutoff = new Date(`${newest.date}T12:00:00`).getTime() - RECENT_WINDOW_DAYS * DAY_MS;
+    let budget = RECENT_CHAPTER_BUDGET;
+
+    for (const meeting of meetings) {
+      const meetingTime = new Date(`${meeting.date}T12:00:00`).getTime();
+      if (meetingTime < cutoff) {
+        break;
+      }
+      if (meeting.chapters.length > budget) {
+        break;
+      }
+      budget -= meeting.chapters.length;
+      const slug = bodySlug(meeting);
+      for (const chapter of meeting.chapters) {
+        routes.push({ bodySlug: slug, meetingSlug: meeting.slug, chapterSlug: chapter.slug });
+      }
+    }
+  }
+
+  recentChapterCache = routes;
+  return recentChapterCache;
+}
+
 export function getBodies(): BodySummary[] {
   const bySlug = new Map<string, BodySummary>();
 

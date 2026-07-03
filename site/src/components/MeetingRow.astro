@@ -1,7 +1,7 @@
 ---
 import Badge from "@components/Badge.astro";
 import { bodySlug } from "@lib/data";
-import { firstSentences, formatDate, formatDuration } from "@lib/format";
+import { formatDate, formatDuration } from "@lib/format";
 import type { Meeting } from "@lib/types";
 
 interface Props {
@@ -10,7 +10,7 @@ interface Props {
 
 const { meeting } = Astro.props;
 const href = `/meetings/${bodySlug(meeting)}/${meeting.slug}/`;
-const summary = firstSentences(meeting.summary.join(" "), 3);
+const summary = meeting.summary.join(" ");
 ---
 
 <article
@@ -32,8 +32,8 @@ const summary = firstSentences(meeting.summary.join(" "), 3);
       </a>
     </h2>
     <div class="mt-1 text-sm tabular text-muted">
-      {formatDate(meeting.date)} · {meeting.time} · {formatDuration(meeting.duration_sec)}
+      {formatDuration(meeting.duration_sec)}
     </div>
-    <p class="mt-3 max-w-3xl leading-7 text-muted">{summary}</p>
+    <p class="mt-3 line-clamp-6 max-w-3xl leading-7 text-muted">{summary}</p>
   </div>
 </article>

@@ -51,9 +51,9 @@ if (!getMeeting(body.slug, meeting.slug)) {
   />
 
   <section class="mx-auto max-w-6xl px-4 py-8 md:px-6">
-    <div class="max-w-reading space-y-3">
+    <div class="space-y-3">
       <p class="text-sm font-semibold uppercase tracking-[0.16em] text-civic">{meeting.body}</p>
-      <h1 class="font-serif text-4xl font-semibold leading-tight">{meeting.title}</h1>
+      <h1 class="max-w-4xl font-serif text-4xl font-semibold leading-tight">{meeting.title}</h1>
       <div class="text-sm tabular text-muted">
         {formatDate(meeting.date)} · {meeting.time} · {formatDuration(meeting.duration_sec)}
       </div>
@@ -64,7 +64,7 @@ if (!getMeeting(body.slug, meeting.slug)) {
   </section>
 
   <section
-    class="mx-auto grid max-w-6xl gap-x-10 gap-y-8 px-4 pb-12 md:px-6 lg:grid-cols-[20rem_minmax(0,1fr)]"
+    class="mx-auto grid max-w-6xl gap-x-10 gap-y-8 px-4 pb-12 md:px-6 lg:grid-cols-[25rem_minmax(0,1fr)]"
     x-data={`{ selected: ${filterData} }`}
   >
     <aside class="min-w-0 lg:sticky lg:top-6 lg:self-start">
@@ -72,10 +72,10 @@ if (!getMeeting(body.slug, meeting.slug)) {
         <h2 class="font-serif text-2xl font-semibold">Summary</h2>
         <div x-data="{ showAll: false }">
           <ul class="mt-4 space-y-3 leading-7 text-muted">
-            {summaryLead.map((item) => <li class="border-l-2 border-line pl-4">{item}</li>)}
+            {summaryLead.map((item) => <li>{item}</li>)}
             {
               summaryTail.map((item) => (
-                <li class="border-l-2 border-line pl-4" x-show="showAll" x-cloak>
+                <li x-show="showAll" x-cloak>
                   {item}
                 </li>
               ))
@@ -95,23 +95,6 @@ if (!getMeeting(body.slug, meeting.slug)) {
           }
         </div>
       </div>
-
-      <div class="mt-8 border-t border-line pt-6">
-        <h2 class="font-serif text-xl font-semibold">Chapter type</h2>
-        <div class="mt-4 flex flex-wrap gap-x-5 gap-y-3 lg:flex-col lg:gap-0 lg:space-y-3">
-          {
-            chapterTypeEntries.map(([type, count]) => (
-              <label class="flex items-center gap-3 text-sm lg:justify-between">
-                <span class="flex items-center gap-2">
-                  <input class="h-4 w-4 accent-civic" type="checkbox" x-model={`selected.${type}`} />
-                  <span>{chapterTypeLabel(type)}</span>
-                </span>
-                <span class="tabular text-muted">{count}</span>
-              </label>
-            ))
-          }
-        </div>
-      </div>
     </aside>
 
     <div class="min-w-0">
@@ -119,6 +102,26 @@ if (!getMeeting(body.slug, meeting.slug)) {
         <h2 class="font-serif text-3xl font-semibold">Meeting chapters</h2>
         <p class="mt-1 text-sm text-muted">Read summaries and jump into the video at the segment start.</p>
       </div>
+
+      <div class="sticky top-0 z-10 -mx-4 mb-1 flex flex-wrap gap-2 bg-paper/95 px-4 py-3 backdrop-blur md:mx-0 md:px-0">
+        {
+          chapterTypeEntries.map(([type, count]) => (
+            <button
+              type="button"
+              class="inline-flex items-center gap-1.5 rounded-full border px-3 py-1 text-xs font-semibold uppercase tracking-[0.06em] transition-colors"
+              @click={`selected.${type} = !selected.${type}`}
+              :class={`selected.${type}
+                ? 'border-civic bg-civic text-white'
+                : 'border-line bg-paper text-muted hover:border-civic hover:text-ink'`}
+              aria-pressed="true"
+            >
+              <span>{chapterTypeLabel(type)}</span>
+              <span class="tabular font-normal opacity-80">{count}</span>
+            </button>
+          ))
+        }
+      </div>
+
       {meeting.chapters.map((chapter) => <ChapterCard meeting={meeting} chapter={chapter} />)}
     </div>
   </section>
