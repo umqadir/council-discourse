@@ -1,0 +1,1118 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 23.0,
+      "id": "001",
+      "slug": "call-to-order-and-housekeeping",
+      "start_sec": 0.1,
+      "summary": "Council staff calls the meeting to order, welcomes attendees to the Finance Committee vote, and reminds everyone to silence electronics and not approach the dais.",
+      "title": "Call to order and housekeeping",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 0.1,
+          "text": "Now guys, settle down."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1.1,
+          "text": "Thank you for your patience."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 13.1,
+          "text": "Good afternoon, good afternoon."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 14.4,
+          "text": "Welcome to the New York City Council vote on the Committee on Finance."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 17.1,
+          "text": "At this time, please silence all electronics and do not approach the dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 20.6,
+          "text": "Chair, you may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 74.7,
+      "id": "002",
+      "slug": "chair-lee-welcomes-members-and-acknowledges-committee",
+      "start_sec": 23.0,
+      "summary": "Chair Linda Lee opens the meeting, announces the vote to adopt the FY2027 budget, and acknowledges all committee members present including Brooks-Powers, Feliz, Avil\u00e9s, Restler, Hudson, Mealy, Narcisse, Williams, Aldebol, Maloney, Sanchez, Wong, and Morano.",
+      "title": "Chair Lee welcomes members and acknowledges committee",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 23.0,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 25.4,
+          "text": "Good afternoon and welcome to, ooh, feedback."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 29.3,
+          "text": "Welcome to today's Finance Committee meeting where we will be voting to adopt the fiscal 2027 budget."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 35.4,
+          "text": "Councilmember Linda Lee, Chair of the Finance Committee, and I would like to acknowledge my fellow committee members present."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 43.0,
+          "text": "Councilmember Brooks Powers, Councilmember Feliz, Councilmember Aviles, Council Majority Leader Breu, Councilmember Hudson, Councilmember, wait, no, he's not here, sorry."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 52.0,
+          "text": "Councilmember Mealy, Councilmember Narcisse, Councilmember Ressler, Deputy Speaker Williams, Councilmember Aldabal, Councilmember Maloney, Councilmember Jay Sanchez, Councilmember Wong, and Councilmember Marano."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 65.7,
+          "text": "Yay."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 66.5,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 68.6,
+          "text": "Sorry, it's going to be a little long."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 69.7,
+          "text": "I think this is the longest one I've ever had, so I will try to be quick."
+        }
+      ]
+    },
+    {
+      "end_sec": 167.4,
+      "id": "003",
+      "slug": "chair-lee-thanks-speaker-and-finance-division-leadership-team",
+      "start_sec": 74.7,
+      "summary": "Chair Lee thanks Speaker Julie Menin for her leadership, and expresses deep appreciation for the Finance Division staff including Director Nathan Toth, Managing Director Jonathan Rosenberg, deputy directors, chief economists, chief counsel, and senior counsel who prepared briefings and reports for the budget.",
+      "title": "Chair Lee thanks Speaker and Finance Division leadership team",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 74.7,
+          "text": "Today, the Finance Committee will take the necessary actions for the City Council to adopt a $125.8 billion budget for fiscal year 2027."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 84.3,
+          "text": "To begin, I would like to thank Speaker Julie-Menin for her leadership throughout this entire budget process."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 89.7,
+          "text": "The Speaker..."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 90.2,
+          "text": "and the council remained committed to reaching a budget that keeps vulnerable families housed, invests in New Yorkers, and safeguards our city's long-term fiscal future."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 98.5,
+          "text": "I also want to thank the Council Finance Division for their hard work in their preparations of the briefings, presentations, and reports which went into crafting this budget, and we deeply,"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 111.2,
+          "text": "deeply appreciate the dedication of all the financial analysts and economists who got us this vote today."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 117.4,
+          "text": "A very special thank you to the Finance Division's leadership team who spearheaded the effort."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 122.1,
+          "text": "Finance Director Nathan Toth."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 124.4,
+          "text": "Managing Director Jonathan Rosenberg, Deputy Directors Amra Adev, Chima Obesher, Paul Simone, and Isha Wright, Chief Economist and Assistant Director Dilara Dimnaku,"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 136.6,
+          "text": "Supervising Economist Paul Sturm and Andrew Wilber, Assistant Directors Alia Ali, Julia Haramis, Florentine Kabor, Daniel Krup, Caitlin O'Hagan, James Reyes, and Jack Story,"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 148.7,
+          "text": "Chief Counsel Nicholas Connell, Senior Counsel Nadia Jean-Francois, my committee counsel Brian Sarfo, I don't know why I feel like I have to do that, my senior advisor, sorry,"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 159.1,
+          "text": "Athena Say, and the many finance analysts, economists, and support staff who have worked behind the scenes to bring everything together."
+        }
+      ]
+    },
+    {
+      "end_sec": 221.8,
+      "id": "004",
+      "slug": "chair-lee-thanks-administrative-staff-and-district-office-team",
+      "start_sec": 167.4,
+      "summary": "Chair Lee gives special recognition to the finance administrative staff and legislative documents unit, naming Nicole Anderson, Michelle Bhatti, and others, as well as the sergeants at arms and her own district office staff for keeping operations running during budget season.",
+      "title": "Chair Lee thanks administrative staff and district office team",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 167.4,
+          "text": "I want to make special notice of the finance administrative staff and the legislative documents unit that pull everything together to ensure that this budget process was seamless for all of us."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 177.0,
+          "text": "Thank you to Nicole Anderson, Michelle Bhatti,"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 180.1,
+          "text": "Alexandra Pascal, Jonathan Ettricks, Ruthie Delfranco, Jillian Jeffries, Yvette Molina, Billy Martin, and Matthew DiStefano."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 189.6,
+          "text": "The amazing sergeants at arms, yay!"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 192.0,
+          "text": "Sorry."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 194.3,
+          "text": "They keep things orderly and safe on either side of Broadway throughout our preliminary and executive hearings, parade season, and everything in between."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 201.7,
+          "text": "Thank you, Carl, Raphael, and the entire team."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 204.6,
+          "text": "And last but not least, a special shout out to my district office chief of staff, Keith Felsenfeld, deputy chief of staff, Daniel Sparrow,"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 212.8,
+          "text": "legislative and budget director, John Wani, and my district manager, Sila Asa, for holding down the fort for District 23 and for being instrumental during this budget season."
+        }
+      ]
+    },
+    {
+      "end_sec": 310.6,
+      "id": "005",
+      "slug": "chair-lee-highlights-key-fy27-budget-investments",
+      "start_sec": 221.8,
+      "summary": "Chair Lee outlines the budget's key investments including $14.4 million for parks, $1 million for libraries, $4.5 million for ACT teams, $11 million for IMT, $2.5 million for crisis respite centers, $12 million for home-delivered meals, and $86.4 million restored for immigrant legal services, emphasizing a balanced budget without service cuts or drastic tax increases.",
+      "title": "Chair Lee highlights key FY27 budget investments",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 221.8,
+          "text": "This budget represents the Council's commitment to achieve a balanced budget without cutting services, drawing down on reserves, or imposing drastic property tax increases."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 231.6,
+          "text": "Further, this budget includes key investments in programs such as City FEPS, Fair Fairs, New York City Kids Rise."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 237.8,
+          "text": "All these programs will aid families in preparing for the future and tackle the issue of affordability."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 243.1,
+          "text": "We successfully protected and achieved funding of $14.4 million for our parks, maintaining and optimizing our green spaces, an additional $1 million for our libraries"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 256.2,
+          "text": "continuing to sustain our seven-day service, and a continued commitment for the mental health and well-being of New Yorkers with $4.5 million for the city's ACT teams, $11 million for IMT, and step-down mobile treatment centers."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 270.0,
+          "text": "The council was also able to restore $2.5 million in funding for crisis respite centers, proven evidence-based programs staffed by clinicians and peer counselors."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 280.0,
+          "text": "Lastly, this budget also secured $12 million to increase the reimbursements of nonprofits providing culturally competent home-delivered meals"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 287.9,
+          "text": "seven days a week and restored $86.4 million for nonprofits delivering immigrant legal services, ensuring that New Yorkers have trusted legal support when needed most."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 299.2,
+          "text": "We are delivering a balanced on-time budget, restoring our reserves, and still investing in making our city safer, healthier, and more affordable without adding additional burdens for New Yorkers."
+        }
+      ]
+    },
+    {
+      "end_sec": 481.7,
+      "id": "006",
+      "slug": "chair-lee-outlines-agenda-items-for-committee-vote",
+      "start_sec": 310.6,
+      "summary": "Chair Lee lists the nine categories of items requiring a vote: FY27 expense budget, contract budget, capital budget (Reso A and B), expense and revenue budget modifications, community development program, three property tax resolutions, four late payment interest rate resolutions, and a transparency resolution, plus reminders about Schedule C disclosures.",
+      "title": "Chair Lee outlines agenda items for committee vote",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 310.6,
+          "text": "Now let's turn to adopting this budget."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 313.7,
+          "text": "Before we get to the vote, I'd like to discuss the specific items that we will vote on today."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 319.5,
+          "text": "All members received a budget packet by the Committee, Council, and Finance team that contains all the budget-related legislation that must be voted on by the committee and, again, by the full council at the stated meeting."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 332.1,
+          "text": "So I'm going to just list the items that are on our agenda today that require vote."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 336.4,
+          "text": "Number one, resolution approving the FY27 expense budget."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 340.4,
+          "text": "Number two, resolution approving the FY27 contract budget."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 344.8,
+          "text": "Number three, resolutions approving the FY27 capital budget, Reso A and Reso B."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 351.5,
+          "text": "Number four, resolution approving an expense budget modification, which closes out FY26."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 358.4,
+          "text": "Number five, resolution approving."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 360.0,
+          "text": "approving a revenue budget modification, which closes out FY26."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 364.4,
+          "text": "Number six, resolution approving the proposed FY27 community development program, reallocation of 52nd year funds, and proposed 53rd year program."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 375.0,
+          "text": "Number seven, three property tax resolutions."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 378.9,
+          "text": "Current base proportion, adjusted base proportion, and the resolution fixing the tax rates are all interlocking resolutions that together are necessary for adopting the FY27 property tax rates."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 391.6,
+          "text": "Number eight, four resolutions in relation to real property tax late payment interest rates for FY27."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 398.4,
+          "text": "Number nine, a transparency resolution."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 401.1,
+          "text": "The other documents in the packet which do not require a separate vote are Schedule C and a list of the terms and conditions included in the expense budget for FY27."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 411.7,
+          "text": "As a reminder to members, Schedule C is a schedule of the expense and contract budgets, and the appropriations for the organizations listed in Schedule C are funded by the expense and contract budgets."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 423.8,
+          "text": "Council members will have to sign a disclosure form indicating whether or not a conflict exists with any of the groups listed in Schedule C or Reso A, which details the designations of capital discretionary funds."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 436.5,
+          "text": "A separate disclosure form must be completed for the transparency resolution."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 440.8,
+          "text": "If any council member has a potential conflict of interest with any of the organizations included, he or she has the opportunity to disclose the conflict at the time of their"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 450.8,
+          "text": "If you have not yet signed those disclosure forms, staff from the General Counsel's office are available to guide you through the process."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 459.2,
+          "text": "So please contact one of them before you vote."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 461.7,
+          "text": "As a further reminder, please disclose any conflicts you may have with proposed subcontractors that are used by any of the organizations sponsored."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 470.2,
+          "text": "These disclosures must be made before the subcontractor can be approved."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 476.0,
+          "text": "So those are all of our items for today."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 478.5,
+          "text": "I will now have Billy Martin, the committee clerk, call the roll."
+        }
+      ]
+    },
+    {
+      "end_sec": 582.264,
+      "id": "007",
+      "slug": "roll-call-begins-chair-lee-and-restler-vote-with-disclosures",
+      "start_sec": 481.7,
+      "summary": "Committee clerk Billy Martin calls the roll with all items coupled. Chair Lee votes aye on all. Council Member Restler discloses that his wife works at the Mayor's Office of Management and Budget and his mother serves on boards of funded organizations, voting aye. Chair Lee then discloses that her children are associated with DOE and her husband with Korean Community Services.",
+      "title": "Roll call begins: Chair Lee and Restler vote with disclosures",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 481.7,
+          "text": "Oh, where's Billy?"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 482.9,
+          "text": "Oh, okay."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 503.292,
+          "text": "All right."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 506.792,
+          "text": "Yay."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 513.992,
+          "text": "Okay, so we will now have Billy Martin, the committee clerk, call the roll."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 518.192,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 518.592,
+          "text": "Hello, everybody."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 519.292,
+          "text": "William Martin, committee clerk, roll call vote, committee on finance."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 522.092,
+          "text": "All items are coupled."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 523.892,
+          "text": "Chair Lee."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 525.492,
+          "text": "Aye on all."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 526.992,
+          "text": "Ressler."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 528.792,
+          "text": "I am disclosing for the record that my wife works at the mayor's office of management of the budget, and I'm very proud of her, and my mother serves on the board of the Mercantile Library Association of the City of New York and the Brooklyn Heights Association."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 541.392,
+          "text": "They are funded in this budget that we are adopting today, and I vote aye on all."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 545.992,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 546.592,
+          "text": "Chair Lee."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 547.692,
+          "text": "Sorry, I didn't realize I had to disclose now."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 549.792,
+          "text": "Okay, sorry."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 550.192,
+          "text": "I'm disclosing on the record of the council proceedings that the New York City Department of Education is funded in the budget we are adopting, and my children are associated with that entity, and that Korean Community Services is funded in the budget we are adopting, and my husband is associated with that entity."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 565.192,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 566.492,
+          "text": "Gennaro."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 570.764,
+          "text": "Brooks Powers."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 574.164,
+          "text": "Please come back to me."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 580.364,
+          "text": "Oh, sure."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 580.764,
+          "text": "Sorry."
+        }
+      ]
+    },
+    {
+      "end_sec": 663.152,
+      "id": "008",
+      "slug": "council-members-feliz-abreu-avil-s-and-hudson-vote-with-disclosures",
+      "start_sec": 582.264,
+      "summary": "Council Member Feliz discloses associations with CUNY and Volunteers of America and votes aye. Abreu votes aye. Avil\u00e9s discloses associations with Uprose, DOE, and Parks and Recreation, voting aye. Hudson discloses associations with Brooklyn Museum, Botanical Garden, Academy of Music, and other cultural institutions, voting aye.",
+      "title": "Council Members Feliz, Abreu, Avil\u00e9s, and Hudson vote with disclosures",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 582.264,
+          "text": "Feliz."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 584.264,
+          "text": "I'm disclosing on the record that the City University of New York and Volunteers of America are funded in the budget we're adopting, and I and also my sibling and parent, respectively, are associated with those entities."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 595.964,
+          "text": "With that said, I would, I and all, want to congratulate Speaker Menon, Finance Chair Lee, and all my colleagues for passing a budget that works for New Yorkers."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 603.564,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 604.264,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 605.464,
+          "text": "Abraiu."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 606.764,
+          "text": "Ivorai."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 608.064,
+          "text": "Avilets."
+        },
+        {
+          "speaker": "Alexa Avil\u00e9s",
+          "t_sec": 614.384,
+          "text": "I'm disclosing for the record that Uprose and New York City Department of Education and Parks and Recreation are funded in this budget, and I or my child is associated with these entities."
+        },
+        {
+          "speaker": "Alexa Avil\u00e9s",
+          "t_sec": 627.484,
+          "text": "I vote aye on all."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 630.984,
+          "text": "Hudson."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 636.784,
+          "text": "I'm disclosing on the record of the council proceedings that the Brooklyn Museum, Botanical Garden, Academy of Music, Museum of the City of New York, New York City Commission on Gender Equity, and Unlocal are funded in the budget we are adopting, and I, my spouse, and my business associate, respectively, are associated with those entities."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 652.184,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 654.984,
+          "text": "Marte."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 659.352,
+          "text": "Mealy."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 660.952,
+          "text": "I don't know."
+        }
+      ]
+    },
+    {
+      "end_sec": 720.444,
+      "id": "009",
+      "slug": "council-members-narcisse-and-williams-vote-with-disclosures",
+      "start_sec": 663.152,
+      "summary": "Council Member Narcisse discloses associations with NYU, Brookdale Hospital, and Hope Incorporated through her partner and child, voting aye and thanking Speaker Menin and Chair Lee. Council Member Williams discloses associations with Children's Rescue Fund, CUNY, and Delta Sigma Theta Sorority, voting aye.",
+      "title": "Council Members Narcisse and Williams vote with disclosures",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 663.152,
+          "text": "Narcisse."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 666.152,
+          "text": "I'm disclosing on the record of the council's proceeding that New York University, Brookdale Hospital, and Hope"
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 674.752,
+          "text": "Incorporated are funded in the budget we are adopting, and my partner and child respectively associated with those entities, and I would eye on all."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 683.652,
+          "text": "And thank you, Speaker Minin."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 685.052,
+          "text": "Of course, my beautiful Chair Lee for the Finance Committee."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 690.152,
+          "text": "Thank you, and all my colleagues."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 691.252,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 692.552,
+          "text": "Williams."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 696.344,
+          "text": "I am disclosing on the record of the council proceedings that Children's Rescue Fund, the City"
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 702.844,
+          "text": "University of New York, and Queens Alumni Chapter of Delta Sigma Theta Sorority Incorporated are funded in the budget we are adopting, and my sibling and or I respectively are associated with these entities."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 718.944,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 801.3,
+      "id": "010",
+      "slug": "council-members-aldebol-maloney-and-sanchez-vote-with-disclosures",
+      "start_sec": 720.444,
+      "summary": "Council Member Aldebol discloses her business is associated with NYPD and votes aye. Maloney discloses her sister serves on the board of the New York Foundation for Senior Citizens and her parent is associated with CUNY, the Floating Hospital, 92nd Street Y, and Metropolitan Opera, voting aye. Sanchez votes aye with no disclosures.",
+      "title": "Council Members Aldebol, Maloney, and Sanchez vote with disclosures",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 720.444,
+          "text": "Alvebol."
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 726.144,
+          "text": "Thank you again, Speaker Menon and Chair Lee, for your leadership on this budget."
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 735.344,
+          "text": "I'm disclosing on the record of the council proceedings that the New York City Police Department is funded in the budget we are adopting, and my business is associated with that entity, and I vote aye."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 748.244,
+          "text": "Maloney."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 751.632,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 752.232,
+          "text": "I'm disclosing on the record of the council proceedings that my sister serves on the board of the New York Foundation for Senior Citizens."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 761.232,
+          "text": "And my parent is associated with the following entities,"
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 767.332,
+          "text": "City University of New York, the Floating Hospital, the 92nd Street Y and 92NY, and Metropolitan Opera Association."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 777.232,
+          "text": "And thank you, Chair Lee."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 779.732,
+          "text": "And I vote aye."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 782.932,
+          "text": "Justin Sanchez."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 786.9,
+          "text": "Thank you, Chair Lee, for all of your long hours and lots of hard work."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 792.6,
+          "text": "And I'd like to disclose for the record that I have nothing to disclose."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 797.4,
+          "text": "I vote aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 873.58,
+      "id": "011",
+      "slug": "council-member-wong-questions-bill-numbers-votes-no-on-one-interest-rate-item",
+      "start_sec": 801.3,
+      "summary": "Council Member Wong asks for clarification on bill numbers for the late payment interest rate resolutions, citing 2274, 2176, and 2182. After discussion with staff, he votes yes on all items except the 6% interest rate resolution, on which he votes no.",
+      "title": "Council Member Wong questions bill numbers, votes no on one interest rate item",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 801.3,
+          "text": "Wong."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 804.9,
+          "text": "Before voting, can I have the bill numbers for the late payment interest for the resolution for assessed values of $250K or less, and $250K to $450K, and those the value over $450K?"
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 820.012,
+          "text": "I have them as 2274, 2176, and 2182."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 826.512,
+          "text": "Is that right, or the numbers change?"
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 832.612,
+          "text": "Do you know?"
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 837.512,
+          "text": "Okay, so, okay, my vote is yes on all except one."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 848.18,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 850.28,
+          "text": "6%."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 855.78,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 861.38,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 861.78,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 862.08,
+          "text": "Perfect."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 862.48,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 871.38,
+          "text": "Okay, thank you, Councilmember."
+        }
+      ]
+    },
+    {
+      "end_sec": 982.196,
+      "id": "012",
+      "slug": "council-member-morano-discloses-conflicts-votes-no-on-most-items",
+      "start_sec": 873.58,
+      "summary": "Council Member Morano discloses associations with DOE, Lou's Helping Hand, Victory for the Voiceless, Prospect Heights Open Street, Columbia University, CUNY, YMCA, and Italian Club of Staten Island. He thanks Chair Lee for her leadership and votes yes on T2026-2177, 2178, and 2302, but no on all other items.",
+      "title": "Council Member Morano discloses conflicts, votes no on most items",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 873.58,
+          "text": "More on all."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 877.18,
+          "text": "I am disclosing on the record of the council proceedings that the New York City Department of Education,"
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 883.38,
+          "text": "Lou's Helping Hand, Victory for the Voiceless, Prospect Heights Open Street, Inc., Columbia University, City University of New York, YMCA, and Italian Club of Staten Island are funded in the budget we are adopting, and my child, spouse, siblings, and I"
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 898.58,
+          "text": "respectively are associated with those entities."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 903.48,
+          "text": "I want to thank the chair for her heroic leadership over the course of this entire budget cycle."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 909.18,
+          "text": "You're a model public servant."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 911.78,
+          "text": "And with that, I will vote yes on T2026-2177 and 2178 and T2026-2302 and no on all the rest."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 977.516,
+          "text": "Pardon, thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 1120.996,
+      "id": "013",
+      "slug": "council-members-gennaro-marte-and-brooks-powers-vote-with-disclosures",
+      "start_sec": 982.196,
+      "summary": "Council Members Gennaro and Marte are called and vote. Council Member Brooks-Powers discloses associations with Delta Sigma Theta Sorority and YMCA, and that her child is associated with DOE, Edge School of the Arts, and Community Youth Care Services, voting aye on the budget.",
+      "title": "Council Members Gennaro, Marte, and Brooks-Powers vote with disclosures",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 982.196,
+          "text": "Brooks Powers."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 987.296,
+          "text": "Sure."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 988.496,
+          "text": "Councilmember Gennaro?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1004.496,
+          "text": "Councilmember Marte."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1080.596,
+          "text": "Councilmember Brooks Powers."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 1084.396,
+          "text": "I'm disclosing on the record of the council proceedings that the Queens Alumni Chapter of Delta Sigma Theta Sorority Incorporated and the YMCA are funded in the budget we are adopting and I am associated with that organization."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 1097.496,
+          "text": "And that the New York City Department of Education, Edge School of the Arts, and Community Youth Care Services are funded."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 1104.296,
+          "text": "In the budget we are adopting and my child is associated with those entities."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 1110.896,
+          "text": "That's it."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 1111.396,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 1111.896,
+          "text": "And with that, I vote aye on the budget."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1117.296,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 1183.136,
+      "id": "014",
+      "slug": "vote-outcomes-budget-adopted-with-14-1-and-13-2-margins",
+      "start_sec": 1120.996,
+      "summary": "The committee clerk announces results: preconsidered resolutions on organizations, community development, expense, revenue, and contract budgets adopted 14-1; interest rate resolutions for 6%, 9%, and 16% adopted 13-2; the 2.5% interest rate and executive capital budget adopted 15-0. All items pass.",
+      "title": "Vote outcomes: budget adopted with 14-1 and 13-2 margins",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1120.996,
+          "text": "All items have been adopted by the committee with the following votes."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1126.296,
+          "text": "Preconsidered resolution."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1132.596,
+          "text": "In relation to organizations receiving funding, the Community Development Program, the Expense Revenue Contract, and MN9 have been adopted by the committee with 14 in the affirmative, one in the negative, and no abstentions."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1147.296,
+          "text": "Interest rates in relation to 6%, 9%, and 16 have been adopted by the committee with 13 in the affirmative, two in the negative, no abstentions."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1156.996,
+          "text": "Preconsidered resolution interest rate in regards to 2.5% and the executive capital budget have been adopted by the committee with 15 in the affirmative, zero in the negative, and no abstentions."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1169.796,
+          "text": "That's everything."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1181.636,
+          "text": "Everything's been passed."
+        }
+      ]
+    },
+    {
+      "end_sec": 1196.821,
+      "id": "015",
+      "slug": "chair-lee-closes-committee-meeting",
+      "start_sec": 1183.136,
+      "summary": "Chair Lee confirms all items have passed, closes out the committee vote, thanks everyone, and congratulates the committee on the adopted budget.",
+      "title": "Chair Lee closes committee meeting",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 1183.136,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 1183.736,
+          "text": "I think we're good, right?"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 1184.936,
+          "text": "Okay, perfect."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 1186.036,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 1186.936,
+          "text": "So with that, that closes out our committee vote."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 1190.936,
+          "text": "Thank you, everyone."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 1193.336,
+          "text": "Congrats."
+        }
+      ]
+    }
+  ],
+  "date": "2026-06-30",
+  "duration_sec": 1196.821,
+  "slug": "2026-06-30-0330-pm-committee-on-finance",
+  "summary": [
+    "Finance Committee Chair Linda Lee leads the vote to adopt the $125.8 billion FY2027 budget, highlighting key investments in parks, libraries, mental health, and nonprofit services.",
+    "Council members disclose conflicts of interest during roll call, with most voting aye on all items while Council Members Wong and Morano vote no on certain interest rate and budget resolutions.",
+    "All budget resolutions pass with 14-1 and 13-2 margins, adopting the expense, contract, capital, and community development budgets along with property tax rate resolutions."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "3:30 PM",
+  "title": "Committee on Finance",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-PV-CH-COM_260630-161054/video-web.mp4"
+  }
+}

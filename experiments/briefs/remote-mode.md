@@ -28,3 +28,5 @@ utterances.jsonl + utterances-labeled.jsonl (+ transcribe-meta.json); keep the
 end-to-end test. Also: Mistral returned 429 service_tier_capacity_exceeded on a
 5.9h meeting (~80 burst chunk requests) — add exponential backoff + inter-chunk
 delay + resume-partial to the voxtral splitter.
+Acceptance meeting for the 429/backoff fix: NYCC-PV-CH-CHA_260528-100627 (5.9h,
+needs full transcribe->name->chapterize; expect off-peak capacity to succeed).
