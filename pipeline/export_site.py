@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import hashlib
 import os
 import re
 import shutil
@@ -13,6 +14,8 @@ from .artifacts import clean_text, normalize_utterances, parse_clock, read_json,
 from .config import DATA_DIR, REGISTRY_DB, ROOT
 
 SITE_DATA_DIR = ROOT / "site" / "src" / "data" / "meetings"
+SITE_R2_DATA_DIR = ROOT / "site" / "r2-data"
+R2_CHAPTER_DATA_PREFIX = "data/meetings"
 BENCHMARK_DIR = DATA_DIR / "benchmark"
 CHAPTER_MODEL = "gemini-3.5-flash"
 COUNCIL_BODY = "New York City Council"
@@ -52,6 +55,7 @@ BENCHMARK_OVERRIDES = {
 def export_site(
     db_path: Path = REGISTRY_DB,
     out_dir: Path = SITE_DATA_DIR,
+    r2_out_dir: Path = SITE_R2_DATA_DIR,
     include_benchmark: bool = True,
     allow_empty: bool = False,
 ) -> list[Path]:
@@ -66,7 +70,9 @@ def export_site(
         raise RuntimeError("no completed meetings found to export")
 
     shutil.rmtree(out_dir, ignore_errors=True)
+    shutil.rmtree(r2_out_dir, ignore_errors=True)
     out_dir.mkdir(parents=True, exist_ok=True)
+    r2_out_dir.mkdir(parents=True, exist_ok=True)
 
     written = []
     seen: set[str] = set()
@@ -75,10 +81,26 @@ def export_site(
         if slug in seen:
             continue
         seen.add(slug)
+        text = _json_text(meeting)
         path = out_dir / f"{slug}.json"
-        path.write_text(json.dumps(meeting, indent=2, sort_keys=True) + "\n")
+        path.write_text(text)
         written.append(path)
+
+        data_key = _chapter_data_key(slug, text)
+        r2_path = r2_out_dir / data_key
+        r2_path.parent.mkdir(parents=True, exist_ok=True)
+        r2_path.write_text(text)
+        written.append(r2_path)
     return written
+
+
+def _json_text(payload: dict[str, Any]) -> str:
+    return json.dumps(payload, indent=2, sort_keys=True) + "\n"
+
+
+def _chapter_data_key(slug: str, text: str) -> Path:
+    version = hashlib.sha256(text.encode("utf-8")).hexdigest()[:16]
+    return Path(R2_CHAPTER_DATA_PREFIX) / f"{slug}.{version}.json"
 
 
 def _registry_meetings(db_path: Path) -> list[dict[str, Any]]:

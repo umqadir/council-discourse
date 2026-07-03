@@ -1,24 +1,22 @@
-import type { APIRoute, GetStaticPaths } from "astro";
-import { getBodies } from "@lib/data";
+import type { APIRoute } from "astro";
+import { getRuntime, loadEdgeChapter } from "@lib/edge-data";
 import { chapterCard } from "@lib/og";
 
-export const getStaticPaths: GetStaticPaths = () =>
-  getBodies().flatMap((body) =>
-    body.meetings.flatMap((meeting) =>
-      meeting.chapters.map((chapter) => ({
-        params: {
-          bodySlug: body.slug,
-          meetingSlug: meeting.slug,
-          chapterSlug: chapter.slug,
-        },
-        props: { meeting, chapter },
-      })),
-    ),
-  );
+export const prerender = false;
 
-export const GET: APIRoute = async ({ props }) => {
-  const png = await chapterCard(props.meeting, props.chapter);
-  return new Response(new Uint8Array(png), {
-    headers: { "Content-Type": "image/png" },
+export const GET: APIRoute = async ({ params, locals }) => {
+  const result = await loadEdgeChapter(params, getRuntime(locals)?.env);
+  if (result.status === "not-found") {
+    return new Response("Not found", { status: 404 });
+  }
+  if (result.status === "missing-binding") {
+    return new Response(`${result.binding} R2 binding is not configured`, { status: 500 });
+  }
+
+  const png = await chapterCard(result.meeting, result.chapter);
+  return new Response(png, {
+    headers: {
+      "Content-Type": "image/png",
+    },
   });
 };

@@ -1,7 +1,10 @@
-import fs from "node:fs";
-import path from "node:path";
+import { initWasm, Resvg } from "@resvg/resvg-wasm";
 import satori from "satori";
-import { Resvg } from "@resvg/resvg-js";
+import resvgWasm from "@resvg/resvg-wasm/index_bg.wasm?bytes";
+import inter500 from "@fontsource/inter/files/inter-latin-500-normal.woff?bytes";
+import inter600 from "@fontsource/inter/files/inter-latin-600-normal.woff?bytes";
+import sourceSerif600 from "@fontsource/source-serif-4/files/source-serif-4-latin-600-normal.woff?bytes";
+import sourceSerif700 from "@fontsource/source-serif-4/files/source-serif-4-latin-700-normal.woff?bytes";
 import { chapterTypeLabel, formatDate, formatDuration } from "./format";
 import type { Chapter, Meeting } from "./types";
 
@@ -19,43 +22,44 @@ const COLORS = {
   wash: "#f2ede3",
 };
 
-const FONT_DIR_SERIF = path.join(
-  process.cwd(),
-  "node_modules/@fontsource/source-serif-4/files",
-);
-const FONT_DIR_SANS = path.join(process.cwd(), "node_modules/@fontsource/inter/files");
-
-function loadFont(dir: string, file: string): Buffer {
-  return fs.readFileSync(path.join(dir, file));
-}
-
 // satori needs woff/ttf (not woff2); fontsource ships latin .woff files.
 const fonts = [
   {
     name: "Source Serif 4",
-    data: loadFont(FONT_DIR_SERIF, "source-serif-4-latin-600-normal.woff"),
+    data: bytesToArrayBuffer(sourceSerif600),
     weight: 600 as const,
     style: "normal" as const,
   },
   {
     name: "Source Serif 4",
-    data: loadFont(FONT_DIR_SERIF, "source-serif-4-latin-700-normal.woff"),
+    data: bytesToArrayBuffer(sourceSerif700),
     weight: 700 as const,
     style: "normal" as const,
   },
   {
     name: "Inter",
-    data: loadFont(FONT_DIR_SANS, "inter-latin-500-normal.woff"),
+    data: bytesToArrayBuffer(inter500),
     weight: 500 as const,
     style: "normal" as const,
   },
   {
     name: "Inter",
-    data: loadFont(FONT_DIR_SANS, "inter-latin-600-normal.woff"),
+    data: bytesToArrayBuffer(inter600),
     weight: 600 as const,
     style: "normal" as const,
   },
 ];
+
+let resvgReady: Promise<void> | undefined;
+
+function bytesToArrayBuffer(bytes: Uint8Array): ArrayBuffer {
+  return bytes.buffer.slice(bytes.byteOffset, bytes.byteOffset + bytes.byteLength);
+}
+
+async function ensureResvg(): Promise<void> {
+  resvgReady ??= initWasm(resvgWasm);
+  await resvgReady;
+}
 
 // Minimal hyperscript so we can build the satori element tree from a .ts file
 // without a JSX runtime.
@@ -232,14 +236,19 @@ function card(options: CardOptions): Node {
   );
 }
 
-async function render(node: Node): Promise<Buffer> {
+async function render(node: Node): Promise<Uint8Array> {
+  await ensureResvg();
   const svg = await satori(node as unknown as Parameters<typeof satori>[0], {
     width: WIDTH,
     height: HEIGHT,
     fonts,
   });
   const resvg = new Resvg(svg, { fitTo: { mode: "width", value: WIDTH } });
-  return resvg.render().asPng();
+  const rendered = resvg.render();
+  const png = rendered.asPng();
+  rendered.free();
+  resvg.free();
+  return png;
 }
 
 // Absolute-path builders for the emitted PNG endpoints. Kept next to the
@@ -258,7 +267,7 @@ export function chapterOgPath(
   return `/og/chapter/${bodySlug}/${meetingSlug}/${chapterSlug}.png`;
 }
 
-export function homeCard(): Promise<Buffer> {
+export function homeCard(): Promise<Uint8Array> {
   return render(
     card({
       eyebrow: "Public meeting record",
@@ -269,7 +278,7 @@ export function homeCard(): Promise<Buffer> {
   );
 }
 
-export function meetingCard(meeting: Meeting): Promise<Buffer> {
+export function meetingCard(meeting: Meeting): Promise<Uint8Array> {
   const meta = `${formatDate(meeting.date)}${meeting.time ? ` · ${meeting.time}` : ""} · ${formatDuration(
     meeting.duration_sec,
   )}`;
@@ -282,7 +291,7 @@ export function meetingCard(meeting: Meeting): Promise<Buffer> {
   );
 }
 
-export function chapterCard(meeting: Meeting, chapter: Chapter): Promise<Buffer> {
+export function chapterCard(meeting: Meeting, chapter: Chapter): Promise<Uint8Array> {
   const meta = `${meeting.title} · ${formatDate(meeting.date)}`;
   return render(
     card({

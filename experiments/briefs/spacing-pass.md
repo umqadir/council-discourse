@@ -11,3 +11,10 @@ User-confirmed issues (see conversation 2026-07-03):
    rail keeps summary only.
 6. Summary text normalization: ASR artifacts like "$125. 8 billion" -> "$125.8
    billion" (regex pass in export or chapterize output cleaning).
+7. TRUNCATION BUG (user-reported): firstSentences() splits on periods naively —
+   "$194.5M" truncates to "…the $194." mid-number. Replace with: sentence split
+   that never breaks after a digit-period-digit or common abbreviations; when
+   truncating, append a real ellipsis (…); and raise the budget — truncate by
+   character budget (~320 chars) at a word boundary, not a hard 2-sentence cap
+   that wastes visible line space. Apply everywhere summaries truncate
+   (homepage rows, chapter cards).

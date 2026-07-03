@@ -151,6 +151,9 @@ PY
     env:
       GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
       OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      R2_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
     steps:
       - name: Check out repository
         uses: actions/checkout@v5
@@ -171,6 +174,11 @@ PY
       - name: Enable pnpm
         run: corepack enable
 
+      - name: Install R2 sync tool
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y rclone
+
       - name: Download registry state
         uses: actions/download-artifact@v4
         with:
@@ -190,6 +198,28 @@ PY
 
       - name: Export site data
         run: uv run python -m pipeline export-site --allow-empty
+
+      - name: Sync chapter data to R2
+        run: |
+          if [ ! -d site/r2-data/data ]; then
+            echo "No chapter data exported"
+            exit 0
+          fi
+          if [ -z "${R2_ACCESS_KEY_ID:-}" ] || [ -z "${R2_SECRET_ACCESS_KEY:-}" ] || [ -z "${R2_ENDPOINT:-}" ]; then
+            echo "::warning::Skipping chapter data R2 sync because R2 credentials are not configured."
+            exit 0
+          fi
+          export RCLONE_CONFIG_R2_TYPE=s3
+          export RCLONE_CONFIG_R2_PROVIDER=Cloudflare
+          export RCLONE_CONFIG_R2_ACCESS_KEY_ID="$R2_ACCESS_KEY_ID"
+          export RCLONE_CONFIG_R2_SECRET_ACCESS_KEY="$R2_SECRET_ACCESS_KEY"
+          export RCLONE_CONFIG_R2_ENDPOINT="$R2_ENDPOINT"
+          rclone sync site/r2-data/data "r2:${R2_BUCKET}/data" \
+            --s3-no-check-bucket \
+            --transfers 4 \
+            --checkers 8 \
+            --retries 5 \
+            --low-level-retries 10
 
       - name: Install site dependencies
         run: pnpm --dir site install --frozen-lockfile
@@ -245,4 +275,4 @@ PY
 
       - name: Deploy Cloudflare Pages
         if: ${{ env.CLOUDFLARE_API_TOKEN != '' }}
-        run: pnpm dlx wrangler pages deploy site/dist --project-name council-discourse
+        run: pnpm dlx wrangler pages deploy site/dist --project-name council-discourse --config site/wrangler.toml

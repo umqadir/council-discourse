@@ -4,33 +4,33 @@ import BaseLayout from "@layouts/BaseLayout.astro";
 import Breadcrumbs from "@components/Breadcrumbs.astro";
 import Badge from "@components/Badge.astro";
 import VideoPlayer from "@components/VideoPlayer.astro";
-import { getBodies } from "@lib/data";
+import { getRuntime, loadEdgeChapter } from "@lib/edge-data";
 import { chapterOgPath } from "@lib/og";
 import { formatClock, formatDate, formatDuration } from "@lib/format";
 
-export function getStaticPaths() {
-  return getBodies().flatMap((body) =>
-    body.meetings.flatMap((meeting) =>
-      meeting.chapters.map((chapter, index) => ({
-        params: {
-          bodySlug: body.slug,
-          meetingSlug: meeting.slug,
-          chapterSlug: chapter.slug,
-        },
-        props: { body, meeting, chapter, index },
-      })),
-    ),
-  );
+export const prerender = false;
+
+const { bodySlug, meetingSlug, chapterSlug } = Astro.params;
+const result = await loadEdgeChapter(
+  { bodySlug, meetingSlug, chapterSlug },
+  getRuntime(Astro.locals)?.env,
+);
+
+if (result.status === "not-found") {
+  return new Response("Not found", { status: 404 });
+}
+if (result.status === "missing-binding") {
+  return new Response(`${result.binding} R2 binding is not configured`, { status: 500 });
 }
 
-const { body, meeting, chapter, index } = Astro.props;
+const { meeting, chapter, index } = result;
 const previous = index > 0 ? meeting.chapters[index - 1] : undefined;
 const next = index < meeting.chapters.length - 1 ? meeting.chapters[index + 1] : undefined;
 const duration = chapter.end_sec - chapter.start_sec;
-const meetingHref = `/meetings/${body.slug}/${meeting.slug}/`;
+const meetingHref = `/meetings/${bodySlug}/${meeting.slug}/`;
 const meetingBreadcrumbLabel = `${meeting.title} — ${formatDate(meeting.date)}`;
 const description = `${chapter.title}, a ${formatDuration(duration)} segment from ${meeting.title} on ${formatDate(meeting.date)}.`;
-const ogImage = chapterOgPath(body.slug, meeting.slug, chapter.slug);
+const ogImage = chapterOgPath(String(bodySlug), meeting.slug, chapter.slug);
 ---
 
 <BaseLayout title={`${chapter.title} - ${meeting.title}`} description={description} image={ogImage}>
@@ -114,7 +114,7 @@ const ogImage = chapterOgPath(body.slug, meeting.slug, chapter.slug);
             previous && (
               <a
                 class="group inline-flex max-w-sm flex-col gap-1 underline decoration-line hover:decoration-civic"
-                href={`/meetings/${body.slug}/${meeting.slug}/chapter/${previous.slug}/`}
+                href={`/meetings/${bodySlug}/${meeting.slug}/chapter/${previous.slug}/`}
               >
                 <span>&larr; Previous chapter</span>
                 <span class="font-serif text-lg leading-tight text-ink group-hover:text-civic">{previous.title}</span>
@@ -127,7 +127,7 @@ const ogImage = chapterOgPath(body.slug, meeting.slug, chapter.slug);
             next && (
               <a
                 class="group inline-flex max-w-sm flex-col gap-1 underline decoration-line hover:decoration-civic"
-                href={`/meetings/${body.slug}/${meeting.slug}/chapter/${next.slug}/`}
+                href={`/meetings/${bodySlug}/${meeting.slug}/chapter/${next.slug}/`}
               >
                 <span>Next chapter &rarr;</span>
                 <span class="font-serif text-lg leading-tight text-ink group-hover:text-civic">{next.title}</span>

@@ -16,8 +16,8 @@ Target: feature and performance parity with the original, then cost-optimized.
 | LLM tier | Production naming + chaptering = z-ai/glm-5.2 via OpenRouter; Gemini 3.5 Flash one flag away (`COUNCIL_LLM_PROVIDER=gemini`) | Model matrix + spelling round: glm-5.2 wins on all quality metrics at ~equal cost (see 12) |
 | Pipeline runtime | Dual mode: local CLI runs (Mac, manual/cron) AND remote cron (GitHub Actions, private repo) | Laptop isn't always on; same CLI both places |
 | Data store | Artifacts in Cloudflare R2 + build-ready JSON/SQLite committed or cached | R2 = zero egress fees; site build pulls from it |
-| Web app | Static site generation (Astro), client-side filtering (Alpine), Cloudflare Pages | ~27k pages is trivial SSG scale; zero backend to operate; free hosting |
-| OG images | Pre-rendered at build (satori → PNG) | Original ran a microservice; static is simpler |
+| Web app | Astro hybrid on Cloudflare Pages: static meeting/home/about pages, edge-rendered chapter detail pages from R2 JSON | Keeps deployments proportional to meetings, not chapters, while staying on the free Pages platform |
+| OG images | Meeting/home OG pre-rendered; chapter OG rendered at the edge with satori + resvg-wasm | Avoids one PNG per chapter in deployments while preserving share cards |
 | Accounts/identity | User's personal accounts (umqadir GitHub, personal Cloudflare/API accounts) | User decision 2026-07-02 (reversed earlier gothamizer plan) |
 
 ## 1. What parity means (from research/01)
@@ -62,7 +62,9 @@ process (per new video, ~30-60 min job)
   QA gates (coverage %, speaker-unknown %, chapter len distribution, ts monotonicity)
   write artifacts to R2; flag low-confidence items for review
 publish (on artifact change)
-  build static site (Astro) from R2 data → deploy Cloudflare Pages
+  export static meeting JSON + hashed per-meeting chapter JSON
+  sync chapter JSON to R2 data/ prefix
+  build Astro hybrid site → deploy Cloudflare Pages
 backfill/upgrade (weekly)
   poll Legistar for official transcript attachments (arrive weeks later)
   → optional transcript-quality upgrade pass + eval telemetry
@@ -234,11 +236,12 @@ Job shape:
   diarization, name speakers, and chapterize. Failed meetings write `last_error` but keep their
   pending stage state so the next cron retries them.
 - `export-site`: single writer. Download per-meeting result artifacts, merge registry rows,
-  checkpoint SQLite WAL state, export Astro JSON, build the site, and commit
+  checkpoint SQLite WAL state, export Astro JSON plus upload-ready chapter JSON under
+  `site/r2-data/data/`, sync that `data/` prefix to R2, build the site, and commit
   `data/registry.db` + `site/src/data/meetings` with `[skip ci]`.
 - `deploy`: separate Cloudflare Pages deploy job using `wrangler pages deploy site/dist
-  --project-name council-discourse`. TODO: repository secret `CLOUDFLARE_API_TOKEN` is required;
-  the job warns and skips deploy until the supervisor sets it.
+  --project-name council-discourse --config site/wrangler.toml`. TODO: repository secret
+  `CLOUDFLARE_API_TOKEN` is required; the job warns and skips deploy until the supervisor sets it.
 
 Prod ASR writes canonical downstream files (`utterances.jsonl`, `utterances-labeled.jsonl`,
 `transcribe-meta.json`). `utterances-voxtral*.jsonl` remains the benchmark/eval convention under
