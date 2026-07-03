@@ -11,7 +11,7 @@ from typing import Any
 
 from . import db
 from .artifacts import read_json, write_json
-from .config import MEETINGS_DIR, REGISTRY_DB, naming_llm_config
+from .config import MEETINGS_DIR, REGISTRY_DB, chaptering_llm_config, naming_llm_config
 from .fetch import (
     _download,
     _extract_audio,
@@ -197,7 +197,7 @@ def _stage_name_speakers(
         _record_stage(result, "name-speakers", "would_run")
         return
     meeting = db.meeting_from_row(row)
-    name_speakers(meeting, **_production_llm_kwargs())
+    name_speakers(meeting, **_production_llm_kwargs(naming_llm_config()))
     db.update_meeting(
         conn,
         meeting.meeting_key,
@@ -224,7 +224,7 @@ def _stage_chapterize(
         _record_stage(result, "chapterize", "would_run")
         return
     meeting = db.meeting_from_row(row)
-    chapterize(meeting, **_production_llm_kwargs())
+    chapterize(meeting, **_production_llm_kwargs(chaptering_llm_config()))
     db.update_meeting(
         conn,
         meeting.meeting_key,
@@ -242,8 +242,7 @@ def _record_stage(result: dict[str, Any], stage: str, status: str) -> None:
     print(f"{stage}: {status}", flush=True)
 
 
-def _production_llm_kwargs() -> dict[str, str | None]:
-    config = naming_llm_config()
+def _production_llm_kwargs(config: dict[str, str | None]) -> dict[str, str | None]:
     base_url = config["base_url"] or None
     return {
         "model": config["model"],

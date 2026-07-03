@@ -19,27 +19,27 @@ def _clear_llm_env(monkeypatch: pytest.MonkeyPatch) -> None:
         monkeypatch.delenv(name, raising=False)
 
 
-def _resolve(args: list[str]) -> dict[str, str | None]:
-    return _resolve_llm(build_parser().parse_args(args))
+def _resolve(args: list[str], stage: str = "naming") -> dict[str, str | None]:
+    return _resolve_llm(build_parser().parse_args(args), stage=stage)
 
 
-def test_production_default_is_glm_via_openrouter() -> None:
+def test_production_naming_default_is_deepseek_v4_pro() -> None:
     config = naming_llm_config()
-    assert config["model"] == "z-ai/glm-5.2"
+    assert config["model"] == "deepseek/deepseek-v4-pro"
     assert config["base_url"] == "https://openrouter.ai/api/v1"
     assert config["api_key_env"] == "OPENROUTER_API_KEY"
 
 
-def test_name_speakers_default_routes_to_glm() -> None:
+def test_name_speakers_default_routes_to_deepseek() -> None:
     assert _resolve(["name-speakers", "--meeting-dir", "/tmp/x"]) == {
-        "model": "z-ai/glm-5.2",
+        "model": "deepseek/deepseek-v4-pro",
         "llm_base_url": "https://openrouter.ai/api/v1",
         "llm_api_key_env": "OPENROUTER_API_KEY",
     }
 
 
 def test_chapterize_default_routes_to_glm() -> None:
-    resolved = _resolve(["chapterize", "--meeting-dir", "/tmp/x"])
+    resolved = _resolve(["chapterize", "--meeting-dir", "/tmp/x"], stage="chaptering")
     assert resolved["model"] == "z-ai/glm-5.2"
     assert resolved["llm_base_url"] == "https://openrouter.ai/api/v1"
 

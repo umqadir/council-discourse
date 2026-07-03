@@ -34,6 +34,15 @@ OPENROUTER_GLM_LLM = {
     "base_url": "https://openrouter.ai/api/v1",
     "api_key_env": "OPENROUTER_API_KEY",
 }
+# Naming default (2026-07-03 LLM cost round, experiments/out/llm-cost-round.md):
+# DeepSeek V4 Pro ties GLM-5.2 on both naming gates (87.9/97.3) at ~1/3 the cost;
+# it FAILS the chaptering gates, so the split is naming=V4 Pro, chaptering=GLM-5.2.
+OPENROUTER_DEEPSEEK_LLM = {
+    "provider": "openrouter",
+    "model": "deepseek/deepseek-v4-pro",
+    "base_url": "https://openrouter.ai/api/v1",
+    "api_key_env": "OPENROUTER_API_KEY",
+}
 DEFAULT_LLM_PROVIDER = "openrouter"
 _LLM_PROVIDERS = {
     "openrouter": OPENROUTER_GLM_LLM,
@@ -43,21 +52,34 @@ _LLM_PROVIDERS = {
 }
 
 
-def naming_llm_config() -> dict[str, str | None]:
-    """Resolve the production naming/chaptering LLM, honouring env overrides.
+def _resolve_llm(default: dict[str, str | None], stage_prefix: str) -> dict[str, str | None]:
+    """Resolve an LLM config: stage-specific envs win, then shared envs, then default.
 
-    COUNCIL_LLM_PROVIDER selects a provider preset (openrouter|gemini); COUNCIL_LLM_MODEL,
-    COUNCIL_LLM_BASE_URL, and COUNCIL_LLM_API_KEY_ENV override individual fields.
+    Shared: COUNCIL_LLM_PROVIDER/MODEL/BASE_URL/API_KEY_ENV.
+    Stage-specific: e.g. COUNCIL_NAMING_LLM_MODEL, COUNCIL_CHAPTER_LLM_PROVIDER.
     """
-    provider = (os.environ.get("COUNCIL_LLM_PROVIDER") or DEFAULT_LLM_PROVIDER).strip().lower()
-    base = dict(_LLM_PROVIDERS.get(provider, OPENROUTER_GLM_LLM))
-    model = os.environ.get("COUNCIL_LLM_MODEL")
+    def env(name: str) -> str | None:
+        return os.environ.get(f"{stage_prefix}_{name}") or os.environ.get(f"COUNCIL_LLM_{name}")
+
+    provider = (env("PROVIDER") or "").strip().lower()
+    base = dict(_LLM_PROVIDERS[provider]) if provider in _LLM_PROVIDERS else dict(default)
+    model = env("MODEL")
     if model:
         base["model"] = model.strip()
-    base_url = os.environ.get("COUNCIL_LLM_BASE_URL")
+    base_url = env("BASE_URL")
     if base_url:
         base["base_url"] = base_url.strip() or None
-    api_key_env = os.environ.get("COUNCIL_LLM_API_KEY_ENV")
+    api_key_env = env("API_KEY_ENV")
     if api_key_env:
         base["api_key_env"] = api_key_env.strip()
     return base
+
+
+def naming_llm_config() -> dict[str, str | None]:
+    """Production speaker-naming LLM (default: DeepSeek V4 Pro via OpenRouter)."""
+    return _resolve_llm(OPENROUTER_DEEPSEEK_LLM, "COUNCIL_NAMING_LLM")
+
+
+def chaptering_llm_config() -> dict[str, str | None]:
+    """Production chaptering/summary LLM (default: GLM-5.2 via OpenRouter)."""
+    return _resolve_llm(OPENROUTER_GLM_LLM, "COUNCIL_CHAPTER_LLM")

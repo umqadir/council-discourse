@@ -7,7 +7,7 @@ import sys
 from pathlib import Path
 
 from . import db
-from .config import GEMINI_LLM, REGISTRY_DB, naming_llm_config
+from .config import GEMINI_LLM, REGISTRY_DB, chaptering_llm_config, naming_llm_config
 from .discover import discover_legistar, discover_viebit_rss
 from .export_site import export_site
 from .fetch import fetch_meeting
@@ -35,9 +35,9 @@ def _add_llm_override_args(parser: argparse.ArgumentParser) -> None:
     )
 
 
-def _resolve_llm(args: argparse.Namespace) -> dict[str, str | None]:
+def _resolve_llm(args: argparse.Namespace, stage: str = "naming") -> dict[str, str | None]:
     """Merge CLI flags over the production LLM config for naming/chaptering stages."""
-    config = dict(naming_llm_config())
+    config = dict(naming_llm_config() if stage == "naming" else chaptering_llm_config())
     # A bare `--model gemini-*` (a native Gemini id, no provider slug) without a base_url
     # override means the user wants Gemini's own API path, not the OpenRouter default.
     if (
@@ -272,7 +272,7 @@ def cmd_name_speakers(args: argparse.Namespace) -> int:
 
 
 def cmd_chapterize(args: argparse.Namespace) -> int:
-    llm = _resolve_llm(args)
+    llm = _resolve_llm(args, stage="chaptering")
     if args.meeting_dir:
         return _run_meeting_dir_stage(
             args,
