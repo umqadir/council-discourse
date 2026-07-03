@@ -16,16 +16,14 @@ stop when the line is cheap enough. All configs must re-clear existing benchmark
    $0.93/$3 while Z.AI's own GLM-4.7 pricing is lower; verify 5.2 direct rates from
    the API/account pages you can reach WITHOUT web browsing — if unverifiable,
    report as open question).
-2. MISTRAL LARGE 3 STRAIGHT SWAP (zero architectural risk): run naming + chaptering
-   on mistral-large-3 (via Mistral API direct, MISTRAL_API_KEY in .env; batch
-   discount applies there too) on BOTH benchmarks with the standard eval. Report
-   quality + measured cost vs GLM.
-3. COMBINED SINGLE PASS (moderate risk): one structured-output pass emitting
+2. COMBINED SINGLE PASS (moderate risk): one structured-output pass emitting
    speakers+chapters+summaries together (one full-transcript read instead of three).
    glm-5.2 only. Both benchmarks. Watch for task interference + output truncation;
    report honestly.
-4. DO NOT build candidate-first chaptering or evidence-ledger machinery this round —
-   only report whether 1-3 already get the LLM line under ~$4/mo; if yes we stop.
+3. DO NOT build candidate-first chaptering or evidence-ledger machinery, and do
+   NOT test alternative base models (incl. Mistral Large 3 — cut by supervisor:
+   weak prior, and caching likely makes the swap moot). Report whether 1-2 get
+   the LLM line under ~$4/mo; if yes we stop.
 
 Budget: $5 across OpenRouter+Mistral+Z.AI. Write results to
 experiments/out/llm-cost-round.md with a decision table incl. $/meeting measured.
