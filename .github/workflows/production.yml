@@ -1,9 +1,11 @@
 name: Production pipeline
 
 on:
-  schedule:
-    - cron: "0 13-23/2 * * *"
-    - cron: "0 1-3/2 * * *"
+  # schedule temporarily disabled during merge-fix validation; restore after a
+  # controlled run confirms meetings actually publish.
+  # schedule:
+  #   - cron: "0 13-23/2 * * *"
+  #   - cron: "0 1-3/2 * * *"
   workflow_dispatch:
 
 concurrency:
