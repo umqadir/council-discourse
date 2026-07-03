@@ -47,9 +47,11 @@ def select_process_candidates(
     conn: sqlite3.Connection,
     limit: int | None = None,
 ) -> list[sqlite3.Row]:
+    coverage_start = os.environ.get("COUNCIL_COVERAGE_START", "2026-06-20")[:10]
     sql = """
         SELECT * FROM meetings
         WHERE viebit_filename IS NOT NULL
+          AND (event_date IS NULL OR event_date >= ?)
           AND (
             fetch_status != 'fetched'
             OR prepare_status != 'prepared'
@@ -60,10 +62,10 @@ def select_process_candidates(
           )
         ORDER BY COALESCE(viebit_pub_date, discovered_at) ASC, meeting_key ASC
     """
-    params: tuple[Any, ...] = ()
+    params: tuple[Any, ...] = (coverage_start,)
     if limit is not None:
         sql += " LIMIT ?"
-        params = (limit,)
+        params = (coverage_start, limit)
     return list(conn.execute(sql, params))
 
 

@@ -16,7 +16,9 @@ from .utils import load_dotenv
 from .viebit import fetch_rss, normalize_filename, resolve_viebit_hash
 
 LEGISTAR_CURSOR_KEY = "legistar_event_last_modified_utc"
-LEGISTAR_BOOTSTRAP_CURSOR = "1970-01-01T00:00:00"
+# Forward-only coverage (PLAN.md section 12): bootstrap from just before the
+# first covered month rather than sweeping decades of Legistar history.
+LEGISTAR_BOOTSTRAP_CURSOR = os.environ.get("COUNCIL_COVERAGE_START", "2026-06-20T00:00:00")
 
 
 def discover_viebit_rss(conn: sqlite3.Connection, rss_url: str | None = None) -> int:
