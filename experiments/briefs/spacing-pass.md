@@ -18,3 +18,8 @@ User-confirmed issues (see conversation 2026-07-03):
    Server side: ship the full summary text (or a very generous sentence-safe
    cap only to keep HTML lean); DELETE the naive firstSentences() period-split
    ("$194.5M" -> "$194." bug) or fix its splitter if any semantic use remains.
+8. STATIC-RECENT-WINDOW (user-decided): the edge-restructure made ALL chapter pages
+   SSR. Refine: prerender chapter pages + chapter OG images STATICALLY for the N
+   most recent meetings (N sized so dist stays well under ~15k files; likely last
+   ~60-90 days of meetings), older chapters fall through to the existing SSR route
+   at identical URLs. Recent = where traffic is; static = fast + no function calls.
