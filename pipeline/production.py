@@ -88,6 +88,9 @@ def process_one(
     }
     try:
         row = db.get_meeting(conn, meeting_key)
+        if not dry_run:
+            _reconcile_artifacts(conn, meeting_key, MEETINGS_DIR)
+            row = db.get_meeting(conn, meeting_key)
         _stage_fetch(conn, row, result, dry_run=dry_run)
         row = db.get_meeting(conn, meeting_key)
         _stage_prepare(conn, row, result, dry_run=dry_run)
@@ -115,6 +118,32 @@ def process_one(
             result_json.parent.mkdir(parents=True, exist_ok=True)
             write_json(result_json, result)
     return 1 if result["status"] == "failed" and fail_on_error else 0
+
+
+def _reconcile_artifacts(conn: sqlite3.Connection, meeting_key: str, meetings_dir: Path) -> None:
+    """Downgrade stage statuses whose output artifacts are missing on THIS machine.
+
+    Registry state persists across runs (committed to git) but artifacts live on
+    ephemeral runners — a stage marked done elsewhere must re-run here if its
+    outputs are absent. Ordered so an early downgrade cascades naturally: each
+    later stage re-checks its own inputs when it runs.
+    """
+    d = meetings_dir / meeting_key
+    row = db.get_meeting(conn, meeting_key)
+    checks = [
+        ("fetch_status", "fetched", ["audio.m4a"]),
+        ("prepare_status", "prepared", ["captions-clean.jsonl"]),
+        ("transcribe_status", "transcribed", ["utterances-labeled.jsonl", "utterances.jsonl"]),
+        ("name_speakers_status", "named", ["utterances-named.jsonl"]),
+        ("chapterize_status", "chapterized", ["chapters.json"]),
+    ]
+    downgrades = {}
+    for column, done_value, artifacts in checks:
+        if row[column] == done_value and not all((d / a).exists() for a in artifacts):
+            downgrades[column] = "pending"
+    if downgrades:
+        print(f"  reconcile: re-running stages with missing artifacts: {sorted(downgrades)}", flush=True)
+        db.update_meeting(conn, meeting_key, downgrades)
 
 
 def _stage_fetch(

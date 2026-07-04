@@ -103,6 +103,13 @@ def test_process_one_uses_configured_production_llm(tmp_path: Path, monkeypatch)
     (meeting_dir / "utterances-labeled.jsonl").write_text(
         '{"t0": 0, "t1": 1, "text": "Hello", "label": "speaker_0"}\n'
     )
+    # status implies artifacts (reconcile downgrades otherwise): seed the files
+    # the fetched/prepared/transcribed statuses claim exist.
+    (meeting_dir / "audio.m4a").write_text("x")
+    (meeting_dir / "captions-clean.jsonl").write_text("{}\n")
+    (meeting_dir / "utterances.jsonl").write_text(
+        '{"t0": 0, "t1": 1, "text": "Hello"}\n'
+    )
     captured: list[dict[str, str | None]] = []
 
     def fake_name_speakers(_meeting, **kwargs):
@@ -119,6 +126,7 @@ def test_process_one_uses_configured_production_llm(tmp_path: Path, monkeypatch)
     )
     monkeypatch.setattr("pipeline.production.name_speakers", fake_name_speakers)
     monkeypatch.setattr("pipeline.production.chapterize", fake_chapterize)
+    monkeypatch.setattr("pipeline.production.MEETINGS_DIR", tmp_path / "meetings")
 
     assert process_one(db_path, "m1") == 0
 
