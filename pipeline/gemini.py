@@ -140,7 +140,24 @@ def _generate_json_gemini(
         elapsed = time.monotonic() - attempt_started
         if response is None:
             raise RuntimeError(f"Gemini {model} did not return a response")
-        body = response.json()
+        try:
+            body = response.json()
+        except json.JSONDecodeError as exc:
+            attempts.append(
+                {
+                    "provider": "gemini",
+                    "model": model,
+                    "elapsed_sec": round(elapsed, 3),
+                    "attempt": attempt,
+                    "parse_error": f"malformed response body: {exc}",
+                }
+            )
+            if attempt >= max_attempts:
+                raise RuntimeError(
+                    f"Gemini {model} returned a malformed response body "
+                    f"after {attempt} attempt(s): {exc}; body excerpt: {response.text[:500]}"
+                ) from exc
+            continue
         if response.status_code != 200:
             raise RuntimeError(f"Gemini {model} failed: {json.dumps(body)[:2000]}")
 
@@ -254,8 +271,28 @@ def _generate_json_openai_compatible(
         elif response.status_code >= 400:
             raise RuntimeError(f"OpenAI-compatible {model} failed: {_response_excerpt(response)}")
 
-        body = response.json()
         elapsed = time.monotonic() - attempt_started
+        try:
+            body = response.json()
+        except json.JSONDecodeError as exc:
+            # Providers occasionally return a 200 with a truncated or non-JSON
+            # body; treat it like an unparsable generation and retry.
+            attempts.append(
+                {
+                    "provider": "openai-compatible",
+                    "model": model,
+                    "base_url": _redacted_base_url(base_url),
+                    "elapsed_sec": round(elapsed, 3),
+                    "attempt": attempt,
+                    "parse_error": f"malformed response body: {exc}",
+                }
+            )
+            if attempt >= max_attempts:
+                raise RuntimeError(
+                    f"OpenAI-compatible {model} returned a malformed response body "
+                    f"after {attempt} attempt(s): {exc}; body excerpt: {response.text[:500]}"
+                ) from exc
+            continue
         usage = body.get("usage", {})
         response_id = body.get("id")
         meta: dict[str, Any] = {
@@ -485,7 +522,11 @@ def _openrouter_generation_cost_usd(generation_id: str, api_key: str) -> float |
             continue
         if response.status_code != 200:
             continue
-        data = response.json().get("data", response.json())
+        try:
+            payload = response.json()
+        except json.JSONDecodeError:
+            continue
+        data = payload.get("data", payload)
         if not isinstance(data, dict):
             continue
         for key in ("total_cost", "cost", "usage_cost"):
