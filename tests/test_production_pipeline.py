@@ -33,6 +33,38 @@ def test_pending_matrix_json_includes_only_incomplete_meetings(tmp_path: Path) -
     assert [item["meeting_key"] for item in matrix["include"]] == ["pending"]
 
 
+def test_pending_matrix_excludes_pre_floor_meetings_even_without_event_date(tmp_path: Path) -> None:
+    conn = db.connect(tmp_path / "registry.db")
+    db.upsert_meeting(
+        conn,
+        {
+            "meeting_key": "old-null-date",
+            "viebit_filename": "old-null-date",
+            "viebit_pub_date": "2026-06-01T12:00:00+00:00",
+        },
+    )
+    db.upsert_meeting(
+        conn,
+        {
+            "meeting_key": "old-event-date",
+            "viebit_filename": "old-event-date",
+            "event_date": "2026-06-10T10:00:00",
+        },
+    )
+    db.upsert_meeting(
+        conn,
+        {
+            "meeting_key": "recent",
+            "viebit_filename": "recent",
+            "viebit_pub_date": "2026-06-25T12:00:00+00:00",
+        },
+    )
+
+    matrix = json.loads(pending_matrix_json(conn))
+
+    assert [item["meeting_key"] for item in matrix["include"]] == ["recent"]
+
+
 def test_process_one_dry_run_writes_mergeable_result_without_mutating_status(tmp_path: Path) -> None:
     db_path = tmp_path / "registry.db"
     conn = db.connect(db_path)
