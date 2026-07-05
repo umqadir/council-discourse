@@ -3,6 +3,7 @@ from __future__ import annotations
 import os
 import re
 import subprocess
+import sys
 from pathlib import Path
 from typing import Sequence
 
@@ -61,6 +62,6 @@ def with_retries(fn, attempts: int = 3, base_delay: float = 5.0):
             last = exc
             if i < attempts - 1:
                 delay = base_delay * (2**i)
-                print(f"  retryable failure ({exc}); retrying in {delay:.0f}s", flush=True)
+                print(f"  retryable failure ({exc}); retrying in {delay:.0f}s", file=sys.stderr, flush=True)
                 time.sleep(delay)
     raise last

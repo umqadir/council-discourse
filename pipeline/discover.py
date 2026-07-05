@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import os
 import sqlite3
+import sys
 
 from . import db
 from .legistar import (
@@ -94,7 +95,7 @@ def _attach_video_filename(conn: sqlite3.Connection, client: LegistarClient, eve
         except Exception as exc:
             # A dead/retired InSite page (404/410/timeouts) means no video info for
             # this event right now; discovery must continue with the rest.
-            print(f"  detail-page fetch failed for event {event.event_id}: {exc}", flush=True)
+            print(f"  detail-page fetch failed for event {event.event_id}: {exc}", file=sys.stderr, flush=True)
             html = None
         if html:
             from .legistar import extract_viebit_filename_from_insite_html
@@ -151,7 +152,7 @@ def discover_legistar(
             except Exception as exc:
                 # One malformed event (bad date strings, dead pages, missing fields)
                 # must never abort the sync of everything else.
-                print(f"  skipping malformed event {getattr(event, 'event_id', '?')}: {exc}", flush=True)
+                print(f"  skipping malformed event {getattr(event, 'event_id', '?')}: {exc}", file=sys.stderr, flush=True)
                 continue
             if event.last_modified_utc and event.last_modified_utc > latest_cursor:
                 latest_cursor = event.last_modified_utc
