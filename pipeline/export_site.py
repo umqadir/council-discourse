@@ -149,6 +149,10 @@ def _registry_meetings(db_path: Path) -> list[dict[str, Any]]:
     ).fetchall()
     out = []
     for row in rows:
+        if not row["event_date"] and not row["body_name"]:
+            # No Legistar match: there is no title or date to render a page
+            # under, and slugs would collapse. Skip until enrichment lands.
+            continue
         meeting = db.meeting_from_row(row)
         if not _has_export_artifacts(meeting.meeting_dir):
             # Processed on another machine; its committed site JSON stands.

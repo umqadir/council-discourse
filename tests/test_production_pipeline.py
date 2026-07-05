@@ -13,8 +13,14 @@ from pipeline.voxtral_prod import _transcribe_voxtral_parts_resumable
 
 def test_pending_matrix_json_includes_only_incomplete_meetings(tmp_path: Path) -> None:
     conn = db.connect(tmp_path / "registry.db")
-    db.upsert_meeting(conn, {"meeting_key": "pending", "viebit_filename": "pending"})
-    db.upsert_meeting(conn, {"meeting_key": "done", "viebit_filename": "done"})
+    db.upsert_meeting(
+        conn,
+        {"meeting_key": "pending", "viebit_filename": "pending", "event_date": "2026-06-25T10:00:00"},
+    )
+    db.upsert_meeting(
+        conn,
+        {"meeting_key": "done", "viebit_filename": "done", "event_date": "2026-06-25T14:00:00"},
+    )
     db.update_meeting(
         conn,
         "done",
@@ -33,16 +39,9 @@ def test_pending_matrix_json_includes_only_incomplete_meetings(tmp_path: Path) -
     assert [item["meeting_key"] for item in matrix["include"]] == ["pending"]
 
 
-def test_pending_matrix_excludes_pre_floor_meetings_even_without_event_date(tmp_path: Path) -> None:
+def test_pending_matrix_requires_legistar_match_and_post_floor_date(tmp_path: Path) -> None:
     conn = db.connect(tmp_path / "registry.db")
-    db.upsert_meeting(
-        conn,
-        {
-            "meeting_key": "old-null-date",
-            "viebit_filename": "old-null-date",
-            "viebit_pub_date": "2026-06-01T12:00:00+00:00",
-        },
-    )
+    # Pre-floor despite a Legistar match: excluded.
     db.upsert_meeting(
         conn,
         {
@@ -51,18 +50,28 @@ def test_pending_matrix_excludes_pre_floor_meetings_even_without_event_date(tmp_
             "event_date": "2026-06-10T10:00:00",
         },
     )
+    # Recent recording but no Legistar match yet: excluded until enriched.
     db.upsert_meeting(
         conn,
         {
-            "meeting_key": "recent",
-            "viebit_filename": "recent",
+            "meeting_key": "recent-unmatched",
+            "viebit_filename": "recent-unmatched",
             "viebit_pub_date": "2026-06-25T12:00:00+00:00",
+        },
+    )
+    # Recent and matched: included.
+    db.upsert_meeting(
+        conn,
+        {
+            "meeting_key": "recent-matched",
+            "viebit_filename": "recent-matched",
+            "event_date": "2026-06-25T10:00:00",
         },
     )
 
     matrix = json.loads(pending_matrix_json(conn))
 
-    assert [item["meeting_key"] for item in matrix["include"]] == ["recent"]
+    assert [item["meeting_key"] for item in matrix["include"]] == ["recent-matched"]
 
 
 def test_process_one_dry_run_writes_mergeable_result_without_mutating_status(tmp_path: Path) -> None:

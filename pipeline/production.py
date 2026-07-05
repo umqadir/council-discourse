@@ -50,9 +50,13 @@ def select_process_candidates(
     coverage_start = os.environ.get("COUNCIL_COVERAGE_START", "2026-06-20")[:10]
     # Forward-only coverage: judge by the best-known date, so viebit-only rows
     # with no Legistar event_date can't leak the pre-floor backlog into runs.
+    # Require a Legistar match (event_date) before spending on processing —
+    # an unmatched recording has no title/date to publish under and stays
+    # pending until discover links it to its event.
     sql = """
         SELECT * FROM meetings
         WHERE viebit_filename IS NOT NULL
+          AND event_date IS NOT NULL
           AND COALESCE(substr(event_date, 1, 10), substr(viebit_pub_date, 1, 10), substr(discovered_at, 1, 10)) >= ?
           AND (
             fetch_status != 'fetched'
