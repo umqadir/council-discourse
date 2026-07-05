@@ -47,3 +47,37 @@ def test_normalize_summary_text_preserves_real_sentence_boundaries(text: str) ->
 def test_normalize_summary_text_handles_empty_and_none() -> None:
     assert normalize_summary_text("") == ""
     assert normalize_summary_text(None) == ""  # type: ignore[arg-type]
+
+
+def test_export_skips_meetings_without_local_artifacts_and_keeps_existing_json(tmp_path, monkeypatch):
+    from pipeline import db
+    from pipeline.export_site import export_site
+
+    conn = db.connect(tmp_path / "registry.db")
+    db.upsert_meeting(conn, {"meeting_key": "remote-only", "viebit_filename": "remote-only"})
+    db.update_meeting(
+        conn,
+        "remote-only",
+        {
+            "transcribe_status": "transcribed",
+            "name_speakers_status": "named",
+            "chapterize_status": "chapterized",
+        },
+    )
+    monkeypatch.setattr("pipeline.db.MEETINGS_DIR", tmp_path / "meetings")
+
+    out_dir = tmp_path / "site-data"
+    out_dir.mkdir()
+    existing = out_dir / "previously-published.json"
+    existing.write_text("{}\n")
+
+    written = export_site(
+        db_path=tmp_path / "registry.db",
+        out_dir=out_dir,
+        r2_out_dir=tmp_path / "r2-data",
+        include_benchmark=False,
+        allow_empty=True,
+    )
+
+    assert written == [existing]
+    assert existing.exists()

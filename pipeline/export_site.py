@@ -4,7 +4,6 @@ import json
 import hashlib
 import os
 import re
-import shutil
 from collections.abc import Iterable
 from pathlib import Path
 from typing import Any
@@ -100,8 +99,9 @@ def export_site(
             return sorted(out_dir.glob("*.json")) if out_dir.exists() else []
         raise RuntimeError("no completed meetings found to export")
 
-    shutil.rmtree(out_dir, ignore_errors=True)
-    shutil.rmtree(r2_out_dir, ignore_errors=True)
+    # Incremental export: meeting artifacts live only on the machine that
+    # processed them, so regenerate the meetings we have artifacts for and
+    # leave previously committed site JSONs in place for the rest.
     out_dir.mkdir(parents=True, exist_ok=True)
     r2_out_dir.mkdir(parents=True, exist_ok=True)
 
@@ -147,7 +147,21 @@ def _registry_meetings(db_path: Path) -> list[dict[str, Any]]:
         ORDER BY COALESCE(event_date, viebit_pub_date, discovered_at), meeting_key
         """
     ).fetchall()
-    return [_convert_meeting(db.meeting_from_row(row), dict(row), None) for row in rows]
+    out = []
+    for row in rows:
+        meeting = db.meeting_from_row(row)
+        if not _has_export_artifacts(meeting.meeting_dir):
+            # Processed on another machine; its committed site JSON stands.
+            continue
+        out.append(_convert_meeting(meeting, dict(row), None))
+    return out
+
+
+def _has_export_artifacts(meeting_dir: Path) -> bool:
+    has_chapters = (meeting_dir / "chapters.json").exists() or (
+        meeting_dir / f"chapters-{CHAPTER_MODEL}.json"
+    ).exists()
+    return has_chapters and _utterances_path(meeting_dir) is not None
 
 
 def _benchmark_meetings() -> list[dict[str, Any]]:
