@@ -1,0 +1,4020 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 41.9,
+      "id": "001",
+      "slug": "setup-and-start-of-doi-executive-budget-hearing",
+      "start_sec": 0.2,
+      "summary": "Council staff and Chair Lee prepare to begin the continuation of the executive budget hearing for the Department of Investigation, with brief technical adjustments before the official welcome.",
+      "title": "Setup and start of DOI executive budget hearing",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 0.2,
+          "text": "Sorry."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 9.2,
+          "text": "It's rolling."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 10.4,
+          "text": "Continuation with executive budget hearing."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 12.9,
+          "text": "This is the oversight investigation portion."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 15.2,
+          "text": "Chair, ready to begin."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 19.4,
+          "text": "I don't need to gavel again, do I?"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 21.9,
+          "text": "Okay, fine."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 23.1,
+          "text": "All right, okay."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 25.4,
+          "text": "Good afternoon, and welcome to, oh, no, this is not the right one."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 31.5,
+          "text": "Sorry."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 33.7,
+          "text": "Hold on one second."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 35.0,
+          "text": "My bad."
+        }
+      ]
+    },
+    {
+      "end_sec": 78.2,
+      "id": "002",
+      "slug": "chair-lee-welcomes-attendees-to-doi-fy27-budget-hearing",
+      "start_sec": 41.9,
+      "summary": "Chair Linda Lee welcomes colleagues and Commissioner Nadia Shahada to the FY27 Executive Budget Hearing for the NYC Department of Investigation, noting co-chair Krishnan and attending council members.",
+      "title": "Chair Lee welcomes attendees to DOI FY27 budget hearing",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 41.9,
+          "text": "Ah, okay."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 45.0,
+          "text": "Welcome to the final FY27 Executive Budget Hearing for the day on New York City Department of Investigation, Councilmember Linda Lee."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 54.6,
+          "text": "And I'm pleased to be joined by my colleague, Councilmember Shekar Krishnan, Chair of the Committee on Oversight and Investigations."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 61.5,
+          "text": "And we have been joined by Councilmembers Ung, Brewer,"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 65.9,
+          "text": "and Riley."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 67.1,
+          "text": "And is there anyone on Zoom?"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 69.0,
+          "text": "I don't think so."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 69.7,
+          "text": "Okay, perfect."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 71.0,
+          "text": "So welcome, Commissioner Nadia Shahada and your team, and thank you all for joining us today to answer our questions."
+        }
+      ]
+    },
+    {
+      "end_sec": 161.552,
+      "id": "003",
+      "slug": "chair-lee-presents-doi-fy27-budget-figures-and-headcount-reduction-concerns",
+      "start_sec": 78.2,
+      "summary": "Lee presents DOI's proposed FY27 budget of $53.7 million, a 0.7% decrease from the preliminary plan, and raises concerns about an 11-position vacancy reduction on an already diminished headcount.",
+      "title": "Chair Lee presents DOI FY27 budget figures and headcount reduction concerns",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 78.2,
+          "text": "On May 12, 2026, the administration released the executive financial plan for FY26-30 with a proposed fiscal 27 budget of $124.7 billion."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 89.5,
+          "text": "The New York City"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 90.0,
+          "text": "The Department of Investigations proposed fiscal 27 budget of $53.7 million represents 0.04% of the administration's proposed FY27 budget in the executive plan."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 101.7,
+          "text": "This is a decrease of $385,066 or 0.7% from the $54.1 million originally budgeted in the FY27 preliminary plan."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 112.4,
+          "text": "This decrease results from several actions, primarily the reduction of vacant positions and unspent salaries."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 119.1,
+          "text": "As of April 26, DOIs headcount was one less than their headcount at the end of December 2025."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 125.7,
+          "text": "An 11 position vacancy reduction has been levied onto a department that has lost substantial headcount and resources over the last few fiscal years."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 135.8,
+          "text": "Today, we look forward to discussing the impact that this will have on the department's operations and how we can work together to explore ways to restore the resources the department needs to carry out its responsibilities."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 149.1,
+          "text": "I now want to turn it over to my co-chair for this hearing, Council Member and Chair Krishnan, for his opening statement."
+        }
+      ]
+    },
+    {
+      "end_sec": 231.352,
+      "id": "004",
+      "slug": "chair-krishnan-on-doi-s-anti-corruption-mission-and-council-partnership",
+      "start_sec": 161.552,
+      "summary": "Chair Krishnan emphasizes DOI's vital role in rooting out corruption, protecting New Yorkers from greedy corporations and bad landlords, and restoring trust in government without fear or favor.",
+      "title": "Chair Krishnan on DOI's anti-corruption mission and council partnership",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 161.552,
+          "text": "Thank you so much, Chair."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 162.952,
+          "text": "Good afternoon and welcome to the FY 2027 Executive Budget Hearing for the Committee on Oversight Investigations."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 169.552,
+          "text": "I'm Councilmember Shekar Krishnan, Chair of the Committee on Oversight Investigations."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 173.352,
+          "text": "I want to thank Finance Chair Councilmember Linda Lee for joining me today, along with all my colleagues who are here in reviewing the Department of Investigations FY 27 Executive Budget to understand the needs of this crucial department and the role the staff play in oversight of New York City."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 188.152,
+          "text": "Commissioner, thank you so much for your testimony today and for the whole DOI team who is here as well and for your work every single day to ensure that we root out corruption and fraud in our city government and ensure that it's performing to its highest standards."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 201.652,
+          "text": "I see this committee and its partnership with the Department of Investigation to be a powerful tool in rooting out corruption and a way to hold anyone or anything accountable that takes advantage of New Yorkers."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 212.752,
+          "text": "DOI is vital to this effort, vital to ensuring we can protect New Yorkers from greedy corporations, bad landlords, and to root out corruption in city government."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 221.552,
+          "text": "Together, we are fighting to restore trust in our government and prove to New Yorkers that our city fights for you and serves you."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 229.252,
+          "text": "Without fear and without favor."
+        }
+      ]
+    },
+    {
+      "end_sec": 314.252,
+      "id": "005",
+      "slug": "chair-krishnan-on-adams-administration-corruption-and-28-doi-workforce-cuts",
+      "start_sec": 231.352,
+      "summary": "Krishnan criticizes former Mayor Adams for slashing DOI's budget and workforce by 28% while the agency was actively investigating corruption at the highest levels of City Hall, including the federal indictment of Adams.",
+      "title": "Chair Krishnan on Adams administration corruption and 28% DOI workforce cuts",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 231.352,
+          "text": "Over the years of the Eric Adams administration, we saw troubling amounts of corruption and misuse of city resources."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 238.152,
+          "text": "And while DOI and the FBI investigated Adams on a range of accusations of bribery, conspiracy, and fraud,"
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 245.552,
+          "text": "And while the work of DOI leading to the federal indictment that we saw was a crucial part of that effort, former Mayor Adams slashed the budget for the Department of Investigations."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 256.152,
+          "text": "We have to be very honest about that."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 257.852,
+          "text": "At a time when an agency was investigating corruption at the highest levels of City Hall, City Hall was depriving that very agency of the resources it needed to do its job."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 269.852,
+          "text": "Yet it did it anyway, and it did it very effectively."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 272.852,
+          "text": "With the limited resources that DOI was saddled with,"
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 276.352,
+          "text": "They continued and still continue to uphold their duty to hold government accountable."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 281.452,
+          "text": "But make no mistake, Adams severely cut the workforce of DOI and tried to impair their ability to properly and comprehensively oversee city agencies and root out corruption."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 293.752,
+          "text": "28% of the DOI workforce was slashed."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 297.452,
+          "text": "28% and millions of dollars were taken away from the agency."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 302.752,
+          "text": "I deeply believe that this agency needs the funding to be able to do its job and to be the important independent arm of government that they are."
+        }
+      ]
+    },
+    {
+      "end_sec": 354.652,
+      "id": "006",
+      "slug": "chair-krishnan-on-executive-budget-concerns-and-forfeiture-fund-over-reliance",
+      "start_sec": 314.252,
+      "summary": "Krishnan expresses concern that the executive budget still requires workforce reductions and over-relies on asset forfeiture funds from a years-old CityTime case that will run dry in approximately two years, arguing DOI needs more baseline resources.",
+      "title": "Chair Krishnan on executive budget concerns and forfeiture fund over-reliance",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 314.252,
+          "text": "I remain concerned that the executive budget continues to require workforce reductions for vital positions and an over-reliance on asset forfeiture funds of a years-old city time case that will run dry, most likely in two years."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 329.752,
+          "text": "It is crucial that this city budget"
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 332.052,
+          "text": "brings in more funding and resources for DOI."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 335.752,
+          "text": "to correct from the years from which this agency saw a reduction in the workforce and its funding."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 343.152,
+          "text": "Point blank, DOI needs more resources and funding to operate, to do its job, and to fulfill its sacred independent mission in city government."
+        }
+      ]
+    },
+    {
+      "end_sec": 433.352,
+      "id": "007",
+      "slug": "chair-krishnan-calls-for-4-5m-for-9-11-toxins-investigation-and-restoring-doi-headcount",
+      "start_sec": 354.652,
+      "summary": "Krishnan calls for an additional $4.5 million for DOI's 9/11 toxins investigation to bring accountability for what the Giuliani administration knew about air quality after the World Trade Center attacks, and urges restoring DOI's headcount and funding.",
+      "title": "Chair Krishnan calls for $4.5M for 9/11 toxins investigation and restoring DOI headcount",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 354.652,
+          "text": "Additionally, this morning, I joined Speaker Menin and Councilmember Brewer in calling for an additional $4.5 million"
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 362.352,
+          "text": "for DOI for the 9-11 investigation so that they have the resources they need to bring accountability and answers"
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 369.652,
+          "text": "to what the Julian administration knew about the air quality and presence of toxins following the horrific attack on the World Trade Center on September 11, 2001."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 380.352,
+          "text": "Having this funding in place will enable DOI to complete its investigation as to the knowledge of city government when it came to toxins in the air and will enable DOI to have the resources to release all the documents in regards to this investigation."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 396.252,
+          "text": "We need to restore the department's headcount and funding so that it can continue to provide comprehensive oversight without triaging, without pulling from other staff, without scrambling for resources."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 408.552,
+          "text": "An agency with the critical mission that this one has needs the tools to do its job."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 414.452,
+          "text": "I look forward to hearing about DOI's budget requests and working together to ensure a fully funded agency."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 420.852,
+          "text": "I know the Mamdani administration and City Hall share this goal, and I look forward to seeing it."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 425.152,
+          "text": "forward to our council and city hall working together to making sure our final budget delivers on increased resources for this agency."
+        }
+      ]
+    },
+    {
+      "end_sec": 459.052,
+      "id": "008",
+      "slug": "chair-krishnan-thanks-committee-staff-and-welcomes-commissioner",
+      "start_sec": 433.352,
+      "summary": "Krishnan thanks committee staff including financial analyst Owen Katowski, policy analysts Erica Cohen and Alex Yablon, committee counsel Nicole Kata, and his own staff, then welcomes Commissioner Shahada before passing back to Chair Lee.",
+      "title": "Chair Krishnan thanks committee staff and welcomes Commissioner",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 433.352,
+          "text": "I want to thank our Oversight Investigations Committee staff for their hard work, our financial analyst Owen Katowski, policy analyst Erica Cohen and Alex Yablon, committee counsel Nicole Kata, and the incredible Oversight Investigations Division."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 446.652,
+          "text": "I also want to thank my staff, Shanel Martinez, Victoria Opperman, and Hunter DeVine-Gracia."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 451.352,
+          "text": "And I would like to welcome, of course, again, Commissioner Shahada and our leadership team here today."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 456.352,
+          "text": "I'm now going to pass it back to Chair Lee."
+        }
+      ]
+    },
+    {
+      "end_sec": 531.024,
+      "id": "009",
+      "slug": "chair-lee-announces-public-testimony-date-and-administers-oath",
+      "start_sec": 459.052,
+      "summary": "Chair Lee announces public testimony on Wednesday, June 10th at 9:30 a.m., then committee counsel Brian Sarfo administers the oath to Commissioner Shahada before testimony begins.",
+      "title": "Chair Lee announces public testimony date and administers oath",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 459.052,
+          "text": "Great."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 459.352,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 460.952,
+          "text": "So just a couple housekeeping items before we start."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 464.852,
+          "text": "So because of the shortened timeline for our budget hearings, we are going to have public testimony on one day."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 471.352,
+          "text": "All day."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 472.452,
+          "text": "So please feel free to join us."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 474.052,
+          "text": "It should be fun."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 474.652,
+          "text": "We'll try to make it as lively as possible."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 477.152,
+          "text": "So Wednesday, June 10th, starting at 9.30 a.m."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 480.452,
+          "text": "Wednesday, June 10th, starting at 9.30 a.m."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 482.552,
+          "text": "If you guys know anyone in the public that would like to sign up to testify, please make sure they do so."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 488.352,
+          "text": "And with that, actually, I'll pass it off to Brian Sarfo, our amazing committee counsel, to administer the oath."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 497.576,
+          "text": "Good afternoon."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 498.476,
+          "text": "Do you affirm to tell the truth, the whole truth, and nothing but the truth before this committee and to respond honestly to council member questions, Commissioner Shahada?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 506.976,
+          "text": "You may begin."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 515.276,
+          "text": "I think the light, is the light on?"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 518.576,
+          "text": "Does it turn red?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 521.476,
+          "text": "Thank you, Sergeant."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 525.076,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 624.224,
+      "id": "010",
+      "slug": "commissioner-shihata-introduces-herself-and-outlines-doi-s-mission",
+      "start_sec": 531.024,
+      "summary": "Commissioner Nadia Shahata introduces herself in her sixth week as DOI Commissioner, describes DOI's mission to prevent and expose corruption, and praises the dedication of DOI's investigative, legal, and operational staff.",
+      "title": "Commissioner Shihata introduces herself and outlines DOI's mission",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 531.024,
+          "text": "Good afternoon, Chair Lee and the Committee on Finance and Chair Krishnan and the Committee on Oversight and Investigations."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 538.024,
+          "text": "My name is Nadia Shahata and I'm the Commissioner of the New York City Department of Investigation."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 543.424,
+          "text": "I'm honored to present this important testimony on DOI's fiscal year 2027 executive plan as I mark my sixth week as DOI Commissioner."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 553.324,
+          "text": "It has been an exhilarating and informative time for me as I meet the impressive DOI staff, connect with the agency's prosecutorial partners, and delve into the important work that is ongoing at the agency."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 566.524,
+          "text": "As an investigative fact-finding agency, DOI's mission is to prevent and expose corruption, fraud, and other wrongdoing that undermines the city,"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 576.324,
+          "text": "depletes precious public resources, and compromises the faith and trust of New Yorkers in their municipal government."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 584.624,
+          "text": "The agency is a powerhouse, conducting both civil and criminal investigations, working with prosecutors to hold wrongdoers accountable, and issuing recommendations for reforms that strengthen city government operations."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 598.524,
+          "text": "The heart of the agency is DOI's extremely dedicated staff."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 602.824,
+          "text": "It's administrative and operational personnel, investigators, attorneys, auditors, IT specialists, and so many more."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 611.124,
+          "text": "In my brief time at DOI so far, I have been inspired by their dedication and"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 616.224,
+          "text": "extremely hard work to uphold integrity and protect the city from the corrosive impact of corruption."
+        }
+      ]
+    },
+    {
+      "end_sec": 765.324,
+      "id": "011",
+      "slug": "commissioner-on-doi-s-dire-budget-situation-and-headcount-decline-since-fy2020",
+      "start_sec": 624.224,
+      "summary": "Shahada reports that the proposed FY27 budget of $53.7 million is insufficient, with headcount dropping from 588 in FY2020 to 444 in FY2027\u2014a loss of 144 positions. She describes constructive discussions with the Mayor's Chief Counsel and OMB Director about DOI's budget crisis.",
+      "title": "Commissioner on DOI's dire budget situation and headcount decline since FY2020",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 624.224,
+          "text": "When I arrived in late April, it was immediately clear that my priority needed to be digging into the agency's dire budget situation."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 645.024,
+          "text": "Let's try another one."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 657.124,
+          "text": "My assessment is that the funding proposed for DOI in the fiscal year 2027 executive plan is not enough to sustain DOI's current operations."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 668.024,
+          "text": "The proposed $53.7 million budget is $2.1 million less than the fiscal year 2026 adopted budget."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 676.824,
+          "text": "And approximately $12.8 million less in baseline funding compared to fiscal year 2020, reflecting over $8.3 million in PS baseline reductions."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 688.824,
+          "text": "Due to years of successive budget cuts, virtually all investigative and operational units across the agency"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 695.924,
+          "text": "remain severely understaffed."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 698.424,
+          "text": "DOI's budgeted headcount, including city tax levy and intra-city funded staff, as well as employees on loan from other agencies,"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 706.624,
+          "text": "Has dropped from 588 staff in fiscal year 2020 to 444 in fiscal year 2027,"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 714.624,
+          "text": "resulting in 144 fewer DOI positions available to fight corruption, waste, and inefficiency in New York City."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 723.024,
+          "text": "I have met with the Mayor's Chief Counsel and the Director of the Office of Management and Budget to outline these stark realities, and I am grateful that they took the time to listen and understand how the budget deficiencies are impacting DOI."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 737.124,
+          "text": "It is not an overstatement to describe this current moment as pivotal for the agency."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 742.624,
+          "text": "I am pleased to report that these discussions have been very constructive and encouraging."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 748.124,
+          "text": "I am confident that City Hall shares our view on the vital importance of DOI's mandate and understands our current budget situation, including our need for additional funding to stabilize DOI"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 759.824,
+          "text": "and ensure the agency can continue to fulfill its crucial oversight mandate."
+        }
+      ]
+    },
+    {
+      "end_sec": 929.924,
+      "id": "012",
+      "slug": "commissioner-details-6m-stabilization-and-4m-wtc-investigation-funding-needs",
+      "start_sec": 765.324,
+      "summary": "Shahada details DOI's need for approximately $6 million to stabilize operations, including $4.53M for OTPS restoration, $1.14M to reverse the 50% vacancy reduction, and $290K for five entry-level investigators, plus $4 million for the council-mandated 9/11 toxins investigation using a third-party vendor.",
+      "title": "Commissioner details $6M stabilization and $4M WTC investigation funding needs",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 765.324,
+          "text": "I hope and expect that City Hall and the City Council will properly address our need for additional funding in the adopted budget."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 774.424,
+          "text": "As city officials continue to weigh DOI's budgetary concerns and decide how best to address them,"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 780.624,
+          "text": "I want to be transparent with the council and the public on the budgetary landscape faced by DOI with the current cuts set forth in the executive plan, as I have been with the mayor's office."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 792.224,
+          "text": "DOI will need approximately $6 million to stabilize its budget for the"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 796.224,
+          "text": "the next fiscal year."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 798.324,
+          "text": "This includes approximately $4.53 million to restore other than personnel services or OTPS funds that have been cut in prior years, approximately $1.14 million to reverse the recent 50%"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 813.324,
+          "text": "vacancy reduction that was imposed across the board for all city agencies, regardless of size or need in the executive plan,"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 820.424,
+          "text": "and $290,520 to fund five new entry-level investigator positions to sustain DOI's core operations."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 833.624,
+          "text": "In addition, DOI requires an additional $4 million to conduct the investigation mandated by the City Council"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 840.824,
+          "text": "regarding what prior mayoral administrations knew about environmental toxins produced by the September 11, 2001 terrorist attacks on the World Trade Center."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 850.224,
+          "text": "This funding will pay for a third-party vendor with specialized expertise to assist with this record's intensive investigation."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 857.724,
+          "text": "The vendor would report to and be managed by DOI."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 862.624,
+          "text": "To be clear, if DOI does not receive additional funding, I will need to move forward with some very difficult decisions that will have a tangible impact on our operations and ability to meet our anti-corruption mandate."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 876.724,
+          "text": "Without the additional PS funding, DOI will need to eliminate defunded lines and key vacancies across critical areas that include executive leadership,"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 886.824,
+          "text": "legal oversight, frontline investigative squads, and vital technical support staff."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 892.924,
+          "text": "DOI will also need to decrease incoming salary levels for certain remaining vacancies, which also has an impact on the experience level and skill that DOI will be able to recruit and hire."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 905.324,
+          "text": "Recognizing the challenging budgetary landscape faced by the city, the funds I am requesting are strictly limited to providing stabilization funding for DOI to ensure it"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 915.924,
+          "text": "can fulfill its essential operations and conduct the council-mandated World Trade Center investigation."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 922.624,
+          "text": "At this time, I am not requesting further investments in the agency"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 926.624,
+          "text": "to meaningfully enhance its anti-corruption capabilities."
+        }
+      ]
+    },
+    {
+      "end_sec": 975.924,
+      "id": "013",
+      "slug": "commissioner-on-prior-leadership-s-budget-warnings-and-limited-funding-request-rationale",
+      "start_sec": 929.924,
+      "summary": "Shahada notes that prior DOI leadership raised the same budget alarms for years without success, that the agency is stretched to its limit, and that her funding request is strictly for stabilization\u2014not enhancement\u2014given her hope that City Hall will address the gap in the adopted budget.",
+      "title": "Commissioner on prior leadership's budget warnings and limited funding request rationale",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 929.924,
+          "text": "This limited funding request reflects my deep concern that further cuts, as contemplated in the executive budget, will impact DOI's core functions."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 940.824,
+          "text": "This concern is not new."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 943.124,
+          "text": "Under its prior leadership,"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 944.724,
+          "text": "DOI rang the alarm bell on its budget needs for years without avail."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 949.424,
+          "text": "Citywide budget reductions have stretched this small agency, which is already running a lean operation, to its limit."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 957.124,
+          "text": "Bluntly, the fiscal year 2027 executive budget does not provide the funding that DOI needs to adequately and"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 965.024,
+          "text": "and fully meet its mission."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 967.224,
+          "text": "Given recent positive and constructive discussions I've had with City Hall, I am hopeful this will be rectified in the adopted budget."
+        }
+      ]
+    },
+    {
+      "end_sec": 1093.024,
+      "id": "014",
+      "slug": "commissioner-breaks-down-doi-s-fy27-budget-ps-otps-and-headcount-details",
+      "start_sec": 975.924,
+      "summary": "Shahada breaks down the $53.7M FY27 budget into $29.3M in personal services and $21.4M in city-funded OTPS, supplemented by $3M in forfeiture funds. She explains that only 275 DOI-funded positions remain after accounting for CCPC staff, with 162 additional intra-city and on-loan staff bringing the total to 437.",
+      "title": "Commissioner breaks down DOI's FY27 budget: PS, OTPS, and headcount details",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 975.924,
+          "text": "My testimony."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 976.224,
+          "text": "Testimony today will walk you through the proposed fiscal year 27 executive budget, the tangible impact of the proposed budget cuts, and the roles that forfeiture and integrity monitorships play in our budget and the associated challenges with each."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 992.124,
+          "text": "DOI's $53.7 million fiscal year 2027 executive budget includes $29.3 million"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1000.424,
+          "text": "in personal services or PS funds, which primarily funds staff salaries, and $21.4 million in city-funded OTPS, which pays for DOI's lease obligations and integrity."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1014.024,
+          "text": "monitorships."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1015.524,
+          "text": "This OTPS funding will be supplemented with $3 million from DOI's forfeiture funds for a total OTPS spend of $24.4 million."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1027.424,
+          "text": "We have been supplementing our budget significantly with forfeiture funding, particularly for OTPS items."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1033.924,
+          "text": "Such as computers, laptops, vehicles, trainings, and office equipment."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1039.724,
+          "text": "I will describe our forfeiture funding in more detail shortly."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1044.024,
+          "text": "The current budgeted headcount for DOI-funded employees in fiscal year 2027 is only 282 positions."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1052.124,
+          "text": "Seven of those positions are staff"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1054.124,
+          "text": "for an entirely separate entity, the Commission to Combat Police Corruption, that is not part of DOI, but which is nonetheless funded through DOI."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1063.724,
+          "text": "This brings down the budgeted headcount for DOI"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1066.224,
+          "text": "I funded employees working on DOI matters to just 275 positions."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1072.224,
+          "text": "An additional 162 interest city and on loan staff report to DOI for a total of 437 employees who work on DOI matters."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1083.424,
+          "text": "The fiscal year 2027 executive budget"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1086.524,
+          "text": "also contains nearly $3.4 million for which DOI simply acts as a pass-through entity."
+        }
+      ]
+    },
+    {
+      "end_sec": 1250.524,
+      "id": "015",
+      "slug": "commissioner-on-pass-through-funds-space-savings-and-6m-in-financial-recoveries",
+      "start_sec": 1093.024,
+      "summary": "Shahada explains that $3.4M of DOI's budget is pass-through funding for CCPC and a borough-based jails integrity monitor that doesn't support DOI operations. She describes space savings from relocating CCPC and renting a floor to OCA generating $1.8M annually, plus $6M in financial recoveries and $5M saved through the asylum seeker monitorship.",
+      "title": "Commissioner on pass-through funds, space savings, and $6M in financial recoveries",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1093.024,
+          "text": "In other words, these funds do not support DOI's internal staff or operations in any way."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1099.324,
+          "text": "Specifically, $855,000 is allocated for the separate entity, CCPC,"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1105.624,
+          "text": "while the remaining $2.6 million funds an integrity monitor that reports to DOI and is monitoring the construction of the borough-based jails."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1115.324,
+          "text": "Despite these budget constraints, DOI has still sought savings as mandated by the mayor's office."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1122.124,
+          "text": "In collaboration with the City Department of Citywide Administrative Services and OMB,"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1127.724,
+          "text": "We assessed our space footprint as part of a citywide space savings initiative and relocated CCPC from leased space at 17 Battery Place to DOI headquarters at 180 Maiden Lane."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1139.924,
+          "text": "This saved the city approximately $157,700 annually."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1145.524,
+          "text": "Separately, DOI rented one of its"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1148.124,
+          "text": "floors at 180 Maiden Lane to the New York State Office of Court Administration, which generates approximately $1.8 million annually."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1156.724,
+          "text": "in lease expense reimbursement to the city."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1159.624,
+          "text": "However, OMB does not credit these lease savings towards the cuts it has mandated in DOI's budget."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1166.324,
+          "text": "More importantly, so far in fiscal year 2026, DOI investigations have resulted in financial recoveries of more than $6 million that have been collected by the city."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1178.524,
+          "text": "These recoveries are case dependent and DOI cannot predict from year to year how much those financial recoveries will be."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1186.724,
+          "text": "But in fiscal year 2026 so far, DOI's work has added $6 million to the city's general fund."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1194.324,
+          "text": "Those financial recoveries are on top of the public funds that have been protected as a result of our investigations and integrity monitorships, such as the $5.07 million in public funds saved as part of the Asylum Seeker monitorship."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1209.424,
+          "text": "That monitorship found an array of vendor invoicing errors that included mistaken double billing and overpayment of advance deposits and other anomalies."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1218.824,
+          "text": "And we have looked for opportunities to develop new avenues to fight fraud and save the city money."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1224.524,
+          "text": "Last week, Corporation Counsel Steve Banks and I engaged in preliminary discussions on ways DOI and the law department"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1231.924,
+          "text": "can work collaboratively to recoup city funds lost in non-criminal cases, including through civil fraud cases under the False Claims Act."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1240.524,
+          "text": "It is this sort of innovative thinking that sends a strong and unified message that the city as a whole is standing"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1246.224,
+          "text": "up to address corruption and fraud on all available fronts."
+        }
+      ]
+    },
+    {
+      "end_sec": 1397.424,
+      "id": "016",
+      "slug": "commissioner-details-executive-budget-ps-cuts-and-vacancy-reduction-impacts",
+      "start_sec": 1250.524,
+      "summary": "Shahada details $1.06M in one-time FY26 cuts and $1.14M in baseline FY27 PS cuts from the vacancy mandate, requiring DOI to defund nine funded vacancies including critical senior-level investigative and legal positions, and forgo prior new-needs requests for 14 vacant positions and 17 baseline positions.",
+      "title": "Commissioner details executive budget PS cuts and vacancy reduction impacts",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1250.524,
+          "text": "In the executive budget, OMB has imposed $1.06 million in one-time cuts in FY 2026 and $1.14 million in baseline cuts starting in FY 2027."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1267.624,
+          "text": "In fiscal year 2026, the executive budget cuts $500,000 in PS funding for the vacancy reduction mandate, reducing DOI's budgeted headcount by 11 in the baseline."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1280.024,
+          "text": "It also cuts $550,000 in a one-time PS accrual as projected by OMB, as well as $15,691 in a one-time savings for heat, light, and power."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1295.224,
+          "text": "In fiscal year 2027, the executive budget cuts $1.14 million"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1300.824,
+          "text": "in baseline PS funding for the vacancy mandate."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1304.324,
+          "text": "To meet these cuts, DOI will have to defund and defer hiring for nine positions to satisfy the 50% vacancy reduction mandate, including critical senior level investigatory and legal positions."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1317.924,
+          "text": "This action will further deplete investigative and operational squads across the agency."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1324.424,
+          "text": "DOI will also have to forgo essential staffing made as part of our prior new needs request to OMB, specifically the restoration of 14 vacant positions at $1.4 million."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1335.424,
+          "text": "DOI previously"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1336.324,
+          "text": "utilize the funds for these positions to offset serious recruitment, hiring, and retention challenges caused by prior budget reductions and the city's two-for-one hiring limitation."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1349.424,
+          "text": "We will also need to forego a request for 17 baseline positions for investigative and operational staff that include data analysts, confidential and background investigators, and auditors, among others."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1361.524,
+          "text": "In fact, DOI has already reduced this request to five entry-level investigators in our most recent new needs request to OMB for the adopted budget."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1372.724,
+          "text": "In addition, DOI requested funding for the mandated World Trade Center toxins investigation in the November and January plans, which OMB deferred to the incoming administration's review."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1384.124,
+          "text": "A request for $4 million for this investigation has been resubmitted for consideration in the adopted budget."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1390.724,
+          "text": "DOI cannot begin this council-mandated work until necessary funding is secured."
+        }
+      ]
+    },
+    {
+      "end_sec": 1544.924,
+      "id": "017",
+      "slug": "commissioner-on-forfeiture-fund-rules-reprogramming-history-and-sustainability-concerns",
+      "start_sec": 1397.424,
+      "summary": "Shahada explains DOJ rules governing forfeiture funds\u2014they cannot fund permanent salaries and must supplement, not supplant, DOI's budget. She reports DOI has reprogrammed nearly $19M since FY2023 and plans $11M more in FY2026, but warns these finite funds will run out in 2-3 years and the city cannot legally base budget decisions on forfeiture availability.",
+      "title": "Commissioner on forfeiture fund rules, reprogramming history, and sustainability concerns",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1397.424,
+          "text": "With respect to forfeiture funds, federal and state law allow the profits of criminal activity to be forfeited to the government"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1404.724,
+          "text": "and shared with the investigating agencies that worked on the case, with the general guideline that these funds must support law enforcement activities."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1413.424,
+          "text": "The majority of DOI's forfeiture funds are the result of partnering with federal prosecutors on criminal investigations."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1420.024,
+          "text": "And there are specific Department of Justice rules that dictate how forfeiture funds may and may not be spent."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1426.324,
+          "text": "For instance, forfeiture funds may not be used to fund salaries for permanent staff positions, but may be used for training or law enforcement technology."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1435.624,
+          "text": "Specifically, the guidelines require that forfeiture funds supplement, not supplant, DOI's budget."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1442.324,
+          "text": "Importantly, the city is prohibited from making budgetary decisions based on the availability of DOI's federal forfeiture funds."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1450.824,
+          "text": "In other words, the city cannot decide to cut DOI's budget based on the amount of forfeiture funds DOI receives, with the expectation that forfeiture will cover the budgetary gap."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1461.824,
+          "text": "Most importantly, if the city were to consider federal forfeiture funds in determining DOI's budget, per DOJ guidelines, DOI could lose its access to the funding."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1474.024,
+          "text": "Over the last several years, DOI has reprogrammed federal forfeiture funds, all in accordance with DOJ guidelines, to manage mandated budget cuts from the city,"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1483.824,
+          "text": "specifically related to OTPS items such as updating the agency's computer infrastructure, including our case management system, as well as purchasing computers and laptops for agency staff."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1495.424,
+          "text": "Since fiscal year 2023, DOI has spent nearly $19 million by reprogramming its forfeiture dollars to supplement DOI's budget and support the agency's essential law enforcement operations."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1508.424,
+          "text": "In fiscal year 2026,"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1510.924,
+          "text": "DOI plans to spend an additional $11 million by reprogramming its forfeiture funds."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1516.324,
+          "text": "in accordance with DOJ guidelines."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1519.124,
+          "text": "But this type of reprogramming is not sustainable in the long term because forfeiture funds are finite and there is no way to predict how much forfeiture funding will come into DOI in the future from our investigations."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1531.724,
+          "text": "And again, it is not permissible for the city to make budgeting decisions"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1535.924,
+          "text": "based on the availability of forfeiture funds."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1539.124,
+          "text": "Put simply, the city must start to properly fund DOI before these funds run out."
+        }
+      ]
+    },
+    {
+      "end_sec": 1650.52,
+      "id": "018",
+      "slug": "commissioner-on-otps-restoration-needs-and-integrity-monitorship-program",
+      "start_sec": 1544.924,
+      "summary": "Shahada requests $4.5M in OTPS restoration for critical technology needs including cybersecurity and data storage, then describes DOI's integrity monitorship program\u2014rehabilitative monitorships paid by vendors and programmatic monitorships paid by the city\u2014including the asylum seeker initiative and borough-based jail construction oversight.",
+      "title": "Commissioner on OTPS restoration needs and integrity monitorship program",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1544.924,
+          "text": "To reduce reliance on forfeiture funds, DOI has requested approximately $4.5 million in OTPS funding restoration in the adopted budget,"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1554.324,
+          "text": "to pay for core critical needs, such as computer software maintenance and subscriptions and maintenance of DOI's cybersecurity and data storage networks, which are technology items that should not be deferred."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1567.676,
+          "text": "DOI's integrity monitorship program is a cornerstone of the agency's anti-corruption work."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1573.676,
+          "text": "Integrity monitorships allow the city to have real-time oversight of vendors with integrity issues and of large-scale, high-dollar city projects."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1582.776,
+          "text": "The oversight is provided by outside integrity monitors that report to and are managed by DOI."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1589.176,
+          "text": "Rehabilitative monitorships permit the city to enter into or to continue contracts with companies that might otherwise be precluded from doing business with the city"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1598.476,
+          "text": "due to identified integrity issues, but that city agencies have determined are necessary for continuity or provision of city services."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1606.476,
+          "text": "In these cases, vendors pay for the monitorships."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1610.376,
+          "text": "Programmatic monitorships proactively help the city to oversee large-scale city projects, such as the Asylum Seeker Initiative and the borough-based jail construction, with the goal of ensuring compliance with city regulations and realizing cost savings."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1625.176,
+          "text": "In these cases, the city pays for the integrity monitors."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1628.776,
+          "text": "The funds for these monitors are included as part of DOI's budget, but all of the money goes directly to the integrity monitors."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1636.176,
+          "text": "None of it supports DOI staffing or resources."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1639.676,
+          "text": "Significantly, this funding artificially inflates DOI's budget, lending the false impression that it supports DOI's operations and staffing."
+        }
+      ]
+    },
+    {
+      "end_sec": 1758.12,
+      "id": "019",
+      "slug": "commissioner-advocates-for-doi-budget-independence-and-charter-reform",
+      "start_sec": 1650.52,
+      "summary": "Shahada advocates for budgetary independence for DOI, noting the agency proposed this reform to the City Commission to Strengthen Local Democracy and plans to submit it to the Mayor's new Committee on Government Efficiency. She argues independence would protect DOI from politically motivated retaliation and ensure adequate funding to oversee a $124.7 billion city budget.",
+      "title": "Commissioner advocates for DOI budget independence and charter reform",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1650.52,
+          "text": "Today's testimony underscores the significance that budgetary independence would have on DOI."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1656.42,
+          "text": "In fact, DOI advocated for this reform, among others, before the City Commission to Strengthen Local Democracy, which compiled a host of prospective charter revisions, including budgetary independence for DOI."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1669.62,
+          "text": "DOI plans to submit the same proposal to the Mayor's Committee on Government Efficiency, which was just announced last week."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1677.12,
+          "text": "Funding DOI at an appropriate percentage of the city budget and giving DOI control over its hiring, for example, would safeguard DOI's independence and reinforce the city's commitment to prevent fraud, waste, and abuse."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1690.92,
+          "text": "Budget independence would reduce the risk of politically motivated retaliation against DOI or the appearance of such retaliation by reducing our funding."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1699.92,
+          "text": "And it would finally provide DOI with the financial resources to fully oversee a city with a $124.7 billion budget, more than 300,000 employees, and billions of dollars in capital construction."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1715.22,
+          "text": "In the meantime, DOI requests the city restore $6 million to its budget in order to maintain the agency's core operations and $4 million spread over two fiscal years to fund the World Trade Center investigation."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1730.22,
+          "text": "I want to thank the Mayor's Chief Counsel and the OMB Budget Director for hearing and understanding my concerns, and I am very thankful, as well as hopeful,"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1738.92,
+          "text": "that additional funding to stabilize DOI's ability to conduct its vital oversight mandate is under active discussion and consideration at City Hall."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1748.92,
+          "text": "I also want to thank council members for your focus on DOI's budget and for providing me the opportunity to walk you through the numbers."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1755.62,
+          "text": "I'm happy to answer any questions."
+        }
+      ]
+    },
+    {
+      "end_sec": 1831.4,
+      "id": "020",
+      "slug": "chair-lee-questions-doi-on-savings-waiver-denial-and-protecting-staffing",
+      "start_sec": 1758.12,
+      "summary": "Lee asks why DOI's savings target waiver was denied. Shahada confirms DOI applied but was not exempted, though the denial occurred before her tenure. Lee questions how to protect staffing given DOI's oversight role and revenue generation, and Shahada suggests charter reform for budget independence.",
+      "title": "Chair Lee questions DOI on savings waiver denial and protecting staffing",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 1758.12,
+          "text": "Thank you so much."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 1759.92,
+          "text": "We've been also joined by Council Members Aviles, Carr, and Joang."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 1765.12,
+          "text": "So just out of curiosity, and I know this is something that Council Member Brewer had worked on also, but why did you try applying for the waiver?"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 1775.52,
+          "text": "Why did you not?"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 1776.92,
+          "text": "Get the waiver if you applied for it."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1779.82,
+          "text": "The waiver from the savings target?"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1782.22,
+          "text": "We did."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1782.82,
+          "text": "We did apply for it."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1783.32,
+          "text": "We did."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 1783.52,
+          "text": "I mean, you did."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1784.42,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 1784.92,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 1786.02,
+          "text": "What was the reason that they said no?"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1789.82,
+          "text": "I believe some of that happened before I joined DLI, so I'm not sure what reasoning was provided, but we were not exempted from it."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 1798.32,
+          "text": "Interesting."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 1798.92,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 1801.2,
+          "text": "Yeah, I mean, just given the cuts that have happened to the department and looking into the future, I'm just wondering how we can prevent this from happening because it is a city agency that"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 1812.8,
+          "text": "does robust oversight and also provides revenue for the city as well."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 1817.6,
+          "text": "So this is why I'm just wondering if there's any ways that you're looking at to protect staffing from sort of this budget cut in the future."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 1827.5,
+          "text": "Not budget cut, but yeah."
+        }
+      ]
+    },
+    {
+      "end_sec": 1941.5,
+      "id": "021",
+      "slug": "chair-lee-asks-for-examples-of-doi-investigations-saving-city-money",
+      "start_sec": 1831.4,
+      "summary": "Lee asks for examples of how DOI investigations save the city money. Shahada cites $6M in FY26 restitution collections, including $1.6M from a defendant who inflated fire alarm system invoices, and $5M in overbilling identified through the asylum seeker monitorship. Lee requests a follow-up list of examples and titles that accomplish savings.",
+      "title": "Chair Lee asks for examples of DOI investigations saving city money",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1831.4,
+          "text": "That is why we would welcome changes to the city charter that made our budget truly independent because this concern happens every year and given the important oversight mandate that DOI has,"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1847.0,
+          "text": "we believe budget independence is the best way to ensure that we're funded properly."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 1851.5,
+          "text": "Right."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 1852.3,
+          "text": "And just going to the savings portion, so looking back to previous investigations the department has done, can you provide an example of how DOI investigations have saved money for the city?"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1864.5,
+          "text": "Sure."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1867.2,
+          "text": "As I mentioned, in fiscal year 26, to date, we collected $6 million in restitution for the city."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1874.1,
+          "text": "And as an example, in October 2025, a defendant was ordered to pay $1.6 million"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1882.0,
+          "text": "in restitution after he inflated invoices and overbilled the city in contracts relating to repairing and maintaining fire alarm systems."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1890.1,
+          "text": "So that is just one specific example of how we bring back money to the city, and that goes into the city's general fund."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1899.7,
+          "text": "In other non-quantifiable ways, I think we also save the city money by deterring corruption through our oversight."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1907.3,
+          "text": "And the asylum seeker monitorship is one way where we actually are able to quantify it."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1915.0,
+          "text": "And there we identified about $5 million in mistaken overbilling that the city was able to recoup."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 1923.1,
+          "text": "Okay, so $5 million in the asylum seeker."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 1927.3,
+          "text": "contracts."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 1931.7,
+          "text": "Interesting."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 1932.3,
+          "text": "I'm sure there's a lot of others that you can give us a list of."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 1935.8,
+          "text": "And I mean, if you can also provide other examples, that would be great in terms of follow-up."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1939.6,
+          "text": "Yes, we can certainly get back to that."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1941.0,
+          "text": "Okay."
+        }
+      ]
+    },
+    {
+      "end_sec": 2125.0,
+      "id": "022",
+      "slug": "chair-lee-on-vacant-positions-being-removed-in-executive-plan",
+      "start_sec": 1941.5,
+      "summary": "Lee asks which vacant positions are being removed. Shahada explains nine previously funded vacancies must be cut, including critical executive-level roles: acting general counsel, acting chief of investigations, and a departed deputy commissioner for compliance who also served as EEO officer.",
+      "title": "Chair Lee on vacant positions being removed in executive plan",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 1941.5,
+          "text": "Because I think it's important to note, because this is exactly why these positions are important, so I'm just trying to understand some of the headcount reductions."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 1952.0,
+          "text": "Can you also produce a list of titles you believe work to accomplish savings for the city and work with the administration on exemptions as well?"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1960.7,
+          "text": "Yes, in response to that, I would say I believe the entire investigative division of DOI is revenue generating in the sense that"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1970.4,
+          "text": "these are the people conducting these investigations where we get restitution and forfeiture for the city and also working to prevent"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1980.1,
+          "text": "corruption through our policy and procedure recommendations."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 1984.2,
+          "text": "And that includes confidential investigators, auditors, financial analysts, and so forth."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 1989.9,
+          "text": "Okay, great."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 1991.3,
+          "text": "And then moving into headcount reduction, executive plan included a headcount reduction of 11 positions."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 1996.7,
+          "text": "What vacant positions are being removed in this plan?"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2002.2,
+          "text": "So if nothing changes and we're required to move forward with cutting 11 vacancies,"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2010.4,
+          "text": "a few of those will be vacancies that are already defunded, but it will require us to cut nine funded vacancies or previously funded vacancies."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2023.3,
+          "text": "This presents some very difficult decisions on my part because we currently have, for example, three important vacancies at the executive level."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2035.0,
+          "text": "We currently are operating with an acting general counsel, an acting chief of investigations, and we've also recently..."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2044.6,
+          "text": "The person who was filling the role of director, sorry, deputy commissioner for compliance and also served as our EEO officer recently left."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2053.0,
+          "text": "So that is also a vacant position."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 2056.7,
+          "text": "Can I just ask a clarifying question?"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 2058.5,
+          "text": "So when you said nine funded vacancies, those are meaning"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 2062.3,
+          "text": "positions that they're currently staffing in or those are they're vacant but but were previous before the executive budget"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2070.2,
+          "text": "came out were funded positions."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 2071.9,
+          "text": "Got it."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2072.3,
+          "text": "And so we won't be able to hire for nine positions."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2076.2,
+          "text": "We're currently trying to maneuver, and we have various scenarios of how we would do that."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2082.1,
+          "text": "But if we were required to go forward, that may, for example, include simply not having a"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2090.4,
+          "text": "deputy commissioner for compliance and kind of putting all their that person's responsibilities in other areas as current as is currently being done temporarily now, but that's not obviously a decision that I would like to have to make"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2104.7,
+          "text": "and hopeful that we can avoid that right adopted budget and how"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 2111.4,
+          "text": "I mean, I know the answer, but if you could give more details in terms of how this impact, you know, what kind of impact this is going to have on the investigations that you're conducting."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 2122.8,
+          "text": "And then I have a follow-up question after that."
+        }
+      ]
+    },
+    {
+      "end_sec": 2170.1,
+      "id": "023",
+      "slug": "chair-lee-on-impact-of-headcount-cuts-on-ongoing-investigations",
+      "start_sec": 2125.0,
+      "summary": "Lee asks how the cuts will impact ongoing investigations. Shahada praises staff dedication but warns that years of doing more with less has reached a tipping point where triaging is no longer sufficient and DOI may have to decide which investigations it can and cannot open.",
+      "title": "Chair Lee on impact of headcount cuts on ongoing investigations",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2125.0,
+          "text": "Sure."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2125.7,
+          "text": "I'll start by saying since I've been at DOI,"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2129.5,
+          "text": "the past six weeks, I have been incredibly impressed by the hard work and dedication of every single staff member I've met with."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2139.5,
+          "text": "That being said, for years they have been asked to do more with less, and that takes a toll on morale and just, frankly, the ability to"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2151.7,
+          "text": "make sure you're properly staffing every investigation you're working on."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2156.6,
+          "text": "They've done an amazing job, but at a certain point,"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2160.1,
+          "text": "you get to a point where you have to make your triaging no longer is sufficient and you have to make decisions about what investigations you can and cannot open."
+        }
+      ]
+    },
+    {
+      "end_sec": 2262.2,
+      "id": "024",
+      "slug": "chair-lee-asks-about-plan-b-for-staffing-and-leveraging-other-agencies",
+      "start_sec": 2170.1,
+      "summary": "Lee asks about a plan B if positions aren't restored. Shahada describes presenting cases to prosecutors early to maximize shared resources, working with state and federal law enforcement partners, and utilizing on-loan staff governed by MOUs, but warns difficult operational decisions will be required if cuts proceed.",
+      "title": "Chair Lee asks about plan B for staffing and leveraging other agencies",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 2170.1,
+          "text": "And I guess to that point, I mean, obviously we would want to see a restoration in a lot of the positions in the budget, but"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 2178.6,
+          "text": "Let's just say that doesn't end up happening, unfortunately."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 2181.9,
+          "text": "What is the plan B that you have?"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 2184.2,
+          "text": "Are you leveraging staff from other agencies to assist with the investigations?"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 2188.5,
+          "text": "And have those conversations started?"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2191.4,
+          "text": "Yeah, so we always, as a general practice,"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2197.2,
+          "text": "In our investigations, one of the things we do is present cases to prosecutors'offices for our criminal cases early so that we are maximizing the resources we have available."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2209.3,
+          "text": "Generally, those prosecutors'offices also have investigators, and we're working with law enforcement partners at the state and federal level."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2216.5,
+          "text": "And so that is something we..."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2219.5,
+          "text": "Are doing now and will continue to do."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2222.2,
+          "text": "We have on-loan staff from other agencies."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2225.9,
+          "text": "The number of those is generally governed by a memorandum of understanding with those agencies."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2231.7,
+          "text": "And so we have those in place and those are certainly very helpful."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2237.3,
+          "text": "But if we are required to make these cuts, then we are going to be required to make some very difficult decisions that I am concerned will affect core operations."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 2246.7,
+          "text": "Yeah."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 2247.4,
+          "text": "And obviously, on the council side, when we've been talking..."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 2250.2,
+          "text": "about savings, we want to make very clear that this is not something that we want to see as a negative when it comes to actually doing the work and providing services."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 2258.1,
+          "text": "And so this is helpful to know."
+        }
+      ]
+    },
+    {
+      "end_sec": 2378.9,
+      "id": "025",
+      "slug": "chair-lee-on-6m-stabilization-sufficiency-and-lease-costs",
+      "start_sec": 2262.2,
+      "summary": "Lee asks if $6M is sufficient for stabilization. Shahada confirms it covers avoiding nine vacancy cuts, reducing forfeiture reliance, and hiring five entry-level investigators. Lee then asks about the total lease cost; Shahada reports approximately $18.5M, consuming the vast majority of city-funded OTPS alongside one integrity monitorship, leaving only a few hundred thousand dollars to operate the agency.",
+      "title": "Chair Lee on $6M stabilization sufficiency and lease costs",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 2262.2,
+          "text": "And the $6 million to stabilize the budget for the next fiscal year, is that sufficient?"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 2267.7,
+          "text": "What's the ideal number?"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2270.9,
+          "text": "That's the stabilization number."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2272.8,
+          "text": "We are cognizant of the financial and budgetary condition that the city as a whole is facing, and so we've really tried to focus on what is necessary to keep our core operations going and not to ask for more than that at this time."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2288.0,
+          "text": "And so that's where we have come up with the $6 million number."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2293.7,
+          "text": "It would allow us to not have to defund nine vacancies and also"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2301.0,
+          "text": "start to get on a path where we're not over relying on forfeiture funds for our basic operations as well as You know a minimal request for five entry-level confidential investigators to"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2315.8,
+          "text": "Start helping stabilize our investigative squads"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 2319.9,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 2320.7,
+          "text": "And just lastly, before I pass it to the chair, in terms of the lease,"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 2327.2,
+          "text": "I know that you said that the move saved approximately $157,700 annually, but what's the total?"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 2337.7,
+          "text": "Portion of the department's budget for the lease."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 2340.3,
+          "text": "Can you update us on that cost?"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2343.2,
+          "text": "Yeah, I don't know the exact percentage because I'm not very good at math, but it's about $18.5 million is the number on the lease."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2352.0,
+          "text": "So it's the vast majority of our OTPs, city tax levy OTPs is spent on the lease and one integrity monitorship for the next year."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2363.1,
+          "text": "After that, I think we have about just a few hundred thousand dollars left"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2369.9,
+          "text": "to operate the agency, which is why we have had to repurpose forfeiture funds to allow us to fulfill our mission."
+        }
+      ]
+    },
+    {
+      "end_sec": 2467.692,
+      "id": "026",
+      "slug": "chair-lee-on-otps-centralization-and-lease-impact-on-budget-pegs",
+      "start_sec": 2378.9,
+      "summary": "Lee asks about centralizing IT and technology needs with other agencies. Shahada notes independence requirements limit sharing but is open to exploring options. Lee then asks how the lease being included in the peg impacts other budget areas; Shahada explains the lease is not excluded from the savings target, making the peg much more difficult since it's DOI's largest OTPS item.",
+      "title": "Chair Lee on OTPS centralization and lease impact on budget pegs",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 2378.9,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 2379.3,
+          "text": "And then are there areas like with technology, IT needs, all of those things in the OTPS lines that you would be able to centralize with the admin in terms of using, you know,"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 2391.6,
+          "text": "leveraging with other agencies to save costs there for your department?"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 2397.4,
+          "text": "Sharing of, I guess, resources."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2401.992,
+          "text": "I would have to get back to you on some specifics on that."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2404.492,
+          "text": "I know that there is, because of our independent oversight mandate, there is some aspects of our work that we need to make sure are not accessible to other agencies."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2417.392,
+          "text": "But certainly where there's an ability to do that, we're happy to look into that."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 2421.592,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 2423.092,
+          "text": "And lastly, are the costs for the lease separated out when coming up with the dollar value of expected savings?"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2431.392,
+          "text": "I'm sorry, could you rephrase the question?"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 2434.692,
+          "text": "So let me, so basically how has the lease being included in your budget impact sort of the other areas that you would potentially be able to use it for?"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2446.092,
+          "text": "Well, the lease is part of the peg."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2448.692,
+          "text": "And so that actually,"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2452.292,
+          "text": "makes the peg much more difficult for us because the lease is not excluded from it and that is the largest part of our OTPS budget."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 2460.392,
+          "text": "Interesting."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 2460.992,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 2462.592,
+          "text": "Okay, I'm going to pass it to Council Member Krishnan, Chair Krishnan."
+        }
+      ]
+    },
+    {
+      "end_sec": 2576.092,
+      "id": "027",
+      "slug": "chair-krishnan-on-6m-stabilization-clarification-and-funding-independence",
+      "start_sec": 2467.692,
+      "summary": "Krishnan agrees with Lee on the need for charter reform for DOI budget independence, then confirms the $6M request is purely for stabilization\u2014not new programs\u2014and verifies the executive budget is $2.1M less than FY26 and $12.8M less in baseline funding than prior years.",
+      "title": "Chair Krishnan on $6M stabilization clarification and funding independence",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2467.692,
+          "text": "Thank you so much, Chair Lee."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2469.692,
+          "text": "There were just two points before I start my questions that I wanted to really agree with you on."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2475.292,
+          "text": "I think one is it is way past time that the city properly fund DOI so that the funds don't run out and you all can do your mission."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2484.592,
+          "text": "I agree with that completely."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2485.792,
+          "text": "And I also agree that there is a fundamental..."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2488.292,
+          "text": "Conflict between in"
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2489.992,
+          "text": "agency tasked with the very independent mission being dependent on a city budget and budget process that will vary year to year, mayor to mayor."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2501.092,
+          "text": "So I fully support looking at ways that we can going forward reform the charter to make sure you all as an independent agency have an independent funding process too."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2513.792,
+          "text": "Chair Lee hit a number of the points and questions, but I wanted to clarify a few things because there's a lot of information, and I wanted to really just underscore the need, the critical need for funding that you all have."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2526.192,
+          "text": "So it's my understanding, Commissioner, right, that you all need $6 million in funding in this year's budget."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2533.492,
+          "text": "Just to stabilize."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2534.492,
+          "text": "That's not new needs, that's not new programs."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2536.792,
+          "text": "It's $6 million just to stabilize current operations and current staff on payroll."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2542.092,
+          "text": "It's just under $6 million."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2544.292,
+          "text": "Included within that is five new investigators, entry-level investigators, but that's really to stabilize things."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2553.792,
+          "text": "Currently."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2554.592,
+          "text": "That's right."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2554.992,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2555.392,
+          "text": "And currently, the executive budget, I think you mentioned, has $2.1 million less than last year's budget."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2563.792,
+          "text": "Is that correct?"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2565.492,
+          "text": "Yes, I believe so."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2566.592,
+          "text": "And $12.8 million less in baseline funding than going back several years at this point, right, taking into account the pegs from the Adams years and everything."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2574.592,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2574.992,
+          "text": "That makes sense."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2575.492,
+          "text": "Okay."
+        }
+      ]
+    },
+    {
+      "end_sec": 2698.832,
+      "id": "028",
+      "slug": "chair-krishnan-on-headcount-decline-from-365-to-275-and-remaining-operating-funds",
+      "start_sec": 2576.092,
+      "summary": "Krishnan confirms DOI-funded headcount dropped from 365 four years ago to 275 under the Adams administration. Shahada reveals that after paying for the lease and one integrity monitorship, DOI has only $175K-$400K remaining to run all operations before tapping forfeiture funds.",
+      "title": "Chair Krishnan on headcount decline from 365 to 275 and remaining operating funds",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2576.092,
+          "text": "And then in total, really what we're talking about for DOI is you all have"
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2579.992,
+          "text": "A staff of 275 positions at this point, which is down from about 365 four years ago."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2590.492,
+          "text": "Is that right?"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2591.392,
+          "text": "In DOI-funded lines, yes."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2593.592,
+          "text": "DOI-funded lines from 365 four years ago to 275 over the course of the Adams administration as a result of the PEGs over those years."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2602.292,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2602.792,
+          "text": "Got it."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2603.492,
+          "text": "And is it your testimony that after DOI funds its basic needs, including this lease that we have as well,"
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2614.892,
+          "text": "how much exactly are you all left over with if you don't include asset forfeiture funds?"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2621.432,
+          "text": "So historically, I think it's been about $175,000 to $200,000."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2626.932,
+          "text": "I think for fiscal year 26, it's a little bit more than that."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2630.332,
+          "text": "I believe it's $400,000 because we did get some additional money for lease obligations and I think moving CCPC."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2641.232,
+          "text": "To our headquarters, but a few hundred thousand dollars."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2644.732,
+          "text": "So just to be clear, after all the fundamental basic needs are taken care of, the agency only has between 175,000, give or take, to at most 400,000 to run all of its operations?"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2659.732,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2661.932,
+          "text": "And how much are you all planning to draw down from asset forfeiture funding for fiscal 26 and fiscal 27 to supplement but also support core operations, given the very little funding you all have left over?"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2677.032,
+          "text": "So we anticipate for fiscal 2026, it'll be approximately $11 million."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2683.332,
+          "text": "We have $3 million."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2685.332,
+          "text": "Currently dedicated as a forfeiture spend for fiscal year 2027, but we expect that to go up, and particularly if we don't receive additional city tax levy OTPS funds."
+        }
+      ]
+    },
+    {
+      "end_sec": 2754.448,
+      "id": "029",
+      "slug": "chair-krishnan-on-forfeiture-fund-depletion-timeline-of-2-3-years",
+      "start_sec": 2698.832,
+      "summary": "Krishnan asks when forfeiture funds will run out. Shahada estimates 2-3 years at the current spend rate, after which DOI would be left with only a few hundred thousand dollars to run the entire agency, with no forfeiture supplement available.",
+      "title": "Chair Krishnan on forfeiture fund depletion timeline of 2-3 years",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2698.832,
+          "text": "And if that's the case, at what point do you foresee the asset forfeiture funding running out completely?"
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2705.032,
+          "text": "Because as I understand it, it's coming from one specific case from..."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2709.632,
+          "text": "many years ago?"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2711.532,
+          "text": "If we continue with the current rate of spend, it's approximately two years at the very outset three years, but in the two to three year range."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2720.832,
+          "text": "So in two years, DOI would not have asset forfeiture funding to supplement and support its core operations?"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2729.532,
+          "text": "Based on the current amount of asset forfeiture funds we have, yes."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2732.432,
+          "text": "And all you'd have left at that point is the several hundred thousand, assuming nothing changes, all you'd have left to run an entire agency in two years would be the several hundred thousand dollars in funding that you have left after fundamental payments like rent and things like that."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2747.232,
+          "text": "Am I right?"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2747.832,
+          "text": "That's correct."
+        }
+      ]
+    },
+    {
+      "end_sec": 2940.348,
+      "id": "030",
+      "slug": "chair-krishnan-on-total-positions-affected-by-cost-saving-mandates",
+      "start_sec": 2754.448,
+      "summary": "Krishnan asks for the total number of positions affected by cost-saving mandates. Shahada confirms nine funded vacancies must be cut, including critical executive leadership and the IG for NYPD, but notes the impact extends agency-wide as remaining staff face higher caseloads with fewer resources.",
+      "title": "Chair Krishnan on total positions affected by cost-saving mandates",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2754.448,
+          "text": "So another, you testified as well about given the current cost savings mandates and you spoke about the vacancy positions and other positions."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2765.348,
+          "text": "Can you just give a total amount of with the cost saving mandates in place and the"
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2773.948,
+          "text": "pegs over the years that have happened and the cuts that have happened."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2776.648,
+          "text": "What, in total, how many positions are going to be affected by the efforts to meet the cost-saving mandates in place?"
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2788.048,
+          "text": "You broke it up over nine positions, vacancies, but I'm just looking for a total number of how many positions would be affected in one way or another."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2793.948,
+          "text": "Well, we'd have to cut nine."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2795.548,
+          "text": "So currently, before the executive budget came out, there were nine positions that we would have been able to fill that we will now have to cut."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2809.248,
+          "text": "And so..."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2810.748,
+          "text": "As I mentioned, this is particularly challenging right now because of the vacant positions we have are some critical positions in executive leadership, in very important IG positions, including the IG for the NYPD."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2827.948,
+          "text": "That we are trying to figure out how we will manage if we don't receive additional funds."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2833.948,
+          "text": "So nine positions affected, and then if you all don't get the $6 million to stabilize,"
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2839.048,
+          "text": "how many positions overall would be affected?"
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2843.048,
+          "text": "Is it just the nine, or is it other?"
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2844.848,
+          "text": "I think you mentioned as well there would be potential cuts to salaries of executive positions."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2852.648,
+          "text": "I mean, what are we talking about overall is the impact of not getting the funding that you all need?"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2859.048,
+          "text": "Well, I think what we would do is the idea of lowering the salaries for certain positions is in order to try to minimize the number of vacant positions we have to cut and yet still meet the number, the target number."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2873.548,
+          "text": "I don't have a precise number for you of how many positions we would have to do."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2877.348,
+          "text": "We are kind of going through different scenarios, but we are, I will say we are hopeful based on our discussions with City Hall"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2885.848,
+          "text": "that we won't have to make some of these decisions because we are hopeful that additional funding will be provided in the adopted budget."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2894.348,
+          "text": "And I want to get to that in a second too, but the point I'm trying to make is it seems to me that it's beyond the nine positions, that nine position vacancies that would be affected."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2901.648,
+          "text": "It seems to me in order to avoid losing those positions, a number of other positions and those salary lines could potentially be affected too."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2908.548,
+          "text": "Am I right?"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2909.048,
+          "text": "Potentially, yes."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2910.048,
+          "text": "And I would say the whole agency would be affected because we would be asking our..."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2915.648,
+          "text": "Dedicated and talented staff to be again doing more with less and working on higher caseloads and and just being required to"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2930.048,
+          "text": "you know, conduct more investigations with fewer staff."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2933.648,
+          "text": "Yes, thank you."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2934.448,
+          "text": "And that's kind of what I was getting at, too."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2935.648,
+          "text": "It seems to me the whole agency, in one form or another, would be affected."
+        }
+      ]
+    },
+    {
+      "end_sec": 2998.848,
+      "id": "031",
+      "slug": "chair-krishnan-on-conversations-with-omb-and-mayor-about-doi-funding",
+      "start_sec": 2940.348,
+      "summary": "Krishnan asks about conversations with OMB and the mayor. Shahada reports she has spoken plainly about DOI's situation, believes City Hall understands the importance of DOI's mandate and the budget challenges, and is confident additional funding will be addressed in the adopted budget, though she has no specific numbers to share.",
+      "title": "Chair Krishnan on conversations with OMB and mayor about DOI funding",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2940.348,
+          "text": "So now, at this point, how have the conversations been?"
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2943.148,
+          "text": "I think you indicated there's been some positive conversations, but how have they been with OMB and the mayor so far?"
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2948.748,
+          "text": "To the extent you can share any sense of what trajectory you might be looking at from the executive budget."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2956.848,
+          "text": "So I don't have any specific numbers to share with you."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2959.948,
+          "text": "What I can say is that I'm confident that the mayor's office understands the situation we're in."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2969.948,
+          "text": "I've spoken plainly about it here at the council, and I've spoken about it in the same way with the mayor's office."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2978.948,
+          "text": "I believe they understand the importance of DOI's mandate and mission and the challenges we are facing."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 2989.248,
+          "text": "And I'm confident that they will address it in the adopted budget, but I don't have any specifics to share."
+        }
+      ]
+    },
+    {
+      "end_sec": 3136.504,
+      "id": "032",
+      "slug": "chair-krishnan-on-ideal-headcount-of-585-vs-current-275",
+      "start_sec": 2998.848,
+      "summary": "Krishnan asks about ideal headcount. Shahada describes a prior planning exercise projecting 585 DOI-funded positions as optimal\u2014412 investigative, 98 operations, 48 executive and training. She notes current headcount is roughly half that level, and if new needs are approved, DOI would reach 318 funded positions plus 142 on-loan for a total of 460.",
+      "title": "Chair Krishnan on ideal headcount of 585 vs current 275",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 2998.848,
+          "text": "And so we're looking at right now a headcount of 275 down from 365 before."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3004.848,
+          "text": "What do you believe would be the appropriate headcount and budget needed for your organization to run seamlessly?"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3014.104,
+          "text": "Well, to run seamlessly, look, I'm happy to talk a little bit about"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3021.504,
+          "text": "a process that the agency underwent under the prior commissioner, where we really, as part of the work"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3031.504,
+          "text": "to provide a proposal to the commission to strengthen local democracy on the charter revision proposals,"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3038.404,
+          "text": "That included a minimum budget for DOI, and as part of that process, DOI went through a planning exercise to estimate an optimal staffing level for the department, going unit by unit to project an ideal staffing number."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3053.304,
+          "text": "And the projected ideal for investigative staff was 412 positions,"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3059.704,
+          "text": "for operations staff, 98 positions, and executive and training staff, 48 positions, which would bring the total DOI-funded headcount to 585."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3071.404,
+          "text": "I'm not expecting in this budget landscape that that is something that we could realistically expect."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3078.104,
+          "text": "Again, I'm focused now on stabilization."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3082.304,
+          "text": "And if our new needs request is approved for the adopted budget, our core headcount on DOI-funded lines would be 318 DOI-funded positions."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3095.704,
+          "text": "We have, if we factor in 142 on-loan personnel from paid for by other city,"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3101.504,
+          "text": "agencies, then our total budgeted headcount would be 460 if our new needs request is accepted."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3109.504,
+          "text": "And it seems to me, wouldn't you agree that right now the current headcount at DOI is give or take about half of"
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3120.004,
+          "text": "where you all would want to be ideally, 265 versus the 580 that you indicated."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3125.604,
+          "text": "It seems like we're, given all these cuts over the years, about halfway from what you would fully need in an ideal level to fully fund the agency."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3134.304,
+          "text": "Yes, probably."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3134.604,
+          "text": "Would you agree with that?"
+        }
+      ]
+    },
+    {
+      "end_sec": 3289.412,
+      "id": "033",
+      "slug": "chair-krishnan-on-mou-stability-and-intercity-funding-shortfalls",
+      "start_sec": 3136.504,
+      "summary": "Krishnan asks how DOI protects shared resources when MOUs are renewed. Shahada explains there is no mechanism to force agencies to maintain funding levels, and that intra-city funding hasn't kept pace with actual salaries\u2014DOI must supplement from its own PS dollars, citing examples where H+H and DEP MOU funding falls short of actual salary costs by $28K-$43K per staffer.",
+      "title": "Chair Krishnan on MOU stability and intercity funding shortfalls",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3136.504,
+          "text": "I think you touched upon this before, too, but when we talk about your agreements with other city agencies as you do work and share resources, when MOUs are up for renewal, how do you make sure that shared resources are stable and not reduced by agency savings exercises?"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3154.512,
+          "text": "Well, there's no mechanism to force agencies to provide us with a certain level of funding or to not cut their resources."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3164.912,
+          "text": "They share with DOI as part of their savings exercise."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3167.212,
+          "text": "We rely on explaining the importance of DOI's work, our record of achievements, and the productive relationships we've fostered with the relevant agencies to make our case."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3178.212,
+          "text": "I would suggest that a more stable way to manage DOI's resources would be to provide the staffing and resources directly to DOI's budget and not have to rely on discretionary MOUs for headcount."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3190.812,
+          "text": "Right."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3191.412,
+          "text": "And have there been, I mean, are there a certain number of positions, a minimum number that other departments are obligated to fund?"
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3198.112,
+          "text": "Have there been reductions in the MOUs for the allowable staff that other departments are obligated to fund?"
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3202.612,
+          "text": "And how do you, is there no way at all to protect, there's no minimum number, no sort of, you know, requirements on other agencies to obligate them to fund certain positions or work with you all to make sure they're funded in some capacity?"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3215.912,
+          "text": "So there's been one MOU where we had a reduction in headcount."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3219.812,
+          "text": "That's the MOU with DEP for staff who monitor the BT2 water project upstate."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3226.812,
+          "text": "There was a loss of two headcount there, but that was attributable to workflow and not a budget consideration."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3233.612,
+          "text": "In other MOUs, for example, with DOC, DOHMH, or DOB, we have thankfully not seen reduced headcount."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3241.412,
+          "text": "count, but it's worth noting that the intracity funding they give us has not kept pace with the actual salaries paid to the employees."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3251.512,
+          "text": "Therefore, in certain cases, DOI has had to supplement the intracity funding with our own PS dollars to meet the required salaries."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3261.412,
+          "text": "So to give you an example, there's one staffer funded through an H&H MOU who makes $123,000, but we only received $95,000 in intercity funds."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3276.612,
+          "text": "Another staffer on the DEP MOU makes $128,000, but we receive only $100,000."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3282.112,
+          "text": "$85,000 from DEP."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3284.012,
+          "text": "So DOI has to make up that difference out of our own PS dollars."
+        }
+      ]
+    },
+    {
+      "end_sec": 3490.368,
+      "id": "034",
+      "slug": "chair-krishnan-on-staff-retention-promotions-and-omb-approval-barriers",
+      "start_sec": 3289.412,
+      "summary": "Krishnan asks about staff retention and promotions. Shahada confirms DOI has no funding for promotions, OMB does not approve merit-based raises, and all retention efforts have been self-funded by reallocating vacancy funds. She describes a prior plan to address pay disparities among deputy inspector generals and create a promotional path for investigators, all funded by repurposing vacant position dollars.",
+      "title": "Chair Krishnan on staff retention, promotions, and OMB approval barriers",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3289.412,
+          "text": "And a few other questions that I have too before turning it over to our colleagues."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3293.912,
+          "text": "We touched on this a bit before, but when positions are affected, whether it's vacant lines or existing positions,"
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3303.212,
+          "text": "It doesn't seem to me, and as you testified to, the impacts are much broader than this, this specific number of positions on the table."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3310.312,
+          "text": "But it could actually affect staff retention, too, more broadly speaking."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3315.312,
+          "text": "Does the department have the funding to promote staff?"
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3319.812,
+          "text": "Are there opportunities for promotions, increases in salaries?"
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3325.512,
+          "text": "If not, are these requests you are working on to explore how to"
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3331.912,
+          "text": "Achieve that goal."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3333.012,
+          "text": "How do you think about staff retention more broadly?"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3336.212,
+          "text": "So I agree with you that promotion and growth opportunities are essential for hiring and retention."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3343.412,
+          "text": "At this point, we do not have funding to promote staff."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3347.412,
+          "text": "And it's my understanding that OMB does not approve merit-based promotions and raises."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3354.312,
+          "text": "DOI has 25 vacancies as of May 27, 2026."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3360.212,
+          "text": "However, we only have funding to support 16 of those vacancies."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3367.232,
+          "text": "In the past, we have made requests to OMB for additional funding."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3373.632,
+          "text": "In the past administration, we made such requests for promotions and staff retention, and we did not receive any funding from OMB."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3382.532,
+          "text": "All of our retention efforts that DOI has made have been self-funded by reallocating resources from vacancies."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3390.532,
+          "text": "And in the last administration, even though OMB did not allocate new funding for these efforts, the approval to be able to use our existing funding still took over a year to receive."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3405.068,
+          "text": "We have, several years ago, DOI determined that our significant attrition in our investigative ranks was largely due to an absence of a path to promotion and salaries that are not competitive with other public sector"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3419.168,
+          "text": "opportunities or the private sector."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3421.768,
+          "text": "And as a result, DOI implemented a plan that gave raises and promotions to individual confidential investigators based on merit to appropriately reflect each of their levels of experience, responsibility, and performance, and"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3436.868,
+          "text": "address pay disparity among our deputy inspector generals."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3440.568,
+          "text": "All of whom generally did the same type of work, had similar expertise, and perform at comparable levels, but were paid at different salaries."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3449.068,
+          "text": "And we created a clear promotional path for investigators."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3452.968,
+          "text": "But again, this was, in order to do that, we had to repurpose funds from vacancies."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3458.468,
+          "text": "So we did not receive additional funding for that."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3461.968,
+          "text": "But clearly it's an issue, and we've tried to address it, but it's going to continue to be an issue, and we don't have additional funding to continue to be able to address it."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3472.868,
+          "text": "It's very concerning."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3474.268,
+          "text": "And I think, you know, for lack of a better word, it seems like the agency is robbing Peter to pay Paul."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3478.068,
+          "text": "In other words, using pulling from one area to keep staff and pay for increased salary needs in the other."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3484.568,
+          "text": "Isn't that the case?"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3486.368,
+          "text": "I think that's a good way of putting it."
+        }
+      ]
+    },
+    {
+      "end_sec": 3623.9,
+      "id": "035",
+      "slug": "chair-krishnan-on-iota-training-program-and-losing-trained-investigators-to-other-agencies",
+      "start_sec": 3490.368,
+      "summary": "Krishnan notes the agency is 'robbing Peter to pay Paul.' Shahada describes DOI's in-house IOTA training program that certifies investigators as peace officers, but warns that trained investigators are routinely poached by federal and state agencies after a short time because DOI cannot offer competitive salaries or promotions.",
+      "title": "Chair Krishnan on IOTA training program and losing trained investigators to other agencies",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3490.368,
+          "text": "What does OMB approve?"
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3492.068,
+          "text": "They're not approved."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3493.168,
+          "text": "merit-based promotions or pay increases."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3496.468,
+          "text": "So what are they approving?"
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3498.668,
+          "text": "It sounds like just the transfer of money from one part of the agency to another to fund some of these initiatives."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3503.868,
+          "text": "That's, I believe, what happened in the past administration, that DOI sought approval for promotions and raises,"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3511.468,
+          "text": "was not provided that approval, and then sought approval to use funding for vacancies, for certain existing vacancies, to repurpose that to use it for promotions and raises."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3523.268,
+          "text": "Wow."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3526.916,
+          "text": "And I think the point is well made, too, that it does not allow the agency to remain competitive."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3531.616,
+          "text": "These are positions that are, you know, you're competing with many other parts of the legal sector and otherwise and investigative sector."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3538.316,
+          "text": "It really raises serious questions about how you all can stay competitive if you can't pay well or you can't promote your staff."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3545.016,
+          "text": "Just on that note, I would add, in an effort to provide training opportunities for our investigative staff, DOI developed in-house an investigative officer training program known as IOTA."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3559.016,
+          "text": "And it allows investigators to become certified peace officers."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3566.216,
+          "text": "It trains them up on investigative procedures and tools."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3573.016,
+          "text": "And it's been a very successful program that has resulted in highly trained entry-level investigators once they've gone through that program."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3583.616,
+          "text": "And because we are not able to fund raises and promotions, what we often find is that these investigators that we've spent time and effort training are then"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3597.216,
+          "text": "going after a short amount of time."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3600.0,
+          "text": "And being hired by other federal and state agencies."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3606.3,
+          "text": "And so that's also a challenge where we're investing appropriately in ensuring we have a staff capable of conducting the important investigations that we work on."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3618.2,
+          "text": "But because of our funding issues, we're often not able to keep that staff long term."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3622.7,
+          "text": "Right, right."
+        }
+      ]
+    },
+    {
+      "end_sec": 3721.1,
+      "id": "036",
+      "slug": "chair-krishnan-on-impact-of-funding-cuts-on-public-reports",
+      "start_sec": 3623.9,
+      "summary": "Krishnan asks whether funding cuts will affect DOI's public reports, citing the helpful sanctuary compliance report. Shahada affirms public reports are integral to transparency and she intends to prioritize them, but acknowledges they are time-intensive and budget cuts reduce staff capacity to produce them.",
+      "title": "Chair Krishnan on impact of funding cuts on public reports",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3623.9,
+          "text": "And my last two questions are."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3626.5,
+          "text": "DOI publishes excellent reports that uncover a lot of issues when it comes to corruption or accountability or compliance with the laws that we have."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3637.0,
+          "text": "As we had a hearing earlier this year, your sanctuary report on the compliance of city agencies with sanctuary laws and YPD and DOC was very helpful."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3644.4,
+          "text": "I imagine that you coming in as a new commissioner will want to continue publishing reports, publish more reports perhaps."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3651.6,
+          "text": "Do you see that being affected by the lack of funding?"
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3654.4,
+          "text": "If funding continues at this level and you don't receive an increase, do you all see an ability to be able to continue to increase the number of the amount of reporting you all are doing?"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3663.8,
+          "text": "Well, first, I agree that public reports are incredibly important, and I think overall transparency by DOI is incredibly important."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3672.4,
+          "text": "I think it's integral for us to be letting the public know what it is we're working on,"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3681.2,
+          "text": "what our investigations have found, and to make policy and procedure recommendations to improve the functioning of city government."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3691.1,
+          "text": "I do intend to prioritize the publication of public reports, but as with everything else DOI does, it is affected by the budget and the funding we receive."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3704.7,
+          "text": "Public reports in particular are time-intensive efforts."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3710.4,
+          "text": "And when our staff is cut, again, that provides less staff to work on everything, including issuing public reports."
+        }
+      ]
+    },
+    {
+      "end_sec": 3803.6,
+      "id": "037",
+      "slug": "chair-krishnan-on-4m-needed-for-9-11-investigation-and-public-private-partnership-question",
+      "start_sec": 3721.1,
+      "summary": "Krishnan asks what happens if the $4.5M for the 9/11 investigation isn't funded. Shahada reports the vendor's best and final offer is $4M, which DOI has requested in new needs, but without that funding DOI cannot conduct the investigation at all. Krishnan also asks about public-private partnerships; Shahada says she'll need to look into it.",
+      "title": "Chair Krishnan on $4M needed for 9/11 investigation and public-private partnership question",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3721.1,
+          "text": "And my final question, and I'm sure Councilman Abreu will ask more about this too, but we've got a budget request for about $4.5 million for the 9-11 investigation."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3730.8,
+          "text": "If that money is not in the budget, do you all see your ability to, will you be able to complete the report?"
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3738.4,
+          "text": "Will you be able to finish the investigation or even hire the outside vendor you had in mind?"
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3743.8,
+          "text": "What will happen if that money is not in the budget for this critical investigation?"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3748.1,
+          "text": "So first of all, the good news is I think we can do it for a little bit less."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3751.1,
+          "text": "We can do it for $4 million."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3752.8,
+          "text": "That's the best and final offer we received from the vendor."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3757.3,
+          "text": "So that is what we've requested in our new needs for the adopted budget."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3760.6,
+          "text": "It's $4 million."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3762.4,
+          "text": "But without that $4 million."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3763.6,
+          "text": "We'll try to get you the $4.5 million anyway."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3764.9,
+          "text": "You need the money for other stuff too."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3767.2,
+          "text": "We'll take it."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3769.8,
+          "text": "But without that money, we will not be able to conduct that investigation."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3774.7,
+          "text": "And we would like to receive that money so we can get to work."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3778.4,
+          "text": "Thank you, Commissioner."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3779.1,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3780.1,
+          "text": "Sorry, just really quickly following up on that."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3782.0,
+          "text": "Is there a way to, I don't know what the legal parameters are around this, but is there a way to do public-private partnerships, either with other law firms, have MOUs in place to be creative when thinking through the cost?"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3795.8,
+          "text": "I'll have to get back to you on that."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3797.2,
+          "text": "I don't know the answer off the top of my head."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3799.1,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 3800.7,
+          "text": "Councilmember Brewer, followed by Councilmember Joann."
+        }
+      ]
+    },
+    {
+      "end_sec": 3863.2,
+      "id": "038",
+      "slug": "council-member-brewer-on-fifa-spending-oversight-and-nypd-ig-hiring",
+      "start_sec": 3803.6,
+      "summary": "Brewer raises FIFA as an example of fast money going out the door where DOI oversight is needed. Shahada agrees expedited spending carries the highest corruption risk. Brewer then asks about the NYPD IG; Shahada confirms the position has been posted, resumes are being reviewed, and interviews will begin shortly.",
+      "title": "Council Member Brewer on FIFA spending oversight and NYPD IG hiring",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3803.6,
+          "text": "I don't trust the other law firms, I'll just tell you."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3807.3,
+          "text": "First of all, thank you, and thank you for your testimony, because most people don't say they need more money, and we appreciate your honesty."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3815.6,
+          "text": "I feel very strongly, as I think my colleagues do, that it's important, and I want to thank the speaker and everybody who made today's hearing possible for that reason."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3824.4,
+          "text": "Just before we get to the many questions about the funding for what I would call the resolution for 9-11, but also, you know, things like FIFA are coming up."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3835.3,
+          "text": "Now, that's going to be fast money out the door."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3837.7,
+          "text": "That would be something where you'd be looking at that as an example of something where you need more staff to pay attention."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3844.7,
+          "text": "You know, we're always looking at any time the city is spending money on an expedited basis or on an emergency basis."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3852.6,
+          "text": "Those are always areas where the risk of corruption and waste is often the highest."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3857.8,
+          "text": "And so those are areas we do look at."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3861.6,
+          "text": "Okay, FIFA."
+        }
+      ]
+    },
+    {
+      "end_sec": 4124.032,
+      "id": "039",
+      "slug": "council-member-brewer-on-9-11-article-78-proceeding-records-and-investigation-timeline",
+      "start_sec": 3863.2,
+      "summary": "Brewer discusses the 9/11 Health Watch Article 78 victory, noting the city rarely loses such proceedings, and asks about the unusual discovery order. Shahada won't comment on the litigation but confirms DOI has already identified where relevant records should be located across city agencies and is ready to begin the investigation once funding is secured, with an estimated two-year timeline from funding start.",
+      "title": "Council Member Brewer on 9/11 Article 78 proceeding, records, and investigation timeline",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3863.2,
+          "text": "And then also, are you still working on NYPD monitors?"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3866.5,
+          "text": "Is that something you're still looking for a new head, or has that been?"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3871.7,
+          "text": "We are in the process of hiring an IG for the NYPD."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3876.9,
+          "text": "The position has been posted."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 3878.6,
+          "text": "We have been reviewing resumes that we have received, and we will begin the interviewing process shortly on that."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3886.3,
+          "text": "Great."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3886.5,
+          "text": "Congratulations."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3887.6,
+          "text": "So obviously we passed a resolution in the city council to have 9-11 information available to the public."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3897.4,
+          "text": "We couldn't find any other way except this wonderful opportunity for DOI to do the work."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3901.8,
+          "text": "And I said from the very beginning, no matter what we do, we need you and your team, the people you're going to hire, hopefully with this $4 million or $4.5 million, to do the work."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3912.4,
+          "text": "Because the only agency they came through, as you know, was the Department of Environmental Protection."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3919.7,
+          "text": "And those boxes, I went through some of them."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3923.1,
+          "text": "There was some information there, but not exactly what we were looking for."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3926.8,
+          "text": "But I appreciate that that happened."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3928.8,
+          "text": "And I happen to know that those boxes only came about because the commissioner at the time said, find them."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3934.4,
+          "text": "They were lost."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3935.1,
+          "text": "They couldn't put them together."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3936.4,
+          "text": "And originally people said they couldn't find them."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3938.5,
+          "text": "Well, this Article 78 is very interesting."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3941.4,
+          "text": "To the credit of the 9-11 Health Watch, they went to court."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3945.5,
+          "text": "And they won on Article 78 because, and I have great respect for the head of the law department, C."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3952.7,
+          "text": "Banks, but his FOIL people said they had no boxes."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3956.7,
+          "text": "Well, we know that there are boxes."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3960.1,
+          "text": "We know, for instance, that in the archives of a very special reporter who was a friend of all of ours in Texas, we found a letter that was a memo that was sent to Bob Harding."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3971.2,
+          "text": "So we know there are boxes."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3972.4,
+          "text": "We know there's information."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3974.1,
+          "text": "And for whatever reason, the folks at the law department can't find anything, which I don't believe."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3980.8,
+          "text": "So my understanding is that the city of New York rarely loses an Article 78 proceeding."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3986.9,
+          "text": "In fact, I don't even know there's a prior example of losing one, at least recently in Article 78."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3993.3,
+          "text": "But an order of discovery against the city of New York, in addition, regarding an Article 78, is very, very unusual."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 4000.8,
+          "text": "So I'd love you to comment to see if I'm correct that perhaps the only way to get this information is to do the kind of work that I hope you would be able to do if you get the funding."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 4011.5,
+          "text": "I just was wondering if you could comment on the Article 78 and the discovery and the fact that this is the only way to get this information."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 4020.6,
+          "text": "So I'm not prepared to comment on the Article 78 proceeding, but I will say that as part of its efforts to be prepared to conduct the"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 4031.4,
+          "text": "9-11 toxins investigation once the funding is secured, that DOI"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 4038.0,
+          "text": "made inquiries of various city agencies that one would expect to have the type of records that would be relevant to the investigation, received responses from those agencies."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 4049.2,
+          "text": "And so..."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 4050.0,
+          "text": "is aware of where the relevant records should be located."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 4056.0,
+          "text": "And once we have the funding to begin the investigation, the process of fully accessing those records, some of which may be in systems that require technological"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 4070.0,
+          "text": "issues to be addressed because they're old systems, but to compile that information and start to go through it and start to investigate the matter that you all have asked us to."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 4082.7,
+          "text": "We are ready to get that started, and all we are waiting for is the funding."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 4086.3,
+          "text": "Do you have any sense from the company or from past experience how long it might take to do this work?"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 4095.632,
+          "text": "So I think the initial plan, had we been funded, when the council mandated us to conduct this investigation, was to complete it within two years."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 4109.732,
+          "text": "I think that is the timeline we're looking at, since almost a year of that has gone by now without getting the funding."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 4116.432,
+          "text": "I think we will need..."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 4118.632,
+          "text": "Two years from when we get the funding, but that is the goal and I think it's achievable."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 4123.532,
+          "text": "Okay."
+        }
+      ]
+    },
+    {
+      "end_sec": 4183.532,
+      "id": "040",
+      "slug": "council-member-brewer-on-foil-system-improvements",
+      "start_sec": 4124.032,
+      "summary": "Brewer raises concerns about the FOIL system after the law department claimed no records existed despite evidence to the contrary. Shahada acknowledges the frustration from her private practice experience and suggests FOIL could be an area DOI examines, which Brewer encourages.",
+      "title": "Council Member Brewer on FOIL system improvements",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 4124.032,
+          "text": "And also just on a sort of an additional issue, I'm concerned about the fact that the FOIL stated or the FOIL staff stated that they had no records."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 4135.532,
+          "text": "Do you have any sense maybe from past experience why or how we could improve the FOIL system?"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 4141.132,
+          "text": "I know there is at the Department of Records, there's now a dashboard and there's more information about FOIL in general, but it does seem to me that there needs to be a better system for FOIL."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 4151.932,
+          "text": "Do you have any sense of how that should work?"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 4156.132,
+          "text": "I don't have any recommendations right now about FOIL."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 4162.732,
+          "text": "I can tell you as when I was in private practice, I filed some FOIL, so I understand the frustration there."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 4170.132,
+          "text": "And I think that may be an area that DOI can also look into."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 4176.132,
+          "text": "It's a very important area, of course."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 4178.132,
+          "text": "That's what I was trying to hint at, so I appreciate that you have that interest in addition."
+        }
+      ]
+    },
+    {
+      "end_sec": 4305.632,
+      "id": "041",
+      "slug": "council-member-brewer-on-records-management-staff-retention-and-support-for-9-11-funding",
+      "start_sec": 4183.532,
+      "summary": "Brewer suggests the 9/11 investigation could serve as a model for DOI's capabilities in complex investigations, raises concerns about disorganized city warehouse records, and notes the council previously hired DOI-trained investigators who were excellent. She pledges to fight for the 9/11 funding and emphasizes the Article 78 win demonstrates why it's needed.",
+      "title": "Council Member Brewer on records management, staff retention, and support for 9/11 funding",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 4183.532,
+          "text": "I also, I think that there are, you know, that this would be a wonderful example if we get the funding, which I hope we will, to state that"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 4194.332,
+          "text": "the Department of Investigation has full capability of doing these, what I would probably be challenging and complicated investigations."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 4202.532,
+          "text": "This would be an example."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 4203.932,
+          "text": "And that this is the way that we should be looked at for the future."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 4208.832,
+          "text": "There's not only waste and fraud, there's also just better government."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 4212.832,
+          "text": "I have a feeling, I could be wrong, that there are a whole bunch of boxes and records around the city that are in different warehouses that need to have some kind of organizational"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 4227.132,
+          "text": "improvement, shall we say."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 4228.732,
+          "text": "And so I'm hoping that in addition to this, that there is that also comes about."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 4233.432,
+          "text": "I've been in several warehouses recently, and oh my goodness, nobody knows what's exactly there."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 4239.132,
+          "text": "So I think this would be a good example to try to use for others."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 4242.232,
+          "text": "And then just finally, I just want to agree with my colleagues saying you need the funding to be able to do the work."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 4248.732,
+          "text": "That you have been assigned."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 4251.032,
+          "text": "Without the funding, you cannot do it."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 4253.132,
+          "text": "I have to say that we did, some years ago, steal some of your staff who came to the city council as investigators, and they're fabulous, and attorneys, and they're fabulous, and you train them very well, or your agency trained them very well."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 4265.732,
+          "text": "So you do need to retain, that's a complicated,"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 4270.532,
+          "text": "job to be an investigator and to do it well."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 4273.232,
+          "text": "That was so important."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 4274.232,
+          "text": "So I'm just here to say we're all going to fight for the money for this particular 9-11."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 4280.232,
+          "text": "I think that the fact that, you know, the Article 78 was won is a perfect example of why we need to do it, because obviously the city has not done their job in terms of responding to the FOIL."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 4290.332,
+          "text": "That's a huge win for the 9-11 Health Watch."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 4295.332,
+          "text": "Thank you very much, and I look forward to..."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 4299.132,
+          "text": "Making sure that this information is available to the public."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 4302.632,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 4303.632,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 4304.132,
+          "text": "Councilmember Joy?"
+        }
+      ]
+    },
+    {
+      "end_sec": 4451.848,
+      "id": "042",
+      "slug": "council-member-ariola-on-homeless-services-spending-and-corruption-concerns",
+      "start_sec": 4305.632,
+      "summary": "Ariola raises concerns about NYC spending approximately $81K per person on homeless services, citing a lobbyist who described payments to developers, and asks whether DOI is investigating potential corruption in homeless services contracting. Shahada confirms DOI has historically investigated shelter-related issues, issued public reports with recommendations, and will continue to look at the area.",
+      "title": "Council Member Ariola on homeless services spending and corruption concerns",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 4305.632,
+          "text": "Thank you, Chair, and very nice to meet you, Commissioner, first time."
+        },
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 4309.632,
+          "text": "And I think DOI's job is very important, and also the money cities spend on DOI should be able to recoup from corruptions."
+        },
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 4320.832,
+          "text": "For New York City has been, I see the report before, New York City spent roughly 81K per person on homeless services last year."
+        },
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 4332.232,
+          "text": "And are you guys doing any investigation on this issue?"
+        },
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 4336.532,
+          "text": "It really needs that money."
+        },
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 4338.532,
+          "text": "And I do see some developer."
+        },
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 4343.332,
+          "text": "They are trying to make money from most vulnerable community."
+        },
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 4350.232,
+          "text": "There's a developer, a lobbyist personally come to me and saying, well, we give so-and-so"
+        },
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 4360.632,
+          "text": "this much of money."
+        },
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 4362.032,
+          "text": "I see there's corruption."
+        },
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 4364.132,
+          "text": "And a lot of people in New York City have a question mark in their head."
+        },
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 4369.032,
+          "text": "It's why the city spent so much money on every single homeless person."
+        },
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 4375.432,
+          "text": "We want to help a homeless person, but why those..."
+        },
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 4380.532,
+          "text": "Has such $81,000 a year, it's a median income,"
+        },
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 4386.032,
+          "text": "house family income a year."
+        },
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 4388.432,
+          "text": "So it doesn't make sense to most of people how much the city spend the money, how do they spend the money, is there any corruption there, is those homeless people really get helped."
+        },
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 4400.532,
+          "text": "I just want to get your attention on this issue because it's a lot of"
+        },
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 4406.632,
+          "text": "people's concern."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 4409.132,
+          "text": "Thank you for raising that."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 4411.732,
+          "text": "It's certainly an area where historically we have investigated and put resources to and issued public reports including on"
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 4422.232,
+          "text": "some of the issues surrounding shelters and issued recommendations on how to improve in those areas."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 4430.632,
+          "text": "But it's certainly something we've looked at and will continue to look at."
+        },
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 4433.832,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 4434.232,
+          "text": "And the public really needs to trust your work because it's not your appointment."
+        },
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 4440.432,
+          "text": "It's not only from the mayor."
+        },
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 4442.032,
+          "text": "It's also public trust."
+        },
+        {
+          "speaker": "Nadia Shihata",
+          "t_sec": 4444.132,
+          "text": "Absolutely."
+        },
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 4444.732,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 4447.348,
+          "text": "Okay, great."
+        }
+      ]
+    },
+    {
+      "end_sec": 4476.757,
+      "id": "043",
+      "slug": "chair-krishnan-closes-doi-budget-hearing",
+      "start_sec": 4451.848,
+      "summary": "Chair Krishnan thanks Commissioner Shahada and her team for testifying, and concludes the DOI budget hearing and the day's hearings.",
+      "title": "Chair Krishnan closes DOI budget hearing",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 4451.848,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 4453.248,
+          "text": "I think with that, it concludes actually our budget hearing with DOI and for the day, actually."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 4461.048,
+          "text": "So I want to thank you so much, Commissioner, for coming out to testify and for your team being here."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 4467.448,
+          "text": "So thank you so much."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 4469.248,
+          "text": "And that concludes our hearing for today."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 4471.548,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 4471.848,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 4472.748,
+          "text": "Thank you, Commissioner."
+        }
+      ]
+    }
+  ],
+  "date": "2026-06-02",
+  "duration_sec": 4476.757,
+  "slug": "2026-06-02-0400-pm-committee-on-oversight-and-investigations",
+  "summary": [
+    "NYC Council holds FY27 Executive Budget Hearing for the Department of Investigation, with Commissioner Nadia Shahada testifying in her sixth week on the job about DOI's severe budget crisis.",
+    "Commissioner Shahada requests $6M to stabilize DOI operations and $4M for the council-mandated 9/11 toxins investigation, warning that headcount has dropped from 588 to 444 since FY2020 and forfeiture funds will run dry in 2-3 years.",
+    "Council members Lee, Krishnan, Brewer, and Ariola press Shahada on budget cuts, staff retention challenges, forfeiture fund sustainability, the 9/11 investigation timeline, and homeless services oversight, with broad agreement that DOI needs more funding and budgetary independence."
+  ],
+  "tags": [
+    "HEARING"
+  ],
+  "time": "4:00 PM",
+  "title": "Committee on Oversight and Investigations",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-1_260602-160353/video-web.mp4"
+  }
+}

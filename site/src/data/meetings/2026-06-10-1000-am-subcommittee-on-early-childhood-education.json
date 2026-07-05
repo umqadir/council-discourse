@@ -1,0 +1,671 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 21.0,
+      "id": "001",
+      "slug": "call-to-order-and-welcome-to-subcommittee-on-early-childhood-education",
+      "start_sec": 0.8,
+      "summary": "Council staff calls the meeting to order and welcomes attendees to the New York City Subcommittee on Early Childhood Education vote.",
+      "title": "Call to order and welcome to Subcommittee on Early Childhood Education",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 0.8,
+          "text": "You got this paper."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 12.1,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 12.7,
+          "text": "Welcome to the New York City Subcommittee on Early Childhood Education."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 16.4,
+          "text": "Please do not approach the days."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 18.1,
+          "text": "Chair, we are ready to begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 47.3,
+      "id": "002",
+      "slug": "chair-guti-rrez-opens-vote-and-acknowledges-committee-members",
+      "start_sec": 21.0,
+      "summary": "Chair Jennifer Guti\u00e9rrez convenes the vote, acknowledging present colleagues including Councilmembers Joseph, Brewer, Felder, and Riley online.",
+      "title": "Chair Guti\u00e9rrez opens vote and acknowledges committee members",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 21.0,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 21.5,
+          "text": "Good morning, everyone."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 22.5,
+          "text": "I'm Councilmember Jennifer Gutierrez, Chair of the Subcommittee on Early Childhood Education."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 27.2,
+          "text": "Welcome to today's vote."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 28.9,
+          "text": "First, I want to acknowledge my colleagues who are present for the committee, Councilmember Forever Chair Rita Joseph, Councilmember Gail Brewer, Councilmember Simcha Felder, and online we have Councilmember Riley and Councilmember Juan."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 41.7,
+          "text": "Yes?"
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 44.2,
+          "text": "Okay, I take it back."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 45.3,
+          "text": "Just Councilmember Riley."
+        }
+      ]
+    },
+    {
+      "end_sec": 78.1,
+      "id": "003",
+      "slug": "guti-rrez-frames-defining-moment-for-universal-child-care-in-nyc",
+      "start_sec": 47.3,
+      "summary": "Chair Guti\u00e9rrez describes a landmark moment for universal child care, citing recent state-level funding boosts and buy-in across government levels as an opportunity to transform children's and families' lives.",
+      "title": "Guti\u00e9rrez frames defining moment for universal child care in NYC",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 47.3,
+          "text": "Today, the subcommittee will consider a package of legislation geared towards improving New York's early childhood education system."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 53.3,
+          "text": "We have reached a defining moment in the movement for universal child care in New York City."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 57.2,
+          "text": "A few weeks ago, the state legislature made a landmark investment in child care."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 62.0,
+          "text": "The boost in early childhood education funding, plus the buy-in from leadership across all levels of New York government, has created an opportunity to truly transform the lives of children and families."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 74.1,
+          "text": "But we need to ensure that the system..."
+        }
+      ]
+    },
+    {
+      "end_sec": 102.1,
+      "id": "004",
+      "slug": "guti-rrez-reviews-prior-hearings-on-early-childhood-education-system-issues",
+      "start_sec": 78.1,
+      "summary": "Chair Guti\u00e9rrez summarizes the subcommittee's recent hearings with providers, families, and advocates, noting the legislation being voted on addresses issues raised and prepares the system for future growth.",
+      "title": "Guti\u00e9rrez reviews prior hearings on early childhood education system issues",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 78.1,
+          "text": "We are expanding upon is strong."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 80.1,
+          "text": "Over the course of the last several months, the subcommittee has held hearings where we've heard from providers, families, and advocates about a range of issues within the New York City early childhood education system."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 90.5,
+          "text": "Welcome to Deputy Speaker Nantasha Williams, who's joining us."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 94.2,
+          "text": "Let's go next."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 95.6,
+          "text": "The legislation we're considering today takes an important first step at addressing some of those issues and preparing the system for future growth."
+        }
+      ]
+    },
+    {
+      "end_sec": 152.3,
+      "id": "005",
+      "slug": "guti-rrez-presents-intro-579a-outreach-campaign-for-early-childhood-education-enrollment",
+      "start_sec": 102.1,
+      "summary": "Chair Guti\u00e9rrez describes her sponsored bill requiring DOE to run an annual outreach and education campaign about early childhood education programs, covering benefits, options, application processes, and available seats to boost enrollment.",
+      "title": "Guti\u00e9rrez presents Intro 579A: outreach campaign for early childhood education enrollment",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 102.1,
+          "text": "I'm proud to be the lead sponsor of one of the bills the subcommittee will be considering, proposed Intro 579A,"
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 108.5,
+          "text": "in relation to an education and outreach campaign to enroll students in early childhood education programs would require the Department of Education to develop and implement an annual outreach and education campaign regarding early childhood education programs."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 121.3,
+          "text": "The outreach would include information on the benefits of participating in early childhood education, the options for early childhood education, the application process, and the resources to find programs that may have available seats."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 133.2,
+          "text": "This year, roughly the same number of New York City parents applied to preschool programs as they did last year."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 138.8,
+          "text": "We need to ensure that we're reaching all families about the early childhood education options available to them."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 144.9,
+          "text": "This bill aims to engage more families about those options and boost enrollment in early childhood education programs."
+        }
+      ]
+    },
+    {
+      "end_sec": 188.9,
+      "id": "006",
+      "slug": "guti-rrez-presents-intro-9a-study-on-child-care-permitting-and-licensing-processes",
+      "start_sec": 152.3,
+      "summary": "Chair Guti\u00e9rrez explains Councilmember Linda Lee's bill requiring the Mayor's Office of Child Care to study DOHMH permitting and state licensing processes, report on overlaps and contradictions, and recommend streamlining.",
+      "title": "Guti\u00e9rrez presents Intro 9A: study on child care permitting and licensing processes",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 152.3,
+          "text": "The subcommittee will also be considering proposed Intro 9A sponsored by Councilmember Linda Lee in relation to a study and report on the processes for obtaining permits and licenses or registrations to operate a child care program."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 165.8,
+          "text": "This bill would require the Mayor's Office of Child Care to continue its work on reviewing child care holistically by studying the process to get a permit from DOHMH and to get a license or registration from the New York State Office of Child and Family Services."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 179.3,
+          "text": "This bill would require..."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 180.2,
+          "text": "a report on the office's study of those processes and shine a light on any overlaps and contradictions and provide recommendations for streamlining."
+        }
+      ]
+    },
+    {
+      "end_sec": 214.3,
+      "id": "007",
+      "slug": "guti-rrez-presents-resolution-165-paid-family-leave-transfer-to-grandparents",
+      "start_sec": 188.9,
+      "summary": "Chair Guti\u00e9rrez introduces Deputy Speaker Williams's resolution calling on the state legislature to amend workers' compensation law to allow unused paid family leave to transfer to grandparents and other designated caregivers.",
+      "title": "Guti\u00e9rrez presents Resolution 165: paid family leave transfer to grandparents",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 188.9,
+          "text": "The subcommittee will also consider two resolutions that call on the New York State Legislature to pass legislation in relation to child care."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 196.6,
+          "text": "Resolution 165, sponsored by our Deputy Speaker, calls on the New York State Legislature to introduce and pass and the Governor to sign legislation to amend the workers'compensation law in relation to allowing unused paid family leave"
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 209.8,
+          "text": "to be transferred to grandparents and other designated caregivers."
+        }
+      ]
+    },
+    {
+      "end_sec": 237.1,
+      "id": "008",
+      "slug": "guti-rrez-presents-resolution-365a-removing-minimum-wage-requirements-for-child-care-assistance",
+      "start_sec": 214.3,
+      "summary": "Chair Guti\u00e9rrez presents Councilmember Riley's resolution urging the state to pass Senate Bill 1994 and Assembly Bill 2218, which would remove minimum wage and hours requirements for child care assistance applicants.",
+      "title": "Guti\u00e9rrez presents Resolution 365A: removing minimum wage requirements for child care assistance",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 214.3,
+          "text": "Proposed Res."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 215.3,
+          "text": "365A, sponsored by Councilmember Riley, calls on the New York State Legislature to pass and the Governor to sign"
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 223.0,
+          "text": "Senate Bill 1994, Assembly Bill 2218, to remove the minimum wage and hours requirements for applicants of child care assistance."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 230.8,
+          "text": "These state bills make small, important changes that impact the ability of families in accessing child care supports."
+        }
+      ]
+    },
+    {
+      "end_sec": 278.5,
+      "id": "009",
+      "slug": "guti-rrez-urges-support-for-legislative-package-and-thanks-subcommittee-staff",
+      "start_sec": 237.1,
+      "summary": "Chair Guti\u00e9rrez closes her opening remarks by encouraging colleagues to support the package, thanking subcommittee and personal staff by name, and acknowledging her baby Lulu.",
+      "title": "Guti\u00e9rrez urges support for legislative package and thanks subcommittee staff",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 237.1,
+          "text": "All of the legislation we've considered today responds to everyday challenges people face when interacting with the early childhood education system in New York City."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 245.9,
+          "text": "I encourage my fellow committee members to support this legislative package."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 249.6,
+          "text": "Today we can make small improvements to one of our city's most foundational systems."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 253.8,
+          "text": "Finally, I would like to thank the subcommittee staff, Julia Goldsmith-Pinkham, Katie Selena, Grace Amato, Andrew Lane Lawless, and Margaret Barnsley, as well as my own staff, Frank Hulka and El Alau for their work to prepare this meeting, and to my baby, Lulu."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 269.2,
+          "text": "Clerk, we are ready to..."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 270.2,
+          "text": "Begin."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 271.7,
+          "text": "Oh, and pause."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 276.9,
+          "text": "Oh, okay, I get to read more."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 278.2,
+          "text": "Okay."
+        }
+      ]
+    },
+    {
+      "end_sec": 318.2,
+      "id": "010",
+      "slug": "guti-rrez-reads-councilmember-lee-s-statement-on-the-child-care-access-crisis",
+      "start_sec": 278.5,
+      "summary": "On behalf of Councilmember Lee, Chair Guti\u00e9rrez reads a statement describing how child care is impossible to find for many families, with providers stuck in paperwork and families losing income when care is unavailable.",
+      "title": "Guti\u00e9rrez reads Councilmember Lee's statement on the child care access crisis",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 278.5,
+          "text": "Sorry."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 279.0,
+          "text": "It's okay."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 281.2,
+          "text": "I'm going to read this on behalf of Councilmember Lee, who's passing legislation today regarding Intro 9A."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 289.9,
+          "text": "For too many families in New York City, child care is not just expensive, it is impossible to find."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 294.9,
+          "text": "Parents are ready to go back to work but cannot find a safe, reliable place for their child."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 299.5,
+          "text": "Providers are ready to serve more families but are forced to spend months navigating paperwork, inspections, approvals, and unclear agency processes."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 308.0,
+          "text": "That is time families do not have."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 310.1,
+          "text": "When a parent cannot find child care, a whole household is affected."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 313.2,
+          "text": "A mother turns down a shift."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 314.9,
+          "text": "A father misses work."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 316.4,
+          "text": "A family loses income."
+        }
+      ]
+    },
+    {
+      "end_sec": 382.408,
+      "id": "011",
+      "slug": "guti-rrez-reads-lee-s-statement-how-intro-9a-addresses-permitting-barriers",
+      "start_sec": 318.2,
+      "summary": "Continuing Lee's statement, Guti\u00e9rrez explains that Intro 9A does not weaken safety standards but makes rules clear and coordinated, identifies delays, and builds a permitting process that protects children without blocking access to care.",
+      "title": "Guti\u00e9rrez reads Lee's statement: how Intro 9A addresses permitting barriers",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 318.2,
+          "text": "A child loses the chance to begin learning, playing, and growing in a safe early childhood setting."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 323.0,
+          "text": "Intro 9A is about taking that problem seriously."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 326.1,
+          "text": "The bill does not weaken health and safety standards."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 328.6,
+          "text": "It does the opposite."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 329.9,
+          "text": "It says that safety rules should be clear, coordinated, and workable."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 334.8,
+          "text": "Providers should know what is required, which agency is responsible, and how long each step should take."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 344.708,
+          "text": "If we want universal child care to become real, we cannot allow good providers to get stuck in a maze before they even open their doors."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 350.908,
+          "text": "New York City needs more child care seats, but we also need a system that helps create those seats responsibly, quickly, and fairly."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 358.008,
+          "text": "Intro 9A is a practical step towards that goal."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 360.808,
+          "text": "It will help us identify the delays, listen to providers and families, and build a permitting process that protects children without blocking access to care."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 368.608,
+          "text": "I'm grateful to me, Speaker Menon, and all the advocates, providers, and families who have helped move this bill forward."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 376.008,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 376.608,
+          "text": "Congrats, Councilmember Lee."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 379.608,
+          "text": "Okay, we're ready for a vote, friend."
+        }
+      ]
+    },
+    {
+      "end_sec": 437.012,
+      "id": "012",
+      "slug": "roll-call-vote-on-all-early-childhood-education-items",
+      "start_sec": 382.408,
+      "summary": "Committee Clerk William Martin conducts a roll call vote on all coupled items. Chair Guti\u00e9rrez, Councilmembers Riley, Brewer, Joseph, and Felder vote aye, with Brewer noting concerns about burdens on providers.",
+      "title": "Roll call vote on all early childhood education items",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 382.408,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 382.808,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 383.408,
+          "text": "William Martin, Committee Clerk, Roll Call Vote Committee on Subcommittee on Early Childhood Education."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 388.608,
+          "text": "All items are coupled."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 390.308,
+          "text": "Chair Gutierrez."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 392.208,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 392.908,
+          "text": "Proudly aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 394.608,
+          "text": "Riley."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 396.108,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 397.008,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 398.308,
+          "text": "Brewer."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 400.808,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 401.508,
+          "text": "I do think that the..."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 403.608,
+          "text": "Ready, so I always worry about burdens having worked for many of them in the past, but I vote aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 410.308,
+          "text": "Joseph."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 411.908,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 413.608,
+          "text": "One."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 417.512,
+          "text": "Felder."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 425.312,
+          "text": "Can you vote?"
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 426.512,
+          "text": "And then we'll ask the question later."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 432.512,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 433.412,
+          "text": "Yes, on all."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 435.512,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 459.477,
+      "id": "013",
+      "slug": "all-items-approved-by-subcommittee",
+      "start_sec": 437.012,
+      "summary": "The clerk announces a vote of five in the affirmative, zero in the negative, and no abstentions. All items in the early childhood education legislative package are approved by the subcommittee.",
+      "title": "All items approved by subcommittee",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 437.012,
+          "text": "Santos also."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 441.412,
+          "text": "With a vote of five in the affirmative, zero in the negative, and no abstentions, all items have been approved by the subcommittee."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 451.072,
+          "text": "We're all done."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 452.672,
+          "text": "Thank you."
+        }
+      ]
+    }
+  ],
+  "date": "2026-06-10",
+  "duration_sec": 459.477,
+  "slug": "2026-06-10-1000-am-subcommittee-on-early-childhood-education",
+  "summary": [
+    "The NYC Council Subcommittee on Early Childhood Education votes on a package of legislation including Intro 579A (outreach campaign), Intro 9A (permitting study), and two state-level resolutions on paid family leave and child care assistance eligibility.",
+    "Chair Jennifer Guti\u00e9rrez frames the vote as a defining moment for universal child care, citing recent state funding boosts and prior subcommittee hearings with providers, families, and advocates.",
+    "All items pass with a 5-0 vote, with Councilmember Brewer expressing cautious support and concerns about provider burdens."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "10:00 AM",
+  "title": "Subcommittee on Early Childhood Education",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-2_260610-103718/video-web.mp4"
+  }
+}
