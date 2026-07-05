@@ -44,6 +44,39 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y ffmpeg poppler-utils
 
+      - name: Preflight API checks
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+        run: |
+          python - <<'PY'
+          import json, os, sys, urllib.request
+
+          def get(url, key):
+              req = urllib.request.Request(url, headers={"Authorization": f"Bearer {key}"})
+              with urllib.request.urlopen(req, timeout=30) as resp:
+                  return json.load(resp)
+
+          failed = False
+          try:
+              data = get("https://openrouter.ai/api/v1/credits", os.environ["OPENROUTER_API_KEY"])["data"]
+              remaining = float(data["total_credits"]) - float(data["total_usage"])
+              print(f"openrouter credits remaining: ${remaining:.2f}")
+              if remaining < 1.0:
+                  print("::error::OpenRouter credits exhausted - add credits at https://openrouter.ai/settings/credits before meetings can be processed")
+                  failed = True
+          except Exception as exc:
+              print(f"::error::OpenRouter preflight failed: {exc}")
+              failed = True
+          try:
+              get("https://api.mistral.ai/v1/models", os.environ["MISTRAL_API_KEY"])
+              print("mistral auth: ok")
+          except Exception as exc:
+              print(f"::error::Mistral preflight failed (check key/billing): {exc}")
+              failed = True
+          sys.exit(1 if failed else 0)
+          PY
+
       - name: Discover pending meetings
         id: discover
         run: |
