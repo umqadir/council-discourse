@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import hashlib
+import json
 import os
 import shutil
 import time
@@ -10,16 +12,38 @@ import httpx
 
 from . import transcribe as transcribe_mod
 from .artifacts import clean_text, read_json, round_sec, write_json, write_jsonl
+from .config import voxtral_mode, voxtral_usd_per_audio_hour
 from .models import Meeting
-from .utils import load_dotenv
+from .utils import load_dotenv, utc_now_iso
 
 DEFAULT_PROD_CHUNK_SEC = 1_800.0
 DEFAULT_INTER_CHUNK_DELAY_SEC = 8.0
 DEFAULT_BACKOFF_BASE_SEC = 10.0
 DEFAULT_BACKOFF_MAX_SEC = 300.0
 DEFAULT_MAX_ATTEMPTS = 7
+DEFAULT_BATCH_POLL_BUDGET_SEC = 4_500.0
+DEFAULT_BATCH_POLL_INTERVAL_SEC = 30.0
+MISTRAL_API_BASE_URL = "https://api.mistral.ai/v1"
+MISTRAL_FILES_URL = f"{MISTRAL_API_BASE_URL}/files"
+MISTRAL_BATCH_JOBS_URL = f"{MISTRAL_API_BASE_URL}/batch/jobs"
+VOXTRAL_BATCH_ENDPOINT = "/v1/audio/transcriptions"
+VOXTRAL_BATCH_JOB_FILENAME = "voxtral-batch-job.json"
 
 RequestFunc = Callable[[Path, str, list[str]], tuple[dict[str, Any], dict[str, Any]]]
+
+
+class VoxtralBatchPending(RuntimeError):
+    def __init__(self, job_id: str, status: str, budget_sec: float) -> None:
+        self.job_id = job_id
+        self.status = status
+        self.budget_sec = budget_sec
+        super().__init__(
+            f"Voxtral batch job {job_id} is still {status} after {round_sec(budget_sec)}s poll budget"
+        )
+
+
+class _BatchJobNotFound(RuntimeError):
+    pass
 
 
 def transcribe_voxtral_production(
@@ -50,14 +74,24 @@ def transcribe_voxtral_production(
     started = time.monotonic()
 
     parts, split_meta = _production_parts(meeting.meeting_dir, audio, duration)
-    request = request_func or _request_voxtral_transcription_with_backoff
-    utterances, labeled, merged_result, part_records = _transcribe_voxtral_parts_resumable(
-        meeting.meeting_dir,
-        parts,
-        model,
-        context_bias,
-        request,
-    )
+    mode = "sync" if request_func is not None else voxtral_mode()
+    if mode == "sync":
+        request = request_func or _request_voxtral_transcription_with_backoff
+        utterances, labeled, merged_result, part_records = _transcribe_voxtral_parts_resumable(
+            meeting.meeting_dir,
+            parts,
+            model,
+            context_bias,
+            request,
+        )
+    else:
+        utterances, labeled, merged_result, part_records = _transcribe_voxtral_parts_batch(
+            meeting.meeting_dir,
+            parts,
+            model,
+            context_bias,
+            meeting_key=meeting.meeting_key,
+        )
     wall_clock = time.monotonic() - started
     if not utterances:
         raise RuntimeError("Voxtral returned no timestamped segments")
@@ -68,8 +102,10 @@ def transcribe_voxtral_production(
     meta = {
         "backend": "voxtral",
         "profile": "production",
+        "mode": mode,
         "engine": "mistral-audio-transcriptions",
         "model": model,
+        "pricing_usd_per_audio_hour": voxtral_usd_per_audio_hour(mode),
         "audio_file": str(audio),
         "audio_duration_sec": round_sec(duration),
         "utterances_output": str(output),
@@ -163,13 +199,11 @@ def _transcribe_voxtral_parts_resumable(
         raw_path = meeting_dir / f"voxtral-transcript-part-{part_index}.json"
         result: dict[str, Any] | None = None
         request_meta: dict[str, Any]
-        if raw_path.exists():
-            try:
-                result = read_json(raw_path)
-                request_meta = {"reused": True, "attempts": 0, "wall_clock_sec": 0.0}
-            except Exception:
-                raw_path.unlink(missing_ok=True)
-                result = None
+        result = _read_valid_voxtral_part(raw_path)
+        if result is not None:
+            request_meta = {"reused": True, "attempts": 0, "wall_clock_sec": 0.0}
+        elif raw_path.exists():
+            raw_path.unlink(missing_ok=True)
 
         if result is None:
             if fresh_requests and inter_chunk_delay > 0:
@@ -223,6 +257,431 @@ def _transcribe_voxtral_parts_resumable(
     if languages:
         merged_result["language"] = languages[0] if len(languages) == 1 else languages
     return utterances, labeled, merged_result, part_records
+
+
+def _transcribe_voxtral_parts_batch(
+    meeting_dir: Path,
+    parts: list[dict[str, Any]],
+    model: str,
+    context_bias: list[str],
+    *,
+    meeting_key: str,
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]], dict[str, Any], list[dict[str, Any]]]:
+    missing_parts = _missing_voxtral_parts(meeting_dir, parts)
+    if missing_parts:
+        _run_voxtral_batch_job(
+            meeting_dir,
+            missing_parts,
+            model,
+            context_bias,
+            meeting_key=meeting_key,
+        )
+    still_missing = _missing_voxtral_parts(meeting_dir, parts)
+    if still_missing:
+        indexes = ", ".join(str(int(part["index"])) for part in still_missing)
+        raise RuntimeError(
+            "Voxtral batch completed without usable transcripts for "
+            f"part(s) {indexes}; completed parts were preserved for retry"
+        )
+
+    def no_sync_request(_audio: Path, _model: str, _bias: list[str]):
+        raise RuntimeError("internal error: batch merge attempted a sync Voxtral request")
+
+    return _transcribe_voxtral_parts_resumable(
+        meeting_dir,
+        parts,
+        model,
+        context_bias,
+        no_sync_request,
+    )
+
+
+def _missing_voxtral_parts(meeting_dir: Path, parts: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    missing = []
+    for part in parts:
+        raw_path = meeting_dir / f"voxtral-transcript-part-{int(part['index'])}.json"
+        if _read_valid_voxtral_part(raw_path) is None:
+            missing.append(part)
+    return missing
+
+
+def _read_valid_voxtral_part(path: Path) -> dict[str, Any] | None:
+    try:
+        if not path.exists() or path.stat().st_size <= 0:
+            return None
+        result = read_json(path)
+    except Exception:
+        return None
+    return result if isinstance(result.get("segments"), list) else None
+
+
+def _run_voxtral_batch_job(
+    meeting_dir: Path,
+    parts: list[dict[str, Any]],
+    model: str,
+    context_bias: list[str],
+    *,
+    meeting_key: str,
+) -> None:
+    load_dotenv()
+    key = os.environ.get("MISTRAL_API_KEY")
+    if not key:
+        raise RuntimeError("MISTRAL_API_KEY is required for Voxtral batch transcription")
+
+    params_hash = _batch_request_params_hash(parts, model, context_bias)
+    state_path = meeting_dir / VOXTRAL_BATCH_JOB_FILENAME
+    state, job = _reattach_voxtral_batch_job(state_path, params_hash, key)
+    if state is None:
+        state, job = _create_voxtral_batch_job(
+            meeting_dir,
+            parts,
+            model,
+            context_bias,
+            meeting_key=meeting_key,
+            params_hash=params_hash,
+            key=key,
+            state_path=state_path,
+        )
+
+    completed_job = _poll_voxtral_batch_job(state, job, key)
+    _write_completed_batch_parts(meeting_dir, parts, completed_job, key)
+
+
+def _reattach_voxtral_batch_job(
+    state_path: Path,
+    params_hash: str,
+    key: str,
+) -> tuple[dict[str, Any] | None, dict[str, Any] | None]:
+    if not state_path.exists():
+        return None, None
+    try:
+        state = read_json(state_path)
+    except Exception:
+        state_path.unlink(missing_ok=True)
+        return None, None
+    if state.get("request_params_hash") != params_hash:
+        state_path.unlink(missing_ok=True)
+        return None, None
+    job_id = str(state.get("job_id") or "").strip()
+    if not job_id:
+        state_path.unlink(missing_ok=True)
+        return None, None
+    try:
+        return state, _get_batch_job(job_id, key)
+    except _BatchJobNotFound:
+        state_path.unlink(missing_ok=True)
+        return None, None
+
+
+def _create_voxtral_batch_job(
+    meeting_dir: Path,
+    parts: list[dict[str, Any]],
+    model: str,
+    context_bias: list[str],
+    *,
+    meeting_key: str,
+    params_hash: str,
+    key: str,
+    state_path: Path,
+) -> tuple[dict[str, Any], dict[str, Any]]:
+    audio_file_ids: dict[str, str] = {}
+    for part in parts:
+        custom_id = str(int(part["index"]))
+        audio_file_ids[custom_id] = _upload_mistral_file(
+            Path(part["path"]),
+            key,
+            purpose="batch",
+            mimetype=transcribe_mod._mime_type(Path(part["path"])),
+        )
+
+    input_bytes = _batch_input_jsonl(parts, context_bias, audio_file_ids)
+    batch_input_file_id = _upload_mistral_file_bytes(
+        f"{meeting_key}-voxtral-batch.jsonl",
+        input_bytes,
+        key,
+        purpose="batch",
+        mimetype="application/jsonl",
+    )
+    create_payload = {
+        "input_files": [batch_input_file_id],
+        "endpoint": VOXTRAL_BATCH_ENDPOINT,
+        "model": model,
+        "metadata": {
+            "meeting_key": meeting_key,
+            "stage": "voxtral_transcription",
+        },
+    }
+    job = _post_json(MISTRAL_BATCH_JOBS_URL, create_payload, key)
+    job_id = str(job.get("id") or "").strip()
+    if not job_id:
+        raise RuntimeError(f"Mistral batch job create response lacks id: {job}")
+
+    chunk_map: dict[str, dict[str, Any]] = {}
+    for part in parts:
+        custom_id = str(int(part["index"]))
+        chunk_map[custom_id] = {
+            "part_index": int(part["index"]),
+            "audio_file_id": audio_file_ids[custom_id],
+            "raw_transcript_output": str(meeting_dir / f"voxtral-transcript-part-{int(part['index'])}.json"),
+            "offset_sec": round_sec(float(part.get("offset_sec") or 0)),
+            "speaker_suffix": str(part.get("speaker_suffix") or ""),
+        }
+
+    state = {
+        "job_id": job_id,
+        "input_file_ids": [batch_input_file_id],
+        "submitted_at": utc_now_iso(),
+        "endpoint": VOXTRAL_BATCH_ENDPOINT,
+        "model": model,
+        "request_params_hash": params_hash,
+        "chunk_custom_id_map": chunk_map,
+        "job": _batch_job_summary(job),
+    }
+    write_json(state_path, state)
+    return state, job
+
+
+def _batch_input_jsonl(
+    parts: list[dict[str, Any]],
+    context_bias: list[str],
+    audio_file_ids: dict[str, str],
+) -> bytes:
+    lines = []
+    params = _voxtral_batch_body_params(context_bias)
+    for part in parts:
+        custom_id = str(int(part["index"]))
+        body = dict(params)
+        body["file_id"] = audio_file_ids[custom_id]
+        lines.append(json.dumps({"custom_id": custom_id, "body": body}, sort_keys=True))
+    return ("\n".join(lines) + "\n").encode("utf-8")
+
+
+def _voxtral_batch_body_params(context_bias: list[str]) -> dict[str, Any]:
+    form = transcribe_mod._voxtral_request_form_data("_", context_bias)
+    params: dict[str, Any] = {
+        "diarize": str(form.get("diarize", "")).lower() == "true",
+        "timestamp_granularities": list(form.get("timestamp_granularities") or ["segment"]),
+    }
+    bias = str(form.get(transcribe_mod.VOXTRAL_CONTEXT_BIAS_PARAM) or "").strip()
+    if bias:
+        params[transcribe_mod.VOXTRAL_CONTEXT_BIAS_PARAM] = [item for item in bias.split(",") if item]
+    return params
+
+
+def _batch_request_params_hash(
+    parts: list[dict[str, Any]],
+    model: str,
+    context_bias: list[str],
+) -> str:
+    payload = {
+        "endpoint": VOXTRAL_BATCH_ENDPOINT,
+        "model": model,
+        "request_body": _voxtral_batch_body_params(context_bias),
+        "parts": [_batch_part_hash_record(part) for part in parts],
+    }
+    encoded = json.dumps(payload, sort_keys=True, separators=(",", ":")).encode("utf-8")
+    return hashlib.sha256(encoded).hexdigest()
+
+
+def _batch_part_hash_record(part: dict[str, Any]) -> dict[str, Any]:
+    path = Path(part["path"])
+    record: dict[str, Any] = {
+        "index": int(part["index"]),
+        "path_name": path.name,
+        "offset_sec": round_sec(float(part.get("offset_sec") or 0)),
+        "speaker_suffix": str(part.get("speaker_suffix") or ""),
+    }
+    try:
+        record["size_bytes"] = path.stat().st_size
+    except OSError:
+        record["size_bytes"] = None
+    if "split_start_sec" in part:
+        record["split_start_sec"] = round_sec(float(part["split_start_sec"]))
+    if "split_end_sec" in part:
+        record["split_end_sec"] = round_sec(float(part["split_end_sec"]))
+    return record
+
+
+def _poll_voxtral_batch_job(
+    state: dict[str, Any],
+    job: dict[str, Any] | None,
+    key: str,
+) -> dict[str, Any]:
+    job_id = str(state["job_id"])
+    budget = _env_float("VOXTRAL_BATCH_POLL_BUDGET_SEC", DEFAULT_BATCH_POLL_BUDGET_SEC)
+    interval = _env_float("VOXTRAL_BATCH_POLL_INTERVAL_SEC", DEFAULT_BATCH_POLL_INTERVAL_SEC)
+    started = time.monotonic()
+    current = job or _get_batch_job(job_id, key)
+    while True:
+        status = _batch_job_status(current)
+        if status == "SUCCESS":
+            return current
+        if status in {"FAILED", "TIMEOUT_EXCEEDED", "CANCELLED"}:
+            raise RuntimeError(f"Voxtral batch job {job_id} ended with status {status}: {current.get('errors')}")
+        elapsed = time.monotonic() - started
+        if elapsed >= budget:
+            raise VoxtralBatchPending(job_id, status or "UNKNOWN", budget)
+        delay = min(max(0.0, budget - elapsed), max(1.0, interval))
+        time.sleep(delay)
+        current = _get_batch_job(job_id, key)
+
+
+def _write_completed_batch_parts(
+    meeting_dir: Path,
+    parts: list[dict[str, Any]],
+    job: dict[str, Any],
+    key: str,
+) -> None:
+    rows = _batch_output_rows(job, key)
+    parts_by_id = {str(int(part["index"])): part for part in parts}
+    for row in rows:
+        custom_id = str(row.get("custom_id") or "").strip()
+        if custom_id not in parts_by_id:
+            continue
+        result = _batch_row_transcription_result(row)
+        if result is None:
+            continue
+        raw_path = meeting_dir / f"voxtral-transcript-part-{int(parts_by_id[custom_id]['index'])}.json"
+        write_json(raw_path, result)
+
+
+def _batch_output_rows(job: dict[str, Any], key: str) -> list[dict[str, Any]]:
+    inline = job.get("outputs")
+    if isinstance(inline, list):
+        return [row for row in inline if isinstance(row, dict)]
+    output_file = str(job.get("output_file") or "").strip()
+    if not output_file:
+        return []
+    content = _download_mistral_file(output_file, key).decode("utf-8")
+    rows = []
+    for line in content.splitlines():
+        if not line.strip():
+            continue
+        payload = json.loads(line)
+        if isinstance(payload, dict):
+            rows.append(payload)
+    return rows
+
+
+def _batch_row_transcription_result(row: dict[str, Any]) -> dict[str, Any] | None:
+    if row.get("error"):
+        return None
+    response = row.get("response")
+    if isinstance(response, dict):
+        status = response.get("status_code", response.get("status"))
+        if status is not None and int(status) >= 400:
+            return None
+        body = response.get("body") or response.get("data") or response.get("json")
+        return body if isinstance(body, dict) else None
+    body = row.get("body") or row.get("output")
+    if isinstance(body, dict):
+        return body
+    if isinstance(row.get("segments"), list):
+        return row
+    return None
+
+
+def _upload_mistral_file(path: Path, key: str, *, purpose: str, mimetype: str) -> str:
+    with path.open("rb") as file_handle:
+        response = httpx.post(
+            MISTRAL_FILES_URL,
+            headers=_mistral_headers(key),
+            data={"purpose": purpose},
+            files={"file": (path.name, file_handle, mimetype)},
+            timeout=httpx.Timeout(connect=30.0, read=1_800.0, write=1_800.0, pool=30.0),
+        )
+    return _file_id_from_response(response)
+
+
+def _upload_mistral_file_bytes(
+    filename: str,
+    content: bytes,
+    key: str,
+    *,
+    purpose: str,
+    mimetype: str,
+) -> str:
+    response = httpx.post(
+        MISTRAL_FILES_URL,
+        headers=_mistral_headers(key),
+        data={"purpose": purpose},
+        files={"file": (filename, content, mimetype)},
+        timeout=httpx.Timeout(connect=30.0, read=1_800.0, write=1_800.0, pool=30.0),
+    )
+    return _file_id_from_response(response)
+
+
+def _file_id_from_response(response: httpx.Response) -> str:
+    _raise_for_mistral_response(response, "Mistral file upload")
+    payload = response.json()
+    file_id = str(payload.get("id") or "").strip()
+    if not file_id:
+        raise RuntimeError(f"Mistral file upload response lacks id: {payload}")
+    return file_id
+
+
+def _post_json(url: str, payload: dict[str, Any], key: str) -> dict[str, Any]:
+    response = httpx.post(
+        url,
+        headers={**_mistral_headers(key), "Content-Type": "application/json"},
+        json=payload,
+        timeout=httpx.Timeout(connect=30.0, read=300.0, write=300.0, pool=30.0),
+    )
+    _raise_for_mistral_response(response, "Mistral JSON POST")
+    return response.json()
+
+
+def _get_batch_job(job_id: str, key: str) -> dict[str, Any]:
+    response = httpx.get(
+        f"{MISTRAL_BATCH_JOBS_URL}/{job_id}",
+        headers=_mistral_headers(key),
+        timeout=httpx.Timeout(connect=30.0, read=300.0, write=300.0, pool=30.0),
+    )
+    if response.status_code == 404:
+        raise _BatchJobNotFound(job_id)
+    _raise_for_mistral_response(response, "Mistral batch job retrieve")
+    return response.json()
+
+
+def _download_mistral_file(file_id: str, key: str) -> bytes:
+    response = httpx.get(
+        f"{MISTRAL_FILES_URL}/{file_id}/content",
+        headers=_mistral_headers(key),
+        timeout=httpx.Timeout(connect=30.0, read=1_800.0, write=300.0, pool=30.0),
+    )
+    _raise_for_mistral_response(response, "Mistral file download")
+    return response.content
+
+
+def _mistral_headers(key: str) -> dict[str, str]:
+    return {"Authorization": f"Bearer {key}", "Accept": "application/json"}
+
+
+def _raise_for_mistral_response(response: httpx.Response, context: str) -> None:
+    if response.status_code < 400:
+        return
+    raise RuntimeError(f"{context} failed with HTTP {response.status_code}: {response.text[:2000]}")
+
+
+def _batch_job_status(job: dict[str, Any]) -> str:
+    return str(job.get("status") or "").strip().upper()
+
+
+def _batch_job_summary(job: dict[str, Any]) -> dict[str, Any]:
+    keys = (
+        "id",
+        "status",
+        "created_at",
+        "started_at",
+        "completed_at",
+        "total_requests",
+        "completed_requests",
+        "succeeded_requests",
+        "failed_requests",
+        "output_file",
+        "error_file",
+    )
+    return {key: job.get(key) for key in keys if key in job}
 
 
 def _request_voxtral_transcription_with_backoff(

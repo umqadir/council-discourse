@@ -11,7 +11,7 @@ from typing import Any
 
 from . import db
 from .artifacts import read_json, write_json
-from .config import MEETINGS_DIR, REGISTRY_DB, VOXTRAL_USD_PER_AUDIO_HOUR, chaptering_llm_config, naming_llm_config
+from .config import MEETINGS_DIR, REGISTRY_DB, chaptering_llm_config, naming_llm_config, voxtral_usd_per_audio_hour
 from .fetch import (
     _download,
     _extract_audio,
@@ -25,6 +25,7 @@ from .prepare import prepare_meeting
 from .stages import chapterize, name_speakers, transcribe
 from .utils import utc_now_iso
 from .viebit import cdn_url, normalize_filename, resolve_viebit_hash
+from .voxtral_prod import VoxtralBatchPending
 
 R2_BUCKET = "council-discourse-videos"
 R2_REMOTE = "r2"
@@ -118,6 +119,10 @@ def process_one(
             if cost_usd is not None:
                 update["cost_usd"] = cost_usd
             db.update_meeting(conn, meeting_key, update)
+    except VoxtralBatchPending as exc:
+        result["status"] = "pending"
+        result["note"] = str(exc)
+        print(f"process-one {meeting_key} pending: {exc}", file=sys.stderr, flush=True)
     except Exception as exc:
         result["status"] = "failed"
         result["error"] = f"{type(exc).__name__}: {exc}"
@@ -175,7 +180,9 @@ def _voxtral_cost_usd(meta_path: Path) -> float:
     duration = _json_number(meta_path, "audio_duration_sec")
     if duration is None:
         return 0.0
-    return float(duration) / 3600.0 * VOXTRAL_USD_PER_AUDIO_HOUR
+    meta = _read_json_or_none(meta_path)
+    mode = str(meta.get("mode") or "batch").strip().lower() if isinstance(meta, dict) else "batch"
+    return float(duration) / 3600.0 * voxtral_usd_per_audio_hour(mode)
 
 
 def _name_speakers_cost_usd(meeting_dir: Path) -> float:

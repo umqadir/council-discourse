@@ -16,7 +16,27 @@ LEGISTAR_BASE_URL = "https://webapi.legistar.com/v1/nyc"
 LEGISTAR_INSITE_BASE_URL = "https://legistar.council.nyc.gov"
 
 HTTP_TIMEOUT_SECONDS = 60
-VOXTRAL_USD_PER_AUDIO_HOUR = 0.09
+# Voxtral sync transcription is $0.18/audio-hour; Mistral Batch API mode is
+# 50% off at $0.09/audio-hour. Batch mode is implemented and validated BUT the
+# batch backend silently ignores `diarize` (verified live 2026-07-06: identical
+# requests return speaker labels sync and speaker_id=null batch). Diarization
+# is a hard quality gate here, so production stays on sync until Mistral's
+# batch endpoint honors diarize — re-test with COUNCIL_VOXTRAL_MODE=batch on a
+# short clip before ever flipping the default.
+VOXTRAL_BATCH_USD_PER_AUDIO_HOUR = 0.09
+VOXTRAL_SYNC_USD_PER_AUDIO_HOUR = 0.18
+VOXTRAL_USD_PER_AUDIO_HOUR = VOXTRAL_SYNC_USD_PER_AUDIO_HOUR
+
+
+def voxtral_mode() -> str:
+    value = os.environ.get("COUNCIL_VOXTRAL_MODE", "sync").strip().lower()
+    if value in {"batch", "sync"}:
+        return value
+    return "sync"
+
+
+def voxtral_usd_per_audio_hour(mode: str | None = None) -> float:
+    return VOXTRAL_SYNC_USD_PER_AUDIO_HOUR if (mode or voxtral_mode()) == "sync" else VOXTRAL_BATCH_USD_PER_AUDIO_HOUR
 
 # --- Naming/chaptering LLM ---
 # Production default (2026-07-02): z-ai/glm-5.2 via OpenRouter beats Gemini 3.5 Flash on

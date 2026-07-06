@@ -266,3 +266,29 @@ one-time backfill spend; storage grows only with ongoing coverage.
 - Open lever if a hard ceiling ever matters: Z.AI-direct GLM pricing/caching.
 Steady-state monthly at 40 meetings: ASR $9 + LLM $8.8 + verification ~$1 + R2 $2-3
 = ~$21/mo (~$0.53/meeting marginal).
+
+## 14. Cost-enforcement round (2026-07-06)
+
+Directive: priced rates must be enforced by the implementation, not assumed.
+
+- Voxtral: production had shipped on the synchronous endpoint ($0.003/min)
+  while the plan priced the batch rate ($0.0015/min). Built full batch-mode
+  support (one job per meeting, job id persisted and re-attached across runs,
+  batch-pending is not a failure and does not count toward dead-letter) — but
+  live validation (2026-07-06) showed the batch endpoint SILENTLY IGNORES
+  `diarize`: the same clip returns speaker_1/speaker_2 sync and
+  speaker_id=null batch, across every documented parameter encoding.
+  Diarization is a hard quality gate, so sync stays the default and the true
+  ASR rate is $0.18/audio-hour (~$17/mo at baseline, not ~$8). Batch code
+  stays behind COUNCIL_VOXTRAL_MODE=batch with a cost-regression test pinning
+  sync + the reason; re-test diarize on the batch endpoint occasionally and
+  flip when Mistral fixes it (instant 50% ASR saving).
+- OpenRouter (naming + chaptering): no batch tier exists — OpenRouter mirrors
+  provider list prices. Cheaper would mean direct Z.AI/DeepSeek accounts with
+  native batch/off-peak (~$4-5/mo saving) at the cost of two more providers
+  and async plumbing. Deliberately not taken; revisit only if the LLM line
+  grows.
+- Gemini verification (~$1/mo, best-effort): batch mode exists but the saving
+  (~$0.50/mo) does not justify making a non-fatal enhancement asynchronous.
+- Export/merge/deploy paths make no paid calls; the export-site job should
+  not even hold LLM keys (structural guard).

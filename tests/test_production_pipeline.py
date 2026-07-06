@@ -495,6 +495,7 @@ def test_voxtral_production_stage_writes_canonical_name_speakers_input(
     tmp_path: Path,
     monkeypatch,
 ) -> None:
+    monkeypatch.setenv("COUNCIL_VOXTRAL_MODE", "sync")
     monkeypatch.setattr("pipeline.transcribe.current_roster", lambda _date: [])
     monkeypatch.setattr(
         "pipeline.voxtral_prod._request_voxtral_transcription_with_backoff",

@@ -245,6 +245,7 @@ jobs:
             --include "agenda.txt" \
             --include "captions-clean.jsonl" \
             --include "captions-clean.txt" \
+            --include "voxtral-batch-job.json" \
             --include "voxtral-transcript-part-*.json" \
             --include "name-speakers-chunk-*.json" \
             --include "utterances*.jsonl" \
@@ -264,6 +265,7 @@ jobs:
             data/meetings/${{ matrix.meeting_key }}/captions-clean.jsonl
             data/meetings/${{ matrix.meeting_key }}/captions-clean.txt
             data/meetings/${{ matrix.meeting_key }}/agenda.txt
+            data/meetings/${{ matrix.meeting_key }}/voxtral-batch-job.json
             data/meetings/${{ matrix.meeting_key }}/utterances.jsonl
             data/meetings/${{ matrix.meeting_key }}/utterances-labeled.jsonl
             data/meetings/${{ matrix.meeting_key }}/utterances-named.jsonl
@@ -351,12 +353,20 @@ jobs:
           loaded = [json.load(open(f)) for f in glob.glob("data/processed-results/**/*.json", recursive=True)]
           results = [r for r in loaded if isinstance(r, dict) and "stages" in r and "status" in r]
           done = [r for r in results if r.get("status") == "complete"]
-          print(f"results={len(results)} complete={len(done)}")
+          failed = [r for r in results if r.get("status") == "failed"]
+          pending = [r for r in results if r.get("status") == "pending"]
+          print(f"results={len(results)} complete={len(done)} pending={len(pending)} failed={len(failed)}")
           if not results:
               print("::error::meetings were pending but NO result files arrived - process jobs died before producing results")
               sys.exit(1)
+          # Partial success must still publish (one flaky meeting cannot block
+          # the batch); this guard exists to catch SYSTEMATIC breakage, i.e.
+          # nothing completed. All-pending is a normal batch-wait cycle.
           if not done:
-              print("::error::meetings were pending but ZERO completed - upstream stage (e.g. ASR auth) is broken")
+              if pending and not failed:
+                  print("all process jobs are pending; waiting for batch completion")
+                  sys.exit(0)
+              print("::error::meetings were pending but ZERO completed - upstream stage is broken")
               sys.exit(1)
           PY
 
