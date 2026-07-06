@@ -1,0 +1,105 @@
+---
+import { formatClock } from "@lib/format";
+import type { Meeting } from "@lib/types";
+
+interface Props {
+  meeting: Meeting;
+}
+
+const { meeting } = Astro.props;
+const count = meeting.chapters.length;
+---
+
+{
+  count > 1 && (
+    <nav
+      class="chapter-trail fixed right-3 top-1/2 z-20 hidden -translate-y-1/2 xl:flex"
+      aria-label="Chapter navigation trail"
+      style={`height: min(60vh, ${count * 9}px);`}
+    >
+      <div
+        class="chapter-trail-tip pointer-events-none absolute right-full top-0 mr-3 hidden max-w-xs -translate-y-1/2 whitespace-nowrap rounded border border-line bg-paper px-3 py-1.5 text-xs shadow-sm"
+        role="presentation"
+      >
+        <span class="tabular font-semibold text-ink"></span>
+        <span class="ml-1.5 overflow-hidden text-ellipsis text-muted"></span>
+      </div>
+      <div class="flex h-full w-6 flex-col items-end justify-center gap-px">
+        {meeting.chapters.map((chapter, index) => (
+          <button
+            type="button"
+            class="chapter-tick block w-3 min-h-px flex-1 basis-0 cursor-pointer rounded-sm border-0 bg-line p-0 transition-[width,background-color] duration-100 hover:w-5 hover:bg-civic"
+            style="max-height: 5px;"
+            data-index={index}
+            data-type={chapter.type}
+            data-clock={formatClock(chapter.start_sec)}
+            data-title={chapter.title}
+            aria-label={`Jump to chapter: ${chapter.title}`}
+            x-show="selected[$el.dataset.type]"
+            x-cloak
+          />
+        ))}
+      </div>
+    </nav>
+  )
+}
+
+<script>
+  const trail = document.querySelector<HTMLElement>(".chapter-trail");
+  if (trail) {
+    const ticks = [...trail.querySelectorAll<HTMLButtonElement>(".chapter-tick")];
+    const cards = [...document.querySelectorAll<HTMLElement>("[data-chapter-card]")];
+    const tip = trail.querySelector<HTMLElement>(".chapter-trail-tip");
+    const tipClock = tip?.querySelector("span:first-child");
+    const tipTitle = tip?.querySelector("span:last-child");
+    const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    const setActive = (index: number) => {
+      for (const tick of ticks) {
+        const active = Number(tick.dataset.index) === index;
+        tick.classList.toggle("bg-civic", active);
+        tick.classList.toggle("w-5", active);
+        tick.classList.toggle("bg-line", !active);
+      }
+    };
+
+    // Scroll-spy: the current chapter is the last card whose top has passed
+    // the reading line (a third down the viewport).
+    let raf = 0;
+    const updateCurrent = () => {
+      raf = 0;
+      const line = window.innerHeight / 3;
+      let current = 0;
+      for (let i = 0; i < cards.length; i += 1) {
+        if (cards[i].offsetParent === null) continue; // filtered out
+        if (cards[i].getBoundingClientRect().top <= line) current = i;
+      }
+      setActive(current);
+    };
+    window.addEventListener(
+      "scroll",
+      () => {
+        if (!raf) raf = requestAnimationFrame(updateCurrent);
+      },
+      { passive: true },
+    );
+    updateCurrent();
+
+    for (const tick of ticks) {
+      tick.addEventListener("click", () => {
+        const card = cards[Number(tick.dataset.index)];
+        card?.scrollIntoView({ behavior: reducedMotion ? "auto" : "smooth", block: "start" });
+      });
+      tick.addEventListener("mouseenter", () => {
+        if (!tip || !tipClock || !tipTitle) return;
+        tipClock.textContent = tick.dataset.clock ?? "";
+        tipTitle.textContent = tick.dataset.title ?? "";
+        const trailBox = trail.getBoundingClientRect();
+        const tickBox = tick.getBoundingClientRect();
+        tip.style.top = `${tickBox.top - trailBox.top + tickBox.height / 2}px`;
+        tip.classList.remove("hidden");
+      });
+      tick.addEventListener("mouseleave", () => tip?.classList.add("hidden"));
+    }
+  }
+</script>

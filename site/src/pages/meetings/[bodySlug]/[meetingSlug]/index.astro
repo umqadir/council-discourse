@@ -4,6 +4,7 @@ import BaseLayout from "@layouts/BaseLayout.astro";
 import Breadcrumbs from "@components/Breadcrumbs.astro";
 import Badge from "@components/Badge.astro";
 import ChapterCard from "@components/ChapterCard.astro";
+import ChapterTrail from "@components/ChapterTrail.astro";
 import { getBodies, getMeeting } from "@lib/data";
 import { meetingOgPath } from "@lib/og";
 import { chapterTypeLabel, formatDate, formatDuration } from "@lib/format";
@@ -125,5 +126,7 @@ if (!getMeeting(body.slug, meeting.slug)) {
 
       {meeting.chapters.map((chapter) => <ChapterCard meeting={meeting} chapter={chapter} />)}
     </div>
+
+    <ChapterTrail meeting={meeting} />
   </section>
 </BaseLayout>

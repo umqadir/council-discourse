@@ -16,8 +16,9 @@ const href = `/meetings/${bodySlug(meeting)}/${meeting.slug}/chapter/${chapter.s
 
 <a
   href={href}
-  class="group block border-t border-line py-6 text-ink no-underline transition-colors hover:border-civic"
+  class="group block scroll-mt-16 border-t border-line py-6 text-ink no-underline transition-colors hover:border-civic"
   data-type={chapter.type}
+  data-chapter-card
   x-show="selected[$el.dataset.type]"
   x-cloak
 >
