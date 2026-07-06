@@ -13,28 +13,36 @@ const count = meeting.chapters.length;
 {
   count > 1 && (
     <nav
-      class="chapter-trail fixed right-3 top-1/2 z-20 hidden -translate-y-1/2 xl:flex"
+      class="chapter-trail fixed right-3 top-1/2 z-20 hidden -translate-y-1/2 xl:block"
       aria-label="Chapter navigation trail"
-      style={`height: min(60vh, ${count * 9}px);`}
     >
       <div
-        class="chapter-trail-tip pointer-events-none absolute right-full top-0 mr-3 hidden max-w-xs -translate-y-1/2 whitespace-nowrap rounded border border-line bg-paper px-3 py-1.5 text-xs shadow-sm"
-        role="presentation"
+        class="chapter-trail-panel absolute right-full top-1/2 mr-2 hidden max-h-[60vh] w-64 -translate-y-1/2 overflow-y-auto rounded-[18px] bg-paper p-1 text-sm shadow-lg ring-1 ring-ink/10"
       >
-        <span class="tabular font-semibold text-ink"></span>
-        <span class="ml-1.5 overflow-hidden text-ellipsis text-muted"></span>
-      </div>
-      <div class="flex h-full w-6 flex-col items-end justify-center gap-px">
         {meeting.chapters.map((chapter, index) => (
           <button
             type="button"
-            class="chapter-tick block w-3 min-h-px flex-1 basis-0 cursor-pointer rounded-sm border-0 bg-line p-0 transition-[width,background-color] duration-100 hover:w-5 hover:bg-civic"
-            style="max-height: 5px;"
+            class="chapter-trail-item flex h-8 w-full min-w-0 items-center gap-2 rounded-[14px] px-2 py-1.5 text-left hover:bg-ink/5"
             data-index={index}
             data-type={chapter.type}
-            data-clock={formatClock(chapter.start_sec)}
-            data-title={chapter.title}
-            aria-label={`Jump to chapter: ${chapter.title}`}
+            x-show="selected[$el.dataset.type]"
+            x-cloak
+          >
+            <span class="tabular shrink-0 text-xs text-muted">{formatClock(chapter.start_sec)}</span>
+            <span class="min-w-0 flex-1 truncate text-ink">{chapter.title}</span>
+          </button>
+        ))}
+      </div>
+      <div
+        class="chapter-trail-trigger flex h-[min(60vh,540px)] w-9 flex-col items-center justify-center rounded-md"
+        style={`gap: ${count > 90 ? "1px" : "4px"};`}
+      >
+        {meeting.chapters.map((chapter, index) => (
+          <span
+            class="chapter-pill h-0.5 w-4 min-h-px flex-none rounded-full bg-muted/40"
+            style={count * (count > 90 ? 3 : 6) > 540 ? "flex: 1 1 0; max-height: 2px;" : ""}
+            data-index={index}
+            data-type={chapter.type}
             x-show="selected[$el.dataset.type]"
             x-cloak
           />
@@ -47,19 +55,21 @@ const count = meeting.chapters.length;
 <script>
   const trail = document.querySelector<HTMLElement>(".chapter-trail");
   if (trail) {
-    const ticks = [...trail.querySelectorAll<HTMLButtonElement>(".chapter-tick")];
+    const panel = trail.querySelector<HTMLElement>(".chapter-trail-panel");
+    const items = [...trail.querySelectorAll<HTMLButtonElement>(".chapter-trail-item")];
+    const pills = [...trail.querySelectorAll<HTMLElement>(".chapter-pill")];
     const cards = [...document.querySelectorAll<HTMLElement>("[data-chapter-card]")];
-    const tip = trail.querySelector<HTMLElement>(".chapter-trail-tip");
-    const tipClock = tip?.querySelector("span:first-child");
-    const tipTitle = tip?.querySelector("span:last-child");
     const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-    const setActive = (index: number) => {
-      for (const tick of ticks) {
-        const active = Number(tick.dataset.index) === index;
-        tick.classList.toggle("bg-civic", active);
-        tick.classList.toggle("w-5", active);
-        tick.classList.toggle("bg-line", !active);
+    let currentIndex = 0;
+    const setCurrent = (index: number) => {
+      currentIndex = index;
+      for (const pill of pills) {
+        pill.classList.toggle("bg-ink", Number(pill.dataset.index) === index);
+        pill.classList.toggle("bg-muted/40", Number(pill.dataset.index) !== index);
+      }
+      for (const item of items) {
+        item.classList.toggle("bg-civic/10", Number(item.dataset.index) === index);
       }
     };
 
@@ -74,7 +84,7 @@ const count = meeting.chapters.length;
         if (cards[i].offsetParent === null) continue; // filtered out
         if (cards[i].getBoundingClientRect().top <= line) current = i;
       }
-      setActive(current);
+      setCurrent(current);
     };
     window.addEventListener(
       "scroll",
@@ -85,21 +95,32 @@ const count = meeting.chapters.length;
     );
     updateCurrent();
 
-    for (const tick of ticks) {
-      tick.addEventListener("click", () => {
-        const card = cards[Number(tick.dataset.index)];
+    // Hover-card behavior: hovering the pill column opens the panel; it stays
+    // open while the pointer is over either; closes shortly after leaving.
+    let closeTimer = 0;
+    const open = () => {
+      window.clearTimeout(closeTimer);
+      if (!panel || !panel.classList.contains("hidden")) return;
+      panel.classList.remove("hidden");
+      const target = items[currentIndex];
+      if (target && target.offsetParent !== null) {
+        panel.scrollTop = target.offsetTop - panel.clientHeight / 2 + target.clientHeight / 2;
+      }
+    };
+    const scheduleClose = () => {
+      window.clearTimeout(closeTimer);
+      closeTimer = window.setTimeout(() => panel?.classList.add("hidden"), 150);
+    };
+    trail.addEventListener("mouseenter", open);
+    trail.addEventListener("mouseleave", scheduleClose);
+    trail.addEventListener("focusin", open);
+    trail.addEventListener("focusout", scheduleClose);
+
+    for (const item of items) {
+      item.addEventListener("click", () => {
+        const card = cards[Number(item.dataset.index)];
         card?.scrollIntoView({ behavior: reducedMotion ? "auto" : "smooth", block: "start" });
       });
-      tick.addEventListener("mouseenter", () => {
-        if (!tip || !tipClock || !tipTitle) return;
-        tipClock.textContent = tick.dataset.clock ?? "";
-        tipTitle.textContent = tick.dataset.title ?? "";
-        const trailBox = trail.getBoundingClientRect();
-        const tickBox = tick.getBoundingClientRect();
-        tip.style.top = `${tickBox.top - trailBox.top + tickBox.height / 2}px`;
-        tip.classList.remove("hidden");
-      });
-      tick.addEventListener("mouseleave", () => tip?.classList.add("hidden"));
     }
   }
 </script>
