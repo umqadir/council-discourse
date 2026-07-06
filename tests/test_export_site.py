@@ -81,3 +81,61 @@ def test_export_skips_meetings_without_local_artifacts_and_keeps_existing_json(t
 
     assert written == [existing]
     assert existing.exists()
+
+
+def test_export_refreshes_topic_on_kept_json_without_artifacts(tmp_path, monkeypatch):
+    import json
+
+    from pipeline import db
+    from pipeline.export_site import export_site
+
+    conn = db.connect(tmp_path / "registry.db")
+    db.upsert_meeting(
+        conn,
+        {
+            "meeting_key": "remote-only",
+            "viebit_filename": "remote-only",
+            "body_name": "Committee on Finance",
+            "event_date": "2026-06-25T00:00:00",
+            "event_time": "10:00 AM",
+            "event_topic": "Executive Budget Hearings - Finance",
+        },
+    )
+    db.update_meeting(
+        conn,
+        "remote-only",
+        {
+            "transcribe_status": "transcribed",
+            "name_speakers_status": "named",
+            "chapterize_status": "chapterized",
+        },
+    )
+    monkeypatch.setattr("pipeline.db.MEETINGS_DIR", tmp_path / "meetings")
+
+    out_dir = tmp_path / "site-data"
+    out_dir.mkdir()
+    slug = "2026-06-25-1000-am-committee-on-finance"
+    committed = out_dir / f"{slug}.json"
+    committed.write_text(json.dumps({"slug": slug, "title": "Committee on Finance", "chapters": []}) + "\n")
+
+    written = export_site(
+        db_path=tmp_path / "registry.db",
+        out_dir=out_dir,
+        r2_out_dir=tmp_path / "r2-data",
+        include_benchmark=False,
+        allow_empty=True,
+    )
+
+    refreshed = json.loads(committed.read_text())
+    assert refreshed["topic"] == "Executive Budget Hearings - Finance"
+    assert committed in written
+    assert any(str(p).startswith(str(tmp_path / "r2-data")) for p in written)
+
+    # Second export with no changes rewrites nothing.
+    assert export_site(
+        db_path=tmp_path / "registry.db",
+        out_dir=out_dir,
+        r2_out_dir=tmp_path / "r2-data",
+        include_benchmark=False,
+        allow_empty=True,
+    ) == []

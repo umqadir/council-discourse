@@ -113,6 +113,22 @@ def export_site(
         if slug in seen:
             continue
         seen.add(slug)
+
+        refresh = meeting.get("_refresh")
+        if refresh is not None:
+            # Kept meeting (no local artifacts): apply registry metadata onto
+            # the committed JSON, rewriting only when something changed so the
+            # content-hashed R2 key stays stable otherwise.
+            path = out_dir / f"{slug}.json"
+            if not path.exists():
+                continue
+            existing = json.loads(path.read_text())
+            updates = {k: v for k, v in refresh.items() if existing.get(k, "") != v}
+            if not updates:
+                continue
+            existing.update(updates)
+            meeting = existing
+
         text = _json_text(meeting)
         path = out_dir / f"{slug}.json"
         path.write_text(text)
@@ -156,10 +172,25 @@ def _registry_meetings(db_path: Path) -> list[dict[str, Any]]:
             continue
         meeting = db.meeting_from_row(row)
         if not _has_export_artifacts(meeting.meeting_dir):
-            # Processed on another machine; its committed site JSON stands.
+            # Processed on another machine; its committed site JSON stands,
+            # but registry-derived metadata (e.g. a topic backfilled later)
+            # must still reach it.
+            out.append(_metadata_refresh_entry(meeting, dict(row)))
             continue
         out.append(_convert_meeting(meeting, dict(row), None))
     return out
+
+
+def _metadata_refresh_entry(meeting, payload: dict[str, Any]) -> dict[str, Any]:
+    date = str(meeting.event_date or payload.get("date") or "")[:10]
+    time = str(meeting.event_time or payload.get("time") or "")
+    title = _meeting_title(meeting, payload)
+    return {
+        "slug": _meeting_slug(date, time, title),
+        "_refresh": {
+            "topic": normalize_summary_text(str(meeting.event_topic or "")),
+        },
+    }
 
 
 def _has_export_artifacts(meeting_dir: Path) -> bool:
