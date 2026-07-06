@@ -1,0 +1,44 @@
+name: Pipeline watchdog
+
+on:
+  schedule:
+    - cron: "30 15 * * *"
+  workflow_dispatch:
+
+permissions:
+  actions: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      # The production pipeline runs every 2 hours; more than 26 hours without
+      # a single successful run means it is broken, halted by its circuit
+      # breaker, or its schedule stopped firing. Failure emails stop when runs
+      # stop, so silence needs its own alarm - an issue is a distinct,
+      # persistent notification.
+      - name: Alert when the pipeline has not succeeded in 26 hours
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          last_success="$(gh api "repos/${REPO}/actions/workflows/production.yml/runs?status=success&per_page=1" \
+            --jq '.workflow_runs[0].updated_at // empty')"
+          echo "last successful production run: ${last_success:-never}"
+          now="$(date -u +%s)"
+          then="$(date -u -d "${last_success:-1970-01-01T00:00:00Z}" +%s)"
+          age_hours=$(( (now - then) / 3600 ))
+          echo "age: ${age_hours}h"
+          if [ "$age_hours" -lt 26 ]; then
+            echo "pipeline healthy"
+            exit 0
+          fi
+          title="Production pipeline has not succeeded in over ${age_hours} hours"
+          body="No successful production run since ${last_success:-ever}. The site is not updating. Check the latest runs: https://github.com/${REPO}/actions/workflows/production.yml - likely causes: circuit breaker halted after repeated failures (fix cause, then dispatch manually), exhausted API credits, or the schedule stopped firing."
+          existing="$(gh issue list --repo "$REPO" --state open --search "in:title \"Production pipeline has not succeeded\"" --json number --jq '.[0].number // empty')"
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --repo "$REPO" --body "$body"
+          else
+            gh issue create --repo "$REPO" --title "$title" --body "$body"
+          fi
