@@ -1,0 +1,367 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 25.9,
+      "id": "001",
+      "slug": "council-staff-opens-hearing-and-gives-housekeeping-instructions",
+      "start_sec": 6.8,
+      "summary": "Council staff welcomes attendees to the Transportation and Infrastructure Committee hearing, asks everyone to silence phones, and instructs that no one should approach the dais.",
+      "title": "Council staff opens hearing and gives housekeeping instructions",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 6.8,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 7.5,
+          "text": "Welcome to today's New York City Council vote on the Committee on Transportation and Infrastructure."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 13.8,
+          "text": "At this time, please silence all phones and electronic devices."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 18.4,
+          "text": "Moving forward, no one is to approach the dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 21.2,
+          "text": "Chair, you may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 55.5,
+      "id": "002",
+      "slug": "chair-abreu-introduces-resolution-143a-on-unlimited-mta-transfers",
+      "start_sec": 25.9,
+      "summary": "Councilmember Shaun Abreu, Majority Leader and committee chair, opens the hearing and introduces Resolution 143A, sponsored by Councilmember Riley, which calls on the State Legislature and Governor to enact unlimited transfers within the two-hour fare window for pay-per-ride MTA users.",
+      "title": "Chair Abreu introduces Resolution 143A on unlimited MTA transfers",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 25.9,
+          "text": "Good morning and welcome to today's hearing of the New York City Council's Committee on Transportation and Infrastructure."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 30.8,
+          "text": "I am Councilmember Shaun-Abreu, Majority Leader and Chair of this committee."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 34.1,
+          "text": "At today's hearing, the committee will vote on proposed Resolution No."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 37.2,
+          "text": "143A, sponsored by Councilmember Riley, which calls on the New York State Legislature to pass and the New York State Governor to sign"
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 44.9,
+          "text": "legislation that would create unlimited transfers within the two-hour period of paying the MTA subway or bus fare for pay-per-ride users."
+        }
+      ]
+    },
+    {
+      "end_sec": 78.2,
+      "id": "003",
+      "slug": "abreu-subway-and-bus-system-is-the-backbone-of-nyc-transportation",
+      "start_sec": 55.5,
+      "summary": "Chair Abreu emphasizes that millions of New Yorkers rely on subways and buses daily for work, school, medical appointments, and other essential trips, and that many riders\u2014especially in transit deserts\u2014need multiple transfers to complete a single journey.",
+      "title": "Abreu: Subway and bus system is the backbone of NYC transportation",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 55.5,
+          "text": "New York City's subway and bus system are the backbone of our transportation network."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 59.2,
+          "text": "Millions of New Yorkers rely on them every day to get to work, school, medical appointments, child care, grocery stores, and other essential destinations."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 67.5,
+          "text": "For many riders, especially those living in transit deserts or areas with limited subway access, a single trip may require more than one or two transfers between buses and subways."
+        }
+      ]
+    },
+    {
+      "end_sec": 99.5,
+      "id": "004",
+      "slug": "abreu-explains-the-burden-of-the-current-single-transfer-mta-fare-policy",
+      "start_sec": 78.2,
+      "summary": "Abreu details how the current MTA fare structure gives pay-per-ride users only one free transfer within two hours, forcing riders with longer or more complex trips to pay additional fares, creating an unfair financial burden.",
+      "title": "Abreu explains the burden of the current single-transfer MTA fare policy",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 78.2,
+          "text": "Under the current MTA fare structure, pay-per-ride users receive only one free transfer within two hours of paying their fare."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 86.5,
+          "text": "That means riders who need multiple buses or a combination of buses."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 90.2,
+          "text": "and subway trips can be forced to pay additional fares simply because their trip is longer or more complicated."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 96.7,
+          "text": "This creates an unfair burden on some riders."
+        }
+      ]
+    },
+    {
+      "end_sec": 127.9,
+      "id": "005",
+      "slug": "abreu-resolution-143a-would-make-the-fare-system-simpler-and-fairer",
+      "start_sec": 99.5,
+      "summary": "Abreu explains that Resolution 143A seeks to address rising fare costs and level the playing field for riders with complex trips, arguing that New Yorkers should not be penalized for needing multiple transfers within a two-hour window.",
+      "title": "Abreu: Resolution 143A would make the fare system simpler and fairer",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 99.5,
+          "text": "Proposed Resolution 143A seeks to address the rising costs of subway and bus fares and even the playing field for riders who have complex trips requiring more than one transfer."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 110.7,
+          "text": "A New Yorker who needs multiple transfers within a two-hour window should not be penalized for it."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 116.7,
+          "text": "Creating unlimited transfers within the existing two-hour period would help make the fare system simpler, fairer, and more responsive to the realities of how New Yorkers actually travel."
+        }
+      ]
+    },
+    {
+      "end_sec": 146.4,
+      "id": "006",
+      "slug": "abreu-thanks-committee-staff-for-hearing-preparation",
+      "start_sec": 127.9,
+      "summary": "Chair Abreu acknowledges his Deputy Chief of Staff Jaleesa Quigley, committee counsel Theodore Miller and Sierra Townsend, senior policy analysts Kevin Katowski and John Bozzio, and senior advisor Jake for their work preparing the hearing.",
+      "title": "Abreu thanks committee staff for hearing preparation",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 127.9,
+          "text": "Before we begin, I would like to thank my staff and the committee staff for their hard work in preparing for today's hearing."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 134.4,
+          "text": "Jaleesa Quigley, my Deputy Chief of Staff, Theodore Miller and Sierra Townsend, Councils to the Committee, and Kevin Katowski and John Bozzio, Senior Policy Analysts of the Committee, and Jake, my Senior Advisor."
+        }
+      ]
+    },
+    {
+      "end_sec": 149.6,
+      "id": "007",
+      "slug": "chair-abreu-calls-for-the-roll-call-vote-on-resolution-143a",
+      "start_sec": 146.4,
+      "summary": "Abreu asks the committee clerk to call the roll, transitioning the hearing to the formal vote on Resolution 143A.",
+      "title": "Chair Abreu calls for the roll call vote on Resolution 143A",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 146.4,
+          "text": "I will now ask the committee clerk to call the roll."
+        }
+      ]
+    },
+    {
+      "end_sec": 209.764,
+      "id": "008",
+      "slug": "committee-clerk-conducts-roll-call-vote-on-resolution-143a",
+      "start_sec": 149.6,
+      "summary": "Committee Clerk William Martin calls the roll for the Transportation and Infrastructure Committee. Chair Abreu, Councilmembers Louis, Hanif, Krishnan, Marte, Justin Sanchez, and Wong vote aye. Pierina Sanchez's vote is deferred and not recorded.",
+      "title": "Committee clerk conducts roll call vote on Resolution 143A",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 149.6,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 150.0,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 150.5,
+          "text": "William Martin, Committee Clerk, Roll Call Vote Committee on Transportation and Infrastructure and Proposed Resolution 143A, Chair Abreu."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 159.3,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 160.4,
+          "text": "Lewis."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 161.2,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 162.6,
+          "text": "Brooks Powers."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 165.1,
+          "text": "Dinowitz."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 167.7,
+          "text": "Hanif."
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 169.1,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 170.0,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 173.764,
+          "text": "Krishnan."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 174.564,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 175.864,
+          "text": "Marte."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 176.664,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 178.164,
+          "text": "Perina Sanchez."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 186.064,
+          "text": "Yeah, we'll come back."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 187.964,
+          "text": "One."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 191.064,
+          "text": "Justin Sanchez."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 192.364,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 194.264,
+          "text": "Wong."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 195.164,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 197.764,
+          "text": "Carina Sanchez."
+        }
+      ]
+    },
+    {
+      "end_sec": 227.029,
+      "id": "009",
+      "slug": "resolution-143a-approved-7-0-by-committee",
+      "start_sec": 209.764,
+      "summary": "Committee Clerk William Martin announces the vote result: seven in the affirmative, zero in the negative, and no abstentions. Resolution 143A is approved by the committee, and the hearing is adjourned.",
+      "title": "Resolution 143A approved 7-0 by committee",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 209.764,
+          "text": "With a vote of seven in the affirmative, zero in the negative, and no abstentions, resolution has been approved by the committee."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 217.464,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 217.864,
+          "text": "This part of the committee hearing is hereby adjourned."
+        }
+      ]
+    }
+  ],
+  "date": "2026-06-25",
+  "duration_sec": 227.029,
+  "slug": "2026-06-25-1000-am-committee-on-transportation-and-infrastructure",
+  "summary": [
+    "The Committee on Transportation and Infrastructure, chaired by Councilmember Shaun Abreu, held a hearing on Resolution 143A, which calls on New York State to pass legislation allowing unlimited transfers within the two-hour fare window for pay-per-ride MTA users.",
+    "Chair Abreu explained that the current single-transfer policy unfairly burdens riders in transit deserts who require multiple buses or bus-subway combinations for a single trip.",
+    "The committee voted 7-0 to approve Resolution 143A, with two members absent during the roll call."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "10:00 AM",
+  "title": "Committee on Transportation and Infrastructure",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-1_260625-101100/video-web.mp4"
+  }
+}

@@ -1,0 +1,572 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 26.4,
+      "id": "001",
+      "slug": "staff-opens-meeting-and-sets-ground-rules",
+      "start_sec": 10.4,
+      "summary": "Council staff welcomes attendees to the Committee on Land Use vote, asks everyone to silence electronic devices, and informs the chair that the committee is ready to begin.",
+      "title": "Staff opens meeting and sets ground rules",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 10.4,
+          "text": "Good afternoon, and welcome to today's New York City Council vote for the Committee on Land Use."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 15.3,
+          "text": "At this time, please silence all electronic devices, and no one may approach the dais at any time."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 20.9,
+          "text": "Chair, we are ready to begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 54.704,
+      "id": "002",
+      "slug": "chair-riley-opens-meeting-and-welcomes-colleagues",
+      "start_sec": 26.4,
+      "summary": "Councilmember Kevin Riley, Chair of the Committee on Land Use, welcomes colleagues including Chairs Lewis and Marte, and outlines that the committee will vote on three proposals referred by the zoning subcommittee.",
+      "title": "Chair Riley opens meeting and welcomes colleagues",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 26.4,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 27.5,
+          "text": "Good afternoon and welcome to a meeting of the Committee on Land Use."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 30.4,
+          "text": "I'm Councilmember Kevin Riley, Chair of this committee."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 33.3,
+          "text": "I want to welcome my esteemed colleagues joining me today, including Chair Lewis, Councilmember Caban, Majority Leader Breu, Councilmember Osei, Salam, Banks, and Carnation, Justin Sanchez, Thomas Henry, and Minority Leader Carr."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 51.104,
+          "text": "We've also been joined by Councilmember Farias and Felder."
+        }
+      ]
+    },
+    {
+      "end_sec": 98.204,
+      "id": "003",
+      "slug": "riley-introduces-monitor-point-proposal-in-brooklyn",
+      "start_sec": 54.704,
+      "summary": "Riley describes the Monitor Point proposal in Councilmember Restler's district, involving a zoning map amendment, text amendment, large-scale special permit, and city map change to facilitate a waterfront mixed-use development with a USS Monitor museum, market-rate building, and 100% affordable housing building on MTA-controlled land.",
+      "title": "Riley introduces Monitor Point proposal in Brooklyn",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 54.704,
+          "text": "Today we are voting on three proposals referred by our zoning subcommittee, and I want to thank Chair Lewis and Chair Marte for their ongoing leadership on our subcommittees."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 64.404,
+          "text": "Today we will vote to approve with modifications LU 67, 68, 69, and 71 related to the monitor point proposal in Councilmember Ressler's district in Brooklyn."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 75.204,
+          "text": "The proposal includes a zoning map amendment, zoning text amendment, large-scale special permit, and a change to the city map,"
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 83.004,
+          "text": "which together will facilitate a waterfront mixed-use development that will include a museum building for the USS Monitor and a market rate building with MIH affordable housing and a 100% affordable housing building."
+        }
+      ]
+    },
+    {
+      "end_sec": 199.604,
+      "id": "004",
+      "slug": "riley-details-monitor-point-affordable-housing-and-open-space-benefits",
+      "start_sec": 98.204,
+      "summary": "Riley emphasizes the unique opportunity to build affordable housing on predominantly publicly owned MTA land in an area dominated by market-rate housing, noting the project provides over one acre of open space and, with Council modifications, 662 total affordable units including 202 additional permanently affordable apartments.",
+      "title": "Riley details Monitor Point affordable housing and open space benefits",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 98.204,
+          "text": "I want to take a moment to reiterate some of the points made earlier at the subcommittee vote."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 102.804,
+          "text": "This is a one-of-a-kind project providing the opportunity for predominantly publicly owned land to provide much needed affordable housing"
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 112.404,
+          "text": "with the council's leadership to also incorporate neighborhood infrastructure and services to support this new housing, which is extremely important."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 121.204,
+          "text": "The majority of the development site consists of publicly owned land controlled by the MTA, which presents a unique opportunity to build hundreds of units of affordable housing that low-income New Yorkers can actually afford"
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 134.304,
+          "text": "in an area that has overwhelmingly amount of market race."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 138.304,
+          "text": "Excuse me, market rate housing."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 141.504,
+          "text": "This site also provides the opportunity to pair this affordable housing with much needed open space."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 146.904,
+          "text": "The proposed project will provide over one acre of open space while directly connecting to the larger waterfront open space in the neighborhoods of Greenpoint and Williamsburg."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 160.704,
+          "text": "Where affordable housing can be paired with community improvements, we should maximize the opportunity and amount of affordable housing built."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 168.204,
+          "text": "And this project with the council's modification does just that."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 172.304,
+          "text": "With our proposed modification, this project will provide an additional 202 permanently affordable apartments for a total of 662 affordable units."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 182.704,
+          "text": "The Council's modifications will maintain the inclusion of over one acre of open space on site and the creation of a museum facility for USS Monitor."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 193.604,
+          "text": "As Chair Lewis noted earlier, the proposal initially involved five land use action."
+        }
+      ]
+    },
+    {
+      "end_sec": 274.704,
+      "id": "005",
+      "slug": "riley-outlines-four-remaining-monitor-point-land-use-actions-and-modifications",
+      "start_sec": 199.604,
+      "summary": "Riley explains that LU-70 (loading berth special permit) was withdrawn by the applicant and will be filed, then details the four remaining actions: zoning map amendment, zoning text amendment for MIH, large-scale special permit, and city map change, along with Council modifications to increase affordable units and maximize public open space.",
+      "title": "Riley outlines four remaining Monitor Point land use actions and modifications",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 199.604,
+          "text": "One of those, a special permit to modify loading requirements, has been withdrawn by the applicant, so we will be voting on a motion to file LU-70."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 209.804,
+          "text": "There are four remaining actions."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 211.604,
+          "text": "First, a zoning map amendment to change an M3-1 district to an R6 and R8 district with a C2-4 commercial overlay."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 223.204,
+          "text": "Second, a zoning text amendment to map a mandatory inclusionary housing area."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 228.304,
+          "text": "and to modify various regulations for waterfront blocks in the Greenpoint-Williamsburg Waterfront Access Plan, and waivers available for large-scale general development."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 239.904,
+          "text": "Third, a special permit to establish a large-scale general development with modified bulk and waterfront regulations."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 247.904,
+          "text": "And fourth, a change to the city map to remove a park designation from the western portion of the development site."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 255.304,
+          "text": "The Council's modification will include to change the large-scale special permit approval drawings to facilitate the increase in affordable units, as well as modifying the waiver associated with the required waterfront public access area"
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 270.404,
+          "text": "to maximize the public open space on the site."
+        }
+      ]
+    },
+    {
+      "end_sec": 375.704,
+      "id": "006",
+      "slug": "riley-presents-dewitt-clinton-park-north-proposal-in-manhattan",
+      "start_sec": 274.704,
+      "summary": "Riley describes the DeWitt Clinton Park North proposal in Councilmember Brewer's district, covering two sites: 801 11th Avenue with 477 apartments (125 affordable) and 629 West 54th Street with 617 apartments (162 affordable), facilitated by floor area transfers generating $29.7 million for Hudson River Park Trust, with Council modifications to remove a street wall waiver and reduce building height from 550 to 520 feet.",
+      "title": "Riley presents DeWitt Clinton Park North proposal in Manhattan",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 274.704,
+          "text": "Today we are also voting to approve the modifications to LU 72 through 77 regarding the Dwight Clinton Park North proposal, which involves two separate development sites in Councilmember Brewer's district in Manhattan."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 289.904,
+          "text": "The first known as 801 11th Avenue and the second is known as 629 West 54th Street."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 296.904,
+          "text": "The 11th Avenue development will include approximately 477 apartments, including 125 permanently affordable units."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 305.604,
+          "text": "The West 54th Street development will include approximately 617 apartments, including 166 apartments."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 312.304,
+          "text": "162 permanently affordable units."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 315.704,
+          "text": "These proposed developments are facilitated by floor"
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 318.404,
+          "text": "area transfers pursuant to the special Hudson River Park District rules, which will also include approximately $29.7 million in improvements and maintenance funds to the Hudson River Park Trust."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 333.204,
+          "text": "Both sites require similar zoning actions."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 336.204,
+          "text": "A zoning map amendment, a zoning text amendment, and a zoning special permit to facilitate the floor areas, transfers, and modify various bulk regulations."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 346.704,
+          "text": "The council's modifications here will be to remove the street wall waiver applicable to the 11th Avenue site."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 354.304,
+          "text": "To provide a more consistent streetscape frontage, and to reduce the building height of the West 54th Street site."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 361.704,
+          "text": "From 550 feet approved by the CPC to 520 feet to provide for a transition in building height."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 369.804,
+          "text": "From the 11th to the 12th Avenue to create less of a barrier along the waterfront."
+        }
+      ]
+    },
+    {
+      "end_sec": 417.804,
+      "id": "007",
+      "slug": "riley-calls-for-remarks-and-vote-on-all-items",
+      "start_sec": 375.704,
+      "summary": "Riley invites colleague remarks, sees none, and calls for a coupled vote approving with modifications LUs 72-74 (11th Avenue), LUs 75-77 (West 54th Street), LUs 67-69 and 71 (Monitor Point), and a motion to file LU-70.",
+      "title": "Riley calls for remarks and vote on all items",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 375.704,
+          "text": "I would now like to recognize any of my colleagues who would like to give remarks."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 380.004,
+          "text": "Seeing none, I now call for a vote with the support of the local members to approve with modifications LUs 72, 73, and 74 for the Dwight Clinton Park North 11th Avenue development,"
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 392.704,
+          "text": "LU 75, 76, and 77 for the Dwight Clinton Park North."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 397.804,
+          "text": "West 54th Street Development and LU 67, 68, 69, and 71 for the monitor point proposal and a motion to file LU 70."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 408.504,
+          "text": "which was originally a part of the minor point proposal, was no longer needed as a result of the council's modifications."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 415.604,
+          "text": "Will the clerk please call the roll?"
+        }
+      ]
+    },
+    {
+      "end_sec": 484.456,
+      "id": "008",
+      "slug": "roll-call-vote-on-all-coupled-land-use-items",
+      "start_sec": 417.804,
+      "summary": "Committee Clerk William Martin conducts the roll call vote. All present members\u2014Riley, Lewis, Brooks-Powers, Cab\u00e1n, Abreu, Oss\u00e9, Salaam, Banks, Encarnaci\u00f3n, Sanchez, Thomas-Henry, and Carr\u2014vote aye.",
+      "title": "Roll call vote on all coupled land use items",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 417.804,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 418.104,
+          "text": "Good afternoon."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 418.704,
+          "text": "William Martin, Committee Clerk, Roll Call Vote Committee on Land Use."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 422.204,
+          "text": "All items are coupled."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 423.904,
+          "text": "Chair Riley."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 425.504,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 427.004,
+          "text": "Lewis."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 428.004,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 429.504,
+          "text": "Brooks Powers."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 431.104,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 432.104,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 434.504,
+          "text": "Kaban."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 436.404,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 437.804,
+          "text": "Abreu."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 438.704,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 440.204,
+          "text": "Oss\u00e9."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 441.904,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 443.704,
+          "text": "Salam."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 446.204,
+          "text": "Vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 447.704,
+          "text": "Banks."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 449.104,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 450.704,
+          "text": "Zhuang."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 454.656,
+          "text": "Encarnaci\u00f3n."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 458.356,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 460.456,
+          "text": "Sanchez."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 464.156,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 466.056,
+          "text": "Thomas Henry."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 467.656,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 469.856,
+          "text": "Car."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 471.056,
+          "text": "Aye."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 479.556,
+          "text": "Not used to that word from me."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 480.656,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 481.656,
+          "text": "Thank you, Councilman."
+        }
+      ]
+    },
+    {
+      "end_sec": 499.072,
+      "id": "009",
+      "slug": "all-items-approved-12-0-meeting-adjourns",
+      "start_sec": 484.456,
+      "summary": "The clerk announces a vote of 12 in the affirmative, zero in the negative, and no abstentions, with all items approved as described by the chair. Riley thanks the public and concludes the meeting.",
+      "title": "All items approved 12-0, meeting adjourns",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 484.456,
+          "text": "With a vote of 12 in the affirmative, zero in the negative, and no abstentions, all items have been approved by the committee as described by the chair."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 493.056,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 493.556,
+          "text": "That concludes today's business."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 494.656,
+          "text": "I would like to thank the members of the public."
+        }
+      ]
+    }
+  ],
+  "date": "2026-06-25",
+  "duration_sec": 499.072,
+  "slug": "2026-06-25-0100-pm-committee-on-land-use",
+  "summary": [
+    "Committee on Land Use votes to approve with modifications the Monitor Point proposal in Brooklyn (Greenpoint), including 662 affordable units, open space, and a USS Monitor museum facility.",
+    "Committee also approves with modifications the DeWitt Clinton Park North proposal in Manhattan, covering two development sites at 801 11th Avenue and 629 West 54th Street with affordable housing and Hudson River Park improvements.",
+    "All items pass 12-0, with one application (LU-70) filed after the applicant withdrew a loading berth special permit."
+  ],
+  "tags": [
+    "VOTE",
+    "LAND_USE"
+  ],
+  "time": "1:00 PM",
+  "title": "Committee on Land Use",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-PV-CH-CHA_260625-133115/video-web.mp4"
+  }
+}

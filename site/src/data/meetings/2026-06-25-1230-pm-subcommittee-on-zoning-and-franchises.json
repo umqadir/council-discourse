@@ -1,0 +1,1824 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 35.6,
+      "id": "001",
+      "slug": "subcommittee-called-to-order-and-housekeeping",
+      "start_sec": 2.5,
+      "summary": "Council staff opens the meeting of the Subcommittee on Zoning and Franchises, reminds attendees to silence devices and not approach the dais.",
+      "title": "Subcommittee called to order and housekeeping",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 2.5,
+          "text": "Good afternoon, everyone, and welcome to today's New York City Council vote for the Subcommittee on Zoning and Franchises."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 9.1,
+          "text": "At this time, please silence all electronic devices."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 12.5,
+          "text": "Just a reminder, no one may approach the dais at any time."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 15.9,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 17.3,
+          "text": "Chair, we are ready to begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 68.84,
+      "id": "002",
+      "slug": "chair-louis-introduces-the-subcommittee-and-agenda",
+      "start_sec": 35.6,
+      "summary": "Chair Farah Louis calls the meeting to order, introduces fellow council members, and announces the subcommittee will vote on three proposals covering LU 72 through 77.",
+      "title": "Chair Louis introduces the subcommittee and agenda",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 35.6,
+          "text": "Good afternoon and welcome to a meeting of the Subcommittee on Zoning and Franchises."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 40.1,
+          "text": "I am Councilmember Farrah Lewis, Chair of the Subcommittee."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 43.2,
+          "text": "This afternoon, I am joined by Councilmembers Farias, Shulman, Salam, Felder, Encarnacion, Thomas, Henry, Carr, and Jay Sanchez."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 59.04,
+          "text": "Stand at ease."
+        }
+      ]
+    },
+    {
+      "end_sec": 114.94,
+      "id": "003",
+      "slug": "chair-louis-outlines-dewitt-clinton-park-north-proposal-801-11th-avenue-site",
+      "start_sec": 68.84,
+      "summary": "Chair Louis describes the first development site at 801 11th Avenue, seeking a mixed-use residential building with approximately 477 apartments, 125 permanently affordable, and a zoning map amendment from M2-3 to C4-7.",
+      "title": "Chair Louis outlines Dewitt Clinton Park North proposal \u2014 801 11th Avenue site",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 68.84,
+          "text": "Today we are scheduled to vote on three proposals."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 73.14,
+          "text": "We will vote on LU 72 through 77."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 76.84,
+          "text": "Regarding the Do It Clinton Park North proposal, which actually consists of two separate development sites, these sites are located on the west side of Manhattan in the northern part of Hell's Kitchen and are in Councilmember Brewer's District."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 91.84,
+          "text": "The first site is located at 801 11th Avenue along 11th Avenue, and there"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 103.34,
+          "text": "the applicant is seeking to develop a mixed-use residential building that will have approximately 477 apartments, of which approximately 125 will be permanently affordable."
+        }
+      ]
+    },
+    {
+      "end_sec": 163.24,
+      "id": "004",
+      "slug": "chair-louis-describes-629-west-54th-street-site-and-hudson-river-park-floor-area-transfer",
+      "start_sec": 114.94,
+      "summary": "Chair Louis explains the second site at 629 West 54th Street with approximately 617 apartments, 162 affordable, and the proposed transfer of floor area from Hudson River Park piers in exchange for $229.7 million to the Hudson River Park Trust.",
+      "title": "Chair Louis describes 629 West 54th Street site and Hudson River Park floor area transfer",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 114.94,
+          "text": "The second site is located at 629 West 54th Street along 12th Avenue."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 120.74,
+          "text": "And the applicant is seeking to develop another mixed-use residential building that will have approximately 617 apartments, of which approximately 162 will be permanently affordable."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 134.94,
+          "text": "The proposed developments would seek a transfer of floor area"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 139.94,
+          "text": "from the commercial park piers in Hudson River Park."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 143.14,
+          "text": "in exchange for approximately $229.7 million payment"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 152.34,
+          "text": "to Hudson River Park Trust that would support improvements in capital maintenance in the park."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 159.64,
+          "text": "Both sites require the same set of app"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 162.04,
+          "text": "of actions."
+        }
+      ]
+    },
+    {
+      "end_sec": 289.34,
+      "id": "005",
+      "slug": "chair-louis-details-zoning-actions-and-recommended-modifications-for-dewitt-clinton-park-north",
+      "start_sec": 163.24,
+      "summary": "Chair Louis outlines the zoning map amendments, text amendments for mandatory inclusionary housing, special permits for floor area transfer, and recommended modifications including removal of the street wall waiver and reducing building height from 550 to 520 feet.",
+      "title": "Chair Louis details zoning actions and recommended modifications for Dewitt Clinton Park North",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 163.24,
+          "text": "The 11th Avenue site is requesting a zoning map amendment to change the existing manufacturing M2-3 zoning district to a commercial"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 173.04,
+          "text": "C4-district, which has a residential equivalent of a R10 district."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 179.44,
+          "text": "The 12th Avenue site is also requesting a zoning map amendment to change the existing manufacturing M2-4 zoning district to a commercial C4-7 district."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 191.94,
+          "text": "Second, a zoning tax amendment would map a mandatory inclusionary housing area on both sites, as well as an update."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 201.34,
+          "text": "The special Hudson River Park District rules to reflect the new granting and receiving sites for a floor area transfer from Hudson River Park"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 211.44,
+          "text": "and clarify the affordable, automated-related use provisions for C4-7 districts, as well as applicable bulk rules and the app."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 223.04,
+          "text": "Applicability of the special Clinton district regulations."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 228.44,
+          "text": "The third action, again, applicable to both"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 233.44,
+          "text": "is a special permit to allow the transfer of a development right from Hudson River Park to the development sites and to provide bulk waivers to facilitate the proposed design of the mixed-use buildings."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 246.94,
+          "text": "We are recommending the following modifications."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 249.74,
+          "text": "The removal of the street wall location waiver granted by CPC for the 11th Avenue site, which will provide a more consistent streetscape along 11th Avenue."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 260.94,
+          "text": "For the 12th Avenue site, the modification is to reduce the building height from the CPC approved 550 feet to a maximum of 520 feet."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 271.64,
+          "text": "Consistent with the intent of having the height of buildings decreased from 11th and 12th Avenue in order to create less of a barrier along the waterfront."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 282.54,
+          "text": "Councilmember Brewer supports these applications as modified."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 286.74,
+          "text": "I now recognize Councilmember Brewer for a statement."
+        }
+      ]
+    },
+    {
+      "end_sec": 361.14,
+      "id": "006",
+      "slug": "council-member-brewer-on-dewitt-clinton-park-north-project-overview-and-hudson-river-park-trust",
+      "start_sec": 289.34,
+      "summary": "Brewer explains the two separately owned buildings, the FAR transfer from Hudson River Park Trust generating at least $29 million, and extensive community board engagement with CB4.",
+      "title": "Council Member Brewer on Dewitt Clinton Park North \u2014 project overview and Hudson River Park Trust payment",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 289.34,
+          "text": "Thank you, Madam Chair."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 290.94,
+          "text": "These two buildings, as you suggested, are being considered together in the area of 54th Street and 11th Avenue."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 297.84,
+          "text": "They are separately owned."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 300.14,
+          "text": "Most of the discussions were with Mr."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 302.54,
+          "text": "Freeland and not the Chapman organization when we spoke to them."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 306.54,
+          "text": "And they are getting what we call Farah, which is basically height, from Hudson River Park Trust."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 312.74,
+          "text": "It's a good project where Hudson River Park Trust, which, you know, every time you look at a..."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 319.84,
+          "text": "Peer that needs assistance like peer 76 it's"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 323.44,
+          "text": "millions and millions of dollars."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 325.04,
+          "text": "So the least that these buildings will pay Hudson River Park Trust is $29 million, which is around $200 a square foot."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 334.94,
+          "text": "We also think that maybe they should pay more, but that's what it is at the moment, and they'll have to work it out."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 340.24,
+          "text": "There have been many, many meetings between Community Board 4 and the developers, and I participated in them, both in person at the Community Board and then Zoom discussions with these parties, as well as the Council Land Use staff."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 352.84,
+          "text": "And I certainly want to thank Paul Devlin and Joe Restitio from Board 4, as well as the Council Land Use staff here."
+        }
+      ]
+    },
+    {
+      "end_sec": 422.64,
+      "id": "007",
+      "slug": "brewer-on-cb4-s-conditional-support-and-height-reduction-negotiations",
+      "start_sec": 361.14,
+      "summary": "Brewer describes CB4's sophisticated review, their negative declaration unless milestones were met, and the community's desire for greater height reduction than the 30 feet achieved.",
+      "title": "Brewer on CB4's conditional support and height reduction negotiations",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 361.14,
+          "text": "CB4, which is a very sophisticated board, with all due respect to all other 58 community boards, nobody else has the expertise like Board 4."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 372.24,
+          "text": "The people on it have been doing this for a long time, particularly Joe Vestigia."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 376.74,
+          "text": "They support housing at this site, but just so you know, at the full board meeting that I was at, they issued a negative declaration, unless certain milestones were met, as opposed to a yes, but, which is what they would have liked to,"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 390.64,
+          "text": "because the owners were so reluctant to make any concessions for the community."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 395.84,
+          "text": "The height, community wanted the max height to come down, but the most that we could get was a reduced 30 feet from 550 to 520."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 404.94,
+          "text": "They wanted to bring it down even more because don't understand these buildings are facing the river."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 410.84,
+          "text": "You want to have as much"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 413.24,
+          "text": "and air on the river as possible for the fish and other aspects of marine life, but we were not able to get it down even further."
+        }
+      ]
+    },
+    {
+      "end_sec": 478.04,
+      "id": "008",
+      "slug": "brewer-on-dewitt-clinton-park-renovation-needs-and-limited-developer-contribution",
+      "start_sec": 422.64,
+      "summary": "Brewer highlights the city park across the street needing $6 million bathroom and $6 million playground renovations, but the developer only committed $200,000 over several years.",
+      "title": "Brewer on DeWitt Clinton Park renovation needs and limited developer contribution",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 422.64,
+          "text": "Another issue, the Whit Clinton Park is right across the street."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 426.34,
+          "text": "This is not the Hudson River Park."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 427.94,
+          "text": "Hudson River Park is on the river."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 429.84,
+          "text": "The Hudson River, the Whit Clinton Park is a city park."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 433.84,
+          "text": "It's right across the street from these buildings."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 436.34,
+          "text": "I know it well."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 437.74,
+          "text": "It includes ball fields, leisure areas, playgrounds, and more."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 443.84,
+          "text": "The Parks Department sent us a memo indicating that bathroom renovation is a little over $6 million, and a play area also needs the same renovation at about $6 million."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 455.84,
+          "text": "And understand that the many, many units in these buildings, thousands of units, will of course look over the park, number one, and two, use the park."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 464.74,
+          "text": "But the most we could get out of the owners was $200,000 over a few years, so it comes in depending on the CFO or the temporary CFO, despite the request for more, six plus six."
+        }
+      ]
+    },
+    {
+      "end_sec": 578.54,
+      "id": "009",
+      "slug": "brewer-on-affordability-negotiations-and-workforce-housing",
+      "start_sec": 478.04,
+      "summary": "Brewer details the fight for additional workforce housing beyond MIH requirements, settling for 1.25% additional permanent affordable units (12-13 units) after extensive negotiation, and the importance of rent stabilization.",
+      "title": "Brewer on affordability negotiations and workforce housing",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 478.04,
+          "text": "Then of course there's the issue of affordability."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 480.24,
+          "text": "By law, as you heard from the chair, 25% to 30%, depending on option one or option two, are mandated to be affordable and to be low income."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 491.54,
+          "text": "That's based on law and based on the state."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 495.54,
+          "text": "Community Board 4 has always advocated, unlike other boards, what I call workforce housing, which is basically higher"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 503.04,
+          "text": "income, teachers, firefighters, police, et cetera."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 507.14,
+          "text": "And we wanted to add another 5%, so it would be 30% total."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 512.04,
+          "text": "We started to compromise at 2.5%, meaning 165% AMI, workforce housing, make it,"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 523.34,
+          "text": "additional to what was there MIH mandated."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 528.04,
+          "text": "But we ended up, after much nickeling and diming, is what I would call it, with one and a quarter percent, maybe 12 to 13 units additional, but they are permanent."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 537.94,
+          "text": "The owners wanted to have"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 539.84,
+          "text": "just housing that would be affordable for the life of the property tax abatement, which is usually 35 to 40 years."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 547.84,
+          "text": "But having been around for 35 or 40 years, I've seen housing disappear and become market in some of the buildings on the Upper West Side."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 555.34,
+          "text": "So it's less units."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 556.74,
+          "text": "They do mirror and track with the other units in the building."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 560.84,
+          "text": "You cannot build all studios."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 562.24,
+          "text": "You have to be consistent with the one, two, three studios and one bedrooms with the rest of the buildings."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 568.54,
+          "text": "So it can't be on the ground floor."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 570.94,
+          "text": "It has to be moved around in the other buildings, and it has to track the same size."
+        }
+      ]
+    },
+    {
+      "end_sec": 645.94,
+      "id": "010",
+      "slug": "brewer-on-485x-tax-abatement-concerns-and-developer-uncertainty",
+      "start_sec": 578.54,
+      "summary": "Brewer discusses the developer's dislike of the 485X tax abatement, uncertainty about whether the project will be built, and the existing active union jobs on the site.",
+      "title": "Brewer on 485X tax abatement concerns and developer uncertainty",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 578.54,
+          "text": "So the other issue was, I guess Mr."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 582.24,
+          "text": "Freeland, along with everybody else in the development world, hate 485X."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 586.94,
+          "text": "They don't like this new property tax exception that was negotiated and passed in Albany."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 593.04,
+          "text": "them figure it out what's going to happen."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 594.84,
+          "text": "That's not my problem."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 596.74,
+          "text": "But owner has stated that a 485X property tax is not renovated, I shouldn't renovate it, is not enacted in a different way."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 606.14,
+          "text": "He's not gonna build."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 607.64,
+          "text": "Right now there's a good,"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 611.24,
+          "text": "storefront, meaning there's a ground floor auto repair, auto sales, which is an excellent union jobs, and there's a commercial building on one of the sites."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 620.74,
+          "text": "So it's active currently."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 622.34,
+          "text": "It's not like they're vacant lots."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 624.14,
+          "text": "So I don't know what's going to happen if this thing will ever get built."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 626.84,
+          "text": "It all depends on 485X."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 629.24,
+          "text": "They don't like, the developers don't like the union portion of that bill, and they don't like that you have to be 100 units, and then above that, you've got to follow 485X labor law."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 641.84,
+          "text": "So I think a lot of folks are building at 99 units, but not here."
+        }
+      ]
+    },
+    {
+      "end_sec": 786.64,
+      "id": "011",
+      "slug": "brewer-criticizes-hpd-and-calls-for-more-affordable-housing-in-high-income-areas",
+      "start_sec": 645.94,
+      "summary": "Brewer expresses frustration with HPD's reluctance to subsidize affordable housing in high-income Manhattan neighborhoods, calls on 32BJ to advocate for more workforce housing, and demands rent stabilization for the negotiated units.",
+      "title": "Brewer criticizes HPD and calls for more affordable housing in high-income areas",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 645.94,
+          "text": "So I support, because we've been working with the community board to come up with this, but I do want to say to the city of New York, to HPD, having been borough president for eight years, it is so darn hard"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 658.84,
+          "text": "to get any kind of affordable housing in these high-income areas."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 663.74,
+          "text": "And it makes me crazy."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 664.64,
+          "text": "The schools are excellent."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 665.84,
+          "text": "The transportation is excellent."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 667.44,
+          "text": "The parks are excellent."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 668.94,
+          "text": "It doesn't seem right that every time I ask for support, subsidy if needed,"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 673.84,
+          "text": "that we are told is cheaper land in the Bronx."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 676.44,
+          "text": "We're going to the Bronx, Gail."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 677.74,
+          "text": "We're not gonna stay in Manhattan."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 679.64,
+          "text": "And that's what's happening here."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 680.84,
+          "text": "I mean, if HPD or others"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 683.04,
+          "text": "I just wanted to say, if the developer's not gonna do this, then we should find other ways to subsidize this apartment building."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 689.34,
+          "text": "These should have more affordable housing than what we're able to negotiate, number one."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 694.64,
+          "text": "Number two, I'm a big supporter of all of the unions, but when I call 32BJ, and to the credit of the developer,"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 703.94,
+          "text": "They're working in terms of long-term 32BJ jobs, as they should."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 709.04,
+          "text": "But 32BJ should say, we want 5% affordable."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 713.74,
+          "text": "We want the extra workforce housing."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 717.14,
+          "text": "They don't."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 717.74,
+          "text": "They say they go along."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 719.84,
+          "text": "That's not right."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 720.94,
+          "text": "Every unit in the city should be stating we need more workforce housing."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 725.54,
+          "text": "And so I'm here also to say I think HPD is going to work with us to make sure that once the abatement is over,"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 732.04,
+          "text": "if a family moves out, that market, that union, those few 12, 13, 14 units, they need to stay rate stabilization."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 741.94,
+          "text": "I have to be very, very clear on that."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 743.64,
+          "text": "So it's written into law."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 745.54,
+          "text": "And they should be rent stabilized."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 747.04,
+          "text": "Not equivalent rent stabilized, but actual rent stabilized."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 751.14,
+          "text": "So I'm here to be supportive, but I'm also here after, what, 25 years, 200 and some ULURPs I've done."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 759.34,
+          "text": "This is really nickeling and diming, and it's not building affordable housing the way that we should be doing it."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 764.74,
+          "text": "And so I hope that this is somewhat of a lesson."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 767.84,
+          "text": "And then I think it's sort of putting everybody on notice that good"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 773.04,
+          "text": "Intention is not good enough."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 774.74,
+          "text": "What is the only way that we build affordable housing is to actually build it."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 780.24,
+          "text": "If you want to put in a subsidy, fine."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 782.04,
+          "text": "But nickeling and diming is not the way to go."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 784.64,
+          "text": "Thank you very much, Madam Chair."
+        }
+      ]
+    },
+    {
+      "end_sec": 817.74,
+      "id": "012",
+      "slug": "chair-louis-introduces-monitor-point-rezoning-proposal-in-greenpoint",
+      "start_sec": 786.64,
+      "summary": "Chair Louis introduces LU 67, 68, 69, and 71 for the Monitor Point project in Council Member Restler's district, describing the mixed-use development with a museum, market-rate building, and affordable housing building on MTA-controlled land.",
+      "title": "Chair Louis introduces Monitor Point rezoning proposal in Greenpoint",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 786.64,
+          "text": "Thank you, Councilmember Brewer."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 788.44,
+          "text": "The other vote concerns LU 67, 68, 69, and 71, related to the Monitor Point rezoning proposal in Councilmember Ressler's district."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 799.24,
+          "text": "The applicant is seeking to develop a mixed-use residential project in Greenpoint, Brooklyn."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 804.14,
+          "text": "That would consist of a museum building, a market rate building with MIH permanently affordable housing known as the West Building, and a 100% affordable housing building known as the East Building."
+        }
+      ]
+    },
+    {
+      "end_sec": 907.24,
+      "id": "013",
+      "slug": "chair-louis-on-unique-opportunity-for-affordable-housing-on-publicly-owned-greenpoint-waterfront",
+      "start_sec": 817.74,
+      "summary": "Louis explains the site's uniqueness: publicly owned MTA land in an area rezoned before MIH requirements, offering a rare chance to build affordable housing for low-income New Yorkers alongside waterfront green space.",
+      "title": "Chair Louis on unique opportunity for affordable housing on publicly owned Greenpoint waterfront",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 817.74,
+          "text": "Let me first address the affordable housing component of this project."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 821.34,
+          "text": "This is a unique project for two reasons."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 824.04,
+          "text": "The majority of the development site consists of a publicly owned land controlled by the MTA."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 829.94,
+          "text": "Although there has been a lot of housing development along Greenpoint Waterfront in the past decade, the area was rezoned prior to the city's mandatory inclusionary housing requirements."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 841.34,
+          "text": "As a result, the affordable housing built to date has been at income levels that are not affordable to low-income New Yorkers."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 849.54,
+          "text": "This large, publicly owned site is a unique opportunity to build hundreds of units of affordable housing that low-income New Yorkers can actually afford in an area that has an overwhelmingly..."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 863.24,
+          "text": "amount of market rate housing."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 865.54,
+          "text": "This project is also unique because it provides the opportunity to pair affordable housing with green space."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 871.54,
+          "text": "Since I have been chair of the subcommittee, you have heard me state the importance of providing the needed infrastructure and services for the new housing units we approve."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 882.64,
+          "text": "The proposed project will have over one acre of open space and connect to a larger waterfront open space plan in Greenpoint and Williamsburg,"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 892.14,
+          "text": "providing a unique opportunity to provide affordable housing with direct access to waterfront green space."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 898.34,
+          "text": "Where affordable housing can be paired with the community improvements, we should maximize the amount of affordable housings built."
+        }
+      ]
+    },
+    {
+      "end_sec": 957.74,
+      "id": "014",
+      "slug": "chair-louis-on-increased-affordable-units-and-project-modifications",
+      "start_sec": 907.24,
+      "summary": "Louis announces modifications increasing affordable units from 460 to 662, including converting commercial space to residential, reallocating museum space, extending the development site, and adding height to the East Building.",
+      "title": "Chair Louis on increased affordable units and project modifications",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 907.24,
+          "text": "As originally proposed by the applicant, the project would have a total of 1,150 apartments, of which 460, 40%, were proposed to be permanently affordable."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 920.44,
+          "text": "Based on the modifications to the project that we are recommending, which I will describe in more detail,"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 927.04,
+          "text": "and the leadership of the council, the project will now have an additional 202 permanently affordable apartments for a total of 662 affordable units."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 938.14,
+          "text": "In addition, there will be over one acre of open space on the site, and the site will include a museum, an educational space to commemorate the USS Monitor, a warship launched from Greenpoint that played a pivotal role in the war."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 953.04,
+          "text": "the Civil War."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 954.14,
+          "text": "This is truly a one-of-a-kind project."
+        }
+      ]
+    },
+    {
+      "end_sec": 1047.24,
+      "id": "015",
+      "slug": "chair-louis-details-four-remaining-land-use-actions-for-monitor-point",
+      "start_sec": 957.74,
+      "summary": "Louis describes the zoning map amendment, text amendment for MIH, special permit for large-scale development with bulk modifications, and city map change to remove park designation, noting LU 70 was withdrawn.",
+      "title": "Chair Louis details four remaining land use actions for Monitor Point",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 957.74,
+          "text": "The proposal initially involved five land use actions."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 961.74,
+          "text": "However, the applicant has withdrawn its application regarding LU-70 for a special permit modifying the applicable loading berth"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 970.34,
+          "text": "requirement and it is no longer needed and we will vote to file that action."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 976.54,
+          "text": "There are four remaining actions."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 978.64,
+          "text": "First, a zoning map amendment to change the existing manufacturing M3-1 zoning district to a residential R6 and R8 district with a C2-4 commercial overlay."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 992.74,
+          "text": "Second, a zoning text amendment to map a mandatory inclusionary housing area,"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 998.54,
+          "text": "modify the density, bulk, and park designation regulations for a waterfront blocks located in the Greenpoint-Williamsburg Waterfront Access Plan, and certain waivers available for a large-scale general development."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1013.84,
+          "text": "Third, a special permit to create a large-scale general development and modify bulk regulations that would otherwise apply to the proposed development, including"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1025.14,
+          "text": "a reduction in the required width for a portion of the waterfront publicly accessible area along the project shoreline."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1033.54,
+          "text": "The fourth action is a change to the city's map to remove the previous park's designation over the western portion of the development site, which is privately owned."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1043.14,
+          "text": "owned by the parties that will oversee the monitor museum."
+        }
+      ]
+    },
+    {
+      "end_sec": 1129.2,
+      "id": "016",
+      "slug": "chair-louis-on-modifications-to-maximize-affordable-housing-and-open-space",
+      "start_sec": 1047.24,
+      "summary": "Louis explains changes to the special permit drawings to increase affordable apartments, modifications to the waterfront publicly accessible area waiver, and notes Council Member Restler's support.",
+      "title": "Chair Louis on modifications to maximize affordable housing and open space",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1047.24,
+          "text": "In order to maximize both the affordable housing on this publicly owned site and the amount of open space, we are recommending the following modifications."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1057.84,
+          "text": "Changes to the special permit drawing for the large-scale general development, which will allow the developer to increase the number of affordable apartments provided."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1067.24,
+          "text": "This is achieved in several ways."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1069.94,
+          "text": "By converting previously proposed commercial space to residential space, by reallocating some of the space previously allocated to the museum to more housing,"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1080.54,
+          "text": "by extending the development site to include all the MTA-controlled land, and by providing additional height to the East Building."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1091.6,
+          "text": "Stand at ease."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1109.5,
+          "text": "We are also modifying the waiver granted to decrease the width of a portion of the required waterfront publicly accessible area, which will maximize the amount of public open space on the site."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1122.3,
+          "text": "Councilmember Ressler supports this application as modified, and I recognize Councilmember Ressler for remarks."
+        }
+      ]
+    },
+    {
+      "end_sec": 1211.5,
+      "id": "017",
+      "slug": "council-member-restler-on-monitor-point-five-year-negotiation-history-and-affordable-housing-inc",
+      "start_sec": 1129.2,
+      "summary": "Restler recounts the five-year negotiation, from initial opposition to reaching a final agreement, with affordable housing increased from 25% to 50% of units, totaling 662 affordable apartments.",
+      "title": "Council Member Restler on Monitor Point \u2014 five-year negotiation history and affordable housing increase",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1129.2,
+          "text": "Thank you so much, Chair Lewis."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1130.7,
+          "text": "And I just want to apologize to every member of the committee for my tardiness."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1135.0,
+          "text": "And I'm sorry to keep each of you waiting."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1137.1,
+          "text": "I really apologize."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1138.5,
+          "text": "We just moments ago were able to reach a final agreement on this project."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1144.4,
+          "text": "About five years ago, it was July or August of the summer of 2021, shortly after I won my primary, and I remember screaming on the phone to Will Schwartz at the MTA about how I thought this project was a total non-starter."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1160.2,
+          "text": "It's come an extraordinarily long way, and I am pleased today to express my support for the amended proposal for a majority affordable housing development known as Monitor Point at 40 Quay Street in Greenpoint."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1171.8,
+          "text": "I've been clear over these five years that any development of this publicly owned land must be primarily in the public interest."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1179.6,
+          "text": "And I'm grateful to the hundreds, actually thousands of neighbors who've reached out to me and my office to share their perspective."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1186.9,
+          "text": "In direct response to our feedback, the applicant, Gotham, has amended their proposal to increase the share of permanently affordable housing from about 25% of the units to 50% of the units, nearly tripling the number of actual affordable housing units that are going to be built in our community."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1202.2,
+          "text": "At my insistence, this development will include 662 affordable apartments in this 13 plus 100 unit development."
+        }
+      ]
+    },
+    {
+      "end_sec": 1260.4,
+      "id": "018",
+      "slug": "restler-details-affordability-levels-deeply-affordable-senior-and-supportive-housing-units",
+      "start_sec": 1211.5,
+      "summary": "Restler specifies that 50% of affordable units are deeply affordable, 161 units for seniors, and 110 units of supportive housing for formerly homeless individuals with on-site services.",
+      "title": "Restler details affordability levels \u2014 deeply affordable, senior, and supportive housing units",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1211.5,
+          "text": "50% of those affordable units are going to be deeply affordable."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1214.6,
+          "text": "So to give you a sense, a family of three making $76,300 a year will be able to rent a two-bedroom apartment at $1,822 a month."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1223.3,
+          "text": "That is deep affordability."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1225.1,
+          "text": "26% of the apartments will be for moderate-income households, 172 units."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1229.7,
+          "text": "161 of the affordable homes will be designated for seniors, and we all know the need for affordable housing for seniors."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1236.7,
+          "text": "That means that a senior making $34,600 a year can rent a one-bedroom apartment for just $911."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1244.1,
+          "text": "And 30% of the units, and this was very important to me personally, 110 apartments will be supportive housing."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1250.9,
+          "text": "That's deeply affordable housing for formerly homeless individuals with on-site services to ensure that we are actually meeting the moment of our homelessness crisis."
+        }
+      ]
+    },
+    {
+      "end_sec": 1358.4,
+      "id": "019",
+      "slug": "restler-on-green-space-bushwick-inlet-park-and-resiliency-investments",
+      "start_sec": 1260.4,
+      "summary": "Restler describes expanded public green space, a 40-foot waterfront esplanade, $300,000 annual contribution to Bushwick Inlet Park, MTA relocation from Box Street Park, and flood protection measures.",
+      "title": "Restler on green space, Bushwick Inlet Park, and resiliency investments",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1260.4,
+          "text": "This development will also yield significant green space benefits for our community and strengthen resiliency."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1266.1,
+          "text": "This project is adjacent to Bushwick Inlet Park, a long-promised..."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1269.2,
+          "text": "27-acre park that was central promise of the 2005 rezoning."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1273.5,
+          "text": "The vast majority of the park remains unremediated and fenced off."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1277.0,
+          "text": "The mayor visited the future park site with me and told me that he is committed to fulfilling the promise of this park and completing Bushwick Inlet Park."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1286.4,
+          "text": "The developer will be contributing $300,000 annually for the extent of this agreement, which I believe is 99 years, to maintaining and operating Bushwick Inlet Park."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1295.6,
+          "text": "And dedicated funds will go to the North Brooklyn Parks Alliance, a local conservancy group, to help maintain that space."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1302.0,
+          "text": "The project will include more public green space than originally proposed."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1305.5,
+          "text": "The waterfront esplanade will now be 40 feet wide, resulting in a total addition of 52,000 square feet of publicly accessible waterfront space linking Greenpoint directly to the Motiva parcel of Bushwick Inlet Park."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1317.8,
+          "text": "There will also be two new public bathrooms in the East Building for park users and neighbors who just got to go."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1324.1,
+          "text": "And as was promised 20 years ago, the MTA Emergency Response Unit will be relocated, finally, from the promised Box Street Park in the northern tip of Greenpoint to East Williamsburg."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1334.5,
+          "text": "The MTA is going to be responsible for demolishing their building at Box Street Park and paving over that land to make way for the final section of that promised park."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1344.7,
+          "text": "The development will help protect against flooding by building a new bulkhead along the waterfront edge and by building stormwater retention systems to decrease the load on our local sewer systems."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1353.4,
+          "text": "The buildings and the green space will also be built in an elevation to help mitigate inland flooding."
+        }
+      ]
+    },
+    {
+      "end_sec": 1400.0,
+      "id": "020",
+      "slug": "restler-on-infrastructure-investments-nassau-avenue-g-station-accessibility-and-community-facili",
+      "start_sec": 1358.4,
+      "summary": "Restler highlights a $60 million elevator project at Nassau Avenue G station, 2,700 square feet of community facility space for local nonprofits, and union construction and building service jobs.",
+      "title": "Restler on infrastructure investments \u2014 Nassau Avenue G station accessibility and community facility space",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1358.4,
+          "text": "And we have secured..."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1359.3,
+          "text": "consequential investments to ensure our infrastructure can meet this moment and the growing needs of our community."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1364.7,
+          "text": "There will be a new, the Nassau Avenue G station will now be fully accessible with a new elevator going in."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1370.9,
+          "text": "That is an approximately $60 million project and it will be executed in the current MTA capital plan."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1377.9,
+          "text": "There will also be 2,700 square feet of community facility space for local nonprofits in the Monitor Point development."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1385.4,
+          "text": "Look, most importantly, this project will add good, well, let me add, this project will add good union jobs, work partnering with the laborers on construction and partnering with 32BJ."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1395.8,
+          "text": "Once these buildings are built, I want to thank both of those unions for their support of this project."
+        }
+      ]
+    },
+    {
+      "end_sec": 1510.2,
+      "id": "021",
+      "slug": "restler-on-community-impact-and-acknowledgments-speaker-chairs-and-land-use-team",
+      "start_sec": 1400.0,
+      "summary": "Restler thanks Speaker Menon, Chair Lewis, Land Use Chair Riley, and the Council Land Use Team for their support through the difficult negotiation.",
+      "title": "Restler on community impact and acknowledgments \u2014 Speaker, chairs, and land use team",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1400.0,
+          "text": "And I also want to thank the Monitor Museum for partnering with the applicant to make this happen."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1405.3,
+          "text": "And this project will yield a new 18,000 square foot museum."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1409.6,
+          "text": "And I want to thank George and Janet for helping in that regard as well."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1413.5,
+          "text": "But look, most importantly to me, in a neighborhood where we have seen rents skyrocket, where we've lost 15,000 Latino residents in the last"
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1422.0,
+          "text": "15 years, where we've seen rents increase by 60% in just the last six years, this development will finally add desperately needed affordable housing that our community can actually afford."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1432.7,
+          "text": "And it will help some of our most vulnerable neighbors access housing as our city suffers from a historic affordability crisis."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1439.9,
+          "text": "I know that many of my neighbors will be disappointed in this outcome."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1443.6,
+          "text": "But I believe this is ultimately a positive project for our community, and that's why I'm supporting it."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1449.7,
+          "text": "This was far and away the hardest negotiation I've had to be a part of in my five years in the council, and I just want to say a handful of thank yous."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1457.7,
+          "text": "First and foremost to Speaker Menon."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1459.6,
+          "text": "She had my back every single step of the way on this project."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1463.6,
+          "text": "We discussed what I could support."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1465.3,
+          "text": "She said she agreed with me and then supported me, and her and her team were phenomenal."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1469.9,
+          "text": "We would not have gotten to this outcome without her help."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1472.6,
+          "text": "I really want to thank the chair of this committee, Chair Lewis, for leading a great hearing and for her support, and especially want to thank the land use chair, Kevin Riley, for coming out with me to tour Monitor Point, to see the site, to understand why this was so important to me, and for helping us get to the right place."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1486.6,
+          "text": "I know his commitment to affordable housing is deep, and I know he wanted us to get here, and I'm thankful for his help in getting us there."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1492.9,
+          "text": "The Council Land Use Team was superb."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1495.1,
+          "text": "Ann, Lena, Omar were all deeply involved and did a terrific job, and I especially want to thank Brian Paul and William Vidal, who just offered exceptional advice and counsel at all hours of the day and night over a very long period of time to help us get here."
+        }
+      ]
+    },
+    {
+      "end_sec": 1639.8,
+      "id": "022",
+      "slug": "restler-thanks-mta-gotham-organization-and-administration-partners",
+      "start_sec": 1510.2,
+      "summary": "Restler expresses gratitude to the MTA, Gotham Organization developers, the Mumdani administration, and community advocates including Save the Inlet and Churches United for Fair Housing.",
+      "title": "Restler thanks MTA, Gotham Organization, and administration partners",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1510.2,
+          "text": "I really am grateful to all the members of the Council Land Use Team, so thank you for your hard work on this."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1515.2,
+          "text": "I want to thank the MTA that really stepped up at the end of this project to help make this happen."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1521.0,
+          "text": "Sean Fitzpatrick is an old friend and a really talented guy, and we were lucky to have his involvement here."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1528.1,
+          "text": "I was really tough on the guys at Gotham, and they put up with it, and they said to me all along, Lincoln, we like building affordable."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1539.3,
+          "text": "housing."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1539.8,
+          "text": "If we can make the financing work, we'll be happy to do it."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1542.3,
+          "text": "And they stuck true to their word, and we together pushed each in our own ways to get the affordable investment we needed."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1550.2,
+          "text": "And I really want to thank Brian Kelly in particular for sticking with it and pushing and finding a path forward."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1556.6,
+          "text": "David Pickett for his leadership, Varun, Simeon, and the whole Gotham team for being good partners."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1562.1,
+          "text": "And we're looking forward to working with them in the years to come."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1564.7,
+          "text": "I want to thank, as I did, the Greenpoint Modern Museum folks, George and Janet."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1568.5,
+          "text": "I really want to thank the Mumdani administration."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1570.4,
+          "text": "I think this was probably their first."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1572.4,
+          "text": "big, hairy, hard ULURP of their first six months."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1577.2,
+          "text": "And Deputy Mayor Bozorg, Genevieve, Arvind, Patrick Love, Jelani, Deputy Mayor Kersen, and others all engaged with an open mind."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1587.9,
+          "text": "And even when they told me that what I was asking for was really, really difficult or maybe impossible, they kept trying to figure out a way to make it work."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1595.6,
+          "text": "There are many community members who pushed hard here."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1598.3,
+          "text": "Some for this project, some against, and I'm grateful to all of them."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1601.3,
+          "text": "I want to start by just thanking the Save the Inlet folks and the friends of Bushwick Inlet Park, Catherine Thompson, Steve Chesler, Trina McKeever, and many others."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1609.2,
+          "text": "Nobody's been more committed to the park over the last 20 years than them, and I'm hopeful that this..."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1618.5,
+          "text": "I'm hopeful that ultimately this is going to be something that they can see adds positive benefit for our community."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1626.0,
+          "text": "I also really want to thank Rob Solano and Churches United for Fair Housing."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1629.4,
+          "text": "who really fought hard with me for more affordable housing on this site."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1633.5,
+          "text": "And last but not least, I don't mean to brag, but I think I have the best team in the city council."
+        }
+      ]
+    },
+    {
+      "end_sec": 1674.1,
+      "id": "023",
+      "slug": "restler-thanks-his-staff-team",
+      "start_sec": 1639.8,
+      "summary": "Restler praises his district staff \u2014 Hannah, Eliza, and Molly \u2014 for their exceptional work on the Monitor Point project.",
+      "title": "Restler thanks his staff team",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1639.8,
+          "text": "And they are just exceptionally smart and hardworking and fun and give all the best advice."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1647.0,
+          "text": "I'm really, really lucky."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1648.1,
+          "text": "So Hannah leads our land use work and is our district director and is remarkable."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1652.5,
+          "text": "Eliza leads all of our works on communications and helped us really hone our message here."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1657.5,
+          "text": "And Molly's my chief of staff."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1659.1,
+          "text": "They're all really great, and I'm very lucky to get to work with them."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1662.6,
+          "text": "So with that, I just want to say thank you to everybody for your patience and support and for all the colleagues who had my back through a difficult process."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1669.4,
+          "text": "And I'm pleased with the outcome that we were able to achieve."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1672.0,
+          "text": "Thank you very much."
+        }
+      ]
+    },
+    {
+      "end_sec": 1727.612,
+      "id": "024",
+      "slug": "chair-louis-calls-for-vote-on-all-items",
+      "start_sec": 1674.1,
+      "summary": "Louis asks for questions or remarks, receives none, and calls for a roll call vote on all LU items and a motion to file LU 70.",
+      "title": "Chair Louis calls for vote on all items",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1674.1,
+          "text": "Council, are there any members of, are there any council members with questions or remarks at this time?"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1680.3,
+          "text": "Members, sorry."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1682.0,
+          "text": "No, Chair."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1682.8,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1686.812,
+          "text": "I now call for a vote."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1691.512,
+          "text": "To approve modifications LU 67, 68, 69, and 71 related to the monitor point rezoning proposal, LU 72 through 74 related to the Do It Clinton Park North rezoning proposal at 801 11th Avenue,"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1706.012,
+          "text": "and LU 75 through 77 related to the Do It Clinton Park North rezoning proposal at 629 West 54th Street."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1714.412,
+          "text": "And finally, pursuant to Council Rule 11.60b, I make a motion to file LU 70 to remove the item from the Council's calendar."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1725.512,
+          "text": "Council, please call the roll."
+        }
+      ]
+    },
+    {
+      "end_sec": 1780.424,
+      "id": "025",
+      "slug": "roll-call-vote-on-all-rezoning-items-and-filing-of-lu-70",
+      "start_sec": 1727.612,
+      "summary": "All nine subcommittee members vote aye on all items, with several offering congratulations to Council Members Brewer and Restler.",
+      "title": "Roll call vote on all rezoning items and filing of LU 70",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1727.612,
+          "text": "Chair Lewis?"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1729.512,
+          "text": "Aye on all and congratulations."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1731.912,
+          "text": "Council Member Fares?"
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 1735.512,
+          "text": "I vote aye and all."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1737.512,
+          "text": "Council Member Shulman?"
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 1739.412,
+          "text": "Aye and all, and congratulations to everyone."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1742.412,
+          "text": "Council Member Salam?"
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 1746.156,
+          "text": "A vote I own all."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 1746.956,
+          "text": "Congratulations."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1749.356,
+          "text": "Councilmember Felder?"
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 1752.056,
+          "text": "I know."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1754.756,
+          "text": "Councilmember Encarnacion."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1757.156,
+          "text": "I vote aye, no."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1759.656,
+          "text": "Councilmember Sanchez."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1763.156,
+          "text": "I vote aye or no."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1765.056,
+          "text": "Councilmember Thomas Henry?"
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1767.956,
+          "text": "Aye on all."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1768.656,
+          "text": "Congrats."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1770.156,
+          "text": "Council Member Carr."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1772.856,
+          "text": "With congratulations to Council Members Brewer and Ressler, I vote aye on all."
+        }
+      ]
+    },
+    {
+      "end_sec": 1804.651,
+      "id": "026",
+      "slug": "vote-outcome-all-items-approved-9-0-and-referred-to-full-land-use-committee",
+      "start_sec": 1780.424,
+      "summary": "Council staff announces the vote of nine affirmative, zero opposing, zero abstentions; all items are approved and referred to the full Land Use Committee. Chair Louis adjourns the meeting.",
+      "title": "Vote outcome: all items approved 9-0 and referred to full Land Use Committee",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1780.424,
+          "text": "By a vote of nine in the affirmative, zero opposing, and zero abstention, the items are approved as described by the chair, and these items are now referred to the full land use committee."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1789.724,
+          "text": "That concludes today's business."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1791.124,
+          "text": "I would like to thank members of the public, my colleagues, subcommittee, council, land use, and council staff, and the sergeant at arms for participating in today's meeting."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1798.924,
+          "text": "This meeting is hereby adjourned."
+        }
+      ]
+    }
+  ],
+  "date": "2026-06-25",
+  "duration_sec": 1804.651,
+  "slug": "2026-06-25-1230-pm-subcommittee-on-zoning-and-franchises",
+  "summary": [
+    "Subcommittee on Zoning and Franchises votes on two major rezoning proposals: Dewitt Clinton Park North in Manhattan and Monitor Point in Greenpoint, Brooklyn.",
+    "Council Member Brewer supports the Dewitt Clinton Park North project but criticizes the limited affordable housing concessions and calls for more workforce housing.",
+    "Council Member Restler champions the Monitor Point development, which increases affordable units to 662 (50% of the project) and includes supportive housing, senior units, and park investments."
+  ],
+  "tags": [
+    "LAND_USE",
+    "VOTE"
+  ],
+  "time": "12:30 PM",
+  "title": "Subcommittee on Zoning and Franchises",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-PV-CH-CHA_260625-125646/video-web.mp4"
+  }
+}
