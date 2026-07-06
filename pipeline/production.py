@@ -11,7 +11,7 @@ from typing import Any
 
 from . import db
 from .artifacts import read_json, write_json
-from .config import MEETINGS_DIR, REGISTRY_DB, chaptering_llm_config, naming_llm_config
+from .config import MEETINGS_DIR, REGISTRY_DB, VOXTRAL_USD_PER_AUDIO_HOUR, chaptering_llm_config, naming_llm_config
 from .fetch import (
     _download,
     _extract_audio,
@@ -57,6 +57,7 @@ def select_process_candidates(
         SELECT * FROM meetings
         WHERE viebit_filename IS NOT NULL
           AND event_date IS NOT NULL
+          AND process_attempts < 5
           AND COALESCE(substr(event_date, 1, 10), substr(viebit_pub_date, 1, 10), substr(discovered_at, 1, 10)) >= ?
           AND (
             fetch_status != 'fetched'
@@ -72,7 +73,12 @@ def select_process_candidates(
     if limit is not None:
         sql += " LIMIT ?"
         params = (coverage_start, limit)
-    return list(conn.execute(sql, params))
+    rows = list(conn.execute(sql, params))
+    excluded = _process_attempts_cap_rows(conn, coverage_start)
+    if excluded:
+        summary = ", ".join(f"{row['meeting_key']}({row['process_attempts']})" for row in excluded)
+        print(f"warning: excluding meetings at process_attempts cap: {summary}", file=sys.stderr, flush=True)
+    return rows
 
 
 def process_one(
@@ -106,11 +112,28 @@ def process_one(
         _stage_name_speakers(conn, row, result, dry_run=dry_run)
         row = db.get_meeting(conn, meeting_key)
         _stage_chapterize(conn, row, result, dry_run=dry_run)
+        if not dry_run:
+            cost_usd = _capture_meeting_cost(conn, meeting_key)
+            update: dict[str, Any] = {"process_attempts": 0}
+            if cost_usd is not None:
+                update["cost_usd"] = cost_usd
+            db.update_meeting(conn, meeting_key, update)
     except Exception as exc:
         result["status"] = "failed"
         result["error"] = f"{type(exc).__name__}: {exc}"
         try:
-            db.update_meeting(conn, meeting_key, {"last_error": str(exc)[:2000]})
+            row = db.get_meeting(conn, meeting_key)
+            attempts = int(row["process_attempts"] or 0) + 1
+            cost_usd = None if dry_run else _capture_meeting_cost(conn, meeting_key)
+            db.update_meeting(
+                conn,
+                meeting_key,
+                {
+                    "last_error": str(exc)[:2000],
+                    "process_attempts": attempts,
+                    **({"cost_usd": cost_usd} if cost_usd is not None else {}),
+                },
+            )
         except Exception:
             pass
         print(f"process-one {meeting_key} failed: {exc}", file=sys.stderr, flush=True)
@@ -120,10 +143,112 @@ def process_one(
             result["row"] = dict(db.get_meeting(conn, meeting_key))
         except Exception:
             result["row"] = None
+        row_cost = (result["row"] or {}).get("cost_usd") if isinstance(result.get("row"), dict) else None
+        if row_cost is None:
+            print(f"process-one {meeting_key} status={result['status']}", flush=True)
+        else:
+            print(f"process-one {meeting_key} status={result['status']} cost_usd={float(row_cost):.6f}", flush=True)
         if result_json:
             result_json.parent.mkdir(parents=True, exist_ok=True)
             write_json(result_json, result)
     return 1 if result["status"] == "failed" and fail_on_error else 0
+
+
+def _capture_meeting_cost(conn: sqlite3.Connection, meeting_key: str) -> float | None:
+    try:
+        row = db.get_meeting(conn, meeting_key)
+        return _calculate_meeting_cost(row)
+    except Exception:
+        return None
+
+
+def _calculate_meeting_cost(row: sqlite3.Row) -> float:
+    meeting = db.meeting_from_row(row, MEETINGS_DIR)
+    total = 0.0
+    total += _voxtral_cost_usd(meeting.meeting_dir / "transcribe-meta.json")
+    total += _name_speakers_cost_usd(meeting.meeting_dir)
+    total += _json_number(meeting.meeting_dir / "chapters.json", "exact_cost_usd") or 0.0
+    return round(total, 6)
+
+
+def _voxtral_cost_usd(meta_path: Path) -> float:
+    duration = _json_number(meta_path, "audio_duration_sec")
+    if duration is None:
+        return 0.0
+    return float(duration) / 3600.0 * VOXTRAL_USD_PER_AUDIO_HOUR
+
+
+def _name_speakers_cost_usd(meeting_dir: Path) -> float:
+    meta_path = meeting_dir / "name-speakers-meta.json"
+    meta = _read_json_or_none(meta_path)
+    if isinstance(meta, dict):
+        for key in ("exact_cost_total", "exact_cost_usd"):
+            value = meta.get(key)
+            if isinstance(value, int | float):
+                return float(value)
+        chunk_records = meta.get("chunk_records")
+        if isinstance(chunk_records, list):
+            total = _sum_exact_costs(chunk_records)
+            if total:
+                return total
+    return _sum_exact_costs(_read_chunk_cost_records(meeting_dir))
+
+
+def _read_chunk_cost_records(meeting_dir: Path) -> list[dict[str, Any]]:
+    records = []
+    for path in sorted(meeting_dir.glob("name-speakers-chunk-*.json")):
+        payload = _read_json_or_none(path)
+        if isinstance(payload, dict):
+            records.append(payload)
+    return records
+
+
+def _sum_exact_costs(records: list[Any]) -> float:
+    total = 0.0
+    for record in records:
+        if isinstance(record, dict) and isinstance(record.get("exact_cost_usd"), int | float):
+            total += float(record["exact_cost_usd"])
+    return total
+
+
+def _json_number(path: Path, key: str) -> float | None:
+    payload = _read_json_or_none(path)
+    if isinstance(payload, dict) and isinstance(payload.get(key), int | float):
+        return float(payload[key])
+    return None
+
+
+def _read_json_or_none(path: Path) -> Any:
+    try:
+        if not path.exists() or path.stat().st_size <= 0:
+            return None
+        return read_json(path)
+    except Exception:
+        return None
+
+
+def _process_attempts_cap_rows(conn: sqlite3.Connection, coverage_start: str) -> list[sqlite3.Row]:
+    return list(
+        conn.execute(
+            """
+            SELECT meeting_key, process_attempts FROM meetings
+            WHERE viebit_filename IS NOT NULL
+              AND event_date IS NOT NULL
+              AND process_attempts >= 5
+              AND COALESCE(substr(event_date, 1, 10), substr(viebit_pub_date, 1, 10), substr(discovered_at, 1, 10)) >= ?
+              AND (
+                fetch_status != 'fetched'
+                OR prepare_status != 'prepared'
+                OR transcribe_status != 'transcribed'
+                OR diarize_status != 'diarized'
+                OR name_speakers_status != 'named'
+                OR chapterize_status != 'chapterized'
+              )
+            ORDER BY COALESCE(viebit_pub_date, discovered_at) ASC, meeting_key ASC
+            """,
+            (coverage_start,),
+        )
+    )
 
 
 def _reconcile_artifacts(conn: sqlite3.Connection, meeting_key: str, meetings_dir: Path) -> None:
@@ -453,7 +578,7 @@ def merge_results(db_path: Path, results_dir: Path) -> int:
     if not results_dir.exists():
         return 0
     count = 0
-    for path in sorted(results_dir.rglob("*.json")):
+    for path in sorted(results_dir.glob("*.json")):
         payload = read_json(path)
         row = payload.get("row")
         if not isinstance(row, dict) or not row.get("meeting_key"):
@@ -461,14 +586,39 @@ def merge_results(db_path: Path, results_dir: Path) -> int:
         meeting_key = str(row["meeting_key"])
         values = {key: row.get(key) for key in db.MEETING_COLUMNS if key in row}
         try:
-            db.get_meeting(conn, meeting_key)
+            current = db.get_meeting(conn, meeting_key)
         except KeyError:
             db.upsert_meeting(conn, values)
         else:
-            db.update_meeting(conn, meeting_key, {key: value for key, value in values.items() if key != "meeting_key"})
+            db.update_meeting(conn, meeting_key, _merge_result_values(current, values))
         count += 1
     checkpoint_db(db_path)
     return count
+
+
+def _merge_result_values(current: sqlite3.Row, incoming: dict[str, Any]) -> dict[str, Any]:
+    merged: dict[str, Any] = {}
+    for key, value in incoming.items():
+        if key == "meeting_key":
+            continue
+        if key in db.STAGE_DONE_VALUES:
+            value = db.merge_stage_status(key, current[key], value)
+        elif key == "process_attempts":
+            value = _merge_process_attempts(current[key], value)
+        elif key == "cost_usd" and value is None:
+            value = current[key]
+        merged[key] = value
+    return merged
+
+
+def _merge_process_attempts(current: Any, incoming: Any) -> int:
+    current_value = int(current or 0)
+    if incoming is None:
+        return current_value
+    incoming_value = int(incoming or 0)
+    if incoming_value == 0:
+        return 0
+    return max(current_value, incoming_value)
 
 
 def checkpoint_db(db_path: Path = REGISTRY_DB) -> None:

@@ -25,6 +25,8 @@ LEGISTAR_BOOTSTRAP_CURSOR = os.environ.get("COUNCIL_COVERAGE_START", "2026-06-20
 
 def discover_viebit_rss(conn: sqlite3.Connection, rss_url: str | None = None) -> int:
     items = with_retries(lambda: fetch_rss(rss_url) if rss_url else fetch_rss())
+    if not items:
+        raise RuntimeError("Viebit RSS parsed to zero items")
     for item in items:
         db.upsert_meeting(
             conn,
@@ -133,6 +135,8 @@ def discover_legistar(
     load_dotenv()
     token = token or os.environ.get("LEGISTAR_TOKEN")
     if not token:
+        if os.environ.get("GITHUB_ACTIONS"):
+            print("::error::LEGISTAR_TOKEN unset; skipping Legistar discovery in CI", file=sys.stderr, flush=True)
         return 0, True
 
     cursor = db.get_meta(conn, LEGISTAR_CURSOR_KEY) or LEGISTAR_BOOTSTRAP_CURSOR

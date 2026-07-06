@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import os
 import re
 from collections import Counter
 from pathlib import Path
@@ -36,6 +37,7 @@ CHAPTER_TYPE_ORDER = [
 ]
 ALLOWED_CHAPTER_TYPES = set(CHAPTER_TYPE_ORDER)
 SERIAL_VOTE_PARENT_TYPES = {"VOICE_VOTE", "VOTE"}
+DEFAULT_MAX_CHAPTER_PROMPT_TOKENS = 180_000
 CHAPTER_JSON_SCHEMA = {
     "type": "object",
     "properties": {
@@ -77,6 +79,20 @@ def chapterize_meeting(
     llm_api_key: str | None = None,
     llm_api_key_env: str | None = None,
 ) -> tuple[str, str]:
+    chapters_path = Path(output_path) if output_path else meeting.meeting_dir / "chapters.json"
+    derived_output_path = Path(derived_path) if derived_path else meeting.meeting_dir / "meeting-derived.json"
+    cached_meta = _cached_chapterize_meta(chapters_path)
+    if cached_meta is not None:
+        if write_runlog:
+            append_gemini_runlog(
+                meeting.meeting_dir,
+                runlog_stage,
+                str(cached_meta.get("model") or model),
+                cached_meta,
+                {"chapter_count": len(cached_meta.get("chapters") or []), "cached": True},
+            )
+        return str(chapters_path), str(derived_output_path)
+
     input_path_obj = Path(input_path) if input_path else _chapter_input_path(meeting)
     utterances = normalize_utterances(read_jsonl(input_path_obj))
     if not utterances:
@@ -84,6 +100,7 @@ def chapterize_meeting(
 
     meeting_type = _meeting_type(meeting)
     prompt = _chapter_prompt(meeting, utterances)
+    _raise_if_chapter_prompt_too_large(prompt)
     temperature = 0.2 if meeting_type == "STATED_MEETING" else 0.3
     result, meta = generate_json(
         prompt,
@@ -131,8 +148,6 @@ def chapterize_meeting(
         }
     )
 
-    chapters_path = Path(output_path) if output_path else meeting.meeting_dir / "chapters.json"
-    derived_output_path = Path(derived_path) if derived_path else meeting.meeting_dir / "meeting-derived.json"
     stage_meta = {
         "model": model,
         "provider": meta.get("provider"),
@@ -157,6 +172,21 @@ def chapterize_meeting(
             {"chapter_count": len(chapters), "meeting_type": meeting_type},
         )
     return str(chapters_path), str(derived_output_path)
+
+
+def _cached_chapterize_meta(chapters_path: Path) -> dict[str, Any] | None:
+    try:
+        if not chapters_path.exists() or not chapters_path.is_file() or chapters_path.stat().st_size <= 0:
+            return None
+        payload = read_json(chapters_path)
+    except Exception:
+        return None
+    if not isinstance(payload, dict):
+        return None
+    chapters = payload.get("chapters")
+    if not isinstance(chapters, list) or not chapters:
+        return None
+    return payload
 
 
 def _chapter_input_path(meeting: Meeting):
@@ -217,6 +247,14 @@ Return JSON only:
   ]
 }}
 """
+
+
+def _raise_if_chapter_prompt_too_large(prompt: str) -> None:
+    tokens = max(1, int(len(prompt) / 4))
+    limit = int(os.environ.get("COUNCIL_CHAPTER_MAX_PROMPT_TOKENS", DEFAULT_MAX_CHAPTER_PROMPT_TOKENS))
+    if tokens > limit:
+        approx = max(1, round(tokens / 1000))
+        raise RuntimeError(f"transcript too long for chaptering: ~{approx}k tokens")
 
 
 def _meeting_context(meeting: Meeting) -> str:

@@ -3,10 +3,13 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+import pytest
+
 from pipeline import db
 from pipeline.artifacts import read_jsonl
+from pipeline.cli import main as cli_main
 from pipeline.models import Meeting
-from pipeline.production import merge_results, pending_matrix_json, process_one
+from pipeline.production import merge_results, pending_matrix_json, process_one, select_process_candidates
 from pipeline.stages import transcribe
 from pipeline.voxtral_prod import _transcribe_voxtral_parts_resumable
 
@@ -74,6 +77,45 @@ def test_pending_matrix_requires_legistar_match_and_post_floor_date(tmp_path: Pa
     assert [item["meeting_key"] for item in matrix["include"]] == ["recent-matched"]
 
 
+def test_status_includes_truncated_last_error(tmp_path: Path, capsys) -> None:
+    db_path = tmp_path / "registry.db"
+    conn = db.connect(db_path)
+    db.upsert_meeting(
+        conn,
+        {"meeting_key": "m1", "viebit_filename": "m1", "event_date": "2026-06-25T10:00:00"},
+    )
+    long_error = "verification failed because " + ("x" * 80)
+    db.update_meeting(conn, "m1", {"last_error": long_error})
+
+    assert cli_main(["status", "--db", str(db_path), "--limit", "1"]) == 0
+
+    out = capsys.readouterr().out
+    assert "error" in out.splitlines()[0]
+    assert "verification failed because" in out
+    assert ("x" * 80) not in out
+
+
+def test_ci_health_prints_errors_unmatched_count_and_newest_date(tmp_path: Path, capsys) -> None:
+    db_path = tmp_path / "registry.db"
+    conn = db.connect(db_path)
+    db.upsert_meeting(
+        conn,
+        {"meeting_key": "old-unmatched", "viebit_filename": "old-unmatched", "viebit_pub_date": "2000-01-01T00:00:00+00:00"},
+    )
+    db.upsert_meeting(
+        conn,
+        {"meeting_key": "err", "viebit_filename": "err", "event_date": "2026-06-25T10:00:00"},
+    )
+    db.update_meeting(conn, "err", {"last_error": "bad things happened " + ("y" * 220)})
+
+    assert cli_main(["ci-health", "--db", str(db_path)]) == 0
+
+    out = capsys.readouterr().out
+    assert "err: bad things happened" in out
+    assert "stale_unmatched_viebit_rows_older_than_7d=1" in out
+    assert "newest_event_date=2026-06-25T10:00:00" in out
+
+
 def test_process_one_dry_run_writes_mergeable_result_without_mutating_status(tmp_path: Path) -> None:
     db_path = tmp_path / "registry.db"
     conn = db.connect(db_path)
@@ -88,6 +130,84 @@ def test_process_one_dry_run_writes_mergeable_result_without_mutating_status(tmp
     assert [stage["status"] for stage in result["stages"]] == ["would_run"] * 5
     assert row["fetch_status"] == "pending"
     assert row["chapterize_status"] == "stubbed"
+
+
+def test_registry_dedupe_merges_paid_statuses_before_deleting_event_row(tmp_path: Path) -> None:
+    conn = db.connect(tmp_path / "registry.db")
+    event = db.upsert_meeting(
+        conn,
+        {
+            "legistar_event_id": 123,
+            "event_date": "2026-06-25T10:00:00",
+            "body_name": "Committee on Finance",
+        },
+    )
+    db.update_meeting(
+        conn,
+        str(event["meeting_key"]),
+        {
+            "transcribe_status": "transcribed",
+            "diarize_status": "diarized",
+            "name_speakers_status": "named",
+        },
+    )
+    db.upsert_meeting(conn, {"viebit_filename": "NYCC-PV_260625-100000", "viebit_hash": "abc"})
+
+    merged = db.upsert_meeting(
+        conn,
+        {
+            "legistar_event_id": 123,
+            "viebit_filename": "NYCC-PV_260625-100000",
+        },
+    )
+
+    assert merged["meeting_key"] == "NYCC-PV_260625-100000"
+    assert merged["event_date"] == "2026-06-25T10:00:00"
+    assert merged["viebit_hash"] == "abc"
+    assert merged["transcribe_status"] == "transcribed"
+    assert merged["name_speakers_status"] == "named"
+    with pytest.raises(KeyError):
+        db.get_meeting(conn, "event-123")
+
+
+def test_registry_dedupe_prefers_completed_event_row_over_pristine_filename_row(tmp_path: Path) -> None:
+    conn = db.connect(tmp_path / "registry.db")
+    event = db.upsert_meeting(
+        conn,
+        {
+            "legistar_event_id": 456,
+            "event_date": "2026-06-25T10:00:00",
+            "body_name": "Committee on Finance",
+        },
+    )
+    db.update_meeting(
+        conn,
+        str(event["meeting_key"]),
+        {
+            "fetch_status": "fetched",
+            "prepare_status": "prepared",
+            "transcribe_status": "transcribed",
+            "diarize_status": "diarized",
+            "name_speakers_status": "named",
+            "chapterize_status": "chapterized",
+        },
+    )
+    db.upsert_meeting(conn, {"viebit_filename": "NYCC-PV_260625-110000", "viebit_hash": "def"})
+
+    merged = db.upsert_meeting(
+        conn,
+        {
+            "legistar_event_id": 456,
+            "viebit_filename": "NYCC-PV_260625-110000",
+        },
+    )
+
+    assert merged["meeting_key"] == "event-456"
+    assert merged["viebit_filename"] == "NYCC-PV_260625-110000"
+    assert merged["viebit_hash"] == "def"
+    assert merged["chapterize_status"] == "chapterized"
+    with pytest.raises(KeyError):
+        db.get_meeting(conn, "nycc-pv_260625-110000")
 
 
 def test_merge_results_updates_single_writer_registry(tmp_path: Path) -> None:
@@ -115,6 +235,84 @@ def test_merge_results_updates_single_writer_registry(tmp_path: Path) -> None:
     merged = db.get_meeting(db.connect(db_path), "m1")
     assert merged["chapterize_status"] == "chapterized"
     assert merged["video_web_url"] == "https://videos.example/m1/video-web.mp4"
+
+
+def test_merge_results_does_not_regress_completed_statuses(tmp_path: Path) -> None:
+    db_path = tmp_path / "registry.db"
+    conn = db.connect(db_path)
+    db.upsert_meeting(conn, {"meeting_key": "m1", "viebit_filename": "m1"})
+    db.update_meeting(
+        conn,
+        "m1",
+        {
+            "fetch_status": "fetched",
+            "prepare_status": "prepared",
+            "transcribe_status": "transcribed",
+            "diarize_status": "diarized",
+            "name_speakers_status": "named",
+            "chapterize_status": "chapterized",
+            "process_attempts": 3,
+            "cost_usd": 1.23,
+        },
+    )
+    results_dir = tmp_path / "results"
+    results_dir.mkdir()
+    row = dict(db.get_meeting(conn, "m1"))
+    row.update(
+        {
+            "fetch_status": "pending",
+            "prepare_status": "pending",
+            "transcribe_status": "pending",
+            "diarize_status": "pending",
+            "name_speakers_status": "pending",
+            "chapterize_status": "pending",
+            "process_attempts": 2,
+            "cost_usd": None,
+            "video_web_url": "https://videos.example/new.mp4",
+        }
+    )
+    (results_dir / "m1.json").write_text(json.dumps({"meeting_key": "m1", "row": row}) + "\n")
+
+    assert merge_results(db_path, results_dir) == 1
+
+    merged = db.get_meeting(db.connect(db_path), "m1")
+    assert merged["fetch_status"] == "fetched"
+    assert merged["chapterize_status"] == "chapterized"
+    assert merged["process_attempts"] == 3
+    assert merged["cost_usd"] == 1.23
+    assert merged["video_web_url"] == "https://videos.example/new.mp4"
+
+    row["process_attempts"] = 0
+    row["cost_usd"] = 2.5
+    (results_dir / "m1.json").write_text(json.dumps({"meeting_key": "m1", "row": row}) + "\n")
+
+    assert merge_results(db_path, results_dir) == 1
+    merged = db.get_meeting(db.connect(db_path), "m1")
+    assert merged["process_attempts"] == 0
+    assert merged["cost_usd"] == 2.5
+
+
+def test_merge_results_ignores_nested_meeting_artifact_json(tmp_path: Path) -> None:
+    db_path = tmp_path / "registry.db"
+    conn = db.connect(db_path)
+    db.upsert_meeting(conn, {"meeting_key": "m1", "viebit_filename": "m1"})
+    db.upsert_meeting(conn, {"meeting_key": "m2", "viebit_filename": "m2"})
+    results_dir = tmp_path / "results"
+    (results_dir / "meetings" / "m2").mkdir(parents=True)
+    row = dict(db.get_meeting(conn, "m1"))
+    row["fetch_status"] = "fetched"
+    nested_row = dict(db.get_meeting(conn, "m2"))
+    nested_row["fetch_status"] = "fetched"
+    (results_dir / "m1.json").write_text(json.dumps({"meeting_key": "m1", "row": row}) + "\n")
+    (results_dir / "meetings" / "m2" / "artifact.json").write_text(
+        json.dumps({"meeting_key": "m2", "row": nested_row}) + "\n"
+    )
+
+    assert merge_results(db_path, results_dir) == 1
+
+    merged = db.connect(db_path)
+    assert db.get_meeting(merged, "m1")["fetch_status"] == "fetched"
+    assert db.get_meeting(merged, "m2")["fetch_status"] == "pending"
 
 
 def test_process_one_uses_configured_production_llm(tmp_path: Path, monkeypatch) -> None:
@@ -183,6 +381,109 @@ def test_process_one_uses_configured_production_llm(tmp_path: Path, monkeypatch)
             "llm_api_key_env": "OPENROUTER_API_KEY",
         },
     ]
+
+
+def test_process_attempts_increment_reset_and_exclude_at_cap(tmp_path: Path, monkeypatch, capsys) -> None:
+    db_path = tmp_path / "registry.db"
+    conn = db.connect(db_path)
+    db.upsert_meeting(
+        conn,
+        {
+            "meeting_key": "fail-me",
+            "viebit_filename": "fail-me",
+            "event_date": "2026-06-25T10:00:00",
+        },
+    )
+    db.update_meeting(conn, "fail-me", {"process_attempts": 4})
+
+    def fail_fetch(*_args, **_kwargs):
+        raise RuntimeError("fetch exploded")
+
+    monkeypatch.setattr("pipeline.production._stage_fetch", fail_fetch)
+
+    result_json = tmp_path / "failed.json"
+    assert process_one(db_path, "fail-me", result_json=result_json) == 0
+
+    failed = json.loads(result_json.read_text())
+    row = db.get_meeting(db.connect(db_path), "fail-me")
+    assert row["process_attempts"] == 5
+    assert failed["row"]["process_attempts"] == 5
+
+    assert select_process_candidates(db.connect(db_path)) == []
+    assert "fail-me(5)" in capsys.readouterr().err
+
+    db.update_meeting(
+        db.connect(db_path),
+        "fail-me",
+        {
+            "fetch_status": "fetched",
+            "prepare_status": "prepared",
+            "transcribe_status": "transcribed",
+            "diarize_status": "diarized",
+            "name_speakers_status": "named",
+            "chapterize_status": "chapterized",
+        },
+    )
+    monkeypatch.setattr("pipeline.production._reconcile_artifacts", lambda *_args, **_kwargs: None)
+    for name in (
+        "_stage_fetch",
+        "_stage_prepare",
+        "_stage_transcribe_voxtral",
+        "_stage_name_speakers",
+        "_stage_chapterize",
+    ):
+        monkeypatch.setattr(f"pipeline.production.{name}", lambda *_args, **_kwargs: None)
+
+    assert process_one(db_path, "fail-me", result_json=tmp_path / "success.json") == 0
+
+    succeeded = json.loads((tmp_path / "success.json").read_text())
+    row = db.get_meeting(db.connect(db_path), "fail-me")
+    assert row["process_attempts"] == 0
+    assert succeeded["row"]["process_attempts"] == 0
+
+
+def test_process_one_captures_cost_on_success_and_failure(tmp_path: Path, monkeypatch, capsys) -> None:
+    db_path = tmp_path / "registry.db"
+    meetings_dir = tmp_path / "meetings"
+    meeting_dir = meetings_dir / "m1"
+    meeting_dir.mkdir(parents=True)
+    (meeting_dir / "transcribe-meta.json").write_text(json.dumps({"audio_duration_sec": 7200}) + "\n")
+    (meeting_dir / "name-speakers-meta.json").write_text(json.dumps({"exact_cost_total": 0.04}) + "\n")
+    (meeting_dir / "chapters.json").write_text(json.dumps({"exact_cost_usd": 0.02, "chapters": [{}]}) + "\n")
+    conn = db.connect(db_path)
+    db.upsert_meeting(conn, {"meeting_key": "m1", "viebit_filename": "m1"})
+    monkeypatch.setattr("pipeline.production.MEETINGS_DIR", meetings_dir)
+    monkeypatch.setattr("pipeline.production._reconcile_artifacts", lambda *_args, **_kwargs: None)
+    for name in (
+        "_stage_fetch",
+        "_stage_prepare",
+        "_stage_transcribe_voxtral",
+        "_stage_name_speakers",
+        "_stage_chapterize",
+    ):
+        monkeypatch.setattr(f"pipeline.production.{name}", lambda *_args, **_kwargs: None)
+
+    result_json = tmp_path / "success-cost.json"
+    assert process_one(db_path, "m1", result_json=result_json) == 0
+
+    row = db.get_meeting(db.connect(db_path), "m1")
+    result = json.loads(result_json.read_text())
+    assert row["cost_usd"] == 0.24
+    assert result["row"]["cost_usd"] == 0.24
+    assert "cost_usd=0.240000" in capsys.readouterr().out
+
+    (meeting_dir / "name-speakers-meta.json").unlink()
+    (meeting_dir / "name-speakers-chunk-1.json").write_text(json.dumps({"exact_cost_usd": 0.03}) + "\n")
+
+    def fail_fetch(*_args, **_kwargs):
+        raise RuntimeError("fetch exploded")
+
+    monkeypatch.setattr("pipeline.production._stage_fetch", fail_fetch)
+
+    assert process_one(db_path, "m1", result_json=tmp_path / "failed-cost.json") == 0
+    failed = json.loads((tmp_path / "failed-cost.json").read_text())
+    assert failed["row"]["cost_usd"] == 0.23
+    assert db.get_meeting(db.connect(db_path), "m1")["cost_usd"] == 0.23
 
 
 def test_voxtral_production_stage_writes_canonical_name_speakers_input(

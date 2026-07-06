@@ -199,9 +199,21 @@ def name_speakers_meeting(
     verification_api_key: str | None = None,
     verification_api_key_env: str | None = None,
 ) -> Path:
-    input_path = input_path or _speaker_input_path(meeting.meeting_dir)
     output = output_path or meeting.meeting_dir / "utterances-named.jsonl"
     meta_output = meta_path or meeting.meeting_dir / "name-speakers-meta.json"
+    cached_meta = _cached_name_speakers_meta(output, meta_output)
+    if cached_meta is not None:
+        if write_runlog:
+            append_gemini_runlog(
+                meeting.meeting_dir,
+                runlog_stage,
+                str(cached_meta.get("model") or model),
+                cached_meta,
+                {"mode": cached_meta.get("mode", "label_mapping"), "cached": True},
+            )
+        return output
+
+    input_path = input_path or _speaker_input_path(meeting.meeting_dir)
     utterances = normalize_utterances(read_jsonl(input_path))
     if not utterances:
         raise RuntimeError(f"no utterances found in {input_path}")
@@ -222,37 +234,31 @@ def name_speakers_meeting(
 
     chunks = _chunk_labels(labels, LABELS_PER_PROMPT)
     for chunk_number, chunk_labels in enumerate(chunks, start=1):
-        prompt = _label_mapping_prompt(
-            roster_csv=roster_csv,
-            context=context,
-            label_evidence=[evidence[label] for label in chunk_labels],
-            label_count=len(labels),
-        )
-        result, meta = generate_json(
-            prompt,
-            model=model,
-            temperature=0.1,
-            thinking_level="low",
-            base_url=llm_base_url,
-            api_key=llm_api_key,
-            api_key_env=llm_api_key_env,
-            json_schema=LABEL_MAPPING_JSON_SCHEMA,
-        )
-        elapsed_total += float(meta.get("elapsed_sec", 0))
-        cost_total += float(meta.get("estimated_cost_usd") or 0)
-        exact_cost = meta.get("exact_cost_usd")
-        if isinstance(exact_cost, int | float):
-            exact_cost_total += float(exact_cost)
-        usage_totals.update({k: int(v) for k, v in meta.get("usage", {}).items() if isinstance(v, int)})
-        chunk_mappings = _extract_label_mapping_records(result)
-        if not chunk_mappings:
-            raise RuntimeError(f"{model} speaker response had no usable label mappings for chunk {chunk_number}")
-        chunk_mappings = _with_unknown_mappings_for_missing_labels(chunk_labels, chunk_mappings)
-        chunk_overrides = _extract_label_range_overrides(result)
-        mappings.extend(chunk_mappings)
-        range_overrides.extend(chunk_overrides)
-        chunk_records.append(
-            {
+        checkpoint_path = _name_speakers_chunk_path(meeting.meeting_dir, chunk_number)
+        chunk_record = _load_name_speakers_chunk_checkpoint(checkpoint_path, chunk_labels)
+        if chunk_record is None:
+            prompt = _label_mapping_prompt(
+                roster_csv=roster_csv,
+                context=context,
+                label_evidence=[evidence[label] for label in chunk_labels],
+                label_count=len(labels),
+            )
+            result, meta = generate_json(
+                prompt,
+                model=model,
+                temperature=0.1,
+                thinking_level="low",
+                base_url=llm_base_url,
+                api_key=llm_api_key,
+                api_key_env=llm_api_key_env,
+                json_schema=LABEL_MAPPING_JSON_SCHEMA,
+            )
+            chunk_mappings = _extract_label_mapping_records(result)
+            if not chunk_mappings:
+                raise RuntimeError(f"{model} speaker response had no usable label mappings for chunk {chunk_number}")
+            chunk_mappings = _with_unknown_mappings_for_missing_labels(chunk_labels, chunk_mappings)
+            chunk_overrides = _extract_label_range_overrides(result)
+            chunk_record = {
                 "chunk": chunk_number,
                 "labels": chunk_labels,
                 "usage": meta.get("usage", {}),
@@ -262,29 +268,57 @@ def name_speakers_meeting(
                 "provider": meta.get("provider"),
                 "structured_mode": meta.get("structured_mode"),
                 "pricing": meta.get("pricing"),
+                "elapsed_sec": meta.get("elapsed_sec"),
                 "mappings": chunk_mappings,
                 "range_overrides": chunk_overrides,
             }
-        )
+            write_json(checkpoint_path, chunk_record)
+
+        mappings.extend(chunk_record["mappings"])
+        range_overrides.extend(chunk_record.get("range_overrides") or [])
+        elapsed_total += float(chunk_record.get("elapsed_sec") or 0)
+        cost_total += float(chunk_record.get("estimated_cost_usd") or 0)
+        exact_cost = chunk_record.get("exact_cost_usd")
+        if isinstance(exact_cost, int | float):
+            exact_cost_total += float(exact_cost)
+        usage = chunk_record.get("usage")
+        if isinstance(usage, dict):
+            usage_totals.update({k: int(v) for k, v in usage.items() if isinstance(v, int | float)})
+        chunk_records.append(chunk_record)
 
     named = join_label_mappings(utterances, mappings, range_overrides)
-
-    verification, verification_meta = _verify_non_roster_speakers(
-        named,
-        meeting,
-        model=verification_model,
-        base_url=verification_base_url,
-        api_key=verification_api_key,
-        api_key_env=verification_api_key_env,
-    )
-    elapsed_total += float(verification_meta.get("elapsed_sec", 0))
-    cost_total += float(verification_meta.get("estimated_cost_usd") or 0)
-    exact_cost = verification_meta.get("exact_cost_usd")
-    if isinstance(exact_cost, int | float):
-        exact_cost_total += float(exact_cost)
-    usage_totals.update({k: int(v) for k, v in verification_meta.get("usage", {}).items() if isinstance(v, int)})
-
     write_jsonl(output, named)
+    verification: dict[str, Any] = {
+        "enabled": verification_model is not None,
+        "model": verification_model,
+        "results": [],
+        "applied_corrections": [],
+    }
+    verified = False
+    verification_error: str | None = None
+    try:
+        verification, verification_meta = _verify_non_roster_speakers(
+            named,
+            meeting,
+            model=verification_model,
+            base_url=verification_base_url,
+            api_key=verification_api_key,
+            api_key_env=verification_api_key_env,
+        )
+        elapsed_total += float(verification_meta.get("elapsed_sec", 0))
+        cost_total += float(verification_meta.get("estimated_cost_usd") or 0)
+        exact_cost = verification_meta.get("exact_cost_usd")
+        if isinstance(exact_cost, int | float):
+            exact_cost_total += float(exact_cost)
+        usage = verification_meta.get("usage")
+        if isinstance(usage, dict):
+            usage_totals.update({k: int(v) for k, v in usage.items() if isinstance(v, int | float)})
+        verified = verification_model is not None
+        write_jsonl(output, named)
+    except Exception as exc:
+        verification_error = f"{type(exc).__name__}: {exc}"
+        verification["error"] = verification_error
+
     pricing = _first_chunk_value(chunk_records, "pricing") or pricing_details(model)
     meta_payload: dict[str, Any] = {
         "model": model,
@@ -306,9 +340,13 @@ def name_speakers_meeting(
     }
     if exact_cost_total:
         meta_payload["exact_cost_usd"] = round(exact_cost_total, 6)
+        meta_payload["exact_cost_total"] = round(exact_cost_total, 6)
     if chunk_records:
         meta_payload["chunk_records"] = chunk_records
     meta_payload["verification"] = verification
+    meta_payload["verified"] = verified
+    if verification_error:
+        meta_payload["verification_error"] = verification_error
     write_json(meta_output, meta_payload)
     if write_runlog:
         append_gemini_runlog(
@@ -324,6 +362,55 @@ def name_speakers_meeting(
             },
         )
     return output
+
+
+def _cached_name_speakers_meta(output: Path, meta_output: Path) -> dict[str, Any] | None:
+    try:
+        if not _nonempty_file(output) or not _nonempty_file(meta_output):
+            return None
+        rows = read_jsonl(output)
+        meta = read_json(meta_output)
+    except Exception:
+        return None
+    if not rows or not isinstance(meta, dict):
+        return None
+    return meta
+
+
+def _nonempty_file(path: Path) -> bool:
+    return path.exists() and path.is_file() and path.stat().st_size > 0
+
+
+def _name_speakers_chunk_path(meeting_dir: Path, chunk_number: int) -> Path:
+    return meeting_dir / f"name-speakers-chunk-{chunk_number}.json"
+
+
+def _load_name_speakers_chunk_checkpoint(path: Path, labels: list[str]) -> dict[str, Any] | None:
+    if not path.exists():
+        return None
+    try:
+        payload = read_json(path)
+    except Exception:
+        path.unlink(missing_ok=True)
+        return None
+    if not _valid_name_speakers_chunk_checkpoint(payload, labels):
+        path.unlink(missing_ok=True)
+        return None
+    return payload
+
+
+def _valid_name_speakers_chunk_checkpoint(payload: Any, labels: list[str]) -> bool:
+    if not isinstance(payload, dict):
+        return False
+    if payload.get("labels") != labels:
+        return False
+    mappings = payload.get("mappings")
+    if not isinstance(mappings, list) or not mappings:
+        return False
+    if not all(isinstance(item, dict) for item in mappings):
+        return False
+    range_overrides = payload.get("range_overrides")
+    return range_overrides is None or isinstance(range_overrides, list)
 
 
 def _first_chunk_value(chunk_records: list[dict[str, Any]], key: str) -> Any:

@@ -4,6 +4,7 @@ import argparse
 import json
 import sqlite3
 import sys
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from . import db
@@ -359,6 +360,7 @@ def cmd_status(args: argparse.Namespace) -> int:
         ("diar", 8),
         ("spk", 8),
         ("chap", 8),
+        ("error", 48),
     ]
     print(" ".join(_fmt(name, width) for name, width in headers))
     print(" ".join("-" * width for _, width in headers))
@@ -377,10 +379,70 @@ def cmd_status(args: argparse.Namespace) -> int:
                     _fmt(row["diarize_status"], 8),
                     _fmt(row["name_speakers_status"], 8),
                     _fmt(row["chapterize_status"], 8),
+                    _fmt(row["last_error"], 48),
                 ]
             )
         )
     return 0
+
+
+def cmd_ci_health(args: argparse.Namespace) -> int:
+    try:
+        conn = db.connect(args.db)
+        print("last_error rows:")
+        error_rows = conn.execute(
+            """
+            SELECT meeting_key, last_error FROM meetings
+            WHERE last_error IS NOT NULL AND TRIM(last_error) != ''
+            ORDER BY updated_at DESC, meeting_key ASC
+            """
+        ).fetchall()
+        if not error_rows:
+            print("none")
+        for row in error_rows:
+            print(f"{row['meeting_key']}: {_truncate_one_line(row['last_error'], 200)}")
+        print(f"stale_unmatched_viebit_rows_older_than_7d={_stale_unmatched_viebit_count(conn)}")
+        newest = conn.execute("SELECT MAX(event_date) AS newest FROM meetings WHERE event_date IS NOT NULL").fetchone()
+        print(f"newest_event_date={newest['newest'] if newest and newest['newest'] else 'none'}")
+    except Exception as exc:
+        print(f"ci-health error: {exc}", file=sys.stderr, flush=True)
+    return 0
+
+
+def _truncate_one_line(value, width: int) -> str:
+    text = " ".join(str(value or "").split())
+    if len(text) > width:
+        return text[: width - 1] + "…"
+    return text
+
+
+def _stale_unmatched_viebit_count(conn: sqlite3.Connection) -> int:
+    cutoff = datetime.now(timezone.utc) - timedelta(days=7)
+    rows = conn.execute(
+        """
+        SELECT viebit_pub_date, discovered_at FROM meetings
+        WHERE viebit_filename IS NOT NULL
+          AND legistar_event_id IS NULL
+        """
+    ).fetchall()
+    count = 0
+    for row in rows:
+        timestamp = _parse_registry_timestamp(row["viebit_pub_date"] or row["discovered_at"])
+        if timestamp is not None and timestamp < cutoff:
+            count += 1
+    return count
+
+
+def _parse_registry_timestamp(value) -> datetime | None:
+    if not value:
+        return None
+    try:
+        parsed = datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+    except ValueError:
+        return None
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=timezone.utc)
+    return parsed.astimezone(timezone.utc)
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -485,6 +547,10 @@ def build_parser() -> argparse.ArgumentParser:
     add_common(status)
     status.add_argument("--limit", type=int, default=40)
     status.set_defaults(func=cmd_status)
+
+    ci_health = subparsers.add_parser("ci-health", help="print informational CI registry health checks")
+    add_common(ci_health)
+    ci_health.set_defaults(func=cmd_ci_health)
 
     return parser
 

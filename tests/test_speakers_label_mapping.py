@@ -1,5 +1,8 @@
 from __future__ import annotations
 
+import json
+
+from pipeline.artifacts import read_json, read_jsonl
 from pipeline.models import Meeting
 from pipeline.speakers import (
     _apply_candidate_org_anchors,
@@ -8,6 +11,7 @@ from pipeline.speakers import (
     _extract_label_range_overrides,
     _spelling_anchor_sets,
     join_label_mappings,
+    name_speakers_meeting,
 )
 
 
@@ -171,3 +175,85 @@ def test_org_spelling_anchors_snap_short_org_hints() -> None:
             "method": "org_fuzzy_match",
         }
     ]
+
+
+def test_name_speakers_reuses_valid_cached_output_without_paid_call(tmp_path, monkeypatch) -> None:
+    output = tmp_path / "utterances-named.jsonl"
+    output.write_text(json.dumps({"t0": 0.0, "t1": 1.0, "text": "Hello", "speaker": "Speaker"}) + "\n")
+    (tmp_path / "name-speakers-meta.json").write_text(json.dumps({"model": "cached", "mode": "label_mapping"}) + "\n")
+    meeting = Meeting(meeting_key="m1", meeting_dir=tmp_path)
+
+    def fail_generate_json(*_args, **_kwargs):
+        raise AssertionError("cache hit should not call the naming LLM")
+
+    monkeypatch.setattr("pipeline.speakers.generate_json", fail_generate_json)
+
+    assert name_speakers_meeting(meeting, write_runlog=False) == output
+
+
+def test_name_speakers_reuses_chunk_checkpoint_without_paid_call(tmp_path, monkeypatch) -> None:
+    (tmp_path / "utterances-labeled.jsonl").write_text(
+        '{"t0": 0, "t1": 1, "text": "First", "label": "A"}\n'
+        '{"t0": 1, "t1": 2, "text": "Second", "label": "B"}\n'
+    )
+    (tmp_path / "name-speakers-chunk-1.json").write_text(
+        json.dumps(
+            {
+                "chunk": 1,
+                "labels": ["A", "B"],
+                "elapsed_sec": 1.5,
+                "usage": {"promptTokenCount": 10},
+                "estimated_cost_usd": 0.01,
+                "mappings": [
+                    {"label": "A", "speaker": "Council Staff", "confidence": 0.65},
+                    {"label": "B", "speaker": "UNKNOWN", "confidence": 0.2},
+                ],
+                "range_overrides": [],
+            }
+        )
+        + "\n"
+    )
+    meeting = Meeting(meeting_key="m1", meeting_dir=tmp_path)
+
+    def fail_generate_json(*_args, **_kwargs):
+        raise AssertionError("cached chunk should not call the naming LLM")
+
+    monkeypatch.setattr("pipeline.speakers.generate_json", fail_generate_json)
+
+    assert name_speakers_meeting(meeting, verification_model=None, write_runlog=False) == (
+        tmp_path / "utterances-named.jsonl"
+    )
+    assert [row["speaker"] for row in read_jsonl(tmp_path / "utterances-named.jsonl")] == ["Council Staff", "UNKNOWN"]
+    meta = read_json(tmp_path / "name-speakers-meta.json")
+    assert meta["chunk_records"][0]["mappings"][0]["speaker"] == "Council Staff"
+    assert meta["verified"] is False
+
+
+def test_name_speakers_keeps_output_when_verification_fails(tmp_path, monkeypatch) -> None:
+    monkeypatch.setattr("pipeline.speakers.current_roster", lambda _date: [])
+    (tmp_path / "utterances-labeled.jsonl").write_text(
+        '{"t0": 0, "t1": 1, "text": "My name is Jane Doe.", "label": "A"}\n'
+    )
+    meeting = Meeting(meeting_key="m1", meeting_dir=tmp_path)
+    calls = 0
+
+    def fake_generate_json(*_args, **_kwargs):
+        nonlocal calls
+        calls += 1
+        if calls == 1:
+            return (
+                {"labels": [{"label": "A", "name": "Jane Doe", "role": "public witness", "confidence": "high"}]},
+                {"elapsed_sec": 0.1, "usage": {"promptTokenCount": 8}, "estimated_cost_usd": 0.01},
+            )
+        raise RuntimeError("verification unavailable")
+
+    monkeypatch.setattr("pipeline.speakers.generate_json", fake_generate_json)
+
+    assert name_speakers_meeting(meeting, write_runlog=False) == (tmp_path / "utterances-named.jsonl")
+
+    assert calls == 2
+    assert read_jsonl(tmp_path / "utterances-named.jsonl")[0]["speaker"] == "Member of the Public - Jane Doe"
+    assert (tmp_path / "name-speakers-chunk-1.json").exists()
+    meta = read_json(tmp_path / "name-speakers-meta.json")
+    assert meta["verified"] is False
+    assert "verification unavailable" in meta["verification_error"]

@@ -2,6 +2,10 @@ from __future__ import annotations
 
 from pathlib import Path
 
+import pytest
+
+from pipeline import db
+from pipeline.discover import discover_legistar, discover_viebit_rss
 from pipeline.legistar import (
     extract_viebit_filename_from_insite_html,
     filename_matches_event,
@@ -106,3 +110,21 @@ def test_extract_event_topic_prefers_matter_name_and_filters_junk() -> None:
         is None
     )
     assert extract_event_topic([]) is None
+
+
+def test_discover_viebit_rss_raises_when_feed_has_zero_items(tmp_path: Path, monkeypatch) -> None:
+    conn = db.connect(tmp_path / "registry.db")
+    monkeypatch.setattr("pipeline.discover.fetch_rss", lambda *_args, **_kwargs: [])
+
+    with pytest.raises(RuntimeError, match="Viebit RSS parsed to zero items"):
+        discover_viebit_rss(conn)
+
+
+def test_discover_legistar_missing_token_is_loud_in_github_actions(tmp_path: Path, monkeypatch, capsys) -> None:
+    conn = db.connect(tmp_path / "registry.db")
+    monkeypatch.delenv("LEGISTAR_TOKEN", raising=False)
+    monkeypatch.setenv("GITHUB_ACTIONS", "true")
+    monkeypatch.setattr("pipeline.discover.load_dotenv", lambda: None)
+
+    assert discover_legistar(conn) == (0, True)
+    assert "::error::LEGISTAR_TOKEN unset" in capsys.readouterr().err

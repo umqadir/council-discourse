@@ -48,7 +48,25 @@ MEETING_COLUMNS = [
     "created_at",
     "updated_at",
     "last_error",
+    "process_attempts",
+    "cost_usd",
 ]
+
+STAGE_DONE_VALUES = {
+    "fetch_status": "fetched",
+    "prepare_status": "prepared",
+    "transcribe_status": "transcribed",
+    "diarize_status": "diarized",
+    "name_speakers_status": "named",
+    "chapterize_status": "chapterized",
+}
+
+
+def merge_stage_status(column: str, current: Any, incoming: Any) -> Any:
+    done = STAGE_DONE_VALUES[column]
+    if current == done and incoming != done:
+        return current
+    return incoming
 
 
 def connect(db_path: Path = REGISTRY_DB) -> sqlite3.Connection:
@@ -103,7 +121,9 @@ def init_db(conn: sqlite3.Connection) -> None:
             prepared_at TEXT,
             created_at TEXT NOT NULL,
             updated_at TEXT NOT NULL,
-            last_error TEXT
+            last_error TEXT,
+            process_attempts INTEGER NOT NULL DEFAULT 0,
+            cost_usd REAL
         );
         CREATE UNIQUE INDEX IF NOT EXISTS idx_meetings_event_id
             ON meetings(legistar_event_id)
@@ -131,6 +151,8 @@ def _migrate_meetings_table(conn: sqlite3.Connection) -> None:
         "video_web_url": "TEXT",
         "event_topic": "TEXT",
         "diarize_status": "TEXT NOT NULL DEFAULT 'stubbed'",
+        "process_attempts": "INTEGER NOT NULL DEFAULT 0",
+        "cost_usd": "REAL",
     }
     for column, kind in additions.items():
         if column not in existing:
@@ -176,13 +198,61 @@ def _find_existing_row(conn: sqlite3.Connection, values: dict[str, Any]) -> sqli
             "SELECT * FROM meetings WHERE viebit_filename = ?", (filename,)
         ).fetchone()
     if event_row and filename_row and event_row["meeting_key"] != filename_row["meeting_key"]:
-        conn.execute("DELETE FROM meetings WHERE meeting_key = ?", (event_row["meeting_key"],))
-        return filename_row
+        return _merge_conflicting_rows(conn, event_row, filename_row)
     if event_row:
         return event_row
     if filename_row:
         return filename_row
     return None
+
+
+def _merge_conflicting_rows(
+    conn: sqlite3.Connection,
+    event_row: sqlite3.Row,
+    filename_row: sqlite3.Row,
+) -> sqlite3.Row:
+    if _fully_chapterized(event_row) and _pristine_processing_row(filename_row):
+        survivor = event_row
+        doomed = filename_row
+    else:
+        survivor = filename_row
+        doomed = event_row
+
+    merged = dict(survivor)
+    doomed_values = dict(doomed)
+    for column in MEETING_COLUMNS:
+        if column == "meeting_key":
+            continue
+        current = merged.get(column)
+        incoming = doomed_values.get(column)
+        if column in STAGE_DONE_VALUES:
+            merged[column] = merge_stage_status(column, current, incoming)
+        elif current is None and incoming is not None:
+            merged[column] = incoming
+
+    conn.execute("DELETE FROM meetings WHERE meeting_key = ?", (doomed["meeting_key"],))
+    assignments = ", ".join(f"{col} = :{col}" for col in MEETING_COLUMNS if col != "meeting_key")
+    conn.execute(
+        f"UPDATE meetings SET {assignments} WHERE meeting_key = :meeting_key",
+        {col: merged.get(col) for col in MEETING_COLUMNS},
+    )
+    return get_meeting(conn, str(merged["meeting_key"]))
+
+
+def _fully_chapterized(row: sqlite3.Row) -> bool:
+    return all(row[column] == done for column, done in STAGE_DONE_VALUES.items())
+
+
+def _pristine_processing_row(row: sqlite3.Row) -> bool:
+    pristine = {
+        "fetch_status": {"pending"},
+        "prepare_status": {"pending"},
+        "transcribe_status": {"pending", "stubbed"},
+        "diarize_status": {"pending", "stubbed"},
+        "name_speakers_status": {"pending", "stubbed"},
+        "chapterize_status": {"pending", "stubbed"},
+    }
+    return all(row[column] in allowed for column, allowed in pristine.items())
 
 
 def upsert_meeting(conn: sqlite3.Connection, values: dict[str, Any]) -> sqlite3.Row:

@@ -244,6 +244,7 @@ jobs:
             --include "captions-clean.jsonl" \
             --include "captions-clean.txt" \
             --include "voxtral-transcript-part-*.json" \
+            --include "name-speakers-chunk-*.json" \
             --include "utterances*.jsonl" \
             --include "chapters.json" \
             --include "meeting-derived.json" \
@@ -328,13 +329,17 @@ jobs:
         run: |
           # Each processed-* artifact is rooted at data/, so meeting files
           # arrive under data/processed-results/meetings/. Export reads them
-          # from data/meetings, so move them into place.
+          # from data/meetings, so move them into place. merge-results reads
+          # only top-level data/processed-results/*.json files.
           if [ -d data/processed-results/meetings ]; then
             rsync -a data/processed-results/meetings/ data/meetings/
           fi
 
       - name: Merge registry results
         run: uv run python -m pipeline merge-results --results-dir data/processed-results
+
+      - name: CI health summary
+        run: uv run python -m pipeline ci-health | tee -a "$GITHUB_STEP_SUMMARY"
 
       - name: Guard against green-but-empty runs
         if: ${{ needs.discover.outputs.has_pending == 'true' }}

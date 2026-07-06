@@ -16,6 +16,7 @@ LEGISTAR_BASE_URL = "https://webapi.legistar.com/v1/nyc"
 LEGISTAR_INSITE_BASE_URL = "https://legistar.council.nyc.gov"
 
 HTTP_TIMEOUT_SECONDS = 60
+VOXTRAL_USD_PER_AUDIO_HOUR = 0.09
 
 # --- Naming/chaptering LLM ---
 # Production default (2026-07-02): z-ai/glm-5.2 via OpenRouter beats Gemini 3.5 Flash on
