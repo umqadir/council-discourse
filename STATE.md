@@ -61,3 +61,15 @@ routine human involvement is required.
 - OG images use a placeholder poster per meeting.
 - Legistar token rotation (prefix once echoed to a local log, scrubbed).
 - Custom domain (deliberately deferred; pages.dev is fine).
+
+## ASR pricing note (2026-07-06)
+
+Sync Voxtral ($0.18/audio-hr) is the enforced default. Mistral's 50%-off Batch
+Jobs API is fully integrated behind `COUNCIL_VOXTRAL_MODE=batch` but its queue
+currently drops `diarize` (validated live: same clip diarizes sync, returns
+speaker_id=null batch, across every documented encoding — likely their bug,
+worth a support ticket). A cost-regression test pins sync + the reason. At the
+true price Voxtral still beats AssemblyAI (~$0.23/hr, fails a quality gate)
+and ElevenLabs (~$0.22-0.28/hr, fails) — decision unchanged. If Mistral fixes
+batch diarization: flip the env var, verify labels on one meeting, update the
+test; ASR line halves.
