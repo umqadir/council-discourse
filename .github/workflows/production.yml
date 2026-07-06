@@ -44,16 +44,34 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y ffmpeg poppler-utils
 
+      # Circuit breaker: if the last 3 scheduled runs all failed, something is
+      # systematically broken - stop retrying (and re-spending) every 2 hours
+      # until a human dispatches a run manually.
+      - name: Halt after repeated scheduled failures
+        if: ${{ github.event_name == 'schedule' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          recent="$(gh api "repos/${{ github.repository }}/actions/workflows/production.yml/runs?event=schedule&per_page=3" \
+            --jq '[.workflow_runs[] | select(.status == "completed") | .conclusion] | join(",")')"
+          echo "last scheduled conclusions: $recent"
+          if [ "$recent" = "failure,failure,failure" ]; then
+            echo "::error::Last 3 scheduled runs all failed - halting cron retries to stop repeated spend. Fix the cause, then re-dispatch manually."
+            exit 1
+          fi
+
       - name: Preflight API checks
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
         run: |
           python - <<'PY'
           import json, os, sys, urllib.request
 
-          def get(url, key):
-              req = urllib.request.Request(url, headers={"Authorization": f"Bearer {key}"})
+          def get(url, key=None):
+              headers = {"Authorization": f"Bearer {key}"} if key else {}
+              req = urllib.request.Request(url, headers=headers)
               with urllib.request.urlopen(req, timeout=30) as resp:
                   return json.load(resp)
 
@@ -62,8 +80,10 @@ jobs:
               data = get("https://openrouter.ai/api/v1/credits", os.environ["OPENROUTER_API_KEY"])["data"]
               remaining = float(data["total_credits"]) - float(data["total_usage"])
               print(f"openrouter credits remaining: ${remaining:.2f}")
-              if remaining < 1.0:
-                  print("::error::OpenRouter credits exhausted - add credits at https://openrouter.ai/settings/credits before meetings can be processed")
+              # A full 12-meeting batch costs ~$2.6 of LLM work; require headroom
+              # so a run never passes preflight and then dies mid-batch on 402s.
+              if remaining < 4.0:
+                  print("::error::OpenRouter credits below $4 - add credits at https://openrouter.ai/settings/credits before meetings can be processed")
                   failed = True
           except Exception as exc:
               print(f"::error::OpenRouter preflight failed: {exc}")
@@ -73,6 +93,12 @@ jobs:
               print("mistral auth: ok")
           except Exception as exc:
               print(f"::error::Mistral preflight failed (check key/billing): {exc}")
+              failed = True
+          try:
+              get(f"https://generativelanguage.googleapis.com/v1beta/models?key={os.environ['GOOGLE_API_KEY']}&pageSize=1")
+              print("google auth: ok")
+          except Exception as exc:
+              print(f"::error::Google preflight failed (naming verification depends on it): {exc}")
               failed = True
           sys.exit(1 if failed else 0)
           PY
@@ -106,6 +132,7 @@ jobs:
           path: data/registry.db
           if-no-files-found: error
           retention-days: 7
+          overwrite: true
 
   process:
     needs: discover
@@ -155,19 +182,32 @@ jobs:
       # stage instead of re-paying transcription.
       - name: Restore stage artifacts from R2
         run: |
+          # R2 credentials are mandatory in production: a silent no-op restore
+          # makes the registry look ahead of the disk and re-pays transcription.
           if [ -z "${R2_ACCESS_KEY_ID:-}" ] || [ -z "${R2_SECRET_ACCESS_KEY:-}" ] || [ -z "${R2_ENDPOINT:-}" ]; then
-            echo "::warning::R2 credentials missing; stage artifacts will not be restored."
-            exit 0
+            echo "::error::R2 credentials missing; refusing to process without artifact restore."
+            exit 1
           fi
           export RCLONE_CONFIG_R2_TYPE=s3
           export RCLONE_CONFIG_R2_PROVIDER=Cloudflare
           export RCLONE_CONFIG_R2_ACCESS_KEY_ID="$R2_ACCESS_KEY_ID"
           export RCLONE_CONFIG_R2_SECRET_ACCESS_KEY="$R2_SECRET_ACCESS_KEY"
           export RCLONE_CONFIG_R2_ENDPOINT="$R2_ENDPOINT"
-          rclone copy "r2:${R2_BUCKET}/artifacts/${{ matrix.meeting_key }}" \
-            "data/meetings/${{ matrix.meeting_key }}" \
-            --s3-no-check-bucket --transfers 4 --retries 3 \
-            || echo "no persisted artifacts for ${{ matrix.meeting_key }} (first attempt)"
+          # Distinguish "nothing persisted yet" (fine) from a transport/auth
+          # failure (must not proceed: reconcile would downgrade paid statuses).
+          if rclone lsf "r2:${R2_BUCKET}/artifacts/${{ matrix.meeting_key }}" --s3-no-check-bucket --max-depth 1 > /tmp/persisted.txt; then
+            if [ -s /tmp/persisted.txt ]; then
+              rclone copy "r2:${R2_BUCKET}/artifacts/${{ matrix.meeting_key }}" \
+                "data/meetings/${{ matrix.meeting_key }}" \
+                --s3-no-check-bucket --transfers 4 --retries 3
+              echo "restored $(wc -l < /tmp/persisted.txt) persisted artifacts"
+            else
+              echo "no persisted artifacts for ${{ matrix.meeting_key }} (first attempt)"
+            fi
+          else
+            echo "::error::could not list persisted artifacts on R2; aborting to avoid re-paying completed stages."
+            exit 1
+          fi
           ls -la "data/meetings/${{ matrix.meeting_key }}" 2>/dev/null || true
 
       - name: Process meeting
@@ -203,6 +243,7 @@ jobs:
             --include "agenda.txt" \
             --include "captions-clean.jsonl" \
             --include "captions-clean.txt" \
+            --include "voxtral-transcript-part-*.json" \
             --include "utterances*.jsonl" \
             --include "chapters.json" \
             --include "meeting-derived.json" \
@@ -229,6 +270,7 @@ jobs:
             data/meetings/${{ matrix.meeting_key }}/gemini-runlog.jsonl
           if-no-files-found: warn
           retention-days: 7
+          overwrite: true
 
   export-site:
     needs:
@@ -303,7 +345,10 @@ jobs:
           results = [r for r in loaded if isinstance(r, dict) and "stages" in r and "status" in r]
           done = [r for r in results if r.get("status") == "complete"]
           print(f"results={len(results)} complete={len(done)}")
-          if results and not done:
+          if not results:
+              print("::error::meetings were pending but NO result files arrived - process jobs died before producing results")
+              sys.exit(1)
+          if not done:
               print("::error::meetings were pending but ZERO completed - upstream stage (e.g. ASR auth) is broken")
               sys.exit(1)
           PY
@@ -371,9 +416,27 @@ jobs:
             fi
             echo "push rejected (attempt $attempt); rebasing onto origin/main"
             git fetch origin main
-            git -c user.name="github-actions[bot]" \
+            if ! git -c user.name="github-actions[bot]" \
               -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
-              rebase origin/main || { git rebase --abort; git reset --soft origin/main; git add -f data/registry.db site/src/data/meetings; git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "Update pipeline registry and site data [skip ci]"; }
+              rebase origin/main; then
+              # The registry is a binary file, so a mid-run human push that
+              # touched it conflicts deterministically. Never commit our stale
+              # checkout tree over origin (that silently reverts human work);
+              # instead rebuild the payload on top of origin's current state:
+              # re-apply this run's result rows to origin's registry, re-export,
+              # and commit only the payload paths.
+              git rebase --abort
+              git reset --hard origin/main
+              uv run python -m pipeline merge-results --results-dir data/processed-results
+              uv run python -m pipeline export-site --allow-empty
+              git add -f data/registry.db site/src/data/meetings
+              if git diff --cached --quiet; then
+                echo "origin already contains this run's changes"; exit 0
+              fi
+              git -c user.name="github-actions[bot]" \
+                -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+                commit -m "Update pipeline registry and site data [skip ci]"
+            fi
             sleep $((attempt * 3))
           done
           echo "::error::could not push registry/site data after retries"; exit 1
