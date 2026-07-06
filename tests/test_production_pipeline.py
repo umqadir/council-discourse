@@ -98,9 +98,14 @@ def test_status_includes_truncated_last_error(tmp_path: Path, capsys) -> None:
 def test_ci_health_prints_errors_unmatched_count_and_newest_date(tmp_path: Path, capsys) -> None:
     db_path = tmp_path / "registry.db"
     conn = db.connect(db_path)
+    # Stale AND inside coverage counts; pre-floor rows are deliberately ignored.
     db.upsert_meeting(
         conn,
-        {"meeting_key": "old-unmatched", "viebit_filename": "old-unmatched", "viebit_pub_date": "2000-01-01T00:00:00+00:00"},
+        {"meeting_key": "stale-unmatched", "viebit_filename": "stale-unmatched", "viebit_pub_date": "2026-06-22T00:00:00+00:00"},
+    )
+    db.upsert_meeting(
+        conn,
+        {"meeting_key": "pre-floor-unmatched", "viebit_filename": "pre-floor-unmatched", "viebit_pub_date": "2000-01-01T00:00:00+00:00"},
     )
     db.upsert_meeting(
         conn,

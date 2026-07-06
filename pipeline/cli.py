@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import sqlite3
 import sys
 from datetime import datetime, timedelta, timezone
@@ -389,19 +390,25 @@ def cmd_status(args: argparse.Namespace) -> int:
 def cmd_ci_health(args: argparse.Namespace) -> int:
     try:
         conn = db.connect(args.db)
+        # Scope to coverage: pre-floor backlog rows are permanently out of
+        # scope, and their historical errors would train readers to skim past
+        # this section.
+        coverage_start = os.environ.get("COUNCIL_COVERAGE_START", "2026-06-20")[:10]
         print("last_error rows:")
         error_rows = conn.execute(
             """
             SELECT meeting_key, last_error FROM meetings
             WHERE last_error IS NOT NULL AND TRIM(last_error) != ''
+              AND COALESCE(substr(event_date, 1, 10), substr(viebit_pub_date, 1, 10), substr(discovered_at, 1, 10)) >= ?
             ORDER BY updated_at DESC, meeting_key ASC
-            """
+            """,
+            (coverage_start,),
         ).fetchall()
         if not error_rows:
             print("none")
         for row in error_rows:
             print(f"{row['meeting_key']}: {_truncate_one_line(row['last_error'], 200)}")
-        print(f"stale_unmatched_viebit_rows_older_than_7d={_stale_unmatched_viebit_count(conn)}")
+        print(f"stale_unmatched_viebit_rows_older_than_7d={_stale_unmatched_viebit_count(conn, coverage_start)}")
         newest = conn.execute("SELECT MAX(event_date) AS newest FROM meetings WHERE event_date IS NOT NULL").fetchone()
         print(f"newest_event_date={newest['newest'] if newest and newest['newest'] else 'none'}")
     except Exception as exc:
@@ -416,14 +423,16 @@ def _truncate_one_line(value, width: int) -> str:
     return text
 
 
-def _stale_unmatched_viebit_count(conn: sqlite3.Connection) -> int:
+def _stale_unmatched_viebit_count(conn: sqlite3.Connection, coverage_start: str) -> int:
     cutoff = datetime.now(timezone.utc) - timedelta(days=7)
     rows = conn.execute(
         """
         SELECT viebit_pub_date, discovered_at FROM meetings
         WHERE viebit_filename IS NOT NULL
           AND legistar_event_id IS NULL
-        """
+          AND COALESCE(substr(viebit_pub_date, 1, 10), substr(discovered_at, 1, 10)) >= ?
+        """,
+        (coverage_start,),
     ).fetchall()
     count = 0
     for row in rows:
