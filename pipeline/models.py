@@ -26,3 +26,4 @@ class Meeting:
     meeting_type: str | None = None
     meeting_slug: str | None = None
     video_web_url: str | None = None
+    event_topic: str | None = None

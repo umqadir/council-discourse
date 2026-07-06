@@ -148,6 +148,7 @@ def discover_legistar(
             try:
                 values = _values_from_event(event)
                 _attach_video_filename(conn, client, event, values)
+                _attach_event_topic(client, event, values)
                 db.upsert_meeting(conn, values)
             except Exception as exc:
                 # One malformed event (bad date strings, dead pages, missing fields)
@@ -160,6 +161,52 @@ def discover_legistar(
         if not (start_date and end_date) and latest_cursor != cursor:
             db.set_meta(conn, LEGISTAR_CURSOR_KEY, latest_cursor)
             conn.commit()
+        _backfill_event_topics(conn, client)
     finally:
         client.close()
     return count, False
+
+
+def _attach_event_topic(client: LegistarClient, event, values: dict) -> None:
+    """Store the first-agenda-item topic; '' marks 'checked, nothing usable'."""
+    if values.get("meeting_type") == "STATED_MEETING":
+        # Stated meetings vote on dozens of items; the first is always procedural.
+        values["event_topic"] = ""
+        return
+    from .legistar import extract_event_topic
+
+    try:
+        items = client.get_event_items(event.event_id)
+        values["event_topic"] = extract_event_topic(items, values.get("body_name")) or ""
+    except Exception as exc:
+        # Leave NULL so the backfill pass retries later; never block discovery.
+        print(f"  topic fetch failed for event {event.event_id}: {exc}", file=sys.stderr, flush=True)
+
+
+def _backfill_event_topics(conn: sqlite3.Connection, client: LegistarClient, limit: int = 60) -> None:
+    from .legistar import extract_event_topic
+
+    rows = conn.execute(
+        """
+        SELECT meeting_key, legistar_event_id, body_name, meeting_type FROM meetings
+        WHERE legistar_event_id IS NOT NULL
+          AND viebit_filename IS NOT NULL
+          AND event_topic IS NULL
+        LIMIT ?
+        """,
+        (limit,),
+    ).fetchall()
+    for row in rows:
+        if row["meeting_type"] == "STATED_MEETING":
+            db.update_meeting(conn, str(row["meeting_key"]), {"event_topic": ""})
+            continue
+        try:
+            items = client.get_event_items(int(row["legistar_event_id"]))
+            topic = extract_event_topic(items, row["body_name"]) or ""
+            db.update_meeting(conn, str(row["meeting_key"]), {"event_topic": topic})
+        except Exception as exc:
+            print(
+                f"  topic backfill failed for event {row['legistar_event_id']}: {exc}",
+                file=sys.stderr,
+                flush=True,
+            )

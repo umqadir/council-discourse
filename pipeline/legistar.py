@@ -104,6 +104,17 @@ class LegistarClient:
     def close(self) -> None:
         self.client.close()
 
+    def get_event_items(self, event_id: int) -> list[dict]:
+        response = self.client.get(
+            f"{self.base_url}/events/{event_id}/eventitems",
+            params={"token": self.token},
+        )
+        response.raise_for_status()
+        payload = response.json()
+        if not isinstance(payload, list):
+            raise RuntimeError(f"unexpected Legistar eventitems response: {type(payload).__name__}")
+        return payload
+
     def get_events_modified_since(self, cursor: str, page_size: int = 1000) -> list[LegistarEvent]:
         events: list[LegistarEvent] = []
         skip = 0
@@ -209,6 +220,49 @@ def infer_meeting_type(
     if "vote" in text or "voting" in text:
         return "VOTE"
     return "HEARING"
+
+
+# First-agenda-item strings that carry no information about what the meeting
+# is about (procedural stubs, calendar pointers, bare times).
+_TOPIC_JUNK_PATTERNS = (
+    re.compile(r"^agenda\b", re.I),
+    re.compile(r"^see\s", re.I),
+    re.compile(r"^roll call", re.I),
+    re.compile(r"^\d"),
+    re.compile(r"meeting details to be determined", re.I),
+    re.compile(r"^(communication|introduction)s?\s+(from|and)\b", re.I),
+)
+
+
+def extract_event_topic(items: list[dict], body_name: str | None = None) -> str | None:
+    """Hearing topic from an event's first agenda item (legistar-monitor's method).
+
+    Returns None when the first item is procedural boilerplate rather than a
+    real subject, so callers can distinguish "no useful topic" from "not yet
+    fetched".
+    """
+    if not items:
+        return None
+    ordered = sorted(
+        items,
+        key=lambda item: item.get("EventItemAgendaSequence")
+        if item.get("EventItemAgendaSequence") is not None
+        else float("inf"),
+    )
+    primary = ordered[0]
+    topic = str(primary.get("EventItemMatterName") or "").strip()
+    if not topic:
+        title = str(primary.get("EventItemTitle") or "").strip()
+        lines = [line.strip() for line in title.splitlines() if line.strip()]
+        topic = " ".join(lines[:3]).strip()
+    topic = re.sub(r"\s+", " ", topic).rstrip(".")
+    if len(topic) < 8:
+        return None
+    if body_name and topic.lower() == str(body_name).strip().lower():
+        return None
+    if any(pattern.search(topic) for pattern in _TOPIC_JUNK_PATTERNS):
+        return None
+    return topic
 
 
 def body_slug(body_name: str | None) -> str:

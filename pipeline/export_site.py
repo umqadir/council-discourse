@@ -30,6 +30,7 @@ BENCHMARK_OVERRIDES = {
         "body": "New York City Council",
         "title": "Committee on Transportation and Infrastructure",
         "slug": "2025-04-23-1000-am-committee-on-transportation-and-infrastructure",
+        "topic": "Oversight - Dining Out NYC",
         "tags": ["HEARING"],
         "summary": [
             "A joint hearing examined Dining Out NYC, the permanent outdoor dining program that replaced the temporary pandemic-era program.",
@@ -242,10 +243,19 @@ def _convert_meeting(meeting, payload: dict[str, Any], override: dict[str, Any] 
             }
         )
 
+    topic = ""
+    if override and override.get("topic"):
+        topic = str(override["topic"])
+    elif getattr(meeting, "event_topic", None):
+        topic = str(meeting.event_topic)
+    elif payload.get("event_topic"):
+        topic = str(payload["event_topic"])
+
     return {
         "slug": slug,
         "body": body,
         "title": title,
+        "topic": normalize_summary_text(topic),
         "date": date,
         "time": time,
         "duration_sec": round_sec(duration),

@@ -54,6 +54,7 @@ if (!getMeeting(body.slug, meeting.slug)) {
     <div class="space-y-3">
       <p class="text-sm font-semibold uppercase tracking-[0.16em] text-civic">{meeting.body}</p>
       <h1 class="max-w-4xl font-serif text-4xl font-semibold leading-tight">{meeting.title}</h1>
+      {meeting.topic && <p class="max-w-4xl text-xl leading-snug">{meeting.topic}</p>}
       <div class="text-sm tabular text-muted">
         {formatDate(meeting.date)} · {meeting.time} · {formatDuration(meeting.duration_sec)}
       </div>

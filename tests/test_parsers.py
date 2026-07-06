@@ -79,3 +79,30 @@ AGAIN
         {"t": 2.0, "text": "WORLD"},
         {"t": 3.0, "text": "AGAIN"},
     ]
+
+
+def test_extract_event_topic_prefers_matter_name_and_filters_junk() -> None:
+    from pipeline.legistar import extract_event_topic
+
+    items = [
+        {"EventItemAgendaSequence": 2, "EventItemMatterName": "Second item"},
+        {"EventItemAgendaSequence": 1, "EventItemMatterName": "Executive Budget Hearings - Finance"},
+    ]
+    assert extract_event_topic(items) == "Executive Budget Hearings - Finance"
+
+    # Falls back to the item title when the matter name is empty.
+    titled = [{"EventItemAgendaSequence": 1, "EventItemTitle": "Oversight - Dining Out NYC.\nSecond line."}]
+    assert extract_event_topic(titled) == "Oversight - Dining Out NYC. Second line"
+
+    # Procedural boilerplate yields no topic.
+    assert extract_event_topic([{"EventItemAgendaSequence": 1, "EventItemMatterName": "Agenda 1 p.m."}]) is None
+    assert extract_event_topic([{"EventItemAgendaSequence": 1, "EventItemMatterName": "See Land Use Calendar"}]) is None
+    assert extract_event_topic([{"EventItemAgendaSequence": 1, "EventItemMatterName": "Roll Call"}]) is None
+    assert (
+        extract_event_topic(
+            [{"EventItemAgendaSequence": 1, "EventItemMatterName": "Committee on Finance"}],
+            body_name="Committee on Finance",
+        )
+        is None
+    )
+    assert extract_event_topic([]) is None

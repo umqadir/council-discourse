@@ -26,6 +26,7 @@ export interface Meeting {
   slug: string;
   body: string;
   title: string;
+  topic?: string;
   date: string;
   time: string;
   duration_sec: number;

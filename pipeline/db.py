@@ -33,6 +33,7 @@ MEETING_COLUMNS = [
     "meeting_slug",
     "body_slug",
     "video_web_url",
+    "event_topic",
     "duration_seconds",
     "discover_status",
     "fetch_status",
@@ -88,6 +89,7 @@ def init_db(conn: sqlite3.Connection) -> None:
             meeting_slug TEXT,
             body_slug TEXT,
             video_web_url TEXT,
+            event_topic TEXT,
             duration_seconds REAL,
             discover_status TEXT NOT NULL DEFAULT 'pending',
             fetch_status TEXT NOT NULL DEFAULT 'pending',
@@ -127,6 +129,7 @@ def _migrate_meetings_table(conn: sqlite3.Connection) -> None:
         "meeting_slug": "TEXT",
         "body_slug": "TEXT",
         "video_web_url": "TEXT",
+        "event_topic": "TEXT",
         "diarize_status": "TEXT NOT NULL DEFAULT 'stubbed'",
     }
     for column, kind in additions.items():
@@ -422,6 +425,7 @@ def meeting_from_row(row: sqlite3.Row, meetings_dir: Path = MEETINGS_DIR) -> Mee
         meeting_type=row["meeting_type"],
         meeting_slug=row["meeting_slug"],
         video_web_url=row["video_web_url"],
+        event_topic=row["event_topic"] if "event_topic" in row.keys() else None,
     )
 
 

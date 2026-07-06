@@ -31,6 +31,7 @@ const summary = meeting.summary.join(" ");
         {meeting.title}
       </a>
     </h2>
+    {meeting.topic && <div class="mt-1 leading-snug text-ink">{meeting.topic}</div>}
     <div class="mt-1 text-sm tabular text-muted">
       {formatDuration(meeting.duration_sec)}
     </div>
