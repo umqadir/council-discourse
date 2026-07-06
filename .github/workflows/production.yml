@@ -283,9 +283,9 @@ jobs:
       - process
     if: ${{ always() && needs.discover.result == 'success' }}
     runs-on: ubuntu-latest
+    # Deliberately NO LLM/API keys here: merge, export, build, and deploy make
+    # no paid calls, and keeping the keys out makes that structural.
     env:
-      GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
-      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
       R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
       R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
       R2_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
