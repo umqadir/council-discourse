@@ -149,12 +149,65 @@ jobs:
           name: registry-state
           path: data
 
+      # Runners are ephemeral but paid stage outputs (transcripts especially)
+      # must not be. Restore any previously produced artifacts for this meeting
+      # from R2 so a retry after a late-stage failure resumes at the failed
+      # stage instead of re-paying transcription.
+      - name: Restore stage artifacts from R2
+        run: |
+          if [ -z "${R2_ACCESS_KEY_ID:-}" ] || [ -z "${R2_SECRET_ACCESS_KEY:-}" ] || [ -z "${R2_ENDPOINT:-}" ]; then
+            echo "::warning::R2 credentials missing; stage artifacts will not be restored."
+            exit 0
+          fi
+          export RCLONE_CONFIG_R2_TYPE=s3
+          export RCLONE_CONFIG_R2_PROVIDER=Cloudflare
+          export RCLONE_CONFIG_R2_ACCESS_KEY_ID="$R2_ACCESS_KEY_ID"
+          export RCLONE_CONFIG_R2_SECRET_ACCESS_KEY="$R2_SECRET_ACCESS_KEY"
+          export RCLONE_CONFIG_R2_ENDPOINT="$R2_ENDPOINT"
+          rclone copy "r2:${R2_BUCKET}/artifacts/${{ matrix.meeting_key }}" \
+            "data/meetings/${{ matrix.meeting_key }}" \
+            --s3-no-check-bucket --transfers 4 --retries 3 \
+            || echo "no persisted artifacts for ${{ matrix.meeting_key }} (first attempt)"
+          ls -la "data/meetings/${{ matrix.meeting_key }}" 2>/dev/null || true
+
       - name: Process meeting
         run: |
           uv run python -m pipeline process-one \
             --meeting-key "${{ matrix.meeting_key }}" \
             --result-json "data/processed-results/${{ matrix.meeting_key }}.json" \
             --fail-on-error
+
+      # Persist stage outputs even when a later stage failed, so the retry
+      # starts from what this run already paid for.
+      - name: Persist stage artifacts to R2
+        if: ${{ always() }}
+        run: |
+          src="data/meetings/${{ matrix.meeting_key }}"
+          if [ ! -d "$src" ]; then
+            echo "no meeting directory produced"
+            exit 0
+          fi
+          if [ -z "${R2_ACCESS_KEY_ID:-}" ] || [ -z "${R2_SECRET_ACCESS_KEY:-}" ] || [ -z "${R2_ENDPOINT:-}" ]; then
+            echo "::warning::R2 credentials missing; stage artifacts will not be persisted."
+            exit 0
+          fi
+          export RCLONE_CONFIG_R2_TYPE=s3
+          export RCLONE_CONFIG_R2_PROVIDER=Cloudflare
+          export RCLONE_CONFIG_R2_ACCESS_KEY_ID="$R2_ACCESS_KEY_ID"
+          export RCLONE_CONFIG_R2_SECRET_ACCESS_KEY="$R2_SECRET_ACCESS_KEY"
+          export RCLONE_CONFIG_R2_ENDPOINT="$R2_ENDPOINT"
+          rclone copy "$src" "r2:${R2_BUCKET}/artifacts/${{ matrix.meeting_key }}" \
+            --s3-no-check-bucket --transfers 4 --retries 3 \
+            --include "audio.m4a" \
+            --include "meeting.json" \
+            --include "agenda.txt" \
+            --include "captions-clean.jsonl" \
+            --include "captions-clean.txt" \
+            --include "utterances*.jsonl" \
+            --include "chapters.json" \
+            --include "meeting-derived.json" \
+            --include "*-meta.json" \
+            --include "gemini-runlog.jsonl"
 
       - name: Upload meeting result
         if: ${{ always() }}
