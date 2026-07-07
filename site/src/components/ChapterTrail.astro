@@ -1,5 +1,5 @@
 ---
-import { formatClock } from "@lib/format";
+import { chapterTypeLabel, formatClock } from "@lib/format";
 import type { Meeting } from "@lib/types";
 
 interface Props {
@@ -11,115 +11,156 @@ const count = meeting.chapters.length;
 ---
 
 {
-  count > 1 && (
+  count > 6 && (
     <nav
-      class="chapter-trail fixed right-3 top-1/2 z-20 hidden -translate-y-1/2 xl:block"
-      aria-label="Chapter navigation trail"
+      class="chapter-trail fixed right-2 top-1/2 z-20 hidden max-h-[72vh] -translate-y-1/2 flex-col items-end justify-center gap-1 py-2 xl:flex"
+      aria-label="Chapter minimap"
     >
+      {/* One preview card, repositioned to whichever tick is hovered — the
+          hover-card model from the shadcn MessageScroller outline. */}
       <div
-        class="chapter-trail-panel absolute right-full top-1/2 mr-2 hidden max-h-[60vh] w-64 -translate-y-1/2 overflow-y-auto rounded-[18px] bg-paper p-1 text-sm shadow-lg ring-1 ring-ink/10"
+        class="chapter-trail-card pointer-events-none absolute right-full top-0 mr-3 hidden w-72 max-w-[19rem] -translate-y-1/2 flex-col gap-1.5 rounded-lg border border-line bg-paper p-3 shadow-lg ring-1 ring-ink/5"
       >
-        {meeting.chapters.map((chapter, index) => (
-          <button
-            type="button"
-            class="chapter-trail-item flex h-8 w-full min-w-0 items-center gap-2 rounded-[14px] px-2 py-1.5 text-left hover:bg-ink/5"
-            data-index={index}
-            data-type={chapter.type}
-            x-show="selected[$el.dataset.type]"
-            x-cloak
-          >
-            <span class="tabular shrink-0 text-xs text-muted">{formatClock(chapter.start_sec)}</span>
-            <span class="min-w-0 flex-1 truncate text-ink">{chapter.title}</span>
-          </button>
-        ))}
-      </div>
-      <div
-        class="chapter-trail-trigger flex h-[min(60vh,540px)] w-9 flex-col items-center justify-center rounded-md"
-        style={`gap: ${count > 90 ? "1px" : "4px"};`}
-      >
-        {meeting.chapters.map((chapter, index) => (
+        <div class="flex items-center gap-2">
           <span
-            class="chapter-pill h-0.5 w-4 min-h-px flex-none rounded-full bg-muted/40"
-            style={count * (count > 90 ? 3 : 6) > 540 ? "flex: 1 1 0; max-height: 2px;" : ""}
-            data-index={index}
-            data-type={chapter.type}
-            x-show="selected[$el.dataset.type]"
-            x-cloak
+            class="chapter-trail-card-badge inline-flex items-center rounded-full border border-line bg-paper px-2 py-0.5 text-[0.6rem] font-semibold uppercase leading-none tracking-[0.08em] text-ink"
+            data-card-badge
           />
-        ))}
+          <span class="tabular text-xs text-muted" data-card-clock />
+        </div>
+        <p class="font-serif text-sm font-semibold leading-snug text-ink" data-card-title />
+        <p class="line-clamp-2 text-xs leading-relaxed text-muted" data-card-summary />
       </div>
+
+      {meeting.chapters.map((chapter, index) => (
+        <button
+          type="button"
+          class="chapter-tick group flex h-2 w-8 items-center justify-end border-0 bg-transparent p-0"
+          data-index={index}
+          data-type={chapter.type}
+          data-badge={chapterTypeLabel(chapter.type)}
+          data-clock={formatClock(chapter.start_sec)}
+          data-title={chapter.title}
+          data-summary={chapter.summary}
+          aria-label={`Jump to: ${chapter.title}`}
+          x-show="selected[$el.dataset.type]"
+          x-cloak
+        >
+          {/* The bar itself, matching the shadcn tick: dim by default, filled
+              when its chapter is the current one, widened on hover/focus.
+              State is driven by data-attributes (below) rather than conflicting
+              Tailwind width utilities, so the width actually changes. */}
+          <span class="chapter-tick-bar" data-current="false" data-active="false" />
+        </button>
+      ))}
     </nav>
   )
 }
 
+<style>
+  .chapter-tick-bar {
+    height: 2px;
+    width: 12px;
+    border-radius: 9999px;
+    background: rgba(98, 95, 88, 0.35);
+    transition:
+      width 0.12s ease,
+      background-color 0.12s ease;
+  }
+  /* Current: the chapter(s) in view — the scroll-position indicator. */
+  .chapter-tick-bar[data-current="true"] {
+    width: 20px;
+    background: #141311;
+  }
+  /* Active: the hovered/focused tick — widest and filled. */
+  .chapter-tick-bar[data-active="true"] {
+    width: 26px;
+    background: #141311;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .chapter-tick-bar {
+      transition: none;
+    }
+  }
+</style>
+
 <script>
   const trail = document.querySelector<HTMLElement>(".chapter-trail");
   if (trail) {
-    const panel = trail.querySelector<HTMLElement>(".chapter-trail-panel");
-    const items = [...trail.querySelectorAll<HTMLButtonElement>(".chapter-trail-item")];
-    const pills = [...trail.querySelectorAll<HTMLElement>(".chapter-pill")];
+    const ticks = [...trail.querySelectorAll<HTMLButtonElement>(".chapter-tick")];
     const cards = [...document.querySelectorAll<HTMLElement>("[data-chapter-card]")];
+    const card = trail.querySelector<HTMLElement>(".chapter-trail-card");
+    const badge = card?.querySelector<HTMLElement>("[data-card-badge]");
+    const clock = card?.querySelector<HTMLElement>("[data-card-clock]");
+    const title = card?.querySelector<HTMLElement>("[data-card-title]");
+    const summary = card?.querySelector<HTMLElement>("[data-card-summary]");
     const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-    let currentIndex = 0;
-    const setCurrent = (index: number) => {
-      currentIndex = index;
-      for (const pill of pills) {
-        pill.classList.toggle("bg-ink", Number(pill.dataset.index) === index);
-        pill.classList.toggle("bg-muted/40", Number(pill.dataset.index) !== index);
-      }
-      for (const item of items) {
-        item.classList.toggle("bg-civic/10", Number(item.dataset.index) === index);
-      }
-    };
+    const barOf = (tick: HTMLElement) => tick.querySelector<HTMLElement>(".chapter-tick-bar");
 
-    // Scroll-spy: the current chapter is the last card whose top has passed
-    // the reading line (a third down the viewport).
+    // Current position: every tick whose chapter is in the viewport fills in,
+    // so the lit run shows where you are and how much is on screen.
     let raf = 0;
-    const updateCurrent = () => {
+    const paintCurrent = () => {
       raf = 0;
-      const line = window.innerHeight / 3;
-      let current = 0;
+      const top = window.innerHeight * 0.12;
+      const bottom = window.innerHeight * 0.88;
       for (let i = 0; i < cards.length; i += 1) {
+        const bar = barOf(ticks[i]);
+        if (!bar) continue;
         if (cards[i].offsetParent === null) continue; // filtered out
-        if (cards[i].getBoundingClientRect().top <= line) current = i;
+        const r = cards[i].getBoundingClientRect();
+        bar.dataset.current = r.bottom > top && r.top < bottom ? "true" : "false";
       }
-      setCurrent(current);
     };
     window.addEventListener(
       "scroll",
       () => {
-        if (!raf) raf = requestAnimationFrame(updateCurrent);
+        if (!raf) raf = requestAnimationFrame(paintCurrent);
       },
       { passive: true },
     );
-    updateCurrent();
+    paintCurrent();
 
-    // Hover-card behavior: hovering the pill column opens the panel; it stays
-    // open while the pointer is over either; closes shortly after leaving.
-    let closeTimer = 0;
-    const open = () => {
-      window.clearTimeout(closeTimer);
-      if (!panel || !panel.classList.contains("hidden")) return;
-      panel.classList.remove("hidden");
-      const target = items[currentIndex];
-      if (target && target.offsetParent !== null) {
-        panel.scrollTop = target.offsetTop - panel.clientHeight / 2 + target.clientHeight / 2;
-      }
+    // The hovered/focused tick itself changes — driven by JS so it fires for
+    // pointer and keyboard alike.
+    let active: HTMLElement | null = null;
+    const setActive = (tick: HTMLElement | null) => {
+      const prev = active && barOf(active);
+      if (prev) prev.dataset.active = "false";
+      active = tick;
+      const bar = tick && barOf(tick);
+      if (bar) bar.dataset.active = "true";
     };
-    const scheduleClose = () => {
-      window.clearTimeout(closeTimer);
-      closeTimer = window.setTimeout(() => panel?.classList.add("hidden"), 150);
-    };
-    trail.addEventListener("mouseenter", open);
-    trail.addEventListener("mouseleave", scheduleClose);
-    trail.addEventListener("focusin", open);
-    trail.addEventListener("focusout", scheduleClose);
 
-    for (const item of items) {
-      item.addEventListener("click", () => {
-        const card = cards[Number(item.dataset.index)];
-        card?.scrollIntoView({ behavior: reducedMotion ? "auto" : "smooth", block: "start" });
+    const showCard = (tick: HTMLElement) => {
+      setActive(tick);
+      if (!card || !badge || !clock || !title || !summary) return;
+      badge.textContent = tick.dataset.badge ?? "";
+      clock.textContent = tick.dataset.clock ?? "";
+      title.textContent = tick.dataset.title ?? "";
+      summary.textContent = tick.dataset.summary ?? "";
+      summary.style.display = tick.dataset.summary ? "" : "none";
+      const trailBox = trail.getBoundingClientRect();
+      const tickBox = tick.getBoundingClientRect();
+      card.style.top = `${tickBox.top - trailBox.top + tickBox.height / 2}px`;
+      card.classList.remove("hidden");
+      card.classList.add("flex");
+    };
+    const hideCard = () => {
+      setActive(null);
+      card?.classList.add("hidden");
+      card?.classList.remove("flex");
+    };
+
+    for (const tick of ticks) {
+      const index = Number(tick.dataset.index);
+      tick.addEventListener("mouseenter", () => showCard(tick));
+      tick.addEventListener("focus", () => showCard(tick));
+      tick.addEventListener("mouseleave", hideCard);
+      tick.addEventListener("blur", hideCard);
+      tick.addEventListener("click", () => {
+        cards[index]?.scrollIntoView({ behavior: reducedMotion ? "auto" : "smooth", block: "start" });
       });
     }
   }
