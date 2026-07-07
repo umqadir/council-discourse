@@ -128,3 +128,37 @@ def test_discover_legistar_missing_token_is_loud_in_github_actions(tmp_path: Pat
 
     assert discover_legistar(conn) == (0, True)
     assert "::error::LEGISTAR_TOKEN unset" in capsys.readouterr().err
+
+
+def test_cmd_discover_survives_transient_source_timeout(tmp_path: Path, monkeypatch, capsys) -> None:
+    import argparse
+
+    from pipeline.cli import cmd_discover
+
+    db.connect(tmp_path / "registry.db")
+
+    def _timeout(*_args, **_kwargs):
+        raise TimeoutError("legistar connect timed out")
+
+    # RSS succeeds, Legistar times out past its retries: the command must still
+    # exit 0, warn, and emit a valid (empty) pending matrix from the registry.
+    monkeypatch.setattr("pipeline.cli.discover_viebit_rss", lambda *_a, **_k: 3)
+    monkeypatch.setattr("pipeline.cli.discover_legistar", _timeout)
+
+    args = argparse.Namespace(
+        db=tmp_path / "registry.db",
+        no_rss=False,
+        rss_url=None,
+        legistar_start=None,
+        legistar_end=None,
+        emit_pending_json=True,
+        pending_limit=12,
+    )
+
+    assert cmd_discover(args) == 0
+    captured = capsys.readouterr()
+    assert "::warning::discovery source 'legistar' failed" in captured.err
+    # Last stdout line is the pending matrix JSON — parseable, empty include.
+    import json
+
+    assert json.loads(captured.out.strip().splitlines()[-1]) == {"include": []}

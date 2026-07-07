@@ -66,22 +66,37 @@ def cmd_discover(args: argparse.Namespace) -> int:
         print("--legistar-start and --legistar-end must be supplied together", file=sys.stderr)
         return 2
     conn = db.connect(args.db)
-    rss_count = 0 if args.no_rss else discover_viebit_rss(conn, args.rss_url)
-    event_count, skipped_legistar = discover_legistar(
-        conn,
-        start_date=args.legistar_start,
-        end_date=args.legistar_end,
+    log = sys.stderr if args.emit_pending_json else sys.stdout
+
+    # Discovery only ADDS newly-seen meetings; the pending matrix comes from the
+    # persisted registry. A transient upstream blip (Legistar/viebit timing out
+    # past its retries) must not abort the whole pipeline and skip processing of
+    # already-pending meetings. Log the source failure loudly (GitHub annotation)
+    # and continue; a PERSISTENT outage surfaces via the export-site staleness
+    # guard (ci-health newest_event_date going stale), which is the real backstop.
+    def _run_source(label: str, fn):
+        try:
+            return fn(), True
+        except Exception as exc:  # noqa: BLE001 - deliberately source-isolating
+            print(f"::warning::discovery source '{label}' failed this cycle: {exc}", file=log, flush=True)
+            return None, False
+
+    rss_count = 0
+    rss_ok = True
+    if not args.no_rss:
+        rss_count, rss_ok = _run_source("viebit_rss", lambda: discover_viebit_rss(conn, args.rss_url))
+
+    legistar_result, legistar_ok = _run_source(
+        "legistar",
+        lambda: discover_legistar(conn, start_date=args.legistar_start, end_date=args.legistar_end),
     )
-    if skipped_legistar:
-        print(
-            f"viebit_rss={rss_count}; legistar=skipped (LEGISTAR_TOKEN unset)",
-            file=sys.stderr if args.emit_pending_json else sys.stdout,
-        )
+    event_count, skipped_legistar = legistar_result if legistar_result is not None else (0, True)
+
+    if skipped_legistar and legistar_ok:
+        print(f"viebit_rss={rss_count}; legistar=skipped (LEGISTAR_TOKEN unset)", file=log)
     else:
-        print(
-            f"viebit_rss={rss_count}; legistar_events={event_count}",
-            file=sys.stderr if args.emit_pending_json else sys.stdout,
-        )
+        print(f"viebit_rss={rss_count} (ok={rss_ok}); legistar_events={event_count} (ok={legistar_ok})", file=log)
+
     if args.emit_pending_json:
         print(pending_matrix_json(conn, limit=args.pending_limit))
     return 0
