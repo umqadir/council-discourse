@@ -78,10 +78,14 @@ and deploys the site. No routine human involvement is required.
   a silent-error guard fails the job if the agent errors without working.
   Auth: `CLAUDE_CODE_OAUTH_TOKEN` secret = a subscription token from
   `claude setup-token` (zero marginal cost; **expires ~2027-07**, regenerate
-  then). Gotcha: NEVER also set an `ANTHROPIC_API_KEY` secret — the action
-  reads it from env and it silently overrides the OAuth token → 401. Verify a
-  new token with a direct `curl` (`anthropic-beta: oauth-2025-04-20`, expect
-  200) before trusting it; the CLI wraps the printed token across lines.
+  then). When regenerating, the ONE thing that bites: the CLI prints the token
+  wrapped across terminal lines, so a copy/scrape easily drops a character and
+  the result 401s. Always verify the token returns HTTP 200 via a direct curl
+  (`api.anthropic.com/v1/messages`, header `anthropic-beta: oauth-2025-04-20`)
+  BEFORE putting it in the secret. Separately: don't map an `ANTHROPIC_API_KEY`
+  into this workflow's `env` — the action falls back to `env.ANTHROPIC_API_KEY`
+  and it would override the OAuth token. (A repo secret alone is harmless; only
+  an env mapping matters. The workflow currently maps only `GH_TOKEN`.)
 
 ## Returning after a break — checklist
 
