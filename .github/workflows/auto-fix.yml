@@ -60,23 +60,6 @@ jobs:
           # and without it a silent SDK failure is undiagnosable (learned the
           # hard way — a 2-second "success" that did nothing).
           show_full_output: "true"
-
-      # The action can report success while the SDK errored before doing any
-      # work (observed: "Credit balance is too low" on a green step). A fixer
-      # that silently does nothing is worse than no fixer.
-      - name: Fail if the fixer errored silently
-        run: |
-          f=/home/runner/work/_temp/claude-execution-output.json
-          if [ ! -f "$f" ]; then
-            echo "::error::no execution output produced"
-            exit 1
-          fi
-          errored=$(jq -r 'map(select(.type=="result")) | last | .is_error // false' "$f")
-          if [ "$errored" = "true" ]; then
-            message=$(jq -r 'map(select(.type=="result")) | last | .result // "unknown"' "$f")
-            echo "::error::fixer errored without working: $message"
-            exit 1
-          fi
           prompt: |
             You are the on-call fixer for this repository's production pipeline.
             Production run ${{ github.event.workflow_run.id || inputs.run_id }} concluded FAILURE:
@@ -115,3 +98,20 @@ jobs:
               invariant to make the run pass — those exist to fail.
             - One focused commit at most. If main moved while you worked,
               rebase your commit onto origin/main before pushing.
+
+      # The action can report success while the SDK errored before doing any
+      # work (observed: "Credit balance is too low" on a green step). A fixer
+      # that silently does nothing is worse than no fixer.
+      - name: Fail if the fixer errored silently
+        run: |
+          f=/home/runner/work/_temp/claude-execution-output.json
+          if [ ! -f "$f" ]; then
+            echo "::error::no execution output produced"
+            exit 1
+          fi
+          errored=$(jq -r 'map(select(.type=="result")) | last | .is_error // false' "$f")
+          if [ "$errored" = "true" ]; then
+            message=$(jq -r 'map(select(.type=="result")) | last | .result // "unknown"' "$f")
+            echo "::error::fixer errored without working: $message"
+            exit 1
+          fi
