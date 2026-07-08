@@ -1,9 +1,28 @@
 # STATE — operational status and runbook
 
-Updated 2026-07-06. The pipeline is **autonomous**: a GitHub Actions cron
-(`production.yml`, every 2 hours) discovers new NYC Council meetings, processes
-them (transcription, speaker naming, chaptering), and deploys the site. No
-routine human involvement is required.
+Updated 2026-07-08 (result-transport redesign). The pipeline is **autonomous**:
+a GitHub Actions cron (`production.yml`, every 2 hours) discovers new NYC
+Council meetings, processes them (transcription, speaker naming, chaptering),
+and deploys the site. No routine human involvement is required.
+
+## State model — keep these sentences true
+
+- **Registry** (`data/registry.db`, committed by CI): the only record of stage
+  statuses. Discover is the only row creator; merge-results the only CI writer.
+- **R2 is the single artifact store**: `/<key>/video-web.mp4` (published
+  video), `/artifacts/<key>/…` (stage outputs, persisted after every process
+  job, restored before the next), `/artifacts/<key>/result.json` (the durable
+  outcome record — written by process-one itself, even for failures), and
+  `/data/…` (content-hashed chapter JSON).
+- **Actions artifacts carry only intra-run plumbing** (the registry snapshot).
+  Never transport results through them: their internal layout depends on which
+  files a run happened to produce (least-common-ancestor rooting), which
+  caused two green-but-empty incidents (2026-07-03 and 2026-07-08).
+- Export-site re-syncs ALL result records from R2 every run and the merge is
+  idempotent (done statuses never regress; unknown keys skipped), so a lost
+  registry commit self-heals on the next cycle instead of silently re-paying.
+- The `verify-run-results` step shares its file-discovery code with
+  `merge_results` — one definition of "a result", checked per matrix key.
 
 ## Live
 
@@ -15,11 +34,13 @@ routine human involvement is required.
 
 ## Production config (benchmarked; see PLAN.md sections 7-13)
 
-- ASR + diarization: Mistral Voxtral `voxtral-mini-2602` ($0.09/audio-hour).
+- ASR + diarization: Mistral Voxtral `voxtral-mini-2602`, sync endpoint at
+  $0.18/audio-hour (see ASR pricing note below for why not batch).
 - Naming: DeepSeek V4 Pro; chaptering + summaries: GLM-5.2 (both via
   OpenRouter, prepaid credits). Verification: Gemini Flash-Lite (best-effort,
   non-fatal). Video: 480p H.264 on R2, zero egress.
-- Steady state ≈ $19-22/month at the measured 41 meetings/month.
+- Steady state ≈ $29-32/month at the measured 41 meetings/month
+  (~$0.60/meeting all-in; a meeting above ~$5 in `cost_usd` is an anomaly).
   Cost projection artifact:
   https://claude.ai/code/artifact/a47c2f79-3779-4b2b-9132-c17ef127a6d3
 
