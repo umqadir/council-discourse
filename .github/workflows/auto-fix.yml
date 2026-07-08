@@ -54,6 +54,10 @@ jobs:
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           claude_args: "--model claude-opus-4-8 --max-turns 80"
+          # Public repo: the fixer's reasoning in the run log is transparency,
+          # and without it a silent SDK failure is undiagnosable (learned the
+          # hard way — a 2-second "success" that did nothing).
+          show_full_output: "true"
           prompt: |
             You are the on-call fixer for this repository's production pipeline.
             Production run ${{ github.event.workflow_run.id || inputs.run_id }} concluded FAILURE:
