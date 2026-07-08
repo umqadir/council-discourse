@@ -156,7 +156,50 @@ def process_one(
         if result_json:
             result_json.parent.mkdir(parents=True, exist_ok=True)
             write_json(result_json, result)
-    return 1 if result["status"] == "failed" and fail_on_error else 0
+            if not dry_run and not _persist_result_to_r2(meeting_key, result_json):
+                result["persist_error"] = True
+    return 1 if fail_on_error and (result["status"] == "failed" or result.get("persist_error")) else 0
+
+
+def _persist_result_to_r2(meeting_key: str, result_json: Path) -> bool:
+    """Durably record this run's outcome at artifacts/<key>/result.json on R2.
+
+    The registry only advances when export-site merges results, so the result
+    record must outlive this runner. R2 is the single artifact store; results
+    live beside the meeting's stage outputs at a path WE author — no artifact
+    upload/download layout inference anywhere. Local runs (no R2 config) skip
+    quietly; in CI a persist failure is a hard failure, because a completed
+    meeting whose result is lost is exactly the silent re-spend bug this
+    design removes.
+    """
+    remote = os.environ.get("R2_RCLONE_REMOTE", R2_REMOTE).strip() or R2_REMOTE
+    if not (
+        os.environ.get(f"RCLONE_CONFIG_{remote.upper()}_TYPE")
+        or os.environ.get("R2_ACCESS_KEY_ID")
+    ):
+        return True  # local run without R2: results stay on disk only
+    bucket = os.environ.get("R2_BUCKET", R2_BUCKET).strip() or R2_BUCKET
+    dest = f"{remote}:{bucket}/artifacts/{meeting_key}/result.json"
+    try:
+        subprocess.run(
+            [
+                "rclone",
+                "copyto",
+                str(result_json),
+                dest,
+                "--s3-no-check-bucket",
+                "--retries",
+                "5",
+                "--low-level-retries",
+                "10",
+            ],
+            check=True,
+            env=_rclone_env(remote),
+        )
+        return True
+    except Exception as exc:
+        print(f"::error::failed to persist result for {meeting_key} to R2: {exc}", file=sys.stderr, flush=True)
+        return False
 
 
 def _capture_meeting_cost(conn: sqlite3.Connection, meeting_key: str) -> float | None:
@@ -585,7 +628,12 @@ def merge_results(db_path: Path, results_dir: Path) -> int:
     if not results_dir.exists():
         return 0
     count = 0
-    for path in sorted(results_dir.glob("*.json")):
+    # Recurse: upload-artifact@v4 roots each artifact at the least-common
+    # ancestor of its paths (data/), so on download the result JSON lands at
+    # data/processed-results/processed-results/<key>.json — one level below a
+    # top-level glob. The "row" check below skips the meeting-artifact JSONs
+    # (meeting.json, chapters.json, *-meta.json) that recursion also sweeps up.
+    for path in sorted(results_dir.rglob("*.json")):
         payload = read_json(path)
         row = payload.get("row")
         if not isinstance(row, dict) or not row.get("meeting_key"):
@@ -595,12 +643,93 @@ def merge_results(db_path: Path, results_dir: Path) -> int:
         try:
             current = db.get_meeting(conn, meeting_key)
         except KeyError:
-            db.upsert_meeting(conn, values)
-        else:
-            db.update_meeting(conn, meeting_key, _merge_result_values(current, values))
+            # Discover is the registry's only row creator. A result for an
+            # unknown key is stale (e.g. the row was merged away by dedupe);
+            # resurrecting it would recreate duplicates.
+            print(f"merge-results: skipping result for unknown meeting {meeting_key}", file=sys.stderr, flush=True)
+            continue
+        db.update_meeting(conn, meeting_key, _merge_result_values(current, values))
         count += 1
     checkpoint_db(db_path)
     return count
+
+
+def verify_run_results(results_dir: Path, matrix_json: str) -> list[str]:
+    """Account for every meeting this run was dispatched to process.
+
+    One check, same file discovery as merge_results: each matrix key must have
+    a parseable result whose status is complete, pending (batch wait), or
+    failed (the process job is already red). A MISSING result is the silent
+    failure mode — processed work that never reached the registry.
+    """
+    keys = [str(item["meeting_key"]) for item in json.loads(matrix_json).get("include", [])]
+    found: dict[str, str] = {}
+    if results_dir.exists():
+        for path in sorted(results_dir.rglob("*.json")):
+            payload = read_json(path)
+            row = payload.get("row")
+            if not isinstance(row, dict) or not row.get("meeting_key"):
+                continue
+            found[str(payload.get("meeting_key") or row["meeting_key"])] = str(payload.get("status"))
+    problems = []
+    for key in keys:
+        status = found.get(key)
+        if status is None:
+            problems.append(f"{key}: no result record found")
+        elif status not in {"complete", "pending", "failed"}:
+            problems.append(f"{key}: unrecognized result status '{status}'")
+    return problems
+
+
+# Meeting-dir files export_site reads to build a meeting's page.
+EXPORT_INPUT_FILES = (
+    "meeting.json",
+    "chapters.json",
+    "meeting-derived.json",
+    "utterances-named.jsonl",
+    "utterances.jsonl",
+    "captions-clean.jsonl",
+)
+
+
+def pull_export_inputs(db_path: Path = REGISTRY_DB, meetings_dir: Path = MEETINGS_DIR) -> list[str]:
+    """Fetch from R2 the meeting dirs export_site needs but the runner lacks.
+
+    Normally that is just the meetings completed this run; after a failed
+    export it also covers earlier completions whose site JSON never got
+    committed, so a lost export self-heals instead of silently dropping pages.
+    """
+    from . import export_site
+
+    conn = db.connect(db_path)
+    rows = conn.execute(
+        "SELECT * FROM meetings WHERE chapterize_status = 'chapterized'"
+    ).fetchall()
+    remote = os.environ.get("R2_RCLONE_REMOTE", R2_REMOTE).strip() or R2_REMOTE
+    bucket = os.environ.get("R2_BUCKET", R2_BUCKET).strip() or R2_BUCKET
+    pulled = []
+    for row in rows:
+        meeting_key = str(row["meeting_key"])
+        meeting_dir = meetings_dir / meeting_key
+        if (meeting_dir / "chapters.json").exists():
+            continue
+        payload = dict(row)
+        meeting = db.meeting_from_row(row, meetings_dir)
+        date = str(meeting.event_date or "")[:10]
+        title = export_site._meeting_title(meeting, payload)
+        slug = export_site._meeting_slug(date, str(meeting.event_time or ""), title)
+        if (export_site.SITE_DATA_DIR / f"{slug}.json").exists():
+            continue  # already published and committed; nothing to rebuild
+        args = ["rclone", "copy", f"{remote}:{bucket}/artifacts/{meeting_key}", str(meeting_dir), "--s3-no-check-bucket"]
+        for name in EXPORT_INPUT_FILES:
+            args += ["--include", name]
+        subprocess.run(args, check=True, env=_rclone_env(remote))
+        pulled.append(meeting_key)
+    if pulled:
+        print(f"pull-export-inputs: fetched {len(pulled)} meeting dir(s): {', '.join(pulled)}", flush=True)
+    else:
+        print("pull-export-inputs: nothing to fetch", flush=True)
+    return pulled
 
 
 def _merge_result_values(current: sqlite3.Row, incoming: dict[str, Any]) -> dict[str, Any]:

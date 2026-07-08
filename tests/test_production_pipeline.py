@@ -297,27 +297,38 @@ def test_merge_results_does_not_regress_completed_statuses(tmp_path: Path) -> No
     assert merged["cost_usd"] == 2.5
 
 
-def test_merge_results_ignores_nested_meeting_artifact_json(tmp_path: Path) -> None:
+def test_merge_results_finds_nested_result_json_and_skips_artifacts(tmp_path: Path) -> None:
+    # Mirrors the real CI layout: upload-artifact@v4 roots each artifact at the
+    # least-common-ancestor of its paths, so the result JSON downloads to
+    # results/processed-results/<key>.json (nested one level), while meeting
+    # artifacts (no "row" key) land under results/meetings/<key>/. The nested
+    # result MUST merge; the artifacts must be ignored — by content, not depth.
     db_path = tmp_path / "registry.db"
     conn = db.connect(db_path)
     db.upsert_meeting(conn, {"meeting_key": "m1", "viebit_filename": "m1"})
-    db.upsert_meeting(conn, {"meeting_key": "m2", "viebit_filename": "m2"})
     results_dir = tmp_path / "results"
-    (results_dir / "meetings" / "m2").mkdir(parents=True)
+    (results_dir / "processed-results").mkdir(parents=True)
+    (results_dir / "meetings" / "m1").mkdir(parents=True)
+
     row = dict(db.get_meeting(conn, "m1"))
     row["fetch_status"] = "fetched"
-    nested_row = dict(db.get_meeting(conn, "m2"))
-    nested_row["fetch_status"] = "fetched"
-    (results_dir / "m1.json").write_text(json.dumps({"meeting_key": "m1", "row": row}) + "\n")
-    (results_dir / "meetings" / "m2" / "artifact.json").write_text(
-        json.dumps({"meeting_key": "m2", "row": nested_row}) + "\n"
+    row["chapterize_status"] = "chapterized"
+    (results_dir / "processed-results" / "m1.json").write_text(
+        json.dumps({"meeting_key": "m1", "status": "complete", "row": row}) + "\n"
+    )
+    # Realistic meeting artifacts have no top-level "row" key.
+    (results_dir / "meetings" / "m1" / "meeting.json").write_text(
+        json.dumps({"meeting_key": "m1", "event_date": "2026-07-07"}) + "\n"
+    )
+    (results_dir / "meetings" / "m1" / "chapters.json").write_text(
+        json.dumps({"chapters": [{"title": "x"}]}) + "\n"
     )
 
     assert merge_results(db_path, results_dir) == 1
 
-    merged = db.connect(db_path)
-    assert db.get_meeting(merged, "m1")["fetch_status"] == "fetched"
-    assert db.get_meeting(merged, "m2")["fetch_status"] == "pending"
+    merged = db.get_meeting(db.connect(db_path), "m1")
+    assert merged["fetch_status"] == "fetched"
+    assert merged["chapterize_status"] == "chapterized"
 
 
 def test_process_one_uses_configured_production_llm(tmp_path: Path, monkeypatch) -> None:
@@ -575,3 +586,123 @@ def test_voxtral_parts_resume_existing_raw_json_and_delay_between_fresh_requests
     assert records[1]["reused_partial"] is False
     assert [row["t0"] for row in utterances] == [0.0, 10.0, 20.0]
     assert [row["label"] for row in labeled] == ["speaker_0", "speaker_0_part2", "speaker_0_part3"]
+
+
+def test_process_one_persists_result_to_r2_when_configured(tmp_path: Path, monkeypatch) -> None:
+    import subprocess as sp
+
+    from pipeline import production
+
+    db_path = tmp_path / "registry.db"
+    conn = db.connect(db_path)
+    db.upsert_meeting(conn, {"meeting_key": "m1", "viebit_filename": "m1"})
+
+    calls: list[list[str]] = []
+    monkeypatch.setattr(production.subprocess, "run", lambda args, **kw: calls.append(args) or sp.CompletedProcess(args, 0))
+    monkeypatch.setenv("R2_ACCESS_KEY_ID", "k")
+    monkeypatch.setenv("R2_SECRET_ACCESS_KEY", "s")
+    monkeypatch.setenv("R2_ENDPOINT", "https://r2.example")
+
+    def fail_fetch(*_a, **_k):
+        raise RuntimeError("boom")
+
+    monkeypatch.setattr("pipeline.production._stage_fetch", fail_fetch)
+    result_json = tmp_path / "m1.json"
+    process_one(db_path, "m1", result_json=result_json)
+
+    # Even a FAILED run persists its result record (attempts must be durable).
+    persist_calls = [c for c in calls if c[:2] == ["rclone", "copyto"]]
+    assert len(persist_calls) == 1
+    assert persist_calls[0][3].endswith("artifacts/m1/result.json")
+
+
+def test_process_one_skips_r2_persist_without_config(tmp_path: Path, monkeypatch) -> None:
+    from pipeline import production
+
+    db_path = tmp_path / "registry.db"
+    conn = db.connect(db_path)
+    db.upsert_meeting(conn, {"meeting_key": "m1", "viebit_filename": "m1"})
+    for name in ("R2_ACCESS_KEY_ID", "RCLONE_CONFIG_R2_TYPE"):
+        monkeypatch.delenv(name, raising=False)
+
+    calls: list[list[str]] = []
+    monkeypatch.setattr(production.subprocess, "run", lambda args, **kw: calls.append(args))
+
+    def fail_fetch(*_a, **_k):
+        raise RuntimeError("boom")
+
+    monkeypatch.setattr("pipeline.production._stage_fetch", fail_fetch)
+    process_one(db_path, "m1", result_json=tmp_path / "m1.json")
+
+    assert not [c for c in calls if c and c[0] == "rclone"]
+
+
+def test_merge_results_skips_results_for_unknown_meetings(tmp_path: Path, capsys) -> None:
+    db_path = tmp_path / "registry.db"
+    db.connect(db_path)
+    results_dir = tmp_path / "results"
+    results_dir.mkdir()
+    (results_dir / "ghost.json").write_text(
+        json.dumps({"meeting_key": "ghost", "row": {"meeting_key": "ghost", "fetch_status": "fetched"}}) + "\n"
+    )
+
+    assert merge_results(db_path, results_dir) == 0
+    assert "unknown meeting ghost" in capsys.readouterr().err
+
+
+def test_verify_run_results_flags_missing_result(tmp_path: Path) -> None:
+    from pipeline.production import verify_run_results
+
+    results_dir = tmp_path / "results"
+    (results_dir / "artifacts" / "m1").mkdir(parents=True)
+    (results_dir / "artifacts" / "m1" / "result.json").write_text(
+        json.dumps({"meeting_key": "m1", "status": "complete", "row": {"meeting_key": "m1"}}) + "\n"
+    )
+    matrix = json.dumps({"include": [{"meeting_key": "m1"}, {"meeting_key": "m2"}]})
+
+    problems = verify_run_results(results_dir, matrix)
+
+    assert problems == ["m2: no result record found"]
+    assert verify_run_results(results_dir, json.dumps({"include": [{"meeting_key": "m1"}]})) == []
+
+
+def test_pull_export_inputs_fetches_only_unpublished_chapterized(tmp_path: Path, monkeypatch) -> None:
+    import subprocess as sp
+
+    from pipeline import production
+    from pipeline import export_site
+
+    db_path = tmp_path / "registry.db"
+    conn = db.connect(db_path)
+    for key, title, published in (
+        ("m-pub", "Committee on Finance", True),
+        ("m-new", "Committee on Aging", False),
+    ):
+        db.upsert_meeting(
+            conn,
+            {
+                "meeting_key": key,
+                "viebit_filename": key,
+                "event_date": "2026-07-07T00:00:00",
+                "event_time": "10:00 AM",
+                "body_name": title,
+            },
+        )
+        db.update_meeting(conn, key, {"chapterize_status": "chapterized"})
+
+    site_dir = tmp_path / "site-data"
+    site_dir.mkdir()
+    (site_dir / "2026-07-07-1000-am-committee-on-finance.json").write_text("{}")
+    monkeypatch.setattr(export_site, "SITE_DATA_DIR", site_dir)
+    monkeypatch.setenv("R2_ACCESS_KEY_ID", "k")
+    monkeypatch.setenv("R2_SECRET_ACCESS_KEY", "s")
+    monkeypatch.setenv("R2_ENDPOINT", "https://r2.example")
+
+    calls: list[list[str]] = []
+    monkeypatch.setattr(production.subprocess, "run", lambda args, **kw: calls.append(args) or sp.CompletedProcess(args, 0))
+
+    pulled = production.pull_export_inputs(db_path, tmp_path / "meetings")
+
+    assert pulled == ["m-new"]
+    assert len(calls) == 1
+    assert "artifacts/m-new" in calls[0][2]

@@ -14,7 +14,14 @@ from .discover import discover_legistar, discover_viebit_rss
 from .export_site import export_site
 from .fetch import fetch_meeting
 from .models import Meeting
-from .production import checkpoint_db, merge_results, pending_matrix_json, process_one
+from .production import (
+    checkpoint_db,
+    merge_results,
+    pending_matrix_json,
+    process_one,
+    pull_export_inputs,
+    verify_run_results,
+)
 from .prepare import prepare_meeting
 from .stages import chapterize, diarize, name_speakers, transcribe
 from .utils import utc_now_iso
@@ -348,6 +355,21 @@ def cmd_merge_results(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_verify_run_results(args: argparse.Namespace) -> int:
+    problems = verify_run_results(args.results_dir, args.matrix_json)
+    if problems:
+        for problem in problems:
+            print(f"::error::{problem}")
+        return 1
+    print("all dispatched meetings accounted for")
+    return 0
+
+
+def cmd_pull_export_inputs(args: argparse.Namespace) -> int:
+    pull_export_inputs(args.db)
+    return 0
+
+
 def cmd_checkpoint_db(args: argparse.Namespace) -> int:
     checkpoint_db(args.db)
     print(f"checkpointed {args.db}")
@@ -562,6 +584,21 @@ def build_parser() -> argparse.ArgumentParser:
     add_common(merge_cmd)
     merge_cmd.add_argument("--results-dir", type=Path, required=True, help="directory containing process-one result JSON files")
     merge_cmd.set_defaults(func=cmd_merge_results)
+
+    verify_cmd = subparsers.add_parser(
+        "verify-run-results",
+        help="fail unless every meeting in this run's matrix has a result record",
+    )
+    verify_cmd.add_argument("--results-dir", type=Path, required=True, help="directory containing synced result JSON files")
+    verify_cmd.add_argument("--matrix-json", required=True, help="the run's pending matrix JSON ({\"include\": [...]})")
+    verify_cmd.set_defaults(func=cmd_verify_run_results)
+
+    pull_cmd = subparsers.add_parser(
+        "pull-export-inputs",
+        help="fetch from R2 the meeting dirs export-site needs but are missing locally",
+    )
+    add_common(pull_cmd)
+    pull_cmd.set_defaults(func=cmd_pull_export_inputs)
 
     checkpoint_cmd = subparsers.add_parser("checkpoint-db", help="checkpoint SQLite WAL state into the registry DB file")
     add_common(checkpoint_cmd)

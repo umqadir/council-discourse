@@ -201,7 +201,8 @@ jobs:
             if [ -s /tmp/persisted.txt ]; then
               rclone copy "r2:${R2_BUCKET}/artifacts/${{ matrix.meeting_key }}" \
                 "data/meetings/${{ matrix.meeting_key }}" \
-                --s3-no-check-bucket --transfers 4 --retries 3
+                --s3-no-check-bucket --transfers 4 --retries 3 \
+                --exclude "result.json"
               echo "restored $(wc -l < /tmp/persisted.txt) persisted artifacts"
             else
               echo "no persisted artifacts for ${{ matrix.meeting_key }} (first attempt)"
@@ -253,29 +254,8 @@ jobs:
             --include "meeting-derived.json" \
             --include "*-meta.json" \
             --include "gemini-runlog.jsonl"
-
-      - name: Upload meeting result
-        if: ${{ always() }}
-        uses: actions/upload-artifact@v4
-        with:
-          name: processed-${{ matrix.meeting_key }}
-          path: |
-            data/processed-results/${{ matrix.meeting_key }}.json
-            data/meetings/${{ matrix.meeting_key }}/meeting.json
-            data/meetings/${{ matrix.meeting_key }}/captions-clean.jsonl
-            data/meetings/${{ matrix.meeting_key }}/captions-clean.txt
-            data/meetings/${{ matrix.meeting_key }}/agenda.txt
-            data/meetings/${{ matrix.meeting_key }}/voxtral-batch-job.json
-            data/meetings/${{ matrix.meeting_key }}/utterances.jsonl
-            data/meetings/${{ matrix.meeting_key }}/utterances-labeled.jsonl
-            data/meetings/${{ matrix.meeting_key }}/utterances-named.jsonl
-            data/meetings/${{ matrix.meeting_key }}/chapters.json
-            data/meetings/${{ matrix.meeting_key }}/meeting-derived.json
-            data/meetings/${{ matrix.meeting_key }}/*-meta.json
-            data/meetings/${{ matrix.meeting_key }}/gemini-runlog.jsonl
-          if-no-files-found: warn
-          retention-days: 7
-          overwrite: true
+          # The run's outcome record (artifacts/<key>/result.json) is persisted
+          # by process-one itself, so it exists even when this step is skipped.
 
   export-site:
     needs:
@@ -320,55 +300,40 @@ jobs:
           name: registry-state
           path: data
 
-      - name: Download processed meeting artifacts
-        if: ${{ needs.discover.outputs.has_pending == 'true' }}
-        uses: actions/download-artifact@v4
-        with:
-          pattern: processed-*
-          merge-multiple: true
-          path: data/processed-results
-
-      - name: Place downloaded meeting artifacts
-        if: ${{ needs.discover.outputs.has_pending == 'true' }}
+      # Results live on R2 at paths the pipeline authors (artifacts/<key>/result.json),
+      # written by process-one itself. Syncing ALL results every run makes the
+      # merge idempotent and self-healing: a run whose registry commit was lost
+      # gets re-merged on the next cycle instead of silently regressing.
+      - name: Sync run results from R2
         run: |
-          # Each processed-* artifact is rooted at data/, so meeting files
-          # arrive under data/processed-results/meetings/. Export reads them
-          # from data/meetings, so move them into place. merge-results reads
-          # only top-level data/processed-results/*.json files.
-          if [ -d data/processed-results/meetings ]; then
-            rsync -a data/processed-results/meetings/ data/meetings/
-          fi
+          export RCLONE_CONFIG_R2_TYPE=s3
+          export RCLONE_CONFIG_R2_PROVIDER=Cloudflare
+          export RCLONE_CONFIG_R2_ACCESS_KEY_ID="$R2_ACCESS_KEY_ID"
+          export RCLONE_CONFIG_R2_SECRET_ACCESS_KEY="$R2_SECRET_ACCESS_KEY"
+          export RCLONE_CONFIG_R2_ENDPOINT="$R2_ENDPOINT"
+          rclone copy "r2:${R2_BUCKET}/artifacts" data/processed-results \
+            --s3-no-check-bucket --include "*/result.json" \
+            --transfers 8 --checkers 8 --retries 5
 
       - name: Merge registry results
         run: uv run python -m pipeline merge-results --results-dir data/processed-results
 
+      - name: Verify every dispatched meeting is accounted for
+        if: ${{ needs.discover.outputs.has_pending == 'true' }}
+        env:
+          MATRIX_JSON: ${{ needs.discover.outputs.matrix }}
+        run: |
+          uv run python -m pipeline verify-run-results \
+            --results-dir data/processed-results \
+            --matrix-json "$MATRIX_JSON"
+
       - name: CI health summary
         run: uv run python -m pipeline ci-health | tee -a "$GITHUB_STEP_SUMMARY"
 
-      - name: Guard against green-but-empty runs
-        if: ${{ needs.discover.outputs.has_pending == 'true' }}
-        run: |
-          python - <<'PY'
-          import glob, json, sys
-          loaded = [json.load(open(f)) for f in glob.glob("data/processed-results/**/*.json", recursive=True)]
-          results = [r for r in loaded if isinstance(r, dict) and "stages" in r and "status" in r]
-          done = [r for r in results if r.get("status") == "complete"]
-          failed = [r for r in results if r.get("status") == "failed"]
-          pending = [r for r in results if r.get("status") == "pending"]
-          print(f"results={len(results)} complete={len(done)} pending={len(pending)} failed={len(failed)}")
-          if not results:
-              print("::error::meetings were pending but NO result files arrived - process jobs died before producing results")
-              sys.exit(1)
-          # Partial success must still publish (one flaky meeting cannot block
-          # the batch); this guard exists to catch SYSTEMATIC breakage, i.e.
-          # nothing completed. All-pending is a normal batch-wait cycle.
-          if not done:
-              if pending and not failed:
-                  print("all process jobs are pending; waiting for batch completion")
-                  sys.exit(0)
-              print("::error::meetings were pending but ZERO completed - upstream stage is broken")
-              sys.exit(1)
-          PY
+      # Fetch meeting dirs that export needs but this runner lacks: normally
+      # just this run's completions; after a lost export, older orphans too.
+      - name: Pull export inputs from R2
+        run: uv run python -m pipeline pull-export-inputs
 
       - name: Export site data
         run: uv run python -m pipeline export-site --allow-empty
