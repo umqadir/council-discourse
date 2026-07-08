@@ -1,0 +1,2562 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 45.0,
+      "id": "001",
+      "slug": "hearing-called-to-order",
+      "start_sec": 18.5,
+      "summary": "Council staff opens the hearing for the Committee on Governmental Operations, State and Federal Legislation, reminding attendees to silence phones and fill out appearance cards.",
+      "title": "Hearing Called to Order",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 18.5,
+          "text": "Hello, hello, good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 20.8,
+          "text": "Welcome to today's New York City Council hearing for the Committee on Governmental Operations, State and Federal Legislation."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 29.2,
+          "text": "At this time, please silence all phones and electronic devices."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 33.4,
+          "text": "If you wish to speak in today's hearing, please fill out an appearance card with one of the sergeants."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 39.1,
+          "text": "Moving forward, no one is to approach the days."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 42.5,
+          "text": "Chair, you may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 86.9,
+      "id": "002",
+      "slug": "chair-brewer-introduces-elected-official-compensation-bill",
+      "start_sec": 45.0,
+      "summary": "Chair Gale Brewer welcomes attendees and introduces the preconsidered bill to increase compensation for the mayor, public advocate, city council members, borough presidents, comptroller, and district attorneys.",
+      "title": "Chair Brewer Introduces Elected Official Compensation Bill",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 45.0,
+          "text": "Thank you very much."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 47.5,
+          "text": "So I am Gail Brewer, Chair of the Committee on Government Operations, State and Federal Legislation."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 52.8,
+          "text": "Thank you everyone for joining, particularly interns and children."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 56.3,
+          "text": "Those are the best."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 58.0,
+          "text": "I would like to welcome elected officials, members of the public, and any city council colleagues who have joined us today, particularly Council Members Wang and Council Member Wilson."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 68.2,
+          "text": "We will be hearing Deputy Speaker Williams'bill, which we are hearing as a pre-considered introduction."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 75.6,
+          "text": "It would increase the compensation of the mayor, public advocate, members of the city council, board presidents, controller, and district attorneys, although the DAs have a different system."
+        }
+      ]
+    },
+    {
+      "end_sec": 191.3,
+      "id": "003",
+      "slug": "brewer-on-the-quadrennial-commission-and-10-year-salary-gap",
+      "start_sec": 86.9,
+      "summary": "Brewer explains the Quadrennial Advisory Commission framework for reviewing elected official salaries and notes the 10-year gap since the last raise, the longest in 40 years, due to failures by Mayors de Blasio and Adams to convene commissions.",
+      "title": "Brewer on the Quadrennial Commission and 10-Year Salary Gap",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 86.9,
+          "text": "Elected official pay is set up by local law, but under our"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 90.0,
+          "text": "our city's administrative code, the mayor is required to appoint a commission to review the compensation levels of elected officials every four years and make recommendations to the council."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 103.7,
+          "text": "The design and function of this quadrangular commission is meant to create regularity"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 110.3,
+          "text": "in the review of elected official salaries."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 112.9,
+          "text": "However, with the exception of the DAs, as I said earlier, the last time city elected officials received a raise was back in 2016."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 124.0,
+          "text": "Mayor de Blasio failed to impanel the required commission in 2020, maybe because of the pandemic, who knows, and Mayor Adams subsequently declined to convene one in 2024, although Mayor Bloomberg didn't do much either."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 139.3,
+          "text": "This 10-year gap is the longest that city officials have gone without a raise in the 40 years since the commission's"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 146.0,
+          "text": "framework has been in place."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 148.9,
+          "text": "Over that time, salaries of New York elected officials have failed to keep pace with inflation and with the salaries of elected officials across the country."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 158.9,
+          "text": "Legislators in other places like Los Angeles, although Los Angeles, I was on the board of the National League of Cities, so I got to hear a lot from other cities."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 167.4,
+          "text": "LA has a completely different system."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 169.0,
+          "text": "They do get paid more, but they are stronger."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 171.0,
+          "text": "It's a weak mayor."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 172.9,
+          "text": "There are only nine members in LA."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 175.3,
+          "text": "But Chicago has the same number, 51 members, and much smaller."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 180.0,
+          "text": "Smaller, they get paid more."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 182.2,
+          "text": "And Philadelphia definitely gets paid more and definitely smaller."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 185.6,
+          "text": "All those cities have much smaller budgets and smaller workforces."
+        }
+      ]
+    },
+    {
+      "end_sec": 253.3,
+      "id": "004",
+      "slug": "brewer-on-impact-of-low-salaries-on-staff-and-candidate-diversity",
+      "start_sec": 191.3,
+      "summary": "Brewer discusses how stagnant elected official salaries cap staff wages, hinder competitive hiring, and limit who can afford to run for office, emphasizing that elected roles are demanding 24/7 jobs.",
+      "title": "Brewer on Impact of Low Salaries on Staff and Candidate Diversity",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 191.3,
+          "text": "These stagnant wages not only affect elected officials."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 195.7,
+          "text": "For non-executive roles, an elected official's salary serves as a cap on the salaries of those employees who work for them, in some cases."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 204.1,
+          "text": "Keeping those salaries artificially low."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 207.6,
+          "text": "This keeps the city from offering competitive wages, which can prevent us from being able to attract the best and brightest to crucial city jobs."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 215.2,
+          "text": "I will say that staff, however, in the mayor's office and the speaker's office and maybe elsewhere is higher often than the elected officials."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 223.9,
+          "text": "Low salaries for elected officials can also negatively influence who is even able to run for office."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 231.6,
+          "text": "Being an elected official in New York City is a challenging and demanding 24-7 job."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 236.9,
+          "text": "No shit."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 237.6,
+          "text": "Excuse my French."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 239.1,
+          "text": "And elected officials should be able to support themselves and their families on their government salary without having to rely on family or other outside income."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 248.7,
+          "text": "If salaries are too low, only wealthy individuals will be able to run."
+        }
+      ]
+    },
+    {
+      "end_sec": 355.5,
+      "id": "005",
+      "slug": "brewer-outlines-commission-recommendations",
+      "start_sec": 253.3,
+      "summary": "Brewer details the 2026 Quadrennial Advisory Commission's report recommending an 18.2% salary increase, prospective application, 120-day commission timeframe, and automatic 2% annual increases if no commission is convened.",
+      "title": "Brewer Outlines Commission Recommendations",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 253.3,
+          "text": "In January this year, shortly after taking office, the mayor, along with the speaker,"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 260.2,
+          "text": "Much thanks to the Speaker, however, jointly announced the formation of the Quadrennial Advisory Commission to review compensation levels for elected officials."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 270.6,
+          "text": "The Commission released its findings in a report on June 23rd of this year."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 276.4,
+          "text": "It recommended increasing the salaries for the mayor, public advocate, controller, borough president, city council members, and DAs by 18.2%, although the DAs have a different system based on other judicials."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 290.8,
+          "text": "In addition to the pay increase, the Commission also made several other recommendations regarding elected official pay."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 300.0,
+          "text": "They recommended actually convening the Commission every four years and altering the timing of future commissions so that they will occur during the third year"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 311.5,
+          "text": "of a four-year term of office rather than the first year, along with requiring that any compensation increases not take effect until the beginning of the next term."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 324.4,
+          "text": "The Commission also recommended giving future commissions 120 days instead of the current 75 days to complete their work."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 335.2,
+          "text": "Additionally, the Commission recommended that if salaries for the covered elected offices remain unchanged during a four-year term, they should automatically increase by 2% per year."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 348.0,
+          "text": "Or the actual inflation rate, whichever is lower."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 351.3,
+          "text": "This will ensure regular pay raises for elected officials."
+        }
+      ]
+    },
+    {
+      "end_sec": 404.4,
+      "id": "006",
+      "slug": "brewer-on-bill-codifying-recommendations-and-acknowledgments",
+      "start_sec": 355.5,
+      "summary": "Brewer states the bill codifies the commission's recommendations, thanks commissioners Carl Weisbroad, Lillian Paoli, and Larry and Angelo, and acknowledges council and committee staff.",
+      "title": "Brewer on Bill Codifying Recommendations and Acknowledgments",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 355.5,
+          "text": "This preconsidered intro that we are hearing today would"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 360.0,
+          "text": "codify these recommendations."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 363.9,
+          "text": "We thank the members of the commission for their service, in particular, Carl Weissbrad, Larry and Angel, and Dr."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 371.0,
+          "text": "Lillian Barrows-Paoli, all friends of mine for about 40 years."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 375.2,
+          "text": "All OGs!"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 376.4,
+          "text": "That's why I like them."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 378.1,
+          "text": "Before I conclude, I'd like to thank the following council staff for their work, from the government operations to Harry Frazier, Eric Cohen, and Singhi Hamid, and from my staff, Shuler Puder and Cynthia Horning."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 391.9,
+          "text": "Everyone in the background, I also appreciate so, so much."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 395.5,
+          "text": "And I don't know if we have..."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 399.1,
+          "text": "Councilmember Williams is not here, but Councilmember Dinowitz is here also, and I appreciate it very much."
+        }
+      ]
+    },
+    {
+      "end_sec": 489.3,
+      "id": "007",
+      "slug": "brewer-opens-public-testimony-and-reviews-rules",
+      "start_sec": 404.4,
+      "summary": "Brewer opens the floor for public testimony, outlining rules including a three-minute speaking limit, no photography, and procedures for submitting written testimony.",
+      "title": "Brewer Opens Public Testimony and Reviews Rules",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 404.4,
+          "text": "So now I think we will turn it over to the community council to administer the oath after we call."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 409.3,
+          "text": "Do I have to read this first, too?"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 410.9,
+          "text": "Oh, God, Jesus."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 412.6,
+          "text": "I now open the hearing for the public testimony."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 415.9,
+          "text": "Public should know that this is a government proceeding and that the quorum will be observed at all times."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 421.4,
+          "text": "Members of the public shall remain silent at all times."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 424.1,
+          "text": "The witness table is reserved for people who wish to testify."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 427.5,
+          "text": "No video or photography is allowed from the witness table."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 431.3,
+          "text": "Members of the public may not present audio or video recordings as testimony."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 436.5,
+          "text": "But may submit transcripts of such recordings to the sergeant at arms for inclusion in the hearing record."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 443.0,
+          "text": "If you'd like to speak, fill out an appearance card with the wonderful sergeant at arms and wait to be recognized."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 450.2,
+          "text": "You will have three minutes to speak on today's hearing topic, although you can speak much longer if you want."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 455.5,
+          "text": "Compensation is a topic of the mayor, public advocate, city council, borough president, controller, and district attorneys."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 464.4,
+          "text": "If you have a written statement or written testimony you wish to submit, please provide a copy of that testimony to the sergeant at arms."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 471.9,
+          "text": "For those on Zoom, you may also email written testimony to testimony at council.nyc.gov within 72 hours of the close of the hearing."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 481.8,
+          "text": "Audio and video recordings will not be accepted."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 484.7,
+          "text": "And obviously, if you're here and you want to speak, you are going to be called up."
+        }
+      ]
+    },
+    {
+      "end_sec": 571.956,
+      "id": "008",
+      "slug": "carl-weisbroad-testifies-on-commission-recommendations",
+      "start_sec": 489.3,
+      "summary": "Carl Weisbroad, chair of the Quadrennial Advisory Commission, thanks the committee for embracing the commission's recommendations and emphasizes the importance of prospective salary increases for future councils.",
+      "title": "Carl Weisbroad Testifies on Commission Recommendations",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 489.3,
+          "text": "So we'd like to call up Carl Weissbrad, who was the chair of the commission."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 493.8,
+          "text": "Thank you so much."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 509.456,
+          "text": "Thank you, Madam Chair and members of the committee."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 511.956,
+          "text": "I'm just really here to thank you for embracing our recommendations."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 517.056,
+          "text": "I just want to stress one particular recommendation, which is the importance of the council and the mayor making recommendations on compensation for the following council."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 532.556,
+          "text": "Than the one that makes the recommendations."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 534.456,
+          "text": "So it was a very important recommendation of ours."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 538.056,
+          "text": "We, I hope, created an incentive for the mayor to call a commission so that we won't go through the inordinate and unconscionable, really,"
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 551.556,
+          "text": "10-year gaps between one recommendation for compensation and the next."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 560.656,
+          "text": "And with that, I just wanted to thank you, and I have no further statements."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 565.456,
+          "text": "We submitted our report to you, and thank you for your consideration of it."
+        }
+      ]
+    },
+    {
+      "end_sec": 784.856,
+      "id": "009",
+      "slug": "brewer-questions-weisbroad-on-the-18-2-figure",
+      "start_sec": 571.956,
+      "summary": "Brewer asks Weisbroad how the commission arrived at the 18.2% figure. Weisbroad explains it reflects the cost of living increase since January 2022, when most officials began their terms, and notes NYC salaries still lag other major cities.",
+      "title": "Brewer Questions Weisbroad on the 18.2% Figure",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 571.956,
+          "text": "Well, thank you."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 572.356,
+          "text": "I think we have some questions."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 573.256,
+          "text": "I'm sure my colleagues do, too."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 574.756,
+          "text": "I have a few."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 575.356,
+          "text": "I do want to thank you for your service."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 576.656,
+          "text": "You must be the most decorated commission person in the United States of America, and you've done such a great job on every commission you have served on."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 586.556,
+          "text": "A true New Yorker, Carl White."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 587.856,
+          "text": "Feeling is mutual, Madam Chair."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 589.556,
+          "text": "Thank you very much."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 590.056,
+          "text": "You well know."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 590.356,
+          "text": "Well, really appreciate it."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 591.856,
+          "text": "I guess one of my questions, I know that you had the number that you came up with in terms of the 18.2%."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 599.156,
+          "text": "And you talked about the fact that it should be applicable to the next group, not the current."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 604.756,
+          "text": "So my guess, what I know is..."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 607.256,
+          "text": "How did you reach that figure?"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 608.956,
+          "text": "What was the thinking behind that figure?"
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 610.856,
+          "text": "And our recommendation was, given the inordinate and considerable period of time between the last recommendation for compensation and this one, that our recommendation of 18.2% across the board."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 625.656,
+          "text": "For all elected officials going back based on their compensation in 2016,"
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 635.456,
+          "text": "be effective as of January 2026, and that future commissions be called two years into a mayoral term."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 646.356,
+          "text": "And the recommendations of those commissions should be effective if approved by the council for the following term of the council."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 658.556,
+          "text": "So the next commission should be, in our view, called in 2028."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 664.156,
+          "text": "The recommendations."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 666.756,
+          "text": "Made within 120 days and whatever is enacted by the council would then take effect in January 2020."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 675.156,
+          "text": "30 and every four years thereafter."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 679.256,
+          "text": "We came up with our 18.2% because that represents the increase in the cost of living since January"
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 690.656,
+          "text": "2022, when the vast majority of current elected officials, in fact, I think just about all except for the district attorneys, commenced their first"
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 705.556,
+          "text": "four-year term."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 707.956,
+          "text": "I should note that the actual cost of living since the last increase was in 2016 has been significantly higher than that,"
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 720.656,
+          "text": "but we felt that all elected officials"
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 724.356,
+          "text": "took office with the understanding that what their salaries would be in January 2022."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 730.756,
+          "text": "And as you know, we have gone through a period of intense inflation, and it is on that basis that we reached our 18.2%."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 741.756,
+          "text": "And I would also just note that"
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 744.656,
+          "text": "While New York City is the largest city in the country, the most complex city in the country for sure,"
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 752.456,
+          "text": "the proposed salaries of the mayor is still less than those in some other cities, even when these recommendations are approved, as we hope they will be."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 764.556,
+          "text": "And the..."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 765.056,
+          "text": "The proposed salaries of council members will still"
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 771.056,
+          "text": "be behind a couple of other major cities in the country, even though council members here, with the exception of Los Angeles, have many more constituents than council members elsewhere in the country."
+        }
+      ]
+    },
+    {
+      "end_sec": 825.356,
+      "id": "010",
+      "slug": "brewer-asks-about-retroactive-application-to-january-2026",
+      "start_sec": 784.856,
+      "summary": "Brewer asks why the increase is retroactive to January 2026. Weisbroad explains the commission deferred to the legislation's language and felt the long gap justified retroactivity.",
+      "title": "Brewer Asks About Retroactive Application to January 2026",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 784.856,
+          "text": "All right, thank you."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 785.956,
+          "text": "And then why would, I know this was a request of Council Member Williams when she proposed the legislation, but why would you make it retroactive to January?"
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 796.156,
+          "text": "To January 26th?"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 797.556,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 798.656,
+          "text": "The legislation that we were dealing with calls for it to be retroactive to January 26th."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 804.956,
+          "text": "We contemplated recommending it for July 2026, but we felt, again, given"
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 813.456,
+          "text": "the long interim between the last increase and this increase, this proposed increase, we should respect the laws written."
+        }
+      ]
+    },
+    {
+      "end_sec": 933.056,
+      "id": "011",
+      "slug": "brewer-questions-weisbroad-on-120-day-commission-timeframe",
+      "start_sec": 825.356,
+      "summary": "Brewer asks if more time would have helped. Weisbroad explains the commission met the 75-day deadline thanks to pro bono support from CUNY's Institute for State and Local Governance and a small team.",
+      "title": "Brewer Questions Weisbroad on 120-Day Commission Timeframe",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 825.356,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 825.956,
+          "text": "And then obviously you recommended more time, 120 days, and I guess considered 75 in the past."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 832.756,
+          "text": "I don't even know if you had 75 days."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 834.556,
+          "text": "I don't know how much time you had."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 836.556,
+          "text": "Not much."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 837.456,
+          "text": "And so the question is, were there things you would have liked to consider if you had more time?"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 843.656,
+          "text": "We didn't have much."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 844.856,
+          "text": "We were extremely fortunate because within that 75, we did do it within 75 days."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 852.556,
+          "text": "We submitted our report exactly on the 75th."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 857.656,
+          "text": "We were extremely fortunate to have been able to utilize the resources of"
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 867.156,
+          "text": "City University's Institute for State and Local Governance to do extensive analytic work for us."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 877.056,
+          "text": "And managed to attract a handful of other highly competent people to work on this with very, very thin"
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 889.456,
+          "text": "staff, basically four people other than the help we got from City University's Institute, the state and local government."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 901.556,
+          "text": "Without the ability to have and the good fortune to have attracted that at the very beginning, we would never have been able to meet our deadline."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 911.056,
+          "text": "And usually, as you all know, it's not easy to, and it's not expeditious usually to get"
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 923.656,
+          "text": "resources on board through the City of New York engagement process."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 931.456,
+          "text": "Let me leave it that way."
+        }
+      ]
+    },
+    {
+      "end_sec": 1054.256,
+      "id": "012",
+      "slug": "brewer-asks-about-automatic-inflation-adjustment-backstop",
+      "start_sec": 933.056,
+      "summary": "Brewer asks about the automatic salary increase mechanism if no commission is convened. Weisbroad explains the 2% annual adjustment as a modest incentive for mayors to convene commissions, crediting co-commissioners Paoli and others for the formula.",
+      "title": "Brewer Asks About Automatic Inflation Adjustment Backstop",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 933.056,
+          "text": "All right."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 933.356,
+          "text": "And then obviously we don't want other mayors to not convene commissions."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 938.956,
+          "text": "So you came up with a way to do that."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 941.456,
+          "text": "In terms of kicking in a way"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 945.456,
+          "text": "to deal with the salary increase if, in fact, there is none."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 948.856,
+          "text": "So if you could talk about that a little bit, obviously tied to inflation."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 953.556,
+          "text": "And I was just wondering, hopefully this won't kick in because there'll be commissions."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 959.056,
+          "text": "But can you just talk about that a little bit?"
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 961.256,
+          "text": "A number of recommendations were made to us."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 965.656,
+          "text": "To reconstitute who appoints members of the commission, what happens if the mayor does not appoint a commission, should some other elected official be able to appoint"
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 981.456,
+          "text": "a commission."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 982.156,
+          "text": "We believe strongly that since"
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 985.556,
+          "text": "The mayor does control ultimately the resources of the city and the budget."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 991.656,
+          "text": "The mayor should be the one to convene a commission."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 995.556,
+          "text": "And moreover, that any alternative would probably require a charter change that would have to go before the voters."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 1003.156,
+          "text": "We felt that we wanted to give a..."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 1005.956,
+          "text": "A modest incentive to mayors to meet their obligations in the future, while at the same time"
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 1020.056,
+          "text": "providing some hedge in case they didn't."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 1024.356,
+          "text": "So that's how we came up with"
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 1026.656,
+          "text": "The formula we did, I do have to give a lot of credit to my co-commissioners, Lillian Paoli."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 1035.056,
+          "text": "and Larry and Angelo, both of whom are very savvy with respect to New York City government."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 1042.656,
+          "text": "And they were very helpful in helping us fashion this particular incentive."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1051.356,
+          "text": "It's quite a threesome, if I may say so."
+        }
+      ]
+    },
+    {
+      "end_sec": 1188.056,
+      "id": "013",
+      "slug": "brewer-questions-weisbroad-on-staff-salary-compression",
+      "start_sec": 1054.256,
+      "summary": "Brewer raises the issue of underpaid council staff. Weisbroad explains the commission examined wage compression but found many staff earn more than elected officials, so it was not a determining factor.",
+      "title": "Brewer Questions Weisbroad on Staff Salary Compression",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1054.256,
+          "text": "Just finally, from my perspective, the salaries of staff."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1056.656,
+          "text": "So there's different kinds of staff in the mayor's office and city government and in the city council."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1061.656,
+          "text": "There's obviously many workers in both unions."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1065.356,
+          "text": "That's a bargaining discussion."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1066.956,
+          "text": "And then there are the ones that are at, I guess,"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1069.956,
+          "text": "at will, I would call them."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1071.356,
+          "text": "So in the city council, I guess my question is, because I have staff very underpaid, I think many council members do also, the staff often of the speaker or the mayor directly in the mayor's office are highly paid."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1083.656,
+          "text": "I know the salaries are both."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1085.856,
+          "text": "So I guess my question is, I don't think this commission or any commission can really"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1090.556,
+          "text": "address salaries of staff, but I just didn't know that came up or is that something that we should be..."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1095.956,
+          "text": "What do you think about that issue?"
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 1097.156,
+          "text": "It came up in the following context."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 1098.756,
+          "text": "You're absolutely right that the..."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 1102.456,
+          "text": "Are charged and the law requires us only to look at and comment on and opine on the"
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 1111.656,
+          "text": "salaries and compensation of elected officials."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 1115.356,
+          "text": "However, one of the factors that the law requires us to look at is what is called wage compression to the extent that"
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 1126.356,
+          "text": "The salaries of elected officials compress the salaries of staff, thus limiting the expertise that the city can hire or that elected officials can hire."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 1141.656,
+          "text": "We did look at wage compression, and we were particularly asked by the"
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 1146.156,
+          "text": "district attorneys to look at wage compression, but we found that both in the mayor's office and in the council and elsewhere"
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 1154.956,
+          "text": "in the offices of elected officials, there were many, many, many people who were earning a lot more than the people, the elected officials that they worked for, and so we ultimately determined that"
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 1168.956,
+          "text": "wage compression was not a serious concern in terms of determining the compensation for elected officials."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1179.756,
+          "text": "I certainly agree it's just as hard because individual council members, but that's more of an internal issue, both from the mayor and the city council."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1187.256,
+          "text": "I think you're right."
+        }
+      ]
+    },
+    {
+      "end_sec": 1326.656,
+      "id": "014",
+      "slug": "brewer-asks-about-commission-vs-automatic-salary-model",
+      "start_sec": 1188.056,
+      "summary": "Brewer asks whether a commission-based approach is preferable to automatic salary adjustments. Weisbroad argues commissions allow contextual judgment, especially during crises, and are used by state legislatures and the federal government.",
+      "title": "Brewer Asks About Commission vs. Automatic Salary Model",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1188.056,
+          "text": "And just finally, one other question."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1189.756,
+          "text": "Around the country, I guess, in some cases, there is automatic as opposed to commission."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1195.256,
+          "text": "In other words, you say, but I think here because..."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1199.456,
+          "text": "I guess from 89, commission was the way to go, even though it wasn't constituted."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1204.956,
+          "text": "Do you think that is a good idea as opposed to just an automatic based on whatever criteria is brought up?"
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 1213.656,
+          "text": "Yes, I do."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 1214.456,
+          "text": "I think that..."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 1216.156,
+          "text": "You're right that some cities do use an automatic method of just increasing compensation based on cost of living or whatever other factors."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 1228.356,
+          "text": "But I do believe, and I think my fellow commissioners also believe that."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 1234.156,
+          "text": "A commission that takes a hard look at this and also reflects the context of where the city is at a given time"
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 1248.556,
+          "text": "is much more appropriate."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 1252.256,
+          "text": "Many state legislatures also use a commission, as does the federal government."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 1259.356,
+          "text": "And so there may be instances where, for one reason or another, a crisis..."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 1270.556,
+          "text": "Perhaps something like the time of around 9-11 or COVID or a similar crisis, where even though the cost of living may have temporarily spiked,"
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 1284.856,
+          "text": "a commission would not recommend an equivalent increase in compensation because"
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 1292.156,
+          "text": "the cost of living was temporary or the spike was temporary or the city's finances were in such terrible shape that it didn't make sense to do that."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 1305.756,
+          "text": "And it would be a bad reflection on a whole host of other factors."
+        },
+        {
+          "speaker": "Member of the Public - Carl Weisbroad",
+          "t_sec": 1310.256,
+          "text": "So, yes, I do think a commission is a much better idea."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1313.856,
+          "text": "That's very helpful."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1314.856,
+          "text": "Do any of my colleagues have questions?"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1316.356,
+          "text": "I don't think so."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1317.356,
+          "text": "Anybody?"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1317.856,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1318.656,
+          "text": "Thank you very much, Carl Weissbroad, for everything."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1322.556,
+          "text": "More than I can ever say."
+        }
+      ]
+    },
+    {
+      "end_sec": 1620.492,
+      "id": "015",
+      "slug": "grace-rauh-citizens-union-testifies-on-salary-bill",
+      "start_sec": 1326.656,
+      "summary": "Grace Rauh of Citizens Union testifies in support of the 18.2% increase and commission reforms but opposes the automatic inflation-adjusted backstop, arguing it would eliminate incentives to convene commissions and reduce opportunities for broader government reform.",
+      "title": "Grace Rauh (Citizens Union) Testifies on Salary Bill",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1326.656,
+          "text": "And the next panel is Grace Rao from Citizens Union and Rachel Faust from Revent Albany."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1332.256,
+          "text": "And I want to thank Grace Rao's interns."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1334.556,
+          "text": "I'm very supportive of interns."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1340.092,
+          "text": "Sometimes I like them better than staff."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1354.992,
+          "text": "Whoever would like to begin, go ahead."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 1356.292,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 1357.892,
+          "text": "Good morning, Chair Brewer, members of the commission."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 1362.492,
+          "text": "My name is Grace Rao, members of the council committee, excuse me."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 1365.792,
+          "text": "My name is Grace Rao."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 1366.792,
+          "text": "I'm the executive director of Citizens Union, a nonpartisan good government group that has worked to advance honest, accountable, and effective government and fair and open elections in New York."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 1376.692,
+          "text": "In New York for nearly 130 years."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 1379.992,
+          "text": "I want to thank Chair, the Chair of the Quadrennial Advisory Commission and the members of the commission."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 1391.092,
+          "text": "We supported its establishment through advocacy and testimony because we believe periodic reviews of elected officials'compensation are essential to good government"
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 1401.592,
+          "text": "and because we felt that the 10-year salary freeze was unsustainable."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 1406.992,
+          "text": "We want to thank the council for incorporating nearly all of the commission's recommendations, including most of our own recommendations to the commission and to this proposed bill and for bringing it to the public hearing today."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 1418.392,
+          "text": "We do support the bill, but I want to flag that we are concerned about the proposed automatic inflation-adjusted salary increases."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 1426.892,
+          "text": "as a backstop when a commission is not convened."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 1430.392,
+          "text": "So my written testimony has more details, but I'll go through some of it now."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 1436.492,
+          "text": "At a high level, we support increasing all elected officials'salaries by 18.2%."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 1442.892,
+          "text": "Our longstanding position is that elected officials should be well compensated."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 1447.192,
+          "text": "Competitive salaries attract strong candidates, enable individuals who are not independently wealthy to pursue public service, reduce incentives for corruption, and signal the importance of public service."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 1460.592,
+          "text": "The proposed increase reflects those goals, and we support it."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 1464.792,
+          "text": "We also support restoring the quadrennial advisory commission cycle to the third year of the term, with the next commission set to be established in 2028."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 1475.192,
+          "text": "We support codifying prospective salary recommendations, and we support extending the commission's timeframe from 75 days to 120 days."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 1486.992,
+          "text": "On the establishment of automatic inflation-adjusted salary increases, if no commission is convened, we are opposed to that change."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 1497.392,
+          "text": "Citizens Union does not recommend adopting the backstop mechanism proposed by the commission and incorporated into this bill."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 1505.992,
+          "text": "We fully support establishing a mechanism to ensure that quadrennial advisory commissions are convened in a timely manner so that we can prevent another decade-long salary."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 1517.692,
+          "text": "However, we're concerned that the proposed approach would effectively eliminate the incentive to convene quadrennial advisory commissions in the future."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 1527.592,
+          "text": "And we think the commission-based review process is preferable to an automatic adjustment for two principled reasons."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 1535.092,
+          "text": "First, salary reviews involve qualitative considerations that cannot be captured through an inflation adjustment alone."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1543.892,
+          "text": "Don't pay attention to them."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 1545.292,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 1547.692,
+          "text": "I feel free."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 1549.192,
+          "text": "And second, pay commissions serve as vehicles for broader institutional reform, not merely salary recommendations."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 1557.892,
+          "text": "In 2025, the commission's recommendations resulted in the ban on outside earned income, the elimination of council lulus, and other significant reforms."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 1568.792,
+          "text": "Commissions have also advanced recommendations related to transparency and accountability, and we're concerned that eliminating the incentive to convene commissions would diminish an important mechanism for improving government."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 1585.592,
+          "text": "Finally, the bill appears to provide that the automatic salary adjustment would take effect even if a quadrennial advisory commission were convened."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 1594.692,
+          "text": "This may be a drafting error and something to look at more closely, but that's another flag for us."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 1601.492,
+          "text": "So we recommend amending the bill to authorize another citywide election."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 1606.792,
+          "text": "officials, such as city controller, to appoint a quadrennial advisory commission if the mayor fails to do so by the statutory deadline."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1617.092,
+          "text": "Thank you very much."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1617.892,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 1901.7,
+      "id": "016",
+      "slug": "rachel-foss-reinvent-albany-testifies-on-salary-bill",
+      "start_sec": 1620.492,
+      "summary": "Rachel Foss of Reinvent Albany supports the salary increases and commission reforms but opposes the automatic adjustment, recommending alternative backstops like multi-official commission appointments and additional ethics and financial disclosure reforms.",
+      "title": "Rachel Foss (Reinvent Albany) Testifies on Salary Bill",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1620.492,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1621.692,
+          "text": "Thank you, Chair Brewer and other members of the Council, and thank you to Commissioner Weisbroad for his testimony."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1628.292,
+          "text": "My name is Rachel Foss."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1629.392,
+          "text": "I'm the Senior Policy Advisor for Reinvent Albany."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1631.992,
+          "text": "Reinvent Albany advocates for transparent and accountable government in New York."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1636.592,
+          "text": "We support competitive salaries for elected and appointed government officials because we want government service to appeal to a broad spectrum of qualified and diverse candidates."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1645.992,
+          "text": "We are encouraged the council reached an agreement with Mayor Mamdani to appoint the Quadrennial Commission, and we appreciate the commission's acknowledgement that our public testimony informed their report and recommendations."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1656.892,
+          "text": "This council hearing is another important opportunity to hear from the public about this legislation, so thank you for this hearing today."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1663.892,
+          "text": "In brief, here are our positions on Intro 2196."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1668.592,
+          "text": "We support the 18.2% salary increases for elected officials."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1673.992,
+          "text": "We also support the reforms to the commission process, such as restarting the commission in 2028, the third year of the term, and then every four years thereafter."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1683.792,
+          "text": "We support the one-time increase in 2026, and we also support increasing the time the commission has to issue a report to 120 days."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1694.692,
+          "text": "Like Citizens Union, we do not."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1696.592,
+          "text": "support, we oppose the automatic 8.25% or inflation adjustment if commissions are not formed."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1704.792,
+          "text": "And if there is a drafting error, certainly we encourage you to look at that."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1710.192,
+          "text": "The provision would effectively eliminate all public input regarding elected official salaries if a quadrennial commission is not formed."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1717.192,
+          "text": "Currently, the council must pass legislation to enact raises, and that triggers a public hearing."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1722.492,
+          "text": "And then the quadrennial commission itself typically holds hearings."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1726.392,
+          "text": "The commission process at the city level is one of the few opportunities for the public to discuss with policymakers not only salary levels, but important reforms like caps and bans on outside income, financial disclosure transparency, for example."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1739.492,
+          "text": "And this proposal may create an unintended consequence, an incentive for the mayor to not convene the commission because it is the path of least resistance."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1749.892,
+          "text": "Lastly, we support the comptroller publishing a table of elected official salaries."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1754.192,
+          "text": "This makes sense."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1755.592,
+          "text": "The bill could specifically say that this be published on the comptroller's website, just to make it a little bit more 2026 appropriate."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1763.592,
+          "text": "And lastly, we encourage the council to accompany salary increases with additional reforms to ethics and transparency."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1770.892,
+          "text": "In 2015, the council required disclosure forms of elected officials be published on the Conflicts of Interest Board website and eliminated LULUs."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1779.492,
+          "text": "The council should continue this important tradition of providing a benefit to the public while they provide a benefit to themselves."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1786.792,
+          "text": "We recommend the following."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1789.292,
+          "text": "The council should be required to provide reasons in writing when it modifies or does not accept the Quadrennial Commission recommendations."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1796.692,
+          "text": "The Quadrennial Commission endorsed this proposal in their report."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1800.6,
+          "text": "The council should remove mention of stipends in the charter."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1804.9,
+          "text": "This is a vestige of the past."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1807.1,
+          "text": "The commission flagged this for you to consider."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1809.2,
+          "text": "We support that."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1811.1,
+          "text": "The council, lastly, should make financial disclosure forms much more accessible."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1816.9,
+          "text": "The commission, Quad General Commission, said that our proposals in this area have merit, though felt they were outside their purview."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1823.0,
+          "text": "Fortunately, you, the council, have the authority to make this happen."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1827.3,
+          "text": "We support requiring elected officials'forms be available in an open data format."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1832.6,
+          "text": "We note that this would require COIB to upgrade its databases, which they told you at the budget hearing in June that they would like to do anyway."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1841.3,
+          "text": "We support requiring all financial disclosure statements from the time that elected officials are in office to be available on the COIB website."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1849.6,
+          "text": "Unfortunately, forms of former officials like Eric Adams from 2025 must still be requested from COIB, which triggers a notification requirement."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1859.8,
+          "text": "We think this needs to be corrected."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1861.9,
+          "text": "And lastly, we support removing the notification requirement for all financial disclosure statements altogether."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1869.5,
+          "text": "The state does not require this."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1872.1,
+          "text": "For financial disclosures, it's simply a FOIL request, and we think the city should treat it the same way."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 1877.0,
+          "text": "Thank you for your consideration."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1879.8,
+          "text": "Thank you very much."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1880.7,
+          "text": "Other questions from anybody over here?"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1883.9,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1884.6,
+          "text": "I always have some."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1886.0,
+          "text": "So I have one question, which is this maybe I should have asked Carl Weiss."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1890.1,
+          "text": "But the mayor and the speaker both said they would be able to, or they don't want to take the full salary that was in the newspaper."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1897.9,
+          "text": "How would they do that?"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1899.1,
+          "text": "Can you split that up?"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1901.3,
+          "text": "I don't know."
+        }
+      ]
+    },
+    {
+      "end_sec": 1923.8,
+      "id": "017",
+      "slug": "brewer-questions-rauh-and-foss-on-declining-salary-increases",
+      "start_sec": 1901.7,
+      "summary": "Brewer asks how the mayor and speaker could decline their salary increases. Rauh explains officials can refund or donate the money, citing past examples like Mayor de Blasio.",
+      "title": "Brewer Questions Rauh and Foss on Declining Salary Increases",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1901.7,
+          "text": "I mean, I didn't know."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 1902.3,
+          "text": "If I remember right, it's a..."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 1904.4,
+          "text": "They can refund the money or they can donate it."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 1907.8,
+          "text": "I think there's been different ways in the past that electeds have done this."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 1912.6,
+          "text": "And I think Mayor de Blasio may have also declined the salary increase after a pay raise was enacted."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1920.5,
+          "text": "So there's a method."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1921.8,
+          "text": "There's a method."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1922.4,
+          "text": "Okay."
+        }
+      ]
+    },
+    {
+      "end_sec": 2114.6,
+      "id": "018",
+      "slug": "brewer-asks-why-mayors-would-avoid-convening-commissions",
+      "start_sec": 1923.8,
+      "summary": "Brewer presses Rauh and Foss on their strong concern that mayors will avoid convening commissions. Both cite the precedent of de Blasio and Adams failing to convene commissions and argue the automatic adjustment creates a path of least resistance.",
+      "title": "Brewer Asks Why Mayors Would Avoid Convening Commissions",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1923.8,
+          "text": "The question I have is,"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1926.6,
+          "text": "Do you think that mayors, I guess you felt strongly, could in fact or would in fact, even council speakers and councils, would in fact feel like this is too much work to have the commission, this is nicer to take our salary."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1941.6,
+          "text": "You were quite strong in that feeling."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1945.5,
+          "text": "So I just was wondering."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1947.0,
+          "text": "What you base that on."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1948.3,
+          "text": "I mean, because I must admit, having listened to this, I didn't realize this is embarrassing for me because I've been in office since all these folks didn't have these commissions."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1958.2,
+          "text": "I think I'm the only one who's been in the whole time."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1961.3,
+          "text": "I didn't pay attention to it, to be honest with you."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1963.0,
+          "text": "So then I think, no, though, because there's such..."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1966.6,
+          "text": "Interest and pressure, like you must have a commission, then I think it will happen."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1970.6,
+          "text": "However, it couldn't."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1972.3,
+          "text": "You know, down the line, who knows?"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 1973.7,
+          "text": "So I just want you to talk about that a little bit."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 1975.8,
+          "text": "I think for us, we're basing this on what we've seen happen over the last decade."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 1980.0,
+          "text": "decade where we had Mayor de Blasio convened the last quadrennial commission."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 1986.8,
+          "text": "He would have been able and was sort of legally required to convene a second one during his term."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 1993.8,
+          "text": "He did not do that."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 1995.2,
+          "text": "Then we had Mayor Adams, who never convened one during his term."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 2000.1,
+          "text": "So we have seen..."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 2003.6,
+          "text": "In recent years, a reluctance to move forward with this."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 2009.4,
+          "text": "My sense is that it may be viewed as a politically dicey or challenging endeavor to pursue, despite the fact that it is legally required."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 2022.9,
+          "text": "And so given the reluctance already,"
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 2027.6,
+          "text": "to create these commissions, we're concerned that if the option of an inflation-adjusted pay raise exists, then there will be no appetite at all by"
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 2039.9,
+          "text": "our political leaders to ever have a commission again."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 2043.8,
+          "text": "Yeah, I think our view is very similar that, you know, as I said in my testimony, it does seem the path of least resistance to just not do it."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 2051.1,
+          "text": "You know, there's always press interest in the salaries."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 2055.6,
+          "text": "And then I would add that there are other ways to require to."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 2061.0,
+          "text": "Maybe make it so that this commission, there are other backstops."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 2064.1,
+          "text": "And I know that Citizens Union mentioned the comptroller, you know, in our previous testimony to the council."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 2070.1,
+          "text": "Back in 2025, we suggested alternative means of appointing the commission so the mayor doesn't hold all the cards."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 2076.9,
+          "text": "I think the issue is the mayor holds all the cards in appointing the commission and can hold that over the council."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 2081.8,
+          "text": "So another way other than an automatic increase would be to have a commission appointed by the mayor, the council, the comptroller, the public advocate, different officials so that it's more likely to be formed."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 2093.6,
+          "text": "Since it's advisory, I think it's something for you to look into in terms of whether it requires a charter commission approval from the voters."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 2101.8,
+          "text": "Maybe it does."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 2102.5,
+          "text": "I know the commission looked at this, but there are other ways to have a backstop, and one of them is to not have the mayor have unilateral power over the commission."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 2112.9,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 2113.2,
+          "text": "Councilman, was there another question?"
+        }
+      ]
+    },
+    {
+      "end_sec": 2152.7,
+      "id": "019",
+      "slug": "council-member-questions-foss-on-salary-and-corruption-link",
+      "start_sec": 2114.6,
+      "summary": "An unnamed council member asks about research on salary increases and corruption. Foss responds that banning outside income was a key anti-corruption step and higher salaries reduce incentives for private income that creates conflicts.",
+      "title": "Council Member Questions Foss on Salary and Corruption Link",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2114.6,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2115.5,
+          "text": "I just wonder, did you guys do any research about increased salary for elected officials and the corruption?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2122.2,
+          "text": "Is there any relationship between?"
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 2126.2,
+          "text": "I would say that the outside income being banned by the city council, you know, a number of years ago was a very important step to not have corruption at the state level."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 2136.9,
+          "text": "There is outside income that is allowed and there have been problems in the past."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 2140.4,
+          "text": "And I think certainly."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 2142.6,
+          "text": "To the extent that there is a higher salary, there's less of an incentive to get private income that could create conflicts of interest."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 2150.5,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 2184.0,
+      "id": "020",
+      "slug": "brewer-asks-rauh-and-foss-about-staff-salary-issue",
+      "start_sec": 2152.7,
+      "summary": "Brewer raises staff salaries again. Foss agrees it's important but outside the commission's purview, noting her own experience as a former legislative staffer.",
+      "title": "Brewer Asks Rauh and Foss About Staff Salary Issue",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 2152.7,
+          "text": "We still have the question of staff."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 2154.1,
+          "text": "I don't, Carl Weisberg said correctly that it was looked at, but not appropriate."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 2160.0,
+          "text": "Just wondering, do you think also on the staff issue, that's a different topic or could have been something that was discussed?"
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 2168.2,
+          "text": "Perhaps it couldn't have been officially recommended, but maybe it's a discussion point."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 2172.9,
+          "text": "But I think we certainly support staff salary increases."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 2176.8,
+          "text": "As a former legislative staffer myself, I feel that personally."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 2181.0,
+          "text": "So I would agree."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 2182.9,
+          "text": "Yeah."
+        }
+      ]
+    },
+    {
+      "end_sec": 2250.8,
+      "id": "021",
+      "slug": "brewer-asks-about-additional-reforms-for-future-commissions",
+      "start_sec": 2184.0,
+      "summary": "Brewer asks if other topics could be considered during the 120-day commission window. Rauh and Foss discuss tying ethics reforms, financial disclosure, and transparency measures to pay raises as broader public benefits.",
+      "title": "Brewer Asks About Additional Reforms for Future Commissions",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 2184.0,
+          "text": "And then just also."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 2186.3,
+          "text": "During the 120 days, I know you both suggested that's a good time frame."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 2190.6,
+          "text": "Are there other topics that you mentioned some reinvent Albany that could be considered?"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 2195.6,
+          "text": "So those you think could be part of a future commission is what you're saying, essentially."
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 2202.8,
+          "text": "I think part of the value of the commission is looking at pay, but holistically within the broader"
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 2210.0,
+          "text": "city council and government structure to determine, are there reforms that could be tied to a pay increase, right?"
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 2218.0,
+          "text": "So as Rachel put it, if the council is getting something in terms of higher pay, what are some reforms that are good for the public, good ethics reforms, accountability, transparency"
+        },
+        {
+          "speaker": "Member of the Public - Grace Rauh",
+          "t_sec": 2232.1,
+          "text": "that could be tied with a pay raise and provide a broader benefit to the city?"
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 2236.9,
+          "text": "Yeah, I think financial disclosure is what we focused on, given that it is obviously directly related."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 2242.6,
+          "text": "And it does get some of the potential corruption issues that Councilmember Zwing mentioned specifically."
+        }
+      ]
+    },
+    {
+      "end_sec": 2307.904,
+      "id": "022",
+      "slug": "brewer-asks-about-charter-revision-commission-suggestions",
+      "start_sec": 2250.8,
+      "summary": "Brewer asks if the groups made suggestions to the Charter Revision Commission. Foss indicates they have not pursued that route for these issues.",
+      "title": "Brewer Asks About Charter Revision Commission Suggestions",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 2250.8,
+          "text": "And are there suggestions that you made to the Charter Revision Commission that is currently meeting that are relevant to this topic?"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 2258.4,
+          "text": "I know they're two separate issues."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 2260.7,
+          "text": "I find sometimes, I know this is not appropriate to say, going to the public on these nuanced issues can be complicated."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 2266.9,
+          "text": "That's why I like a commission, because those folks are invested."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 2271.1,
+          "text": "To the credit of the mayor, in my opinion, he picked three of the best possible people to be on this commission, because they have the knowledge and the background."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 2280.2,
+          "text": "And they do understand the nuances."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 2282.1,
+          "text": "They do understand the budget, and they do understand city government."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 2285.2,
+          "text": "So I think this is a better route, personally."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 2287.6,
+          "text": "But I didn't know if there was some other route you also, charter-wise, should be considered."
+        },
+        {
+          "speaker": "Member of the Public - Rachel Foss",
+          "t_sec": 2294.704,
+          "text": "I don't think so."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 2295.904,
+          "text": "I mean, I don't."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 2296.604,
+          "text": "I just don't know how you felt about it."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 2298.304,
+          "text": "I don't have any other questions."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 2299.504,
+          "text": "Anybody else?"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 2300.304,
+          "text": "No?"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 2300.604,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 2301.004,
+          "text": "Thank you both very, very much for everything."
+        }
+      ]
+    },
+    {
+      "end_sec": 2505.004,
+      "id": "023",
+      "slug": "christopher-leon-johnson-testifies-in-support-of-salary-increases",
+      "start_sec": 2307.904,
+      "summary": "Christopher Leon Johnson supports the salary increases 100%, calls for eliminating the ban on outside income, classifying the council as part-time, and raising council member pay to at least $200,000, citing higher pay for MTA workers and nonprofit executives.",
+      "title": "Christopher Leon Johnson Testifies in Support of Salary Increases",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 2307.904,
+          "text": "Christopher Leon Johnson."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 2322.004,
+          "text": "Hello."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 2322.804,
+          "text": "My name is Christopher Leon Johnson."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 2324.604,
+          "text": "I support these provisions 100% of the same for the past two meetings, one with Natasha Williams and now with you."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 2332.104,
+          "text": "First off, we have to eliminate the ban of outside income."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 2336.504,
+          "text": "The problem is that what we want people that make, we want the right people in office, but if they make in $500,000, $600,000 in the private sector or sometimes nonprofits, I know these two in the back probably make over $300,000 a year."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 2349.104,
+          "text": "Why are you going to leave a $300,000 a year job at a nonprofit to go make $148,000 in the city council, $175,000 in the city council?"
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 2357.404,
+          "text": "That's the problem here."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 2358.604,
+          "text": "We can't attract the right people to run for office because nobody's going to take a big-time pay cut, and especially where you're scrutinized for everything you do, and everybody's thinking that you're taking money under the table."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 2369.204,
+          "text": "Not only am I calling for the removal of outside income in the city council, I'm calling on where that the city council is making at least $200,000 a year."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 2376.804,
+          "text": "Why in L.A."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 2377.404,
+          "text": "They make $200,000 a year, L.A., while these guys make $140,500?"
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 2383.904,
+          "text": "Look, second thing is that the city, if you ever move the provision for, what is it, outside income, I think that should be the priority of the city council."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 2394.904,
+          "text": "The city council should be classified as part-time."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 2398.104,
+          "text": "Not only with that, but part-time because these majority offices are open part-time."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 2403.204,
+          "text": "Why are the offices open 21, Sandy-Nurse is open 21 hours a week?"
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 2408.204,
+          "text": "But she's full time."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 2409.504,
+          "text": "That's ridiculous."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 2410.304,
+          "text": "If you want to be full time, you should open your doors for 40, at least 32 hours a week."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 2416.604,
+          "text": "I'll say this right here that there should be when it comes to inflation, there should be this."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 2424.404,
+          "text": "You should just increase the salaries anytime there's an inflation, inflation increase."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 2430.304,
+          "text": "No, I should be taking longer anything just to stay."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 2436.804,
+          "text": "Complying with the money."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 2438.104,
+          "text": "Look, at the end of the day, guys, look, I support this 100%."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 2441.104,
+          "text": "This is long overdue."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 2442.904,
+          "text": "The mayor and the speaker should not be declining their own salary increase."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 2447.504,
+          "text": "They don't understand that what they make or they tend to make $300,000 a year, I think the speaker can make $195,000 a year, is like pocket change compared to what"
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 2457.504,
+          "text": "people that they have to attend, have to have the P's make in the private sector, especially the MTA."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 2463.404,
+          "text": "There's MTA workers that make more money than the mayor."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 2465.904,
+          "text": "That is crazy."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 2467.004,
+          "text": "But that's a different thing."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 2468.504,
+          "text": "Why is that some MTA workers that they in a contract dispute are complaining?"
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 2473.304,
+          "text": "about their way."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 2475.804,
+          "text": "They make more money than the mayor."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 2476.804,
+          "text": "They make more money than some of the city council members."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 2478.904,
+          "text": "It's crazy."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 2480.104,
+          "text": "Going forward, like I said, I support 100% that this should go through."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 2483.104,
+          "text": "There should be no more commissions, no more side commissions, nothing to that extent."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 2489.704,
+          "text": "To where that it hurts your pocket because I know some of you members, they need that increase."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 2494.004,
+          "text": "So I support it 100% guys and this should go through with super majority and the mayor should not veto it."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 2500.904,
+          "text": "So thank you so much."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 2501.904,
+          "text": "Enjoy your day."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 2502.504,
+          "text": "Thank you very much."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 2503.304,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 2503.604,
+          "text": "Perfect timing."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 2504.404,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 2515.499,
+      "id": "024",
+      "slug": "hearing-concluded",
+      "start_sec": 2505.004,
+      "summary": "Brewer concludes the hearing, thanking commissioners, testifiers, colleagues, and staff.",
+      "title": "Hearing Concluded",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 2505.004,
+          "text": "This hearing is concluded and I certainly want to thank the members of the commission, everybody who testified and my colleagues."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 2510.504,
+          "text": "Thank you and staff."
+        }
+      ]
+    }
+  ],
+  "date": "2026-07-07",
+  "duration_sec": 2515.499,
+  "slug": "2026-07-07-1000-am-committee-on-governmental-operations-state-federal-legislation",
+  "summary": [
+    "The Committee on Governmental Operations, State & Federal Legislation held a hearing on a preconsidered bill (T2026-2196) to amend the NYC Charter and Administrative Code regarding compensation for the mayor, public advocate, city council members, borough presidents, comptroller, and district attorneys.",
+    "The Quadrennial Advisory Commission recommended an 18.2% salary increase for elected officials, citing a 10-year gap since the last raise and inflation, alongside reforms to the commission process including extending its timeframe to 120 days and implementing automatic inflation adjustments if commissions are not convened.",
+    "Good government groups Citizens Union and Reinvent Albany supported the salary increases but opposed the automatic inflation adjustment backstop, arguing it would disincentivize convening future commissions and eliminate opportunities for public input and broader ethics reforms."
+  ],
+  "tags": [
+    "HEARING"
+  ],
+  "time": "10:00 AM",
+  "title": "Committee on Governmental Operations, State & Federal Legislation",
+  "topic": "Compensation of the mayor, public advocate, members of the city council, borough presidents, comptroller, and district attorneys",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-2_260707-101359/video-web.mp4"
+  }
+}
