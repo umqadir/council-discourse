@@ -52,12 +52,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         with:
-          # API-key auth: setup-token's long-lived subscription tokens do NOT
-          # authenticate through this action (verified 2026-07-08: two
-          # independent setup-tokens 401 while a session token 200s directly);
-          # the API key is the reliable path. It needs a small credit balance
-          # on the key's console — failures are rare, so cost is minimal.
-          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           # Least-privilege toolset, mirroring the action's official
           # ci-failure-auto-fix example, adapted to this repo's stack.
           claude_args: "--model claude-opus-4-8 --max-turns 80 --allowedTools 'Edit,MultiEdit,Write,Read,Glob,Grep,LS,Bash(git:*),Bash(gh:*),Bash(uv:*),Bash(actionlint:*),Bash(sqlite3:*)'"
