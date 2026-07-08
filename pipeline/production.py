@@ -705,9 +705,8 @@ def pull_export_inputs(db_path: Path = REGISTRY_DB, meetings_dir: Path = MEETING
     from . import export_site
 
     conn = db.connect(db_path)
-    rows = conn.execute(
-        "SELECT * FROM meetings WHERE chapterize_status = 'chapterized'"
-    ).fetchall()
+    # Same publishability predicate as export itself — one definition.
+    rows = export_site.publishable_registry_rows(conn)
     remote = os.environ.get("R2_RCLONE_REMOTE", R2_REMOTE).strip() or R2_REMOTE
     bucket = os.environ.get("R2_BUCKET", R2_BUCKET).strip() or R2_BUCKET
     pulled = []

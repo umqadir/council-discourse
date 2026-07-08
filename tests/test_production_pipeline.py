@@ -688,7 +688,7 @@ def test_pull_export_inputs_fetches_only_unpublished_chapterized(tmp_path: Path,
                 "body_name": title,
             },
         )
-        db.update_meeting(conn, key, {"chapterize_status": "chapterized"})
+        db.update_meeting(conn, key, {"transcribe_status": "transcribed", "name_speakers_status": "named", "chapterize_status": "chapterized"})
 
     site_dir = tmp_path / "site-data"
     site_dir.mkdir()
@@ -734,7 +734,7 @@ def test_pull_export_inputs_fails_when_complete_meeting_has_no_artifacts(tmp_pat
             "body_name": "Committee on Aging",
         },
     )
-    db.update_meeting(conn, "m-lost", {"chapterize_status": "chapterized"})
+    db.update_meeting(conn, "m-lost", {"transcribe_status": "transcribed", "name_speakers_status": "named", "chapterize_status": "chapterized"})
     monkeypatch.setattr(export_site, "SITE_DATA_DIR", tmp_path / "site-data")
     monkeypatch.setenv("R2_ACCESS_KEY_ID", "k")
     monkeypatch.setenv("R2_SECRET_ACCESS_KEY", "s")
@@ -795,3 +795,27 @@ def test_reset_meeting_clears_state_and_deletes_durable_records(tmp_path: Path, 
     assert not page.exists()
     assert calls[0][:2] == ["rclone", "deletefile"]
     assert calls[0][2].endswith("artifacts/m1/result.json")
+
+
+def test_pull_export_inputs_ignores_metadata_less_recordings(tmp_path: Path, monkeypatch) -> None:
+    # A chapterized viebit-only row with no Legistar metadata is deliberately
+    # unpublished; the pull step must share export's publishability predicate
+    # and leave it alone instead of demanding artifacts for it.
+    from pipeline import production
+
+    db_path = tmp_path / "registry.db"
+    conn = db.connect(db_path)
+    db.upsert_meeting(conn, {"meeting_key": "zombie", "viebit_filename": "zombie"})
+    db.update_meeting(
+        conn,
+        "zombie",
+        {"transcribe_status": "transcribed", "name_speakers_status": "named", "chapterize_status": "chapterized"},
+    )
+    monkeypatch.setenv("R2_ACCESS_KEY_ID", "k")
+    monkeypatch.setenv("R2_SECRET_ACCESS_KEY", "s")
+    monkeypatch.setenv("R2_ENDPOINT", "https://r2.example")
+    monkeypatch.setattr(
+        production.subprocess, "run", lambda *a, **k: (_ for _ in ()).throw(AssertionError("rclone must not run"))
+    )
+
+    assert production.pull_export_inputs(db_path, tmp_path / "meetings") == []

@@ -151,10 +151,13 @@ def _chapter_data_key(slug: str, text: str) -> Path:
     return Path(R2_CHAPTER_DATA_PREFIX) / f"{slug}.{version}.json"
 
 
-def _registry_meetings(db_path: Path) -> list[dict[str, Any]]:
-    if not db_path.exists():
-        return []
-    conn = db.connect(db_path)
+def publishable_registry_rows(conn) -> list[Any]:
+    """THE definition of a publishable meeting; every consumer must share it.
+
+    Fully processed AND carrying enough Legistar metadata to render a page
+    under a stable slug. Metadata-less recordings stay unpublished until
+    enrichment lands, no matter what their stage statuses say.
+    """
     rows = conn.execute(
         """
         SELECT * FROM meetings
@@ -164,12 +167,15 @@ def _registry_meetings(db_path: Path) -> list[dict[str, Any]]:
         ORDER BY COALESCE(event_date, viebit_pub_date, discovered_at), meeting_key
         """
     ).fetchall()
+    return [row for row in rows if row["event_date"] or row["body_name"]]
+
+
+def _registry_meetings(db_path: Path) -> list[dict[str, Any]]:
+    if not db_path.exists():
+        return []
+    conn = db.connect(db_path)
     out = []
-    for row in rows:
-        if not row["event_date"] and not row["body_name"]:
-            # No Legistar match: there is no title or date to render a page
-            # under, and slugs would collapse. Skip until enrichment lands.
-            continue
+    for row in publishable_registry_rows(conn):
         meeting = db.meeting_from_row(row)
         if not _has_export_artifacts(meeting.meeting_dir):
             # Processed on another machine; its committed site JSON stands,
