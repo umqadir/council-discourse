@@ -54,7 +54,16 @@ and deploys the site. No routine human involvement is required.
   persist to `r2:council-discourse-videos/artifacts/<key>` and are restored at
   job start: retries resume at the failed stage instead of re-paying.
 - Dead-letter: a meeting failing 5 process attempts is parked (excluded from
-  selection, listed in discover warnings). Reset: set `process_attempts=0`.
+  selection); ci-health reports it and the run keeps a GitHub issue open until
+  it is handled. Redoing any meeting — parked, or published-but-wrong — has
+  exactly one sanctioned path: `pipeline reset-meeting <key>` (clears statuses,
+  deletes the durable R2 result record, drops the committed page), then commit
+  the registry and dispatch. Editing statuses by hand is always undone by the
+  next merge — that is by design.
+- Accepted risk (reviewed 2026-07-08): if a runner dies between a paid API
+  call and its checkpoint reaching R2 (a window of seconds to minutes), that
+  meeting re-pays the uncheckpointed portion once. Bounded and rare; inline
+  per-call R2 uploads were judged not worth coupling paid stages to R2.
 - Registry merges never regress a completed stage status; the commit-step
   rebase fallback rebuilds only registry + site data on top of origin (never
   commits the runner's stale tree).

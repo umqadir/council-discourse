@@ -98,6 +98,9 @@ def process_one(
         "dry_run": dry_run,
         "finished_at": None,
         "row": None,
+        # Provenance stamps (observability only; merge logic ignores them).
+        "run_id": os.environ.get("GITHUB_RUN_ID"),
+        "run_attempt": os.environ.get("GITHUB_RUN_ATTEMPT"),
     }
     try:
         row = db.get_meeting(conn, meeting_key)
@@ -725,11 +728,74 @@ def pull_export_inputs(db_path: Path = REGISTRY_DB, meetings_dir: Path = MEETING
             args += ["--include", name]
         subprocess.run(args, check=True, env=_rclone_env(remote))
         pulled.append(meeting_key)
+        # Invariant: complete implies publishable. A registry row marked
+        # chapterized whose artifacts never reached R2 would otherwise be
+        # skipped by export forever — completed work with no page, silently.
+        if not (meeting_dir / "chapters.json").exists():
+            raise RuntimeError(
+                f"{meeting_key} is chapterized in the registry but its export inputs "
+                f"are missing from R2 (artifacts/{meeting_key}); refusing to publish a "
+                "registry state the site cannot honor"
+            )
     if pulled:
         print(f"pull-export-inputs: fetched {len(pulled)} meeting dir(s): {', '.join(pulled)}", flush=True)
     else:
         print("pull-export-inputs: nothing to fetch", flush=True)
     return pulled
+
+
+def reset_meeting(meeting_key: str, db_path: Path = REGISTRY_DB, *, wipe_artifacts: bool = False) -> None:
+    """The one sanctioned way to make the pipeline redo a meeting.
+
+    Results on R2 are durable and re-merged every run, so editing the registry
+    alone is always undone by the next cycle. Retracting work means retracting
+    the durable record too — and dropping the committed site JSON so the next
+    export republishes the page instead of skipping it as already published.
+    """
+    from . import export_site
+
+    conn = db.connect(db_path)
+    row = db.get_meeting(conn, meeting_key)
+
+    remote = os.environ.get("R2_RCLONE_REMOTE", R2_REMOTE).strip() or R2_REMOTE
+    bucket = os.environ.get("R2_BUCKET", R2_BUCKET).strip() or R2_BUCKET
+    prefix = f"{remote}:{bucket}/artifacts/{meeting_key}"
+    target = prefix if wipe_artifacts else f"{prefix}/result.json"
+    subprocess.run(
+        ["rclone", "delete" if wipe_artifacts else "deletefile", target, "--s3-no-check-bucket"],
+        check=True,
+        env=_rclone_env(remote),
+    )
+
+    payload = dict(row)
+    meeting = db.meeting_from_row(row, MEETINGS_DIR)
+    date = str(meeting.event_date or "")[:10]
+    title = export_site._meeting_title(meeting, payload)
+    slug = export_site._meeting_slug(date, str(meeting.event_time or ""), title)
+    site_json = export_site.SITE_DATA_DIR / f"{slug}.json"
+    if site_json.exists():
+        site_json.unlink()
+        print(f"removed committed site JSON {site_json} (commit this deletion)", flush=True)
+
+    db.update_meeting(
+        conn,
+        meeting_key,
+        {
+            "fetch_status": "pending",
+            "prepare_status": "pending",
+            "transcribe_status": "stubbed",
+            "diarize_status": "stubbed",
+            "name_speakers_status": "stubbed",
+            "chapterize_status": "stubbed",
+            "process_attempts": 0,
+            "last_error": None,
+        },
+    )
+    print(
+        f"reset {meeting_key}: statuses cleared, R2 {'artifacts wiped' if wipe_artifacts else 'result record deleted'}; "
+        "commit and push data/registry.db (and any site JSON deletion) — the next run reprocesses it",
+        flush=True,
+    )
 
 
 def _merge_result_values(current: sqlite3.Row, incoming: dict[str, Any]) -> dict[str, Any]:

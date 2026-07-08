@@ -20,6 +20,7 @@ from .production import (
     pending_matrix_json,
     process_one,
     pull_export_inputs,
+    reset_meeting,
     verify_run_results,
 )
 from .prepare import prepare_meeting
@@ -370,6 +371,11 @@ def cmd_pull_export_inputs(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_reset_meeting(args: argparse.Namespace) -> int:
+    reset_meeting(args.meeting_key, args.db, wipe_artifacts=args.wipe_artifacts)
+    return 0
+
+
 def cmd_checkpoint_db(args: argparse.Namespace) -> int:
     checkpoint_db(args.db)
     print(f"checkpointed {args.db}")
@@ -446,6 +452,18 @@ def cmd_ci_health(args: argparse.Namespace) -> int:
         for row in error_rows:
             print(f"{row['meeting_key']}: {_truncate_one_line(row['last_error'], 200)}")
         print(f"stale_unmatched_viebit_rows_older_than_7d={_stale_unmatched_viebit_count(conn, coverage_start)}")
+        parked = conn.execute(
+            """
+            SELECT meeting_key FROM meetings
+            WHERE process_attempts >= 5 AND chapterize_status != 'chapterized'
+              AND COALESCE(substr(event_date, 1, 10), substr(viebit_pub_date, 1, 10), substr(discovered_at, 1, 10)) >= ?
+            ORDER BY meeting_key
+            """,
+            (coverage_start,),
+        ).fetchall()
+        print(f"parked_meetings={len(parked)}")
+        for row in parked:
+            print(f"parked: {row['meeting_key']} (reset with: pipeline reset-meeting {row['meeting_key']})")
         newest = conn.execute("SELECT MAX(event_date) AS newest FROM meetings WHERE event_date IS NOT NULL").fetchone()
         print(f"newest_event_date={newest['newest'] if newest and newest['newest'] else 'none'}")
     except Exception as exc:
@@ -599,6 +617,19 @@ def build_parser() -> argparse.ArgumentParser:
     )
     add_common(pull_cmd)
     pull_cmd.set_defaults(func=cmd_pull_export_inputs)
+
+    reset_cmd = subparsers.add_parser(
+        "reset-meeting",
+        help="make the pipeline redo a meeting: clear statuses, delete its R2 result record and committed page",
+    )
+    add_common(reset_cmd)
+    reset_cmd.add_argument("meeting_key")
+    reset_cmd.add_argument(
+        "--wipe-artifacts",
+        action="store_true",
+        help="also delete the meeting's stage outputs on R2 (forces full re-pay; default keeps them so stages resume)",
+    )
+    reset_cmd.set_defaults(func=cmd_reset_meeting)
 
     checkpoint_cmd = subparsers.add_parser("checkpoint-db", help="checkpoint SQLite WAL state into the registry DB file")
     add_common(checkpoint_cmd)

@@ -699,10 +699,99 @@ def test_pull_export_inputs_fetches_only_unpublished_chapterized(tmp_path: Path,
     monkeypatch.setenv("R2_ENDPOINT", "https://r2.example")
 
     calls: list[list[str]] = []
-    monkeypatch.setattr(production.subprocess, "run", lambda args, **kw: calls.append(args) or sp.CompletedProcess(args, 0))
+
+    def fake_rclone(args, **_kw):
+        calls.append(args)
+        # A successful pull materializes the export inputs locally.
+        dest = Path(args[3])
+        dest.mkdir(parents=True, exist_ok=True)
+        (dest / "chapters.json").write_text("{}")
+        return sp.CompletedProcess(args, 0)
+
+    monkeypatch.setattr(production.subprocess, "run", fake_rclone)
 
     pulled = production.pull_export_inputs(db_path, tmp_path / "meetings")
 
     assert pulled == ["m-new"]
     assert len(calls) == 1
     assert "artifacts/m-new" in calls[0][2]
+
+
+def test_pull_export_inputs_fails_when_complete_meeting_has_no_artifacts(tmp_path: Path, monkeypatch) -> None:
+    import subprocess as sp
+
+    from pipeline import export_site, production
+
+    db_path = tmp_path / "registry.db"
+    conn = db.connect(db_path)
+    db.upsert_meeting(
+        conn,
+        {
+            "meeting_key": "m-lost",
+            "viebit_filename": "m-lost",
+            "event_date": "2026-07-07T00:00:00",
+            "event_time": "10:00 AM",
+            "body_name": "Committee on Aging",
+        },
+    )
+    db.update_meeting(conn, "m-lost", {"chapterize_status": "chapterized"})
+    monkeypatch.setattr(export_site, "SITE_DATA_DIR", tmp_path / "site-data")
+    monkeypatch.setenv("R2_ACCESS_KEY_ID", "k")
+    monkeypatch.setenv("R2_SECRET_ACCESS_KEY", "s")
+    monkeypatch.setenv("R2_ENDPOINT", "https://r2.example")
+    # rclone "succeeds" but transfers nothing (the prefix is empty on R2).
+    monkeypatch.setattr(production.subprocess, "run", lambda args, **kw: sp.CompletedProcess(args, 0))
+
+    with pytest.raises(RuntimeError, match="m-lost is chapterized .* missing from R2"):
+        production.pull_export_inputs(db_path, tmp_path / "meetings")
+
+
+def test_reset_meeting_clears_state_and_deletes_durable_records(tmp_path: Path, monkeypatch) -> None:
+    import subprocess as sp
+
+    from pipeline import export_site, production
+
+    db_path = tmp_path / "registry.db"
+    conn = db.connect(db_path)
+    db.upsert_meeting(
+        conn,
+        {
+            "meeting_key": "m1",
+            "viebit_filename": "m1",
+            "event_date": "2026-07-07T00:00:00",
+            "event_time": "10:00 AM",
+            "body_name": "Committee on Aging",
+        },
+    )
+    db.update_meeting(
+        conn,
+        "m1",
+        {
+            "fetch_status": "fetched",
+            "transcribe_status": "transcribed",
+            "chapterize_status": "chapterized",
+            "process_attempts": 5,
+            "last_error": "boom",
+        },
+    )
+    site_dir = tmp_path / "site-data"
+    site_dir.mkdir()
+    page = site_dir / "2026-07-07-1000-am-committee-on-aging.json"
+    page.write_text("{}")
+    monkeypatch.setattr(export_site, "SITE_DATA_DIR", site_dir)
+    monkeypatch.setenv("R2_ACCESS_KEY_ID", "k")
+    monkeypatch.setenv("R2_SECRET_ACCESS_KEY", "s")
+    monkeypatch.setenv("R2_ENDPOINT", "https://r2.example")
+
+    calls: list[list[str]] = []
+    monkeypatch.setattr(production.subprocess, "run", lambda args, **kw: calls.append(args) or sp.CompletedProcess(args, 0))
+
+    production.reset_meeting("m1", db_path)
+
+    row = db.get_meeting(db.connect(db_path), "m1")
+    assert row["chapterize_status"] == "stubbed"
+    assert row["process_attempts"] == 0
+    assert row["last_error"] is None
+    assert not page.exists()
+    assert calls[0][:2] == ["rclone", "deletefile"]
+    assert calls[0][2].endswith("artifacts/m1/result.json")

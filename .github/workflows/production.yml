@@ -12,6 +12,7 @@ concurrency:
 
 permissions:
   contents: write
+  issues: write
 
 env:
   UV_CACHE_DIR: .uv-cache
@@ -330,6 +331,24 @@ jobs:
       - name: CI health summary
         run: uv run python -m pipeline ci-health | tee -a "$GITHUB_STEP_SUMMARY"
 
+      # A parked meeting (5 failed attempts) stopped costing money but needs a
+      # human; keep an issue open until it is reset. Non-blocking: publishing
+      # the rest of the batch must not depend on this.
+      - name: Flag parked meetings as an issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          parked="$(uv run python -m pipeline ci-health | grep '^parked: ' || true)"
+          [ -z "$parked" ] && { echo "no parked meetings"; exit 0; }
+          title="Parked meetings need attention"
+          body="$(printf 'These meetings hit the retry cap and are excluded from processing until reset:\n\n%s\n\nReset with: uv run python -m pipeline reset-meeting <key>, then commit the registry and dispatch a run.' "$parked")"
+          existing="$(gh issue list --state open --search "$title in:title" --json number --jq '.[0].number // empty')"
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body "$body"
+          else
+            gh issue create --title "$title" --body "$body"
+          fi
+
       # Fetch meeting dirs that export needs but this runner lacks: normally
       # just this run's completions; after a lost export, older orphans too.
       - name: Pull export inputs from R2
@@ -444,12 +463,7 @@ jobs:
           name: site-dist
           path: site/dist
 
-      - name: TODO Cloudflare token
-        if: ${{ env.CLOUDFLARE_API_TOKEN == '' }}
-        run: |
-          echo "::warning::TODO: set the CLOUDFLARE_API_TOKEN repository secret to enable wrangler Pages deploy."
-
+      # Unconditional: a missing token must be a red run, never a silent skip.
       - name: Deploy Cloudflare Pages
-        if: ${{ env.CLOUDFLARE_API_TOKEN != '' }}
         working-directory: site
         run: pnpm dlx wrangler pages deploy dist --project-name council-discourse
