@@ -71,6 +71,17 @@ and deploys the site. No routine human involvement is required.
   prints errors/staleness into each run's step summary.
 - Watchdog (`watchdog.yml`, daily 15:30 UTC): opens/updates a GitHub issue if
   no successful production run in 26 hours.
+- Auto-fixer (`auto-fix.yml`): on any production-run failure, launches Claude
+  Opus (Anthropic's `claude-code-action`, their CI-failure pattern) with the
+  failed logs + this runbook. It either pushes a tested root-cause fix, or —
+  when the cause is credits/outage/data — opens an issue and changes nothing;
+  a silent-error guard fails the job if the agent errors without working.
+  Auth: `CLAUDE_CODE_OAUTH_TOKEN` secret = a subscription token from
+  `claude setup-token` (zero marginal cost; **expires ~2027-07**, regenerate
+  then). Gotcha: NEVER also set an `ANTHROPIC_API_KEY` secret — the action
+  reads it from env and it silently overrides the OAuth token → 401. Verify a
+  new token with a direct `curl` (`anthropic-beta: oauth-2025-04-20`, expect
+  200) before trusting it; the CLI wraps the printed token across lines.
 
 ## Returning after a break — checklist
 
