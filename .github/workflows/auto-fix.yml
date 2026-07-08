@@ -1,0 +1,93 @@
+name: Auto-fix pipeline failures
+
+# When a production run fails, an agent diagnoses it from the failed logs and
+# either pushes a tested fix, or opens/updates an issue when the cause is not
+# code (credits, provider outage). Repeat-firing is bounded by production's
+# own circuit breaker (3 consecutive scheduled failures halt the cron).
+on:
+  workflow_run:
+    workflows: ["Production pipeline"]
+    types: [completed]
+  workflow_dispatch:
+    inputs:
+      run_id:
+        description: "Failed production run id to diagnose (testing/manual)"
+        required: true
+
+concurrency:
+  group: auto-fix
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+  actions: read
+
+jobs:
+  fix:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'failure' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 50
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v7
+
+      - name: Install actionlint
+        run: |
+          curl -sSfL https://raw.githubusercontent.com/rhysd/actionlint/main/scripts/download-actionlint.bash | bash -s -- latest /usr/local/bin >/dev/null
+
+      - name: Diagnose and fix
+        uses: anthropics/claude-code-action@v1
+        env:
+          GH_TOKEN: ${{ github.token }}
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          claude_args: "--model claude-opus-4-8 --max-turns 80"
+          prompt: |
+            You are the on-call fixer for this repository's production pipeline.
+            Production run ${{ github.event.workflow_run.id || inputs.run_id }} concluded FAILURE:
+            ${{ github.event.workflow_run.html_url || format('https://github.com/{0}/actions/runs/{1}', github.repository, inputs.run_id) }}
+
+            Investigate first, decide second:
+            1. Read STATE.md fully — it defines the state model and the
+               invariants; any fix must preserve them. Check `git log --oneline -15`
+               for context and for whether a fix was already pushed after the
+               failure started (if so, verify it addresses the cause and stop).
+            2. Diagnose from evidence:
+               `gh run view ${{ github.event.workflow_run.id || inputs.run_id }} --log-failed`
+               (and `--log` for surrounding context if needed).
+
+            Then take exactly one of these paths:
+            - NOT code-fixable (exhausted OpenRouter credits, Mistral/Google
+              auth or billing, an upstream service outage, the circuit breaker
+              halting after repeated failures): do NOT change code. Open or
+              update a GitHub issue titled "Pipeline needs attention:
+              <cause>" with the specifics and the exact recovery step, then stop.
+            - Transient one-off (e.g. a single network timeout the next cron
+              will clear): do nothing but say so clearly in your final message.
+            - A real defect in this repository: implement the minimal clean
+              fix at the root cause — no defensive band-aids around a broken
+              contract. You MUST run `uv run pytest tests/ -q` and
+              `actionlint .github/workflows/production.yml` and get them fully
+              green. Only then commit to main with a clear imperative message
+              and push. If you cannot get green, or the fix requires an
+              architectural judgment call, push nothing — open an issue with
+              your diagnosis and proposed patch instead.
+
+            Hard rules:
+            - Never modify data/registry.db, site/src/data/meetings/, or any
+              R2 object; never trigger paid processing yourself.
+            - Never disable, weaken, or work around a failing guard, test, or
+              invariant to make the run pass — those exist to fail.
+            - One focused commit at most. If main moved while you worked,
+              rebase your commit onto origin/main before pushing.
