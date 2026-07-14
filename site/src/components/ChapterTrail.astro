@@ -13,13 +13,14 @@ const count = meeting.chapters.length;
 {
   count > 6 && (
     <nav
-      class="chapter-trail fixed right-2 top-1/2 z-20 hidden max-h-[72vh] -translate-y-1/2 flex-col items-end justify-center gap-1 py-2 xl:flex"
+      class="chapter-trail fixed left-2 top-1/2 z-20 hidden max-h-[72vh] -translate-y-1/2 flex-col items-start justify-center gap-1 py-2 xl:flex"
+      data-preview="false"
       aria-label="Chapter minimap"
     >
       {/* One preview card, repositioned to whichever tick is hovered — the
           hover-card model from the shadcn MessageScroller outline. */}
       <div
-        class="chapter-trail-card pointer-events-none absolute right-full top-0 mr-3 hidden w-72 max-w-[19rem] -translate-y-1/2 flex-col gap-1.5 rounded-lg border border-line bg-paper p-3 shadow-lg ring-1 ring-ink/5"
+        class="chapter-trail-card pointer-events-none absolute left-full top-0 ml-3 hidden w-72 max-w-[19rem] -translate-y-1/2 flex-col gap-1.5 rounded-lg border border-line bg-paper p-3 shadow-lg ring-1 ring-ink/5"
       >
         <div class="flex items-center gap-2">
           <span
@@ -35,7 +36,7 @@ const count = meeting.chapters.length;
       {meeting.chapters.map((chapter, index) => (
         <button
           type="button"
-          class="chapter-tick group flex h-2 w-8 items-center justify-end border-0 bg-transparent p-0"
+          class="chapter-tick group flex h-2 w-8 items-center justify-start border-0 bg-transparent p-0"
           data-index={index}
           data-type={chapter.type}
           data-badge={chapterTypeLabel(chapter.type)}
@@ -67,8 +68,8 @@ const count = meeting.chapters.length;
       width 0.12s ease,
       background-color 0.12s ease;
   }
-  /* Current: the chapter(s) in view — the scroll-position indicator. */
-  .chapter-tick-bar[data-current="true"] {
+  /* Scroll position is visible only while the rail is not being previewed. */
+  .chapter-trail[data-preview="false"] .chapter-tick-bar[data-current="true"] {
     width: 20px;
     background: #141311;
   }
@@ -76,6 +77,10 @@ const count = meeting.chapters.length;
   .chapter-tick-bar[data-active="true"] {
     width: 26px;
     background: #141311;
+  }
+  /* Transfer ownership immediately so two locations never look selected. */
+  .chapter-trail[data-preview="true"] .chapter-tick-bar {
+    transition: none;
   }
   @media (prefers-reduced-motion: reduce) {
     .chapter-tick-bar {
@@ -98,37 +103,50 @@ const count = meeting.chapters.length;
 
     const barOf = (tick: HTMLElement) => tick.querySelector<HTMLElement>(".chapter-tick-bar");
 
-    // Current position: every tick whose chapter is in the viewport fills in,
-    // so the lit run shows where you are and how much is on screen.
+    // Current position: the last visible chapter to cross the reading line.
+    // Exactly one tick owns this state, including after filters change.
+    let currentIndex = -1;
     let raf = 0;
     const paintCurrent = () => {
       raf = 0;
-      const top = window.innerHeight * 0.12;
-      const bottom = window.innerHeight * 0.88;
+      const readingLine = window.innerHeight / 3;
+      const visible: number[] = [];
       for (let i = 0; i < cards.length; i += 1) {
         const bar = barOf(ticks[i]);
         if (!bar) continue;
-        if (cards[i].offsetParent === null) continue; // filtered out
-        const r = cards[i].getBoundingClientRect();
-        bar.dataset.current = r.bottom > top && r.top < bottom ? "true" : "false";
+        bar.dataset.current = "false";
+        if (cards[i].offsetParent !== null) visible.push(i);
       }
+      currentIndex = visible[0] ?? -1;
+      for (const index of visible) {
+        if (cards[index].getBoundingClientRect().top <= readingLine) currentIndex = index;
+      }
+      const currentBar = currentIndex >= 0 ? barOf(ticks[currentIndex]) : null;
+      if (currentBar) currentBar.dataset.current = "true";
+    };
+    const requestPaintCurrent = () => {
+      if (!raf) raf = requestAnimationFrame(paintCurrent);
     };
     window.addEventListener(
       "scroll",
-      () => {
-        if (!raf) raf = requestAnimationFrame(paintCurrent);
-      },
+      requestPaintCurrent,
       { passive: true },
     );
+    window.addEventListener("resize", requestPaintCurrent, { passive: true });
+    const filterObserver = new MutationObserver(requestPaintCurrent);
+    for (const chapterCard of cards) {
+      filterObserver.observe(chapterCard, { attributes: true, attributeFilter: ["style"] });
+    }
     paintCurrent();
 
-    // The hovered/focused tick itself changes — driven by JS so it fires for
-    // pointer and keyboard alike.
+    // Hover/focus temporarily owns the only highlight. The current position
+    // remains recorded, but its styling is neutral until preview ends.
     let active: HTMLElement | null = null;
     const setActive = (tick: HTMLElement | null) => {
       const prev = active && barOf(active);
       if (prev) prev.dataset.active = "false";
       active = tick;
+      trail.dataset.preview = tick ? "true" : "false";
       const bar = tick && barOf(tick);
       if (bar) bar.dataset.active = "true";
     };
@@ -143,9 +161,14 @@ const count = meeting.chapters.length;
       summary.style.display = tick.dataset.summary ? "" : "none";
       const trailBox = trail.getBoundingClientRect();
       const tickBox = tick.getBoundingClientRect();
-      card.style.top = `${tickBox.top - trailBox.top + tickBox.height / 2}px`;
       card.classList.remove("hidden");
       card.classList.add("flex");
+      const cardHeight = card.getBoundingClientRect().height;
+      const desiredCenter = tickBox.top + tickBox.height / 2;
+      const minCenter = 8 + cardHeight / 2;
+      const maxCenter = window.innerHeight - 8 - cardHeight / 2;
+      const clampedCenter = Math.min(maxCenter, Math.max(minCenter, desiredCenter));
+      card.style.top = `${clampedCenter - trailBox.top}px`;
     };
     const hideCard = () => {
       setActive(null);
@@ -153,12 +176,33 @@ const count = meeting.chapters.length;
       card?.classList.remove("flex");
     };
 
+    let hovered: HTMLElement | null = null;
+    let focused: HTMLElement | null = null;
+    const syncPreview = () => {
+      const tick = hovered ?? focused;
+      if (tick) showCard(tick);
+      else hideCard();
+    };
+
     for (const tick of ticks) {
       const index = Number(tick.dataset.index);
-      tick.addEventListener("mouseenter", () => showCard(tick));
-      tick.addEventListener("focus", () => showCard(tick));
-      tick.addEventListener("mouseleave", hideCard);
-      tick.addEventListener("blur", hideCard);
+      tick.addEventListener("mouseenter", () => {
+        hovered = tick;
+        syncPreview();
+      });
+      tick.addEventListener("focus", () => {
+        if (!tick.matches(":focus-visible")) return;
+        focused = tick;
+        syncPreview();
+      });
+      tick.addEventListener("mouseleave", () => {
+        if (hovered === tick) hovered = null;
+        syncPreview();
+      });
+      tick.addEventListener("blur", () => {
+        if (focused === tick) focused = null;
+        syncPreview();
+      });
       tick.addEventListener("click", () => {
         cards[index]?.scrollIntoView({ behavior: reducedMotion ? "auto" : "smooth", block: "start" });
       });
