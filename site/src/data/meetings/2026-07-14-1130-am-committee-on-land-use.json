@@ -1,0 +1,1398 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 22.0,
+      "id": "001",
+      "slug": "staff-opens-meeting-with-housekeeping-reminders",
+      "start_sec": 5.5,
+      "summary": "Committee staff welcomes attendees, reminds everyone to silence electronic devices, and notes that no one may approach the dais during the proceedings.",
+      "title": "Staff opens meeting with housekeeping reminders",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 5.5,
+          "text": "Good morning and welcome to today's New York City Council hearing from the Committee on Land Use."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 12.0,
+          "text": "At this point, I'd like to remind everyone to please silence their electronic devices and at no point is anyone to approach the dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 18.3,
+          "text": "Chair, we're ready to begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 84.9,
+      "id": "002",
+      "slug": "chair-riley-introduces-committee-members-and-outlines-agenda",
+      "start_sec": 22.0,
+      "summary": "Chair Kevin Riley introduces himself and names colleagues in attendance including Chairs Lewis and Marte, and Councilmembers Cab\u00e1n, Abreu, Oss\u00e9, Salaam, Banks, Carr, and others. He previews the hearing on Intro 833 regarding Eastern Parkway building restrictions and announces the committee will first vote on items from the zoning and landmarks subcommittees.",
+      "title": "Chair Riley introduces committee members and outlines agenda",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 22.0,
+          "text": "Good morning and welcome to a meeting of the Committee on Land Use."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 25.1,
+          "text": "I'm Councilmember Kevin Riley, Chair of this committee."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 27.9,
+          "text": "I want to welcome my esteemed colleagues joining me today, which includes Chair Lewis, remotely Councilmember Caban, Majority Leader Abreu, Councilmember Osei, Salam, Banks, and Carnation."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 41.8,
+          "text": "Justin Sanchez, Thomas Henry, Minority Leader Carr, and Councilmember Nurse and Mealy."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 49.4,
+          "text": "At today's meeting, we will hold a hearing on proposed legislation, intro number 833, a bill sponsored by Councilmember Sandy Nurse to address a potential amendment to the city's administrative code to addressing"
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 63.4,
+          "text": "existing restrictions on building locations along portions of Eastern Parkway in Brooklyn."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 69.5,
+          "text": "But before we get to that hearing, in approximately 15 minutes or so, the committee will first vote on the number of items voted out of our two subcommittees."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 78.5,
+          "text": "As always, I want to thank Chair Lewis and Chair Marte for their work as our zoning and landmarks chairs."
+        }
+      ]
+    },
+    {
+      "end_sec": 98.1,
+      "id": "003",
+      "slug": "riley-outlines-lu-91-93-three-lpc-landmark-designations",
+      "start_sec": 84.9,
+      "summary": "Riley describes three landmark designation items voted out of subcommittees: LU 91 for PS 15 Annex in Brooklyn (CM Riley's district), LU 92 for Church of St. Mary in Manhattan (CM Marte), and LU 93 for the Lithuanian Alliance Building in Manhattan (CM Wilson).",
+      "title": "Riley outlines LU 91-93: three LPC landmark designations",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 84.9,
+          "text": "Today, we will vote to approve three separate LPC designations for individuals."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 90.0,
+          "text": "visual landmarks, including LU 91 for the PS 15 annex, LU 92 for the Church of St."
+        }
+      ]
+    },
+    {
+      "end_sec": 121.8,
+      "id": "004",
+      "slug": "riley-outlines-lu-94-95-164th-street-rezoning-in-queens",
+      "start_sec": 98.1,
+      "summary": "Riley describes a zoning map and zoning text amendment in CM Gennaro's district to facilitate a new mixed-use development with approximately 80 units, including up to 24 affordable units through MIH.",
+      "title": "Riley outlines LU 94-95: 164th Street rezoning in Queens",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 98.1,
+          "text": "Mary and LU 93 for the Lithuanian Alliance building in the district of Councilmember Ressler in Brooklyn, Chair Marte in Manhattan and Councilmember Wilson in Manhattan."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 110.3,
+          "text": "We will also vote to approve LUs 94 and 95 related to the 164th Street rezoning proposal in Councilmember Gennaro's district in Queens"
+        }
+      ]
+    },
+    {
+      "end_sec": 180.1,
+      "id": "005",
+      "slug": "riley-outlines-lu-96-97-50-20-108th-street-rezoning-with-modifications-in-queens",
+      "start_sec": 121.8,
+      "summary": "Riley describes a zoning text and map amendment in CM Thomas-Henry's district to facilitate two mixed-use developments with approximately 196 units total, including up to 49 affordable units. The modification removes MIH option two and reduces the rezoning area to address displacement concerns.",
+      "title": "Riley outlines LU 96-97: 50-20 108th Street rezoning with modifications in Queens",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 121.8,
+          "text": "for a zoning map and zoning text amendment to facilitate the development of a new mixed-use development with approximately 80 units, including up to 24 affordable units through MIH."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 133.9,
+          "text": "We'll vote to approve with modification LUs 96 and 97 related to the 50-20th 108th Street rezoning proposal and Councilmember Thomas Henry District in Queens."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 145.7,
+          "text": "For a zoning tax amendment and a zoning map amendment, which together will facilitate the development of two new mixed-use developments with approximately 196 units total,"
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 159.1,
+          "text": "including up to 49 affordable units through MIH."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 162.8,
+          "text": "A modification will be to remove MIH option two, as well as to reduce the rezoning area to address concerns of residential displacement."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 172.7,
+          "text": "As noted by Chair Lewis earlier, removing existing residential buildings from the proposed upzoning will relive"
+        }
+      ]
+    },
+    {
+      "end_sec": 202.0,
+      "id": "006",
+      "slug": "riley-outlines-lu-98-99-richmond-terrace-rezoning-in-staten-island",
+      "start_sec": 180.1,
+      "summary": "Riley describes a zoning map and text amendment in CM Hankin's district to facilitate a new mixed-use development with approximately 118 units, including up to 35 affordable units through MIH.",
+      "title": "Riley outlines LU 98-99: Richmond Terrace rezoning in Staten Island",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 180.1,
+          "text": "developments pressured in an area of the city that faces high displacement pressure based on the city's equitable development data explorer."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 189.7,
+          "text": "We will also vote to approve LUs 98 and 99 related to the 198-208 Richmond Territory Zoning Proposal in Councilmember Hanks'district in Staten Island."
+        }
+      ]
+    },
+    {
+      "end_sec": 237.9,
+      "id": "007",
+      "slug": "riley-outlines-lu-100-103-2950-west-24th-street-rezoning-in-brooklyn",
+      "start_sec": 202.0,
+      "summary": "Riley describes a zoning map amendment, text amendment, and two special permits in CM Restler's district to facilitate a mixed-use affordable housing project with approximately 408 apartments, of which up to 122 will be permanently affordable.",
+      "title": "Riley outlines LU 100-103: 2950 West 24th Street rezoning in Brooklyn",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 202.0,
+          "text": "For a zoning map and zoning text amendment to facilitate the development of a new mixed-use development with approximately 118 units, including up to 35 affordable units through MIH."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 214.2,
+          "text": "We will vote to approve LUs 100 through 103 related to the 2950 West 24th Street rezoning proposal and council members sent to Swoso District in Brooklyn."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 225.0,
+          "text": "For a zoning map amendment, zoning text amendment, and two zoning special permits, which together will facilitate the development of a mixed-use affordable housing project with approximately 408 apartments,"
+        }
+      ]
+    },
+    {
+      "end_sec": 270.2,
+      "id": "008",
+      "slug": "riley-outlines-lu-104-105-fresh-pond-road-rezoning-with-modifications-in-queens",
+      "start_sec": 237.9,
+      "summary": "Riley describes a zoning map and text amendment in CM Wong's district for a mixed-use residential project with approximately 54 apartments, up to 14 permanently affordable through MIH. The modification removes MIH option two.",
+      "title": "Riley outlines LU 104-105: Fresh Pond Road rezoning with modifications in Queens",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 237.9,
+          "text": "of which up to 122 will be permanently affordable."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 241.6,
+          "text": "We will vote to approve with modification LUs 104 and 105 related to the 6302"
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 248.3,
+          "text": "Fresh Pond Road rezoning proposal in Councilmember Wong's district in Queens for a zoning map and zoning text amendment to facilitate the development of a new, excuse me, of a mixed-use residential project,"
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 262.1,
+          "text": "including approximately 54 apartments, of which up to 14 will be permanently affordable through MIH."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 269.2,
+          "text": "Our modification."
+        }
+      ]
+    },
+    {
+      "end_sec": 294.2,
+      "id": "009",
+      "slug": "riley-outlines-lu-106-107-1160-pugsley-avenue-rezoning-in-the-bronx",
+      "start_sec": 270.2,
+      "summary": "Riley describes a zoning map and text amendment in CM Farias's district to facilitate a mixed-use affordable housing project with approximately 104 units, including up to 37 permanently affordable units.",
+      "title": "Riley outlines LU 106-107: 1160 Pugsley Avenue rezoning in the Bronx",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 270.2,
+          "text": "will be to remove MIH option two."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 273.3,
+          "text": "We will also vote to approve LUs 106 and 107 related to 1160 Pugsley Avenue,"
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 280.5,
+          "text": "rezoning proposal in Councilmember Farias'district in the Bronx for a zoning map and zoning text amendment, which together will facilitate a mixed-use affordable housing project with approximately 104 units,"
+        }
+      ]
+    },
+    {
+      "end_sec": 308.7,
+      "id": "010",
+      "slug": "riley-outlines-lu-108-109-1166-bedford-avenue-rezoning-in-brooklyn",
+      "start_sec": 294.2,
+      "summary": "Riley describes a zoning map and text amendment in CM Oss\u00e9's district to facilitate a mixed-use affordable senior housing project with approximately 144 units, up to 43 of which will be permanently affordable.",
+      "title": "Riley outlines LU 108-109: 1166 Bedford Avenue rezoning in Brooklyn",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 294.2,
+          "text": "including up to 37 permanently affordable units."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 299.1,
+          "text": "We will vote to approve LUs 108 and 109 related to the 1166 Bedford Avenue rezoning proposal and Councilmember Osei's district in Brooklyn"
+        }
+      ]
+    },
+    {
+      "end_sec": 360.1,
+      "id": "011",
+      "slug": "riley-outlines-pre-considered-lus-for-sca-school-site-and-hpd-511-west-171st-street-project",
+      "start_sec": 308.7,
+      "summary": "Riley describes a pre-considered LU for a proposed SCA school site in Staten Island (CM Hankin's district) and a pre-considered LU from HPD for the 511 West 171st Street ANCP cluster, including an Article 11 tax exemption to facilitate rehabilitation of three buildings with approximately 50 units in Manhattan.",
+      "title": "Riley outlines pre-considered LUs for SCA school site and HPD 511 West 171st Street project",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 308.7,
+          "text": "for a zoning map and zoning text amendment, which will facilitate the development of a mixed-use affordable senior housing project with approximately 144 units, up to 43 of which will be permanently affordable."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 322.7,
+          "text": "Today, we will also vote to approve a pre-considered LU related to a proposal school site submitted by SCA for 801-seated high school facility in Councilmember Hanks'district in Staten Island."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 337.4,
+          "text": "We will also vote to approve a pre-considered LU related to 511 West 171st Street, ANCP cluster, and application by HPD"
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 349.9,
+          "text": "for the designation of an urban development action area project, and the approval of a 40-year Article 11 tax exemption to facilitate the rehabilitation of a facility."
+        }
+      ]
+    },
+    {
+      "end_sec": 380.2,
+      "id": "012",
+      "slug": "riley-outlines-pre-considered-lu-for-east-harlem-el-barrio-article-11-amendment",
+      "start_sec": 360.1,
+      "summary": "Riley describes a pre-considered LU related to the East Harlem El Barrio Article 11 Amendment in CM Encarnaci\u00f3n's and Salaam's districts in Manhattan.",
+      "title": "Riley outlines pre-considered LU for East Harlem El Barrio Article 11 amendment",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 360.1,
+          "text": "three buildings with approximately 50 units total in Councilmember De La Rosa's district in Manhattan."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 367.3,
+          "text": "Finally, we will vote to approve the pre-considered LU related to the East Harlem El Barrio Article 11 Amendment in Councilmember Encarnacion's and Salam's district in Manhattan."
+        }
+      ]
+    },
+    {
+      "end_sec": 534.004,
+      "id": "013",
+      "slug": "cm-salaam-speaks-in-support-of-east-harlem-el-barrio-application",
+      "start_sec": 380.2,
+      "summary": "CM Yusef Salaam rises in support of the East Harlem El Barrio application, which makes a targeted amendment to a 2019 council-approved project. The amendment maintains 36 rental units while updating the project to include three community facility spaces. Salaam highlights the importance of preserving affordable housing and community resources.",
+      "title": "CM Salaam speaks in support of East Harlem El Barrio application",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 380.2,
+          "text": "I would now like to recognize any of my colleagues for any comments or questions."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 390.5,
+          "text": "We've been joined by Councilmember Zhuang and Councilmember Banks."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 395.5,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 411.804,
+          "text": "So I'll start with Councilmember Salam, and then we'll go to Councilmember Wasey."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 416.804,
+          "text": "Good morning, everyone."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 420.604,
+          "text": "Today I rise in support of application number G26005XAM concerning the portfolio"
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 430.304,
+          "text": "of 53 East 110th Street, 201 East 120th Street, and particularly 204 West 121st Streets, which is in my district."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 439.604,
+          "text": "While this portfolio spans both my district and the district represented by my colleague, Councilmember Encarnacion,"
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 446.004,
+          "text": "the residents who call these buildings home share the same expectation that they have access to stable, well-maintained, affordable housing and community resources that strengthen their neighborhoods."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 457.504,
+          "text": "This application makes a targeted amendment to a project that the council originally approved in 2019."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 464.404,
+          "text": "It maintains the commitment to approximately 36 rental units while updating the project to include three community facility spaces instead of two commercial spaces and one community facility space."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 476.704,
+          "text": "That is a thoughtful adjustment that better reflects the needs of the surrounding community and creates additional opportunities for services that residents can"
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 486.404,
+          "text": "access close to their homes."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 489.004,
+          "text": "For the families living at these addresses, this is about more than a technical amendment."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 493.804,
+          "text": "It's about preserving affordable housing, supporting the continued rehabilitation and stewardship of these buildings, and ensuring that residents have access to spaces that can provide meaningful community benefits."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 505.504,
+          "text": "I appreciate the collaborations"
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 508.504,
+          "text": "between our council districts, the applicants, and all of the stakeholders who have worked to move this project forward."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 516.904,
+          "text": "When we invest in preserving affordable homes and strengthening the services available to residents, we are investing in the long-term stability of our neighborhoods."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 526.204,
+          "text": "For these reasons, I respectfully urge my colleagues on this committee to support this application."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 531.904,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 532.904,
+          "text": "Thank you, Councilman Yusef-Salaam."
+        }
+      ]
+    },
+    {
+      "end_sec": 602.304,
+      "id": "014",
+      "slug": "cm-oss-speaks-in-support-of-1166-bedford-avenue-rezoning-khalifa-residences",
+      "start_sec": 534.004,
+      "summary": "CM Oss\u00e9 speaks in support of the 1166 Bedford Avenue rezoning, which will bring 144 units of senior affordable housing, a new mosque, a new school, and ground-floor commercial space. He thanks Imam Rodney Rashid and the applicant team and urges colleagues to approve the application.",
+      "title": "CM Oss\u00e9 speaks in support of 1166 Bedford Avenue rezoning (Khalifa Residences)",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 534.004,
+          "text": "Councilman Wose."
+        },
+        {
+          "speaker": "Chi A. Oss\u00e9",
+          "t_sec": 535.104,
+          "text": "Thank you, Chair Riley and members of the committee for allowing me to speak about the 1166 Bedford Avenue rezoning."
+        },
+        {
+          "speaker": "Chi A. Oss\u00e9",
+          "t_sec": 541.504,
+          "text": "The Khalifa Residences project will bring much-needed senior affordable housing, 144 units, ground floor commercial space,"
+        },
+        {
+          "speaker": "Chi A. Oss\u00e9",
+          "t_sec": 549.304,
+          "text": "a new mosque, and a new school to the site of the existing mosque, school, and retail space at 1166 Bedford Avenue."
+        },
+        {
+          "speaker": "Chi A. Oss\u00e9",
+          "t_sec": 557.304,
+          "text": "Mashallah."
+        },
+        {
+          "speaker": "Chi A. Oss\u00e9",
+          "t_sec": 558.704,
+          "text": "Masjid Abdul Musi Khalifa has been a pillar in the neighborhood since its establishment in 1962."
+        },
+        {
+          "speaker": "Chi A. Oss\u00e9",
+          "t_sec": 565.804,
+          "text": "And this project ensures that it will continue to provide much needed services for many years to come."
+        },
+        {
+          "speaker": "Chi A. Oss\u00e9",
+          "t_sec": 571.404,
+          "text": "They are leaving a powerful legacy, ensuring that our seniors can age in place and that our neighbors"
+        },
+        {
+          "speaker": "Chi A. Oss\u00e9",
+          "t_sec": 576.504,
+          "text": "retains a house of worship with a rich history."
+        },
+        {
+          "speaker": "Chi A. Oss\u00e9",
+          "t_sec": 579.704,
+          "text": "I want to thank Imam Rodney Rashid for his leadership and the entire applicant team for creating a great project."
+        },
+        {
+          "speaker": "Chi A. Oss\u00e9",
+          "t_sec": 586.904,
+          "text": "I also want to thank my constituents who came out to support this project every single step of the way."
+        },
+        {
+          "speaker": "Chi A. Oss\u00e9",
+          "t_sec": 591.504,
+          "text": "And finally, I want to again thank members of the committee for giving me this time, and I urge my colleagues to approve this application."
+        },
+        {
+          "speaker": "Chi A. Oss\u00e9",
+          "t_sec": 599.604,
+          "text": "Thank you very much, Chair."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 601.004,
+          "text": "Thank you, Councilmember Osei."
+        }
+      ]
+    },
+    {
+      "end_sec": 651.304,
+      "id": "015",
+      "slug": "riley-calls-for-vote-on-all-lu-items-with-local-member-support",
+      "start_sec": 602.304,
+      "summary": "Riley calls for a vote to approve LUs 91-103, 106-109, and pre-considered LUs for 511 West 171st Street, East Harlem El Barrio, and SCA school site at 25 Wall Street Staten Island, with modifications to LUs 96-97 and 104-105.",
+      "title": "Riley calls for vote on all LU items with local member support",
+      "type": "VOTE",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 602.304,
+          "text": "Just want to state for the record that we've been joined remotely by Councilmember Brooks Powers."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 606.604,
+          "text": "I will now call for a vote with the support of the local members to approve LUs 91, 92, 93, 94, 95, 98, and 99, 100, 101, 102, and 103."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 620.404,
+          "text": "106 and 107, 108 and 109, as well as the pre-considered LU items related to"
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 628.104,
+          "text": "511 West 171st Street, ANCP Cluster, the East Harlem El Barrio, Article 11 Amendment, and proposed SCA school site in at 25 Wall Street in Staten Island."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 642.304,
+          "text": "Answer approved with modifications, LUs 96 and 97 and 104 and 105."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 648.804,
+          "text": "Will the clerk please call the roll?"
+        }
+      ]
+    },
+    {
+      "end_sec": 710.144,
+      "id": "016",
+      "slug": "roll-call-vote-on-all-lu-items",
+      "start_sec": 651.304,
+      "summary": "Clerk William Martin conducts a roll call vote on all coupled LU items. Chair Riley, CMs Louis, Brooks-Powers, Cab\u00e1n, Abreu, Oss\u00e9, Salaam, Banks, Zhuang, Encarnaci\u00f3n, Sanchez, Thomas-Henry, and Carr each vote aye.",
+      "title": "Roll call vote on all LU items",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 651.304,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 651.604,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 652.304,
+          "text": "William Martin Committee Clerk, roll call vote committee on land use."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 655.704,
+          "text": "All items are coupled."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 657.604,
+          "text": "Chair Riley."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 659.004,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 660.604,
+          "text": "Lewis."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 661.604,
+          "text": "Aye on all."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 662.104,
+          "text": "Congratulations."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 664.204,
+          "text": "Brooks Powers."
+        },
+        {
+          "speaker": "Selvena Brooks-Powers",
+          "t_sec": 670.304,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 671.304,
+          "text": "Thank you, Councilmember."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 673.204,
+          "text": "Caban."
+        },
+        {
+          "speaker": "Tiffany L. Cab\u00e1n",
+          "t_sec": 674.904,
+          "text": "Aye on all."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 675.904,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 680.304,
+          "text": "Abreu."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 681.004,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 682.704,
+          "text": "Osei."
+        },
+        {
+          "speaker": "Chi A. Oss\u00e9",
+          "t_sec": 684.204,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 685.504,
+          "text": "Salam."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 687.004,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 688.604,
+          "text": "Banks."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 690.104,
+          "text": "I don't know."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 691.704,
+          "text": "Zhuang."
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 693.404,
+          "text": "I."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 695.304,
+          "text": "Encarnacion."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 697.504,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 699.304,
+          "text": "Sanchez."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 703.004,
+          "text": "Thomas Henry."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 704.304,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 706.304,
+          "text": "Car."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 707.504,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 709.744,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 721.044,
+      "id": "017",
+      "slug": "clerk-announces-13-0-vote-all-items-approved",
+      "start_sec": 710.144,
+      "summary": "Clerk announces a vote of 13 in the affirmative, zero in the negative, and no abstentions. All items have been approved by the committee as described by the chair.",
+      "title": "Clerk announces 13-0 vote: all items approved",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 710.144,
+          "text": "With a vote of 13 in the affirmative, zero in the negative, and no abstentions, all items have been approved by the committee as described by the chair."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 716.644,
+          "text": "Mr."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 716.844,
+          "text": "Chair, that is a full committee."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 719.444,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 807.044,
+      "id": "018",
+      "slug": "riley-opens-hearing-on-intro-833-eastern-parkway-building-restrictions",
+      "start_sec": 721.044,
+      "summary": "Riley transitions to the hearing on Intro 833, sponsored by CM Nurse, which addresses outdated restrictions on building locations along portions of Eastern Parkway and Eastern Parkway Extension in Brooklyn between Ralph Avenue and Bushwick Avenue. He explains the 19th-century origins of the 30-foot setback requirement and how Intro 833 proposes removing restrictions except where established development patterns reflects the original intent. He notes DCP submitted written testimony in support.",
+      "title": "Riley opens hearing on Intro 833, Eastern Parkway building restrictions",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 721.044,
+          "text": "Now we will move on to our hearing regarding intro number 833, which, as I mentioned, is sponsored by Councilmember Sandy Nurse and seeks to address outdated restrictions on building locations along portions of Eastern Parkway in Brooklyn."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 736.944,
+          "text": "Today, along portions of Eastern Parkway and Eastern Parkway Extension in Brooklyn between Ralph Avenue to the west and Bushwick Avenue to the east, certain development restrictions resides in the city's administrative code,"
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 750.944,
+          "text": "such that buildings and structures must be set back from the street line at a distance of 30 feet."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 757.544,
+          "text": "The origins of these restrictions date from the 19th century, when parkway planners envisioned deep greenway along either side of the right-of-way."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 767.044,
+          "text": "However, in the decades since its enactment, now compliant development and shifting attitudes and priorities have diluted the rationale for these rules along much of the roadway's length."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 780.244,
+          "text": "Intro 833 proposes a target amendment of the city's administrative code to remove these restrictions, except along limited portions of the street where established development patterns reflect the original intent."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 794.744,
+          "text": "I would like to note that the committee has received written testimony on behalf of the committee."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 798.144,
+          "text": "half of the administration from the Department of City Planning that supports this bill, and we will enter that testimony into record."
+        }
+      ]
+    },
+    {
+      "end_sec": 894.544,
+      "id": "019",
+      "slug": "cm-nurse-speaks-in-support-of-intro-833-for-affordable-housing-and-community-center",
+      "start_sec": 807.044,
+      "summary": "CM Sandy Nurse explains the proposal stems from a BSA variance for an affordable housing project on the corner of Bushwick and Eastern Parkway that includes hundreds of units and a community recreation center. She notes the bill is long delayed, should have passed last year, and urges quick passage. She indicates willingness to remove other council districts from the bill if there is opposition.",
+      "title": "CM Nurse speaks in support of Intro 833 for affordable housing and community center",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 807.044,
+          "text": "At today's hearing, the Council looks forward to hearing feedback from the public relating to the existing restrictions and the proposed amendment."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 814.644,
+          "text": "At this time, before we open it up for the public testimony, I would like to now recognize my colleague, Councilmember Sandy Nurse, for her remarks."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 823.344,
+          "text": "Thank you, Chair, and thank you for hearing this."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 826.344,
+          "text": "Just want to express my full support for this and just give just a minute of context."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 832.044,
+          "text": "This proposal came about because of a BSA variance."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 836.344,
+          "text": "The property on the corner of Bushwick and Eastern Parkway is being turned into hundreds of units of affordable housing."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 845.944,
+          "text": "And it didn't go through a ULURP."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 847.844,
+          "text": "But the developer and the DOHMH have agreed to build a community recreation center for the community as part of this."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 858.144,
+          "text": "And we really need to amend this, do this zoning text amendment so that we can move forward with the project."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 866.944,
+          "text": "I understand that there might, you know, the way this is written includes other council districts."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 874.344,
+          "text": "That's fine."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 875.844,
+          "text": "However, if there is opposition, you know, I would love to remove those districts from this so we can make this happen."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 885.344,
+          "text": "You know, this should have really been passed last year."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 888.644,
+          "text": "This is very long delayed, so I would like to see this move forward."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 892.044,
+          "text": "I'm glad the administrative is supportive."
+        }
+      ]
+    },
+    {
+      "end_sec": 942.056,
+      "id": "020",
+      "slug": "cm-mealy-raises-concerns-requests-her-district-be-carved-out-of-the-bill",
+      "start_sec": 894.544,
+      "summary": "CM Darlene Mealy expresses concern about the bill's impact on her district, noting that giving property owners 30 extra feet could lead to future property tax increases. She requests that her portion of the district be pulled out of the bill, emphasizing that each elected official should have a say in rezoning affecting their area.",
+      "title": "CM Mealy raises concerns, requests her district be carved out of the bill",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 894.544,
+          "text": "And thank you, Chair, for moving this forward."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 897.344,
+          "text": "This is not going to impact property taxes."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 900.444,
+          "text": "This has been confirmed by other agencies."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 902.944,
+          "text": "And so we want to see the housing get built."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 906.244,
+          "text": "This is affordable housing for folks in our community."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 910.044,
+          "text": "Lead to a community center that is much needed in that area."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 916.044,
+          "text": "And they've already started putting resources towards developing it and having community visioning sessions with people from our neighborhood and our surrounding community boards."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 925.044,
+          "text": "So we really, really hope that we can move this along quickly."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 928.944,
+          "text": "Thank you very much."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 932.156,
+          "text": "Thank you, Councilmember Nurse."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 933.956,
+          "text": "I would now like to open it up to my colleagues if anyone wants to testify."
+        }
+      ]
+    },
+    {
+      "end_sec": 971.956,
+      "id": "021",
+      "slug": "riley-opens-public-testimony-on-intro-833",
+      "start_sec": 942.056,
+      "summary": "Riley reminds attendees that the meeting is held in hybrid format, with options to testify in person or via Zoom. He notes written testimony can be emailed to landusetestimony@council.nyc.gov with 'Intro 833' in the subject line, and limits oral testimony to two minutes per witness.",
+      "title": "Riley opens public testimony on Intro 833",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 942.056,
+          "text": "Councilmember Mealy."
+        },
+        {
+          "speaker": "Darlene Mealy",
+          "t_sec": 947.256,
+          "text": "Yes, I would just like to let my colleagues know, yes, this is an outdated text amendment, but"
+        },
+        {
+          "speaker": "Darlene Mealy",
+          "t_sec": 956.056,
+          "text": "If my colleague would like that to happen in her district, that would be fine."
+        },
+        {
+          "speaker": "Darlene Mealy",
+          "t_sec": 960.656,
+          "text": "I just ask, and which I'm asking this body, could they relinquish my part of the district?"
+        },
+        {
+          "speaker": "Darlene Mealy",
+          "t_sec": 967.856,
+          "text": "If you want to see a center, that is good for your district."
+        }
+      ]
+    },
+    {
+      "end_sec": 1270.356,
+      "id": "022",
+      "slug": "christopher-leon-johnson-testifies-in-support-of-intro-833-raises-transit-and-shelter-concerns",
+      "start_sec": 971.956,
+      "summary": "Christopher Leon Johnson, a Brooklyn resident, testifies in support of the bill, noting the need for more housing in the area. He raises concerns about abysmal transportation along Eastern Parkway, calling for a bus line, and mentions the Renaissance men's shelter at Ralph Avenue and Eastern Parkway as a safety issue. He urges CMs Nurse and Mealy to reach a resolution.",
+      "title": "Christopher Leon Johnson testifies in support of Intro 833, raises transit and shelter concerns",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Darlene Mealy",
+          "t_sec": 971.956,
+          "text": "And it should be that each elected official have some kind of say"
+        },
+        {
+          "speaker": "Darlene Mealy",
+          "t_sec": 976.556,
+          "text": "on what's going on or what's rezoning."
+        },
+        {
+          "speaker": "Darlene Mealy",
+          "t_sec": 979.256,
+          "text": "And this tax amendment, anyone in their right mind, if you give someone 30 feet, extra feet on your property, if you think your taxes will not go up later on when it's reassessed, something is wrong with you."
+        },
+        {
+          "speaker": "Darlene Mealy",
+          "t_sec": 993.656,
+          "text": "But I'm just, I would like to get an opportunity to speak to my constituents first, to let them know what is coming down the pike, just because it worked for us."
+        },
+        {
+          "speaker": "Darlene Mealy",
+          "t_sec": 1003.456,
+          "text": "One elected official district, it may not work for another elected official district."
+        },
+        {
+          "speaker": "Darlene Mealy",
+          "t_sec": 1008.556,
+          "text": "I just ask my colleagues to keep that in mind."
+        },
+        {
+          "speaker": "Darlene Mealy",
+          "t_sec": 1011.856,
+          "text": "I would do the same for anyone else in their district."
+        },
+        {
+          "speaker": "Darlene Mealy",
+          "t_sec": 1015.156,
+          "text": "And I would love for this partial of my district to be pulled out of this."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1021.056,
+          "text": "rezoning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1022.056,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 1023.556,
+          "text": "Thank you, Council Member Mealy."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 1025.656,
+          "text": "And before I open up to the public, just want to clarify, this is not a text amendment."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 1029.656,
+          "text": "This is just an amendment to the administrative code."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 1032.656,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 1034.156,
+          "text": "All right."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 1034.556,
+          "text": "So before we begin hearing testimony, I will remind everyone that this meeting is being held in hybrid format and members of the public may view this live stream broadcast of this meeting at the council's website."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 1046.256,
+          "text": "Members of the public who wish to testify may do so either in person or through Zoom."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 1051.656,
+          "text": "Those wishing to testify by Zoom must register online at the New York City Council's website at www.council.nyc.gov slash land use to sign up."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 1062.956,
+          "text": "For those of you here with us in person, please be sure to see one of the sergeant at arms to prepare and submit a speaker's card."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 1070.256,
+          "text": "We will limit public testimony to two minutes per witness."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 1074.156,
+          "text": "If you have additional testimony or if you have written testimony you would like to submit, we ask that you please email it to landusetestimony at council.nyc.gov."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 1085.856,
+          "text": "And please include the phrase Intro 833 in the subject line of your email."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 1091.856,
+          "text": "Lastly, I would like to remind everyone that this is a government proceeding and the quorum must be observed at all times."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 1099.156,
+          "text": "Members of the public are asked not to speak during the meeting unless you are testifying."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 1104.856,
+          "text": "The witness table is reserved for people who are called to testify and no video recording."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 1110.256,
+          "text": "Recording or photography is allowed from the witness table."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 1114.956,
+          "text": "Members of the public may not present audio or video recordings as testimony, but you may submit transcripts of such recordings to the sergeant at arms for inclusion in the public hearing."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 1131.256,
+          "text": "We have one person that came and signed up to testify, Christopher Leon Johnson."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 1143.156,
+          "text": "Ready?"
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 1144.156,
+          "text": "Ready?"
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 1145.256,
+          "text": "Yeah, hello."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 1146.056,
+          "text": "My name is Christopher Leon Johnson."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 1148.556,
+          "text": "I support this provision 100%."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 1150.656,
+          "text": "Let me be on the record that I live at 273 Buffalo Avenue in the 41st Councilman District, which covers Ralph Avenue all the way to Rockway Parkway."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 1159.356,
+          "text": "I think that's the end of my district for Eastern Parkway."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 1162.456,
+          "text": "But I'm going to say this right now that, look,"
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 1165.856,
+          "text": "I think that we need more housing around there."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 1168.656,
+          "text": "But the thing that the councilman doesn't want to address is that the transportation over there is abysmal."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 1177.156,
+          "text": "Where is her saying about that we need a bus line on Eastern Parkway?"
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 1182.356,
+          "text": "I told my Sandy nurse if she really cared about this so much."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 1185.456,
+          "text": "Look, I'll say this right now that if the councilman, my councilman, want to carve it out, I'm not going to be opposed to it."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 1192.656,
+          "text": "I think one of the big issues with that area alone on Ralph Easton Parkway is that shelter, which is called the Renaissance Shelter, which is like a full-blown."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 1200.356,
+          "text": "Men's shelter."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 1202.056,
+          "text": "Look, if this bill goes through, if they want to do a rezoning on Ralph Avenue and Easton Parkway, I think they need to start doing a final way to get rid of that shelter on Ralph and Easton Parkway, which is called a rent-a-shout shelter."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 1216.756,
+          "text": "Going forward,"
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 1218.956,
+          "text": "I hope that Sandy Nurse and my council member, Darlene Mealy, gets to a resolution with this bill at hand."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 1228.356,
+          "text": "Like I said before, if Mealy wanted carved out, I have no problem getting it carved out."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 1233.256,
+          "text": "But Sandy has to find a way to really put upgrades in her district."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 1239.256,
+          "text": "Going to her area, it's like a disaster."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 1241.856,
+          "text": "It's a disaster walking down over there."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 1244.656,
+          "text": "It's really dangerous over there to really walk over there."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 1247.856,
+          "text": "My area is way more safer than her area on Easton Parkway."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 1254.556,
+          "text": "But if she want to push this forward, she need to push more traffic calming on Easton Parkway on her side of the district."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 1261.856,
+          "text": "That's what we have."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 1262.756,
+          "text": "We are having no traffic coming in my district."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 1264.656,
+          "text": "So my area, including Mealy's Park."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 1267.156,
+          "text": "So that's all I got to say."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 1267.956,
+          "text": "Thank you so much for your testimony."
+        },
+        {
+          "speaker": "Member of the Public - Christopher Leon Johnson",
+          "t_sec": 1269.356,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 1310.485,
+      "id": "023",
+      "slug": "riley-closes-hearing-and-adjourns-meeting",
+      "start_sec": 1270.356,
+      "summary": "Riley thanks the public, colleagues, land use staff, and sergeant at arms. Finding no one else willing to testify, he closes the public hearing on Intro 833 and adjourns the meeting.",
+      "title": "Riley closes hearing and adjourns meeting",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 1270.356,
+          "text": "We're going to stand at ease to see if there's anyone else that's willing to testify on this proposal."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 1283.368,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 1284.568,
+          "text": "There being no one else willing to testify, I will now close the public hearing on intro number 833, and this will conclude the committee's business for today."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 1293.868,
+          "text": "I would like to thank the members of the public, my colleagues, land use, and other council staff, and the sergeant at arms for attending today's meeting."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 1300.868,
+          "text": "This meeting is hereby adjourned."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 1302.168,
+          "text": "Thank you."
+        }
+      ]
+    }
+  ],
+  "date": "2026-07-14",
+  "duration_sec": 1310.485,
+  "slug": "2026-07-14-1130-am-committee-on-land-use",
+  "summary": [
+    "Committee on Land Use voted 13-0 to approve all subcommittee items including three LPC landmark designations, multiple rezoning proposals for affordable housing across Queens, Staten Island, Brooklyn, and the Bronx, and several pre-considered LUs for HPD and SCA projects.",
+    "Held a public hearing on Intro 833, which would remove outdated 19th-century building setback restrictions along portions of Eastern Parkway in Brooklyn, with DCP support.",
+    "CM Nurse spoke in support of the bill citing an affordable housing and community recreation center project; CM Mealy raised concerns about property tax impacts and requested her district be carved out; one member of the public testified in support."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE",
+    "LAND_USE"
+  ],
+  "time": "11:30 AM",
+  "title": "Committee on Land Use",
+  "topic": "Restrictions on the location of buildings and other structures on Eastern parkway",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-1_260714-114019/video-web.mp4"
+  }
+}

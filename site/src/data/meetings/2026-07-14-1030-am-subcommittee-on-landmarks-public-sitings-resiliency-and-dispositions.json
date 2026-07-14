@@ -1,0 +1,1703 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 24.4,
+      "id": "001",
+      "slug": "sergeant-calls-meeting-to-order-and-announces-subcommittee",
+      "start_sec": 5.4,
+      "summary": "Roderick Palton opens the hearing of the Subcommittee on Landmarks, Public Sitings, Resiliency and Dispositions, reminds attendees to silence devices and not approach the dais.",
+      "title": "Sergeant calls meeting to order and announces subcommittee",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Roderick Palton",
+          "t_sec": 5.4,
+          "text": "Good morning and welcome to today's New York City Council hearing from the subcommittee on landmarks, public sightings, resiliency, and dispositions."
+        },
+        {
+          "speaker": "Roderick Palton",
+          "t_sec": 13.9,
+          "text": "At this point, I'd like to remind everyone to please silence their electronic devices and at no point is anyone to approach the dais."
+        },
+        {
+          "speaker": "Roderick Palton",
+          "t_sec": 19.9,
+          "text": "Chair, we're ready to begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 48.9,
+      "id": "002",
+      "slug": "acting-chair-hanks-convenes-hearing-and-introduces-members",
+      "start_sec": 24.4,
+      "summary": "Councilmember Kamillah Hanks, acting as chair in place of Chair Marte, welcomes attendees and introduces colleagues Avil\u00e9s, Nurse, Thomas-Henry, Oss\u00e9, and Encarnaci\u00f3n present at the hearing.",
+      "title": "Acting Chair Hanks convenes hearing and introduces members",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 24.4,
+          "text": "Good morning, everyone."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 25.7,
+          "text": "Welcome to the meeting of Subcommittee on Landmarks, Public Sightings, Resiliency, and Dispositions."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 31.1,
+          "text": "I am Councilmember Camila Hanks, Majority Whip, and I am the acting chair, taking Chair Marte's place, and I'll chair this subcommittee."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 40.2,
+          "text": "I am joined today by my colleagues, Councilmember Aviles, Councilmember Nurse, Councilmember Thomas Henry, Councilmember Osei, and Councilmember Encarnacion."
+        }
+      ]
+    },
+    {
+      "end_sec": 137.5,
+      "id": "003",
+      "slug": "hanks-explains-hybrid-format-and-public-testimony-procedures",
+      "start_sec": 48.9,
+      "summary": "Hanks outlines the hybrid meeting format, remote registration via the council website, in-person speaker cards, written testimony submission via email, and rules prohibiting audio/video testimony and recordings from the witness table.",
+      "title": "Hanks explains hybrid format and public testimony procedures",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 48.9,
+          "text": "Before we begin today's agenda, which consists of both hearings and votes, I will remind everyone that this meeting is being held in hybrid format."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 56.6,
+          "text": "For members of the public who wish to testify remotely, we ask that you first register online, and you may do so by visiting www.newyorkcitycouncil.nyc.gov"
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 69.0,
+          "text": "forward slash land use to sign up, and then sign into the Zoom and remain signed on until you have testified."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 76.0,
+          "text": "For anyone here today in person wishing to testify, if you have not already done so, please see one of our sergeants to fill out a speaker's card, and we will call your name at the appropriate time."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 86.0,
+          "text": "For anyone wishing to submit written testimony on the items being heard today, we ask that you..."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 90.0,
+          "text": "you please send it via email to landusetestimony at council.nyc.gov."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 96.3,
+          "text": "Include the land use number and or project name in the subject line of your email."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 101.5,
+          "text": "Video and audio testimony will not be accepted."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 104.5,
+          "text": "I will remind members of the public that this is a government proceeding and the quorum will be observed at all times."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 110.9,
+          "text": "And as such, members of the public shall remain silent unless..."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 115.1,
+          "text": "And until called to testify."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 117.5,
+          "text": "The witness table is reserved for people who wish to testify."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 121.0,
+          "text": "No video recording or photography is allowed from the witness table."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 124.9,
+          "text": "Further, members of the public may not present audio or visual recordings as testimony, but may submit these transcripts of such recordings to the sergeant for including."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 135.8,
+          "text": "In the hearing record."
+        }
+      ]
+    },
+    {
+      "end_sec": 195.2,
+      "id": "004",
+      "slug": "hanks-opens-public-hearing-on-801-seat-curtis-high-school-annex-at-25-wall-street-staten-island",
+      "start_sec": 137.5,
+      "summary": "Hanks opens the pre-considered LU item for an approximately 801-seat high school facility with D75 program at 25 Wall Street in Staten Island, noting the site is a 46,096 sq ft parking lot in Councilmember Hanks' district, and introduces the SCA panel.",
+      "title": "Hanks opens public hearing on 801-seat Curtis High School Annex at 25 Wall Street, Staten Island",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 137.5,
+          "text": "So on today's agenda, we have two hearings followed by several votes, and we will begin the public hearings."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 143.4,
+          "text": "I will now open the public hearing for pre-considered land use item for the application brought by the New York City School Construction Authority for an 108 high school, excuse me, high school seat facility."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 157.0,
+          "text": "And located at 25 Wall Street, Staten Island, in Councilmember Hanks'district, Community School District 31."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 167.3,
+          "text": "The site is approximately 46,096 square feet and is currently being occupied by a paved..."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 176.8,
+          "text": "Parking lot."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 177.8,
+          "text": "Appearing today on this proposal is"
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 180.0,
+          "text": "Jane Martinez-Dowling, Roderick Paulson, Andrea Bender."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 184.1,
+          "text": "Again, those wishing to testify remotely must register online by visiting the council's website, council.nyc forward slash land use."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 192.1,
+          "text": "Panelists, please ensure your microphone is on."
+        }
+      ]
+    },
+    {
+      "end_sec": 250.548,
+      "id": "005",
+      "slug": "affirmation-administered-to-sca-panel",
+      "start_sec": 195.2,
+      "summary": "Council staff administers the affirmation to panelists Roderick Palton, Jane Martinez-Dowling, and Andrea Bender, who affirm to tell the truth.",
+      "title": "Affirmation administered to SCA panel",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 195.2,
+          "text": "Council, would you please administer the affirmation?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 224.6,
+          "text": "Panelists, would you please raise your right hand and state your name for the record?"
+        },
+        {
+          "speaker": "Roderick Palton",
+          "t_sec": 228.548,
+          "text": "Roderick Palton."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 230.148,
+          "text": "Make sure the mic."
+        },
+        {
+          "speaker": "Roderick Palton",
+          "t_sec": 231.448,
+          "text": "Roderick Palton."
+        },
+        {
+          "speaker": "Roderick Palton",
+          "t_sec": 232.248,
+          "text": "There's no one."
+        },
+        {
+          "speaker": "Chi A. Oss\u00e9",
+          "t_sec": 233.448,
+          "text": "Roderick Palton."
+        },
+        {
+          "speaker": "Member of the Public - Jane Martinez Dowling",
+          "t_sec": 236.548,
+          "text": "Jane Martinez Dowling."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 239.348,
+          "text": "Andrea Bender."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 240.348,
+          "text": "And do you affirm to tell the truth, the whole truth, and nothing but the truth in your testimony before this subcommittee and in answer to all council member questions?"
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 247.548,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 247.948,
+          "text": "We do."
+        },
+        {
+          "speaker": "Chi A. Oss\u00e9",
+          "t_sec": 249.548,
+          "text": "You may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 319.288,
+      "id": "006",
+      "slug": "sca-s-bender-presents-site-overview-and-project-purpose-for-curtis-high-school-annex",
+      "start_sec": 250.548,
+      "summary": "Andrea Bender of the NYC School Construction Authority presents the proposed 801-seat high school annex to Curtis High School, describing the site at 25 Wall Street, the current parking lot, and the project's purpose to relieve overcrowding at Curtis, which has a 127% utilization rate.",
+      "title": "SCA's Bender presents site overview and project purpose for Curtis High School Annex",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 250.548,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 251.848,
+          "text": "Good morning, Chair Marte, Councilmember Hanks, and members of the subcommittee."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 256.548,
+          "text": "My name is Andrea Bender, and I am the Vice President of External Affairs at the New York City School Construction Authority."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 263.148,
+          "text": "As we know, I am joined by Dr."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 265.248,
+          "text": "Paulton, Community District 31 Superintendent, and Jane Martinez-Dowling, Chief of the Office of Student Pathways at New York City Public Schools."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 274.448,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 279.18,
+          "text": "I am pleased to present a proposed new approximately 801 seat high school with a D75 program as an annex to Curtis High School at 25 Wall Street between Academy Place and Stuyvesant Place in the St."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 291.98,
+          "text": "George neighborhood of Staten Island."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 294.28,
+          "text": "The site, as Councilmember Hanks noted, is currently occupied by a paved parking lot."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 299.58,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 303.18,
+          "text": "This is the tax map showing the borough block and lot."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 306.68,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 309.38,
+          "text": "And a closer aerial of the current site showing that parking lot."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 314.08,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 318.288,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 421.688,
+      "id": "007",
+      "slug": "bender-details-site-selection-process-public-notices-and-hearings",
+      "start_sec": 319.288,
+      "summary": "Bender walks through the statutory site selection process under Section 1731, publication of notices in fall 2025, and public hearings held by Community Board 1 and the Citywide Council on High Schools, with all comments considered.",
+      "title": "Bender details site selection process, public notices, and hearings",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 319.288,
+          "text": "Pursuant to Section 1731 of the New York State Public Authorities Law, the New York City School Construction Authority has undertaken the site selection process for a new approximately 801-seat high school facility"
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 332.388,
+          "text": "located at 25 Wall Street, Block 10, Lot 1 in the borough of Staten Island."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 337.588,
+          "text": "The site is approximately 46,096 square feet, or a little over an acre."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 343.188,
+          "text": "The site is located within Staten Island Community Board 1 and under the jurisdiction of the citywide council on high schools."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 350.188,
+          "text": "The purpose of the proposed project is to provide additional long-term capacity to relieve overcrowding at Curtis High School."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 357.388,
+          "text": "Curtis High School has a 127% utilization rate and has the largest classroom deficit of any school on Staten Island."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 365.488,
+          "text": "The five-year capital plan for fiscal years 2025 through 2029 allocates capital funding to address existing overcrowding and forecasted changes in student enrollments and to support New York City Public Schools policies regarding class size reduction."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 381.688,
+          "text": "The notice of filing of the site plan was published in the Staten Island Advance on September 30th, 2025,"
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 388.488,
+          "text": "in AM New York on October 1st, 2025, and in the City Record on October 2nd, 2025,"
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 394.588,
+          "text": "at which time Community Education Council No."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 396.988,
+          "text": "31, Staten Island Community Board No."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 399.388,
+          "text": "1, the Citywide Council on High Schools, and the City Planning Commission were notified of the site plan."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 405.188,
+          "text": "Community Board 1."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 405.888,
+          "text": "One held a public hearing on October 7th, 2025, and the citywide council on high schools held a public hearing on October 22nd, 2025."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 414.988,
+          "text": "All public comments received on this site were considered as part of the site selection process."
+        }
+      ]
+    },
+    {
+      "end_sec": 553.076,
+      "id": "008",
+      "slug": "bender-shows-site-photos-and-describes-anticipated-annex-facilities-and-nursing-program-expansio",
+      "start_sec": 421.688,
+      "summary": "Bender presents photos of the existing site, describes anticipated facilities including classrooms, D75 rooms, gymatorium, library, play yard, and a planned expansion of Curtis's nursing program by up to 100 seats, with opening anticipated in 2031.",
+      "title": "Bender shows site photos and describes anticipated annex facilities and nursing program expansion",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 421.688,
+          "text": "Now I'm going to take you through a couple of slides of images of the site in its current condition."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 426.288,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 431.288,
+          "text": "So here are some views of the site facing northeast from the intersection of Wall and Stuyvesant."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 438.588,
+          "text": "It's a little bit, it looks like there's a little bit of an elevation change here."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 441.888,
+          "text": "So the site is sort of above that fence line."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 444.888,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 449.272,
+          "text": "And here are some more views of the site in its existing condition facing east on Wall Street."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 458.572,
+          "text": "The SCA affirms the site plan pursuant to Section 1731 of the New York State Public Authorities Law."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 465.372,
+          "text": "In accordance with Section 1732 of the Public Authorities Law, the SCA submitted the proposed site plan to the Mayor and City Council by letter dated July 13, 2026."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 476.372,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 481.596,
+          "text": "Should SCA receive approval to acquire the property, the Curtis High School Annex will be constructed and is anticipated to open in 2031."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 490.196,
+          "text": "The school is anticipated to include classrooms to serve approximately 801 high school students,"
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 496.396,
+          "text": "in addition to special education classrooms, District 75 classrooms, a speech resource room, a music room, an art room, a kitchen cafeteria,"
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 505.696,
+          "text": "library, gymatorium, guidance and medical suites, as well as general administrative and support spaces."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 512.196,
+          "text": "It is also anticipated to include the creation of an at-grade play yard."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 517.296,
+          "text": "In addition, New York City Public Schools has separately committed to an expansion of the highly successful nursing program that the school currently offers by up to 100 seats beginning when the new capacity is ready for occupancy."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 529.896,
+          "text": "The nursing program has historically had high demand with over 150 applicants this year for approximately 90 seats."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 537.996,
+          "text": "Last slide, please."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 543.276,
+          "text": "Next."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 544.276,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 545.076,
+          "text": "We look forward to the subcommittee's favorable consideration of the proposed site plan and would be pleased to answer any questions from the committee."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 551.876,
+          "text": "Thank you so much."
+        }
+      ]
+    },
+    {
+      "end_sec": 626.256,
+      "id": "009",
+      "slug": "chair-marte-questions-sca-on-class-size-reduction-plan-alignment",
+      "start_sec": 553.076,
+      "summary": "Marte asks how the proposed school aligns with the 2022 class size reduction law. Bender and Dr. Palton explain the annex will spread Curtis's existing population across two buildings to relieve overcrowding and address 28 overcrowded classrooms.",
+      "title": "Chair Marte questions SCA on class size reduction plan alignment",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 553.076,
+          "text": "Thank you for that."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 553.776,
+          "text": "I have a few questions."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 555.476,
+          "text": "In September 2022, Governor Hochul enacted Chapter 556 of the Laws of 2022, which requires New York City school districts to create a five-year class I reduction plan for all New York City K-12"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 568.876,
+          "text": "community districts and high school."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 570.876,
+          "text": "How does this proposed school align with that plan and how will it contribute to meeting the city's class I reduction requirements?"
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 579.476,
+          "text": "Thank you so much, Chair, for that question."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 581.676,
+          "text": "I'll start and then I'll let Dr."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 583.476,
+          "text": "Paltin expound if he would like to."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 585.776,
+          "text": "So the purpose of this annex is really, as I said, to relieve the overcrowded conditions that are currently existing at Curtis High School."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 592.776,
+          "text": "So this 801-seat annex will really take the existing population of Curtis High School and spread it over two buildings to relieve class size pressures that are currently on the existing high school space."
+        },
+        {
+          "speaker": "Roderick Palton",
+          "t_sec": 608.856,
+          "text": "I think you covered it really well."
+        },
+        {
+          "speaker": "Roderick Palton",
+          "t_sec": 612.256,
+          "text": "This building will definitely address the 28 overcrowded classrooms that we have at Curtis, as well as create opportunities for our students by expanding the nursing program in the school."
+        }
+      ]
+    },
+    {
+      "end_sec": 681.756,
+      "id": "010",
+      "slug": "marte-questions-sca-on-student-travel-distance-and-transportation",
+      "start_sec": 626.256,
+      "summary": "Marte asks about average student travel distance and transportation impacts. Palton notes the site is about three walking blocks from the main Curtis building; Bender adds the building will be fully accessible and SCA works with DOT on safe drop-off and busing.",
+      "title": "Marte questions SCA on student travel distance and transportation",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 626.256,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 627.356,
+          "text": "What's the average distance students will have to travel to attend this school?"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 631.056,
+          "text": "How would it impact transportation needs and accessibility?"
+        },
+        {
+          "speaker": "Roderick Palton",
+          "t_sec": 637.256,
+          "text": "So I've walked."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 639.656,
+          "text": "I can't."
+        },
+        {
+          "speaker": "Roderick Palton",
+          "t_sec": 642.356,
+          "text": "In fact, we were there a couple weeks ago."
+        },
+        {
+          "speaker": "Roderick Palton",
+          "t_sec": 644.656,
+          "text": "It's pretty close."
+        },
+        {
+          "speaker": "Roderick Palton",
+          "t_sec": 646.056,
+          "text": "It's about three walking blocks from the main building, so it's very walkable."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 652.956,
+          "text": "And just to add, to answer your questions about accessibility, although I don't think this is exactly what you're asking, the building will, of course, be fully accessible."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 661.956,
+          "text": "As far as transportation, when we design any new building, we're working closely with the Office of Pupil Transport and New York City Department of Transportation to ensure safe drop-off, safe busing, safe arrival and dismissal procedures for parents."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 675.056,
+          "text": "So that's something that we work very closely with New York City Public Schools and DOT on."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 680.256,
+          "text": "Great."
+        }
+      ]
+    },
+    {
+      "end_sec": 882.856,
+      "id": "011",
+      "slug": "councilmember-hanks-delivers-statement-in-strong-support-of-curtis-high-school-annex",
+      "start_sec": 681.756,
+      "summary": "Hanks gives an extended statement supporting the project, emphasizing overcrowding relief, expansion of the nursing program as a healthcare workforce pipeline, acknowledgment of density and parking concerns, and thanks to SCA, planning staff, and her interns.",
+      "title": "Councilmember Hanks delivers statement in strong support of Curtis High School Annex",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 681.756,
+          "text": "I would like now to recognize Councilmember Haynes, who has some questions."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 687.456,
+          "text": "I would like to give a statement."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 689.056,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 689.556,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 689.856,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 693.556,
+          "text": "Every student on Staten Island deserves to access."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 696.256,
+          "text": "access to high quality education and in a learning environment that's equipped to meet their needs."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 702.256,
+          "text": "And that's why I strongly support this proposed expansion of Curtis High School at 25 Wall Street, which will address longstanding overcrowding while creating new opportunities for generations of students."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 713.256,
+          "text": "We also need to be honest about the future of this property."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 715.956,
+          "text": "The privately owned site at 25 Wall Street will not remain a parking lot forever."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 721.356,
+          "text": "The question is whether the city will act now to ensure this development has a lasting public benefit."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 727.956,
+          "text": "With Curtis High School already in urgent need of additional space, we cannot afford to let this opportunity pass."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 734.556,
+          "text": "Curtis has a proud history of academic achievement, innovation, and its nursing program has become one of the school's greatest assets and one of the greatest programs on the Eastern Seaboard."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 744.456,
+          "text": "At the time that our city is facing a growing need for nurses and other healthcare professionals, expanding this program gives students a direct pathway to these careers is both a smart educational investment"
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 757.656,
+          "text": "and a workforce necessity."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 760.456,
+          "text": "This expansion will allow more students to access the nursing program while giving Curtis space and resources needed to support student success."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 768.156,
+          "text": "And I have worked closely with the New York City Public Schools to secure a commitment that the program will be expanded and properly supported and positioned to thrive in this new building."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 781.456,
+          "text": "And I understand the concerns surrounding density, neighborhood impacts, and the potential loss."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 786.456,
+          "text": "of parking."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 787.256,
+          "text": "And these concerns are real and will be and must be addressed with serious planning and meaningful mitigation."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 793.756,
+          "text": "But Staten Islanders deserve a clear answers on traffic, infrastructure, parking, and quality of life as this project moves forward."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 803.556,
+          "text": "But we cannot lose track of what's at stake here."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 806.956,
+          "text": "Curtis High School is overcrowded today."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 809.156,
+          "text": "And the young people across Staten Island who are looking for real pathways into strong, in-demand careers today."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 816.756,
+          "text": "The choice is not between addressing community concerns and investing in our students."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 822.156,
+          "text": "We must do both."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 824.256,
+          "text": "At 25 Wall Street, we have the opportunity to relieve overcrowding, expand a proven nursing program, and create a direct pipeline into healthcare careers our borough depends on."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 835.856,
+          "text": "This is not simply an investment in a building."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 838.456,
+          "text": "It is investment in Staten Island students, its workforce, and its future."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 842.956,
+          "text": "And that is why I'm proud to support this project, and I hope my colleagues will also support this project."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 848.056,
+          "text": "I'd like to thank the Planning and Land Use Division."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 850.956,
+          "text": "Thanks to Amoy Barnes, the Senior Executive Director of Intergovernmental Affairs, Andrea Bender."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 856.856,
+          "text": "SCA VP External Affairs, and Dr."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 859.656,
+          "text": "Roderick Pouton, the Staten Island District 31 Superintendent."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 864.756,
+          "text": "And I want to give a shout out to my new interns who are here, and Ms."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 867.756,
+          "text": "Livvy Joy and Chase from Staten Island."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 870.756,
+          "text": "And thank you, Chair, for the indulgence."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 875.556,
+          "text": "Of course."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 877.256,
+          "text": "Does anyone else have any remarks or questions?"
+        }
+      ]
+    },
+    {
+      "end_sec": 939.348,
+      "id": "012",
+      "slug": "councilmember-encarnaci-n-asks-sca-about-capital-needs-at-existing-curtis-building",
+      "start_sec": 882.856,
+      "summary": "Encarnaci\u00f3n asks whether capital needs of the existing Curtis building will be addressed through the new build. Bender explains SCA typically inventories existing building needs and would address them after the new building opens to minimize disruption.",
+      "title": "Councilmember Encarnaci\u00f3n asks SCA about capital needs at existing Curtis building",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 882.856,
+          "text": "Sorry, just curious."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 884.756,
+          "text": "Are there any capital needs of the current school building that are being addressed through the new build or packaged alongside?"
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 891.656,
+          "text": "You're going to have a brand new building for some of the students."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 894.356,
+          "text": "So I'm just curious if the old building has any capital needs that would be addressed through this."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 900.956,
+          "text": "So I'll try to take this one."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 902.756,
+          "text": "So this will be a ground-up new building."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 905.656,
+          "text": "Our construction will focus on the new building."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 908.956,
+          "text": "When we build an annex or an addition at an existing school campus, we often do an inventory of what's in the existing building to see if there's anything that needs to be done as part of that upgrade."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 921.656,
+          "text": "If that is the case and if there is funding to do so, we would do that most likely after the new building opens so that we're minimizing construction impact on the school."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 932.156,
+          "text": "That's something that we will look forward to undertaking with the principal and with Dr."
+        },
+        {
+          "speaker": "Member of the Public - Andrea Bender",
+          "t_sec": 935.956,
+          "text": "Paltin."
+        }
+      ]
+    },
+    {
+      "end_sec": 1007.22,
+      "id": "013",
+      "slug": "hanks-questions-sca-on-principal-s-support-and-nursing-program-investments",
+      "start_sec": 939.348,
+      "summary": "Hanks asks whether the Curtis principal supports the expansion and whether SCA will commit programmatic resources to the nursing program. Palton confirms the principal is supportive and commits to adding 100 nursing seats by the annex's opening, growing from 345 to 445 students.",
+      "title": "Hanks questions SCA on principal's support and nursing program investments",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 939.348,
+          "text": "I'd like to recognize Councilmember Hanks again."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 942.748,
+          "text": "Thank you so much, Chair."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 944.348,
+          "text": "This is for SCA."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 950.048,
+          "text": "Is the principal of Curtis High School supportive of this expansion at this site?"
+        },
+        {
+          "speaker": "Roderick Palton",
+          "t_sec": 955.748,
+          "text": "As far as I know."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 959.048,
+          "text": "I'll take that as a yes."
+        },
+        {
+          "speaker": "Roderick Palton",
+          "t_sec": 960.948,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Roderick Palton",
+          "t_sec": 961.948,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Roderick Palton",
+          "t_sec": 962.348,
+          "text": "Him and I have had extensive conversations around it."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 965.048,
+          "text": "That's excellent."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 965.748,
+          "text": "Thank you so much."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 968.748,
+          "text": "So we understand that there's a high demand for a nursing program at Curtis."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 972.248,
+          "text": "Is that right?"
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 974.848,
+          "text": "Are you able to commit, which you've already done, providing the necessary programmatic resources to ensure the nursing program continues to thrive at this new facility?"
+        },
+        {
+          "speaker": "Roderick Palton",
+          "t_sec": 984.148,
+          "text": "Yes, we are."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 985.548,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 986.048,
+          "text": "And please describe the specific investments to ensure this program's continued success."
+        },
+        {
+          "speaker": "Roderick Palton",
+          "t_sec": 991.948,
+          "text": "We currently have 345 students in the nursing program, and we are committing to add an additional 100 students by the time of the annexes opening."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 1002.748,
+          "text": "Thank you so much."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 1003.548,
+          "text": "That is all, Chair."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1006.82,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 1055.212,
+      "id": "014",
+      "slug": "sca-panel-excused-no-public-testimony-on-curtis-high-school-annex",
+      "start_sec": 1007.22,
+      "summary": "Marte excuses the SCA panel. Counsel reports no public sign-ups, and Marte closes the public hearing on the 801-seat high school facility at 25 Wall Street, Staten Island.",
+      "title": "SCA panel excused; no public testimony on Curtis High School Annex",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1007.22,
+          "text": "This applicant panel is now excused."
+        },
+        {
+          "speaker": "Member of the Public",
+          "t_sec": 1010.02,
+          "text": "Thank you so much."
+        },
+        {
+          "speaker": "Member of the Public",
+          "t_sec": 1010.62,
+          "text": "Thank you very much."
+        },
+        {
+          "speaker": "Member of the Public",
+          "t_sec": 1012.02,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1013.82,
+          "text": "Counsel, are there any members of the public who wish to testify on this item?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1018.72,
+          "text": "We do not have any sign-ups."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1024.22,
+          "text": "If there are any remote public participants who wish to testify and have not already done so, please press the raise hand button now."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1032.32,
+          "text": "And if you are here with us in person, please see one of the sergeant of arms to first fill out a speaker card."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1041.512,
+          "text": "There being no other members of the public who wish to testify regarding pre-consider L.U."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1046.012,
+          "text": "For an 801 seat high school facility at 25 Wall Street, Staten Island, the public hearing is now closed."
+        }
+      ]
+    },
+    {
+      "end_sec": 1127.96,
+      "id": "015",
+      "slug": "marte-opens-public-hearing-on-east-harlem-el-barrio-article-xi-amendment",
+      "start_sec": 1055.212,
+      "summary": "Marte opens the pre-considered LU item for HPD's amendment to Resolution 946 (2019) for the East Harlem/El Barrio CLT project, changing commercial spaces to community facility spaces across four buildings in Council Districts 8 and 9, and introduces the HPD panel.",
+      "title": "Marte opens public hearing on East Harlem/El Barrio Article XI Amendment",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1055.212,
+          "text": "I now open a public hearing for the pre-consider L.U."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1057.912,
+          "text": "Item for an application brought by New York City Housing Preservation and Development for East Harlem, El Barrio, Article 11 Amendment, an amendment to a prior resolution, Resolution No."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1069.812,
+          "text": "946, approved in 2019 for an Article 11 tax exemption pursuant to the Section 577 of the Private Housing Finance Law."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1080.112,
+          "text": "While the original project required the rehabilitation of approximately 36 rental units and two commercial spaces and one community facility space,"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1089.212,
+          "text": "the amendment version would include three community facility spaces instead of the mix of commercial and community spaces."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1096.412,
+          "text": "Otherwise, the amended project is the same as the original project."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1099.812,
+          "text": "The project is located in Councilmember Encarnaci\u00f3n and Councilmember Salam's district in Harlem."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1106.512,
+          "text": "Appearing today on this proposal is Justin Dolan, Anna Driscoll, and Ariel Rawlings."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1117.36,
+          "text": "Those wishing to testify remotely must register online by visiting the council website at council.nyc.gov slash land use."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1125.36,
+          "text": "Panelists, please ensure your microphones are on."
+        }
+      ]
+    },
+    {
+      "end_sec": 1151.224,
+      "id": "016",
+      "slug": "affirmation-administered-to-hpd-panel",
+      "start_sec": 1127.96,
+      "summary": "Council staff administers the affirmation to HPD panelists Justin Dolan, Anna Driscoll, and Ariel Rawlings, who affirm to tell the truth.",
+      "title": "Affirmation administered to HPD panel",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1127.96,
+          "text": "Council, will you please administer the affirmation?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1131.26,
+          "text": "Panelists, would you please raise your right hand and state your name for the record?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1134.96,
+          "text": "Justin Domlin."
+        },
+        {
+          "speaker": "Member of the Public",
+          "t_sec": 1136.46,
+          "text": "Anna Driscoll."
+        },
+        {
+          "speaker": "Member of the Public",
+          "t_sec": 1137.86,
+          "text": "Ariel Rawlings."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1139.16,
+          "text": "Do you affirm to tell the truth, the whole truth, and nothing but the truth in your testimony before this subcommittee and in answer to all council member questions?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1146.66,
+          "text": "I do."
+        },
+        {
+          "speaker": "Member of the Public",
+          "t_sec": 1147.26,
+          "text": "Yes."
+        }
+      ]
+    },
+    {
+      "end_sec": 1233.18,
+      "id": "017",
+      "slug": "hpd-presents-east-harlem-el-barrio-article-xi-amendment-request",
+      "start_sec": 1151.224,
+      "summary": "An HPD representative describes the four-building CLT cluster in East Harlem, explaining the request to convert two commercial spaces at 53 East 110th Street and 201 East 120th Street into community facility spaces and include them in the Article XI tax exemption area, with 38 rental units and three community facility spaces otherwise unchanged from the original project.",
+      "title": "HPD presents East Harlem/El Barrio Article XI amendment request",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public",
+          "t_sec": 1151.224,
+          "text": "So in reference, as the chair mentioned, to a previously approved project by the council on June 13th of 2019 for the East Haro Melbario CLT cluster, HPD is seeking to amend the original project."
+        },
+        {
+          "speaker": "Member of the Public",
+          "t_sec": 1165.024,
+          "text": "So the project area consists of four buildings, which are on the map behind me."
+        },
+        {
+          "speaker": "Member of the Public",
+          "t_sec": 1169.624,
+          "text": "So that is 53 East 110th Street."
+        },
+        {
+          "speaker": "Member of the Public",
+          "t_sec": 1173.624,
+          "text": "304 East 126th Street, 201 East 120th Street, and 204 West 121st Street, located in Council Districts 8 and 9."
+        },
+        {
+          "speaker": "Member of the Public",
+          "t_sec": 1186.824,
+          "text": "Two of these buildings contained areas which were previously designated as commercial space."
+        },
+        {
+          "speaker": "Member of the Public",
+          "t_sec": 1192.024,
+          "text": "These were 53 East 110th Street and 201 East 120th Street."
+        },
+        {
+          "speaker": "Member of the Public",
+          "t_sec": 1198.024,
+          "text": "HPD is requesting that the original project be amended to establish the area's currently designated commercial space to transition to community facility space"
+        },
+        {
+          "speaker": "Member of the Public",
+          "t_sec": 1207.324,
+          "text": "and to include these spaces as part of the exemption area to exempt them from real property taxation pursuant to Section 577 of the Private Housing Finance Law."
+        },
+        {
+          "speaker": "Member of the Public",
+          "t_sec": 1217.024,
+          "text": "So the amended project includes approximately 38 rental units and a total of three community facility spaces, but is otherwise the same as the original project."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1230.38,
+          "text": "You're done?"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1230.98,
+          "text": "Yeah."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1231.28,
+          "text": "Okay, awesome."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1232.08,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 1255.28,
+      "id": "018",
+      "slug": "councilmember-encarnaci-n-expresses-support-for-east-harlem-el-barrio-amendment",
+      "start_sec": 1233.18,
+      "summary": "Encarnaci\u00f3n states she has no questions and supports the change, having confirmed with HPD that the space remains viable for the Community Land Trust.",
+      "title": "Councilmember Encarnaci\u00f3n expresses support for East Harlem/El Barrio amendment",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1233.18,
+          "text": "I would like to now recognize Councilmember Encarnacion, who has some questions."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 1238.28,
+          "text": "I don't have questions."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 1239.98,
+          "text": "I am in support of the change."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 1242.08,
+          "text": "I've asked my questions to HPD in regards to making sure that it was still a viable space for the CLT."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 1250.58,
+          "text": "It is, so I'm good to go on this one."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 1252.98,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1254.38,
+          "text": "Awesome."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1254.78,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 1300.984,
+      "id": "019",
+      "slug": "hpd-panel-excused-no-public-testimony-on-east-harlem-el-barrio-amendment",
+      "start_sec": 1255.28,
+      "summary": "Marte excuses the HPD panel. With no public sign-ups, Marte closes the public hearing on the East Harlem/El Barrio Article XI amendment.",
+      "title": "HPD panel excused; no public testimony on East Harlem/El Barrio amendment",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1255.28,
+          "text": "Any other council members have any questions or remarks?"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1258.98,
+          "text": "All right."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1259.78,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1260.18,
+          "text": "This applicant panel is now excused."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1264.884,
+          "text": "Counselor, are there any members of the public who wish to testify on this item?"
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 1268.684,
+          "text": "No."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1272.484,
+          "text": "If there are any remote public participants who wish to testify and have not already done so, please press the raise hand button now."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1280.584,
+          "text": "And if you're here with us in person, please see one of the sergeant arms to first fill out a speaker card."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1289.584,
+          "text": "There being no other members of the public who wish to testify regarding pre-consider L.U."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1293.684,
+          "text": "For East Harlem, El Barrio, Article 11 Amendment, the public hearing is now closed."
+        }
+      ]
+    },
+    {
+      "end_sec": 1390.692,
+      "id": "020",
+      "slug": "marte-outlines-the-slate-of-votes-to-be-taken",
+      "start_sec": 1300.984,
+      "summary": "Marte announces the subcommittee will vote on the Curtis High School Annex, three LPC landmark designations (PS 15 Annex, Church of St. Mary's, Lithuanian Alliance Building), the 511 West 171st Street ANCP Cluster UDAAP and Article XI tax exemption, and the East Harlem/El Barrio Article XI amendment.",
+      "title": "Marte outlines the slate of votes to be taken",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1300.984,
+          "text": "We will now hold votes."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1302.884,
+          "text": "Today we're holding a vote to approve the pre-considered LU for an 801-seat high school facility at 25 Wall Street, Staten Island."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1311.684,
+          "text": "We will also vote to approve three applications by the Landmark Preservation Commission for designating three individual landmarks."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1319.984,
+          "text": "LU 91 for the landmarking of PS 15 Annex in Councilmember Ressler's District in downtown Brooklyn."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1327.384,
+          "text": "LU 92 for the landmarking of the Church of St."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1330.184,
+          "text": "Mary's in my district on the Lower East Side of Manhattan."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1333.984,
+          "text": "LU 93 for the landmarking of the Lithuanian Alliance in Councilmember Wilson's District in the Chelsea neighborhood of Manhattan."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1342.084,
+          "text": "We will also vote to approve pre-considered LU for the 511 West 171st Street Cluster, an application by HPD."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1352.384,
+          "text": "For the designation of an urban development action area project."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1357.684,
+          "text": "And approval of the 40-year Article 11 tax exemption to facilitate the rehabilitation of three buildings with 50 units in the Washington Heights neighborhood of Manhattan and Councilmember De La Rosa's district."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1371.284,
+          "text": "Finally, we will vote to approve the pre-considered application for the East Harlem El Barrio Article 11 amendment in Councilmembers Encarnacion and Salam's district in Manhattan."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1386.492,
+          "text": "Are there any council members that want to say a statement or remarks?"
+        }
+      ]
+    },
+    {
+      "end_sec": 1444.832,
+      "id": "021",
+      "slug": "marte-reads-statement-from-councilmember-de-la-rosa-supporting-511-west-171st-street-cluster",
+      "start_sec": 1390.692,
+      "summary": "Marte reads a statement on behalf of Councilmember De La Rosa expressing pride in supporting the renovations and cooperative conversion of the 511 West 171st Street Cluster, highlighting preservation of affordability, homeownership opportunities for working families, and generational wealth building.",
+      "title": "Marte reads statement from Councilmember De La Rosa supporting 511 West 171st Street Cluster",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1390.692,
+          "text": "I would like to read this statement on behalf of Councilmember De La Rosa."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1393.992,
+          "text": "I'm proud to support the renovations and cooperative conversion of the 511 West 171st Street Cluster."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1401.992,
+          "text": "This project is an important investment in the future of northern Manhattan because it preserves affordability while creating meaningful opportunities for home ownership for working families."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1411.892,
+          "text": "It protects existing residents, opens the door for new first-time homeowners, and ensures these buildings remain well-maintained and financially sustainable for years to come."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1422.392,
+          "text": "Expanding access to affordable homeownership is one of the most effective ways we can help families build stability and generational wealth."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1430.092,
+          "text": "And I am pleased to support a project that reflects those values."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1437.432,
+          "text": "Great."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1437.832,
+          "text": "Well, now I call for a vote to approve these items I have described."
+        }
+      ]
+    },
+    {
+      "end_sec": 1463.932,
+      "id": "022",
+      "slug": "roll-call-vote-on-all-agenda-items",
+      "start_sec": 1444.832,
+      "summary": "Council staff conducts a roll call vote. Marte, Avil\u00e9s, Hanks, Thomas-Henry, and Oss\u00e9 vote aye on all items; Nurse's vote is not audibly recorded in the transcript.",
+      "title": "Roll call vote on all agenda items",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1444.832,
+          "text": "Councilmember Marte?"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1446.332,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1448.532,
+          "text": "Councilmember Aviles?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1450.532,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1451.832,
+          "text": "Councilmember Hanks?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1453.932,
+          "text": "Aye on all."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1455.432,
+          "text": "Councilmember Nurse?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1458.132,
+          "text": "Councilmember Thomas Henry?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1459.732,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1460.632,
+          "text": "Councilmember Osei?"
+        },
+        {
+          "speaker": "Chi A. Oss\u00e9",
+          "t_sec": 1461.732,
+          "text": "I vote aye on all."
+        }
+      ]
+    },
+    {
+      "end_sec": 1496.0,
+      "id": "023",
+      "slug": "items-adopted-6-0-and-referred-to-full-land-use-committee-meeting-adjourned",
+      "start_sec": 1463.932,
+      "summary": "Council staff announces the items are adopted by a vote of six in the affirmative, zero negative, zero abstentions, and referred to the full Land Use Committee. Marte thanks participants and adjourns the meeting.",
+      "title": "Items adopted 6-0 and referred to full Land Use Committee; meeting adjourned",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1463.932,
+          "text": "By a vote of six in the affirmative, zero in the negative, and zero abstentions, the items are adopted and referred to the full Land Use Committee."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1471.832,
+          "text": "That concludes today's business."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1473.232,
+          "text": "I would like to thank the members of the public, my colleagues, subcommittee council, land use staff, and the sergeant at arms for your participation today."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1480.432,
+          "text": "This meeting is hereby adjourned."
+        }
+      ]
+    }
+  ],
+  "date": "2026-07-14",
+  "duration_sec": 1496.0,
+  "slug": "2026-07-14-1030-am-subcommittee-on-landmarks-public-sitings-resiliency-and-dispositions",
+  "summary": [
+    "The Subcommittee on Landmarks, Public Sitings, Resiliency and Dispositions held a hybrid hearing on two pre-considered land use items: an 801-seat Curtis High School Annex at 25 Wall Street in Staten Island, and an Article XI amendment for the East Harlem/El Barrio CLT cluster.",
+    "SCA and HPD presented their respective projects; Councilmember Hanks strongly supported the Curtis annex citing overcrowding relief and nursing program expansion, while Councilmember Encarnaci\u00f3n supported the East Harlem amendment.",
+    "The subcommittee voted 6-0 to approve all items\u2014including the two pre-considered LUs and three landmark designations (PS 15 Annex, Church of St. Mary's, Lithuanian Alliance Building)\u2014and referred them to the full Land Use Committee."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE",
+    "LAND_USE"
+  ],
+  "time": "10:30 AM",
+  "title": "Subcommittee on Landmarks, Public Sitings, Resiliency and Dispositions",
+  "topic": "Landmarks, Public School 15 Annex, Brooklyn (N 260340 HIK)",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-1_260714-104030/video-web.mp4"
+  }
+}
