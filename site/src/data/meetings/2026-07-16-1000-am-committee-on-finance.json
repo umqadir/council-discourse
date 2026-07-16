@@ -1,0 +1,724 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 7.1,
+      "id": "001",
+      "slug": "staff-housekeeping-announcements-before-hearing",
+      "start_sec": 0.3,
+      "summary": "Committee staff instruct attendees to silence cell phones and electronic devices and reminds them not to approach the dais.",
+      "title": "Staff housekeeping announcements before hearing",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 0.3,
+          "text": "Please sign all cell phone electronic devices."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 2.7,
+          "text": "Moving forward, no one is to approach the days."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 5.2,
+          "text": "Chair Lee, we are ready to begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 36.3,
+      "id": "002",
+      "slug": "chair-lee-opens-hearing-and-recognizes-committee-members",
+      "start_sec": 7.1,
+      "summary": "Chair Linda Lee opens the hearing, introduces herself as Finance Committee Chair, and recognizes the committee members present in person and online, including Gennaro and Brooks-Powers.",
+      "title": "Chair Lee opens hearing and recognizes committee members",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 7.1,
+          "text": "Great."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 8.5,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 9.3,
+          "text": "Councilmember Linda Lee here, Chair of the Committee on Finance."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 12.3,
+          "text": "I'd like to recognize my fellow committee members, Councilmembers Aldabel, Majority Leader Abreu, Councilmember Marte, Councilmember Marano, Councilmember Narcisse, Councilmember Maloney, Deputy Speaker Williams,"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 23.9,
+          "text": "Councilmember Hudson, Councilmember Wong, and we also have Councilmember Gennaro online, I believe, as well as Councilmember Brooks-Powers."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 33.0,
+          "text": "I think that's it, right?"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 34.7,
+          "text": "Okay, perfect."
+        }
+      ]
+    },
+    {
+      "end_sec": 66.6,
+      "id": "003",
+      "slug": "lee-outlines-agenda-expense-budget-designations-and-ubt-tax-credit-decrease",
+      "start_sec": 36.3,
+      "summary": "Lee explains the committee will vote on preconsidered transparency resolutions for expense budget funding designations and a preconsidered resolution decreasing the credit against the city personal income tax for residents' share of the city unincorporated business tax (UBT).",
+      "title": "Lee outlines agenda: expense budget designations and UBT tax credit decrease",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 36.3,
+          "text": "At today's hearing, the committee will consider and vote on the following items."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 39.4,
+          "text": "Pre-consider transparency resolutions sponsored by me to approve the new designation and changes in the designation of certain organizations"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 46.9,
+          "text": "to receive funding in the expense budget, and one pre-considered resolution in relation to decreasing the credit against the city personal income tax on residents for such residents'share"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 57.0,
+          "text": "of city unincorporated business tax paid by partnerships in which such residents are partners or businesses of which such residents are proprietors."
+        }
+      ]
+    },
+    {
+      "end_sec": 78.0,
+      "id": "004",
+      "slug": "lee-calls-for-comments-and-initiates-roll-call-vote",
+      "start_sec": 66.6,
+      "summary": "Lee asks if any members have comments, notes Brooks-Powers is present in person, and then asks the clerk to call the roll.",
+      "title": "Lee calls for comments and initiates roll call vote",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 66.6,
+          "text": "Does anyone have any comments they'd like to make?"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 68.6,
+          "text": "Oh, Selvina Brooks-Powers is here in person."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 70.9,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 73.2,
+          "text": "If no, thank you, and I will ask the clerk to call the roll."
+        }
+      ]
+    },
+    {
+      "end_sec": 144.112,
+      "id": "005",
+      "slug": "roll-call-begins-initial-member-votes-on-coupled-agenda-items",
+      "start_sec": 78.0,
+      "summary": "Committee Clerk Matthew DiStefano begins the roll call with all items coupled. Chair Lee and several members vote aye, with some members not yet present or responding.",
+      "title": "Roll call begins: initial member votes on coupled agenda items",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 78.0,
+          "text": "Matthew DiStefano, committee clerk, committee on finance for all cold vote."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 82.1,
+          "text": "All items are coupled."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 84.6,
+          "text": "Chair Lee."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 85.3,
+          "text": "Aye and all."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 88.36,
+          "text": "Gennaro."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 92.76,
+          "text": "We'll come back."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 94.36,
+          "text": "Brooks Powers."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 96.66,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 98.56,
+          "text": "Feliz."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 103.56,
+          "text": "Abreu."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 106.66,
+          "text": "Aviles."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 109.66,
+          "text": "Hudson."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 111.16,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 113.16,
+          "text": "Marte."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 114.36,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 116.06,
+          "text": "Mealy."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 119.512,
+          "text": "Narcisse."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 121.112,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 123.112,
+          "text": "Wrestler."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 126.412,
+          "text": "Williams."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 128.712,
+          "text": "How about I?"
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 130.312,
+          "text": "Aldebar."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 135.112,
+          "text": "Maloney."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 137.012,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 138.512,
+          "text": "Sanchez."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 142.312,
+          "text": "Wong."
+        }
+      ]
+    },
+    {
+      "end_sec": 163.228,
+      "id": "006",
+      "slug": "council-member-wong-votes-aye-on-all-except-ubt-tax-credit-item",
+      "start_sec": 144.112,
+      "summary": "Council Member Phil Wong asks to confirm whether item 2214 is the UBT tax credit decrease, then votes aye on all items except 2214.",
+      "title": "Council Member Wong votes aye on all except UBT tax credit item",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 144.112,
+          "text": "I have a question."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 145.812,
+          "text": "Are we voting on that UBT tax credit decrease?"
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 150.112,
+          "text": "Is that 2214?"
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 152.012,
+          "text": "Did I get that bill number correct?"
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 156.728,
+          "text": "Yeah, I vote aye on all except on the 2214."
+        }
+      ]
+    },
+    {
+      "end_sec": 182.728,
+      "id": "007",
+      "slug": "council-member-morano-votes-no-on-ubt-tax-credit-item",
+      "start_sec": 163.228,
+      "summary": "Council Member Frank Morano votes aye on all items except 2214, the UBT tax credit decrease, on which he votes no.",
+      "title": "Council Member Morano votes no on UBT tax credit item",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 163.228,
+          "text": "Morano."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 164.928,
+          "text": "Aye on all except 2214, on which I vote no."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 173.728,
+          "text": "Gennaro."
+        }
+      ]
+    },
+    {
+      "end_sec": 215.948,
+      "id": "008",
+      "slug": "vote-outcome-announced-expense-items-adopted-ubt-credit-passes-9-2",
+      "start_sec": 182.728,
+      "summary": "Clerk DiStefano announces the transparency resolutions passed 11-0, and the UBT tax credit resolution passed 9-2 with no abstentions.",
+      "title": "Vote outcome announced: expense items adopted, UBT credit passes 9-2",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 182.728,
+          "text": "By the vote of 11 in the affirmative, zero in the negative, and no abstentions."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 185.928,
+          "text": "The items have been..."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 198.448,
+          "text": "By a vote of 11 in the affirmative, zero in the negative, and no abstentions, the items have been adopted with the exception of preconceived intro in regard to the credit against the city personal income tax, which passed by a vote of nine in the affirmative, two negative, no abstentions."
+        }
+      ]
+    },
+    {
+      "end_sec": 283.716,
+      "id": "009",
+      "slug": "vote-held-open-for-arriving-members",
+      "start_sec": 215.948,
+      "summary": "Chair Lee announces the vote will be held open for members still arriving, including Justin Sanchez, and the committee waits to maintain quorum.",
+      "title": "Vote held open for arriving members",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 215.948,
+          "text": "Okay, great."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 216.448,
+          "text": "We're going to just hold the vote open."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 218.148,
+          "text": "Oh, you can go."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 219.148,
+          "text": "We're just going to hold the vote open for a couple of members that are on their way."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 222.648,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 227.656,
+          "text": "Oh, we need to maintain quorum?"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 229.856,
+          "text": "Oh."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 233.356,
+          "text": "Justin said he's walking in right now, so."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 242.556,
+          "text": "Okay, we're just waiting for Justin Sanchez."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 244.156,
+          "text": "He's on the way up."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 256.056,
+          "text": "Today's the 16th."
+        }
+      ]
+    },
+    {
+      "end_sec": 332.856,
+      "id": "010",
+      "slug": "continuation-of-roll-call-gennaro-and-sanchez-cast-votes",
+      "start_sec": 283.716,
+      "summary": "Clerk DiStefano resumes the roll call. Council Member Gennaro's vote is recorded, and Council Member Sanchez votes aye, bringing the total to 12-0 on the main items and 10-2 on the UBT item.",
+      "title": "Continuation of roll call: Gennaro and Sanchez cast votes",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 283.716,
+          "text": "Continuation of roll call."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 285.116,
+          "text": "Committee on Finance."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 288.416,
+          "text": "Council Member Gennaro."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 293.756,
+          "text": "Councilmember Sanchez."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 295.556,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 297.256,
+          "text": "The vote is now 12 in the affirmative, zero in the negative, and no abstentions, with the exception of"
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 305.556,
+          "text": "The pre-considered intro is 10 in the affirmative, two negative, no abstentions."
+        }
+      ]
+    },
+    {
+      "end_sec": 422.924,
+      "id": "011",
+      "slug": "sanchez-clarifies-his-vote-after-brief-confusion",
+      "start_sec": 332.856,
+      "summary": "A brief moment of confusion occurs as Sanchez clarifies he has just arrived and called his vote, causing a pause before the roll call resumes.",
+      "title": "Sanchez clarifies his vote after brief confusion",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 332.856,
+          "text": "Okay, and with that, I think we are going to go ahead and close the..."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 336.156,
+          "text": "What?"
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 336.356,
+          "text": "I just called."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 337.056,
+          "text": "Oh, sorry, hold on."
+        }
+      ]
+    },
+    {
+      "end_sec": 486.136,
+      "id": "012",
+      "slug": "continuation-of-roll-call-aviles-votes-aye",
+      "start_sec": 422.924,
+      "summary": "Clerk DiStefano continues the roll call for Council Member Aviles, who votes aye. The tally updates to 13-0 on the main items and 11-2 on the UBT item.",
+      "title": "Continuation of roll call: Aviles votes aye",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 422.924,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 428.836,
+          "text": "Committee on Finance, continuation of roll call vote."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 431.936,
+          "text": "Council Member Aviles."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 435.236,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 438.236,
+          "text": "The vote now stands at 13 in the affirmative, zero in the negative, and no abstentions, with the exception of the preconsidered intro, which now stands at 11 in the affirmative, two negative, no abstentions."
+        }
+      ]
+    },
+    {
+      "end_sec": 565.608,
+      "id": "013",
+      "slug": "gennaro-votes-remotely-quorum-discussion-and-vote-recorded",
+      "start_sec": 486.136,
+      "summary": "Council Member Gennaro joins remotely and confirms he can be heard. After a brief discussion about quorum, his aye vote is recorded, bringing the tally to 14-0 on the main items and 12-2 on the UBT item.",
+      "title": "Gennaro votes remotely; quorum discussion and vote recorded",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 486.136,
+          "text": "Hey folks, this is Jim Gennaro."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 487.936,
+          "text": "Can anybody hear me?"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 496.204,
+          "text": "Hi, Councilmember Gennaro."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 497.304,
+          "text": "We actually lost quorum."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 500.204,
+          "text": "So we can."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 501.204,
+          "text": "Yeah."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 502.504,
+          "text": "I think."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 503.504,
+          "text": "Oh, he can?"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 507.804,
+          "text": "Oh, okay, never mind."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 508.804,
+          "text": "I guess we don't need quorum in person."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 511.704,
+          "text": "Wait, hold on."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 516.304,
+          "text": "Committee on Finance, continuation of roll call."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 518.404,
+          "text": "Council Member Gennaro."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 520.104,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 524.108,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 525.108,
+          "text": "Vote is now 14 in the affirmative, zero in the negative, no abstentions with the exception of the pre-considered intro, which is 12 in the affirmative, two negative, no abstentions."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 538.508,
+          "text": "Great, thanks."
+        }
+      ]
+    },
+    {
+      "end_sec": 605.016,
+      "id": "014",
+      "slug": "restler-votes-final-tally-announced-at-15-0-and-13-2",
+      "start_sec": 565.608,
+      "summary": "Clerk DiStefano records Council Member Restler's vote, bringing the final tally to 15-0 on the main items and 13-2 on the UBT tax credit resolution.",
+      "title": "Restler votes; final tally announced at 15-0 and 13-2",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 565.608,
+          "text": "Committee on Finance, continuation of roll call, Council Member Ressler."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 571.916,
+          "text": "The vote now stands at 15 in the affirmative, zero in the negative, and no abstentions, with the exception of the preconsidered intro."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 578.016,
+          "text": "The vote is 13 in the affirmative, two in the negative, and no abstentions."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 583.716,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 618.027,
+      "id": "015",
+      "slug": "chair-lee-closes-the-hearing",
+      "start_sec": 605.016,
+      "summary": "Chair Lee confirms the vote is complete and thanks all members, closing the hearing.",
+      "title": "Chair Lee closes the hearing",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 605.016,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 606.916,
+          "text": "Great."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 607.516,
+          "text": "So with that, we are done with the vote."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 610.116,
+          "text": "Thank you, everyone."
+        }
+      ]
+    }
+  ],
+  "date": "2026-07-16",
+  "duration_sec": 618.027,
+  "slug": "2026-07-16-1000-am-committee-on-finance",
+  "summary": [
+    "Finance Committee Chair Linda Lee convenes a hearing to vote on preconsidered transparency resolutions for expense budget funding designations and a resolution decreasing the city personal income tax credit for residents' share of the unincorporated business tax (UBT).",
+    "The transparency resolutions pass unanimously 15-0, while the UBT tax credit decrease passes 13-2, with Council Members Wong and Morano voting no on that item.",
+    "The vote is held open across multiple roll-call continuations as members arrive in person and remotely, including Gennaro joining by phone."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "10:00 AM",
+  "title": "Committee on Finance",
+  "topic": "Approving the new designation and changes in the designation of certain organizations to receive funding in the Expense Budget",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-PV-CH-COM_260716-101155/video-web.mp4"
+  }
+}
