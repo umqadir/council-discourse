@@ -82,8 +82,18 @@ jobs:
           fi
           echo "skip=true" >> "$GITHUB_OUTPUT"
           echo "::warning::A fixer already ran this red streak - not spawning another agent."
+          # The escalation must carry enough context to act on from the email
+          # alone: what failed, the actual error, and what to do next.
+          run_id="${{ github.event.workflow_run.id }}"
+          failed_steps="$(gh api "repos/${REPO}/actions/runs/${run_id}/jobs?per_page=50" \
+            --jq '[.jobs[] | select(.conclusion == "failure") | .name + " / " + ([.steps[] | select(.conclusion == "failure") | .name] | join(", "))] | join("; ")')"
+          errors="$(gh run view "$run_id" --repo "$REPO" --log-failed 2>/dev/null \
+            | grep -aE "##\[error\]|RuntimeError|[A-Za-z]+Error:" | grep -v "Process completed" \
+            | sed 's/.*Z //' | tail -4)"
           marker="fixer already attempted this outage"
-          body="@umqadir - production failed again (${{ github.event.workflow_run.html_url }}) after a ${marker}; not spawning another agent. A human needs to look."
+          fence=$'\x60\x60\x60'
+          body="$(printf '@umqadir - production is still failing and the %s, so no new agent will run until a human intervenes.\n\n**Failed:** %s\n**Run:** %s\n**Error:**\n%s\n%s\n%s\n\nWhen the cause is fixed, dispatch production.yml manually - a green run re-arms the fixer and closes this issue.' \
+            "$marker" "${failed_steps:-unknown step}" "${{ github.event.workflow_run.html_url }}" "$fence" "${errors:-see run log}" "$fence")"
           number="$(gh issue list --repo "$REPO" --state open --search "in:title \"Pipeline needs attention\"" --json number --jq '.[0].number // empty')"
           if [ -z "$number" ]; then
             gh issue create --repo "$REPO" --assignee umqadir \
@@ -149,6 +159,14 @@ jobs:
               it, and open an assigned issue describing the rework. If you
               cannot get green, open an issue with your diagnosis and
               proposed patch instead.
+
+            Quarantine over stall: if the failure is confined to specific
+            meetings and you cannot cleanly fix the root cause right now,
+            park those meetings immediately (set process_attempts to 5 via
+            registry surgery) so every other meeting keeps publishing, then
+            open or update an assigned issue that names each parked meeting,
+            what exactly is wrong with it, and what a human should do. One
+            wedged meeting must never stop the pipeline.
 
             After pushing a fix that unblocks a halted or failing pipeline,
             re-arm it yourself: `gh workflow run production.yml` (a dispatch

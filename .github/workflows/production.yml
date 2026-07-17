@@ -147,13 +147,17 @@ jobs:
           parked="$(sqlite3 data/registry.db "SELECT meeting_key || ' | ' || COALESCE(body_name,'?') || ' | ' || COALESCE(substr(event_date,1,10),'?') || ' | ' || COALESCE(replace(substr(last_error,1,140), char(10), ' '),'no recorded error') FROM meetings WHERE process_attempts >= 5 AND chapterize_status != 'chapterized' ORDER BY meeting_key;")"
           if [ -z "$parked" ]; then
             echo "no parked meetings"
+            open="$(gh issue list --repo "$REPO" --state open --search "in:title \"Meetings quarantined\"" --json number --jq '.[0].number // empty')"
+            if [ -n "$open" ]; then
+              gh issue close "$open" --repo "$REPO" --comment "No meetings remain quarantined; closing."
+            fi
             exit 0
           fi
           echo "parked meetings:"
           echo "$parked"
-          title="Pipeline needs attention: meetings parked at the retry cap"
-          body="$(printf '@umqadir - these meetings hit the 5-attempt retry cap and are excluded from processing until process_attempts is reset (recovery in STATE.md; paid artifacts persist on R2, nothing is re-paid on retry):\n\n%s' "$parked")"
-          number="$(gh issue list --repo "$REPO" --state open --search "in:title \"parked at the retry cap\"" --json number --jq '.[0].number // empty')"
+          title="Meetings quarantined: excluded from processing until reset"
+          body="$(printf '@umqadir - these meetings are quarantined (retry cap reached or parked by the fixer) and excluded from processing until process_attempts is reset (recovery in STATE.md; paid artifacts persist on R2, nothing is re-paid on retry). The rest of the pipeline continues normally.\n\n%s' "$parked")"
+          number="$(gh issue list --repo "$REPO" --state open --search "in:title \"Meetings quarantined\"" --json number --jq '.[0].number // empty')"
           if [ -z "$number" ]; then
             gh issue create --repo "$REPO" --assignee umqadir --title "$title" --body "$body"
             exit 0
@@ -508,3 +512,16 @@ jobs:
       - name: Deploy Cloudflare Pages
         working-directory: site
         run: pnpm dlx wrangler pages deploy dist --project-name council-discourse
+
+      # A green run means the outage is over: close its issues so the next
+      # failure opens a fresh one instead of appending to a stale thread.
+      # (The quarantined-meetings issue has its own lifecycle in discover.)
+      - name: Close outage issues on green
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          for n in $(gh issue list --repo "$REPO" --state open --search "in:title \"Pipeline needs attention\"" --json number --jq '.[].number'); do
+            gh issue close "$n" --repo "$REPO" \
+              --comment "Resolved: production run ${{ github.server_url }}/${REPO}/actions/runs/${{ github.run_id }} completed green."
+          done
