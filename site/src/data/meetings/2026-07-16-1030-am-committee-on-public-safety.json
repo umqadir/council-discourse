@@ -1,0 +1,528 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 63.168,
+      "id": "001",
+      "slug": "staff-welcomes-attendees-and-gives-hearing-instructions",
+      "start_sec": 48.268,
+      "summary": "Council staff opens the hearing, asks attendees to sign in on electronic devices, and instructs that no one should approach the desk. Chair Feliz is invited to begin.",
+      "title": "Staff welcomes attendees and gives hearing instructions",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 48.268,
+          "text": "Good morning and welcome to today's New York City Council vote on public safety."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 54.168,
+          "text": "At this time, we are asking everyone please to sign an electronic device."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 57.868,
+          "text": "And at no time, anyone should approach the desk."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 60.168,
+          "text": "Chair, you may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 81.168,
+      "id": "002",
+      "slug": "chair-feliz-opens-hearing-and-introduces-committee-members",
+      "start_sec": 63.168,
+      "summary": "Councilmember Oswald Feliz, Chair of the Committee on Public Safety, calls the hearing to order and introduces the committee members present both in person and online, including Sanchez, Hankerson, Hanks, Banks, Farias, Wong, Ariola, Gutierrez, and Nurse.",
+      "title": "Chair Feliz opens hearing and introduces committee members",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 63.168,
+          "text": "Good morning, I'm Councilmember Oswald Feliz, Chair of the Committee on Public Safety."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 67.968,
+          "text": "I am joined by committee members Thomas Henry, Justin Sanchez, Ty Hankerson, Hanks, Banks, Farias, Wong, also online, Areola, Councilmembers Gutierrez, and Nurse."
+        }
+      ]
+    },
+    {
+      "end_sec": 101.268,
+      "id": "003",
+      "slug": "feliz-introduces-intro-913a-raising-the-police-exam-maximum-age-to-43",
+      "start_sec": 81.168,
+      "summary": "Chair Feliz explains that Proposed Introduction 913A, sponsored by Councilmember Farias, would amend the Administrative Code to raise the maximum age for taking the police officer civil service exam from under 35 to under 43 years of age.",
+      "title": "Feliz introduces Intro 913A: raising the police exam maximum age to 43",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 81.168,
+          "text": "Today, the committee will vote on proposed introduction number 913A, sponsored by Councilmember Farias."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 87.468,
+          "text": "This bill would amend the Administrative Code of the City of New York to raise the maximum age for individuals taking a civil service examination to become a police officer from under 35 years of age to under 43 years of age."
+        }
+      ]
+    },
+    {
+      "end_sec": 113.468,
+      "id": "004",
+      "slug": "feliz-details-military-service-age-deduction-provision",
+      "start_sec": 101.268,
+      "summary": "Feliz describes the bill's provision allowing individuals who served on military duty or terminal leave to subtract up to six years of service time from their age for eligibility purposes, recognizing veterans' contributions.",
+      "title": "Feliz details military service age deduction provision",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 101.268,
+          "text": "The bill would also allow individuals who have served on military duty or terminal leave to subtract up to six years of service time from their age for purposes of eligibility."
+        }
+      ]
+    },
+    {
+      "end_sec": 128.168,
+      "id": "005",
+      "slug": "feliz-on-alignment-with-state-law-and-expanding-the-candidate-pool",
+      "start_sec": 113.468,
+      "summary": "Feliz explains the legislation aligns New York City's age requirements with recent changes to New York State civil service law and expands the pool of candidates eligible to take the police officer exam, supporting NYPD recruitment and retention efforts.",
+      "title": "Feliz on alignment with state law and expanding the candidate pool",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 113.468,
+          "text": "This legislation would align New York City's age requirements with recent changes made to New York State civil service law and expand the pool of individuals."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 122.368,
+          "text": "candidates eligible to take the police officer civil service examination."
+        }
+      ]
+    },
+    {
+      "end_sec": 159.168,
+      "id": "006",
+      "slug": "feliz-on-recruitment-benefits-and-recognizing-military-experience",
+      "start_sec": 128.168,
+      "summary": "Feliz notes that expanding pathways into public service provides opportunities for individuals with valuable life and professional experience to pursue law enforcement careers, and that the bill recognizes military service by accounting for active duty time in age eligibility.",
+      "title": "Feliz on recruitment benefits and recognizing military experience",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 128.168,
+          "text": "As the NYPD continues efforts to recruit and retain qualified officers, expanding pathways into public service may help provide additional opportunities for individuals with valuable life and professional experience"
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 141.368,
+          "text": "to pursue a career in law enforcement."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 144.968,
+          "text": "The bill also recognizes the contributions of individuals who have served in the military by accounting for time spent on active duty when determining the age-related requirements."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 155.368,
+          "text": "I'll pass it on to Councilmember Farias for her opening statement."
+        }
+      ]
+    },
+    {
+      "end_sec": 182.468,
+      "id": "007",
+      "slug": "farias-bill-originated-from-precinct-council-conversations-on-hiring-barriers",
+      "start_sec": 159.168,
+      "summary": "Councilmember Amanda Farias explains that Intro 913A grew out of conversations with her local precinct council about barriers discouraging qualified New Yorkers from pursuing NYPD careers, and that her office examined where candidates were being lost in the hiring process.",
+      "title": "Farias: bill originated from precinct council conversations on hiring barriers",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 159.168,
+          "text": "Thank you, Chair Feliz, for the opportunity to speak before the Committee on Public Safety about my bill, Introduction 913A."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 165.368,
+          "text": "The impetus for Intro 913A came from conversations with my local precinct council about the barriers that may be discouraging qualified New Yorkers from pursuing a career with the NYPD almost over a year ago."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 176.868,
+          "text": "We took a closer look at where candidates were being lost in the hiring process over the last several years."
+        }
+      ]
+    },
+    {
+      "end_sec": 197.568,
+      "id": "008",
+      "slug": "farias-hundreds-of-candidates-lost-to-the-age-35-cap",
+      "start_sec": 182.468,
+      "summary": "Farias shares that hundreds of candidates were unable to complete the hiring process because they exceeded the maximum age of 35 before appointments were finalized, and that many more never applied because they believed the opportunity was already closed to them.",
+      "title": "Farias: hundreds of candidates lost to the age-35 cap",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 182.468,
+          "text": "Hundreds were unable to complete that process because they were exceeded the maximum age of 35 before their appointments were finalized."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 190.468,
+          "text": "And that figure doesn't even account for the New Yorkers who never applied because they believe the opportunity was already closed to them."
+        }
+      ]
+    },
+    {
+      "end_sec": 223.568,
+      "id": "009",
+      "slug": "farias-bill-raises-exam-age-to-43-and-preserves-military-deduction",
+      "start_sec": 197.568,
+      "summary": "Farias details that Intro 913A raises the maximum exam age to under 43 and preserves the existing military service deduction of up to six years of active duty or terminal leave. She notes she worked closely with bill drafters to ensure compatibility with the city's hiring and retirement framework.",
+      "title": "Farias: bill raises exam age to 43 and preserves military deduction",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 197.568,
+          "text": "Intro 913A would raise the maximum age to take the New York City Police Officer Civil Service Examination from 35 to under 43."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 205.668,
+          "text": "It would also preserve the existing consideration for eligible military service by allowing candidates to deduct up to six years of active duty."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 212.368,
+          "text": "active duty service or terminal leave when determining their eligibility."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 216.368,
+          "text": "As we developed the bill, I worked closely with our bill drafters to ensure the language fit within the city's existing hiring and retirement framework."
+        }
+      ]
+    },
+    {
+      "end_sec": 255.968,
+      "id": "010",
+      "slug": "farias-all-existing-requirements-remain-and-age-43-aligns-with-retirement-framework",
+      "start_sec": 223.568,
+      "summary": "Farias clarifies that candidates must still pass the civil service exam, background investigation, physical, medical, psychological, educational, and character requirements, and complete academy training. She explains the age of 43 was chosen to remain consistent with the city's retirement framework and allow a full career.",
+      "title": "Farias: all existing requirements remain and age 43 aligns with retirement framework",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 223.568,
+          "text": "Candidates would still need to pass the civil service examination, complete the background investigation, meet all applicable physical, medical, psychological, educational, and character requirements, and successfully complete police academy training."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 236.268,
+          "text": "We also intentionally established the new eligibility age at under 43 in order to remain consistent with the city's existing retirement framework and allow successful candidates the opportunity to complete a full career"
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 248.668,
+          "text": "in the department while remaining compatible with current position eligibility requirements."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 253.668,
+          "text": "The legislation also makes clear that"
+        }
+      ]
+    },
+    {
+      "end_sec": 294.568,
+      "id": "011",
+      "slug": "farias-broader-rationale-expanding-access-for-working-people-and-diverse-candidates",
+      "start_sec": 255.968,
+      "summary": "Farias argues that working people spend years building careers, supporting families, serving in the military, and pursuing education, which can delay when they pursue a new profession. She says raising the exam age expands access to stable public service careers and allows the city to consider a wider, more diverse pool of qualified candidates.",
+      "title": "Farias: broader rationale \u2014 expanding access for working people and diverse candidates",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 255.968,
+          "text": "Candidates must apply before their 43rd birthday unless they qualify for the existing military service age deduction."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 263.268,
+          "text": "Working people spend years building careers, supporting their families, serving in the military, pursuing an education, and caring for loved ones."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 269.868,
+          "text": "Those responsibilities can affect when someone is positioned to pursue a new profession, while also developing the maturity, discipline, judgment, and experience they can bring to public service."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 279.368,
+          "text": "By raising the examination age, we can expand access to stable public service careers, support the NYPD's broader recruitment efforts, and allow the city to consider a wider, more diverse pool of qualified candidates while continuing to hold"
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 292.968,
+          "text": "every applicant to the same standards."
+        }
+      ]
+    },
+    {
+      "end_sec": 312.068,
+      "id": "012",
+      "slug": "farias-closes-by-urging-colleagues-to-vote-yes-on-intro-913a",
+      "start_sec": 294.568,
+      "summary": "Farias expresses pride in advancing the bill, thanks the committee for considering it, and urges all colleagues to vote yes. Chair Feliz then passes the proceedings to the clerk for the vote.",
+      "title": "Farias closes by urging colleagues to vote yes on Intro 913A",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 294.568,
+          "text": "I'm proud to be advancing Introduction 913A today."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 298.368,
+          "text": "Thank you to the members of the committee for considering this bill, and I respectfully urge all..."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 302.368,
+          "text": "all of my colleagues to vote yes today."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 304.268,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 306.268,
+          "text": "Thank you, Council Member."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 307.268,
+          "text": "And I'll pass it on to the Clerk for the vote."
+        }
+      ]
+    },
+    {
+      "end_sec": 359.252,
+      "id": "013",
+      "slug": "roll-call-vote-on-intro-913a",
+      "start_sec": 312.068,
+      "summary": "Committee Clerk William Martin conducts the roll call vote on Proposed Introduction 913A. All nine committee members \u2014 Feliz, Gutierrez, Hanks, Nurse, Banks, Hankerson, Sanchez, Wong, and Ariola \u2014 vote in the affirmative. Councilmember Banks congratulates Farias on the bill.",
+      "title": "Roll call vote on Intro 913A",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 312.068,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 312.368,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 312.768,
+          "text": "William Martin, Committee Clerk, Roll Call Vote Committee on Public Safety, and Proposed Introduction 913A."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 318.468,
+          "text": "Chair, Feliz."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 319.968,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 321.968,
+          "text": "Gutierrez."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 327.468,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 329.568,
+          "text": "Hanks."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 331.168,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 333.368,
+          "text": "Nurse."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 336.352,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 337.752,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 339.152,
+          "text": "Banks."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 340.652,
+          "text": "Aye, and congratulations to you, Amanda."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 344.652,
+          "text": "Hankerson."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 346.552,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 348.452,
+          "text": "Sanchez."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 350.052,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 351.652,
+          "text": "Wong."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 353.452,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 355.252,
+          "text": "Ariola."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 356.952,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 358.652,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 378.453,
+      "id": "014",
+      "slug": "intro-913a-approved-9-0-by-full-committee-hearing-adjourned",
+      "start_sec": 359.252,
+      "summary": "Clerk Martin announces the bill passed with a vote of nine in the affirmative, zero in the negative, and no abstentions \u2014 a full committee vote. Chair Feliz declares the bill passes and adjourns the hearing.",
+      "title": "Intro 913A approved 9-0 by full committee; hearing adjourned",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 359.252,
+          "text": "With a vote of nine in the affirmative, zero in the negative, and no abstentions, item has been approved by the committee."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 364.952,
+          "text": "Mr."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 365.052,
+          "text": "Chair, that is a full committee."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 367.452,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 367.852,
+          "text": "Thank you so much."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 368.452,
+          "text": "Thank you, everyone."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 369.052,
+          "text": "The bill passes."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 369.652,
+          "text": "This hearing is hereby adjourned."
+        }
+      ]
+    }
+  ],
+  "date": "2026-07-16",
+  "duration_sec": 378.453,
+  "slug": "2026-07-16-1030-am-committee-on-public-safety",
+  "summary": [
+    "The Committee on Public Safety, chaired by Councilmember Oswald Feliz, held a hearing on Proposed Introduction 913A, which raises the maximum age for taking the NYPD civil service exam from under 35 to under 43.",
+    "Sponsor Councilmember Amanda Farias explained the bill originated from precinct council conversations about candidates lost in the hiring process due to the age cap, and detailed how the legislation aligns with state law while preserving all existing hiring requirements.",
+    "The committee voted 9-0 to approve the bill, with all members present voting in the affirmative."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "10:30 AM",
+  "title": "Committee on Public Safety",
+  "topic": "Raising the maximum age for taking a civil service examination to become a police officer",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-1_260716-105747/video-web.mp4"
+  }
+}
