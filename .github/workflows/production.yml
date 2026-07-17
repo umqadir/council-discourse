@@ -45,21 +45,29 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y ffmpeg poppler-utils
 
-      # Circuit breaker: if the last 3 completed runs all failed, something is
+      # Circuit breaker: if the last 6 completed runs all failed, something is
       # systematically broken - stop cron retries (and repeated spend) until a
       # human intervenes. Judged across ALL run types so that one green manual
       # dispatch after a fix re-arms the cron; a schedule-only window would
       # deadlock (dispatched successes never enter it).
+      #
+      # The window MUST exceed the per-meeting dead-letter cap (5 attempts, see
+      # process_attempts in pipeline/production.py). A single deterministically-
+      # failing meeting fails 5 runs, then parks itself and the 6th run goes
+      # green - so the breaker should fire only on failures that persist past
+      # what per-meeting parking can clear, i.e. a genuinely systemic fault.
       - name: Halt after repeated failures
         if: ${{ github.event_name == 'schedule' }}
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          recent="$(gh api "repos/${{ github.repository }}/actions/workflows/production.yml/runs?status=completed&per_page=3" \
-            --jq '[.workflow_runs[].conclusion] | join(",")')"
-          echo "last completed conclusions: $recent"
-          if [ "$recent" = "failure,failure,failure" ]; then
-            echo "::error::Last 3 runs all failed - halting cron retries to stop repeated spend. Fix the cause, then dispatch manually; a green dispatched run re-arms the cron."
+          conclusions="$(gh api "repos/${{ github.repository }}/actions/workflows/production.yml/runs?status=completed&per_page=6" \
+            --jq '[.workflow_runs[].conclusion]')"
+          echo "last completed conclusions: $(echo "$conclusions" | jq -r 'join(",")')"
+          total="$(echo "$conclusions" | jq 'length')"
+          failures="$(echo "$conclusions" | jq 'map(select(. == "failure")) | length')"
+          if [ "$total" -ge 6 ] && [ "$failures" -eq "$total" ]; then
+            echo "::error::Last 6 runs all failed - halting cron retries to stop repeated spend. Fix the cause, then dispatch manually; a green dispatched run re-arms the cron."
             exit 1
           fi
 

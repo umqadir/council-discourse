@@ -37,7 +37,13 @@ CHAPTER_TYPE_ORDER = [
 ]
 ALLOWED_CHAPTER_TYPES = set(CHAPTER_TYPE_ORDER)
 SERIAL_VOTE_PARENT_TYPES = {"VOICE_VOTE", "VOTE"}
-DEFAULT_MAX_CHAPTER_PROMPT_TOKENS = 180_000
+# Sized to pass any real meeting and only trip on a genuinely degenerate
+# transcript. The chaptering model (GLM-5.2) has a ~1M-token context and 131k
+# max output; a full-day marathon hearing (~10h, e.g. the 9.4h Committee on
+# Health session) is only ~200k tokens. The old 180k value assumed the ~200k
+# context of GLM-5.2's siblings and hard-failed normal long meetings. Anything
+# past this is not a long meeting, it is a broken/looping transcript.
+DEFAULT_MAX_CHAPTER_PROMPT_TOKENS = 700_000
 CHAPTER_JSON_SCHEMA = {
     "type": "object",
     "properties": {
