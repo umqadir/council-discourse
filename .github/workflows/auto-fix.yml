@@ -47,7 +47,48 @@ jobs:
         run: |
           curl -sSfL https://raw.githubusercontent.com/rhysd/actionlint/main/scripts/download-actionlint.bash | bash -s -- latest /usr/local/bin >/dev/null
 
+      # One agent per red streak. If a fixer already completed since the last
+      # green production run and production is red again, that fixer's theory
+      # failed; a second agent re-deriving the same diagnosis is waste, and a
+      # fix->dispatch->fail loop would spawn agents forever. Skip the agent
+      # and escalate to a human once, deterministically. A green production
+      # run resets the gate.
+      - name: Single-flight gate
+        id: gate
+        if: ${{ github.event_name == 'workflow_run' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          last_green="$(gh api "repos/${REPO}/actions/workflows/production.yml/runs?status=success&per_page=1" \
+            --jq '.workflow_runs[0].run_started_at // "1970-01-01T00:00:00Z"')"
+          prior="$(gh api -X GET "repos/${REPO}/actions/workflows/auto-fix.yml/runs" \
+            -f status=completed -f created=">=${last_green}" -f per_page=100 \
+            --jq '.workflow_runs | length')"
+          echo "completed fixer runs since last green production ($last_green): $prior"
+          if [ "$prior" -eq 0 ]; then
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "skip=true" >> "$GITHUB_OUTPUT"
+          echo "::warning::A fixer already ran this red streak - not spawning another agent."
+          marker="fixer already attempted this outage"
+          body="@umqadir - production failed again (${{ github.event.workflow_run.html_url }}) after a ${marker}; not spawning another agent. A human needs to look."
+          number="$(gh issue list --repo "$REPO" --state open --search "in:title \"Pipeline needs attention\"" --json number --jq '.[0].number // empty')"
+          if [ -z "$number" ]; then
+            gh issue create --repo "$REPO" --assignee umqadir \
+              --title "Pipeline needs attention: still failing after an automated fix attempt" \
+              --body "$body"
+          else
+            last_comment="$(gh api "repos/${REPO}/issues/${number}/comments" --jq 'last.body // ""')"
+            case "$last_comment" in
+              *"$marker"*) echo "escalation already posted; staying quiet" ;;
+              *) gh issue comment "$number" --repo "$REPO" --body "$body" ;;
+            esac
+          fi
+
       - name: Diagnose and fix
+        if: ${{ github.event_name == 'workflow_dispatch' || steps.gate.outputs.skip != 'true' }}
         uses: anthropics/claude-code-action@v1
         env:
           GH_TOKEN: ${{ github.token }}
@@ -140,6 +181,7 @@ jobs:
       # work (observed: "Credit balance is too low" on a green step). A fixer
       # that silently does nothing is worse than no fixer.
       - name: Fail if the fixer errored silently
+        if: ${{ github.event_name == 'workflow_dispatch' || steps.gate.outputs.skip != 'true' }}
         run: |
           f=/home/runner/work/_temp/claude-execution-output.json
           if [ ! -f "$f" ]; then
