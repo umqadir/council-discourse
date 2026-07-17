@@ -32,6 +32,10 @@ jobs:
           echo "age: ${age_hours}h"
           if [ "$age_hours" -lt 26 ]; then
             echo "pipeline healthy"
+            stale="$(gh issue list --repo "$REPO" --state open --search "in:title \"Production pipeline has not succeeded\"" --json number --jq '.[0].number // empty')"
+            if [ -n "$stale" ]; then
+              gh issue close "$stale" --repo "$REPO" --comment "Pipeline is healthy again (last success ${last_success}); closing."
+            fi
             exit 0
           fi
           title="Production pipeline has not succeeded in over ${age_hours} hours"

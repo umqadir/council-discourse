@@ -26,6 +26,7 @@ jobs:
     outputs:
       matrix: ${{ steps.discover.outputs.matrix }}
       has_pending: ${{ steps.discover.outputs.has_pending }}
+      paused: ${{ steps.breaker.outputs.paused }}
     env:
       LEGISTAR_TOKEN: ${{ secrets.LEGISTAR_TOKEN }}
     steps:
@@ -45,45 +46,47 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y ffmpeg poppler-utils
 
-      # Circuit breaker: if the last 6 completed runs all failed, something is
-      # systematically broken - stop cron retries (and repeated spend) until a
-      # human intervenes. Judged across ALL run types so that one green manual
-      # dispatch after a fix re-arms the cron; a schedule-only window would
-      # deadlock (dispatched successes never enter it).
+      # Pause switch. An open "Pipeline needs attention" issue means an outage
+      # has been handed to a human: the scheduled run becomes a silent no-op
+      # (green, nothing runs, no failure email) until the human's green manual
+      # dispatch closes the issue (deploy job) and re-arms the cron.
+      # Quarantine issues ("Meetings quarantined", "Meetings skipped by
+      # export") do NOT pause anything.
       #
-      # The window MUST exceed the per-meeting dead-letter cap (5 attempts, see
-      # process_attempts in pipeline/production.py). A single deterministically-
-      # failing meeting fails 5 runs, then parks itself and the 6th run goes
-      # green - so the breaker should fire only on failures that persist past
-      # what per-meeting parking can clear, i.e. a genuinely systemic fault.
-      - name: Halt after repeated failures
+      # Backstop: if the last 6 completed runs all failed and no handoff issue
+      # exists (shouldn't happen - the fixer or its gate opens one), open one
+      # now so the pause engages and the maintainer is notified exactly once.
+      - name: Pause when an outage is handed to a human
+        id: breaker
         if: ${{ github.event_name == 'schedule' }}
         env:
           GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
         run: |
-          # An open "Pipeline needs attention" issue means the outage has been
-          # handed to a human (by the fixer or its gate): pause the cron
-          # immediately instead of failing on repeat until the count-based
-          # breaker trips. A green manual dispatch closes the issue (deploy
-          # job) and re-arms the cron. Quarantine issues ("Meetings
-          # quarantined", "Meetings skipped by export") do NOT pause anything.
-          open_attention="$(gh issue list --repo "${{ github.repository }}" --state open \
+          echo "paused=false" >> "$GITHUB_OUTPUT"
+          open_attention="$(gh issue list --repo "$REPO" --state open \
             --search "in:title \"Pipeline needs attention\"" --json number --jq '.[0].number // empty')"
           if [ -n "$open_attention" ]; then
-            echo "::error::Pipeline paused: open 'Pipeline needs attention' issue #${open_attention} hands this outage to a human. Fix the cause, then dispatch production.yml; a green run closes the issue and re-arms the cron."
-            exit 1
+            echo "paused=true" >> "$GITHUB_OUTPUT"
+            echo "::warning::Pipeline paused: issue #${open_attention} is open. This run is a silent no-op; fix the cause, then dispatch production.yml - a green run closes the issue and re-arms the cron."
+            exit 0
           fi
-          conclusions="$(gh api "repos/${{ github.repository }}/actions/workflows/production.yml/runs?status=completed&per_page=6" \
+          conclusions="$(gh api "repos/${REPO}/actions/workflows/production.yml/runs?status=completed&per_page=6" \
             --jq '[.workflow_runs[].conclusion]')"
           echo "last completed conclusions: $(echo "$conclusions" | jq -r 'join(",")')"
           total="$(echo "$conclusions" | jq 'length')"
           failures="$(echo "$conclusions" | jq 'map(select(. == "failure")) | length')"
           if [ "$total" -ge 6 ] && [ "$failures" -eq "$total" ]; then
-            echo "::error::Last 6 runs all failed - halting cron retries to stop repeated spend. Fix the cause, then dispatch manually; a green dispatched run re-arms the cron."
-            exit 1
+            echo "paused=true" >> "$GITHUB_OUTPUT"
+            body="$(printf '@umqadir - the last 6 production runs all failed and no handoff issue was opened, so the cron is now paused. See the runs: https://github.com/%s/actions/workflows/production.yml\n\nWhen the cause is fixed, dispatch production.yml - a green run closes this issue and re-arms the cron.' "$REPO")"
+            gh issue create --repo "$REPO" --assignee umqadir \
+              --title "Pipeline needs attention: repeated failures without automated handoff" \
+              --body "$body"
+            exit 0
           fi
 
       - name: Preflight API checks
+        if: ${{ steps.breaker.outputs.paused != 'true' }}
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
@@ -103,10 +106,13 @@ jobs:
               data = get("https://openrouter.ai/api/v1/credits", os.environ["OPENROUTER_API_KEY"])["data"]
               remaining = float(data["total_credits"]) - float(data["total_usage"])
               print(f"openrouter credits remaining: ${remaining:.2f}")
-              # A full 12-meeting batch costs ~$2.6 of LLM work; require headroom
-              # so a run never passes preflight and then dies mid-batch on 402s.
-              if remaining < 4.0:
-                  print("::error::OpenRouter credits below $4 - add credits at https://openrouter.ai/settings/credits before meetings can be processed")
+              # Floor must sit at/below the dashboard auto-top-up trigger ($2):
+              # a floor above it creates a dead zone where preflight refuses to
+              # spend, the balance never drops to the trigger, and top-up never
+              # fires. A mid-batch 402 is self-healing (artifacts persist and
+              # the meeting resumes next run), so the lower floor is safe.
+              if remaining < 2.0:
+                  print("::error::OpenRouter credits below $2 - auto-top-up should fire; if it did not, add credits at https://openrouter.ai/settings/credits")
                   failed = True
           except Exception as exc:
               print(f"::error::OpenRouter preflight failed: {exc}")
@@ -127,6 +133,7 @@ jobs:
           PY
 
       - name: Discover pending meetings
+        if: ${{ steps.breaker.outputs.paused != 'true' }}
         id: discover
         run: |
           uv run python -m pipeline discover --emit-pending-json --pending-limit 12 > /tmp/pending.json
@@ -152,11 +159,12 @@ jobs:
       # process_attempts; artifacts persist on R2, so nothing is re-paid).
       # Deduped: posts only when the parked set changes.
       - name: Alert on parked meetings
+        if: ${{ steps.breaker.outputs.paused != 'true' }}
         env:
           GH_TOKEN: ${{ github.token }}
           REPO: ${{ github.repository }}
         run: |
-          parked="$(sqlite3 data/registry.db "SELECT meeting_key || ' | ' || COALESCE(body_name,'?') || ' | ' || COALESCE(substr(event_date,1,10),'?') || ' | ' || COALESCE(replace(substr(last_error,1,140), char(10), ' '),'no recorded error') FROM meetings WHERE process_attempts >= 5 AND chapterize_status != 'chapterized' ORDER BY meeting_key;")"
+          parked="$(sqlite3 data/registry.db "SELECT meeting_key || ' | ' || COALESCE(body_name,'?') || ' | ' || COALESCE(substr(event_date,1,10),'?') || ' | ' || COALESCE(replace(substr(last_error,1,140), char(10), ' '),'no recorded error') FROM meetings WHERE process_attempts >= 5 AND chapterize_status != 'chapterized' AND COALESCE(substr(event_date,1,10), substr(viebit_pub_date,1,10), substr(discovered_at,1,10)) >= '2026-06-20' ORDER BY meeting_key;")"
           if [ -z "$parked" ]; then
             echo "no parked meetings"
             open="$(gh issue list --repo "$REPO" --state open --search "in:title \"Meetings quarantined\"" --json number --jq '.[0].number // empty')"
@@ -183,9 +191,11 @@ jobs:
           fi
 
       - name: Checkpoint registry
+        if: ${{ steps.breaker.outputs.paused != 'true' }}
         run: uv run python -m pipeline checkpoint-db
 
       - name: Upload registry state
+        if: ${{ steps.breaker.outputs.paused != 'true' }}
         uses: actions/upload-artifact@v4
         with:
           name: registry-state
@@ -319,7 +329,7 @@ jobs:
     needs:
       - discover
       - process
-    if: ${{ always() && needs.discover.result == 'success' }}
+    if: ${{ always() && needs.discover.result == 'success' && needs.discover.outputs.paused != 'true' }}
     runs-on: ubuntu-latest
     # Deliberately NO LLM/API keys here: merge, export, build, and deploy make
     # no paid calls, and keeping the keys out makes that structural.
@@ -387,24 +397,6 @@ jobs:
 
       - name: CI health summary
         run: uv run python -m pipeline ci-health | tee -a "$GITHUB_STEP_SUMMARY"
-
-      # A parked meeting (5 failed attempts) stopped costing money but needs a
-      # human; keep an issue open until it is reset. Non-blocking: publishing
-      # the rest of the batch must not depend on this.
-      - name: Flag parked meetings as an issue
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          parked="$(uv run python -m pipeline ci-health | grep '^parked: ' || true)"
-          [ -z "$parked" ] && { echo "no parked meetings"; exit 0; }
-          title="Parked meetings need attention"
-          body="$(printf 'These meetings hit the retry cap and are excluded from processing until reset:\n\n%s\n\nReset with: uv run python -m pipeline reset-meeting <key>, then commit the registry and dispatch a run.' "$parked")"
-          existing="$(gh issue list --state open --search "$title in:title" --json number --jq '.[0].number // empty')"
-          if [ -n "$existing" ]; then
-            gh issue comment "$existing" --body "$body"
-          else
-            gh issue create --title "$title" --body "$body"
-          fi
 
       # Fetch meeting dirs that export needs but this runner lacks: normally
       # just this run's completions; after a lost export, older orphans too.

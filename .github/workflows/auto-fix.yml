@@ -1,9 +1,11 @@
 name: Auto-fix pipeline failures
 
-# When a production run fails, an agent diagnoses it from the failed logs and
-# either pushes a tested fix, or opens/updates an issue when the cause is not
-# code (credits, provider outage). Repeat-firing is bounded by production's
-# own circuit breaker (3 consecutive scheduled failures halt the cron).
+# When a production run fails, one agent per outage diagnoses it from the
+# failed logs and fixes it end to end (code, registry state, re-dispatch),
+# or escalates: unfixable single meetings are quarantined (non-pausing
+# issue) and anything needing a human opens a "Pipeline needs attention"
+# issue, which pauses the production cron until a green dispatch closes it.
+# The single-flight gate below guarantees at most one agent per red streak.
 on:
   workflow_run:
     workflows: ["Production pipeline"]
@@ -47,12 +49,15 @@ jobs:
         run: |
           curl -sSfL https://raw.githubusercontent.com/rhysd/actionlint/main/scripts/download-actionlint.bash | bash -s -- latest /usr/local/bin >/dev/null
 
-      # One agent per red streak. If a fixer already completed since the last
-      # green production run and production is red again, that fixer's theory
+      # One agent per red streak. If a fixer already ran since the last green
+      # production run and production is red again, that fixer's theory
       # failed; a second agent re-deriving the same diagnosis is waste, and a
-      # fix->dispatch->fail loop would spawn agents forever. Skip the agent
-      # and escalate to a human once, deterministically. A green production
-      # run resets the gate.
+      # fix->dispatch->fail loop would spawn agents forever. On the second
+      # failure this gate resolves the streak deterministically instead:
+      #   - all failed jobs are per-meeting process legs -> quarantine those
+      #     meetings (non-pausing issue), dispatch so the rest publishes;
+      #   - anything else -> "Pipeline needs attention" issue, which pauses
+      #     the cron until a human's green dispatch closes it.
       - name: Single-flight gate
         id: gate
         if: ${{ github.event_name == 'workflow_run' }}
@@ -62,17 +67,19 @@ jobs:
         run: |
           last_green="$(gh api "repos/${REPO}/actions/workflows/production.yml/runs?status=success&per_page=1" \
             --jq '.workflow_runs[0].run_started_at // "1970-01-01T00:00:00Z"')"
-          # Count only runs where the agent step actually executed. A run
-          # whose fix job was skipped (production succeeded) or where this
-          # gate itself skipped the agent still completes "success", so run
-          # conclusions cannot distinguish a real attempt; inspect the
-          # "Diagnose and fix" step inside each run instead.
+          # Count only runs where the agent step actually started. Stub runs
+          # (fix job skipped after a green run, or this gate skipping) still
+          # conclude "success", so run conclusions cannot distinguish a real
+          # attempt; inspect the "Diagnose and fix" step inside each run.
+          # cancelled/timed_out MUST count - a hung agent that timed out is
+          # an attempt, or a deterministic hang would spawn a fresh agent
+          # every cycle forever.
           prior=0
           for id in $(gh api -X GET "repos/${REPO}/actions/workflows/auto-fix.yml/runs" \
             -f status=completed -f created=">=${last_green}" -f per_page=100 \
             --jq '.workflow_runs[].id'); do
             ran="$(gh api "repos/${REPO}/actions/runs/${id}/jobs" \
-              --jq '[.jobs[].steps[]? | select(.name == "Diagnose and fix") | select(.conclusion == "success" or .conclusion == "failure")] | length')"
+              --jq '[.jobs[].steps[]? | select(.name == "Diagnose and fix") | select(.conclusion == "success" or .conclusion == "failure" or .conclusion == "cancelled" or .conclusion == "timed_out")] | length')"
             prior=$((prior + ran))
           done
           echo "completed fixer runs since last green production ($last_green): $prior"
@@ -81,19 +88,62 @@ jobs:
             exit 0
           fi
           echo "skip=true" >> "$GITHUB_OUTPUT"
-          echo "::warning::A fixer already ran this red streak - not spawning another agent."
-          # The escalation must carry enough context to act on from the email
-          # alone: what failed, the actual error, and what to do next.
+          # If the prior fixer's verification dispatch is still queued or
+          # running, this failure may already be fixed - stay quiet this
+          # cycle rather than escalating a self-resolving outage.
+          inflight="$(gh api -X GET "repos/${REPO}/actions/workflows/production.yml/runs" \
+            -f per_page=10 --jq '[.workflow_runs[] | select(.status == "queued" or .status == "in_progress")] | length')"
+          if [ "$inflight" -gt 0 ]; then
+            echo "a production run is already queued/in progress - verification pending, staying quiet"
+            exit 0
+          fi
           run_id="${{ github.event.workflow_run.id }}"
+          failed_jobs="$(gh api "repos/${REPO}/actions/runs/${run_id}/jobs?per_page=50" \
+            --jq '[.jobs[] | select(.conclusion == "failure") | .name]')"
           failed_steps="$(gh api "repos/${REPO}/actions/runs/${run_id}/jobs?per_page=50" \
             --jq '[.jobs[] | select(.conclusion == "failure") | .name + " / " + ([.steps[] | select(.conclusion == "failure") | .name] | join(", "))] | join("; ")')"
           errors="$(gh run view "$run_id" --repo "$REPO" --log-failed 2>/dev/null \
             | grep -aE "##\[error\]|RuntimeError|[A-Za-z]+Error:" | grep -v "Process completed" \
             | sed 's/.*Z //' | tail -4)"
-          marker="fixer already attempted this outage"
           fence=$'\x60\x60\x60'
+          nonprocess="$(echo "$failed_jobs" | jq '[.[] | select(startswith("process (") | not)] | length')"
+          keys="$(echo "$failed_jobs" | jq -r '.[] | select(startswith("process (")) | capture("process \\((?<k>[^,)]+)").k')"
+          if [ "$nonprocess" -eq 0 ] && [ -n "$keys" ]; then
+            # Only per-meeting legs failed: quarantine those meetings so the
+            # pipeline keeps publishing everything else. Non-pausing.
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git fetch origin main && git checkout -B main origin/main
+            for k in $keys; do
+              sqlite3 data/registry.db "UPDATE meetings SET process_attempts = MAX(process_attempts, 5) WHERE meeting_key = '$k';"
+            done
+            git add data/registry.db
+            git commit -m "Quarantine $(echo "$keys" | tr '\n' ' ')after a failed automated fix attempt"
+            pushed=false
+            for _ in 1 2 3; do
+              if git push origin main; then pushed=true; break; fi
+              git pull --rebase origin main || true
+            done
+            if [ "$pushed" = "true" ]; then
+              paste="In the council-discourse repo (local checkout ~/Projects/data-projects/nyc/council-discourse): meeting(s) $(echo "$keys" | tr '\n' ' ')were quarantined (process_attempts=5) after failing and a failed automated fix attempt. Failed run: ${{ github.event.workflow_run.html_url }} - failed step(s): ${failed_steps:-unknown}. Error: ${errors:-see run log}. Diagnose the per-meeting cause, fix it, then un-park with: sqlite3 data/registry.db \"UPDATE meetings SET process_attempts = 0 WHERE meeting_key = '<key>';\" && git add data/registry.db && git commit -m 'Un-park <key>' && git push && gh workflow run production.yml"
+              qbody="$(printf '@umqadir - quarantined after a failed fix attempt; the pipeline continues for all other meetings:\n\n%s\n\n**Failed:** %s\n**Run:** %s\n**Error:**\n%s\n%s\n%s\n\n**Paste into local Claude Code to fix:**\n%s\n%s\n%s' \
+                "$keys" "${failed_steps:-unknown step}" "${{ github.event.workflow_run.html_url }}" "$fence" "${errors:-see run log}" "$fence" "$fence" "$paste" "$fence")"
+              qnum="$(gh issue list --repo "$REPO" --state open --search "in:title \"Meetings quarantined\"" --json number --jq '.[0].number // empty')"
+              if [ -z "$qnum" ]; then
+                gh issue create --repo "$REPO" --assignee umqadir \
+                  --title "Meetings quarantined: excluded from processing until reset" --body "$qbody"
+              else
+                gh issue comment "$qnum" --repo "$REPO" --body "$qbody"
+              fi
+              gh workflow run production.yml --repo "$REPO"
+              echo "quarantined: $keys - dispatched a verification run"
+              exit 0
+            fi
+            echo "::warning::could not push quarantine commit; falling back to pause escalation"
+          fi
+          marker="fixer already attempted this outage"
           paste="The council-discourse production pipeline (repo umqadir/council-discourse; local checkout ~/Projects/data-projects/nyc/council-discourse) is failing and the cloud auto-fixer could not resolve it. Failed run: ${{ github.event.workflow_run.html_url }} - failed step(s): ${failed_steps:-unknown}. Error: ${errors:-see run log}. Diagnose from 'gh run view ${run_id} --log-failed' and the cloud fixer's attempt in this repo's recent auto-fix runs, fix the root cause, then re-arm with 'gh workflow run production.yml'."
-          body="$(printf '@umqadir - production is still failing and the %s, so no new agent will run until a human intervenes.\n\n**Failed:** %s\n**Run:** %s\n**Error:**\n%s\n%s\n%s\n\n**Paste into local Claude Code to fix:**\n%s\n%s\n%s\n\nA green run re-arms the fixer and closes this issue.' \
+          body="$(printf '@umqadir - production is still failing and the %s, so no new agent will run until a human intervenes. The cron is paused while this issue is open.\n\n**Failed:** %s\n**Run:** %s\n**Error:**\n%s\n%s\n%s\n\n**Paste into local Claude Code to fix:**\n%s\n%s\n%s\n\nA green run re-arms the fixer and closes this issue.' \
             "$marker" "${failed_steps:-unknown step}" "${{ github.event.workflow_run.html_url }}" "$fence" "${errors:-see run log}" "$fence" "$fence" "$paste" "$fence")"
           number="$(gh issue list --repo "$REPO" --state open --search "in:title \"Pipeline needs attention\"" --json number --jq '.[0].number // empty')"
           if [ -z "$number" ]; then
@@ -101,11 +151,14 @@ jobs:
               --title "Pipeline needs attention: still failing after an automated fix attempt" \
               --body "$body"
           else
-            last_comment="$(gh api "repos/${REPO}/issues/${number}/comments" --jq 'last.body // ""')"
-            case "$last_comment" in
-              *"$marker"*) echo "escalation already posted; staying quiet" ;;
-              *) gh issue comment "$number" --repo "$REPO" --body "$body" ;;
-            esac
+            in_body="$(gh issue view "$number" --repo "$REPO" --json body --jq ".body | contains(\"$marker\")")"
+            in_comments="$(gh api "repos/${REPO}/issues/${number}/comments" --paginate \
+              --jq "[.[] | select(.body | contains(\"$marker\"))] | length")"
+            if [ "$in_body" = "true" ] || [ "$in_comments" -gt 0 ]; then
+              echo "escalation already posted; staying quiet"
+            else
+              gh issue comment "$number" --repo "$REPO" --body "$body"
+            fi
           fi
 
       - name: Diagnose and fix

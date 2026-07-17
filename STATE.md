@@ -46,10 +46,18 @@ and deploys the site. No routine human involvement is required.
 
 ## Self-protection (added after the July 2026 incident + 4-lens review)
 
-- Preflight (discover job): OpenRouter balance >= $4, Mistral auth, Google
-  auth — a run fails before any spend if a provider is unusable.
-- Circuit breaker: 3 consecutive failed runs halt the cron. Recovery: fix the
-  cause, `gh workflow run production.yml` — one green dispatched run re-arms.
+- Preflight (discover job): OpenRouter balance >= $2 (at/below the dashboard
+  auto-top-up trigger so no dead zone), Mistral auth, Google auth — a run
+  fails before any spend if a provider is unusable.
+- Pause switch: an open "Pipeline needs attention" issue (opened by the
+  auto-fixer, its gate, or the 6-consecutive-failure backstop) makes every
+  scheduled run a silent green no-op — no retries, no failure emails.
+  Recovery: fix the cause, `gh workflow run production.yml` — the green run
+  closes the issue (deploy job) and re-arms the cron. Quarantine issues
+  ("Meetings quarantined", "Meetings skipped by export") never pause.
+- Auto-fixer (auto-fix.yml): exactly one agent per red streak; on a second
+  failure its gate deterministically quarantines failing process-leg
+  meetings (non-pausing) or opens the pausing issue for anything else.
 - Stage artifacts (incl. per-chunk transcription and naming checkpoints)
   persist to `r2:council-discourse-videos/artifacts/<key>` and are restored at
   job start: retries resume at the failed stage instead of re-paying.
