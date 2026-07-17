@@ -717,7 +717,7 @@ def test_pull_export_inputs_fetches_only_unpublished_chapterized(tmp_path: Path,
     assert "artifacts/m-new" in calls[0][2]
 
 
-def test_pull_export_inputs_fails_when_complete_meeting_has_no_artifacts(tmp_path: Path, monkeypatch) -> None:
+def test_pull_export_inputs_skips_and_reports_meeting_with_no_artifacts(tmp_path: Path, monkeypatch) -> None:
     import subprocess as sp
 
     from pipeline import export_site, production
@@ -742,8 +742,11 @@ def test_pull_export_inputs_fails_when_complete_meeting_has_no_artifacts(tmp_pat
     # rclone "succeeds" but transfers nothing (the prefix is empty on R2).
     monkeypatch.setattr(production.subprocess, "run", lambda args, **kw: sp.CompletedProcess(args, 0))
 
-    with pytest.raises(RuntimeError, match="m-lost is chapterized .* missing from R2"):
-        production.pull_export_inputs(db_path, tmp_path / "meetings")
+    pulled = production.pull_export_inputs(db_path, tmp_path / "meetings")
+
+    # The blocked meeting is skipped, not fatal, and is reported for a human.
+    assert pulled == []
+    assert (tmp_path / "export-blocked.txt").read_text().splitlines() == ["m-lost"]
 
 
 def test_reset_meeting_clears_state_and_deletes_durable_records(tmp_path: Path, monkeypatch) -> None:

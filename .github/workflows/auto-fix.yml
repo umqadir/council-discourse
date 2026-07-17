@@ -92,8 +92,9 @@ jobs:
             | sed 's/.*Z //' | tail -4)"
           marker="fixer already attempted this outage"
           fence=$'\x60\x60\x60'
-          body="$(printf '@umqadir - production is still failing and the %s, so no new agent will run until a human intervenes.\n\n**Failed:** %s\n**Run:** %s\n**Error:**\n%s\n%s\n%s\n\nWhen the cause is fixed, dispatch production.yml manually - a green run re-arms the fixer and closes this issue.' \
-            "$marker" "${failed_steps:-unknown step}" "${{ github.event.workflow_run.html_url }}" "$fence" "${errors:-see run log}" "$fence")"
+          paste="The council-discourse production pipeline (repo umqadir/council-discourse; local checkout ~/Projects/data-projects/nyc/council-discourse) is failing and the cloud auto-fixer could not resolve it. Failed run: ${{ github.event.workflow_run.html_url }} - failed step(s): ${failed_steps:-unknown}. Error: ${errors:-see run log}. Diagnose from 'gh run view ${run_id} --log-failed' and the cloud fixer's attempt in this repo's recent auto-fix runs, fix the root cause, then re-arm with 'gh workflow run production.yml'."
+          body="$(printf '@umqadir - production is still failing and the %s, so no new agent will run until a human intervenes.\n\n**Failed:** %s\n**Run:** %s\n**Error:**\n%s\n%s\n%s\n\n**Paste into local Claude Code to fix:**\n%s\n%s\n%s\n\nA green run re-arms the fixer and closes this issue.' \
+            "$marker" "${failed_steps:-unknown step}" "${{ github.event.workflow_run.html_url }}" "$fence" "${errors:-see run log}" "$fence" "$fence" "$paste" "$fence")"
           number="$(gh issue list --repo "$REPO" --state open --search "in:title \"Pipeline needs attention\"" --json number --jq '.[0].number // empty')"
           if [ -z "$number" ]; then
             gh issue create --repo "$REPO" --assignee umqadir \
@@ -194,6 +195,14 @@ jobs:
               with "@umqadir" - they do not watch this repo, so an unassigned,
               unmentioned issue reaches no one. When updating an existing issue,
               add the "@umqadir" mention in your comment.
+            - Every issue you open or update MUST end with a fenced block
+              titled "Paste into local Claude Code to fix:" containing a
+              self-contained brief - cause, evidence (run links, error text),
+              exactly what you already tried, and the one concrete action
+              needed - such that pasting it into a local agent resolves the
+              problem without reading this issue's history. The maintainer
+              handles credentials/billing themselves; everything else should
+              be executable from that brief.
             - Never delete or overwrite R2 artifacts, and never re-run a paid
               stage whose artifact already persists on R2 — restore-and-resume
               is the contract. site/src/data/meetings/ is export-owned; leave

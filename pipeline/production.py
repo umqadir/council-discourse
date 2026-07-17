@@ -709,7 +709,8 @@ def pull_export_inputs(db_path: Path = REGISTRY_DB, meetings_dir: Path = MEETING
     rows = export_site.publishable_registry_rows(conn)
     remote = os.environ.get("R2_RCLONE_REMOTE", R2_REMOTE).strip() or R2_REMOTE
     bucket = os.environ.get("R2_BUCKET", R2_BUCKET).strip() or R2_BUCKET
-    pulled = []
+    pulled: list[str] = []
+    blocked: list[str] = []
     for row in rows:
         meeting_key = str(row["meeting_key"])
         meeting_dir = meetings_dir / meeting_key
@@ -726,16 +727,26 @@ def pull_export_inputs(db_path: Path = REGISTRY_DB, meetings_dir: Path = MEETING
         for name in EXPORT_INPUT_FILES:
             args += ["--include", name]
         subprocess.run(args, check=True, env=_rclone_env(remote))
-        pulled.append(meeting_key)
-        # Invariant: complete implies publishable. A registry row marked
-        # chapterized whose artifacts never reached R2 would otherwise be
-        # skipped by export forever — completed work with no page, silently.
+        # Invariant: complete implies publishable — but one meeting whose
+        # artifacts never reached R2 must not stall the whole pipeline.
+        # Skip it (export ignores dirs without artifacts, so its previously
+        # committed page keeps serving) and surface it for a human via the
+        # blocked file the workflow turns into an assigned issue.
         if not (meeting_dir / "chapters.json").exists():
-            raise RuntimeError(
-                f"{meeting_key} is chapterized in the registry but its export inputs "
-                f"are missing from R2 (artifacts/{meeting_key}); refusing to publish a "
-                "registry state the site cannot honor"
+            blocked.append(meeting_key)
+            print(
+                f"::warning::{meeting_key} is chapterized in the registry but its export "
+                f"inputs are missing from R2 (artifacts/{meeting_key}); skipping its "
+                "(re)publish — the existing page, if any, keeps serving",
+                flush=True,
             )
+            continue
+        pulled.append(meeting_key)
+    blocked_path = meetings_dir.parent / "export-blocked.txt"
+    if blocked:
+        blocked_path.write_text("\n".join(blocked) + "\n")
+    elif blocked_path.exists():
+        blocked_path.unlink()
     if pulled:
         print(f"pull-export-inputs: fetched {len(pulled)} meeting dir(s): {', '.join(pulled)}", flush=True)
     else:

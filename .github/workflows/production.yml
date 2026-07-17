@@ -399,6 +399,35 @@ jobs:
       - name: Pull export inputs from R2
         run: uv run python -m pipeline pull-export-inputs
 
+      # A meeting export had to skip (chapterized but artifacts missing on
+      # R2) never blocks the run; it is reported here so a human decides:
+      # restore the artifacts (often present locally in data/meetings/<key>/)
+      # or reset the meeting. Self-closes when nothing is blocked.
+      - name: Alert on export-blocked meetings
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          f=data/export-blocked.txt
+          title="Meetings skipped by export: artifacts missing"
+          number="$(gh issue list --repo "$REPO" --state open --search "in:title \"Meetings skipped by export\"" --json number --jq '.[0].number // empty')"
+          if [ ! -s "$f" ]; then
+            if [ -n "$number" ]; then
+              gh issue close "$number" --repo "$REPO" --comment "No meetings remain export-blocked; closing."
+            fi
+            exit 0
+          fi
+          body="$(printf '@umqadir - these chapterized meetings have no artifacts on R2, so export skipped (re)publishing them; their existing pages keep serving and the pipeline continues normally. To fix: restore artifacts/<key>/ on R2 (complete copies usually exist locally in data/meetings/<key>/) or reset the meeting.\n\n%s' "$(cat "$f")")"
+          if [ -z "$number" ]; then
+            gh issue create --repo "$REPO" --assignee umqadir --title "$title" --body "$body"
+          else
+            latest="$(gh api "repos/${REPO}/issues/${number}/comments" --jq 'last.body // ""')"
+            opening="$(gh issue view "$number" --repo "$REPO" --json body --jq .body)"
+            if [ "$body" != "$latest" ] && [ "$body" != "$opening" ]; then
+              gh issue comment "$number" --repo "$REPO" --body "$body"
+            fi
+          fi
+
       - name: Export site data
         run: uv run python -m pipeline export-site --allow-empty
 
