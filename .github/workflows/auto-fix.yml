@@ -55,7 +55,7 @@ jobs:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           # Least-privilege toolset, mirroring the action's official
           # ci-failure-auto-fix example, adapted to this repo's stack.
-          claude_args: "--model claude-opus-4-8 --max-turns 80 --allowedTools 'Edit,MultiEdit,Write,Read,Glob,Grep,LS,Bash(git:*),Bash(gh:*),Bash(uv:*),Bash(actionlint:*),Bash(sqlite3:*)'"
+          claude_args: "--model claude-opus-4-8 --max-turns 80 --allowedTools 'Edit,MultiEdit,Write,Read,Glob,Grep,LS,WebFetch,WebSearch,Bash(git:*),Bash(gh:*),Bash(uv:*),Bash(actionlint:*),Bash(sqlite3:*)'"
           # Public repo: the fixer's reasoning in the run log is transparency,
           # and without it a silent SDK failure is undiagnosable (learned the
           # hard way — a 2-second "success" that did nothing).
@@ -75,21 +75,49 @@ jobs:
                (and `--log` for surrounding context if needed).
 
             Then take exactly one of these paths:
-            - NOT code-fixable (exhausted OpenRouter credits, Mistral/Google
-              auth or billing, an upstream service outage, the circuit breaker
-              halting after repeated failures): do NOT change code. Open or
-              update a GitHub issue titled "Pipeline needs attention:
-              <cause>" with the specifics and the exact recovery step, then stop.
+            - Genuinely external (exhausted OpenRouter credits, Mistral or
+              Google auth/billing, an upstream service outage): nothing in
+              this repo can fix it. Open or update a GitHub issue titled
+              "Pipeline needs attention: <cause>" with the specifics and the
+              exact recovery step, then stop.
             - Transient one-off (e.g. a single network timeout the next cron
               will clear): do nothing but say so clearly in your final message.
-            - A real defect in this repository: implement the minimal clean
-              fix at the root cause — no defensive band-aids around a broken
-              contract. You MUST run `uv run pytest tests/ -q` and
+            - Anything else — a code defect, or pipeline state wedged by one
+              (a deterministically failing meeting, a breaker halt whose root
+              cause you can fix): fix it END TO END; do not stop at a
+              diagnosis. Implement the minimal clean fix at the root cause —
+              no defensive band-aids around a broken contract. Verify claims
+              before treating them as constraints (e.g. check a model's actual
+              context window via its provider's API rather than assuming).
+              You MUST run `uv run pytest tests/ -q` and
               `actionlint .github/workflows/production.yml` and get them fully
               green. Only then commit to main with a clear imperative message
-              and push. If you cannot get green, or the fix requires an
-              architectural judgment call, push nothing — open an issue with
-              your diagnosis and proposed patch instead.
+              and push. If the durable fix needs real architectural rework,
+              still apply the smallest sound unblock now (recalibrate a
+              miscalibrated guard with a test, park the poison meeting), push
+              it, and open an assigned issue describing the rework. If you
+              cannot get green, open an issue with your diagnosis and
+              proposed patch instead.
+
+            After pushing a fix that unblocks a halted or failing pipeline,
+            re-arm it yourself: `gh workflow run production.yml` (a dispatch
+            bypasses the schedule-gated breaker; the preflight credit gate and
+            the breaker bound spend). At most one dispatch per fixer run, only
+            after your fix is pushed, and never if a previous fixer run
+            already dispatched for this same cause and it failed again — that
+            means your theory is wrong; escalate via issue instead.
+
+            Registry surgery (data/registry.db via sqlite3) is a legitimate
+            recovery tool, under these invariants:
+            - Read STATE.md's state model first. Never regress a stage status
+              and never delete a row — paid work must stay recorded.
+            - Adjusting process_attempts / last_error to park or un-park a
+              meeting is the expected use; rewriting statuses is not.
+            - Do not edit the registry while a production run is in progress
+              or queued (`gh run list --workflow=production.yml` first) — its
+              export job commits the registry and will race you.
+            - Commit the registry change as its own commit and rebase onto
+              origin/main immediately before pushing.
 
             Hard rules:
             - Any issue you open MUST be assigned to the maintainer
@@ -97,12 +125,16 @@ jobs:
               with "@umqadir" - they do not watch this repo, so an unassigned,
               unmentioned issue reaches no one. When updating an existing issue,
               add the "@umqadir" mention in your comment.
-            - Never modify data/registry.db, site/src/data/meetings/, or any
-              R2 object; never trigger paid processing yourself.
+            - Never delete or overwrite R2 artifacts, and never re-run a paid
+              stage whose artifact already persists on R2 — restore-and-resume
+              is the contract. site/src/data/meetings/ is export-owned; leave
+              it to the pipeline.
             - Never disable, weaken, or work around a failing guard, test, or
-              invariant to make the run pass — those exist to fail.
-            - One focused commit at most. If main moved while you worked,
-              rebase your commit onto origin/main before pushing.
+              invariant to make the run pass — those exist to fail. If a guard
+              is provably miscalibrated, recalibrating it WITH an updated test
+              is a fix; deleting or bypassing it is not.
+            - Keep commits focused. If main moved while you worked, rebase
+              onto origin/main before pushing.
 
       # The action can report success while the SDK errored before doing any
       # work (observed: "Credit balance is too low" on a green step). A fixer
