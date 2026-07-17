@@ -61,6 +61,18 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          # An open "Pipeline needs attention" issue means the outage has been
+          # handed to a human (by the fixer or its gate): pause the cron
+          # immediately instead of failing on repeat until the count-based
+          # breaker trips. A green manual dispatch closes the issue (deploy
+          # job) and re-arms the cron. Quarantine issues ("Meetings
+          # quarantined", "Meetings skipped by export") do NOT pause anything.
+          open_attention="$(gh issue list --repo "${{ github.repository }}" --state open \
+            --search "in:title \"Pipeline needs attention\"" --json number --jq '.[0].number // empty')"
+          if [ -n "$open_attention" ]; then
+            echo "::error::Pipeline paused: open 'Pipeline needs attention' issue #${open_attention} hands this outage to a human. Fix the cause, then dispatch production.yml; a green run closes the issue and re-arms the cron."
+            exit 1
+          fi
           conclusions="$(gh api "repos/${{ github.repository }}/actions/workflows/production.yml/runs?status=completed&per_page=6" \
             --jq '[.workflow_runs[].conclusion]')"
           echo "last completed conclusions: $(echo "$conclusions" | jq -r 'join(",")')"

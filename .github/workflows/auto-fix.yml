@@ -141,7 +141,13 @@ jobs:
               Google auth/billing, an upstream service outage): nothing in
               this repo can fix it. Open or update a GitHub issue titled
               "Pipeline needs attention: <cause>" with the specifics and the
-              exact recovery step, then stop.
+              exact recovery step, then stop. That title is the pause switch:
+              while such an issue is open, the production cron halts
+              immediately instead of failing on repeat; the maintainer's
+              green dispatch closes it and re-arms the cron. So use it
+              exactly when a human must act, and never for a problem the
+              pipeline can keep working around (quarantines have their own
+              non-pausing issues).
             - Transient one-off (e.g. a single network timeout the next cron
               will clear): do nothing but say so clearly in your final message.
             - Anything else — a code defect, or pipeline state wedged by one
