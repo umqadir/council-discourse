@@ -62,9 +62,19 @@ jobs:
         run: |
           last_green="$(gh api "repos/${REPO}/actions/workflows/production.yml/runs?status=success&per_page=1" \
             --jq '.workflow_runs[0].run_started_at // "1970-01-01T00:00:00Z"')"
-          prior="$(gh api -X GET "repos/${REPO}/actions/workflows/auto-fix.yml/runs" \
+          # Count only runs where the agent step actually executed. A run
+          # whose fix job was skipped (production succeeded) or where this
+          # gate itself skipped the agent still completes "success", so run
+          # conclusions cannot distinguish a real attempt; inspect the
+          # "Diagnose and fix" step inside each run instead.
+          prior=0
+          for id in $(gh api -X GET "repos/${REPO}/actions/workflows/auto-fix.yml/runs" \
             -f status=completed -f created=">=${last_green}" -f per_page=100 \
-            --jq '.workflow_runs | length')"
+            --jq '.workflow_runs[].id'); do
+            ran="$(gh api "repos/${REPO}/actions/runs/${id}/jobs" \
+              --jq '[.jobs[].steps[]? | select(.name == "Diagnose and fix") | select(.conclusion == "success" or .conclusion == "failure")] | length')"
+            prior=$((prior + ran))
+          done
           echo "completed fixer runs since last green production ($last_green): $prior"
           if [ "$prior" -eq 0 ]; then
             echo "skip=false" >> "$GITHUB_OUTPUT"
