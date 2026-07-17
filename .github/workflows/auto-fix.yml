@@ -91,6 +91,17 @@ jobs:
             echo "skip=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
+          # A DISPATCHED run failing is new evidence from an in-progress fix
+          # (a fixer's or human's verification run, possibly failing past the
+          # point the prior session watched), not an unchanged situation:
+          # continue the outage with a successor agent, hard-capped at 3
+          # sessions per streak. Scheduled failures after an attempt mean the
+          # situation is unchanged - resolve deterministically below.
+          if [ "${{ github.event.workflow_run.event }}" = "workflow_dispatch" ] && [ "$prior" -lt 3 ]; then
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            echo "dispatched verification failed - continuing this outage with agent session $((prior + 1))/3"
+            exit 0
+          fi
           echo "skip=true" >> "$GITHUB_OUTPUT"
           # If the prior fixer's verification dispatch is still queued or
           # running, this failure may already be fixed - stay quiet this
@@ -242,11 +253,18 @@ jobs:
             you already hold the context. Iterate like a debugging loop.
             Bounds: at most 3 dispatches per session; if the run is past the
             step that failed and the remainder is just long paid processing,
-            you may declare success without waiting for full green (the gate
-            treats an in-flight run as verification pending). If you exhaust
-            your attempts or time and it is still red, quarantine or
-            escalate per the rules above before you stop — never end a
-            session leaving the pipeline red with no handoff.
+            you may declare success without waiting for full green — if that
+            tail later fails, a successor session picks it up automatically
+            (dispatched-run failures continue the outage, capped at 3 agent
+            sessions per streak). If you exhaust your attempts or time and
+            it is still red, quarantine or escalate per the rules above
+            before you stop — never end a session leaving the pipeline red
+            with no handoff.
+
+            You may be that successor: check recent auto-fix runs
+            (`gh run list --workflow=auto-fix.yml`) and `git log` for a
+            prior session's attempt on this same outage, and build on its
+            diagnosis and partial fix instead of re-deriving from scratch.
 
             Registry surgery (data/registry.db via sqlite3) is a legitimate
             recovery tool, under these invariants:
