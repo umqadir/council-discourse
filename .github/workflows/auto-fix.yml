@@ -30,7 +30,11 @@ jobs:
   fix:
     if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'failure' }}
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    # Generous: the agent debugs in a loop (fix -> dispatch -> watch ->
+    # fix), and watching a verification run is mostly idle time. A timeout
+    # still counts as the streak's one attempt (the gate counts cancelled
+    # steps), so a hung session cannot spawn a chain of successors.
+    timeout-minutes: 120
     steps:
       - name: Check out repository
         uses: actions/checkout@v5
@@ -228,13 +232,21 @@ jobs:
             what exactly is wrong with it, and what a human should do. One
             wedged meeting must never stop the pipeline.
 
-            After pushing a fix that unblocks a halted or failing pipeline,
-            re-arm it yourself: `gh workflow run production.yml` (a dispatch
-            bypasses the schedule-gated breaker; the preflight credit gate and
-            the breaker bound spend). At most one dispatch per fixer run, only
-            after your fix is pushed, and never if a previous fixer run
-            already dispatched for this same cause and it failed again — that
-            means your theory is wrong; escalate via issue instead.
+            Debug until green: after pushing a fix, re-arm the pipeline
+            yourself with `gh workflow run production.yml` (a dispatch
+            bypasses the schedule-gated pause; the preflight credit gate
+            bounds spend) and WATCH the run (`gh run watch <id>` or poll
+            `gh run view`). If it fails again — on the same cause or a new
+            one your change surfaced — that is information, not a stop sign:
+            diagnose the new failure and keep fixing IN THIS SESSION, where
+            you already hold the context. Iterate like a debugging loop.
+            Bounds: at most 3 dispatches per session; if the run is past the
+            step that failed and the remainder is just long paid processing,
+            you may declare success without waiting for full green (the gate
+            treats an in-flight run as verification pending). If you exhaust
+            your attempts or time and it is still red, quarantine or
+            escalate per the rules above before you stop — never end a
+            session leaving the pipeline red with no handoff.
 
             Registry surgery (data/registry.db via sqlite3) is a legitimate
             recovery tool, under these invariants:
