@@ -133,6 +133,39 @@ jobs:
             echo "has_pending=$has_pending"
           } >> "$GITHUB_OUTPUT"
 
+      # A meeting at the retry cap is excluded from processing, but it must
+      # never rot silently: the pipeline goes green without it and the
+      # watchdog stays quiet. Surface every parked meeting on an assigned
+      # issue until a human or the auto-fixer un-parks it (reset
+      # process_attempts; artifacts persist on R2, so nothing is re-paid).
+      # Deduped: posts only when the parked set changes.
+      - name: Alert on parked meetings
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          parked="$(sqlite3 data/registry.db "SELECT meeting_key || ' | ' || COALESCE(body_name,'?') || ' | ' || COALESCE(substr(event_date,1,10),'?') || ' | ' || COALESCE(replace(substr(last_error,1,140), char(10), ' '),'no recorded error') FROM meetings WHERE process_attempts >= 5 AND chapterize_status != 'chapterized' ORDER BY meeting_key;")"
+          if [ -z "$parked" ]; then
+            echo "no parked meetings"
+            exit 0
+          fi
+          echo "parked meetings:"
+          echo "$parked"
+          title="Pipeline needs attention: meetings parked at the retry cap"
+          body="$(printf '@umqadir - these meetings hit the 5-attempt retry cap and are excluded from processing until process_attempts is reset (recovery in STATE.md; paid artifacts persist on R2, nothing is re-paid on retry):\n\n%s' "$parked")"
+          number="$(gh issue list --repo "$REPO" --state open --search "in:title \"parked at the retry cap\"" --json number --jq '.[0].number // empty')"
+          if [ -z "$number" ]; then
+            gh issue create --repo "$REPO" --assignee umqadir --title "$title" --body "$body"
+            exit 0
+          fi
+          opening="$(gh issue view "$number" --repo "$REPO" --json body --jq .body)"
+          latest="$(gh api "repos/${REPO}/issues/${number}/comments" --jq 'last.body // ""')"
+          if [ "$body" = "$opening" ] || [ "$body" = "$latest" ]; then
+            echo "parked set unchanged; already reported on issue #$number"
+          else
+            gh issue comment "$number" --repo "$REPO" --body "$body"
+          fi
+
       - name: Checkpoint registry
         run: uv run python -m pipeline checkpoint-db
 
