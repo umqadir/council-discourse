@@ -66,7 +66,7 @@ if (!getMeeting(body.slug, meeting.slug)) {
   </section>
 
   <section
-    class="mx-auto grid max-w-6xl gap-x-10 gap-y-8 px-4 pb-12 md:px-6 lg:grid-cols-[25rem_minmax(0,1fr)]"
+    class="mx-auto grid max-w-6xl gap-x-4 gap-y-8 px-4 pb-12 md:px-6 lg:grid-cols-[25rem_2.5rem_minmax(0,1fr)]"
     x-data={`{ selected: ${filterData} }`}
   >
     <aside class="min-w-0 lg:sticky lg:top-6 lg:self-start">
@@ -99,6 +99,8 @@ if (!getMeeting(body.slug, meeting.slug)) {
       </div>
     </aside>
 
+    <ChapterTrail meeting={meeting} />
+
     <div class="min-w-0">
       <div class="mb-4 border-b border-line pb-3">
         <h2 class="font-serif text-3xl font-semibold">Meeting chapters</h2>
@@ -127,6 +129,5 @@ if (!getMeeting(body.slug, meeting.slug)) {
       {meeting.chapters.map((chapter) => <ChapterCard meeting={meeting} chapter={chapter} />)}
     </div>
 
-    <ChapterTrail meeting={meeting} />
   </section>
 </BaseLayout>

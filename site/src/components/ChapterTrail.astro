@@ -14,7 +14,7 @@ const dense = count > 90;
 {
   count > 6 && (
     <nav
-      class="chapter-trail fixed left-2 top-1/2 z-20 hidden h-[min(72vh,640px)] -translate-y-1/2 flex-col items-start justify-center xl:flex"
+      class="chapter-trail sticky top-[12vh] z-20 hidden h-[min(76vh,680px)] self-start flex-col items-start justify-center lg:flex"
       aria-label="Chapter minimap"
     >
       <div
@@ -33,13 +33,13 @@ const dense = count > 90;
 
       <div
         class="chapter-ticks flex h-full flex-col items-start justify-center"
-        style={`gap: ${dense ? "1px" : "3px"};`}
+        style={`gap: ${dense ? "1.25px" : "4px"};`}
       >
         {meeting.chapters.map((chapter, index) => (
           <button
             type="button"
             class="chapter-tick flex w-9 flex-1 items-center justify-start border-0 bg-transparent p-0 outline-none"
-            style="min-height: 3px; max-height: 8px;"
+            style="min-height: 3px; max-height: 9px;"
             data-index={index}
             data-type={chapter.type}
             data-badge={chapterTypeLabel(chapter.type)}
@@ -115,7 +115,7 @@ const dense = count > 90;
         const ordinal = visible.indexOf(index);
         const distance = ordinal < 0 ? Number.POSITIVE_INFINITY : Math.abs(ordinal - center);
         const influence = Math.exp(-0.5 * Math.pow(distance / 1.65, 2));
-        bar.style.setProperty("--tick-width", `${10 + 18 * influence}px`);
+        bar.style.setProperty("--tick-width", `${12 + 19 * influence}px`);
         bar.dataset.focal = index === nextFocalIndex ? "true" : "false";
       }
 
