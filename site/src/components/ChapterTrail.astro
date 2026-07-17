@@ -1,5 +1,5 @@
 ---
-import { formatClock } from "@lib/format";
+import { chapterTypeLabel, formatClock } from "@lib/format";
 import type { Meeting } from "@lib/types";
 
 interface Props {
@@ -14,47 +14,43 @@ const dense = count > 90;
 {
   count > 6 && (
     <nav
-      class="chapter-trail fixed left-2 top-1/2 z-20 hidden -translate-y-1/2 xl:block"
-      data-hovering="false"
-      aria-label="Chapter outline"
+      class="chapter-trail fixed left-2 top-1/2 z-20 hidden h-[min(72vh,640px)] -translate-y-1/2 flex-col items-start justify-center xl:flex"
+      aria-label="Chapter minimap"
     >
-      <button
-        type="button"
-        class="chapter-trail-trigger flex h-[min(60vh,540px)] w-9 flex-col items-start justify-center rounded-md border-0 bg-transparent px-0 outline-none focus-visible:ring-2 focus-visible:ring-civic/40"
-        style={`gap: ${dense ? "1px" : "4px"};`}
-        aria-label="Open chapter outline"
-        aria-expanded="false"
+      <div
+        class="chapter-trail-card pointer-events-none absolute left-full top-0 ml-3 hidden w-72 max-w-[19rem] -translate-y-1/2 flex-col gap-1.5 rounded-lg border border-line bg-paper p-3 shadow-lg ring-1 ring-ink/5"
       >
-        {meeting.chapters.map((chapter, index) => (
+        <div class="flex items-center gap-2">
           <span
-            class="chapter-pill h-0.5 w-4 min-h-px flex-none rounded-full bg-muted/40"
-            style={count * (dense ? 3 : 6) > 540 ? "flex: 1 1 0; max-height: 2px;" : ""}
-            data-index={index}
-            data-type={chapter.type}
-            data-current="false"
-            x-show="selected[$el.dataset.type]"
-            x-cloak
+            class="inline-flex items-center rounded-full border border-line bg-paper px-2 py-0.5 text-[0.6rem] font-semibold uppercase leading-none tracking-[0.08em] text-ink"
+            data-card-badge
           />
-        ))}
-      </button>
+          <span class="tabular text-xs text-muted" data-card-clock />
+        </div>
+        <p class="font-serif text-sm font-semibold leading-snug text-ink" data-card-title />
+        <p class="line-clamp-2 text-xs leading-relaxed text-muted" data-card-summary />
+      </div>
 
       <div
-        class="chapter-trail-panel absolute left-full top-1/2 ml-2 hidden max-h-[60vh] w-72 -translate-y-1/2 overflow-y-auto rounded-2xl bg-paper p-1 text-sm shadow-lg ring-1 ring-ink/10"
-        data-hovering="false"
+        class="chapter-ticks flex h-full flex-col items-start justify-center"
+        style={`gap: ${dense ? "1px" : "3px"};`}
       >
         {meeting.chapters.map((chapter, index) => (
           <button
             type="button"
-            class="chapter-trail-item flex min-h-7 w-full min-w-0 items-center gap-2 rounded-xl px-2 py-1.5 text-left outline-none"
+            class="chapter-tick flex w-9 flex-1 items-center justify-start border-0 bg-transparent p-0 outline-none"
+            style="min-height: 3px; max-height: 8px;"
             data-index={index}
             data-type={chapter.type}
-            data-current="false"
-            data-hovered="false"
+            data-badge={chapterTypeLabel(chapter.type)}
+            data-clock={formatClock(chapter.start_sec)}
+            data-title={chapter.title}
+            data-summary={chapter.summary}
+            aria-label={`Jump to: ${chapter.title}`}
             x-show="selected[$el.dataset.type]"
             x-cloak
           >
-            <span class="tabular shrink-0 text-xs text-muted">{formatClock(chapter.start_sec)}</span>
-            <span class="line-clamp-1 min-w-0 text-ink">{chapter.title}</span>
+            <span class="chapter-tick-bar" data-focal="false" />
           </button>
         ))}
       </div>
@@ -63,32 +59,24 @@ const dense = count > 90;
 }
 
 <style>
-  .chapter-pill {
-    transition: background-color 0.12s ease;
+  .chapter-tick-bar {
+    height: 2px;
+    width: var(--tick-width, 12px);
+    border-radius: 9999px;
+    background: rgba(98, 95, 88, 0.35);
+    transition:
+      width 90ms ease-out,
+      background-color 90ms ease-out;
   }
-  .chapter-pill[data-current="true"] {
+  .chapter-tick-bar[data-focal="true"] {
     background: #141311;
   }
-  .chapter-trail[data-hovering="true"] .chapter-pill[data-current="true"] {
-    background: rgba(98, 95, 88, 0.4);
-  }
-  .chapter-trail-item {
-    transition:
-      background-color 0.12s ease,
-      color 0.12s ease;
-  }
-  .chapter-trail-panel[data-hovering="false"] .chapter-trail-item[data-current="true"],
-  .chapter-trail-item[data-hovered="true"],
-  .chapter-trail-item:focus-visible {
-    background: rgba(20, 19, 17, 0.07);
-  }
-  .chapter-trail[data-hovering="true"] .chapter-pill,
-  .chapter-trail-panel[data-hovering="true"] .chapter-trail-item {
-    transition: none;
+  .chapter-tick:focus-visible {
+    border-radius: 3px;
+    box-shadow: 0 0 0 2px rgba(20, 19, 17, 0.18);
   }
   @media (prefers-reduced-motion: reduce) {
-    .chapter-pill,
-    .chapter-trail-item {
+    .chapter-tick-bar {
       transition: none;
     }
   }
@@ -97,105 +85,148 @@ const dense = count > 90;
 <script>
   const trail = document.querySelector<HTMLElement>(".chapter-trail");
   if (trail) {
-    const trigger = trail.querySelector<HTMLButtonElement>(".chapter-trail-trigger");
-    const panel = trail.querySelector<HTMLElement>(".chapter-trail-panel");
-    const pills = [...trail.querySelectorAll<HTMLElement>(".chapter-pill")];
-    const items = [...trail.querySelectorAll<HTMLButtonElement>(".chapter-trail-item")];
+    const ticks = [...trail.querySelectorAll<HTMLButtonElement>(".chapter-tick")];
+    const bars = ticks.map((tick) => tick.querySelector<HTMLElement>(".chapter-tick-bar"));
     const cards = [...document.querySelectorAll<HTMLElement>("[data-chapter-card]")];
+    const preview = trail.querySelector<HTMLElement>(".chapter-trail-card");
+    const badge = preview?.querySelector<HTMLElement>("[data-card-badge]");
+    const clock = preview?.querySelector<HTMLElement>("[data-card-clock]");
+    const title = preview?.querySelector<HTMLElement>("[data-card-title]");
+    const summary = preview?.querySelector<HTMLElement>("[data-card-summary]");
     const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-    let currentIndex = -1;
-    let raf = 0;
-    const paintCurrent = () => {
-      raf = 0;
-      const readingLine = window.innerHeight / 3;
-      const visible: number[] = [];
+    let scrollCenter = 0;
+    let pointerCenter: number | null = null;
+    let focalIndex = -1;
+    let paintFrame = 0;
 
-      for (let index = 0; index < cards.length; index += 1) {
-        pills[index].dataset.current = "false";
-        items[index].dataset.current = "false";
-        items[index].removeAttribute("aria-current");
-        if (cards[index].offsetParent !== null) visible.push(index);
+    const visibleIndices = () =>
+      ticks.flatMap((tick, index) =>
+        tick.offsetParent !== null && cards[index]?.offsetParent !== null ? [index] : [],
+      );
+
+    const paintLens = (center: number, visible: number[]) => {
+      const focalOrdinal = Math.max(0, Math.min(visible.length - 1, Math.round(center)));
+      const nextFocalIndex = visible[focalOrdinal] ?? -1;
+
+      for (let index = 0; index < bars.length; index += 1) {
+        const bar = bars[index];
+        if (!bar) continue;
+        const ordinal = visible.indexOf(index);
+        const distance = ordinal < 0 ? Number.POSITIVE_INFINITY : Math.abs(ordinal - center);
+        const influence = Math.exp(-0.5 * Math.pow(distance / 1.65, 2));
+        bar.style.setProperty("--tick-width", `${10 + 18 * influence}px`);
+        bar.dataset.focal = index === nextFocalIndex ? "true" : "false";
       }
 
-      currentIndex = visible[0] ?? -1;
-      for (const index of visible) {
-        if (cards[index].getBoundingClientRect().top <= readingLine) currentIndex = index;
+      focalIndex = nextFocalIndex;
+    };
+
+    const calculateScrollCenter = (visible: number[]) => {
+      if (!visible.length) return 0;
+      const readingPosition = window.scrollY + window.innerHeight / 3;
+      const starts = visible.map((index) => cards[index].getBoundingClientRect().top + window.scrollY);
+
+      if (readingPosition <= starts[0]) return 0;
+      for (let ordinal = 0; ordinal < starts.length - 1; ordinal += 1) {
+        if (readingPosition < starts[ordinal + 1]) {
+          const span = Math.max(1, starts[ordinal + 1] - starts[ordinal]);
+          return ordinal + (readingPosition - starts[ordinal]) / span;
+        }
       }
-
-      if (currentIndex >= 0) {
-        pills[currentIndex].dataset.current = "true";
-        items[currentIndex].dataset.current = "true";
-        items[currentIndex].setAttribute("aria-current", "location");
-      }
-    };
-    const requestPaintCurrent = () => {
-      if (!raf) raf = requestAnimationFrame(paintCurrent);
+      return starts.length - 1;
     };
 
-    window.addEventListener("scroll", requestPaintCurrent, { passive: true });
-    window.addEventListener("resize", requestPaintCurrent, { passive: true });
-    const filterObserver = new MutationObserver(requestPaintCurrent);
-    for (const chapterCard of cards) {
-      filterObserver.observe(chapterCard, { attributes: true, attributeFilter: ["style"] });
-    }
-    paintCurrent();
-
-    let closeTimer = 0;
-    const open = () => {
-      window.clearTimeout(closeTimer);
-      if (!panel || !trigger) return;
-      const wasHidden = panel.classList.contains("hidden");
-      panel.classList.remove("hidden");
-      trigger.setAttribute("aria-expanded", "true");
-      if (wasHidden && currentIndex >= 0) {
-        const current = items[currentIndex];
-        panel.scrollTop = current.offsetTop - panel.clientHeight / 2 + current.clientHeight / 2;
-      }
-    };
-    const close = () => {
-      if (!panel || !trigger) return;
-      panel.classList.add("hidden");
-      trigger.setAttribute("aria-expanded", "false");
-      trail.dataset.hovering = "false";
-      panel.dataset.hovering = "false";
-      for (const item of items) item.dataset.hovered = "false";
-    };
-    const scheduleClose = () => {
-      window.clearTimeout(closeTimer);
-      closeTimer = window.setTimeout(close, 150);
+    const paintFromScroll = () => {
+      paintFrame = 0;
+      const visible = visibleIndices();
+      scrollCenter = calculateScrollCenter(visible);
+      if (pointerCenter === null) paintLens(scrollCenter, visible);
     };
 
-    trail.addEventListener("mouseenter", open);
-    trail.addEventListener("mouseleave", scheduleClose);
-    trail.addEventListener("focusin", open);
-    trail.addEventListener("focusout", scheduleClose);
-
-    let hovered: HTMLElement | null = null;
-    const setHovered = (item: HTMLElement | null) => {
-      if (!panel) return;
-      if (hovered) hovered.dataset.hovered = "false";
-      hovered = item;
-      if (hovered) hovered.dataset.hovered = "true";
-      trail.dataset.hovering = hovered ? "true" : "false";
-      panel.dataset.hovering = hovered ? "true" : "false";
+    const requestScrollPaint = () => {
+      if (!paintFrame) paintFrame = requestAnimationFrame(paintFromScroll);
     };
 
-    for (const item of items) {
-      const index = Number(item.dataset.index);
-      item.addEventListener("mouseenter", () => setHovered(item));
-      item.addEventListener("mouseleave", () => {
-        if (hovered === item) setHovered(null);
+    const showPreview = (index: number) => {
+      const tick = ticks[index];
+      if (!tick || !preview || !badge || !clock || !title || !summary) return;
+      badge.textContent = tick.dataset.badge ?? "";
+      clock.textContent = tick.dataset.clock ?? "";
+      title.textContent = tick.dataset.title ?? "";
+      summary.textContent = tick.dataset.summary ?? "";
+      summary.style.display = tick.dataset.summary ? "" : "none";
+
+      preview.classList.remove("hidden");
+      preview.classList.add("flex");
+
+      const trailBox = trail.getBoundingClientRect();
+      const tickBox = tick.getBoundingClientRect();
+      const center = tickBox.top - trailBox.top + tickBox.height / 2;
+      const halfHeight = preview.offsetHeight / 2;
+      preview.style.top = `${Math.max(halfHeight, Math.min(trailBox.height - halfHeight, center))}px`;
+    };
+
+    const hidePreview = () => {
+      preview?.classList.add("hidden");
+      preview?.classList.remove("flex");
+    };
+
+    const pointerOrdinal = (clientY: number, visible: number[]) => {
+      const centers = visible.map((index) => {
+        const rect = ticks[index].getBoundingClientRect();
+        return rect.top + rect.height / 2;
       });
-      item.addEventListener("focus", () => {
-        if (item.matches(":focus-visible")) setHovered(item);
+      if (clientY <= centers[0]) return 0;
+      for (let ordinal = 0; ordinal < centers.length - 1; ordinal += 1) {
+        if (clientY < centers[ordinal + 1]) {
+          const span = Math.max(1, centers[ordinal + 1] - centers[ordinal]);
+          return ordinal + (clientY - centers[ordinal]) / span;
+        }
+      }
+      return centers.length - 1;
+    };
+
+    trail.addEventListener("pointermove", (event) => {
+      const visible = visibleIndices();
+      if (!visible.length) return;
+      pointerCenter = pointerOrdinal(event.clientY, visible);
+      paintLens(pointerCenter, visible);
+      if (focalIndex >= 0) showPreview(focalIndex);
+    });
+
+    trail.addEventListener("pointerleave", () => {
+      pointerCenter = null;
+      hidePreview();
+      paintFromScroll();
+    });
+
+    for (const tick of ticks) {
+      const index = Number(tick.dataset.index);
+      tick.addEventListener("focus", () => {
+        const visible = visibleIndices();
+        const ordinal = visible.indexOf(index);
+        if (ordinal < 0) return;
+        pointerCenter = ordinal;
+        paintLens(ordinal, visible);
+        showPreview(index);
       });
-      item.addEventListener("blur", () => {
-        if (hovered === item) setHovered(null);
+      tick.addEventListener("blur", () => {
+        pointerCenter = null;
+        hidePreview();
+        paintFromScroll();
       });
-      item.addEventListener("click", () => {
+      tick.addEventListener("click", () => {
         cards[index]?.scrollIntoView({ behavior: reducedMotion ? "auto" : "smooth", block: "start" });
       });
     }
+
+    window.addEventListener("scroll", requestScrollPaint, { passive: true });
+    window.addEventListener("resize", requestScrollPaint, { passive: true });
+    const filterObserver = new MutationObserver(requestScrollPaint);
+    for (const chapterCard of cards) {
+      filterObserver.observe(chapterCard, { attributes: true, attributeFilter: ["style"] });
+    }
+    paintFromScroll();
   }
 </script>
