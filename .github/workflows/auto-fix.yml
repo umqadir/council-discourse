@@ -92,6 +92,11 @@ jobs:
               your diagnosis and proposed patch instead.
 
             Hard rules:
+            - Any issue you open MUST be assigned to the maintainer
+              (`gh issue create --assignee umqadir ...`) and start its body
+              with "@umqadir" - they do not watch this repo, so an unassigned,
+              unmentioned issue reaches no one. When updating an existing issue,
+              add the "@umqadir" mention in your comment.
             - Never modify data/registry.db, site/src/data/meetings/, or any
               R2 object; never trigger paid processing yourself.
             - Never disable, weaken, or work around a failing guard, test, or
