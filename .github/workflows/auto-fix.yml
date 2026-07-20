@@ -23,7 +23,13 @@ concurrency:
 permissions:
   contents: write
   issues: write
-  actions: read
+  # write: the fixer verifies by dispatching production.yml; with read it
+  # gets 403 and can only wait for the next cron (seen 2026-07-19). Note
+  # GITHUB_TOKEN-triggered runs do not re-trigger workflow_run, so a fixer
+  # dispatch can never recursively spawn fixer sessions; the agent watches
+  # its own dispatch in-session, and a post-session tail failure is handled
+  # deterministically at the next scheduled failure.
+  actions: write
   id-token: write
 
 jobs:
@@ -254,9 +260,10 @@ jobs:
             Bounds: at most 3 dispatches per session; if the run is past the
             step that failed and the remainder is just long paid processing,
             you may declare success without waiting for full green — if that
-            tail later fails, a successor session picks it up automatically
-            (dispatched-run failures continue the outage, capped at 3 agent
-            sessions per streak). If you exhaust your attempts or time and
+            tail later fails, the next scheduled failure resolves it
+            deterministically (quarantine or pause with your session's
+            context available), so prefer watching to conclusion when time
+            allows. If you exhaust your attempts or time and
             it is still red, quarantine or escalate per the rules above
             before you stop — never end a session leaving the pipeline red
             with no handoff.
