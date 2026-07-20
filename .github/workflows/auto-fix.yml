@@ -222,8 +222,9 @@ jobs:
               exactly when a human must act, and never for a problem the
               pipeline can keep working around (quarantines have their own
               non-pausing issues).
-            - Transient one-off (e.g. a single network timeout the next cron
-              will clear): do nothing but say so clearly in your final message.
+            - Transient one-off (e.g. a single network timeout or a provider
+              hiccup that a retry clears): re-dispatch to confirm recovery if
+              a dispatch is warranted, but change nothing.
             - Anything else — a code defect, or pipeline state wedged by one
               (a deterministically failing meeting, a breaker halt whose root
               cause you can fix): fix it END TO END; do not stop at a
@@ -240,6 +241,17 @@ jobs:
               it, and open an assigned issue describing the rework. If you
               cannot get green, open an issue with your diagnosis and
               proposed patch instead.
+
+            Always leave a trace the maintainer will actually see: whatever
+            path you took, finish by posting a comment on the open issue
+            titled "Pipeline incident log" (create it unassigned if missing;
+            never close it; it is an FYI channel, not the pause switch).
+            Start the comment with "@umqadir" so it emails them, then 2-6
+            plain sentences: what failed, what you concluded or changed
+            (with commit/run links), and what if anything is left for a
+            human. Self-resolved incidents get this too - the maintainer
+            sees GitHub's raw red-run email either way and should find your
+            explanation next to it, not silence.
 
             Quarantine over stall: if the failure is confined to specific
             meetings and you cannot cleanly fix the root cause right now,

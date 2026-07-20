@@ -541,10 +541,46 @@ jobs:
           name: site-dist
           path: site/dist
 
-      # Unconditional: a missing token must be a red run, never a silent skip.
+      # The cron fires every 2 hours whether or not export changed anything,
+      # so an unconditional publish rolls the provider dice ~12x/day on a
+      # mostly identical bundle - that, not Cloudflare flakiness, is why
+      # transient publish 500s show up here. Skip when the dist digest
+      # matches the last successful deploy (fail open: an unreadable digest
+      # means deploy). Real deploys retry once, 30s apart, before going red.
+      # A missing Cloudflare token on a real deploy is still a red run,
+      # never a silent skip.
       - name: Deploy Cloudflare Pages
         working-directory: site
-        run: pnpm dlx wrangler pages deploy dist --project-name council-discourse
+        env:
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
+        run: |
+          digest="$(cd dist && find . -type f | LC_ALL=C sort | xargs sha256sum | sha256sum | cut -d' ' -f1)"
+          echo "dist digest: $digest"
+          last=""
+          if [ -n "${R2_ACCESS_KEY_ID:-}" ]; then
+            sudo apt-get install -y rclone >/dev/null 2>&1 || true
+            export RCLONE_CONFIG_R2_TYPE=s3
+            export RCLONE_CONFIG_R2_PROVIDER=Cloudflare
+            export RCLONE_CONFIG_R2_ACCESS_KEY_ID="$R2_ACCESS_KEY_ID"
+            export RCLONE_CONFIG_R2_SECRET_ACCESS_KEY="$R2_SECRET_ACCESS_KEY"
+            export RCLONE_CONFIG_R2_ENDPOINT="$R2_ENDPOINT"
+            last="$(rclone cat "r2:${R2_BUCKET}/state/last-deploy-digest" 2>/dev/null || true)"
+          fi
+          if [ -n "$last" ] && [ "$last" = "$digest" ]; then
+            echo "dist unchanged since last successful deploy; skipping publish"
+            exit 0
+          fi
+          if ! pnpm dlx wrangler pages deploy dist --project-name council-discourse; then
+            echo "::warning::publish failed; retrying once in 30s (Pages throws occasional transient 500s)"
+            sleep 30
+            pnpm dlx wrangler pages deploy dist --project-name council-discourse
+          fi
+          if [ -n "${R2_ACCESS_KEY_ID:-}" ]; then
+            printf '%s' "$digest" | rclone rcat "r2:${R2_BUCKET}/state/last-deploy-digest" \
+              || echo "::warning::could not record deploy digest; next run will redeploy"
+          fi
 
       # A green run means the outage is over: close its issues so the next
       # failure opens a fresh one instead of appending to a stale thread.
