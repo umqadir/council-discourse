@@ -1,0 +1,4666 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 84.136,
+      "id": "001",
+      "slug": "chair-louis-opens-subcommittee-hearing-and-outlines-agenda",
+      "start_sec": 14.5,
+      "summary": "Council staff gives housekeeping instructions. Chair Farah N. Louis introduces the Subcommittee on Zoning and Franchises, names attending council members, and lists the three hearings: 200 Kent Avenue rezoning, 47-03 108th Street rezoning, and Flatiron NoMad major concession. She notes the St. Augustine item will not be heard.",
+      "title": "Chair Louis opens subcommittee hearing and outlines agenda",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 14.5,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 15.1,
+          "text": "Welcome to today's New York City Council Subcommittee on Zoning and Franchises."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 20.8,
+          "text": "At this time, please silence all phones."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 23.2,
+          "text": "If you wish to speak in today's hearing, please fill out an appearance card with one of the sergeants."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 28.9,
+          "text": "Moving forward, no one is to approach the DA's chair."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 32.7,
+          "text": "You may begin."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 35.736,
+          "text": "Good morning and welcome to a meeting of the Subcommittee on Zoning and Franchises."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 40.236,
+          "text": "I am Councilmember Farrah Lewis, Chair of the Subcommittee."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 43.836,
+          "text": "This morning I'm joined by Councilmembers Felder, Encarnacion, Jay Sanchez, Epstein, and Remote, I believe it's Fariette."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 54.836,
+          "text": "Not yet."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 55.336,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 57.536,
+          "text": "Today we are holding three hearings on the following proposals."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 61.536,
+          "text": "200 Kent Avenue Mixed-Use Residential Rezoning and Councilmember Wrestler's District, 47-03 108th Street Mixed-Use Residential Zoning and Councilmember Thomas Henry's District, and the Flatiron Nomad"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 74.936,
+          "text": "Major Concession Application Regarding Portions of Broadway and Fifth Avenue and Councilmember Wilson and Epstein's District."
+        }
+      ]
+    },
+    {
+      "end_sec": 213.936,
+      "id": "002",
+      "slug": "chair-louis-explains-hybrid-format-and-public-testimony-procedures",
+      "start_sec": 84.136,
+      "summary": "Chair Louis explains the hybrid meeting format, registration process for remote and in-person testimony, two-minute time limit per witness, written testimony submission via email, and decorum rules including no video recording from the witness table.",
+      "title": "Chair Louis explains hybrid format and public testimony procedures",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 84.136,
+          "text": "One additional note about today's agenda, although the proposal known as the St."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 89.236,
+          "text": "Augustine was listed in the city record for today, this item has not been called up for council review and will not be heard."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 99.836,
+          "text": "This meeting is being held in hybrid format."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 102.136,
+          "text": "Members of the public who wish to testify may testify in person or via Zoom."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 107.036,
+          "text": "Members of the public wishing to testify remotely may register by visiting the New York City Council website at www.council.nyc.gov backslash land use to sign up."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 119.336,
+          "text": "Or for those of you here in person, please see one of the sergeant at arms to prepare."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 125.436,
+          "text": "To prepare and submit a subject card."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 128.236,
+          "text": "Members of the public may also view a live stream broadcast of the meeting at the council's website."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 134.236,
+          "text": "When you are called to testify before the subcommittee, if you are joining us remotely, you will remain muted until recognized by myself to speak."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 141.736,
+          "text": "When you are recognized, your microphone will be unmuted."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 145.036,
+          "text": "We will limit public testimony to two minutes per witness."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 148.436,
+          "text": "If you have additional testimony that you would like the subcommittee to consider, or if you have written testimony that you would like to submit instead of appearing in person, please email it to landyustestimony at council.nyc.gov."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 161.336,
+          "text": "Written testimony may be submitted up to three days after the hearing is closed."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 165.436,
+          "text": "Please indicate the LU number and or project name in the subject line of your email."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 170.636,
+          "text": "We request the witnesses joining us remotely remain in the meeting until you are excused, as council members may have questions."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 177.936,
+          "text": "Lastly, for everyone attending the meeting today, this is a government proceeding and decorum must be observed at all times."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 184.136,
+          "text": "Members of the public are asked to not speak during the meeting unless you are testifying."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 190.036,
+          "text": "The witness table is reserved for people who are called to testify and no video recording or photography is allowed from the witness table."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 198.236,
+          "text": "Further, members of the public may not present audio or video recordings as testimony, but may submit transcripts of such recordings to the Sergeant at Arms for inclusion to the record."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 208.336,
+          "text": "We've also been joined by Council Members Thomas Henry and Council Member Wilson."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 213.136,
+          "text": "I will now open the"
+        }
+      ]
+    },
+    {
+      "end_sec": 286.352,
+      "id": "003",
+      "slug": "chair-louis-opens-flatiron-nomad-major-concession-hearing-with-context",
+      "start_sec": 213.936,
+      "summary": "Chair Louis opens LU 117 regarding the Flatiron NoMad major concession application for portions of Broadway and Fifth Avenue in Council Members Wilson and Epstein's districts. She describes temporary initiatives to re-envision the corridor between 19th and 31st Streets into a safer pedestrian realm, with long-term programming to be maintained by the Flatiron NoMad Partnership.",
+      "title": "Chair Louis opens Flatiron NoMad major concession hearing with context",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 213.936,
+          "text": "the first public hearing on LU 117 regarding the Flatiron Nomad major concessions application for portions of Broadway and Fifth Avenue and Councilmember Wilson's and Epstein's districts."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 226.936,
+          "text": "Over the past few years, there have been temporary initiatives to re-envision this corridor between 19th Street and West 31st."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 236.136,
+          "text": "Into a more engaging and safer public realm for pedestrians."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 240.236,
+          "text": "This application would allow for long-term programming, which would be maintained by the Flatiron slash Nomad partnership."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 248.436,
+          "text": "For anyone wishing to testify regarding this proposal remotely, if you have not already done so, please, you must register online by visiting the council's website at council.nyc.gov backslash land use."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 262.236,
+          "text": "For anyone with us today, please see one of the sergeant at arms in the back to submit a speaker card."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 268.436,
+          "text": "If you would prefer to submit written testimony, you can always do so by emailing it to landyustestimony at council.nyc.gov."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 275.436,
+          "text": "I now recognize council members Wilson and Epstein for remarks."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 281.352,
+          "text": "And we've also been joined by Councilmember Fadias online."
+        }
+      ]
+    },
+    {
+      "end_sec": 413.644,
+      "id": "004",
+      "slug": "council-member-wilson-remarks-on-flatiron-nomad-concession-opportunity",
+      "start_sec": 286.352,
+      "summary": "Council Member Wilson expresses excitement about the major concession for the Flatiron corridor, highlighting the opportunity to re-envision public space, integrate commercial use, and improve street safety. He thanks Council Member Epstein, DOT, the land use team, and the BID for their partnership.",
+      "title": "Council Member Wilson remarks on Flatiron NoMad concession opportunity",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 286.352,
+          "text": "Thank you, Chair, and thank you to our applicant today."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 290.852,
+          "text": "I'm excited to hear this major concession for a big part of my district in the Flatiron."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 300.052,
+          "text": "As the Chair mentioned, this is a really great opportunity to continue how we are re-envisioning this corridor and offers a great opportunity to how we're thinking about how we're using public space."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 313.552,
+          "text": "And we have a really great partner in the Business Improvement District here."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 317.852,
+          "text": "And it's going to be, in my view, if done correctly, and I think we're on the way to doing that, an opportunity for us to really think about how we are leveraging"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 328.152,
+          "text": "public space as well as how it integrates with the commercial use, which in many ways lifts up the neighborhood."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 335.952,
+          "text": "It makes for a lively and safer street."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 340.152,
+          "text": "But it also gives us an opportunity to think about how we're using public space, too, for things like our waste removal and who gets to use the public realm and for what purposes."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 354.152,
+          "text": "But I think we're working really hard to strike a strong balance here that is reasonable, that gives everybody the tools that they need to make sure that this continues to be a world-class public space and how it's going to further integrate into the capital redesign of this corridor."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 368.052,
+          "text": "So I..."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 369.252,
+          "text": "look forward to this hearing and I'm looking forward to continuing to advance what I think is going to be a significant and positive change for this corridor."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 378.852,
+          "text": "I want to thank my colleague, Councilmember Epstein, who held down the fort while there was no council member for a few months."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 387.552,
+          "text": "And I also want to thank"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 390.052,
+          "text": "DOT for their partnership and our land use team, particularly Dana and Chelsea for all of the work that they have done on this."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 397.852,
+          "text": "And also the bid who I have been great stewards of this part of town."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 402.752,
+          "text": "And I know we'll continue to do that once we get this over the finish line."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 407.052,
+          "text": "So thank you all very much for being here."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 408.852,
+          "text": "And I'm looking forward to the hearing today."
+        }
+      ]
+    },
+    {
+      "end_sec": 468.044,
+      "id": "005",
+      "slug": "council-member-epstein-remarks-on-flatiron-nomad-concession-partnership",
+      "start_sec": 413.644,
+      "summary": "Council Member Epstein thanks the chair, Council Member Wilson, DOT, and the BID. He emphasizes community, environmental, and public values around publicly accessible space, and notes the significant responsibility the BID is taking on to maintain the space for the neighborhood.",
+      "title": "Council Member Epstein remarks on Flatiron NoMad concession partnership",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 413.644,
+          "text": "I want to thank the chair for allowing us to move forward on this hearing."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 418.244,
+          "text": "I want to thank Councilmember Wilson to, you know, from day one when he started, was a real partner in this project."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 425.944,
+          "text": "And to DOT, to listening to our concerns and thoughts around how we improve this neighborhood and to make sure that what we're doing reflects our"
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 434.444,
+          "text": "community values, our environmental values, our public values around publicly facing space and making sure that people in this community could have access to a location that we think will be a vital card in our shared districts."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 447.544,
+          "text": "And finally, to the bid, we're asking a lot of you, and we appreciate you taking this on."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 453.344,
+          "text": "It's a lot of responsibility to serve our neighborhood, a lot of responsibility to have this space be open and available to the public."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 459.344,
+          "text": "And I think this partnership will continue to grow as we continue to have this conversation."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 464.544,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 466.944,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 660.82,
+      "id": "006",
+      "slug": "dot-s-weidenhoff-presents-major-concession-overview-and-expansion-area",
+      "start_sec": 468.044,
+      "summary": "The DOT applicant panel is sworn in. Emily Weidenhoff, Assistant Commissioner of Public Realm at DOT, presents the major concession ULURP application with the Flatiron NoMad Partnership. She explains the expansion from 38,500 square feet to 162,345 square feet, allowing the BID to fully maintain plazas, shared streets, and pedestrian spaces, with revenue cycling back into maintenance and operations.",
+      "title": "DOT's Weidenhoff presents major concession overview and expansion area",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 468.044,
+          "text": "I now call the applicant panel for this proposal, which consists of Emily Weidenhoff."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 473.944,
+          "text": "Oh, yes."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 474.944,
+          "text": "And Kyle Gorman."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 482.52,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 483.32,
+          "text": "Could you please raise your right hand?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 485.22,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 485.82,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 487.42,
+          "text": "Do you swear to tell nothing but the truth in your testimony this morning and in response to council member questions?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 493.92,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 495.32,
+          "text": "You may begin your testimony, which is limited to 10 minutes, and you should start to conclude your presentation at about eight minutes."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 502.62,
+          "text": "When you begin your presentation, please restate your name and your agency."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 506.52,
+          "text": "You may begin."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 508.12,
+          "text": "Oh, we've also been joined by Minority Leader Carr."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 520.42,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 521.22,
+          "text": "Good morning, everyone."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 522.12,
+          "text": "My name is Emily Weidenhoff, and I'm Assistant Commissioner of Public Realm at the New York City Department of Transportation."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 528.32,
+          "text": "We're excited to present our proposal for a major concession ULURP this morning."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 534.12,
+          "text": "If we go to the first slide in our presentation, New York City Department of Transportation is the applicant, along with our plaza partner, the Flatiron Nomad Partnership."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 545.32,
+          "text": "The action here today is a major concession, which pursuant to the rules of New York City, any"
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 554.42,
+          "text": "area that is over 42,000 square feet needs to go through this additional land use review."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 561.02,
+          "text": "Most recently, we've gone through a similar ULURP application for Times Square Plaza just north of here."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 569.02,
+          "text": "This location is in Manhattan Community Board 5 in Council Districts 2 and 3."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 574.82,
+          "text": "If we go to the next slide, you can see here the area in blue represents the existing concession agreement that we have with the Flatiron Nomad Partnership."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 585.62,
+          "text": "And this in large part represents the original public spaces that were created."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 591.52,
+          "text": "Almost 10 years ago now."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 594.12,
+          "text": "And as we have worked with the community, with our partners, with elected officials, we have worked to expand"
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 601.42,
+          "text": "pedestrian and cycling priority along the corridor."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 604.82,
+          "text": "And so the application today is really recognizing all of that transformation of street as public space."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 611.92,
+          "text": "And so we're going from the original 38,500 square feet, expanding all that additional area in red, and that's where you see additional plazas, shared streets, pedestrian space,"
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 624.72,
+          "text": "to now the application of 162,345 square feet that will essentially allow the bid to fully maintain this area."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 637.02,
+          "text": "And any of the revenue that they generate as part of their concession agreement with New York City DOT will be able to go back into the maintenance, management, and operations now of this large area."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 650.92,
+          "text": "And we feel like this is really important to give them the tools that they need to really manage this public space comprehensively in partnership with the city."
+        }
+      ]
+    },
+    {
+      "end_sec": 739.02,
+      "id": "007",
+      "slug": "weidenhoff-describes-surrounding-land-use-zoning-and-broadway-vision-context",
+      "start_sec": 660.82,
+      "summary": "Weidenhoff shows surrounding mixed-use land uses including Madison Square Park, notes the corridor is part of the Midtown South rezoning (MSMX), and explains the Broadway Vision effort to prioritize pedestrians and cyclists across five BID districts while respecting distinct neighborhoods along the corridor.",
+      "title": "Weidenhoff describes surrounding land use, zoning, and Broadway Vision context",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 660.82,
+          "text": "The next couple of slides we can run through quickly."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 664.92,
+          "text": "First, we see the surrounding land use."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 669.42,
+          "text": "Again, a lot of mixed use residential."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 672.62,
+          "text": "We have Madison Square Park."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 674.62,
+          "text": "The next slide shows the zoning map."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 678.62,
+          "text": "This portion of the corridor you'll see is part of the most recent Midtown South rezoning MSMX, which looks to bring more residential in the district."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 690.02,
+          "text": "So again, this type."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 691.32,
+          "text": "of effort is really important as we look to continue to support a thriving, vibrant diversity of commercial, residential uses in this dense part of Manhattan."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 706.12,
+          "text": "The next slide, again, for some context, so much of this work has grown out of the Broadway Vision effort, which really looks to"
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 717.92,
+          "text": "prioritize pedestrians and cyclists along this corridor, where we have five business improvement districts."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 726.22,
+          "text": "We are aiming to create a comprehensive, kind of coordinated experience along the corridor while still respecting the five different neighborhoods that Broadway intersects through."
+        }
+      ]
+    },
+    {
+      "end_sec": 890.82,
+      "id": "008",
+      "slug": "weidenhoff-presents-existing-conditions-through-the-corridor",
+      "start_sec": 739.02,
+      "summary": "Weidenhoff walks through existing conditions from south to north: shared streets at 19th-20th, cycling facilities at 20th-21st, premier public spaces at 22nd-25th near the Flatiron Building with kiosks and art programming, pedestrianized blocks at 25th-28th with outdoor dining, and expanded pedestrian spaces at 28th-31st.",
+      "title": "Weidenhoff presents existing conditions through the corridor",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 739.02,
+          "text": "The next set of slides show the existing conditions through the corridor."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 744.32,
+          "text": "So we're going to quickly start in the south."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 747.42,
+          "text": "Here you see images of 19th and 20th Street."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 750.92,
+          "text": "This is the southernmost portion of the district."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 754.12,
+          "text": "Here we have shared streets where you can see that there is still space for vehicles to pick up and drop off, but we have a lot more expanded pedestrian space for seating, for greening."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 766.62,
+          "text": "Next slide."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 769.22,
+          "text": "Here we see additional shared streets and cycling facilities."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 773.92,
+          "text": "A big part of the Broadway vision is to create comfortable and connected two-way cycling through the district."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 781.52,
+          "text": "This is 20th and 21st streets."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 784.22,
+          "text": "Next slide."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 785.22,
+          "text": "We get to 22nd and 23rd Street, and this is where you see some of the larger, more premier public spaces."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 792.42,
+          "text": "This is the public space that's adjacent to the Flatiron Building, where the bid has some of the existing subconcessions per their concession agreement."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 802.42,
+          "text": "So you see the kiosk in that middle slide there."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 807.32,
+          "text": "This is also an area where the bid hosts a lot of art and programming."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 813.92,
+          "text": "Next slide, we move to the other big premier public space across the street from the Flatiron Building, 23rd Street up through 25th Street."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 825.52,
+          "text": "Here we have plazas as well as Worth Square and a shared street."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 830.32,
+          "text": "So part of our larger collaboration is with our colleagues in the Park Department as well as Madison Square Park Conservancy, who maintains these adjacent park spaces."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 841.32,
+          "text": "Next slide, we see the northern portion of the district, 25th to 28th Street."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 848.02,
+          "text": "These were blocks that..."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 850.02,
+          "text": "We're very successful as open streets with outdoor dining during the pandemic."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 854.12,
+          "text": "So part of Broadway Vision has really looked to fully pedestrianize more of these blocks to promote more outdoor dining as well as public seating."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 865.12,
+          "text": "Next slide is 28th and 29th Street."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 868.02,
+          "text": "Again, those expanded pedestrian spaces that..."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 872.02,
+          "text": "bring safety, but also lots of opportunity for gathering, for meeting, for greening."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 878.92,
+          "text": "And the last slide is 29th through 31st Street, which is the northernmost portion of the district before we get to Herald Square."
+        }
+      ]
+    },
+    {
+      "end_sec": 984.62,
+      "id": "009",
+      "slug": "weidenhoff-outlines-long-term-capital-redesign-plans-for-corridor",
+      "start_sec": 890.82,
+      "summary": "Weidenhoff describes the separate but interrelated capital street reconstruction: the southern portion (21st-27th) is in final design with community workshops planned for fall, featuring full reconstruction with utility connections. The northern portion (27th to Herald Square) is in scoping with DDC and will go through public engagement and Public Design Commission review.",
+      "title": "Weidenhoff outlines long-term capital redesign plans for corridor",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 890.82,
+          "text": "Next slide."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 892.12,
+          "text": "I wanted to give a brief overview of some of the longer term and really exciting changes coming to the corridor."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 898.42,
+          "text": "So separate from the major concession, but very interrelated, is the city's investment in a full street reconstruction and really major redesign of this corridor."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 910.92,
+          "text": "We've been designing the kind of southern portion of the district for quite some time."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 916.72,
+          "text": "We're now in final design and excited to get out to the community for workshops and present to the community board for the southern portion of the section later this fall."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 928.42,
+          "text": "Next slide, you can see this southern section, 21st to 27th Street, where we'll be kind of fully reconstructing the street."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 938.62,
+          "text": "The curbs will go away, the paint and gravel will go away, and we'll have a fully transformed, greener,"
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 945.62,
+          "text": "more vibrant public space that will also have important things like utility connections, which will allow the partners to manage the space and have thriving events as well."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 957.12,
+          "text": "And then the last slide shows the future capital phases."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 961.62,
+          "text": "27th Street all the way up to the north, which is currently in scoping with our colleagues at the Department of Design and Construction."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 970.42,
+          "text": "And that will also go through a robust public engagement process, public workshops, community board, and ultimately the Public Design Commission for review."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 981.12,
+          "text": "With that, I'm going to turn it over to my colleague, Kyle."
+        }
+      ]
+    },
+    {
+      "end_sec": 1038.32,
+      "id": "010",
+      "slug": "dot-s-gorman-presents-concession-agreement-overview",
+      "start_sec": 984.62,
+      "summary": "Kyle Gorman from DOT's Public Realm team introduces concession types, explaining they promote active use of public spaces and create opportunities for small businesses including MWBEs. He describes the Plaza Concession Agreement allowing the BID to host commercial events, sponsorships, and sub-concessions, with agreements up to 20 years.",
+      "title": "DOT's Gorman presents concession agreement overview",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 984.62,
+          "text": "Good morning, everyone."
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 985.32,
+          "text": "I'm Kyle Gorman from the DOT Public Realm team."
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 988.22,
+          "text": "I'm a director of programs, operations, and partnerships."
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 991.12,
+          "text": "And just lastly, we wanted to highlight a little bit more about what concessions actually look like on these plazas."
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 996.72,
+          "text": "So we move to two slides ahead, please."
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1000.42,
+          "text": "I'll give a little bit of a brief overview of concessions."
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1003.02,
+          "text": "So these promote the positive and active use of these spaces, creates opportunities for small businesses, especially NWBEs."
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1010.82,
+          "text": "There's a few different types of concession agreements that DOT does."
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1014.72,
+          "text": "Predominantly today, we're really talking about the Plaza Concession Agreement, which allows the bid to host commercial events and derive fees from those commercial entities that are hosting those events, entering into sponsorship agreements and having sub-concessions, which we'll talk about briefly."
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1029.72,
+          "text": "Typically, these are multi-year agreements that can be up to 20 years, which was something that we're looking to pursue with the bid."
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1036.32,
+          "text": "Next slide, please."
+        }
+      ]
+    },
+    {
+      "end_sec": 1101.72,
+      "id": "011",
+      "slug": "gorman-details-commercial-events-and-sponsorship-concession-types",
+      "start_sec": 1038.32,
+      "summary": "Gorman explains commercial events coordinated with SAPO, where entities like Nike or Netflix host single-day marketing events with fee schedules. He also describes limited sponsorship opportunities, clarifying these are not advertising but small branding callouts with specific parameters for logos and branding in the public realm.",
+      "title": "Gorman details commercial events and sponsorship concession types",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1038.32,
+          "text": "So getting into the specific types of concessions, the first is commercial events."
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1043.22,
+          "text": "These are done in collaboration with the Street Activity Permit Office, SAPO, who collects a fee."
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1047.72,
+          "text": "The city has a fee schedule for the different types of events."
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1051.12,
+          "text": "It can happen in these spaces when these commercial entities want to host these different types of sort of marketing opportunities for themselves."
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1058.32,
+          "text": "And our plaza partners also get to collect a fee based on a similar type of schedule that DOT develops in coordination with the bid."
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1066.02,
+          "text": "These are, you know, sometimes Nike or Netflix or what have you are able to host these usually single day events to promote some sort of a new initiative or marketing opportunity for that particular business."
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1076.02,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1078.12,
+          "text": "We also allow for a limited amount of sponsorship."
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1081.42,
+          "text": "It is in no ways to be considered advertising."
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1084.52,
+          "text": "It's more of just a way to give a sort of small call out to a business or some type of organization that's able to sponsor some element."
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1093.42,
+          "text": "We have very specific parameters and requirements for what this looks like in the public realm."
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1098.82,
+          "text": "And usually it is relegated to logos and branding."
+        }
+      ]
+    },
+    {
+      "end_sec": 1179.12,
+      "id": "012",
+      "slug": "gorman-describes-kiosks-sub-concessions-and-market-types",
+      "start_sec": 1101.72,
+      "summary": "Gorman covers kiosk structures for food and merchandise sales, noting Flatiron has operated a kiosk for years. He describes sub-concessions primarily as tent-and-table style markets for seasonal or year-round use, including farmer's markets, coordinated with multiple city agencies depending on the market type.",
+      "title": "Gorman describes kiosks, sub-concessions, and market types",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1101.72,
+          "text": "Next slide."
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1104.02,
+          "text": "In a number of our plazas, we have structures that are kiosks that allow for the sales of food and other types of merchandise."
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1111.72,
+          "text": "Flatiron has, for a number of years, operated a kiosk themselves as well."
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1115.82,
+          "text": "This is a more formal structure for a small business to sell food and beverage or small types of merch."
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1122.82,
+          "text": "We have unique types of kiosks that we've seen in our public spaces across the years."
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1127.72,
+          "text": "DOT itself also has a standard design that we incorporate in the capital build-out of these spaces, which will be contemplated in the capital project that Emily had mentioned as well."
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1137.82,
+          "text": "Next slide."
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1140.42,
+          "text": "Through our"
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1141.12,
+          "text": "Our sub-concessions, typically sub-concessions come by way of markets, but you can enter into quite a number of different types of sub-concessions."
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1148.92,
+          "text": "But the most predominant one is a tent and table style market that usually includes some sale of merch"
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1155.42,
+          "text": "or food, typically on a seasonal basis, maybe around the holidays or more year long when it comes like around for a farmer's market and connecting folks to local fresh food and locally made goods."
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1167.42,
+          "text": "This is done in coordination with quite a number of agencies, especially depending on the different types of market concessions that will take place."
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1174.12,
+          "text": "But this is another type of activation that we have done through our concessions over the years."
+        }
+      ]
+    },
+    {
+      "end_sec": 1267.912,
+      "id": "013",
+      "slug": "gorman-explains-public-benefits-pairing-and-concession-seating",
+      "start_sec": 1179.12,
+      "summary": "Gorman describes pairing concession opportunities with public benefits like programming alongside small business revenue. He introduces concession seating as DOT's form of outdoor dining on plazas, distinct from the Dining Out program, allowing up to 33% of plaza area for concession seating, or up to 50% through a major concession ULURP as proposed today.",
+      "title": "Gorman explains public benefits pairing and concession seating",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1179.12,
+          "text": "Next slide."
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1180.82,
+          "text": "A lot of times we try to pair these concession opportunities with some sort of public benefits."
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1186.42,
+          "text": "So we have a lot of great use cases around the city where we have a sub-concession, like let's say a small kiosk that's selling food and beverage"
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1194.42,
+          "text": "that's paired with some sort of event or programming that still provides this public benefit in the space while still allowing a small local business to make some sort of revenue as well as creating revenue stream for the bid."
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1207.02,
+          "text": "And then just the last two slides, because I know we're almost at time, talking about one of our newest types of sub-concessions is concession seating."
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1215.02,
+          "text": "This is our form of outdoor dining on plazas through our concession agreements."
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1220.32,
+          "text": "It should be noted that this is separate and distinct from the Dining Out program, which is the general outdoor dining program in New York City."
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1227.42,
+          "text": "We allow for typically up to 33% of a plaza."
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1231.12,
+          "text": "to occupy concession seating for those businesses."
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1235.42,
+          "text": "But when we go through a major concession, ULURP, as we're talking about today, that can be up to 50%."
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1241.12,
+          "text": "That is something we've talked very closely with the council members about and how exactly we would operationalize that in coordination with the bid and DOT and its other agencies."
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1249.12,
+          "text": "So we feel very sort of strongly about maintaining this, but also maintaining the public space benefit of these concession seating opportunities."
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1258.32,
+          "text": "And just last slide, you can just get a little visualization of what concession seating looks like down the line."
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1263.52,
+          "text": "We're happy to talk about that more."
+        },
+        {
+          "speaker": "Kyle Gorman",
+          "t_sec": 1264.92,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 1400.116,
+      "id": "014",
+      "slug": "chair-louis-questions-dot-on-maintenance-oversight-and-revenue-reporting",
+      "start_sec": 1267.912,
+      "summary": "Chair Louis asks three questions: who maintains the pedestrian features (Flatiron NoMad Partnership), how frequently DOT inspects the concession area (quarterly reports, audited financial statements, site visits for new installations and 311 requests), and whether DOT requires annual public reporting of revenues and expenditures (reviewed internally but not posted online).",
+      "title": "Chair Louis questions DOT on maintenance, oversight, and revenue reporting",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1267.912,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1268.512,
+          "text": "I have three quick questions before I hand it over to Councilmember Wilson and Epstein."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1273.512,
+          "text": "Who has been maintaining the pedestrian-oriented features along this stretch of Broadway?"
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1280.412,
+          "text": "That's been the Flatiron Nomad Partnership."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1282.712,
+          "text": "Perfect."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1283.512,
+          "text": "How frequently will DOT inspect the concession area, and what oversight will DOT maintain once the agreement is executed?"
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1292.112,
+          "text": "Great question."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1292.912,
+          "text": "So as part of DOT's regular concession process, we require that our concession partners provide quarterly reports."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1302.512,
+          "text": "And we also have some requirements for audited financial statements."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1306.912,
+          "text": "So there's a team at DOT in our concessions division who's reviewing that on a regular basis."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1314.112,
+          "text": "We also have teams that are out and about on the corridor that are either"
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1320.812,
+          "text": "because we are organizing a meeting with the bid or we've received some public questions or like a 311 request."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1331.012,
+          "text": "There's a kind of whole host of different reasons why DOT staff would be out on site, you know, looking at various things in the plaza."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1339.312,
+          "text": "We don't have a, you know, an exact regimented process, but anytime anything new is installed,"
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1348.212,
+          "text": "we not only review internally first, but then we will do a site visit to look at the installation and confirm it meets."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1356.312,
+          "text": "the proposal."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1358.112,
+          "text": "Thank you for that response."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1359.312,
+          "text": "And does DOT require annual public reporting showing revenues collected and how do those funds get spent in major concession areas?"
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1369.012,
+          "text": "So as part of again the requirement for our concession agreement that's exactly what we are looking at is all of the revenue coming in and then how it's going to various"
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1383.012,
+          "text": "allowed expenses per the terms of the concession agreement."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1387.012,
+          "text": "That's not something we post online, but it is something that is, you know, part of, yes."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1392.312,
+          "text": "Yeah."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1393.112,
+          "text": "All right."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1393.412,
+          "text": "Thank you for that."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1394.412,
+          "text": "Council members Epstein and Wilson, whoever wants to go first."
+        }
+      ]
+    },
+    {
+      "end_sec": 1526.916,
+      "id": "015",
+      "slug": "council-member-epstein-questions-dot-on-environmental-practices-oversight",
+      "start_sec": 1400.116,
+      "summary": "Epstein asks about DOT's role in overseeing environmental agreements. Weidenhoff confirms the agreement will require partners and subconcessionaires to follow environmental laws, and DOT will promote recycling and composting. Epstein asks if the BID will report on environmental compliance; Weidenhoff says specifics will be in the agreement and ongoing conversations, with DOT as backup oversight entity.",
+      "title": "Council Member Epstein questions DOT on environmental practices oversight",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 1400.116,
+          "text": "Thank you, and thank you for spending time with us as we go through these questions and issues."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 1405.616,
+          "text": "I think you and your team have been really, really helpful, so I appreciate that."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 1411.116,
+          "text": "So I think we talked a lot about kind of environmental issues, and I think we're all in the same place around trying to become more environmentally friendly."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 1419.416,
+          "text": "What role will DOT have in overseeing whatever agreements we come to in the end?"
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1427.016,
+          "text": "So we've talked with your office about, you know, working in certainly making sure that as part of the agreement itself, that we're being explicit that all of"
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1439.116,
+          "text": "both our partner and its subconcessionaires need to follow all relevant rules related to environmental law."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1449.716,
+          "text": "We're also committed to, where possible, promoting recycling, composting, and other environmental-friendly practices."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1460.816,
+          "text": "And that's something, again, we'll coordinate closely with the bid on to make sure that where feasible, that's playing out in all the activities."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 1470.016,
+          "text": "And is the bid going to report to you on those issues in your agreement with the bid?"
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1476.916,
+          "text": "So again, there will be some specificity in the agreement itself, but a lot happens outside the agreement in terms of RFP proposals."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1487.616,
+          "text": "things like that."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1488.216,
+          "text": "So that's something we'll be in conversation with them about."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1492.216,
+          "text": "And certainly we know it is a really important value here, but also honestly citywide."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1498.616,
+          "text": "So it's something that, yes, we will be making sure we do to the extent possible environmentally safe practices and operations."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 1510.016,
+          "text": "And so if there was an issue, obviously we can go to the bid, but you'll be a backup entity."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 1515.116,
+          "text": "Absolutely."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1515.716,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1516.116,
+          "text": "Yeah, yeah, yeah."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1516.816,
+          "text": "Yeah."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1517.116,
+          "text": "DOT is very committed to, you know, we are the long-term stewards of these public spaces and happy to engage with you at any point."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1526.216,
+          "text": "Yes."
+        }
+      ]
+    },
+    {
+      "end_sec": 1598.216,
+      "id": "016",
+      "slug": "council-member-epstein-questions-dot-on-public-seating-oversight",
+      "start_sec": 1526.916,
+      "summary": "Epstein asks about DOT's role in ensuring public seating remains available and visible. Weidenhoff says DOT reviews and approves proposals balancing public and concession seating, regularly checks that approved setups are in place, and ensures concession seating does not encroach into open public seating areas.",
+      "title": "Council Member Epstein questions DOT on public seating oversight",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 1526.916,
+          "text": "And just on the public seating, we've spent a lot of time talking about making sure that it's there."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 1531.316,
+          "text": "People know it's public seating."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 1532.416,
+          "text": "It's available."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 1534.716,
+          "text": "What role would DOT play in ensuring that that is happening and making sure that there's notices and information up for the public that they are aware of it?"
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1543.616,
+          "text": "Yeah, so that public seating is incredibly important to us."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1546.916,
+          "text": "That's all of these spaces are public space."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1550.216,
+          "text": "So we will be not only kind of reviewing and approving the proposals that look at the balance of the public seating as well as the concession seating."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1562.816,
+          "text": "And that will be something that we're kind of evaluating as these spaces are evolving."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1566.916,
+          "text": "The life, the use of these spaces changes a lot over the years."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1570.616,
+          "text": "So we don't see it as being static."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1572.616,
+          "text": "It'll be something we care deeply about and we'll be evaluating."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1577.116,
+          "text": "But also."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1577.616,
+          "text": "So we will be regularly checking in to make sure that the setups that are kind of reviewed and approved per the subconcessions are actually in place."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1590.016,
+          "text": "They're not kind of encroaching and creeping into the other spaces that are for open, accessible public seating."
+        }
+      ]
+    },
+    {
+      "end_sec": 1662.02,
+      "id": "017",
+      "slug": "council-member-epstein-questions-dot-on-water-fountains-and-public-restrooms",
+      "start_sec": 1598.216,
+      "summary": "Epstein asks about DOT's commitment to long-term public improvements including water fountains and a public bathroom. Weidenhoff says DOT is working with DDC to integrate drinking fountains and water bottle filling stations into capital design, and is in conversations with sibling agencies about providing a public restroom, though technical constraints exist.",
+      "title": "Council Member Epstein questions DOT on water fountains and public restrooms",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 1598.216,
+          "text": "I know we talked about long-term public improvements."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 1600.216,
+          "text": "We talked about putting in publicly available water fountains, putting in a public bathroom."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 1604.316,
+          "text": "And then I know this is a little further down the pike."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 1607.716,
+          "text": "I'm wondering kind of what DOT's commitment into those public improvements are and where you see this happening in the context of the work that we're doing in the area."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1616.416,
+          "text": "Yeah, thank you."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1617.016,
+          "text": "Those are all important elements for a healthy, thriving space."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1622.816,
+          "text": "And so we are working with our colleagues at Department of Design and Construction to integrate public drinking fountains, water bottle filling stations into the capital design."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1634.116,
+          "text": "And we're currently in conversations with our colleagues in a few city agencies about the ability to provide a public restroom."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1643.616,
+          "text": "So we'll be exploring those elements."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1646.616,
+          "text": "There are a lot of technical constraints to those, but things that we're in conversation with sibling agencies about."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 1652.616,
+          "text": "Yeah, I just want to make sure the DOT is committed to trying to make that happen."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1656.516,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 1656.916,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 1657.816,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 1658.216,
+          "text": "Thank you, Chair."
+        }
+      ]
+    },
+    {
+      "end_sec": 1812.5,
+      "id": "018",
+      "slug": "council-member-wilson-questions-dot-on-pedestrian-bike-separation-and-bid-design-involvement",
+      "start_sec": 1662.02,
+      "summary": "Wilson asks how the final capital design will physically protect pedestrians from the two-way bike lane, per Community Board 5's recommendation. Weidenhoff describes plantings between cycling and pedestrian space, tactile surfaces, tactile domes at crossings, and lowered cycling lanes in some blocks. Wilson follows up on whether the BID is consulted in design; Weidenhoff confirms active collaboration.",
+      "title": "Council Member Wilson questions DOT on pedestrian-bike separation and BID design involvement",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1662.02,
+          "text": "I'd also like to echo Councilman Epstein's comments about the collaboration and responsiveness from DOT."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1668.42,
+          "text": "Thank you very much."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1669.32,
+          "text": "I know it's been a lot of back and forth, but appreciate you all being at the table the whole time in really good faith."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1674.22,
+          "text": "I have a couple of questions."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1675.22,
+          "text": "So in their recommendations, Community Board 5 emphasized the importance of permanent separation between pedestrian areas and the proposed two-way bike lane."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1686.42,
+          "text": "Can DOT explain how the final capital design will physically protect pedestrians?"
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1693.22,
+          "text": "So we're still in design, and we'll be sharing a lot of these details with the public and when we go back to the community board."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1702.12,
+          "text": "But one of the great things about the capital design is we have a lot more tools that we're able to use versus just the paint and gravel."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1710.82,
+          "text": "So there are a few different elements that we're looking at."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1714.32,
+          "text": "One is just actually designing more planting in between the two-way cycling and the pedestrian space so it'll naturally feel separated."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1724.92,
+          "text": "We're also looking at tactile surfaces, so a little bit of a raised"
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1731.42,
+          "text": "bump, if you will, that will help both kind of visually but also people"
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1738.52,
+          "text": "with visual impairments to feel the difference between the cycle track and the pedestrian space, as well as the tactile."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1749.22,
+          "text": "domes where we have an indicate a physical crossing."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1754.22,
+          "text": "So those are some of the elements that we're looking to incorporate into the final design so it'll feel more separated."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1762.32,
+          "text": "In some of the blocks, we're actually lowering the cycling lane a little bit lower than the sidewalk grade."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1771.42,
+          "text": "So again, there will be a little bit of a physical distinction kind of clarifying who uses which space."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1777.42,
+          "text": "Is the business improvement district part of the..."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1780.62,
+          "text": "Consulted during this design."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1781.82,
+          "text": "If we're talking about plantings, I imagine they're going to be taking care of those."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1785.12,
+          "text": "They're part of that design process."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1787.72,
+          "text": "Absolutely."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1788.42,
+          "text": "We have a big meeting this week to dig into some of those details."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1792.12,
+          "text": "But yes, absolutely."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1793.22,
+          "text": "Our design process is heavily reflective of the reality that our plaza partner,"
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1800.3,
+          "text": "are responsible for the long-term maintenance and management of the spaces, and we want to make sure we're designing both to a really world-class public standard, but also one that our partners can maintain and sustain."
+        }
+      ]
+    },
+    {
+      "end_sec": 1861.7,
+      "id": "019",
+      "slug": "council-member-wilson-questions-dot-on-citi-bike-station-relocation",
+      "start_sec": 1812.5,
+      "summary": "Wilson asks about Community Board 5's recommendation to relocate the Citi Bike station between 29th and 30th Streets. Weidenhoff says DOT is discussing layouts with bike share colleagues, with proposals for the southern portion coming to the public soon, and the northern portion in the next design phase.",
+      "title": "Council Member Wilson questions DOT on Citi Bike station relocation",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1812.5,
+          "text": "Community Board 5 also recommended relocating the city bike station between 29th and 30th to improve the pedestrian circulation."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1820.6,
+          "text": "Has DOT evaluated that recommendation and what factors will determine whether or not that station is relocated?"
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1827.3,
+          "text": "So we are discussing with our bike share colleagues at DOT different layouts for City Bike with the capital design."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1837.0,
+          "text": "We have a few proposals that we'll be sharing with the public as part of the southern portion."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1842.5,
+          "text": "That northern portion that you're mentioning, 29 to 30, that's in our next phase of design."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1847.3,
+          "text": "So we're not there yet."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1849.0,
+          "text": "But as we look to kind of fully reimagine the street, we'll be looking at kind of how all the different pieces fit together and have a kind of balanced, cohesive design."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1857.4,
+          "text": "And City Bike will be one of those elements that we're balancing."
+        }
+      ]
+    },
+    {
+      "end_sec": 1951.924,
+      "id": "020",
+      "slug": "council-member-wilson-questions-dot-on-kid-first-district-and-car-free-blocks-commitments",
+      "start_sec": 1861.7,
+      "summary": "Wilson asks for an update on the Midtown South mixed-use commitments for a kid-first district between 22nd and 25th Streets and two additional car-free blocks. Weidenhoff says DOT is exploring additional pedestrianization proposals for public workshops and is in planning stages for the kid-friendly proposal with BID colleagues.",
+      "title": "Council Member Wilson questions DOT on kid-first district and car-free blocks commitments",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1861.7,
+          "text": "And then my last question, as part of the Midtown South mixed-use points of agreement, the administration committed to advancing a"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1871.6,
+          "text": "kid-first district between West 22nd and West 25th, as well as creating two additional car-free blocks."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1878.5,
+          "text": "Can you provide an update on the status of these commitments?"
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1882.8,
+          "text": "So we are looking at additional opportunities to pedestrianize blocks of Broadway, and those will be..."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1890.2,
+          "text": "proposals that we bring back to the public in the workshop stage of our capital redesign."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1896.6,
+          "text": "So more to come on that soon."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1899.5,
+          "text": "And then our team is working on the kind of kid-friendly proposal."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 1905.1,
+          "text": "We're currently in the planning stages with our bid colleagues along the corridor and hope to have more to circle back on that soon."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1912.1,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1912.6,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1918.3,
+          "text": "Council."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1925.0,
+          "text": "Council are then members of the public who wish to testify remotely or in person regarding this proposal."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1930.924,
+          "text": "No, but we do have a potentially."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1934.424,
+          "text": "No?"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1934.724,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1935.324,
+          "text": "No questions?"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1935.924,
+          "text": "You sure?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1940.024,
+          "text": "Thank you, Chair, for asking."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1941.024,
+          "text": "No, we do have, let me start with, we do not have members of the public who want to testify in person or online, but however, Council Member Felder, I believe, has a question."
+        }
+      ]
+    },
+    {
+      "end_sec": 2053.624,
+      "id": "021",
+      "slug": "council-member-felder-questions-dot-on-citi-bike-usage-analysis",
+      "start_sec": 1951.924,
+      "summary": "Felder asks whether DOT regularly analyzes Citi Bike usage to remove underused bikes, observing unused bikes in his district and across the city. Weidenhoff notes her team is not responsible for Citi Bike but says there is data on every bike and dock, and offers to connect Felder with the relevant DOT team for more information.",
+      "title": "Council Member Felder questions DOT on Citi Bike usage analysis",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1951.924,
+          "text": "I have two questions of a general nature."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1958.224,
+          "text": "Number one about the city bike, the program that's been around for many, many years."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1965.724,
+          "text": "Does DOT do a regular analysis to see the usage or not of those bikes?"
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1975.924,
+          "text": "And then..."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1977.724,
+          "text": "For example, if after, I don't know, a year or two,"
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1984.424,
+          "text": "you have 20 bikes that have been sitting there for who knows, and one bike a week is being used, removing the bike, those bikes."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1996.424,
+          "text": "And the reason I ask is that I see in my own district and I see it all over the city."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 2004.024,
+          "text": "There are certainly it's used in many places, but there are other places that it's just not for whatever reason."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 2011.424,
+          "text": "And unless this is some sort of cultural art exhibit."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 2017.724,
+          "text": "That the city has."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 2020.424,
+          "text": "over about city bikes that are not used."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 2025.324,
+          "text": "I'd like to, can you respond to that?"
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 2029.924,
+          "text": "So our team is not responsible for City Bike, but we appreciate your question."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 2035.024,
+          "text": "I can say that there is a big team at DOT."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 2039.924,
+          "text": "Every single City Bike, there is data about where that bike is and the different docks."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 2045.324,
+          "text": "And so we are happy to go back and have them provide you with a little bit more information about that."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 2051.624,
+          "text": "I would appreciate that very much."
+        }
+      ]
+    },
+    {
+      "end_sec": 2260.324,
+      "id": "022",
+      "slug": "council-member-felder-questions-dot-on-bicycle-helmet-requirements",
+      "start_sec": 2053.624,
+      "summary": "Felder expresses frustration that the city does not mandate helmets for cyclists using city streets, comparing it to seatbelt laws. He asks DOT to follow up on why there is no helmet requirement. Weidenhoff notes DOT's commitment to safety and free helmet distribution programs. Felder clarifies he wants mandatory helmet use, not free helmets.",
+      "title": "Council Member Felder questions DOT on bicycle helmet requirements",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 2053.624,
+          "text": "And the second question is."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 2056.024,
+          "text": "About helmets."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 2059.624,
+          "text": "I don't understand it."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 2061.624,
+          "text": "You do not have a program, when I say you, DOT."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 2068.824,
+          "text": "I mean, I remember distinctly when they started obligating drivers to use seatbelts."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 2079.424,
+          "text": "Because of safety."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 2081.524,
+          "text": "I'm very familiar with, for whatever reason, with the"
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 2088.324,
+          "text": "accidents or whatever that occur with bicyclists or, you know, that do not wear helmets."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 2099.224,
+          "text": "To the bicyclists and to the people that, unfortunately, if they bump into them, you know, that's that."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 2106.724,
+          "text": "So I don't get the whole thing."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 2109.124,
+          "text": "I want to understand."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 2110.224,
+          "text": "And this is not to you."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 2111.624,
+          "text": "You can send this to your friends there as well."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 2116.524,
+          "text": "I do not understand how the city functions without having a, I don't know what you want to call it, one street, one rule about safety."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 2131.424,
+          "text": "You know, I don't know."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 2132.724,
+          "text": "I know that my kids, I'm not the disciplinarian, never was."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 2138.424,
+          "text": "I always used to say, the kids asked me, I said, I used to say, it's okay with me, but ask mommy."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 2144.624,
+          "text": "And then she'd kill me."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 2148.024,
+          "text": "But a helmet, you could not get on a bike, you know, without the helmet."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 2155.024,
+          "text": "You know, my wife."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 2156.124,
+          "text": "And you train the kids from an early time."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 2159.824,
+          "text": "And then they..."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 2160.924,
+          "text": "Get older, and instead of it continuing, you say, okay, now it's okay, you know."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 2168.024,
+          "text": "And the city has no program of obligating people who are using city streets."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 2175.824,
+          "text": "You know, I understand if the guy wants to drive around his alley, you know, in circles without a helmet."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 2183.624,
+          "text": "But they're using city streets without helmets, and that's been going on for years."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 2188.324,
+          "text": "And to top it all off, your city, you know, the program that you have, the bicycle program in the city, I'm almost done."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 2199.224,
+          "text": "Yeah, I did not."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 2200.224,
+          "text": "I had a fight with my wife this morning."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 2202.424,
+          "text": "Yeah."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 2204.624,
+          "text": "There is no program to ensure the safety of the bicyclists by obligating anyone using a city street, whether it's on a bicycle"
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 2220.224,
+          "text": "or anything else, certainly."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 2222.924,
+          "text": "If you're using a city street, just like you buckle up, you have to have a helmet."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 2229.324,
+          "text": "I don't understand it."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 2231.224,
+          "text": "So you can have your friends at DOT get back to me on that as well if I'd appreciate it."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 2239.124,
+          "text": "Yeah, absolutely."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 2239.924,
+          "text": "And DOT cares incredibly deeply about safety."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 2243.724,
+          "text": "And we do have a lot of amazing teams that are partnering with elected officials to hand out free helmets to people all across New York City."
+        },
+        {
+          "speaker": "Emily Weidenhoff",
+          "t_sec": 2251.924,
+          "text": "So we'd be happy to connect you with them."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 2254.124,
+          "text": "I don't want a free helmet."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 2256.624,
+          "text": "I want everyone to have to wear one."
+        }
+      ]
+    },
+    {
+      "end_sec": 2302.968,
+      "id": "023",
+      "slug": "flatiron-nomad-hearing-closed-no-public-testimony-items-laid-over",
+      "start_sec": 2260.324,
+      "summary": "Chair Louis calls for public testimony three times; no members of the public sign up in person or online. The hearing on LU 117 is closed and items are laid over. The DOT panel is excused.",
+      "title": "Flatiron NoMad hearing closed: no public testimony, items laid over",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2260.324,
+          "text": "Thank you, Council Member."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2262.324,
+          "text": "Thank you for your response."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2263.424,
+          "text": "We've also been joined by Council Members Salam and Ressler."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2269.068,
+          "text": "Stand at ease."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2273.868,
+          "text": "If there are any members of the public who wish to testify regarding this proposal remotely, please press the raise hand button now."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2280.068,
+          "text": "If you are in person, please identify yourself to one of the sergeant at arms."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2283.768,
+          "text": "This is the last call."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2284.968,
+          "text": "You have 30 seconds."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2288.268,
+          "text": "Being there are no members of the public who wish to testify regarding LU 117 relating to the Flatiron Nomad major concessions application, this public hearing is now closed."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2298.168,
+          "text": "The items are laid over."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2299.868,
+          "text": "This panel is excused."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2301.068,
+          "text": "Thank you for being here today."
+        }
+      ]
+    },
+    {
+      "end_sec": 2375.768,
+      "id": "024",
+      "slug": "chair-louis-opens-47-03-108th-street-rezoning-hearing",
+      "start_sec": 2302.968,
+      "summary": "Chair Louis opens LUs 118 and 119 regarding the 47-03 108th Street mixed-use residential rezoning in Corona, Queens, in Council Member Thomas-Henry's district. The proposal involves a zoning map and MIH text amendment for approximately 119 apartments, with 30 permanently affordable under MIH Option 1.",
+      "title": "Chair Louis opens 47-03 108th Street rezoning hearing",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2302.968,
+          "text": "I now open the second public hearing on LUs 118 and 119 regarding 47-03 108th Street, a mixed-use residential rezoning proposal in Corona, Queens, in Councilmember Thomas Henry's district."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2317.768,
+          "text": "The proposal involves a zoning map and an MIH zoning tax amendment."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2322.868,
+          "text": "Applicant is seeking to develop a mixed-use housing development with approximately 119 apartments."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2328.568,
+          "text": "Mandatory inclusionary housing would be mapped as part of this application, which would require 30 apartments to be permanently affordable under MIH Option 1."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2338.268,
+          "text": "For anyone wishing to testify regarding this proposal remotely, if you have not already done so, you must register online by visiting the Council's website at council.nyc.gov backslash land use."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2348.968,
+          "text": "For anyone with us in person, please see one of the sergeant at arms to submit a speaker card."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2353.568,
+          "text": "If you would prefer to submit written testimony, you can always do so by email."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2357.068,
+          "text": "By emailing landusestestimonyatcouncil.nyc.gov, I now recognize Councilman Thomas Henry."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2362.868,
+          "text": "She doesn't have remarks."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2363.868,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2364.668,
+          "text": "I will now call the applicant panel for this proposal, which consists of Frank St."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2369.068,
+          "text": "Jacques and Andrew Esposito."
+        }
+      ]
+    },
+    {
+      "end_sec": 2512.572,
+      "id": "025",
+      "slug": "applicant-st-jacques-presents-108th-street-zoning-overview-and-site-context",
+      "start_sec": 2375.768,
+      "summary": "The applicant panel is sworn in. Frank St. Jacques of Ackerman LLP presents the application to establish an R7X/C2-4 zoning district on 108th Street in Corona, facilitating a 13-story mixed-use development with approximately 119 apartments. He describes the site's R6B zoning from 1989, adjacency to R5 districts, and transit-oriented location near the 7 train.",
+      "title": "Applicant St. Jacques presents 108th Street zoning overview and site context",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 2375.768,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 2376.268,
+          "text": "Could you please raise your right hand?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 2378.868,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 2380.568,
+          "text": "Do you swear to tell the truth and nothing but the truth in your testimony this morning and in response to council member questions?"
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2385.868,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 2387.768,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2389.668,
+          "text": "You may begin your testimony, which is limited to 10 minutes, and you should start."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2394.568,
+          "text": "You should start to conclude at eight minutes."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2396.768,
+          "text": "When you begin your presentation, please restate your name and the name of your organization."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2400.668,
+          "text": "You may begin."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2402.568,
+          "text": "Thank you, Chair Lewis and council members."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2405.368,
+          "text": "My name is Frank Sanjok."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2406.268,
+          "text": "I'm with Ackerman LLP."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2407.968,
+          "text": "We're land use counsel for the applicant, and I'm joined by Andrew Esposito representing ownership."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2414.868,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2421.32,
+          "text": "This is an application in Queens Community District 4 to establish an R7X C24 zoning district that would facilitate the construction of a 13-story mixed-use development with approximately 119"
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2434.62,
+          "text": "apartments on 108th Street in Corona."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2438.22,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2442.62,
+          "text": "As shown in the zoning map on the screen, the rezoning area is on the east side of 108th Street, which is a wide north-south corridor through the area."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2452.12,
+          "text": "And the rezoning area is located between 47th Avenue to the north and 48th Avenue to the south."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2457.72,
+          "text": "It was zoned R6B in the 1989 Elmhurst Corona rezoning."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2462.62,
+          "text": "And the R6B is adjacent to R5 zoning districts."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2466.32,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2470.372,
+          "text": "This land use map shows that the rezoning area and the block to the north are occupied by non-conforming industrial uses."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2476.672,
+          "text": "There's no commercial overlay and industrial uses are not permitted in residential zoning districts."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2483.272,
+          "text": "And 108th Street has a mix of non-conforming commercial and industrial uses."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2488.572,
+          "text": "The rezoning area is transit oriented with bus access along 108th Street and Corona Avenue to the west."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2494.672,
+          "text": "And the 7 train is approximately a half mile to the north of the rezoning area."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2499.472,
+          "text": "And as you can see, the mid blocks beyond 108th Street are generally lower density residential."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2506.472,
+          "text": "And there are some community facility uses and the park is just a block to the east."
+        }
+      ]
+    },
+    {
+      "end_sec": 2577.116,
+      "id": "026",
+      "slug": "st-jacques-describes-existing-conditions-and-proposed-r7x-c2-4-zoning",
+      "start_sec": 2512.572,
+      "summary": "St. Jacques shows the rezoning area occupied by non-conforming auto-related uses on 108th Street, with lower-density residential mid-blocks to the east. He explains the proposed R7X envelope as medium-density appropriate for the transit-oriented wide corridor block front, with C2-4 allowing local retail and service uses on the historically mixed-use stretch.",
+      "title": "St. Jacques describes existing conditions and proposed R7X/C2-4 zoning",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2512.572,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2515.616,
+          "text": "So this photograph facing east, you can see the rezoning area."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2519.116,
+          "text": "Again, it's just that block front on 108th Street between 47th and 48th."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2524.016,
+          "text": "And it is occupied by non-conforming auto-related uses."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2527.816,
+          "text": "And then you can see some of that surrounding residential context."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2531.416,
+          "text": "Generally lower density, but multifamily row houses."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2535.116,
+          "text": "There's a five-story basement multifamily building immediately to the east of the site along 48th Avenue."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2542.916,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2546.416,
+          "text": "The proposed R7X envelope is a medium density residential zoning district, which is appropriate at this transit oriented site, which is on the block front of a wide commercial corridor."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2559.016,
+          "text": "The C24 would allow local commercial uses, retail and service uses on this historically"
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2568.516,
+          "text": "mixed use stretch of 108th Avenue."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2571.116,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2575.216,
+          "text": "The project details are shown here."
+        }
+      ]
+    },
+    {
+      "end_sec": 2680.52,
+      "id": "027",
+      "slug": "st-jacques-presents-project-details-and-mih-affordability-breakdown",
+      "start_sec": 2577.116,
+      "summary": "St. Jacques details the 13-story, 120,000-square-foot mixed-use building with 119 total apartments, 30 permanently affordable under MIH Option 1 (25% of residential floor area at 60% AMI weighted average, with 10% at 40% AMI). He notes Community District 4 has the sixth-highest rent burden in NYC at 54%, above Queens and citywide averages.",
+      "title": "St. Jacques presents project details and MIH affordability breakdown",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2577.116,
+          "text": "Again, this is a mixed-use building rising to 13 stories."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2582.016,
+          "text": "The R7X permits a floor area ratio, or FAR, of 6.0."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2588.016,
+          "text": "So the full development would be about 120,000 square feet with commercial and community facility space, as well as parking."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2597.016,
+          "text": "I'll note that the parking required here would be for about 13 spaces, but recognizing a demand in the area, we're providing about three times as much."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2607.216,
+          "text": "There will be a set aside for mandatory inclusionary housing."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2611.516,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2614.624,
+          "text": "which is shown on this slide here."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2617.524,
+          "text": "The proposed development has, again, 119 total apartments, 30 of which would be permanently affordable under MIH option one, which requires a set aside of 25% of the residential floor area"
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2629.324,
+          "text": "at a weighted average of 60% AMI with 10% at 40% AMI."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2634.024,
+          "text": "This results in 12 units at 40% AMI and 80% AMI and six at 60% AMI, representing a spectrum of affordability within this district."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2646.924,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2649.776,
+          "text": "Community District 4 has a critical need for housing."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2652.876,
+          "text": "We're 54% residents are rent burdened."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2655.876,
+          "text": "This is the sixth highest rent burden population in New York City and the second highest in Queens, higher than Queens overall at 46% and New York City overall at 44.5%."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2666.676,
+          "text": "So we believe that the introduction of new housing, investment and new development at the site with the inclusion of mandatory inclusionary housing would be appropriate and we welcome any questions."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2677.476,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 2748.92,
+      "id": "028",
+      "slug": "chair-louis-questions-applicant-on-r7x-zoning-selection-rationale",
+      "start_sec": 2680.52,
+      "summary": "Louis asks why R7X was selected given a recent R7A approval three blocks south. St. Jacques explains the site is entirely on the 108th Street block front, closer to transit, with fewer lower-density homes within the block, making R7X more appropriate due to separation from lower-density context.",
+      "title": "Chair Louis questions applicant on R7X zoning selection rationale",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2680.52,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2680.82,
+          "text": "I have a couple of questions and I'll hand it over to Councilmember Thomas Henry."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2684.62,
+          "text": "Last week, we approved an application zoned as R7A for development three blocks south of this site."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2691.02,
+          "text": "How was this R7X district selected and why is R7X appropriate for this site?"
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2699.92,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2700.72,
+          "text": "So referring to the 5020 108th Street rezoning just a few blocks to the south, this site we looked at R7X because it's entirely on 108th Street, the block front,"
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2716.82,
+          "text": "200 by 100 feet along 108th Street."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2719.92,
+          "text": "It's closer to transit resources and the context."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2725.92,
+          "text": "Different from the project to the south at 5020 108th Street, there are fewer lower density homes, you know, sort of within the block where the rezoning is contemplated."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2738.52,
+          "text": "So we believe that the separation created by virtue of this rezoning area and project site being on the block front made the R7X more appropriate."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2748.22,
+          "text": "Okay."
+        }
+      ]
+    },
+    {
+      "end_sec": 2789.92,
+      "id": "029",
+      "slug": "chair-louis-questions-applicant-on-unit-breakdown-and-bedroom-mix",
+      "start_sec": 2748.92,
+      "summary": "Louis asks for the unit breakdown including affordability levels and bedroom mix. St. Jacques says the building has approximately 60% one-bedroom and 40% two-bedroom units, with the same mix reflected in the MIH affordable units.",
+      "title": "Chair Louis questions applicant on unit breakdown and bedroom mix",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2748.92,
+          "text": "And can you share your current proposed breakdown of units for the development?"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2752.82,
+          "text": "I know you shared some earlier, but including affordability levels and the mix of unit sizes."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2758.92,
+          "text": "Sure."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2759.32,
+          "text": "If we could just go back one slide, that should provide the affordability breakdown."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2765.72,
+          "text": "And then as far as the..."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2768.92,
+          "text": "The total breakdown, this is a building that the initial illustrative design has only one bedroom and two bedroom units."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2776.12,
+          "text": "So it's approximately 60% one bedrooms and 40% two bedrooms."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2782.02,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2782.62,
+          "text": "That mix is reflected in the MIH breakdown as well."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2786.12,
+          "text": "Got it."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2787.32,
+          "text": "I'll now recognize Councilmember Thomas Henry."
+        }
+      ]
+    },
+    {
+      "end_sec": 2887.92,
+      "id": "030",
+      "slug": "council-member-thomas-henry-questions-applicant-on-bedroom-mix-and-mih-option-3",
+      "start_sec": 2789.92,
+      "summary": "Thomas-Henry asks whether the applicant has considered three-bedroom units or more two-bedrooms; St. Jacques says they hadn't but are happy to look into it. She asks about using MIH Option 3 for lower AMI bands; St. Jacques notes Option 1 allows 25% affordable while Option 3 allows only 20%, resulting in fewer affordable units.",
+      "title": "Council Member Thomas-Henry questions applicant on bedroom mix and MIH Option 3",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 2789.92,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 2791.02,
+          "text": "A couple of questions."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 2793.12,
+          "text": "To piggyback on Councilmember Lewis'question about the bedroom mix, have you considered any three bedrooms or a larger number of two bedrooms versus the one bedroom?"
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2805.82,
+          "text": "That's something we hadn't considered, but we're happy to look into."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 2808.92,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 2810.12,
+          "text": "So Community Board 4 has expressed concerns, as you can imagine, about the affordability within the proposed development."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 2816.72,
+          "text": "While there is a wide..."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 2820.72,
+          "text": "Right away of MIH options."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 2823.52,
+          "text": "Have you considered using MIH option three to reach lower AMI bands?"
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2830.02,
+          "text": "This is, again, something we hadn't considered, but we're happy to look into."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 2835.22,
+          "text": "There were also quite a few recommendations that came from the borough president."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 2839.82,
+          "text": "Have you been able to review those and are those some things that you're in line with?"
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2847.02,
+          "text": "I'll just jump back to the MIH option three question quickly."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2851.02,
+          "text": "I just will note that, as you're aware, the MIH option one allows for a 25%"
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2858.52,
+          "text": "set aside for affordability, there would be fewer affordable units by using MIH option three."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2866.62,
+          "text": "I think I just said that backwards."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2868.12,
+          "text": "MIH option one would allow for 25%, while MIH option three would allow for only 20%."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2876.02,
+          "text": "So it would result in fewer affordable units."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2878.22,
+          "text": "So that was one aspect of thinking about."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2882.82,
+          "text": "Using MIH option one."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2884.22,
+          "text": "And then with respect to the president's conditions."
+        }
+      ]
+    },
+    {
+      "end_sec": 3002.704,
+      "id": "031",
+      "slug": "thomas-henry-questions-applicant-on-borough-president-conditions-mwbe-community-facility-and-par",
+      "start_sec": 2887.92,
+      "summary": "Thomas-Henry raises the borough president's recommendations including 30% MWBE hiring goal with quarterly reporting; St. Jacques has no objection. She asks about community facility and commercial space plans; St. Jacques says they've had initial discussions with Common Point but welcome council member input. She asks about investing in local parks; St. Jacobs says they're not opposed but need to understand the mechanism.",
+      "title": "Thomas-Henry questions applicant on borough president conditions, MWBE, community facility, and park investment",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 2887.92,
+          "text": "And I can highlight a couple of them that again are of great importance to the community as well."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 2895.52,
+          "text": "Utilizing local residents for working on the construction of this project, minimum of 30% MWBE goal."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 2906.42,
+          "text": "With quarterly reporting on hiring initiatives to both the borough president's office and my office."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2913.32,
+          "text": "Right."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2913.82,
+          "text": "So we have no objection to that condition."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 2917.02,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 2917.82,
+          "text": "And also, what are you considering for the community facility spaces as well as the commercial spaces?"
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2924.52,
+          "text": "So we've had some conversation with your office."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2929.32,
+          "text": "At this point, we have some ideas about potential tenants for the community facility."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2935.42,
+          "text": "We'd like to continue that conversation with input and your feedback."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2940.22,
+          "text": "We have had initial discussion with Common Point, but not selected a specific user."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2948.62,
+          "text": "for this space."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2949.42,
+          "text": "So we're happy to continue that conversation and look forward to having some feedback from you as to an appropriate community facility tenant."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 2958.22,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 2958.62,
+          "text": "And as you can imagine, there are a lot of families in this area and we are in desperate need of park space."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 2964.52,
+          "text": "Would you guys be open to, excuse me, investing in the local parks?"
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 2973.72,
+          "text": "For any improvements needed."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2977.72,
+          "text": "We haven't sort of, we don't sort of fully understand the, to generally answer your question, we're not opposed to that."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 2985.92,
+          "text": "We're just concerned with what that would look like and, you know, how that would work in the context of seeking a discretionary action before the city council."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 2998.904,
+          "text": "Sorry about that."
+        }
+      ]
+    },
+    {
+      "end_sec": 3076.344,
+      "id": "032",
+      "slug": "thomas-henry-questions-applicant-on-sustainability-features-and-building-height-concerns",
+      "start_sec": 3002.704,
+      "summary": "Thomas-Henry confirms the building is all-electric; St. Jacques notes sustainability and resiliency features and no objection to the borough president's conditions for pervious pavement, bioswales, and rain gardens. Thomas-Henry raises concerns about the building being twice the height of anything in the district; St. Jacques says they've explored design changes to lower the height and will share them.",
+      "title": "Thomas-Henry questions applicant on sustainability features and building height concerns",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 3002.704,
+          "text": "And then last, I did see it is an all-electric building."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 3007.504,
+          "text": "Is that correct?"
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 3008.104,
+          "text": "That's correct."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 3009.004,
+          "text": "And so, you know, along those lines, the building will have a number of sustainability features as well as resiliency features built in."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 3016.204,
+          "text": "So we have no objection to the borough president's condition to incorporate pervious payment, bioswales, and rain gardens."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 3024.804,
+          "text": "We understand that DOT has some new programs relating to bioswales and rain gardens and tree pits."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 3030.304,
+          "text": "So we're happy to look into that as well."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 3032.404,
+          "text": "Definitely, because we've had quite a few flooding issues, so that would be greatly appreciated."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 3036.604,
+          "text": "And last but not least, and we've discussed this, I do have concerns over the height."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 3041.104,
+          "text": "This literally would be the tallest thing in this part of the district by twice the size."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 3049.004,
+          "text": "We understand, Councilmember, and we have looked into some potential design changes that would lower the height."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 3055.704,
+          "text": "We're happy to share those with you moving forward."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 3060.104,
+          "text": "I appreciate it, and I appreciate for your constant communication and working with my office on this project."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 3064.604,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 3065.204,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 3065.604,
+          "text": "Appreciate it."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3068.344,
+          "text": "Council, are there, well, I now invite my, any colleagues have questions?"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3074.444,
+          "text": "Councilman Encarnacion."
+        }
+      ]
+    },
+    {
+      "end_sec": 3186.644,
+      "id": "033",
+      "slug": "council-member-encarnaci-n-questions-applicant-on-community-engagement",
+      "start_sec": 3076.344,
+      "summary": "Encarnaci\u00f3n notes the building looks out of character and the community board was not in favor, asking about direct neighborhood engagement beyond community board meetings. St. Jacques says they only engaged through the ULURP process and community board hearings. Andrew Esposito adds he has independent relationships with CB4 members from prior projects and has had conversations about height concerns.",
+      "title": "Council Member Encarnaci\u00f3n questions applicant on community engagement",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 3076.344,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 3077.044,
+          "text": "Hello."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 3078.844,
+          "text": "So I agree."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 3080.244,
+          "text": "I think it, seeing that it looks very out of character for what the neighborhood currently looks like now, and the fact that the community board has"
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 3090.844,
+          "text": "not necessarily been in favor of this."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 3093.144,
+          "text": "Can you outline some of the community engagement you've had with some of the local neighbors there?"
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 3097.744,
+          "text": "If there's been any opportunities to meet with them, to talk them through what are their needs, what would they like to see out of the project outside of the community board meetings?"
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 3108.344,
+          "text": "Outside of the community board meetings, no, we availed ourselves to the Euler process."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 3113.044,
+          "text": "We met several times with the land use committee and then had hearings with the land use committee and the full community board."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 3121.744,
+          "text": "So no, with the direct neighborhood."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 3124.144,
+          "text": "No outside engagement."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 3125.444,
+          "text": "I think, you know, Andrew has a relationship with some of the council members and, you know, has spoken to them about specific or sorry, excuse me, the community board members and, you know, had some offline conversation, but not any real direct engagement with the community."
+        },
+        {
+          "speaker": "Andrew Esposito",
+          "t_sec": 3143.844,
+          "text": "So I do have an independent relationship with some of the members of Community Board 4."
+        },
+        {
+          "speaker": "Andrew Esposito",
+          "t_sec": 3147.344,
+          "text": "We've had some very spirited, I wouldn't even call them debates, conversations stemming from an earlier project at 7801 Queens Boulevard, where we worked with..."
+        },
+        {
+          "speaker": "Andrew Esposito",
+          "t_sec": 3156.544,
+          "text": "Councilmember Krishnan's office, in addition to CB4, and we've been able to achieve some creative results that I think they're relatively pleased with."
+        },
+        {
+          "speaker": "Andrew Esposito",
+          "t_sec": 3163.844,
+          "text": "So we have had, Frank, even to the extent you may not be privy to, conversations about how to, you know, certainly hear them, work with them."
+        },
+        {
+          "speaker": "Andrew Esposito",
+          "t_sec": 3172.444,
+          "text": "Height has been a significant component."
+        },
+        {
+          "speaker": "Andrew Esposito",
+          "t_sec": 3176.644,
+          "text": "So I can tell you that for what that's worth to add, Councilmember."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3179.944,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3180.244,
+          "text": "I'm going to kick it back."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3181.244,
+          "text": "Oh, you have another one?"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3182.544,
+          "text": "I'm done."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3183.544,
+          "text": "I'm going to kick it back to Thomas Henry."
+        }
+      ]
+    },
+    {
+      "end_sec": 3259.144,
+      "id": "034",
+      "slug": "thomas-henry-questions-applicant-on-coordination-with-other-corridor-developers",
+      "start_sec": 3186.644,
+      "summary": "Thomas-Henry asks if the applicant is open to collaborating with other developers along the corridor on design and commercial space to preserve neighborhood character and avoid retail monopolization. St. Jacques confirms his office represented the nearby development and coordination is easy. Esposito adds they have a personal relationship with that developer and agree coordination on community facility uses would be smart.",
+      "title": "Thomas-Henry questions applicant on coordination with other corridor developers",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 3186.644,
+          "text": "Just one more question."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 3187.444,
+          "text": "As you heard Chair Lewis mention, there was another development recently approved in this corridor a couple of blocks down, and there are potential other developments along this."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 3199.844,
+          "text": "You're open to collaborating with the other developers just in terms of design and when you're thinking about the commercial space."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 3208.544,
+          "text": "Some type of coordination so that all developments are working cohesively with each other in terms of the character of the neighborhood, preserving the character of the neighborhood, as well as not looking to monopolize the retail."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 3222.644,
+          "text": "Absolutely."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 3223.144,
+          "text": "And to be perfectly clear, my office represented the other developments."
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 3228.844,
+          "text": "So establishing that coordination, you know,"
+        },
+        {
+          "speaker": "Frank St. Jacques",
+          "t_sec": 3232.844,
+          "text": "It's easy to do, and we're happy to keep your office looped in on that."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3237.044,
+          "text": "Appreciate it."
+        },
+        {
+          "speaker": "Andrew Esposito",
+          "t_sec": 3237.744,
+          "text": "And we have a personal relationship with that owner and developer as well, and we've spoken preliminarily, but I think that's actually a really great idea."
+        },
+        {
+          "speaker": "Andrew Esposito",
+          "t_sec": 3244.044,
+          "text": "I'm also thinking in terms of the community facility, for example."
+        },
+        {
+          "speaker": "Andrew Esposito",
+          "t_sec": 3246.844,
+          "text": "to the extent they're going to have any."
+        },
+        {
+          "speaker": "Andrew Esposito",
+          "t_sec": 3248.144,
+          "text": "We don't need the same services, et cetera."
+        },
+        {
+          "speaker": "Andrew Esposito",
+          "t_sec": 3250.644,
+          "text": "So I think if we all speak on that point, that would be smart too."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 3253.644,
+          "text": "Yep, we're all on the same page."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 3254.944,
+          "text": "Appreciate it."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3256.244,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 3256.644,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3257.544,
+          "text": "No problem."
+        }
+      ]
+    },
+    {
+      "end_sec": 3299.344,
+      "id": "035",
+      "slug": "108th-street-hearing-closed-no-public-testimony-items-laid-over",
+      "start_sec": 3259.144,
+      "summary": "Chair Louis calls for public testimony three times; no members of the public sign up in person or online. The hearing on LUs 118 and 119 is closed and items are laid over. The applicant panel is excused.",
+      "title": "108th Street hearing closed: no public testimony, items laid over",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3259.144,
+          "text": "Council, are there any members of the public who wish to testify remotely or in person regarding this proposal?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 3264.544,
+          "text": "Currently in the signers, no members who have signed up online or in person."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3268.744,
+          "text": "If there are any members of the public who wish to testify regarding this proposal remotely, please press the raise hand button now."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3276.144,
+          "text": "If you are in person, please identify yourself to one of the sergeant at arms."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3279.844,
+          "text": "This is the last call."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3282.444,
+          "text": "Being that there are no members of the public who wish to testify regarding LUs 118 and 119 regarding the 47-03-108 mixed-use residential rezoning proposal, this public hearing is now closed."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3294.144,
+          "text": "The items are laid over."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3296.144,
+          "text": "You are now excused."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3297.144,
+          "text": "Thank you for being here."
+        }
+      ]
+    },
+    {
+      "end_sec": 3380.908,
+      "id": "036",
+      "slug": "chair-louis-opens-200-kent-avenue-rezoning-hearing",
+      "start_sec": 3299.344,
+      "summary": "Chair Louis opens LUs 115 and 116 regarding the 200 Kent Avenue mixed-use residential rezoning along the Williamsburg waterfront in Council Member Ressler's district. The proposal involves a zoning map and MIH text amendment to enlarge an existing commercial building into approximately 143 apartments, with 36 permanently affordable under MIH Option 1.",
+      "title": "Chair Louis opens 200 Kent Avenue rezoning hearing",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3299.344,
+          "text": "And we will now open our last public hearing, third public hearing, on LUs 115 and 116 regarding 200 Kent Avenue,"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3309.444,
+          "text": "a mixed-use residential rezoning proposal along the Williamsburg waterfront in Brooklyn and Councilmember Ressler's district."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3316.244,
+          "text": "The proposal involves a zoning map and an MIH zoning text amendment."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3321.744,
+          "text": "Applicant is seeking to enlarge an existing commercial building into a mixed-use housing development with approximately 143 apartments."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3329.644,
+          "text": "Mandatory inclusionary housing would be mapped as part of this application, which would require 36 apartments to be permanently afforded."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3336.844,
+          "text": "under MIH option one."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3339.244,
+          "text": "For anyone wishing to testify regarding this proposal remotely, if you have not already done so, you must register online by visiting the council's website at council.nyc.gov backslash land use."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3351.244,
+          "text": "For anyone with us in person, please see one of the sergeant at arms to submit a speaker card."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3355.644,
+          "text": "If you would prefer to submit written testimony, you can also do so by emailing it to land use testimony at council.nyc.gov."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3363.744,
+          "text": "Councilmember Ressler had to step out."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3365.844,
+          "text": "I will now call the applicant panel for this proposal, which consists of Jeremy Cozen and Julio Margarino."
+        }
+      ]
+    },
+    {
+      "end_sec": 3492.168,
+      "id": "037",
+      "slug": "applicant-cozen-presents-200-kent-avenue-rezoning-overview-and-application-status",
+      "start_sec": 3380.908,
+      "summary": "The applicant panel is sworn in. Jeremy Cozen of Freedman LLP presents two actions: a zoning map amendment from M1-4 to M1-4A/R7X mixed-use district and establishing an MIH area, resulting in approximately 143 dwelling units with 29-43 affordable depending on MIH option. He notes Brooklyn CB1 and the Borough President approved with conditions, and City Planning Commission approved unanimously.",
+      "title": "Applicant Cozen presents 200 Kent Avenue rezoning overview and application status",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 3380.908,
+          "text": "Still good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 3382.608,
+          "text": "Can you please raise your right hand?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 3385.508,
+          "text": "Sir, can you please raise your hand?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 3387.008,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 3387.808,
+          "text": "Do you swear to tell the truth and nothing but the truth in your testimony this morning and in response to council member questions?"
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3393.108,
+          "text": "I do."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 3393.608,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3396.008,
+          "text": "You may now begin your testimony, which is limited to 10 minutes."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3399.108,
+          "text": "Please start wrapping at 8 minutes when you begin your presentation."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3402.008,
+          "text": "Please restate your name and the name of your organization."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3404.408,
+          "text": "You may begin."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3405.208,
+          "text": "Sure."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3406.708,
+          "text": "I think good afternoon now, Chair and members of the subcommittee."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3411.208,
+          "text": "Jeremy Cozen, Freed Frank Harris Shriver Jacobson LLP, Land Use Council for the Application, the 200 Kent Avenue Rezoning."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3419.808,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3424.3,
+          "text": "We are here today to discuss two proposed actions."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3428.1,
+          "text": "The first is a zoning map amendment to rezone the project area from an M14 light manufacturing district to an M14AR7X mixed-use district."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3441.9,
+          "text": "The second action is to map this area, the area that will be rezoned, to establish an MIH area."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3450.2,
+          "text": "This would result in approximately 143 dwelling units, 29 to 43 of which would be affordable depending on the MIH option selected."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3460.7,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3464.968,
+          "text": "A brief overview of the status of this application is, I think, warranted at this point."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3469.768,
+          "text": "The Brooklyn Community Board 1 voted favorably with conditions, as well as the Brooklyn Borough President."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3477.568,
+          "text": "Those conditions related mostly to the MIH levels, as well as the desire to see light manufacturing uses in the ground floor of this building."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3488.968,
+          "text": "City Planning Commission approved this unanimously as well."
+        }
+      ]
+    },
+    {
+      "end_sec": 3579.792,
+      "id": "038",
+      "slug": "cozen-describes-200-kent-avenue-site-location-and-surrounding-context",
+      "start_sec": 3492.168,
+      "summary": "Cozen locates the site on the Williamsburg waterfront, one block from the waterfront on the west side of Kent Avenue, bounded by River Street, Metropolitan Avenue, and North 3rd Street. He notes proximity to the River Ring and Domino developments, describing the area as actively redeveloped.",
+      "title": "Cozen describes 200 Kent Avenue site location and surrounding context",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3492.168,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3497.992,
+          "text": "A brief overview of where the site is located."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3500.092,
+          "text": "It's on the Williamsburg waterfront, one block in from the actual waterfront, on the west side of Kent Avenue, bounded by River Street, Metropolitan Avenue, and North 3rd Street."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3511.992,
+          "text": "You might call this South Williamsburg, but it's kind of in an area that's being actively redeveloped by the potential River Ring project as well as Domino."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3522.192,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3525.492,
+          "text": "Just walking around the site, you can see in this image, looking to the northwest, the existing building is largely vacant."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3534.992,
+          "text": "It was developed as a commercial office building with ground floor retail."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3538.692,
+          "text": "There is a trade, as we'll see in an upcoming slide, there is a Trader Joe's in the ground floor."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3543.992,
+          "text": "The second floor, which has a unique kind of metal cladding that was meant to screen a second floor parking structure that was to meet a"
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3556.392,
+          "text": "prior zoning requirement for parking here."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3559.692,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3562.892,
+          "text": "As I mentioned, the Trader Joe's, which is at the corner of North 3rd and Kent, some additional retail fronts on Kent Avenue."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3572.292,
+          "text": "But as I mentioned, the upper floors as well as the remaining retail ground floor has remained vacant."
+        }
+      ]
+    },
+    {
+      "end_sec": 3635.9,
+      "id": "039",
+      "slug": "cozen-describes-existing-building-conditions-including-trader-joe-s",
+      "start_sec": 3579.792,
+      "summary": "Cozen shows the existing largely vacant commercial office building with ground floor retail, including a Trader Joe's located mostly below grade. He notes the second floor has metal cladding screening a former parking structure, and upper floors and remaining retail have remained vacant.",
+      "title": "Cozen describes existing building conditions including Trader Joe's",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3579.792,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3580.892,
+          "text": "And I would just note, actually, that the Trader Joe's is most..."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3583.692,
+          "text": "if not almost entirely located below grade."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3587.192,
+          "text": "You can see here the office entrance on North 3rd Street, as well as two, a curb cut and two elevators that bring, that were intended to bring cars up to the second floor."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3597.692,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3600.6,
+          "text": "Moving around the site, we are looking at the building's River Street frontage and the Trader Joe's subgrade parking entrance, wherein 43 parking spaces are located."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3613.0,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3617.1,
+          "text": "Looking north here, I think this is the final photo."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3620.1,
+          "text": "To the left is the currently vacant or used for commercial vehicle storage site where River Ring is intended to be developed."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3630.4,
+          "text": "And we're looking north to the Austin Nichols building and the Williamsburg waterfront."
+        }
+      ]
+    },
+    {
+      "end_sec": 3729.096,
+      "id": "040",
+      "slug": "cozen-explains-zoning-history-and-land-use-context-of-williamsburg-waterfront-area",
+      "start_sec": 3635.9,
+      "summary": "Cozen describes the site's M1-4 district, originally modified in the 2005 Greenpoint-Williamsburg rezoning. He explains the patchwork of private rezonings that have created MX-8 districts, and the area's transformation from industrial to a vibrant mixed-use district with maker spaces, retail, and residential uses. He notes the height transition from waterfront to inland.",
+      "title": "Cozen explains zoning history and land use context of Williamsburg waterfront area",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3635.9,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3639.44,
+          "text": "The site, as I mentioned, is located in an M14 district."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3643.54,
+          "text": "The zoning in this area was originally modified as part of the Greenpoint-Williamsburg rezoning back in 2005."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3654.24,
+          "text": "Since then, it's been somewhat of a patchwork where private actors, owners, operators have rezoned different pieces of property."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3663.84,
+          "text": "Those rezonings have mostly resulted in MX districts, MX8 in particular."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3670.44,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3675.196,
+          "text": "And you can see here the varied land uses in the area."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3679.696,
+          "text": "What was maybe 20, 30 years ago, a more industrial warehouse light manufacturing portion of the city has become"
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3688.696,
+          "text": "a pretty vibrant mixed-use district where maker spaces, commercial ground floor retail uses, as well as residential have begun to predominate."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3699.196,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3704.096,
+          "text": "And here you can see the site relative to the built context."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3708.096,
+          "text": "The site is located one block in from the Williamsburg waterfront, wherein along that waterfront there are some pretty sizable skyscrapers that have been built as well as proposed."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3720.796,
+          "text": "City planning as well as the general built context here is to transition from the east to the west in terms of height and density."
+        }
+      ]
+    },
+    {
+      "end_sec": 3816.544,
+      "id": "041",
+      "slug": "cozen-presents-proposed-development-and-rendering-for-200-kent-avenue",
+      "start_sec": 3729.096,
+      "summary": "Cozen shows the proposed development: a partial conversion and enlargement of the existing building, approximately 22,000 square feet of development area, 93,000 residential square feet, retaining 43 parking spaces for Trader Joe's, with commercial ground floor and second floor. A rendering shows the building in context with the future River Ring towers.",
+      "title": "Cozen presents proposed development and rendering for 200 Kent Avenue",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3729.096,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3733.956,
+          "text": "And as I mentioned, this is just a representation of the zoning map change from an M14 to an M14AR7X district, which would allow for the future mixed-use development."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3745.256,
+          "text": "Next slide."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3750.056,
+          "text": "On the screen right here, you can see the proposed development."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3753.356,
+          "text": "The proposed development, we've added the river ring buildings just so you can see it in its built context in the future."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3760.556,
+          "text": "The development area is approximately 22,000 and change in terms of square feet."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3766.756,
+          "text": "And as I mentioned, the proposed development is a partial conversion of the existing building as well as an enlargement on top of that converted building."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3777.756,
+          "text": "This would result in approximately 93,000 residential square feet."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3783.556,
+          "text": "The proposed development would retain the 43 parking spaces for Trader Joe's in the basement and have commercial ground floor and on the second floor as well."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3793.356,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3797.044,
+          "text": "And this is a rendering showing how the building will look with the river ring buildings to the west along the waterfront."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3806.144,
+          "text": "We think it fits very nicely within the built context and would be a welcomed addition to the neighborhood."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3813.344,
+          "text": "Next slide."
+        }
+      ]
+    },
+    {
+      "end_sec": 3885.644,
+      "id": "042",
+      "slug": "architect-magarino-presents-building-facade-design-and-enlargement",
+      "start_sec": 3816.544,
+      "summary": "Julio Magarino of Hill West describes the facade treatment: retaining existing ground floor storefront glazing with brushed aluminum, re-cladding the second floor with curtain wall and metal panels, re-cladding floors 3-5 with window wall systems, and designing floors 6-14 with alternating floor plates to create facade articulation and a unique identity for the developing neighborhood.",
+      "title": "Architect Magarino presents building facade design and enlargement",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3816.544,
+          "text": "So I'm going to turn it over to Julio, the architect from Hill West."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3821.544,
+          "text": "Julio, take it away."
+        },
+        {
+          "speaker": "Julio Magarino",
+          "t_sec": 3822.644,
+          "text": "Good afternoon."
+        },
+        {
+          "speaker": "Julio Magarino",
+          "t_sec": 3823.244,
+          "text": "My name is Julio Magarino."
+        },
+        {
+          "speaker": "Julio Magarino",
+          "t_sec": 3824.444,
+          "text": "I'm with Hill West Architect for the applicants."
+        },
+        {
+          "speaker": "Julio Magarino",
+          "t_sec": 3827.344,
+          "text": "On this slide, as you can see, the proposed building will retain the existing ground floor storefront frame."
+        },
+        {
+          "speaker": "Julio Magarino",
+          "t_sec": 3832.844,
+          "text": "Its glazing will remain."
+        },
+        {
+          "speaker": "Julio Magarino",
+          "t_sec": 3834.244,
+          "text": "The existing metal panels will be replaced in kind with the brushed aluminum metal finish."
+        },
+        {
+          "speaker": "Julio Magarino",
+          "t_sec": 3839.044,
+          "text": "The existing second floor currently has solid and perforated metal panels, which were constructed as screening as a previously required parking."
+        },
+        {
+          "speaker": "Julio Magarino",
+          "t_sec": 3847.244,
+          "text": "The applicant proposes to re-clad the facade with a curtain wall and metal panels, same as the ground floor."
+        },
+        {
+          "speaker": "Julio Magarino",
+          "t_sec": 3853.144,
+          "text": "The existing third through fifth floors currently have a current wall system."
+        },
+        {
+          "speaker": "Julio Magarino",
+          "t_sec": 3857.044,
+          "text": "The applicant proposes to re-clad the facade with a window wall and metal panel system."
+        },
+        {
+          "speaker": "Julio Magarino",
+          "t_sec": 3862.244,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Julio Magarino",
+          "t_sec": 3864.844,
+          "text": "The proposed enlargement floors 6 through 14 features two different floor plates that alternate and integrate with the existing structure below."
+        },
+        {
+          "speaker": "Julio Magarino",
+          "t_sec": 3872.844,
+          "text": "These alternating floor plates combined with the slab cover metal panels accentuate the facade's articulation and create a unique identity for the project and its active developing neighborhood."
+        },
+        {
+          "speaker": "Julio Magarino",
+          "t_sec": 3883.944,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 3937.244,
+      "id": "043",
+      "slug": "cozen-summarizes-proposed-mixed-use-program-for-200-kent-avenue",
+      "start_sec": 3885.644,
+      "summary": "Cozen wraps up the presentation, summarizing the M1-4A/R7X rezoning for mixed-use development with commercial ground floor and second floor, significant open space on the building's podium, and residential enlargement above. He emphasizes the project activates a mostly vacant commercial building and provides new market-rate and affordable housing.",
+      "title": "Cozen summarizes proposed mixed-use program for 200 Kent Avenue",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3885.644,
+          "text": "Turn to Jeremy now."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3886.444,
+          "text": "Next slide."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3889.044,
+          "text": "And just to wrap up, as I mentioned, the proposal here is to rezone the property to an M14AR7X district to allow for mixed-use development."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3902.444,
+          "text": "As you can see on this slide, the ground floor and second floor, as proposed, will be commercial use."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3911.044,
+          "text": "There will be a significant open space on top of the building's podium, and then the enlargement, which will be residential, will be built above."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3922.744,
+          "text": "We think this is a great addition to the neighborhood."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3924.744,
+          "text": "It activates a mostly vacant commercial office building and provides new market rate and affordable housing for an area that is very much in desire."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3935.344,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 4022.044,
+      "id": "044",
+      "slug": "chair-louis-questions-applicant-on-construction-staging-and-keeping-businesses-open",
+      "start_sec": 3937.244,
+      "summary": "Louis asks how the new addition will be constructed on the existing building and whether businesses will stay open. Cozen says Trader Joe's and other tenants will remain open during construction, staged across four frontages. He notes the building was structurally designed to support the proposed overbuild, making construction feasible with minimal disruption.",
+      "title": "Chair Louis questions applicant on construction staging and keeping businesses open",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3937.244,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3937.944,
+          "text": "I have a couple of questions."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3939.844,
+          "text": "Could you discuss some more how the construction of the new addition will be achieved on the existing building and whether you plan to keep the existing businesses open during construction?"
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3950.644,
+          "text": "Sure."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3950.844,
+          "text": "So this has been a discussion with the community as well as the council member."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3954.644,
+          "text": "We can..."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3956.844,
+          "text": "At current, we have had active conversations with Trader Joe's and the other tenants in the building, and they will remain open during construction."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3964.844,
+          "text": "Construction will be staged in a way, because we have four frontages, construction will be staged in a way to allow for those businesses to remain."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3974.644,
+          "text": "open and to have as minimal disruption as possible."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3978.344,
+          "text": "The unique aspect of this building was that even though it was built back when this was actually zoned M3-1, over six, seven years ago, five to seven years ago, it was"
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3992.844,
+          "text": "structurally it was built to support an overbuilt as we are proposing today."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 3997.344,
+          "text": "So someone very smart designed this building from a structural standpoint to allow for a future enlargement."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4003.944,
+          "text": "So from a construction standpoint, excuse me, from a construction standpoint, the staging and the"
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4012.944,
+          "text": "From a staging perspective and a structural standpoint, we think this is doable and very feasible."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 4018.244,
+          "text": "They started to work for you in advance."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 4019.944,
+          "text": "You're blessed."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 4020.444,
+          "text": "I guess that's right."
+        }
+      ]
+    },
+    {
+      "end_sec": 4110.844,
+      "id": "045",
+      "slug": "chair-louis-questions-applicant-on-construction-timeline-and-client-intent-to-develop",
+      "start_sec": 4022.044,
+      "summary": "Louis asks when construction would start and how long it would take. Cozen estimates 2027 start assuming ULURP approval and DOB drawings, with architect Magarino estimating 12-15 months given the existing structure. Louis asks if the client intends to develop or resell; Cozen confirms the client fully intends to develop.",
+      "title": "Chair Louis questions applicant on construction timeline and client intent to develop",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 4022.044,
+          "text": "When do you anticipate starting construction and how long do you anticipate the construction to take?"
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4027.944,
+          "text": "So in an ideal circumstance, 2027."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4032.244,
+          "text": "Construction commencement that assumes approval of the ULERP as well as the preparation of building buildings, DOB drawings."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4045.844,
+          "text": "Given that we're in July, it's fair to say 2027 is a fair assessment."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4052.844,
+          "text": "Given that, and I can turn this over to Julio to weigh in, I believe the construction timeframe would be truncated given the"
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4064.544,
+          "text": "the limited demolition required here, no excavation required here."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4069.044,
+          "text": "So there are significant construction benefits to repurposing the existing building, including the podium that can assist with, you know, getting this to market as quickly as possible."
+        },
+        {
+          "speaker": "Julio Magarino",
+          "t_sec": 4081.544,
+          "text": "That's correct."
+        },
+        {
+          "speaker": "Julio Magarino",
+          "t_sec": 4082.144,
+          "text": "I think construction."
+        },
+        {
+          "speaker": "Julio Magarino",
+          "t_sec": 4083.744,
+          "text": "On a building this size could be 18 to 24 months, being that a third of the building already exists."
+        },
+        {
+          "speaker": "Julio Magarino",
+          "t_sec": 4089.944,
+          "text": "It could be probably within 12 months to 15."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 4101.644,
+          "text": "Does your client want to continue to develop or resell?"
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4107.044,
+          "text": "Our client fully intends to develop this property."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4109.144,
+          "text": "Okay."
+        }
+      ]
+    },
+    {
+      "end_sec": 4183.944,
+      "id": "046",
+      "slug": "chair-louis-questions-applicant-on-mx-8-mixed-use-district-selection-rationale",
+      "start_sec": 4110.844,
+      "summary": "Louis asks why a mixed-use manufacturing and residential district was chosen when the proposal doesn't include manufacturing uses. Cozen explains the MX district provides flexibility for non-residential uses, matches the predominant zoning in the area, and the applicant is committed to reaching out to local organizations to encourage light manufacturing tenants.",
+      "title": "Chair Louis questions applicant on MX-8 mixed-use district selection rationale",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 4110.844,
+          "text": "You're proposing to map a mixed-use manufacturing and residential district."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 4115.244,
+          "text": "However, your current proposal does not include manufacturing uses."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 4119.344,
+          "text": "Why did you choose this mixed-use zoning district, and how does the district benefit your proposal?"
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4124.744,
+          "text": "It's a good question, and it's one we've been asked by the borough president's staff and the borough president, as well as the community board and Commissioner Osorio at the City Planning Commission."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4135.744,
+          "text": "We are open to light manufacturing uses that are permitted pursuant to the MX district zoning."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4142.144,
+          "text": "We are committed to reaching out to local organizations to encourage light manufacturing zoning here."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4149.244,
+          "text": "The reason why it was selected as a zoning district was because that district allows for the green."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4154.944,
+          "text": "flexibility of non-residential uses, as well as it is the predominant district in this area."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4162.644,
+          "text": "So when you look at the neighborhood, you know, on a broader scale, and I don't know if we want to go back to that slide, but you can see that MX-8, the special mixed-use district, is"
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4173.344,
+          "text": "kind of a patchwork throughout this kind of area of Williamsburg."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4176.744,
+          "text": "So it makes sense from a land use planning standpoint."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4179.744,
+          "text": "It also makes sense from a flexibility of use standpoint."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 4183.244,
+          "text": "Got it."
+        }
+      ]
+    },
+    {
+      "end_sec": 4230.744,
+      "id": "047",
+      "slug": "chair-louis-questions-applicant-on-unit-mix-and-affordability-breakdown",
+      "start_sec": 4183.944,
+      "summary": "Louis asks for the unit mix and affordability breakdown. Cozen says the building proposes up to 143 dwelling units with 29-43 affordable under MIH, with the applicant open to Options 1 and 2 and leaning toward Option 1 based on conversations with the council member.",
+      "title": "Chair Louis questions applicant on unit mix and affordability breakdown",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 4183.944,
+          "text": "And could you provide a unit mix and affordability breakdown for your residential units?"
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4189.044,
+          "text": "Sure."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4189.444,
+          "text": "So it's this more detail is in our the applications racial equity report."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4195.744,
+          "text": "I can tell you that as proposed, the building, based on certain dwelling unit factors, proposes to contain up to 143 dwelling units, of which 29 to 43 would be affordable pursuant to MIH."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4211.144,
+          "text": "The applicant, I believe, is open to..."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4214.244,
+          "text": "Well, I shouldn't say I believe."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4215.544,
+          "text": "The applicant is open to options one and two."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4218.244,
+          "text": "There have been conversations with the council member about selecting option one."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4222.344,
+          "text": "Either option works with the development proposal, and we fully intend to develop in accordance with that option."
+        }
+      ]
+    },
+    {
+      "end_sec": 4291.944,
+      "id": "048",
+      "slug": "chair-louis-questions-applicant-on-bedroom-count",
+      "start_sec": 4230.744,
+      "summary": "Louis asks about the bedroom count. Cozen says the bedroom count hasn't been finalized as this is an illustrative building, but the racial equity report contains a standard studio/one/two/three-bedroom mix. He notes the community's desire for larger units and says the applicant would trend toward larger units, not all studios.",
+      "title": "Chair Louis questions applicant on bedroom count",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 4230.744,
+          "text": "And can you also give us the bedroom count?"
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4234.944,
+          "text": "Given that this is an illustrative building, we have not developed that bedroom count at this point."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4240.344,
+          "text": "There is an illustrative bedroom count in the racial equity report."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4244.544,
+          "text": "What I would note is, and we heard this at the community board, there is a desire for this neighborhood to have larger units with more bedrooms."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4252.544,
+          "text": "And we understand that desire, and we're looking to meet that."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 4255.444,
+          "text": "What is the applicant proposing?"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 4256.844,
+          "text": "Like, what is the applicant thinking about when it comes to bedroom count?"
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4260.144,
+          "text": "Yeah, I think at this point it's a little early to weigh in on the bedroom count."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4265.344,
+          "text": "I will say that we..."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4267.244,
+          "text": "There is a standard studio one, two, three bedroom mix that's in that racial equity report."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4274.744,
+          "text": "I would think of that somewhat as the floor and not the ceiling."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4280.144,
+          "text": "And we would, if anything, trend towards larger units than smaller units."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4284.844,
+          "text": "This is not going to be more units that are all studios."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4289.044,
+          "text": "I don't imagine that's the applicant's intent."
+        }
+      ]
+    },
+    {
+      "end_sec": 4344.344,
+      "id": "049",
+      "slug": "chair-louis-relays-ressler-s-question-on-bike-parking-redesign-at-trader-joe-s",
+      "start_sec": 4291.944,
+      "summary": "Louis relays Council Member Ressler's question about redesigning bike parking in the Trader Joe's parking lot for better and safer access, per the community board's request. Cozen says the applicant will use best efforts to work with Trader Joe's, noting the bike spaces are within Trader Joe's leased premises, and will incorporate community feedback.",
+      "title": "Chair Louis relays Ressler's question on bike parking redesign at Trader Joe's",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 4291.944,
+          "text": "Okay, I have a couple of questions by Councilmember Ressler because he had to step out."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 4295.844,
+          "text": "The community board asks that you consider redesigning the bike parking in the Trader Joe's parking lot for better and safer access."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 4304.344,
+          "text": "Will you make best efforts to fulfill that request?"
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4308.944,
+          "text": "I can say yes, the applicant does intend to work with Trader Joe's."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4313.244,
+          "text": "I would just note that, and we've given this response to the community board as well as to the council member, and I think the council member is fully aware of this, the bike spaces are within the Trader Joe's leased premises."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4327.044,
+          "text": "So the applicant fully intends to use best efforts to work with Trader Joe's to make sure that that space is better configured."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4334.544,
+          "text": "including incorporating community feedback as to how we can make it safer and more accessible."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 4341.544,
+          "text": "Consider that part of the feedback."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 4342.944,
+          "text": "They said they want it."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 4343.944,
+          "text": "All right."
+        }
+      ]
+    },
+    {
+      "end_sec": 4401.544,
+      "id": "050",
+      "slug": "chair-louis-relays-ressler-s-questions-on-light-manufacturing-tenants-and-485x-tax-abatement",
+      "start_sec": 4344.344,
+      "summary": "Louis relays Ressler's question about identifying light manufacturing tenants by working with Evergreen, North Brooklyn Business Exchange, and Greenpoint Manufacturing and Design Center; Cozen confirms the commitment. Louis asks about 485X; Cozen says it remains an open question whether 485X will be pursued given the partial conversion and enlargement nature of the project.",
+      "title": "Chair Louis relays Ressler's questions on light manufacturing tenants and 485X tax abatement",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 4344.344,
+          "text": "The borough president has asked that you identify light manufacturing tenants that can occupy the building's commercial spaces."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 4352.444,
+          "text": "Will you make best effort to do that, including working proactively with Evergreen, North Brooklyn Business Exchange, and Greenpoint Manufacturing and Design Center to identify tenants?"
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4366.344,
+          "text": "Yes, the applicant has made that commitment to the borough president and to the commissioner Osorio at the city planning commission."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 4373.944,
+          "text": "Perfect."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 4374.744,
+          "text": "Are you using 485X?"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 4377.344,
+          "text": "If so, does the project you propose already consider 485X?"
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4383.944,
+          "text": "At current?"
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4385.144,
+          "text": "Because this is a partial conversion and a partial enlargement, it is still an open question whether 485X will be, as a tax abatement program, will be looked to."
+        },
+        {
+          "speaker": "Jeremy Cozen",
+          "t_sec": 4398.044,
+          "text": "So we don't have that answer at this time."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 4400.344,
+          "text": "Got it."
+        }
+      ]
+    },
+    {
+      "end_sec": 4450.548,
+      "id": "051",
+      "slug": "200-kent-avenue-hearing-closed-no-public-testimony-items-laid-over",
+      "start_sec": 4401.544,
+      "summary": "Chair Louis calls for public testimony three times; no members of the public sign up in person or online. The hearing on LUs 115 and 116 is closed and items are laid over. The applicant panel is excused.",
+      "title": "200 Kent Avenue hearing closed: no public testimony, items laid over",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 4401.544,
+          "text": "Council, are there any members of the public who wish to testify?"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 4405.044,
+          "text": "Remotely or in person regarding this proposal?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 4408.244,
+          "text": "No, there's no members of public signed up online or in person."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 4412.744,
+          "text": "For members of the public here, sorry."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 4419.948,
+          "text": "If there are any members of the public who wish to testify regarding this proposal remotely, please press the raise hand button now."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 4427.548,
+          "text": "If you are in person, please identify yourself to one of the sergeant at arms."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 4431.148,
+          "text": "This is the last call."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 4432.448,
+          "text": "You have 30 seconds."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 4435.548,
+          "text": "Being there are no members of the public who wish to testify regarding LUs 115 and 116 relating to the 200 Kent Avenue mixed-use residential rezoning proposal, the public hearing is now closed."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 4445.448,
+          "text": "These items are now laid over."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 4447.348,
+          "text": "This applicant panel is now excused."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 4449.048,
+          "text": "Thank you for being here today."
+        }
+      ]
+    },
+    {
+      "end_sec": 4472.469,
+      "id": "052",
+      "slug": "chair-louis-adjourns-the-subcommittee-meeting",
+      "start_sec": 4450.548,
+      "summary": "Chair Louis thanks the public, colleagues, subcommittee council, land use staff, and sergeant at arms. The meeting is adjourned.",
+      "title": "Chair Louis adjourns the subcommittee meeting",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 4450.548,
+          "text": "That concludes today's business."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 4451.848,
+          "text": "I would like to thank the members of the public, my colleagues, subcommittee council, land use and council staff, and the sergeant at arms for participating in today's meeting."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 4460.248,
+          "text": "This meeting is hereby adjourned."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 4463.72,
+          "text": "Thanks."
+        }
+      ]
+    }
+  ],
+  "date": "2026-07-21",
+  "duration_sec": 4472.469,
+  "slug": "2026-07-21-1100-am-subcommittee-on-zoning-and-franchises",
+  "summary": [
+    "Subcommittee on Zoning and Franchises held hearings on three land use items: Flatiron NoMad major concession expansion, 47-03 108th Street rezoning in Corona Queens, and 200 Kent Avenue rezoning in Williamsburg Brooklyn.",
+    "DOT presented the Flatiron NoMad major concession to expand the pedestrian plaza area from 38,500 to 162,345 square feet maintained by the Flatiron NoMad Partnership BID, with council members questioning oversight, environmental practices, public seating, bike-pedestrian separation, and concession seating limits.",
+    "Both rezoning applications propose mixed-use residential developments with mandatory inclusionary housing (119 units in Corona, 143 units in Williamsburg); all three items were laid over with no public testimony submitted."
+  ],
+  "tags": [
+    "HEARING",
+    "LAND_USE"
+  ],
+  "time": "11:00 AM",
+  "title": "Subcommittee on Zoning and Franchises",
+  "topic": "Zoning, 200 Kent Avenue Rezoning, Brooklyn (C 260149 ZMK)",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-3_260721-110329/video-web.mp4"
+  }
+}
