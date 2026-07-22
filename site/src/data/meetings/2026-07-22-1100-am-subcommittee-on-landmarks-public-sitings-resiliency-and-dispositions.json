@@ -1,0 +1,1745 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 26.3,
+      "id": "001",
+      "slug": "staff-opens-webinar-and-calls-meeting-to-order",
+      "start_sec": 0.0,
+      "summary": "Council staff starts the Zoom webinar, welcomes attendees to the Subcommittee on Landmarks, Public Sitings, Resiliency and Dispositions hearing, and asks attendees to silence devices and not approach the dais.",
+      "title": "Staff opens webinar and calls meeting to order",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 0.0,
+          "text": "Zoom hosts, please start the webinar."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 6.6,
+          "text": "Webinar started."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 10.3,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 11.1,
+          "text": "Welcome to today's New York City Council hearing for the Committee on Landmarks, Public Sightings, Resiliency, and Disposition."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 17.1,
+          "text": "At this time, please silence all cell phone electronic devices."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 19.9,
+          "text": "Moving forward, no one is to approach the dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 22.1,
+          "text": "Chair Marte, we are ready to begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 131.6,
+      "id": "002",
+      "slug": "chair-marte-opens-hearing-and-outlines-participation-procedures",
+      "start_sec": 26.3,
+      "summary": "Chair Christopher Marte introduces himself and notes virtual attendance by Council Members Thomas-Henry and Hanks, and in-person attendance by Council Member Oss\u00e9. He explains hybrid format rules for public testimony registration, written testimony submission, and decorum requirements.",
+      "title": "Chair Marte opens hearing and outlines participation procedures",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 26.3,
+          "text": "Good morning and welcome to the meeting of the Subcommittee on Landmarks, Public Siding, Resiliency, and Dispositions."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 33.1,
+          "text": "I am Councilmember Christopher Marte."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 34.7,
+          "text": "I'm the chair of the subcommittee."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 35.9,
+          "text": "I'm joined today by my colleagues, Councilmember Thomas Henry, who's with us virtually."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 40.9,
+          "text": "Before we begin today's agenda, I'll remind everyone that this meeting is being held in a hybrid format."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 46.4,
+          "text": "For members of the public who wish to testify remotely, we ask that you first register online, and you may do so now by visiting www.council.nyc.gov"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 56.6,
+          "text": "slash land use to sign up, and then sign into the Zoom and remain signed in until you have testified."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 63.8,
+          "text": "We also have Councilmember Hanks, who's online, and we've been joined in person by Councilmember Osei."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 71.8,
+          "text": "For anyone with us today in person and wish to testify, if you have not already done so, please see one of the sergeants to fill out a speaker card, and we'll call your name at the appropriate time."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 81.9,
+          "text": "For anyone wishing to submit written testimony on the items being heard today, we ask that you please send it via email to landuse.com."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 89.7,
+          "text": "Testimony."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 90.2,
+          "text": "at council.nyc.gov, including the LU number and or project name in the subject line of your email."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 97.6,
+          "text": "Video and audio testimonies will not be accepted."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 101.4,
+          "text": "I remind members of the public that this is a governmental proceeding and that decorum shall be observed at all times."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 107.7,
+          "text": "As such, members of the public shall remain silent unless and until called to testify."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 112.8,
+          "text": "The witness table is reserved for people who wish to testify."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 116.2,
+          "text": "No video recording or photography is allowed from the witness table."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 119.9,
+          "text": "Further, members of the public may not present audio or video recording as testimony, but may submit transcript of such recordings to the sergeant for inclusion in the hearing record."
+        }
+      ]
+    },
+    {
+      "end_sec": 184.8,
+      "id": "003",
+      "slug": "chair-marte-opens-public-hearing-on-lu-114-queens-cd2-walk-to-park-site-selection",
+      "start_sec": 131.6,
+      "summary": "Marte formally opens the hearing on LU 114, describing the application by the Department of Parks and Recreation for acquisition and site selection of 21 privately owned sites for future park development in Queens Community District 2, covering Long Island City, Sunnyside, Woodside, Blissville, and West Maspeth.",
+      "title": "Chair Marte opens public hearing on LU 114 Queens CD2 Walk to Park site selection",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 131.6,
+          "text": "I now open a public hearing on LU 114 for Queens CD2 walk to park site selection."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 140.2,
+          "text": "An application by Department of Parks and Recreation for approval of city acquisition and site selection of 21 privately owned site for future park development in Queens Community District 2."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 152.2,
+          "text": "This proposal seeks to create a new parkland and to increase access to open space resources for the neighborhoods of Long Island City, Sunnyside, Woodside,"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 162.2,
+          "text": "Blessville, and West Mass Beth, located at Councilmember Wan and Krishna's district."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 167.8,
+          "text": "Appearing today on the panel are Colleen Alderson, Gabriela Capo, and Julia Dowling."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 174.7,
+          "text": "Those who wish to testify remotely must register online by visiting the council website at council.nyc."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 180.1,
+          "text": "That GOV slash land use."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 182.1,
+          "text": "Panelists, please ensure that your microphone is on."
+        }
+      ]
+    },
+    {
+      "end_sec": 223.7,
+      "id": "004",
+      "slug": "administration-of-affirmation-to-parks-department-panelists",
+      "start_sec": 184.8,
+      "summary": "Council staff administers the affirmation to panelists Gabriella Cappo, Julia Dowling, and Colleen Alderson, who each affirm to tell the truth in their testimony.",
+      "title": "Administration of affirmation to Parks Department panelists",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 184.8,
+          "text": "Council, would you please administer the affirmation?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 189.3,
+          "text": "Panelists, could you please raise your right hand and state your name for the record?"
+        },
+        {
+          "speaker": "Gabriella Cappo",
+          "t_sec": 194.4,
+          "text": "Gabriella Capu."
+        },
+        {
+          "speaker": "Julia Dowling",
+          "t_sec": 196.0,
+          "text": "Julia Dowling."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 197.3,
+          "text": "Colleen Alderson."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 198.5,
+          "text": "Do you affirm to tell the truth, the whole truth, and nothing but the truth in your testimony before this subcommittee and in answer to all council member questions?"
+        },
+        {
+          "speaker": "Gabriella Cappo",
+          "t_sec": 205.9,
+          "text": "I do."
+        },
+        {
+          "speaker": "Julia Dowling",
+          "t_sec": 207.0,
+          "text": "I do."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 207.6,
+          "text": "I do."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 210.7,
+          "text": "You may now begin your testimony, which is limited to 10 minutes, and you should start to conclude your presentation after eight minutes."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 217.1,
+          "text": "When you begin your presentation, please restate your name and organization."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 221.5,
+          "text": "You may now begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 288.288,
+      "id": "005",
+      "slug": "colleen-alderson-introduces-walk-to-a-park-ulurp-application-for-queens-cd2",
+      "start_sec": 223.7,
+      "summary": "Colleen Alderson, Chief of Parklands and Real Estate for NYC Parks, introduces the Neighborhood Walk to a Park ULURP application covering Queens CD2, explaining the goal of closing gaps in walk access to public open space. She notes DCAS as co-applicant for the acquisition process.",
+      "title": "Colleen Alderson introduces Walk to a Park ULURP application for Queens CD2",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 223.7,
+          "text": "Hello, good morning."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 225.1,
+          "text": "My name is Colleen Alderson, Chief of Parklands and Real Estate for New York City Parks."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 230.5,
+          "text": "We're happy to be here to present this ULIRP application before the committee."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 235.2,
+          "text": "We're here to present the Neighborhood Walk to a Park ULIRP application covering Queens Community District 2."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 244.2,
+          "text": "Next slide."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 248.432,
+          "text": "This is a map showing the gap areas in terms of people, residents that live not in walking distance to a public open space."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 258.332,
+          "text": "And that is the purpose of this application to close those gaps."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 261.932,
+          "text": "For the applicants for this ULIRP application, along with the New York City Parks Department, the co-applicant is also the New York City Department of Citywide Administrative Services, as they play a role in the acquisition process."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 276.032,
+          "text": "Again, our goal is to increase the flexibility and likelihood of potential new park sites in an underserved district."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 283.632,
+          "text": "Next slide."
+        }
+      ]
+    },
+    {
+      "end_sec": 382.884,
+      "id": "006",
+      "slug": "alderson-outlines-benefits-of-urban-parks-and-walk-to-park-initiative",
+      "start_sec": 288.288,
+      "summary": "Alderson describes the multifaceted benefits of urban parks including physical and mental health, stormwater capture, tree canopy, and community cohesion. She explains the Walk to a Park initiative and other efforts like opening schoolyards and NYCHA edge open spaces to close walk gaps.",
+      "title": "Alderson outlines benefits of urban parks and walk-to-park initiative",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 288.288,
+          "text": "You all are aware of this, but urban parks are very important to the city's urban population."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 295.188,
+          "text": "They have multifaceted benefits, respite for residents."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 299.788,
+          "text": "It also provides for physical and mental health benefits."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 305.088,
+          "text": "New York City parks are also..."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 307.888,
+          "text": "Have many environmental benefits."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 309.788,
+          "text": "They help with stormwater capture."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 312.188,
+          "text": "They also aid in the preservation of the city's tree canopy and provide opportunities for new trees."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 318.988,
+          "text": "And they also, for the mental health and well-being of residents, they also provide spaces for community cohesion."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 329.588,
+          "text": "And we also know that proximity to public open spaces is key for residents getting the benefits out of these spaces."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 337.788,
+          "text": "Next slide."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 341.384,
+          "text": "This is one part of our effort to increase the amount of public open space in underserved areas."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 347.884,
+          "text": "This is our walk to a park initiative."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 349.984,
+          "text": "There are other ways that we try to close the walk gap."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 353.784,
+          "text": "We work with the Department of Education to open up more schoolyards for larger community use."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 360.684,
+          "text": "We opened up a set of new schoolyards last year."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 363.684,
+          "text": "We also have worked over recent years with the New York City Housing Authority to focus on edge open space properties so that they can be open to the public, serving gap areas and also providing"
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 376.184,
+          "text": "enhanced and improved amenities for the NYCHA residents."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 380.684,
+          "text": "Next slide."
+        }
+      ]
+    },
+    {
+      "end_sec": 482.784,
+      "id": "007",
+      "slug": "alderson-explains-challenges-of-acquiring-private-land-and-new-ulurp-approach",
+      "start_sec": 382.884,
+      "summary": "Alderson discusses challenges to acquiring private open space, including limited vacant land and property owners unable to wait through the ULURP process. She explains the new approach of getting ULURP approval in advance for an underserved district so the city can act quickly when a willing seller emerges. She notes 85% of NYC residents are served but over a million remain unserved, including 26,000 in CD2.",
+      "title": "Alderson explains challenges of acquiring private land and new ULURP approach",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 382.884,
+          "text": "That being said, we face many challenges to acquiring private open space to create new urban parks."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 390.384,
+          "text": "There's limited vacant available land, and the property owners are typically not able to wait the duration for the ULERP process to proceed through its important course."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 403.084,
+          "text": "And so therefore, we've envisioned a new idea to get the ULERP approval in hand for an underserved district."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 410.984,
+          "text": "And so the ULERP process is in place so that if there is an opportunity for a given piece of property, a willing seller, we're past the ULERP phase and can immediately work on the acquisition part of the process to realize a new park."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 426.684,
+          "text": "And I'll just say that, you know, for the walk to park."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 429.684,
+          "text": "We currently are almost at 85% of New York City residents served, which sounds pretty"
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 435.884,
+          "text": "good, but there's still over a million people that are unserved, such as about 26,000 people in Community District 2 in Queens."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 447.084,
+          "text": "So the next slide."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 449.484,
+          "text": "So we believe this new idea to have a ULERP selecting a given amount of private property will give the city an opportunity to realize new parks should there be a willing seller."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 462.884,
+          "text": "So we also believe this will create awareness to property owners that the city is interested in pursuing a new public park site."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 471.384,
+          "text": "And with this, as I said, with the ULIP approval in hand, it's easier for the city to work more efficiently and carry out the acquisition process."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 481.284,
+          "text": "Next slide."
+        }
+      ]
+    },
+    {
+      "end_sec": 526.584,
+      "id": "008",
+      "slug": "alderson-details-site-selection-criteria-and-district-selection-methodology",
+      "start_sec": 482.784,
+      "summary": "Alderson explains the citywide criteria used to select districts: density of unserved residents, open space ratio, and poverty rate, resulting in 19 districts selected. She notes two ULURP applications were approved last year for Brooklyn CD5 and Queens CD3, and this application covers Queens CD2.",
+      "title": "Alderson details site selection criteria and district selection methodology",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 482.784,
+          "text": "The next set of slides are about the criteria in which we selected the properties and the districts in need."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 490.084,
+          "text": "We looked citywide, applying the same criteria to community districts, looking at the density of unserved in a given community district."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 498.184,
+          "text": "We also looked at the open space ratio, the amount of open space per 1,000 residents, and we also looked at the poverty rate to select 19 districts across the city that met this criteria."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 510.584,
+          "text": "Late last year, the two first ULIRP applications were approved, Brooklyn Community District 5 and Queens Community District 3."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 519.384,
+          "text": "And we're currently with Queens Community District 2 with this application."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 524.284,
+          "text": "Next slide."
+        }
+      ]
+    },
+    {
+      "end_sec": 571.384,
+      "id": "009",
+      "slug": "alderson-provides-context-on-queens-cd2-open-space-needs-and-rezoning",
+      "start_sec": 526.584,
+      "summary": "Alderson gives context on Queens CD2, noting the recent Long Island City rezoning and housing growth, and acknowledging the continued dearth of open space. She describes engagement with Community Board 2 about vast needs across the district.",
+      "title": "Alderson provides context on Queens CD2 open space needs and rezoning",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 526.584,
+          "text": "Just some more context on Queens Community District 2."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 529.484,
+          "text": "As you all are aware, there was recently the neighborhood plan, the rezoning for Long Island City."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 535.784,
+          "text": "There has been a lot of development in Long Island City over recent years, and with the rezoning plan, there will be additional new housing units, and there are, we know, facets of that plan that will realize improved and accessible open space."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 551.584,
+          "text": "But that being said, there's still a dearth of open space across the district."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 557.484,
+          "text": "And we also, in engagement with the community board, they also are aware that there are vast needs across the district that we want to work with them to try to close that walk gap."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 569.284,
+          "text": "Next slide."
+        }
+      ]
+    },
+    {
+      "end_sec": 604.984,
+      "id": "010",
+      "slug": "alderson-presents-cd2-statistics-low-open-space-ratio-and-26-000-unserved-residents",
+      "start_sec": 571.384,
+      "summary": "Alderson presents a map showing unserved pink areas in CD2, noting the district is very dense with a population increase over 20 years. The open space ratio is 0.38, one of the lowest in the city, with about 26,000 residents not within walking distance of a park.",
+      "title": "Alderson presents CD2 statistics: low open space ratio and 26,000 unserved residents",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 571.384,
+          "text": "This is just some basics about Queens Community District 2."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 575.584,
+          "text": "The pink areas are those unserved areas in the district."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 579.184,
+          "text": "It's a very dense community district, as you're aware, and we know that the population has greatly increased over the past 20 years or so."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 587.484,
+          "text": "There's a very little open space."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 589.284,
+          "text": "The open space ratio is 0.38."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 591.284,
+          "text": "It's one of the lowest ones we see across the city."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 594.284,
+          "text": "And again, there are about 26,000 residents that are not in walking distance of a park, so they don't get to realize all the benefits that I spoke about at the beginning."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 604.084,
+          "text": "Next slide."
+        }
+      ]
+    },
+    {
+      "end_sec": 634.384,
+      "id": "011",
+      "slug": "alderson-describes-primary-site-criteria-7-vacant-sites-identified",
+      "start_sec": 604.984,
+      "summary": "Alderson explains primary site criteria: privately owned vacant sites of at least 5,000 square feet with no active development permits and suitability for park development. Seven sites in CD2 met these criteria.",
+      "title": "Alderson describes primary site criteria: 7 vacant sites identified",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 604.984,
+          "text": "The primary sites, the criteria."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 607.284,
+          "text": "They're the vacant sites."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 608.884,
+          "text": "Again,"
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 609.384,
+          "text": "These are all privately owned sites, at least 5,000 square feet, no active permits from our check for development of the sites, and that we have checked them for suitability for park development."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 622.584,
+          "text": "Next slide."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 624.684,
+          "text": "Shows seven sites in the community district that met this criteria."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 628.984,
+          "text": "This shows the location of those sites."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 632.684,
+          "text": "Next slide."
+        }
+      ]
+    },
+    {
+      "end_sec": 679.184,
+      "id": "012",
+      "slug": "alderson-describes-secondary-site-criteria-30-built-upon-sites-identified",
+      "start_sec": 634.384,
+      "summary": "Alderson explains secondary site criteria: non-residential built-upon sites built to 50% or less of zoning capacity, at least 5,000 square feet, no active DOB permits, and buildings not recently improved. Thirty sites across the district met these criteria.",
+      "title": "Alderson describes secondary site criteria: 30 built-upon sites identified",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 634.384,
+          "text": "Because there were not a sites that met that criteria, we have secondary sites."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 638.584,
+          "text": "These are built upon sites, but we do have some parameters for their selection."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 643.684,
+          "text": "We did not choose any sites that current are developed as residential uses."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 648.484,
+          "text": "They're built to 50% or less of what the zoning allows."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 652.984,
+          "text": "They also are at least, again, 5,000 square feet, no active DOB permits, and also criteria that buildings would have to have not been built, would have to have been"
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 666.284,
+          "text": "improved for some time before the state of this application."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 670.884,
+          "text": "Next slide."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 672.384,
+          "text": "This map shows 30 sites that met that criteria off the district, across the district."
+        }
+      ]
+    },
+    {
+      "end_sec": 708.484,
+      "id": "013",
+      "slug": "alderson-notes-10-year-sunset-clause-and-concludes-presentation",
+      "start_sec": 679.184,
+      "summary": "Alderson explains the application includes a 10-year sunset clause for acquisitions, after which a new ULURP could refresh sites if needed. She expresses hope the timeframe will allow realization of new parks in CD2 and concludes the slide presentation.",
+      "title": "Alderson notes 10-year sunset clause and concludes presentation",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 679.184,
+          "text": "And one last next slide is just a note that this application has a sunset clause."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 686.184,
+          "text": "So should it be approved, we have 10 years with the acquisition approval to carry out acquisitions."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 692.884,
+          "text": "Should there be willing sellers after that time, we could do another ULIRP, refresh the sites."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 698.284,
+          "text": "But hopefully in this."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 699.184,
+          "text": "time period will give us an opportunity to realize new parks in Community District 2."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 704.584,
+          "text": "And that's the end of our slides."
+        }
+      ]
+    },
+    {
+      "end_sec": 814.184,
+      "id": "014",
+      "slug": "chair-marte-questions-alderson-on-voluntary-acquisition-and-target-numbers",
+      "start_sec": 708.484,
+      "summary": "Marte asks whether acquisitions are voluntary for property owners; Alderson confirms the city seeks willing sellers and notes properties must continue meeting criteria. Marte asks about target acquisitions per year; Alderson says there is no set number but a handful of new parks would be a success, noting the last park in CD2 was Hunters Point South over 10 years ago.",
+      "title": "Chair Marte questions Alderson on voluntary acquisition and target numbers",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 708.484,
+          "text": "Thank you for the presentation."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 709.884,
+          "text": "I have a few questions, and then I'm going to ask a few questions from the local council member, Council Member Wan."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 715.784,
+          "text": "First, just to reaffirm this, the proposed acquisition can only be voluntary for the property owners, correct?"
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 724.784,
+          "text": "That is correct."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 725.984,
+          "text": "We've stated throughout the process and before the City Planning Commission that we're looking for willing sellers."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 732.184,
+          "text": "I also should note that should the criteria for the properties change and not meet the criteria as laid out, they're ineligible for our ability to acquire the sites."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 741.384,
+          "text": "But yes, we are looking for willing sellers."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 744.584,
+          "text": "And we see this as an opportunity for a property owner to just consider."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 749.284,
+          "text": "You know, another avenue should they be looking to change the status of their property."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 755.284,
+          "text": "Do you have a target number of acquisitions per year for this community district over the 10-year time horizon?"
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 762.884,
+          "text": "We don't, you know, we're not sure what this will foretold, but, you know, if this district could see a handful of new park sites, I think that would be a success."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 773.284,
+          "text": "The last park in this community district was Hunters Point South a little more than 10 years ago, so it's been some time, but"
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 781.684,
+          "text": "there are various gap areas across the district, and I think if we could, if there are willing sellers, I think that would help."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 789.584,
+          "text": "tamp down on the number unserved in terms of residents not within a walk gap and also help on that very low open space ratio that exists in the district."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 800.484,
+          "text": "So there's no set number."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 801.884,
+          "text": "We're not sure which owners would be interested, but we do believe this application will help in meeting the needs of the community in terms of public open space."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 813.584,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 879.784,
+      "id": "015",
+      "slug": "marte-asks-about-plan-if-few-sites-acquired-within-10-year-window",
+      "start_sec": 814.184,
+      "summary": "Marte asks what happens if few sites are acquired within 10 years. Alderson says the city would need to file a new ULURP application to refresh sites, and notes other opportunities like a potential new school with a schoolyard from the LIC rezoning could also help.",
+      "title": "Marte asks about plan if few sites acquired within 10-year window",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 814.184,
+          "text": "I also want to note that we've been joined by Councilmember Juan, who's online as well."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 819.884,
+          "text": "If for some reason very few selected sites are able to be acquired within 10 years, is there a plan to"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 826.684,
+          "text": "continue to extend potentially the amount of years for new site selections, or what's your plan and what have you done in the past?"
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 836.984,
+          "text": "Well, we know with our engagement with the community board that they're, you know, very interested in seeing new public open space."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 844.184,
+          "text": "We would have to do a new ULERP application and working with city planning."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 848.784,
+          "text": "We could refresh the sites, look for new opportunities."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 852.384,
+          "text": "You know, meanwhile, you know, perhaps other opportunities may come to fruition."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 858.384,
+          "text": "We know with the Long Island City rezoning, there's a possibility of a new school with the schoolyard that could be open to the community."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 864.884,
+          "text": "So there's things that might also happen in the background."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 868.084,
+          "text": "But yeah, we would have to do another ULERP application."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 871.084,
+          "text": "We would consider doing that, you know, if there's still an outstanding need in the district."
+        }
+      ]
+    },
+    {
+      "end_sec": 910.884,
+      "id": "016",
+      "slug": "marte-asks-whether-parks-benefit-industrial-business-zones",
+      "start_sec": 879.784,
+      "summary": "Marte notes several sites are within Industrial Business Zones and asks whether parks directly benefit industrial areas. Alderson says yes, noting workers and some residents live in those areas and the sites serve a need.",
+      "title": "Marte asks whether parks benefit industrial business zones",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 879.784,
+          "text": "In this community district, a number of these sites are within IBZ, industrial business zones."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 885.784,
+          "text": "Do parks directly benefit industrial areas?"
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 890.084,
+          "text": "We believe so."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 891.084,
+          "text": "There are workers there and there are also some residents located in those areas just due to how the area developed."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 898.784,
+          "text": "So there are sites included and we do believe they serve a need, again, for the workers and some of the residents that actually live in those areas."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 909.884,
+          "text": "Great."
+        }
+      ]
+    },
+    {
+      "end_sec": 970.684,
+      "id": "017",
+      "slug": "marte-relays-council-member-won-s-question-on-application-purpose-and-acquisition-process",
+      "start_sec": 910.884,
+      "summary": "Marte relays Won's question clarifying that the application authorizes acquisition but does not itself trigger acquisition or development. Alderson confirms, explaining the city must engage with property owners, negotiate price, go to contract and closing, then follow the capital process with community engagement on amenities.",
+      "title": "Marte relays Council Member Won's question on application purpose and acquisition process",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 910.884,
+          "text": "And now I'm going to ask you some of the questions from Councilmember Wan."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 915.384,
+          "text": "I would like to clarify the purpose of this application."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 917.684,
+          "text": "I understand that this application simply authorizes the city to make acquisition of the listed sites within the next 10 years, but does not itself trigger the acquisition or development of new parks."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 928.884,
+          "text": "Can you confirm that this is correct?"
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 931.884,
+          "text": "Yes, that's correct."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 933.684,
+          "text": "The city would have to actually acquire a site in order to then develop it, following our typical capital process where we engage with the community about what kind of amenities they'd like to see."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 946.084,
+          "text": "But this ULERP is just giving the authority to acquire, again, if there's a willing seller."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 950.884,
+          "text": "It does not automatically lead to, you know, tomorrow the property is being acquired by the city."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 958.284,
+          "text": "There's a process where the city would engage with a property owner and negotiate, and if they come to an agreed-upon price, it would go to contract and closing and then be assigned to the property."
+        }
+      ]
+    },
+    {
+      "end_sec": 1077.584,
+      "id": "018",
+      "slug": "marte-relays-won-s-question-on-property-owner-outreach-and-interested-seller",
+      "start_sec": 970.684,
+      "summary": "Marte asks about Parks' engagement with property owners. Alderson says required letters were sent to all owners, with some feedback including one potentially interested owner on Queens Boulevard whose property is up for sale, and one not interested. She notes the city cannot make an offer until after ULURP approval.",
+      "title": "Marte relays Won's question on property owner outreach and interested seller",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 970.684,
+          "text": "And to what extent has New York City Parks engaged property owners of these sites as part of the development of this proposal?"
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 979.984,
+          "text": "We have been required to send letters to each property owner based on community city records."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 989.584,
+          "text": "Before every hearing for the Euler process, we have gotten some feedback, not too much, but some one property owner potentially interested, another property owner not interested."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 1002.884,
+          "text": "So we've had a little bit of feedback, but we have done those required letters to the owners."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 1009.584,
+          "text": "And then should the ULERP be approved, we have plans to reach out to the owners to gauge whether they might be interested and will follow up."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 1019.284,
+          "text": "And we've laid out a process with the City Planning Commission how to do that outreach."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1024.184,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1024.784,
+          "text": "And so I think you kind of answered my next question."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1027.284,
+          "text": "Is New York City Parks in discussion with any of these property owners to acquire their sites in the immediate future?"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1032.884,
+          "text": "You mentioned one that's interested."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1037.184,
+          "text": "Can you tell us a little bit about that conversation as much as you can?"
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 1041.284,
+          "text": "Yeah, for this property owner, I don't want to give specifics, but it's on Queens Boulevard, and they are potentially interested."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 1049.284,
+          "text": "Their property is up for sale."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 1051.484,
+          "text": "They are not really familiar with the city's acquisition process, so that was part of the conversation."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 1057.884,
+          "text": "But they wanted to just..."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 1060.084,
+          "text": "you know, keep in touch with how the process unfolds."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 1062.884,
+          "text": "We can't really engage with a property owner until after the ULERP is approved and, you know, for the city to make an offer, that kind of thing."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 1071.884,
+          "text": "So there was that, that was the conversation with that particular property owner."
+        }
+      ]
+    },
+    {
+      "end_sec": 1206.384,
+      "id": "019",
+      "slug": "marte-relays-won-s-questions-on-timeline-funding-and-capital-for-new-parks",
+      "start_sec": 1077.584,
+      "summary": "Marte relays Won's concern that the district needs parks now and asks about the plan, timeline, and FY2027 funding for acquisitions. Alderson estimates 6-12 months for acquisition, then 3 years for design and construction, and says Parks has some capital funds and would seek more from OMB and state grants. She confirms about $30 million is set aside.",
+      "title": "Marte relays Won's questions on timeline, funding, and capital for new parks",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1077.584,
+          "text": "Okay, that makes sense."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1079.084,
+          "text": "While we appreciate New York City Parks'efforts to expedite the site acquisition process through this proposal, our district needs parks now."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1087.484,
+          "text": "As the neighborhoods of CD2 continues to grow, the existing park deficit will only deepen."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1094.284,
+          "text": "What is the plan to actually acquire and convert the identified sites into new parks?"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1100.184,
+          "text": "What is the timeline to bring these new parks online?"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1103.484,
+          "text": "And does the Parks Department have the funding allocated to support the acquisition of new parks in CD2 for fiscal year 2027?"
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 1113.284,
+          "text": "So in terms of timeline, should the ULIP be approved, the way that the engagement with an interested seller works, we see the acquisition process taking about six to 12 months."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 1125.484,
+          "text": "It depends on various factors, but that's about the timeframe."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 1130.084,
+          "text": "Should we acquire a site, we do then want to follow through with capital improvements."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 1137.484,
+          "text": "That's a start of standard three years between design, procurement, and actual construction."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 1144.484,
+          "text": "So that's like the timeline."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 1146.284,
+          "text": "So it'll be a few years if a willing seller steps forward."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 1149.184,
+          "text": "We want to advance an acquisition."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 1151.284,
+          "text": "We'll take time between the acquisition and then our design process and then the build out."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 1157.284,
+          "text": "In terms of capital funds, we do have some capital funds for this effort."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 1163.484,
+          "text": "And we think, you know, with the two districts approved last year, and should this one be approved,"
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 1171.984,
+          "text": "We foresee that more funds will be needed based on willing sellers."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 1177.984,
+          "text": "And we hope that with the approval of the ULERP in place, we can work with OMB and we can apply for grants."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 1186.184,
+          "text": "We do apply for grants from the state for park acquisition efforts."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 1191.084,
+          "text": "And so we would..."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 1193.084,
+          "text": "You know, focus on securing the funds based on the available sites, but we do have some funds right now."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1199.084,
+          "text": "Do you know the amount that you have set aside?"
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 1202.484,
+          "text": "We have about $30 million."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1204.284,
+          "text": "Okay, thanks."
+        }
+      ]
+    },
+    {
+      "end_sec": 1320.068,
+      "id": "020",
+      "slug": "marte-relays-won-s-questions-on-sunnyside-and-woodside-site-deficits",
+      "start_sec": 1206.384,
+      "summary": "Marte relays Won's concerns about Sunnyside having only 3 secondary sites and Woodside having 15 sites (12 secondary), asking how Parks will address inequities in Sunnyside and prioritize acquisitions in Woodside. A Parks staff member explains GIS analysis captured all eligible Sunnyside sites and that community board input shaped selections.",
+      "title": "Marte relays Won's questions on Sunnyside and Woodside site deficits",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1206.384,
+          "text": "Sunnyside and Woodside have the deepest park deficit in CD2."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1210.384,
+          "text": "Out of the 37 identified sites, three are in Sunnyside and 15 are in Woodside."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1215.984,
+          "text": "As the neighborhood with the most severe lack of public access in CD2, it is deeply concerning to see that only three sites, all of which categorized as secondary sites, have been identified in Sunnyside."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1228.884,
+          "text": "How will parks address this persistent open space inequity for Sunnyside residents, especially those in South Sunnyside who have only one point?"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1239.484,
+          "text": "eight four acres of open space."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1242.784,
+          "text": "And my add-on question to that is, while Woodside has a total of 15 sites identified in this proposal, 12 of these are secondary sites, which seem less likely to be acquired because they already have buildings on the property."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1256.784,
+          "text": "How will New York City Parks prioritize making sure that these acquisitions move forward in Woodside?"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1262.384,
+          "text": "So I guess you can answer the Sunnyside question first and then go to the Woodside question."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1271.484,
+          "text": "Yeah, so I'll just speak a little bit to our process for identifying the secondary sites."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1276.984,
+          "text": "So for Sunnyside, we really included all of the sites that we could."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1283.884,
+          "text": "We did a GIS analysis where we looked at all of the lots that met all of our criteria."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1290.984,
+          "text": "And unfortunately, in Sunnyside, there weren't as many sites that met those criteria."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1297.384,
+          "text": "And then as well, I'll just add that we engaged a lot with the community board throughout this process."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1303.784,
+          "text": "We are really responsive to what they wanted to see."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1307.584,
+          "text": "So the sites that you see included in the application are also a reflection of all of that outreach to the community board as well."
+        }
+      ]
+    },
+    {
+      "end_sec": 1380.068,
+      "id": "021",
+      "slug": "alderson-explains-strict-criteria-application-and-flexibility-for-community-board-input",
+      "start_sec": 1320.068,
+      "summary": "Alderson adds that the city applied consistent criteria strictly but built in some flexibility to capture community board needs, allowing secondary sites whose walk shed could cover gap areas. She notes the city is open to continued dialogue with the community board but ULURP approval is required to advance any acquisition.",
+      "title": "Alderson explains strict criteria application and flexibility for community board input",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 1320.068,
+          "text": "And I'll just add one thing is that in envisioning, this is a very much a new approach by the city in terms of acquiring property for park purposes."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 1329.668,
+          "text": "I think in working with city planning, we wanted to apply consistent criteria."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 1335.168,
+          "text": "So that is what, you know, we're pretty strict about that."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 1338.768,
+          "text": "We did actually work in some flexibility to capture in the community board's needs that the secondary sites may not exactly be in a gap area, but their walk shed could cover a gapped area."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 1351.468,
+          "text": "And that's how we were able to capture in some additional sites in response to the community board."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 1357.968,
+          "text": "But it was strictly applying their criteria that led to the sites that are part of the application."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 1364.868,
+          "text": "But we're open to continuing the dialogue with the community board should other opportunities come up."
+        },
+        {
+          "speaker": "Colleen Alderson",
+          "t_sec": 1370.268,
+          "text": "We just are required to get the ULIP approval, though, in order to advance the acquisition process if they're not included in this application."
+        }
+      ]
+    },
+    {
+      "end_sec": 1447.048,
+      "id": "022",
+      "slug": "chair-marte-excuses-parks-panel-and-calls-for-public-testimony",
+      "start_sec": 1380.068,
+      "summary": "Marte thanks the panel and excuses them, then asks if any members of the public wish to testify. Council staff indicates Council Member Julie Won is online to testify.",
+      "title": "Chair Marte excuses Parks panel and calls for public testimony",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1380.068,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1382.668,
+          "text": "There not being any in-person council members, I don't think we have any additional questions."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1389.068,
+          "text": "So thank you to the panel, and now you are excused."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1396.732,
+          "text": "Councilor, are there any members of the public who wish to testify in this area?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1401.332,
+          "text": "Yes, we have Councilmember Wan online."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1430.232,
+          "text": "Can you hear us?"
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 1431.532,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 1432.232,
+          "text": "Sorry, I thought I wasn't able to speak because there's no quorum."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1435.532,
+          "text": "You can say a statement."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1437.232,
+          "text": "I don't think you can say questions."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1438.732,
+          "text": "You have two minutes."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 1441.032,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1443.032,
+          "text": "You go for it."
+        }
+      ]
+    },
+    {
+      "end_sec": 1531.288,
+      "id": "023",
+      "slug": "council-member-julie-won-testifies-on-cd2-park-deficit-and-inequities",
+      "start_sec": 1447.048,
+      "summary": "Won testifies that CD2 ranks 57 of 59 community districts in parkland, with only 0.38 acres per 1,000 people and 275 acres short of city goals. She notes Sunnyside and Woodside have the deepest deficits, CD2 is growing rapidly with 40,000 new residents expected, and most pipeline parks are in LIC, failing to address needs elsewhere.",
+      "title": "Council Member Julie Won testifies on CD2 park deficit and inequities",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Julie Won",
+          "t_sec": 1447.048,
+          "text": "Good morning, my name is Julie Won, and I'm a council member representing Council District 26, which includes a majority of Queens Community District 2, including Long Island City, Sunnyside, Woodside."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 1458.648,
+          "text": "And Community District 2 faces a deep shortage of park and open space, ranking 57 out of 59 community districts in terms of percent of parkland."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 1470.348,
+          "text": "With only 0.38 acres of park space per 1,000 people, CD2 is 275 acres short of reaching city's stated goals of 2.50 acres per 1,000 people."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 1487.488,
+          "text": "Sorry."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 1489.388,
+          "text": "Not feeling well today."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 1491.088,
+          "text": "Sunnyside and Woodside have the deepest park deficits in CD2, with 128 and 122 acres in need, respectively, to meet the city's 2.5-acre goal."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 1504.888,
+          "text": "Simultaneously,"
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 1506.688,
+          "text": "C2 is growing rapidly with nearly 40,000 new residents expected over the next 10 years because of our neighborhood rezonings."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 1517.288,
+          "text": "While we have several parks under construction in the pipeline throughout the district, the majority are in Long Island City, failing to fully address the current need."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 1525.888,
+          "text": "For the district in and continuing to exist in equities other parts of CD2."
+        }
+      ]
+    },
+    {
+      "end_sec": 1621.788,
+      "id": "024",
+      "slug": "won-raises-concerns-about-limited-impact-and-community-board-2-recommendations",
+      "start_sec": 1531.288,
+      "summary": "Won states the initiative will have limited impact without targeting neighborhoods needing parks now, especially South Sunnyside and Woodside. She relays Community Board 2's recommendations including baseline capital funding, acknowledging underserved areas remain, integrating park planning with land use changes, and maintaining transparency with regular updates.",
+      "title": "Won raises concerns about limited impact and Community Board 2 recommendations",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Julie Won",
+          "t_sec": 1531.288,
+          "text": "While I'm heartened to see New York City taking proactive steps to expedite the process of acquisition of private land for future new parks,"
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 1543.288,
+          "text": "this initiative will have limited impact without the appropriate neighborhoods that need the new park now."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 1551.288,
+          "text": "Especially in Sunnyside, in south of Sunnyside and Woodside."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 1555.288,
+          "text": "And this is in need now, not in five to 10 years."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 1558.088,
+          "text": "We can only expect these parks deficits to deepen as our community continues to grow."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 1562.688,
+          "text": "And Community Board 2 shares these same exact concerns in their recommendations for this project."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 1567.488,
+          "text": "The board recognizes the initiative's importance as a step towards improving equitable access to open space."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 1573.888,
+          "text": "While noting that it does not on its own fully address the district's longstanding park shortages, the board recommends the city commit to baseline capital funding for park acquisition and development and acknowledge that significant understanding"
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 1587.088,
+          "text": "underserved areas will remain and that additional actions will be required continue to expand and initiate"
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 1594.288,
+          "text": "the initiative with the updated data and identification integrate park planning with broader land use changes such as rezonings housing growth infrastructure capacity"
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 1604.188,
+          "text": "and maintain transparency and ongoing engagement with community boards through regular updates on progress funding and implementation i look forward to hearing from new york city parks today to understand the full scope of their approach."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 1617.688,
+          "text": "To address the park inequities in community council too."
+        }
+      ]
+    },
+    {
+      "end_sec": 1645.788,
+      "id": "025",
+      "slug": "won-reiterates-sunnyside-and-woodside-site-shortfall-concerns",
+      "start_sec": 1621.788,
+      "summary": "Won reiterates that out of 37 sites, only 3 are in Sunnyside and 15 in Woodside, which is still not enough. She emphasizes the need to focus on South Sunnyside where there are zero parks, and thanks Chair Marte.",
+      "title": "Won reiterates Sunnyside and Woodside site shortfall concerns",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Julie Won",
+          "t_sec": 1621.788,
+          "text": "I'm still very concerned."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 1623.988,
+          "text": "Thank you for asking my questions."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 1625.088,
+          "text": "It might be a half since there wasn't quorum."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 1627.888,
+          "text": "Now, Sunnyside and Woodside have the deepest park deficits, and out of the 37 sites, three are in Sunnyside and 15 are in Woodside, which is still not enough."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 1637.788,
+          "text": "We have to focus on South Sunnyside because that's where there are zero parks."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 1643.388,
+          "text": "Thank you so much, Chair Marquet."
+        }
+      ]
+    },
+    {
+      "end_sec": 1703.339,
+      "id": "026",
+      "slug": "chair-marte-closes-public-hearing-and-lays-over-lu-114",
+      "start_sec": 1645.788,
+      "summary": "Marte thanks Won, notes Council Member Avil\u00e9s has joined, and asks if any other public participants wish to testify. With no further testimony, he closes the public hearing on LU 114 and lays the item over, then adjourns the meeting.",
+      "title": "Chair Marte closes public hearing and lays over LU 114",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1645.788,
+          "text": "Of course."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1646.188,
+          "text": "Thank you, Council Member Warren, and I hope you feel better soon."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1650.688,
+          "text": "We've been joined by Council Member Aviles as well."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1655.988,
+          "text": "If there are any remote public participants who wish to testify and have not already done so, please press the raise hand button now."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1663.188,
+          "text": "And if you are here."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1663.888,
+          "text": "If you're with us in person, please see one of the Sergeant at Arms to first fill out a speaker card."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1671.188,
+          "text": "There being no other members of the public who wish to testify regarding LU 114 for Queens Community District 2 walk to park site selection, the public hearing is now closed and the items are laid over."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1686.288,
+          "text": "That concludes today's business."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1687.988,
+          "text": "I would like to thank the members of the public, my colleagues, subcommittee council, land use staff, and the sergeant at arms for your participation today."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1695.788,
+          "text": "This meeting is hereby adjourned."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1700.004,
+          "text": "Yeah, just in time."
+        }
+      ]
+    }
+  ],
+  "date": "2026-07-22",
+  "duration_sec": 1703.339,
+  "slug": "2026-07-22-1100-am-subcommittee-on-landmarks-public-sitings-resiliency-and-dispositions",
+  "summary": [
+    "The Subcommittee on Landmarks, Public Sitings, Resiliency and Dispositions held a hearing on LU 0114-2026, an application for Queens CD2 Walk to Park Site Selection/Acquisition.",
+    "NYC Parks Department presented the ULURP application to acquire up to 37 privately owned sites in Queens Community District 2 for future park development over a 10-year window, targeting underserved neighborhoods like Long Island City, Sunnyside, and Woodside.",
+    "Council Member Julie Won testified about the deep park deficit in CD2, especially in Sunnyside and Woodside, and raised concerns about the limited number of sites identified in those neighborhoods and the need for immediate action."
+  ],
+  "tags": [
+    "HEARING",
+    "LAND_USE"
+  ],
+  "time": "11:00 AM",
+  "title": "Subcommittee on Landmarks, Public Sitings, Resiliency and Dispositions",
+  "topic": "Landmarks, Queens CD 2 Walk to Park Site Selection/Acquisition, Queens (C 260089 PCQ)",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-1_260722-110636/video-web.mp4"
+  }
+}
