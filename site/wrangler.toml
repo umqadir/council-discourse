@@ -1,0 +1,8 @@
+name = "council-discourse"
+compatibility_date = "2026-07-03"
+pages_build_output_dir = "dist"
+
+[[r2_buckets]]
+binding = "DATA"
+bucket_name = "council-discourse-videos"
+preview_bucket_name = "council-discourse-videos"

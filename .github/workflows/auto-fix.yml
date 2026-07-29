@@ -1,0 +1,341 @@
+name: Auto-fix pipeline failures
+
+# When a production run fails, one agent per outage diagnoses it from the
+# failed logs and fixes it end to end (code, registry state, re-dispatch),
+# or escalates: unfixable single meetings are quarantined (non-pausing
+# issue) and anything needing a human opens a "Pipeline needs attention"
+# issue, which pauses the production cron until a green dispatch closes it.
+# The single-flight gate below guarantees at most one agent per red streak.
+on:
+  workflow_run:
+    workflows: ["Production pipeline"]
+    types: [completed]
+  workflow_dispatch:
+    inputs:
+      run_id:
+        description: "Failed production run id to diagnose (testing/manual)"
+        required: true
+
+concurrency:
+  group: auto-fix
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+  # write: the fixer verifies by dispatching production.yml; with read it
+  # gets 403 and can only wait for the next cron (seen 2026-07-19). Note
+  # GITHUB_TOKEN-triggered runs do not re-trigger workflow_run, so a fixer
+  # dispatch can never recursively spawn fixer sessions; the agent watches
+  # its own dispatch in-session, and a post-session tail failure is handled
+  # deterministically at the next scheduled failure.
+  actions: write
+  id-token: write
+
+jobs:
+  fix:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'failure' }}
+    runs-on: ubuntu-latest
+    # Generous: the agent debugs in a loop (fix -> dispatch -> watch ->
+    # fix), and watching a verification run is mostly idle time. A timeout
+    # still counts as the streak's one attempt (the gate counts cancelled
+    # steps), so a hung session cannot spawn a chain of successors.
+    timeout-minutes: 120
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 50
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v7
+
+      - name: Install actionlint
+        run: |
+          curl -sSfL https://raw.githubusercontent.com/rhysd/actionlint/main/scripts/download-actionlint.bash | bash -s -- latest /usr/local/bin >/dev/null
+
+      # One agent per red streak. If a fixer already ran since the last green
+      # production run and production is red again, that fixer's theory
+      # failed; a second agent re-deriving the same diagnosis is waste, and a
+      # fix->dispatch->fail loop would spawn agents forever. On the second
+      # failure this gate resolves the streak deterministically instead:
+      #   - all failed jobs are per-meeting process legs -> quarantine those
+      #     meetings (non-pausing issue), dispatch so the rest publishes;
+      #   - anything else -> "Pipeline needs attention" issue, which pauses
+      #     the cron until a human's green dispatch closes it.
+      - name: Single-flight gate
+        id: gate
+        if: ${{ github.event_name == 'workflow_run' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          last_green="$(gh api "repos/${REPO}/actions/workflows/production.yml/runs?status=success&per_page=1" \
+            --jq '.workflow_runs[0].run_started_at // "1970-01-01T00:00:00Z"')"
+          # Count only runs where the agent step actually started. Stub runs
+          # (fix job skipped after a green run, or this gate skipping) still
+          # conclude "success", so run conclusions cannot distinguish a real
+          # attempt; inspect the "Diagnose and fix" step inside each run.
+          # cancelled/timed_out MUST count - a hung agent that timed out is
+          # an attempt, or a deterministic hang would spawn a fresh agent
+          # every cycle forever.
+          prior=0
+          for id in $(gh api -X GET "repos/${REPO}/actions/workflows/auto-fix.yml/runs" \
+            -f status=completed -f created=">=${last_green}" -f per_page=100 \
+            --jq '.workflow_runs[].id'); do
+            ran="$(gh api "repos/${REPO}/actions/runs/${id}/jobs" \
+              --jq '[.jobs[].steps[]? | select(.name == "Diagnose and fix") | select(.conclusion == "success" or .conclusion == "failure" or .conclusion == "cancelled" or .conclusion == "timed_out")] | length')"
+            prior=$((prior + ran))
+          done
+          echo "completed fixer runs since last green production ($last_green): $prior"
+          if [ "$prior" -eq 0 ]; then
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          # A DISPATCHED run failing is new evidence from an in-progress fix
+          # (a fixer's or human's verification run, possibly failing past the
+          # point the prior session watched), not an unchanged situation:
+          # continue the outage with a successor agent, hard-capped at 3
+          # sessions per streak. Scheduled failures after an attempt mean the
+          # situation is unchanged - resolve deterministically below.
+          if [ "${{ github.event.workflow_run.event }}" = "workflow_dispatch" ] && [ "$prior" -lt 3 ]; then
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            echo "dispatched verification failed - continuing this outage with agent session $((prior + 1))/3"
+            exit 0
+          fi
+          echo "skip=true" >> "$GITHUB_OUTPUT"
+          # If the prior fixer's verification dispatch is still queued or
+          # running, this failure may already be fixed - stay quiet this
+          # cycle rather than escalating a self-resolving outage.
+          inflight="$(gh api -X GET "repos/${REPO}/actions/workflows/production.yml/runs" \
+            -f per_page=10 --jq '[.workflow_runs[] | select(.status == "queued" or .status == "in_progress")] | length')"
+          if [ "$inflight" -gt 0 ]; then
+            echo "a production run is already queued/in progress - verification pending, staying quiet"
+            exit 0
+          fi
+          run_id="${{ github.event.workflow_run.id }}"
+          failed_jobs="$(gh api "repos/${REPO}/actions/runs/${run_id}/jobs?per_page=50" \
+            --jq '[.jobs[] | select(.conclusion == "failure") | .name]')"
+          failed_steps="$(gh api "repos/${REPO}/actions/runs/${run_id}/jobs?per_page=50" \
+            --jq '[.jobs[] | select(.conclusion == "failure") | .name + " / " + ([.steps[] | select(.conclusion == "failure") | .name] | join(", "))] | join("; ")')"
+          errors="$(gh run view "$run_id" --repo "$REPO" --log-failed 2>/dev/null \
+            | grep -aE "##\[error\]|RuntimeError|[A-Za-z]+Error:" | grep -v "Process completed" \
+            | sed 's/.*Z //' | tail -4)"
+          fence=$'\x60\x60\x60'
+          nonprocess="$(echo "$failed_jobs" | jq '[.[] | select(startswith("process (") | not)] | length')"
+          keys="$(echo "$failed_jobs" | jq -r '.[] | select(startswith("process (")) | capture("process \\((?<k>[^,)]+)").k')"
+          if [ "$nonprocess" -eq 0 ] && [ -n "$keys" ]; then
+            # Only per-meeting legs failed: quarantine those meetings so the
+            # pipeline keeps publishing everything else. Non-pausing.
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git fetch origin main && git checkout -B main origin/main
+            for k in $keys; do
+              sqlite3 data/registry.db "UPDATE meetings SET process_attempts = MAX(process_attempts, 5) WHERE meeting_key = '$k';"
+            done
+            git add data/registry.db
+            git commit -m "Quarantine $(echo "$keys" | tr '\n' ' ')after a failed automated fix attempt"
+            pushed=false
+            for _ in 1 2 3; do
+              if git push origin main; then pushed=true; break; fi
+              git pull --rebase origin main || true
+            done
+            if [ "$pushed" = "true" ]; then
+              paste="In the council-discourse repo (local checkout ~/Projects/data-projects/nyc/council-discourse): meeting(s) $(echo "$keys" | tr '\n' ' ')were quarantined (process_attempts=5) after failing and a failed automated fix attempt. Failed run: ${{ github.event.workflow_run.html_url }} - failed step(s): ${failed_steps:-unknown}. Error: ${errors:-see run log}. Diagnose the per-meeting cause, fix it, then un-park with: sqlite3 data/registry.db \"UPDATE meetings SET process_attempts = 0 WHERE meeting_key = '<key>';\" && git add data/registry.db && git commit -m 'Un-park <key>' && git push && gh workflow run production.yml"
+              qbody="$(printf '@umqadir - quarantined after a failed fix attempt; the pipeline continues for all other meetings:\n\n%s\n\n**Failed:** %s\n**Run:** %s\n**Error:**\n%s\n%s\n%s\n\n**Paste into local Claude Code to fix:**\n%s\n%s\n%s' \
+                "$keys" "${failed_steps:-unknown step}" "${{ github.event.workflow_run.html_url }}" "$fence" "${errors:-see run log}" "$fence" "$fence" "$paste" "$fence")"
+              qnum="$(gh issue list --repo "$REPO" --state open --search "in:title \"Meetings quarantined\"" --json number --jq '.[0].number // empty')"
+              if [ -z "$qnum" ]; then
+                gh issue create --repo "$REPO" --assignee umqadir \
+                  --title "Meetings quarantined: excluded from processing until reset" --body "$qbody"
+              else
+                gh issue comment "$qnum" --repo "$REPO" --body "$qbody"
+              fi
+              gh workflow run production.yml --repo "$REPO"
+              echo "quarantined: $keys - dispatched a verification run"
+              exit 0
+            fi
+            echo "::warning::could not push quarantine commit; falling back to pause escalation"
+          fi
+          marker="fixer already attempted this outage"
+          paste="The council-discourse production pipeline (repo umqadir/council-discourse; local checkout ~/Projects/data-projects/nyc/council-discourse) is failing and the cloud auto-fixer could not resolve it. Failed run: ${{ github.event.workflow_run.html_url }} - failed step(s): ${failed_steps:-unknown}. Error: ${errors:-see run log}. Diagnose from 'gh run view ${run_id} --log-failed' and the cloud fixer's attempt in this repo's recent auto-fix runs, fix the root cause, then re-arm with 'gh workflow run production.yml'."
+          body="$(printf '@umqadir - production is still failing and the %s, so no new agent will run until a human intervenes. The cron is paused while this issue is open.\n\n**Failed:** %s\n**Run:** %s\n**Error:**\n%s\n%s\n%s\n\n**Paste into local Claude Code to fix:**\n%s\n%s\n%s\n\nA green run re-arms the fixer and closes this issue.' \
+            "$marker" "${failed_steps:-unknown step}" "${{ github.event.workflow_run.html_url }}" "$fence" "${errors:-see run log}" "$fence" "$fence" "$paste" "$fence")"
+          number="$(gh issue list --repo "$REPO" --state open --search "in:title \"Pipeline needs attention\"" --json number --jq '.[0].number // empty')"
+          if [ -z "$number" ]; then
+            gh issue create --repo "$REPO" --assignee umqadir \
+              --title "Pipeline needs attention: still failing after an automated fix attempt" \
+              --body "$body"
+          else
+            in_body="$(gh issue view "$number" --repo "$REPO" --json body --jq ".body | contains(\"$marker\")")"
+            in_comments="$(gh api "repos/${REPO}/issues/${number}/comments" --paginate \
+              --jq "[.[] | select(.body | contains(\"$marker\"))] | length")"
+            if [ "$in_body" = "true" ] || [ "$in_comments" -gt 0 ]; then
+              echo "escalation already posted; staying quiet"
+            else
+              gh issue comment "$number" --repo "$REPO" --body "$body"
+            fi
+          fi
+
+      - name: Diagnose and fix
+        if: ${{ github.event_name == 'workflow_dispatch' || steps.gate.outputs.skip != 'true' }}
+        uses: anthropics/claude-code-action@v1
+        env:
+          GH_TOKEN: ${{ github.token }}
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          # Least-privilege toolset, mirroring the action's official
+          # ci-failure-auto-fix example, adapted to this repo's stack.
+          claude_args: "--model claude-opus-4-8 --effort high --max-turns 80 --allowedTools 'Edit,MultiEdit,Write,Read,Glob,Grep,LS,WebFetch,WebSearch,Bash(git:*),Bash(gh:*),Bash(uv:*),Bash(actionlint:*),Bash(sqlite3:*)'"
+          # Public repo: the fixer's reasoning in the run log is transparency,
+          # and without it a silent SDK failure is undiagnosable (learned the
+          # hard way — a 2-second "success" that did nothing).
+          show_full_output: "true"
+          prompt: |
+            You are the on-call fixer for this repository's production pipeline.
+            Production run ${{ github.event.workflow_run.id || inputs.run_id }} concluded FAILURE:
+            ${{ github.event.workflow_run.html_url || format('https://github.com/{0}/actions/runs/{1}', github.repository, inputs.run_id) }}
+
+            Investigate first, decide second:
+            1. Read STATE.md fully — it defines the state model and the
+               invariants; any fix must preserve them. Check `git log --oneline -15`
+               for context and for whether a fix was already pushed after the
+               failure started (if so, verify it addresses the cause and stop).
+            2. Diagnose from evidence:
+               `gh run view ${{ github.event.workflow_run.id || inputs.run_id }} --log-failed`
+               (and `--log` for surrounding context if needed).
+
+            Then take exactly one of these paths:
+            - Genuinely external (exhausted OpenRouter credits, Mistral or
+              Google auth/billing, an upstream service outage): nothing in
+              this repo can fix it. Open or update a GitHub issue titled
+              "Pipeline needs attention: <cause>" with the specifics and the
+              exact recovery step, then stop. That title is the pause switch:
+              while such an issue is open, the production cron halts
+              immediately instead of failing on repeat; the maintainer's
+              green dispatch closes it and re-arms the cron. So use it
+              exactly when a human must act, and never for a problem the
+              pipeline can keep working around (quarantines have their own
+              non-pausing issues).
+            - Transient one-off (e.g. a single network timeout or a provider
+              hiccup that a retry clears): re-dispatch to confirm recovery if
+              a dispatch is warranted, but change nothing.
+            - Anything else — a code defect, or pipeline state wedged by one
+              (a deterministically failing meeting, a breaker halt whose root
+              cause you can fix): fix it END TO END; do not stop at a
+              diagnosis. Implement the minimal clean fix at the root cause —
+              no defensive band-aids around a broken contract. Verify claims
+              before treating them as constraints (e.g. check a model's actual
+              context window via its provider's API rather than assuming).
+              You MUST run `uv run pytest tests/ -q` and
+              `actionlint .github/workflows/production.yml` and get them fully
+              green. Only then commit to main with a clear imperative message
+              and push. If the durable fix needs real architectural rework,
+              still apply the smallest sound unblock now (recalibrate a
+              miscalibrated guard with a test, park the poison meeting), push
+              it, and open an assigned issue describing the rework. If you
+              cannot get green, open an issue with your diagnosis and
+              proposed patch instead.
+
+            Always leave a trace the maintainer will actually see: whatever
+            path you took, finish by posting a comment on the open issue
+            titled "Pipeline incident log" (create it unassigned if missing;
+            never close it; it is an FYI channel, not the pause switch).
+            Start the comment with "@umqadir" so it emails them, then 2-6
+            plain sentences: what failed, what you concluded or changed
+            (with commit/run links), and what if anything is left for a
+            human. Self-resolved incidents get this too - the maintainer
+            sees GitHub's raw red-run email either way and should find your
+            explanation next to it, not silence.
+
+            Quarantine over stall: if the failure is confined to specific
+            meetings and you cannot cleanly fix the root cause right now,
+            park those meetings immediately (set process_attempts to 5 via
+            registry surgery) so every other meeting keeps publishing, then
+            open or update an assigned issue that names each parked meeting,
+            what exactly is wrong with it, and what a human should do. One
+            wedged meeting must never stop the pipeline.
+
+            Debug until green: after pushing a fix, re-arm the pipeline
+            yourself with `gh workflow run production.yml` (a dispatch
+            bypasses the schedule-gated pause; the preflight credit gate
+            bounds spend) and WATCH the run (`gh run watch <id>` or poll
+            `gh run view`). If it fails again — on the same cause or a new
+            one your change surfaced — that is information, not a stop sign:
+            diagnose the new failure and keep fixing IN THIS SESSION, where
+            you already hold the context. Iterate like a debugging loop.
+            Bounds: at most 3 dispatches per session; if the run is past the
+            step that failed and the remainder is just long paid processing,
+            you may declare success without waiting for full green — if that
+            tail later fails, the next scheduled failure resolves it
+            deterministically (quarantine or pause with your session's
+            context available), so prefer watching to conclusion when time
+            allows. If you exhaust your attempts or time and
+            it is still red, quarantine or escalate per the rules above
+            before you stop — never end a session leaving the pipeline red
+            with no handoff.
+
+            You may be that successor: check recent auto-fix runs
+            (`gh run list --workflow=auto-fix.yml`) and `git log` for a
+            prior session's attempt on this same outage, and build on its
+            diagnosis and partial fix instead of re-deriving from scratch.
+
+            Registry surgery (data/registry.db via sqlite3) is a legitimate
+            recovery tool, under these invariants:
+            - Read STATE.md's state model first. Never regress a stage status
+              and never delete a row — paid work must stay recorded.
+            - Adjusting process_attempts / last_error to park or un-park a
+              meeting is the expected use; rewriting statuses is not.
+            - Do not edit the registry while a production run is in progress
+              or queued (`gh run list --workflow=production.yml` first) — its
+              export job commits the registry and will race you.
+            - Commit the registry change as its own commit and rebase onto
+              origin/main immediately before pushing.
+
+            Hard rules:
+            - Any issue you open MUST be assigned to the maintainer
+              (`gh issue create --assignee umqadir ...`) and start its body
+              with "@umqadir" - they do not watch this repo, so an unassigned,
+              unmentioned issue reaches no one. When updating an existing issue,
+              add the "@umqadir" mention in your comment.
+            - Every issue you open or update MUST end with a fenced block
+              titled "Paste into local Claude Code to fix:" containing a
+              self-contained brief - cause, evidence (run links, error text),
+              exactly what you already tried, and the one concrete action
+              needed - such that pasting it into a local agent resolves the
+              problem without reading this issue's history. The maintainer
+              handles credentials/billing themselves; everything else should
+              be executable from that brief.
+            - Never delete or overwrite R2 artifacts, and never re-run a paid
+              stage whose artifact already persists on R2 — restore-and-resume
+              is the contract. site/src/data/meetings/ is export-owned; leave
+              it to the pipeline.
+            - Never disable, weaken, or work around a failing guard, test, or
+              invariant to make the run pass — those exist to fail. If a guard
+              is provably miscalibrated, recalibrating it WITH an updated test
+              is a fix; deleting or bypassing it is not.
+            - Keep commits focused. If main moved while you worked, rebase
+              onto origin/main before pushing.
+
+      # The action can report success while the SDK errored before doing any
+      # work (observed: "Credit balance is too low" on a green step). A fixer
+      # that silently does nothing is worse than no fixer.
+      - name: Fail if the fixer errored silently
+        if: ${{ github.event_name == 'workflow_dispatch' || steps.gate.outputs.skip != 'true' }}
+        run: |
+          f=/home/runner/work/_temp/claude-execution-output.json
+          if [ ! -f "$f" ]; then
+            echo "::error::no execution output produced"
+            exit 1
+          fi
+          errored=$(jq -r 'map(select(.type=="result")) | last | .is_error // false' "$f")
+          if [ "$errored" = "true" ]; then
+            message=$(jq -r 'map(select(.type=="result")) | last | .result // "unknown"' "$f")
+            echo "::error::fixer errored without working: $message"
+            exit 1
+          fi

@@ -1,0 +1,632 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 22.8,
+      "id": "001",
+      "slug": "staff-opens-hearing-and-gives-housekeeping-instructions",
+      "start_sec": 5.3,
+      "summary": "Council staff opens the hearing, welcomes attendees, and reminds everyone to silence electronic devices and not approach the dais.",
+      "title": "Staff opens hearing and gives housekeeping instructions",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 5.3,
+          "text": "Good morning and welcome to today's New York City Council vote for the Committee on Cultural Affairs, Libraries, and International Intergroup Relations."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 13.7,
+          "text": "At this time, please silence all electronic devices and no one may approach the dais at any time."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 18.7,
+          "text": "Chair, we are ready to begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 64.6,
+      "id": "002",
+      "slug": "chair-williams-introduces-two-agenda-items-draft-riots-study-bill-and-fat-man-scoop-resolution",
+      "start_sec": 22.8,
+      "summary": "Chair Nantasha Williams introduces the committee's two agenda items: Proposed Intro 496A on a study for public art acknowledging the 1863 Draft Riots, and Resolution 371 sponsored by Councilmember Yusef Salaam declaring August 6 as Fat Man Scoop Recognition Day.",
+      "title": "Chair Williams introduces two agenda items: Draft Riots study bill and Fat Man Scoop resolution",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 22.8,
+          "text": "Good morning again."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 23.9,
+          "text": "I am Deputy Speaker Nantasha, Chair of the Committee on Cultural Affairs, Libraries, and International Relations."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 29.6,
+          "text": "Today, the committee will consider two pieces of legislation."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 33.5,
+          "text": "Proposed Intro No."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 34.8,
+          "text": "496A, sponsored by me, in relations to a study and report on the potential installation of works of art structures to acknowledge the draft riots of 1863,"
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 45.1,
+          "text": "and Resolution No."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 46.1,
+          "text": "371, sponsored by Councilmember Yusef-Salaam, which would declare August 6th annually as Fat Man Scoop Recognition Day in the City of New York and celebrating the signature style that he brought to every musical collaboration"
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 60.4,
+          "text": "and his amazing energy that he also brought to every audience."
+        }
+      ]
+    },
+    {
+      "end_sec": 110.5,
+      "id": "003",
+      "slug": "chair-williams-on-the-historical-origins-of-the-1863-draft-riots",
+      "start_sec": 64.6,
+      "summary": "Chair Williams explains the origins of the 1863 Draft Riots, including the first federal military draft, long-simmering racial tensions, and fears among working-class Northerners about emancipated slaves competing for jobs.",
+      "title": "Chair Williams on the historical origins of the 1863 Draft Riots",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 64.6,
+          "text": "As I'd like to start by making some brief remarks on my bill proposed in show number 496A."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 72.3,
+          "text": "New York cannot tell its full story while leaving the racist violence of the draft riots of 1863 unmarked and its victims unremembered."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 81.1,
+          "text": "In July of 1863, mobs of civilians participated in destructive and violent series of riots throughout the city."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 89.5,
+          "text": "The riots..."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 90.0,
+          "text": "were instigated by, and among other things, the institution of the first federal military draft in U.S."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 97.1,
+          "text": "History."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 98.3,
+          "text": "Long-simmering racial tensions and the belief by some working-class Northerners that the abolition of slavery would cause emancipated former slaves to come north, compete for jobs, and cause economic upheaval."
+        }
+      ]
+    },
+    {
+      "end_sec": 138.4,
+      "id": "004",
+      "slug": "chair-williams-on-the-violence-against-black-new-yorkers-during-the-draft-riots",
+      "start_sec": 110.5,
+      "summary": "Chair Williams describes how rioters terrorized the city's African-American population for four days, beating and murdering civilians and destroying property, with an official death toll of 119 and possibly more.",
+      "title": "Chair Williams on the violence against Black New Yorkers during the Draft Riots",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 110.5,
+          "text": "While the rioters destroyed draft offices, commercial establishments, and private homes, the rioters primarily targeted the city's African-American community."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 121.8,
+          "text": "For four days, the mob terrorized the city's African-American population, beating and murdering innocent civilians and destroying their property."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 130.2,
+          "text": "The official death toll was 119."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 133.6,
+          "text": "By many historians'estimate, there might have been even more people killed."
+        }
+      ]
+    },
+    {
+      "end_sec": 291.044,
+      "id": "005",
+      "slug": "chair-williams-on-the-purpose-of-the-draft-riots-memorial-study-bill",
+      "start_sec": 138.4,
+      "summary": "Chair Williams explains that Intro 496A would bring together community voices, historians, and experts to determine how public art can honor victims and educate future generations, and asks colleagues to support the bill.",
+      "title": "Chair Williams on the purpose of the Draft Riots memorial study bill",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 138.4,
+          "text": "Passing proposed Intro 496A is an important step toward confronting that history."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 144.5,
+          "text": "The bill would bring together community voices, historians, and experts to determine how public art can honor those who suffered, educate future generations, and ensure that truth has a permanent place in our city."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 155.4,
+          "text": "I ask for my colleagues'support to pass this bill so we can build a city that remembers courageously, reckons honestly, and moves forward together."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 164.8,
+          "text": "I'd now like to ask Councilmember Yusef-Salaam to deliver remarks on his resolution."
+        }
+      ]
+    },
+    {
+      "end_sec": 373.168,
+      "id": "006",
+      "slug": "audio-check-for-councilmember-stevens-before-remarks-resume",
+      "start_sec": 291.044,
+      "summary": "Rafael Perez conducts an audio test for Councilmember Stevens, confirming she can be heard before the meeting continues.",
+      "title": "Audio check for Councilmember Stevens before remarks resume",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Rafael Perez",
+          "t_sec": 291.044,
+          "text": "This is Rafael Perez conducting a test for Councilmember Stevens."
+        },
+        {
+          "speaker": "Rafael Perez",
+          "t_sec": 294.544,
+          "text": "Are you on?"
+        },
+        {
+          "speaker": "Rafael Perez",
+          "t_sec": 299.536,
+          "text": "Councilmember Stevens?"
+        },
+        {
+          "speaker": "Rafael Perez",
+          "t_sec": 300.636,
+          "text": "Okay, great."
+        },
+        {
+          "speaker": "Rafael Perez",
+          "t_sec": 301.836,
+          "text": "We can hear you loud and clear."
+        },
+        {
+          "speaker": "Rafael Perez",
+          "t_sec": 303.036,
+          "text": "Thank you so much."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 304.136,
+          "text": "No problem."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 304.536,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Rafael Perez",
+          "t_sec": 305.136,
+          "text": "Okay, thanks."
+        },
+        {
+          "speaker": "Rafael Perez",
+          "t_sec": 362.736,
+          "text": "Perfect, perfect."
+        }
+      ]
+    },
+    {
+      "end_sec": 423.904,
+      "id": "007",
+      "slug": "councilmember-yusef-salaam-on-fat-man-scoop-s-harlem-roots-and-personal-significance",
+      "start_sec": 373.168,
+      "summary": "Councilmember Yusef Salaam introduces Resolution 371, describing it as deeply personal. He recounts Fat Man Scoop's Harlem roots, his education at Cardinal Hayes and NYIT, and his unmistakable voice and energy.",
+      "title": "Councilmember Yusef Salaam on Fat Man Scoop's Harlem roots and personal significance",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 373.168,
+          "text": "Thank you, Deputy Speaker."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 374.668,
+          "text": "William, Dr."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 375.368,
+          "text": "Williams."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 376.968,
+          "text": "I like to say that."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 378.768,
+          "text": "You know, there are resolutions that come before this body that are procedural."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 385.068,
+          "text": "And then there are ones that feel very, very personal."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 388.268,
+          "text": "This one is very, very, very personal."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 391.768,
+          "text": "Isaac Freeman III, better known as Fat Man Scoop, was a child of Harlem, born in Manhattan, raised right here in the very community that I'm honored to represent."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 403.268,
+          "text": "He graduated from Cardinal Hayes, attended New York Institute of Technology, and then gave the world something that no degree"
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 411.068,
+          "text": "could have ever taught him."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 414.004,
+          "text": "That voice, that energy, that unmistakable ability to make the room full of strangers feel like one."
+        }
+      ]
+    },
+    {
+      "end_sec": 447.604,
+      "id": "008",
+      "slug": "salaam-on-fat-man-scoop-s-music-career-and-collaborations",
+      "start_sec": 423.904,
+      "summary": "Salaam highlights Fat Man Scoop's genre-crossing career spanning house, R&B, hip-hop, EDM, and pop, including a Grammy, a decade on Hot 97, and collaborations with Missy Elliott, Ciara, Mariah Carey, Timbaland, and Snoop.",
+      "title": "Salaam on Fat Man Scoop's music career and collaborations",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 423.904,
+          "text": "He built a career that crossed every genre, house, R&B, hip-hop, EMD, pop."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 431.104,
+          "text": "It didn't matter."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 432.904,
+          "text": "Wherever Isaac went, the energy followed."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 436.404,
+          "text": "A Grammy, a decade on Hot 97, collaborations with Missy Elliott, Ciara, Mariah Carey, Timbaland, Snoop, and so, so many more."
+        }
+      ]
+    },
+    {
+      "end_sec": 478.404,
+      "id": "009",
+      "slug": "salaam-on-his-personal-friendship-with-fat-man-scoop",
+      "start_sec": 447.604,
+      "summary": "Salaam shares that Fat Man Scoop was his friend who showed up unasked to perform at his inauguration, making the day unforgettable. He recalls Isaac Freeman's generosity and energy.",
+      "title": "Salaam on his personal friendship with Fat Man Scoop",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 447.604,
+          "text": "And through it all, he never lost that Harlem that is in him."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 451.704,
+          "text": "He was also my friend."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 453.504,
+          "text": "And I want this body to understand what that meant."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 456.904,
+          "text": "When I was inaugurated as the councilman for the 9th District, Isaac didn't have to be there."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 464.204,
+          "text": "But he pulled up."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 465.404,
+          "text": "He put on a show that made the day something that everyone in that room will carry with them for the rest of their lives."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 472.104,
+          "text": "That was Isaac Friedman."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 474.204,
+          "text": "He gave you everything, every time, without being asked."
+        }
+      ]
+    },
+    {
+      "end_sec": 526.504,
+      "id": "010",
+      "slug": "salaam-on-fat-man-scoop-s-passing-and-the-august-6-recognition-resolution",
+      "start_sec": 478.404,
+      "summary": "Salaam recounts Fat Man Scoop's death on August 30, 2024 at age 56 while performing on stage, and explains that the resolution designates August 6, his birthday, as an annual day of recognition in New York City.",
+      "title": "Salaam on Fat Man Scoop's passing and the August 6 recognition resolution",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 478.404,
+          "text": "And we lost him on August 30th, 2024."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 483.104,
+          "text": "56 years old, on a stage, doing exactly what he was put here on earth to do."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 493.804,
+          "text": "August 6th is his birthday."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 495.904,
+          "text": "And this resolution says that every single August 6th,"
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 502.304,
+          "text": "This city of New York will stop and remember him, not just what he did for music, but what he did for this city, what he did for Harlem, and what he meant to the people who loved him."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 514.804,
+          "text": "And so I ask my colleagues to honor Isaac Freeman III today and vote aye on Resolution 371."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 522.204,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 550.476,
+      "id": "011",
+      "slug": "chair-williams-thanks-staff-and-calls-for-the-vote",
+      "start_sec": 526.504,
+      "summary": "Chair Williams thanks Salaam, recalls attending his inauguration where Fat Man Scoop performed, acknowledges committee staff Alejandro, Regina, and Carolina, and calls the clerk for the vote.",
+      "title": "Chair Williams thanks staff and calls for the vote",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 526.504,
+          "text": "Thank you so much, Councilmember Salam."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 528.204,
+          "text": "And I was at your inauguration, and he did put on a show."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 532.404,
+          "text": "And so with that, finally, I would like to thank my staff and the committee staff who worked on preparing for today, including Alejandro, Regina, and Carolina."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 542.704,
+          "text": "And with that, the clerk is here."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 545.904,
+          "text": "And we are ready for the vote."
+        }
+      ]
+    },
+    {
+      "end_sec": 585.676,
+      "id": "012",
+      "slug": "roll-call-vote-on-draft-riots-bill-and-fat-man-scoop-resolution",
+      "start_sec": 550.476,
+      "summary": "Committee Clerk William Martin conducts a roll call vote on both coupled items. Chair Williams, Councilmembers Louis, Hudson, Oss\u00e9, Stevens, and Maloney each vote aye.",
+      "title": "Roll call vote on Draft Riots bill and Fat Man Scoop resolution",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 550.476,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 551.976,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 552.476,
+          "text": "William Martin, Committee Clerk, Roll Call Vote Committee on Cultural Affairs, Libraries, and International Relations."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 558.776,
+          "text": "Items are coupled."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 560.176,
+          "text": "Chair Williams."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 562.376,
+          "text": "How about I?"
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 563.976,
+          "text": "Lewis."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 565.176,
+          "text": "I on all and congratulations."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 567.876,
+          "text": "Hudson."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 570.076,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 571.876,
+          "text": "Osei."
+        },
+        {
+          "speaker": "Chi A. Oss\u00e9",
+          "t_sec": 572.576,
+          "text": "Aye, would I."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 574.576,
+          "text": "Stevens."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 576.376,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 577.176,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 579.176,
+          "text": "Ong."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 581.676,
+          "text": "Maloney."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 583.676,
+          "text": "Aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 596.608,
+      "id": "013",
+      "slug": "both-items-approved-7-0-by-full-committee",
+      "start_sec": 585.676,
+      "summary": "Clerk William Martin announces both items passed with a vote of 7 in the affirmative, 0 in the negative, with no abstentions, as a full committee. Chair Williams concludes the hearing.",
+      "title": "Both items approved 7-0 by full committee",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 585.676,
+          "text": "With a vote of seven in the affirmative, zero in the negative, no abstentions."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 589.176,
+          "text": "Both items have been approved by the committee."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 590.976,
+          "text": "Madam Chair, that is a full committee."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 592.976,
+          "text": "Thank you."
+        }
+      ]
+    }
+  ],
+  "date": "2026-07-16",
+  "duration_sec": 596.608,
+  "slug": "2026-07-16-1030-am-committee-on-cultural-affairs-libraries-and-international-relations",
+  "summary": [
+    "The Committee on Cultural Affairs, Libraries and International Relations considered two items: a bill to study public art commemorating the 1863 Draft Riots and a resolution declaring August 6 as Fat Man Scoop Recognition Day.",
+    "Chair Williams delivered detailed remarks on the history and significance of the 1863 Draft Riots, while Councilmember Yusef Salaam gave a personal tribute to Fat Man Scoop as a Harlem icon and friend.",
+    "Both items passed unanimously 7-0 with no abstentions from the full committee."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "10:30 AM",
+  "title": "Committee on Cultural Affairs, Libraries and International Relations",
+  "topic": "A study and report on the potential installation of works of art or structures to acknowledge the draft riots of 1863",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-2_260716-111336/video-web.mp4"
+  }
+}

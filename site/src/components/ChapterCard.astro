@@ -1,0 +1,40 @@
+---
+import Badge from "@components/Badge.astro";
+import { formatClock, formatDuration } from "@lib/format";
+import type { Chapter, Meeting } from "@lib/types";
+import { bodySlug } from "@lib/data";
+
+interface Props {
+  meeting: Meeting;
+  chapter: Chapter;
+}
+
+const { meeting, chapter } = Astro.props;
+const duration = chapter.end_sec - chapter.start_sec;
+const href = `/meetings/${bodySlug(meeting)}/${meeting.slug}/chapter/${chapter.slug}/`;
+---
+
+<a
+  href={href}
+  class="group block scroll-mt-16 border-t border-line py-6 text-ink no-underline transition-colors hover:border-civic"
+  data-type={chapter.type}
+  data-chapter-card
+  x-show="selected[$el.dataset.type]"
+  x-cloak
+>
+  <article class="grid gap-2 md:grid-cols-[8rem_minmax(0,1fr)] md:gap-6">
+    <div class="tabular text-sm leading-tight text-muted md:pt-1">
+      <span class="font-semibold text-ink md:block">{formatClock(chapter.start_sec)}</span>
+      <span class="text-muted md:mt-0.5 md:block">{formatDuration(duration)}</span>
+    </div>
+    <div class="min-w-0">
+      <Badge type={chapter.type} />
+      <h3 class="mt-2 font-serif text-xl font-semibold leading-tight text-ink group-hover:text-civic-dark">
+        {chapter.title}
+      </h3>
+      <p class="mt-2 line-clamp-6 leading-7 text-muted">
+        {chapter.summary}
+      </p>
+    </div>
+  </article>
+</a>

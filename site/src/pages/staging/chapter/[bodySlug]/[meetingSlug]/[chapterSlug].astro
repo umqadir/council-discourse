@@ -1,0 +1,46 @@
+---
+// Static-recent window. These pages render identically to the SSR chapter route
+// but are prerendered at build time for the newest meetings. The build hook in
+// astro.config.mjs relocates the emitted HTML to the canonical
+// /meetings/[bodySlug]/[meetingSlug]/chapter/[chapterSlug]/ URLs and marks them
+// as static assets in _routes.json so Cloudflare serves them without invoking
+// the worker. Older chapters fall through to the SSR route at the same URLs.
+import BaseLayout from "@layouts/BaseLayout.astro";
+import ChapterView from "@components/ChapterView.astro";
+import { getChapter, getRecentChapterRoutes } from "@lib/data";
+import { chapterOgPath } from "@lib/og";
+import { formatDate, formatDuration } from "@lib/format";
+
+export const prerender = true;
+
+export function getStaticPaths() {
+  return getRecentChapterRoutes().map((route) => ({
+    params: {
+      bodySlug: route.bodySlug,
+      meetingSlug: route.meetingSlug,
+      chapterSlug: route.chapterSlug,
+    },
+  }));
+}
+
+const { bodySlug, meetingSlug, chapterSlug } = Astro.params;
+const found = getChapter(String(bodySlug), String(meetingSlug), String(chapterSlug));
+if (!found) {
+  throw new Error(`Missing recent chapter ${bodySlug}/${meetingSlug}/${chapterSlug}`);
+}
+
+const { meeting, chapter, index } = found;
+const duration = chapter.end_sec - chapter.start_sec;
+const description = `${chapter.title}, a ${formatDuration(duration)} segment from ${meeting.title} on ${formatDate(meeting.date)}.`;
+const ogImage = chapterOgPath(String(bodySlug), meeting.slug, chapter.slug);
+const canonicalPath = `/meetings/${bodySlug}/${meeting.slug}/chapter/${chapter.slug}/`;
+---
+
+<BaseLayout
+  title={`${chapter.title} - ${meeting.title}`}
+  description={description}
+  image={ogImage}
+  canonicalPath={canonicalPath}
+>
+  <ChapterView meeting={meeting} chapter={chapter} index={index} bodySlug={String(bodySlug)} />
+</BaseLayout>

@@ -1,0 +1,1134 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 32.4,
+      "id": "001",
+      "slug": "subcommittee-on-zoning-and-franchises-vote-meeting-called-to-order",
+      "start_sec": 1.5,
+      "summary": "Council staff opens the meeting, reminds attendees to silence devices and not approach the dais, and Chair Farah N. Louis calls the subcommittee to order, introducing the members present.",
+      "title": "Subcommittee on Zoning and Franchises vote meeting called to order",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1.5,
+          "text": "Good morning and welcome to today's vote from the New York City Council Subcommittee on Zoning and Franchises."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 7.8,
+          "text": "At this point, I'd like to remind everyone to please silence their electronic devices and at no point is anyone to approach the dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 14.4,
+          "text": "Chair, we are ready to begin."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 17.3,
+          "text": "Good morning and welcome to a meeting of the Subcommittee on Zoning and Franchises."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 21.9,
+          "text": "I'm Councilmember Farrah Lewis, Chair of the Subcommittee."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 24.2,
+          "text": "This morning we are joined by Councilmembers Farias, Shulman, Salam, Felder, Encarnacion, Thomas-Henry, and Minority Leader Carr."
+        }
+      ]
+    },
+    {
+      "end_sec": 96.6,
+      "id": "002",
+      "slug": "chair-louis-outlines-198-208-richmond-terrace-rezoning-staten-island",
+      "start_sec": 32.4,
+      "summary": "Chair Louis describes the first vote on LUs 98 and 99, a rezoning in Councilmember Hanks' district for a mixed-use residential project in St. George, Staten Island, with 118 apartments and up to 35 permanently affordable units, involving a zoning map amendment and MIH text amendment.",
+      "title": "Chair Louis outlines 198-208 Richmond Terrace rezoning (Staten Island)",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 32.4,
+          "text": "Today we are scheduled to vote on seven proposals."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 35.6,
+          "text": "The first vote concerns LUs 98 and 99 related to the 198-208 Richmond Terrace rezoning proposal in Councilmember Hanks'district."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 46.1,
+          "text": "The applicant is seeking to develop a mixed-use residential project in St."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 50.9,
+          "text": "George on the north shore of Staten Island that would have approximately 118 apartments and up to 35 of the apartments would be permanently affordable."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 61.8,
+          "text": "This proposal involves two actions."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 64.2,
+          "text": "The first is a zoning map amendment to change the existing residential R6 district and C2-2 commercial overlay to a residential R7-3 with..."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 76.9,
+          "text": "Dash three district with a C2 dash four commercial overlay."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 81.3,
+          "text": "A second action is a zoning text amendment to map a mandatory inclusion inclusionary housing area."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 88.8,
+          "text": "Council member Hank supports"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 90.1,
+          "text": "This proposal."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 93.1,
+          "text": "Oh, she's here."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 94.0,
+          "text": "Councilmember Hanks."
+        }
+      ]
+    },
+    {
+      "end_sec": 195.0,
+      "id": "003",
+      "slug": "councilmember-hanks-supports-198-208-richmond-terrace-rezoning-in-st-george",
+      "start_sec": 96.6,
+      "summary": "Councilmember Kamillah Hanks speaks in support of the Richmond Terrace project, emphasizing workforce housing, proximity to transit, enhanced stormwater management, and the need for affordable housing to keep Staten Islanders on the North Shore.",
+      "title": "Councilmember Hanks supports 198-208 Richmond Terrace rezoning in St. George",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 96.6,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 98.2,
+          "text": "Good morning again."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 99.6,
+          "text": "The North Shore is changing, and with that comes responsibility to make sure people who have invested their lives here are not left behind."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 107.2,
+          "text": "Because this is not simply..."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 109.8,
+          "text": "About approving another building."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 111.6,
+          "text": "It is about creating the kinds of housing opportunities that allow working families, young professionals, and longtime Staten Islanders continue to build their futures here."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 121.2,
+          "text": "This proposal will bring 118 new apartments to St."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 124.0,
+          "text": "George, including permanently affordable workforce housing, along with community facility space that will serve the surrounding neighborhood."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 131.4,
+          "text": "Located near the ferry, public transportation, jobs, and local businesses, this is the type of location where new housing makes sense."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 141.1,
+          "text": "Throughout this process, my office has worked to ensure the project was strengthened with the final proposal that includes enhanced stormwater management, a rooftop green space, and a better response to the site's conditions and surrounding community."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 156.1,
+          "text": "We often talk about keeping Staten Islanders here, but that conversation has to include where they are going to live."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 163.1,
+          "text": "If we want our teachers, healthcare professionals, first responders, and young professionals to remain on Staten Island, we have to create housing they can actually afford."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 173.5,
+          "text": "With this said, no single project will solve all of our housing challenges, but this project moves us in the right direction."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 180.1,
+          "text": "by creating new rental opportunities, expanding workforce availability and affordability, and investing in continued growth of the North Shore."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 190.1,
+          "text": "I look forward to my colleagues supporting this project, and thank you so much, Chair."
+        }
+      ]
+    },
+    {
+      "end_sec": 238.8,
+      "id": "004",
+      "slug": "chair-louis-outlines-164th-street-rezoning-hillcrest-queens",
+      "start_sec": 195.0,
+      "summary": "Chair Louis describes the second vote on LUs 94 and 95, a rezoning in Councilmember Gennaro's district for a mixed-use project in Hillcrest, Queens, with approximately 80 apartments and up to 24 permanently affordable units, involving a zoning map amendment from R3-2 to R6A and an MIH text amendment.",
+      "title": "Chair Louis outlines 164th Street rezoning (Hillcrest, Queens)",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 195.0,
+          "text": "Thank you, Councilmember."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 196.7,
+          "text": "We've also been joined by Councilmember Nurse."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 198.5,
+          "text": "The second vote concerns LUs 94 and 95 related to the 164th Street rezoning proposal in Councilmember Gennaro's district."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 207.3,
+          "text": "The applicant is seeking to develop a mixed-use residential project in Hillcrest, Queens."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 212.8,
+          "text": "That would have approximately 80 apartments and up to 24 of the apartments would be permanently affordable."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 219.4,
+          "text": "The proposal involves two actions."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 221.8,
+          "text": "The first is a zoning map amendment to change the existing residential R3-2 district to a residential R6A district with a C2-4 commercial overlay."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 233.2,
+          "text": "The second action is a zoning text amendment to map a mandatory inclusionary housing area."
+        }
+      ]
+    },
+    {
+      "end_sec": 336.6,
+      "id": "005",
+      "slug": "chair-louis-outlines-50-20-108th-street-rezoning-south-corona-queens-with-modifications",
+      "start_sec": 238.8,
+      "summary": "Chair Louis describes the third vote on LUs 96 and 97, a rezoning in Councilmember Thomas-Henry's district for two mixed-use projects in South Corona with 196 apartments and 49 affordable units. Two modifications are recommended: reducing the rezoning area to address displacement concerns and removing MIH Option 2.",
+      "title": "Chair Louis outlines 50-20 108th Street rezoning (South Corona, Queens) with modifications",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 238.8,
+          "text": "Councilmember Gennaro supports this proposal."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 241.4,
+          "text": "The third vote concerns LUs 96 and 97 related to the 50-20 108th Street rezoning proposal in Councilmember Thomas Henry's district."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 251.6,
+          "text": "The applicant is seeking to develop a two mixed-use residential project in South Corona, Queens."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 258.1,
+          "text": "That together would have approximately 196 apartments, of which 49 would be permanently affordable under MIH Option 1."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 268.4,
+          "text": "The sites are located..."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 270.1,
+          "text": "across the street from each other along 50th Avenue."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 274.1,
+          "text": "The proposal involves two actions."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 276.1,
+          "text": "The first is a zoning map amendment to change the existing residential R6B district with a C2-3 commercial overlay to a residential R7A."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 287.3,
+          "text": "District with a C2-4 commercial overlay."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 290.6,
+          "text": "The second action is a zoning tax amendment to map a mandatory inclusionary housing area."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 296.2,
+          "text": "We are recommending two modifications."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 298.6,
+          "text": "The first is to reduce the residential rezoning area that the applicant is requesting to address concerns of residential displacement."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 306.3,
+          "text": "Removing existing residential buildings from the proposed upzoning will decrease development pressure in the area of the city that faces a high displacement pressure based on the city's equitable development data explorer."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 320.1,
+          "text": "The second modification is to remove MIH option two, which will ensure that the affordable housing to be provided is actually affordable."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 331.2,
+          "text": "Councilmember Thomas Henry supports this proposal as modified."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 334.5,
+          "text": "We've been joined by Councilmember Jay Sanchez."
+        }
+      ]
+    },
+    {
+      "end_sec": 424.8,
+      "id": "006",
+      "slug": "councilmember-thomas-henry-supports-50-20-108th-street-rezoning-with-community-focused-modificat",
+      "start_sec": 336.6,
+      "summary": "Councilmember Shanel Thomas-Henry thanks land use staff, community members, and the applicant, highlighting the modifications that ensure more genuinely affordable family-sized units, MWBE inclusion, local union opportunities, and stewardship of a local park.",
+      "title": "Councilmember Thomas-Henry supports 50-20 108th Street rezoning with community-focused modifications",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 336.6,
+          "text": "I now recognize Councilmember Thomas Henry for a statement."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 340.3,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 341.2,
+          "text": "I want to first thank the entire land use staff for your diligence in bringing this to the finish line."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 347.5,
+          "text": "I want to thank the community members, neighbors, community board for members who spoke up about what they wanted to see in this neighborhood and helped guide these modifications."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 357.8,
+          "text": "I want to thank the applicant who has."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 360.1,
+          "text": "long-standing roots in the community, which made this first ULURP in my district in quite some time, in my first ULURP, quite a process of real development with community in mind."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 373.8,
+          "text": "So I'm happy that we reached an agreement where we will have more affordable units that actually are units that members of the current community can actually afford,"
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 383.0,
+          "text": "that those units will reflect what is in the community, which is more families instead of smaller"
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 390.7,
+          "text": "units, working with our neighborhood partners to make sure that families within District 21 are able to gain access to these new units."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 400.8,
+          "text": "MWBE inclusion on building this new development, working with 32BJ for more local"
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 409.7,
+          "text": "union opportunities for local residents, and continuing to steward the local park that has been a part of the community for so long."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 418.5,
+          "text": "So very excited."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 419.9,
+          "text": "We're landing on this and looking forward to voting."
+        }
+      ]
+    },
+    {
+      "end_sec": 474.3,
+      "id": "007",
+      "slug": "chair-louis-outlines-1166-bedford-avenue-rezoning-bed-stuy-brooklyn",
+      "start_sec": 424.8,
+      "summary": "Chair Louis describes the fourth vote on LUs 108 and 109, a rezoning in Councilmember Osei's district for a mixed-use affordable senior housing project in Bed-Stuy with 144 apartments and 43 permanently affordable units, involving a zoning map amendment from R6A to R7X and an MIH text amendment.",
+      "title": "Chair Louis outlines 1166 Bedford Avenue rezoning (Bed-Stuy, Brooklyn)",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 424.8,
+          "text": "Thank you, Councilmember."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 425.9,
+          "text": "The fourth vote concerns LUs 108 and 109 related to the 1166 Bedford Avenue rezoning proposal in Councilmember Osei's district."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 435.3,
+          "text": "The applicant is seeking to develop a mixed-use affordable senior housing project in Bed-Stuy, Brooklyn."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 441.1,
+          "text": "That would have approximately 144 apartments, of which 43 would be permanently affordable."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 447.4,
+          "text": "The proposal involves two actions."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 449.3,
+          "text": "The first is a..."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 450.0,
+          "text": "zoning map amendment to change the existing residential R6A district to a C2-4 with a C2-4 overlay district to a residential R7X district with a C2-4 commercial overlay."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 465.3,
+          "text": "The second action is a zoning tax amendment to map a mandatory inclusionary housing area."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 470.8,
+          "text": "Councilmember Osei supports this proposal."
+        }
+      ]
+    },
+    {
+      "end_sec": 549.2,
+      "id": "008",
+      "slug": "chair-louis-outlines-2950-west-24th-street-rezoning-coney-island-brooklyn",
+      "start_sec": 474.3,
+      "summary": "Chair Louis describes the fifth vote on LUs 100-103, a rezoning in Councilmember Santos-Soslo's district for a mixed-use affordable housing project in Coney Island with 408 apartments and 122 permanently affordable units, involving a zoning map amendment, MIH text amendment, and two special permits for bulk waivers and parking reduction.",
+      "title": "Chair Louis outlines 2950 West 24th Street rezoning (Coney Island, Brooklyn)",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 474.3,
+          "text": "The fifth vote concerns LUs 100 through 103 related to the 2950 West 24th Street rezoning proposal in Councilmember Santos-Soslo's district."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 484.3,
+          "text": "The applicant is seeking to develop a mixed-use affordable housing project in Coney Island, Brooklyn."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 490.0,
+          "text": "That would have approximately 408 apartments, of which 122 would be permanently affordable."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 497.0,
+          "text": "The proposed development would be an infill project on a large site that presently has one building and an underused surface parking lot."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 506.9,
+          "text": "The proposal involves four actions."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 508.9,
+          "text": "The first is a zoning map amendment to change the existing residential R6 district with..."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 515.3,
+          "text": "With two, to a residential R7-3 district with a C2-4 commercial overlay."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 523.3,
+          "text": "The second action is a zoning tax amendment to map a mandatory inclusionary housing area."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 528.6,
+          "text": "The other actions are for two special permits that would provide bulk waivers, flexibility in the distribution of the bulk, and reduce the minimum required distance between buildings."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 540.0,
+          "text": "The second special permit is to reduce the required parking."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 543.6,
+          "text": "Councilmember Santososo supports this proposal."
+        }
+      ]
+    },
+    {
+      "end_sec": 607.9,
+      "id": "009",
+      "slug": "chair-louis-outlines-63-02-fresh-pond-road-rezoning-ridgewood-queens-with-modification",
+      "start_sec": 549.2,
+      "summary": "Chair Louis describes the sixth vote on LUs 104 and 105, a rezoning in Councilmember Wong's district for a mixed-use project in Ridgewood with 54 apartments and 14 affordable units. A modification is recommended to remove MIH Option 2, ensuring affordability at an average of 60% AMI.",
+      "title": "Chair Louis outlines 63-02 Fresh Pond Road rezoning (Ridgewood, Queens) with modification",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 549.2,
+          "text": "The sixth vote concerns LUs 104 and 105 related to the 63-02 Fresh Pond Road rezoning proposal in Councilmember Wong's district."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 558.2,
+          "text": "The applicant is seeking to develop a mixed-use residential project in Ridgewood, Queens."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 563.5,
+          "text": "That together would have approximately 54 apartments, of which 14 would be permanently affordable under MIH option one."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 572.6,
+          "text": "The proposal involves two actions."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 574.5,
+          "text": "The first is a zoning map amendment to change the existing residential R5B."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 580.3,
+          "text": "District with a C1-4 commercial overlay to a residential R6A district with a C2-4 commercial overlay."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 589.2,
+          "text": "The second action is a zoning tax amendment to map a mandatory inclusionary housing."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 594.2,
+          "text": "We are recommending one modification to remove MIH option 2, which will ensure the affordable apartments are provided at an average of 60% AMI."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 604.6,
+          "text": "Councilmember Wong supports this proposal as modified."
+        }
+      ]
+    },
+    {
+      "end_sec": 653.6,
+      "id": "010",
+      "slug": "chair-louis-outlines-1160-pugsley-avenue-rezoning-union-port-bronx",
+      "start_sec": 607.9,
+      "summary": "Chair Louis describes the final vote on LUs 106 and 107, a rezoning in Councilmember Far\u00edas' district for a mixed-use affordable housing project in Union Port, Bronx, with 104 apartments and 37 permanently affordable units, involving a zoning map amendment from R5 to R7A and an MIH text amendment.",
+      "title": "Chair Louis outlines 1160 Pugsley Avenue rezoning (Union Port, Bronx)",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 607.9,
+          "text": "The sixth and final vote concerns LUs 106 and 107 related to the 1160 Pugsley Avenue rezoning proposal."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 616.4,
+          "text": "Sorry, yeah, proposal in Councilmember Farias'district."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 619.5,
+          "text": "The applicant is seeking to develop a mixed-use affordable housing project in the Union Port neighborhood of the Bronx."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 627.2,
+          "text": "That would have approximately 104 apartments."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 630.0,
+          "text": "which 37 would be permanently affordable."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 633.4,
+          "text": "The proposal involves two actions."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 635.1,
+          "text": "The first is zoning map amendment to change the existing residential R5 district to a residential R7A district with a C2-4 commercial overlay."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 644.4,
+          "text": "The second action is a zoning text amendment to map a mandatory inclusionary housing area."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 649.4,
+          "text": "Councilmember Fides supports this project and I recognize her for her statement."
+        }
+      ]
+    },
+    {
+      "end_sec": 887.0,
+      "id": "011",
+      "slug": "councilmember-far-as-supports-1160-pugsley-avenue-rezoning-with-fresh-green-market",
+      "start_sec": 653.6,
+      "summary": "Councilmember Amanda Far\u00edas speaks at length in support of the Pugsley Avenue project, highlighting 104 affordable homes, family-sized apartments, neighborhood retail, parking, and a fresh green market addressing food deserts in District 18. She emphasizes the intersection of housing affordability and food access.",
+      "title": "Councilmember Far\u00edas supports 1160 Pugsley Avenue rezoning with fresh green market",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 653.6,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 654.1,
+          "text": "Thank you, Chair Lewis and members of the Subcommittee on Zoning and Franchises."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 657.7,
+          "text": "I'm excited to speak today in support of the 1160 Pugsley Avenue rezoning, a project I'm proud to advance and vote yes on because it delivers 104 affordable homes, including family-sized apartments, neighborhoods serving retail,"
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 670.7,
+          "text": "outdoor recreation space, 32 parking spaces, and a fresh green market that strengthens food access for our communities."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 678.0,
+          "text": "With rents outpacing what working families can afford and the Bronx continuing to carry some of the city's heaviest rent burdens and tens of thousands of New Yorkers still sleeping in shelters each night, we have to be critical about how we get to the solution."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 691.7,
+          "text": "We need to build more housing, make sure that housing is connected to affordability, support family stability, and meet the everyday needs of New Yorkers."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 700.8,
+          "text": "A lot of thought, intention, and discourse went into getting us to this point."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 705.1,
+          "text": "I have had ongoing conversations with this developer about what this project needs to deliver because anyone who knows me knows that if a proposal is not taking a multifaceted approach to solving some of the greatest overarching problems in my district, I will always have some feedback."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 720.1,
+          "text": "And in this case, the developer took all of those recommendations seriously."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 724.2,
+          "text": "Affordability has to be measured by the full reality families are carrying every day, rent, groceries, transportation, access to healthier options, and the ability to remain in the neighborhoods where new development helps meet real community needs."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 737.7,
+          "text": "The housing model for this project includes much-needed flexibility within HPD's term sheets with MIH options 1 or 2, which are competitive ranges for residents and our area, which helps contribute to"
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 749.4,
+          "text": "a stronger rent affordability ecosystem for the residents we're trying to reach."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 753.7,
+          "text": "When housing is paired with family-sized units, neighborhood retail, and access to fresh food, we are creating a project that supports more than one part of a family's budget and daily life."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 763.2,
+          "text": "As I've said before, District 18 has every reason to be excited, as I am about the proposed fresh green market included in this project, with roughly 10,900 square feet reserved for grocery use."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 775.5,
+          "text": "This is a serious investment in food access for a district where food deserts remain a serious issue."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 782.0,
+          "text": "For too long, the options for food and groceries in our community have been too limited, not always the healthiest and not always the most affordable."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 790.3,
+          "text": "Families should not have to travel outside of their neighborhood to find fresh food."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 794.1,
+          "text": "Seniors should not have to struggle to access basic groceries close to home or even take multiple forms of transportation to access that."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 801.9,
+          "text": "Working people should not be left with fewer options and higher prices because their community has been underserved."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 808.6,
+          "text": "With the passage of this project,"
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 810.0,
+          "text": "We're building new housing and continuing to transform the food landscape of our community for the better."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 815.6,
+          "text": "A fresh green market at this site means families will have more choice, better access, and a stronger neighborhood grocery option close to home."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 822.8,
+          "text": "It helps move us away from a food landscape where residents are forced to rely on whatever limited options are nearby and towards one where healthier food access and competitive pricing are a part of the same affordability conversation."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 835.3,
+          "text": "That is how we take on the affordability crisis seriously."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 839.0,
+          "text": "Rent, groceries, transportation, and neighborhood services are all part of the same household budget."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 844.2,
+          "text": "We have to move projects that can help address more than one pressure at a time."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 848.0,
+          "text": "We fight for housing."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 849.0,
+          "text": "We fight for food access."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 850.5,
+          "text": "We fight for local retail."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 852.0,
+          "text": "We fight for developments that add value to the lives of the people already here."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 856.2,
+          "text": "That's why I'm proud to vote yes on this application and urge my colleagues to do the same."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 860.2,
+          "text": "Today, we're moving forward with a project that brings affordable homes, family-sized apartments, healthier food options, and neighborhood-serving retail together under one roof."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 867.9,
+          "text": "This is the action we should be taking when New Yorkers are asking us to make the city more affordable, more livable, and more responsive to the needs of working families."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 875.4,
+          "text": "Thank you, Chair Lewis."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 876.3,
+          "text": "Again, my colleagues of the subcommittee, Council Land Use staff, and the Willing Development team to join us in tackling New York's housing crisis together."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 885.8,
+          "text": "Thank you, Council Member."
+        }
+      ]
+    },
+    {
+      "end_sec": 985.04,
+      "id": "012",
+      "slug": "councilmember-felder-praises-1166-bedford-avenue-project-as-muslim-house-of-prayer-with-senior-h",
+      "start_sec": 887.0,
+      "summary": "Councilmember Simcha Felder remarks on the Bedford Avenue rezoning, noting it involves a Muslim house of prayer with senior housing and a children's area, calling it a wonderful project and expressing delight it is before the subcommittee.",
+      "title": "Councilmember Felder praises 1166 Bedford Avenue project as Muslim house of prayer with senior housing",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 887.0,
+          "text": "Council, are there any members, any council members with questions or remarks at this time?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 894.34,
+          "text": "Council Member Felder."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 899.94,
+          "text": "As usual, I'm not sure I know what I'm talking about, but the Bedford Avenue rezoning, was that a house of prayer that was going to do senior housing?"
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 912.44,
+          "text": "So I just wanted to mention briefly that I..."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 917.34,
+          "text": "That Councilmember Osi is very much in favor of this, and that"
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 928.94,
+          "text": "I don't remember having the opportunity to help a house of prayer"
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 936.94,
+          "text": "often."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 937.64,
+          "text": "And this project has so many good parts to it."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 943.64,
+          "text": "It's a Muslim house of prayer."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 945.74,
+          "text": "It has a senior citizen component to it."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 950.44,
+          "text": "It has a children's kindergarten or play area."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 956.04,
+          "text": "In the same space which would allow the children and the seniors, hopefully, to, you know, spend some time together."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 969.74,
+          "text": "It's just a wonderful project."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 975.64,
+          "text": "And I am just delighted that it's coming before us today."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 982.24,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 983.84,
+          "text": "Thank you, Council Member."
+        }
+      ]
+    },
+    {
+      "end_sec": 1036.44,
+      "id": "013",
+      "slug": "chair-louis-calls-for-vote-on-all-seven-rezoning-proposals",
+      "start_sec": 985.04,
+      "summary": "Chair Louis calls for a combined vote to approve with modifications LUs 96/97 and 104/105, and to approve LUs 94/95, 98/99, 100-103, 106/107, and 108/109, then asks staff to call the roll.",
+      "title": "Chair Louis calls for vote on all seven rezoning proposals",
+      "type": "VOTE",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 985.04,
+          "text": "I now call for a vote to approve with modification LUs 96 and 97 related to the 50-20-108"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 992.74,
+          "text": "Street rezoning and LUs 104 and 105 related to the 63-02 Fresh Pond Road."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1001.14,
+          "text": "Rezoning proposal to approve LUs 94 and 95 related to the 164th Street rezoning proposal, LUs 98 and 99 related to the 198-208 Richmond Terrace rezoning proposal, LUs"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1015.84,
+          "text": "100 and 103 related to the 2950 West 24th Street rezoning proposal, LUs 106 and 107 related to the Pugsley Avenue rezoning proposal,"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1027.04,
+          "text": "and LUs 108 and 109 related to the 1166 Bedford Avenue rezoning proposal."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1033.24,
+          "text": "Council, please call the roll."
+        }
+      ]
+    },
+    {
+      "end_sec": 1092.416,
+      "id": "014",
+      "slug": "roll-call-vote-all-members-vote-aye-on-seven-rezoning-proposals",
+      "start_sec": 1036.44,
+      "summary": "All nine subcommittee members\u2014Louis, Far\u00edas, Schulman, Salaam, Felder, Encarnaci\u00f3n, Sanchez, Thomas-Henry, and Carr\u2014vote aye on all items. Sanchez congratulates Far\u00edas on her project.",
+      "title": "Roll call vote: all members vote aye on seven rezoning proposals",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 1036.44,
+          "text": "Chair Lewis?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1046.12,
+          "text": "I own all."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1049.42,
+          "text": "Council Member Farias?"
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 1051.92,
+          "text": "Aye, would I."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1053.42,
+          "text": "Council Member Shulman?"
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 1056.62,
+          "text": "Aye, and all."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1057.72,
+          "text": "Council Member Salam?"
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 1059.92,
+          "text": "Aye, and all."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1061.82,
+          "text": "Council Member Felder?"
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1063.72,
+          "text": "Aye, and all."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1065.22,
+          "text": "Council Member Encarnacion?"
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 1068.12,
+          "text": "Aye, and all."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1070.22,
+          "text": "Council Member Sanchez?"
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 1072.62,
+          "text": "Aye, and all."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 1073.32,
+          "text": "And congratulations to my colleague Amanda Farias on a great project."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1078.72,
+          "text": "Council Member Thomas Henry?"
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1080.52,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1082.32,
+          "text": "Minority Leader Carr?"
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1084.82,
+          "text": "Aye and all."
+        }
+      ]
+    },
+    {
+      "end_sec": 1119.659,
+      "id": "015",
+      "slug": "all-seven-rezoning-proposals-approved-9-0-referred-to-full-land-use-committee",
+      "start_sec": 1092.416,
+      "summary": "Council staff announces the vote result of nine affirmative, zero opposing, and zero abstentions. All items are approved as described and referred to the full Land Use Committee. Chair Louis adjourns the meeting.",
+      "title": "All seven rezoning proposals approved 9-0, referred to full Land Use Committee",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1092.416,
+          "text": "By a vote of nine affirmative, zero opposing, and zero abstentions, the items are approved as described by the chair, and these items are now referred to the full land use committee."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1101.216,
+          "text": "That concludes today's business."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1102.516,
+          "text": "I would like to thank the members of the public, my colleagues, subcommittee council, land use, and other council staff, and the sergeant at arms for participating in today's meeting."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1110.116,
+          "text": "This meeting is hereby adjourned."
+        }
+      ]
+    }
+  ],
+  "date": "2026-07-14",
+  "duration_sec": 1119.659,
+  "slug": "2026-07-14-1100-am-subcommittee-on-zoning-and-franchises",
+  "summary": [
+    "The Subcommittee on Zoning and Franchises voted on seven land use proposals across Queens, Staten Island, Brooklyn, and the Bronx, all approved unanimously 9-0.",
+    "Projects included affordable housing developments in St. George (Staten Island), Hillcrest and South Corona (Queens), Bed-Stuy and Coney Island (Brooklyn), Ridgewood (Queens), and Union Port (Bronx), totaling over 1,000 new apartments with hundreds of permanently affordable units.",
+    "Council members Hanks, Thomas-Henry, and Far\u00edas delivered statements in support of projects in their districts, highlighting affordability, community benefits, and food access improvements."
+  ],
+  "tags": [
+    "VOTE",
+    "LAND_USE"
+  ],
+  "time": "11:00 AM",
+  "title": "Subcommittee on Zoning and Franchises",
+  "topic": "Zoning, 164th Street Rezoning, Queens (C 250290 ZMQ)",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-1_260714-111324/video-web.mp4"
+  }
+}

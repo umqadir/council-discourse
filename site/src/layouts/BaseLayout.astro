@@ -1,0 +1,74 @@
+---
+import "@styles/global.css";
+
+interface Props {
+  title: string;
+  description: string;
+  image?: string;
+  canonicalPath?: string;
+  redirectTo?: string;
+}
+
+const { title, description, image = "/og-placeholder.svg", canonicalPath, redirectTo } = Astro.props;
+const siteName = "Council Discourse";
+const pageTitle = title.includes(siteName) ? title : `${title} | ${siteName}`;
+const canonical = new URL(canonicalPath ?? Astro.url.pathname, Astro.site).toString();
+const ogImage = new URL(image, Astro.site).toString();
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    {redirectTo && <meta http-equiv="refresh" content={`0; url=${redirectTo}`} />}
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+  </head>
+  <body class="font-sans antialiased">
+    <a
+      href="#content"
+      class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:bg-paper focus:px-3 focus:py-2"
+    >
+      Skip to content
+    </a>
+    <header class="border-b border-line bg-paper/95 shadow-hairline">
+      <div class="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-4 md:flex-row md:items-end md:justify-between md:px-6">
+        <div>
+          <a href="/" class="font-serif text-2xl font-semibold leading-none text-ink no-underline">
+            Council Discourse
+          </a>
+          <p class="mt-1 text-sm text-muted">NYC Council meetings, chaptered and linked by time.</p>
+        </div>
+        <nav class="text-sm font-semibold" aria-label="Site">
+          <a class="underline decoration-line hover:decoration-civic" href="/about/">About</a>
+        </nav>
+      </div>
+    </header>
+    <main id="content">
+      <slot />
+    </main>
+    <footer class="mt-14 border-t border-line bg-wash/60">
+      <div class="mx-auto max-w-6xl px-4 py-8 text-sm text-muted md:px-6">
+        <p>
+          Transcripts, chapters, and speaker names are AI-generated and may contain errors —
+          <a class="underline decoration-line hover:decoration-civic" href="mailto:uzairq93@gmail.com">report an issue</a>.
+        </p>
+        <p class="mt-3">
+          After Vikram Oberoi's <a class="underline decoration-line hover:decoration-civic" href="https://citymeetings.nyc/">citymeetings.nyc</a>.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

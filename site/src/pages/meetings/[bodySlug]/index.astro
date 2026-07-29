@@ -1,0 +1,33 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+import { getBodies } from "@lib/data";
+import { homeOgPath } from "@lib/og";
+
+export function getStaticPaths() {
+  return getBodies().map((body) => ({
+    params: { bodySlug: body.slug },
+    props: { body },
+  }));
+}
+
+const { body } = Astro.props;
+const description = `${body.name} meeting summaries, chaptered transcripts, and direct video timestamps now live on the Council Discourse homepage.`;
+---
+
+<BaseLayout
+  title="Council Discourse"
+  description={description}
+  image={homeOgPath}
+  canonicalPath="/"
+  redirectTo="/"
+>
+  <section class="mx-auto max-w-reading px-4 py-10 md:px-6">
+    <h1 class="font-serif text-3xl font-semibold">This meeting list has moved.</h1>
+    <p class="mt-3 leading-7 text-muted">
+      The full {body.name} meeting list is now the Council Discourse homepage.
+    </p>
+    <a class="mt-4 inline-flex text-sm font-semibold underline decoration-line hover:decoration-civic" href="/">
+      Go to the meeting list
+    </a>
+  </section>
+</BaseLayout>

@@ -1,0 +1,596 @@
+name: Production pipeline
+
+on:
+  schedule:
+    - cron: "0 13-23/2 * * *"
+    - cron: "0 1-3/2 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: production-pipeline
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+
+env:
+  UV_CACHE_DIR: .uv-cache
+  PYTHONUNBUFFERED: "1"
+  R2_BUCKET: council-discourse-videos
+  VIDEO_BASE_URL: ${{ vars.VIDEO_BASE_URL }}
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.discover.outputs.matrix }}
+      has_pending: ${{ steps.discover.outputs.has_pending }}
+      paused: ${{ steps.breaker.outputs.paused }}
+    env:
+      LEGISTAR_TOKEN: ${{ secrets.LEGISTAR_TOKEN }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v7
+
+      - name: Install system tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg poppler-utils
+
+      # Pause switch. An open "Pipeline needs attention" issue means an outage
+      # has been handed to a human: the scheduled run becomes a silent no-op
+      # (green, nothing runs, no failure email) until the human's green manual
+      # dispatch closes the issue (deploy job) and re-arms the cron.
+      # Quarantine issues ("Meetings quarantined", "Meetings skipped by
+      # export") do NOT pause anything.
+      #
+      # Backstop: if the last 6 completed runs all failed and no handoff issue
+      # exists (shouldn't happen - the fixer or its gate opens one), open one
+      # now so the pause engages and the maintainer is notified exactly once.
+      - name: Pause when an outage is handed to a human
+        id: breaker
+        if: ${{ github.event_name == 'schedule' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          echo "paused=false" >> "$GITHUB_OUTPUT"
+          open_attention="$(gh issue list --repo "$REPO" --state open \
+            --search "in:title \"Pipeline needs attention\"" --json number --jq '.[0].number // empty')"
+          if [ -n "$open_attention" ]; then
+            echo "paused=true" >> "$GITHUB_OUTPUT"
+            echo "::warning::Pipeline paused: issue #${open_attention} is open. This run is a silent no-op; fix the cause, then dispatch production.yml - a green run closes the issue and re-arms the cron."
+            exit 0
+          fi
+          conclusions="$(gh api "repos/${REPO}/actions/workflows/production.yml/runs?status=completed&per_page=6" \
+            --jq '[.workflow_runs[].conclusion]')"
+          echo "last completed conclusions: $(echo "$conclusions" | jq -r 'join(",")')"
+          total="$(echo "$conclusions" | jq 'length')"
+          failures="$(echo "$conclusions" | jq 'map(select(. == "failure")) | length')"
+          if [ "$total" -ge 6 ] && [ "$failures" -eq "$total" ]; then
+            echo "paused=true" >> "$GITHUB_OUTPUT"
+            body="$(printf '@umqadir - the last 6 production runs all failed and no handoff issue was opened, so the cron is now paused. See the runs: https://github.com/%s/actions/workflows/production.yml\n\nWhen the cause is fixed, dispatch production.yml - a green run closes this issue and re-arms the cron.' "$REPO")"
+            gh issue create --repo "$REPO" --assignee umqadir \
+              --title "Pipeline needs attention: repeated failures without automated handoff" \
+              --body "$body"
+            exit 0
+          fi
+
+      - name: Preflight API checks
+        if: ${{ steps.breaker.outputs.paused != 'true' }}
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+        run: |
+          python - <<'PY'
+          import json, os, sys, urllib.request
+
+          def get(url, key=None):
+              headers = {"Authorization": f"Bearer {key}"} if key else {}
+              req = urllib.request.Request(url, headers=headers)
+              with urllib.request.urlopen(req, timeout=30) as resp:
+                  return json.load(resp)
+
+          failed = False
+          try:
+              data = get("https://openrouter.ai/api/v1/credits", os.environ["OPENROUTER_API_KEY"])["data"]
+              remaining = float(data["total_credits"]) - float(data["total_usage"])
+              print(f"openrouter credits remaining: ${remaining:.2f}")
+              # Floor must sit at/below the dashboard auto-top-up trigger ($2):
+              # a floor above it creates a dead zone where preflight refuses to
+              # spend, the balance never drops to the trigger, and top-up never
+              # fires. A mid-batch 402 is self-healing (artifacts persist and
+              # the meeting resumes next run), so the lower floor is safe.
+              if remaining < 2.0:
+                  print("::error::OpenRouter credits below $2 - auto-top-up should fire; if it did not, add credits at https://openrouter.ai/settings/credits")
+                  failed = True
+          except Exception as exc:
+              print(f"::error::OpenRouter preflight failed: {exc}")
+              failed = True
+          try:
+              get("https://api.mistral.ai/v1/models", os.environ["MISTRAL_API_KEY"])
+              print("mistral auth: ok")
+          except Exception as exc:
+              print(f"::error::Mistral preflight failed (check key/billing): {exc}")
+              failed = True
+          try:
+              get(f"https://generativelanguage.googleapis.com/v1beta/models?key={os.environ['GOOGLE_API_KEY']}&pageSize=1")
+              print("google auth: ok")
+          except Exception as exc:
+              print(f"::error::Google preflight failed (naming verification depends on it): {exc}")
+              failed = True
+          sys.exit(1 if failed else 0)
+          PY
+
+      - name: Discover pending meetings
+        if: ${{ steps.breaker.outputs.paused != 'true' }}
+        id: discover
+        run: |
+          uv run python -m pipeline discover --emit-pending-json --pending-limit 12 > /tmp/pending.json
+          matrix="$(cat /tmp/pending.json)"
+          has_pending="$(MATRIX_FILE=/tmp/pending.json python - <<'PY'
+          import json
+          import os
+          
+          print("true" if json.load(open(os.environ["MATRIX_FILE"])).get("include") else "false")
+          PY
+          )"
+          {
+            echo "matrix<<JSON"
+            printf '%s\n' "$matrix"
+            echo "JSON"
+            echo "has_pending=$has_pending"
+          } >> "$GITHUB_OUTPUT"
+
+      # A meeting at the retry cap is excluded from processing, but it must
+      # never rot silently: the pipeline goes green without it and the
+      # watchdog stays quiet. Surface every parked meeting on an assigned
+      # issue until a human or the auto-fixer un-parks it (reset
+      # process_attempts; artifacts persist on R2, so nothing is re-paid).
+      # Deduped: posts only when the parked set changes.
+      - name: Alert on parked meetings
+        if: ${{ steps.breaker.outputs.paused != 'true' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          parked="$(sqlite3 data/registry.db "SELECT meeting_key || ' | ' || COALESCE(body_name,'?') || ' | ' || COALESCE(substr(event_date,1,10),'?') || ' | ' || COALESCE(replace(substr(last_error,1,140), char(10), ' '),'no recorded error') FROM meetings WHERE process_attempts >= 5 AND chapterize_status != 'chapterized' AND COALESCE(substr(event_date,1,10), substr(viebit_pub_date,1,10), substr(discovered_at,1,10)) >= '2026-06-20' ORDER BY meeting_key;")"
+          if [ -z "$parked" ]; then
+            echo "no parked meetings"
+            open="$(gh issue list --repo "$REPO" --state open --search "in:title \"Meetings quarantined\"" --json number --jq '.[0].number // empty')"
+            if [ -n "$open" ]; then
+              gh issue close "$open" --repo "$REPO" --comment "No meetings remain quarantined; closing."
+            fi
+            exit 0
+          fi
+          echo "parked meetings:"
+          echo "$parked"
+          title="Meetings quarantined: excluded from processing until reset"
+          body="$(printf '@umqadir - these meetings are quarantined (retry cap reached or parked by the fixer) and excluded from processing until process_attempts is reset (recovery in STATE.md; paid artifacts persist on R2, nothing is re-paid on retry). The rest of the pipeline continues normally.\n\n%s' "$parked")"
+          number="$(gh issue list --repo "$REPO" --state open --search "in:title \"Meetings quarantined\"" --json number --jq '.[0].number // empty')"
+          if [ -z "$number" ]; then
+            gh issue create --repo "$REPO" --assignee umqadir --title "$title" --body "$body"
+            exit 0
+          fi
+          opening="$(gh issue view "$number" --repo "$REPO" --json body --jq .body)"
+          latest="$(gh api "repos/${REPO}/issues/${number}/comments" --jq 'last.body // ""')"
+          if [ "$body" = "$opening" ] || [ "$body" = "$latest" ]; then
+            echo "parked set unchanged; already reported on issue #$number"
+          else
+            gh issue comment "$number" --repo "$REPO" --body "$body"
+          fi
+
+      - name: Checkpoint registry
+        if: ${{ steps.breaker.outputs.paused != 'true' }}
+        run: uv run python -m pipeline checkpoint-db
+
+      - name: Upload registry state
+        if: ${{ steps.breaker.outputs.paused != 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: registry-state
+          path: data/registry.db
+          if-no-files-found: error
+          retention-days: 7
+          overwrite: true
+
+  process:
+    needs: discover
+    if: ${{ needs.discover.outputs.has_pending == 'true' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      max-parallel: 5
+      matrix: ${{ fromJSON(needs.discover.outputs.matrix) }}
+    env:
+      LEGISTAR_TOKEN: ${{ secrets.LEGISTAR_TOKEN }}
+      MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+      GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+      ASSEMBLYAI_API_KEY: ${{ secrets.ASSEMBLYAI_API_KEY }}
+      R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      R2_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v7
+
+      - name: Install system tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg poppler-utils rclone
+
+      - name: Download registry state
+        uses: actions/download-artifact@v4
+        with:
+          name: registry-state
+          path: data
+
+      # Runners are ephemeral but paid stage outputs (transcripts especially)
+      # must not be. Restore any previously produced artifacts for this meeting
+      # from R2 so a retry after a late-stage failure resumes at the failed
+      # stage instead of re-paying transcription.
+      - name: Restore stage artifacts from R2
+        run: |
+          # R2 credentials are mandatory in production: a silent no-op restore
+          # makes the registry look ahead of the disk and re-pays transcription.
+          if [ -z "${R2_ACCESS_KEY_ID:-}" ] || [ -z "${R2_SECRET_ACCESS_KEY:-}" ] || [ -z "${R2_ENDPOINT:-}" ]; then
+            echo "::error::R2 credentials missing; refusing to process without artifact restore."
+            exit 1
+          fi
+          export RCLONE_CONFIG_R2_TYPE=s3
+          export RCLONE_CONFIG_R2_PROVIDER=Cloudflare
+          export RCLONE_CONFIG_R2_ACCESS_KEY_ID="$R2_ACCESS_KEY_ID"
+          export RCLONE_CONFIG_R2_SECRET_ACCESS_KEY="$R2_SECRET_ACCESS_KEY"
+          export RCLONE_CONFIG_R2_ENDPOINT="$R2_ENDPOINT"
+          # Distinguish "nothing persisted yet" (fine) from a transport/auth
+          # failure (must not proceed: reconcile would downgrade paid statuses).
+          if rclone lsf "r2:${R2_BUCKET}/artifacts/${{ matrix.meeting_key }}" --s3-no-check-bucket --max-depth 1 > /tmp/persisted.txt; then
+            if [ -s /tmp/persisted.txt ]; then
+              rclone copy "r2:${R2_BUCKET}/artifacts/${{ matrix.meeting_key }}" \
+                "data/meetings/${{ matrix.meeting_key }}" \
+                --s3-no-check-bucket --transfers 4 --retries 3 \
+                --exclude "result.json"
+              echo "restored $(wc -l < /tmp/persisted.txt) persisted artifacts"
+            else
+              echo "no persisted artifacts for ${{ matrix.meeting_key }} (first attempt)"
+            fi
+          else
+            echo "::error::could not list persisted artifacts on R2; aborting to avoid re-paying completed stages."
+            exit 1
+          fi
+          ls -la "data/meetings/${{ matrix.meeting_key }}" 2>/dev/null || true
+
+      - name: Process meeting
+        run: |
+          uv run python -m pipeline process-one \
+            --meeting-key "${{ matrix.meeting_key }}" \
+            --result-json "data/processed-results/${{ matrix.meeting_key }}.json" \
+            --fail-on-error
+
+      # Persist stage outputs even when a later stage failed, so the retry
+      # starts from what this run already paid for.
+      - name: Persist stage artifacts to R2
+        if: ${{ always() }}
+        run: |
+          src="data/meetings/${{ matrix.meeting_key }}"
+          if [ ! -d "$src" ]; then
+            echo "no meeting directory produced"
+            exit 0
+          fi
+          if [ -z "${R2_ACCESS_KEY_ID:-}" ] || [ -z "${R2_SECRET_ACCESS_KEY:-}" ] || [ -z "${R2_ENDPOINT:-}" ]; then
+            echo "::warning::R2 credentials missing; stage artifacts will not be persisted."
+            exit 0
+          fi
+          export RCLONE_CONFIG_R2_TYPE=s3
+          export RCLONE_CONFIG_R2_PROVIDER=Cloudflare
+          export RCLONE_CONFIG_R2_ACCESS_KEY_ID="$R2_ACCESS_KEY_ID"
+          export RCLONE_CONFIG_R2_SECRET_ACCESS_KEY="$R2_SECRET_ACCESS_KEY"
+          export RCLONE_CONFIG_R2_ENDPOINT="$R2_ENDPOINT"
+          rclone copy "$src" "r2:${R2_BUCKET}/artifacts/${{ matrix.meeting_key }}" \
+            --s3-no-check-bucket --transfers 4 --retries 3 \
+            --include "audio.m4a" \
+            --include "meeting.json" \
+            --include "agenda.txt" \
+            --include "captions-clean.jsonl" \
+            --include "captions-clean.txt" \
+            --include "voxtral-batch-job.json" \
+            --include "voxtral-transcript-part-*.json" \
+            --include "name-speakers-chunk-*.json" \
+            --include "utterances*.jsonl" \
+            --include "chapters.json" \
+            --include "meeting-derived.json" \
+            --include "*-meta.json" \
+            --include "gemini-runlog.jsonl"
+          # The run's outcome record (artifacts/<key>/result.json) is persisted
+          # by process-one itself, so it exists even when this step is skipped.
+
+  export-site:
+    needs:
+      - discover
+      - process
+    if: ${{ always() && needs.discover.result == 'success' && needs.discover.outputs.paused != 'true' }}
+    runs-on: ubuntu-latest
+    # Deliberately NO LLM/API keys here: merge, export, build, and deploy make
+    # no paid calls, and keeping the keys out makes that structural.
+    env:
+      R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      R2_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v7
+
+      - name: Set up Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+
+      - name: Enable pnpm
+        run: corepack enable
+
+      - name: Install R2 sync tool
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y rclone
+
+      - name: Download registry state
+        uses: actions/download-artifact@v4
+        with:
+          name: registry-state
+          path: data
+
+      # Results live on R2 at paths the pipeline authors (artifacts/<key>/result.json),
+      # written by process-one itself. Syncing ALL results every run makes the
+      # merge idempotent and self-healing: a run whose registry commit was lost
+      # gets re-merged on the next cycle instead of silently regressing.
+      - name: Sync run results from R2
+        run: |
+          export RCLONE_CONFIG_R2_TYPE=s3
+          export RCLONE_CONFIG_R2_PROVIDER=Cloudflare
+          export RCLONE_CONFIG_R2_ACCESS_KEY_ID="$R2_ACCESS_KEY_ID"
+          export RCLONE_CONFIG_R2_SECRET_ACCESS_KEY="$R2_SECRET_ACCESS_KEY"
+          export RCLONE_CONFIG_R2_ENDPOINT="$R2_ENDPOINT"
+          rclone copy "r2:${R2_BUCKET}/artifacts" data/processed-results \
+            --s3-no-check-bucket --include "*/result.json" \
+            --transfers 8 --checkers 8 --retries 5
+
+      - name: Merge registry results
+        run: uv run python -m pipeline merge-results --results-dir data/processed-results
+
+      - name: Verify every dispatched meeting is accounted for
+        if: ${{ needs.discover.outputs.has_pending == 'true' }}
+        env:
+          MATRIX_JSON: ${{ needs.discover.outputs.matrix }}
+        run: |
+          uv run python -m pipeline verify-run-results \
+            --results-dir data/processed-results \
+            --matrix-json "$MATRIX_JSON"
+
+      - name: CI health summary
+        run: uv run python -m pipeline ci-health | tee -a "$GITHUB_STEP_SUMMARY"
+
+      # Fetch meeting dirs that export needs but this runner lacks: normally
+      # just this run's completions; after a lost export, older orphans too.
+      - name: Pull export inputs from R2
+        run: uv run python -m pipeline pull-export-inputs
+
+      # A meeting export had to skip (chapterized but artifacts missing on
+      # R2) never blocks the run; it is reported here so a human decides:
+      # restore the artifacts (often present locally in data/meetings/<key>/)
+      # or reset the meeting. Self-closes when nothing is blocked.
+      - name: Alert on export-blocked meetings
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          f=data/export-blocked.txt
+          title="Meetings skipped by export: artifacts missing"
+          number="$(gh issue list --repo "$REPO" --state open --search "in:title \"Meetings skipped by export\"" --json number --jq '.[0].number // empty')"
+          if [ ! -s "$f" ]; then
+            if [ -n "$number" ]; then
+              gh issue close "$number" --repo "$REPO" --comment "No meetings remain export-blocked; closing."
+            fi
+            exit 0
+          fi
+          body="$(printf '@umqadir - these chapterized meetings have no artifacts on R2, so export skipped (re)publishing them; their existing pages keep serving and the pipeline continues normally. To fix: restore artifacts/<key>/ on R2 (complete copies usually exist locally in data/meetings/<key>/) or reset the meeting.\n\n%s' "$(cat "$f")")"
+          if [ -z "$number" ]; then
+            gh issue create --repo "$REPO" --assignee umqadir --title "$title" --body "$body"
+          else
+            latest="$(gh api "repos/${REPO}/issues/${number}/comments" --jq 'last.body // ""')"
+            opening="$(gh issue view "$number" --repo "$REPO" --json body --jq .body)"
+            if [ "$body" != "$latest" ] && [ "$body" != "$opening" ]; then
+              gh issue comment "$number" --repo "$REPO" --body "$body"
+            fi
+          fi
+
+      - name: Export site data
+        run: uv run python -m pipeline export-site --allow-empty
+
+      - name: Sync chapter data to R2
+        run: |
+          if [ ! -d site/r2-data/data ]; then
+            echo "No chapter data exported"
+            exit 0
+          fi
+          if [ -z "${R2_ACCESS_KEY_ID:-}" ] || [ -z "${R2_SECRET_ACCESS_KEY:-}" ] || [ -z "${R2_ENDPOINT:-}" ]; then
+            echo "::warning::Skipping chapter data R2 sync because R2 credentials are not configured."
+            exit 0
+          fi
+          export RCLONE_CONFIG_R2_TYPE=s3
+          export RCLONE_CONFIG_R2_PROVIDER=Cloudflare
+          export RCLONE_CONFIG_R2_ACCESS_KEY_ID="$R2_ACCESS_KEY_ID"
+          export RCLONE_CONFIG_R2_SECRET_ACCESS_KEY="$R2_SECRET_ACCESS_KEY"
+          export RCLONE_CONFIG_R2_ENDPOINT="$R2_ENDPOINT"
+          # copy (not sync): exports are incremental, and chapter-data keys are
+          # content-hashed and immutable, so the bucket must accumulate.
+          rclone copy site/r2-data/data "r2:${R2_BUCKET}/data" \
+            --s3-no-check-bucket \
+            --transfers 4 \
+            --checkers 8 \
+            --retries 5 \
+            --low-level-retries 10
+
+      - name: Install site dependencies
+        working-directory: site
+        run: pnpm install --frozen-lockfile
+
+      - name: Build site
+        working-directory: site
+        env:
+          SKIP_EXPORT: "1"
+        run: pnpm build
+
+      - name: Upload site dist
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-dist
+          path: site/dist
+          if-no-files-found: error
+          retention-days: 7
+
+      - name: Commit registry and site data
+        run: |
+          git add -f data/registry.db site/src/data/meetings
+          if git diff --cached --quiet; then
+            echo "No registry or site data changes"
+            exit 0
+          fi
+          git -c user.name="github-actions[bot]" \
+            -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+            commit -m "Update pipeline registry and site data [skip ci]"
+          # main may have moved during the ~1h run (manual pushes, etc.).
+          # Rebase onto latest and retry so a moving ref never fails the pipeline.
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              echo "pushed on attempt $attempt"; exit 0
+            fi
+            echo "push rejected (attempt $attempt); rebasing onto origin/main"
+            git fetch origin main
+            if ! git -c user.name="github-actions[bot]" \
+              -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+              rebase origin/main; then
+              # The registry is a binary file, so a mid-run human push that
+              # touched it conflicts deterministically. Never commit our stale
+              # checkout tree over origin (that silently reverts human work);
+              # instead rebuild the payload on top of origin's current state:
+              # re-apply this run's result rows to origin's registry, re-export,
+              # and commit only the payload paths.
+              git rebase --abort
+              git reset --hard origin/main
+              uv run python -m pipeline merge-results --results-dir data/processed-results
+              uv run python -m pipeline export-site --allow-empty
+              git add -f data/registry.db site/src/data/meetings
+              if git diff --cached --quiet; then
+                echo "origin already contains this run's changes"; exit 0
+              fi
+              git -c user.name="github-actions[bot]" \
+                -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+                commit -m "Update pipeline registry and site data [skip ci]"
+            fi
+            sleep $((attempt * 3))
+          done
+          echo "::error::could not push registry/site data after retries"; exit 1
+
+  deploy:
+    needs: export-site
+    if: ${{ always() && needs.export-site.result == 'success' }}
+    runs-on: ubuntu-latest
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+    steps:
+      - name: Set up Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+
+      - name: Enable pnpm
+        run: corepack enable
+
+      - name: Download site dist
+        uses: actions/download-artifact@v4
+        with:
+          name: site-dist
+          path: site/dist
+
+      # The cron fires every 2 hours whether or not export changed anything,
+      # so an unconditional publish rolls the provider dice ~12x/day on a
+      # mostly identical bundle - that, not Cloudflare flakiness, is why
+      # transient publish 500s show up here. Skip when the dist digest
+      # matches the last successful deploy (fail open: an unreadable digest
+      # means deploy). Real deploys retry once, 30s apart, before going red.
+      # A missing Cloudflare token on a real deploy is still a red run,
+      # never a silent skip.
+      - name: Deploy Cloudflare Pages
+        working-directory: site
+        env:
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
+        run: |
+          digest="$(cd dist && find . -type f | LC_ALL=C sort | xargs sha256sum | sha256sum | cut -d' ' -f1)"
+          echo "dist digest: $digest"
+          last=""
+          if [ -n "${R2_ACCESS_KEY_ID:-}" ]; then
+            sudo apt-get install -y rclone >/dev/null 2>&1 || true
+            export RCLONE_CONFIG_R2_TYPE=s3
+            export RCLONE_CONFIG_R2_PROVIDER=Cloudflare
+            export RCLONE_CONFIG_R2_ACCESS_KEY_ID="$R2_ACCESS_KEY_ID"
+            export RCLONE_CONFIG_R2_SECRET_ACCESS_KEY="$R2_SECRET_ACCESS_KEY"
+            export RCLONE_CONFIG_R2_ENDPOINT="$R2_ENDPOINT"
+            last="$(rclone cat "r2:${R2_BUCKET}/state/last-deploy-digest" 2>/dev/null || true)"
+          fi
+          if [ -n "$last" ] && [ "$last" = "$digest" ]; then
+            echo "dist unchanged since last successful deploy; skipping publish"
+            exit 0
+          fi
+          if ! pnpm dlx wrangler pages deploy dist --project-name council-discourse; then
+            echo "::warning::publish failed; retrying once in 30s (Pages throws occasional transient 500s)"
+            sleep 30
+            pnpm dlx wrangler pages deploy dist --project-name council-discourse
+          fi
+          if [ -n "${R2_ACCESS_KEY_ID:-}" ]; then
+            printf '%s' "$digest" | rclone rcat "r2:${R2_BUCKET}/state/last-deploy-digest" \
+              || echo "::warning::could not record deploy digest; next run will redeploy"
+          fi
+
+      # A green run means the outage is over: close its issues so the next
+      # failure opens a fresh one instead of appending to a stale thread.
+      # (The quarantined-meetings issue has its own lifecycle in discover.)
+      - name: Close outage issues on green
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          for n in $(gh issue list --repo "$REPO" --state open --search "in:title \"Pipeline needs attention\"" --json number --jq '.[].number'); do
+            gh issue close "$n" --repo "$REPO" \
+              --comment "Resolved: production run ${{ github.server_url }}/${REPO}/actions/runs/${{ github.run_id }} completed green."
+          done

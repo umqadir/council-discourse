@@ -1,0 +1,750 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 25.7,
+      "id": "001",
+      "slug": "council-staff-opens-meeting-and-gives-housekeeping-instructions",
+      "start_sec": 5.2,
+      "summary": "Council staff calls the meeting to order, welcomes attendees to the Committee on Civil Service and Labor vote, and reminds everyone to silence devices and not approach the dais.",
+      "title": "Council staff opens meeting and gives housekeeping instructions",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 5.2,
+          "text": "Good morning, everyone."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 6.4,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 8.5,
+          "text": "Good morning and welcome to today's New York City Council vote for the Committee on Civil Service and Labor."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 14.2,
+          "text": "At this time, please silence all electronic devices and no one may approach the dais at any time."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 20.2,
+          "text": "Chair, we are ready to begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 60.7,
+      "id": "002",
+      "slug": "chair-aldebol-introduces-vote-on-intro-692a-for-paraprofessional-stabilization-payments",
+      "start_sec": 25.7,
+      "summary": "Chair Shirley Aldebol opens the committee vote on Proposed Intro 692A, sponsored by Councilmember De La Rosa, which would provide a workforce stabilization payment to NYC school paraprofessionals. She frames the persistent paraprofessional staffing crisis affecting public schools, especially District 75.",
+      "title": "Chair Aldebol introduces vote on Intro 692A for paraprofessional stabilization payments",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 25.7,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 26.7,
+          "text": "I'm Councilmember Shirley Aldebol, Chair of the Committee on Civil Service and Labor."
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 31.7,
+          "text": "Welcome to this morning's committee vote on proposed introduction 692A, sponsored by my colleague, Councilmember Carmen De La Rosa, which seeks to provide"
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 43.1,
+          "text": "a workforce stabilization payment to New York City school paraprofessionals."
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 48.3,
+          "text": "We have been extraordinarily concerned about the persistent paraprofessional staffing crisis that has been impacting New York City's public schools, particularly in District 75 schools."
+        }
+      ]
+    },
+    {
+      "end_sec": 94.4,
+      "id": "003",
+      "slug": "aldebol-describes-paraprofessionals-critical-role-supporting-students-with-disabilities",
+      "start_sec": 60.7,
+      "summary": "Aldebol details how paraprofessionals provide instructional, behavioral, and physical support to students with disabilities, helping them meet IEP goals. She notes paras assist with transitions, toileting, feeding, and socio-emotional regulation, calling them crucial hands-on workers.",
+      "title": "Aldebol describes paraprofessionals' critical role supporting students with disabilities",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 60.7,
+          "text": "Paraprofessionals are critical members of the school environment, providing instructional, behavioral, and physical support to students with disabilities."
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 69.2,
+          "text": "They help students live up to the educational and executive functioning goals described in their IEPs by offering individualized support during academic instruction,"
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 79.5,
+          "text": "creating safe spaces to manage behavior, and helping to regulate socio-emotional crises."
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 85.8,
+          "text": "PARAs also provide the necessary physical assistance to students with trans-"
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 90.0,
+          "text": "sanitation, toileting, feeding, and other needs."
+        }
+      ]
+    },
+    {
+      "end_sec": 137.6,
+      "id": "004",
+      "slug": "aldebol-details-low-wages-and-limited-benefits-for-paraprofessionals",
+      "start_sec": 94.4,
+      "summary": "Aldebol highlights that starting pay for full-time paras is around $32,000 with a max of roughly $54,000, contrasting these figures with a March 2026 mayoral report estimating the true cost of living in NYC at $70,000 for a single adult. She notes paras receive only 10 days of paid leave and substitutes get no benefits.",
+      "title": "Aldebol details low wages and limited benefits for paraprofessionals",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 94.4,
+          "text": "And yet, despite fulfilling a crucial hands-on role for the city's students, paraprofessionals are woefully underpaid and have limited benefits."
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 104.0,
+          "text": "Starting pay for full-time paraprofessionals sits around $32,000, and the maximum salary for those over 15 years of experience remains at roughly $54,000."
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 116.3,
+          "text": "These wages are particularly staggering when contrasted"
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 120.1,
+          "text": "contrasted with a March 2026 report from the mayor that estimates that the true cost of living in New York City for a single adult sitting at roughly $70,000"
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 131.5,
+          "text": "or $166,000 for a family of two adults and two children."
+        }
+      ]
+    },
+    {
+      "end_sec": 177.7,
+      "id": "005",
+      "slug": "aldebol-discusses-scheduling-inflexibility-and-workforce-strain-from-vacancies",
+      "start_sec": 137.6,
+      "summary": "Aldebol explains that paras have little schedule flexibility and that vacant positions and attrition force remaining paras to do the work of multiple people, leaving no coverage for unforeseen absences. She states retention and recruitment are insufficient to meet student needs.",
+      "title": "Aldebol discusses scheduling inflexibility and workforce strain from vacancies",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 137.6,
+          "text": "Furthermore, compounding the issue of low pay, paraprofessionals have very little flexibility in their schedules."
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 145.2,
+          "text": "Moreover, full-time paraprofessionals are entitled to a maximum of only 10 days of paid leave during the school year to address health or personal issues."
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 156.4,
+          "text": "A substitute paraprofessionals do not receive benefits at all."
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 161.8,
+          "text": "But due to the level of vacant positions and attrition, the remaining paraprofessionals must work doubly hard to fulfill the work of multiple people"
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 170.7,
+          "text": "and are left with little or no flexibility for coverage of students when someone takes an unforeseen absence."
+        }
+      ]
+    },
+    {
+      "end_sec": 204.6,
+      "id": "006",
+      "slug": "aldebol-explains-the-workforce-stabilization-payment-and-retention-goals",
+      "start_sec": 177.7,
+      "summary": "Aldebol describes the envisioned workforce stabilization payment as providing paraprofessionals with reprieve for their essential work and incentivizing retention and recruitment for the 2026-2027 school year. She frames it as a response to untenable working conditions.",
+      "title": "Aldebol explains the workforce stabilization payment and retention goals",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 177.7,
+          "text": "Given these untenable conditions,"
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 180.0,
+          "text": "Retention and recruitment for paraprofessionals is currently insufficient to meet the needs of all the students with disabilities who require additional support."
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 190.1,
+          "text": "The workforce stabilization payment envisioned in this bill would provide paraprofessionals with some reprieve for their essential work and incentivize retention and recruitment for the 2026-2027 school year."
+        }
+      ]
+    },
+    {
+      "end_sec": 238.428,
+      "id": "007",
+      "slug": "aldebol-thanks-staff-and-recognizes-committee-members-present",
+      "start_sec": 204.6,
+      "summary": "Aldebol thanks committee staff and her District 13 staff for their preparation. She recognizes the council members in attendance: Hankerson, Narcisse, Hudson, Caban, De La Rosa, Morano, and Gennaro, who confirms he has joined remotely.",
+      "title": "Aldebol thanks staff and recognizes committee members present",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 204.6,
+          "text": "Before we call a vote, I would like to thank the committee staff for their work in preparing for this vote and to my staff for their work in serving District 13."
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 213.1,
+          "text": "I'd also like to recognize that we have been joined by council members Hankerson, Narcisse, Hudson, Caban, De La Rosa, and Morano."
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 224.4,
+          "text": "And I believe, is Gennaro on?"
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 227.3,
+          "text": "Yep, I'm here."
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 228.4,
+          "text": "Oh, see?"
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 229.9,
+          "text": "I told you he'd get on."
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 234.5,
+          "text": "Okay."
+        }
+      ]
+    },
+    {
+      "end_sec": 271.628,
+      "id": "008",
+      "slug": "de-la-rosa-introduces-respect-check-and-describes-paraprofessionals-classroom-role",
+      "start_sec": 238.428,
+      "summary": "Councilmember De La Rosa thanks the chair and introduces Intro 692A as the 'Respect Check.' She describes paraprofessionals as workers who sit one-on-one with students with disabilities, helping children communicate, regulate, and fully participate in school.",
+      "title": "De La Rosa introduces 'Respect Check' and describes paraprofessionals' classroom role",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 238.428,
+          "text": "Now I'll turn to Councilmember De La Rosa for her remarks on the legislation."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 243.828,
+          "text": "Good afternoon."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 244.928,
+          "text": "Thank you, Chair, for your leadership and to the committee for holding today's vote on Intro 692A, better known as the Respect Check."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 251.728,
+          "text": "We introduced this bill because behind every successful classroom in our city, there is often a paraprofessional making that learning possible."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 259.128,
+          "text": "These are the workers who sit one-on-one with students with disabilities, help children communicate, regulate, and learn, and make sure every student can fully participate in our schools and in their educational experience."
+        }
+      ]
+    },
+    {
+      "end_sec": 318.228,
+      "id": "009",
+      "slug": "de-la-rosa-details-low-pay-thousands-of-vacancies-and-1-5b-in-contracting-costs",
+      "start_sec": 271.628,
+      "summary": "De La Rosa notes entry-level paras earn as low as $32,000 and many experienced paras make under $50,000. She cites thousands of paraprofessional vacancies, resulting in lawsuits and a revolving door of outside contracting that cost the city and state over $1.5 billion in the last year.",
+      "title": "De La Rosa details low pay, thousands of vacancies, and $1.5B in contracting costs",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 271.628,
+          "text": "The reality is that the people doing the essential work are among the lowest paid employees in our school system."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 277.928,
+          "text": "Entry-level paraprofessionals can earn as low as $32,000 a year, and many experienced paraprofessionals still make under $50,000 annually in one of the most expensive cities in the country."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 288.728,
+          "text": "With large gaps in our paraprofessional workforce, the consequences continue to grow in our schools."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 294.028,
+          "text": "New York City has faced thousands of paraprofessional vacancies in recent years, leaving classrooms without the support students are legally entitled to and putting additional strain on teachers and school staff."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 305.128,
+          "text": "These gaps also translate into lawsuits."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 309.428,
+          "text": "And a revolving door of outside contracting that cost the city and the state over $1.5 billion in taxpayer money just in the last year."
+        }
+      ]
+    },
+    {
+      "end_sec": 351.628,
+      "id": "010",
+      "slug": "de-la-rosa-argues-10-000-payment-is-modest-compared-to-costs-of-inaction",
+      "start_sec": 318.228,
+      "summary": "De La Rosa calls the $10,000 one-time stabilization payment a drop in the bucket compared to the benefits of investing in schools and workforce. She notes that while long-term compensation should come through collective bargaining, this bill addresses the emergency of 1,600-3,000 vacancies.",
+      "title": "De La Rosa argues $10,000 payment is modest compared to costs of inaction",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 318.228,
+          "text": "A $10,000 one-time stabilization payment is a drop in the bucket in comparison to what we gain when the money goes."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 325.928,
+          "text": "back into our communities, into our schools, and into our workforce."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 330.328,
+          "text": "Although longer-term compensation should ultimately be addressed through collective bargaining, the respect check recognizes the emergency before us, stabilizing a workforce of over 25,000 paraprofessionals"
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 343.028,
+          "text": "and reducing attrition rates that have left gaps of between 1,600 and 3,000 vacancies in our workforce for far too long."
+        }
+      ]
+    },
+    {
+      "end_sec": 412.412,
+      "id": "011",
+      "slug": "de-la-rosa-frames-bill-as-dignity-for-paras-thanks-47-council-members-and-officials",
+      "start_sec": 351.628,
+      "summary": "De La Rosa frames the legislation as being about dignity, recognition, and respect for paraprofessionals. She thanks 47 council members who co-sponsored, along with the Public Advocate, Manhattan Borough President, and Brooklyn and Queens Borough Presidents, and credits former Councilmember Keith Powers as original sponsor.",
+      "title": "De La Rosa frames bill as dignity for paras, thanks 47 council members and officials",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 351.628,
+          "text": "At its core, this legislation is about dignity and recognition and respect."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 356.428,
+          "text": "If we believe every child deserves support in the classroom, then we must also believe that workers providing that support deserve wages that allow them to live with stability, respect in the city that they serve."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 366.528,
+          "text": "I want to thank the 47 council members who have already supported this legislation, including other officials such as the public advocate, the Manhattan Borough President, the Brooklyn and Queensborough President."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 377.728,
+          "text": "They understand the critical role that power professionals play in helping our students with the greatest needs."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 382.828,
+          "text": "And I look forward to passing this legislation for the power professionals, advocates, students, and families who rely on the largest school system in the country to set them up for a future of success."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 393.828,
+          "text": "I also want to shout out our good friend and former council member, now assembly member, Keith Powers, who was the original sponsor of the original bill last session."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 403.828,
+          "text": "Thank you, Chair."
+        }
+      ]
+    },
+    {
+      "end_sec": 441.912,
+      "id": "012",
+      "slug": "clerk-calls-roll-on-intro-692a-aldebol-gennaro-caban-and-hudson-vote-aye",
+      "start_sec": 412.412,
+      "summary": "Committee clerk William Martin calls the roll on Proposed Intro 692A. Chair Aldebol votes 'very proudly aye,' Gennaro votes aye, and Caban and Hudson also vote in the affirmative without additional remarks.",
+      "title": "Clerk calls roll on Intro 692A; Aldebol, Gennaro, Caban, and Hudson vote aye",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 412.412,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 412.812,
+          "text": "Now turn it over to the clerk to call the roll."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 416.112,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 417.012,
+          "text": "Excuse me."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 417.312,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 417.712,
+          "text": "William Martin, committee clerk, roll call vote committee on civil service and labor."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 421.512,
+          "text": "Proposed introduction 692A."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 425.012,
+          "text": "Chair Aldebog."
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 427.812,
+          "text": "Very proudly vote aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 430.112,
+          "text": "Gennaro."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 431.512,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 432.612,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 433.312,
+          "text": "Go Red Storm."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 434.612,
+          "text": "Caban."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 438.212,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 438.812,
+          "text": "Hudson."
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 439.812,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 440.512,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 459.312,
+      "id": "013",
+      "slug": "narcisse-votes-aye-urging-nyc-to-lead-on-paraprofessional-support",
+      "start_sec": 441.912,
+      "summary": "Councilmember Narcisse votes aye with remarks, stating that as the 'capital of the world' and leaders, New York City is not showing up for paraprofessionals. She urges the council to do the right thing.",
+      "title": "Narcisse votes aye, urging NYC to lead on paraprofessional support",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 441.912,
+          "text": "Narcisse."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 445.012,
+          "text": "Avodai, but I want to add that we are the capital of the world."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 448.112,
+          "text": "We are leaders, but yet when it comes to paraprofessional, where we're supposed to show up, we're not showing up for the paraprofessional."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 455.412,
+          "text": "On that note, Avodai, let's do the right thing."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 458.112,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 502.144,
+      "id": "014",
+      "slug": "hankerson-votes-aye-recalling-paraprofessionals-who-shaped-his-school-experience",
+      "start_sec": 459.312,
+      "summary": "Councilmember Hankerson votes aye, noting he is about 10 years out of high school and recalling specific paraprofessionals\u2014Ms. Barnes, Ms. V, and Ms. Cookie\u2014who cared for all students, not just those they were assigned to. He says they deserve the payment.",
+      "title": "Hankerson votes aye, recalling paraprofessionals who shaped his school experience",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 459.312,
+          "text": "Hankerson."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 463.644,
+          "text": "Can I explain my vote?"
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 465.544,
+          "text": "I just want to say, is it okay, Madam Chair?"
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 467.444,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 467.944,
+          "text": "Okay, very, very brief."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 469.344,
+          "text": "I just want to say that our powers are not just necessary, but they're vital to the work that happens within our schools."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 476.244,
+          "text": "I remember as I think the only one on this panel right now who is only about 10 years outside of high school, powers, I mean, I mean, okay."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 490.444,
+          "text": "The powers didn't just care for the students they were assigned to."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 492.744,
+          "text": "They cared for all of us."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 493.744,
+          "text": "And so to Ms."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 494.344,
+          "text": "Barnes, Ms."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 495.244,
+          "text": "V, to Ms."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 496.244,
+          "text": "Cookie, God bless her soul, they deserve it."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 499.344,
+          "text": "And so I vote aye."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 501.244,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 565.944,
+      "id": "015",
+      "slug": "morano-votes-yes-citing-bipartisan-support-and-calling-for-look-back-period",
+      "start_sec": 502.144,
+      "summary": "Councilmember Morano enthusiastically votes yes, congratulating De La Rosa and former Councilmember Powers. He notes the bill's unusual bipartisan popularity yet difficult path, mentions a para in his district retiring without receiving this payment, and calls for expanding payments and a look-back period for paraprofessionals.",
+      "title": "Morano votes yes, citing bipartisan support and calling for look-back period",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 502.144,
+          "text": "Marano."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 503.844,
+          "text": "Madam Chair, may I say a word?"
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 508.544,
+          "text": "No, I was just going to say, the look of shock tells you that most people believe Councilmember Hankerson is much, much older than he actually is."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 518.744,
+          "text": "I just want to congratulate Councilmember De La Rosa and thank her for her leadership on this, as well as former Councilmember Powers."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 528.044,
+          "text": "Never before has a bill been this widely popular among council members on a bipartisan basis and yet become so controversial and so difficult to pass."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 539.644,
+          "text": "And it's just a shame that paras like one that I met in my district retiring yesterday are not going to get this."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 546.944,
+          "text": "I wish we had done this previously."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 549.244,
+          "text": "And I hope we hope."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 550.144,
+          "text": "We can work to expand the payments for paras and eventually get a look-back period for paraprofessionals because I echo what everybody said."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 558.744,
+          "text": "They do incredible, incredible work, especially in my district."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 562.744,
+          "text": "With that, I enthusiastically vote yes."
+        }
+      ]
+    },
+    {
+      "end_sec": 592.597,
+      "id": "016",
+      "slug": "intro-692a-approved-7-0-by-full-committee",
+      "start_sec": 565.944,
+      "summary": "The clerk announces the vote result: 7 in the affirmative, 0 in the negative, and no abstentions. Proposed Intro 692A is approved by the full Committee on Civil Service and Labor.",
+      "title": "Intro 692A approved 7-0 by full committee",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 565.944,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 566.344,
+          "text": "With a vote of seven in the affirmative, zero in the negative, and no abstentions, item has been approved by the committee."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 572.144,
+          "text": "Madam Chair, that is a full committee."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 590.74,
+          "text": "Thank you, Chair."
+        }
+      ]
+    }
+  ],
+  "date": "2026-07-16",
+  "duration_sec": 592.597,
+  "slug": "2026-07-16-1000-am-committee-on-civil-service-and-labor",
+  "summary": [
+    "The Committee on Civil Service and Labor voted 7-0 to approve Intro 692A, authorizing a $10,000 one-time workforce stabilization payment to NYC school paraprofessionals for the 2026-2027 school year.",
+    "Chair Aldebol and sponsor Councilmember De La Rosa highlighted the persistent paraprofessional staffing crisis, with 1,600-3,000 vacancies, starting pay around $32,000, and over $1.5 billion in outside contracting costs.",
+    "Councilmembers Narcisse, Hankerson, and Morano delivered personal remarks during the roll call, with Morano calling for a future look-back period to cover retiring paras."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "10:00 AM",
+  "title": "Committee on Civil Service and Labor",
+  "topic": "Workforce stabilization payments for school paraprofessionals, and providing for the repeal of such local law upon the expiration thereof",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-2_260716-102913/video-web.mp4"
+  }
+}

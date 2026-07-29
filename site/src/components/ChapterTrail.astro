@@ -1,0 +1,232 @@
+---
+import { chapterTypeLabel, formatClock } from "@lib/format";
+import type { Meeting } from "@lib/types";
+
+interface Props {
+  meeting: Meeting;
+}
+
+const { meeting } = Astro.props;
+const count = meeting.chapters.length;
+const dense = count > 90;
+---
+
+{
+  count > 6 && (
+    <nav
+      class="chapter-trail sticky top-[12vh] z-20 hidden h-[min(76vh,680px)] self-start flex-col items-start justify-center lg:flex"
+      aria-label="Chapter minimap"
+    >
+      <div
+        class="chapter-trail-card pointer-events-none absolute left-full top-0 ml-3 hidden w-72 max-w-[19rem] -translate-y-1/2 flex-col gap-1.5 rounded-lg border border-line bg-paper p-3 shadow-lg ring-1 ring-ink/5"
+      >
+        <div class="flex items-center gap-2">
+          <span
+            class="inline-flex items-center rounded-full border border-line bg-paper px-2 py-0.5 text-[0.6rem] font-semibold uppercase leading-none tracking-[0.08em] text-ink"
+            data-card-badge
+          />
+          <span class="tabular text-xs text-muted" data-card-clock />
+        </div>
+        <p class="font-serif text-sm font-semibold leading-snug text-ink" data-card-title />
+        <p class="line-clamp-2 text-xs leading-relaxed text-muted" data-card-summary />
+      </div>
+
+      <div
+        class="chapter-ticks flex h-full flex-col items-start justify-center"
+        style={`gap: ${dense ? "1.25px" : "4px"};`}
+      >
+        {meeting.chapters.map((chapter, index) => (
+          <button
+            type="button"
+            class="chapter-tick flex w-9 flex-1 items-center justify-start border-0 bg-transparent p-0 outline-none"
+            style="min-height: 3px; max-height: 9px;"
+            data-index={index}
+            data-type={chapter.type}
+            data-badge={chapterTypeLabel(chapter.type)}
+            data-clock={formatClock(chapter.start_sec)}
+            data-title={chapter.title}
+            data-summary={chapter.summary}
+            aria-label={`Jump to: ${chapter.title}`}
+            x-show="selected[$el.dataset.type]"
+            x-cloak
+          >
+            <span class="chapter-tick-bar" data-focal="false" />
+          </button>
+        ))}
+      </div>
+    </nav>
+  )
+}
+
+<style>
+  .chapter-tick-bar {
+    height: 2px;
+    width: var(--tick-width, 12px);
+    border-radius: 9999px;
+    background: rgba(98, 95, 88, 0.35);
+    transition:
+      width 90ms ease-out,
+      background-color 90ms ease-out;
+  }
+  .chapter-tick-bar[data-focal="true"] {
+    background: #141311;
+  }
+  .chapter-tick:focus-visible {
+    border-radius: 3px;
+    box-shadow: 0 0 0 2px rgba(20, 19, 17, 0.18);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .chapter-tick-bar {
+      transition: none;
+    }
+  }
+</style>
+
+<script>
+  const trail = document.querySelector<HTMLElement>(".chapter-trail");
+  if (trail) {
+    const ticks = [...trail.querySelectorAll<HTMLButtonElement>(".chapter-tick")];
+    const bars = ticks.map((tick) => tick.querySelector<HTMLElement>(".chapter-tick-bar"));
+    const cards = [...document.querySelectorAll<HTMLElement>("[data-chapter-card]")];
+    const preview = trail.querySelector<HTMLElement>(".chapter-trail-card");
+    const badge = preview?.querySelector<HTMLElement>("[data-card-badge]");
+    const clock = preview?.querySelector<HTMLElement>("[data-card-clock]");
+    const title = preview?.querySelector<HTMLElement>("[data-card-title]");
+    const summary = preview?.querySelector<HTMLElement>("[data-card-summary]");
+    const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    let scrollCenter = 0;
+    let pointerCenter: number | null = null;
+    let focalIndex = -1;
+    let paintFrame = 0;
+
+    const visibleIndices = () =>
+      ticks.flatMap((tick, index) =>
+        tick.offsetParent !== null && cards[index]?.offsetParent !== null ? [index] : [],
+      );
+
+    const paintLens = (center: number, visible: number[]) => {
+      const focalOrdinal = Math.max(0, Math.min(visible.length - 1, Math.round(center)));
+      const nextFocalIndex = visible[focalOrdinal] ?? -1;
+
+      for (let index = 0; index < bars.length; index += 1) {
+        const bar = bars[index];
+        if (!bar) continue;
+        const ordinal = visible.indexOf(index);
+        const distance = ordinal < 0 ? Number.POSITIVE_INFINITY : Math.abs(ordinal - center);
+        const influence = Math.exp(-0.5 * Math.pow(distance / 1.65, 2));
+        bar.style.setProperty("--tick-width", `${12 + 19 * influence}px`);
+        bar.dataset.focal = index === nextFocalIndex ? "true" : "false";
+      }
+
+      focalIndex = nextFocalIndex;
+    };
+
+    const calculateScrollCenter = (visible: number[]) => {
+      if (!visible.length) return 0;
+      const readingPosition = window.scrollY + window.innerHeight / 3;
+      const starts = visible.map((index) => cards[index].getBoundingClientRect().top + window.scrollY);
+
+      if (readingPosition <= starts[0]) return 0;
+      for (let ordinal = 0; ordinal < starts.length - 1; ordinal += 1) {
+        if (readingPosition < starts[ordinal + 1]) {
+          const span = Math.max(1, starts[ordinal + 1] - starts[ordinal]);
+          return ordinal + (readingPosition - starts[ordinal]) / span;
+        }
+      }
+      return starts.length - 1;
+    };
+
+    const paintFromScroll = () => {
+      paintFrame = 0;
+      const visible = visibleIndices();
+      scrollCenter = calculateScrollCenter(visible);
+      if (pointerCenter === null) paintLens(scrollCenter, visible);
+    };
+
+    const requestScrollPaint = () => {
+      if (!paintFrame) paintFrame = requestAnimationFrame(paintFromScroll);
+    };
+
+    const showPreview = (index: number) => {
+      const tick = ticks[index];
+      if (!tick || !preview || !badge || !clock || !title || !summary) return;
+      badge.textContent = tick.dataset.badge ?? "";
+      clock.textContent = tick.dataset.clock ?? "";
+      title.textContent = tick.dataset.title ?? "";
+      summary.textContent = tick.dataset.summary ?? "";
+      summary.style.display = tick.dataset.summary ? "" : "none";
+
+      preview.classList.remove("hidden");
+      preview.classList.add("flex");
+
+      const trailBox = trail.getBoundingClientRect();
+      const tickBox = tick.getBoundingClientRect();
+      const center = tickBox.top - trailBox.top + tickBox.height / 2;
+      const halfHeight = preview.offsetHeight / 2;
+      preview.style.top = `${Math.max(halfHeight, Math.min(trailBox.height - halfHeight, center))}px`;
+    };
+
+    const hidePreview = () => {
+      preview?.classList.add("hidden");
+      preview?.classList.remove("flex");
+    };
+
+    const pointerOrdinal = (clientY: number, visible: number[]) => {
+      const centers = visible.map((index) => {
+        const rect = ticks[index].getBoundingClientRect();
+        return rect.top + rect.height / 2;
+      });
+      if (clientY <= centers[0]) return 0;
+      for (let ordinal = 0; ordinal < centers.length - 1; ordinal += 1) {
+        if (clientY < centers[ordinal + 1]) {
+          const span = Math.max(1, centers[ordinal + 1] - centers[ordinal]);
+          return ordinal + (clientY - centers[ordinal]) / span;
+        }
+      }
+      return centers.length - 1;
+    };
+
+    trail.addEventListener("pointermove", (event) => {
+      const visible = visibleIndices();
+      if (!visible.length) return;
+      pointerCenter = pointerOrdinal(event.clientY, visible);
+      paintLens(pointerCenter, visible);
+      if (focalIndex >= 0) showPreview(focalIndex);
+    });
+
+    trail.addEventListener("pointerleave", () => {
+      pointerCenter = null;
+      hidePreview();
+      paintFromScroll();
+    });
+
+    for (const tick of ticks) {
+      const index = Number(tick.dataset.index);
+      tick.addEventListener("focus", () => {
+        const visible = visibleIndices();
+        const ordinal = visible.indexOf(index);
+        if (ordinal < 0) return;
+        pointerCenter = ordinal;
+        paintLens(ordinal, visible);
+        showPreview(index);
+      });
+      tick.addEventListener("blur", () => {
+        pointerCenter = null;
+        hidePreview();
+        paintFromScroll();
+      });
+      tick.addEventListener("click", () => {
+        cards[index]?.scrollIntoView({ behavior: reducedMotion ? "auto" : "smooth", block: "start" });
+      });
+    }
+
+    window.addEventListener("scroll", requestScrollPaint, { passive: true });
+    window.addEventListener("resize", requestScrollPaint, { passive: true });
+    const filterObserver = new MutationObserver(requestScrollPaint);
+    for (const chapterCard of cards) {
+      filterObserver.observe(chapterCard, { attributes: true, attributeFilter: ["style"] });
+    }
+    paintFromScroll();
+  }
+</script>

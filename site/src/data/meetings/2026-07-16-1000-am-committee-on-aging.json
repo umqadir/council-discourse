@@ -1,0 +1,421 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 3.0,
+      "id": "001",
+      "slug": "sergeant-at-arms-opens-the-hearing",
+      "start_sec": 0.5,
+      "summary": "An unidentified speaker makes a remark about attendance before the hearing officially begins.",
+      "title": "Sergeant-at-arms opens the hearing",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 0.5,
+          "text": "If she's not counted for attendance, we're all coming for you."
+        }
+      ]
+    },
+    {
+      "end_sec": 16.0,
+      "id": "002",
+      "slug": "committee-clerk-william-martin-gives-housekeeping-instructions",
+      "start_sec": 3.0,
+      "summary": "William Martin welcomes attendees to the Committee on Aging vote, asks everyone to silence electronic devices, and reminds the public not to approach the dais.",
+      "title": "Committee clerk William Martin gives housekeeping instructions",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 3.0,
+          "text": "Good morning and welcome to today's New York City Council vote for the Committee on Aging."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 8.4,
+          "text": "At this time, please silence all electronic devices."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 11.6,
+          "text": "And just a reminder, no one may approach the dais at any time."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 14.7,
+          "text": "Chair, we are ready to begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 37.5,
+      "id": "003",
+      "slug": "acting-chair-brewer-introduces-herself-and-recognizes-attending-members",
+      "start_sec": 16.0,
+      "summary": "Gale Brewer explains she is chairing in place of Council Member Zhuang, recognizes present members including Dinowitz, Schulman, Hudson, Aldebol, and notes Zhuang was present earlier.",
+      "title": "Acting Chair Brewer introduces herself and recognizes attending members",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 16.0,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 17.3,
+          "text": "I'm Gail Brewer."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 18.4,
+          "text": "I will be chairing today's Committee on Aging vote in place of Council Members Wang, who couldn't be here today."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 24.3,
+          "text": "She was on earlier, so I want to say thank you for that."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 27.7,
+          "text": "Before we begin, I want to recognize the council members who are here."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 31.1,
+          "text": "Dinowitz, Schulman, Hudson, Aldeball, and Zhuang, like I said, was here earlier."
+        }
+      ]
+    },
+    {
+      "end_sec": 60.4,
+      "id": "004",
+      "slug": "brewer-introduces-intro-812-on-wellness-checks-for-older-adults-during-extreme-weather",
+      "start_sec": 37.5,
+      "summary": "Brewer explains that Intro 812, sponsored by Council Member Carcione, would require the Commissioner of Aging to develop a protocol with NYC Emergency Management to conduct wellness checks during cold weather alerts, extreme heat warnings, and heat-related emergencies.",
+      "title": "Brewer introduces Intro 812 on wellness checks for older adults during extreme weather",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 37.5,
+          "text": "We'll be voting on Intro 812, sponsored by a council member in Carcione."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 41.5,
+          "text": "The bill would require the Commissioner of Aging to develop a protocol in collaboration with the New York City Emergency Management and other relevant agencies"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 52.0,
+          "text": "to conduct wellness checks in the event of cold weather alerts, extreme heat warnings, and heat-related emergencies."
+        }
+      ]
+    },
+    {
+      "end_sec": 78.4,
+      "id": "005",
+      "slug": "brewer-describes-wellness-check-protocol-details",
+      "start_sec": 60.4,
+      "summary": "Brewer details that wellness checks would include questions about an older adult's well-being, temperature conditions, functionality of climate control equipment, and availability of food and water.",
+      "title": "Brewer describes wellness check protocol details",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 60.4,
+          "text": "These wellness checks would include a set of questions developed by aging to gauge an older adult's well-being and what the conditions are like in that older adult's place of residence,"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 71.1,
+          "text": "such as the temperature, the functionality of climate control equipment, and whether food and water is available."
+        }
+      ]
+    },
+    {
+      "end_sec": 96.3,
+      "id": "006",
+      "slug": "brewer-discusses-vulnerability-of-older-adults-to-extreme-weather",
+      "start_sec": 78.4,
+      "summary": "Brewer notes that older adults are more vulnerable to extreme heat and cold, which can disrupt access to needed care and aggravate pre-existing health conditions.",
+      "title": "Brewer discusses vulnerability of older adults to extreme weather",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 78.4,
+          "text": "Older adults, that's me, are often more vulnerable to extreme hot and cold weather."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 83.6,
+          "text": "I survived."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 84.8,
+          "text": "Extreme heat or cold can disrupt access to the..."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 90.0,
+          "text": "report that older adults need, it can also aggravate pre-existing health conditions."
+        }
+      ]
+    },
+    {
+      "end_sec": 119.0,
+      "id": "007",
+      "slug": "brewer-cites-heat-mortality-statistics-and-climate-change-concerns",
+      "start_sec": 96.3,
+      "summary": "Brewer reports that 500 New Yorkers died prematurely from preventable heat illnesses last year, and warns that climate change will increase extreme heat days, noting three heat advisories already issued this year.",
+      "title": "Brewer cites heat mortality statistics and climate change concerns",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 96.3,
+          "text": "Last year, according to emergency management, 500 New Yorkers died prematurely due to preventable heat illnesses."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 104.5,
+          "text": "As climate change effects are felt in our city, the number of extreme heat days will only continue to rise."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 112.0,
+          "text": "The city has already issued three extreme heat advisories this year, one of which was earlier this week."
+        }
+      ]
+    },
+    {
+      "end_sec": 136.0,
+      "id": "008",
+      "slug": "brewer-references-recent-extreme-weather-events-and-calls-for-city-preparedness",
+      "start_sec": 119.0,
+      "summary": "Brewer recalls the extreme heat over the 4th of July weekend and the extreme cold during winter, urging the Department of Aging to be proactive during extreme weather events to protect older New Yorkers.",
+      "title": "Brewer references recent extreme weather events and calls for city preparedness",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 119.0,
+          "text": "We will all remember how hot it was on the 4th of July weekend."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 123.1,
+          "text": "This is all on the back of extreme cold that gripped our city during the winter."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 127.7,
+          "text": "The city must be prepared."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 129.6,
+          "text": "And aging, the department must be proactive during extreme weather events to protect older New Yorkers."
+        }
+      ]
+    },
+    {
+      "end_sec": 153.6,
+      "id": "009",
+      "slug": "brewer-thanks-sponsor-speaker-colleagues-staff-and-advocates",
+      "start_sec": 136.0,
+      "summary": "Brewer thanks Council Member Carcione for her leadership, the Speaker and colleagues for supporting the legislation, and staff and advocates for their hard work, then yields to the clerk for the roll call vote.",
+      "title": "Brewer thanks sponsor, Speaker, colleagues, staff, and advocates",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 136.0,
+          "text": "I want to thank Councilmember Carcion for her leadership on this issue."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 140.3,
+          "text": "I want to thank the Speaker and my colleagues for supporting this legislation."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 144.5,
+          "text": "I want to thank the staff and advocates for their hard work."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 149.0,
+          "text": "I pass this issue to the clerk to call the roll."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 151.9,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 177.484,
+      "id": "010",
+      "slug": "committee-clerk-conducts-roll-call-vote-on-intro-812",
+      "start_sec": 153.6,
+      "summary": "William Martin calls the roll for the Committee on Aging vote on Intro 812. Brewer, Dinowitz, Hudson, Shulman, and Aldebol vote in the affirmative.",
+      "title": "Committee clerk conducts roll call vote on Intro 812",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 153.6,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 154.0,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 154.5,
+          "text": "William Martin, committee clerk, roll call vote committee on aging."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 159.2,
+          "text": "Acting chair Brewer."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 160.4,
+          "text": "Yes."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 162.1,
+          "text": "Dinowitz."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 162.8,
+          "text": "Yes."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 164.3,
+          "text": "Hudson."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 166.9,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 168.3,
+          "text": "Mealy."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 170.6,
+          "text": "Shulman."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 171.3,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 172.9,
+          "text": "Aldebol."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 174.5,
+          "text": "Aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 186.584,
+      "id": "011",
+      "slug": "committee-approves-intro-812-with-initial-vote-of-5-0",
+      "start_sec": 177.484,
+      "summary": "Martin announces the item has been approved with five votes in the affirmative, zero in the negative, and no abstentions.",
+      "title": "Committee approves Intro 812 with initial vote of 5-0",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 177.484,
+          "text": "With a vote of five in the affirmative, zero in the negative, and no abstentions, item has been approved by the committee."
+        }
+      ]
+    },
+    {
+      "end_sec": 204.203,
+      "id": "012",
+      "slug": "council-member-joanne-s-vote-recorded-final-tally-6-0",
+      "start_sec": 186.584,
+      "summary": "Council Member Joanne's vote is recorded, bringing the final tally to six in the affirmative, zero in the negative, and no abstentions. Brewer then closes the hearing.",
+      "title": "Council Member Joanne's vote recorded, final tally 6-0",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 186.584,
+          "text": "Councilmember Joanne?"
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 190.084,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 191.584,
+          "text": "Thank you, Councilmember Joann."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 192.884,
+          "text": "Vote is now six in the affirmative, zero in the negative, and no abstention."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 196.984,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 197.784,
+          "text": "This hearing is closed."
+        }
+      ]
+    }
+  ],
+  "date": "2026-07-16",
+  "duration_sec": 204.203,
+  "slug": "2026-07-16-1000-am-committee-on-aging",
+  "summary": [
+    "The Committee on Aging, chaired by Gale Brewer in place of Chair Zhuang, voted on Intro 812-A, a bill requiring wellness checks on older adults during extreme weather events.",
+    "The bill mandates the Commissioner of Aging to develop a protocol with NYC Emergency Management to conduct wellness checks during cold weather alerts, extreme heat warnings, and heat-related emergencies.",
+    "The bill passed with six votes in the affirmative and zero in the negative."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "10:00 AM",
+  "title": "Committee on Aging",
+  "topic": "Wellness checks on older adults during certain weather events, and to repeal repetitions of the definition of \u201colder adult\u201d",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-2_260716-104859/video-web.mp4"
+  }
+}

@@ -1,0 +1,620 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 19.5,
+      "id": "001",
+      "slug": "committee-staff-opens-hearing-and-gives-housekeeping-instructions",
+      "start_sec": 6.9,
+      "summary": "Council staff welcomes attendees to the Committee on Governmental Operations vote, asks everyone to silence devices, and confirms the chair is ready to begin.",
+      "title": "Committee staff opens hearing and gives housekeeping instructions",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 6.9,
+          "text": "Good morning and welcome to today's New York City Council vote for the Committee on Governmental Operations, State and Federal Legislation."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 13.8,
+          "text": "At this time, please silence all electronic devices and no one may approach the dais at any time."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 18.2,
+          "text": "Chair, we're ready to begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 60.9,
+      "id": "002",
+      "slug": "chair-brewer-introduces-agenda-elected-official-pay-raise-and-financial-disclosure-fix",
+      "start_sec": 19.5,
+      "summary": "Chair Gale Brewer introduces herself and welcomes Council Members Dinowitz, Wilson, and Morano. She outlines the two items for vote: a preconsidered bill increasing compensation for mayor, public advocate, council members, borough presidents, comptroller, and DAs, and Intro 398 making technical amendments to financial interest disclosure requirements.",
+      "title": "Chair Brewer introduces agenda: elected official pay raise and financial disclosure fix",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 19.5,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 20.2,
+          "text": "I'm Gail Brewer, Chair of the Committee on Governmental Operations, State and Federal Legislation."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 24.7,
+          "text": "I would like to welcome my council colleagues who have joined us here today, Council Members Dinnowitz, Wilson and Marano."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 31.4,
+          "text": "Today, we are voting on Deputy Speaker Williams'bill, proposed pre-considered"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 37.9,
+          "text": "intro, which would increase the compensation of the mayor, the public advocate, the members of the city council, the borough presidents, the controller, and district attorneys, although they have a slightly different way of doing it."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 50.1,
+          "text": "In addition, we will be voting on intro 398, which will make technical amendments to the annual disclosures of financial interests by certain officers and employees of the city."
+        }
+      ]
+    },
+    {
+      "end_sec": 110.0,
+      "id": "003",
+      "slug": "brewer-explains-quadrennial-commission-history-and-10-year-salary-gap",
+      "start_sec": 60.9,
+      "summary": "Brewer explains that elected official pay is set by local law and a quadrennial commission reviews salaries every four years. She notes Mayor de Blasio declined to impanel the commission in 2020 and Mayor Adams declined in 2024, creating a 10-year gap\u2014the longest since the framework began 40 years ago.",
+      "title": "Brewer explains quadrennial commission history and 10-year salary gap",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 60.9,
+          "text": "It's kind of like a technical bill."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 63.1,
+          "text": "Elected official pay is set by local law, but under our city's admin code, the mayor is required to appoint a commission."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 70.5,
+          "text": "To review compensation levels of elected officials every four years and make recommendations to the council."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 77.1,
+          "text": "This quadrennial commission is meant to create a regular review of elected official salaries."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 84.7,
+          "text": "However, with the exception of the DAs,"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 88.7,
+          "text": "The last time city elected."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 90.0,
+          "text": "Officials received a raise was back in 2016."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 94.4,
+          "text": "Mayor de Blasio declined to impanel the required commission in 2020 and Mayor Adams declined to convene one in 2024, creating a 10-year gap, which is the longest stretch in the 40 years since the quadrennial commission framework has been in place."
+        }
+      ]
+    },
+    {
+      "end_sec": 136.8,
+      "id": "004",
+      "slug": "brewer-compares-nyc-elected-salaries-to-other-cities-and-inflation",
+      "start_sec": 110.0,
+      "summary": "Brewer notes NYC elected official salaries have failed to keep pace with inflation and lag behind legislators in LA, Chicago, and Philadelphia, all of which have smaller budgets and workforces. She highlights that LA's council is even stronger than its mayor.",
+      "title": "Brewer compares NYC elected salaries to other cities and inflation",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 110.0,
+          "text": "Over that time, salaries of New York elected officials have failed to keep pace with inflation, according to the commission, or even with the salaries of elected officials across the country."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 121.0,
+          "text": "Legislators in other cities like L.A., Chicago, and Philly all make more than we do, and all those cities have significantly smaller budgets."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 129.5,
+          "text": "And oversee much smaller workforces, although in LA I know it's stronger than the mayor."
+        }
+      ]
+    },
+    {
+      "end_sec": 180.1,
+      "id": "005",
+      "slug": "brewer-on-how-low-elected-salaries-cap-staff-pay-and-limit-who-can-run",
+      "start_sec": 136.8,
+      "summary": "Brewer explains that elected official salaries serve as caps on staff salaries, making it hard to attract top talent. She argues low pay restricts who can afford to run for office, making it accessible only to wealthy individuals, and that elected officials deserve fair compensation for a demanding 24/7 job.",
+      "title": "Brewer on how low elected salaries cap staff pay and limit who can run",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 136.8,
+          "text": "These stagnant wages not only affect elected officials, they keep staff salaries low."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 143.8,
+          "text": "For non-executive roles, an elected official's salary serves as a cap on the salaries of the employees who work for them."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 150.8,
+          "text": "Keeping elected salaries low prevents the city from offering competitive wages."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 155.7,
+          "text": "This makes it difficult for us to attract the best and brightest to crucial city jobs, although I wish there was more money for staff."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 163.4,
+          "text": "Low salaries for elected officials can also negatively influence who is able to run for office."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 169.2,
+          "text": "We do not want elected officials to only be accessible to wealthy individuals."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 173.7,
+          "text": "Being an elected official in New York is a challenging and demanding 24-7 job, and elected officials deserve to be respected."
+        }
+      ]
+    },
+    {
+      "end_sec": 232.3,
+      "id": "006",
+      "slug": "brewer-describes-2025-quadrennial-advisory-commission-formation-and-18-2-raise-recommendation",
+      "start_sec": 180.1,
+      "summary": "Brewer recounts that in January 2026 the mayor and speaker jointly formed the Quadrennial Advisory Commission, appointing Carl Weisfred, Dr. Lillian Barrios-Paoli, and Dr. Larry Angelo. The commission's June 23 report recommended an 18.2% salary increase for all covered elected officials, retroactive to January 1, 2026.",
+      "title": "Brewer describes 2025 Quadrennial Advisory Commission formation and 18.2% raise recommendation",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 180.1,
+          "text": "fairly compensated."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 182.0,
+          "text": "We should be able to support ourselves and our families on our salary."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 186.1,
+          "text": "In January of this year, shortly after taking office, the mayor, along with the speaker, jointly announced the formation of the Condennial Advisory Commission to review compensation levels for elected officials."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 199.4,
+          "text": "The mayor appointed three experienced public servants, Carl Weisfred, Dr."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 204.3,
+          "text": "Lilian Barrios-Paoli, and Dr."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 207.0,
+          "text": "Larry Angelo, all friends of mine, I have to admit, and my age, which I like, to the commission."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 213.6,
+          "text": "The commission released its findings in a report on June 23rd of this year."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 219.6,
+          "text": "It recommended increasing the salaries for the mayor, public advocate, controller, borough president, city council members, and DAs by 18.2% retroactive to January 1st of this year."
+        }
+      ]
+    },
+    {
+      "end_sec": 279.2,
+      "id": "007",
+      "slug": "brewer-outlines-commission-s-additional-recommendations-on-timing-and-process",
+      "start_sec": 232.3,
+      "summary": "Brewer details the commission's further recommendations: convening future commissions in the third year of a four-year term, ensuring raises take effect at the start of the next term, and extending the commission's work period from 75 to 120 days. She states the preconsidered bill codifies these recommendations.",
+      "title": "Brewer outlines commission's additional recommendations on timing and process",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 232.3,
+          "text": "In addition to the pay increase, the commission also made several other recommendations regarding elected official pay."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 240.5,
+          "text": "They recommended regularly convening the commission and altering the timing of future commissions so that they will occur during the third year of a four-year term of office"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 250.8,
+          "text": "rather than the first year, along with requiring that any compensation increase does not only take effect until the beginning of the next term."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 260.0,
+          "text": "The commission also recommended giving future commissions 120 days instead of the current 75 days to complete their work."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 269.4,
+          "text": "This proposal..."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 270.0,
+          "text": "Those reconsider intro that we are voting on today would codify these recommendations."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 276.2,
+          "text": "We definitely thank the members of the commission for their service."
+        }
+      ]
+    },
+    {
+      "end_sec": 357.5,
+      "id": "008",
+      "slug": "brewer-explains-intro-398-fix-for-coib-financial-disclosure-value-bands",
+      "start_sec": 279.2,
+      "summary": "Brewer explains that COIB's February 2026 update raising the ownership interest definition to $64,000 created an inconsistency where the bottom of the third disclosure band exceeded the top of that band's range at $60,000. Intro 398 resets the band ranges to fix this incongruity without changing who must disclose.",
+      "title": "Brewer explains Intro 398 fix for COIB financial disclosure value bands",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 279.2,
+          "text": "The second day we are voting on, second bill we are voting on today, makes technical edits to the conflict of interest boards disclosure requirements."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 289.8,
+          "text": "The admin code requires city elected officials, candidates for such offices, and certain public officers and employees to fill out disclosure reports about their financial interests with COIB, as we know."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 304.8,
+          "text": "The admin code sets seven value ranges or bands that a filer must choose from when reporting the value or amount of a particular financial interest."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 314.6,
+          "text": "COIB is required to update these bands every four years."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 318.5,
+          "text": "In February of this year, COIB increased the definition of..."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 325.0,
+          "text": "Ownership interest to $64,000."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 328.2,
+          "text": "This caused the strange situation where the bottom of the third band of disclosure is $64,000, while the top of the range for that band remained at $60,000."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 337.7,
+          "text": "This bill will fix this incongruity by resetting the ranges of some of the bands."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 343.6,
+          "text": "The bill we are voting on today will only change which band an officer or employer discloses in."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 350.1,
+          "text": "It does not change the number of people who must disclose, nor does it affect which people must disclose."
+        }
+      ]
+    },
+    {
+      "end_sec": 409.328,
+      "id": "009",
+      "slug": "brewer-thanks-committee-staff-and-notes-remote-attendees-before-roll-call",
+      "start_sec": 357.5,
+      "summary": "Brewer thanks committee staff Jahari Frazier, Eric Cohen, and Singer Hamid, and her own staff Shula Puder and Cynthia Honig. She notes Council Members Stevens and Zhuang are on Zoom, Feliz has arrived, and turns the meeting over to the clerk for the roll call vote.",
+      "title": "Brewer thanks committee staff and notes remote attendees before roll call",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 357.5,
+          "text": "I want to thank the following council members."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 360.2,
+          "text": "council staff for their work."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 362.1,
+          "text": "Certainly from this committee, Jahari Frazier, Eric Cohen, and Singer Hamid, and from my staff, Shula Puder and Cynthia Honig."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 370.5,
+          "text": "And I want to thank everybody else."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 371.9,
+          "text": "And now I'll turn it over to the clerk to call the roll."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 378.0,
+          "text": "Oh, and Council Member Wang is on Zoom."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 379.8,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 382.8,
+          "text": "Councilman Receivers is here too."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 387.1,
+          "text": "Mr."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 387.4,
+          "text": "Martin, we're ready for you."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 394.0,
+          "text": "Councilmember Stevens is also on Zoom."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 402.928,
+          "text": "And Councilmember Felice has just arrived in time for the vote."
+        }
+      ]
+    },
+    {
+      "end_sec": 580.36,
+      "id": "010",
+      "slug": "clerk-martin-conducts-roll-call-vote-on-both-coupled-bills",
+      "start_sec": 409.328,
+      "summary": "Committee Clerk William Martin calls the roll on both coupled items. Brewer votes aye, Dinowitz votes aye, Feliz votes aye, Stevens votes aye, Wilson votes aye, and Morano votes aye on 398 but no on the preconsidered compensation bill. Zhuang is present on Zoom but unable to vote due to technical difficulties.",
+      "title": "Clerk Martin conducts roll call vote on both coupled bills",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 409.328,
+          "text": "Thank you, Madam Chair."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 410.028,
+          "text": "William Martin, Committee Clerk, roll call vote."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 412.228,
+          "text": "Items are coupled."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 414.028,
+          "text": "Chair Brewer."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 415.228,
+          "text": "Yes."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 417.628,
+          "text": "Tino Witz."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 418.528,
+          "text": "Yes."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 420.528,
+          "text": "Feliz."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 421.728,
+          "text": "All right."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 422.028,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 424.228,
+          "text": "Stevens."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 426.428,
+          "text": "Aye, and all."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 427.328,
+          "text": "Thank you, Councilmember."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 429.328,
+          "text": "Zhuang."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 443.948,
+          "text": "I was going to join."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 444.548,
+          "text": "I'll come back."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 445.548,
+          "text": "Wilson."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 446.748,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 448.848,
+          "text": "Morano."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 450.148,
+          "text": "Aye on 398 and no on 2196."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 457.748,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 459.048,
+          "text": "Councilmember Zhuang."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 464.76,
+          "text": "One moment, please."
+        }
+      ]
+    },
+    {
+      "end_sec": 612.608,
+      "id": "011",
+      "slug": "both-bills-approved-intro-398-passes-6-0-compensation-bill-passes-5-1",
+      "start_sec": 580.36,
+      "summary": "Martin announces Intro 398 approved 6-0 with no abstentions, and the preconsidered compensation bill approved 5-1 with no abstentions. He notes Zhuang was logged on but could not vote due to technical issues. Chair Brewer closes the meeting.",
+      "title": "Both bills approved: Intro 398 passes 6-0, compensation bill passes 5-1",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 580.36,
+          "text": "Voters as follows."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 582.76,
+          "text": "Introduction 398 has been approved by the committee with a vote of six in the affirmative, zero in the negative, no abstentions."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 588.66,
+          "text": "And pre-considered introduction has been also approved by the committee with five in the affirmative, one in the negative, no abstentions."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 595.66,
+          "text": "Councilmember Zhuang was logged on and due to technical difficulties, unable to vote."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 602.36,
+          "text": "But she is present."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 603.96,
+          "text": "Madam Chair."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 605.16,
+          "text": "This meeting is closed."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 607.06,
+          "text": "Thank you."
+        }
+      ]
+    }
+  ],
+  "date": "2026-07-16",
+  "duration_sec": 612.608,
+  "slug": "2026-07-16-1030-am-committee-on-governmental-operations-state-federal-legislation",
+  "summary": [
+    "Committee on Governmental Operations votes on a preconsidered bill to increase elected official salaries by 18.2% retroactive to January 2026, codifying the Quadrennial Advisory Commission's recommendations.",
+    "Committee also votes on Intro 398, a technical fix to COIB financial disclosure value bands that became inconsistent after a February 2026 threshold update.",
+    "Both bills pass: Intro 398 passes 6-0, and the preconsidered compensation bill passes 5-1 with Council Member Morano voting no."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "10:30 AM",
+  "title": "Committee on Governmental Operations, State & Federal Legislation",
+  "topic": "Annual disclosure of financial interests by certain officers and employees of the city",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-2_260716-105848/video-web.mp4"
+  }
+}

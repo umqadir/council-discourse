@@ -1,0 +1,2396 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 29.8,
+      "id": "001",
+      "slug": "staff-opens-hearing-and-announces-housekeeping-rules",
+      "start_sec": 4.9,
+      "summary": "Council staff welcomes attendees to the Subcommittee on Landmarks, Public Sitings, Resiliency and Dispositions hearing, reminds the public to silence devices and contact Sergeant at Arms to testify.",
+      "title": "Staff opens hearing and announces housekeeping rules",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 4.9,
+          "text": "Good morning and welcome to the New York City Council Subcommittee hearing for Landmarks, Public Sitting, Resiliency, and Disposition."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 13.8,
+          "text": "At this time, please put all devices on silent."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 17.3,
+          "text": "If you wish to testify, please see one of the Sergeant of Arms."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 21.9,
+          "text": "At this time, no one should approach the day as chair."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 24.9,
+          "text": "You may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 69.9,
+      "id": "002",
+      "slug": "chair-marte-convenes-hearing-and-introduces-agenda",
+      "start_sec": 29.8,
+      "summary": "Councilmember Christopher Marte chairs the subcommittee, introduces colleagues, and announces the hybrid format with three landmark applications and one HPD application on the agenda.",
+      "title": "Chair Marte convenes hearing and introduces agenda",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 29.8,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 30.6,
+          "text": "Welcome to a meeting of the Subcommittee on Landmarks, Public Siting, Resiliency, and Dispositions."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 35.9,
+          "text": "I'm Councilmember Christopher-Marte, and I'm the chair of the subcommittee."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 39.1,
+          "text": "I'm joined today by my colleagues, Councilmember Wilson, Councilmember Ose, Councilmember De La Rosa."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 45.5,
+          "text": "Before we begin today's agenda, I will remind everyone that this meeting is being held in hybrid format."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 51.4,
+          "text": "For members of the public who wish to testify remotely, we ask that you first register online, and you may do so now by visiting www.council.nyc.gov"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 62.3,
+          "text": "slash land use to sign up, and then sign into the Zoom and remain signed on until you have testified."
+        }
+      ]
+    },
+    {
+      "end_sec": 131.5,
+      "id": "003",
+      "slug": "chair-marte-explains-public-testimony-procedures",
+      "start_sec": 69.9,
+      "summary": "Marte details how to register for remote testimony, submit written testimony via email, and reminds the public that decorum must be observed and no video or audio recordings are allowed as testimony.",
+      "title": "Chair Marte explains public testimony procedures",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 69.9,
+          "text": "For anyone with us here today in person and wishing to testify, if you have not already done so, please see one of the sergeant of arms to fill out a speaker card and we will call your name at the appropriate time."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 82.1,
+          "text": "For anyone wishing to submit written testimony on the items being heard today, we ask that you please send it via email to landusetestify.com."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 90.4,
+          "text": "at council.nyc.gov, including the LU number and or project name in the subject line of your email."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 98.3,
+          "text": "Video and audio testimony will not be accepted."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 101.5,
+          "text": "I remind members of the public that this is a governmental proceeding and that decorum shall be observed at all times."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 107.9,
+          "text": "As such, members of the public shall remain silent unless and until called to testify."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 113.4,
+          "text": "The witness table is reserved for people who wish to testify."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 116.7,
+          "text": "No video recording or photography is allowed from the witness table."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 120.3,
+          "text": "Further, members of the public may not present audio or video recording as testimony, but may submit transcript of such recordings to the sergeant for inclusion in the hearing record."
+        }
+      ]
+    },
+    {
+      "end_sec": 181.8,
+      "id": "004",
+      "slug": "chair-marte-opens-preconsidered-lu-hearing-for-511-west-171st-street-ancp-cluster",
+      "start_sec": 131.5,
+      "summary": "Marte opens the public hearing for the preconsidered LU by HPD for the 511 West 171st Street Cluster Project, describing the UDAP approval and 40-year Article XI tax exemption for rehabilitating three buildings with 50 units in Washington Heights.",
+      "title": "Chair Marte opens preconsidered LU hearing for 511 West 171st Street ANCP Cluster",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 131.5,
+          "text": "On today's agenda, we have a hearing on three landmarks application and one application by HPD."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 139.4,
+          "text": "I now open the public hearing for pre-considered LUs for an application by New York City Department of"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 146.6,
+          "text": "Housing and Preservation and Development for 511 West 171st Street Cluster Project for an Urban Development Action Area Project, UDAP, approval pursuant to the Section 691."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 160.5,
+          "text": "Of the general municipal law and the approval of a 40-year Article 11 tax exemption pursuant to Section 577 of the Private Housing Finance Law."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 171.8,
+          "text": "These actions will facilitate the rehabilitation of three buildings with 50 units in Washington Heights neighborhood of Manhattan and Councilmember De La Rosa."
+        }
+      ]
+    },
+    {
+      "end_sec": 223.5,
+      "id": "005",
+      "slug": "councilmember-de-la-rosa-expresses-support-for-511-west-171st-street-ancp-project",
+      "start_sec": 181.8,
+      "summary": "Councilmember Carmen De La Rosa strongly supports the application, explaining it will renovate three buildings with approximately 52 units, convert them to cooperative ownership, and provide affordable homeownership for existing tenants and 14 first-time buyers.",
+      "title": "Councilmember De La Rosa expresses support for 511 West 171st Street ANCP project",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 181.8,
+          "text": "I'm going to allow Councilmember De La Rosa to say a few words before we start with the panel."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 187.0,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 188.3,
+          "text": "I strongly support this application."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 190.5,
+          "text": "This project will renovate three buildings with approximately 52 units in total."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 194.7,
+          "text": "These units will convert to cooperative ownership."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 198.8,
+          "text": "There are 36 existing households and 14 will be first-time home ownership purchasing vacant units."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 205.4,
+          "text": "This project is sorely needed in a district like Mines."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 208.2,
+          "text": "This project will ensure affordable home ownership and will make sure that existing tenants are able to finally own their apartments."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 218.0,
+          "text": "And so I wanted to express my support for this project today."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 221.0,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 222.0,
+          "text": "Thank you, Council Member."
+        }
+      ]
+    },
+    {
+      "end_sec": 266.556,
+      "id": "006",
+      "slug": "chair-marte-introduces-hpd-panel-and-administers-affirmation",
+      "start_sec": 223.5,
+      "summary": "Marte introduces panelists Shams Al-Khafaji, Michael McCarthy, and Ariel Rawlings, and council staff administers the affirmation oath to the panelists.",
+      "title": "Chair Marte introduces HPD panel and administers affirmation",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 223.5,
+          "text": "Appearing today on this panel is Shams Al-Khafaji, Michael McCarthy, Ariel Rawlings."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 230.7,
+          "text": "Those wishing to testify remotely must register online by visiting Council website at council.nyc.gov."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 238.8,
+          "text": "Panelists, please ensure that your microphone is on."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 242.1,
+          "text": "Council, will you please administer the affirmation?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 245.7,
+          "text": "Panelists, would you please raise your right hand and state your name for the record?"
+        },
+        {
+          "speaker": "Arielle Rawlings",
+          "t_sec": 250.3,
+          "text": "Arielle Rawlings."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 251.9,
+          "text": "Shams Al-Khafaji."
+        },
+        {
+          "speaker": "Michael McCarthy",
+          "t_sec": 253.6,
+          "text": "Michael McCarthy."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 254.6,
+          "text": "And do you affirm to tell the truth, the whole truth, and nothing but the truth in your testimony before this subcommittee and in answer to all council member questions?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 264.356,
+          "text": "Awesome."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 264.656,
+          "text": "You may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 358.256,
+      "id": "007",
+      "slug": "hpd-s-shams-al-khafaji-presents-511-west-171st-street-ancp-cluster-overview",
+      "start_sec": 266.556,
+      "summary": "Al-Khafaji introduces the project to rehabilitate three buildings in Washington Heights under HPD's ANCP program, covering the sponsor, construction lender, unit count, and sales prices for existing and vacant units.",
+      "title": "HPD's Shams Al-Khafaji presents 511 West 171st Street ANCP Cluster overview",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 266.556,
+          "text": "Hi, everyone."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 269.656,
+          "text": "My name is Shamsal Ghaffaji and I am a senior project manager with HPD's Affordable Neighborhood Cooperative Program, or ANCP."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 276.756,
+          "text": "First, I would like to thank the Subcommittee on Landmarks, Public Sightings, and Resiliency and Dispositions for your time today."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 283.556,
+          "text": "This morning, I will be speaking on 511 West 171st Street Cluster, which is a proposal to rehabilitate three buildings in Washington Heights under HPD's ANCP."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 293.456,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 295.356,
+          "text": "This project comprises of three buildings, 511 West 171st Street, 522 West 174th Street, and 501 West 174th Street."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 303.356,
+          "text": "The project sponsors Lemley and Wolfe Companies."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 306.456,
+          "text": "The construction lender is Low Income Investment Fund, or LIF."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 309.956,
+          "text": "There are 50 units total in these buildings, 36 of which are occupied or existing households, and 14 are vacant and will be first-time homebuyers."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 318.856,
+          "text": "The sales prices for the existing residents will be $2,500 or $250 for qualifying residents who earn under 80% of the area median income, or AMI."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 329.956,
+          "text": "The sales prices for the vacant units will be affordable to 80% AMI households."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 334.656,
+          "text": "The monthly maintenance is set per square foot so that the building income will cover at least 105% of the projected building expenses."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 342.356,
+          "text": "The expected closing date for this project is September 2026."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 345.956,
+          "text": "And here you'll see a breakdown of the post-rehab unit sizes, where there will be three one-bedrooms, 14 two-bedrooms."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 352.456,
+          "text": "and 33 three bedrooms."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 354.456,
+          "text": "Next slide, please."
+        }
+      ]
+    },
+    {
+      "end_sec": 425.056,
+      "id": "008",
+      "slug": "al-khafaji-explains-ancp-program-structure-and-co-op-conversion-requirements",
+      "start_sec": 358.256,
+      "summary": "Al-Khafaji describes the collaboration between sponsor and HPD, the role of Restoring Communities HDFC as temporary owner during construction, and the requirements for co-op conversion including training attendance and purchase participation thresholds.",
+      "title": "Al-Khafaji explains ANCP program structure and co-op conversion requirements",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 358.256,
+          "text": "The purpose of this program is to gut renovate the tenant interim lease or till buildings and to enable the 36 existing households to become homeowners."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 366.656,
+          "text": "The structure of this program will be a collaboration between a sponsor, Lumley and Wolf, of whom we have Mike McCarthy today, partnering with HPD."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 375.256,
+          "text": "The sponsor will manage the building during construction and throughout the conversion process."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 380.056,
+          "text": "During construction, the nonprofit Restoring Communities HDFC will own the building to prevent any potential conflicts of interest with the sponsor."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 387.256,
+          "text": "Upon conversion, the building will be owned and managed by the residents of the buildings, including the existing residents and the new purchasers of the currently vacant units."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 397.456,
+          "text": "The requirements for the buildings to convert to co-ops are to have 80% of existing residents attend to at least eight co-op success trainings, which will be provided during the construction period."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 407.756,
+          "text": "80% of existing residents must also remain current on their rent payments."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 411.856,
+          "text": "And lastly, 80% of the existing residents must choose to purchase their units at co-op conversion."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 417.556,
+          "text": "Any buildings that do not convert will become rent-stabilized rental buildings post-rehab."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 422.656,
+          "text": "Next slide, please."
+        }
+      ]
+    },
+    {
+      "end_sec": 472.056,
+      "id": "009",
+      "slug": "al-khafaji-details-affordability-framework-and-sales-prices-for-existing-and-new-residents",
+      "start_sec": 425.056,
+      "summary": "Al-Khafaji explains that existing tenants earning under 80% AMI pay $250 to purchase units, those above 80% AMI pay $2,500, and vacant unit prices are set affordable to 80% AMI with mortgage plus maintenance capped at one-third of income.",
+      "title": "Al-Khafaji details affordability framework and sales prices for existing and new residents",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 425.056,
+          "text": "To speak on the affordability of these units, existing tenants will pay $250 if they are earning up to 80% of the area median income."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 433.356,
+          "text": "Residents that earn more than 80% of the area median income will pay $2,500 to purchase their converted units."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 440.956,
+          "text": "Existing residents will not"
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 442.356,
+          "text": "obtain any personal mortgages for the purchase of their units."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 446.356,
+          "text": "For the 14 new purchasers of the currently vacant units, purchase prices will be set affordable to 80% of the area median income."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 454.756,
+          "text": "These prices are set so that the purchaser's personal mortgages plus monthly maintenance plus utilities will not exceed roughly one-third of their income to remain affordable."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 464.356,
+          "text": "The area median income for a family of three in 2026 is shown here on the slides."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 469.556,
+          "text": "Next slide, please."
+        }
+      ]
+    },
+    {
+      "end_sec": 515.388,
+      "id": "010",
+      "slug": "al-khafaji-covers-rent-restructuring-and-monthly-maintenance-costs",
+      "start_sec": 472.056,
+      "summary": "Al-Khafaji explains that current TIL rents are insufficient, the ANCP rent restructuring ensures no tenant pays more than 30% of income, and details building expense categories and required 2% annual maintenance increases.",
+      "title": "Al-Khafaji covers rent restructuring and monthly maintenance costs",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 472.056,
+          "text": "The till rents that residents are currently paying do not produce enough income to maintain the buildings."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 477.556,
+          "text": "The monthly cost through ANCP will change through a rent restructuring process, ensuring that no tenant pays more than 30% of their income at that point of conversion."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 487.956,
+          "text": "The expenses required to maintain a building include building insurance, heat and hot water, electric and public areas, maintenance staff salaries, sewer, accountant and legal, extermination, minor repairs, just to name a few."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 501.356,
+          "text": "The shareholders will collectively decide how much they would like to increase the maintenance biannually, but there is a required 2% increase per year per the ASCP term sheet."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 511.256,
+          "text": "Next slide, please."
+        }
+      ]
+    },
+    {
+      "end_sec": 581.58,
+      "id": "011",
+      "slug": "al-khafaji-describes-section-8-voucher-subsidies-and-monthly-payment-examples",
+      "start_sec": 515.388,
+      "summary": "Al-Khafaji explains that qualifying residents receive Section 8 vouchers to cap housing costs at 30% of income, with an example showing a $20,000-income household paying $500 of a $1,138 monthly maintenance for a one-bedroom unit.",
+      "title": "Al-Khafaji describes Section 8 voucher subsidies and monthly payment examples",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 515.388,
+          "text": "Any qualifying residents will receive Section 8 vouchers to ensure that they do not pay more than 30% of their total income on housing costs."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 523.588,
+          "text": "The voucher will subsidize the difference between the resident's share, which is 30%, and the maintenance fee."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 529.088,
+          "text": "Households that earn more than 40% AMI, the initial maintenance is set so that maintenance prices plus utilities do not exceed roughly one-third of their income."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 537.688,
+          "text": "There are some estimates below on the slide of what monthly maintenance may look like at conversion, but these are just estimates again."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 544.888,
+          "text": "Exact costs will be set closer to actual conversion date."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 549.088,
+          "text": "But just to ensure, no one will pay more than 30% of their income."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 553.288,
+          "text": "You'll see on the slide an example of the total monthly payments for a household in ANCP with an income of $20,000."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 559.988,
+          "text": "The total maintenance for one bedroom is roughly $1,138 to cover 105% of building expenses."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 567.388,
+          "text": "The shareholder would only pay $500, which is 30% of their income, and the voucher would then subsidize the maintenance with $638."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 577.988,
+          "text": "Next slide, please."
+        }
+      ]
+    },
+    {
+      "end_sec": 649.072,
+      "id": "012",
+      "slug": "al-khafaji-outlines-rehabilitation-scope-and-relocation-plan",
+      "start_sec": 581.58,
+      "summary": "Al-Khafaji details the construction work including new building systems, electrification, roof and window repairs, accessibility features, and explains that residents are relocated for 24-30 months with the project budget covering moving costs.",
+      "title": "Al-Khafaji outlines rehabilitation scope and relocation plan",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 581.58,
+          "text": "Typical project costs are included in the rehabilitation work are introducing new building systems, which include low carbon electrical and heating systems, new water and gas lines, and new electrification scopes through NYSERDA."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 595.28,
+          "text": "Costs also go to the repair of roofs, the roof, windows, modernizing security, legalizing the unit layouts, and bringing the buildings up to code."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 605.58,
+          "text": "Introducing new improved accessibility features, including accessible showers, wheelchair accessibility within the units."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 612.68,
+          "text": "Also noting that all of the residents in these buildings have seen and most have signed off on their units layouts."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 618.78,
+          "text": "These costs and repairs are made to ensure that buildings are in the best condition to transfer ownership to the residents."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 625.38,
+          "text": "Lastly, residents are typically relocated during the construction period, which is approximately 24 to 30 months, which the project budget covers the difference between the current amount they pay, which is the till rents, and the relocation rents and till conversion."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 638.38,
+          "text": "Project budget also covers every other cost related to moving, like boxes, movers, tape, storage, etc."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 644.58,
+          "text": "Next slide, please."
+        }
+      ]
+    },
+    {
+      "end_sec": 731.148,
+      "id": "013",
+      "slug": "al-khafaji-explains-financing-structure-and-article-xi-tax-exemption",
+      "start_sec": 649.072,
+      "summary": "Al-Khafaji describes the city capital loan of $500,000-$700,000 per unit, zero debt payments for 40 years tied to the Article XI tax exemption, subsidized acquisition cost of $1 per building, and additional grants from NYSERDA and other state programs.",
+      "title": "Al-Khafaji explains financing structure and Article XI tax exemption",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 649.072,
+          "text": "Typical financing for co-op projects is majority paid for through a city capital loan, which will be provided in the amount of $500,000 to $700,000 per unit."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 658.972,
+          "text": "There will be zero debt payments and zero dollar interest payments for 40 years tied to the Article 11 property tax exemption."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 665.772,
+          "text": "And the first loan payment will be due to the city after 40 years, only if the co-op chooses to exit affordability."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 671.672,
+          "text": "If the co-op chooses to stay under the regulatory agreement, then there will be no loan payment due and zero dollar debt payments."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 678.372,
+          "text": "HPD's loan does not impact the maintenance fee amount because, as discussed earlier, the maintenance fee amount has been set to cover the building expenses and to add an affordability metric."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 688.072,
+          "text": "The subsidized acquisition cost of $1 per building, because the buildings are currently city-owned, also brings down total development costs significantly."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 697.972,
+          "text": "This project is also receiving funding through New York State Grant Affordable Housing Corporation, or AHC, which will not be repaid."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 705.372,
+          "text": "Sales proceeds from both the occupied units, but primarily from the vacant units, will help provide funds to help finance the project."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 712.872,
+          "text": "And lastly, the New York State Energy Research and Development Authority, or NYSERDA, Clean Edison, or Con Edison Clean Heat, and New York State Community Controlled Affordable Housing, which are all grants provided by the state, which are not repaid."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 726.072,
+          "text": "Next slide, please."
+        }
+      ]
+    },
+    {
+      "end_sec": 770.168,
+      "id": "014",
+      "slug": "al-khafaji-presents-shared-equity-model-and-homeowner-wealth-building",
+      "start_sec": 731.148,
+      "summary": "Al-Khafaji shows a chart of estimated equity from selling a two-bedroom unit, with $32,000 after one year and $152,000 after ten years, explaining the shared equity system balances wealth building with permanent affordability.",
+      "title": "Al-Khafaji presents shared equity model and homeowner wealth building",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 731.148,
+          "text": "Residents will have the opportunity to build equity in this process."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 734.248,
+          "text": "Shown here on the slides is a chart that is the estimated equity a homeowner would earn from selling their two-bedroom unit at differing points of the conversion."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 742.548,
+          "text": "Selling after one year would earn them approximately $32,000, as 95% of the profit would go back to the cooperative, whereas selling after 10 years would earn them $152,000, where 20% of the profit will go back to the cooperative."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 757.348,
+          "text": "Ultimately, the goal of this shared equity system is to build wealth."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 760.948,
+          "text": "To balance wealth building for shareholders and their heirs with permanent affordability for the community."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 766.048,
+          "text": "Next slide, please."
+        }
+      ]
+    },
+    {
+      "end_sec": 854.268,
+      "id": "015",
+      "slug": "al-khafaji-reviews-development-timeline-and-conversion-process",
+      "start_sec": 770.168,
+      "summary": "Al-Khafaji outlines the project timeline from pre-development through construction and conversion, including 94% tenant sign-off on layouts, relocation by fall 2026, 24-30 month construction, and 9-12 month marketing and conversion process.",
+      "title": "Al-Khafaji reviews development timeline and conversion process",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 770.168,
+          "text": "For the development timeline for this project, the sponsor designation process has already occurred."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 774.568,
+          "text": "As previously mentioned, Lemley and Wolf has been designated."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 777.668,
+          "text": "We're currently in the pre-development phase."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 779.668,
+          "text": "We've had continuous tenant engagement."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 781.768,
+          "text": "Scope of work has been determined."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 783.268,
+          "text": "Budget and financing are currently in the works."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 785.568,
+          "text": "We have 94% tenant sign-off on layouts, and we plan to obtain 100% in the coming weeks."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 790.968,
+          "text": "And we plan to have all tenants relocated by fall of 2026."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 794.668,
+          "text": "We're anticipating that construction will take between 24 and 30 months."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 798.568,
+          "text": "During that period,"
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 800.268,
+          "text": "The deed of the buildings will be transferred from the city to restoring communities, the temporary owner of the buildings."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 805.368,
+          "text": "Then the construction loan will close and construction will begin as soon as the tenants are relocated."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 810.568,
+          "text": "Tenants will attend the previously mentioned co-op homeownership trainings and then the sponsor will engage an attorney to create an offering plan, which is what allows us to convert to co-op at the end of construction."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 819.968,
+          "text": "After construction finishes, we anticipate it will take between 9 to 12 months to go through the marketing conversion process so that the tenants can be moved back to the building as soon as it's ready."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 829.768,
+          "text": "Marketing for the vacant units will begin."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 832.368,
+          "text": "The buildings will convert to co-op once those units are being marketed and have signed purchasers, and the deed will be transferred to the co-op, and then the construction loan will be paid off at that co-op conversion point by permanent financing."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 844.668,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 847.168,
+          "text": "And here I'll pass it off to Mike McCarthy of Lemley& Wolfe to speak about their organization's experience."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 852.468,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 898.348,
+      "id": "016",
+      "slug": "michael-mccarthy-introduces-lemley-wolfe-s-affordable-housing-experience",
+      "start_sec": 854.268,
+      "summary": "McCarthy describes Lemley & Wolfe's 88-year history managing and developing affordable housing, their second ANCP project, and commitment to homeownership opportunities for New Yorkers.",
+      "title": "Michael McCarthy introduces Lemley & Wolfe's affordable housing experience",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Michael McCarthy",
+          "t_sec": 854.268,
+          "text": "Hi."
+        },
+        {
+          "speaker": "Michael McCarthy",
+          "t_sec": 855.168,
+          "text": "Lemley& Wolfe has been in business for the last..."
+        },
+        {
+          "speaker": "Michael McCarthy",
+          "t_sec": 857.568,
+          "text": "Just 88 years we've been managing, developing, and building affordable housing, starting in Upper Manhattan and the Bronx, and now we have a footprint throughout the city."
+        },
+        {
+          "speaker": "Michael McCarthy",
+          "t_sec": 868.968,
+          "text": "This is our second ANCP project, and we're working on the third one with Shams and her team."
+        },
+        {
+          "speaker": "Michael McCarthy",
+          "t_sec": 875.668,
+          "text": "And we've also developed other homeownership projects under the Open Door program."
+        },
+        {
+          "speaker": "Michael McCarthy",
+          "t_sec": 881.368,
+          "text": "So we're very familiar with HPD's homeownership projects, and we're very committed to homeownership opportunities for New Yorkers."
+        },
+        {
+          "speaker": "Shams Al-Khafaji",
+          "t_sec": 894.048,
+          "text": "And you can go to the next slide for contact info, but that's all."
+        }
+      ]
+    },
+    {
+      "end_sec": 967.312,
+      "id": "017",
+      "slug": "chair-marte-closes-preconsidered-lu-hearing-and-lays-over-items",
+      "start_sec": 898.348,
+      "summary": "Marte thanks the panel, confirms no questions from colleagues, excuses the panel, and calls for any remaining public testimony before closing the joint public hearing and laying over the 511 West 171st Street items.",
+      "title": "Chair Marte closes preconsidered LU hearing and lays over items",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 898.348,
+          "text": "Well, thank you so much for the presentation."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 900.948,
+          "text": "Any of my colleagues have questions?"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 904.348,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 905.248,
+          "text": "Well, I want to say thank you, and the panel is excused."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 920.948,
+          "text": "If there are any remote public participants who wish to testify and have not already done so, please press raise hand button now."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 928.348,
+          "text": "And if you are here with us in person, please see one of the sergeant of arms to first fill out a speaker card."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 935.848,
+          "text": "Guessing no one's here."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 938.248,
+          "text": "Since there are no other members of the public who wish to testify regarding pre-consider LU"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 944.248,
+          "text": "for the 5511 West 171st Street Cluster Project, the joint public hearing is now closed and the items are laid over."
+        }
+      ]
+    },
+    {
+      "end_sec": 1002.112,
+      "id": "018",
+      "slug": "chair-marte-opens-joint-public-hearing-for-three-landmark-designation-applications",
+      "start_sec": 967.312,
+      "summary": "Marte opens the hearing for LUs 91, 92, and 93 by the Landmarks Preservation Commission for landmarking PS 15 Annex in Brooklyn, Church of St. Mary on the Lower East Side, and the Lithuanian Alliance Building in Chelsea.",
+      "title": "Chair Marte opens joint public hearing for three landmark designation applications",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 967.312,
+          "text": "I now open a joint public hearing for LUs 91, 92, and 93 by the Landmarks Preservation Commission for a three application for landmarking three individual landmarks."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 978.412,
+          "text": "LU 91 is for the landmarking of PS 15 Annex in Councilmember's Wrestler's District in downtown Brooklyn."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 986.512,
+          "text": "LU 92."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 988.212,
+          "text": "For the landmarking of the Church of St."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 990.212,
+          "text": "Mary in my district on the Lower East Side of Manhattan, LU 93 for the landmarking of the Lithuanian Alliance in Councilmember Wilson's district in Chelsea's neighborhood of Manhattan."
+        }
+      ]
+    },
+    {
+      "end_sec": 1043.712,
+      "id": "019",
+      "slug": "chair-marte-introduces-lpc-panel-and-administers-affirmation",
+      "start_sec": 1002.112,
+      "summary": "Marte introduces LPC panelists Stephen Thomson and Margaret Herman, and council staff administers the affirmation oath.",
+      "title": "Chair Marte introduces LPC panel and administers affirmation",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1002.112,
+          "text": "Appearing today on this proposal are Stephen Thomas and Margaret Herman."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1008.512,
+          "text": "Those wishing to testify remotely must register online by visiting the council website at council.nyc.gov slash land use."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1017.212,
+          "text": "Panelists, please ensure that your microphones are on."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1020.612,
+          "text": "Council, would you please administer the affirmation?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1026.312,
+          "text": "Panelists, would you please raise your right hand and state your name for the record?"
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1030.012,
+          "text": "Margaret Herman."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1031.312,
+          "text": "Stephen Thompson."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1032.212,
+          "text": "And do you affirm to tell the truth, the whole truth, and nothing but the truth in your testimony before the subcommittee and in answer to all council member questions?"
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1039.812,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Steven Thomson",
+          "t_sec": 1040.712,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Steven Thomson",
+          "t_sec": 1043.212,
+          "text": "I guess before."
+        }
+      ]
+    },
+    {
+      "end_sec": 1112.44,
+      "id": "020",
+      "slug": "councilmember-wilson-supports-lithuanian-alliance-building-landmark-designation",
+      "start_sec": 1043.712,
+      "summary": "Councilmember Wilson delivers remarks in support of the Lithuanian Alliance Building landmark, highlighting its over 100-year role helping Lithuanian immigrants and its continued cultural significance, closing with Lithuanian phrases.",
+      "title": "Councilmember Wilson supports Lithuanian Alliance Building landmark designation",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1043.712,
+          "text": "Before we begin, I know Councilmember Wilson would like to say a statement."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1048.712,
+          "text": "Sveki vesi."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1050.612,
+          "text": "My Lithuanian is a little rusty, but I'm told that means greetings to all."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1056.112,
+          "text": "I'm proud to support the historic landmark designation of the Lithuanian Alliance building."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1061.112,
+          "text": "For over 100 years, the Lithuanian Alliance has used this building as a base to help fellow immigrants from Lithuania settle into life in the United States and to enrich the city with Lithuanian culture, thought, and heritage."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1073.912,
+          "text": "The work continues today as the Alliance preserves and shares Lithuanian cultural heritage."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1080.012,
+          "text": "The building is a touchstone in the history of immigration to New York City and a model for the future as our city becomes more pluralistic and strives to be more equitable."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1089.212,
+          "text": "I hope my colleagues will join me in supporting this designation."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1094.112,
+          "text": "Sveski me kartu."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1095.912,
+          "text": "How's that?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1097.412,
+          "text": "Okay."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1098.212,
+          "text": "That means let's celebrate together."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1100.212,
+          "text": "Sounds great to me."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1100.812,
+          "text": "Very good."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1101.312,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1102.712,
+          "text": "All right."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1103.312,
+          "text": "Well, thank you, Councilmember Wilson."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1105.512,
+          "text": "And we'll allow the panelists to begin."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1107.912,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 1170.364,
+      "id": "021",
+      "slug": "lpc-s-margaret-herman-introduces-three-landmark-designations",
+      "start_sec": 1112.44,
+      "summary": "Herman, Director of Research at LPC, introduces the three designations as architecturally and culturally significant, noting strong public support at March hearings and acknowledging Chair Marte's testimony in support of St. Mary's.",
+      "title": "LPC's Margaret Herman introduces three landmark designations",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1112.44,
+          "text": "Good morning, Chair Marte and subcommittee members."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1114.14,
+          "text": "My name is Margaret Herman, Director of Research at the Landmarks Preservation Commission."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1117.54,
+          "text": "Thank you for the opportunity to present our three recent individual landmark designations, the Church of St."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1122.54,
+          "text": "Mary, the Lithuanian Alliance Building, and Public School 15 Annex."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1126.84,
+          "text": "All three of these designations are architecturally significant,"
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1130.24,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1131.14,
+          "text": "And culturally significant, relating to the immigration history of New York City."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1134.64,
+          "text": "The designations fulfill LPC's goals of equity by helping to tell the story of all New Yorkers."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1139.74,
+          "text": "We were delighted to receive so much support for all three of these designations at the public hearings in March."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1145.04,
+          "text": "For St."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1145.34,
+          "text": "Mary's in particular, we were especially pleased about Chair Marte's testimony in support of the designation."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1150.54,
+          "text": "We received testimony with strong support from the owners of the Lithuanian Alliance and PS15 Annex, as well as a variety of preservation advocacy groups, including the Landmarks Conservancy, Historic Districts Council, the Lower East Side Preservation Initiative, the Borum Hill Association,"
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1163.84,
+          "text": "and others, and many members of the public."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1167.64,
+          "text": "Next slide."
+        }
+      ]
+    },
+    {
+      "end_sec": 1214.116,
+      "id": "022",
+      "slug": "herman-presents-church-of-st-mary-history-and-irish-immigrant-significance",
+      "start_sec": 1170.364,
+      "summary": "Herman describes the Church of St. Mary as Manhattan's third oldest Catholic parish, founded in 1826 for Irish immigrants, completed in 1833, and redesigned in 1864 by architect Patrick Charles Keeley with a Romanesque Revival facade.",
+      "title": "Herman presents Church of St. Mary history and Irish immigrant significance",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1170.364,
+          "text": "Starting with the Church of St."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1171.364,
+          "text": "Mary."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1172.064,
+          "text": "The Church of St."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1172.664,
+          "text": "Mary is the home of Manhattan's third oldest Catholic parish."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1175.564,
+          "text": "It was founded in 1826 to serve the rapidly growing Irish immigrant population of the Lower East Side."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1180.764,
+          "text": "And today it remains an important center of Catholic immigrant life in the community."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1184.664,
+          "text": "The building was completed in 1833, making it the second oldest existing Catholic church building in Manhattan."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1190.564,
+          "text": "Originally adorned with a Greek revival facade, prolific Irish-American architect of Catholic churches, Patrick Charles Keeley, designed its current Romanesque revival facade and towers in 1864."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1200.764,
+          "text": "Next slide."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1205.016,
+          "text": "The church is located at 440 Grand Street between Clinton and Pitt Streets, and the landmark site is the tax lot."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1210.416,
+          "text": "Next slide, please."
+        }
+      ]
+    },
+    {
+      "end_sec": 1245.84,
+      "id": "023",
+      "slug": "herman-details-anti-catholic-discrimination-and-st-mary-s-original-construction",
+      "start_sec": 1214.116,
+      "summary": "Herman explains the history of anti-Catholic discrimination against Irish immigrants, the 1784 repeal of the priest prohibition, and the 1832 construction of the first purpose-built Catholic church on the Lower East Side with fieldstone facades and Greek Revival design.",
+      "title": "Herman details anti-Catholic discrimination and St. Mary's original construction",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1214.116,
+          "text": "Since the colonial period, Irish immigrants to New York faced anti-Catholic discrimination and violence, including a prohibition of Catholic priests that persisted beyond American independence."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1223.216,
+          "text": "The repeal of this law in 1784 cleared the way for the open practice of Catholicism in New York State, with St."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1228.516,
+          "text": "Mary's established in 1826."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1230.816,
+          "text": "In 1832, the parish began construction of the first purpose-built Roman Catholic church on Manhattan's Lower East Side."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1236.716,
+          "text": "The church was built with fieldstone side facades and a monumental Greek Revival primary facade."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1241.816,
+          "text": "Next slide."
+        }
+      ]
+    },
+    {
+      "end_sec": 1295.492,
+      "id": "024",
+      "slug": "herman-describes-keeley-s-romanesque-revival-facade-redesign-for-st-mary-s",
+      "start_sec": 1245.84,
+      "summary": "Herman details architect Patrick Charles Keeley's career designing nearly 600 churches, his 1864 expansion of St. Mary's, and the Romanesque Revival facade with double towers in red brick and brownstone, noting it is Keeley's first NYC individual landmark.",
+      "title": "Herman describes Keeley's Romanesque Revival facade redesign for St. Mary's",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1245.84,
+          "text": "The parish thrived and in 1864 engaged Irish-born architect Patrick Charles Keeley to expand the church and update its facade."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1252.34,
+          "text": "Over the course of his career, Keeley designed nearly 600 churches in the United States."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1256.54,
+          "text": "St."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1256.74,
+          "text": "Mary's is the first individual New York City landmark designed by Keeley."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1260.84,
+          "text": "Next slide."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1265.24,
+          "text": "Keely's facade design for St."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1266.44,
+          "text": "Mary's, dominated by double towers, is executed in red brick with handsome brownstone details."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1270.94,
+          "text": "The church is a striking example of Romanesque revival architecture using the rounded arches that define the style."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1278.692,
+          "text": "Next slide."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1281.992,
+          "text": "The image on the right shows St."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1283.192,
+          "text": "Mary's looking from the rear along the now-gone Ridge Street."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1286.292,
+          "text": "While the front facade was remade, the fieldstone side facades from the Greek Revival-style original construction remain."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1291.992,
+          "text": "Next slide, please."
+        }
+      ]
+    },
+    {
+      "end_sec": 1339.116,
+      "id": "025",
+      "slug": "herman-covers-mid-20th-century-neighborhood-changes-and-grand-street-guild",
+      "start_sec": 1295.492,
+      "summary": "Herman describes how urban renewal transformed the block around St. Mary's, the church's 1960s partnership with HUD to build affordable housing through the Grand Street Guild, and the resulting demapping of Ridge Street and creation of community space.",
+      "title": "Herman covers mid-20th century neighborhood changes and Grand Street Guild",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1295.492,
+          "text": "The block surrounding the church changed dramatically over the course of the mid-20th century as smaller tenements and mixed-use structures gave way to high-rise residential buildings during the era of urban renewal."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1305.092,
+          "text": "In the 1960s, St."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1306.192,
+          "text": "Mary's partnered with the Department of Housing and Urban Development to establish the Grand Street Guild, an organization dedicated to building affordable housing in the neighborhood."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1314.092,
+          "text": "One of these buildings was built just to the east of St."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1315.992,
+          "text": "Mary's, resulting in the demapping of Ridge Street and the creation of a pedestrian path and community space, pictured at the right."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1322.092,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1325.316,
+          "text": "In its early history, the Church of St."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1326.816,
+          "text": "Mary was central to the lives of many of the earliest Catholics who came to New York from Ireland."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1331.416,
+          "text": "It continues to be an important community institution to more recent Catholic immigrants, including the many from Spanish-speaking communities who make up the parish today."
+        }
+      ]
+    },
+    {
+      "end_sec": 1357.42,
+      "id": "026",
+      "slug": "herman-summarizes-st-mary-s-ongoing-immigrant-community-significance",
+      "start_sec": 1339.116,
+      "summary": "Herman concludes the St. Mary's presentation, noting its continued importance to Catholic immigrants including Spanish-speaking communities today, and its embodiment of two centuries of immigrant history on the Lower East Side.",
+      "title": "Herman summarizes St. Mary's ongoing immigrant community significance",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1339.116,
+          "text": "Next slide."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1342.816,
+          "text": "The Church of St."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1343.416,
+          "text": "Mary embodies two centuries of the history and diversity of immigrants on the Lower East Side of Manhattan, and it remains an important reminder of the neighborhood's early development."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1352.116,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1353.316,
+          "text": "Next slide."
+        }
+      ]
+    },
+    {
+      "end_sec": 1397.564,
+      "id": "027",
+      "slug": "herman-introduces-lithuanian-alliance-building-in-chelsea",
+      "start_sec": 1357.42,
+      "summary": "Herman presents the Lithuanian Alliance Building as an example of Chelsea's 19th century residential fabric, constructed 1876-1877 in neo-Grec style, purchased by the Lithuanian Alliance in 1910 and still operating there today.",
+      "title": "Herman introduces Lithuanian Alliance Building in Chelsea",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1357.42,
+          "text": "So now I'll move on to the Lithuanian Alliance building in Manhattan."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1362.72,
+          "text": "Next slide."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1366.42,
+          "text": "Located in the northern area of Chelsea, the Lithuanian Alliance building is an example of the neighborhood's handsome 19th century residential fabric and has important cultural significance due to the Lithuanian Alliance being headquartered in the building for more than 100 years."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1378.72,
+          "text": "The neo-Grec style building was constructed between 1876 and 1877 and was purchased in 1910 by the Lithuanian Alliance, which still owns the building and operates there today."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1388.32,
+          "text": "Next slide."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1391.264,
+          "text": "The building is located on the north side of West 30th Street, just west of 8th Avenue, and the landmark site is the tax lot."
+        }
+      ]
+    },
+    {
+      "end_sec": 1451.512,
+      "id": "028",
+      "slug": "herman-details-lithuanian-alliance-s-founding-and-immigrant-support-role",
+      "start_sec": 1397.564,
+      "summary": "Herman describes the Lithuanian Alliance's 1886 establishment, its purchase of the building in 1910, and its role providing insurance, health benefits, loans, and cultural preservation for Lithuanian immigrants, with about 15,000 Lithuanians in New York and New Jersey by 1904.",
+      "title": "Herman details Lithuanian Alliance's founding and immigrant support role",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1397.564,
+          "text": "Next slide."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1401.464,
+          "text": "The Lithuanian Alliance building can be seen just under the red arrow on the photo at the right."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1405.964,
+          "text": "Developers Samuel J."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1406.964,
+          "text": "And Edward E."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1407.564,
+          "text": "Ashley bought the lot in 1867 and in 1876 filed plans for a four-family dwelling."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1413.264,
+          "text": "Next slide."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1416.364,
+          "text": "The Lithuanian Alliance was established in 1886, and the organization bought this building in 1910."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1421.664,
+          "text": "Fraternal alliances such as the Lithuanian Alliance were set up to help fellow immigrants weather the difficulties of life in the United States, offering material aid like insurance policies, health benefits, loans, and loans, as well as seeking to preserve and propagate Lithuanian cultural heritage."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1436.264,
+          "text": "Lithuanians have a long history in the United States, with an influx of immigrants starting in the late 19th century."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1441.964,
+          "text": "By 1904, there were roughly 15,000 Lithuanians in New York and New Jersey."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1446.464,
+          "text": "Next slide."
+        }
+      ]
+    },
+    {
+      "end_sec": 1488.888,
+      "id": "029",
+      "slug": "herman-discusses-lithuanian-newspaper-and-1976-facade-alterations",
+      "start_sec": 1451.512,
+      "summary": "Herman explains the Alliance's Lithuanian-language newspaper Tavin operating from the building's basement, and describes the 1976 modernization that painted the facade white and added metal panels, later removed in 2018 to restore the building's original appearance.",
+      "title": "Herman discusses Lithuanian newspaper and 1976 facade alterations",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1451.512,
+          "text": "In addition to its other activities, the Alliance also established the Lithuanian language paper, Tavin."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1456.512,
+          "text": "Around the time the Alliance purchased 307 West 30th Street, the paper began operating out of the basement of the building and was published weekly."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1463.212,
+          "text": "Next slide."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1468.312,
+          "text": "The building was altered in 1976 as part of a modernization plan that involved painting the facade white and adding metal panels at the ground level."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1474.712,
+          "text": "But under the guidance of a preservation architect, the Lithuanian Alliance removed these panels in 2018 and restored the historic features, restoring the appearance of the building as it was first constructed."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1484.612,
+          "text": "Next slide."
+        }
+      ]
+    },
+    {
+      "end_sec": 1513.488,
+      "id": "030",
+      "slug": "herman-summarizes-lithuanian-alliance-building-s-cultural-significance",
+      "start_sec": 1488.888,
+      "summary": "Herman concludes the Lithuanian Alliance Building presentation, emphasizing its role aiding immigrants from Ellis Island onward and its continued function as a hub of Lithuanian culture for over a century.",
+      "title": "Herman summarizes Lithuanian Alliance Building's cultural significance",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1488.888,
+          "text": "The Lithuanian Alliance building exemplifies the important history of Lithuanian Americans in New York City."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1494.188,
+          "text": "The Lithuanian Alliance played an essential role in aiding immigrants, ranging from those recently arrived at Ellis Island to those with a longer tenure in the country."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1501.088,
+          "text": "And for over a century, the Lithuanian Alliance has been located at this building, and it continues to be a hub of Lithuanian culture to this day."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1509.388,
+          "text": "Next slide."
+        }
+      ]
+    },
+    {
+      "end_sec": 1552.088,
+      "id": "031",
+      "slug": "herman-introduces-ps-15-annex-and-architect-james-naughton",
+      "start_sec": 1513.488,
+      "summary": "Herman presents PS 15 Annex as a distinctive design by James Naughton, Brooklyn's prolific superintendent of school buildings, noting its later role as headquarters of the Brooklyn Girls Continuation School.",
+      "title": "Herman introduces PS 15 Annex and architect James Naughton",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1513.488,
+          "text": "And finally, I'll present Public School 15 Annex in Brooklyn."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1516.688,
+          "text": "Next slide."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1521.152,
+          "text": "The Public School 15 Annex represents a distinctive design by James Naughton, the prolific superintendent of public school buildings in Brooklyn in the last quarter of the 19th century."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1529.252,
+          "text": "From the 1920s to the 1940s, the building served as a headquarters of the influential Brooklyn Girls Continuation School, a pioneering institution that expanded educational, economic, and social opportunities for young women."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1540.652,
+          "text": "Next slide."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1543.652,
+          "text": "The building is located on the southeast corner of Skirmahorn Street and 3rd Avenue, and the landmark site is the tax lot."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1549.252,
+          "text": "Next slide, please."
+        }
+      ]
+    },
+    {
+      "end_sec": 1592.164,
+      "id": "032",
+      "slug": "herman-details-naughton-s-career-and-ps-15-annex-construction-history",
+      "start_sec": 1552.088,
+      "summary": "Herman describes Naughton as an Irish immigrant who built over 100 schools, the original PS 15 built in 1859 on farmland, and the 1889 annex construction to address overcrowding with distinctive architectural massing.",
+      "title": "Herman details Naughton's career and PS 15 Annex construction history",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1552.088,
+          "text": "The architect James Naughton was an Irish immigrant who came to New York as a child in 1848."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1556.288,
+          "text": "He held various city positions until he became superintendent of schools for the Brooklyn Board of Education."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1561.188,
+          "text": "In this position, he constructed over 100 schools."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1564.288,
+          "text": "Next slide."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1567.988,
+          "text": "The old school building of Public School 15 was constructed in 1859 on what was previously farmland."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1573.388,
+          "text": "In the 1880s, the school became overcrowded, and in 1889, it was enlarged with the construction of this distinctively designed annex building."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1580.788,
+          "text": "Naughton articulated the elevation of the school through varied materials and sculptural massing, emphasizing a central vertical element that lifts the composition upward."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1588.388,
+          "text": "Next slide."
+        }
+      ]
+    },
+    {
+      "end_sec": 1625.7,
+      "id": "033",
+      "slug": "herman-explains-brooklyn-girls-continuation-school-s-pioneering-role",
+      "start_sec": 1592.164,
+      "summary": "Herman details the Girls Continuation School as part of a program educating children over 14 who previously had no right to education, addressing challenges girls faced and teaching practical skills like dressmaking, bookkeeping, stenography, and nursing.",
+      "title": "Herman explains Brooklyn Girls Continuation School's pioneering role",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1592.164,
+          "text": "The Brooklyn Girls Continuation School was regarded as the forefront of democracy in the school system and was part of a larger continuation school program providing education for children above the age of 14 who until 1919 had no right to education and often went straight to work in dangerous low-paying jobs."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1606.964,
+          "text": "The girls'school specifically addressed challenges girls faced, including the expectation to care for the family and tend to the home."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1612.864,
+          "text": "Students learned practical skills such as dressmaking and household budgets, and were also given the opportunity to study bookkeeping, stenography, nursing, and other subjects that required technical training."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1622.764,
+          "text": "Next slide."
+        }
+      ]
+    },
+    {
+      "end_sec": 1653.6,
+      "id": "034",
+      "slug": "herman-covers-immigrant-demographics-and-wpa-era-evening-programs-at-ps-15-annex",
+      "start_sec": 1625.7,
+      "summary": "Herman describes the 1920s downtown Brooklyn immigrant population from Lithuania, Italy, Poland, Ireland, and the Netherlands reflected in the school, and the WPA-funded evening vocational and English language programs for adults in the 1930s.",
+      "title": "Herman covers immigrant demographics and WPA-era evening programs at PS 15 Annex",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1625.7,
+          "text": "In the mid-1920s, the population of downtown Brooklyn surrounding the school was primarily immigrants from Europe, including Lithuania, Italy, Poland, Ireland, and the Netherlands."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1633.7,
+          "text": "And this was reflected in the girls'continuation school's student and teacher populations."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1638.8,
+          "text": "Next slide."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1642.0,
+          "text": "With funding from the WPA, the school also became an evening vocational and English language school for adult men and women in the 1930s."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1650.5,
+          "text": "Next slide."
+        }
+      ]
+    },
+    {
+      "end_sec": 1672.54,
+      "id": "035",
+      "slug": "herman-traces-ps-15-annex-s-later-uses-from-clinic-to-khalil-gibran-academy",
+      "start_sec": 1653.6,
+      "summary": "Herman outlines the building's history after the Girls Continuation School closed in 1942, including use as a child psychology clinic, a specialized business high school in the 1990s, and the Khalil Gibran International Academy from 2007.",
+      "title": "Herman traces PS 15 Annex's later uses from clinic to Khalil Gibran Academy",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1653.6,
+          "text": "The Girls Continuation School closed in 1942, and the building next became a Department of Education outpatient clinic for child psychology."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1660.2,
+          "text": "In the 1990s, it housed a specialized business high school, continuing to teach young adults vocational skills, and in 2007, it became home to the Khalil Gibran International Academy."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1669.8,
+          "text": "Next slide."
+        }
+      ]
+    },
+    {
+      "end_sec": 1690.44,
+      "id": "036",
+      "slug": "herman-concludes-ps-15-annex-presentation-and-invites-questions",
+      "start_sec": 1672.54,
+      "summary": "Herman summarizes PS 15 Annex as a building that has served multiple academic functions providing education and independence for children, women, and immigrants, and invites questions on all three designations.",
+      "title": "Herman concludes PS 15 Annex presentation and invites questions",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1672.54,
+          "text": "With its distinctive architecture intact today, the Public School 15 Annex is a place that has served multiple academic functions over its lifetime, providing education and independence for children, women, and immigrants, and the building continues to reflect its history as an important site of opportunity."
+        },
+        {
+          "speaker": "Margaret Herman",
+          "t_sec": 1686.64,
+          "text": "Thank you, and we're happy to answer questions on any of these designations."
+        }
+      ]
+    },
+    {
+      "end_sec": 1724.484,
+      "id": "037",
+      "slug": "chair-marte-thanks-lpc-panel-and-acknowledges-councilmember-thomas-henry",
+      "start_sec": 1690.44,
+      "summary": "Marte thanks the LPC panel for the presentation, acknowledges the arrival of Councilmember Thomas Henry, confirms no questions from colleagues, and excuses the panel.",
+      "title": "Chair Marte thanks LPC panel and acknowledges Councilmember Thomas Henry",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1690.44,
+          "text": "Thank you for the presentation."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1692.04,
+          "text": "I also want to acknowledge that we've been joined by Councilmember Thomas Henry."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1698.94,
+          "text": "Do any of my colleagues have any questions?"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1702.24,
+          "text": "No."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1702.84,
+          "text": "I want to say thank you for the presentation and all the work that you put into these three potentially landmark sites."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1711.04,
+          "text": "The panel is excused."
+        }
+      ]
+    },
+    {
+      "end_sec": 1806.4,
+      "id": "038",
+      "slug": "chair-marte-calls-public-witnesses-for-landmark-testimony",
+      "start_sec": 1724.484,
+      "summary": "Marte calls public witnesses to testify on the landmark designations, including members of the Lithuanian community, and reminds them to press the microphone button and observe a two-minute time limit.",
+      "title": "Chair Marte calls public witnesses for landmark testimony",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1724.484,
+          "text": "We have a few members of the public that would like to testify of first."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1730.984,
+          "text": "I'm sorry, I'm not going to pronounce this correctly."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1733.784,
+          "text": "Radville Mescafecu."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1743.784,
+          "text": "Oh, you can take you."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1745.284,
+          "text": "Yeah."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1746.384,
+          "text": "And then we have."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1751.564,
+          "text": "Gepris Galkuska?"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1755.364,
+          "text": "Oh, that's you."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1755.964,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1756.764,
+          "text": "And then we have Lama Nihalovich."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1763.864,
+          "text": "Awesome."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1765.064,
+          "text": "And then I'll make one more call for Radville."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1770.464,
+          "text": "Radville around."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1772.564,
+          "text": "Oh, they're coming."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1773.164,
+          "text": "Okay, great."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1774.564,
+          "text": "All right, we'll wait until everyone takes a seat."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1782.964,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Member of the Public",
+          "t_sec": 1784.964,
+          "text": "Dear council members, I guess."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1788.864,
+          "text": "Just a reminder, before you speak, please press the button to have the microphone on."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1794.164,
+          "text": "We also have a time limit of two minutes that will be shown right here."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1800.3,
+          "text": "You may now begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 1909.2,
+      "id": "039",
+      "slug": "lithuanian-alliance-member-testifies-in-support-of-landmark-designation",
+      "start_sec": 1806.4,
+      "summary": "A member of the Lithuanian Alliance expresses gratitude for the landmark designation, describing the building as a cultural and community space that serves as a second home for immigrants, preserving heritage and fostering connections for future generations.",
+      "title": "Lithuanian Alliance member testifies in support of landmark designation",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public",
+          "t_sec": 1806.4,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Member of the Public",
+          "t_sec": 1807.6,
+          "text": "On behalf of the Lithuanian Alliance in New York, we extend our sincere gratitude for granting our building landmark status in New York City."
+        },
+        {
+          "speaker": "Member of the Public",
+          "t_sec": 1815.7,
+          "text": "The designation recognizes far more than a physical structure."
+        },
+        {
+          "speaker": "Member of the Public",
+          "t_sec": 1820.7,
+          "text": "It honors a vital cultural and community space that has long served as a second home for many."
+        },
+        {
+          "speaker": "Member of the Public",
+          "t_sec": 1827.8,
+          "text": "For immigrants, distance from one's homeland often brings a deep sense of nostalgia."
+        },
+        {
+          "speaker": "Member of the Public",
+          "t_sec": 1836.9,
+          "text": "Within the walls, our community has found a safe haven, a place where we preserve our heritage, foster creativity, and build meaningful connections."
+        },
+        {
+          "speaker": "Member of the Public",
+          "t_sec": 1848.4,
+          "text": "The LAA building is not only a hub for art and culture expressions, but also a space where traditions are sustained and shared with future generations."
+        },
+        {
+          "speaker": "Member of the Public",
+          "t_sec": 1858.8,
+          "text": "This achievement is also a testament to the tireless dedication of countless volunteers and especially the leadership of its president, whose commitment has ensured the building's preservation and continued growth."
+        },
+        {
+          "speaker": "Member of the Public",
+          "t_sec": 1874.2,
+          "text": "Their work inspires ongoing engagement, encouraging us to organize events, expand programming, and introduce Lithuanian culture to a broader New York community."
+        },
+        {
+          "speaker": "Member of the Public",
+          "t_sec": 1886.9,
+          "text": "We look forward to building on this recognition by St."
+        },
+        {
+          "speaker": "Member of the Public",
+          "t_sec": 1890.0,
+          "text": "strengthening cultural ties, fostering inclusivity, and ensuring that this landmark continues to serve as a vibrant center for both Lithuanians and all New Yorkers for generations to come."
+        },
+        {
+          "speaker": "Member of the Public",
+          "t_sec": 1902.9,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Giedrius Vilkauskas",
+          "t_sec": 1903.7,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 2036.7,
+      "id": "040",
+      "slug": "lithuanian-deputy-consul-general-vilkauskas-supports-landmark-designation",
+      "start_sec": 1909.2,
+      "summary": "Giedrius Vilkauskas, Deputy Consul General of Lithuania in New York, strongly supports the Lithuanian Alliance Building landmark designation, citing the organization as the oldest continuously operating Lithuanian organization in the world and its role in supporting Lithuanian independence and cultural sharing.",
+      "title": "Lithuanian Deputy Consul General Vilkauskas supports landmark designation",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Giedrius Vilkauskas",
+          "t_sec": 1909.2,
+          "text": "Thank you so much, thank you members of the Council for being here."
+        },
+        {
+          "speaker": "Giedrius Vilkauskas",
+          "t_sec": 1913.9,
+          "text": "And I'm Gedris Vilkauskas, I'm Deputy Council General of Lithuania here in New York."
+        },
+        {
+          "speaker": "Giedrius Vilkauskas",
+          "t_sec": 1921.1,
+          "text": "On behalf of the Consulate of Republic of Lithuania in New York, I would like to strongly support the application by the Lithuanian Alliance to designate"
+        },
+        {
+          "speaker": "Giedrius Vilkauskas",
+          "t_sec": 1931.1,
+          "text": "Lithuanian Alliance building as a New York City individual landmark."
+        },
+        {
+          "speaker": "Giedrius Vilkauskas",
+          "t_sec": 1935.5,
+          "text": "The Lithuanian Alliance is the oldest continuously operating Lithuanian organization in the world."
+        },
+        {
+          "speaker": "Giedrius Vilkauskas",
+          "t_sec": 1941.2,
+          "text": "It provides vital link with United States at crucial historical junctures for Lithuania and remains a respectable part of Lithuanian American history."
+        },
+        {
+          "speaker": "Giedrius Vilkauskas",
+          "t_sec": 1950.9,
+          "text": "It sheltered first waves of Lithuanian immigrants in the late 19th century, promoted the cognition of newly established Lithuanian state in 1918, supported efforts to oppose Soviet occupation right until"
+        },
+        {
+          "speaker": "Giedrius Vilkauskas",
+          "t_sec": 1965.2,
+          "text": "1990, and was a crucial pillar for the strengthening of newly established Lithuania."
+        },
+        {
+          "speaker": "Giedrius Vilkauskas",
+          "t_sec": 1972.5,
+          "text": "In the last couple of decades, the importance of alliance building grew beyond the roots in the Lithuanian American community."
+        },
+        {
+          "speaker": "Giedrius Vilkauskas",
+          "t_sec": 1980.0,
+          "text": "Just as Lithuanian relations with the United States developed into deep strategic alliance, the Lithuanian alliance building become a place"
+        },
+        {
+          "speaker": "Giedrius Vilkauskas",
+          "t_sec": 1990.1,
+          "text": "from which our heritage is shared to the city and the community, opening the art space, opening art space."
+        },
+        {
+          "speaker": "Giedrius Vilkauskas",
+          "t_sec": 2000.9,
+          "text": "Made Alliance Building accessible to all New Yorkers, and the arts team makes a consistent effort to involve local artists into their programming."
+        },
+        {
+          "speaker": "Giedrius Vilkauskas",
+          "t_sec": 2011.9,
+          "text": "A decision to designate Alliance Building as a New York City individual landmark would not just recognize"
+        },
+        {
+          "speaker": "Giedrius Vilkauskas",
+          "t_sec": 2019.7,
+          "text": "architectural and cultural significance of the building, but would remain, reaffirm New York's becoming welcoming, tolerant, and multicultural character."
+        },
+        {
+          "speaker": "Giedrius Vilkauskas",
+          "t_sec": 2031.1,
+          "text": "Thanks so much."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2032.7,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2034.0,
+          "text": "You may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 2062.3,
+      "id": "041",
+      "slug": "lithuanian-community-member-testifies-building-is-their-second-home",
+      "start_sec": 2036.7,
+      "summary": "A Lithuanian community member who works at the consulate and volunteers at the Lithuanian Alliance Building gives brief testimony asking the council to vote yes, saying the building is not just a building but their second home.",
+      "title": "Lithuanian community member testifies building is their second home",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public",
+          "t_sec": 2036.7,
+          "text": "Dear council members, thank you for having us here."
+        },
+        {
+          "speaker": "Member of the Public",
+          "t_sec": 2039.9,
+          "text": "My testimony will be very short today."
+        },
+        {
+          "speaker": "Member of the Public",
+          "t_sec": 2042.7,
+          "text": "Today I'll represent the Lithuanian community."
+        },
+        {
+          "speaker": "Member of the Public",
+          "t_sec": 2045.0,
+          "text": "I also work at the consulate and volunteer at Lithuanian Alliance Building."
+        },
+        {
+          "speaker": "Member of the Public",
+          "t_sec": 2049.4,
+          "text": "And I'll be very short."
+        },
+        {
+          "speaker": "Member of the Public",
+          "t_sec": 2050.8,
+          "text": "This is not a building for us."
+        },
+        {
+          "speaker": "Member of the Public",
+          "t_sec": 2052.8,
+          "text": "This is our second home and would really appreciate if you could vote yes in our favor."
+        },
+        {
+          "speaker": "Member of the Public",
+          "t_sec": 2057.2,
+          "text": "Thank you very much."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2058.7,
+          "text": "Thank you, and we appreciate you guys being here today."
+        }
+      ]
+    },
+    {
+      "end_sec": 2134.208,
+      "id": "042",
+      "slug": "chair-marte-closes-landmark-hearing-and-adjourns-meeting",
+      "start_sec": 2062.3,
+      "summary": "Marte excuses the public panel, acknowledges Majority Whip Councilmember Hanks, confirms no further public testimony, closes the joint public hearing for LUs 91, 92, and 93, lays over the items, and adjourns the meeting.",
+      "title": "Chair Marte closes landmark hearing and adjourns meeting",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2062.3,
+          "text": "This panel is now excused unless there's any questions, and I also want to acknowledge Majority Whip."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2070.1,
+          "text": "Councilmember Hanks."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2073.0,
+          "text": "So you guys are good."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2074.2,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2075.6,
+          "text": "If there are any remote public participants who wish to testify and have not already done so, please press the raise hand button now."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2082.7,
+          "text": "And if you are here with us in person, please see one of the sergeant of arms to first fill out a speaker card."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2091.6,
+          "text": "There being no other members of the public who wish to testify regarding LUs 91, 92, and 93 for the landmarking of PS Annex, Church of the St."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2101.9,
+          "text": "Mary, and the Lithuanian Alliance, the joint public hearing is now closed and the items are laid over."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2108.8,
+          "text": "Thank you all."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2115.076,
+          "text": "That concludes today's business, and I'd like to thank all the members of the public, my colleagues, subcommittee, council, land use staff, and the sergeant at arms for your participation today."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2124.476,
+          "text": "This meeting is hereby adjourned."
+        }
+      ]
+    }
+  ],
+  "date": "2026-07-09",
+  "duration_sec": 2134.208,
+  "slug": "2026-07-09-1100-am-subcommittee-on-landmarks-public-sitings-resiliency-and-dispositions",
+  "summary": [
+    "Subcommittee on Landmarks, Public Sitings, Resiliency and Dispositions held a hybrid hearing on July 9, 2026, covering three landmark designation applications and one HPD affordable housing project.",
+    "HPD presented the 511 West 171st Street ANCP Cluster project to rehabilitate three buildings into 50 cooperative units in Washington Heights, with a 40-year tax exemption.",
+    "LPC presented landmark designations for the Church of St. Mary, the Lithuanian Alliance Building, and PS 15 Annex, followed by public testimony from Lithuanian community members in support."
+  ],
+  "tags": [
+    "HEARING",
+    "LAND_USE"
+  ],
+  "time": "11:00 AM",
+  "title": "Subcommittee on Landmarks, Public Sitings, Resiliency and Dispositions",
+  "topic": "Landmarks, Public School 15 Annex, Brooklyn (N 260340 HIK)",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-1_260709-110638/video-web.mp4"
+  }
+}

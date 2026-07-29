@@ -1,0 +1,31 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+import ChapterView from "@components/ChapterView.astro";
+import { getRuntime, loadEdgeChapter } from "@lib/edge-data";
+import { chapterOgPath } from "@lib/og";
+import { formatDate, formatDuration } from "@lib/format";
+
+export const prerender = false;
+
+const { bodySlug, meetingSlug, chapterSlug } = Astro.params;
+const result = await loadEdgeChapter(
+  { bodySlug, meetingSlug, chapterSlug },
+  getRuntime(Astro.locals)?.env,
+);
+
+if (result.status === "not-found") {
+  return new Response("Not found", { status: 404 });
+}
+if (result.status === "missing-binding") {
+  return new Response(`${result.binding} R2 binding is not configured`, { status: 500 });
+}
+
+const { meeting, chapter, index } = result;
+const duration = chapter.end_sec - chapter.start_sec;
+const description = `${chapter.title}, a ${formatDuration(duration)} segment from ${meeting.title} on ${formatDate(meeting.date)}.`;
+const ogImage = chapterOgPath(String(bodySlug), meeting.slug, chapter.slug);
+---
+
+<BaseLayout title={`${chapter.title} - ${meeting.title}`} description={description} image={ogImage}>
+  <ChapterView meeting={meeting} chapter={chapter} index={index} bodySlug={String(bodySlug)} />
+</BaseLayout>

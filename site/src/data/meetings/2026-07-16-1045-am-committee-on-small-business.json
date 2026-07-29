@@ -1,0 +1,476 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 27.6,
+      "id": "001",
+      "slug": "hearing-called-to-order-and-housekeeping",
+      "start_sec": 9.6,
+      "summary": "Council staff welcome attendees, remind everyone to silence electronic devices, and Chair Shanel Thomas-Henry calls the hearing to order.",
+      "title": "Hearing called to order and housekeeping",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 9.6,
+          "text": "Good morning and welcome to New York City Council."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 13.0,
+          "text": "Vote on some more business."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 14.4,
+          "text": "At this time, we're asking, please put all electronic device on silent."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 20.1,
+          "text": "And at this time, please, no one approach it."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 21.8,
+          "text": "Yes, chair, you may begin."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 25.6,
+          "text": "This hearing is called to order."
+        }
+      ]
+    },
+    {
+      "end_sec": 55.7,
+      "id": "002",
+      "slug": "chair-thomas-henry-introduces-hearing-on-int-955a-and-acknowledges-colleagues",
+      "start_sec": 27.6,
+      "summary": "Chair Shanel Thomas-Henry introduces herself, acknowledges colleagues present in person and online, and states the hearing will vote on Proposed Introduction 955A from Councilmember Zhuang.",
+      "title": "Chair Thomas-Henry introduces hearing on Int. 955A and acknowledges colleagues",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 27.6,
+          "text": "Good morning, everyone."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 29.9,
+          "text": "I am Councilmember Shanel Thomas-Henry, Chair of the Committee on Small Business."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 35.0,
+          "text": "Thank you to my colleagues, Councilmember Moreno, Councilmember Maloney, Councilmember Salam,"
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 43.2,
+          "text": "and Council Members Hanif and Santosuoso online."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 47.9,
+          "text": "Today we are voting on proposed introduction 955A from Council Member Zhuang."
+        }
+      ]
+    },
+    {
+      "end_sec": 74.9,
+      "id": "003",
+      "slug": "chair-thomas-henry-explains-the-purpose-of-int-955a-coordinating-inspections-for-new-businesses",
+      "start_sec": 55.7,
+      "summary": "Chair Thomas-Henry explains that Int. 955A would require the mayor to establish a program coordinating inspections and plan reviews to reduce the time it takes to open a new business.",
+      "title": "Chair Thomas-Henry explains the purpose of Int. 955A: coordinating inspections for new businesses",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 55.7,
+          "text": "This bill would require the mayor to establish a program to coordinate inspections and plan reviews to cut down on the time it takes to open and operate a new business."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 69.0,
+          "text": "I want to thank Councilmember Zhuang for introducing this well-needed legislation."
+        }
+      ]
+    },
+    {
+      "end_sec": 93.0,
+      "id": "004",
+      "slug": "chair-thomas-henry-on-small-businesses-as-economic-backbone-and-barriers-to-opening",
+      "start_sec": 74.9,
+      "summary": "Thomas-Henry describes small businesses as the backbone of the local economy and the gateway to opportunity, noting the difficulty of getting a new business up and running due to sequential, often unknown inspection requirements.",
+      "title": "Chair Thomas-Henry on small businesses as economic backbone and barriers to opening",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 74.9,
+          "text": "Our small businesses are the backbone of our local economy."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 78.6,
+          "text": "They fuel growth, innovation, and job creation in our city."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 83.5,
+          "text": "They are also the gateway to opportunity for many New Yorkers."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 88.2,
+          "text": "Unfortunately, it is not"
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 90.0,
+          "text": "easy getting a new business up and running."
+        }
+      ]
+    },
+    {
+      "end_sec": 145.4,
+      "id": "005",
+      "slug": "chair-thomas-henry-on-uncoordinated-inspections-and-how-int-955a-addresses-the-problem",
+      "start_sec": 93.0,
+      "summary": "Thomas-Henry details how inspections and plan reviews happen at different times in a specific sequence unknown to many entrepreneurs, notes that SBS NYC Best Team provides compliance assistance but the coordination issue remains unresolved, and frames Int. 955A as fixing the underlying inefficiency.",
+      "title": "Chair Thomas-Henry on uncoordinated inspections and how Int. 955A addresses the problem",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 93.0,
+          "text": "Before a new business can open, the site must undergo a series of inspections and plan reviews that often happen at different times."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 102.3,
+          "text": "There is often a specific sequence for when each of these inspections and reviews need to be done."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 109.2,
+          "text": "A sequence that is often unknown to many of our would-be small business owners."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 115.4,
+          "text": "While SBS NYC Best Team does provide much-needed compliance assistance, the issue of uncoordinated inspections and plan reviews remain unresolved."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 127.2,
+          "text": "Proposed Introduction 955A is an attempt to fix the underlying issue at the heart of all this."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 134.0,
+          "text": "Ensuring that these inspections and reviews happen around the same time or shortly thereafter means that our entrepreneurs are not losing out due to government inefficiency."
+        }
+      ]
+    },
+    {
+      "end_sec": 162.5,
+      "id": "006",
+      "slug": "chair-thomas-henry-thanks-staff-and-calls-the-roll",
+      "start_sec": 145.4,
+      "summary": "Thomas-Henry thanks Central Staff members Tyler Walls and Rebecca Barilla, her own staff Franklin Richards, Sierra Smith, and Derek Slaughter, and then calls on the clerk to begin the roll call vote.",
+      "title": "Chair Thomas-Henry thanks staff and calls the roll",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 145.4,
+          "text": "I want to thank Tyler Walls and Rebecca Barilla from Central Staff for their support, as well as my own staff, Franklin Richards, Sierra Smith, and Derek Slaughter, and everyone working in the background to make this hearing possible."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 158.9,
+          "text": "I now call on the clerk to call the roll."
+        }
+      ]
+    },
+    {
+      "end_sec": 197.1,
+      "id": "007",
+      "slug": "roll-call-vote-on-int-955a-begins",
+      "start_sec": 162.5,
+      "summary": "Committee Clerk William Martin calls the roll for Proposed Introduction 955A. Chair Thomas-Henry votes aye, followed by votes from Councilmembers Hanif, Salaam, Maloney, and Santosuosso.",
+      "title": "Roll call vote on Int. 955A begins",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 162.5,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 162.8,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 163.3,
+          "text": "William Martin, Committee Clerk, Roll Call Vote Committee on Small Business."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 166.6,
+          "text": "Proposed Introduction 955A."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 169.9,
+          "text": "Chair Thomas Henry."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 172.1,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 173.6,
+          "text": "Brooks Powers."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 176.5,
+          "text": "Hanif."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 178.2,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 178.8,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 180.1,
+          "text": "Salam."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 181.6,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 183.1,
+          "text": "Maloney."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 184.9,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 186.3,
+          "text": "Antos, also."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 191.7,
+          "text": "I'm sorry, counselor, I'm right in here."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 194.0,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 194.6,
+          "text": "Thank you very much."
+        }
+      ]
+    },
+    {
+      "end_sec": 204.2,
+      "id": "008",
+      "slug": "councilmember-morano-votes-aye-and-notes-co-sponsorship-of-int-955a",
+      "start_sec": 197.1,
+      "summary": "Councilmember Frank Morano votes aye and states he is honored to be a prime sponsor of the legislation.",
+      "title": "Councilmember Morano votes aye and notes co-sponsorship of Int. 955A",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 197.1,
+          "text": "Morano."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 198.4,
+          "text": "I am honored to be a prime sponsor of this legislation as well."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 203.9,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 913.032,
+      "id": "009",
+      "slug": "committee-adopts-int-955a-with-six-affirmative-votes-roll-held-open",
+      "start_sec": 204.2,
+      "summary": "The clerk announces the vote as six in the affirmative, zero in the negative, and no abstentions. The item is adopted by the committee, and the roll is held open at the chair's request.",
+      "title": "Committee adopts Int. 955A with six affirmative votes; roll held open",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 204.2,
+          "text": "With a vote of six in the affirmative, zero in the negative, and no abstentions, item has been adopted by the committee, and the roll will be held open by request of the chair."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 225.832,
+          "text": "Your list is better."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 303.232,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 393.232,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 483.232,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 573.232,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 663.232,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 753.232,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 918.632,
+      "id": "010",
+      "slug": "continuation-roll-call-councilmember-brooks-powers-votes-aye",
+      "start_sec": 913.032,
+      "summary": "The clerk resumes the roll call for the Committee on Small Business. Councilmember Brooks-Powers votes aye, bringing the total to seven in the affirmative.",
+      "title": "Continuation roll call: Councilmember Brooks-Powers votes aye",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 913.032,
+          "text": "Continuation roll call."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 914.032,
+          "text": "Committee on Small Business."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 915.532,
+          "text": "Councilmember Brooks Powers."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 917.332,
+          "text": "I vote aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 927.8,
+      "id": "011",
+      "slug": "final-vote-confirmed-seven-affirmative-full-committee",
+      "start_sec": 918.632,
+      "summary": "The clerk announces the final vote of seven in the affirmative, zero in the negative, and no abstentions, noting it is a full committee vote.",
+      "title": "Final vote confirmed: seven affirmative, full committee",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 918.632,
+          "text": "Final vote is now seven in the affirmative, zero in the negative."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 921.932,
+          "text": "No abstentions."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 922.732,
+          "text": "Madam Chair, that is a full committee."
+        }
+      ]
+    },
+    {
+      "end_sec": 938.923,
+      "id": "012",
+      "slug": "chair-thomas-henry-closes-the-meeting",
+      "start_sec": 927.8,
+      "summary": "Chair Thomas-Henry thanks the committee and announces the meeting is closed.",
+      "title": "Chair Thomas-Henry closes the meeting",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 927.8,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 928.5,
+          "text": "This meeting is closed."
+        }
+      ]
+    }
+  ],
+  "date": "2026-07-16",
+  "duration_sec": 938.923,
+  "slug": "2026-07-16-1045-am-committee-on-small-business",
+  "summary": [
+    "The Committee on Small Business, chaired by Councilmember Shanel Thomas-Henry, held a hearing on Proposed Introduction 955A, a bill to coordinate inspections and plan reviews to accelerate new business openings.",
+    "The bill, introduced by Councilmember Zhuang and co-sponsored by Councilmember Frank Morano, aims to address uncoordinated inspections that delay business openings despite existing SBS NYC Best Team compliance assistance.",
+    "The committee voted unanimously to adopt the bill, with a final vote of seven in the affirmative and zero in the negative."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "10:45 AM",
+  "title": "Committee on Small Business",
+  "topic": "Accelerating the opening of new businesses by coordinating required inspections",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-1_260716-111544/video-web.mp4"
+  }
+}

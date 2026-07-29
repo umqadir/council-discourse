@@ -1,0 +1,26 @@
+/data/
+.venv/
+.uv-cache/
+.hf-cache/
+.mlx-cache/
+.npm-cache/
+.pnpm-store/
+.wrangler-config/
+__pycache__/
+*.mp4
+*.m4a
+*.wav
+.env
+node_modules/
+.wrangler/
+site/r2-data/
+.hf-cache/
+.uv-cache/
+.mlx-cache/
+
+# internal working docs
+AGENTS.md
+PLAN.md
+experiments/
+research/
+STATE.md
