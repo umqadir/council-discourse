@@ -1,0 +1,4385 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 58.0,
+      "id": "001",
+      "slug": "council-staff-housekeeping-announcements",
+      "start_sec": 36.8,
+      "summary": "Council staff welcomes attendees to the Finance Committee hearing, asks that electronic devices be silenced, and instructs those wishing to testify to fill out appearance cards with the sergeant at arms.",
+      "title": "Council staff housekeeping announcements",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 36.8,
+          "text": "Good morning and welcome to today's New York City Council hearing for the Committee on Finance."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 42.1,
+          "text": "At this time, ladies and gentlemen, we please ask that you silence all electronic devices."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 46.1,
+          "text": "If you would like to fill out a testimony, slip in, please see one of the sergeant arms."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 49.9,
+          "text": "Approaching the front dais is strictly prohibited."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 52.2,
+          "text": "Please do not approach the front dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 54.0,
+          "text": "Chair, you may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 72.7,
+      "id": "002",
+      "slug": "majority-leader-abreu-opens-hearing-and-acknowledges-members",
+      "start_sec": 58.0,
+      "summary": "Shaun Abreu, filling in for Finance Chair Lee, opens the hearing and acknowledges Councilmembers Phil Wong, Frank Morano, and others who have joined.",
+      "title": "Majority Leader Abreu opens hearing and acknowledges members",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 58.0,
+          "text": "Good morning and welcome to today's Finance Committee hearing."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 60.3,
+          "text": "I'm Majority Leader Shaun-Abreu, and I have the privilege of chairing today's committee hearing in place of Finance Chair Lee."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 66.9,
+          "text": "I'd like to recognize that we have been joined by Councilmember Phil Wong and Councilmember Frank Morano."
+        }
+      ]
+    },
+    {
+      "end_sec": 119.3,
+      "id": "003",
+      "slug": "abreu-outlines-the-ecb-amnesty-and-compliance-program-bill",
+      "start_sec": 72.7,
+      "summary": "Abreu explains the pre-considered bill would require DOF to establish a temporary program resolving outstanding ECB judgments, with default judgments payable at base penalty without interest and adjudicated judgments at 75% of penalties. The program would last 90 days in FY2027 with a possible 90-day extension.",
+      "title": "Abreu outlines the ECB Amnesty and Compliance Program bill",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 72.7,
+          "text": "Today, the committee will hold a public hearing on a pre-considered bill sponsored by Finance Chair Councilmember Lee by request of the Mayor."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 80.1,
+          "text": "The legislation would require the Commissioner of Finance to establish a temporary program to resolve certain outstanding judgments imposed by the Environmental Control Board, ECB."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 90.2,
+          "text": "Under the program, eligible judgments resulting from default decisions could be resolved by paying the underlying base penalty"
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 97.2,
+          "text": "without payment of any default penalties or accrued interest, and eligible judgments resulting from adjudications and findings of liability could be resolved by paying 75% of the imposed penalties without payment of accrued interest."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 111.0,
+          "text": "The program would last for 90 days during fiscal year 2027, and the commissioner would be able to extend it for an additional 90-day period."
+        }
+      ]
+    },
+    {
+      "end_sec": 146.3,
+      "id": "004",
+      "slug": "abreu-references-prior-amnesty-programs-and-hearing-goals",
+      "start_sec": 119.3,
+      "summary": "Abreu notes similar ECB amnesty programs were authorized in 2019, 2016, and 2021, collecting millions in outstanding debt, and states the committee wants to learn about prior results and how this program will increase collections and revenue.",
+      "title": "Abreu references prior amnesty programs and hearing goals",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 119.3,
+          "text": "The council has authorized similar ECB amnesty programs in the past, including programs in 2019, 2016, and 2021, which resulted in the collection of millions of dollars in outstanding judgment debt."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 133.5,
+          "text": "We look forward to hearing more today about the results of those prior programs, as well as how this proposed program is expected to increase collections, generate revenue, and otherwise benefit the city."
+        }
+      ]
+    },
+    {
+      "end_sec": 182.136,
+      "id": "005",
+      "slug": "abreu-acknowledges-additional-members-and-thanks-finance-staff",
+      "start_sec": 146.3,
+      "summary": "Abreu recognizes additional council members who joined, thanks Finance Division staff including Deputy Director Edev, Chief Economist Dimnakou, analysts, and counsel for preparing the hearing, then introduces DOF Commissioner Richard Lee and Deputy Commissioner Annette Hill.",
+      "title": "Abreu acknowledges additional members and thanks Finance staff",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 146.3,
+          "text": "We've also been joined by Councilmember Selvena Brooks-Powers, Councilmember Narcisse, Deputy Speaker Williams."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 154.036,
+          "text": "Before we turn to testimony from the administration, I'd like to thank the staff of the Finance Division for their work in preparing for this hearing."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 160.836,
+          "text": "Deputy Director Emrah Edev, Chief Economist Dilara Dimnakou, Analysts Michael Sherman and Owen Katowski, Chief Counsel Nick Connell, Senior Counsel Nadia Jean-Francois, and Committee Counsel Brian Sarfo."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 174.536,
+          "text": "We will now hear testimony from our presenters from the Department of Finance, Commissioner Richard Lee, Deputy Commissioner Annette Hill."
+        }
+      ]
+    },
+    {
+      "end_sec": 197.936,
+      "id": "006",
+      "slug": "committee-counsel-administers-oath-to-dof-witnesses",
+      "start_sec": 182.136,
+      "summary": "Committee Counsel Brian Sarfo swears in Commissioner Richard Lee and Deputy Commissioner Annette Hill before they begin their testimony.",
+      "title": "Committee counsel administers oath to DOF witnesses",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 182.136,
+          "text": "I will now turn it over to Committee Counsel to administer the oath."
+        },
+        {
+          "speaker": "Brian Sarfo",
+          "t_sec": 187.536,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Brian Sarfo",
+          "t_sec": 188.736,
+          "text": "Do you swear to tell the truth and nothing but the truth before this committee and council members?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 193.136,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Brian Sarfo",
+          "t_sec": 193.936,
+          "text": "You may begin."
+        },
+        {
+          "speaker": "Brian Sarfo",
+          "t_sec": 194.836,
+          "text": "Yes."
+        }
+      ]
+    },
+    {
+      "end_sec": 237.736,
+      "id": "007",
+      "slug": "commissioner-lee-introduces-ecb-amnesty-program-goals",
+      "start_sec": 197.936,
+      "summary": "Commissioner Richard Lee introduces himself and Deputy Commissioner Annette Hill, and explains the ECB Amnesty and Compliance Program aims to encourage resolution of ECB violations, increase compliance, and collect fines in an area difficult for the city to enforce.",
+      "title": "Commissioner Lee introduces ECB Amnesty Program goals",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 197.936,
+          "text": "Can you hear me okay?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 198.736,
+          "text": "Great."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 200.036,
+          "text": "Good afternoon."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 201.136,
+          "text": "Majority Leader Abreu, Deputy Speaker Williams, members of the Finance Committee, and members of the City Council."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 206.236,
+          "text": "My name is Richard Lee, and I am the Commissioner of the New York City Department of Finance."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 210.936,
+          "text": "I am joined today by Annette Hill, Deputy Commissioner of Customer Operations."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 216.136,
+          "text": "Thank you for the opportunity to testify today on the proposed ECB Amnesty and Compliance Program Authorization legislation."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 224.536,
+          "text": "The goal of the ECB Amnesty and Compliance Program is to encourage the resolution of ECB violations to increase compliance and collect fines in an area that is difficult for the city to enforce."
+        }
+      ]
+    },
+    {
+      "end_sec": 284.936,
+      "id": "008",
+      "slug": "lee-describes-ecb-violation-types-and-issuing-agencies",
+      "start_sec": 237.736,
+      "summary": "Lee explains ECB violations are issued by over a dozen city agencies covering offenses like dirty sidewalks, littering, failure to remove snow, and working without permits. Issuing agencies include DOB, DSNY, FDNY, DOT, NYPD, HPD, DOHMH, DCWP, and PARCS.",
+      "title": "Lee describes ECB violation types and issuing agencies",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 237.736,
+          "text": "As a result, Environmental Control Board or ECB violations are issued by more than a dozen city agencies and cover a wide range of offenses including dirty sidewalks, littering, failure to remove ice or snow,"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 253.236,
+          "text": "working without a permit from the Department of Buildings, and many other quality of life and environmental issues."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 260.536,
+          "text": "Agencies that issue violations include DOB, DSNY, FDNY, DP, DOT, NYPD, HPD, DOHMH, DCWP, and PARCS."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 275.736,
+          "text": "Violation recipients are typically businesses and property owners, but other individuals may be issued violations if they have committed an offense."
+        }
+      ]
+    },
+    {
+      "end_sec": 323.536,
+      "id": "009",
+      "slug": "lee-explains-debt-referral-process-and-program-mechanics",
+      "start_sec": 284.936,
+      "summary": "Lee describes how ECB debt is referred to DOF upon OATH docketing of unresolved violations, explains that violations go into judgment after 100 days, and outlines that amnesty participants would receive a 25% reduction with interest waived and must resolve any violations requiring correction.",
+      "title": "Lee explains debt referral process and program mechanics",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 284.936,
+          "text": "ECB debt is referred to the Department of Finance upon Oates'docketing of unresolved violations that have been adjudicated by Oates'ECB subdivision."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 295.636,
+          "text": "The proposed amnesty program will incentivize resolution and payment by reducing fines for individuals who have violations in judgment."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 304.036,
+          "text": "Violations go into judgment when recipients do not pay or dispute them within 100 days generally."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 310.636,
+          "text": "Amnesty program participants would receive a 25% reduction in the violation amount and will have the interest waived."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 317.636,
+          "text": "The program would require the resolution of any outstanding violations which require correction."
+        }
+      ]
+    },
+    {
+      "end_sec": 384.836,
+      "id": "010",
+      "slug": "lee-on-budget-enforcement-comparison-and-idling-exclusion",
+      "start_sec": 323.536,
+      "summary": "Lee notes the program is budgeted at $25 million and modeled on prior programs, explains it is useful where the city lacks strong enforcement mechanisms unlike the boot-and-tow program, and states idling violations are excluded because recipients are typically logistics companies less in need of amnesty.",
+      "title": "Lee on budget, enforcement comparison, and idling exclusion",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 323.536,
+          "text": "The ECB Amnesty and Compliance Program was included in the adopted budget for $25 million and is modeled after previous programs administered by the Department of Finance over the past 10 years."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 334.636,
+          "text": "Such programs are particularly useful when the city does not have a strong mechanism for enforcement, unlike, for example, our boot and tow program for parking tickets, where customers must resolve their debt in order to recover a vehicle."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 347.736,
+          "text": "The amnesty program will be open for 90 days with an option to extend to 180."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 353.236,
+          "text": "Please note that idling violations will not be eligible for amnesty to ensure that we continue to hold bad actors accountable when they pollute our streets."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 362.136,
+          "text": "Additionally, the main recipients of idling violations are logistics."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 365.136,
+          "text": "companies who are less in need of amnesty."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 368.536,
+          "text": "Developing a broad and simple program is the best way to achieve significant participation and ultimately resolve more violations throughout the city."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 377.836,
+          "text": "Thank you for your partnership and I look forward to taking your questions."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 382.336,
+          "text": "Thank you, Mr."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 382.936,
+          "text": "Commissioner."
+        }
+      ]
+    },
+    {
+      "end_sec": 425.92,
+      "id": "011",
+      "slug": "abreu-asks-about-outstanding-ecb-debt-amounts",
+      "start_sec": 384.836,
+      "summary": "Abreu asks how many outstanding ECB judgments are eligible and the total debt. Lee reports $573 million in potentially collectible debt and $744 million deemed uncollectible as of the start of FY2026.",
+      "title": "Abreu asks about outstanding ECB debt amounts",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 384.836,
+          "text": "I'm going to ask a few set of questions before I turn it over to my colleagues."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 387.336,
+          "text": "Sure."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 388.236,
+          "text": "How many outstanding ECB, before I do that, I'd like to acknowledge that we've been joined on Zoom by Chair Lee, Council Members Hudson and Sanchez."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 399.036,
+          "text": "Back to questions."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 399.836,
+          "text": "How many outstanding ECB judgments are currently eligible for the program, and what is the amount of debt outstanding that is associated with ECB violations?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 408.936,
+          "text": "So as of the beginning of fiscal year 2026, we identified $573 million in outstanding debt that is potentially collectible, with an additional $744 million that is currently deemed uncollectible."
+        }
+      ]
+    },
+    {
+      "end_sec": 451.32,
+      "id": "012",
+      "slug": "abreu-asks-about-expected-fy27-collections-from-amnesty",
+      "start_sec": 425.92,
+      "summary": "Abreu asks how much DOF expects to collect through the amnesty program in FY2027. Lee states the budgeted ECB collection target is $100.76 million, including $25 million from the amnesty program.",
+      "title": "Abreu asks about expected FY27 collections from amnesty",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 425.92,
+          "text": "What amount of ECB judgment debt does DOF expect to collect during FY 2027 through the amnesty program?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 432.72,
+          "text": "So as of adoption, currently the budgeted ECB collection target is $100.76 million."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 443.72,
+          "text": "Including $25 million from this effort in the ECB amnesty program."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 447.62,
+          "text": "So that's inclusive of the $25 million from amnesty."
+        }
+      ]
+    },
+    {
+      "end_sec": 485.12,
+      "id": "013",
+      "slug": "abreu-questions-why-omb-projects-less-than-2021-program",
+      "start_sec": 451.32,
+      "summary": "Abreu notes the 2021 amnesty program brought in over $43 million but OMB only projects $25 million for this program. Lee says the $25 million is an initial projection that will be updated as results come in, working with OMB.",
+      "title": "Abreu questions why OMB projects less than 2021 program",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 451.32,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 451.82,
+          "text": "OMB's last preliminary plan included $25 million in fiscal 2027 as anticipated revenue from the amnesty program."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 459.22,
+          "text": "Considering the prior amnesty program brought over $43 million in additional revenues back in 2021, why do you think OMB expects less than the prior program revenues?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 471.02,
+          "text": "The $25 million was a projection at the end of adoption."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 474.82,
+          "text": "As we go through the program and see results and successes, we will update the budget as we get along through the rest of the year, working in conjunction with OMB."
+        }
+      ]
+    },
+    {
+      "end_sec": 536.32,
+      "id": "014",
+      "slug": "abreu-asks-about-building-owner-eligibility",
+      "start_sec": 485.12,
+      "summary": "Abreu asks whether the amnesty will be available to building owners given many ECB violations relate to health and building maintenance. Lee says a large number of DOB-issued ECB violations will be eligible and the program aims to ensure better corrections.",
+      "title": "Abreu asks about building owner eligibility",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 485.12,
+          "text": "Many ECB violations relate to health concerns associated with building maintenance."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 490.12,
+          "text": "Will this amnesty be available to our building owners?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 494.42,
+          "text": "There will be a large number of ECB violations that are from DOB."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 502.62,
+          "text": "The result of this ECB amnesty program is to ensure that we have better corrections and people are actually addressing their violations."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 510.52,
+          "text": "We want individuals to correct these violations."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 513.42,
+          "text": "And this is..."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 513.92,
+          "text": "Is one way to do so."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 515.82,
+          "text": "Will it be available to all building owners?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 518.32,
+          "text": "It should be available to the vast majority of building owners unless it is currently under OATS system and has been docketed to us."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 528.12,
+          "text": "There are some instances that we at the OF don't actually get all the ECB violations."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 533.62,
+          "text": "It might be because of some criminal activity or such."
+        }
+      ]
+    },
+    {
+      "end_sec": 598.42,
+      "id": "015",
+      "slug": "abreu-asks-about-poor-building-management-and-aep-eligibility",
+      "start_sec": 536.32,
+      "summary": "Abreu asks about owners with long records of poor management and those in the city's Alternative Enforcement Program. Lee says DOF is in constant communication with sister agencies and only DOF-docketed OATH violations are eligible for the program.",
+      "title": "Abreu asks about poor building management and AEP eligibility",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 536.32,
+          "text": "And what if they are owners who have a long record of poor building management?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 540.42,
+          "text": "Of poor building management?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 541.92,
+          "text": "That's something we'll discuss with DOB as we roll out the program."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 544.92,
+          "text": "We are in constant communication with all of our agencies throughout this process and as we start beginning the rollout of this embassy program."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 554.12,
+          "text": "Would you do the same as well with buildings related?"
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 557.52,
+          "text": "To the city's AEP or other enforcement programs?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 561.72,
+          "text": "Right now, AEP at its alternative enforcement program."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 565.22,
+          "text": "Correct."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 565.52,
+          "text": "We are in constant communication with our sister agencies on the rollout of this program, and so we are going to be working with them to determine which one of the programs will be viable."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 576.12,
+          "text": "It's only for DOF ECB docketed violations, right?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 580.12,
+          "text": "So that's what it comes down to."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 581.12,
+          "text": "If it's an ECB docketed violation, it should be eligible for the program."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 587.02,
+          "text": "If it is a docketed ECB violation and any other agency, it won't necessarily be part of this program."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 593.12,
+          "text": "We are only looking at DOF docketed violations from Oath."
+        }
+      ]
+    },
+    {
+      "end_sec": 623.22,
+      "id": "016",
+      "slug": "abreu-asks-about-implementation-timeline",
+      "start_sec": 598.42,
+      "summary": "Abreu asks when DOF plans to implement the program once the bill is adopted. Lee and Deputy Commissioner Hill indicate the anticipated start date is the beginning of October 2026.",
+      "title": "Abreu asks about implementation timeline",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 598.42,
+          "text": "When does DOF plan to implement the program within the year once the current amnesty bill is adopted?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 604.62,
+          "text": "We are currently working on this right now, and I think our anticipated date, Deputy Commissioner Hill?"
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 612.32,
+          "text": "October, beginning of October."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 614.12,
+          "text": "Of this year, correct."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 616.22,
+          "text": "I'll turn it over to my colleague, Councilmember Morano, followed by Wong."
+        }
+      ]
+    },
+    {
+      "end_sec": 727.12,
+      "id": "017",
+      "slug": "morano-questions-fairness-of-amnesty-for-those-who-paid-on-time",
+      "start_sec": 623.22,
+      "summary": "Morano raises a fairness concern: one business owner pays a $1,000 violation while another waits and pays $750 under amnesty. Lee acknowledges the tension but says the goal is getting people into compliance, noting the program is run sparingly with no guarantee of future amnesties.",
+      "title": "Morano questions fairness of amnesty for those who paid on time",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 623.22,
+          "text": "Thank you, Majority Leader."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 625.72,
+          "text": "Commissioner, it's good to see you again."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 627.12,
+          "text": "We've definitely missed you on this side of City Hall, most of the time."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 633.32,
+          "text": "I know you're somebody who takes these issues seriously, like the ones that we're looking at in this bill."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 637.52,
+          "text": "I want to start with the basic fairness question."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 640.82,
+          "text": "Suppose two Staten Island small business owners get the same $1,000 violation."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 646.72,
+          "text": "One pays the $1,000 because that's what the law requires."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 650.12,
+          "text": "The other doesn't pay, waits long enough, and under this program could potentially pay $750 and have the interest waived."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 658.82,
+          "text": "What do I tell the first guy?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 661.22,
+          "text": "Well, there are going to be respondents in that situation."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 665.72,
+          "text": "And that's why we're trying to strike a balance between that."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 669.82,
+          "text": "We want to ensure that those unanswered violations do become in compliance."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 676.82,
+          "text": "So that is the primary goal of this."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 678.42,
+          "text": "We're going to have better outcomes for the city if more people are in compliance with any judgments that they might have."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 685.12,
+          "text": "How do we provide a second chance without sending the message that the financially smart thing to do is just to wait City Hall out?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 694.02,
+          "text": "So this program, again, isn't a program that we run normally or regularly."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 700.22,
+          "text": "We come to the city council for authorization of such."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 703.82,
+          "text": "There's also no guarantee we will have another ECB-MDC program in the future."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 709.32,
+          "text": "So I would say that this is a program that we administer sparingly, but it is to ensure that we have better outcomes for individuals in the city."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 722.72,
+          "text": "If people are addressing their outstanding violations, it is a better outcome."
+        }
+      ]
+    },
+    {
+      "end_sec": 819.02,
+      "id": "018",
+      "slug": "morano-asks-about-strengthening-enforcement-infrastructure",
+      "start_sec": 727.12,
+      "summary": "Morano questions whether the underlying problem is weak enforcement and asks what will prevent needing another amnesty in five years. Lee describes exploring policy changes including checking for ECB judgments when entities apply for permits and requiring cures before permit issuance.",
+      "title": "Morano asks about strengthening enforcement infrastructure",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 727.12,
+          "text": "There was something in your testimony that really caught my attention."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 730.02,
+          "text": "You say these programs are particularly useful where the city doesn't have a strong mechanism for enforcement."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 739.12,
+          "text": "Isn't that really the underlying problem here?"
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 741.92,
+          "text": "Don't we need to look at a stronger enforcement infrastructure?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 747.82,
+          "text": "That is one of the things that we are exploring, ways that we can introduce legislation that might give us better tools in enforcement."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 756.12,
+          "text": "And we're working with several of our sister agencies in order to identify ways that we could better enforce ECB violations through legislation."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 764.52,
+          "text": "If you had a recommendation, obviously you're not necessarily a policymaker, but if you had a recommendation, what are we going to do differently after this program so we're not back here in five years passing another amnesty for exactly the same reasons?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 778.52,
+          "text": "So we are exploring a couple of different policy changes."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 781.62,
+          "text": "I'll give you one for example."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 783.72,
+          "text": "We're"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 783.92,
+          "text": "looking at convergences between those entities that are, let's say, going in for permits for one reason or another, and looking to see if they have an ECB judgment in existence."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 795.02,
+          "text": "And so we're working on a policy with several agencies to say if there is an ECB violation in place, then we should..."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 804.72,
+          "text": "We should have those entities cure those before issuing a permit."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 808.92,
+          "text": "So we are looking at different ways that we can creatively enforce on the existing population."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 814.92,
+          "text": "Thanks very much."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 816.02,
+          "text": "Councilmember Wong, followed by Brooks Powers."
+        }
+      ]
+    },
+    {
+      "end_sec": 933.532,
+      "id": "019",
+      "slug": "wong-questions-what-the-amnesty-program-actually-fixes",
+      "start_sec": 819.02,
+      "summary": "Wong asks about the $573 million collectible and $744 million uncollectible debt figures and what the program fixes that current tools have not. Lee explains the program incentivizes respondents to cure violations and that DOF is working to convert some uncollectible debt to collectible.",
+      "title": "Wong questions what the amnesty program actually fixes",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 819.02,
+          "text": "Thank you, Minority Leader."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 821.22,
+          "text": "Question, Commissioner Lee."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 823.72,
+          "text": "You mentioned that"
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 826.02,
+          "text": "The DOF has figures of $573 million in ECB debt that is collectible."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 834.42,
+          "text": "Is that right?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 835.62,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 836.12,
+          "text": "Okay, and then you already written off another $744 million as uncollectible."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 841.82,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 842.12,
+          "text": "Is that right?"
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 842.52,
+          "text": "And that is for this year?"
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 846.932,
+          "text": "Yes, as of now."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 848.332,
+          "text": "Can you explain this new amnesty program?"
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 851.032,
+          "text": "What are you fixing that your current tools have not been fixing?"
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 857.532,
+          "text": "I mean, do we have like another year from now, are we going to see the same two figures except with the numbers being different?"
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 866.032,
+          "text": "But what are you fixing?"
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 867.832,
+          "text": "Because as I see it, there will still be uncollectible debt."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 874.232,
+          "text": "So are you closing that gap?"
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 876.632,
+          "text": "What are you trying to fix?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 878.832,
+          "text": "It's addressing a number of different issues, right?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 880.432,
+          "text": "We're trying to get respondents to be responsive to their existing violations and cure them and pay the violation costs."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 890.132,
+          "text": "There will be some in the uncollectible category that might come in and say, now, okay, we will comply."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 898.332,
+          "text": "And so we are looking at different ways that we can convert some of these uncollectible fines into collectible, and which we do every once in a while when we get new information."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 909.232,
+          "text": "We find that a business had been deemed uncollectible after previous attempts to address their violations, and we find new information, we move it from the category of uncollectible to collectible."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 922.332,
+          "text": "And so we're hoping that through not only this effort,"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 926.132,
+          "text": "But the other efforts we're putting in place within the Department of Finance, they will be able to better collect into the future."
+        }
+      ]
+    },
+    {
+      "end_sec": 994.232,
+      "id": "020",
+      "slug": "wong-asks-why-program-rewards-people-who-don-t-pay-on-time",
+      "start_sec": 933.532,
+      "summary": "Wong notes most constituents pay fines on time and asks why the city keeps rewarding those who don't. Lee says the program is an occasional opportunity to cure violations, not run every year, and aims for better outcomes for the city.",
+      "title": "Wong asks why program rewards people who don't pay on time",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 933.532,
+          "text": "Okay, I'm going to follow up with that."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 936.132,
+          "text": "Weekly, I deal with constituents with fines and penalties."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 941.232,
+          "text": "Now, most of my constituents pay their fines on time."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 945.032,
+          "text": "So can you explain why we keep rewarding the people who don't pay on time, which seems that's what this is doing?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 952.832,
+          "text": "So it is an opportunity for individuals to cure their existing violations, right?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 960.632,
+          "text": "And this is one opportunity to do so."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 963.032,
+          "text": "This is not a program that we run every year."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 965.332,
+          "text": "It's a program that we come to the council for authorization because we want to use it."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 970.732,
+          "text": "We don't want to have a situation where we're running this program every single year."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 974.832,
+          "text": "With that said, it will have better outcomes."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 977.432,
+          "text": "People who have addressed their violations will likely be able to address their violations and have a better outcome for the city."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 989.132,
+          "text": "And so that is what we're hoping to do."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 992.032,
+          "text": "Okay, I have a follow-up?"
+        }
+      ]
+    },
+    {
+      "end_sec": 1031.132,
+      "id": "021",
+      "slug": "wong-asks-about-repeat-defaulters-in-the-program",
+      "start_sec": 994.232,
+      "summary": "Wong raises awareness of defendants who default multiple times and asks whether the program addresses them. Lee says the program gives small businesses a chance to cure instances and is not differentiated by offender history.",
+      "title": "Wong asks about repeat defaulters in the program",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 994.232,
+          "text": "Okay, yes."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 995.432,
+          "text": "Yes, I'm aware of defendants that default multiple times, and it seemed to me your program is not."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 1003.632,
+          "text": "Are you trying to fix those, or what are you addressing?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1007.332,
+          "text": "We're trying to fix those as well."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1008.932,
+          "text": "Those small businesses who haven't had the chance to or was unable to, this might be a way for them to cure their instances."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 1018.332,
+          "text": "Okay, thank you."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 1019.432,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 1020.532,
+          "text": "I have round two."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1021.332,
+          "text": "Second round, no problem."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1023.532,
+          "text": "Councilmember Brooks Powers."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1025.232,
+          "text": "Followed by Narcisse."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1028.432,
+          "text": "Councilmember Narcisse."
+        }
+      ]
+    },
+    {
+      "end_sec": 1108.232,
+      "id": "022",
+      "slug": "narcisse-asks-about-reasons-for-default-and-incorrect-addresses",
+      "start_sec": 1031.132,
+      "summary": "Narcisse asks why respondents default and how many defaults are due to notices going to incorrect or outdated addresses. Lee explains defaults occur for various reasons including inability to pay, inability to identify respondents, and businesses going bankrupt.",
+      "title": "Narcisse asks about reasons for default and incorrect addresses",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 1031.132,
+          "text": "Good morning, Commissioner, and thank you, Chair."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 1035.732,
+          "text": "I have a question for you."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 1038.732,
+          "text": "Sometimes I want to know why people did not pay their bill."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 1043.932,
+          "text": "So from the data you have right now,"
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 1048.132,
+          "text": "I want to know, the bill gives the most generous treatment to the false judgments, right?"
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 1053.432,
+          "text": "Why did those response defaults in the first place?"
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 1059.032,
+          "text": "And how many of those defaults do you attribute to a notice going to incorrect or outdated address?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1068.032,
+          "text": "So as indicated earlier, our current uncollectible docket is about $744 million."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1075.032,
+          "text": "And there's a number of different reasons why."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1078.032,
+          "text": "It could have been respondents were unable to pay."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1081.332,
+          "text": "We also could not have, it might be instances where we couldn't identify respondents."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1086.532,
+          "text": "And it could also be because businesses went bankrupt and they no longer exist."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1091.932,
+          "text": "And so there are a number of different reasons why people might default, but the uncollectible category includes those type of instances where businesses simply do not exist anymore, and we can't collect on an entity that no longer exists because they went bankrupt."
+        }
+      ]
+    },
+    {
+      "end_sec": 1182.232,
+      "id": "023",
+      "slug": "narcisse-asks-about-outside-collection-agencies-and-mwbe-participation",
+      "start_sec": 1108.232,
+      "summary": "Narcisse asks how many outside collection agencies are contracted with DOF and whether minority-owned businesses are used. Deputy Commissioner Hill confirms three agencies are contracted and MWBE requirements apply, though specific MWBE counts need to be confirmed.",
+      "title": "Narcisse asks about outside collection agencies and MWBE participation",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 1108.232,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 1109.632,
+          "text": "I'm going to shift a little bit here."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 1113.932,
+          "text": "How many..."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 1115.932,
+          "text": "Usually, I mean, the in-house folks do better in some instances."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 1121.632,
+          "text": "So I want to know how many current outside collection agency are contracted with DOFs to collect ECB's judgments administered?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1132.632,
+          "text": "Yes, there are currently three."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1135.732,
+          "text": "Outside agencies that are currently contracted to enforcement."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 1141.032,
+          "text": "Any structure, do you use minority-owned businesses in that category?"
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 1146.232,
+          "text": "How many you have?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1147.132,
+          "text": "Yes, I'll let our deputy commissioner answer specifics on the agencies."
+        },
+        {
+          "speaker": "Annette Hill",
+          "t_sec": 1151.232,
+          "text": "Yeah, for the contract, we do have to use minorities."
+        },
+        {
+          "speaker": "Annette Hill",
+          "t_sec": 1156.432,
+          "text": "It's sent out."
+        },
+        {
+          "speaker": "Annette Hill",
+          "t_sec": 1158.232,
+          "text": "Yes, MWB."
+        },
+        {
+          "speaker": "Annette Hill",
+          "t_sec": 1159.432,
+          "text": "Yes, we do use that."
+        },
+        {
+          "speaker": "Annette Hill",
+          "t_sec": 1160.332,
+          "text": "How many?"
+        },
+        {
+          "speaker": "Annette Hill",
+          "t_sec": 1161.232,
+          "text": "We have three collection agencies, and we do use MWB."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 1166.132,
+          "text": "How many do you have?"
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 1167.832,
+          "text": "I don't get that part."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 1169.532,
+          "text": "One, two, you have three or three minorities or one or two?"
+        },
+        {
+          "speaker": "Annette Hill",
+          "t_sec": 1174.332,
+          "text": "I don't have that data right in front of me."
+        },
+        {
+          "speaker": "Annette Hill",
+          "t_sec": 1176.632,
+          "text": "If they're all minorities, I could definitely get back to you on that."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 1179.832,
+          "text": "Okay."
+        }
+      ]
+    },
+    {
+      "end_sec": 1245.632,
+      "id": "024",
+      "slug": "narcisse-asks-about-judgment-holders-by-type",
+      "start_sec": 1182.232,
+      "summary": "Narcisse notes that in her district most ECB judgments sit with one- or two-family homeowners and small storefront businesses, and asks what share of eligible judgments are held by individual homeowners versus small businesses versus those holding 10 or more judgments. Lee says DOF can provide those statistics.",
+      "title": "Narcisse asks about judgment holders by type",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 1182.232,
+          "text": "I have some others, but it's going to take too long because I have direct, like my constituent question, I'm going to give it to you directly."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 1192.832,
+          "text": "In my district, most environmental control board judgments sit with one or two family homeowners and small storefront businesses, not large operators."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 1204.432,
+          "text": "What share?"
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 1205.432,
+          "text": "of eligibility judgments are held by individual homeowners versus small businesses versus response holding 10 or more judgments?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1217.732,
+          "text": "We can get back to you on the exact number."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1220.432,
+          "text": "Again, ECB judgment, ECB violations are"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1225.232,
+          "text": "are overseen by a number of different agencies, of which Department of Finance gets a portion of through oath-docketed judgments."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1233.532,
+          "text": "And so we can get you some of those statistics in terms of Department of Finance's side and what type of violations are upheld by what entities."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 1244.132,
+          "text": "May I ask for one clarification?"
+        }
+      ]
+    },
+    {
+      "end_sec": 1328.532,
+      "id": "025",
+      "slug": "narcisse-asks-about-in-house-collection-effectiveness",
+      "start_sec": 1245.632,
+      "summary": "Narcisse asks whether DOF in-house staff have better collection rates for certain violations. Lee describes increasing resources for the internal Alternative Enforcement Unit and a new strategy of one-on-one engagement with top violators, starting with idling violations and Amazon.",
+      "title": "Narcisse asks about in-house collection effectiveness",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 1245.632,
+          "text": "Do you see that DOF in-house staff have a better rate at collecting certain violations?"
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 1252.332,
+          "text": "If so, what kind of violations?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1254.532,
+          "text": "Well, we are right now trying to increase our in-house efforts."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1259.832,
+          "text": "Our internal alternative, not AP, our internal..."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1266.032,
+          "text": "The AEP."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1266.932,
+          "text": "AEP."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1267.732,
+          "text": "AEP, sorry."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1268.932,
+          "text": "Alternative Enforcement Unit."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1272.032,
+          "text": "We're increasing our resources for our internal AEP unit, Alternative Enforcement Unit."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1277.632,
+          "text": "And what their job is to work directly with companies to get to judgment."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1284.532,
+          "text": "This is a strategy we employed sort of starting this year."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1288.732,
+          "text": "With the idling violations."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1290.532,
+          "text": "Earlier this year, we did a close one-on-one, sort of like a"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1295.232,
+          "text": "constituent walkthrough with Amazon on the idling violations."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1299.732,
+          "text": "And that was sort of a new strategy that we utilized internally for our highest idling violation."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1305.632,
+          "text": "And we intend to do some of the similar strategies for our next set of highest violations."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1311.432,
+          "text": "And we're also increasing our legal docketing as well."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1314.932,
+          "text": "Thank you so much."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1316.732,
+          "text": "And the commissioner, if you can get us the information, the statistics that you referenced as soon as you can, that would be greatly appreciated by the committee."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1323.632,
+          "text": "Absolutely."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1324.432,
+          "text": "I will now have Deputy Speaker Williams have her questions."
+        }
+      ]
+    },
+    {
+      "end_sec": 1370.932,
+      "id": "026",
+      "slug": "williams-asks-about-dof-collection-staff-levels",
+      "start_sec": 1328.532,
+      "summary": "Deputy Speaker Williams asks how many DOF collection full-time equivalents are on staff. Deputy Commissioner Hill reports five current staff, two vacancies, and five additional posted lines, intending to reach 12.",
+      "title": "Williams asks about DOF collection staff levels",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 1328.532,
+          "text": "Thank you so much, Majority Leader and High Commissioner."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 1332.932,
+          "text": "DOF mentioned the use of several enforcement tools in the past to collect debt."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 1338.532,
+          "text": "So just a little bit of a follow-up from Council Member Narcisse."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 1342.232,
+          "text": "And I don't know if you already stated that, so I apologize."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 1345.132,
+          "text": "But how many DOF employee collection full-time equivalents are on staff?"
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1351.032,
+          "text": "Currently on staff?"
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1352.032,
+          "text": "Mm-hmm."
+        },
+        {
+          "speaker": "Annette Hill",
+          "t_sec": 1354.232,
+          "text": "In our account executive unit currently, we have five on staff, two vacancies, and we have five additional lines that we have posted to get new employees."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 1365.032,
+          "text": "So altogether, you intend to have like 10 or 12?"
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 1369.232,
+          "text": "Okay."
+        }
+      ]
+    },
+    {
+      "end_sec": 1469.632,
+      "id": "027",
+      "slug": "williams-asks-about-inter-agency-partnership-revenue-estimates",
+      "start_sec": 1370.932,
+      "summary": "Williams asks about expected revenue from initiatives like DOB permit checks, license suspensions, and targeted outreach. Lee estimates about $10 million from permitting partnerships with DOB and DOT, and $1.5 million from increased outreach, with lien conversion estimates still pending.",
+      "title": "Williams asks about inter-agency partnership revenue estimates",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 1370.932,
+          "text": "Considering the amount of debt outstanding and other resources like the marshals and sheriff's office, do you feel you have sufficient DOF employee collection staff?"
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1380.732,
+          "text": "Where we are utilizing different strategies."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1385.632,
+          "text": "In order to increase our ECB collections, one of which I explained earlier, working with our partner agencies in terms of permitting and such."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1395.732,
+          "text": "And so we are constantly working to improve and find new strategies that will help us further collect and increasing resources on our legal side."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 1409.032,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 1409.532,
+          "text": "Actually, since you mentioned that, I did have a question about the work you're doing to partner with other city agencies, a whole plethora of things, converting DOB-issued ECBs,"
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 1420.032,
+          "text": "requiring license and permit holders to satisfy ECB judgments, implementing targeted outreach."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 1425.432,
+          "text": "Do you have an estimate of how much additional revenue you expect each of these initiatives to generate in FY27?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1432.832,
+          "text": "Some we have general estimates for, some others we don't."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1435.732,
+          "text": "You mentioned ECB conversions as one of them."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1438.932,
+          "text": "That's one of the things that we are working closely with DOB on to see if we can introduce legislation for such things."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1446.232,
+          "text": "So we don't necessarily have an estimate for that one."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1448.432,
+          "text": "But for others, we do, like the partnership that we have with, let's say, like DOB and DOT with the permitting actions before permits are issued, having them cure all ECB violations."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1461.832,
+          "text": "Our initial, very preliminary estimate is something around the ballpark of like $10 million."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1466.632,
+          "text": "Yeah."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 1468.032,
+          "text": "Okay."
+        }
+      ]
+    },
+    {
+      "end_sec": 1545.124,
+      "id": "028",
+      "slug": "williams-asks-about-timeline-before-engaging-external-collection",
+      "start_sec": 1469.632,
+      "summary": "Williams asks how long DOF uses in-house resources before engaging outside agencies, marshals, or the sheriff's office. Deputy Commissioner Hill explains the account executive unit works debt for 30-60 days before referring to outside collection agencies or legal for execution.",
+      "title": "Williams asks about timeline before engaging external collection",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 1469.632,
+          "text": "Just back to the questions about whether or not you have sufficient staff."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 1473.532,
+          "text": "On average, how long does..."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 1475.432,
+          "text": "DOF tried to use your in-house resources to collect the debt before engaging external entities, whether it be outside agencies, marshal, or sheriff's office."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 1485.132,
+          "text": "So how long?"
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 1486.832,
+          "text": "Before you..."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 1488.432,
+          "text": "Engage in the outside."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 1489.932,
+          "text": "Deputy Commissioner?"
+        },
+        {
+          "speaker": "Annette Hill",
+          "t_sec": 1491.632,
+          "text": "Okay, so the debt cycles through 30 to 60 days, starting at 4."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 1496.332,
+          "text": "Sorry, can you get the mic closer to you?"
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 1498.032,
+          "text": "Thank you very much."
+        },
+        {
+          "speaker": "Annette Hill",
+          "t_sec": 1500.932,
+          "text": "Can you hear me now?"
+        },
+        {
+          "speaker": "Annette Hill",
+          "t_sec": 1503.232,
+          "text": "So it's better?"
+        },
+        {
+          "speaker": "Annette Hill",
+          "t_sec": 1504.032,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Annette Hill",
+          "t_sec": 1505.132,
+          "text": "So our account executive unit gets the debt, and it cycles through 30 to 60 days."
+        },
+        {
+          "speaker": "Annette Hill",
+          "t_sec": 1511.332,
+          "text": "It's 30 to 60 days because within that first 30 days, if we've made contact with the..."
+        },
+        {
+          "speaker": "Annette Hill",
+          "t_sec": 1517.832,
+          "text": "Taxpayer or the individual and we'll develop a relationship to get payment and get the information, we'll keep working with them."
+        },
+        {
+          "speaker": "Annette Hill",
+          "t_sec": 1525.832,
+          "text": "If we haven't made contact within that 30, 60 days, it will either move to an outside collection agency or we'll send it to legal for execution."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1537.524,
+          "text": "I'd like to acknowledge that we've been joined by Council Members Marte, Maloney, and Ressler, and Felice and Mealy on Zoom."
+        }
+      ]
+    },
+    {
+      "end_sec": 1577.524,
+      "id": "029",
+      "slug": "abreu-asks-about-evaluation-of-prior-amnesty-programs",
+      "start_sec": 1545.124,
+      "summary": "Abreu asks whether DOF has evaluated results of prior amnesty programs from 2009, 2016, and 2021. Lee says DOF has evaluated to some extent and offers to provide specific information.",
+      "title": "Abreu asks about evaluation of prior amnesty programs",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1545.124,
+          "text": "I'm going to ask now a few questions on the past amnesty programs."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1549.424,
+          "text": "Has DOF evaluated the results of prior amnesty programs, specifically those from 2009, 2016, and 2021?"
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1556.124,
+          "text": "If so, for each year, I have questions on each."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1561.324,
+          "text": "I'm sorry, the question was how much?"
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1563.624,
+          "text": "Have you evaluated the results of prior amnesty programs?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1567.124,
+          "text": "And to some extent we have evaluated those results."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1571.224,
+          "text": "I'm not sure exactly what type of evaluations you might be interested in."
+        }
+      ]
+    },
+    {
+      "end_sec": 1628.924,
+      "id": "030",
+      "slug": "abreu-asks-about-2021-program-participation-and-revenue",
+      "start_sec": 1577.524,
+      "summary": "Abreu asks about respondent participation and revenue in the 2021 program. Lee reports about 33,000 respondents participated over the six-month program, generating $33 million in the first three months and $14 million in the extension, totaling $47 million.",
+      "title": "Abreu asks about 2021 program participation and revenue",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1577.524,
+          "text": "So let me know if you have this information."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1580.024,
+          "text": "How many respondents participated during the initial 90-day period and if applicable during the extension?"
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1587.924,
+          "text": "Of those prior programs?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1590.924,
+          "text": "So in 2021, we had about 33,000 respondents participating during the six-month program."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1598.824,
+          "text": "Back then it was also a three-month and three-month."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1600.624,
+          "text": "So six months, about 33,000 respondents."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1603.324,
+          "text": "And for that year, how much revenue was generated during the initial 90-day period and if applicable during the extension?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1610.824,
+          "text": "So for 2021, it was a total of, in the first three months, it was about $33 million."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1619.524,
+          "text": "And then the following three months, it was in third extension period, $14 million for a total of..."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1625.124,
+          "text": "$47 million."
+        }
+      ]
+    },
+    {
+      "end_sec": 1683.264,
+      "id": "031",
+      "slug": "abreu-asks-about-2009-program-results-and-percentage-resolved",
+      "start_sec": 1628.924,
+      "summary": "Abreu asks about 2009 and 2016 results and what percentage of eligible judgments were resolved. Lee reports $46 million collected in 2009 and estimates about 5% of judgments were resolved, with DOB and FDNY violations having the highest success rates.",
+      "title": "Abreu asks about 2009 program results and percentage resolved",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1628.924,
+          "text": "Is there a reason why 2009 and 2016 weren't looked at?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1634.224,
+          "text": "In 2009, we have total numbers."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1636.724,
+          "text": "In 2009, we collected about 46 million."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1640.024,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1641.724,
+          "text": "What percentage of eligible judgments were resolved during each period?"
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1646.824,
+          "text": "And what percentage of those judgments resulted in corrective action to resolve compliance judgments?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1656.324,
+          "text": "I think it's 5%."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1657.424,
+          "text": "Let me just double check right now."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1659.124,
+          "text": "The judgments you said, right?"
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1660.424,
+          "text": "Yeah, take your time."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1661.124,
+          "text": "Yeah."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1662.124,
+          "text": "I believe it was 5%."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1666.164,
+          "text": "What type of ECB violations had the highest success in getting resolved through the prior amnesty programs?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1673.564,
+          "text": "Highest success in prior amnesty programs?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1676.064,
+          "text": "Set fire?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1676.964,
+          "text": "There were usually ECB violations coming from DOB and FDNY."
+        }
+      ]
+    },
+    {
+      "end_sec": 1721.476,
+      "id": "032",
+      "slug": "abreu-asks-about-default-vs-adjudicated-judgments-and-repeat-participation",
+      "start_sec": 1683.264,
+      "summary": "Abreu asks how many resolved judgments were defaults versus adjudicated and whether DOF tracks repeat participation. Deputy Commissioner Hill reports 75% were from default and 25% adjudicated. Lee says DOF has not tracked repeat participation but is willing to look into it.",
+      "title": "Abreu asks about default vs adjudicated judgments and repeat participation",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1683.264,
+          "text": "Of the judgments resolved through the program, how many were default judgments and how many were adjudicated judgments?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1690.164,
+          "text": "Default judgment, Deputy Commissioner, how do you have that?"
+        },
+        {
+          "speaker": "Annette Hill",
+          "t_sec": 1695.564,
+          "text": "There was 75% were from default and 25% were adjudicated."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1702.276,
+          "text": "Does DOF track repeat participation in ECB amnesty programs?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1707.576,
+          "text": "Oh, did you ask if there was..."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1709.576,
+          "text": "Repeat participation."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1711.176,
+          "text": "Repeat participation."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1711.976,
+          "text": "We have not tracked that, but we're happy to maybe go back and look at it."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1716.276,
+          "text": "Yeah, that would be very helpful."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1718.576,
+          "text": "Okay."
+        }
+      ]
+    },
+    {
+      "end_sec": 1758.276,
+      "id": "033",
+      "slug": "abreu-asks-about-public-outreach-plans-for-amnesty-program",
+      "start_sec": 1721.476,
+      "summary": "Abreu asks how DOF plans to notify the public about the amnesty program. Deputy Commissioner Hill describes plans for a webpage, FAQs, training materials, and coordination with outreach teams and council members.",
+      "title": "Abreu asks about public outreach plans for amnesty program",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1721.476,
+          "text": "I'm having a few questions on outreach."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1723.976,
+          "text": "How does DOF plan to notify the public that the amnesty program is available?"
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1730.176,
+          "text": "And what specific outreach is made to those qualifying for the program, if any?"
+        },
+        {
+          "speaker": "Annette Hill",
+          "t_sec": 1735.076,
+          "text": "Okay, so right now we're planning how we're going to introduce the program."
+        },
+        {
+          "speaker": "Annette Hill",
+          "t_sec": 1740.276,
+          "text": "So we're working on our webpage."
+        },
+        {
+          "speaker": "Annette Hill",
+          "t_sec": 1742.576,
+          "text": "We're working on FAQs for our webpage."
+        },
+        {
+          "speaker": "Annette Hill",
+          "t_sec": 1745.176,
+          "text": "We're also working on training materials."
+        },
+        {
+          "speaker": "Annette Hill",
+          "t_sec": 1747.576,
+          "text": "We'll have the training for the council, training for in-house, and we also will work with our outreach team to bring that information out to the different council members and their..."
+        }
+      ]
+    },
+    {
+      "end_sec": 1857.5,
+      "id": "034",
+      "slug": "abreu-asks-about-multi-agency-coordination-and-advertising",
+      "start_sec": 1758.276,
+      "summary": "Abreu asks whether there will be coordinated multi-agency outreach similar to prior programs and whether DOF will advertise through other agencies' websites. Lee confirms DOF will use all communication methods and work with partner agencies. Abreu also asks about proactive outreach to small businesses and eligibility assistance, which Lee says DOF can explore.",
+      "title": "Abreu asks about multi-agency coordination and advertising",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1758.276,
+          "text": "Yeah, the committee is aware that prior amnesty programs included multiple agencies involvement in implementation, including DOF, Environmental Control Board, the Mayor's Office of Operations, Law Department, and issuing agencies within the project implementation team."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1774.476,
+          "text": "Would there be a similar coordinated project implementation outreach for this current program?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1779.276,
+          "text": "Yes, we will use all communication methods with"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1783.476,
+          "text": "news outlets with all elected officials and outreach teams at the different and impacted agencies."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1790.176,
+          "text": "To ensure that we have success in the program."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1792.376,
+          "text": "Is DOF planning to advertise the ECB amnesty program through other city agencies'websites as well that issue ECB violations for example?"
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1800.0,
+          "text": "For example, Department of Buildings, Department of Sanitation, DOT, et cetera."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1803.3,
+          "text": "We are constantly working with our partner agencies, and we'll continue to do so."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1808.6,
+          "text": "Will DOF proactively reach out to small businesses with outstanding ECB judgments that may benefit from the program?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1817.0,
+          "text": "We can explore that."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1820.4,
+          "text": "We can explore ways that we can directly reach out to constituents."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1825.0,
+          "text": "Will DOF provide assistance to respondents in determining whether their judgments are eligible for the program?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1830.7,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1831.6,
+          "text": "That is something we do for all of the customers that come in through the Department of Finance."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1835.6,
+          "text": "And at the moment, do you have a projected cost to notify the public of the program?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1840.5,
+          "text": "We don't have a projected cost."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1841.9,
+          "text": "We are all working internally with our budgeted figures."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1845.6,
+          "text": "Whenever you get that information, it will be great."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1847.9,
+          "text": "You can pass that along to the committee."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1850.6,
+          "text": "I will now go to the second round of questions."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1852.5,
+          "text": "One second."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1853.6,
+          "text": "Beginning with Council Member Ressler."
+        }
+      ]
+    },
+    {
+      "end_sec": 2089.628,
+      "id": "035",
+      "slug": "restler-proposes-day-fines-model-tied-to-income-levels",
+      "start_sec": 1857.5,
+      "summary": "Councilmember Restler commends Commissioner Lee's responsiveness and advocates for a day fines model where fine amounts are tied to income levels, arguing it would improve both revenue collection and deterrence. Lee says DOF is open to discussing the idea.",
+      "title": "Restler proposes day fines model tied to income levels",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1857.5,
+          "text": "Thank you so much."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1858.8,
+          "text": "I'm a little nervous to call you Chair Abreu, but I'll do it anyway."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1865.2,
+          "text": "We miss our finance chair, but thank you for stepping in, Majority Leader."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1870.3,
+          "text": "And I just want to say, Commissioner, it's always good to see you."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1873.6,
+          "text": "We miss you very much."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1874.9,
+          "text": "I miss you guys too."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1876.4,
+          "text": "And I have to just say I appreciate how impressively responsive you are."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1880.8,
+          "text": "Whenever there's an issue with the Department of Finance, you pick up the phone, you call, you try to work through solutions with us."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1887.1,
+          "text": "I know these last couple weeks have been bumpy, but I'm very grateful."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1890.3,
+          "text": "for your proactive and clear communication and your partnership."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1895.0,
+          "text": "And I really just want to commend you for that."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1898.9,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1902.3,
+          "text": "I'm grateful that we're moving forward on the amnesty program, and I think it's a noble thing and hopefully a way that we can generate some additional revenue for the city and help people get up to date on what they owe."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1917.8,
+          "text": "I've long been a big champion of the Day Finds model."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1921.9,
+          "text": "Which one?"
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1922.2,
+          "text": "The Day Finds model."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1925.1,
+          "text": "That Councilmember Brannon and others, I think actually this started as a Corey Johnson idea, that Councilmember Brannon took over and I think I have the bill now, I should know, whatever."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1939.0,
+          "text": "Oath has always hated it and they've always claimed that it's very challenging."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1943.7,
+          "text": "So the premise of the idea is that"
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1948.3,
+          "text": "For some people who are extraordinarily wealthy, a modest fine is a rounding error, and they don't care, and they'll pay it 100 times over, and it doesn't matter."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1957.1,
+          "text": "And for some people who are extremely low income, a modest fine causes enormous difficulties in their lives."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1964.1,
+          "text": "And if we were to create a pilot that..."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1968.3,
+          "text": "Looked at income levels to inform what people could pay, it might actually be helpful in the city consistently collecting the revenue that we're owed and us"
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1980.1,
+          "text": "setting fines at a level that might actually deter bad behavior and improve conditions around the city of New York."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1987.6,
+          "text": "Is this an idea that you've considered?"
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1989.6,
+          "text": "Have you looked at this legislation previously?"
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 1993.9,
+          "text": "Is it something you'd be open to exploring together?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1996.1,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 1996.7,
+          "text": "So I have not specifically thought about this issue."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2001.5,
+          "text": "I have heard about the programmatic model, but we're open to always discussing any new ideas that anybody in the council or anyone else might have on new policy ideas."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2011.4,
+          "text": "We're always open to that."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2012.6,
+          "text": "Great."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2013.7,
+          "text": "Well, we would love to explore that with you together."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2015.5,
+          "text": "Othe's always kind of claimed over, I guess, multiple administrations, at least de Blasio and Adams, that it would be very challenging to..."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2024.3,
+          "text": "Confirm the income levels of the individuals, and that makes the implementation challenging."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2031.4,
+          "text": "We've suggested you would just affirm it yourself, what your income level is when you are paying."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2038.3,
+          "text": "But we thought it would be, we really think this is an overdue idea."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2041.4,
+          "text": "The amnesty approach is one approach."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2043.2,
+          "text": "We think this is actually a more sustainable model that would work better to not just collect revenue, but to improve behavior and conditions around the city of New York."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2050.4,
+          "text": "We're happy to discuss."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2051.3,
+          "text": "Thank you very much, and thank you, Chair, for the time."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2053.3,
+          "text": "Thank you, Chair Lee."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2054.1,
+          "text": "Do you have questions on Zoom at the moment?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2059.528,
+          "text": "12 hours behind us."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2065.928,
+          "text": "Shirley, are you there?"
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 2067.728,
+          "text": "I'm here."
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 2068.228,
+          "text": "Sorry."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2069.328,
+          "text": "You're okay."
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 2070.028,
+          "text": "I'm good."
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 2070.828,
+          "text": "Yeah."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2071.328,
+          "text": "You have questions?"
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 2075.128,
+          "text": "No, no, no."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2075.928,
+          "text": "All right."
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 2076.328,
+          "text": "Oh, you're saying because while we have quorum."
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 2077.728,
+          "text": "No, no, no."
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 2078.028,
+          "text": "I'm good."
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 2078.428,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 2079.728,
+          "text": "All right."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2080.928,
+          "text": "You got it."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2081.628,
+          "text": "I'll now turn it over to Councilmember Morano, followed by Wong."
+        }
+      ]
+    },
+    {
+      "end_sec": 2179.164,
+      "id": "036",
+      "slug": "morano-questions-the-25-million-revenue-projection",
+      "start_sec": 2089.628,
+      "summary": "Morano asks how DOF arrived at the $25 million budget projection and what participation rate it requires. Lee says it is an initial projection that will be updated, and notes DOF traditionally collects $75-80 million annually, with $88 million collected in FY2026.",
+      "title": "Morano questions the $25 million revenue projection",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 2089.628,
+          "text": "Thank you, Majority Leader."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 2091.328,
+          "text": "Commissioner, one thing that jumped out at me after seeing your testimony,"
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 2095.828,
+          "text": "is the adopted budget assumes $25 million from this program."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 2101.828,
+          "text": "How did you arrive at $25 million?"
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 2103.828,
+          "text": "I'm just wondering if that's a conservative estimate, a target, or something else."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2110.028,
+          "text": "It's an initial projection."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2112.428,
+          "text": "It's an initial projection of what is anticipated from this program."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2116.928,
+          "text": "But as we go through the program, those revenue figures will be updated by the time we get through, like, November, preliminary and executive plans."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 2125.828,
+          "text": "So what participation rate does that assumption require?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2132.664,
+          "text": "We can get back to you on that one, on the participation rate."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 2135.864,
+          "text": "So one distinction I'd like to understand of that projected $25 million, how much represents money you believe the city would have collected anyway without amnesty?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2148.864,
+          "text": "We can follow up on those figures right now."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2152.464,
+          "text": "Besides the $25 million, so including the $25 million, we have currently projected $100.76 million, right?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2160.364,
+          "text": "So traditionally, we are collecting just around the $75 to $80 million mark."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2167.864,
+          "text": "For 2006, we collected $88 million."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2170.864,
+          "text": "So it is in line with our past collection efforts."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2174.864,
+          "text": "26 was at $88 million."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2176.364,
+          "text": "So it is above what we normally collect."
+        }
+      ]
+    },
+    {
+      "end_sec": 2232.364,
+      "id": "037",
+      "slug": "morano-asks-about-compliance-verification-before-granting-amnesty",
+      "start_sec": 2179.164,
+      "summary": "Morano asks how DOF will verify corrections before granting financial benefits and whether someone could receive the discount first and fail to correct afterward. Lee confirms the issuing agency certifies compliance and that compliance must occur before amnesty is granted.",
+      "title": "Morano asks about compliance verification before granting amnesty",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 2179.164,
+          "text": "I was very pleased to see in your testimony that violations requiring correction actually have to be resolved."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 2185.264,
+          "text": "I think that's an important safeguard, and I'm glad that it's in there."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 2188.964,
+          "text": "How will the Department of Finance verify the correction before granting the financial benefit?"
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 2195.164,
+          "text": "Are you relying on the issuing agency to certify the compliance, or is there something else?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2199.864,
+          "text": "Yes, it is the issuing agency that we'll be working with in terms of compliance."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2206.264,
+          "text": "And it is a program you have to..."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2208.664,
+          "text": "Comply in order to receive the program."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2210.564,
+          "text": "So it is a specific thing that we have."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 2213.164,
+          "text": "So could you have a situation, and it sounds like the answer is no, but I just want to be clear, where somebody receives the discount first and"
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 2220.864,
+          "text": "and then fails to complete the correction afterward, or must compliance occur before the amnesty is granted?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2226.864,
+          "text": "Yes, the answer is no."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2228.264,
+          "text": "They have to comply first."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2231.064,
+          "text": "Gotcha."
+        }
+      ]
+    },
+    {
+      "end_sec": 2320.064,
+      "id": "038",
+      "slug": "morano-questions-idling-exclusion-and-need-based-relief-principle",
+      "start_sec": 2232.364,
+      "summary": "Morano notes that excluding idling violations because recipients are logistics companies implies need is a factor, and asks why that principle isn't applied more broadly to differentiate between multinational corporations and small businesses. Lee explains various exclusion categories but says the program is applied equally across eligible violations.",
+      "title": "Morano questions idling exclusion and need-based relief principle",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 2232.364,
+          "text": "My last question."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 2235.564,
+          "text": "You execute, in your testimony, you specifically say that idling violations are excluded because you guys want to hold bad actors accountable."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 2247.564,
+          "text": "So you exclude idling violations partly because the recipients tend to be logistics companies that you say are less in need of amnesty."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 2256.764,
+          "text": "So need is apparently a factor in deciding who gets relief."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 2262.464,
+          "text": "If that's the case, why not apply that principle more broadly?"
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 2266.264,
+          "text": "Why should a multinational corporation and a neighborhood pizzeria receive the same percentage reduction?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2272.764,
+          "text": "So there are a number of reasons why a entity might not be able to participate in the program."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2280.864,
+          "text": "If it was included in an agreement with, let's say, this sheriff's office or city marshal before court counsel, or an execution has been issued before..."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2294.764,
+          "text": "Upon the sheriff's office or violation being converted to tax lien or violation subject to criminal investigation, there are a number of violations that will not be participating in the ECB amnesty program."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2308.764,
+          "text": "Idling is one of the ones."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2312.464,
+          "text": "that will not be participating in the MNC program."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2318.664,
+          "text": "Councilmember Wong."
+        }
+      ]
+    },
+    {
+      "end_sec": 2435.964,
+      "id": "039",
+      "slug": "wong-asks-about-low-collection-rate-and-its-causes",
+      "start_sec": 2320.064,
+      "summary": "Wong notes DOF collected $88 million out of $573 million collectible and asks what contributes to this low rate. Lee explains respondents sometimes cannot be identified or businesses no longer exist, and describes efforts to recategorize uncollectible debt and employ new strategies.",
+      "title": "Wong asks about low collection rate and its causes",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 2320.064,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 2320.464,
+          "text": "Majority leader."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 2322.764,
+          "text": "Commissionally, I believe you just testified that in fiscal year 2026, you collected $88 million in ECB debt."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2333.664,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 2334.164,
+          "text": "So is it fair to say?"
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 2336.464,
+          "text": "That out of the $573 million that's potentially collectible, you may only be able to collect $88 million in the coming year without this program?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2350.364,
+          "text": "We are hopeful that it will be greater than that once we build in some of our partnerships."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2356.564,
+          "text": "With the other city agencies that implement additional strategies."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2359.564,
+          "text": "But right now, as of 2026, for fiscal year 2026, DOF collected $88 million."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 2365.864,
+          "text": "So can you talk about what contributes to this low rate of collection?"
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 2372.864,
+          "text": "Yeah."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 2374.364,
+          "text": "Let's not talk about the program for a minute."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 2376.464,
+          "text": "Look at your existing issues."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2378.164,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 2378.664,
+          "text": "Please talk about why you're only able to collect such a low rate."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2383.564,
+          "text": "And sometimes it's because respondents cannot be identified."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2387.564,
+          "text": "Sometimes it's because respondents no longer exist."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2390.664,
+          "text": "Or businesses no longer exist, we have a period in which we outreach to them, and then we have a period in which our outside collection agencies reach out to them."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2399.664,
+          "text": "But after that,"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2401.264,
+          "text": "It is deemed uncollectible."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2403.064,
+          "text": "And so we are right now going back into the uncollectible category to see if it could recategorize as collectible."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2411.164,
+          "text": "And we're trying to increase efforts to do better collections internally by employing new strategies and working with our partner agencies."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 2422.064,
+          "text": "So it seems to me outreach is a big issue."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 2425.564,
+          "text": "Like for businesses that you no longer hear from."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2430.364,
+          "text": "It could be a issue, yes."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 2433.164,
+          "text": "I see."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 2433.664,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 2434.464,
+          "text": "All right."
+        }
+      ]
+    },
+    {
+      "end_sec": 2560.864,
+      "id": "040",
+      "slug": "wong-asks-about-repeat-offenders-and-hardship-standards",
+      "start_sec": 2435.964,
+      "summary": "Wong asks what stops a repeat offender with multiple default judgments from using the program the same way as someone with one honest mistake, and suggests a hardship standard to separate struggling homeowners from chronic violators. Lee says the program does not differentiate and is applied equally to all eligible violations.",
+      "title": "Wong asks about repeat offenders and hardship standards",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 2435.964,
+          "text": "Here's my question."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 2436.764,
+          "text": "Sorry."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 2436.964,
+          "text": "Yeah."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 2437.664,
+          "text": "How could you..."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 2440.464,
+          "text": "I'm aware of repeated offenders with several default judgments."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 2446.764,
+          "text": "They're in every district."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 2447.864,
+          "text": "They're certainly in my district, and I know who they are."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 2450.064,
+          "text": "So my question is, what is stopping a repeated offender with several default judgments from walking through this program that you're proposing in the exact same way as someone with one honest mistake?"
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 2464.864,
+          "text": "I mean, I don't see..."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 2466.964,
+          "text": "Anything in this bill that would distinguish them?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2469.164,
+          "text": "No, we are not differentiating."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2470.664,
+          "text": "We want to ensure that all respondents have an opportunity to cure their existing violations."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2477.964,
+          "text": "We want better outcomes for individuals and the city."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2480.964,
+          "text": "And so we are not specifically"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2484.064,
+          "text": "you know, separating or congregating or, you know, doing anything other than implementing a program if a violation is outlawed."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2490.864,
+          "text": "eligible and to cure the actual violation in hand, then they will be eligible for the amnesty program."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 2496.564,
+          "text": "Yeah."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 2496.864,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 2497.064,
+          "text": "I want to follow up."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 2498.664,
+          "text": "Can I have a follow up?"
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2499.964,
+          "text": "Yeah, your time is still going."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2501.164,
+          "text": "Okay, thank you."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2502.264,
+          "text": "You have more time."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2502.964,
+          "text": "Go ahead."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 2503.164,
+          "text": "See, this is what I find disturbing because you're giving people a second chance."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 2507.864,
+          "text": "All right, fine."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 2508.764,
+          "text": "But there shouldn't be some kind of a hardship standard."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 2511.864,
+          "text": "So we're not putting struggling homeowners in the same category as a landlord who's racking up violations for years and just decided not to pay."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 2521.264,
+          "text": "So can you talk about that?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2522.864,
+          "text": "I mean, we, again, are producing a program in which if the violation is docketed with Department of Finance, then they have an opportunity to cure those violations."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2533.264,
+          "text": "And then receive a portion of their fines reduced."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2538.064,
+          "text": "Right now we are not separating out between bad actors who you might see as bad actors or ones that are getting their judgments for the first time."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2547.664,
+          "text": "We are just implementing a program that's equal across the board so that if you cure your violations, which is the"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2554.364,
+          "text": "outcome that we're hoping to see here, then you'll be able to reduce your fines."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2559.464,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 2559.964,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 2560.364,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 2747.964,
+      "id": "041",
+      "slug": "narcisse-discusses-early-outreach-and-constituent-exemption-case",
+      "start_sec": 2560.864,
+      "summary": "Narcisse praises DOF's relationship with her office, asks about helping people pay from the start rather than waiting for amnesty, and raises a constituent case of a disabled homeowner whose exemption renewal was allegedly lost. Lee offers to look into the case offline through the tax exemptions unit.",
+      "title": "Narcisse discusses early outreach and constituent exemption case",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2560.864,
+          "text": "Councilmember Narcisse?"
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 2563.664,
+          "text": "Commissioner again, Commissioner Lee."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 2566.664,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 2567.064,
+          "text": "And I have to start by saying thank you."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 2568.964,
+          "text": "We have great relationship in my office."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 2570.964,
+          "text": "Your agency been coming and I appreciate that."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 2575.164,
+          "text": "So I'm not against amnesty."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 2577.864,
+          "text": "As a business person, I love the idea, but I'm thinking."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 2580.864,
+          "text": "Bye."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 2581.764,
+          "text": "How we can help folks to pay the bills from the get-go instead of reaching to a point where we have so much money out and then we're trying to hire people, we're trying to get the money, and it's great."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 2595.264,
+          "text": "So what really inspired the whole process for us to have that bill in front of us?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2600.464,
+          "text": "Well, so one of the things that we are actually trying to improve is the outreach at the get-go, right?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2607.564,
+          "text": "Instead of waiting, let's say, X amount of weeks, days, weeks, months, we're trying to increase the"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2615.064,
+          "text": "outreach into the respondents at a very early stage because in the past, it's found that once we reach out to them on the early stages, then they're"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2624.864,
+          "text": "more highly likely to actually address their violation because it's still very fresh."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2631.364,
+          "text": "So, you know, that is one of the things that we are going to improve over the next couple of years."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2636.264,
+          "text": "That's actually one very specific thing we're doing."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 2639.764,
+          "text": "I love it because once the person, oh, that's the time to catch them and make a deal with them."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 2645.864,
+          "text": "I don't like to use that word, but make an arrangement with them."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 2649.464,
+          "text": "And so they can pay the bill."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2650.764,
+          "text": "Yeah, and that is a change that we are putting in."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 2652.464,
+          "text": "Yeah, I'm all for that."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 2654.364,
+          "text": "And I'm hoping that we can come to a point, too, for those folks that are driving in our street to be paying their tickets."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 2661.964,
+          "text": "And some of them are plates that I cannot even read myself."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 2665.664,
+          "text": "They're missing numbers."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 2666.964,
+          "text": "But that's another story."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 2668.364,
+          "text": "We should have that conversation because it's ridiculous."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 2672.264,
+          "text": "Separate from this bill."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 2674.464,
+          "text": "And elderly homeowners, I'm taking it to my district, sorry."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 2679.064,
+          "text": "I mean, in my district, mailed his disabled homeowners exemption renewal in March."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 2686.764,
+          "text": "DOF says he was never received."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 2689.864,
+          "text": "We have proof of mailing."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 2691.664,
+          "text": "DOF says it is waiting on the tax commission."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 2695.964,
+          "text": "What is the process for restoring his exemption for 2026, 2027?"
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 2701.364,
+          "text": "Because he really in need for it."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 2704.364,
+          "text": "What can my office do?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2705.664,
+          "text": "Yeah, so we're happy to talk offline if you give me the constituent's information."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2709.864,
+          "text": "It goes through our tax exemptions unit."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2712.964,
+          "text": "And so if you give us this information, we're happy to kind of go back and see what communication, you know, our tax exemption unit should be in conversation."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2723.264,
+          "text": "And I think what's happening is they're trying to challenge the initial judgment from the exemptions, which is what the tax commission is for, right, is to appeal DOF decisions."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2733.064,
+          "text": "So we're happy to take a look offline if you give us the constituent information."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 2737.464,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 2738.164,
+          "text": "Being a nurse, you know, whenever I have disabled folks and I have a few questions, I'm not going to keep it because I know chair want to finish the time."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 2745.464,
+          "text": "My time is up."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 2746.164,
+          "text": "Thank you so much."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2746.964,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 2799.464,
+      "id": "042",
+      "slug": "abreu-asks-about-fy26-collections-and-judgment-settlement-program",
+      "start_sec": 2747.964,
+      "summary": "Abreu asks how much DOF collected in FY2026 and what percentage of ECB judgments are collected through the judgment settlement program. Lee reports $88 million collected and about 33% through the judgment settlement program.",
+      "title": "Abreu asks about FY26 collections and judgment settlement program",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2747.964,
+          "text": "Thank you so much, Councilwoman."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2751.064,
+          "text": "In March 2026, DOF announced a 30-day review of its efforts to collect outstanding ECB judgment debt and stated that, as of October 2024,"
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2761.364,
+          "text": "Approximately $573 million in ECB judgment debt was identified as potentially collectible, while approximately $744 million was deemed uncollectible."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2772.464,
+          "text": "DOF also projected collecting $70.1 million in fiscal year 26 and indicated that additional collection efforts could increase collections beyond that amount."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2782.064,
+          "text": "How much did DOF collect for FY 2026?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2784.864,
+          "text": "So for 26, we ended up collecting $88 million."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2789.264,
+          "text": "What percentage of the ECB judgments are collected through the judgment settlement program?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2794.864,
+          "text": "Through the judgment settlement program, about a third, 33%."
+        }
+      ]
+    },
+    {
+      "end_sec": 2840.864,
+      "id": "043",
+      "slug": "abreu-asks-about-current-debt-estimates",
+      "start_sec": 2799.464,
+      "summary": "Abreu asks whether the $573 million collectible and $744 million uncollectible estimates are still current. Lee confirms those figures remain the current estimates.",
+      "title": "Abreu asks about current debt estimates",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2799.464,
+          "text": "Does DOF still estimate that approximately $573 million outstanding judgment debt is potentially collectible and $744 million uncollectible?"
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2811.364,
+          "text": "If not, what is the department's current estimate?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2814.464,
+          "text": "So that is the current estimate."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2816.864,
+          "text": "And again, debt is considered uncollectible for a number of different reasons, including businesses and respondents who were not able to be identified or contacted."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2828.664,
+          "text": "And again, it could be because businesses went out of business and we are no longer able to."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2835.064,
+          "text": "Contact them and receive these collections."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2837.064,
+          "text": "So the estimate is about the same still?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2838.664,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2839.464,
+          "text": "That is our current estimate."
+        }
+      ]
+    },
+    {
+      "end_sec": 2874.364,
+      "id": "044",
+      "slug": "abreu-asks-about-criteria-for-deeming-judgments-uncollectible",
+      "start_sec": 2840.864,
+      "summary": "Abreu asks what criteria DOF uses to deem ECB judgments uncollectible. Deputy Commissioner Hill explains cases that have cycled through all three outside collection agencies without collection, as well as deceased individuals and bankrupt businesses, are considered uncollectible.",
+      "title": "Abreu asks about criteria for deeming judgments uncollectible",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2840.864,
+          "text": "DOF indicated, actually I have another question."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2843.464,
+          "text": "What are the criteria used by DOF to deem the ECB judgments uncollectible?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2848.364,
+          "text": "Our deputy commissioner can answer our uncollectible."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2851.264,
+          "text": "Categories?"
+        },
+        {
+          "speaker": "Annette Hill",
+          "t_sec": 2852.164,
+          "text": "Okay, so cases that has gone through three collection agencies, they cycle through all three collection agencies and there's no collection has been done and no information has been gotten on them."
+        },
+        {
+          "speaker": "Annette Hill",
+          "t_sec": 2865.164,
+          "text": "Sometimes it involves deceased individuals or people who are bankrupt and the business is no longer operating."
+        },
+        {
+          "speaker": "Annette Hill",
+          "t_sec": 2871.464,
+          "text": "Those are what's considered uncollectible."
+        }
+      ]
+    },
+    {
+      "end_sec": 2988.564,
+      "id": "045",
+      "slug": "abreu-asks-about-revenue-from-innovative-collection-strategies",
+      "start_sec": 2874.364,
+      "summary": "Abreu asks about expected revenue from permit enforcement partnerships, lien conversions, and targeted outreach. Lee estimates $10 million from permitting partnerships, $1.5 million from outreach, and says lien conversion estimates are pending discussions with DOB on scope.",
+      "title": "Abreu asks about revenue from innovative collection strategies",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2874.364,
+          "text": "DOF indicated that the department is pursuing innovative and targeted strategies to expand collections, including partnering with the Department of Buildings and the Department of Transportation to enforce license and permit suspensions,"
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2885.964,
+          "text": "requiring licensees and permit holders to satisfy outstanding ECB judgment debt before applying for or renewing credentials."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2893.764,
+          "text": "Two, converting DOB-issued ECB judgments into property liens to strengthen enforcement and improve recovery rates."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2900.864,
+          "text": "And three, implementing targeted outreach efforts, including specialized mailings to encourage payment and increase compliance."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2908.064,
+          "text": "How much additional revenue does DOF expect each of these initiatives to generate in FY27?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2914.764,
+          "text": "So, again, we are constantly trying to improve and working with our city agencies, sister agencies, in order to improve some of the collections."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2923.664,
+          "text": "And we've been in constant communication with them."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2926.064,
+          "text": "The efforts that we have with, like, DOT and DOB in terms of, like, permitting, our early estimate is about $10 million."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2934.164,
+          "text": "Our increased outreach efforts we think will yield an additional $1.5 million."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2940.864,
+          "text": "In terms of the lien conversions, that is something that we are in constant contact with DOB on and a legislative route that we are currently seeing if it's a viable option or not."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2952.064,
+          "text": "So we don't necessarily have an estimate for that, but we are trying to figure out what could be done right now."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2959.164,
+          "text": "And when do you think you can get an estimate on the lean conversions?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2963.064,
+          "text": "We're working with the Department of Buildings on the scope."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2966.364,
+          "text": "And once you figure out the scope, I think it will give us a better understanding of what is convertible and what's not."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2972.464,
+          "text": "Once you figure out the scope and what makes sense."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2974.664,
+          "text": "Yeah, like scope of violations, what makes sense, how long, what's dockable, what's not."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2979.164,
+          "text": "Sort of once we get a little bit more into the details with DOB is when we'll figure it out."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2984.164,
+          "text": "And you can share that with us."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2985.264,
+          "text": "Yes, yes."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 2985.964,
+          "text": "Great."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2986.864,
+          "text": "Sounds great."
+        }
+      ]
+    },
+    {
+      "end_sec": 3051.864,
+      "id": "046",
+      "slug": "abreu-asks-about-definition-of-worst-offenders",
+      "start_sec": 2988.564,
+      "summary": "Abreu asks how DOF defines worst offenders, how many fall into that category, and the total debt associated with them. Lee explains that idling violations, judgments in criminal action, and those with sheriffs or marshals are excluded from amnesty, and DOF can explore additional exclusion categories.",
+      "title": "Abreu asks about definition of worst offenders",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2988.564,
+          "text": "The announcement stated that DOF intends to prioritize collection of debt from the city's worst offenders."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2995.464,
+          "text": "How does DOF define worst offenders?"
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2998.664,
+          "text": "How many respondents fall into that category?"
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3001.464,
+          "text": "And what is the total outstanding ECB judgment debt associated with those respondents?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 3006.464,
+          "text": "So worst offenders, we're using a little generally, but the idling violations will not be part of the amnesty program."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 3013.764,
+          "text": "I indicated earlier some judgments that are going through, let's say, criminal action or the sheriffs or marshals will not be eligible."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 3021.264,
+          "text": "So there are a number of violations that will not be eligible for the ECB amnesty program."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3026.264,
+          "text": "Are you contemplating additional types of respondents that should not be eligible?"
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3030.964,
+          "text": "At the moment?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 3031.864,
+          "text": "We can look at additional and see if there are additional categories that we can include or exclude, I guess, from the amnesty program."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 3040.864,
+          "text": "We're happy to have those conversations."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3042.364,
+          "text": "And it's fair to say those offenders will not be eligible to participate in the amnesty program, correct?"
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3047.264,
+          "text": "All right."
+        }
+      ]
+    },
+    {
+      "end_sec": 3152.364,
+      "id": "047",
+      "slug": "abreu-asks-about-enforcement-tools-and-collection-staff-sufficiency",
+      "start_sec": 3051.864,
+      "summary": "Abreu asks about DOF collection FTEs and whether the number is sufficient. Deputy Commissioner Hill reports five current staff with plans to reach 12. Lee says DOF will work with available resources and use new staff for one-on-one outreach through the Alternative Enforcement Unit.",
+      "title": "Abreu asks about enforcement tools and collection staff sufficiency",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3051.864,
+          "text": "And my last set of questions are on enforcement tools, and then I'll have exhausted my questions, unless someone else has any other questions."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3060.964,
+          "text": "DOF mentioned the use of several enforcement tools in the past to collect on ECB debt currently."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3068.364,
+          "text": "How many DOF-employed collection full-time equivalents are on staff?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 3074.464,
+          "text": "The full-time equivalents, could you give that?"
+        },
+        {
+          "speaker": "Annette Hill",
+          "t_sec": 3077.464,
+          "text": "There are currently five full-time in our account executive unit."
+        },
+        {
+          "speaker": "Annette Hill",
+          "t_sec": 3081.564,
+          "text": "As I mentioned before, we have vacancies and postings, so we expect to have 12 by the time we do a hire."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3087.964,
+          "text": "And do you consider that to be a sufficient number?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 3091.964,
+          "text": "We're going to work with the resources that we have."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 3094.664,
+          "text": "It is an increase for us, and we're going to use those staff to do the one-on-one expanded sort of outreach, especially for our AEU unit, our alternative enforcement unit,"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 3108.164,
+          "text": "that will talk to and guide the highest violations."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3114.564,
+          "text": "Considering the amount..."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3115.964,
+          "text": "Oh, my volume went up."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3116.964,
+          "text": "I know."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3118.064,
+          "text": "That's why I caught myself in the middle."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3119.264,
+          "text": "It kind of surprised me."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3120.364,
+          "text": "Considering the amount..."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3120.964,
+          "text": "the amount of debt outstanding and other resources like the marshals and sheriff's office, I guess I am repeating the question."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3129.964,
+          "text": "Do you feel like you have sufficient DOF collection staff and you say you work with the resources you have?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 3134.264,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3135.064,
+          "text": "Spoken like a true politician commissioner."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 3136.764,
+          "text": "We believe it is sufficient and we're going to work through and improve all the ECP collections."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 3142.164,
+          "text": "To make them be more respondent."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3145.264,
+          "text": "And I'm sure you can do more with more, right?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 3147.564,
+          "text": "I think everybody would say they can always do more with more."
+        }
+      ]
+    },
+    {
+      "end_sec": 3193.264,
+      "id": "048",
+      "slug": "abreu-asks-about-outside-agencies-and-sheriff-s-enforcement-plan",
+      "start_sec": 3152.364,
+      "summary": "Abreu asks how many outside collection agencies are contracted and about the sheriff's action plan for ECB judgments. Lee confirms three outside agencies. Deputy Commissioner Hill explains referrals to legal for marshal execution when bank account information is available.",
+      "title": "Abreu asks about outside agencies and sheriff's enforcement plan",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3152.364,
+          "text": "How many current outside collection agencies are contracted with DOF to collect ECB judgments administered?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 3158.664,
+          "text": "ECB judgments specifically, we have three outside collection agencies."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3162.664,
+          "text": "Can you explain the city sheriff's and deputy's action plan to enforce ECB judgments?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 3168.164,
+          "text": "So their action plans to enforce?"
+        },
+        {
+          "speaker": "Annette Hill",
+          "t_sec": 3172.864,
+          "text": "I don't have an action plan for them, but I will tell you when we will refer."
+        },
+        {
+          "speaker": "Annette Hill",
+          "t_sec": 3179.164,
+          "text": "Once we have information, bank account information, we'll refer them to the legal department for the marshals to do an execution on the outstanding judgment."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3190.364,
+          "text": "All right, one last question to wrap up this part of the hearing."
+        }
+      ]
+    },
+    {
+      "end_sec": 3254.364,
+      "id": "049",
+      "slug": "wong-asks-about-proactive-outreach-to-small-businesses",
+      "start_sec": 3193.264,
+      "summary": "Wong raises concerns that putting information on a website is insufficient for people who don't check websites and asks whether DOF will proactively reach out to small businesses with outstanding ECB judgments. Lee says DOF will use all forms of outreach to connect with eligible respondents.",
+      "title": "Wong asks about proactive outreach to small businesses",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3193.264,
+          "text": "Council Member Wong."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3194.464,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 3195.964,
+          "text": "My last issue is outreach because putting this in a website, you know, is not enough, especially for people that don't check on websites."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 3204.864,
+          "text": "They just automatically, you know, they get automatically deducted from their bank accounts and just get an email."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 3210.864,
+          "text": "So my question to you is, will Department of Finance, if this program"
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 3217.264,
+          "text": "gets approved, voted on, will Department of Finance proactively reach out to small businesses with these outstanding ECB judgments that may benefit from the program?"
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 3228.464,
+          "text": "If we have the means to connect."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 3231.464,
+          "text": "With the existing pool of ECB violation individuals, we're more than happy to do that in one form or another."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 3240.064,
+          "text": "Yes, because as I see it now, they will never know about it."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 3243.664,
+          "text": "They might not know about it, you're right."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 3244.664,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 3245.264,
+          "text": "So we will, again, we're going to utilize all forms of outreach in order to get respondents to participate."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 3252.664,
+          "text": "Okay, thank you."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 3253.564,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 3326.576,
+      "id": "050",
+      "slug": "abreu-excuses-dof-panel-and-opens-public-testimony",
+      "start_sec": 3254.364,
+      "summary": "Abreu thanks the DOF witnesses and excuses the panel, then opens the floor for public testimony and provides instructions for members of the public on how to testify and submit written statements.",
+      "title": "Abreu excuses DOF panel and opens public testimony",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3254.364,
+          "text": "Well, thank you so much, Councilman, and thank you so much, Commissioner, Deputy Commissioner."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3258.064,
+          "text": "This panel is hereby excused."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 3260.264,
+          "text": "Thank you so much."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3263.376,
+          "text": "I now open the hearing of public testimony."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3265.576,
+          "text": "Before we begin, I remind members of the public that this is a formal government proceeding and that the quorum shall be observed at all times."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3271.976,
+          "text": "As such, members of the public shall remain silent at all times."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3276.076,
+          "text": "The witness table is reserved for people who wish to testify."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3278.976,
+          "text": "No video recording or photography is allowed from the witness table."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3282.776,
+          "text": "Further, members of the public may not present audio or video recordings as testimony, but may submit transcripts of such recordings to the sergeant at arms for inclusion in the hearing record."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3292.676,
+          "text": "If you wish to speak at today's hearing, please fill out an appearance card with the sergeant at arms and wait for your name to be called."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3299.276,
+          "text": "Once you have been recognized, you will have two minutes to speak on the legislation being considered today."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3304.776,
+          "text": "If you have a written statement or additional written testimony you wish to submit for the record, please provide a copy of that testimony to the sergeant at arms."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3312.476,
+          "text": "You may also email written testimony to testimony at council.nyc.gov within 72 hours of this hearing."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3320.576,
+          "text": "Audio and video recordings will not be accepted."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3323.576,
+          "text": "When you hear your name, please come up to the witness panel."
+        }
+      ]
+    },
+    {
+      "end_sec": 3536.664,
+      "id": "051",
+      "slug": "public-testimony-sue-peters-on-banking-and-money-creation",
+      "start_sec": 3326.576,
+      "summary": "Upper West Side resident Sue Peters testifies about the banking system's role in creating money as debt, drawing from her career in data processing at a Wall Street bank, and urges council members to educate themselves and the public about how money creation works.",
+      "title": "Public testimony: Sue Peters on banking and money creation",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3326.576,
+          "text": "I'll now call on our first panel of witnesses, Susan Peters."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3332.176,
+          "text": "And if anyone else is here to testify, please fill out an appearance card."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3342.364,
+          "text": "I believe you're my constituent, Ms."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3344.864,
+          "text": "Peters."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3358.764,
+          "text": "And you may start whenever you're ready."
+        },
+        {
+          "speaker": "Member of the Public - Sue Peters",
+          "t_sec": 3366.664,
+          "text": "Can you hear me?"
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3367.564,
+          "text": "I can hear you."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3368.564,
+          "text": "Loud and clear."
+        },
+        {
+          "speaker": "Member of the Public - Sue Peters",
+          "t_sec": 3369.664,
+          "text": "Great."
+        },
+        {
+          "speaker": "Member of the Public - Sue Peters",
+          "t_sec": 3370.764,
+          "text": "It's very interesting listening to the position our small business people are in."
+        },
+        {
+          "speaker": "Member of the Public - Sue Peters",
+          "t_sec": 3377.664,
+          "text": "It's very tough out there."
+        },
+        {
+          "speaker": "Member of the Public - Sue Peters",
+          "t_sec": 3379.864,
+          "text": "And I'm here to talk about why it's tough and also why people on the city council"
+        },
+        {
+          "speaker": "Member of the Public - Sue Peters",
+          "t_sec": 3386.364,
+          "text": "need to educate themselves about why it's so tough for our business people."
+        },
+        {
+          "speaker": "Member of the Public - Sue Peters",
+          "t_sec": 3391.564,
+          "text": "My name is Sue Peters, and I'm a resident of the Upper West Side."
+        },
+        {
+          "speaker": "Member of the Public - Sue Peters",
+          "t_sec": 3395.364,
+          "text": "I'm glad to be speaking to my local elected officials."
+        },
+        {
+          "speaker": "Member of the Public - Sue Peters",
+          "t_sec": 3399.564,
+          "text": "In the last 17 years of my long career in data processing, I worked for a Wall Street bank."
+        },
+        {
+          "speaker": "Member of the Public - Sue Peters",
+          "t_sec": 3407.064,
+          "text": "I discovered through the bookkeeping that I was responsible for what the bank does, the power of the bank."
+        },
+        {
+          "speaker": "Member of the Public - Sue Peters",
+          "t_sec": 3416.264,
+          "text": "Quote, every time a bank makes a loan, all it is doing is simply making a bookkeeping entry in the borrower's account for the amount of the loan."
+        },
+        {
+          "speaker": "Member of the Public - Sue Peters",
+          "t_sec": 3427.164,
+          "text": "This bookkeeping entry is debt to the borrower and earns interest to the bank, end quote."
+        },
+        {
+          "speaker": "Member of the Public - Sue Peters",
+          "t_sec": 3434.364,
+          "text": "In other words, our money does not come from our government, nor does the bank loan out money from savers."
+        },
+        {
+          "speaker": "Member of the Public - Sue Peters",
+          "t_sec": 3441.864,
+          "text": "The bank creates it as debt."
+        },
+        {
+          "speaker": "Member of the Public - Sue Peters",
+          "t_sec": 3446.564,
+          "text": "This fact is not taught in our schools or discussed in our media."
+        },
+        {
+          "speaker": "Member of the Public - Sue Peters",
+          "t_sec": 3450.464,
+          "text": "Why?"
+        },
+        {
+          "speaker": "Member of the Public - Sue Peters",
+          "t_sec": 3451.264,
+          "text": "Whoever controls the creation of the money of a country controls that nation."
+        },
+        {
+          "speaker": "Member of the Public - Sue Peters",
+          "t_sec": 3457.364,
+          "text": "Money is power."
+        },
+        {
+          "speaker": "Member of the Public - Sue Peters",
+          "t_sec": 3458.664,
+          "text": "We all know that."
+        },
+        {
+          "speaker": "Member of the Public - Sue Peters",
+          "t_sec": 3461.164,
+          "text": "Why do I bring this to your attention?"
+        },
+        {
+          "speaker": "Member of the Public - Sue Peters",
+          "t_sec": 3462.764,
+          "text": "Because you were public servants."
+        },
+        {
+          "speaker": "Member of the Public - Sue Peters",
+          "t_sec": 3465.264,
+          "text": "And can investigate this and inform the citizens."
+        },
+        {
+          "speaker": "Member of the Public - Sue Peters",
+          "t_sec": 3469.464,
+          "text": "Aren't all of us entitled to the truth of our history and the truth of the world we live in?"
+        },
+        {
+          "speaker": "Member of the Public - Sue Peters",
+          "t_sec": 3476.564,
+          "text": "Only then can we think about how to change our world for the benefit of everybody."
+        },
+        {
+          "speaker": "Member of the Public - Sue Peters",
+          "t_sec": 3482.264,
+          "text": "I'd like to end with a quote from a New York City businessman and author from 1883."
+        },
+        {
+          "speaker": "Member of the Public - Sue Peters",
+          "t_sec": 3488.864,
+          "text": "Quote, the most fundamental law in any nation is that which institutes money."
+        },
+        {
+          "speaker": "Member of the Public - Sue Peters",
+          "t_sec": 3496.464,
+          "text": "For money governs the distribution of property."
+        },
+        {
+          "speaker": "Member of the Public - Sue Peters",
+          "t_sec": 3500.564,
+          "text": "And thus affects in a thousand ways the relations of man to man."
+        },
+        {
+          "speaker": "Member of the Public - Sue Peters",
+          "t_sec": 3505.664,
+          "text": "Thank you very much."
+        },
+        {
+          "speaker": "Member of the Public - Sue Peters",
+          "t_sec": 3507.164,
+          "text": "And I have some, actually four different handouts, you know, for the committee to read."
+        },
+        {
+          "speaker": "Member of the Public - Sue Peters",
+          "t_sec": 3516.164,
+          "text": "And I have"
+        },
+        {
+          "speaker": "Member of the Public - Sue Peters",
+          "t_sec": 3516.464,
+          "text": "I have a copy of my testimony."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3519.264,
+          "text": "Well, thank you so much for testifying, Susan Peters."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3522.164,
+          "text": "And can the sergeant please pass along her papers so we can read it?"
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3531.664,
+          "text": "Thank you to all of you who came here to, you are excused, my apologies."
+        }
+      ]
+    },
+    {
+      "end_sec": 3619.413,
+      "id": "052",
+      "slug": "abreu-closes-hearing-with-no-further-witnesses",
+      "start_sec": 3536.664,
+      "summary": "Abreu thanks public witnesses, checks for additional in-person and Zoom testimony, finds none, reminds attendees they can submit written testimony within 72 hours, and concludes the hearing.",
+      "title": "Abreu closes hearing with no further witnesses",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3536.664,
+          "text": "Thank you to all of you who came here to share your testimony today."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3539.364,
+          "text": "If there's anyone in the room who wishes to speak but has not yet had the opportunity to do so, please raise your hand and fill out an appearance card with the sergeant at arms at the back of the room."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3550.864,
+          "text": "Seeing no hands in the committee room, we will now shift to virtual testimony via Zoom."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3557.464,
+          "text": "Participants on Zoom, please listen for your name to be called and respond to any prompt to be unmuted."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3564.464,
+          "text": "You may begin your testimony after the sergeant at arms starts the clock."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3569.364,
+          "text": "I don't believe there's anyone signed up on Zoom, is that correct?"
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3573.164,
+          "text": "We are making a final call for Zoom registrants who have not yet spoken."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3581.028,
+          "text": "Seeing no registrants on Zoom."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3584.828,
+          "text": "If you are currently on Zoom and wish to speak but have not yet had the opportunity to do so, please use the raise hand function and our staff will unmute you."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3593.628,
+          "text": "Again, seeing no hands, I would like to know that everyone can submit written testimony to testimony at"
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3600.0,
+          "text": "council.denyic.gov within 72 hours of this hearing."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3604.4,
+          "text": "That concludes our hearing for today."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 3611.5,
+          "text": "Thank you, Majority Leader and Brian."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3614.6,
+          "text": "My pleasure."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3615.4,
+          "text": "Anytime for you."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3616.3,
+          "text": "Take care."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3616.7,
+          "text": "Bye-bye."
+        },
+        {
+          "speaker": "Richard Lee",
+          "t_sec": 3618.1,
+          "text": "Bye."
+        }
+      ]
+    }
+  ],
+  "date": "2026-08-11",
+  "duration_sec": 3619.413,
+  "slug": "2026-08-11-1100-am-committee-on-finance",
+  "summary": [
+    "Finance Committee holds a hearing on a pre-considered bill (T2026-2303) to establish a temporary ECB Amnesty and Compliance Program, allowing eligible judgment holders to resolve outstanding Environmental Control Board violations at reduced penalties.",
+    "DOF Commissioner Richard Lee testifies on the program's design, projected $25M in revenue, exclusion of idling violations, and new enforcement strategies including inter-agency permit partnerships and lien conversions.",
+    "Council members question DOF on fairness concerns, prior amnesty program results, collection staff levels, outreach plans, and whether repeat offenders should be treated differently from one-time violators."
+  ],
+  "tags": [
+    "HEARING"
+  ],
+  "time": "11:00 AM",
+  "title": "Committee on Finance",
+  "topic": "Establish a temporary program to resolve outstanding judgments imposed by the environmental control board",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-1_260811-110235/video-web.mp4"
+  }
+}
