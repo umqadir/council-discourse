@@ -1,0 +1,243 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 23.0,
+      "id": "001",
+      "slug": "council-staff-opens-hearing-and-gives-housekeeping-instructions",
+      "start_sec": 5.0,
+      "summary": "Council staff welcomes attendees to the Subcommittee on Landmarks, Public Sitings, Resiliency, and Dispositions hearing, reminds attendees to silence electronic devices, and instructs those wishing to testify to fill out appearance cards with the sergeant at arms. Staff confirms the subcommittee is ready to begin.",
+      "title": "Council staff opens hearing and gives housekeeping instructions",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 5.9,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 6.5,
+          "text": "Welcome to today's New York City Council hearing for the Subcommittee on Landmarks, Public Sightings, Resiliency, and Disposition."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 12.0,
+          "text": "At this time, please sign all self-electronic devices."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 14.6,
+          "text": "Moving forward, no one is to approach the day is."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 17.1,
+          "text": "If you wish to testify, please fill out an appearance card with the sergeant at arms."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 20.1,
+          "text": "Chair Marte, we are ready to begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 114.0,
+      "id": "002",
+      "slug": "chair-marte-introduces-subcommittee-and-outlines-lu-114-queens-cd2-walk-to-park-acquisition",
+      "start_sec": 23.0,
+      "summary": "Chair Christopher Marte opens the meeting, introduces colleagues Majority Whip Hanks, Councilmember Nurse, and Councilmember Thomas-Henry, and explains the hybrid format. He presents LU 114, an application by the Department of Parks and Recreation for acquisition and site selection of 31 privately owned sites for future parkland in Queens Community District 2, covering Long Island City, Sunnyside, Woodside, Blissville, and West Maspeth in Councilmembers Won and Krishnan's districts. Marte notes the local council members are supportive and calls for questions or remarks from subcommittee members.",
+      "title": "Chair Marte introduces subcommittee and outlines LU 114 Queens CD2 Walk to Park acquisition",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 23.6,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 24.5,
+          "text": "Welcome to the meeting of the Subcommittee on Landmarks, Public Siting, Resiliency, and Disposition."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 30.0,
+          "text": "I'm Councilmember Christopher-Marte and the chair of the subcommittee."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 32.9,
+          "text": "I'm joined today by my colleagues, Councilmember Majority Whip Hanks, Councilmember Nurse, and Councilmember Thomas Henry."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 42.5,
+          "text": "Today's meeting is being held in hybrid format."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 45.3,
+          "text": "On today's agenda, we have one vote for an application on the subcommittee heard last month."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 50.2,
+          "text": "Today we'll be voting on LU 114 for Queen CD2 walk to park acquisition and site selection, which is an application by the Department of Parks and Recreation for approval"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 61.5,
+          "text": "of the city acquisition and site selection of 31 privately owned sites for future park development in Queens Community District 2."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 69.6,
+          "text": "This proposal seeks to create new parkland and to increase access to open space resources for neighborhoods of Long Island City, Sunnyside, Woodside, Blissville, and West Maspeth, located in Councilmember Wan and Krishna districts."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 84.4,
+          "text": "Approval of this application will facilitate greater opportunities for DPR to potentially acquire private"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 90.1,
+          "text": "property and develop a new public new parkland that would help close the walk to Park Gap in Queens CD2."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 97.5,
+          "text": "The local council members are supportive of this application."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 103.2,
+          "text": "Members of the subcommittee who have questions or remarks today on this item, please let me know."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 109.7,
+          "text": "Seeing none, I call for a vote to approve LU 114."
+        }
+      ]
+    },
+    {
+      "end_sec": 138.0,
+      "id": "003",
+      "slug": "roll-call-vote-on-lu-114-queens-cd2-walk-to-park-site-selection",
+      "start_sec": 114.0,
+      "summary": "Chair Marte calls for a vote to approve LU 114. Council staff calls the roll: Marte votes aye, Hanks votes aye, Nurse votes aye, and Thomas-Henry votes aye. The item is adopted by a vote of four in the affirmative, zero in the negative, and zero abstentions, and referred to the full Land Use committee.",
+      "title": "Roll call vote on LU 114 Queens CD2 Walk to Park site selection",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 114.7,
+          "text": "Council, please call the roll."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 117.0,
+          "text": "Chair Marte."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 117.8,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 119.0,
+          "text": "Majority whip Hanks."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 120.2,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 121.0,
+          "text": "Councilmember Hanks."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 123.9,
+          "text": "A nurse, sorry."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 125.7,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 127.2,
+          "text": "Councilmember Thomas Henry?"
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 128.6,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 129.5,
+          "text": "By a vote of four in the affirmative, zero in the negative, and zero abstentions, the items are adopted and referred to the full land use committee."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 136.2,
+          "text": "Thank you, Council."
+        }
+      ]
+    },
+    {
+      "end_sec": 156.971,
+      "id": "004",
+      "slug": "chair-marte-adjourns-the-subcommittee-meeting",
+      "start_sec": 138.0,
+      "summary": "Chair Marte thanks the public, his colleagues, subcommittee counsel, land use staff, and the sergeant at arms for their participation, and adjourns the meeting.",
+      "title": "Chair Marte adjourns the subcommittee meeting",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 138.3,
+          "text": "That concludes today's business."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 139.8,
+          "text": "I'd like to thank the members of the public, my colleagues, subcommittee counsel, land use staff, and the Sergeant at Arms for your participation today."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 147.2,
+          "text": "This meeting is hereby adjourned."
+        }
+      ]
+    }
+  ],
+  "date": "2026-08-12",
+  "duration_sec": 156.971,
+  "slug": "2026-08-12-1030-am-subcommittee-on-landmarks-public-sitings-resiliency-and-dispositions",
+  "summary": [
+    "The Subcommittee on Landmarks, Public Sitings, Resiliency and Dispositions held a brief hybrid meeting to vote on LU 114, the Queens CD2 Walk to Park site selection and acquisition application.",
+    "The application, submitted by the Department of Parks and Recreation and DCAS, seeks approval for acquisition and site selection of 31 privately owned sites for future park development across Long Island City, Sunnyside, Woodside, Blissville, and West Maspeth.",
+    "The subcommittee approved LU 114 by a unanimous 4-0 vote and referred it to the full Land Use committee."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "10:30 AM",
+  "title": "Subcommittee on Landmarks, Public Sitings, Resiliency and Dispositions",
+  "topic": "Landmarks, Queens CD 2 Walk to Park Site Selection/Acquisition, Queens (C 260089 PCQ)",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-1_260812-103855/video-web.mp4"
+  }
+}
