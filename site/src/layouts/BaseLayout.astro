@@ -51,9 +51,26 @@ const ogImage = new URL(image, Astro.site).toString();
           </a>
           <p class="mt-1 text-sm text-muted">NYC Council meetings, chaptered and linked by time.</p>
         </div>
-        <nav class="text-sm font-semibold" aria-label="Site">
-          <a class="underline decoration-line hover:decoration-civic" href="/about/">About</a>
-        </nav>
+        <div class="text-sm font-medium leading-5 text-muted md:text-right" aria-label="Project credits">
+          <p>
+            Created by
+            <a
+              class="font-semibold underline decoration-line hover:decoration-civic"
+              href="https://github.com/umqadir"
+            >Uzair Qadir</a>
+          </p>
+          <p>
+            Inspired by
+            <a
+              class="font-semibold underline decoration-line hover:decoration-civic"
+              href="https://vikramoberoi.com/"
+            >Vikram Oberoi</a>'s
+            <a
+              class="font-semibold underline decoration-line hover:decoration-civic"
+              href="https://citymeetings.nyc/"
+            >City Meetings</a>
+          </p>
+        </div>
       </div>
     </header>
     <main id="content">
@@ -64,9 +81,6 @@ const ogImage = new URL(image, Astro.site).toString();
         <p>
           Transcripts, chapters, and speaker names are AI-generated and may contain errors —
           <a class="underline decoration-line hover:decoration-civic" href="mailto:uzairq93@gmail.com">report an issue</a>.
-        </p>
-        <p class="mt-3">
-          After Vikram Oberoi's <a class="underline decoration-line hover:decoration-civic" href="https://citymeetings.nyc/">citymeetings.nyc</a>.
         </p>
       </div>
     </footer>
