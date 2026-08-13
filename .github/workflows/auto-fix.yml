@@ -250,6 +250,13 @@ jobs:
             GitHub's raw red-run email either way and should find your
             explanation next to it, not silence.
 
+            If you have to create that issue, its body is exactly one plain
+            sentence saying what gets posted there. Do not write a charter:
+            no explaining the channel's purpose or etiquette, no declaring
+            what the issue is NOT, no notes about pause switches, closing
+            policy, or where other issues go. The maintainer built this
+            system and does not need it described back to them.
+
             This log is skimmed on a phone next to a red-run email, so it is
             a HARD CAP of three sentences, and no fenced paste block ever
             (that block belongs only on assigned, actionable issues). Write:
