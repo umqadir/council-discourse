@@ -1,0 +1,547 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 17.6,
+      "id": "001",
+      "slug": "committee-staff-opens-hearing-and-gives-housekeeping-instructions",
+      "start_sec": 6.0,
+      "summary": "Council staff welcomes attendees to the Parks and Recreation Committee vote, reminds all not to approach the dais, and asks everyone to silence electronic devices before yielding to the Chair.",
+      "title": "Committee staff opens hearing and gives housekeeping instructions",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 6.0,
+          "text": "Good morning and welcome to today's New York City Council vote on the Committee of Parks and Recreation."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 10.7,
+          "text": "At this time during today's vote, no one may approach the dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 13.8,
+          "text": "Please silence all electronic devices."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 15.8,
+          "text": "Chair, you may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 30.5,
+      "id": "002",
+      "slug": "chair-hankerson-opens-hearing-and-introduces-both-bills-for-a-vote",
+      "start_sec": 17.6,
+      "summary": "Chair Ty Hankerson welcomes the committee and announces the hearing will vote on Proposed Intros 864A and 880A, both previously considered on June 16, 2026.",
+      "title": "Chair Hankerson opens hearing and introduces both bills for a vote",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 17.6,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 18.7,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 19.2,
+          "text": "I'm Ty Hankerson, chair of the Committee on Parks and Rec, and I'd like to welcome all of you to this hearing of the Committee on Parks and Recreation, where we will vote on two bills, proposed intros 864A"
+        }
+      ]
+    },
+    {
+      "end_sec": 74.3,
+      "id": "003",
+      "slug": "chair-hankerson-describes-intro-864a-dog-feces-composting-pilot-program",
+      "start_sec": 30.5,
+      "summary": "Hankerson explains that Intro 864A, sponsored by Councilmember Epstein, would require Parks to establish a volunteer-led pilot program for collecting dog waste at dog runs for composting, including installing collection bins and providing compostable bags, with reporting requirements.",
+      "title": "Chair Hankerson describes Intro 864A \u2014 dog feces composting pilot program",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 30.5,
+          "text": "and 880A, which we, I'm sorry, which were both considered by this committee on June 16, 2026."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 37.6,
+          "text": "Proposed Intro 864A, sponsored by Councilmember Epstein, would require the Parks Department to establish a pilot program that would designate volunteer-led dog run groups"
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 47.7,
+          "text": "that have experience maintaining dog runs to collect dog waste from dog runs under Parks jurisdiction for composting."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 54.6,
+          "text": "These designated groups, with aid from the Parks Department when requested, would install dog feces collection bins and provide compostable dog feces bags for the purposes of composting such waste."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 66.1,
+          "text": "This bill would also require the Parks Department to report to the mayor and the speaker of the council and post online details regarding the pilot's implementation."
+        }
+      ]
+    },
+    {
+      "end_sec": 91.3,
+      "id": "004",
+      "slug": "chair-hankerson-describes-intro-880a-dog-waste-removal-signs-at-parks",
+      "start_sec": 74.3,
+      "summary": "Hankerson outlines Intro 880A, sponsored by Councilmember Narcisse, which would require DPR to post signs at park entrances, exits, and certain facilities summarizing the rule against leaving dog waste on the ground and the associated penalties.",
+      "title": "Chair Hankerson describes Intro 880A \u2014 dog waste removal signs at parks",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 74.3,
+          "text": "Proposed Intro 880A, sponsored by Councilmember Narcisse, would require DPR to post signs at the entrances and exits of parks and at certain park facilities summarizing the rule"
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 85.5,
+          "text": "prohibiting a person from leaving dog waste on the ground and the associated penalties."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 90.1,
+          "text": "for a violation."
+        }
+      ]
+    },
+    {
+      "end_sec": 99.1,
+      "id": "005",
+      "slug": "chair-hankerson-urges-colleagues-to-vote-yes-and-yields-to-councilmember-narcisse",
+      "start_sec": 91.3,
+      "summary": "Hankerson congratulates the sponsoring colleagues, urges all committee members to vote in favor of both bills, and yields to Councilmember Narcisse for remarks on her legislation.",
+      "title": "Chair Hankerson urges colleagues to vote yes and yields to Councilmember Narcisse",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 91.3,
+          "text": "I'd like to congratulate my colleagues who have proposed these pieces of legislation."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 94.5,
+          "text": "I urge all of my colleagues on the committee to vote in favor of the legislation before us."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 97.8,
+          "text": "Thank you again and welcome."
+        }
+      ]
+    },
+    {
+      "end_sec": 133.2,
+      "id": "006",
+      "slug": "councilmember-narcisse-explains-her-dog-waste-signs-bill-intro-880a",
+      "start_sec": 99.1,
+      "summary": "Narcisse describes her bill as straightforward, requiring Parks to post signs in plain language telling dog owners to pick up after their dogs and stating the penalty for noncompliance.",
+      "title": "Councilmember Narcisse explains her dog waste signs bill (Intro 880A)",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 99.1,
+          "text": "I'd like to turn it over to Councilmember Narcisse for remarks on her bill."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 105.3,
+          "text": "Thank you, Chair, and thank you to the committee."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 107.7,
+          "text": "Thank you, my colleagues, for reading for me a little bit."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 110.5,
+          "text": "Entry 888 is a straightforward."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 114.0,
+          "text": "It requires the Parks Department to post signs at park entrances and exit and at a certain park facilities telling people in plain language that they have to pick up after their dog and what the"
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 130.0,
+          "text": "penalty is if they don't."
+        }
+      ]
+    },
+    {
+      "end_sec": 161.7,
+      "id": "007",
+      "slug": "narcisse-describes-dog-waste-problem-in-her-district-parks",
+      "start_sec": 133.2,
+      "summary": "Narcisse recounts how children sit on grass, parents push strollers over waste, and park staff must clean it up daily. She notes most dog owners do the right thing, but those who don't rely on nobody noticing.",
+      "title": "Narcisse describes dog waste problem in her district parks",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 133.2,
+          "text": "Anyone who walked through a park in my district knows the problem."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 138.2,
+          "text": "Kids sit down in the grass."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 140.0,
+          "text": "Parents push strollers over it."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 142.2,
+          "text": "Park staff deal with it every morning, every day, every single hour."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 147.9,
+          "text": "Before most of us are awake, they have to do their job."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 151.9,
+          "text": "So most dogs owners do the right thing already."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 155.9,
+          "text": "The ones who don't are usually counting on nobody to notice it."
+        }
+      ]
+    },
+    {
+      "end_sec": 181.2,
+      "id": "008",
+      "slug": "narcisse-argues-signs-set-expectations-and-aid-enforcement",
+      "start_sec": 161.7,
+      "summary": "Narcisse acknowledges signs alone won't fix the problem but says they set a clear expectation at park entrances and give enforcement something to point to. She urges colleagues to support the bill as a quality-of-life measure.",
+      "title": "Narcisse argues signs set expectations and aid enforcement",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 161.7,
+          "text": "But we are noticing them."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 163.4,
+          "text": "Yes, signs alone won't fix this, but they set a clear expectation at the door and give enforcement something to point to."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 174.3,
+          "text": "I urge my colleagues to support this bill."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 176.3,
+          "text": "It is very important for quality of life issues."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 179.7,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 180.3,
+          "text": "To address."
+        }
+      ]
+    },
+    {
+      "end_sec": 189.4,
+      "id": "009",
+      "slug": "chair-notes-councilmember-epstein-absent-and-calls-for-roll-call-vote",
+      "start_sec": 181.2,
+      "summary": "Hankerson thanks Narcisse, notes Councilmember Epstein is not present, and turns the meeting over to Committee Clerk William Martin to conduct the roll call vote on both coupled items.",
+      "title": "Chair notes Councilmember Epstein absent and calls for roll call vote",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 181.2,
+          "text": "Thank you, Councilmember."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 183.5,
+          "text": "Seeing that Councilmember Epstein is not here, I'll turn it over to the clerk to call the roll."
+        }
+      ]
+    },
+    {
+      "end_sec": 238.78,
+      "id": "010",
+      "slug": "roll-call-vote-on-intros-864a-and-880a",
+      "start_sec": 189.4,
+      "summary": "Clerk William Martin calls the roll for all committee members. Hankerson, Krishnan, Lee, Marte, Narcisse, Nurse, Sanchez, Ung, Salaam, and Santosuosso vote aye. Morano votes no on 864A and aye on 880A.",
+      "title": "Roll call vote on Intros 864A and 880A",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 189.4,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 189.7,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 190.2,
+          "text": "William Martin, Committee Clerk."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 191.3,
+          "text": "Roll call vote."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 192.0,
+          "text": "Committee on Parks and Recreation."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 193.9,
+          "text": "Both items are coupled."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 195.4,
+          "text": "Chair Hankerson."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 196.5,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 198.2,
+          "text": "Krishnan."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 201.0,
+          "text": "I."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 202.4,
+          "text": "Lee."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 205.7,
+          "text": "Marte."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 206.8,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 208.3,
+          "text": "Narcisse."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 209.9,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 211.3,
+          "text": "Nurse."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 212.0,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 214.1,
+          "text": "Sanchez."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 215.7,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 217.1,
+          "text": "Ong."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 218.5,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 220.0,
+          "text": "Salam."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 221.2,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 222.7,
+          "text": "Santos Suoso."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 224.9,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 225.6,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 228.68,
+          "text": "Morano."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 230.68,
+          "text": "No on 864A, I and the rest."
+        }
+      ]
+    },
+    {
+      "end_sec": 255.78,
+      "id": "011",
+      "slug": "vote-results-864a-adopted-9-1-880a-adopted-10-0",
+      "start_sec": 238.78,
+      "summary": "The clerk announces Intro 864A adopted with 9 affirmative and 1 negative vote, and Intro 880A adopted unanimously with 10 affirmative and 0 negative votes, with no abstentions on either bill.",
+      "title": "Vote results: 864A adopted 9-1, 880A adopted 10-0",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 238.78,
+          "text": "Following vote, both items have been adopted by the committee with introduction 864 adopted with a vote of 9 in the affirmative, 1 in the negative, no abstentions, and 880A"
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 250.48,
+          "text": "approved by the committee with 10 in the affirmative, 0 in the negative, no abstentions."
+        }
+      ]
+    },
+    {
+      "end_sec": 661.604,
+      "id": "012",
+      "slug": "chair-hankerson-adjourns-the-committee-vote",
+      "start_sec": 255.78,
+      "summary": "Hankerson thanks the clerk, congratulates colleagues on the passage of both bills, and adjourns the vote.",
+      "title": "Chair Hankerson adjourns the committee vote",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 255.78,
+          "text": "Thank you, Mr."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 256.28,
+          "text": "Clerk."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 256.48,
+          "text": "Congratulations to my colleagues."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 257.58,
+          "text": "This vote is adjourned."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 259.58,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 1022.016,
+      "id": "013",
+      "slug": "microphone-check-for-committee-on-land-use-in-hearing-room-3",
+      "start_sec": 661.604,
+      "summary": "James Marino conducts a microphone check for the Committee on Land Use recording in Hearing Room 3 on August 13, 2026.",
+      "title": "Microphone check for Committee on Land Use in Hearing Room 3",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "James Marino",
+          "t_sec": 661.604,
+          "text": "This is a microphone check on the Committee on Land Use recorded by James Marino in Hearing Room 3 on August 13, 2026."
+        },
+        {
+          "speaker": "James Marino",
+          "t_sec": 759.776,
+          "text": "Thank you."
+        }
+      ]
+    }
+  ],
+  "date": "2026-08-13",
+  "duration_sec": 1022.016,
+  "slug": "2026-08-13-1030-am-committee-on-parks-and-recreation",
+  "summary": [
+    "The Committee on Parks and Recreation held a vote on two bills: Intro 864A establishing a dog feces composting pilot program at dog runs, and Intro 880A requiring Parks to post signs about dog waste removal rules and penalties.",
+    "Councilmember Narcisse spoke in support of her bill (880A), describing dog waste as a quality-of-life issue in parks and arguing signs set clear expectations and support enforcement.",
+    "Intro 864A was adopted 9-1 with Councilmember Morano voting no; Intro 880A was adopted unanimously 10-0."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "10:30 AM",
+  "title": "Committee on Parks and Recreation",
+  "topic": "Pilot program for collecting dog feces at dog runs for the purpose of composting",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-3_260813-105020/video-web.mp4"
+  }
+}

@@ -1,0 +1,421 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 23.9,
+      "id": "001",
+      "slug": "staff-opens-hearing-and-calls-for-devices-to-be-silenced",
+      "start_sec": 7.4,
+      "summary": "Council staff welcomes attendees to the Committee on Sanitation and Solid Waste Management vote, requests electronic devices be silenced, and confirms Chair Sanchez is ready to begin.",
+      "title": "Staff opens hearing and calls for devices to be silenced",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 7.4,
+          "text": "Good morning and welcome to today's New York City Council vote for the Committee on Sanitation and Solid Waste Management."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 14.8,
+          "text": "At this time, please silence all electronic devices."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 18.5,
+          "text": "Chair Sanchez, we are ready to begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 54.1,
+      "id": "002",
+      "slug": "chair-sanchez-opens-hearing-and-announces-vote-on-int-857a-and-872a",
+      "start_sec": 23.9,
+      "summary": "Chair Justin Sanchez opens the hearing and announces the committee will vote on Int 857A, sponsored by Speaker Julie Menin, and Int 872A, sponsored by Councilmember Shahana Hanif. He notes both bills were previously heard on May 19, 2026, with testimony from DSNY and the public.",
+      "title": "Chair Sanchez opens hearing and announces vote on Int 857A and 872A",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 23.9,
+          "text": "Good morning, everyone, and welcome to today's hearing by the Committee on Sanitation and Solid Waste Management."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 30.7,
+          "text": "The purpose of this hearing is to hold a vote on introduction number 857A, sponsored by Speaker Julie-Menin, and introduction number 872A by Councilmember Shahana Hanif."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 43.4,
+          "text": "The committee previously heard both of these bills at a hearing on May 19, 2026, where it received testimony from representatives of the Department of Sanitation and interested members of the public."
+        }
+      ]
+    },
+    {
+      "end_sec": 67.5,
+      "id": "003",
+      "slug": "chair-sanchez-details-int-857a-1-200-dog-waste-bag-dispensers-on-litter-baskets",
+      "start_sec": 54.1,
+      "summary": "Sanchez explains that Int 857A would require DSNY to install no fewer than 1,200 dog waste bag dispensers on public litter baskets across all five boroughs, with DSNY able to engage a local entity to volunteer refills.",
+      "title": "Chair Sanchez details Int 857A \u2014 1,200 dog waste bag dispensers on litter baskets",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 54.1,
+          "text": "Introduction number 857A, sponsored by Speaker Menon, would require the Department of Sanitation to install no less than 1,200 waste bag dispensers on public litter baskets across the five boroughs."
+        }
+      ]
+    },
+    {
+      "end_sec": 100.7,
+      "id": "004",
+      "slug": "chair-sanchez-on-dsny-refilling-obligations-and-2030-reporting-deadline",
+      "start_sec": 67.5,
+      "summary": "Sanchez describes DSNY's duty to refill dispensers at least monthly through June 30, 2030, and a required report to the Speaker by March 1, 2030 on the program's impact on public complaints and whether it should continue.",
+      "title": "Chair Sanchez on DSNY refilling obligations and 2030 reporting deadline",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 67.5,
+          "text": "DSNY can engage a local entity to volunteer to refill any dog waste basket dispenser with bags no less than monthly and where no such entity is engaged."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 77.5,
+          "text": "DSNY would be required to refill any waste bag, dog waste bag dispenser with bags at least once a month until June 20th, June 30th, 2030."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 88.7,
+          "text": "The department would also be required to"
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 90.3,
+          "text": "by March 1st, 2030, to report to the Speaker of the Council regarding the program's impact on public complaints about dog waste and whether the program should be continued."
+        }
+      ]
+    },
+    {
+      "end_sec": 125.6,
+      "id": "005",
+      "slug": "chair-sanchez-details-int-872a-public-education-campaign-on-dog-waste-removal",
+      "start_sec": 100.7,
+      "summary": "Sanchez explains Int 872A, which would require the Commissioner of Health and Mental Hygiene, in consultation with the Sanitation Commissioner, to conduct an annual public education campaign for three years on dog waste removal, health risks, and legal obligations.",
+      "title": "Chair Sanchez details Int 872A \u2014 public education campaign on dog waste removal",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 100.7,
+          "text": "Introduction number 872A by Councilmember Hanif would require the Commissioner of Health and Mental Hygiene, in consultation with the Commissioner of Sanitation, to develop and conduct an annual"
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 111.9,
+          "text": "public education and outreach campaign for three years to inform the public about dog waste removal, the dangers of failing to remove dog waste, health risks associated with exposure to dog waste, and the legal obligation to remove dog waste."
+        }
+      ]
+    },
+    {
+      "end_sec": 157.1,
+      "id": "006",
+      "slug": "chair-sanchez-on-multilingual-outreach-materials-and-effectiveness-reporting",
+      "start_sec": 125.6,
+      "summary": "Sanchez notes the bill requires outreach materials in English and all designated citywide languages so no one can claim ignorance, and requires a report to the Speaker on the campaign's effectiveness. He then turns the proceedings over to the clerk for the vote.",
+      "title": "Chair Sanchez on multilingual outreach materials and effectiveness reporting",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 125.6,
+          "text": "This bill also requires the Commissioner of Health and Mental Hygiene to make any materials developed for outreach and education available in English,"
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 132.8,
+          "text": "and all designated citywide languages."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 135.8,
+          "text": "So no one can say they didn't know."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 138.8,
+          "text": "And to submit to a report to the Speaker of the Council regarding the effectiveness of the education and outreach."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 144.8,
+          "text": "So we will know if it's working."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 147.7,
+          "text": "I will now turn it over to..."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 149.3,
+          "text": "Oh."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 150.0,
+          "text": "I will now turn it over to the clerk to take the vote on Inches 857A and 872A."
+        }
+      ]
+    },
+    {
+      "end_sec": 163.8,
+      "id": "007",
+      "slug": "clerk-martin-introduces-coupled-roll-call-vote-on-both-bills",
+      "start_sec": 157.1,
+      "summary": "Committee Clerk William Martin announces the roll call vote for the Committee on Sanitation and Solid Waste Management, noting both items are coupled and beginning with Chair Sanchez.",
+      "title": "Clerk Martin introduces coupled roll call vote on both bills",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 157.1,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 157.7,
+          "text": "William Martin, Committee Clerk, Roll Call Vote Committee on Sanitation and Solid Waste Management."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 162.2,
+          "text": "Both items are coupled."
+        }
+      ]
+    },
+    {
+      "end_sec": 177.856,
+      "id": "008",
+      "slug": "roll-call-sanchez-louis-hanif-and-ung-vote-aye",
+      "start_sec": 163.8,
+      "summary": "Chair Sanchez votes in the affirmative, followed by Councilmembers Louis (no response recorded), Hanif, and Ung, all voting aye on the coupled bills.",
+      "title": "Roll call: Sanchez, Louis, Hanif, and Ung vote aye",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 163.8,
+          "text": "Chair Sanchez."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 165.8,
+          "text": "I."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 167.2,
+          "text": "Lewis."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 169.3,
+          "text": "Hanif."
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 170.3,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 171.7,
+          "text": "Ong."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 172.9,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 174.7,
+          "text": "Zhuang."
+        }
+      ]
+    },
+    {
+      "end_sec": 202.956,
+      "id": "009",
+      "slug": "roll-call-hankerson-maloney-santosuosso-thomas-henry-wilson-and-vernikov-vote-aye",
+      "start_sec": 177.856,
+      "summary": "Councilmembers Hankerson, Maloney, Santosuosso, Thomas-Henry, Wilson, and Vernikov all vote in the affirmative on both bills, completing the initial round of roll call voting.",
+      "title": "Roll call: Hankerson, Maloney, Santosuosso, Thomas-Henry, Wilson, and Vernikov vote aye",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 177.856,
+          "text": "Hankerson."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 179.456,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 180.756,
+          "text": "Maloney."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 182.456,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 183.956,
+          "text": "Santos-Suoso."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 187.656,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 189.156,
+          "text": "Thomas Henry."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 190.356,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 191.956,
+          "text": "Wilson."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 193.556,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 194.956,
+          "text": "Vernikov."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 196.856,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 202.656,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 471.532,
+      "id": "010",
+      "slug": "vote-outcome-9-0-both-items-adopted-roll-held-open",
+      "start_sec": 202.956,
+      "summary": "Clerk Martin announces the vote as 9 in the affirmative, 0 in the negative, with no abstentions. Both Int 857A and Int 872A are adopted by the committee, and the roll is held open at the chair's request.",
+      "title": "Vote outcome: 9-0, both items adopted, roll held open",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 202.956,
+          "text": "With a vote of nine in the affirmative, zero in the negative, and no abstentions, both items have been adopted by the committee, and the roll will be held open at request of the chair."
+        }
+      ]
+    },
+    {
+      "end_sec": 477.032,
+      "id": "011",
+      "slug": "continuation-roll-call-councilmember-zhuang-votes-aye",
+      "start_sec": 471.532,
+      "summary": "Clerk Martin resumes the roll call for the Committee on Sanitation, calling Councilmember Zhuang, who votes in the affirmative, bringing the total to 10 in the affirmative.",
+      "title": "Continuation roll call: Councilmember Zhuang votes aye",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 471.532,
+          "text": "Continuation roll call, Committee on Sanitation."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 474.132,
+          "text": "Councilmember Zhuang."
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 475.932,
+          "text": "Aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 488.491,
+      "id": "012",
+      "slug": "final-vote-outcome-10-0-and-chair-sanchez-closes-the-hearing",
+      "start_sec": 477.032,
+      "summary": "Clerk Martin confirms the final vote as 10 in the affirmative, 0 in the negative, with no abstentions. Chair Sanchez officially closes today's Committee on Sanitation and Solid Waste Management hearing.",
+      "title": "Final vote outcome 10-0 and Chair Sanchez closes the hearing",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 477.032,
+          "text": "Vote is now 10 in the affirmative, 0 in the negative."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 479.632,
+          "text": "No abstentions."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 480.532,
+          "text": "Chair Sanchez."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 481.732,
+          "text": "And with that, today's Committee on Sanitation and Solid Waste Management is officially closed."
+        }
+      ]
+    }
+  ],
+  "date": "2026-08-13",
+  "duration_sec": 488.491,
+  "slug": "2026-08-13-1000-am-committee-on-sanitation-and-solid-waste-management",
+  "summary": [
+    "The Committee on Sanitation and Solid Waste Management held a vote on Int 857A (requiring DSNY to install 1,200 dog waste bag dispensers on public litter baskets) and Int 872A (requiring a multilingual public education campaign on dog waste removal).",
+    "Both bills were previously heard on May 19, 2026, with testimony from DSNY and the public.",
+    "The committee adopted both items by a vote of 10-0, with all members voting in the affirmative."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "10:00 AM",
+  "title": "Committee on Sanitation and Solid Waste Management",
+  "topic": "Requiring the department of sanitation to install and refill dog waste bag dispensers on public litter baskets",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-2_260813-103940/video-web.mp4"
+  }
+}
