@@ -382,6 +382,12 @@ def cmd_checkpoint_db(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_preflight(args: argparse.Namespace) -> int:
+    from .preflight import run_preflight
+
+    return run_preflight()
+
+
 def _fmt(value, width: int) -> str:
     text = "" if value is None else str(value)
     if len(text) > width:
@@ -643,6 +649,11 @@ def build_parser() -> argparse.ArgumentParser:
     ci_health = subparsers.add_parser("ci-health", help="print informational CI registry health checks")
     add_common(ci_health)
     ci_health.set_defaults(func=cmd_ci_health)
+
+    preflight_cmd = subparsers.add_parser(
+        "preflight", help="check provider credits/auth before a paid batch (retries transient blips)"
+    )
+    preflight_cmd.set_defaults(func=cmd_preflight)
 
     return parser
 
