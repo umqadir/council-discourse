@@ -1,0 +1,499 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 17.4,
+      "id": "001",
+      "slug": "staff-calls-hearing-to-order",
+      "start_sec": 6.2,
+      "summary": "Council staff opens the hearing of the Committee on Civil and Human Rights and confirms the chair is ready to begin.",
+      "title": "Staff calls hearing to order",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 6.2,
+          "text": "Good morning and welcome to today's New York City Council Committee on Civil and Human Rights."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 14.3,
+          "text": "Chair, we are ready to begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 50.9,
+      "id": "002",
+      "slug": "chair-nurse-introduces-resolution-218-for-james-baldwin-day",
+      "start_sec": 17.4,
+      "summary": "Chair Sandy Nurse introduces Resolution 218, sponsored by Councilmember Crystal Hudson, which would designate August 2nd annually as James Baldwin Day in New York City to honor his legacy as an essayist, novelist, playwright, poet, and civil rights activist.",
+      "title": "Chair Nurse introduces Resolution 218 for James Baldwin Day",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 17.4,
+          "text": "All right, good morning, everyone."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 19.4,
+          "text": "My name is Sandy Nurse, and I serve as chair to the Committee on Civil and Human Rights."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 24.3,
+          "text": "I'd like to thank my colleagues for joining me today for today's vote on Resolution No."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 28.2,
+          "text": "218, sponsored by Councilmember Crystal Hudson."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 31.4,
+          "text": "This resolution would designate August 2nd as James Baldwin Day in New York City."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 36.7,
+          "text": "This annual day would honor his legacy as a groundbreaking essayist, novelist, playwright, poet, and civil rights activist who fought racial and sexual discrimination with candor, sensitivity, and lasting influence."
+        }
+      ]
+    },
+    {
+      "end_sec": 63.5,
+      "id": "003",
+      "slug": "nurse-on-baldwin-s-birth-and-early-life-in-harlem",
+      "start_sec": 50.9,
+      "summary": "Chair Nurse recounts that James Arthur Baldwin was born in Harlem on August 2, 1924, and describes how he sought out books at the public library and began writing poems, short stories, and plays at an early age.",
+      "title": "Nurse on Baldwin's birth and early life in Harlem",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 50.9,
+          "text": "James Arthur Baldwin was born in New York City in Harlem on August 2, 1924."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 55.9,
+          "text": "As a child, Baldwin sought out books to read at the public library and began writing poems, short stories, and plays at an early age."
+        }
+      ]
+    },
+    {
+      "end_sec": 75.7,
+      "id": "004",
+      "slug": "nurse-on-baldwin-s-published-works-and-essays",
+      "start_sec": 63.5,
+      "summary": "Chair Nurse describes Baldwin's early publishing career, including his famous works Notes of a Native Son, Nobody Knows My Name, and The Fire Next Time, written as the civil rights movement was taking shape.",
+      "title": "Nurse on Baldwin's published works and essays",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 63.5,
+          "text": "By his early 20s, Baldwin was publishing book reviews and essays, including his famous Notes of a Native Son, Nobody Knows My Name, and The Fire Next Time."
+        }
+      ]
+    },
+    {
+      "end_sec": 94.0,
+      "id": "005",
+      "slug": "nurse-on-baldwin-s-themes-and-national-influence",
+      "start_sec": 75.7,
+      "summary": "Chair Nurse discusses how Baldwin's works covered literature, film, personal identity, sexuality, and race relations, and how his powerful words led to invitations to speak and teach at college campuses and civil rights gatherings worldwide.",
+      "title": "Nurse on Baldwin's themes and national influence",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 75.7,
+          "text": "His works were written as the civil rights movement was taking shape and covered a wide range of subjects, including literature, film, personal identity, sexuality, and race relations."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 84.6,
+          "text": "His words were so powerful and influenced so many that he was asked to speak and teach at college campuses."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 91.0,
+          "text": "grand civil rights gatherings across the nation and the world."
+        }
+      ]
+    },
+    {
+      "end_sec": 115.7,
+      "id": "006",
+      "slug": "nurse-on-baldwin-s-request-to-return-papers-to-the-public-library",
+      "start_sec": 94.0,
+      "summary": "Chair Nurse shares that at the end of his life, Baldwin asked that his papers and works be returned to the public library on 135th Street, now the Countee Cullen Library, where he spent much of his childhood reading.",
+      "title": "Nurse on Baldwin's request to return papers to the public library",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 94.0,
+          "text": "At the end of his life, he was asked that his papers, he asked that his papers and works be returned to the public library on 135th Street, now known as the County Cullen Library, where he spent so much of his childhood reading."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 107.2,
+          "text": "I am actually going to kick this over to Councilmember Hudson because I suspect her remarks are going to lift up a lot of his work."
+        }
+      ]
+    },
+    {
+      "end_sec": 127.3,
+      "id": "007",
+      "slug": "hudson-honors-baldwin-as-a-transformative-new-yorker",
+      "start_sec": 115.7,
+      "summary": "Councilmember Crystal Hudson speaks about James Baldwin as a New Yorker whose words changed how the country understood itself, born in Harlem 102 years ago and never stopping his call for America to live up to its promises of freedom.",
+      "title": "Hudson honors Baldwin as a transformative New Yorker",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 115.7,
+          "text": "Okay, thank you, Chair Nurse."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 118.0,
+          "text": "I appreciate it."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 119.4,
+          "text": "Today we're honoring a New Yorker whose words changed the way this country understood itself and challenged us to become something better."
+        }
+      ]
+    },
+    {
+      "end_sec": 152.7,
+      "id": "008",
+      "slug": "hudson-on-baldwin-s-writing-about-race-sexuality-and-belonging",
+      "start_sec": 127.3,
+      "summary": "Councilmember Hudson describes Baldwin's extraordinary honesty in writing about race, sexuality, love, faith, and what it means to find your place in a country that tells you that you do not belong.",
+      "title": "Hudson on Baldwin's writing about race, sexuality, and belonging",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 127.3,
+          "text": "James Baldwin was born in Harlem 102 years ago, and throughout his life he never stopped asking this country to live up to its promises of freedom."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 135.8,
+          "text": "He wrote with extraordinary honesty about race, sexuality, love, faith, and what it means to find your place in a country that so often tells you that you do not belong."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 145.7,
+          "text": "Baldwin's legacy is extraordinary not only because of what he wrote, but because of how fearlessly he lived and spoke his truth."
+        }
+      ]
+    },
+    {
+      "end_sec": 176.8,
+      "id": "009",
+      "slug": "hudson-on-baldwin-as-a-black-gay-man-and-truth-as-resistance",
+      "start_sec": 152.7,
+      "summary": "Councilmember Hudson discusses Baldwin's refusal to make himself smaller as a black gay man, his understanding that telling uncomfortable truths is an act of resistance, and quotes his famous line about facing truth before change is possible.",
+      "title": "Hudson on Baldwin as a black gay man and truth as resistance",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 152.7,
+          "text": "As a black gay man in a country that routinely denied both his racial and sexual identity, Baldwin refused to make himself smaller to fit within the limits society placed on him."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 164.0,
+          "text": "He understood that telling the truth, especially when that truth makes people uncomfortable, can itself be an act of resistance."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 170.7,
+          "text": "He once wrote, not everything that is faced can be changed, but nothing can be changed until it is faced."
+        }
+      ]
+    },
+    {
+      "end_sec": 213.3,
+      "id": "010",
+      "slug": "hudson-on-baldwin-s-revolutionary-legacy-and-the-case-for-james-baldwin-day",
+      "start_sec": 176.8,
+      "summary": "Councilmember Hudson argues that establishing August 2nd as James Baldwin Day gives New York City the opportunity to honor one of its most powerful voices and ensure his life, work, and resistance continue to inspire future generations.",
+      "title": "Hudson on Baldwin's revolutionary legacy and the case for James Baldwin Day",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 176.8,
+          "text": "That idea is at the heart of Baldwin's work."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 179.3,
+          "text": "His belief in our..."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 180.0,
+          "text": "Our capacity to change is part of what makes Baldwin's legacy so revolutionary."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 184.7,
+          "text": "Nearly four decades after his death, his words still resonate."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 188.3,
+          "text": "They still challenge us to confront injustice and question the systems around us."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 192.3,
+          "text": "Establishing August 2nd annually as James Baldwin Day gives New York City the opportunity to honor one of its most powerful voices and to ensure that his life"
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 201.3,
+          "text": "his work and his resistance continue to inspire generations to come."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 205.4,
+          "text": "Thank you so much to this committee for hearing it."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 207.3,
+          "text": "Thank you to Chair Nurse."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 208.2,
+          "text": "I'll let you continue with his amazing biography, and I appreciate the time."
+        }
+      ]
+    },
+    {
+      "end_sec": 243.1,
+      "id": "011",
+      "slug": "nurse-on-baldwin-s-civil-rights-advocacy-alongside-movement-leaders",
+      "start_sec": 213.3,
+      "summary": "Chair Nurse adds that during the civil rights movement, Baldwin advocated for racial equity and universal human dignity alongside figures including Medgar Evers, Maya Angelou, Nina Simone, Malcolm X, and Martin Luther King Jr., describing his work as bearing witness to the truth.",
+      "title": "Nurse on Baldwin's civil rights advocacy alongside movement leaders",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 213.3,
+          "text": "I didn't want to steal your thunder."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 216.9,
+          "text": "Just a few more notes."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 221.1,
+          "text": "That during the civil rights movement, Baldwin advocated for racial equity and universal human dignity alongside civil rights luminaries, including Medgar Evers, Maya Angelou, Nina Simone, Malcolm X, and Martin Luther King Jr."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 234.4,
+          "text": "He described his work as bearing witness to the truth and observed that no society can smash the social contract and be exempt from the consequences."
+        }
+      ]
+    },
+    {
+      "end_sec": 262.6,
+      "id": "012",
+      "slug": "nurse-on-significance-of-the-day-designation-and-thanks-committee-staff",
+      "start_sec": 243.1,
+      "summary": "Chair Nurse states that designating a day is fitting to commemorate Baldwin's life and legacy, thanks the committee staff for preparing the resolution and vote, and asks the clerk to call the roll.",
+      "title": "Nurse on significance of the day designation and thanks committee staff",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 243.1,
+          "text": "The designation of a day is fitting to commemorate the life and legacy of James Baldwin, whose influence on this nation and this city continues today."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 252.1,
+          "text": "So I would like to thank our committee staff for putting this together and making this vote happen and leading on the work."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 259.2,
+          "text": "And I will now ask the clerk to call the roll."
+        }
+      ]
+    },
+    {
+      "end_sec": 298.6,
+      "id": "013",
+      "slug": "roll-call-vote-on-resolution-218",
+      "start_sec": 262.6,
+      "summary": "Committee Clerk William Martin conducts the roll call vote on Resolution 218. Chair Nurse, Councilmembers Feliz, Abreu, and Stevens vote aye. Councilmember Stevens notes she will shout out James Baldwin at the upcoming inaugural Black Pride Ball in the Bronx and thanks her deputy chief Greer.",
+      "title": "Roll call vote on Resolution 218",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 262.6,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 263.0,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 263.4,
+          "text": "William Martin, Committee Clerk, Roll Call Vote Committee on Civil and Human Rights, Resolution 218."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 269.4,
+          "text": "Chair."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 270.9,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 272.0,
+          "text": "Feliz."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 274.0,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 275.0,
+          "text": "Abreu."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 276.0,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 277.2,
+          "text": "Hanif."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 279.4,
+          "text": "Stevens."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 281.7,
+          "text": "I, and I would like to also say I'm really excited because next Tuesday we'll be having our first inaugural Black Pride Ball in the Bronx."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 289.6,
+          "text": "And so we will be definitely shouting out James Baldwin."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 292.2,
+          "text": "And thank you to my deputy chief, Greer, for pushing this type of work."
+        }
+      ]
+    },
+    {
+      "end_sec": 305.9,
+      "id": "014",
+      "slug": "resolution-218-approved-by-committee-5-0",
+      "start_sec": 298.6,
+      "summary": "Clerk William Martin announces the resolution has been approved by a vote of five in the affirmative, zero in the negative, with no abstentions.",
+      "title": "Resolution 218 approved by committee 5-0",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 298.6,
+          "text": "By vote of five in the affirmative, zero in the negative, and no abstentions."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 301.9,
+          "text": "The resolution has been approved by the committee."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 304.0,
+          "text": "Madam Chair, that is a full committee."
+        }
+      ]
+    },
+    {
+      "end_sec": 310.315,
+      "id": "015",
+      "slug": "chair-nurse-closes-the-hearing",
+      "start_sec": 305.9,
+      "summary": "Chair Nurse thanks the clerk and committee and adjourns the hearing.",
+      "title": "Chair Nurse closes the hearing",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 305.9,
+          "text": "Thank you, Clerk."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 307.0,
+          "text": "Thanks, Committee."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 308.0,
+          "text": "Hearing's over."
+        }
+      ]
+    }
+  ],
+  "date": "2026-08-13",
+  "duration_sec": 310.315,
+  "slug": "2026-08-13-1030-am-committee-on-civil-and-human-rights",
+  "summary": [
+    "The Committee on Civil and Human Rights held a hearing on Resolution 218, sponsored by Councilmember Crystal Hudson, to designate August 2nd annually as James Baldwin Day in New York City.",
+    "Chair Sandy Nurse and Councilmember Hudson delivered remarks on Baldwin's life, works, and legacy as a groundbreaking essayist and civil rights activist born in Harlem.",
+    "The committee approved the resolution by a unanimous vote of 5-0."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "10:30 AM",
+  "title": "Committee on Civil and Human Rights",
+  "topic": "Declaring August 2 annually as James Baldwin Day in the City of New York",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-2_260813-105511/video-web.mp4"
+  }
+}

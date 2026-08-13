@@ -1,0 +1,421 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 20.6,
+      "id": "001",
+      "slug": "staff-calls-the-public-safety-committee-meeting-to-order",
+      "start_sec": 0.8,
+      "summary": "Council staff quiets the room, welcomes attendees to the Committee on Public Safety vote, and asks members to approach the dais and silence electronic devices before yielding to the chair.",
+      "title": "Staff calls the Public Safety Committee meeting to order",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 0.8,
+          "text": "Just quiet down."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 8.9,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 9.5,
+          "text": "Welcome to today's New York City Council vote on the Committee of Public Safety."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 12.9,
+          "text": "At this time, please know and approach a dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 15.3,
+          "text": "Please silence all electronic devices."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 17.5,
+          "text": "Chair, you may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 37.1,
+      "id": "002",
+      "slug": "chair-feliz-introduces-himself-and-committee-members-present",
+      "start_sec": 20.6,
+      "summary": "Councilmember Oswald Feliz, Chair of the Committee on Public Safety, opens the hearing and acknowledges committee members Nurse, Gutierrez, Hanks, Banks, Wong, and Pirina Sanchez who are present.",
+      "title": "Chair Feliz introduces himself and committee members present",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 20.6,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 21.0,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 21.6,
+          "text": "I'm Councilmember Oswald Feliz, Chair of the Committee on Public Safety."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 25.6,
+          "text": "I am joined today by committee members Nurse Gutierrez, Hanks, Banks, Wong, and also Pirina Sanchez."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 35.4,
+          "text": "Thank you for joining."
+        }
+      ]
+    },
+    {
+      "end_sec": 50.5,
+      "id": "003",
+      "slug": "chair-feliz-introduces-proposed-int-935-a-on-quarterly-firearm-discharge-reporting",
+      "start_sec": 37.1,
+      "summary": "Chair Feliz announces the committee will vote on Proposed Int 935-A, a bill he sponsors that would require the NYPD to report quarterly on confirmed shots fired incidents in New York City.",
+      "title": "Chair Feliz introduces Proposed Int 935-A on quarterly firearm discharge reporting",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 37.1,
+          "text": "Today, the committee will vote on proposed introduction number 935A, sponsored by myself, Councilmember Oswald Feliz."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 44.4,
+          "text": "This bill would require the NYPD to report quarterly on confirmed shots fired incidents in our city."
+        }
+      ]
+    },
+    {
+      "end_sec": 66.3,
+      "id": "004",
+      "slug": "chair-feliz-explains-gaps-in-current-nypd-shooting-incident-data",
+      "start_sec": 50.5,
+      "summary": "Feliz notes that NYPD currently provides data on shooting victims and shooting incidents, but this data does not capture incidents where no one is struck by gunfire, leaving a gap in public information.",
+      "title": "Chair Feliz explains gaps in current NYPD shooting incident data",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 50.5,
+          "text": "Currently, NYPD provides data on the issue of gun violence, data related to shooting victims and shooting incidents."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 58.4,
+          "text": "But the shooting incidents data does not capture data related to shooting incidents when no one is struck."
+        }
+      ]
+    },
+    {
+      "end_sec": 82.9,
+      "id": "005",
+      "slug": "chair-feliz-details-required-reporting-elements-under-int-935-a",
+      "start_sec": 66.3,
+      "summary": "Feliz explains the bill would require NYPD to report the total number of shots fired incidents, including borough, precinct, approximate date, time, and location of each incident, capturing data not currently in existing statistics.",
+      "title": "Chair Feliz details required reporting elements under Int 935-A",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 66.3,
+          "text": "The report would require that the NYPD produce and provide information regarding the total number of shots fired incidents, as well as the borough, the precinct, the approximate date,"
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 78.8,
+          "text": "time, and location of each incident."
+        }
+      ]
+    },
+    {
+      "end_sec": 107.9,
+      "id": "006",
+      "slug": "chair-feliz-on-quarterly-reporting-providing-a-clearer-picture-of-gun-violence",
+      "start_sec": 82.9,
+      "summary": "Feliz states that establishing a quarterly reporting requirement would provide the council and the public with a clearer picture of when and where shots fired incidents occur, including incidents where no one is shot.",
+      "title": "Chair Feliz on quarterly reporting providing a clearer picture of gun violence",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 82.9,
+          "text": "This legislation will provide the council and the public with greater information about gun violence in the city of New York by providing"
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 90.0,
+          "text": "information related to shots fired incidents that are currently not captured in existing shooting incident statistics because no one is shot."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 98.9,
+          "text": "By establishing a quarterly reporting requirement, this bill would provide a clearer picture of when and where shots fired incidents occur in our city."
+        }
+      ]
+    },
+    {
+      "end_sec": 121.3,
+      "id": "007",
+      "slug": "chair-feliz-on-transparency-and-addressing-public-safety-concerns",
+      "start_sec": 107.9,
+      "summary": "Feliz concludes his remarks by stating the legislation will strengthen transparency around gun violence and provide the council and public with additional information to better understand and address public safety concerns.",
+      "title": "Chair Feliz on transparency and addressing public safety concerns",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 107.9,
+          "text": "I believe this legislation will strengthen transparency around gun violence in our communities and provide the council and the public with additional information to better understand and address public safety concerns."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 121.0,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 128.1,
+      "id": "008",
+      "slug": "chair-feliz-yields-to-clerk-for-roll-call-and-notes-councilmember-hankerson-has-joined",
+      "start_sec": 121.3,
+      "summary": "Feliz yields the microphone to the committee clerk for a roll call vote and notes that Councilmember Hankerson has also joined the hearing.",
+      "title": "Chair Feliz yields to clerk for roll call and notes Councilmember Hankerson has joined",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 121.3,
+          "text": "I would like to now yield the microphone to the clerk for a vote."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 124.3,
+          "text": "We've also been joined by Councilmember Hankerson."
+        }
+      ]
+    },
+    {
+      "end_sec": 137.9,
+      "id": "009",
+      "slug": "clerk-begins-roll-call-on-int-935-a-chair-feliz-votes-yes",
+      "start_sec": 128.1,
+      "summary": "Committee Clerk William Martin calls the roll for Proposed Int 935-A. Chair Feliz votes in the affirmative.",
+      "title": "Clerk begins roll call on Int 935-A; Chair Feliz votes yes",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 128.1,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 128.4,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 128.8,
+          "text": "William Martin, Committee Clerk, Roll Call Vote Committee on Public Safety, proposed introduction 935A."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 135.1,
+          "text": "Chair Feliz."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 136.7,
+          "text": "Yes."
+        }
+      ]
+    },
+    {
+      "end_sec": 158.0,
+      "id": "010",
+      "slug": "councilmembers-gutierrez-hanks-nurse-and-banks-cast-votes",
+      "start_sec": 137.9,
+      "summary": "The clerk continues the roll call. Councilmember Gutierrez votes aye. Hanks, Nurse, and Banks are called and respond, with ASR capturing their votes as affirmative.",
+      "title": "Councilmembers Gutierrez, Hanks, Nurse, and Banks cast votes",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 137.9,
+          "text": "Gutierrez."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 141.8,
+          "text": "Here."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 144.5,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 145.5,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 147.6,
+          "text": "Hanks."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 150.2,
+          "text": "I."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 151.6,
+          "text": "Nurse."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 153.2,
+          "text": "I vote A."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 154.8,
+          "text": "Banks."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 156.3,
+          "text": "I."
+        }
+      ]
+    },
+    {
+      "end_sec": 175.804,
+      "id": "011",
+      "slug": "councilmembers-hankerson-sanchez-and-wong-complete-the-roll-call",
+      "start_sec": 158.0,
+      "summary": "The clerk calls Hankerson, Justin Sanchez, and Wong, who each vote in the affirmative, completing the roll call for the committee.",
+      "title": "Councilmembers Hankerson, Sanchez, and Wong complete the roll call",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 158.0,
+          "text": "Hankerson."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 160.4,
+          "text": "What I."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 161.9,
+          "text": "Sanchez."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 163.7,
+          "text": "Justin Sanchez."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 165.3,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 166.1,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 168.7,
+          "text": "Wong."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 171.1,
+          "text": "I."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 172.9,
+          "text": "Ariola."
+        }
+      ]
+    },
+    {
+      "end_sec": 206.187,
+      "id": "012",
+      "slug": "clerk-announces-8-0-approval-of-int-935-a-chair-feliz-adjourns-hearing",
+      "start_sec": 175.804,
+      "summary": "The clerk announces the vote as 8 in the affirmative, 0 in the negative, with no abstentions, approving the item. Chair Feliz declares the vote passed, closes the vote, and adjourns the hearing.",
+      "title": "Clerk announces 8-0 approval of Int 935-A; Chair Feliz adjourns hearing",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 175.804,
+          "text": "With a vote of 8 in the affirmative, 0 in the negative, and no abstentions, this item has been approved by the committee."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 183.204,
+          "text": "Thank you so much."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 184.504,
+          "text": "The vote passes."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 185.504,
+          "text": "The vote is closed."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 186.404,
+          "text": "And this hearing is hereby adjourned."
+        }
+      ]
+    }
+  ],
+  "date": "2026-08-13",
+  "duration_sec": 206.187,
+  "slug": "2026-08-13-1000-am-committee-on-public-safety",
+  "summary": [
+    "The Committee on Public Safety, chaired by Councilmember Oswald Feliz, held a hearing on Proposed Int 935-A, a bill requiring NYPD to report quarterly on confirmed firearm discharge incidents.",
+    "Chair Feliz explained that current NYPD shooting incident data does not capture incidents where no one is struck, and the bill would require reporting on total shots fired incidents including borough, precinct, date, time, and location.",
+    "The committee voted 8-0 in favor of the bill, with all present members voting in the affirmative, and the hearing was adjourned."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "10:00 AM",
+  "title": "Committee on Public Safety",
+  "topic": "Quarterly reporting on confirmed firearm discharges",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-3_260813-102749/video-web.mp4"
+  }
+}

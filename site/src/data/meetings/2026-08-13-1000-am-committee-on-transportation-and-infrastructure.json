@@ -1,0 +1,721 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 25.0,
+      "id": "001",
+      "slug": "council-staff-opens-hearing-and-gives-housekeeping-instructions",
+      "start_sec": 7.5,
+      "summary": "Council staff welcomes attendees to the Committee on Transportation and Infrastructure vote, reminds everyone not to approach the dais, and asks that electronic devices be silenced.",
+      "title": "Council staff opens hearing and gives housekeeping instructions",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 7.5,
+          "text": "Good morning and welcome to today's New York City Council vote on Committee on Transportation and Infrastructure."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 14.3,
+          "text": "At this time, during today's vote, no one may approach the dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 18.7,
+          "text": "Please silence any electronic devices you might have."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 21.7,
+          "text": "Chair, you may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 75.7,
+      "id": "002",
+      "slug": "chair-abreu-introduces-the-four-outdoor-dining-bills-on-the-agenda",
+      "start_sec": 25.0,
+      "summary": "Chair Shaun Abreu opens the hearing and lists the four bills: Intro 655A (Restler) on expanding roadway cafes, Intro 894A (Brewer) on vertical winterization coverings, Intro 917A (J. Sanchez) on sanitation requirements, and Intro 918A (Thomas-Henry) on quarterly installment payments for revocable consent fees.",
+      "title": "Chair Abreu introduces the four outdoor dining bills on the agenda",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 25.0,
+          "text": "Good morning and welcome to today's hearing of the New York City Council's Committee on Transportation Infrastructure."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 29.6,
+          "text": "I'm Councilmember Shaun-Abreu, Majority and Chair of this committee."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 32.9,
+          "text": "At today's hearing, the committee will vote on the following legislation related to the city's outdoor dining program."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 37.8,
+          "text": "Proposed Intro No."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 38.9,
+          "text": "655A, sponsored by Councilmember Lincoln-Restler, in relation to expanding access to roadway cafes."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 45.7,
+          "text": "Proposed Intro No."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 46.8,
+          "text": "894A, sponsored by Councilmember Gale-A-Brewer, in relation to vertical winterization coverings for sidewalk cafes."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 53.7,
+          "text": "Proposed Intro No."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 54.8,
+          "text": "917A, sponsored by Councilmember Justin Sanchez, in relation to sanitation."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 60.1,
+          "text": "Sorry."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 60.8,
+          "text": "And claim this requirements for roadway and sidewalk cafes."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 64.4,
+          "text": "And proposed intro number 918A, sponsored by Councilmember Shanel Thomas-Henry, in relation to paying sidewalk and roadway cafe revocable consent compensation in quarterly installments."
+        }
+      ]
+    },
+    {
+      "end_sec": 99.0,
+      "id": "003",
+      "slug": "chair-abreu-announces-two-preconsidered-seqra-resolutions",
+      "start_sec": 75.7,
+      "summary": "Abreu notes the committee will also hear and vote on two preconsidered resolutions setting forth Council findings on environmental reviews conducted for Intro 655A and Intro 894A under the State Environmental Quality Review Act.",
+      "title": "Chair Abreu announces two preconsidered SEQRA resolutions",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 75.7,
+          "text": "Also at today's hearing, the committee will hear and..."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 81.2,
+          "text": "I'm laughing at Justin."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 82.3,
+          "text": "Sorry, guys."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 83.7,
+          "text": "Also at today's hearing, the committee will hear and vote on two pre-considered resolutions, which respectively set forth the..."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 90.0,
+          "text": "the council findings concerning the environmental review conducted for proposed intro number 655A as well as for proposed intro number 894A."
+        }
+      ]
+    },
+    {
+      "end_sec": 125.8,
+      "id": "004",
+      "slug": "chair-abreu-thanks-committee-and-consumer-worker-protection-staff",
+      "start_sec": 99.0,
+      "summary": "Abreu thanks his Deputy Chief of Staff Jaleesa Quigley, committee counsels Theo Miller and Sierra Townsend, senior policy analysts Kevin Katowski and John Bazile, and Consumer Worker Protection Committee staff Sarah Swain and Natalie Meltzer for their work preparing the hearing.",
+      "title": "Chair Abreu thanks committee and Consumer Worker Protection staff",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 99.0,
+          "text": "Before we begin, I'd like to thank my staff and the committee staff for their hard work in preparing for today's hearing."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 104.7,
+          "text": "Jaleesa Quigley, my Deputy Chief of Staff, Theo Miller, and Sierra Townsend, counsels to the committee, and Kevin Katowski and John Bazile, senior policy analysts of the committee."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 112.8,
+          "text": "I would also like to thank the staff of the Consumer Worker Protection Committee, Sarah Swain and Natalie Meltzer, for their efforts on the bills being voted on today."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 120.3,
+          "text": "I will now pass it on to Councilman Ressler to provide an opening on his bill."
+        }
+      ]
+    },
+    {
+      "end_sec": 170.1,
+      "id": "005",
+      "slug": "restler-seasonal-outdoor-dining-program-failed-90-of-restaurants-dropped-out",
+      "start_sec": 125.8,
+      "summary": "Council Member Lincoln Restler explains that the outdoor dining program updated three years ago by the Adams administration and Council did not work. During COVID, 8,000 restaurants offered outdoor dining; today fewer than 800 participate, a 90% decline.",
+      "title": "Restler: Seasonal outdoor dining program failed, 90% of restaurants dropped out",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 125.8,
+          "text": "Thank you so much, Chair Abreu."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 127.2,
+          "text": "I really appreciate it."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 128.4,
+          "text": "It was about three years ago that the Adams administration and this council"
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 135.0,
+          "text": "updated the outdoor dining program."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 137.8,
+          "text": "And unfortunately, the legislation that was passed a few years ago did not work."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 145.1,
+          "text": "We have seen a really calamitous decline in the number of restaurants that participate in outdoor dining across the city of New York."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 153.2,
+          "text": "During COVID, there were 8,000 restaurants that were offering outdoor dining."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 157.4,
+          "text": "Today, we're well under 800."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 159.2,
+          "text": "So 90% of the restaurants that used to offer outdoor dining, that used to provide a great place for all of us to enjoy an outdoor meal, are no longer available."
+        }
+      ]
+    },
+    {
+      "end_sec": 205.6,
+      "id": "006",
+      "slug": "restler-cost-of-building-and-storing-structures-is-the-main-barrier-to-year-round-dining",
+      "start_sec": 170.1,
+      "summary": "Restler identifies the number one reason restaurants left the program: the expense of building, deconstructing, and storing outdoor dining structures in winter. He argues year-round dining will bring thousands of restaurants back across all neighborhoods.",
+      "title": "Restler: Cost of building and storing structures is the main barrier to year-round dining",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 170.1,
+          "text": "And the number one reason why restaurants say they're not providing outdoor dining anymore is because it is stupidly expensive to build and deconstruct and store."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 180.3,
+          "text": "these outdoor dining structures during the winter months."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 182.7,
+          "text": "So you may be wondering, you know, am I really going to enjoy a meal in December outside?"
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 188.7,
+          "text": "I mean, tragically with climate change, there are a lot more warm December days than there used to be."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 193.1,
+          "text": "But the real, the most salient benefit of this legislation is that there are going to be thousands of additional restaurants across every one of our neighborhoods that are offering outdoor dining and a great place for us to enjoy a meal outdoors."
+        }
+      ]
+    },
+    {
+      "end_sec": 260.3,
+      "id": "007",
+      "slug": "restler-cleanliness-measures-retained-and-operating-hours-reduced-to-11-p-m",
+      "start_sec": 205.6,
+      "summary": "Restler notes the seasonal program's cleanliness requirements\u2014removable furniture, weekly floor removal\u2014remain in place, with only 11 311 complaints last year. He also announces hours are reduced from midnight to 11 p.m., addressing quality-of-life concerns raised by lower Manhattan colleagues.",
+      "title": "Restler: Cleanliness measures retained and operating hours reduced to 11 p.m.",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 205.6,
+          "text": "One thing that the seasonal program did get right is that it addressed cleanliness issues around outdoor dining structures."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 212.6,
+          "text": "Last year, there were just 11 311 complaints, 11 311 complaints about cleanliness at outdoor dining structures in the city of New York."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 220.2,
+          "text": "By insisting that all of the furniture is readily removable, that the floors are removed once a week and cleaned, we have..."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 227.3,
+          "text": "I think, effectively addressed rat and garbage issues around our outdoor dining structures, all of those same policies remain in place as we make the program year-round."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 235.6,
+          "text": "To address very real quality of life issues across our communities, and with the Council of..."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 244.2,
+          "text": "Kind of advice of council members from lower Manhattan, like Councilmember Marte and Epstein and Wilson."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 249.2,
+          "text": "We've reduced the hours to 11 o'clock."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 252.2,
+          "text": "Currently, outdoor dining structures can stay open until midnight and sidewalk cafes as well."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 256.6,
+          "text": "Now they will all close at 11 p.m."
+        }
+      ]
+    },
+    {
+      "end_sec": 290.8,
+      "id": "008",
+      "slug": "restler-outdoor-dining-expansion-creates-jobs-and-boosts-the-economy",
+      "start_sec": 260.3,
+      "summary": "Restler cites a Comptroller Lander study finding every restaurant that adds outdoor dining adds a job, and notes the private workforce shrank last year. He frames the legislation as great for restaurants, hospitality workers, and New Yorkers enjoying outdoor meals.",
+      "title": "Restler: Outdoor dining expansion creates jobs and boosts the economy",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 260.3,
+          "text": "This is great for our economy."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 262.4,
+          "text": "Last year, with the exception of home health aides, the private..."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 265.5,
+          "text": "Workforce in New York City actually shrunk."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 267.5,
+          "text": "But Comptroller Lander did a great study that found that"
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 270.0,
+          "text": "Every restaurant that adds outdoor dining adds a job."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 272.4,
+          "text": "So if we can add thousands of outdoor dining structures across the city, those are thousands of good jobs that New Yorkers can benefit from."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 279.3,
+          "text": "I am thrilled that we are passing this legislation that is great for restaurants, that's great for hospitality workers, but most of all, it's great for all of us to be able to enjoy a meal outside, enjoying the streetscape of New York City."
+        }
+      ]
+    },
+    {
+      "end_sec": 362.9,
+      "id": "009",
+      "slug": "restler-thanks-speaker-menon-staff-and-advocates-for-supporting-the-bill",
+      "start_sec": 290.8,
+      "summary": "Restler thanks Speaker Menon for championing the legislation since before she was speaker, acknowledges ledge division staff Rachel Cordero and Sarah Swain, his chief of staff Molly, and advocacy groups including Open Plans, Transportation Alternatives, and the Hospitality Alliance.",
+      "title": "Restler: Thanks Speaker Menon, staff, and advocates for supporting the bill",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 290.8,
+          "text": "Speaker Menon has been a huge champion of this legislation since before she was speaker."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 295.8,
+          "text": "Back last summer, she was conspiring with me about how we could try to pass and move this legislation."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 302.6,
+          "text": "I want to thank her and Jonathan from her team in particular for really being steadfast in their support for this bill."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 309.1,
+          "text": "The ledge division did a brilliant job in navigating this."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 311.9,
+          "text": "I really want to thank Rachel Cordero and Sarah Swain, who I think just flew back from Egypt just for this."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 316.3,
+          "text": "I'm just kidding, but we're really grateful for their help."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 319.8,
+          "text": "My chief of staff is brilliant."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 322.1,
+          "text": "Molly is the brains behind everything we do, and I really appreciate her hard work on this."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 326.1,
+          "text": "And there were many, many folks who supported this, open plans, transportation alternatives, the hospitality alliance, and most of all, all the small businesses around New York City who told their stories and explained how the seasonal program just quite simply did not work and we needed to fix it."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 341.3,
+          "text": "You know, we need to be more clear-eyed in government."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 344.1,
+          "text": "Of recognizing when policies fail and fixing them."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 347.6,
+          "text": "That is exactly what we're doing today, and I'm really proud that we're restoring outdoor dining to its previous glory."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 354.5,
+          "text": "Thank you, Chair Bray."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 355.2,
+          "text": "We really appreciate your strong support here."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 356.7,
+          "text": "Congratulations, Councilmember."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 358.6,
+          "text": "I will now pass it on to Councilmember."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 360.0,
+          "text": "Or Thomas Henry to provide an opening statement on her bill."
+        }
+      ]
+    },
+    {
+      "end_sec": 420.404,
+      "id": "010",
+      "slug": "thomas-henry-intro-918a-allows-quarterly-installment-payments-for-cafe-revocable-consent-fees",
+      "start_sec": 362.9,
+      "summary": "Council Member Shanel Thomas-Henry explains that Intro 918A lets sidewalk and roadway cafe operators pay their annual revocable consent fee in quarterly installments, easing the financial burden on small businesses she toured across all five boroughs.",
+      "title": "Thomas-Henry: Intro 918A allows quarterly installment payments for cafe revocable consent fees",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 362.9,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 364.3,
+          "text": "Since stepping into the role as the chair of the Committee on Small Business, I've had the honor and the privilege of touring businesses across all five boroughs in New York City."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 374.0,
+          "text": "And what stood out with each and every one of them was the cost of doing business is getting harder and harder."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 379.9,
+          "text": "So Intro 918 would allow sidewalk and roadway cafe operators to pay their annual revocable consent that is currently being paid annually to be broken up into quarterly installments."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 394.2,
+          "text": "Alleviating just a small tidbit of the financial burden that so many of our businesses face across the city."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 400.6,
+          "text": "So to all those restaurants that we toured and visited, this bill is for you."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 405.0,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 412.104,
+          "text": "All right."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 413.304,
+          "text": "Anyone else like to speak on the bills today?"
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 416.804,
+          "text": "Seeing none, I will now ask the committee clerk to call the roll."
+        }
+      ]
+    },
+    {
+      "end_sec": 529.988,
+      "id": "011",
+      "slug": "roll-call-vote-on-all-coupled-items-with-split-votes-from-marte-and-wong",
+      "start_sec": 420.404,
+      "summary": "Committee clerk William Martin calls the roll on all coupled items. Council Member Marte votes aye on all but abstains on Intro 655A. Council Member Wong votes aye on Intros 917 and 918 but no on Intros 655 and 894. Other members vote aye.",
+      "title": "Roll call vote on all coupled items with split votes from Marte and Wong",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 420.404,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 420.704,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 421.804,
+          "text": "William Martin, committee clerk, roll call vote committee on transportation and infrastructure."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 426.504,
+          "text": "All items are coupled."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 427.804,
+          "text": "Chair, abre you."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 429.804,
+          "text": "I'm what I am."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 431.604,
+          "text": "Lewis."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 434.404,
+          "text": "Brooks Powers."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 440.672,
+          "text": "I would."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 443.172,
+          "text": "Dinowitz."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 446.472,
+          "text": "I."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 447.672,
+          "text": "Hanif."
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 448.872,
+          "text": "I."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 450.372,
+          "text": "Krishnan."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 454.072,
+          "text": "Marte."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 457.172,
+          "text": "I vote aye on all and abstain from intro 655A."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 465.772,
+          "text": "Carina Sanchez."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 468.272,
+          "text": "And I want to congratulate all my colleagues on their bills."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 474.388,
+          "text": "One."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 478.688,
+          "text": "Justin Sanchez."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 480.488,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 482.488,
+          "text": "Wong."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 484.388,
+          "text": "Aye on intro 917, intro 918, and no on intro 655, and no on intro 894."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 492.388,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 497.988,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 559.467,
+      "id": "012",
+      "slug": "vote-results-894a-adopted-7-1-655a-adopted-6-1-1-all-other-items-adopted-8-0",
+      "start_sec": 529.988,
+      "summary": "Clerk Martin announces Intro 894A adopted 7-1, Intro 655A adopted 6-1 with one abstention, and all other items adopted 8-0 with no negatives or abstentions. Chair Abreu closes the vote.",
+      "title": "Vote results: 894A adopted 7-1, 655A adopted 6-1-1, all other items adopted 8-0",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 529.988,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 530.488,
+          "text": "Following results."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 531.988,
+          "text": "Introduction 894A has been adopted by the committee with seven in the affirmative, one in the negative, no abstentions."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 538.088,
+          "text": "Introduction 655A, adopted by the committee with six in the affirmative, one in the negative, one abstention."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 543.788,
+          "text": "And all other items have been adopted by the committee with eight in the affirmative, zero in the negative, and no abstentions."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 550.872,
+          "text": "With that, this vote is closed."
+        }
+      ]
+    }
+  ],
+  "date": "2026-08-13",
+  "duration_sec": 559.467,
+  "slug": "2026-08-13-1000-am-committee-on-transportation-and-infrastructure",
+  "summary": [
+    "The Committee on Transportation and Infrastructure voted on four bills and two preconsidered SEQRA resolutions related to the city's outdoor dining program, including expanding roadway cafe access, vertical winterization coverings, sanitation requirements, and quarterly installment payments for revocable consent fees.",
+    "Council Member Lincoln Restler spoke at length on Intro 655A, noting a 90% decline in outdoor dining participation since COVID and arguing that year-round dining would restore thousands of restaurant setups and create jobs.",
+    "All items passed committee, with Intro 894A adopted 7-1, Intro 655A adopted 6-1 with one abstention from Council Member Marte, and the remaining items adopted 8-0; Council Member Wong voted no on 655A and 894A."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "10:00 AM",
+  "title": "Committee on Transportation and Infrastructure",
+  "topic": "Expanding access to roadway cafes",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-1_260813-101357/video-web.mp4"
+  }
+}

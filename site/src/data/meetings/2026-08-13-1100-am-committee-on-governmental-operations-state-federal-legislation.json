@@ -1,0 +1,638 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 22.2,
+      "id": "001",
+      "slug": "staff-opens-hearing-and-gives-housekeeping-instructions",
+      "start_sec": 5.5,
+      "summary": "Council staff welcomes attendees to the Committee on Governmental Operations, State and Federal Legislation vote, asks everyone to silence electronic devices, and confirms the committee is ready to begin.",
+      "title": "Staff opens hearing and gives housekeeping instructions",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 5.5,
+          "text": "Good morning, everyone, and welcome to today's New York City Council vote for the Committee on Governmental Operations, State and Federal Legislation."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 13.1,
+          "text": "At this time, please silence all electronic devices and no one may approach the dais at any time."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 18.7,
+          "text": "Chair Brewer, we are ready to begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 43.0,
+      "id": "002",
+      "slug": "chair-brewer-opens-hearing-and-welcomes-council-colleagues",
+      "start_sec": 22.2,
+      "summary": "Gale Brewer introduces herself as committee chair and welcomes council members in attendance, including Morano, Wilson, Zhuang, Feliz, Dinowitz, and Carr, noting Carr's Staten Island connection.",
+      "title": "Chair Brewer opens hearing and welcomes council colleagues",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 22.2,
+          "text": "Thank you very much."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 23.9,
+          "text": "I am Gail Brewer, Chair of the Committee on Government Operations, State and Federal Legislation."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 29.0,
+          "text": "Thank you for joining us today."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 31.2,
+          "text": "I would like to welcome my council colleagues who are here, Councilmember Morano, Wilson, Zhuang, Felice, Dinowitz, and Carr."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 40.5,
+          "text": "Carr's here because he's from Staten Island."
+        }
+      ]
+    },
+    {
+      "end_sec": 52.9,
+      "id": "003",
+      "slug": "brewer-introduces-intro-320a-to-codify-the-staten-island-borough-flag",
+      "start_sec": 43.0,
+      "summary": "Brewer announces the committee will vote on Council Member Morano's bill, Intro 320A, which would codify the official flag of Staten Island, allowing it to be used at official events.",
+      "title": "Brewer introduces Intro 320A to codify the Staten Island borough flag",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 43.0,
+          "text": "Today we will be voting on Councilmember Morano's bill, Intro 320A, which would codify the official flag of Staten Island."
+        }
+      ]
+    },
+    {
+      "end_sec": 58.6,
+      "id": "004",
+      "slug": "brewer-notes-only-brooklyn-and-the-bronx-have-codified-borough-flags",
+      "start_sec": 52.9,
+      "summary": "Brewer explains that currently only Brooklyn and the Bronx have codified their borough flags, joking about Manhattan's absence, and notes the Staten Island flag has been in use since 2016.",
+      "title": "Brewer notes only Brooklyn and the Bronx have codified borough flags",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 52.9,
+          "text": "Currently only Brooklyn and the Bronx have codified their flags."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 56.6,
+          "text": "I don't know what's wrong with Manhattan."
+        }
+      ]
+    },
+    {
+      "end_sec": 87.5,
+      "id": "005",
+      "slug": "brewer-describes-the-flag-s-history-and-origins-under-borough-president-james-otto",
+      "start_sec": 58.6,
+      "summary": "Brewer explains the flag was commissioned by then-Borough President James Otto and replaced a previous flag that was roundly disliked by Staten Island residents. The bill simply codifies the flag already in use.",
+      "title": "Brewer describes the flag's history and origins under Borough President James Otto",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 58.6,
+          "text": "The flag that will be codified."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 60.0,
+          "text": "I have an idea."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 62.3,
+          "text": "The flag that will be codified by Councilmember Morano's bill has been in use since 2016, replacing a flag that was roundly disliked by Staten Island residents."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 75.5,
+          "text": "I think Jimmy Otto has something to do with this."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 78.0,
+          "text": "This bill simply codifies a flag that the borough already uses."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 83.1,
+          "text": "Which will allow it to be used at official events."
+        }
+      ]
+    },
+    {
+      "end_sec": 121.9,
+      "id": "006",
+      "slug": "brewer-thanks-committee-staff-and-her-office-team",
+      "start_sec": 87.5,
+      "summary": "Brewer acknowledges Johari Frazier, Erica Cohen, and Senator Hamid from the Government Operations committee, as well as Cynthia Honig and James Liu from her office, noting Liu is from Staten Island.",
+      "title": "Brewer thanks committee staff and her office team",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 87.5,
+          "text": "I'd like to thank the following people from government operations."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 90.0,
+          "text": "Relations Committee, Johari Frazier, Erica Cohen, and Senator Hamid."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 95.8,
+          "text": "And from my office, Cynthia Honig and James Liu, who's here today."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 100.2,
+          "text": "He's from Staten Island."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 103.1,
+          "text": "Everyone working in the background to make this hearing run smoothly is much appreciated."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 108.5,
+          "text": "I will now turn it over to Councilmember Morano to give a statement on the bill."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 112.6,
+          "text": "I think we also have Councilmember Stevens on Zoom."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 115.9,
+          "text": "I'll now turn it over again to Councilmember Morano, who's from Staten Island and loves this flag."
+        }
+      ]
+    },
+    {
+      "end_sec": 143.3,
+      "id": "007",
+      "slug": "morano-staten-islanders-proud-of-borough-flag-deserves-legal-recognition",
+      "start_sec": 121.9,
+      "summary": "Frank Morano begins his statement, saying Staten Islanders have never needed a law to be proud of their borough but that their flag should finally have the law on its side. He notes the flag was commissioned by Borough President James Otto and designed by Amal Micah.",
+      "title": "Morano: Staten Islanders proud of borough, flag deserves legal recognition",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 121.9,
+          "text": "Thank you, Chair Brewer."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 123.8,
+          "text": "Thank you to all my colleagues on the Government Operations Committee for considering Intro 320 today."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 130.5,
+          "text": "Staten Islanders, as all of the Staten Island City Council delegation will tell you, has never needed a law to tell us to be proud of our borough."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 138.8,
+          "text": "But after today, hopefully our flag will finally have the law on its side."
+        }
+      ]
+    },
+    {
+      "end_sec": 183.7,
+      "id": "008",
+      "slug": "morano-describes-the-flag-s-design-and-historical-symbolism",
+      "start_sec": 143.3,
+      "summary": "Morano details the flag's imagery: a woman representing New York City standing on Staten Island looking over the Narrows, Henry Hudson's Half Moon, Native Americans and Dutch settlers, symbols of peace, and the dates 1609 and 1898. He calls it 'a history lesson you can raise on a flagpole.'",
+      "title": "Morano describes the flag's design and historical symbolism",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 143.3,
+          "text": "For nearly a decade, as the chair indicated, Staten Islanders have embraced this flag."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 148.1,
+          "text": "It was commissioned by then-Borough President James Otto and designed by Amal Micah and his team to give our borough a symbol worthy of its history."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 157.6,
+          "text": "And there's a lot of history on this flag."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 161.1,
+          "text": "There's a woman on the flag, you'll see, who represents New York City."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 164.8,
+          "text": "She's standing on Staten Island and looking out over the Narrows."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 168.5,
+          "text": "We see Henry Hudson's half moon, Native Americans and Dutch settlers, symbols of peace, and the dates 1609 and 1898."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 177.3,
+          "text": "In other words, this isn't just a nice design."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 180.4,
+          "text": "It's a history lesson you can raise on a flagpole."
+        }
+      ]
+    },
+    {
+      "end_sec": 230.8,
+      "id": "009",
+      "slug": "morano-borough-pride-and-city-pride-complement-each-other",
+      "start_sec": 183.7,
+      "summary": "Morano addresses critics who question the bill's importance, arguing that Staten Islanders sometimes feel removed from the rest of the city. He says the more connected New Yorkers feel to their borough, the more connected they feel to the city as a whole.",
+      "title": "Morano: borough pride and city pride complement each other",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 183.7,
+          "text": "But despite all that, our flag has never actually been official under New York City law."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 189.3,
+          "text": "As the chair indicated, only the Bronx and Brooklyn currently have their borough flags codified."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 194.8,
+          "text": "So Intro 320 changes that for Staten Island."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 197.4,
+          "text": "And I think there's a larger message here because so many people have asked me, oh, isn't there something more important that you should be worried about?"
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 204.6,
+          "text": "And the truth is Staten Islanders sometimes feel a little removed from the rest of New York City, both geographically and otherwise."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 211.3,
+          "text": "Sometimes we're happy to be a little farther removed."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 213.6,
+          "text": "But borough pride and city pride aren't competitors."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 218.1,
+          "text": "I believe the more connected New Yorkers feel to their neighborhood and their boroughs, the more connected they feel to the city as a whole."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 224.5,
+          "text": "It's not about putting Staten Island above any other borough."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 227.7,
+          "text": "It's about putting Staten Island alongside them."
+        }
+      ]
+    },
+    {
+      "end_sec": 267.4,
+      "id": "010",
+      "slug": "morano-thanks-bipartisan-staten-island-delegation-for-unified-support",
+      "start_sec": 230.8,
+      "summary": "Morano highlights the nonpartisan support from the entire Staten Island delegation, thanking Majority Whip Hanks and Minority Leader Carr as partners. He notes Staten Island pride brings Democrats and Republicans together and thanks Carr and Camilla for making it a true delegation effort.",
+      "title": "Morano thanks bipartisan Staten Island delegation for unified support",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 230.8,
+          "text": "I'm particularly proud that our entire Staten Island delegation came together on this in a nonpartisan fashion."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 237.4,
+          "text": "Majority Whip Hanks, Minority Leader Carr, and I may represent different districts and sometimes different points of view, but we share a tremendous love for the borough, and we're privileged to represent it, and that's why we're all on this bill."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 249.5,
+          "text": "And I especially want to thank my brother, Minority Leader Carr."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 253.5,
+          "text": "David has been a friend, a colleague, and a partner on this effort from the beginning."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 257.4,
+          "text": "There aren't many things in this building that bring Democrats and Republicans together quite as easily as Staten Island pride, and I'm grateful to both David and Camilla for making this a true delegation effort."
+        }
+      ]
+    },
+    {
+      "end_sec": 302.2,
+      "id": "011",
+      "slug": "morano-thanks-speaker-menin-chair-brewer-and-looks-forward-to-flag-raising",
+      "start_sec": 267.4,
+      "summary": "Morano expresses gratitude to Speaker Menin and Chair Brewer for their support, thanks colleagues outside Staten Island who joined the bill, and says he looks forward to the day the flag is raised as the official flag of Staten Island. He urges a yes vote.",
+      "title": "Morano thanks Speaker Menin, Chair Brewer, and looks forward to flag-raising",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 267.4,
+          "text": "I'm also grateful to Speaker Menon and Chair Brewer."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 270.3,
+          "text": "for their support for this entire process, and from my colleagues outside Staten Island who joined us, and everyone who recognizes that these symbols of civic identity really do matter."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 280.8,
+          "text": "So today, we're taking something Staten Islanders have already embraced and simply saying officially and permanently, this is our flag."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 287.8,
+          "text": "And I look forward to the day when Kamilla, David, and I can stand together as this flag is raised for the first time as the official flag of the borough of Staten Island."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 296.7,
+          "text": "So I hope everybody votes yes."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 299.1,
+          "text": "And I'm grateful for the consideration of the bill."
+        }
+      ]
+    },
+    {
+      "end_sec": 310.2,
+      "id": "012",
+      "slug": "brewer-turns-to-clerk-to-begin-roll-call-vote",
+      "start_sec": 302.2,
+      "summary": "Brewer thanks Morano and turns the proceedings over to the committee clerk, William Martin, to call the roll on Proposed Introduction 320A.",
+      "title": "Brewer turns to clerk to begin roll call vote",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 302.2,
+          "text": "Thank you very much."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 303.1,
+          "text": "I'll now turn it over to the clerk, who will soon, there he is, to call the roll."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 309.3,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 382.636,
+      "id": "013",
+      "slug": "roll-call-vote-all-committee-members-vote-aye-on-intro-320a",
+      "start_sec": 310.2,
+      "summary": "Clerk William Martin calls the roll. Brewer, Dinowitz, Feliz, Stevens, Zhuang, Wilson, and Morano all vote aye, with several offering congratulations to Morano and Staten Island. Dinowitz notes Staten Island joins the Bronx and Brooklyn with a codified flag.",
+      "title": "Roll call vote: all committee members vote aye on Intro 320A",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 310.2,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 310.6,
+          "text": "Good morning, William Martin, Committee Clerk, Committee on Governmental Operations, State and Federal Legislation, Proposed Introduction 320A, Chair."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 320.3,
+          "text": "Brewers."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 321.4,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 322.1,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 322.9,
+          "text": "Dinowitz."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 325.2,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 325.8,
+          "text": "Congratulations, Councilman Murano."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 328.0,
+          "text": "The entire island of Staten for joining the ranks of the Bronx and Brooklyn who have flags."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 335.8,
+          "text": "Feliz."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 341.1,
+          "text": "I vote aye or no."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 341.8,
+          "text": "Congratulations, Councilman Morano, and also to the people of Staten Island."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 345.5,
+          "text": "Let's go Bronx."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 346.5,
+          "text": "Let's go Yankees."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 349.6,
+          "text": "Stevens."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 353.236,
+          "text": "Zhuang."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 353.836,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 355.236,
+          "text": "Thank you, Councilmember Stevens."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 357.936,
+          "text": "Zhuang."
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 358.936,
+          "text": "I vote aye and a congratulation to our council member, Monrado, and also Southern Island people."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 371.136,
+          "text": "Wilson."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 372.636,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 373.136,
+          "text": "Congratulations, Manhattan."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 374.736,
+          "text": "Tips its hat to Staten Island today."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 377.836,
+          "text": "Morano."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 379.436,
+          "text": "Enthusiastically, yes."
+        }
+      ]
+    },
+    {
+      "end_sec": 411.413,
+      "id": "014",
+      "slug": "bill-approved-7-0-by-committee-hearing-adjourned",
+      "start_sec": 382.636,
+      "summary": "The clerk announces the bill passed by a vote of seven in the affirmative, zero in the negative, with no abstentions\u2014a full committee vote. Chair Brewer declares the hearing finished.",
+      "title": "Bill approved 7-0 by committee; hearing adjourned",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 382.636,
+          "text": "By a vote of seven in the affirmative, zero in the negative, and no abstentions."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 386.336,
+          "text": "Item has been approved by the committee."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 388.136,
+          "text": "Madam Chair, that is a full committee."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 398.668,
+          "text": "Chair Brewer."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 407.868,
+          "text": "Hearing is finished."
+        }
+      ]
+    }
+  ],
+  "date": "2026-08-13",
+  "duration_sec": 411.413,
+  "slug": "2026-08-13-1100-am-committee-on-governmental-operations-state-federal-legislation",
+  "summary": [
+    "The Committee on Governmental Operations, State & Federal Legislation held a hearing on Intro 320A, a bill to codify the official flag of the borough of Staten Island.",
+    "Chair Gale Brewer and Council Member Frank Morano explained the flag's history, design symbolism, and significance for Staten Island civic identity.",
+    "The committee voted 7-0 to approve the bill, with bipartisan support from the entire Staten Island delegation."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "11:00 AM",
+  "title": "Committee on Governmental Operations, State & Federal Legislation",
+  "topic": "Codifying the official flag of the borough of Staten Island",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-2_260813-113113/video-web.mp4"
+  }
+}

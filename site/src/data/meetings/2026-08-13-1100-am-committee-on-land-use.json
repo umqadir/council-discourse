@@ -1,0 +1,402 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 58.0,
+      "id": "001",
+      "slug": "chair-riley-opens-meeting-and-welcomes-committee-members",
+      "start_sec": 5.8,
+      "summary": "Council staff calls the meeting to order and Chair Riley welcomes colleagues including Brooks-Powers, Cab\u00e1n, Abreu, Salaam, Banks, Zhuang, Encarnaci\u00f3n, Sanchez, Thomas-Henry, and Minority Leader Carr. Riley notes the committee will vote on four proposals referred by the subcommittees and thanks Subcommittee Chairs Lewis and Marte for their leadership.",
+      "title": "Chair Riley opens meeting and welcomes committee members",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 5.8,
+          "text": "Good morning and welcome to today's New York City Council vote on the Committee of Land Use."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 10.0,
+          "text": "At this time, please silence all electronic devices and no one may approach the dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 14.8,
+          "text": "Chair, you may begin."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 18.8,
+          "text": "Good morning, everyone, and welcome to the meeting of the Committee on Land Use."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 22.3,
+          "text": "I'm Councilmember Kevin Riley, chair of this committee."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 25.4,
+          "text": "I want to welcome my esteemed colleagues joining me today, including Councilmember Brooks Powers, Councilmember Caban, Majority Leader of Bayou, Councilmember Salam, Councilmember Banks, Councilmember Zhuang,"
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 37.9,
+          "text": "Councilmember Encarnacion, Councilmember Justin Sanchez, Councilmember Thomas Henry, and Minority Leader David Carr."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 46.5,
+          "text": "Today we are voting on four proposals referred to us by our subcommittee."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 50.9,
+          "text": "And like always, I would like to thank Chair Lewis in Zonin and Chair Marte in Landmarks for their ongoing leadership."
+        }
+      ]
+    },
+    {
+      "end_sec": 85.1,
+      "id": "002",
+      "slug": "chair-riley-outlines-lu-114-queens-cd2-walk-to-park-acquisition",
+      "start_sec": 58.0,
+      "summary": "Riley describes LU 114, which facilitates future acquisition and development of new parkland and open space to address the walk-to-park gap in Queens Community District 2, in the districts of Councilmembers Won and Krishnan. The committee will vote to approve.",
+      "title": "Chair Riley outlines LU 114 \u2014 Queens CD2 Walk-to-Park acquisition",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 58.0,
+          "text": "Today, we will vote to approve LU's 114 related to the Queens Community District 2 walk-to-park acquisition and site selection in the districts of Councilmember Wan and Councilmember Krishnan."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 71.8,
+          "text": "The proposed action will facilitate the future acquisition and development of a new parkland and open space resources to address the walk-to-park gap within Queens Council District 2."
+        }
+      ]
+    },
+    {
+      "end_sec": 119.2,
+      "id": "003",
+      "slug": "chair-riley-outlines-lu-115-116-200-kent-avenue-rezoning-with-modifications",
+      "start_sec": 85.1,
+      "summary": "Riley explains the 200 Kent Avenue rezoning in Brooklyn, which includes a zoning map amendment and text amendment for a mixed-use residential project with approximately 143 apartments, up to 36 affordable through MIH. The committee's modification will remove MIH Option 2. Located in Councilmember Restler's district.",
+      "title": "Chair Riley outlines LU 115/116 \u2014 200 Kent Avenue rezoning with modifications",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 85.1,
+          "text": "We will also vote to approve with modifications LUs 115 and 116."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 90.9,
+          "text": "related to the 200 Kent Avenue rezoning proposal in Councilmember Ressler's district in Brooklyn."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 97.3,
+          "text": "For a zoning map amendment and zoning text amendment to facilitate the development of a mixed-use residential project, including approximately 143 apartments, of which up to 36 would permanently..."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 111.1,
+          "text": "Be affordable through the MIH program."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 114.1,
+          "text": "Our modification will be to remove MIH option two."
+        }
+      ]
+    },
+    {
+      "end_sec": 161.9,
+      "id": "004",
+      "slug": "chair-riley-outlines-lu-118-119-47-03-108th-street-rezoning-with-modifications",
+      "start_sec": 119.2,
+      "summary": "Riley describes the 47-03 108th Street rezoning in Queens, Councilmember Thomas-Henry's district, for a mixed-use development with approximately 119 units including up to 30 affordable through MIH. The committee's modification will rezone the area as R7D rather than R7X based on predominant existing development patterns.",
+      "title": "Chair Riley outlines LU 118/119 \u2014 47-03 108th Street rezoning with modifications",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 119.2,
+          "text": "And we will also vote to approve and modifications LUs 118 and 119 related to the 47-03-108 street"
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 129.1,
+          "text": "rezoning proposal in Councilmember Thomas Henry's district in Queens for a zoning map amendment and zoning text amendment, which together will facilitate the development of a new mixed-use development with approximately 119 units,"
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 144.2,
+          "text": "including up to 30 affordable units through MIH."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 148.0,
+          "text": "Our modification will be to rezone the project area as an R7D district rather than an R7X district based on the predominant existing development patterns in the surrounding area."
+        }
+      ]
+    },
+    {
+      "end_sec": 194.2,
+      "id": "005",
+      "slug": "chair-riley-outlines-lu-117-flatiron-nomad-major-concession",
+      "start_sec": 161.9,
+      "summary": "Riley presents LU 117, which expands the existing Flatiron District concession area on portions of Broadway and Fifth Avenue in the districts of Councilmembers Epstein and Wilson. The expansion aims to create a more engaging and safer public realm for pedestrians and cyclists between East 19th Street and West 31st Street.",
+      "title": "Chair Riley outlines LU 117 \u2014 Flatiron NoMad Major Concession",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 161.9,
+          "text": "We will also vote to approve L.U.'s 117 regarding the Flatiron Nomad Major Concession application."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 169.3,
+          "text": "For portions of Broadway and Fifth Avenue in the districts of Councilmember Epstein and Councilmember Wilson."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 176.0,
+          "text": "This application will expand the existing Flatiron District concession area."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 180.7,
+          "text": "to facilitate a more engaging and a safer public realm for pedestrians and cyclists in and along Fifth Avenue and Broadway between East 19th Street and West 31st Street."
+        }
+      ]
+    },
+    {
+      "end_sec": 217.8,
+      "id": "006",
+      "slug": "chair-riley-calls-for-vote-on-all-coupled-items",
+      "start_sec": 194.2,
+      "summary": "Riley invites colleagues for comments or questions; seeing none, he calls for a vote to approve LU 114 and LU 117, and to approve with modifications LU 115/116 and LU 118/119. He asks the clerk to call the roll.",
+      "title": "Chair Riley calls for vote on all coupled items",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 194.2,
+          "text": "I would like to recognize any colleagues for any comments or questions."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 200.0,
+          "text": "There seeing none, I now call for a vote with the support of the local members to approve LUs 114 and LU 117 and to approve with modifications LUs 115 and 116 and LUs 118 and 119."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 215.5,
+          "text": "Clerk, can you please call the roll?"
+        }
+      ]
+    },
+    {
+      "end_sec": 258.544,
+      "id": "007",
+      "slug": "roll-call-vote-on-all-land-use-items",
+      "start_sec": 217.8,
+      "summary": "Committee Clerk William Martin calls the roll with all items coupled. Each member votes in the affirmative: Riley, Brooks-Powers, Cab\u00e1n, Abreu, Oss\u00e9, Salaam, Banks, Zhuang, Encarnaci\u00f3n, Sanchez, Thomas-Henry, and Carr.",
+      "title": "Roll call vote on all land use items",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 217.8,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 218.1,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 218.5,
+          "text": "William Martin, Committee Clerk, Roll Call Vote Committee on Land Use."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 221.4,
+          "text": "All items are coupled."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 223.1,
+          "text": "Chair Riley."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 224.5,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 225.7,
+          "text": "Lewis Brooks Powers."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 229.3,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 230.5,
+          "text": "Kaban."
+        },
+        {
+          "speaker": "Tiffany L. Cab\u00e1n",
+          "t_sec": 232.0,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 233.0,
+          "text": "Abreu."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 234.1,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 235.2,
+          "text": "Oss\u00e9."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 237.944,
+          "text": "Salam."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 239.344,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 240.844,
+          "text": "Banks."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 241.844,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 243.044,
+          "text": "Zhuang."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 244.544,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 246.044,
+          "text": "Encarnacion."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 249.344,
+          "text": "Justin Sanchez."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 250.744,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 253.044,
+          "text": "Thomas Henry."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 254.244,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 256.044,
+          "text": "Carr."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 256.944,
+          "text": "Aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 280.277,
+      "id": "008",
+      "slug": "all-items-approved-11-0-and-meeting-adjourned",
+      "start_sec": 258.544,
+      "summary": "Clerk announces the vote of 11 in the affirmative, zero in the negative, and no abstentions; all items approved as described by the chair. Riley thanks members, staff, and the public, and adjourns the meeting.",
+      "title": "All items approved 11-0 and meeting adjourned",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 258.544,
+          "text": "With a vote of 11 in the affirmative, zero in the negative, and no abstentions, all items have been approved by the committee as described by the chair."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 265.844,
+          "text": "That concludes today's business."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 267.144,
+          "text": "I would like to thank the members of the public, my colleagues, council staff, and the sergeant at arms for participating in today's meeting."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 273.144,
+          "text": "This meeting is hereby adjourned."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 274.344,
+          "text": "Thank you."
+        }
+      ]
+    }
+  ],
+  "date": "2026-08-13",
+  "duration_sec": 280.277,
+  "slug": "2026-08-13-1100-am-committee-on-land-use",
+  "summary": [
+    "Committee on Land Use, chaired by Councilmember Kevin Riley, voted on five land use applications referred from subcommittees.",
+    "All items passed 11-0, including approvals with modifications for 200 Kent Avenue rezoning (removing MIH Option 2) and 47-03 108th Street rezoning (changing to R7D district).",
+    "The committee also approved Queens CD2 Walk-to-Park site selection/acquisition and the Flatiron NoMad Major Concession expansion without modifications."
+  ],
+  "tags": [
+    "VOTE",
+    "LAND_USE"
+  ],
+  "time": "11:00 AM",
+  "title": "Committee on Land Use",
+  "topic": "Landmarks, Queens CD 2 Walk to Park Site Selection/Acquisition, Queens (C 260089 PCQ)",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-3_260813-111514/video-web.mp4"
+  }
+}

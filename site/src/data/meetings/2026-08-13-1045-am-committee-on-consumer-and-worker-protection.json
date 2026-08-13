@@ -1,0 +1,648 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 26.1,
+      "id": "001",
+      "slug": "council-staff-opens-hearing-with-housekeeping-announcements",
+      "start_sec": 7.5,
+      "summary": "Council staff welcomes attendees to the Consumer and Worker Protection Committee vote, reminds everyone that no one may approach the dais, and asks all to silence electronic devices before the chair begins.",
+      "title": "Council staff opens hearing with housekeeping announcements",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 7.5,
+          "text": "Good morning and welcome to this New York City Council vote on consumer and worker protection."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 14.4,
+          "text": "At this time during today's vote, no one may approach the dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 18.1,
+          "text": "Please silence any electronic devices that you may have."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 20.9,
+          "text": "Chair, you may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 57.9,
+      "id": "002",
+      "slug": "chair-epstein-opens-vote-meeting-and-introduces-committee-members",
+      "start_sec": 26.1,
+      "summary": "Chair Harvey Epstein opens the committee vote and introduces colleagues present, including Carmen De La Rosa, Lynn Schulman, Carl Wilson, Shirley Aldebol, Shekar Krishnan, Gale Brewer, and Eric Dinowitz.",
+      "title": "Chair Epstein opens vote meeting and introduces committee members",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 26.1,
+          "text": "Good morning, everyone."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 27.5,
+          "text": "Today's Consumer Worker Protection Committee vote."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 29.6,
+          "text": "I'm Harvey Epstein, chair of the committee."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 31.0,
+          "text": "I'm joined by colleagues Carmen De La Rosa, Lynn Schulman, I don't know why I'm sorry, Carl Wilson, Shirley Adabal, sorry, I don't know, like, brain."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 45.9,
+          "text": "Shekar Krishna, Gail Brewer, and Eric Dinowitz for the joy of being here."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 54.5,
+          "text": "For the resolution and the joy of being here."
+        }
+      ]
+    },
+    {
+      "end_sec": 71.8,
+      "id": "003",
+      "slug": "chair-epstein-outlines-intro-685-establishing-office-of-insurance-accountability",
+      "start_sec": 57.9,
+      "summary": "Epstein introduces Introduction 685 by the Speaker, which would establish an Office of Insurance Accountability to address rising insurance costs that impact every New Yorker and every city agency.",
+      "title": "Chair Epstein outlines Intro 685 establishing Office of Insurance Accountability",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 57.9,
+          "text": "Today we're voting on legislation aimed at combating the rise of cost of insurance in New York."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 63.5,
+          "text": "It impacts every New Yorker and every single agency."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 66.1,
+          "text": "It's introduction 685 by the Speaker establishing the Office of Insurance Accountability."
+        }
+      ]
+    },
+    {
+      "end_sec": 92.2,
+      "id": "004",
+      "slug": "chair-epstein-outlines-res-387-on-affordable-housing-insurance-relief",
+      "start_sec": 71.8,
+      "summary": "Epstein describes Resolution 387 by Council Member Brewer, calling on the state legislature to pass and the governor to sign A07828A/S07939 and A9015/A9016 to mitigate the rising cost of insurance for affordable housing.",
+      "title": "Chair Epstein outlines Res 387 on affordable housing insurance relief",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 71.8,
+          "text": "Resolution 387 by Councilmember Brewer."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 74.7,
+          "text": "Which we'll be hearing from soon, calling on the New York State Legislature to pass, the governor to sign A07828A and Senate 07939 and A9015 and A9016."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 90.2,
+          "text": "to mitigate the cost of insurance."
+        }
+      ]
+    },
+    {
+      "end_sec": 122.3,
+      "id": "005",
+      "slug": "chair-epstein-outlines-res-389-on-auto-insurance-transparency-and-res-395-on-homeowners-insuranc",
+      "start_sec": 92.2,
+      "summary": "Epstein introduces Resolution 389 by Council Member Dinowitz calling for passage of the Automobile Insurance Consumer Information Act (S.1196/A.3893), and Resolution 395 by Council Member Morano calling on the state to prohibit homeowners insurance rate increases exceeding 25% per year.",
+      "title": "Chair Epstein outlines Res 389 on auto insurance transparency and Res 395 on homeowners insurance rate caps",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 92.2,
+          "text": "Resolution by Councilmember Dinowitz, calling on New York State Legislature to pass the governor's sign, the Automobile Insurance Consumer Protection Act."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 99.5,
+          "text": "Resolution 395 by Councilmember Morano, calling on the state legislature and the governor's sign, S6356 and A4188, prohibiting the increase in rates of homeowner insurance in excess of 5%."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 112.8,
+          "text": "25 percentage points a year."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 115.1,
+          "text": "I would also like to bring over to the sponsors of the resolutions, starting with Councilmember Brewer."
+        }
+      ]
+    },
+    {
+      "end_sec": 184.2,
+      "id": "006",
+      "slug": "council-member-brewer-presents-res-387-on-affordable-housing-insurance-crisis",
+      "start_sec": 122.3,
+      "summary": "Brewer explains that insurance for affordable housing is a major challenge to making term sheets work, describes a proposed state relief fund program to provide grants for commercial insurance expenses, and mentions a task force to address the affordable housing insurance crisis and improve availability and pricing.",
+      "title": "Council Member Brewer presents Res 387 on affordable housing insurance crisis",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 122.3,
+          "text": "Thank you very much, Chair."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 123.7,
+          "text": "I think you have made it very clear that insurance, particularly for affordable housing, is incredibly challenging."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 130.6,
+          "text": "I know that many people have tried to address this, and I can't say it's been successful."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 136.8,
+          "text": "So to the credit of those in Albany, they are trying to create a fund."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 142.1,
+          "text": "It would be a fund for affordable housing insurance."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 145.1,
+          "text": "It would be a relief fund program to provide grants."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 148.8,
+          "text": "To eligible projects for reasonable and necessary commercial insurance expenses."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 154.0,
+          "text": "Right now, as you know, if you build affordable housing, insurance is one of your biggest challenges to making the term sheets work."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 160.9,
+          "text": "Also part of this legislation will be a task force."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 166.3,
+          "text": "To address the affordable housing insurance crisis and to improve availability and pricing."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 172.8,
+          "text": "All of this is very challenging, but I think we have to give it our best efforts, and I look forward to..."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 180.0,
+          "text": "hopefully some positive outcomes."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 182.1,
+          "text": "Thank you very much."
+        }
+      ]
+    },
+    {
+      "end_sec": 201.5,
+      "id": "007",
+      "slug": "chair-epstein-recognizes-council-member-dinowitz-to-present-res-389",
+      "start_sec": 184.2,
+      "summary": "Epstein thanks Brewer and turns the floor to Council Member Dinowitz, who expresses appreciation for the opportunity to speak and notes his enthusiasm for participating in the committee hearing.",
+      "title": "Chair Epstein recognizes Council Member Dinowitz to present Res 389",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 184.2,
+          "text": "Thanks, Councilmember Brewer."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 185.3,
+          "text": "Turn it over to Councilmember Dinowitz."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 187.6,
+          "text": "Thank you, Chair, not just for allowing me to speak, but for the joy of being here at this committee hearing today."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 195.2,
+          "text": "We're so happy to have you here."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 196.9,
+          "text": "I'm happy to be here."
+        }
+      ]
+    },
+    {
+      "end_sec": 234.2,
+      "id": "008",
+      "slug": "council-member-dinowitz-on-lack-of-consumer-representation-in-auto-insurance-rate-setting",
+      "start_sec": 201.5,
+      "summary": "Dinowitz notes that auto insurance is mandatory in New York yet no office exclusively represents consumer interests before the Department of Financial Services. He highlights that New Yorkers face an average annual premium of $4,223, nearly twice the national average, at a time when rates have skyrocketed nationally.",
+      "title": "Council Member Dinowitz on lack of consumer representation in auto insurance rate setting",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 201.5,
+          "text": "As we all know, the auto industry, auto insurance is mandatory in New York."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 206.4,
+          "text": "There's no office or official that exclusively represents consumer interests to the New York State Department of Financial Services."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 214.6,
+          "text": "This means that at a time when insurance rates have skyrocketed nationally, there is no body analyzing insurers'proposed rate hikes through the lens of consumer advocacy."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 224.2,
+          "text": "This shortcoming proves especially dire as New Yorkers face an average annual premium of $4,223, which is nearly twice the national average."
+        }
+      ]
+    },
+    {
+      "end_sec": 273.5,
+      "id": "009",
+      "slug": "council-member-dinowitz-on-res-389-requiring-dfs-to-publish-auto-insurance-premium-data",
+      "start_sec": 234.2,
+      "summary": "Dinowitz explains that DFS does not publish premium information, disempowering consumers from comparison shopping or assessing the fairness of increases. He describes how Resolution 389 calls on the state to pass S.1196, requiring DFS to publish automobile insurance premium and complaint data on its website to enable consumers to compare plans.",
+      "title": "Council Member Dinowitz on Res 389 requiring DFS to publish auto insurance premium data",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 234.2,
+          "text": "Moreover, DFS does not publish information on insurance premiums, depriving consumers of much-needed transparency when selecting a plan."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 244.1,
+          "text": "New Yorkers are disempowered, unable to comparison shop or assess the fairness of increase in their coverage."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 249.3,
+          "text": "And that is why we are passing Resolution 389, which calls on the state to pass Senate Bill 1196, also known as the Automobile Consumer Information Act."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 259.8,
+          "text": "This bill would require DFS to publish automobile insurance premium and complaint information on its website."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 266.9,
+          "text": "Enabling consumers to compare plans, and encouraging consumers to buy more."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 270.0,
+          "text": "Petition based both on cost and quality of coverage."
+        }
+      ]
+    },
+    {
+      "end_sec": 297.4,
+      "id": "010",
+      "slug": "council-member-dinowitz-on-office-of-insurance-consumer-advocate-and-rate-oversight-provisions",
+      "start_sec": 273.5,
+      "summary": "Dinowitz details how the bill would establish an Office of Insurance Consumer Advocate to represent consumers before DFS with the ability to request hearings on rate increases. He adds that municipalities could petition for rate reductions and insurers would be required to justify proposed increases in a standardized format for more effective public oversight.",
+      "title": "Council Member Dinowitz on Office of Insurance Consumer Advocate and rate oversight provisions",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 273.5,
+          "text": "It would also establish an Office of Insurance Consumer Advocate to represent consumers'interests before DFS with the ability to request hearings surrounding rate increases."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 283.3,
+          "text": "Furthermore, municipalities could petition for rate reductions and insurers would be required to justify proposed increases and follow a standardized format in rate applications, allowing for more effective public oversight."
+        }
+      ]
+    },
+    {
+      "end_sec": 317.7,
+      "id": "011",
+      "slug": "council-member-dinowitz-concludes-on-affordability-crisis-and-car-insurance-burden",
+      "start_sec": 297.4,
+      "summary": "Dinowitz argues that as the city faces an affordability crisis, car insurance has become far too burdensome for the average working New Yorker and it is the Council's responsibility to act. He thanks his colleagues for their vote on the resolution.",
+      "title": "Council Member Dinowitz concludes on affordability crisis and car insurance burden",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 297.4,
+          "text": "As our city faces an affordability crisis, it's essential that we act to help reduce costs of necessities wherever we can."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 304.6,
+          "text": "Car insurance has become far too burdensome on the average working New Yorker, and it's our responsibility to take action."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 311.2,
+          "text": "And I thank my colleagues for their vote on this resolution today."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 314.4,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 316.2,
+          "text": "Thank you, Councilmember Dinowitz."
+        }
+      ]
+    },
+    {
+      "end_sec": 346.664,
+      "id": "012",
+      "slug": "chair-epstein-checks-for-further-statements-and-moves-to-roll-call-vote",
+      "start_sec": 317.7,
+      "summary": "Epstein asks if any other colleagues wish to make statements, confirms there are none, notes that Council Member Hanks has joined the committee, and announces the committee is ready to proceed to a roll call vote.",
+      "title": "Chair Epstein checks for further statements and moves to roll call vote",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 317.7,
+          "text": "Do any of our other colleagues have any other statements to make?"
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 323.4,
+          "text": "Okay, we have no other statements to make."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 325.7,
+          "text": "We are joined by Councilmember Hanks."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 329.9,
+          "text": "And I think at this point we are ready to go to a roll call vote."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 337.364,
+          "text": "In five."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 339.664,
+          "text": "It was four."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 345.364,
+          "text": "Appreciate it."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 345.864,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 346.164,
+          "text": "Good morning."
+        }
+      ]
+    },
+    {
+      "end_sec": 397.876,
+      "id": "013",
+      "slug": "roll-call-vote-on-all-insurance-items",
+      "start_sec": 346.664,
+      "summary": "Committee Clerk William Martin conducts the roll call. Chair Epstein, Brewer, De La Rosa, Hanks, Krishnan, Schulman, and Wilson all vote aye on all items before the committee.",
+      "title": "Roll call vote on all insurance items",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 346.664,
+          "text": "William Martin, Committee Clerk, Roll Call Vote Committee on Consumer and Worker Protection."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 351.464,
+          "text": "Chair Epstein."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 353.964,
+          "text": "Yes, I know."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 356.364,
+          "text": "Brewer."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 357.764,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 359.364,
+          "text": "De La Rosa."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 361.264,
+          "text": "Aye, I know."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 362.864,
+          "text": "Hanks."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 364.764,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 366.564,
+          "text": "Krishnan."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 368.164,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 369.664,
+          "text": "Osei."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 372.376,
+          "text": "Shulman."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 373.476,
+          "text": "I know."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 377.776,
+          "text": "Thanks."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 383.376,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 385.576,
+          "text": "I'll be bold."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 387.276,
+          "text": "I don't know."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 389.776,
+          "text": "Wilson."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 391.376,
+          "text": "Aye on all."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 393.876,
+          "text": "Ariola."
+        }
+      ]
+    },
+    {
+      "end_sec": 429.184,
+      "id": "014",
+      "slug": "vote-outcome-9-0-all-insurance-items-approved-and-committee-adjourned",
+      "start_sec": 397.876,
+      "summary": "The clerk announces a vote of 9 in the affirmative, 0 in the negative, and no abstentions, approving all items. Chair Epstein adjourns the committee, and members exchange closing remarks.",
+      "title": "Vote outcome: 9-0, all insurance items approved and committee adjourned",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 397.876,
+          "text": "With a vote of 9 in the affirmative, 0 in the negative, and no abstentions, items have been approved by the committee."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 404.276,
+          "text": "Hearing no further items, this committee is adjourned."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 407.664,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 408.464,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 409.664,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 410.264,
+          "text": "Thank you, everyone."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 413.664,
+          "text": "I try to be a special sponsor for people."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 422.764,
+          "text": "I don't know if this is under us or not."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 424.764,
+          "text": "So when they have like two for one and three for one, they make you buy three."
+        }
+      ]
+    }
+  ],
+  "date": "2026-08-13",
+  "duration_sec": 429.184,
+  "slug": "2026-08-13-1045-am-committee-on-consumer-and-worker-protection",
+  "summary": [
+    "The Committee on Consumer and Worker Protection, chaired by Harvey Epstein, voted on four insurance-related items: Intro 685 establishing an Office of Insurance Accountability, Res 387 on affordable housing insurance relief, Res 389 on auto insurance transparency, and Res 395 capping homeowners insurance rate increases at 25% per year.",
+    "Council Members Gale Brewer and Eric Dinowitz presented their respective resolutions, with Brewer detailing a state-level affordable housing insurance relief fund and Dinowitz advocating for DFS to publish auto insurance premium data and establish an Office of Insurance Consumer Advocate.",
+    "All items passed by a roll call vote of 9-0 with no abstentions, and the committee was adjourned."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "10:45 AM",
+  "title": "Committee on Consumer and Worker Protection",
+  "topic": "Establishing an office of insurance affordability",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-1_260813-111434/video-web.mp4"
+  }
+}
