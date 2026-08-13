@@ -91,46 +91,10 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
-        run: |
-          python - <<'PY'
-          import json, os, sys, urllib.request
-
-          def get(url, key=None):
-              headers = {"Authorization": f"Bearer {key}"} if key else {}
-              req = urllib.request.Request(url, headers=headers)
-              with urllib.request.urlopen(req, timeout=30) as resp:
-                  return json.load(resp)
-
-          failed = False
-          try:
-              data = get("https://openrouter.ai/api/v1/credits", os.environ["OPENROUTER_API_KEY"])["data"]
-              remaining = float(data["total_credits"]) - float(data["total_usage"])
-              print(f"openrouter credits remaining: ${remaining:.2f}")
-              # Floor must sit at/below the dashboard auto-top-up trigger ($2):
-              # a floor above it creates a dead zone where preflight refuses to
-              # spend, the balance never drops to the trigger, and top-up never
-              # fires. A mid-batch 402 is self-healing (artifacts persist and
-              # the meeting resumes next run), so the lower floor is safe.
-              if remaining < 2.0:
-                  print("::error::OpenRouter credits below $2 - auto-top-up should fire; if it did not, add credits at https://openrouter.ai/settings/credits")
-                  failed = True
-          except Exception as exc:
-              print(f"::error::OpenRouter preflight failed: {exc}")
-              failed = True
-          try:
-              get("https://api.mistral.ai/v1/models", os.environ["MISTRAL_API_KEY"])
-              print("mistral auth: ok")
-          except Exception as exc:
-              print(f"::error::Mistral preflight failed (check key/billing): {exc}")
-              failed = True
-          try:
-              get(f"https://generativelanguage.googleapis.com/v1beta/models?key={os.environ['GOOGLE_API_KEY']}&pageSize=1")
-              print("google auth: ok")
-          except Exception as exc:
-              print(f"::error::Google preflight failed (naming verification depends on it): {exc}")
-              failed = True
-          sys.exit(1 if failed else 0)
-          PY
+        # Retries transient upstream blips (429/5xx, timeouts) with backoff and
+        # fails fast on auth/billing - one momentary 503 must not kill an
+        # otherwise-healthy multi-hour run. See pipeline/preflight.py.
+        run: uv run python -m pipeline preflight
 
       - name: Discover pending meetings
         if: ${{ steps.breaker.outputs.paused != 'true' }}

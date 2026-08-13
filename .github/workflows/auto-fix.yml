@@ -246,12 +246,25 @@ jobs:
             path you took, finish by posting a comment on the open issue
             titled "Pipeline incident log" (create it unassigned if missing;
             never close it; it is an FYI channel, not the pause switch).
-            Start the comment with "@umqadir" so it emails them, then 2-6
-            plain sentences: what failed, what you concluded or changed
-            (with commit/run links), and what if anything is left for a
-            human. Self-resolved incidents get this too - the maintainer
-            sees GitHub's raw red-run email either way and should find your
+            Self-resolved incidents get this too - the maintainer sees
+            GitHub's raw red-run email either way and should find your
             explanation next to it, not silence.
+
+            This log is skimmed on a phone next to a red-run email, so it is
+            a HARD CAP of three sentences, and no fenced paste block ever
+            (that block belongs only on assigned, actionable issues). Write:
+            what failed, what you concluded or changed (with commit/run
+            links), and the action needed - "nothing needed" when there is
+            none. Nothing else. Do NOT narrate your investigation, restate
+            evidence the linked run already shows, justify why your diagnosis
+            is right, pre-empt objections, or explain what you chose not to
+            do and why. Bold nothing. If the incident is self-resolving and
+            needs no human, one sentence is the correct length:
+              "@umqadir - run <link> failed on <thing>: <one-clause cause>.
+               Transient, retries next run, nothing needed."
+            A longer comment is a defect, not thoroughness. If you find
+            yourself wanting more room, that means a human must act - put
+            the detail on the assigned issue, not here.
 
             Quarantine over stall: if the failure is confined to specific
             meetings and you cannot cleanly fix the root cause right now,
@@ -303,12 +316,16 @@ jobs:
               with "@umqadir" - they do not watch this repo, so an unassigned,
               unmentioned issue reaches no one. When updating an existing issue,
               add the "@umqadir" mention in your comment.
-            - Every issue you open or update MUST end with a fenced block
+            - Every ACTIONABLE issue - one you assign to the maintainer
+              because a human must do something - MUST end with a fenced block
               titled "Paste into local Claude Code to fix:" containing a
               self-contained brief - cause, evidence (run links, error text),
               exactly what you already tried, and the one concrete action
               needed - such that pasting it into a local agent resolves the
-              problem without reading this issue's history. The maintainer
+              problem without reading this issue's history. This block is for
+              work a human must do: never put one on the "Pipeline incident
+              log", and never write one whose content is that no fix is
+              needed. If there is no action, there is no block. The maintainer
               handles credentials/billing themselves; everything else should
               be executable from that brief.
             - Never delete or overwrite R2 artifacts, and never re-run a paid
