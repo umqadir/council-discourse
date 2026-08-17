@@ -6,6 +6,7 @@ from pathlib import Path
 
 
 RETRY_SCRIPT = Path(__file__).parents[1] / "scripts" / "gh-retry"
+OUTAGE_SCRIPT = Path(__file__).parents[1] / "scripts" / "github-outage-active"
 
 
 def _fake_command(tmp_path: Path, body: str) -> Path:
@@ -93,3 +94,33 @@ exit 7
     assert result.returncode == 7
     assert "still failing after 4 attempts" in result.stderr
     assert counter.read_text().strip() == "4"
+
+
+def _status_result(tmp_path: Path, indicator: str) -> subprocess.CompletedProcess[str]:
+    status_file = tmp_path / "status.json"
+    status_file.write_text(
+        '{"status":{"indicator":"%s","description":"Test status"}}' % indicator
+    )
+    env = os.environ.copy()
+    env["GITHUB_STATUS_URL"] = status_file.as_uri()
+    return subprocess.run(
+        [str(OUTAGE_SCRIPT)],
+        check=False,
+        capture_output=True,
+        text=True,
+        env=env,
+    )
+
+
+def test_github_outage_active_reports_active_incident(tmp_path: Path) -> None:
+    result = _status_result(tmp_path, "major")
+
+    assert result.returncode == 0
+    assert result.stdout == "GitHub Status reports major: Test status\n"
+
+
+def test_github_outage_active_rejects_operational_status(tmp_path: Path) -> None:
+    result = _status_result(tmp_path, "none")
+
+    assert result.returncode == 1
+    assert result.stdout == ""

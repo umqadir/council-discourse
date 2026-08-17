@@ -64,15 +64,29 @@ jobs:
           REPO: ${{ github.repository }}
         run: |
           echo "paused=false" >> "$GITHUB_OUTPUT"
-          open_attention="$(scripts/gh-retry gh issue list --repo "$REPO" --state open \
-            --search "in:title \"Pipeline needs attention\"" --json number --jq '.[0].number // empty')"
+          defer_if_github_is_down() {
+            if scripts/github-outage-active; then
+              echo "paused=true" >> "$GITHUB_OUTPUT"
+              echo "::warning::GitHub is reporting an outage and its API stayed unavailable after retries; safely deferring this cycle."
+              exit 0
+            fi
+            return 1
+          }
+          if ! open_attention="$(scripts/gh-retry gh issue list --repo "$REPO" --state open \
+            --search "in:title \"Pipeline needs attention\"" --json number --jq '.[0].number // empty')"; then
+            defer_if_github_is_down
+            exit 1
+          fi
           if [ -n "$open_attention" ]; then
             echo "paused=true" >> "$GITHUB_OUTPUT"
             echo "::warning::Pipeline paused: issue #${open_attention} is open. This run is a silent no-op; fix the cause, then dispatch production.yml - a green run closes the issue and re-arms the cron."
             exit 0
           fi
-          conclusions="$(scripts/gh-retry gh api "repos/${REPO}/actions/workflows/production.yml/runs?status=completed&per_page=6" \
-            --jq '[.workflow_runs[].conclusion]')"
+          if ! conclusions="$(scripts/gh-retry gh api "repos/${REPO}/actions/workflows/production.yml/runs?status=completed&per_page=6" \
+            --jq '[.workflow_runs[].conclusion]')"; then
+            defer_if_github_is_down
+            exit 1
+          fi
           echo "last completed conclusions: $(echo "$conclusions" | jq -r 'join(",")')"
           total="$(echo "$conclusions" | jq 'length')"
           failures="$(echo "$conclusions" | jq 'map(select(. == "failure")) | length')"
@@ -561,3 +575,26 @@ jobs:
             scripts/gh-retry gh issue close "$n" --repo "$REPO" \
               --comment "Resolved: production run ${{ github.server_url }}/${REPO}/actions/runs/${{ github.run_id }} completed green."
           done
+
+      # If an outage prevented the auto-fixer from starting its exact rerun,
+      # the next ordinary green cycle is the proof of recovery. Report that
+      # outcome here, without exposing control-plane details to the maintainer.
+      - name: Report recovery after a prior failed run
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          previous="$(scripts/gh-retry gh api -X GET "repos/${REPO}/actions/workflows/production.yml/runs" \
+            -f status=completed -f per_page=1 --jq '.workflow_runs[0].conclusion // empty')"
+          if [ "$previous" != "failure" ]; then
+            exit 0
+          fi
+          number="$(scripts/gh-retry gh issue list --repo "$REPO" --state open --search 'in:title "Pipeline incident log"' --json number --jq '.[0].number // empty')"
+          if [ -z "$number" ]; then
+            scripts/gh-retry gh issue create --repo "$REPO" --title "Pipeline incident log" \
+              --body "Verified production incident outcomes are posted here."
+            number="$(scripts/gh-retry gh issue list --repo "$REPO" --state open --search 'in:title "Pipeline incident log"' --json number --jq '.[0].number // empty')"
+          fi
+          body="@umqadir - Recovered automatically: production is running normally again. Nothing needed. ${{ github.server_url }}/${REPO}/actions/runs/${{ github.run_id }}"
+          scripts/gh-retry gh issue comment "$number" --repo "$REPO" --body "$body"

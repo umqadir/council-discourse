@@ -45,7 +45,15 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           REPO: ${{ github.repository }}
           RUN_ID: ${{ github.event.workflow_run.id }}
-        run: scripts/gh-retry gh api -X POST "repos/${REPO}/actions/runs/${RUN_ID}/rerun-failed-jobs"
+        run: |
+          if scripts/gh-retry gh api -X POST "repos/${REPO}/actions/runs/${RUN_ID}/rerun-failed-jobs"; then
+            exit 0
+          fi
+          if scripts/github-outage-active; then
+            echo "::warning::GitHub is reporting an outage; leaving recovery to the next scheduled production cycle."
+            exit 0
+          fi
+          exit 1
 
   report-recovery:
     if: ${{ github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.run_attempt > 1 }}
