@@ -1,0 +1,41 @@
+#!/usr/bin/env bash
+
+set -u
+
+if [ "$#" -eq 0 ]; then
+  echo "usage: gh-retry <command> [args ...]" >&2
+  exit 2
+fi
+
+attempts="${GH_RETRY_ATTEMPTS:-5}"
+base_seconds="${GH_RETRY_BASE_SECONDS:-2}"
+attempt=1
+output_file="$(mktemp)"
+trap 'rm -f "$output_file"' EXIT
+
+while true; do
+  if "$@" >"$output_file" 2>&1; then
+    cat "$output_file"
+    exit 0
+  else
+    command_status=$?
+  fi
+  command_output="$(cat "$output_file")"
+
+  if ! printf '%s' "$command_output" | grep -Eqi \
+    'HTTP (429|5[0-9][0-9])|status (429|5[0-9][0-9])|too many requests|rate limit|timed? out|timeout|temporar(il)?y unavailable|connection (reset|refused|closed)|network is unreachable|TLS handshake'; then
+    printf '%s\n' "$command_output" >&2
+    exit "$command_status"
+  fi
+
+  if [ "$attempt" -ge "$attempts" ]; then
+    printf '%s\n' "$command_output" >&2
+    echo "GitHub operation still failing after ${attempts} attempts" >&2
+    exit "$command_status"
+  fi
+
+  delay=$((base_seconds * (2 ** (attempt - 1))))
+  echo "::warning::GitHub operation failed transiently (attempt ${attempt}/${attempts}); retrying in ${delay}s" >&2
+  sleep "$delay"
+  attempt=$((attempt + 1))
+done

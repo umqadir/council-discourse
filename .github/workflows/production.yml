@@ -64,14 +64,14 @@ jobs:
           REPO: ${{ github.repository }}
         run: |
           echo "paused=false" >> "$GITHUB_OUTPUT"
-          open_attention="$(gh issue list --repo "$REPO" --state open \
+          open_attention="$(scripts/gh-retry gh issue list --repo "$REPO" --state open \
             --search "in:title \"Pipeline needs attention\"" --json number --jq '.[0].number // empty')"
           if [ -n "$open_attention" ]; then
             echo "paused=true" >> "$GITHUB_OUTPUT"
             echo "::warning::Pipeline paused: issue #${open_attention} is open. This run is a silent no-op; fix the cause, then dispatch production.yml - a green run closes the issue and re-arms the cron."
             exit 0
           fi
-          conclusions="$(gh api "repos/${REPO}/actions/workflows/production.yml/runs?status=completed&per_page=6" \
+          conclusions="$(scripts/gh-retry gh api "repos/${REPO}/actions/workflows/production.yml/runs?status=completed&per_page=6" \
             --jq '[.workflow_runs[].conclusion]')"
           echo "last completed conclusions: $(echo "$conclusions" | jq -r 'join(",")')"
           total="$(echo "$conclusions" | jq 'length')"
@@ -79,7 +79,7 @@ jobs:
           if [ "$total" -ge 6 ] && [ "$failures" -eq "$total" ]; then
             echo "paused=true" >> "$GITHUB_OUTPUT"
             body="$(printf '@umqadir - the last 6 production runs all failed and no handoff issue was opened, so the cron is now paused. See the runs: https://github.com/%s/actions/workflows/production.yml\n\nWhen the cause is fixed, dispatch production.yml - a green run closes this issue and re-arms the cron.' "$REPO")"
-            gh issue create --repo "$REPO" --assignee umqadir \
+            scripts/gh-retry gh issue create --repo "$REPO" --assignee umqadir \
               --title "Pipeline needs attention: repeated failures without automated handoff" \
               --body "$body"
             exit 0
@@ -124,6 +124,7 @@ jobs:
       # Deduped: posts only when the parked set changes.
       - name: Alert on parked meetings
         if: ${{ steps.breaker.outputs.paused != 'true' }}
+        continue-on-error: true
         env:
           GH_TOKEN: ${{ github.token }}
           REPO: ${{ github.repository }}
@@ -131,9 +132,9 @@ jobs:
           parked="$(sqlite3 data/registry.db "SELECT meeting_key || ' | ' || COALESCE(body_name,'?') || ' | ' || COALESCE(substr(event_date,1,10),'?') || ' | ' || COALESCE(replace(substr(last_error,1,140), char(10), ' '),'no recorded error') FROM meetings WHERE process_attempts >= 5 AND chapterize_status != 'chapterized' AND COALESCE(substr(event_date,1,10), substr(viebit_pub_date,1,10), substr(discovered_at,1,10)) >= '2026-06-20' ORDER BY meeting_key;")"
           if [ -z "$parked" ]; then
             echo "no parked meetings"
-            open="$(gh issue list --repo "$REPO" --state open --search "in:title \"Meetings quarantined\"" --json number --jq '.[0].number // empty')"
+            open="$(scripts/gh-retry gh issue list --repo "$REPO" --state open --search "in:title \"Meetings quarantined\"" --json number --jq '.[0].number // empty')"
             if [ -n "$open" ]; then
-              gh issue close "$open" --repo "$REPO" --comment "No meetings remain quarantined; closing."
+              scripts/gh-retry gh issue close "$open" --repo "$REPO" --comment "No meetings remain quarantined; closing."
             fi
             exit 0
           fi
@@ -141,17 +142,17 @@ jobs:
           echo "$parked"
           title="Meetings quarantined: excluded from processing until reset"
           body="$(printf '@umqadir - these meetings are quarantined (retry cap reached or parked by the fixer) and excluded from processing until process_attempts is reset (recovery in STATE.md; paid artifacts persist on R2, nothing is re-paid on retry). The rest of the pipeline continues normally.\n\n%s' "$parked")"
-          number="$(gh issue list --repo "$REPO" --state open --search "in:title \"Meetings quarantined\"" --json number --jq '.[0].number // empty')"
+          number="$(scripts/gh-retry gh issue list --repo "$REPO" --state open --search "in:title \"Meetings quarantined\"" --json number --jq '.[0].number // empty')"
           if [ -z "$number" ]; then
-            gh issue create --repo "$REPO" --assignee umqadir --title "$title" --body "$body"
+            scripts/gh-retry gh issue create --repo "$REPO" --assignee umqadir --title "$title" --body "$body"
             exit 0
           fi
-          opening="$(gh issue view "$number" --repo "$REPO" --json body --jq .body)"
-          latest="$(gh api "repos/${REPO}/issues/${number}/comments" --jq 'last.body // ""')"
+          opening="$(scripts/gh-retry gh issue view "$number" --repo "$REPO" --json body --jq .body)"
+          latest="$(scripts/gh-retry gh api "repos/${REPO}/issues/${number}/comments" --jq 'last.body // ""')"
           if [ "$body" = "$opening" ] || [ "$body" = "$latest" ]; then
             echo "parked set unchanged; already reported on issue #$number"
           else
-            gh issue comment "$number" --repo "$REPO" --body "$body"
+            scripts/gh-retry gh issue comment "$number" --repo "$REPO" --body "$body"
           fi
 
       - name: Checkpoint registry
@@ -372,27 +373,28 @@ jobs:
       # restore the artifacts (often present locally in data/meetings/<key>/)
       # or reset the meeting. Self-closes when nothing is blocked.
       - name: Alert on export-blocked meetings
+        continue-on-error: true
         env:
           GH_TOKEN: ${{ github.token }}
           REPO: ${{ github.repository }}
         run: |
           f=data/export-blocked.txt
           title="Meetings skipped by export: artifacts missing"
-          number="$(gh issue list --repo "$REPO" --state open --search "in:title \"Meetings skipped by export\"" --json number --jq '.[0].number // empty')"
+          number="$(scripts/gh-retry gh issue list --repo "$REPO" --state open --search "in:title \"Meetings skipped by export\"" --json number --jq '.[0].number // empty')"
           if [ ! -s "$f" ]; then
             if [ -n "$number" ]; then
-              gh issue close "$number" --repo "$REPO" --comment "No meetings remain export-blocked; closing."
+              scripts/gh-retry gh issue close "$number" --repo "$REPO" --comment "No meetings remain export-blocked; closing."
             fi
             exit 0
           fi
           body="$(printf '@umqadir - these chapterized meetings have no artifacts on R2, so export skipped (re)publishing them; their existing pages keep serving and the pipeline continues normally. To fix: restore artifacts/<key>/ on R2 (complete copies usually exist locally in data/meetings/<key>/) or reset the meeting.\n\n%s' "$(cat "$f")")"
           if [ -z "$number" ]; then
-            gh issue create --repo "$REPO" --assignee umqadir --title "$title" --body "$body"
+            scripts/gh-retry gh issue create --repo "$REPO" --assignee umqadir --title "$title" --body "$body"
           else
-            latest="$(gh api "repos/${REPO}/issues/${number}/comments" --jq 'last.body // ""')"
-            opening="$(gh issue view "$number" --repo "$REPO" --json body --jq .body)"
+            latest="$(scripts/gh-retry gh api "repos/${REPO}/issues/${number}/comments" --jq 'last.body // ""')"
+            opening="$(scripts/gh-retry gh issue view "$number" --repo "$REPO" --json body --jq .body)"
             if [ "$body" != "$latest" ] && [ "$body" != "$opening" ]; then
-              gh issue comment "$number" --repo "$REPO" --body "$body"
+              scripts/gh-retry gh issue comment "$number" --repo "$REPO" --body "$body"
             fi
           fi
 
@@ -550,11 +552,12 @@ jobs:
       # failure opens a fresh one instead of appending to a stale thread.
       # (The quarantined-meetings issue has its own lifecycle in discover.)
       - name: Close outage issues on green
+        continue-on-error: true
         env:
           GH_TOKEN: ${{ github.token }}
           REPO: ${{ github.repository }}
         run: |
-          for n in $(gh issue list --repo "$REPO" --state open --search "in:title \"Pipeline needs attention\"" --json number --jq '.[].number'); do
-            gh issue close "$n" --repo "$REPO" \
+          for n in $(scripts/gh-retry gh issue list --repo "$REPO" --state open --search "in:title \"Pipeline needs attention\"" --json number --jq '.[].number'); do
+            scripts/gh-retry gh issue close "$n" --repo "$REPO" \
               --comment "Resolved: production run ${{ github.server_url }}/${REPO}/actions/runs/${{ github.run_id }} completed green."
           done
