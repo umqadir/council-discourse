@@ -1,0 +1,2029 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 156.004,
+      "id": "001",
+      "slug": "staff-opens-hearing-and-announces-housekeeping-rules",
+      "start_sec": 127.2,
+      "summary": "Council staff welcomes attendees to the Subcommittee on Landmarks, Public Sitings, Resiliency, and Dispositions hearing, asks the Zoom host to start the webinar, and reminds attendees to silence electronics and not approach the dais.",
+      "title": "Staff opens hearing and announces housekeeping rules",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 127.2,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 127.8,
+          "text": "We're getting ready to begin."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 129.8,
+          "text": "Will the Zoom host please start the webinar?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 135.604,
+          "text": "Good morning, good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 136.704,
+          "text": "Welcome to the New York City Council hearing on the Subcommittee on Landmarks, Public Sightings, Resiliency, and Dispositions."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 142.204,
+          "text": "At this time, please silence all electronics and do not approach the dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 146.104,
+          "text": "Thank you for your cooperation, Chair."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 147.404,
+          "text": "You may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 255.304,
+      "id": "002",
+      "slug": "chair-marte-convenes-hearing-and-outlines-public-testimony-procedures",
+      "start_sec": 156.004,
+      "summary": "Councilmember Christopher Marte opens the meeting, introduces himself as chair, notes the hybrid format, and explains how members of the public can register to testify remotely via the council website or in person via speaker cards. He also describes written testimony submission procedures and rules against video or audio testimony.",
+      "title": "Chair Marte convenes hearing and outlines public testimony procedures",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 156.004,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 156.604,
+          "text": "Welcome to the meeting of the Subcommittee on Landmarks, Public Siting, Resiliency, and Dispositions."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 160.904,
+          "text": "I'm Councilmember Christopher-Marte."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 162.504,
+          "text": "I'm the chair of the subcommittee."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 164.304,
+          "text": "I'm joined today by my colleague, Councilmember Thomas Henry."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 167.704,
+          "text": "Before we begin today's agenda, I will remind everyone that this meeting is being held in a hybrid format."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 173.504,
+          "text": "For members of the public who wish to testify remotely, we ask that you first register online, and you may do so now by visiting www.council.nyc.gov"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 185.104,
+          "text": "slash land use to sign up and then sign into the Zoom and remain signed in until you have testified."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 193.104,
+          "text": "For anyone with us today in person and wishing to testify, if you have not already done so, please see one of the Sergeant of Arms to fill out a speaker card and we will call your name at the appropriate time."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 203.904,
+          "text": "For anyone wishing to submit written testimony on the items being heard today, we ask that you please send an email to landusetestimony at council.nyc.gov."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 215.304,
+          "text": "Include the LU number and or the project name in the subject line of your email."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 220.504,
+          "text": "Video and audio testimony would not be"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 222.304,
+          "text": "Accepted."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 223.304,
+          "text": "I remind members of the public that this is a governmental proceeding and that the quorum shall be observed at all times."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 230.304,
+          "text": "As such, members of the public shall remain silent unless and until called to testify."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 235.404,
+          "text": "The witness table is reserved for the people who wish to testify."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 238.604,
+          "text": "No video recording or photography is allowed from the witness table."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 242.604,
+          "text": "Further, members of the public may not present audio or video recording as testimony, but may submit transcript of such recording to the sergeant for inclusion in the hearing record."
+        }
+      ]
+    },
+    {
+      "end_sec": 327.304,
+      "id": "003",
+      "slug": "chair-marte-introduces-the-48-50-convent-avenue-cluster-ancp-applications",
+      "start_sec": 255.304,
+      "summary": "Marte announces the two preconsidered land use applications by HPD for the 48-50 Convent Avenue Cluster under the Affordable Neighborhood Cooperative Program, covering an Urban Development Action Area Project and a 40-year Article XI tax exemption. The project will preserve four buildings with 77 homeownership units in Manhattanville, Manhattan.",
+      "title": "Chair Marte introduces the 48-50 Convent Avenue Cluster ANCP applications",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 255.304,
+          "text": "We have also been joined by Councilmember Felice online and Councilmember Aviles here in person."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 262.204,
+          "text": "I now open a public hearing on pre-considered LUs for 4850"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 268.904,
+          "text": "Convent Avenue Cluster ANCP2 applications by HPD for a project under HPD Affordable Neighborhood Cooperative Program for an Urban Development Action Area Project, UDEP."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 281.404,
+          "text": "Approval pursuant to Section 691 of the General Municipal Law and approval of a 40-year Article 11 tax exemption pursuant to Section 577 of the Private Housing Finance Law."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 294.404,
+          "text": "These actions will facilitate the preservation of four buildings, including 77 home ownership units and majority leader of Rayuse District in Manhattan."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 303.304,
+          "text": "Appearing today on this proposal are Emily Adler and Asher."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 308.604,
+          "text": "Toborowski?"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 310.804,
+          "text": "Good."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 311.104,
+          "text": "All right."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 311.404,
+          "text": "Thanks."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 313.204,
+          "text": "Those wishing to testify remotely must register online by visiting the council website at council.nyc.gov slash land use."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 321.104,
+          "text": "Panelists, please ensure that the microphone is on."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 323.904,
+          "text": "You may approach the table."
+        }
+      ]
+    },
+    {
+      "end_sec": 364.472,
+      "id": "004",
+      "slug": "applicants-emily-adler-and-asher-toporowski-sworn-in",
+      "start_sec": 327.304,
+      "summary": "Council staff administers the affirmation to Emily Adler and Asher Toporowski, who affirm to tell the truth in their testimony before the subcommittee.",
+      "title": "Applicants Emily Adler and Asher Toporowski sworn in",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 327.304,
+          "text": "And council, would you please administer the affirmation?"
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 337.704,
+          "text": "Would you please raise your right hand and state your name for the record?"
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 343.504,
+          "text": "Make sure the mic's on."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 348.172,
+          "text": "State your name again."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 349.272,
+          "text": "Emily Adler."
+        },
+        {
+          "speaker": "Member of the Public - Asher Toporowski",
+          "t_sec": 350.472,
+          "text": "Asher Toporowski."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 351.772,
+          "text": "And do you affirm to tell the truth, the whole truth, and nothing but the truth in your testimony before the subcommittee and in answer to all council member questions?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 358.872,
+          "text": "I do."
+        },
+        {
+          "speaker": "Member of the Public - Asher Toporowski",
+          "t_sec": 359.772,
+          "text": "I do."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 361.572,
+          "text": "Thank you, applicants."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 362.472,
+          "text": "You can begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 481.404,
+      "id": "005",
+      "slug": "adler-presents-48-50-convent-avenue-cluster-overview-and-unit-breakdown",
+      "start_sec": 364.472,
+      "summary": "Emily Adler introduces the four-building cluster in Manhattanville, identifies Novus Living LLC as the developer and Enterprise Community Partners as the lender, and details the 77 affordable units: 44 for existing residents, 31 for first-time homebuyers via Housing Connect, and 2 super units. She explains sales prices for existing and new residents.",
+      "title": "Adler presents 48-50 Convent Avenue Cluster overview and unit breakdown",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 364.472,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 366.072,
+          "text": "So we are here today to talk about the, to introduce and provide comment on the 4850 Convent Avenue cluster."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 371.672,
+          "text": "This is a full co-op renovation."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 375.172,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 379.504,
+          "text": "So this cluster contains four buildings, 453-55 West 125th Street, 48 and 50 Convent Avenue, and 1214 Old Broadway, all in the Manhattanville neighborhood."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 389.604,
+          "text": "The project sponsor is developer Novus Living LLC, from whom we have representatives Asher Toporowski and Stephen Weinrich."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 397.004,
+          "text": "We have secured funding through the Lender Enterprise Community Partners, who has worked with the city before, both on ANCP projects and otherwise."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 405.504,
+          "text": "Through this project, it will result in 77 affordable residential units, all of whom will be receiving gut rehabs."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 412.304,
+          "text": "The makeup of those 77, 44 of them will be made up of existing households who currently reside in these buildings."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 419.104,
+          "text": "31 will be first-time outside homeowners purchasing vacant units."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 422.704,
+          "text": "This will be through HB's Housing Connect, as all of our city-produced units are."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 428.304,
+          "text": "And two will be for supers units."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 430.204,
+          "text": "One super unit will cover the West 125th and Old Broadway sites."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 433.804,
+          "text": "The other super will cover 48 and 50 Convent."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 437.004,
+          "text": "The sales price for existing residents, existing residents can buy for either $2,500 if they're above a certain level of income."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 444.704,
+          "text": "If they're below that, there is a purchase savings plan through which they can buy for $250."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 449.604,
+          "text": "For outside residents, we've set prices so that they make up no more than 30% of annual household income for households making 80% AMI."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 460.104,
+          "text": "That initial monthly maintenance fee, this also ensures that the building can operate with"
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 467.504,
+          "text": "With a little bit of cushion and can survive any unforeseen circumstances."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 471.204,
+          "text": "So it's set to cover 110% of project expenses."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 475.104,
+          "text": "We are hoping to be able to close in October of 2026 at the earliest."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 478.404,
+          "text": "And you can see below the unit size makeup."
+        }
+      ]
+    },
+    {
+      "end_sec": 573.904,
+      "id": "006",
+      "slug": "adler-explains-ancp-program-structure-and-conversion-requirements",
+      "start_sec": 481.404,
+      "summary": "Adler describes the Affordable Neighborhood Cooperative Program, which takes city-owned TIL buildings and enables existing tenants to become homeowners through gut rehabs. She explains the role of Restoring Communities HDFC, the 80% readiness training attendance requirement, and the fallback to rent-stabilized rental if conversion conditions are not met.",
+      "title": "Adler explains ANCP program structure and conversion requirements",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 481.404,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 485.804,
+          "text": "The basic overview of ANCP, the program, the Affordable Neighborhood Cooperative Program, it takes tenant-intram lease buildings."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 495.204,
+          "text": "These are buildings that have been city-owned in a pipeline for often about 40 years or more."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 501.304,
+          "text": "And it enables existing residents to become homeowners by doing substantial gut rehabs to these buildings that have fallen into disrepair and, in many cases, significant disuse."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 510.604,
+          "text": "This is done through partnering with a nonprofit or for-profit developer who manages the rehab and contracts it out."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 519.304,
+          "text": "While they do this, the site to avoid conflicts of interest is owned by the Restoring Communities HDFC, who also serves as the owner's rep."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 528.704,
+          "text": "The building, upon conversion, is then conveyed from Restoring Communities to the new homeowners themselves."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 536.304,
+          "text": "To be able to actually reach that conversion and to ensure that the building is set up for success, we require that 80% of insiders, so the existing homeowners, the existing tenants who will become homeowners, have to attend,"
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 550.204,
+          "text": "80% of them have to attend at least eight readiness trainings."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 554.004,
+          "text": "They have to remain current on their rent payments, and they have to choose."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 556.504,
+          "text": "to purchase these buildings or their units."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 559.204,
+          "text": "Should this not happen, then the building will instead become a rent-stabilized rental building with provided funds to ensure success in terms of this fallback, and we have an RFQ for different owners to pick up on."
+        }
+      ]
+    },
+    {
+      "end_sec": 647.348,
+      "id": "007",
+      "slug": "adler-reviews-affordability-breakdowns-and-monthly-maintenance-estimates",
+      "start_sec": 573.904,
+      "summary": "Adler presents AMI affordability tables for existing and new residents, explains that typical NYC apartment operating costs run $1,000-$1,500/month, and details estimated monthly maintenance fees of approximately $1,191 per unit, adjusted to include a 10% cushion for reserves.",
+      "title": "Adler reviews affordability breakdowns and monthly maintenance estimates",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 573.904,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 577.504,
+          "text": "This is just an overview of what this affordability looks like."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 580.304,
+          "text": "As mentioned before, this is the breakdown for existing and new residents for what the affordability looks like."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 586.104,
+          "text": "And those are the numbers on what 80%, 100% AMI actually looks like for a family of three in New York this year."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 594.104,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 598.048,
+          "text": "It costs about $1,000 to $1,500 each month to properly operate one apartment in a New York City building."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 603.348,
+          "text": "Tenants through TIL, often because of the state of these TIL buildings, pay a lot less than this."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 609.548,
+          "text": "This is the breakdown of what the average unit in this project would be paying per month in their maintenance fees."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 619.648,
+          "text": "These are taken from..."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 622.648,
+          "text": "These are taken from estimates and guidelines that HPD uses for all of its homeownership buildings from a partner that breaks it down for each example expense line."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 634.948,
+          "text": "This is adjusted for also the nature of the buildings that we're working with here and adjusted to also include the cushion I mentioned before, the 10%."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 644.648,
+          "text": "So it comes out to $11.91 per month."
+        }
+      ]
+    },
+    {
+      "end_sec": 698.164,
+      "id": "008",
+      "slug": "adler-explains-section-8-and-tbra-voucher-support-for-residents",
+      "start_sec": 647.348,
+      "summary": "Adler explains that some households will receive Section 8 or city TBRA vouchers to ensure no one pays more than 30% of income on housing costs. She expects a significant portion of tenants will need vouchers to remain in their units long-term.",
+      "title": "Adler explains Section 8 and TBRA voucher support for residents",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 647.348,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 651.664,
+          "text": "Depending on the household income, some households will receive Section 8 housing choice vouchers from the federal government or tenant-based rental assistance program vouchers through the city, depending on the availability of Section 8 when this building enters conversion."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 665.364,
+          "text": "This ensures that no one, whether it's an existing resident or an incoming purchaser, will have to pay more than 30% of their total income on housing costs, and the building stays up to date on maintenance for a sufficient cushion for reserves."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 677.364,
+          "text": "We expect that in this cluster, like most that ANCP deals with, we will have a significant"
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 684.764,
+          "text": "population of tenants who will be receiving Section 8 or T-BRA vouchers, and that will ensure that they get to remain in the households that they've lived in for decades without having to worry about living paycheck to paycheck."
+        }
+      ]
+    },
+    {
+      "end_sec": 808.18,
+      "id": "009",
+      "slug": "adler-details-scope-of-gut-rehab-and-building-improvements",
+      "start_sec": 698.164,
+      "summary": "Adler describes the total gut rehab including new building systems, electrification, roof and window replacement, security upgrades, code compliance, and accessibility improvements such as elevators for the aging population in the Convent Avenue buildings. She notes residents provided feedback on designs.",
+      "title": "Adler details scope of gut rehab and building improvements",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 698.164,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 702.18,
+          "text": "So what does ANCP actually entail for the buildings?"
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 705.28,
+          "text": "It's a total gut rehab."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 706.48,
+          "text": "That means new building systems and in this case, electrification scopes."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 710.68,
+          "text": "That's MEP, that's HVAC, that's everything you think of that goes into a building system and its envelope."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 717.88,
+          "text": "It's a repair and replacement of the roofs, the windows, the bulkheads, the supports in the basement, modernizing security, doorbell, fire safety, mail, other systems."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 727.18,
+          "text": "As said before, we're adding supers to these buildings, live-in."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 730.38,
+          "text": "It brings the buildings and apartments up to code because the..."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 733.28,
+          "text": "Very few apartments in this cluster because of when it was built are actually up to code right now."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 738.58,
+          "text": "You have railroads, you have railroad apartments across the board."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 742.38,
+          "text": "You have many bedrooms that either don't receive natural light or are just very small."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 749.98,
+          "text": "There are also accessibility improvements."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 751.68,
+          "text": "There is a significant aging population in the two convent buildings."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 755.38,
+          "text": "They'll be receiving elevators to ensure that they can continue to live there without issues."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 760.48,
+          "text": "And as mentioned before, there are the cooperative success trainings."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 763.28,
+          "text": "Heading into the stage of the project that we are at, residents were also provided the opportunity to look over the designs for what their buildings were going to be."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 771.08,
+          "text": "They provided a lot of feedback."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 772.78,
+          "text": "In some cases, designs were changed as a result to..."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 777.88,
+          "text": "To adjust for the needs of certain building populations, whether that was more accessibility or whether that was larger family sizes."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 787.18,
+          "text": "Why do we need a total gut rehab?"
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 789.28,
+          "text": "The money spent now to do this pays off over time by reducing future maintenance, repair, and operating costs so that these buildings are in good condition and so that the buildings don't have to dip heavily into operating reserves."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 799.68,
+          "text": "This would be the case regardless of whether this goes to homeownership or if there was a rental fallback scenario, if the city kept it in rental state."
+        }
+      ]
+    },
+    {
+      "end_sec": 892.68,
+      "id": "010",
+      "slug": "adler-outlines-project-financing-structure-and-article-xi-tax-exemption",
+      "start_sec": 808.18,
+      "summary": "Adler explains the financing: HPD city capital at $500,000-$700,000 per unit with no debt for 40 years, the Article XI tax exemption, $1 acquisition cost per building, a state Affordable Housing Corporation grant, and a state electrification grant. She notes the 40-year regulatory agreement with options to extend.",
+      "title": "Adler outlines project financing structure and Article XI tax exemption",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 808.18,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 812.38,
+          "text": "The typical financing for a co-op project looks like the following."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 815.78,
+          "text": "HPD, through what's known as city capital, makes up the majority of the project sources."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 821.18,
+          "text": "We budget for about $500,000, $700,000 per unit of city capital to make up for this."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 826.48,
+          "text": "This comes with no debt and no interest payments for 40 years."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 829.68,
+          "text": "This is the purpose of the Article 11 tax exemption that we're going over here."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 832.78,
+          "text": "The materials provided in the package show the numbers on why this is necessary for the success of the building."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 838.88,
+          "text": "Also, after that 40 years, building tenants have the option to re-up their regulatory agreement with the city to ensure continued affordability of their units."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 849.78,
+          "text": "If they choose to do so, then the Article 11 continues extending as long as they do so."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 856.38,
+          "text": "To ensure, again, that level of success for the building and the project, we subsidize the acquisition cost to $1 per building and land."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 862.68,
+          "text": "That's $4 for the total project."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 865.98,
+          "text": "We also receive a grant from the New York State Affordable Housing Corporation."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 870.58,
+          "text": "Excuse me, sorry."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 871.98,
+          "text": "That's provided by the state."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 872.98,
+          "text": "It's not repaid as long as these units stay affordable for about 10 years."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 878.68,
+          "text": "The city, of course."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 879.38,
+          "text": "has a longer regulatory agreement that ensures that there are more consequences if these don't remain affordable for that 40 years."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 885.78,
+          "text": "We're also including a ready grant from the electrification process I described before."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 890.18,
+          "text": "That's provided by the state and, again, is not repaid."
+        }
+      ]
+    },
+    {
+      "end_sec": 1007.448,
+      "id": "011",
+      "slug": "adler-explains-co-op-equity-building-and-resale-schedule",
+      "start_sec": 892.68,
+      "summary": "Adler describes the resale schedule that balances wealth-building for low-income residents with long-term affordability, showing how resale profit increases over time while remaining within AMI ranges. She then reviews the development timeline, noting the project is near the end of pre-development with OMB processing underway.",
+      "title": "Adler explains co-op equity building and resale schedule",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 892.68,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 899.68,
+          "text": "So as homeowners, how do these co-op shareholders build equity in their homes?"
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 905.28,
+          "text": "What we do to both ensure building equity for low-income residents, but also maintaining this goal of providing long-term affordable housing stock, is that we have a resale schedule."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 919.48,
+          "text": "After a certain number of years, the amount of money that you're able to sell these units for increases, but it still remains, even at maximum, within a certain AMI range for resale profit."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 931.68,
+          "text": "You can see that in the table above."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 935.08,
+          "text": "The goal of this is to balance, like I said, the wealth building and the permanent affordability, and generally has been a significant success in buildings that have converted and maintaining."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 943.38,
+          "text": "Residents having this trade-off."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 946.08,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 949.948,
+          "text": "So where are we in the development timeline?"
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 951.648,
+          "text": "We are currently towards the end of the pre-development process."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 954.048,
+          "text": "Sponsor designation happened a couple Augusts ago through both qualifying for an RFQ and tenants voting on their preferred developer."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 964.648,
+          "text": "It resulted in Novus being the designated sponsor for this project."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 967.848,
+          "text": "We have since gone through the pre-development of initial budgeting, financing."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 971.048,
+          "text": "We have a scope of work."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 972.548,
+          "text": "We're currently signing off on license agreements."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 975.148,
+          "text": "We are going through the OMB process with financing."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 980.148,
+          "text": "This is one of the last main stages of this."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 985.048,
+          "text": "After this, we secure through OMB, and then tenants are relocated before we begin major gut and rehab."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 991.348,
+          "text": "That will bring us to the development stage, where, of course, it's deed transfer construction loan."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 997.448,
+          "text": "And towards the end of that process, we start doing legal transactions with the city and bringing tenants who have succeeded in their programs back to the building."
+        }
+      ]
+    },
+    {
+      "end_sec": 1022.128,
+      "id": "012",
+      "slug": "adler-introduces-novus-living-as-project-sponsor",
+      "start_sec": 1007.448,
+      "summary": "Adler briefly introduces Novus Living LLC as the designated developer sponsor for the project before concluding the presentation.",
+      "title": "Adler introduces Novus Living as project sponsor",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1007.448,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1012.028,
+          "text": "Just introducing Novus Living, as before."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1015.528,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1021.028,
+          "text": "Yeah, there we go."
+        }
+      ]
+    },
+    {
+      "end_sec": 1140.028,
+      "id": "013",
+      "slug": "chair-marte-questions-panel-on-temporary-relocation-plan-for-tenants",
+      "start_sec": 1022.128,
+      "summary": "Marte asks about the temporary relocation plan during rehabilitation. Daniel Tompkins is sworn in and explains that Novus Living will relocate tenants, who continue paying current rent, with the project budget covering rent differences. He notes efforts to keep tenants in the same neighborhood.",
+      "title": "Chair Marte questions panel on temporary relocation plan for tenants",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1022.128,
+          "text": "Yeah, impressive."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1024.628,
+          "text": "I have one question."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1026.328,
+          "text": "What is the temporary relocation plan for current tenants during the rehabilitation process?"
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1031.428,
+          "text": "Do you want to take that?"
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1034.128,
+          "text": "The way HPD operates, I actually haven't done one of those before."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1036.928,
+          "text": "Daniel, can you answer that?"
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1039.928,
+          "text": "If you come up to the panel and then I'll just swear you in."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1042.728,
+          "text": "And I click a button."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1044.228,
+          "text": "Would you raise your right hand and state your name for the record?"
+        },
+        {
+          "speaker": "Member of the Public - Daniel Tompkins",
+          "t_sec": 1047.028,
+          "text": "Daniel Tompkins."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1048.428,
+          "text": "And do you affirm to tell the truth, the whole truth, and nothing but the truth in your testimony before this subcommittee and in answer to all council member questions?"
+        },
+        {
+          "speaker": "Member of the Public - Daniel Tompkins",
+          "t_sec": 1056.628,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1057.128,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Tompkins",
+          "t_sec": 1059.428,
+          "text": "So all the tenants that live there now will be relocated by Novus Living, the sponsor."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Tompkins",
+          "t_sec": 1065.228,
+          "text": "Maybe you work with brokers or maybe you have an in-house team that works on this, but the sponsor will work with tenants to find units that fit their needs, their household sizes."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Tompkins",
+          "t_sec": 1077.528,
+          "text": "And tenants will continue to pay their current rent payments throughout the relocation period."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Tompkins",
+          "t_sec": 1082.628,
+          "text": "And the project budget will carry the difference between the rents of what units they're living in during the project."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1091.528,
+          "text": "Yeah, that's what I was going to follow up with."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1093.328,
+          "text": "Two questions."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1093.928,
+          "text": "Would they be in the same area?"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1096.128,
+          "text": "And also, has the landlord done it?"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1098.528,
+          "text": "location like this previously?"
+        },
+        {
+          "speaker": "Member of the Public - Daniel Tompkins",
+          "t_sec": 1101.828,
+          "text": "Often it'll be many different landlords that will take on these tenants."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Tompkins",
+          "t_sec": 1106.228,
+          "text": "Some of them will be familiar with the program, some of them might not be."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Tompkins",
+          "t_sec": 1110.928,
+          "text": "And your first question was about in the neighborhood."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Tompkins",
+          "t_sec": 1116.328,
+          "text": "If necessary,"
+        },
+        {
+          "speaker": "Member of the Public - Daniel Tompkins",
+          "t_sec": 1118.028,
+          "text": "It's, you know, many tenants prefer to stay in their neighborhood during relocation, and the sponsor usually does their best to find units within the same neighborhood."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Tompkins",
+          "t_sec": 1126.328,
+          "text": "Some tenants will choose to maybe stay with a family member somewhere else."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Tompkins",
+          "t_sec": 1130.228,
+          "text": "That's also allowed."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Tompkins",
+          "t_sec": 1131.928,
+          "text": "Some might be more flexible to go to other neighborhoods, but the sponsor typically does their best to find units within the neighborhood for tenants to stay in."
+        }
+      ]
+    },
+    {
+      "end_sec": 1286.928,
+      "id": "014",
+      "slug": "councilmember-thomas-henry-asks-about-readiness-training-and-marketing-of-vacant-units",
+      "start_sec": 1140.028,
+      "summary": "Thomas-Henry asks what the readiness training consists of and who administers it; Adler explains UHAB administers training on co-op governance, budgets, and legal matters. Thomas-Henry then asks how the 31 vacant units will be marketed, and Adler and Tompkins explain the Housing Connect lottery system and local preference via insider units.",
+      "title": "Councilmember Thomas-Henry asks about readiness training and marketing of vacant units",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1140.028,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1140.928,
+          "text": "I'd like to now recognize my colleague, Councilmember Thomas Henry, who has a few questions."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1146.328,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1147.028,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1148.528,
+          "text": "What does the readiness training consist of and who administers that?"
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1154.528,
+          "text": "The training is administered by UHAB."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1157.528,
+          "text": "UHAB has worked with HPD for a number of years."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1160.428,
+          "text": "They've worked on all of our ANCB projects and have ensured tenant success in all the conversions that we've had so far."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1168.828,
+          "text": "The readiness training and..."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1170.428,
+          "text": "Daniel, chime in if I'm forgetting anything here."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1172.428,
+          "text": "The readiness training consists of tenants learning all about how a co-op board works and operates, how to do the budgets for them, how to distribute costs,"
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1185.028,
+          "text": "how to ensure co-op voting, any possible legal things that are..."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1189.728,
+          "text": "Although we do have it budgeted in the maintenance costs, basically line items for call-out monitors and legal as well."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1195.628,
+          "text": "Anything I'm missing there?"
+        },
+        {
+          "speaker": "Member of the Public - Daniel Tompkins",
+          "t_sec": 1198.228,
+          "text": "Yeah, I think that's about right."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Tompkins",
+          "t_sec": 1199.228,
+          "text": "You know, training about bylaws, holding elections, property management, things like that."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1205.628,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1206.328,
+          "text": "And the 31 units, I know you said there's like a marketing plan."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1210.528,
+          "text": "So do those go through a lottery system or are they marketed through the..."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1215.228,
+          "text": "Agent, did you mention, or the broker, how are those units going to identify potential buyers?"
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1220.728,
+          "text": "And will you look locally?"
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1222.728,
+          "text": "Is there a local preference at all?"
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1224.428,
+          "text": "So the local preference is fulfilled by the insider units that I think it's like 60-something percent or like 58% of the building."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1231.728,
+          "text": "That's how it's worked on ANCP buildings before."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1235.528,
+          "text": "For the actual marketing of them, these go through Housing Connect, also known as the Housing Lottery."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1241.228,
+          "text": "So that's the system by which we do it."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1242.928,
+          "text": "It gets put up on that Housing Connect for the ads up for usually about two months."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1248.428,
+          "text": "There are usually thousands of applications."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1252.428,
+          "text": "And then we have a specific marketing team that goes through this through..."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1258.628,
+          "text": "Restoring communities?"
+        },
+        {
+          "speaker": "Member of the Public - Daniel Tompkins",
+          "t_sec": 1260.428,
+          "text": "The sponsor will select a marketing agent from a pre-qualified list that HPD works with that will work with HPD's internal Housing Connect marketing team to qualify tenants through the lottery."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1273.228,
+          "text": "Yep."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1273.728,
+          "text": "And so through the lottery system, they will select..."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1276.628,
+          "text": "A certain number of tenants each round to try to"
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1278.628,
+          "text": "fill these units."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1279.228,
+          "text": "They'll go through them."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1279.728,
+          "text": "They'll look at their income documents to see if they actually qualify."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1283.528,
+          "text": "And they'll then show them the units."
+        }
+      ]
+    },
+    {
+      "end_sec": 1436.828,
+      "id": "015",
+      "slug": "thomas-henry-questions-per-unit-city-capital-cost-and-resale-equity-stipulations",
+      "start_sec": 1286.928,
+      "summary": "Thomas-Henry asks about the actual per-unit cost; Adler reports approximately $800,000 per unit in city capital, similar to the 171st Street cluster. Thomas-Henry then asks about resale stipulations; Adler and Tompkins explain the flip tax structure, with insider flip tax starting at 90-95% and decreasing to 10%, while new purchasers face a flat 10% flip tax.",
+      "title": "Thomas-Henry questions per-unit city capital cost and resale equity stipulations",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1286.928,
+          "text": "And I noticed you said HPD City Capital makes up the bulk of the project source at roughly $500,000 to $700,000."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1295.228,
+          "text": "Have you actually penciled out what the actual cost would be per unit?"
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1299.128,
+          "text": "Because of, so we're currently working on reconciliation with it, and we are going through a certain internal process with HPD's, basically the wing of HPD that does"
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1310.428,
+          "text": "the construction and the monitoring and cost and design review to make sure that these numbers are clean."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1316.528,
+          "text": "Because of the..."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1319.828,
+          "text": "Unusually large number of insider units in this project."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1323.428,
+          "text": "Usually it's much lower, so you can sell vacant units for more and make up a bulk of that money."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1328.828,
+          "text": "The city capital money on this project is around $800,000."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1333.528,
+          "text": "That is similar to the..."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1336.428,
+          "text": "Total?"
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1337.028,
+          "text": "Yeah."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1337.428,
+          "text": "For the entire project?"
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1338.628,
+          "text": "$800,000 per unit."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1339.528,
+          "text": "Per unit."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1340.028,
+          "text": "Oh, okay."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1340.928,
+          "text": "That is similar to the 171st Street cluster."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1347.028,
+          "text": "Is that the name of Shams Project?"
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1348.728,
+          "text": "That recently came through City Council."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1352.828,
+          "text": "And then my last question is for you to show the equity."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1355.928,
+          "text": "Are there any stipulations for either the existing tenants or the new tenants that come in when and how they can sell?"
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1363.028,
+          "text": "Yes, that goes into our regulatory agreement under the."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1367.828,
+          "text": "We'll be back."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1368.528,
+          "text": "We basically call it a flip tax to ensure that basically the longer that you stay in the unit, the more profit you can take when you resell it."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1378.428,
+          "text": "If we can go back a few slides until we get to that."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1382.028,
+          "text": "I can just tell you when to stop."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1387.128,
+          "text": "Yep, there we go."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1388.728,
+          "text": "Oh, one more forward."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1389.928,
+          "text": "There we go."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1391.028,
+          "text": "So this is the basic outline of what that looks like."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Tompkins",
+          "t_sec": 1397.728,
+          "text": "But they can sell it anytime."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Tompkins",
+          "t_sec": 1399.128,
+          "text": "It's just the amount of time increases the profits they would realize and the equity they would realize from resale."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1406.728,
+          "text": "Got it."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1406.928,
+          "text": "And it would be the same for both the existing tenants that are moving back and the new tenants?"
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1411.028,
+          "text": "Correct."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Tompkins",
+          "t_sec": 1411.528,
+          "text": "No."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Tompkins",
+          "t_sec": 1412.128,
+          "text": "Sorry, no."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Tompkins",
+          "t_sec": 1413.228,
+          "text": "The flip tax for new purchasers is 10% in perpetuity."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Tompkins",
+          "t_sec": 1418.728,
+          "text": "The flip tax for insider tenants who become homeowners starts at, I think, 90%."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Tompkins",
+          "t_sec": 1426.128,
+          "text": "Is that what it is?"
+        },
+        {
+          "speaker": "Member of the Public - Daniel Tompkins",
+          "t_sec": 1427.128,
+          "text": "Or 95% and then slowly decreases until it reaches that 10%."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1431.728,
+          "text": "Gotcha."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1434.228,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 1507.228,
+      "id": "016",
+      "slug": "chair-marte-asks-for-data-on-average-tenure-of-homeowners-in-ancp-projects",
+      "start_sec": 1436.828,
+      "summary": "Marte asks whether HPD has data on how long people typically stay in their units after conversion. Tompkins says he does not have it on hand but can gather it, and Toporowski notes they often see intergenerational wealth transfer with families keeping units long-term.",
+      "title": "Chair Marte asks for data on average tenure of homeowners in ANCP projects",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1436.828,
+          "text": "Just a follow-up question on that point."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1439.128,
+          "text": "Do you guys have data on all the projects that you have funded, the city have funded, on the average amount of time that people typically sell their apartment after it goes to a program?"
+        },
+        {
+          "speaker": "Member of the Public - Daniel Tompkins",
+          "t_sec": 1454.028,
+          "text": "I don't on hand."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Tompkins",
+          "t_sec": 1455.028,
+          "text": "We can try and get something for you."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Tompkins",
+          "t_sec": 1457.228,
+          "text": "The goal, obviously, is to have."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Tompkins",
+          "t_sec": 1458.828,
+          "text": "folks stay in their units."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Tompkins",
+          "t_sec": 1460.128,
+          "text": "These are their homes they've lived in for many years."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Tompkins",
+          "t_sec": 1462.628,
+          "text": "And in most cases, I think we find that people stay there for a long time."
+        },
+        {
+          "speaker": "Member of the Public - Asher Toporowski",
+          "t_sec": 1469.128,
+          "text": "We typically see intergenerational situations as well."
+        },
+        {
+          "speaker": "Member of the Public - Asher Toporowski",
+          "t_sec": 1471.828,
+          "text": "So as Emily mentioned, there's a lot of seniors in the buildings and we see like"
+        },
+        {
+          "speaker": "Member of the Public - Asher Toporowski",
+          "t_sec": 1477.128,
+          "text": "this being passed down to their family, creating generational wealth, it's staying within the family."
+        },
+        {
+          "speaker": "Member of the Public - Asher Toporowski",
+          "t_sec": 1481.128,
+          "text": "So certainly there's opportunities for people to sell if they desire, but the buildings are got rehabbed and they're basically brand new and you're buying it at a reasonable price."
+        },
+        {
+          "speaker": "Member of the Public - Asher Toporowski",
+          "t_sec": 1492.328,
+          "text": "So, I mean, if circumstances arise, they can sell, but for the most part, we find people really"
+        },
+        {
+          "speaker": "Member of the Public - Asher Toporowski",
+          "t_sec": 1498.928,
+          "text": "want to stay in these neighborhoods and in these buildings, but certainly they can gather the data for you."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1503.328,
+          "text": "Okay, great."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1504.028,
+          "text": "I'm going to pass it to Councilmember Aviles."
+        }
+      ]
+    },
+    {
+      "end_sec": 1693.028,
+      "id": "017",
+      "slug": "councilmember-avil-s-questions-relocation-scope-right-to-return-and-voucher-needs",
+      "start_sec": 1507.228,
+      "summary": "Avil\u00e9s asks whether relocation could be out of state; Tompkins confirms it is generally within the neighborhood and always within the city. She then asks about right to return and right-sizing; Adler confirms all insiders have the right to return or a permanent voucher, and right-sizing options are available. Avil\u00e9s also asks about voucher needs and relocation timing.",
+      "title": "Councilmember Avil\u00e9s questions relocation scope, right to return, and voucher needs",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Alexa Avil\u00e9s",
+          "t_sec": 1507.228,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Alexa Avil\u00e9s",
+          "t_sec": 1507.928,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "Alexa Avil\u00e9s",
+          "t_sec": 1508.928,
+          "text": "Hi, good morning."
+        },
+        {
+          "speaker": "Alexa Avil\u00e9s",
+          "t_sec": 1510.128,
+          "text": "Just some quick follow-up questions from my colleagues."
+        },
+        {
+          "speaker": "Alexa Avil\u00e9s",
+          "t_sec": 1513.128,
+          "text": "So of the 44 units that will need to find a new place to live,"
+        },
+        {
+          "speaker": "Alexa Avil\u00e9s",
+          "t_sec": 1521.028,
+          "text": "Does those provisions include potentially leaving out of state for relocation plans, or is it really, does it focus on remaining local?"
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1534.628,
+          "text": "Our intention is to get them local."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1537.228,
+          "text": "I'm pretty sure we guarantee that."
+        },
+        {
+          "speaker": "Alexa Avil\u00e9s",
+          "t_sec": 1538.828,
+          "text": "Sometimes in relocation."
+        },
+        {
+          "speaker": "Alexa Avil\u00e9s",
+          "t_sec": 1542.028,
+          "text": "Developers offer out-of-state relocation."
+        },
+        {
+          "speaker": "Alexa Avil\u00e9s",
+          "t_sec": 1545.228,
+          "text": "So I was curious if that is something that you're offering."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1547.828,
+          "text": "The only situation..."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Tompkins",
+          "t_sec": 1549.028,
+          "text": "I've seen where folks have relocated out of state as if they have a relative or something that they would like to stay with."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Tompkins",
+          "t_sec": 1554.428,
+          "text": "But in general, the relocation is usually within the neighborhood and always within the city."
+        },
+        {
+          "speaker": "Alexa Avil\u00e9s",
+          "t_sec": 1559.928,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Alexa Avil\u00e9s",
+          "t_sec": 1560.428,
+          "text": "Great."
+        },
+        {
+          "speaker": "Alexa Avil\u00e9s",
+          "t_sec": 1560.728,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Alexa Avil\u00e9s",
+          "t_sec": 1561.428,
+          "text": "In terms of, so is everyone who will be relocated provided with a right to return?"
+        },
+        {
+          "speaker": "Alexa Avil\u00e9s",
+          "t_sec": 1568.828,
+          "text": "And are they able to..."
+        },
+        {
+          "speaker": "Alexa Avil\u00e9s",
+          "t_sec": 1572.728,
+          "text": "Does this include right-sizing apartments if that is in fact what is needed?"
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1578.028,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1578.828,
+          "text": "So the answer to both those questions is essentially yes."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1582.328,
+          "text": "The first one, all insiders are guaranteed the right to return if they want it."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1586.528,
+          "text": "If they don't want it, they are provided a permanent voucher to be able to stay affordably in whatever relocation unit that they've been..."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1594.228,
+          "text": "Relocated to."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1595.628,
+          "text": "As far as right-sizing, it's a somewhat complicated process just because of, like I said, the level of occupancy in some of these buildings has not given us a ton of flexibility, but we have given every qualifying household that has been able to"
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1610.828,
+          "text": "provide documents basically to show the makeup of their household, they all get the option to either right-size in their own building or pending TA approval, move to an appropriately right-sized unit in another building in the cluster."
+        },
+        {
+          "speaker": "Alexa Avil\u00e9s",
+          "t_sec": 1623.928,
+          "text": "Got it."
+        },
+        {
+          "speaker": "Alexa Avil\u00e9s",
+          "t_sec": 1624.528,
+          "text": "And then lastly, in terms of the monthly maintenance projections that you put on, I'm not sure I understand how it works for those returning residents with the subsidy."
+        },
+        {
+          "speaker": "Alexa Avil\u00e9s",
+          "t_sec": 1637.528,
+          "text": "How does it work?"
+        },
+        {
+          "speaker": "Alexa Avil\u00e9s",
+          "t_sec": 1638.528,
+          "text": "additional $1,000 monthly maintenance fees when you're on restricted income?"
+        },
+        {
+          "speaker": "Member of the Public - Daniel Tompkins",
+          "t_sec": 1646.328,
+          "text": "That's where the rental choice vouchers will come in."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Tompkins",
+          "t_sec": 1649.528,
+          "text": "Either it will be Section 8 if available or an alternative city voucher if Section 8 is not available at the time."
+        },
+        {
+          "speaker": "Alexa Avil\u00e9s",
+          "t_sec": 1656.228,
+          "text": "Of the 44 residents that are currently there, how many of them do you expect will need a voucher?"
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1663.128,
+          "text": "We don't have their income information yet."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1668.228,
+          "text": "We will be taking that prior to relocation, of course, but we expect it will be a very large chunk of them."
+        },
+        {
+          "speaker": "Alexa Avil\u00e9s",
+          "t_sec": 1674.528,
+          "text": "Got it."
+        },
+        {
+          "speaker": "Alexa Avil\u00e9s",
+          "t_sec": 1674.828,
+          "text": "And lastly, when do you anticipate the residents needing to move out?"
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1682.428,
+          "text": "Hopefully as early as December."
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1684.028,
+          "text": "If not, it would be January, February."
+        },
+        {
+          "speaker": "Alexa Avil\u00e9s",
+          "t_sec": 1686.228,
+          "text": "And the relocation process hasn't quite started yet?"
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1689.228,
+          "text": "No."
+        },
+        {
+          "speaker": "Alexa Avil\u00e9s",
+          "t_sec": 1689.628,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Alexa Avil\u00e9s",
+          "t_sec": 1690.628,
+          "text": "Okay, thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 1720.516,
+      "id": "018",
+      "slug": "thomas-henry-asks-about-construction-timeline-for-tenant-return",
+      "start_sec": 1693.028,
+      "summary": "Thomas-Henry asks about the anticipated construction timeline for tenants to move back in. Toporowski estimates 18 to 24 months, meaning residents could be displaced for up to two years.",
+      "title": "Thomas-Henry asks about construction timeline for tenant return",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1693.028,
+          "text": "We're going to go to a second round of questions."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1695.028,
+          "text": "Councilmember Thomas Henry."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1696.528,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1697.028,
+          "text": "So with the move out of, say, at the latest February, what's the anticipated construction timeline for them to move back into the new units?"
+        },
+        {
+          "speaker": "Member of the Public - Emily Adler",
+          "t_sec": 1704.428,
+          "text": "I think we have a, is it 18 months?"
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1705.728,
+          "text": "Is it that the 12 to 18 months timeframe?"
+        },
+        {
+          "speaker": "Member of the Public - Asher Toporowski",
+          "t_sec": 1709.828,
+          "text": "Typically 18 to 24 months."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1711.928,
+          "text": "18 to 24 months."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1713.228,
+          "text": "So up to two years."
+        },
+        {
+          "speaker": "Member of the Public - Asher Toporowski",
+          "t_sec": 1714.728,
+          "text": "Up to two years."
+        }
+      ]
+    },
+    {
+      "end_sec": 1764.616,
+      "id": "019",
+      "slug": "chair-marte-excuses-panel-and-closes-public-hearing",
+      "start_sec": 1720.516,
+      "summary": "Marte excuses the applicant panel, confirms no members of the public wish to testify, and closes the public hearing on the preconsidered 48-50 Convent Avenue Cluster ANCP items, which are laid over.",
+      "title": "Chair Marte excuses panel and closes public hearing",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1720.516,
+          "text": "All right."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1721.216,
+          "text": "Well, thank you for answering the questions."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1723.416,
+          "text": "This panel is now excused."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1728.016,
+          "text": "Counsel, are there members of the public who wish to testify in this audio?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1731.516,
+          "text": "No, there are not."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1736.516,
+          "text": "If there are any remote public participants who wish to testify and have not already done so, please press the raise hand button now."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1744.316,
+          "text": "And if you are here with us in person, please see one of the Sergeant at Arms to first fill out a speaker card."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1750.116,
+          "text": "There being no other members of the public who wish to testify regarding pre-considered LU4850 Convent Avenue Cluster ANCP project, the public hearing is now closed and the items are laid over."
+        }
+      ]
+    },
+    {
+      "end_sec": 1778.773,
+      "id": "020",
+      "slug": "chair-marte-adjourns-the-meeting",
+      "start_sec": 1764.616,
+      "summary": "Marte thanks members of the public, colleagues, subcommittee counsel, land use staff, and the sergeant at arms, and adjourns the meeting.",
+      "title": "Chair Marte adjourns the meeting",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1764.616,
+          "text": "That concludes today's business."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1766.216,
+          "text": "I would like to thank the members of the public, my colleagues, subcommittee counsel, land use staff, and the sergeant at arms for your participation today."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1772.516,
+          "text": "This meeting is hereby adjourned."
+        }
+      ]
+    }
+  ],
+  "date": "2026-09-08",
+  "duration_sec": 1778.773,
+  "slug": "2026-09-08-1100-am-subcommittee-on-landmarks-public-sitings-resiliency-and-dispositions",
+  "summary": [
+    "The Subcommittee on Landmarks, Public Sitings, Resiliency and Dispositions, chaired by Councilmember Christopher Marte, held a hearing on two preconsidered land use applications for the 48-50 Convent Avenue Cluster ANCP project in Manhattanville, Manhattan.",
+    "HPD and developer Novus Living presented plans for a full gut rehab of four buildings creating 77 affordable homeownership units under the Affordable Neighborhood Cooperative Program, with a 40-year Article XI tax exemption.",
+    "Council members questioned the panel on tenant relocation plans, readiness training, marketing of vacant units, financing, resale equity rules, and construction timelines before closing the hearing with no public testimony."
+  ],
+  "tags": [
+    "HEARING",
+    "LAND_USE"
+  ],
+  "time": "11:00 AM",
+  "title": "Subcommittee on Landmarks, Public Sitings, Resiliency and Dispositions",
+  "topic": "Landmarks, 48-50 Convent Avenue (ANCP) - UDAAP, Manhattan (G 260006 NUM)",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-3_260908-110014/video-web.mp4"
+  }
+}
