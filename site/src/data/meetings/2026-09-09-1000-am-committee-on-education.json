@@ -1,0 +1,727 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 18.6,
+      "id": "001",
+      "slug": "council-staff-calls-meeting-to-order-and-gives-housekeeping-instructions",
+      "start_sec": 6.9,
+      "summary": "Council staff opens the committee vote meeting on education, asking attendees to silence electronics and not approach the dais.",
+      "title": "Council staff calls meeting to order and gives housekeeping instructions",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 6.9,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 7.7,
+          "text": "Welcome to the committee vote on education."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 9.7,
+          "text": "At this time, we ask that you please sign as all electronics."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 12.6,
+          "text": "And please do not approach the day as chair."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 14.4,
+          "text": "You may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 36.6,
+      "id": "002",
+      "slug": "chair-dinowitz-opens-education-committee-vote-and-acknowledges-members-present",
+      "start_sec": 18.6,
+      "summary": "Chair Eric Dinowitz opens the Education Committee vote, acknowledging colleagues present including Councilmembers Louis, Narcisse, Lee, Joseph, Far\u00edas, Schulman, De La Rosa, and Wong.",
+      "title": "Chair Dinowitz opens Education Committee vote and acknowledges members present",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 18.6,
+          "text": "Good morning, everyone."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 19.7,
+          "text": "I am Councilmember Eric Dinowitz, Chair of the Committee on Education."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 23.8,
+          "text": "Welcome to today's vote."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 25.6,
+          "text": "First, I want to acknowledge my colleagues who are present, Councilmembers Lewis, Narcisse, Lee, Joseph, Arias, Shulman, De La Rosa, and Wong."
+        }
+      ]
+    },
+    {
+      "end_sec": 68.0,
+      "id": "003",
+      "slug": "dinowitz-introduces-resolution-7a-calling-for-statewide-9-11-curriculum",
+      "start_sec": 36.6,
+      "summary": "Dinowitz introduces proposed Resolution 7A, sponsored by Councilmembers Ariola, Speaker Menin, and Joseph, calling on the State Legislature and Governor to require a 9/11 curriculum in all New York schools, noting the upcoming 25th anniversary.",
+      "title": "Dinowitz introduces Resolution 7A calling for statewide 9/11 curriculum",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 36.6,
+          "text": "Today the Committee on Education will consider proposed Resolution 7A, sponsored by Council Members Joann-Ariola, Speaker Julie-Menin, and Council Member Rita Joseph."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 47.7,
+          "text": "The resolution calls on the New York State Legislature to pass and the Governor to sign legislation to incorporate a 9-11 curriculum in all New York City schools."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 59.4,
+          "text": "This Friday marks the 25th anniversary of the September 11th terrorist attack against the United States."
+        }
+      ]
+    },
+    {
+      "end_sec": 116.1,
+      "id": "004",
+      "slug": "dinowitz-recounts-the-events-and-lasting-impact-of-september-11-2001",
+      "start_sec": 68.0,
+      "summary": "Dinowitz recounts the September 11 attacks\u201419 hijackers, four planes, nearly 3,000 killed, 6,000 injured\u2014and describes how the events transformed American attitudes about safety, privacy, and global affairs, with impacts still felt in New York City today.",
+      "title": "Dinowitz recounts the events and lasting impact of September 11, 2001",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 68.0,
+          "text": "On that day in 2001, 19 terrorists hijacked four commercial planes, deliberately crashing two of the planes into the Twin Towers of the World Trade Center here in New York City, a less than 10 minute walk from where we are now."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 83.7,
+          "text": "Nearly 3,000 people were killed and more than 6,000 others were injured, not to mention the countless"
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 90.0,
+          "text": "less others who have died from 9-11 related illnesses."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 93.9,
+          "text": "The events of 9-11 transformed Americans'attitudes about safety, privacy, and our nation's role in global affairs,"
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 101.9,
+          "text": "the impacts of which are still felt today, including again here in New York City where survivors, first responders, residents, and family members and neighbors continue to deal with the effects of that horrific day."
+        }
+      ]
+    },
+    {
+      "end_sec": 162.6,
+      "id": "005",
+      "slug": "dinowitz-explains-why-students-need-a-structured-9-11-curriculum",
+      "start_sec": 116.1,
+      "summary": "Dinowitz explains that for today's students, 9/11 is a historical event with uneven classroom coverage and no required curriculum. He notes the sensitivity of the material and the need for age-appropriate, intentionally crafted instruction.",
+      "title": "Dinowitz explains why students need a structured 9/11 curriculum",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 116.1,
+          "text": "While 9-11 and the events that followed are ingrained memories for many adults, many of us sitting here today,"
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 124.4,
+          "text": "for students in our schools, 9-11 is a historical event that can receive uneven coverage in classes, as there is currently no required curriculum that covers it."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 136.7,
+          "text": "Whether and how students learn about 9-11 can vary depending on the teacher and the school."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 143.6,
+          "text": "Teaching this topic can be a delicate task, as the material is sensitive and the images and documents used as primary sources can be disturbing."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 152.6,
+          "text": "An important topic such as this one deserves the kind of careful, age-appropriate consideration that can come from an intentionally crafted curriculum."
+        }
+      ]
+    },
+    {
+      "end_sec": 200.1,
+      "id": "006",
+      "slug": "dinowitz-outlines-what-resolution-7a-would-require",
+      "start_sec": 162.6,
+      "summary": "Dinowitz describes how Resolution 7A proposes state legislation requiring an age-appropriate 9/11 curriculum covering core events and global impact, emphasizing that New York City students must learn this history to understand today's world.",
+      "title": "Dinowitz outlines what Resolution 7A would require",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 162.6,
+          "text": "Resolution 7A proposes state legislation that would require 9-11 curriculum be age-appropriate and include certain core information and themes on the events of the day and the global impact of the attacks."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 177.6,
+          "text": "It is critical that New York City students learn about"
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 180.0,
+          "text": "9-11 to better understand today's world and our city's history."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 184.7,
+          "text": "And that is precisely what proposed Resolution 7A seeks to ensure."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 190.0,
+          "text": "Therefore, I ask my colleagues to support this resolution."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 193.9,
+          "text": "And I would now like to turn it over to one of the bill's sponsors, Councilmember Joseph, for some remarks."
+        }
+      ]
+    },
+    {
+      "end_sec": 281.2,
+      "id": "007",
+      "slug": "councilmember-joseph-recalls-teaching-5th-grade-on-9-11-and-watching-the-towers-fall",
+      "start_sec": 200.1,
+      "summary": "Councilmember Rita Joseph recalls being a fifth-grade teacher on 9/11, watching the towers fall on live TV with her class, and learning that one student's father who worked at Windows on the World was off that day but lost coworkers. She describes carrying that morning with her throughout her career.",
+      "title": "Councilmember Joseph recalls teaching 5th grade on 9/11 and watching the towers fall",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 200.1,
+          "text": "Thank you, Chair Dinowitz."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 202.1,
+          "text": "The resolution 7A calling on Albany to pass the governor to sign legislation requiring a 9-11 curriculum in every school in the state."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 210.7,
+          "text": "Let me tell you where I was."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 212.2,
+          "text": "I was a fifth grade teacher."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 213.8,
+          "text": "My students were 10 years old."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 215.7,
+          "text": "This week marks 25 years since that day, which means those 10-year-olds are now grown."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 221.3,
+          "text": "They are in their 30s, some of them raising their own children, children who will never know September 11 as history the way I knew Pearl Harbor."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 229.9,
+          "text": "I remember exactly where I was, room 303."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 233.0,
+          "text": "The principal came over the PA system and said, turn on your TVs, something is happening."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 238.3,
+          "text": "We turned on our television and my whole class watched the towers fall, live together right here in that classroom."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 245.1,
+          "text": "One of my students had a father who worked at the windows on the world, at the top of the North Tower."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 251.4,
+          "text": "I remember calling to find out if that family was okay."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 255.2,
+          "text": "When I reached him, he told me he happened to be off that day."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 259.7,
+          "text": "He was safe, but I could hear it in his voice."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 262.8,
+          "text": "He had tears in his eyes because he was thinking about his coworkers, the people he worked beside every single day."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 269.6,
+          "text": "Who weren't."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 270.0,
+          "text": "It's so fortunate."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 271.7,
+          "text": "I carry that morning with me for the rest of the career in that classroom."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 275.4,
+          "text": "I think about it every time I stand in this chamber and talk about what our students need to know."
+        }
+      ]
+    },
+    {
+      "end_sec": 363.8,
+      "id": "008",
+      "slug": "joseph-argues-moment-of-silence-is-not-enough-and-urges-statewide-9-11-curriculum",
+      "start_sec": 281.2,
+      "summary": "Joseph argues that a moment of silence is not enough\u2014curriculum teaches. She notes that today's teachers and students weren't alive for 9/11, references existing NYC DOE resources and museum visits, and calls for statewide legislation so children in Buffalo and Rochester learn this history with the same seriousness as those in Brooklyn.",
+      "title": "Joseph argues moment of silence is not enough and urges statewide 9/11 curriculum",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 281.2,
+          "text": "New York already requires moment of silence in our schools each September 11th."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 285.8,
+          "text": "That matters, but a moment of silence is not a lesson plan."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 289.6,
+          "text": "Silence remembers, curriculum teaches."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 292.8,
+          "text": "My generation of teachers didn't need a curriculum to explain that day, we lived it."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 297.7,
+          "text": "And we improvised because we had to."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 300.0,
+          "text": "But the teachers standing in front of the classrooms today weren't there, neither were their students."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 304.9,
+          "text": "If we don't require this history to be taught deliberately and well, it simply won't be."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 310.7,
+          "text": "Not due to a lack of care, but because people who remember it firsthand were getting fewer every year."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 316.7,
+          "text": "New York City has tried to close that gap."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 319.1,
+          "text": "Our Department of Education built 911 curriculum resources with the Memorial Museum, and this council funded students'visit to the museum this year."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 328.1,
+          "text": "But a child in Buffalo or Rochester deserves to learn this history with the same seriousness as a child in Brooklyn."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 335.0,
+          "text": "That's statewide responsibility."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 337.2,
+          "text": "State lawmakers have introduced legislation to do exactly that."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 341.5,
+          "text": "Firefighter Joseph Spar Jr., who responded to Rescue 3 that morning and never came home."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 347.7,
+          "text": "Resolution 7A tells Albany that the City Council stand behind that effort."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 352.2,
+          "text": "I want to thank my colleagues for years of working and keeping this history alive, for the generation that wasn't there to witness it."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 358.4,
+          "text": "I urge my colleague to vote yes."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 360.4,
+          "text": "I urge Albany to act."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 362.3,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 405.9,
+      "id": "009",
+      "slug": "dinowitz-acknowledges-additional-members-and-thanks-committee-staff",
+      "start_sec": 363.8,
+      "summary": "Dinowitz thanks Councilmember Brewer for years of work on 9/11 family justice, notes additional members joining (Gutierrez, Salazar), and thanks committee staff including Alejandro Carvajal, Chloe Rivera, Katie Selena, Grace Amato, Andrew Lane Lawless, and his own staff Theo Solter and Jenna Klaus.",
+      "title": "Dinowitz acknowledges additional members and thanks committee staff",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 363.8,
+          "text": "Thank you, Councilmember Joseph."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 365.1,
+          "text": "I'd also like to note that we've been joined by Councilmember Brewer, who has been instrumental in justice for the 9-11 families for many, many years."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 378.7,
+          "text": "So thank you."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 379.7,
+          "text": "I've been joined by Councilmember Gutierrez and Council Girl Salazar Gutierrez."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 390.3,
+          "text": "Finally, I want to thank committee staff Alejandro Carvajal, Chloe Rivera, Katie Selena, Grace Amato, Andrew Lane Lawless, as well as my own staff, Theo Solter and Jenna Klaus."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 402.0,
+          "text": "Clerk, we are ready to begin the vote."
+        }
+      ]
+    },
+    {
+      "end_sec": 468.48,
+      "id": "010",
+      "slug": "roll-call-vote-on-resolution-7a",
+      "start_sec": 405.9,
+      "summary": "Committee Clerk Ben Jacobs conducts the roll call vote on Resolution 7A. Members vote aye: Dinowitz, Louis, Brewer, De La Rosa, Far\u00edas, Joseph, Narcisse, and others. Several members share brief personal recollections of 9/11 during their votes.",
+      "title": "Roll call vote on Resolution 7A",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 405.9,
+          "text": "Morning."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 407.0,
+          "text": "Ben Jacobs, committee clerk."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 409.6,
+          "text": "Education Committee roll call vote on Resolution 7A."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 413.6,
+          "text": "Chair Dynowitz?"
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 414.6,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 416.1,
+          "text": "Councilmember Lewis?"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 417.9,
+          "text": "Vote aye on all."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 418.7,
+          "text": "Congratulations."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 421.3,
+          "text": "Councilmember Brewer?"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 423.3,
+          "text": "I was elected that day."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 424.9,
+          "text": "Yes, thank you."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 426.7,
+          "text": "Councilmember De La Rosa?"
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 428.9,
+          "text": "Aye or no."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 429.5,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 430.9,
+          "text": "Councilmember Farias?"
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 432.2,
+          "text": "Aye or no."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 434.1,
+          "text": "Councilmember Gutierrez?"
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 437.98,
+          "text": "Councilmember Joseph."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 439.88,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 441.78,
+          "text": "Councilmember Krishnan."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 445.38,
+          "text": "Councilmember Lee."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 449.28,
+          "text": "Councilmember Narcisse."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 452.18,
+          "text": "I remember where I was as a nurse working and congratulations, Avodai."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 458.78,
+          "text": "Councilmember Shulman."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 461.68,
+          "text": "Councilmember Zhuang."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 464.88,
+          "text": "Councilmember Wong."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 465.98,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 467.08,
+          "text": "Aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 991.14,
+      "id": "011",
+      "slug": "resolution-7a-adopted-11-0-vote-held-open",
+      "start_sec": 468.48,
+      "summary": "Clerk Ben Jacobs announces the initial result: 11 affirmative, 0 negative, 0 abstentions. Chair Dinowitz notes the vote will be held open for additional members.",
+      "title": "Resolution 7A adopted 11-0, vote held open",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 468.48,
+          "text": "By a vote of 11 affirmative, zero negative, zero abstentions, the item's adopted."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 476.68,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 477.28,
+          "text": "We will be holding the vote open."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 808.86,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 898.86,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 1005.44,
+      "id": "012",
+      "slug": "councilmember-zhuang-votes-late-final-tally-12-0-on-resolution-7a",
+      "start_sec": 991.14,
+      "summary": "Councilmember Zhuang casts a late aye vote on Resolution 7A. Clerk Jacobs announces the final tally: 12 affirmative, 0 negative, 0 abstentions.",
+      "title": "Councilmember Zhuang votes late, final tally 12-0 on Resolution 7A",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 991.14,
+          "text": "Council Member Zhuang on Resolution 7A."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 994.74,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 995.64,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 999.64,
+          "text": "The vote is 12 in the affirmative, none in the negative, no abstentions."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 1005.04,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 1048.768,
+      "id": "013",
+      "slug": "chair-dinowitz-adjourns-the-hearing",
+      "start_sec": 1005.44,
+      "summary": "Chair Dinowitz adjourns the Education Committee vote hearing.",
+      "title": "Chair Dinowitz adjourns the hearing",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 1005.44,
+          "text": "This hearing, this vote is adjourned."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 1011.94,
+          "text": "I'm just..."
+        }
+      ]
+    }
+  ],
+  "date": "2026-09-09",
+  "duration_sec": 1048.768,
+  "slug": "2026-09-09-1000-am-committee-on-education",
+  "summary": [
+    "The NYC Council Committee on Education held a vote on Resolution 7A, calling on the State Legislature and Governor to require an age-appropriate 9/11 curriculum in all New York schools.",
+    "Chair Eric Dinowitz and sponsor Councilmember Rita Joseph delivered remarks on the importance of teaching 9/11 history, with Joseph sharing her personal experience as a teacher on that day.",
+    "The resolution was adopted by a vote of 12-0, with one member voting late after the initial roll call."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "10:00 AM",
+  "title": "Committee on Education",
+  "topic": "Incorporate a 9/11 curriculum in all New York schools. (A.8347)",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-PV-CH-COM_260909-101512/video-web.mp4"
+  }
+}

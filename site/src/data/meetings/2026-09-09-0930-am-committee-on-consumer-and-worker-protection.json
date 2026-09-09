@@ -1,0 +1,386 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 23.6,
+      "id": "001",
+      "slug": "staff-opens-committee-vote-and-gives-housekeeping-instructions",
+      "start_sec": 7.5,
+      "summary": "Committee staff welcomes attendees to the Consumer and Worker Protection committee vote, asks everyone to silence electronics and not approach the dais.",
+      "title": "Staff opens committee vote and gives housekeeping instructions",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 7.5,
+          "text": "Good morning, good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 10.4,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 13.4,
+          "text": "Good morning, welcome to the committee vote on consumer and worker protection."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 17.2,
+          "text": "At this time, we ask that you please silence all electronics and please do not approach the dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 22.0,
+          "text": "Chair, you may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 29.3,
+      "id": "002",
+      "slug": "chair-epstein-opens-committee-vote-on-intro-813a",
+      "start_sec": 23.6,
+      "summary": "Chair Harvey Epstein opens the Consumer and Worker Protection Committee meeting and announces the committee will be voting on Intro 813A.",
+      "title": "Chair Epstein opens committee vote on Intro 813A",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 23.6,
+          "text": "All right, good morning and welcome to today's Consumer Worker Protection Committee."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 26.8,
+          "text": "We're voting on Intro 813A."
+        }
+      ]
+    },
+    {
+      "end_sec": 37.7,
+      "id": "003",
+      "slug": "chair-epstein-introduces-himself-and-committee-members-present",
+      "start_sec": 29.3,
+      "summary": "Chair Epstein introduces himself and notes the council members present both in person and on Zoom: Wilson, Hanks, Oss\u00e9, Banks, Schulman, Ariola, and Aldebol.",
+      "title": "Chair Epstein introduces himself and committee members present",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 29.3,
+          "text": "I'm Harvey Epstein, chair of the committee."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 30.7,
+          "text": "I'm joined by my colleagues, Wilson, Hanks and Osei on Zoom, Banks, Shulman, Areola, and Audible."
+        }
+      ]
+    },
+    {
+      "end_sec": 49.9,
+      "id": "004",
+      "slug": "chair-epstein-explains-intro-813a-dcwp-authority-to-revoke-tobacco-and-e-cig-licenses-for-illega",
+      "start_sec": 37.7,
+      "summary": "Epstein explains that Intro 813A allows DCWP to refuse to renew, suspend, or revoke a tobacco or electronic cigarette retail license when a dealer is found to be illegally selling cannabis.",
+      "title": "Chair Epstein explains Intro 813A: DCWP authority to revoke tobacco and e-cig licenses for illegal cannabis sales",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 37.7,
+          "text": "You know, I'm proud to sponsor this introduction, 813A, which allows DCWP to refuse to renew or suspend or revoke a tobacco or electronics retail license by finding the dealers are legally selling cannabis."
+        }
+      ]
+    },
+    {
+      "end_sec": 67.7,
+      "id": "005",
+      "slug": "chair-epstein-on-mrta-legalization-and-the-illegal-cannabis-market-undermining-legal-sellers",
+      "start_sec": 49.9,
+      "summary": "Epstein discusses the 2019-2020 Albany effort to legalize cannabis through the MRTA and how the illegal market undermines the legal market, making enforcement tools essential.",
+      "title": "Chair Epstein on MRTA legalization and the illegal cannabis market undermining legal sellers",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 49.9,
+          "text": "You know, we worked really hard in Albany in 2019-20 to legalize through the MRTA."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 55.9,
+          "text": "The illegal market really undermines the legal market and ensuring that if the opportunity of someone's engaging in illegal behavior, we can shut it down."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 65.8,
+          "text": "That's a really good opportunity."
+        }
+      ]
+    },
+    {
+      "end_sec": 75.6,
+      "id": "006",
+      "slug": "chair-epstein-cites-june-hearing-findings-on-rampant-unlawful-cannabis-sales",
+      "start_sec": 67.7,
+      "summary": "Epstein references a June hearing where the committee heard that unlawful cannabis sales remain rampant across the city, and that this bill attempts to address that problem.",
+      "title": "Chair Epstein cites June hearing findings on rampant unlawful cannabis sales",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 67.7,
+          "text": "At a hearing in June, we heard unlawful cannabis sales remain rampant in the city."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 72.3,
+          "text": "You know, this bill really attempts to reflect that change."
+        }
+      ]
+    },
+    {
+      "end_sec": 85.9,
+      "id": "007",
+      "slug": "chair-epstein-cites-2025-seizure-statistics-4-000-lbs-and-20m-in-unlicensed-cannabis",
+      "start_sec": 75.6,
+      "summary": "Epstein shares that in 2025 alone, nearly 4,000 pounds of unlicensed cannabis products were seized, worth over $20 million, underscoring the scale of the illegal market.",
+      "title": "Chair Epstein cites 2025 seizure statistics: 4,000 lbs and $20M in unlicensed cannabis",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 75.6,
+          "text": "2025 alone, over almost 4,000 pounds of unlicensed products were seized, worth over $20 million."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 82.6,
+          "text": "This bill hopes to rectify that problem in one small way."
+        }
+      ]
+    },
+    {
+      "end_sec": 91.0,
+      "id": "008",
+      "slug": "chair-epstein-thanks-colleagues-and-requests-roll-call-vote",
+      "start_sec": 85.9,
+      "summary": "Epstein thanks his colleagues for attending and asks the committee clerk to call the roll for the vote on Intro 813A.",
+      "title": "Chair Epstein thanks colleagues and requests roll call vote",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 85.9,
+          "text": "I want to thank my colleagues for being here."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 88.2,
+          "text": "I ask the clerk to call the roll."
+        }
+      ]
+    },
+    {
+      "end_sec": 153.228,
+      "id": "009",
+      "slug": "roll-call-vote-on-intro-813a",
+      "start_sec": 91.0,
+      "summary": "Committee Clerk Matthew DiStefano calls the roll. Epstein, Brewer, De La Rosa, Hanks, Krishnan, Oss\u00e9, Schulman, Banks, Aldebol, Wilson, and Ariola vote, with Banks offering congratulations to the Chair.",
+      "title": "Roll call vote on Intro 813A",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Matthew Distefano",
+          "t_sec": 91.0,
+          "text": "Matthew DiStefano, Committee Clerk, Committee on Consumer and Worker Protection."
+        },
+        {
+          "speaker": "Matthew Distefano",
+          "t_sec": 95.6,
+          "text": "Roll call vote on proposed intro 813A."
+        },
+        {
+          "speaker": "Matthew Distefano",
+          "t_sec": 99.8,
+          "text": "Chair Epstein."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 101.5,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Matthew Distefano",
+          "t_sec": 103.4,
+          "text": "Brewer."
+        },
+        {
+          "speaker": "Matthew Distefano",
+          "t_sec": 106.4,
+          "text": "De La Rosa."
+        },
+        {
+          "speaker": "Matthew Distefano",
+          "t_sec": 110.3,
+          "text": "Hanks."
+        },
+        {
+          "speaker": "Matthew Distefano",
+          "t_sec": 115.3,
+          "text": "Vote aye."
+        },
+        {
+          "speaker": "Matthew Distefano",
+          "t_sec": 117.4,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Matthew Distefano",
+          "t_sec": 120.2,
+          "text": "Krishnan."
+        },
+        {
+          "speaker": "Matthew Distefano",
+          "t_sec": 123.928,
+          "text": "Oh, say."
+        },
+        {
+          "speaker": "Chi A. Oss\u00e9",
+          "t_sec": 125.728,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Matthew Distefano",
+          "t_sec": 128.328,
+          "text": "Showman."
+        },
+        {
+          "speaker": "Matthew Distefano",
+          "t_sec": 132.728,
+          "text": "Banks."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 135.828,
+          "text": "Aye, and congratulations, Chair."
+        },
+        {
+          "speaker": "Matthew Distefano",
+          "t_sec": 139.628,
+          "text": "El de Bol."
+        },
+        {
+          "speaker": "Matthew Distefano",
+          "t_sec": 147.028,
+          "text": "Wilson."
+        },
+        {
+          "speaker": "Matthew Distefano",
+          "t_sec": 150.328,
+          "text": "Ariola."
+        },
+        {
+          "speaker": "Matthew Distefano",
+          "t_sec": 151.828,
+          "text": "I vote aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 159.928,
+      "id": "010",
+      "slug": "vote-outcome-8-0-intro-813a-adopted",
+      "start_sec": 153.228,
+      "summary": "Clerk announces the vote result: eight in the affirmative, zero in the negative, no abstentions. The item is adopted.",
+      "title": "Vote outcome: 8-0, Intro 813A adopted",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Matthew Distefano",
+          "t_sec": 153.228,
+          "text": "By a vote of eight in the affirmative, zero in the negative, and no abstentions, the item has been adopted."
+        }
+      ]
+    },
+    {
+      "end_sec": 213.828,
+      "id": "011",
+      "slug": "chair-epstein-thanks-members-and-holds-vote-open-for-late-arrivals",
+      "start_sec": 159.928,
+      "summary": "Epstein thanks everyone for their patience, notes the committee will hold the vote open for a few minutes in case additional members arrive, and acknowledges members have other hearings and commitments.",
+      "title": "Chair Epstein thanks members and holds vote open for late arrivals",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 159.928,
+          "text": "Thank you, everyone."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 160.528,
+          "text": "Appreciate everyone's patience today."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 163.728,
+          "text": "And we're going to hold it open for a few minutes."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 166.628,
+          "text": "Everyone can leave, right?"
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 170.428,
+          "text": "We're going to hold it open just to see if someone else gets here to vote."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 174.128,
+          "text": "I know we all have other hearings and commitments this morning, so thank you, everyone."
+        }
+      ]
+    },
+    {
+      "end_sec": 224.299,
+      "id": "012",
+      "slug": "committee-hearing-adjourned",
+      "start_sec": 213.828,
+      "summary": "Chair Epstein adjourns the committee hearing after holding the vote open for late-arriving members.",
+      "title": "Committee hearing adjourned",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 213.828,
+          "text": "This committee hearing is now adjourned."
+        }
+      ]
+    }
+  ],
+  "date": "2026-09-09",
+  "duration_sec": 224.299,
+  "slug": "2026-09-09-0930-am-committee-on-consumer-and-worker-protection",
+  "summary": [
+    "The Committee on Consumer and Worker Protection, chaired by Harvey Epstein, held a vote on Intro 813A, which grants DCWP authority to refuse, suspend, or revoke tobacco and e-cigarette retail licenses for dealers found illegally selling cannabis.",
+    "Chair Epstein cited the MRTA legalization effort, a June hearing on rampant unlawful cannabis sales, and 2025 seizure data (4,000 lbs, $20M) as context for the bill.",
+    "The committee passed Intro 813A by a vote of 8-0 with no abstentions, and the hearing was adjourned after holding the vote open briefly for late-arriving members."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "9:30 AM",
+  "title": "Committee on Consumer and Worker Protection",
+  "topic": "Refusing renew, suspending, or revoking a license of a tobacco retail dealer or an electronic cigarette retail dealer that has violated certain authorization requirements of the cannabis law",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-PV-CH-COM_260909-100403/video-web.mp4"
+  }
+}
