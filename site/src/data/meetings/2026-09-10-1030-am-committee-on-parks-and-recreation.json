@@ -1,0 +1,303 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 26.0,
+      "id": "001",
+      "slug": "staff-opens-hearing-and-reminds-audience-to-silence-devices",
+      "start_sec": 8.0,
+      "summary": "Council staff welcomes attendees to the Committee on Parks and Recreation hearing, asks everyone to silence electronic devices, and reminds them not to approach the dais. Chair Hankerson is signaled that the hearing is ready to begin.",
+      "title": "Staff opens hearing and reminds audience to silence devices",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 8.2,
+          "text": "I'm going to start."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 13.9,
+          "text": "Good morning and welcome to today's New York City Council vote from the Committee on Parks and Recreation."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 19.4,
+          "text": "At this point, I'd like to remind everyone to please silence their electronic devices and at no point is anyone to approach the dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 24.8,
+          "text": "Chair, we're ready to begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 45.0,
+      "id": "002",
+      "slug": "chair-hankerson-introduces-himself-and-the-hearing",
+      "start_sec": 26.0,
+      "summary": "Chair Ty Hankerson welcomes everyone to the Committee on Parks and Recreation hearing, noting the committee will vote on two pre-considered ceremonial co-naming bills.",
+      "title": "Chair Hankerson introduces himself and the hearing",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 26.5,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 27.0,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 28.1,
+          "text": "I am Ty Hankerson, Chair of the Committee on Parks and Recreation, and I'd like to welcome all of you to this hearing of..."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 36.0,
+          "text": "This hearing of the Committee on Parks and Recreation, where we will vote on two pre-considered, of and for ceremonial co-naming bills."
+        }
+      ]
+    },
+    {
+      "end_sec": 61.0,
+      "id": "003",
+      "slug": "overview-of-two-pre-considered-co-naming-bills",
+      "start_sec": 45.0,
+      "summary": "Chair Hankerson explains the hearing covers two pre-considered bills for ceremonial co-naming of thoroughfares and public places, timed as the city commemorates the 25th year since 9/11.",
+      "title": "Overview of two pre-considered co-naming bills",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 45.9,
+          "text": "As we commemorate the 25th year since the events of 9-11, the first pre-considered bill will ceremonially co-name 26th Street Affairs and Public Places that celebrate the heroic work of various firehouses and first responders on that day."
+        }
+      ]
+    },
+    {
+      "end_sec": 71.0,
+      "id": "004",
+      "slug": "first-bill-26-9-11-first-responder-and-firehouse-co-namings",
+      "start_sec": 61.0,
+      "summary": "Hankerson describes the first pre-considered bill, which ceremonially co-names 26 thoroughfares and public places celebrating the heroic work of firehouses and first responders on 9/11.",
+      "title": "First bill: 26 9/11 first responder and firehouse co-namings",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 61.3,
+          "text": "It would also commemorate the many memorials and acts of commemoration that have arisen through the work of different communities throughout the city over the years."
+        }
+      ]
+    },
+    {
+      "end_sec": 79.0,
+      "id": "005",
+      "slug": "first-bill-community-9-11-memorials-and-acts-of-commemoration",
+      "start_sec": 71.0,
+      "summary": "Hankerson notes the bill also commemorates the many memorials and acts of commemoration that have arisen through the work of different communities across the city over the years.",
+      "title": "First bill: community 9/11 memorials and acts of commemoration",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 71.2,
+          "text": "The second pre-considered bill would supplement the recent co-naming bill we passed in June, the co-naming of seven thoroughfares and public places."
+        }
+      ]
+    },
+    {
+      "end_sec": 86.0,
+      "id": "006",
+      "slug": "second-bill-7-co-namings-supplementing-june-legislation",
+      "start_sec": 79.0,
+      "summary": "Hankerson explains the second pre-considered bill supplements a co-naming bill passed in June, adding seven thoroughfares and public places including Champion's Way.",
+      "title": "Second bill: 7 co-namings supplementing June legislation",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 79.6,
+          "text": "Including Champions Way, which honors our 2026 NBA champion, Knicks."
+        }
+      ]
+    },
+    {
+      "end_sec": 87.0,
+      "id": "007",
+      "slug": "champion-s-way-honors-2026-nba-champion-knicks",
+      "start_sec": 86.0,
+      "summary": "Hankerson highlights that Champion's Way honors the 2026 NBA champion Knicks, adding a celebratory 'Go Knicks' remark.",
+      "title": "Champion's Way honors 2026 NBA champion Knicks",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 86.1,
+          "text": "Go Knicks."
+        }
+      ]
+    },
+    {
+      "end_sec": 92.0,
+      "id": "008",
+      "slug": "technical-corrections-to-previous-co-namings",
+      "start_sec": 87.0,
+      "summary": "Hankerson notes the second bill also makes small technical corrections to a few previous co-naming designations.",
+      "title": "Technical corrections to previous co-namings",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 87.0,
+          "text": "It would also make some small technical"
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 90.0,
+          "text": "corrections to a few previous co-namings."
+        }
+      ]
+    },
+    {
+      "end_sec": 103.0,
+      "id": "009",
+      "slug": "chair-urges-colleagues-to-vote-in-favor-of-both-bills",
+      "start_sec": 92.0,
+      "summary": "Hankerson congratulates colleagues who proposed the legislation and urges all committee members to vote in favor, then turns the floor to the clerk to call the roll.",
+      "title": "Chair urges colleagues to vote in favor of both bills",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 92.5,
+          "text": "I'd like to congratulate my colleagues who have proposed these pieces of legislation and I urge all of my colleagues on the committee to vote in favor of the legislation before us."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 101.2,
+          "text": "Thank you again and welcome."
+        }
+      ]
+    },
+    {
+      "end_sec": 116.0,
+      "id": "010",
+      "slug": "clerk-begins-roll-call-vote",
+      "start_sec": 103.0,
+      "summary": "The clerk is called to begin the roll call vote on the two pre-considered co-naming bills before the committee.",
+      "title": "Clerk begins roll call vote",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 103.8,
+          "text": "And I'll turn it over to the clerk to call the roll."
+        }
+      ]
+    },
+    {
+      "end_sec": 156.0,
+      "id": "011",
+      "slug": "committee-members-vote-aye-on-co-naming-bills",
+      "start_sec": 116.0,
+      "summary": "Committee members including Chair Hankerson vote aye during the roll call, with all recorded votes in favor of the legislation.",
+      "title": "Committee members vote aye on co-naming bills",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 116.5,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 121.0,
+          "text": "Aye."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 128.8,
+          "text": "How about I?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 131.8,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 144.3,
+          "text": "I."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 147.6,
+          "text": "Aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 167.0,
+      "id": "012",
+      "slug": "committee-on-parks-and-recreation-charged-and-vote-concluded",
+      "start_sec": 156.0,
+      "summary": "Hankerson announces that the Committee on Parks and Recreation is now charged as of September 10th, concluding the vote on the two co-naming bills.",
+      "title": "Committee on Parks and Recreation charged and vote concluded",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 156.5,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 156.9,
+          "text": "Given that, the Committee on Parks and Recreation, November, September 10th, is now charged."
+        }
+      ]
+    },
+    {
+      "end_sec": 174.336,
+      "id": "013",
+      "slug": "chair-s-brief-closing-remark",
+      "start_sec": 167.0,
+      "summary": "Hankerson makes a brief closing remark, noting uncertainty about what is happening with the schedule today.",
+      "title": "Chair's brief closing remark",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 167.7,
+          "text": "I don't know what's happening today."
+        }
+      ]
+    }
+  ],
+  "date": "2026-09-10",
+  "duration_sec": 174.336,
+  "slug": "2026-09-10-1030-am-committee-on-parks-and-recreation",
+  "summary": [
+    "The Committee on Parks and Recreation held a hearing on September 10, 2026, to vote on two pre-considered ceremonial co-naming bills.",
+    "The first bill co-names 26 thoroughfares and public places honoring 9/11 first responders, firehouses, and community memorials marking the 25th anniversary of 9/11.",
+    "The second bill supplements June co-naming legislation with seven additional designations, including Champion's Way for the 2026 NBA champion Knicks, plus technical corrections to prior co-namings.",
+    "All committee members voted aye, and the committee was charged."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "10:30 AM",
+  "title": "Committee on Parks and Recreation",
+  "topic": "The naming of 26 thoroughfares and public places",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-1_260910-105040/video-web.mp4"
+  }
+}

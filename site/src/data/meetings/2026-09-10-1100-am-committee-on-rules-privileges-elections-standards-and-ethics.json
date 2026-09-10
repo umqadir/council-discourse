@@ -1,0 +1,1083 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 19.3,
+      "id": "001",
+      "slug": "staff-opens-meeting-and-gives-housekeeping-instructions",
+      "start_sec": 4.7,
+      "summary": "Council staff welcomes attendees to the Committee on Rules, Privileges, Elections, Standards, and Ethics vote meeting, asks everyone to silence electronics and not approach the dais.",
+      "title": "Staff opens meeting and gives housekeeping instructions",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 4.7,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 5.4,
+          "text": "Welcome to the committee vote on rules, privileges, elections, standards, and ethics."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 9.9,
+          "text": "At this time, we ask that you please silence all electronics, and please do not approach the dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 15.2,
+          "text": "Chair, you may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 58.3,
+      "id": "002",
+      "slug": "chair-ung-introduces-committee-members-and-staff",
+      "start_sec": 19.3,
+      "summary": "Chair Sandra Ung opens the meeting, introduces herself, and recognizes the committee members present including Krishnan, Lee, Banks, Williams, Carr (remote), and Abreu, as well as committee staff.",
+      "title": "Chair Ung introduces committee members and staff",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 19.3,
+          "text": "Good morning and welcome to this meeting of the Committee on Rules, Privileges, Elections, Standards, and Ethics."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 25.2,
+          "text": "I'm Councilmember Sandra Ung, Chair of the Committee."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 27.9,
+          "text": "Before we begin, I would like to recognize the other members of this committee who are present."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 32.3,
+          "text": "Councilmember Krishnan, Councilmember Lee, Councilmember Conor Sion, Councilmember Banks, and Deputy Speaker Natasha Williams, Minority Leader David Carr is on remote, and Majority Leader Shaun-Abreu."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 43.7,
+          "text": "I'd also like to acknowledge the Council to the Committee, Amanda DeGracio, and the committee staff that worked on today's hearing, Chief of the Council and Director of Public Integrity Unit, Pearl Moore, and Deputy Director of Public Integrity, Alicia Vassell."
+        }
+      ]
+    },
+    {
+      "end_sec": 126.7,
+      "id": "003",
+      "slug": "chair-ung-summarizes-three-mayoral-appointment-items-for-vote",
+      "start_sec": 58.3,
+      "summary": "Chair Ung outlines the three items being voted on: M-87 for Lisa Garcia to the NYC Land Bank, M-88 for Dr. Dave Chokshi to the Board of Health, and M-89 for John Mangin as chair of the Board of Standards and Appeals, all previously heard on September 1st.",
+      "title": "Chair Ung summarizes three mayoral appointment items for vote",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 58.3,
+          "text": "Today, we are voting on three items that this committee heard on September 1st, 2026."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 63.3,
+          "text": "We are voting on a resolution to approve M-87, Mayor Zerwa Madani's request pursuant to Local Law 56 of 2026 for the Council's advice and consent regarding the appointment of Commissioner Lisa Garcia"
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 76.8,
+          "text": "to serve as a member of the New York City Land Bank for a term of four years that will expire September 9, 2030."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 83.8,
+          "text": "We are also voting a resolution to approve M88, the mayor's request pursuant to Section 31."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 90.2,
+          "text": "of the New York City Charter for the Council's advice and consent regarding the appointment of Dr."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 95.0,
+          "text": "Dave Chokshi to serve as a member of the New York City Board of Health for the remainder of the six-year term that will expire on May 31, 2030."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 102.6,
+          "text": "And lastly, we have only a resolution to approve M89, the mayor's request, also pursuant to Section 31 of the New York City Charter for the appointment of John Manchin to serve on the New York City"
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 114.2,
+          "text": "Board of Standards Appeals for the remainder of the six-year term that will expire on October 6, 2027."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 121.3,
+          "text": "The mayor has indicated his intent to designate Mr."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 124.3,
+          "text": "Manchin as the chair of the board."
+        }
+      ]
+    },
+    {
+      "end_sec": 152.9,
+      "id": "004",
+      "slug": "roll-call-vote-begins-on-all-three-coupled-items",
+      "start_sec": 126.7,
+      "summary": "Chair Ung calls for the roll call. Clerk William Martin begins calling the roll with items coupled, recording votes from Chair Ung and other members as they respond.",
+      "title": "Roll call vote begins on all three coupled items",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 126.7,
+          "text": "Clerk."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 129.0,
+          "text": "Please, oh, sorry."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 130.1,
+          "text": "Please call the roll."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 132.7,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 133.1,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 133.5,
+          "text": "William Martin, Committee Clerk, Roll Call Vote Committee on Rules, Privileges, Elections, Standards, and Ethics."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 138.7,
+          "text": "Items are coupled."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 140.5,
+          "text": "Chair, on."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 142.5,
+          "text": "I vote aye or no."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 144.7,
+          "text": "Riley."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 147.7,
+          "text": "Abreu."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 148.6,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 150.8,
+          "text": "Krishnan."
+        }
+      ]
+    },
+    {
+      "end_sec": 331.268,
+      "id": "005",
+      "slug": "cm-williams-explains-her-aye-vote-on-mangin-citing-neighborhood-character-and-bsa-engagement-com",
+      "start_sec": 152.9,
+      "summary": "Deputy Speaker Nantasha Williams explains her aye vote on John Mangin's nomination as BSA chair, discussing her concerns about his writings on homeowners and neighborhood character, his commitments to proactive community engagement, and how her Jamaica Neighborhood Plan reflects balancing housing growth with protecting existing communities.",
+      "title": "CM Williams explains her aye vote on Mangin, citing neighborhood character and BSA engagement commitments",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 152.9,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 155.0,
+          "text": "Lee."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 156.9,
+          "text": "Abstain."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 161.268,
+          "text": "Williams."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 165.068,
+          "text": "Permission to explain my vote."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 169.968,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 170.968,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 172.068,
+          "text": "I will be voting aye in favor of John Mangin's nomination to serve as chair of the Board of Standards and Appeals."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 177.468,
+          "text": "I approached this nomination with serious questions regarding Mr."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 180.568,
+          "text": "Mangin's previous writings on homeowners, neighborhood opposition to development, whether or not there should be certain community and council member inclusion, and the role that neighborhood characters should play in land use decisions."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 193.568,
+          "text": "I appreciate the additional context clarifications he provided regarding those writings, as well as the thoughtful responses he offered during this process."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 201.768,
+          "text": "As someone who represents communities of generations of working and middle class Black homeowners,"
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 207.468,
+          "text": "I believe our housing conversation must recognize that homeowners of color do not always fit neatly into the narratives often used in broader debates around development."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 217.868,
+          "text": "Preserving neighborhood character and protecting longstanding homeowners does not have to be at odds with building more housing."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 224.368,
+          "text": "My own work on the Jamaican Neighborhood Plan reflects that balance."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 227.868,
+          "text": "I have supported a major pro-housing neighborhood plan that would create thousands of new homes while fighting for the infrastructure,"
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 234.468,
+          "text": "affordability, public realm investments, and community protections necessary to ensure growth benefits the people who already call our neighborhoods home."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 243.868,
+          "text": "I was encouraged by Mr."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 244.868,
+          "text": "Mangin's recognition that neighborhood character is contextual."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 248.168,
+          "text": "and that areas consisting predominantly of one- and two-family homes may warrant a different analysis than neighborhoods with significantly different built forms."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 257.368,
+          "text": "I also appreciate his commitment to changing how the BSA engages with communities."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 261.968,
+          "text": "Mr."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 262.368,
+          "text": "Mangin has committed to proactively engaging council members on significant applications in their district, establishing points of contact with council offices, and seeking input from community stakeholders rather than simply waiting for concerns to reach the BSA."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 277.868,
+          "text": "He also proposed beginning public education and training for council offices, community boards, faith-based organizations, and other constituencies within his first six months."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 287.668,
+          "text": "That type of proactive engagement does not sufficiently exist today, and I believe it can make the BSA more transparent, accessible, and responsive to the communities affected by its decisions."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 298.968,
+          "text": "My vote today is therefore not an endorsement of every single position Mr."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 302.768,
+          "text": "Manchin has taken throughout his career."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 304.768,
+          "text": "It reflects the totality of this process, the context he has provided, and the commitments he has made about how he intends to lead the BSA."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 314.468,
+          "text": "I intend to hold him to those commitments and look forward to working with him to ensure that we can build the housing New York City desperately needs while respecting the distinct histories, homeowners, and the character of our neighborhoods."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 328.168,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 328.868,
+          "text": "And again, I vote aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 330.868,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 346.468,
+      "id": "006",
+      "slug": "cm-lee-clarifies-her-split-votes-yes-on-garcia-and-chokshi-abstain-on-mangin",
+      "start_sec": 331.268,
+      "summary": "Council Member Linda Lee clarifies that she votes yes on Garcia and Chokshi but abstains on Mangin, correcting her earlier abstain vote.",
+      "title": "CM Lee clarifies her split votes: yes on Garcia and Chokshi, abstain on Mangin",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 331.268,
+          "text": "Councilmember Lee?"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 334.368,
+          "text": "Sorry, I wanted to clarify."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 335.468,
+          "text": "So I vote yes on Garcia and Chokshi."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 338.268,
+          "text": "And abstain on Manchin."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 339.868,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 341.068,
+          "text": "Councilmember Riley?"
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 343.368,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 344.468,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 497.368,
+      "id": "007",
+      "slug": "cm-banks-on-advice-and-consent-process-and-concerns-about-mangin-s-role-in-city-of-yes-agenda",
+      "start_sec": 346.468,
+      "summary": "Council Member Chris Banks explains his abstention on Mangin, discussing the importance of the advice and consent power, Mangin's role in advancing City of Yes and ballot proposals that altered the Council's land use role, and arguing the Council was already pro-housing before those changes.",
+      "title": "CM Banks on advice and consent process and concerns about Mangin's role in City of Yes agenda",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 346.468,
+          "text": "Banks."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 348.268,
+          "text": "Permission to explain my vote?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 350.268,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 351.568,
+          "text": "Thank you, Madam Chair."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 354.168,
+          "text": "You know, advice and consent matters, and I take that very serious."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 361.568,
+          "text": "And that power was given to us by the charter of the New York City."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 366.168,
+          "text": "And it matters when we execute it and how we execute it."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 371.568,
+          "text": "So as we consider the nomination of John Madgen, I believe we must look beyond his professional qualifications and consider the decisions and priorities and governing philosophy that have shaped his work in city government."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 387.468,
+          "text": "My concern is not based on one policy disagreement."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 392.368,
+          "text": "It is rooted in an approach to land use that appears to prioritize efficiency and centralized decision making over public participation, local accountability,"
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 405.168,
+          "text": "and the institutional role of the city council."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 408.068,
+          "text": "Mr."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 408.268,
+          "text": "Madgen played a significant role in advancing the City of Yes agenda and developing housing-related ballot proposals that altered the Council's role in certain land use decisions,"
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 420.268,
+          "text": "while expanding the authority of appointed bodies."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 427.268,
+          "text": "But although vote."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 428.268,
+          "text": "pass those ballot questions during the prior council session, their efforts, their effects will influence the institution for years to come."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 439.168,
+          "text": "These changes were not necessary to make the council pro-housing."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 443.768,
+          "text": "Before the ballot initiatives, the council approved approximately 94% of ULIP applications."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 450.168,
+          "text": "We've also continued exploring creative housing opportunities."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 454.668,
+          "text": "Speaker Menendez's New Libraries, New Homes Initiative, for example, would modernize public libraries while creating hundreds of 100% affordable housings above library sites."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 467.268,
+          "text": "You know, our housing agenda also create meaningful pathways to home ownership."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 472.568,
+          "text": "Building more housing is essential."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 475.368,
+          "text": "But so is giving New Yorkers at every income level, especially black and brown New Yorkers who have historically faced barriers to ownership, the opportunity to build generational wealth"
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 488.768,
+          "text": "and own a piece of the city they call home."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 493.168,
+          "text": "The council has been pro-housing and remains committed to building."
+        }
+      ]
+    },
+    {
+      "end_sec": 735.368,
+      "id": "008",
+      "slug": "cm-banks-on-community-engagement-member-deference-and-protecting-council-s-institutional-authori",
+      "start_sec": 497.368,
+      "summary": "Banks continues his remarks, focusing on reservations about Mangin's perspective on community engagement and community boards, the importance of member deference for negotiating affordability and benefits, and the need to protect the Council as an institution for future members. He announces he will abstain on Mangin and support the other two nominees.",
+      "title": "CM Banks on community engagement, member deference, and protecting Council's institutional authority",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 497.368,
+          "text": "So the disagreement is not about whether we should build, but how we build, who participates, and whether communities are treated as genuine partners."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 509.568,
+          "text": "That is why I have reservations about Mr."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 513.068,
+          "text": "Madgen's perspective on community engagement and the role of community board."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 518.768,
+          "text": "These voices should not be treated as procedural obstacles or discounted when their participation requires a project to be reconsidered or improved."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 531.468,
+          "text": "Community boards, tenant leaders, community organizers, neighborhood organizations provide lived experience and local knowledge that cannot be fully captured in a planning document."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 544.168,
+          "text": "Member deference is not absolute, nor should it be used simply to prevent needed housing."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 550.668,
+          "text": "However, it gives the elected representative of an affected community an opportunity to negotiate for greater affordability, meaningful community benefits, and project improvements."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 564.968,
+          "text": "That is not obstruction."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 567.168,
+          "text": "It is representative government."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 571.368,
+          "text": "That principle of meaningful participation should also guide the advice and consent process."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 577.268,
+          "text": "The mayor has the authority to nominate."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 579.868,
+          "text": "But the council has the co-equal, as a co-equal branch of government, has the responsibility to independently evaluate that nominee and advise the mayor accordingly."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 591.768,
+          "text": "Meaningful advice and consent should extend beyond a formal hearing."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 595.968,
+          "text": "The executive branch should come before the council, present its nominee, listen to the concerns of the members, engage in direct one-on-one conversations before asking the body for its consent."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 607.968,
+          "text": "Productive relationship between the executive and the council requires consistent communication, mutual respect, genuine engagement, and particularly when a nominee"
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 618.368,
+          "text": "may not be significantly influenced, may significantly influence land use decisions across the city."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 626.068,
+          "text": "This is important."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 627.768,
+          "text": "This domination therefore raises larger questions about our responsibility to the council itself."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 634.968,
+          "text": "What are we leaving behind for the next council members?"
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 638.268,
+          "text": "Each of us should want to leave behind an institution that is stronger, more independent, and better equipped to represent New Yorkers, protecting the council."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 649.068,
+          "text": "Does not mean opposing every mayoral initiative or nominee."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 654.268,
+          "text": "It means recognizing when our authority or our ability to advocate for our communities may be diminished."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 661.968,
+          "text": "Although I'm abstaining today, I hope these remarks serve as a reminder to this body."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 669.168,
+          "text": "If we support nominees whose governing philosophies minimize the council's role or the value of community participation, we risk weakening the institution we were elected to serve."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 684.068,
+          "text": "While I respect Mr."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 685.268,
+          "text": "Madgen's public service and acknowledge his qualifications, I continue to have serious reservations about what his record could mean for community participation, local oversight, and the balance."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 698.168,
+          "text": "of authority in land use decisions."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 701.268,
+          "text": "And for those reasons, I will be abstaining on this nomination and I'll be actually affirming, supporting the other two nominees."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 713.568,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 713.868,
+          "text": "Thank you, Madam Chair."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 719.868,
+          "text": "Encarnaci\u00f3n."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 723.068,
+          "text": "I vote aye or no."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 726.668,
+          "text": "Car."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 733.768,
+          "text": "Following results."
+        }
+      ]
+    },
+    {
+      "end_sec": 798.068,
+      "id": "009",
+      "slug": "cm-carr-explains-support-for-garcia-to-land-bank-despite-concerns-about-land-bank-itself",
+      "start_sec": 735.368,
+      "summary": "Minority Leader David Carr explains his votes, starting with support for Commissioner Lisa Garcia's appointment to the Land Bank despite his opposition to the land bank's creation, noting her qualifications as DEP Commissioner given the agency's role in placing liens.",
+      "title": "CM Carr explains support for Garcia to Land Bank despite concerns about land bank itself",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 735.368,
+          "text": "Permission to explain my vote?"
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 737.668,
+          "text": "Yes."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 739.768,
+          "text": "Thank you, Chair Rung."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 742.068,
+          "text": "Good morning, colleagues."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 743.568,
+          "text": "I'm going to be talking to all three nominees this morning."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 746.668,
+          "text": "They're all very important to the future of the city."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 749.668,
+          "text": "And I'll start with Commissioner Garcia's appointment to the land bank."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 753.868,
+          "text": "I was among the several members who voted against the creation of the land bank last term."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 759.168,
+          "text": "And even though I'm an absolute opponent of the lien sale system that it seeks to reform and replace, I have grave concerns still about its mission and purpose and how it will actually operate in practice."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 772.468,
+          "text": "That being said, I do think the Commissioner of Environmental Protection is very qualified to serve on it, and any person in that capacity probably should serve on the land bank, given that the agency they lead"
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 784.668,
+          "text": "has such an important role in placing of liens on private home."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 788.168,
+          "text": "that could eventually lead to a property coming under the purview of the land bank."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 794.668,
+          "text": "So I'll be supporting Commissioner Garcia's appointment."
+        }
+      ]
+    },
+    {
+      "end_sec": 866.968,
+      "id": "010",
+      "slug": "cm-carr-opposes-chokshi-for-board-of-health-citing-vaccine-mandate-record",
+      "start_sec": 798.068,
+      "summary": "Carr opposes Dr. Chokshi's appointment to the Board of Health, calling him a leading architect of the city employee vaccine mandate that caused workers to lose their livelihoods, and arguing his stance that the mandate saved lives sets a dangerous precedent for public health mandates on the Board.",
+      "title": "CM Carr opposes Chokshi for Board of Health, citing vaccine mandate record",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 798.068,
+          "text": "Unfortunately, I cannot say the same for the other two."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 801.268,
+          "text": "Dr."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 801.668,
+          "text": "Chokshi is one of the leading architects of the city employee mandate system."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 808.768,
+          "text": "That caused so many city workers to not only lose their livelihoods, but the careers to which they were passionately attached."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 815.368,
+          "text": "And based on his testimony at the hearing we held earlier this month, he remains steadfast in support of that decision, one that simply isn't supported by the science, despite the fact that"
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 828.768,
+          "text": "It's clear that the vaccine mandate did not do anything to stop the spread."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 833.168,
+          "text": "He still maintains that it was the right decision because of the lives that it saved."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 839.068,
+          "text": "This is a dangerous precedent for a person to serve on the Board of Health to have because essentially what he's saying is that any public health mandate that could be"
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 849.068,
+          "text": "life-saving or health-saving to the individual is justified."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 853.668,
+          "text": "Public health mandates are only justified when you seek to protect others from the health care decisions made by or not made by other individuals."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 861.968,
+          "text": "So I think this is not a position of someone who should be on the Board of Health."
+        }
+      ]
+    },
+    {
+      "end_sec": 1005.068,
+      "id": "011",
+      "slug": "cm-carr-opposes-mangin-for-bsa-chair-citing-erosion-of-council-land-use-powers-and-anti-communit",
+      "start_sec": 866.968,
+      "summary": "Carr opposes John Mangin's nomination as BSA chair, criticizing his role in ballot referenda to fast-track housing by removing the Council from land use, his derision of homeowners as cartels, and his dismissal of community benefits agreements. Carr states he will not consent to giving Mangin broad land use powers, voting yes on Garcia and no on the other two.",
+      "title": "CM Carr opposes Mangin for BSA chair, citing erosion of Council land use powers and anti-community rhetoric",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 866.968,
+          "text": "And finally, we come to Mr."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 868.168,
+          "text": "Mangin and his appointment to be chair of the New York City Board of Standards and Appeals."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 872.168,
+          "text": "It's the reason most of us are really here today to speak."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 875.368,
+          "text": "And we're here as members."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 878.368,
+          "text": "Because the voters of our district have entrusted us to make decisions on their behalf and to represent their best interests."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 884.768,
+          "text": "But in recent years, we have witnessed our powers both individually and as an institution erode and consolidated into what is already a strong mayor system."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 895.268,
+          "text": "And that includes our ability to negotiate land use projects in our communities."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 899.268,
+          "text": "In my nearly two decades serving the city as first a staffer and then a member of this body, I can count on one hand the number of times this council did not approve a housing project that came before it."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 909.768,
+          "text": "Yet somehow many are convinced that we're a NIMBY institution and that we're the reason the city isn't building enough housing."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 916.868,
+          "text": "That couldn't be further from the truth."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 918.768,
+          "text": "So John Mangin, perhaps working with others at City Planning and the former Mayor's Charter Revision Commission, came up with a ballot referenda to fast-track affordable housing by removing the council from the land use process altogether."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 932.468,
+          "text": "Despite the fact that the council is legally required to review and vote on land use projects within 50 days, while the administration side, the bureaucratic process, can take an average of more than three years."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 943.468,
+          "text": "Mr."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 943.768,
+          "text": "Mangin is the same person who has derided homeowners as cartels, comparing community meetings to gather local input on projects to Tea Party protests."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 952.168,
+          "text": "And it said community benefits agreements, which have helped bring billions of dollars in infrastructure and add tens of thousands of new housing units to our city, are actually, quote, efforts to prevent particular developments, end quote."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 963.068,
+          "text": "And now he's here before us as a body asking for our approval to chair a panel that will give him a"
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 967.968,
+          "text": "broad range of powers on land use decisions in our districts to give him the voice that he took away from our constituents."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 974.968,
+          "text": "I've come to expect that the chair of the Board of Standards and Appeals will make decisions that I do not agree with and that are usually detrimental to the communities I represent, but I am not going to give someone my consent to make them."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 986.068,
+          "text": "And so therefore, I'll be voting yes."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 988.268,
+          "text": "On the appointment of Lisa Garcia to the land bank and no on the other two appointments before us today."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 993.568,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 1041.352,
+      "id": "012",
+      "slug": "clerk-announces-vote-results-for-all-three-nominees",
+      "start_sec": 1005.068,
+      "summary": "Clerk William Martin announces the final results: Lisa Garcia approved 9-0, Dr. Chokshi approved 8-1, and John Mangin approved 6-1 with two abstentions. All items are approved by the committee.",
+      "title": "Clerk announces vote results for all three nominees",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 1005.068,
+          "text": "Thank you, Council Member."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 1005.868,
+          "text": "Following results in relation to Lisa Garcia, we have nine in the affirmative, zero in the negative, no abstentions."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 1011.968,
+          "text": "In relation to Dave Chosky, we have eight in the affirmative, one in the negative, no abstentions."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 1017.368,
+          "text": "And to John Mangan, we have six in the affirmative, one in the negative, two abstentions."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 1021.768,
+          "text": "All items have been approved by the committee."
+        }
+      ]
+    },
+    {
+      "end_sec": 1049.045,
+      "id": "013",
+      "slug": "chair-ung-adjourns-the-meeting",
+      "start_sec": 1041.352,
+      "summary": "Chair Sandra Ung adjourns the meeting.",
+      "title": "Chair Ung adjourns the meeting",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 1041.352,
+          "text": "This meeting is hereby adjourned."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 1042.752,
+          "text": "Thank you."
+        }
+      ]
+    }
+  ],
+  "date": "2026-09-10",
+  "duration_sec": 1049.045,
+  "slug": "2026-09-10-1100-am-committee-on-rules-privileges-elections-standards-and-ethics",
+  "summary": [
+    "The Committee on Rules, Privileges, Elections, Standards, and Ethics voted on three mayoral appointments: Lisa Garcia to the NYC Land Bank, Dr. Dave Chokshi to the Board of Health, and John Mangin as chair of the Board of Standards and Appeals.",
+    "All three nominees were approved: Garcia 9-0, Chokshi 8-1 (Carr voting no), and Mangin 6-1 with two abstentions (Banks and Lee).",
+    "The Mangin nomination drew the most discussion, with members raising concerns about his role in diminishing Council land use authority and his stance on community engagement, while supporters cited his commitments to proactive community outreach as BSA chair."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE",
+    "LAND_USE"
+  ],
+  "time": "11:00 AM",
+  "title": "Committee on Rules, Privileges, Elections, Standards and Ethics",
+  "topic": "Lisa Garcia, Land Bank",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-3_260910-112230/video-web.mp4"
+  }
+}

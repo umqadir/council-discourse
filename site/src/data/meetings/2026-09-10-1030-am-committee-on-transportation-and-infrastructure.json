@@ -1,0 +1,443 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 23.7,
+      "id": "001",
+      "slug": "council-staff-housekeeping-and-call-to-order",
+      "start_sec": 8.2,
+      "summary": "Council staff welcomes attendees to the Transportation and Infrastructure committee vote, asks everyone to silence electronic devices, and reminds them not to approach the desk. The chair is then called to begin.",
+      "title": "Council staff housekeeping and call to order",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 8.2,
+          "text": "Good morning and welcome to New York City Council vote on transportation infrastructure."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 14.1,
+          "text": "At this time, we're asking to silence all electronic devices."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 18.3,
+          "text": "And at no point in time, you should approach your desk."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 20.6,
+          "text": "Chair, you may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 33.0,
+      "id": "002",
+      "slug": "chair-abreu-opens-hearing-and-introduces-himself",
+      "start_sec": 23.7,
+      "summary": "Councilmember Shaun Abreu, Majority Leader and Chair of the Committee on Transportation and Infrastructure, welcomes attendees to the hearing and introduces himself.",
+      "title": "Chair Abreu opens hearing and introduces himself",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 23.7,
+          "text": "Good morning and welcome to today's hearing of the New York City Council's Committee on Transportation and Infrastructure."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 29.5,
+          "text": "I am Councilmember Shaun Abreu, Majority Leader and Chair of this committee."
+        }
+      ]
+    },
+    {
+      "end_sec": 47.2,
+      "id": "003",
+      "slug": "chair-abreu-announces-intro-866a-for-committee-vote",
+      "start_sec": 33.0,
+      "summary": "Chair Abreu states the committee will vote on Proposed Intro No. 866A, sponsored by Councilmember Epstein, regarding posting notification signs for upcoming disruptive work.",
+      "title": "Chair Abreu announces Intro 866A for committee vote",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 33.0,
+          "text": "At today's hearing, the committee will vote on the following legislation."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 36.4,
+          "text": "Proposed Intro No."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 37.5,
+          "text": "A66A, sponsored by Councilmember Epstein, in relation to requiring the posting of notification signs regarding upcoming disruptive work."
+        }
+      ]
+    },
+    {
+      "end_sec": 58.4,
+      "id": "004",
+      "slug": "chair-abreu-explains-bill-purpose-informing-residents-of-disruptive-work",
+      "start_sec": 47.2,
+      "summary": "Abreu explains that the bill ensures residents and businesses are better informed about upcoming disruptive work while not impeding emergency or beneficial infrastructure projects.",
+      "title": "Chair Abreu explains bill purpose: informing residents of disruptive work",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 47.2,
+          "text": "This bill will help ensure that residents and businesses are better informed of upcoming disruptive work in their communities, while also not impeding emergency work and other beneficial infrastructure projects."
+        }
+      ]
+    },
+    {
+      "end_sec": 82.6,
+      "id": "005",
+      "slug": "chair-abreu-thanks-committee-staff",
+      "start_sec": 58.4,
+      "summary": "Abreu thanks his staff including Jaleesa Quigley (Deputy Chief of Staff and Director of Legislation and Budget), Jake Borey (senior advisor), Theo Miller and Sierra Townsend (counselors), and Kevin Katowski and John Bazile (senior policy analysts).",
+      "title": "Chair Abreu thanks committee staff",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 58.4,
+          "text": "Before we begin, I'd like to thank my staff and the committee staff for their hard work in preparing for today's hearing."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 63.4,
+          "text": "Jaleesa Quigley, my Deputy Chief of Staff and Director of Legislation and Budget."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 68.4,
+          "text": "Jake Borey, senior analyst."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 70.9,
+          "text": "Sorry, senior advisor."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 72.2,
+          "text": "Theo Miller and Sierra Townsend, counselors of the committee, and Kevin Katowski and John Bazile, senior policy analysts of the committee."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 77.8,
+          "text": "I will now read Councilmember Epstein's opening statement on his bill."
+        }
+      ]
+    },
+    {
+      "end_sec": 95.3,
+      "id": "006",
+      "slug": "epstein-s-statement-48-hour-advance-notice-requirement-for-disruptive-work",
+      "start_sec": 82.6,
+      "summary": "Chair Abreu reads Councilmember Epstein's opening statement, which thanks colleagues for voting on Intro 866. The bill requires posting notices within 500 feet of a work site at least 48 hours before disruptive work begins.",
+      "title": "Epstein's statement: 48-hour advance notice requirement for disruptive work",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 82.6,
+          "text": "Thank you to Chair Abreu and all of my colleagues for voting on my bill, Intro 866, which will require the posting of notices within 500 feet."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 90.1,
+          "text": "of a work site at least 48 hours in advance of disruptive work."
+        }
+      ]
+    },
+    {
+      "end_sec": 102.4,
+      "id": "007",
+      "slug": "epstein-s-statement-disruptive-work-impacts-daily-life",
+      "start_sec": 95.3,
+      "summary": "Epstein's statement notes that while street and sidewalk improvements are necessary, they can be disruptive to daily life, making routine tasks difficult for New Yorkers.",
+      "title": "Epstein's statement: disruptive work impacts daily life",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 95.3,
+          "text": "While the work being done to improve our streets and sidewalks is necessary, it can be disruptive to our daily life."
+        }
+      ]
+    },
+    {
+      "end_sec": 120.1,
+      "id": "008",
+      "slug": "epstein-s-statement-accessibility-challenges-for-people-with-disabilities",
+      "start_sec": 102.4,
+      "summary": "Epstein highlights that for people with disabilities, including those using assistive mobility devices, navigating city streets is already challenging. Unexpected closures can make tasks like going to the store or doctor appointments impossible.",
+      "title": "Epstein's statement: accessibility challenges for people with disabilities",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 102.4,
+          "text": "For people with disabilities, including individuals who use assistive mobility devices, navigating city streets can prove incredibly challenging."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 111.4,
+          "text": "Add to that unexpected closures and a task like going to the store, getting to work on time, or going to a doctor's appointment can become impossible."
+        }
+      ]
+    },
+    {
+      "end_sec": 133.1,
+      "id": "009",
+      "slug": "epstein-s-statement-advance-notice-helps-new-yorkers-plan-ahead",
+      "start_sec": 120.1,
+      "summary": "Epstein emphasizes that advance notice of construction allows New Yorkers to plan ahead, whether by finding a new route or simply being prepared, making it easier to navigate the city.",
+      "title": "Epstein's statement: advance notice helps New Yorkers plan ahead",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 120.1,
+          "text": "It makes a difference to have advance notice of this work so that New Yorkers can plan ahead for when construction projects arise."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 126.6,
+          "text": "Whether it's planning a new route or just being prepared for the work happening, this bill will make it easier to plan ahead."
+        }
+      ]
+    },
+    {
+      "end_sec": 152.212,
+      "id": "010",
+      "slug": "epstein-s-statement-signs-to-include-contact-info-and-closing-thanks",
+      "start_sec": 133.1,
+      "summary": "Epstein notes the signs will include contact information so the public knows who to call with questions or concerns. He closes by thanking colleagues for their partnership in making New York easier and safer to navigate.",
+      "title": "Epstein's statement: signs to include contact info and closing thanks",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 133.1,
+          "text": "The signs will also include contact information, ensuring the public knows who to talk about the work if there are questions or concerns."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 140.2,
+          "text": "This bill is about making it easier for everyone to get around our city."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 143.4,
+          "text": "Thank you for your partnership in making New York easier and safer to navigate."
+        }
+      ]
+    },
+    {
+      "end_sec": 158.212,
+      "id": "011",
+      "slug": "chair-abreu-calls-for-roll-call-vote",
+      "start_sec": 152.212,
+      "summary": "Chair Abreu asks the committee clerk to call the roll for the vote on Proposed Intro 866A.",
+      "title": "Chair Abreu calls for roll call vote",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 152.212,
+          "text": "I will now ask the committee clerk to call the roll."
+        }
+      ]
+    },
+    {
+      "end_sec": 203.508,
+      "id": "012",
+      "slug": "roll-call-vote-on-proposed-intro-866a",
+      "start_sec": 158.212,
+      "summary": "Committee clerk William Martin calls the roll. Chair Abreu, Councilmembers Louis, Brooks-Powers, Dinowitz, Krishnan, and others vote aye. All present members vote in the affirmative.",
+      "title": "Roll call vote on Proposed Intro 866A",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 158.212,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 158.612,
+          "text": "Good morning, William Martin, committee clerk, roll call, vote committee on transportation and infrastructure, proposed introduction 866A, Chair Abreu."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 167.212,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 168.912,
+          "text": "Lewis."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 169.812,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 171.412,
+          "text": "Brooks Powers."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 173.612,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 175.112,
+          "text": "Dinowitz."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 175.912,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 177.512,
+          "text": "Hanif."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 180.212,
+          "text": "Krishna."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 181.612,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 183.212,
+          "text": "Marte."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 187.108,
+          "text": "Carina Sanchez."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 188.908,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 190.708,
+          "text": "One."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 195.408,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 197.608,
+          "text": "Justin Sanchez."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 198.908,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 200.308,
+          "text": "Wong."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 201.208,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 203.108,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 209.608,
+      "id": "013",
+      "slug": "bill-adopted-10-0-with-no-abstentions",
+      "start_sec": 203.508,
+      "summary": "Committee clerk William Martin announces the vote result: 10 in the affirmative, zero in the negative, and no abstentions. The item has been adopted by the committee.",
+      "title": "Bill adopted 10-0 with no abstentions",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 203.508,
+          "text": "With a vote of 10 in the affirmative, zero."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 205.408,
+          "text": "And the negative, no abstentions item has been adopted by the committee."
+        }
+      ]
+    },
+    {
+      "end_sec": 219.221,
+      "id": "014",
+      "slug": "hearing-adjourned",
+      "start_sec": 209.608,
+      "summary": "Chair Abreu thanks everyone and adjourns the hearing.",
+      "title": "Hearing adjourned",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 209.608,
+          "text": "Thank you so much."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 210.408,
+          "text": "This hearing is hereby adjourned."
+        }
+      ]
+    }
+  ],
+  "date": "2026-09-10",
+  "duration_sec": 219.221,
+  "slug": "2026-09-10-1030-am-committee-on-transportation-and-infrastructure",
+  "summary": [
+    "Committee on Transportation and Infrastructure, chaired by Councilmember Shaun Abreu, held a hearing to vote on Proposed Intro No. 866-A, sponsored by Councilmember Epstein, requiring 48-hour advance notice signs for disruptive street and sidewalk work.",
+    "Councilmember Epstein's statement, read by Chair Abreu, emphasized the bill's importance for accessibility, particularly for people with disabilities, and for helping all New Yorkers plan around construction.",
+    "The committee voted 10-0 to adopt the bill with no abstentions, and the hearing was adjourned."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "10:30 AM",
+  "title": "Committee on Transportation and Infrastructure",
+  "topic": "Requiring the posting of notification signs regarding upcoming disruptive work",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-2_260910-104405/video-web.mp4"
+  }
+}

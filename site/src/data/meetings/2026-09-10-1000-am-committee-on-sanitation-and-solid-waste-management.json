@@ -1,0 +1,361 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 24.9,
+      "id": "001",
+      "slug": "call-to-order-and-housekeeping",
+      "start_sec": 11.2,
+      "summary": "Council staff calls the meeting to order and reminds attendees to silence electronic devices and not approach the front desk.",
+      "title": "Call to Order and Housekeeping",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 11.2,
+          "text": "Good morning and welcome to today's New York City Council vote for the Committee on Sanitation and Solid Waste Management."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 17.0,
+          "text": "At this time, we please ask that you silence all electronic devices."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 20.4,
+          "text": "Please do not approach the front desk."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 21.9,
+          "text": "Chair, ready when you are."
+        }
+      ]
+    },
+    {
+      "end_sec": 57.4,
+      "id": "002",
+      "slug": "chair-sanchez-opens-hearing-on-intro-906-a",
+      "start_sec": 24.9,
+      "summary": "Chair Justin E. Sanchez welcomes members, notes the back-to-school season, and states the purpose of the hearing is to vote on Introduction 906-A, which he sponsors.",
+      "title": "Chair Sanchez Opens Hearing on Intro 906-A",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 24.9,
+          "text": "Good morning, everyone, and happy back to school."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 28.9,
+          "text": "And welcome to today's..."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 30.2,
+          "text": "No, no excitement?"
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 31.1,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 34.2,
+          "text": "Tough crowd."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 35.3,
+          "text": "Tough crowd."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 39.2,
+          "text": "Welcome to my committee."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 42.8,
+          "text": "And welcome to today's hearing hosted by the Committee on Sanitation and Solid Waste Management."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 49.2,
+          "text": "The purpose of this hearing is to hold a vote on Introduction 906A, sponsored by me."
+        }
+      ]
+    },
+    {
+      "end_sec": 90.1,
+      "id": "003",
+      "slug": "chair-sanchez-explains-the-dog-waste-complaint-bill",
+      "start_sec": 57.4,
+      "summary": "Chair Sanchez explains that Intro 906-A requires DSNY to dispatch employees within 14 days to evaluate and enforce waste prohibitions after seven or more credible dog waste complaints on the same block within a seven-day period.",
+      "title": "Chair Sanchez Explains the Dog Waste Complaint Bill",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 57.4,
+          "text": "The committee previously heard this bill along with others included in the SCOOP Act on a hearing on May 19, 2026, where it received testimony from representatives of the Department of Sanitation and interested members of the public."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 70.6,
+          "text": "Introduction number 906A would require DSNY upon receiving seven or more credible complaints"
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 77.1,
+          "text": "of dog waste on the same city block within a seven-day period to dispatch employees within 14 days to evaluate the block and enforce, as appropriate, state and local prohibitions against animal waste in public spaces."
+        }
+      ]
+    },
+    {
+      "end_sec": 95.0,
+      "id": "004",
+      "slug": "chair-sanchez-yields-to-clerk-for-roll-call-vote",
+      "start_sec": 90.1,
+      "summary": "Chair Sanchez turns the proceedings over to Committee Clerk William Martin to conduct the roll call vote on Introduction 906-A.",
+      "title": "Chair Sanchez Yields to Clerk for Roll Call Vote",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 90.1,
+          "text": "I will now turn it over to the clerk to take a vote on intro 906A."
+        }
+      ]
+    },
+    {
+      "end_sec": 144.144,
+      "id": "005",
+      "slug": "roll-call-vote-on-intro-906-a",
+      "start_sec": 95.0,
+      "summary": "Committee Clerk William Martin calls the roll for the vote on Introduction 906-A. Councilmembers Sanchez, Louis, Hanif, Hankerson, Maloney, Santosuosso, Thomas-Henry, Wilson, and Vernikov cast their votes.",
+      "title": "Roll Call Vote on Intro 906-A",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 95.0,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 95.3,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 95.8,
+          "text": "William Martin, Committee Clerk, Roll Call Vote Committee on Sanitation and Solid Waste Management."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 100.5,
+          "text": "Chair Sanchez."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 102.5,
+          "text": "I."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 103.5,
+          "text": "Lewis."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 105.2,
+          "text": "I."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 106.3,
+          "text": "Hanif."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 108.4,
+          "text": "On."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 113.6,
+          "text": "Joing."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 117.7,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 119.5,
+          "text": "Hankerson."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 123.1,
+          "text": "Maloney."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 124.9,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 126.3,
+          "text": "Santos Suoso."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 127.8,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 130.0,
+          "text": "Thomas Henry."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 135.144,
+          "text": "Thank you, Councilmember."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 137.744,
+          "text": "Wilson."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 139.244,
+          "text": "I."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 140.444,
+          "text": "Vernikov."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 142.544,
+          "text": "Aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 150.244,
+      "id": "006",
+      "slug": "committee-approves-intro-906-a-11-0",
+      "start_sec": 144.144,
+      "summary": "Committee Clerk William Martin announces the vote result: 11 in the affirmative, zero in the negative, and no abstentions. The item is approved by the committee.",
+      "title": "Committee Approves Intro 906-A 11-0",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 144.144,
+          "text": "With a vote of 11 in the affirmative, zero in the negative, and no abstentions, item has been approved by the committee."
+        }
+      ]
+    },
+    {
+      "end_sec": 192.192,
+      "id": "007",
+      "slug": "chair-sanchez-closes-hearing-and-recognizes-councilmember-maloney-s-birthday",
+      "start_sec": 150.244,
+      "summary": "Chair Sanchez thanks the committee, gives a shout-out to Councilmember Virginia Maloney on her birthday, and officially closes the Committee on Sanitation and Solid Waste Management hearing.",
+      "title": "Chair Sanchez Closes Hearing and Recognizes Councilmember Maloney's Birthday",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 150.244,
+          "text": "Mr."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 150.444,
+          "text": "Chair, there's a full committee."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 152.044,
+          "text": "Thank you so much."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 152.844,
+          "text": "And I want to give a huge, huge, huge shout out to Councilmember Virginia-Maloney on her birthday today."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 162.944,
+          "text": "And with that, the Committee on Sanitation and Solid Waste Management is closed."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 175.764,
+          "text": "I don't know."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 176.264,
+          "text": "They didn't invite me."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 177.364,
+          "text": "What do you mean?"
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 177.864,
+          "text": "Well, I mean, they invited me to go to the event, but I didn't get invited to."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 188.464,
+          "text": "I was surprised."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 189.164,
+          "text": "I was like, oh, okay."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 191.564,
+          "text": "Yeah."
+        }
+      ]
+    }
+  ],
+  "date": "2026-09-10",
+  "duration_sec": 192.192,
+  "slug": "2026-09-10-1000-am-committee-on-sanitation-and-solid-waste-management",
+  "summary": [
+    "The Committee on Sanitation and Solid Waste Management, chaired by Justin E. Sanchez, held a hearing on Introduction 906-A, a bill to amend the administrative code regarding dog waste complaints.",
+    "The bill requires DSNY to dispatch employees to evaluate and enforce waste prohibitions after seven or more credible complaints of dog waste on the same city block within a seven-day period.",
+    "The committee voted 11-0 to approve Introduction 906-A, with no abstentions."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "10:00 AM",
+  "title": "Committee on Sanitation and Solid Waste Management",
+  "topic": "Dog waste complaints",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-3_260910-103618/video-web.mp4"
+  }
+}

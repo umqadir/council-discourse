@@ -1,0 +1,322 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 741.376,
+      "id": "001",
+      "slug": "staff-housekeeping-announcements-before-health-committee-vote",
+      "start_sec": 0.0,
+      "summary": "Council staff calls the room to order, reminds attendees to silence electronic devices, and instructs that no one may approach the dais. Chair Schulman is confirmed as ready to begin the vote meeting of the Committee on Health. [0:00:00-0:01:51",
+      "title": "Staff housekeeping announcements before Health Committee vote",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 0.4,
+          "text": "Quiet down, quiet down."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1.3,
+          "text": "We are getting ready to start."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 97.5,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 98.5,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 99.0,
+          "text": "And welcome to today's New York City Council vote from the Committee on Health."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 102.7,
+          "text": "At this time, I'd like to remind everyone to please silence their electronic devices, and at no point is anyone to approach the dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 108.0,
+          "text": "Chair, we're ready to begin."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 112.1,
+          "text": "Good morning, everyone."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 113.3,
+          "text": "My name is Lynn Schulman, chair of the New York City Council's Committee on Health."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 116.4,
+          "text": "I want to welcome all of you to today's vote."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 118.6,
+          "text": "We've been joined by the following council members."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 122.6,
+          "text": "Felder, Wilson, Narcisse, De La Rosa, anybody else?"
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 129.9,
+          "text": "And Jim Gennaro on Zoom."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 132.7,
+          "text": "Today we'll be voting on two pieces of legislation, both sponsored by Councilmember Oswald Feliz."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 140.5,
+          "text": "The first is proposed introduction 196C, which would modify the sodium warning used by chain restaurants of 15 or more locations."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 148.4,
+          "text": "The second is proposed introduction 547B, which would modify the required icon for added sugar warnings."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 155.2,
+          "text": "As we all know, consuming too much sodium or sugar can have serious consequences for our health."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 161.5,
+          "text": "Health experts tell us that the average person only needs to consume about 1,500 milligrams of sodium every day."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 167.2,
+          "text": "Over time, too much sodium can contribute to high blood pressure and increase the risk of heart disease and stroke."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 172.6,
+          "text": "The same is true when it comes to added sugar."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 174.6,
+          "text": "Experts recommend not consuming more than 200 calories or about 12 teaspoons of sugar in a day."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 180.1,
+          "text": "The average American is consuming about 17 teaspoons a day or 270 calories."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 185.5,
+          "text": "Over time, too much sugar can increase bad cholesterol, which can increase the risk of serious health conditions such as type 2 diabetes and heart disease."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 195.2,
+          "text": "New Yorkers deserve clear and easily understandable information about what is in the food they eat."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 200.1,
+          "text": "These warnings are a simple but important tool that can help people make informed decisions about their health."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 205.4,
+          "text": "As our city continues to reduce the rate of deaths from heart and diabetes-related diseases as part of its healthy NYC goals, the council must ensure that New Yorkers have the information they need to make educated, health-conscious choices about their diets."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 219.7,
+          "text": "I want to thank the speaker, committee staff, my staff, and my colleagues for all their hard work and support."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 224.6,
+          "text": "And finally, I want to thank Councilmember Feliz for his leadership and dedication to this issue."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 229.8,
+          "text": "With that, I pass it to the clerk to call the roll."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 235.704,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 235.904,
+          "text": "Ben Jacobs, committee clerk."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 237.504,
+          "text": "Roll call vote for intro 196C and intro 547B."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 242.204,
+          "text": "Chair Shulman?"
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 243.304,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 244.604,
+          "text": "Councilmember Gennaro?"
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 246.304,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 247.504,
+          "text": "Councilmember De La Rosa?"
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 248.804,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 249.004,
+          "text": "And congrats, Councilmember Feliz."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 251.104,
+          "text": "Councilmember Marte?"
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 254.604,
+          "text": "Councilmember Narcisse?"
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 256.404,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 257.504,
+          "text": "Councilmember Felder?"
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 259.204,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 260.704,
+          "text": "Councilmember Epstein?"
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 263.604,
+          "text": "Councilmember Wilson."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 265.204,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 267.004,
+          "text": "Councilmember Areola."
+        },
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 269.104,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 273.724,
+          "text": "That's a vote of seven in the affirmative with none in the negative and no abstentions."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 281.824,
+          "text": "I also want to recognize Councilmember Areola on Zoom."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 287.824,
+          "text": "The vote will be held open."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 295.924,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 360.224,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 450.224,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 600.124,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 630.224,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 733.024,
+          "text": "The health committee hearing is now closed out."
+        }
+      ]
+    }
+  ],
+  "date": "2026-09-10",
+  "duration_sec": 741.376,
+  "slug": "2026-09-10-1000-am-committee-on-health",
+  "summary": [
+    "Summary pending."
+  ],
+  "tags": [
+    "HEARING"
+  ],
+  "time": "10:00 AM",
+  "title": "Committee on Health",
+  "topic": "Modifying the sodium warning at designated food service establishments",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-1_260910-102506/video-web.mp4"
+  }
+}

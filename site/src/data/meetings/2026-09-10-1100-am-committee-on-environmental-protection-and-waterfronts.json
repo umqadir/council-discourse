@@ -1,0 +1,484 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 29.1,
+      "id": "001",
+      "slug": "committee-staff-opens-the-hearing-and-reminds-attendees-to-silence-devices",
+      "start_sec": 11.6,
+      "summary": "Council staff calls the meeting to order and asks attendees to silence electronic devices and not approach the dais.",
+      "title": "Committee staff opens the hearing and reminds attendees to silence devices",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 11.6,
+          "text": "Good morning and welcome to today's New York City Council vote from the Committee on Environmental Protection and Waterfronts."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 17.7,
+          "text": "At this point, I'd like to remind everyone to silence their electronic devices, and at no point is anyone to approach the dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 22.9,
+          "text": "Chair, we are ready to begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 69.7,
+      "id": "002",
+      "slug": "acting-chair-restler-introduces-himself-and-the-agenda-item",
+      "start_sec": 29.1,
+      "summary": "Lincoln Restler, filling in for Chair Jim Gennaro, introduces himself and announces the committee will vote on Proposed Intro 804-A, sponsored by Councilmember Phil Wong, regarding maximum allowable illuminance of residential outdoor lighting fixtures.",
+      "title": "Acting Chair Restler introduces himself and the agenda item",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 29.1,
+          "text": "You want me to do real work?"
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 30.0,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 30.6,
+          "text": "We're doing work."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 31.4,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 33.4,
+          "text": "All right."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 34.5,
+          "text": "My name is Lincoln Ressler, and I am inadequately filling in for our distinguished chair, Jim Gennaro, who is unable to be here today."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 43.4,
+          "text": "We are voting at the Committee on Environmental Protection and Waterfronts on proposed introduction 804A, sponsored by my colleague,"
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 52.6,
+          "text": "Councilmember Phil Wong, in relation to the maximum allowable illuminance of residential outdoor lighting fixtures on one- and two-family homes."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 60.5,
+          "text": "This committee first heard the bill on April 6th of this year, and I really want to commend Councilmember Wong for working so thoughtfully with colleagues to advance this final legislation."
+        }
+      ]
+    },
+    {
+      "end_sec": 99.2,
+      "id": "003",
+      "slug": "restler-explains-the-illuminance-limit-and-exemptions-in-intro-804-a",
+      "start_sec": 69.7,
+      "summary": "Restler explains that the bill sets a one foot-candle illuminance limit for outdoor lighting on one- and two-family homes in low-density residential areas, roughly equivalent to light from a streetlight shining into a window. He notes exemptions for construction safety lights and decorative displays like Dyker Heights.",
+      "title": "Restler explains the illuminance limit and exemptions in Intro 804-A",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 69.7,
+          "text": "Proposed Intro 804A would set an illuminance limit of one foot candle for outdoor lighting fixtures on one- and two-family homes in low-density residential areas."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 79.1,
+          "text": "For context, one foot candle is roughly the amount of light that shines into your window from a typical New York City streetlight."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 84.7,
+          "text": "Certain lights, including lights for construction safety and decorative light displays, like Diker Heights, would be exempt."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 90.6,
+          "text": "I think we all would agree that shining a floodlight into your neighbor's home is not very neighborly."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 91.7,
+          "text": "This final legislation."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 93.7,
+          "text": "Proposed Intro 804A would set an illuminance limit of one foot candle for outdoor lighting fixtures on one- and two-family homes in low-density residential areas."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 95.0,
+          "text": "With that, I will pass it along to my colleague, Councilmember Wong, for some remarks on his legislation."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 99.1,
+          "text": "For context, one foot candle is roughly the amount of light that shines into your window from a typical New York City streetlight."
+        }
+      ]
+    },
+    {
+      "end_sec": 149.4,
+      "id": "004",
+      "slug": "councilmember-wong-presents-his-legislation-and-describes-amendments",
+      "start_sec": 99.2,
+      "summary": "Phil Wong thanks Chair Gennaro and describes Intro 804 as a small bill with big quality-of-life impacts. He explains fixes made since the April hearing, including measuring lumens at the nearest neighbor's window, limiting the regulation to low-density districts, and adding a cure period.",
+      "title": "Councilmember Wong presents his legislation and describes amendments",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 99.2,
+          "text": "Okay, thank you, Chair Ressler."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 101.9,
+          "text": "First, I want to thank Chair Gennaro for your support on this bill."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 104.7,
+          "text": "Certain lights, including lights for construction safety and decorative light displays, like Diker Heights, would be exempt."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 106.9,
+          "text": "Intro 804 is a little bill that will cause a big improvement for the quality of life for millions of New Yorkers, and this pertains to private one- or two-family homes."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 118.0,
+          "text": "Previously, there were a lot of discussions on some fixes to the original bill."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 125.2,
+          "text": "So the fix has now been implemented, and it provides clarity on allowable lumens"
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 132.2,
+          "text": "to be measured at the nearest neighbor's window, which clearly limits this regulation to low-density residential districts and allows a cure period."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 141.1,
+          "text": "So I thank you, everyone, and the members of this committee for moving this bill, and I hope this will get passed out of this committee."
+        }
+      ]
+    },
+    {
+      "end_sec": 185.4,
+      "id": "005",
+      "slug": "restler-thanks-committee-staff-and-recognizes-attending-members",
+      "start_sec": 149.4,
+      "summary": "Restler thanks legislative counsel Natasha Bynum and Sierra Townsend, policy analyst Ricky Chawla, and financial analyst Tanvir Singh. He recognizes attending members Kamillah Hanks, Justin Sanchez, Harvey Epstein, and Chair Jim Gennaro participating remotely.",
+      "title": "Restler thanks committee staff and recognizes attending members",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 149.4,
+          "text": "Thank you so much, Councilmember Wong of Ridgewood."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 153.9,
+          "text": "I would like to thank the committee staff, particularly legislative councils, Natasha Bynum, Sierra Townsend, senior policy analyst Ricky Chawla, financial analyst Tanvir Singh, for their hard work on this legislation."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 165.5,
+          "text": "And I'd also like to recognize my colleagues who are with us today, our whip, Kamilla Hanks of the North Shore, Justin Sanchez, councilmember from the Bronx."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 174.2,
+          "text": "Who else do we have here?"
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 175.1,
+          "text": "We have Harvey Epstein of the Lower East Side."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 178.6,
+          "text": "And we have Councilmember Jim Gennaro."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 180.2,
+          "text": "Our chair online."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 181.8,
+          "text": "With that, I think I will invite the clerk to call a roll."
+        }
+      ]
+    },
+    {
+      "end_sec": 196.6,
+      "id": "006",
+      "slug": "clerk-begins-roll-call-vote-on-intro-804-a",
+      "start_sec": 185.4,
+      "summary": "Committee clerk Ben Jacobs calls the roll for the vote on Intro 804-A, starting with Acting Chair Restler, who votes aye.",
+      "title": "Clerk begins roll call vote on Intro 804-A",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 185.4,
+          "text": "Hi, Ben Jacobs, committee clerk."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 187.4,
+          "text": "Roll call vote on intro 804A."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 190.8,
+          "text": "Acting chair wrestler."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 192.1,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 193.5,
+          "text": "Chair Gennaro."
+        }
+      ]
+    },
+    {
+      "end_sec": 267.6,
+      "id": "007",
+      "slug": "councilmember-hanks-praises-wong-s-legislative-work-before-casting-her-vote",
+      "start_sec": 196.6,
+      "summary": "Kamillah Hanks thanks the chair and commends Councilmember Wong for diligently addressing concerns raised at the Democratic conference, calling him a good legislator. She thanks committee staff and enthusiastically votes yes.",
+      "title": "Councilmember Hanks praises Wong's legislative work before casting her vote",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 196.6,
+          "text": "Mr."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 196.8,
+          "text": "Chair, I'd wish to speak for a moment on the bill."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 201.9,
+          "text": "Chair, you don't need my permission."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 203.9,
+          "text": "Okay, well, Mr."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 207.2,
+          "text": "Chair, I'd like to thank you for your very gracious remarks at the outset of the hearing."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 212.6,
+          "text": "And, yeah, I really do appreciate that."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 216.7,
+          "text": "And Councilmember Wong, you described this as a little bill."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 221.1,
+          "text": "I think it's a big bill."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 222.4,
+          "text": "That's going to have a big difference, as you say."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 225.2,
+          "text": "And like the chair said, you worked very hard to make sure all the wrinkles were straightened out."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 232.8,
+          "text": "I was at the DEM conference when this was talked about, and a lot of people had some issues."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 239.1,
+          "text": "But you work very assiduously to make sure that everybody's in a good place."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 244.5,
+          "text": "That is a mark of a real good legislator."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 246.4,
+          "text": "So good for you."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 248.0,
+          "text": "I'd like to thank my colleagues as well."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 250.2,
+          "text": "I want to reiterate what the chair said regarding the staff."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 255.8,
+          "text": "I'd like to thank Sierra and Natasha and Ricky and Tanvir."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 261.6,
+          "text": "And with that, I enthusiastically vote yes."
+        }
+      ]
+    },
+    {
+      "end_sec": 277.4,
+      "id": "008",
+      "slug": "clerk-calls-remaining-members-for-roll-call-vote",
+      "start_sec": 267.6,
+      "summary": "Ben Jacobs calls Councilmember Hanks (aye), Councilmember Epstein (aye), and Councilmember Sanchez (aye) to complete the roll call.",
+      "title": "Clerk calls remaining members for roll call vote",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 267.6,
+          "text": "Councilmember Hanks."
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 269.6,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 271.1,
+          "text": "Councilmember Epstein."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 272.8,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 273.8,
+          "text": "Councilmember Sanchez."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 276.0,
+          "text": "Aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 284.2,
+      "id": "009",
+      "slug": "clerk-announces-5-0-vote-adopting-intro-804-a",
+      "start_sec": 277.4,
+      "summary": "Ben Jacobs announces the vote of five in the affirmative, none in the negative, and no abstentions, and the item is adopted.",
+      "title": "Clerk announces 5-0 vote adopting Intro 804-A",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 277.4,
+          "text": "With a vote of five in the affirmative, none in the negative, and no abstentions, the item is adopted."
+        }
+      ]
+    },
+    {
+      "end_sec": 295.531,
+      "id": "010",
+      "slug": "restler-confirms-vote-is-closed-and-adjourns-the-meeting",
+      "start_sec": 284.2,
+      "summary": "Restler confirms the vote will not be kept open for any additional members and adjourns the committee meeting.",
+      "title": "Restler confirms vote is closed and adjourns the meeting",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 284.2,
+          "text": "And we're not keeping it open for anybody?"
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 286.6,
+          "text": "Well, then we're not keeping it open for anybody."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 288.1,
+          "text": "With that, we will adjourn."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 289.2,
+          "text": "Thank you all."
+        }
+      ]
+    }
+  ],
+  "date": "2026-09-10",
+  "duration_sec": 295.531,
+  "slug": "2026-09-10-1100-am-committee-on-environmental-protection-and-waterfronts",
+  "summary": [
+    "The Committee on Environmental Protection and Waterfronts, chaired by James F. Gennaro, held a hearing on September 10, 2026, to vote on Proposed Intro 804-A.",
+    "The bill, sponsored by Councilmember Phil Wong, sets a maximum illuminance limit of one foot candle for outdoor lighting fixtures on one- and two-family homes in low-density residential areas.",
+    "The committee voted 5-0 to approve the bill, with members praising the collaborative process and the quality-of-life improvements it would bring."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "11:00 AM",
+  "title": "Committee on Environmental Protection and Waterfronts",
+  "topic": "The maximum allowable illuminance of residential outdoor lighting fixtures",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-1_260910-111603/video-web.mp4"
+  }
+}
