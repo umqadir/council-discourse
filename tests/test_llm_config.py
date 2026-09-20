@@ -38,9 +38,9 @@ def test_name_speakers_default_routes_to_deepseek() -> None:
     }
 
 
-def test_chapterize_default_routes_to_glm() -> None:
+def test_chapterize_default_routes_to_deepseek_flash() -> None:
     resolved = _resolve(["chapterize", "--meeting-dir", "/tmp/x"], stage="chaptering")
-    assert resolved["model"] == "z-ai/glm-5.2"
+    assert resolved["model"] == "deepseek/deepseek-v4.1-flash"
     assert resolved["llm_base_url"] == "https://openrouter.ai/api/v1"
 
 

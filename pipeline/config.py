@@ -39,7 +39,7 @@ def voxtral_usd_per_audio_hour(mode: str | None = None) -> float:
     return VOXTRAL_SYNC_USD_PER_AUDIO_HOUR if (mode or voxtral_mode()) == "sync" else VOXTRAL_BATCH_USD_PER_AUDIO_HOUR
 
 # --- Naming/chaptering LLM ---
-# Production default (2026-07-02): z-ai/glm-5.2 via OpenRouter beats Gemini 3.5 Flash on
+# Historical choice (2026-07-02): z-ai/glm-5.2 via OpenRouter beats Gemini 3.5 Flash on
 # same-person and strict-spelling on both benchmarks (see PLAN.md sections 8 and 12), and is
 # far steadier on the label->name mapping (no whole-speaker block collapse). Gemini stays one
 # env flag away: set COUNCIL_LLM_PROVIDER=gemini (or COUNCIL_LLM_MODEL=gemini-3.5-flash).
@@ -57,13 +57,24 @@ OPENROUTER_GLM_LLM = {
 }
 # Naming default (2026-07-03 LLM cost round, experiments/out/llm-cost-round.md):
 # DeepSeek V4 Pro ties GLM-5.2 on both naming gates (87.9/97.3) at ~1/3 the cost;
-# it FAILS the chaptering gates, so the split is naming=V4 Pro, chaptering=GLM-5.2.
+# V4 Pro failed chaptering gates; September chaptering selection is below.
 OPENROUTER_DEEPSEEK_LLM = {
     "provider": "openrouter",
     "model": "deepseek/deepseek-v4-pro",
     "base_url": "https://openrouter.ai/api/v1",
     "api_key_env": "OPENROUTER_API_KEY",
 }
+# September 2026 paired production replay: V4.1 Flash preserved witness
+# chapters and individual stated-meeting votes at $0.056 vs GLM-5.2's $0.347
+# across a 4.4h hearing and a 1.6h stated meeting. Keep naming on V4 Pro:
+# Flash scored 68/87 vs Pro's 70/87 on the paired speaker evidence screen.
+OPENROUTER_CHAPTER_LLM = {
+    "provider": "openrouter",
+    "model": "deepseek/deepseek-v4.1-flash",
+    "base_url": "https://openrouter.ai/api/v1",
+    "api_key_env": "OPENROUTER_API_KEY",
+}
+
 DEFAULT_LLM_PROVIDER = "openrouter"
 _LLM_PROVIDERS = {
     "openrouter": OPENROUTER_GLM_LLM,
@@ -102,5 +113,5 @@ def naming_llm_config() -> dict[str, str | None]:
 
 
 def chaptering_llm_config() -> dict[str, str | None]:
-    """Production chaptering/summary LLM (default: GLM-5.2 via OpenRouter)."""
-    return _resolve_llm(OPENROUTER_GLM_LLM, "COUNCIL_CHAPTER_LLM")
+    """Production chaptering/summary LLM (default: DeepSeek V4.1 Flash)."""
+    return _resolve_llm(OPENROUTER_CHAPTER_LLM, "COUNCIL_CHAPTER_LLM")

@@ -120,6 +120,14 @@ def test_ci_health_prints_errors_unmatched_count_and_newest_date(tmp_path: Path,
     assert "stale_unmatched_viebit_rows_older_than_7d=1" in out
     assert "newest_event_date=2026-06-25T10:00:00" in out
 
+    db.upsert_meeting(conn, {"meeting_key": "future", "viebit_filename": "future", "event_date": "2099-01-01"})
+    db.upsert_meeting(conn, {"meeting_key": "done", "viebit_filename": "done", "event_date": "2026-06-24"})
+    db.update_meeting(conn, "done", {"chapterize_status": "chapterized"})
+    assert cli_main(["ci-health", "--db", str(db_path)]) == 0
+    out = capsys.readouterr().out
+    assert "newest_event_date=2099-01-01" in out
+    assert "newest_completed_event_date=2026-06-24" in out
+
 
 def test_process_one_dry_run_writes_mergeable_result_without_mutating_status(tmp_path: Path) -> None:
     db_path = tmp_path / "registry.db"
@@ -392,7 +400,7 @@ def test_process_one_uses_configured_production_llm(tmp_path: Path, monkeypatch)
             "llm_api_key_env": "OPENROUTER_API_KEY",
         },
         {
-            "model": "z-ai/glm-5.2",
+            "model": "deepseek/deepseek-v4.1-flash",
             "llm_base_url": "https://openrouter.ai/api/v1",
             "llm_api_key_env": "OPENROUTER_API_KEY",
         },
@@ -822,3 +830,22 @@ def test_pull_export_inputs_ignores_metadata_less_recordings(tmp_path: Path, mon
     )
 
     assert production.pull_export_inputs(db_path, tmp_path / "meetings") == []
+
+
+def test_cost_includes_estimated_llm_charges_and_verification(tmp_path, monkeypatch):
+    from pipeline import production
+    conn = db.connect(tmp_path / "registry.db")
+    db.upsert_meeting(conn, {"meeting_key": "cost-mixed", "viebit_filename": "cost-mixed"})
+    monkeypatch.setattr(production, "MEETINGS_DIR", tmp_path)
+    d = tmp_path / "cost-mixed"
+    d.mkdir()
+    (d / "transcribe-meta.json").write_text(json.dumps({"audio_duration_sec": 3600, "mode": "sync"}))
+    (d / "name-speakers-meta.json").write_text(json.dumps({
+        "exact_cost_total": 0.02, "estimated_cost_usd": 0.03,
+        "chunk_records": [{"exact_cost_usd": 0.02}]}))
+    (d / "chapters.json").write_text(json.dumps({"exact_cost_usd": None, "estimated_cost_usd": 0.04}))
+    assert production._calculate_meeting_cost(db.get_meeting(conn, "cost-mixed")) == pytest.approx(0.25)
+    # A failure before final naming metadata still counts completed chunks.
+    (d / "name-speakers-meta.json").unlink()
+    (d / "name-speakers-chunk-1.json").write_text(json.dumps({"estimated_cost_usd": 0.01}))
+    assert production._calculate_meeting_cost(db.get_meeting(conn, "cost-mixed")) == pytest.approx(0.23)

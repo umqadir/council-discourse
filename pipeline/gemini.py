@@ -467,14 +467,14 @@ def _combine_generation_attempts(attempts: list[dict[str, Any]]) -> dict[str, An
         return {}
     combined = dict(attempts[-1])
     combined["elapsed_sec"] = round(sum(float(meta.get("elapsed_sec") or 0.0) for meta in attempts), 3)
-    usage_totals: dict[str, int] = {}
+    usage_totals: dict[str, int | float] = {}
     for meta in attempts:
         usage = meta.get("usage")
         if not isinstance(usage, dict):
             continue
         for key, value in usage.items():
             if isinstance(value, int | float):
-                usage_totals[key] = usage_totals.get(key, 0) + int(value)
+                usage_totals[key] = usage_totals.get(key, 0) + value
     if usage_totals:
         combined["usage"] = usage_totals
     for cost_key in ("estimated_cost_usd", "exact_cost_usd"):
@@ -487,6 +487,15 @@ def _combine_generation_attempts(attempts: list[dict[str, Any]]) -> dict[str, An
 
 
 def _attach_openrouter_cost(meta: dict[str, Any], *, model: str, api_key: str) -> None:
+    # The response already contains the billed amount, including discounts.
+    # Preserve zero (free/cache-hit requests) and fractional dollar values.
+    usage = meta.get("usage")
+    response_cost = _float_or_none(usage.get("cost")) if isinstance(usage, dict) else None
+    if response_cost is not None and response_cost >= 0:
+        meta["exact_cost_usd"] = response_cost
+        meta["estimated_cost_usd"] = response_cost
+        meta["cost_source"] = "openrouter_response_usage"
+        return
     exact = _openrouter_generation_cost_usd(str(meta.get("generation_id") or ""), api_key)
     pricing = _openrouter_pricing_for_model(model, api_key)
     if pricing:
@@ -576,7 +585,8 @@ def _estimate_openrouter_usage_cost_usd(usage: Any, pricing: dict[str, Any] | No
     if isinstance(details, dict):
         reasoning_tokens = _int_usage(details, "reasoning_tokens")
         reasoning_price = _float_or_none(pricing.get("internal_reasoning")) or completion_price
-        total += reasoning_tokens * reasoning_price
+        # Reasoning is a subset of completion_tokens, already priced above.
+        total += reasoning_tokens * (reasoning_price - completion_price)
     return round(total, 6)
 
 

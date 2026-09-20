@@ -12,9 +12,9 @@ Idea and core methodology, same-day transcription with speaker naming and LLM ch
 |---|---|
 | Discovery | Legistar Web API, Council video RSS |
 | Ingest | video remuxed and re-hosted on Cloudflare R2 |
-| Transcription | ASR with speaker diarization |
-| Speaker naming | LLM pass over roster and agenda evidence, verified against public records |
-| Chaptering | full-transcript LLM chaptering, anchored to the agenda |
+| Transcription | Voxtral Mini 2602 synchronous API, with speaker diarization ($0.18/audio-hour) |
+| Speaker naming | DeepSeek V4 Pro via OpenRouter, then Gemini 3.1 Flash Lite public-record verification |
+| Chaptering | DeepSeek V4.1 Flash via OpenRouter, full transcript anchored to the agenda |
 | Site | Astro on Cloudflare Pages, static meeting pages and edge-rendered chapter pages |
 
 Runs as a CLI, locally or on scheduled CI. The site rebuilds as meetings land.

@@ -26,8 +26,20 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           REPO: ${{ github.repository }}
         run: |
-          last_success="$(scripts/gh-retry gh api "repos/${REPO}/actions/workflows/production.yml/runs?status=success&per_page=1" \
-            --jq '.workflow_runs[0].updated_at // empty')"
+          # Paused cycles are green no-ops. Only a run that reached export
+          # counts as a heartbeat; otherwise a paused pipeline looks healthy.
+          last_success=""
+          runs="$(scripts/gh-retry gh api "repos/${REPO}/actions/workflows/production.yml/runs?status=success&per_page=100" \
+            --jq '.workflow_runs[] | [.id, .updated_at] | @tsv')"
+          while IFS=$'\t' read -r run_id updated_at; do
+            [ -n "$run_id" ] || continue
+            exported="$(scripts/gh-retry gh api "repos/${REPO}/actions/runs/${run_id}/jobs?per_page=100" \
+              --jq 'any(.jobs[]; .name == "export-site" and .conclusion == "success")')"
+            if [ "$exported" = "true" ]; then
+              last_success="$updated_at"
+              break
+            fi
+          done <<< "$runs"
           echo "last successful production run: ${last_success:-never}"
           now="$(date -u +%s)"
           then="$(date -u -d "${last_success:-1970-01-01T00:00:00Z}" +%s)"

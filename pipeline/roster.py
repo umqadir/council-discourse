@@ -12,6 +12,17 @@ from .config import DATA_DIR
 ROSTER_URL = "https://data.cityofnewyork.us/resource/uvw5-9znb.csv?$limit=9999999"
 ROSTER_CACHE = DATA_DIR / "council-members-1999-present.csv"
 
+# The historical Open Data feed omitted the District 3 special-election
+# successor as of 2026-09-21. Fill only an empty district, preserving upstream
+# records when the feed catches up. Use Legistar's dated membership interval,
+# not today's directory, so historical meetings keep their original roster.
+# Source: https://legistar.council.nyc.gov/DepartmentDetail.aspx?ID=-1
+# Corroboration: https://council.nyc.gov/district-3/
+ROSTER_SUPPLEMENTS = (
+    {"name": "Carl Wilson", "district": "3", "party": "Democrat",
+     "term_start": "2026-05-13", "term_end": "2029-12-31"},
+)
+
 
 def roster_csv_for_prompt(meeting_date: str | None, force_refresh: bool = False) -> str:
     rows = current_roster(meeting_date, force_refresh=force_refresh)
@@ -33,6 +44,11 @@ def current_roster(meeting_date: str | None, force_refresh: bool = False) -> lis
         for row in rows
         if _date_from_socrata(row.get("term_start")) <= target <= _date_from_socrata(row.get("term_end"))
     ]
+    occupied = {int(row["district"]) for row in current if row.get("district")}
+    for row in ROSTER_SUPPLEMENTS:
+        if (int(row["district"]) not in occupied
+                and _date_from_socrata(row["term_start"]) <= target <= _date_from_socrata(row["term_end"])):
+            current.append(dict(row))
     return sorted(current, key=lambda row: int(row.get("district") or 999))
 
 

@@ -283,7 +283,7 @@ def name_speakers_meeting(
             exact_cost_total += float(exact_cost)
         usage = chunk_record.get("usage")
         if isinstance(usage, dict):
-            usage_totals.update({k: int(v) for k, v in usage.items() if isinstance(v, int | float)})
+            usage_totals.update({k: v for k, v in usage.items() if isinstance(v, int | float)})
         chunk_records.append(chunk_record)
 
     named = join_label_mappings(utterances, mappings, range_overrides)
@@ -312,7 +312,7 @@ def name_speakers_meeting(
             exact_cost_total += float(exact_cost)
         usage = verification_meta.get("usage")
         if isinstance(usage, dict):
-            usage_totals.update({k: int(v) for k, v in usage.items() if isinstance(v, int | float)})
+            usage_totals.update({k: v for k, v in usage.items() if isinstance(v, int | float)})
         verified = verification_model is not None
         write_jsonl(output, named)
     except Exception as exc:

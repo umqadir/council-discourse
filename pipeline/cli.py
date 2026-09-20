@@ -472,6 +472,14 @@ def cmd_ci_health(args: argparse.Namespace) -> int:
             print(f"parked: {row['meeting_key']} (reset with: pipeline reset-meeting {row['meeting_key']})")
         newest = conn.execute("SELECT MAX(event_date) AS newest FROM meetings WHERE event_date IS NOT NULL").fetchone()
         print(f"newest_event_date={newest['newest'] if newest and newest['newest'] else 'none'}")
+        # Calendar discovery includes future events; it is not evidence that
+        # recordings are being processed or published.
+        completed = conn.execute(
+            "SELECT MAX(event_date) AS newest FROM meetings "
+            "WHERE chapterize_status = 'chapterized' "
+            "AND date(event_date) <= date('now')"
+        ).fetchone()
+        print(f"newest_completed_event_date={completed['newest'] if completed and completed['newest'] else 'none'}")
     except Exception as exc:
         print(f"ci-health error: {exc}", file=sys.stderr, flush=True)
     return 0

@@ -218,7 +218,7 @@ def _calculate_meeting_cost(row: sqlite3.Row) -> float:
     total = 0.0
     total += _voxtral_cost_usd(meeting.meeting_dir / "transcribe-meta.json")
     total += _name_speakers_cost_usd(meeting.meeting_dir)
-    total += _json_number(meeting.meeting_dir / "chapters.json", "exact_cost_usd") or 0.0
+    total += _recorded_cost(_read_json_or_none(meeting.meeting_dir / "chapters.json"))
     return round(total, 6)
 
 
@@ -235,16 +235,21 @@ def _name_speakers_cost_usd(meeting_dir: Path) -> float:
     meta_path = meeting_dir / "name-speakers-meta.json"
     meta = _read_json_or_none(meta_path)
     if isinstance(meta, dict):
+        # This aggregate includes estimated Google verification and every naming
+        # chunk. exact_cost_total may cover only the OpenRouter subset.
+        estimate = meta.get("estimated_cost_usd")
+        if isinstance(estimate, int | float):
+            return float(estimate)
         for key in ("exact_cost_total", "exact_cost_usd"):
             value = meta.get(key)
             if isinstance(value, int | float):
                 return float(value)
         chunk_records = meta.get("chunk_records")
         if isinstance(chunk_records, list):
-            total = _sum_exact_costs(chunk_records)
+            total = _sum_recorded_costs(chunk_records)
             if total:
                 return total
-    return _sum_exact_costs(_read_chunk_cost_records(meeting_dir))
+    return _sum_recorded_costs(_read_chunk_cost_records(meeting_dir))
 
 
 def _read_chunk_cost_records(meeting_dir: Path) -> list[dict[str, Any]]:
@@ -256,12 +261,20 @@ def _read_chunk_cost_records(meeting_dir: Path) -> list[dict[str, Any]]:
     return records
 
 
-def _sum_exact_costs(records: list[Any]) -> float:
+def _sum_recorded_costs(records: list[Any]) -> float:
     total = 0.0
     for record in records:
-        if isinstance(record, dict) and isinstance(record.get("exact_cost_usd"), int | float):
-            total += float(record["exact_cost_usd"])
+        total += _recorded_cost(record)
     return total
+
+
+def _recorded_cost(record: Any) -> float:
+    if isinstance(record, dict):
+        for key in ("estimated_cost_usd", "exact_cost_usd"):
+            value = record.get(key)
+            if isinstance(value, int | float):
+                return float(value)
+    return 0.0
 
 
 def _json_number(path: Path, key: str) -> float | None:
