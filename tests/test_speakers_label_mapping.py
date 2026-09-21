@@ -248,6 +248,7 @@ def test_name_speakers_keeps_output_when_verification_fails(tmp_path, monkeypatc
         raise RuntimeError("verification unavailable")
 
     monkeypatch.setattr("pipeline.speakers.generate_json", fake_generate_json)
+    monkeypatch.setattr("pipeline.speakers.generate_grounded_research", fake_generate_json)
 
     assert name_speakers_meeting(meeting, write_runlog=False) == (tmp_path / "utterances-named.jsonl")
 
@@ -282,11 +283,12 @@ def test_verification_requires_search_sources_and_keeps_usage(monkeypatch, tmp_p
     from pipeline import speakers as s
     monkeypatch.setattr(s, '_spelling_anchor_sets', lambda m: ([], [], {}))
     monkeypatch.setattr(s, '_verification_candidates', lambda *a: [
-        {'id':'v001','speaker':'Member of the Public - Jann Doe'}])
+        {'id':'v001','speaker':'Member of the Public - Jann Doe', 'name':'Jann Doe', 'role_org_hint':'Transit Org', 'quote_snippet':'My name is Jann Doe.'}])
     monkeypatch.setattr(s, '_apply_candidate_org_anchors', lambda *a: [])
-    payload = {'results':[{'id':'v001','corrected_speaker':'Member of the Public - Jane Doe','confidence':'high'}]}
+    payload = {'results':[{'id':'v001','corrected_speaker':'Member of the Public - Jane Doe','confidence':'high','source_urls':['https://example.org/staff']}]}
     meta = {'estimated_cost_usd':.01}
-    monkeypatch.setattr(s, 'generate_json', lambda *a, **k: (payload, dict(meta)))
+    monkeypatch.setattr(s, 'generate_json', lambda *a, **k: (payload, {'estimated_cost_usd':.002}))
+    monkeypatch.setattr(s, 'generate_grounded_research', lambda *a, **k: ({'text':'Jane Doe works at Transit Org.'}, dict(meta)))
     meeting = Meeting(meeting_key='m1', meeting_dir=tmp_path)
     named = [{'speaker':'Member of the Public - Jann Doe'}]
     result, usage = s._verify_non_roster_speakers(named, meeting)
@@ -296,3 +298,12 @@ def test_verification_requires_search_sources_and_keeps_usage(monkeypatch, tmp_p
     result, usage = s._verify_non_roster_speakers(named, meeting)
     assert named[0]['speaker'].endswith('Jane Doe')
     assert not result.get('errors')
+    assert usage['estimated_cost_usd'] == .012
+
+
+def test_verification_does_not_erase_spoken_name_parts():
+    from pipeline.speakers import _corrected_speaker
+    assert _corrected_speaker({'speaker': 'Member of the Public - Christian Bear Lopez'},
+                              {'corrected_speaker': 'Member of the Public - Christian Lopez'}) is None
+    assert _corrected_speaker({'speaker': 'Member of the Public - Lex Atham Singh'},
+                              {'corrected_speaker': 'Member of the Public - Lex Uttamsingh'}) == 'Member of the Public - Lex Uttamsingh'

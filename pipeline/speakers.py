@@ -16,7 +16,7 @@ from .artifacts import (
     write_json,
     write_jsonl,
 )
-from .gemini import DEFAULT_MODEL, estimate_tokens, generate_json, pricing_details, _combine_generation_attempts
+from .gemini import DEFAULT_MODEL, estimate_tokens, generate_json, pricing_details, _combine_generation_attempts, generate_grounded_research
 from .models import Meeting
 from .roster import current_roster, roster_csv_for_prompt
 from .runlog import append_gemini_runlog
@@ -1182,19 +1182,32 @@ def _verify_non_roster_speakers(
     for offset in range(0, len(candidates), 8):
         group = candidates[offset:offset + 8]
         try:
+            prompt = _verification_prompt(meeting, group)
+            if tools:
+                lookup = [{"id": c["id"], "name": c["name"], "organization_hint": c["role_org_hint"],
+                           "testimony": c["quote_snippet"][:350]} for c in group]
+                research, research_usage = generate_grounded_research(
+                    "Search the web for the correct spelling and organization affiliation of each of these public NYC Council witnesses. "
+                    "Names may be phonetic speech-recognition errors. Give a short factual research note per person with citations "
+                    "to official or professional sources. Identify uncertain matches explicitly. "
+                    "Use at most two search queries per person; stop if the identity remains uncertain.\n" + json.dumps(lookup), model)
+                usages.append(research_usage)
+                grounding = dict(research_usage.get("grounding") or {})
+                if not grounding.get("grounding_chunks"):
+                    errors.append(f"Verification batch {offset // 8 + 1} returned no search sources; corrections withheld")
+                    continue
+                grounding["research_text"] = research["text"]
+                grounded_batches.append(grounding)
+                prompt += "\nUse ONLY these retrieved research notes and sources for corrections. Do not search again or add recalled claims. " \
+                          "Preserve the original name when these notes do not establish a correction.\n" + research["text"] + \
+                          "\nRetrieved sources: " + json.dumps(grounding["grounding_chunks"])
             result, usage = generate_json(
-                _verification_prompt(meeting, group), model=model, temperature=0.0,
-                max_output_tokens=16_384, max_attempts=1, tools=tools,
-                response_mime_type=None if tools else "application/json",
+                prompt, model=model, temperature=0.0, thinking_level="low",
+                max_output_tokens=16_384, max_attempts=1,
                 base_url=base_url, api_key=api_key, api_key_env=api_key_env,
                 json_schema=VERIFICATION_JSON_SCHEMA,
             )
             usages.append(usage)
-            grounding = usage.get("grounding") or {}
-            if tools and not grounding.get("grounding_chunks"):
-                errors.append(f"Verification batch {offset // 8 + 1} returned no search sources; corrections withheld")
-                continue
-            grounded_batches.append(grounding)
             ids = {c["id"] for c in group}
             batch_results = [r for r in _extract_verification_results(result) if str(r.get("id")) in ids]
             if ids - {str(r.get("id")) for r in batch_results}:
@@ -1207,7 +1220,7 @@ def _verify_non_roster_speakers(
     meta = _combine_generation_attempts(usages)
     verification["results"] = corrections
     verification["grounding_batches"] = grounded_batches
-    verification["search_query_count"] = sum(g.get("web_search_query_count", 0) for g in grounded_batches)
+    verification["search_query_count"] = sum((u.get("grounding") or {}).get("web_search_query_count", 0) for u in usages)
     if errors:
         verification["errors"] = errors
 
@@ -1219,6 +1232,8 @@ def _verify_non_roster_speakers(
         if candidate is None:
             candidate = candidates_by_speaker.get(_clean_speaker(str(correction.get("input_speaker") or "")))
         if candidate is None:
+            continue
+        if tools and not correction.get("source_urls"):
             continue
         corrected = _corrected_speaker(candidate, correction)
         if not corrected or corrected == candidate["speaker"]:
@@ -1774,6 +1789,12 @@ def _corrected_speaker(candidate: dict[str, Any], correction: dict[str, Any]) ->
     if corrected.upper() in {"UNKNOWN", "UNK"} or corrected in GENERIC_SPEAKERS:
         return None
     if len(_speaker_base_name(corrected).split()) < 2:
+        return None
+    # A shorter web display name is not evidence that a spoken middle/family
+    # name was wrong. Keep the fuller identity instead of silently deleting it.
+    original_words = set(re.findall(r"\w+", _speaker_base_name(original).casefold()))
+    corrected_words = set(re.findall(r"\w+", _speaker_base_name(corrected).casefold()))
+    if corrected_words < original_words:
         return None
     return corrected
 
