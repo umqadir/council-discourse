@@ -16,7 +16,9 @@ jobs:
           python - <<'PY'
           import json, os, urllib.request, urllib.parse
           urls = {
-              'memberships.json': 'https://webapi.legistar.com/v1/nyc/Bodies/6897/OfficeRecords?' + urllib.parse.urlencode({'token': os.environ['LEGISTAR_TOKEN']}),
+              'memberships.json': "https://webapi.legistar.com/v1/nyc/OfficeRecords?" + urllib.parse.urlencode({'token': os.environ['LEGISTAR_TOKEN'], '$filter': "OfficeRecordBodyName eq 'City Council'"}),
+              'bodies.json': 'https://webapi.legistar.com/v1/nyc/Bodies?' + urllib.parse.urlencode({'token': os.environ['LEGISTAR_TOKEN']}),
+              'persons.json': 'https://webapi.legistar.com/v1/nyc/Persons?' + urllib.parse.urlencode({'token': os.environ['LEGISTAR_TOKEN']}),
               'membership.html': 'https://legistar.council.nyc.gov/DepartmentDetail.aspx?ID=6897&Mode=MainBody&ctl00_ContentPlaceHolder1_gridPeopleChangePage=1_100',
               'directory.html': 'https://council.nyc.gov/districts/',
           }
