@@ -1,0 +1,35 @@
+name: Validate roster sources
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  sources:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Fetch public membership sources
+        env:
+          LEGISTAR_TOKEN: ${{ secrets.LEGISTAR_TOKEN }}
+        run: |
+          mkdir -p roster-sources
+          python - <<'PY'
+          import json, os, urllib.request, urllib.parse
+          urls = {
+              'memberships.json': 'https://webapi.legistar.com/v1/nyc/Bodies/6897/OfficeRecords?' + urllib.parse.urlencode({'token': os.environ['LEGISTAR_TOKEN']}),
+              'membership.html': 'https://legistar.council.nyc.gov/DepartmentDetail.aspx?ID=6897&Mode=MainBody&ctl00_ContentPlaceHolder1_gridPeopleChangePage=1_100',
+              'directory.html': 'https://council.nyc.gov/districts/',
+          }
+          for name, url in urls.items():
+              try:
+                  data = urllib.request.urlopen(url, timeout=45).read()
+                  open('roster-sources/' + name, 'wb').write(data)
+                  print(name, len(data), 'bytes')
+              except Exception as e:
+                  print(name, type(e).__name__)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: roster-sources
+          path: roster-sources
+          retention-days: 3
