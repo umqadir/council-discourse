@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import httpx
 import re
 import unicodedata
 from collections import Counter
@@ -15,7 +16,7 @@ from .artifacts import (
     write_json,
     write_jsonl,
 )
-from .gemini import DEFAULT_MODEL, estimate_tokens, generate_json, pricing_details
+from .gemini import DEFAULT_MODEL, estimate_tokens, generate_json, pricing_details, _combine_generation_attempts
 from .models import Meeting
 from .roster import current_roster, roster_csv_for_prompt
 from .runlog import append_gemini_runlog
@@ -26,7 +27,7 @@ CHUNK_OVERLAP = 240
 BOUNDARY_SNIPPET_UTTERANCES = 5
 MAX_SPEAKER_HINTS = 160
 MAX_VERIFICATION_CANDIDATES = 120
-VERIFICATION_MODEL = "gemini-3.1-flash-lite"
+VERIFICATION_MODEL = "gemini-3.8-flash"
 SOURCE_SPEAKER_KEYS = ("label", "diarized_speaker", "speaker_label", "speaker_id", "channel", "speaker")
 LABELS_PER_PROMPT = 40
 LABEL_SAMPLE_WINDOWS = 8
@@ -182,6 +183,31 @@ VERIFICATION_JSON_SCHEMA = {
 }
 
 
+def _generate_label_mapping(prompt, labels, *, model, base_url, api_key=None, api_key_env=None):
+    recover = model == "gemini-3.8-flash" and base_url is None
+    kwargs = dict(temperature=0.1, thinking_level="low", base_url=base_url,
+                  api_key=api_key, api_key_env=api_key_env, json_schema=LABEL_MAPPING_JSON_SCHEMA)
+    meta = {}
+    try:
+        result, meta = generate_json(prompt, model=model, **kwargs, **({"max_attempts": 1} if recover else {}))
+        if recover and not set(labels).issubset({r["label"] for r in _extract_label_mapping_records(result)}):
+            raise RuntimeError("Naming response does not cover the requested labels")
+        return result, meta
+    except (RuntimeError, OSError, httpx.HTTPError) as exc:
+        if not recover:
+            raise
+        failed_meta = getattr(exc, "generation_meta", meta)
+        recovery_kwargs = {**kwargs, "base_url": "https://openrouter.ai/api/v1",
+                           "api_key": None, "api_key_env": "OPENROUTER_API_KEY"}
+        result, recovery_meta = generate_json(prompt, model="deepseek/deepseek-v4-pro", **recovery_kwargs)
+        if not set(labels).issubset({r["label"] for r in _extract_label_mapping_records(result)}):
+            raise RuntimeError("Recovery naming response is incomplete")
+        combined = _combine_generation_attempts([failed_meta, recovery_meta])
+        combined["fallback_from"] = model
+        combined["fallback_reason"] = str(exc)[:300]
+        return result, combined
+
+
 def name_speakers_meeting(
     meeting: Meeting,
     model: str = DEFAULT_MODEL,
@@ -243,23 +269,20 @@ def name_speakers_meeting(
                 label_evidence=[evidence[label] for label in chunk_labels],
                 label_count=len(labels),
             )
-            result, meta = generate_json(
-                prompt,
-                model=model,
-                temperature=0.1,
-                thinking_level="low",
-                base_url=llm_base_url,
-                api_key=llm_api_key,
-                api_key_env=llm_api_key_env,
-                json_schema=LABEL_MAPPING_JSON_SCHEMA,
+            result, meta = _generate_label_mapping(
+                prompt, chunk_labels, model=model, base_url=llm_base_url,
+                api_key=llm_api_key, api_key_env=llm_api_key_env,
             )
-            chunk_mappings = _extract_label_mapping_records(result)
+            chunk_mappings = [r for r in _extract_label_mapping_records(result) if r["label"] in chunk_labels]
             if not chunk_mappings:
                 raise RuntimeError(f"{model} speaker response had no usable label mappings for chunk {chunk_number}")
             chunk_mappings = _with_unknown_mappings_for_missing_labels(chunk_labels, chunk_mappings)
             chunk_overrides = _extract_label_range_overrides(result)
             chunk_record = {
                 "chunk": chunk_number,
+                "model": meta.get("model", model),
+                "fallback_from": meta.get("fallback_from"),
+                "fallback_reason": meta.get("fallback_reason"),
                 "labels": chunk_labels,
                 "usage": meta.get("usage", {}),
                 "estimated_cost_usd": meta.get("estimated_cost_usd"),
@@ -296,6 +319,7 @@ def name_speakers_meeting(
     }
     verified = False
     verification_error: str | None = None
+    verification_meta: dict[str, Any] = {}
     try:
         verification, verification_meta = _verify_non_roster_speakers(
             named,
@@ -313,7 +337,8 @@ def name_speakers_meeting(
         usage = verification_meta.get("usage")
         if isinstance(usage, dict):
             usage_totals.update({k: v for k, v in usage.items() if isinstance(v, int | float)})
-        verified = verification_model is not None
+        verification_error = "; ".join(verification.get("errors", [])) or None
+        verified = verification_model is not None and not verification_error
         write_jsonl(output, named)
     except Exception as exc:
         verification_error = f"{type(exc).__name__}: {exc}"
@@ -344,6 +369,7 @@ def name_speakers_meeting(
     if chunk_records:
         meta_payload["chunk_records"] = chunk_records
     meta_payload["verification"] = verification
+    meta_payload["verification_usage"] = verification_meta
     meta_payload["verified"] = verified
     if verification_error:
         meta_payload["verification_error"] = verification_error
@@ -1149,24 +1175,41 @@ def _verify_non_roster_speakers(
     if not candidates:
         return verification, {"elapsed_sec": 0.0, "usage": {}, "estimated_cost_usd": 0.0}
 
-    prompt = _verification_prompt(meeting, candidates)
     tools = [{"google_search": {}}] if base_url is None else None
-    result, meta = generate_json(
-        prompt,
-        model=model,
-        temperature=0.0,
-        max_output_tokens=16_384,
-        tools=tools,
-        response_mime_type=None if tools else "application/json",
-        base_url=base_url,
-        api_key=api_key,
-        api_key_env=api_key_env,
-        json_schema=VERIFICATION_JSON_SCHEMA,
-    )
-    corrections = _extract_verification_results(result)
+    corrections, usages, grounded_batches, errors = [], [], [], []
+    # Small batches keep search tied to each group of identities. A successful
+    # text response alone is not evidence that the model actually searched.
+    for offset in range(0, len(candidates), 8):
+        group = candidates[offset:offset + 8]
+        try:
+            result, usage = generate_json(
+                _verification_prompt(meeting, group), model=model, temperature=0.0,
+                max_output_tokens=16_384, max_attempts=1, tools=tools,
+                response_mime_type=None if tools else "application/json",
+                base_url=base_url, api_key=api_key, api_key_env=api_key_env,
+                json_schema=VERIFICATION_JSON_SCHEMA,
+            )
+            usages.append(usage)
+            grounding = usage.get("grounding") or {}
+            if tools and not grounding.get("grounding_chunks"):
+                errors.append(f"Verification batch {offset // 8 + 1} returned no search sources; corrections withheld")
+                continue
+            grounded_batches.append(grounding)
+            ids = {c["id"] for c in group}
+            batch_results = [r for r in _extract_verification_results(result) if str(r.get("id")) in ids]
+            if ids - {str(r.get("id")) for r in batch_results}:
+                errors.append(f"Verification batch {offset // 8 + 1} omitted requested identities")
+            corrections.extend(batch_results)
+        except (RuntimeError, OSError, httpx.HTTPError) as exc:
+            if getattr(exc, "generation_meta", None):
+                usages.append(exc.generation_meta)
+            errors.append(f"Verification batch {offset // 8 + 1}: {exc}")
+    meta = _combine_generation_attempts(usages)
     verification["results"] = corrections
-    if meta.get("grounding"):
-        verification["grounding"] = meta["grounding"]
+    verification["grounding_batches"] = grounded_batches
+    verification["search_query_count"] = sum(g.get("web_search_query_count", 0) for g in grounded_batches)
+    if errors:
+        verification["errors"] = errors
 
     candidates_by_id = {item["id"]: item for item in candidates}
     candidates_by_speaker = {item["speaker"]: item for item in candidates}
@@ -1546,7 +1589,7 @@ def _edit_distance(left: str, right: str) -> int:
 
 
 def _verification_candidates(named: list[dict[str, Any]], meeting: Meeting) -> list[dict[str, Any]]:
-    roster_keys = {_name_key(row.get("name", "")) for row in current_roster(meeting.event_date)}
+    roster_keys = {_anchor_key(row.get("name", "")) for row in current_roster(meeting.event_date)}
     roster_keys.discard("")
     by_speaker: dict[str, dict[str, Any]] = {}
     order: list[str] = []
@@ -1588,7 +1631,7 @@ def _needs_verification(speaker: str, roster_keys: set[str]) -> bool:
     base = _speaker_base_name(speaker)
     if len(base.split()) < 2:
         return False
-    return _name_key(base) not in roster_keys
+    return _anchor_key(base) not in roster_keys
 
 
 def _speaker_base_name(speaker: str) -> str:
@@ -1666,6 +1709,8 @@ Meeting:
 - time: {meeting.event_time or "unknown"}
 
 Rules:
+- Before changing a name, use Google Search to find a source matching both the person and organization. Recalled knowledge is not verified search evidence.
+- Include the supporting official page URLs in source_urls for every proposed change. If you cannot find supporting evidence, keep the original with low confidence.
 - Correct only spelling/name form for the same person supported by search evidence and the transcript context.
 - Do not replace a person with an organization, agency, or title.
 - Do not infer a different person who merely has a similar name.
@@ -1685,7 +1730,8 @@ Return JSON only:
       "corrected_speaker": "Member of the Public - Jean Ryan",
       "verified_name": "Jean Ryan",
       "confidence": "high",
-      "evidence": "Brief search-grounded reason, including role/org match when available"
+      "evidence": "Brief search-grounded reason, including role/org match when available",
+      "source_urls": ["https://example.org/official-staff-page"]
     }}
   ]
 }}

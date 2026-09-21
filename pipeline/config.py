@@ -16,20 +16,17 @@ LEGISTAR_BASE_URL = "https://webapi.legistar.com/v1/nyc"
 LEGISTAR_INSITE_BASE_URL = "https://legistar.council.nyc.gov"
 
 HTTP_TIMEOUT_SECONDS = 60
-# Voxtral sync transcription is $0.18/audio-hour; Mistral Batch API mode is
-# 50% off at $0.09/audio-hour. Batch mode is implemented and validated BUT the
-# batch backend silently ignores `diarize` (verified live 2026-07-06: identical
-# requests return speaker labels sync and speaker_id=null batch). Diarization
-# is a hard quality gate here, so production stays on sync until Mistral's
-# batch endpoint honors diarize — re-test with COUNCIL_VOXTRAL_MODE=batch on a
-# short clip before ever flipping the default.
+# September 21: batch again supports diarization. Paired 8-minute hearing and
+# roll-call clips preserved every word and timestamp; hearing labels matched
+# exactly, with minor roll-call clustering differences. Runtime validation
+# rejects speech with no speaker labels. Sync remains an explicit override.
 VOXTRAL_BATCH_USD_PER_AUDIO_HOUR = 0.09
 VOXTRAL_SYNC_USD_PER_AUDIO_HOUR = 0.18
-VOXTRAL_USD_PER_AUDIO_HOUR = VOXTRAL_SYNC_USD_PER_AUDIO_HOUR
+VOXTRAL_USD_PER_AUDIO_HOUR = VOXTRAL_BATCH_USD_PER_AUDIO_HOUR
 
 
 def voxtral_mode() -> str:
-    value = os.environ.get("COUNCIL_VOXTRAL_MODE", "sync").strip().lower()
+    value = os.environ.get("COUNCIL_VOXTRAL_MODE", "batch").strip().lower()
     if value in {"batch", "sync"}:
         return value
     return "sync"
@@ -39,25 +36,21 @@ def voxtral_usd_per_audio_hour(mode: str | None = None) -> float:
     return VOXTRAL_SYNC_USD_PER_AUDIO_HOUR if (mode or voxtral_mode()) == "sync" else VOXTRAL_BATCH_USD_PER_AUDIO_HOUR
 
 # --- Naming/chaptering LLM ---
-# Historical choice (2026-07-02): z-ai/glm-5.2 via OpenRouter beats Gemini 3.5 Flash on
-# same-person and strict-spelling on both benchmarks (see PLAN.md sections 8 and 12), and is
-# far steadier on the label->name mapping (no whole-speaker block collapse). Gemini stays one
-# env flag away: set COUNCIL_LLM_PROVIDER=gemini (or COUNCIL_LLM_MODEL=gemini-3.5-flash).
+# September review: Gemini 3.8 Flash scored 81/87 on the paired naming screen,
+# versus Pro 70 and GLM Flash 72, followed by production-prompt replay.
 GEMINI_LLM = {
     "provider": "gemini",
-    "model": "gemini-3.5-flash",
+    "model": "gemini-3.8-flash",
     "base_url": None,
     "api_key_env": "GOOGLE_API_KEY",
 }
 OPENROUTER_GLM_LLM = {
     "provider": "openrouter",
-    "model": "z-ai/glm-5.2",
+    "model": "z-ai/glm-5.3-flash",
     "base_url": "https://openrouter.ai/api/v1",
     "api_key_env": "OPENROUTER_API_KEY",
 }
-# Naming default (2026-07-03 LLM cost round, experiments/out/llm-cost-round.md):
-# DeepSeek V4 Pro ties GLM-5.2 on both naming gates (87.9/97.3) at ~1/3 the cost;
-# V4 Pro failed chaptering gates; September chaptering selection is below.
+# V4 Pro remains the recovery model for failed/incomplete naming responses.
 OPENROUTER_DEEPSEEK_LLM = {
     "provider": "openrouter",
     "model": "deepseek/deepseek-v4-pro",
@@ -66,8 +59,8 @@ OPENROUTER_DEEPSEEK_LLM = {
 }
 # September 2026 paired production replay: V4.1 Flash preserved witness
 # chapters and individual stated-meeting votes at $0.056 vs GLM-5.2's $0.347
-# across a 4.4h hearing and a 1.6h stated meeting. Keep naming on V4 Pro:
-# Flash scored 68/87 vs Pro's 70/87 on the paired speaker evidence screen.
+# across a 4.4h hearing and a 1.6h stated meeting. V4.1 Flash scored below
+# the naming candidates, so it is selected for chaptering only.
 OPENROUTER_CHAPTER_LLM = {
     "provider": "openrouter",
     "model": "deepseek/deepseek-v4.1-flash",
@@ -108,8 +101,8 @@ def _resolve_llm(default: dict[str, str | None], stage_prefix: str) -> dict[str,
 
 
 def naming_llm_config() -> dict[str, str | None]:
-    """Production speaker-naming LLM (default: DeepSeek V4 Pro via OpenRouter)."""
-    return _resolve_llm(OPENROUTER_DEEPSEEK_LLM, "COUNCIL_NAMING_LLM")
+    """Production speaker-naming LLM (default: native Gemini 3.8 Flash)."""
+    return _resolve_llm(GEMINI_LLM, "COUNCIL_NAMING_LLM")
 
 
 def chaptering_llm_config() -> dict[str, str | None]:

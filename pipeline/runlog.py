@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import os
 from pathlib import Path
 from typing import Any
 
@@ -19,10 +20,15 @@ def append_gemini_runlog(
     row: dict[str, Any] = {
         "created_at": utc_now_iso(),
         "stage": stage,
+        "purpose": os.environ.get("COUNCIL_USAGE_PURPOSE") or ("production" if os.environ.get("GITHUB_ACTIONS") == "true" else "ad_hoc"),
+        "github_run_id": os.environ.get("GITHUB_RUN_ID"),
         "model": model,
         "elapsed_sec": meta.get("elapsed_sec"),
         "usage": meta.get("usage", {}),
     }
+    for key in ("exact_cost_usd", "cost_source", "generation_id", "generation_ids", "attempts"):
+        if meta.get(key) is not None:
+            row[key] = meta[key]
     if meta.get("estimated_cost_usd") is not None:
         row["estimated_cost_usd"] = meta["estimated_cost_usd"]
     if meta.get("pricing") is not None:

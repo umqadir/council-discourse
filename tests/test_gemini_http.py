@@ -79,3 +79,53 @@ def test_reasoning_tokens_are_not_charged_twice_in_fallback_estimate():
     assert gemini._estimate_openrouter_usage_cost_usd(
         usage, {"prompt": "0.000001", "completion": "0.000002"}
     ) == pytest.approx(0.0021)
+
+
+def test_flash_lite_snapshot_uses_lite_price_not_flash_prefix():
+    assert gemini.estimate_usage_cost_usd('gemini-3.5-flash-lite-20260721',
+        {'promptTokenCount': 1_000_000, 'candidatesTokenCount': 1_000_000}) == 2.8
+
+
+def test_native_empty_response_retains_charged_usage(monkeypatch):
+    monkeypatch.setenv('GOOGLE_API_KEY', 'test-key')
+    monkeypatch.setattr(gemini, '_post_with_retry', lambda *a, **k: FakeResponse(
+        '{"usageMetadata":{"promptTokenCount":100},"candidates":[]}'))
+    with pytest.raises(RuntimeError, match='no response candidates') as error:
+        gemini.generate_json('test', model='gemini-3.8-flash', max_attempts=1)
+    assert error.value.generation_meta['usage']['promptTokenCount'] == 100
+
+
+def test_grounded_interaction_preserves_search_sources_and_billed_usage(monkeypatch):
+    monkeypatch.setenv('GOOGLE_API_KEY', 'test-key')
+    captured = {}
+    def post(url, **kwargs):
+        captured.update(url=url, **kwargs)
+        return FakeResponse(json.dumps({
+            'status': 'completed',
+            'usage': {'total_input_tokens': 1000, 'total_output_tokens': 100,
+                      'total_thought_tokens': 200, 'total_tokens': 1300},
+            'steps': [
+                {'type': 'google_search_call', 'arguments': {'queries': ['witness organization']}},
+                {'type': 'model_output', 'content': [{'type': 'text', 'text': '{"results": []}',
+                    'annotations': [{'type': 'url_citation', 'url': 'https://example.org/staff', 'title': 'Staff'}]}]},
+            ],
+        }))
+    monkeypatch.setattr(gemini, '_post_with_retry', post)
+    result, meta = gemini.generate_json('verify', model='gemini-3.8-flash', tools=[{'google_search': {}}])
+    assert result == {'results': []}
+    assert captured['url'].endswith('/interactions')
+    assert captured['json_payload']['store'] is False
+    assert meta['grounding']['grounding_chunks'][0]['uri'] == 'https://example.org/staff'
+    assert meta['grounding']['web_search_query_count'] == 1
+    assert meta['usage']['thoughtsTokenCount'] == 200
+    assert meta['estimated_cost_usd'] == gemini.estimate_usage_cost_usd('gemini-3.8-flash', meta['usage'])
+
+
+def test_incomplete_grounded_interaction_preserves_charge(monkeypatch):
+    monkeypatch.setenv('GOOGLE_API_KEY', 'test-key')
+    monkeypatch.setattr(gemini, '_post_with_retry', lambda *a, **k: FakeResponse(json.dumps({
+        'status': 'incomplete', 'usage': {'total_input_tokens': 100, 'total_thought_tokens': 50}, 'steps': [],
+    })))
+    with pytest.raises(RuntimeError) as exc:
+        gemini.generate_json('verify', model='gemini-3.8-flash', tools=[{'google_search': {}}])
+    assert exc.value.generation_meta['estimated_cost_usd'] > 0

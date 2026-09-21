@@ -23,18 +23,18 @@ def _resolve(args: list[str], stage: str = "naming") -> dict[str, str | None]:
     return _resolve_llm(build_parser().parse_args(args), stage=stage)
 
 
-def test_production_naming_default_is_deepseek_v4_pro() -> None:
+def test_production_naming_default_is_gemini_flash() -> None:
     config = naming_llm_config()
-    assert config["model"] == "deepseek/deepseek-v4-pro"
-    assert config["base_url"] == "https://openrouter.ai/api/v1"
-    assert config["api_key_env"] == "OPENROUTER_API_KEY"
+    assert config["model"] == "gemini-3.8-flash"
+    assert config["base_url"] is None
+    assert config["api_key_env"] == "GOOGLE_API_KEY"
 
 
-def test_name_speakers_default_routes_to_deepseek() -> None:
+def test_name_speakers_default_routes_to_gemini_flash() -> None:
     assert _resolve(["name-speakers", "--meeting-dir", "/tmp/x"]) == {
-        "model": "deepseek/deepseek-v4-pro",
-        "llm_base_url": "https://openrouter.ai/api/v1",
-        "llm_api_key_env": "OPENROUTER_API_KEY",
+        "model": "gemini-3.8-flash",
+        "llm_base_url": None,
+        "llm_api_key_env": None,
     }
 
 
@@ -47,7 +47,7 @@ def test_chapterize_default_routes_to_deepseek_flash() -> None:
 def test_gemini_is_one_flag_away(monkeypatch: pytest.MonkeyPatch) -> None:
     monkeypatch.setenv("COUNCIL_LLM_PROVIDER", "gemini")
     assert _resolve(["name-speakers", "--meeting-dir", "/tmp/x"]) == {
-        "model": "gemini-3.5-flash",
+        "model": "gemini-3.8-flash",
         "llm_base_url": None,
         "llm_api_key_env": None,
     }
@@ -55,8 +55,8 @@ def test_gemini_is_one_flag_away(monkeypatch: pytest.MonkeyPatch) -> None:
 
 def test_bare_gemini_model_uses_native_gemini_path() -> None:
     # A native Gemini id (no provider slug) must not be sent through OpenRouter.
-    assert _resolve(["name-speakers", "--meeting-dir", "/tmp/x", "--model", "gemini-3.5-flash"]) == {
-        "model": "gemini-3.5-flash",
+    assert _resolve(["name-speakers", "--meeting-dir", "/tmp/x", "--model", "gemini-3.8-flash"]) == {
+        "model": "gemini-3.8-flash",
         "llm_base_url": None,
         "llm_api_key_env": None,
     }

@@ -4,6 +4,7 @@ import json
 import os
 import re
 import time
+from datetime import date
 from typing import Any
 
 import httpx
@@ -14,10 +15,11 @@ from .utils import load_dotenv
 API_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key}"
 OPENROUTER_MODELS_URL = "https://openrouter.ai/api/v1/models"
 OPENROUTER_GENERATION_URL = "https://openrouter.ai/api/v1/generation"
-DEFAULT_MODEL = "gemini-3.5-flash"
+DEFAULT_MODEL = "gemini-3.8-flash"
 GEMINI_PRICING_SOURCE = "https://ai.google.dev/gemini-api/docs/pricing"
 GEMINI_PRICING_PER_MILLION_USD = {
     "gemini-3.5-flash": {"input": 1.50, "output": 9.00},
+    "gemini-3.5-flash-lite": {"input": 0.30, "output": 2.50},
     "gemini-3.1-flash-lite": {"input": 0.25, "output": 1.50},
 }
 _OPENROUTER_PRICING_CACHE: dict[str, dict[str, Any]] | None = None
@@ -77,6 +79,10 @@ def generate_json(
             api_key_env=api_key_env,
             json_schema=json_schema,
         )
+    if model == "gemini-3.8-flash" and tools == [{"google_search": {}}]:
+        return _generate_grounded_interaction(
+            prompt, model, max_output_tokens, temperature, timeout_seconds, max_attempts,
+        )
     return _generate_json_gemini(
         prompt=prompt,
         model=model,
@@ -88,6 +94,59 @@ def generate_json(
         tools=tools,
         response_mime_type=response_mime_type,
     )
+
+
+def _generate_grounded_interaction(prompt, model, max_output_tokens, temperature,
+                                   timeout_seconds, max_attempts):
+    """Use the current Search API, retaining actual search steps and citations."""
+    key = os.environ.get("GOOGLE_API_KEY")
+    if not key:
+        raise RuntimeError("GOOGLE_API_KEY is required for Gemini stages")
+    started = time.monotonic()
+    response = _post_with_retry(
+        "https://generativelanguage.googleapis.com/v1beta/interactions",
+        json_payload={"model": model, "input": prompt, "store": False,
+                      "tools": [{"type": "google_search"}],
+                      "generation_config": {"max_output_tokens": max_output_tokens,
+                                            "temperature": temperature}},
+        headers={"x-goog-api-key": key}, timeout_seconds=timeout_seconds,
+        max_attempts=max_attempts,
+    )
+    body = response.json()
+    if response.status_code != 200:
+        raise RuntimeError(f"Gemini grounded verification failed: HTTP {response.status_code}")
+    raw_usage = body.get("usage") or {}
+    usage = {key: raw_usage.get(source, 0) for key, source in {
+        "promptTokenCount": "total_input_tokens", "candidatesTokenCount": "total_output_tokens",
+        "thoughtsTokenCount": "total_thought_tokens", "totalTokenCount": "total_tokens",
+        "cachedContentTokenCount": "total_cached_tokens",
+    }.items()}
+    texts, queries, citations = [], [], []
+    for step in body.get("steps", []):
+        if step.get("type") == "google_search_call":
+            queries.extend(step.get("arguments", {}).get("queries", []))
+        if step.get("type") == "model_output":
+            for part in step.get("content", []):
+                if part.get("type") == "text":
+                    texts.append(part.get("text", ""))
+                    citations.extend({"uri": a["url"], "title": a.get("title")}
+                                     for a in part.get("annotations", [])
+                                     if a.get("type") == "url_citation" and a.get("url"))
+    sources = list({c["uri"]: c for c in citations}.values())
+    meta = {"provider": "gemini", "model": model, "api": "interactions",
+            "elapsed_sec": round(time.monotonic() - started, 3), "usage": usage,
+            "estimated_cost_usd": estimate_usage_cost_usd(model, usage),
+            "pricing": pricing_details(model),
+            "grounding": {"web_search_queries": queries, "web_search_query_count": len(queries),
+                          "grounding_chunks": sources, "grounding_chunk_count": len(sources)}}
+    try:
+        if body.get("status") != "completed":
+            raise ValueError(f"interaction status: {body.get('status')}")
+        return _parse_json_text("\n".join(texts)), meta
+    except Exception as exc:
+        error = RuntimeError(f"Gemini grounded verification returned no complete JSON: {exc}")
+        error.generation_meta = meta
+        raise error from exc
 
 
 def _generate_json_gemini(
@@ -176,11 +235,17 @@ def _generate_json_gemini(
             meta["estimated_cost_usd"] = estimated_cost
             meta["pricing"] = pricing_details(model)
 
-        candidate = body["candidates"][0]
+        candidates = body.get("candidates") or []
+        if not candidates:
+            error = RuntimeError(f"Gemini {model} returned no response candidates")
+            error.generation_meta = _combine_generation_attempts([*attempts, meta])
+            raise error
+        candidate = candidates[0]
         grounding = candidate.get("groundingMetadata")
         if grounding:
             meta["grounding"] = _compact_grounding_metadata(grounding)
-        text = candidate["content"]["parts"][0]["text"]
+        text = "\n".join(part.get("text", "") for part in candidate.get("content", {}).get("parts", [])
+                         if not part.get("thought"))
         last_text = text
         try:
             parsed = _parse_json_text(text)
@@ -189,10 +254,12 @@ def _generate_json_gemini(
             attempts.append(meta)
             if attempt >= max_attempts:
                 combined = _combine_generation_attempts(attempts)
-                raise RuntimeError(
+                error = RuntimeError(
                     f"Gemini {model} returned unparsable JSON after {attempt} attempt(s): "
                     f"{exc}; response excerpt: {last_text[:500]}"
-                ) from exc
+                )
+                error.generation_meta = combined
+                raise error from exc
             continue
         attempts.append(meta)
         return parsed, _combine_generation_attempts(attempts)
@@ -320,10 +387,12 @@ def _generate_json_openai_compatible(
             meta["parse_error"] = str(exc)
             attempts.append(meta)
             if attempt >= max_attempts:
-                raise RuntimeError(
+                error = RuntimeError(
                     f"OpenAI-compatible {model} returned unparsable JSON after {attempt} attempt(s): "
                     f"{exc}; response excerpt: {last_text[:500]}"
-                ) from exc
+                )
+                error.generation_meta = _combine_generation_attempts(attempts)
+                raise error from exc
             continue
         attempts.append(meta)
         return parsed, _combine_generation_attempts(attempts)
@@ -601,9 +670,12 @@ def _float_or_none(value: Any) -> float | None:
 
 def _pricing_for_model(model: str) -> dict[str, float] | None:
     normalized = model.rsplit("/", 1)[-1]
+    if normalized == "gemini-3.8-flash" or normalized.startswith("gemini-3.8-flash-"):
+        # Published introductory rates expire on 2026-12-31.
+        return {"input": 0.75, "output": 3.75} if date.today() < date(2027, 1, 1) else {"input": 1.50, "output": 7.50}
     if normalized in GEMINI_PRICING_PER_MILLION_USD:
         return GEMINI_PRICING_PER_MILLION_USD[normalized]
-    for prefix, pricing in GEMINI_PRICING_PER_MILLION_USD.items():
+    for prefix, pricing in sorted(GEMINI_PRICING_PER_MILLION_USD.items(), key=lambda item: len(item[0]), reverse=True):
         if normalized.startswith(prefix):
             return pricing
     return None

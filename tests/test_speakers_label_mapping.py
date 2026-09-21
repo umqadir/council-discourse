@@ -257,3 +257,42 @@ def test_name_speakers_keeps_output_when_verification_fails(tmp_path, monkeypatc
     meta = read_json(tmp_path / "name-speakers-meta.json")
     assert meta["verified"] is False
     assert "verification unavailable" in meta["verification_error"]
+
+
+def test_naming_response_failure_recovers_and_keeps_both_costs(monkeypatch):
+    from pipeline import speakers
+    calls = []
+    def generate(prompt, model, **kwargs):
+        calls.append(model)
+        if len(calls) > 1:
+            assert kwargs['api_key_env'] == 'OPENROUTER_API_KEY'
+            assert kwargs['base_url'] == 'https://openrouter.ai/api/v1'
+        if len(calls) == 1:
+            return {'labels': []}, {'model': model, 'estimated_cost_usd': 0.002, 'exact_cost_usd': 0.002}
+        return {'labels': [{'label': 'a', 'name': 'Council Staff'}]}, {'model': model, 'estimated_cost_usd': 0.03, 'exact_cost_usd': 0.03}
+    monkeypatch.setattr(speakers, 'generate_json', generate)
+    result, meta = speakers._generate_label_mapping('evidence', ['a'], model='gemini-3.8-flash', base_url=None)
+    assert calls == ['gemini-3.8-flash', 'deepseek/deepseek-v4-pro']
+    assert meta['exact_cost_usd'] == 0.032
+    assert meta['fallback_from'] == calls[0]
+    assert result['labels'][0]['name'] == 'Council Staff'
+
+
+def test_verification_requires_search_sources_and_keeps_usage(monkeypatch, tmp_path):
+    from pipeline import speakers as s
+    monkeypatch.setattr(s, '_spelling_anchor_sets', lambda m: ([], [], {}))
+    monkeypatch.setattr(s, '_verification_candidates', lambda *a: [
+        {'id':'v001','speaker':'Member of the Public - Jann Doe'}])
+    monkeypatch.setattr(s, '_apply_candidate_org_anchors', lambda *a: [])
+    payload = {'results':[{'id':'v001','corrected_speaker':'Member of the Public - Jane Doe','confidence':'high'}]}
+    meta = {'estimated_cost_usd':.01}
+    monkeypatch.setattr(s, 'generate_json', lambda *a, **k: (payload, dict(meta)))
+    meeting = Meeting(meeting_key='m1', meeting_dir=tmp_path)
+    named = [{'speaker':'Member of the Public - Jann Doe'}]
+    result, usage = s._verify_non_roster_speakers(named, meeting)
+    assert named[0]['speaker'].endswith('Jann Doe')
+    assert result['errors'] and usage['estimated_cost_usd'] == .01
+    meta['grounding'] = {'grounding_chunks':[{'uri':'https://example.org/staff'}]}
+    result, usage = s._verify_non_roster_speakers(named, meeting)
+    assert named[0]['speaker'].endswith('Jane Doe')
+    assert not result.get('errors')

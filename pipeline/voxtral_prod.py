@@ -210,9 +210,11 @@ def _transcribe_voxtral_parts_resumable(
                 time.sleep(inter_chunk_delay)
             result, request_meta = request_func(Path(part["path"]), model, context_bias)
             request_meta["reused"] = False
+            _validate_voxtral_diarization(result)
             write_json(raw_path, result)
             fresh_requests += 1
 
+        _validate_voxtral_diarization(result)
         offset = float(part.get("offset_sec") or 0)
         speaker_suffix = str(part.get("speaker_suffix") or "")
         part_utterances, part_labeled, part_segments = transcribe_mod._voxtral_result_to_rows(
@@ -315,6 +317,12 @@ def _read_valid_voxtral_part(path: Path) -> dict[str, Any] | None:
     return result if isinstance(result.get("segments"), list) else None
 
 
+def _validate_voxtral_diarization(result: dict[str, Any]) -> None:
+    spoken = [s for s in result.get("segments", []) if str(s.get("text") or "").strip()]
+    if spoken and not any(s.get("speaker_id") is not None for s in spoken):
+        raise RuntimeError("Voxtral returned speech without speaker labels; refusing to publish undiarized audio")
+
+
 def _run_voxtral_batch_job(
     meeting_dir: Path,
     parts: list[dict[str, Any]],
@@ -390,7 +398,7 @@ def _create_voxtral_batch_job(
         audio_file_ids[custom_id] = _upload_mistral_file(
             Path(part["path"]),
             key,
-            purpose="batch",
+            purpose="audio",
             mimetype=transcribe_mod._mime_type(Path(part["path"])),
         )
 
@@ -541,6 +549,7 @@ def _write_completed_batch_parts(
         result = _batch_row_transcription_result(row)
         if result is None:
             continue
+        _validate_voxtral_diarization(result)
         raw_path = meeting_dir / f"voxtral-transcript-part-{int(parts_by_id[custom_id]['index'])}.json"
         write_json(raw_path, result)
 

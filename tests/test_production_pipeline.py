@@ -395,9 +395,9 @@ def test_process_one_uses_configured_production_llm(tmp_path: Path, monkeypatch)
 
     assert captured == [
         {
-            "model": "deepseek/deepseek-v4-pro",
-            "llm_base_url": "https://openrouter.ai/api/v1",
-            "llm_api_key_env": "OPENROUTER_API_KEY",
+            "model": "gemini-3.8-flash",
+            "llm_base_url": None,
+            "llm_api_key_env": None,
         },
         {
             "model": "deepseek/deepseek-v4.1-flash",

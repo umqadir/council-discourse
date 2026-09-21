@@ -221,19 +221,16 @@ def test_completed_batch_merges_part_files_like_sync_path(
     assert read_json(meeting_dir / "voxtral-transcript-part-2.json") == _transcript("Two.", speaker="speaker_b")
 
 
-def test_voxtral_mode_default_sync_until_batch_diarizes(
+def test_voxtral_mode_defaults_to_validated_batch(
     tmp_path: Path,
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:
-    # Cost-regression pin, inverted with cause: Mistral's batch endpoint would
-    # halve ASR cost but silently drops diarization (verified live 2026-07-06),
-    # and speaker labels are a hard quality gate. Sync stays the default; the
-    # cost constant must reflect the rate we actually pay. If this test is
-    # being changed to make batch the default, first verify diarize works on
-    # the batch endpoint with a real clip.
+    # Revalidated 2026-09-21 on paired hearing and roll-call clips: batch now
+    # preserves diarization, unlike the July endpoint. Runtime gate below
+    # prevents the old silent failure from reaching publication.
     monkeypatch.delenv("COUNCIL_VOXTRAL_MODE", raising=False)
-    assert voxtral_mode() == "sync"
-    assert VOXTRAL_USD_PER_AUDIO_HOUR == 0.18
+    assert voxtral_mode() == "batch"
+    assert VOXTRAL_USD_PER_AUDIO_HOUR == 0.09
     monkeypatch.setenv("COUNCIL_VOXTRAL_MODE", "batch")
     assert voxtral_mode() == "batch"
     monkeypatch.setattr("pipeline.transcribe.current_roster", lambda _date: [])
@@ -305,3 +302,13 @@ def test_process_one_batch_pending_is_not_failure(
     assert "job-1" in result["note"]
     assert row["process_attempts"] == 2
     assert row["last_error"] is None
+
+
+def test_undiarized_batch_output_is_rejected_before_checkpoint(tmp_path, monkeypatch):
+    from pipeline import voxtral_prod as v
+    parts = [_part(tmp_path / 'audio.m4a')]
+    monkeypatch.setattr(v, '_batch_output_rows', lambda *a: [
+        {'custom_id':'1','response':{'status_code':200,'body':_transcript('Speech.', speaker=None)}}])
+    with pytest.raises(RuntimeError, match='without speaker labels'):
+        v._write_completed_batch_parts(tmp_path, parts, {}, 'test-key')
+    assert not (tmp_path / 'voxtral-transcript-part-1.json').exists()

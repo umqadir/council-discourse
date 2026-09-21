@@ -99,6 +99,16 @@ jobs:
             exit 0
           fi
 
+      - name: Refresh and validate dated Council membership
+        if: ${{ steps.breaker.outputs.paused != 'true' }}
+        run: |
+          uv run python - <<'PYROSTER'
+          from datetime import date
+          from pipeline.roster import current_roster
+          rows = current_roster(date.today().isoformat(), force_refresh=True)
+          print(f"Validated {len(rows)} dated Council district memberships")
+          PYROSTER
+
       - name: Preflight API checks
         if: ${{ steps.breaker.outputs.paused != 'true' }}
         env:
@@ -178,7 +188,10 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: registry-state
-          path: data/registry.db
+          path: |
+            data/registry.db
+            data/council-members-1999-present.csv
+            data/council-memberships.json
           if-no-files-found: error
           retention-days: 7
           overwrite: true
