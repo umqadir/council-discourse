@@ -1,0 +1,941 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 83.1,
+      "id": "001",
+      "slug": "chair-louis-opens-meeting-and-explains-remote-public-testimony-process",
+      "start_sec": 0.0,
+      "summary": "Chair Farah N. Louis announces the meeting is hybrid, explains how the public can testify in person or via Zoom, directs remote registration to the Council website, and notes the two-minute limit and written testimony email.",
+      "title": "Chair Louis opens meeting and explains remote public testimony process",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 0.0,
+          "text": "The meeting is being held in hybrid format."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2.2,
+          "text": "Members of the public who wish to testify may testify in person or via Zoom."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 6.5,
+          "text": "Members of the public wishing to testify remotely may register by visiting the New York City Council website at www.council.nyc.gov backslash land use."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 16.8,
+          "text": "To sign up,"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 18.1,
+          "text": "Or for those of you here in person, please see one of the sergeant at arms to prepare and submit a speaker card."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 26.2,
+          "text": "Members of the public may also view a live stream broadcast of this meeting at the council website."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 33.5,
+          "text": "When you are called to testify before the subcommittee."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 36.5,
+          "text": "If you are joining us remotely, you will remain muted until recognized by myself to speak."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 41.7,
+          "text": "When you are recognized, your microphone will be unmuted."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 44.6,
+          "text": "We will limit public testimony to two minutes per witness."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 48.0,
+          "text": "If you have additional testimony that you would like to submit,"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 53.7,
+          "text": "to the subcommittee, you would like the subcommittee to consider, or if you have written testimony that you would like to submit instead of appearing in person, please email it to landyoustestimony at council.nyc.gov."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 65.4,
+          "text": "Written testimony may be submitted up to three days after the hearing is closed."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 69.7,
+          "text": "Please indicate the LU number and project name in the subject line of your email."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 75.8,
+          "text": "We request that witnesses joining us remotely remain in the meeting until excused by the chair, as council members may have questions."
+        }
+      ]
+    },
+    {
+      "end_sec": 113.4,
+      "id": "002",
+      "slug": "chair-louis-outlines-decorum-and-witness-table-rules",
+      "start_sec": 83.1,
+      "summary": "Chair Louis states that decorum must be observed, members of the public may not speak unless testifying, the witness table is reserved for called witnesses, and no video or photography is allowed from the witness table.",
+      "title": "Chair Louis outlines decorum and witness table rules",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 83.1,
+          "text": "Lastly, for everyone attending today's meeting, this is a government proceeding and decorum must be observed at all times."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 90.1,
+          "text": "of the public or acts not to speak during the meeting unless you are testifying."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 94.3,
+          "text": "The witness table is reserved for people who are called to testify and no video recording or photography is allowed from the witness table."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 102.2,
+          "text": "Further, members of the public may not present audio or video recordings as testimony, but may submit transcripts of such recordings to the sergeant at arms for inclusion in the hearing record."
+        }
+      ]
+    },
+    {
+      "end_sec": 162.1,
+      "id": "003",
+      "slug": "chair-opens-public-hearing-on-lu-141-sidewalk-caf-application",
+      "start_sec": 113.4,
+      "summary": "Chair Louis opens the public hearing on LU 141, application D 2550162086 SWQ by Tiro de Esquina NYC Corp, for four tables with attached bench seating outside a restaurant in Corona, Queens. She notes Council Member Thomas-Henry has no remarks.",
+      "title": "Chair opens public hearing on LU 141 sidewalk caf\u00e9 application",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 113.4,
+          "text": "I will now open the public hearing on LU 141 relating to the Sidewalk Cafe application 5 by Pedro de Esquina, NYC Corp, and Councilmember Thomas Henry's district."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 124.9,
+          "text": "Applicant is seeking to place four tables with attached bench seating."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 129.2,
+          "text": "Outside the front of its restaurant, which is located in Corona, Queens."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 133.8,
+          "text": "For anyone wishing to testify regarding this proposal remotely, if you have not already done so, you must register online by visiting the council's website at council.nyc.gov backslash land use."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 145.1,
+          "text": "For anyone with us in person, please see one of the sergeant at arms to submit a speaker card."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 149.9,
+          "text": "If you would prefer to submit written testimony, you can always do so by emailing it to land use testimony at council.nyc.gov."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 158.6,
+          "text": "Councilmember Thomas Henry does not have remarks at this time."
+        }
+      ]
+    },
+    {
+      "end_sec": 236.904,
+      "id": "004",
+      "slug": "chair-calls-applicant-christian-zuluaga-and-administers-oath",
+      "start_sec": 162.1,
+      "summary": "Chair Louis calls the applicant panel consisting of Christian Zuluaga, apologizes for mispronouncing his name, and asks council staff to administer the oath. Staff asks Zuluaga to raise his right hand, state his name, and swear to tell the truth.",
+      "title": "Chair calls applicant Christian Zuluaga and administers oath",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 162.1,
+          "text": "I will now call the applicant panel for this proposal, which consists of"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 166.3,
+          "text": "Krishtehan Zulwanga."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 170.0,
+          "text": "Sorry if I butchered your name."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 171.6,
+          "text": "Council, could you please administer the oath?"
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 182.38,
+          "text": "Hello, can you hear me?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 184.58,
+          "text": "Yes, good morning."
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 187.18,
+          "text": "Good morning, how are you?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 188.78,
+          "text": "Hopefully you're not currently moving because I'm going to ask you to raise your right hand and state your name for the record."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 196.58,
+          "text": "Can you state your name for the record?"
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 199.58,
+          "text": "Christian Zuluaga."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 201.08,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 201.38,
+          "text": "Do you swear to tell the truth and nothing but the truth in your testimony this morning and in response to council member questions?"
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 208.18,
+          "text": "Yes, I..."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 209.38,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 211.08,
+          "text": "You may make your statement."
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 215.404,
+          "text": "Yes, I'm going to tell the absolute truth, the statements being the absolute truth."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 224.004,
+          "text": "No, no, thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 225.304,
+          "text": "You can lower your hand and you've already sworn."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 230.404,
+          "text": "Do you have anything to testimony that you would like to share with us today?"
+        }
+      ]
+    },
+    {
+      "end_sec": 296.248,
+      "id": "005",
+      "slug": "applicant-zuluaga-presents-restaurant-and-outdoor-caf-plan",
+      "start_sec": 236.904,
+      "summary": "Christian Zuluaga says the application is to accommodate a seating area around the location. He describes the business as a restaurant-bar concept and family-friendly place selling food and beverages, and says the outdoor caf\u00e9 tables will accommodate business operation hours.",
+      "title": "Applicant Zuluaga presents restaurant and outdoor caf\u00e9 plan",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 236.904,
+          "text": "Well, basically, yeah, so we had to submit the application to be able to accommodate some seating area around our"
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 250.604,
+          "text": "location."
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 251.504,
+          "text": "Our cafe is a restaurant."
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 256.204,
+          "text": "Restaurant bar concept."
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 258.704,
+          "text": "It's a family joinable place where we offer and sell"
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 266.204,
+          "text": "food, beverage, liquid, and different type of products within a restaurant area."
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 275.104,
+          "text": "So the concept of the cafe tables outside exterior side of the building will just accommodate our business operation hours."
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 286.904,
+          "text": "And as I say, that's pretty much it."
+        }
+      ]
+    },
+    {
+      "end_sec": 410.948,
+      "id": "006",
+      "slug": "thomas-henry-questions-applicant-on-business-entity-managing-caf",
+      "start_sec": 296.248,
+      "summary": "Chair Louis thanks the applicant and recognizes Council Member Thomas-Henry. Thomas-Henry asks for clarity on the entity managing outdoor dining, noting confusion between Tiro de Esquina and Cali Tajadas. Zuluaga explains the corporation started as Cali Tajadas 2 Corp and switched to Tiro de Esquina NYC Corp for a sports-bar concept.",
+      "title": "Thomas-Henry questions applicant on business entity managing caf\u00e9",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 296.248,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 296.648,
+          "text": "I don't have any questions for the applicant."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 298.648,
+          "text": "I will now recognize Councilmember Thomas Henry for questions."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 303.848,
+          "text": "Good afternoon."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 304.648,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 305.248,
+          "text": "How are you doing?"
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 308.048,
+          "text": "My first question is in regards to just getting clarity on the entity that will be managing"
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 317.448,
+          "text": "this outside dining, because there is, I have Tiro de Esquina and then DBA"
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 325.348,
+          "text": "Calie Tejadas, and the way that business is set up, it appears that there's almost like two or three different entities or like,"
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 334.748,
+          "text": "What part of the business do you control and operate that will be managing the cafe?"
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 343.448,
+          "text": "Okay, so basically I'll tell you a little story about the business."
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 347.748,
+          "text": "So we start the corporation as Cali Tejadas 2 Corp."
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 354.748,
+          "text": "The concept of the cafe was to start selling some bakery concepts and expanding the business on the bakery side."
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 365.548,
+          "text": "Unfortunately, the concept did not work."
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 369.348,
+          "text": "So we then switched the corporation name to T-Row the Skinner NYC Corp."
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 378.248,
+          "text": "As changing the concept of the restaurant to promote"
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 384.248,
+          "text": "this past World Cup, promoting to the football, the soccer, the sports concept."
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 394.148,
+          "text": "So we began as Cali Tejadas, but then the corporation names changed to Tiro de Esquina."
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 403.248,
+          "text": "So that's probably why the confusion or the name is getting mixed up together."
+        }
+      ]
+    },
+    {
+      "end_sec": 448.7,
+      "id": "007",
+      "slug": "thomas-henry-asks-about-hours-of-operation",
+      "start_sec": 410.948,
+      "summary": "Council Member Thomas-Henry asks for the current hours of operation. Zuluaga says the restaurant is open from noon to midnight, closed on Mondays, and open Tuesday through Sunday from noon to midnight.",
+      "title": "Thomas-Henry asks about hours of operation",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 410.948,
+          "text": "Okay, thank you."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 411.748,
+          "text": "And what are the current hours of operation?"
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 417.048,
+          "text": "Coverage hour for operation."
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 419.048,
+          "text": "We are open from 11 a.m."
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 425.448,
+          "text": "12 noon to 12 midnight."
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 432.3,
+          "text": "We are closed on Mondays."
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 438.5,
+          "text": "But every Tuesday to Sunday, we are open from noon to midnight, pretty much."
+        }
+      ]
+    },
+    {
+      "end_sec": 496.5,
+      "id": "008",
+      "slug": "thomas-henry-asks-whether-sports-bar-activity-is-indoors",
+      "start_sec": 448.7,
+      "summary": "Thomas-Henry asks whether most activity is indoors watching sports. Zuluaga confirms the business has a giant screen, attracted World Cup crowds, and that patrons watch sports indoors.",
+      "title": "Thomas-Henry asks whether sports bar activity is indoors",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 448.7,
+          "text": "And is it safe to assume as a sports bar, most of the activity is indoors and folks are inside watching different sports?"
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 458.8,
+          "text": "That is correct."
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 459.5,
+          "text": "So we have a giant screen, like a full screen to attract people seeking to see any kind of a sport."
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 471.4,
+          "text": "As I say, past World Cup, we were with good amount of neighborhoods, with neighbors, I'm sorry, and people coming from different places just to join and be able to see sport."
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 488.2,
+          "text": "Through the TVs or through the main concert is just watching the sports indoors."
+        }
+      ]
+    },
+    {
+      "end_sec": 564.6,
+      "id": "009",
+      "slug": "thomas-henry-asks-who-will-use-outdoor-dining-space",
+      "start_sec": 496.5,
+      "summary": "Thomas-Henry asks who the outdoor dining patrons will be. Zuluaga describes soccer-themed benches and tables outside where kids can eat with parents and play with a small soccer ball on the table surface, not outside the table.",
+      "title": "Thomas-Henry asks who will use outdoor dining space",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 496.5,
+          "text": "So I guess my question in that regard is, what do you anticipate as the patrons who would be using the outdoor dining space?"
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 505.0,
+          "text": "Like traditionally, some people may choose to eat outside, but since you guys are mainly a sports bar where people come to watch the games, what do you anticipate?"
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 515.5,
+          "text": "Who will be outside?"
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 517.4,
+          "text": "Would it be?"
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 520.0,
+          "text": "So we have some like a soccer kind of benches tables outside where kids go and have the opportunity to have a table, eat with their parents."
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 534.9,
+          "text": "But at the same time, in the lower piece of the table, there's like a soccer, a small field within the table itself where they can"
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 547.3,
+          "text": "actually play with a soccer ball by the foots."
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 552.8,
+          "text": "On the table, they just ate and shared."
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 557.1,
+          "text": "food, but it's just within the table itself."
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 560.9,
+          "text": "It is not outside of the table."
+        }
+      ]
+    },
+    {
+      "end_sec": 598.0,
+      "id": "010",
+      "slug": "thomas-henry-asks-if-outdoor-setup-will-remain-same",
+      "start_sec": 564.6,
+      "summary": "Thomas-Henry asks whether the current colorful benches and turf setup will continue or be enclosed. Zuluaga says it will remain the same setup and will be removed in winter because it is fully exposed to snow and weather.",
+      "title": "Thomas-Henry asks if outdoor setup will remain same",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 564.6,
+          "text": "Got it."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 565.0,
+          "text": "And I have seen the setup."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 566.3,
+          "text": "So that would be the same setup, what you have out there now with the colorful benches and the turf would be the same setup?"
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 575.6,
+          "text": "That is correct."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 576.7,
+          "text": "Or would you enclose it or would it continue to be set up the way it is?"
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 582.1,
+          "text": "It will continue to be set up the way it is."
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 584.6,
+          "text": "Unfortunately, by when the winter comes in, we're just going to have to remove it because it's fully exposed."
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 592.4,
+          "text": "Otherwise, it's going to be covered with snow or other exterior factors."
+        }
+      ]
+    },
+    {
+      "end_sec": 668.7,
+      "id": "011",
+      "slug": "thomas-henry-questions-applicant-on-noise-complaints-and-neighbor-outreach",
+      "start_sec": 598.0,
+      "summary": "Thomas-Henry notes precinct noise complaints and asks whether the applicant contacted neighbors on the avenue. Zuluaga says they spoke with neighbors, that noise comes from a second-floor event room with Zumba or dancing, that it is not daily, and that they offered to enclose windows.",
+      "title": "Thomas-Henry questions applicant on noise complaints and neighbor outreach",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 598.0,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 598.6,
+          "text": "So we have received some, well, we did check with the local precinct, and there have been some noise complaints."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 605.7,
+          "text": "Have you guys made any attempt to contact the neighbors off of a hunt on the app?"
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 610.0,
+          "text": "avenue, not on 104th Street side, but the homes on the avenue to let them know that you're interested in making."
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 619.1,
+          "text": "Yes, and we actually had come together with the neighbors and talked to them around it, and especially the noise"
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 630.4,
+          "text": "of lately complaints that have happened is because in the second floor,"
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 635.2,
+          "text": "In the second floor, there's an event room."
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 638.3,
+          "text": "And there's some occasion where there's a Zumba class or dancing, but it doesn't interfere within operational hours."
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 649.3,
+          "text": "We have provided with options to fully enclose the windows, but it's just not happening as an everyday routine."
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 660.6,
+          "text": "It's just events from time to time that are taking place on the second level."
+        }
+      ]
+    },
+    {
+      "end_sec": 762.3,
+      "id": "012",
+      "slug": "thomas-henry-asks-about-security-at-restaurant",
+      "start_sec": 668.7,
+      "summary": "Thomas-Henry asks whether security is present while open. Zuluaga says there is no front security guard, notes a separate rear bar called Sophia's Bar that causes confusion, and says the family restaurant does not need a security guard at the door.",
+      "title": "Thomas-Henry asks about security at restaurant",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 668.7,
+          "text": "Do you have security while you're open?"
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 673.5,
+          "text": "We don't have a front security man in the outbeat by our operation hours."
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 681.3,
+          "text": "But there's actually, so there's actually like the building itself, I'm sure you have seen it, there's actually a rear side of the building that operates as a full bar, Sophia's Bar,"
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 697.0,
+          "text": "that has nothing to do with us."
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 700.0,
+          "text": "Having said, they do offer, and this is something that is highly affect our business since day one, because they do a different type of operation that"
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 714.8,
+          "text": "I don't have to tell the story or anything, but"
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 720.1,
+          "text": "That business alone had been actually front-faced by our neighbors, and most neighbors in our area just confused of which business are we in."
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 734.1,
+          "text": "Being that said, our business main door is on the other side of the building."
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 744.1,
+          "text": "But we, as being as a restaurant, concept, family, openable, kids-friendly scenario, we actually haven't"
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 757.2,
+          "text": "need a security guard in front of the door."
+        }
+      ]
+    },
+    {
+      "end_sec": 779.4,
+      "id": "013",
+      "slug": "chair-louis-asks-whether-sophia-s-bar-uses-outdoor-seating",
+      "start_sec": 762.3,
+      "summary": "Chair Louis asks whether Sophia's Bar ever uses the outdoor tables. Zuluaga says none of their tables are used by Sophia's Bar, which has a separate entrance and is totally separate from the business.",
+      "title": "Chair Louis asks whether Sophia's Bar uses outdoor seating",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 762.3,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 762.7,
+          "text": "And does Sophia's Bar use your tables at all, ever?"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 766.2,
+          "text": "The outdoor seating?"
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 767.5,
+          "text": "No, none."
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 769.0,
+          "text": "None of our tables."
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 770.0,
+          "text": "They have a separate entrance inside the business."
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 774.4,
+          "text": "They totally separate from our business."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 778.9,
+          "text": "Okay."
+        }
+      ]
+    },
+    {
+      "end_sec": 796.6,
+      "id": "014",
+      "slug": "chair-thanks-and-excuses-applicant-panel",
+      "start_sec": 779.4,
+      "summary": "Chair Louis thanks Council Member Thomas-Henry and the applicant, excuses the panel, and thanks Christian Zuluaga for making time to testify.",
+      "title": "Chair thanks and excuses applicant panel",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 779.4,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 780.0,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 782.1,
+          "text": "Thank you, Councilmember."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 785.5,
+          "text": "All right, this panel is excused."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 787.8,
+          "text": "Thank you so much for making time to testify."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 790.0,
+          "text": "Today, we appreciate it."
+        },
+        {
+          "speaker": "Member of the Public - Christian Zuluaga",
+          "t_sec": 794.5,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 795.2,
+          "text": "You're welcome."
+        }
+      ]
+    },
+    {
+      "end_sec": 824.7,
+      "id": "015",
+      "slug": "chair-closes-public-hearing-on-lu-141-after-no-public-testimony",
+      "start_sec": 796.6,
+      "summary": "Chair Louis makes a last call for remote and in-person public testimony. No members of the public wish to testify, so she closes the public hearing on LU 141 relating to the sidewalk caf\u00e9 application by Tiro de Esquina NYC Corp.",
+      "title": "Chair closes public hearing on LU 141 after no public testimony",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 796.6,
+          "text": "This is the last call."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 798.6,
+          "text": "If there are any members of the public who wish to testify regarding this proposal remotely, please press the raise hand button now, or if you are in person, please identify yourself to one of the sergeant at arms."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 809.9,
+          "text": "This is the last call."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 813.3,
+          "text": "Being that there are no members of the public who wish to testify regarding LU-141 relating to the sidewalk cafe application by Teto de Esquina, NYC Corp, the public hearing is now closed."
+        }
+      ]
+    },
+    {
+      "end_sec": 827.9,
+      "id": "016",
+      "slug": "chair-lays-over-lu-141",
+      "start_sec": 824.7,
+      "summary": "Chair Louis states that the item is laid over.",
+      "title": "Chair lays over LU 141",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 824.7,
+          "text": "This item is laid over."
+        }
+      ]
+    },
+    {
+      "end_sec": 852.096,
+      "id": "017",
+      "slug": "chair-concludes-business-and-adjourns-meeting",
+      "start_sec": 827.9,
+      "summary": "Chair Louis thanks members of the public, colleagues, subcommittee council, land use and council staff, and the Sergeant at Arms for participating. She adjourns the meeting.",
+      "title": "Chair concludes business and adjourns meeting",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 827.9,
+          "text": "That concludes today's business."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 829.2,
+          "text": "I would like to thank the members of the public, my colleagues, subcommittee council, land use and council staff, and the Sergeant at Arms for participating in today's meeting."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 837.9,
+          "text": "This meeting is hereby adjourned."
+        }
+      ]
+    }
+  ],
+  "date": "2026-09-22",
+  "duration_sec": 852.096,
+  "slug": "2026-09-22-1130-am-subcommittee-on-zoning-and-franchises",
+  "summary": [
+    "Subcommittee on Zoning and Franchises held a public hearing on LU 141, a sidewalk caf\u00e9 application for Tiro de Esquina NYC Corp at 45-18 104th Street in Corona, Queens.",
+    "Applicant Christian Zuluaga testified about the restaurant's sports-bar concept, outdoor soccer-themed seating, hours of operation, and neighbor noise concerns.",
+    "Council Member Shanel Thomas-Henry questioned the applicant on the business entity, hours, outdoor use, noise complaints, and security; no public testimony was offered, and the item was laid over."
+  ],
+  "tags": [
+    "HEARING",
+    "LAND_USE"
+  ],
+  "time": "11:30 AM",
+  "title": "Subcommittee on Zoning and Franchises",
+  "topic": "Zoning, Cali Tajadas Bakery & Restaurant, Queens (D 2550162086 SWQ)",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-PV-CH-COM_260922-114801/video-web.mp4"
+  }
+}
