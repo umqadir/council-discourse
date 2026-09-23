@@ -1,0 +1,261 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 2.4,
+      "id": "001",
+      "slug": "chair-hudson-recognizes-chris-gonzalez-and-jamar-hooks-before-vote",
+      "start_sec": 0.1,
+      "summary": "Chair Crystal Hudson begins the transcript by naming Chris Gonzalez and Jamar Hooks. No further context is given before she moves to the roll-call vote. This appears to be a recognition or attendance moment at the close of the committee meeting.",
+      "title": "Chair Hudson recognizes Chris Gonzalez and Jamar Hooks before vote",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 0.1,
+          "text": "Chris Gonzalez and Jamar Hooks."
+        }
+      ]
+    },
+    {
+      "end_sec": 10.8,
+      "id": "002",
+      "slug": "chair-hudson-passes-mic-to-clerk-for-int-248-a-roll-call",
+      "start_sec": 2.4,
+      "summary": "Hudson says she will pass the mic to the clerk for a roll call on the vote, initially saying 'this morning's vote.' She corrects herself to 'this afternoon' before the clerk begins. The clerk, Ben Jacobs, takes over.",
+      "title": "Chair Hudson passes mic to clerk for Int 248-A roll call",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 2.4,
+          "text": "Now I'll pass the mic to the clerk to do a roll call for this morning's vote."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 7.8,
+          "text": "This afternoon, excuse me."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 10.0,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 15.1,
+      "id": "003",
+      "slug": "clerk-ben-jacobs-opens-roll-call-on-int-248-a",
+      "start_sec": 10.8,
+      "summary": "Committee clerk Ben Jacobs identifies himself and states the roll call is on Intro 248-A. He begins calling members in order. This is the procedural start of the vote.",
+      "title": "Clerk Ben Jacobs opens roll call on Int 248-A",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 10.8,
+          "text": "Ben Jacobs, committee clerk, roll call vote on intro 248A."
+        }
+      ]
+    },
+    {
+      "end_sec": 19.2,
+      "id": "004",
+      "slug": "chair-hudson-votes-aye-on-int-248-a",
+      "start_sec": 15.1,
+      "summary": "Clerk Jacobs calls Chair Hudson. Hudson responds 'Aye' on Intro 248-A. Her vote is recorded as affirmative.",
+      "title": "Chair Hudson votes aye on Int 248-A",
+      "type": "VOTE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 15.1,
+          "text": "Chair Hudson."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 17.0,
+          "text": "Aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 22.4,
+      "id": "005",
+      "slug": "council-member-avil-s-votes-aye-on-int-248-a",
+      "start_sec": 19.2,
+      "summary": "Clerk Jacobs calls Council Member Avil\u00e9s. Avil\u00e9s responds 'Aye' on Intro 248-A. Her vote is recorded as affirmative.",
+      "title": "Council Member Avil\u00e9s votes aye on Int 248-A",
+      "type": "VOTE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 19.2,
+          "text": "Councilmember Aviles."
+        },
+        {
+          "speaker": "Alexa Avil\u00e9s",
+          "t_sec": 20.7,
+          "text": "Aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 25.0,
+      "id": "006",
+      "slug": "clerk-calls-council-member-mealy-on-int-248-a",
+      "start_sec": 22.4,
+      "summary": "Clerk Jacobs calls Council Member Mealy during the roll call. No audible vote from Mealy is captured before the clerk moves to the next name. The transcript records only the call.",
+      "title": "Clerk calls Council Member Mealy on Int 248-A",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 22.4,
+          "text": "Councilmember Mealy."
+        }
+      ]
+    },
+    {
+      "end_sec": 28.7,
+      "id": "007",
+      "slug": "clerk-calls-council-member-nurse-on-int-248-a",
+      "start_sec": 25.0,
+      "summary": "Clerk Jacobs calls Council Member Nurse during the roll call. No audible vote from Nurse is captured before the clerk moves to Council Member Ung. The transcript records only the call.",
+      "title": "Clerk calls Council Member Nurse on Int 248-A",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 25.0,
+          "text": "Councilmember Nurse."
+        }
+      ]
+    },
+    {
+      "end_sec": 33.1,
+      "id": "008",
+      "slug": "council-member-ung-votes-aye-on-int-248-a",
+      "start_sec": 28.7,
+      "summary": "Clerk Jacobs calls Council Member Ung. Ung responds 'I vote aye' on Intro 248-A. Her vote is recorded as affirmative.",
+      "title": "Council Member Ung votes aye on Int 248-A",
+      "type": "VOTE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 28.7,
+          "text": "Councilmember Ung."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 30.7,
+          "text": "I vote aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 36.5,
+      "id": "009",
+      "slug": "council-member-wilson-votes-aye-on-int-248-a",
+      "start_sec": 33.1,
+      "summary": "Clerk Jacobs calls Council Member Wilson. Wilson responds 'I vote aye' on Intro 248-A. His vote is recorded as affirmative.",
+      "title": "Council Member Wilson votes aye on Int 248-A",
+      "type": "VOTE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 33.1,
+          "text": "Councilmember Wilson."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 34.6,
+          "text": "I vote aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 41.5,
+      "id": "010",
+      "slug": "council-member-morano-votes-aye-on-int-248-a",
+      "start_sec": 36.5,
+      "summary": "Clerk Jacobs calls Council Member Morano. Morano responds 'Aye' on Intro 248-A. His vote is recorded as affirmative.",
+      "title": "Council Member Morano votes aye on Int 248-A",
+      "type": "VOTE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 36.5,
+          "text": "Councilmember Morano."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 37.8,
+          "text": "Aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 49.1,
+      "id": "011",
+      "slug": "committee-adopts-int-248-a-with-six-affirmative-votes",
+      "start_sec": 41.5,
+      "summary": "Clerk Jacobs reports the roll-call result: six affirmative, none negative, no abstentions. He declares the vote adopted on Intro 248-A. The committee has approved the fair fares enrollment streamlining bill.",
+      "title": "Committee adopts Int 248-A with six affirmative votes",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 41.5,
+          "text": "With a vote of six in the affirmative, no, none in the negative, no abstentions, the vote is adopted."
+        }
+      ]
+    },
+    {
+      "end_sec": 59.541,
+      "id": "012",
+      "slug": "chair-hudson-thanks-committee-and-adjourns-meeting",
+      "start_sec": 49.1,
+      "summary": "After adoption, Chair Hudson thanks those present. She adjourns the General Welfare committee meeting. She adds 'Right back to Brooklyn' as the meeting closes.",
+      "title": "Chair Hudson thanks committee and adjourns meeting",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 49.1,
+          "text": "Thank you so much."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 50.8,
+          "text": "And this meeting is adjourned."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 56.812,
+          "text": "Right back to Brooklyn."
+        }
+      ]
+    }
+  ],
+  "date": "2026-09-23",
+  "duration_sec": 59.541,
+  "slug": "2026-09-23-0100-pm-committee-on-general-welfare",
+  "summary": [
+    "Committee on General Welfare held a roll-call vote on Intro 248-A, a local law to streamline enrollment of eligible individuals in fair fares.",
+    "Chair Crystal Hudson presided; committee clerk Ben Jacobs conducted the vote, which was adopted with six affirmative votes, no negative votes, and no abstentions.",
+    "The provided transcript covers only the final vote and adjournment, with no testimony or Q&A appearing in the record."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "1:00 PM",
+  "title": "Committee on General Welfare",
+  "topic": "Streamlining enrollment of eligible individuals in fair fares",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-PV-CH-COM_260923-132306/video-web.mp4"
+  }
+}
