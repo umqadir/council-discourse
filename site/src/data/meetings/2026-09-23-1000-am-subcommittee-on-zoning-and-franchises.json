@@ -1,0 +1,4080 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 40.996,
+      "id": "001",
+      "slug": "council-staff-opens-subcommittee-on-zoning-and-franchises-meeting",
+      "start_sec": 20.5,
+      "summary": "Staff calls the meeting to order, asks attendees to silence electronic devices, avoid the dais, and directs questions to the Sergeant at Arms. The chair is told the subcommittee is ready to begin.",
+      "title": "Council staff opens Subcommittee on Zoning and Franchises meeting",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 20.5,
+          "text": "Quiet, please."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 21.3,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 22.4,
+          "text": "Good morning and welcome to the subcommittee on zoning and franchises."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 26.5,
+          "text": "At this time, please stand on all electronic devices."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 29.6,
+          "text": "Also, please do not approach the dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 32.1,
+          "text": "If you have any questions, please ask your hand and one of us at Sergeant at Arms will kindly assist you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 36.6,
+          "text": "Chair, we're ready to begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 75.096,
+      "id": "002",
+      "slug": "chair-farah-louis-opens-meeting-and-announces-attendance",
+      "start_sec": 40.996,
+      "summary": "Chair Louis welcomes attendees, identifies herself as chair, and notes Councilmembers Encarnacion, Sanchez, Carr, and Felder are present. She states three proposals are scheduled for votes and two public hearings.",
+      "title": "Chair Farah Louis opens meeting and announces attendance",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 40.996,
+          "text": "Good morning and welcome to a meeting of the Subcommittee on Zoning and Franchises."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 45.696,
+          "text": "I am Councilmember Farrah Lewis, Chair of the Subcommittee."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 48.696,
+          "text": "This morning we are joined by Councilmembers Encarnacion, Jay Sanchez, Minority Leader Carr, and Councilmember Felder."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 56.996,
+          "text": "Today we are scheduled to vote on three proposals."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 64.796,
+          "text": "Stay in that ease."
+        }
+      ]
+    },
+    {
+      "end_sec": 150.196,
+      "id": "003",
+      "slug": "chair-louis-lays-over-three-votes-and-outlines-hearings",
+      "start_sec": 75.096,
+      "summary": "Chair Louis says votes on the sidewalk cafe application for Tero de Esquina, 158-06 Northern Boulevard, and 21-31 46th Avenue are laid over until tomorrow. She proceeds with public hearings on 1455 Coney Island Avenue and 135-27 Sapphire Street.",
+      "title": "Chair Louis lays over three votes and outlines hearings",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 75.096,
+          "text": "Today we are scheduled to vote on three proposals and hold two public hearings."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 79.096,
+          "text": "However, the following votes are laid over until tomorrow."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 82.496,
+          "text": "The Sidewalk Cafe application for Tero de Esquina, NYC Corp."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 87.196,
+          "text": "Formerly doing business as Cali Tejadas Bakery and Restaurant and Councilmember Thomas Henry's District."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 94.796,
+          "text": "158-06 Northern Boulevard Mixed-Use Residential Rezoning and Councilmember Ung's District."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 101.196,
+          "text": "21-3146Th Avenue Mixed-Use Residential Rezoning and Councilmember Wan's District."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 107.096,
+          "text": "We will proceed with the scheduled public hearings on the following proposals."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 111.796,
+          "text": "1455 Coney Island Avenue, Community Facility Rezoning and Councilmember Felder's District, 135-27 Sapphire Street and a Residential Rezoning and Councilmember Areola's District."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 125.796,
+          "text": "Please note that yesterday we held a public hearing."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 128.496,
+          "text": "as scheduled relating to the Sidewalk Cafe application filed by Tero de Esquina, NYC Corp, and Councilmember Thomas Henry's district."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 137.396,
+          "text": "This application was also noticed today for a hearing, so if there are any members of the public who would like to testify today about the Sidewalk Cafe application, please fill out a speaker's card and notify one of the sergeant at arms."
+        }
+      ]
+    },
+    {
+      "end_sec": 267.796,
+      "id": "004",
+      "slug": "chair-louis-explains-hybrid-testimony-procedures-and-decorum",
+      "start_sec": 150.196,
+      "summary": "Chair Louis details how to testify in person or via Zoom, the two-minute limit, written testimony submission, and decorum rules. She notes no video recording from the witness table and that public may not present audio or video recordings as testimony.",
+      "title": "Chair Louis explains hybrid testimony procedures and decorum",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 150.196,
+          "text": "If you are online and would like to testify about the Sidewalk Cafe application, please use the raise hand function and a team member from the subcommittee will respond and I will now go over today's meeting procedures."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 163.796,
+          "text": "This meeting is being held in hybrid format."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 166.296,
+          "text": "Members of the public who wish to testify may testify in person or via Zoom."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 170.296,
+          "text": "Members of the public wishing to testify remotely may register by visiting the New York City Council website at www.council.nyc.gov backslash land use."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 179.996,
+          "text": "To sign up or for those of you here in person, please see one of the sergeant at arms to prepare a speaker card."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 187.096,
+          "text": "Members of the public may also view a live stream broadcast of this meeting at the council's website."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 193.396,
+          "text": "When you are called to testify before the subcommittee, if you are joining us remotely, you will remain muted until recognized by myself to speak."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 202.096,
+          "text": "When you are recognized, your microphone will be unmuted."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 205.096,
+          "text": "We will limit public testimony to two minutes per witness."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 208.496,
+          "text": "If you have additional testimony that you would like the subcommittee to consider, or if you have written testimony that you would like to submit instead of appearing in person, please email it to landuse.com."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 218.096,
+          "text": "Testimony at council.nyc.gov."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 220.696,
+          "text": "Written testimony may be submitted up to three days after the hearing is closed."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 224.496,
+          "text": "Please indicate the LU number and or project name in the subject line of your email."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 229.096,
+          "text": "We request that witnesses joining us remotely remain in the meeting until excused by the chair, as council members may have questions."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 236.796,
+          "text": "Lastly, for everyone attending today's meeting, this is a government proceeding and decorum must be observed at all times."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 242.696,
+          "text": "Members of the public are asked not to speak during the meeting unless you are testifying."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 247.496,
+          "text": "The witness table is reserved for people who are called to testify and no video recording or photography is allowed from the witness table."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 255.396,
+          "text": "Further, members of the public may not present audio or video recordings as testimony, but you may submit transcripts of such recordings to the Sergeant at Arms for inclusion into the hearing record."
+        }
+      ]
+    },
+    {
+      "end_sec": 311.896,
+      "id": "005",
+      "slug": "chair-louis-opens-first-public-hearing-on-1455-coney-island-avenue",
+      "start_sec": 267.796,
+      "summary": "Chair Louis opens the public hearing on pre-considered LUs for 1455 Coney Island Avenue, a community facility rezoning in Midwood, Brooklyn. She describes the applicant's plan for a long-term care facility for seniors and gives testimony instructions.",
+      "title": "Chair Louis opens first public hearing on 1455 Coney Island Avenue",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 267.796,
+          "text": "We will now move on to the hearings that are scheduled for today, beginning with the public hearing on pre-considered LUs regarding 1455 Coney Island Avenue, a community facility rezoning proposal in Midwood, Brooklyn, and Councilmember Felder's District."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 282.996,
+          "text": "The applicant is seeking to develop a long-term care facility for seniors."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 287.396,
+          "text": "For anyone wishing to testify regarding this proposal remotely, if you have not already done so, you must register online by visiting the council's website at council.nyc.gov backslash land use."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 298.096,
+          "text": "For anyone with us in person."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 300.496,
+          "text": "Please see one of the sergeant at arms to submit a speaker card."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 304.796,
+          "text": "If you prefer to submit written testimony, you can also do so by emailing it to"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 308.096,
+          "text": "Daniel's testimony at council.nyc.gov."
+        }
+      ]
+    },
+    {
+      "end_sec": 388.504,
+      "id": "006",
+      "slug": "chair-louis-calls-applicant-panel-and-administers-oath",
+      "start_sec": 311.896,
+      "summary": "Chair Louis notes Councilmember Felder has no remarks, calls Eric Palatnik and Anthony Hadjiouanou to testify, and has counsel administer the oath. She instructs them to restate their names and limits testimony to 10 minutes.",
+      "title": "Chair Louis calls applicant panel and administers oath",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 311.896,
+          "text": "Stand at ease."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 315.996,
+          "text": "Councilmember Felder does not have remarks, so we're going to move on."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 320.896,
+          "text": "I will now call the applicant panel for this proposal, which consists of Eric Palatnik and Anthony Hatz."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 328.096,
+          "text": "Is Anthony here?"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 332.796,
+          "text": "Well, he..."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 336.296,
+          "text": "Come on down, Anthony."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 337.596,
+          "text": "Let's go."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 338.696,
+          "text": "All right."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 341.304,
+          "text": "And Anthony, you're going to state your name because I cannot pronounce your last name."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 344.704,
+          "text": "I apologize."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 345.504,
+          "text": "Counsel, can you please administer the oath?"
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 348.804,
+          "text": "Anthony, how do you want to?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 350.704,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 351.304,
+          "text": "Could you please raise your right hand and state your name for the record?"
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 354.804,
+          "text": "Eric Palatnik."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 356.204,
+          "text": "Anthony, how do you want to?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 358.104,
+          "text": "Could you say that again just for our benefit?"
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 360.604,
+          "text": "Anthony Hadjiouanou."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 362.304,
+          "text": "Okay, thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 362.904,
+          "text": "Now we know how to say your name."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 366.004,
+          "text": "Do you swear to tell the truth and nothing but the truth in your testimony this morning in response to council member questions?"
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 370.904,
+          "text": "I do."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 372.004,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 375.204,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 376.004,
+          "text": "You may begin your testimony, which is limited to 10 minutes."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 379.704,
+          "text": "At eight minutes, you should start wrapping up."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 382.404,
+          "text": "When you begin your presentation, please restate your name and the name of your organization."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 386.704,
+          "text": "You may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 453.804,
+      "id": "007",
+      "slug": "eric-palatnik-presents-1455-coney-island-avenue-rezoning-overview",
+      "start_sec": 388.504,
+      "summary": "Eric Palatnik introduces the long-term care facility at 1455 Coney Island Avenue, proposing rezoning from R5/C2-3 to C4-5D. He describes the site's history as a demolished long-term care facility and vacant lot, and notes the city's Coney Island Avenue study.",
+      "title": "Eric Palatnik presents 1455 Coney Island Avenue rezoning overview",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 388.504,
+          "text": "Good morning, Council Member."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 389.704,
+          "text": "Thank you very much for making the time to chair this committee, and good morning to everybody else that's here."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 394.004,
+          "text": "We thank you very much, and good morning to Council Member Felder, and Happy New Year to anybody who celebrated for the past week."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 401.304,
+          "text": "We're here today on behalf of a long-term care facility located at 1455 Coney Island Avenue."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 408.404,
+          "text": "You can see it up on the screen there."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 410.604,
+          "text": "It's a rezoning proposed from an R5 to a C2-3, from an R5 slash C2-3 to a C4-5D."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 420.204,
+          "text": "The rezoning would facilitate the creation of a long-term care facility at the property, which has historically been utilized as a long-term care facility, which was demolished."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 429.804,
+          "text": "a few years ago."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 430.604,
+          "text": "That was in a previously repurposed bowling alley that was then turned into a long-term care facility."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 436.204,
+          "text": "That structure was demolished about five years ago and the lot has been vacant."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 440.304,
+          "text": "Since then, we have been pursuing this rezoning, which just happens to coincide with the city's recent announcement of a study of Coney Island Avenue, which is long overdue."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 449.104,
+          "text": "And it would seek to rezone the property, as I said, from an R5 to a C45D."
+        }
+      ]
+    },
+    {
+      "end_sec": 507.904,
+      "id": "008",
+      "slug": "palatnik-details-building-program-and-community-board-support",
+      "start_sec": 453.804,
+      "summary": "Palatnik presents a nine-story, 95-foot, 157,000-square-foot facility with 300 beds (240 skilled nursing, 60 assisted living) and 28 parking spaces. He says Councilmember Felder requested more parking and design changes, and Community Board 14 supports the application.",
+      "title": "Palatnik details building program and community board support",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 453.804,
+          "text": "If you can go to the next slide, please, whoever's controlling the screen."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 458.104,
+          "text": "This slide on the right-hand side shows you what we are seeking to do."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 462.304,
+          "text": "If it were to be approved, you can see on the right-hand side, it would facilitate a nine-story, 95-foot-tall long-term care facility designed by Anthony."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 470.304,
+          "text": "It would be 157,000 square feet."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 473.004,
+          "text": "It would have 5.56 FAR."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 476.204,
+          "text": "It would have 300 beds, 240 which would be skilled nursing beds, and 60 assisted living beds."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 482.804,
+          "text": "There would be 28 parking spaces."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 485.204,
+          "text": "I should note that when we originally prepared the application, we presented it to Council Member Felder, and he was"
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 491.304,
+          "text": "very concerned about the number of parking spaces, which we increased at his suggestion, as well as a few other design changes that he put into the proposal that are here today in front of you."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 501.104,
+          "text": "I should also note we've met with Community Planning Board 14, who has supported the application."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 505.904,
+          "text": "Next slide, please."
+        }
+      ]
+    },
+    {
+      "end_sec": 553.404,
+      "id": "009",
+      "slug": "palatnik-explains-zoning-map-change-and-surrounding-context",
+      "start_sec": 507.904,
+      "summary": "Palatnik shows the existing and proposed zoning maps, noting adjacent R7A and C4-2 districts. He argues the proposed R7-equivalent density is consistent with nearby larger medical buildings and built character.",
+      "title": "Palatnik explains zoning map change and surrounding context",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 507.904,
+          "text": "The next slide shows you the zoning map change, which is the essence of what we're here for."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 512.104,
+          "text": "Obviously, you can see on the zoning map on both of them, the left side is existing, the right side is proposed, adjacent to the property, the top right."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 519.504,
+          "text": "is an R7A district."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 521.404,
+          "text": "It's analogous to what we're proposing here."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 523.904,
+          "text": "I should also note that the CA2 district that rests below us on Coney Island Avenue allows for buildings taller and larger than what we are proposing here."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 534.604,
+          "text": "And in fact, most people in the neighborhood will"
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 536.804,
+          "text": "be familiar with the medical building that was built at Avenue L and Coney Island Avenue that is substantially larger than what we are even seeking here."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 545.104,
+          "text": "So the CA2 allows for very tall buildings and what we're seeking is consistent with the built character of what's around us."
+        }
+      ]
+    },
+    {
+      "end_sec": 617.604,
+      "id": "010",
+      "slug": "palatnik-reviews-site-context-and-building-elevations",
+      "start_sec": 553.404,
+      "summary": "Palatnik describes the vacant site, neighboring residential building with ground-floor commercial, and proposed building layout. He notes first-floor lobby and amenity space, cellar parking, and upper-floor care facility.",
+      "title": "Palatnik reviews site context and building elevations",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 553.404,
+          "text": "Next slide just sort of shows you everything I've already spoken about."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 557.104,
+          "text": "If you can go one more slide forward please."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 560.004,
+          "text": "The next slide, slide five, just gives you a good view of the context of the neighborhood."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 564.704,
+          "text": "The site itself is now vacant."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 566.604,
+          "text": "There are no cars or trucks being parked on it."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 569.704,
+          "text": "You can see to the left of us is an existing residential building with ground floor commercial, and that extends pretty much entirely up the block to the left of us on Avenue K."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 579.604,
+          "text": "We are simply a continuation of that larger density on our site."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 584.204,
+          "text": "And I could point to, if you can go to plan sheet seven, please."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 590.304,
+          "text": "Page 7 shows you what the building will look like from an elevation perspective."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 596.204,
+          "text": "You could see that the first floor will be a lobby and amenity space."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 599.904,
+          "text": "The cellar and the sub-cellar will be parking and accessory space."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 603.704,
+          "text": "And then the long-term care facility is located up top."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 607.504,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 609.604,
+          "text": "I'll pause on the next slide and stop the conversation because I think I've given you enough information for you to act on things."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 615.304,
+          "text": "But if you'd like more, I'd be happy to continue on."
+        }
+      ]
+    },
+    {
+      "end_sec": 653.604,
+      "id": "011",
+      "slug": "palatnik-compares-proposal-to-taller-as-of-right-medical-building",
+      "start_sec": 617.604,
+      "summary": "Palatnik points to a 148-foot medical building allowed as-of-right in the adjacent C4-2 district. He argues the proposed rezoning is smaller than what existing zoning permits and similar to surrounding R7A context.",
+      "title": "Palatnik compares proposal to taller as-of-right medical building",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 617.604,
+          "text": "The next slide is relevant because I mentioned a few moments ago the taller medical bill."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 621.604,
+          "text": "Oh, sorry, slide eight."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 622.804,
+          "text": "I apologize."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 623.404,
+          "text": "Where you were a second ago."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 625.104,
+          "text": "This slide is relevant because you can see the building on the right-hand side at 148 feet tall."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 630.504,
+          "text": "That's the medical building that's allowed to be constructed as of right in the CA2 district that shares the block with us."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 637.004,
+          "text": "The point that I'm simply trying to raise through this discussion is our rezoning, which is seeking to go to an R7 equivalent, is really similar to what's around us as far as existing R7 zoning, and it's even smaller than what the CA2 allows for."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 651.904,
+          "text": "That concludes my presentation."
+        }
+      ]
+    },
+    {
+      "end_sec": 717.804,
+      "id": "012",
+      "slug": "palatnik-presents-renderings-and-amenities-for-long-term-care-facility",
+      "start_sec": 653.604,
+      "summary": "Palatnik shows renderings of the proposed building, highlighting an atrium, landscaped rooftop terrace, chapel, recreation, and exercise spaces. He says the design aims to feel like a home rather than an institution.",
+      "title": "Palatnik presents renderings and amenities for long-term care facility",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 653.604,
+          "text": "I guess I'll ask whoever's controlling the screen, if you could just click forward to the plans, the proposed plans, which is after page 15."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 662.004,
+          "text": "And you can stop on the rendering at the front so everybody can see how beautiful the building is."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 666.604,
+          "text": "There you go."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 667.704,
+          "text": "And the building is really proposed to be a stunning building."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 670.804,
+          "text": "I dare say one of the nicest buildings that I've seen a rendering for on Coney Island Avenue in quite some time."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 676.104,
+          "text": "The middle part of it that you're looking at is a proposed atrium area where there'll be a common area for building residents so they could be exposed to sunlight."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 683.904,
+          "text": "They should catch great westerly sunsets and things like that, let lights in, let light in, make them feel like they're living somewhere."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 691.004,
+          "text": "That's part of their home where they are now and not coming into an institution of any sort."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 696.004,
+          "text": "And the rooftop on the top right is beautifully well landscaped with an"
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 699.504,
+          "text": "outdoor terrace area, again, for people to have space to be outside."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 703.104,
+          "text": "And the building is filled with all sorts of other different amenities, including a chapel, including common space, including space for recreation, space for working out, all to give people the chance to not only live in this building as an assisted living building, but also have it feel like a home."
+        }
+      ]
+    },
+    {
+      "end_sec": 780.404,
+      "id": "013",
+      "slug": "palatnik-addresses-not-for-profit-dispute-and-fallback-operator",
+      "start_sec": 717.804,
+      "summary": "Palatnik says the project was proposed by a not-for-profit but a contract dispute arose with the owner, Centers Healthcare. He hopes the not-for-profit can be restored as operator, but if not, Centers Healthcare will develop the long-term care facility itself.",
+      "title": "Palatnik addresses not-for-profit dispute and fallback operator",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 717.804,
+          "text": "And I'll mention the final note is the building is being proposed by a not-for-profit."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 722.504,
+          "text": "The not-for-profit has been the one pursuing the application along with ownership of the property."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 727.104,
+          "text": "There has been a bit of a dispute between the two in the last few weeks."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 730.304,
+          "text": "Maybe some people on the committee may have heard about that."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 732.804,
+          "text": "They are working to resolve it so that the not-for-profit can continue on and operate, continue on, build and operate the premises."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 740.504,
+          "text": "And should that not happen, which everybody is working towards, and we're hoping we'll use the full ULURP timeframe to let them achieve that."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 747.904,
+          "text": "If that should not be the case, then the owner of the property currently"
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 752.204,
+          "text": "will develop the property as a long-term care facility themselves."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 755.704,
+          "text": "But we are desperately trying to save the relationship with the not-for-profit."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 759.904,
+          "text": "And I want to thank the council member who has been involved in discussions with everybody in the midst of his holiday, as well as everybody else who's been involved to do so."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 769.304,
+          "text": "And we're hoping that we'll have a resolution to report to you at some point in the future before this is over."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 774.704,
+          "text": "Thank you very much for your time."
+        }
+      ]
+    },
+    {
+      "end_sec": 916.004,
+      "id": "014",
+      "slug": "chair-louis-questions-assurances-on-nursing-home-and-nonprofit-operation",
+      "start_sec": 780.404,
+      "summary": "Chair Louis asks what assurances exist that the development will be a nursing home and nonprofit. Palatnik says state-allocated beds require long-term care use, and if the Sephardic Nursing Home does not operate it, Centers Healthcare will.",
+      "title": "Chair Louis questions assurances on nursing home and nonprofit operation",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 780.404,
+          "text": "All right, thank you."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 781.004,
+          "text": "I have a couple of questions before I hand it over to Councilman Felder."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 785.504,
+          "text": "It is the subcommittee's understanding that this project was initially proposed at"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 789.504,
+          "text": "as a nursing home, but the operator with whom the applicant was going to partner with, as you just mentioned, is no longer taking part of the project."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 799.104,
+          "text": "What assurances can you provide that this proposed development will in fact be a nursing home and a nonprofit?"
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 807.404,
+          "text": "I can make..."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 809.404,
+          "text": "Quite a bit of assurance is that it will be developed as a long-term care facility."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 813.704,
+          "text": "The reason for that is for a couple of different reasons."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 815.704,
+          "text": "First of all, the beds have already been allocated by the state for that purpose, and beds are very difficult to get approval for."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 823.604,
+          "text": "Second, the landowner is also one of the largest assisted living facility providers."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 830.104,
+          "text": "In the metropolitan area, specifically in New York City, and is New York City-based."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 834.004,
+          "text": "The name of their company is Centers Healthcare, and they're very well recognized and respected for their work in New York City."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 839.904,
+          "text": "So if it is not operated by the Sephardic Nursing Home, which is the not-for-profit that was in contract,"
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 846.304,
+          "text": "with them, then it will be operated by Centers Healthcare."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 849.704,
+          "text": "Either way, it will be operated as a long-term care facility."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 853.304,
+          "text": "The bigger question that's, I think, germane, not so much from a land use perspective, but from an emotional and personal perspective for many people, is that the proposal right now, up until now, has been for Sephardic Nursing Home, which is a not-for-profit."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 867.004,
+          "text": "To be operating it."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 868.304,
+          "text": "Obviously, a not-for-profit comes from an altruistic motive, whereas Centers Healthcare is a for-profit organization."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 874.404,
+          "text": "Nothing wrong with being for-profit."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 876.304,
+          "text": "We all live in New York City, and it's okay to be for-profit."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 880.204,
+          "text": "But we all believe in our heart of hearts that the not-for-profit is a better fit."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 884.604,
+          "text": "And I'm not involved in those negotiations, and neither is the council member."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 890.604,
+          "text": "But everybody, such as the council member and myself, have been working with those two parties to try to get them to an agreement."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 896.304,
+          "text": "And a phone call I received last night was that they're continuing to work."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 899.604,
+          "text": "And I understand we have until November 11th before the EULA process times out."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 904.304,
+          "text": "And we're hoping that we could use that time before the council acts on its entirety to report back to you before a vote is taken that the wishes of the community and that we presented earlier are a dear deal."
+        }
+      ]
+    },
+    {
+      "end_sec": 1009.404,
+      "id": "015",
+      "slug": "chair-louis-asks-about-construction-and-operational-jobs",
+      "start_sec": 916.004,
+      "summary": "Chair Louis asks how many jobs the project will create. Palatnik estimates 100-150 construction workers and says operational hiring will include local lower-level positions, with senior management from other facilities.",
+      "title": "Chair Louis asks about construction and operational jobs",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 916.004,
+          "text": "All right."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 916.904,
+          "text": "How many jobs will the project create, both during construction and once operational, assuming it is a nursing home?"
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 924.004,
+          "text": "Assuming it's a nursing home, you can obviously imagine the construction."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 927.704,
+          "text": "I can't give you exact numbers."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 929.104,
+          "text": "Probably somewhere in the neighborhood of 100 to 150 people would be working on the building to construct the building, including laborers, engineers, builders, concrete, steel workers, glaziers, all those kinds of trades would be working."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 943.704,
+          "text": "And they will be using local labor to construct the building."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 948.404,
+          "text": "As far as operating the building goes, senior level management staff is going to be coming from other facilities because that's how most businesses operate."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 958.504,
+          "text": "And then they will be hiring new people for some of the lower level positions to give them the chance to come in and join the organization."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 966.004,
+          "text": "The way the organization works is they give people from within the opportunity."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 969.804,
+          "text": "to rise within the organization."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 971.604,
+          "text": "So if there are people that are working in other facilities that started at a lower job status, then now they'll be given an opportunity to move into a managerial position and the new people will be given the chance to come and take their place."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 983.804,
+          "text": "There'll also be transportation provided to people to and from the facility, both employees as well as"
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 991.304,
+          "text": "residents and their family members."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 993.304,
+          "text": "The idea will be that people will be living there, will be coming from the community, their family members will be from the community, so there will be a shuttle bus that will be operating in the area that people will be able to summons to get people to and from."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1005.504,
+          "text": "It won't be operating as routinely as a city bus, but it will be available."
+        }
+      ]
+    },
+    {
+      "end_sec": 1025.004,
+      "id": "016",
+      "slug": "chair-louis-asks-which-trades-will-be-used",
+      "start_sec": 1009.404,
+      "summary": "Chair Louis asks which trades will be involved. Palatnik lists glaziers, electricians, mechanical engineering, duct work, and other building trades.",
+      "title": "Chair Louis asks which trades will be used",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1009.404,
+          "text": "So you mentioned trades."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1010.504,
+          "text": "Which trades and..."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1013.004,
+          "text": "Do you have an idea yet which trade?"
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1014.904,
+          "text": "I just meant glaziers and electricians and mechanical engineering and duct work and all the building trades is what I meant."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1024.104,
+          "text": "Okay."
+        }
+      ]
+    },
+    {
+      "end_sec": 1156.876,
+      "id": "017",
+      "slug": "chair-louis-questions-building-height-relative-to-surrounding-homes",
+      "start_sec": 1025.004,
+      "summary": "Chair Louis asks how the proposed height relates to surrounding buildings. Palatnik compares the 95-foot building to nearby 66-75 foot buildings and a taller C8 building, arguing it is contextual.",
+      "title": "Chair Louis questions building height relative to surrounding homes",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1025.004,
+          "text": "Can you please go over again how the height of the proposed building relates to surrounding homes and businesses?"
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1031.404,
+          "text": "Yeah, that's up."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1032.404,
+          "text": "If we can go back to the picture that I showed a few minutes ago."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1036.004,
+          "text": "Which page?"
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1036.404,
+          "text": "I'll get to the page to tell the person controlling the screen."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1041.004,
+          "text": "I think it was page eight."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1050.276,
+          "text": "So this picture is helpful because it shows you the heights of surrounding buildings."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1055.276,
+          "text": "Coney Island Avenue is not necessarily the avenue that you've seen any development on in my lifetime, in fact."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1062.676,
+          "text": "I don't believe I've seen much developed in my lifetime."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1064.776,
+          "text": "I think I can count the number of buildings and new buildings, specifically residential, that have been built in this part of Coney Island in one hand."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1071.276,
+          "text": "So you don't see much taller buildings."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1072.876,
+          "text": "That's what..."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1073.776,
+          "text": "The city of ES and the work that your committee is doing is hoping to change."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1077.776,
+          "text": "But you can see on the side streets some of the proliferation that has occurred through the years."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1083.376,
+          "text": "For example, on Avenue M, you can see over there at the top of the page a whole host of larger, taller, newer buildings which have been constructed that are 75 feet tall, 71 feet tall, 66 feet tall."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1095.776,
+          "text": "We're at 95 feet tall."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1097.176,
+          "text": "So we're somewhat consistent with those, but even more so consistent with the building immediately across the street from us in the C8 zone, which was just built as well, which I would dare say is too tall for the neighborhood and overwhelms the community."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1109.376,
+          "text": "I don't think many people in the area are a fan of its height, but it towers even over the property by 50 feet."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1116.576,
+          "text": "And as I mentioned a moment ago, Avenue K is zoned R7A, which is analogous to what we're requesting here."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1124.076,
+          "text": "So although those buildings that are in R7A are older buildings, which look mostly like they're pre-war buildings built in the 30s, 40s, or maybe some post-war."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1133.376,
+          "text": "definitely 50, 60, 70, 80 years ago."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1135.576,
+          "text": "So none of those buildings have any affordable housing."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1137.676,
+          "text": "All of them are older buildings working with old electrical and mechanical systems and don't have any of the modern amenities that most people would want."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1145.776,
+          "text": "Ceiling heights are low, things like that."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1148.476,
+          "text": "So I think the building that we're requesting is a good example of a modern contextual building, albeit a little bit higher than what's on the side streets."
+        }
+      ]
+    },
+    {
+      "end_sec": 1314.976,
+      "id": "018",
+      "slug": "council-member-felder-questions-who-palatnik-represents",
+      "start_sec": 1156.876,
+      "summary": "Felder asks whether Palatnik represents the not-for-profit or the owner. Palatnik says he represents both parties, though Centers Healthcare pays his invoices, and the not-for-profit led the application work.",
+      "title": "Council Member Felder questions who Palatnik represents",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1156.876,
+          "text": "Thank you, Councilwoman Maffelder."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1162.776,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1165.876,
+          "text": "Just to start, when you were speaking, I might have, you know, not heard you right."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1174.776,
+          "text": "I thought you said that this project is being put forth, I'm paraphrasing, by..."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1182.576,
+          "text": "The Svartik not home."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1185.976,
+          "text": "Home or Svartik or whatever."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1189.176,
+          "text": "Is that what you said?"
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1190.776,
+          "text": "The project, the property is owned by Centers Healthcare or a subsidiary of them."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1196.476,
+          "text": "It was in contract with Sephardic Nursing Home, the not-for-profit."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1200.676,
+          "text": "That contract was broken."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1202.776,
+          "text": "It's a week before Labor Day, so it does not exist right now anymore."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1207.576,
+          "text": "Safardic Nursing Home now has no stake or claim to the property legally, but they're in discussions with Centers Healthcare right now to resuscitate the contract and put them into the position as the proposed operator."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1222.176,
+          "text": "So you're not here."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1223.376,
+          "text": "on behalf of the non-for-profit at all."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1227.176,
+          "text": "I..."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1229.376,
+          "text": "Are you being..."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1231.476,
+          "text": "Are you here on behalf of the owner?"
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1236.376,
+          "text": "I'm here in a strange situation."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1238.276,
+          "text": "I'm here on behalf of both of them."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1240.476,
+          "text": "I'm representing both parties, even though they are conflicting with one another right now."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1244.776,
+          "text": "And Centers Healthcare themselves, as you know from the conversation we had the other day, themselves are in the strange position of having their own people also be a part of the Sephardic nursing home."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1256.076,
+          "text": "So we're all in this sort of gray area where we're working for both organizations."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1261.076,
+          "text": "And trying hard to convince the principals of each to come to a resolution."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1265.876,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1268.876,
+          "text": "I appreciate your interest in making peace between these two, but I mean, in my mind, today,"
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1281.376,
+          "text": "Even if they had some sort of agreement with the not-for-profit, you'd be here."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1287.876,
+          "text": "I mean, I'm not a lawyer, but you're here on behalf of the people who own the property."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1293.676,
+          "text": "They, Censors Healthcare, signed my contract."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1296.476,
+          "text": "Right."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1296.676,
+          "text": "Censors Healthcare pays my invoices."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1298.476,
+          "text": "That's right."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1299.276,
+          "text": "Censors Healthcare has not been involved in any of the hard work to bring the application to this moment."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1303.876,
+          "text": "That's all been promulgated by the not-for-profit team."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1306.876,
+          "text": "So they've footed the bill."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1309.076,
+          "text": "For the not-for-profit, and they've created the resources for the not-for-profit."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1313.676,
+          "text": "Up until August."
+        }
+      ]
+    },
+    {
+      "end_sec": 1380.976,
+      "id": "019",
+      "slug": "felder-presses-on-owner-involvement-and-consultant-roles",
+      "start_sec": 1314.976,
+      "summary": "Felder questions whether the property owner has been involved and notes a consultant working for both sides. Palatnik says Centers Healthcare has recently become actively involved in negotiations.",
+      "title": "Felder presses on owner involvement and consultant roles",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1314.976,
+          "text": "And it seems, is it accurate, and they continue not to be involved in any real way?"
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1326.976,
+          "text": "Right now, they've heeded your calls and everybody's calls, and within the last two weeks, they've taken note, and the last few days in particular, and they are now..."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1337.176,
+          "text": "Actively involved in the negotiation and it's everybody's wishes that the not-for-profit who who is actively involved on behalf of the owner"
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1347.676,
+          "text": "you spoke to aaron the other day yeah he's he's a consultant he's a consultant he is and he it sounds like has the same uh situation that you have he's"
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1358.876,
+          "text": "He's working for the nonprofit, and he's working for the owners."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1364.076,
+          "text": "So I, you know."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1368.376,
+          "text": "I don't know."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1369.176,
+          "text": "That sounds like, you know, I want to know who is involved in this on behalf of the owner of the property."
+        }
+      ]
+    },
+    {
+      "end_sec": 1461.276,
+      "id": "020",
+      "slug": "felder-asks-about-owner-accountability-and-payment-of-bills",
+      "start_sec": 1380.976,
+      "summary": "Felder says the owners are paying the bills but have not appeared. Palatnik confirms Centers Healthcare hired him and is the responsible party, though he reports to both organizations.",
+      "title": "Felder asks about owner accountability and payment of bills",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1380.976,
+          "text": "It has been brought to the attention all the way up to the higher-ups, to Mr."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1385.076,
+          "text": "Hagler."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1385.476,
+          "text": "I don't want to drive you crazy, Eric."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1388.276,
+          "text": "Oh, Mr."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1388.876,
+          "text": "Palatnik."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1389.776,
+          "text": "First of all, what is the role of your neighbor?"
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1394.276,
+          "text": "I should have asked you, Mr."
+        },
+        {
+          "speaker": "Member of the Public - Anthony Hadjioannou",
+          "t_sec": 1396.176,
+          "text": "Apologize."
+        },
+        {
+          "speaker": "Member of the Public - Anthony Hadjioannou",
+          "t_sec": 1396.776,
+          "text": "I'm the architect who designed the building."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1398.376,
+          "text": "Oh, very nice."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1399.676,
+          "text": "It's a beautiful building."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1400.876,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1401.476,
+          "text": "Really."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1402.176,
+          "text": "Beautiful."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1402.476,
+          "text": "You did a nice job."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1403.576,
+          "text": "Yeah, I'm happy that he asked you to come up."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1407.076,
+          "text": "It's a beautiful building."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1409.376,
+          "text": "So at this time, I'm just saying, from my perspective, it could be that there are angels involved in the negotiations."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1423.776,
+          "text": "And aliens involved in the negotiations that we don't know about."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1429.876,
+          "text": "But the owners of the property are the ones that, you know, they're paying, I would just say, I would assume they're paying your bills."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1438.576,
+          "text": "Is that accurate?"
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1439.676,
+          "text": "They are."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1440.076,
+          "text": "They hired me, and they are the responsible party."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1442.376,
+          "text": "But I report to, like I said, I report to, really, to the not-for-profit and to them."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1447.376,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1447.776,
+          "text": "I don't draw a distinction."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1449.276,
+          "text": "That's, yeah."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1451.376,
+          "text": "Yeah, I don't, you do whatever you want, right?"
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1454.376,
+          "text": "I mean, you get paid, and if they don't mind, you do whatever you want, right?"
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1458.676,
+          "text": "Right?"
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1459.076,
+          "text": "As long as the owners are happy."
+        }
+      ]
+    },
+    {
+      "end_sec": 1542.976,
+      "id": "021",
+      "slug": "felder-criticizes-owner-absence-from-application-process",
+      "start_sec": 1461.276,
+      "summary": "Felder tells the chair that the property owners have not been involved, despite being the ones putting up the building. He says they have consultants but no direct accountability.",
+      "title": "Felder criticizes owner absence from application process",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1461.276,
+          "text": "I would just say to..."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1465.376,
+          "text": "Does that mean I'm finished?"
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1467.776,
+          "text": "Yeah, I just want to make a point for the chair that it's been clear since the beginning that although Mr."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1479.376,
+          "text": "Plotnick is a wonderful professional and there are only a few that are really the experts in the field,"
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1488.176,
+          "text": "that the owners of the property have not been involved at all."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1494.876,
+          "text": "They may be, maybe they send Morse code and nobody knows about it, but they have not been involved."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1504.576,
+          "text": "They have somebody who's a consultant."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1507.776,
+          "text": "They have this."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1508.676,
+          "text": "They have that."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1509.576,
+          "text": "I don't know."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1510.276,
+          "text": "I don't know."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1510.976,
+          "text": "I'm just telling you that somebody who's putting up a building like this, despite the fact that they do own many homes,"
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1523.076,
+          "text": "I don't know who they are."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1524.576,
+          "text": "I don't know what they are."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1526.576,
+          "text": "I don't know anything."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1528.976,
+          "text": "So if at the end of the day, we never heard of them and never saw them, that's what's going on."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1538.076,
+          "text": "That's the fact."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1540.276,
+          "text": "And I think that's important."
+        }
+      ]
+    },
+    {
+      "end_sec": 1634.876,
+      "id": "022",
+      "slug": "felder-raises-parking-concerns-for-for-profit-facility",
+      "start_sec": 1542.976,
+      "summary": "Felder argues 28 parking spaces are insufficient, especially if the facility becomes for-profit or includes rehabilitation use. He dismisses bicycle parking as irrelevant for nursing home residents.",
+      "title": "Felder raises parking concerns for for-profit facility",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1542.976,
+          "text": "The parking issue..."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1545.676,
+          "text": "You know, originally when they presented the parking issue, when it was supposed to be a non-for-profit, the argument was that since most of the people will be from the neighborhood and they're going to come by bicycle,"
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1561.976,
+          "text": "they knew that they're going to come by bicycle somehow."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1567.276,
+          "text": "So they don't need more than that amount of, yeah."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1571.676,
+          "text": "So I don't know."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1574.076,
+          "text": "I mean, first of all, I never bought that argument."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1578.576,
+          "text": "If you go down the neighborhood, you know, that is,"
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1583.376,
+          "text": "Neighborhood, that's the families, I'll just say, the families that live in the neighborhood, you know, don't have one car, you know."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1596.076,
+          "text": "And the cars that they have, thank God, are nice cars, you know, many of them."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1603.876,
+          "text": "They may be coming by bike, and the bike is on top of the roof of the car, but they're coming by car."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1612.076,
+          "text": "So now that it's clear at this point, at a minimum, that it's a regular for-profit,"
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1621.076,
+          "text": "The 28th, you said, I don't remember, parking spaces is clearly not enough."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1628.476,
+          "text": "I mean, I don't see how that could possibly be enough."
+        }
+      ]
+    },
+    {
+      "end_sec": 1730.976,
+      "id": "023",
+      "slug": "palatnik-defends-parking-plan-and-shuttle-service",
+      "start_sec": 1634.876,
+      "summary": "Palatnik says parking lots for senior care facilities are underutilized because residents and visitors often do not drive. He notes 38 parking spaces and 55 bicycle spaces, and describes a shuttle bus for employees, residents, and family.",
+      "title": "Palatnik defends parking plan and shuttle service",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1634.876,
+          "text": "Would you like..."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1635.576,
+          "text": "It's a question, by the way."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1636.576,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1637.076,
+          "text": "So I'd be happy to answer it."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1639.076,
+          "text": "I don't..."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1639.976,
+          "text": "We never made the allegation or the assertion that the bicycles would create any sort of transportation."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1644.476,
+          "text": "But perhaps the assertion that has been made is that, unfortunately, parking lots for senior care facilities, adult care facilities, are not..."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1653.576,
+          "text": "Well utilized."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1654.576,
+          "text": "A lot of people don't come to visit is the sad reality."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1658.876,
+          "text": "I know we all have visions in our heads of being perfect children that would adore our parents and visit them daily and come every day on the way home from work with chicken soup."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1668.676,
+          "text": "That's not the case."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1669.676,
+          "text": "People do not come to visit."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1671.376,
+          "text": "And the residents within the home have"
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1673.576,
+          "text": "at the point where they've given up their cars."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1675.776,
+          "text": "So most of the parking for these facilities is occupied by staff members and people coming to make service visits to the facility, not by the residents or the visitors."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1689.276,
+          "text": "That's why the shuttle bus is created so that people who do live in the area"
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1693.776,
+          "text": "who want to come, who might not have a car themselves because the people that do come tend to be older, in their 70s and 80s, those are the people that come to visit, their friends who are 70s and 80s and in the homes, and they're not always driving as much."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1707.476,
+          "text": "But your point is well heeded."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1709.476,
+          "text": "I think the 28 spaces are self-park right now, if I'm not mistaken."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1712.776,
+          "text": "We're actually 38."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1714.176,
+          "text": "38."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1714.676,
+          "text": "38."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1715.776,
+          "text": "And we provide 55 bicycle spaces as well."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1718.876,
+          "text": "And what?"
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1719.776,
+          "text": "And 55 bicycle spots."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1722.076,
+          "text": "Yeah."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1722.576,
+          "text": "Yeah, but the bike parking is irrelevant for this conversation."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1726.276,
+          "text": "Nobody's biking."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1727.276,
+          "text": "No nursing home residents are biking out of the nursing."
+        }
+      ]
+    },
+    {
+      "end_sec": 1846.6,
+      "id": "024",
+      "slug": "felder-questions-whether-facility-could-include-rehabilitation-use",
+      "start_sec": 1730.976,
+      "summary": "Felder asks if the facility might serve short-term rehabilitation patients, which would require more parking. Palatnik says it is intended as long-term care, but state-authorized beds could allow operator discretion.",
+      "title": "Felder questions whether facility could include rehabilitation use",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1730.976,
+          "text": "I would just suggest that the\u2013 is this place going to service, for example, somebody who has surgery and needs to\u2013"
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1742.276,
+          "text": "you know, a place to..."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1744.876,
+          "text": "It will have skilled nursing facility operations."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1747.876,
+          "text": "It's really meant as a long-term care facility."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1750.076,
+          "text": "The purpose of it is to create a home for people to come to, not a place for people to go get better."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1755.376,
+          "text": "If somebody has, say, hip surgery where they need to be somewhere for a year or something where there's an extenuating circumstances,"
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1763.376,
+          "text": "No, but not for my mother is having problems with her legs."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1766.676,
+          "text": "She needs something for two months to call us."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1768.376,
+          "text": "She wouldn't be there for two months."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1770.176,
+          "text": "It's really meant for a year or longer, and really permanent residency is the goal."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1774.676,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1775.376,
+          "text": "I don't know how that is in any way."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1779.676,
+          "text": "I don't know how or if that's guaranteed because the closest place that I know that they own, you know, is a different type of place than Imanity's Hospital."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1793.876,
+          "text": "You know, they can use more space, a place where people..."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1800.3,
+          "text": "will come maybe not to all the floors, but to two floors or whatever else, where people will come to hurry, you know, to rest up or rehabilitate or whatever else."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1811.4,
+          "text": "And my inclination is that even though they are not saying it, that is what's going to happen."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1819.9,
+          "text": "That they are going to take two floors or whatever, you know, and use it for that purpose."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1826.6,
+          "text": "And certainly if that is what happens, then they need more cost."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1832.0,
+          "text": "Yes, that's a horse of a different color, entirely different story."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1838.0,
+          "text": "You tend to get people of all different age brackets in there, all different abilities."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1843.2,
+          "text": "So, yes."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1843.7,
+          "text": "You're the expert."
+        }
+      ]
+    },
+    {
+      "end_sec": 1914.3,
+      "id": "025",
+      "slug": "felder-asks-if-documents-guarantee-long-term-care-use",
+      "start_sec": 1846.6,
+      "summary": "Felder asks whether documents can guarantee the facility will not become a rehabilitation center. Palatnik says the state authorizes beds and the operator determines use, so no guarantee.",
+      "title": "Felder asks if documents guarantee long-term care use",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1846.6,
+          "text": "In your documents, is there a way to guarantee that that's what it's going to be and not the one I suggested?"
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1854.4,
+          "text": "No, the state authorizes the beds."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1858.3,
+          "text": "Once the beds are authorized, then it's up to the operator to determine the use."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1862.7,
+          "text": "So, look, Mr."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1863.9,
+          "text": "Plotnick, you're a very honest man."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1867.3,
+          "text": "And I'm honest sometimes."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1870.8,
+          "text": "So we don't know."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1872.6,
+          "text": "We don't know."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1873.5,
+          "text": "We don't know what's going to happen."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1875.2,
+          "text": "You know, and I'm not suggesting that they intentionally are playing a game."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1881.3,
+          "text": "But at the end of the day, if this goes through and as it goes through,"
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1887.5,
+          "text": "You know, and they're not selling the..."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1890.1,
+          "text": "you know, the apartments immediately, whatever else, certainly they're going to use, you know, the floors."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1896.2,
+          "text": "Nothing sold, by the way."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1897.2,
+          "text": "This is all skilled."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1898.2,
+          "text": "It's all assisted living no matter what."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1901.9,
+          "text": "Well, but if they don't have enough customers or clients, they're going to take."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1908.4,
+          "text": "No matter what, they're going to take a few flaws and rightfully, you know, use it for what I'm suggesting."
+        }
+      ]
+    },
+    {
+      "end_sec": 1991.0,
+      "id": "026",
+      "slug": "felder-asks-if-owner-representative-will-appear-before-committee",
+      "start_sec": 1914.3,
+      "summary": "Felder asks if a human employed by the owners will ever appear to answer questions. Palatnik says he will try to find someone and has been communicating with Centers Healthcare.",
+      "title": "Felder asks if owner representative will appear before committee",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1914.3,
+          "text": "Well, I am hoping..."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1915.2,
+          "text": "And then they certainly need cars."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1917.5,
+          "text": "We're hoping that we'll be able to get you a resolution in the next few weeks."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1920.6,
+          "text": "Yeah, okay."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1921.3,
+          "text": "There are other people that are..."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1922.9,
+          "text": "Councilmember, do you have any other questions for the applicant?"
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1926.0,
+          "text": "I have a lot of questions, but if I can just ask one more question."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1934.3,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1935.9,
+          "text": "I just want to know."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1940.7,
+          "text": "Again, you know, about the owners of the property."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1946.6,
+          "text": "At any point, at any point, the documents are signed by this company, right?"
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1957.5,
+          "text": "At any point, do you foresee that a human being who actually is employed by the owners will be here"
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 1970.1,
+          "text": "for any purpose to answer questions?"
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1974.1,
+          "text": "Definitely."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1974.5,
+          "text": "We'll try to find somebody to be here."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1976.0,
+          "text": "I've been communicating with people the whole time from centers, health care."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1979.3,
+          "text": "The issue right now."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1980.1,
+          "text": "has been finding the people that are responsible for the decisions that have been made."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1983.8,
+          "text": "And those are the people that I have not been able to bring to you, right?"
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 1986.3,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1989.1,
+          "text": "Thank you, Councilmember."
+        }
+      ]
+    },
+    {
+      "end_sec": 2036.1,
+      "id": "027",
+      "slug": "chair-louis-clarifies-no-ambulatory-care-component",
+      "start_sec": 1991.0,
+      "summary": "Chair Louis asks if the facility will be permanent residency only with no ambulatory component. Palatnik confirms it is proposed as long-term care, not short-term rehabilitation, though residents would receive care if injured on site.",
+      "title": "Chair Louis clarifies no ambulatory care component",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1991.0,
+          "text": "I just want to piggyback off of a question Councilmember Felder just raised."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1995.1,
+          "text": "So this is permanent residency only, no ambulatory component whatsoever."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 2001.8,
+          "text": "It's proposed to be a long-term care facility."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 2004.8,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 2005.0,
+          "text": "So permanent in the sense is permanent as one can be in a long-term care facility."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2008.3,
+          "text": "But no ambulatory support on site."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 2009.4,
+          "text": "That is not the purpose of this, no."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 2011.6,
+          "text": "So the idea is that you're not going to go in there for a broken leg or something to recuperate."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 2015.8,
+          "text": "That's not the vision."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2016.7,
+          "text": "What if you break your leg while you're in there?"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2018.2,
+          "text": "Then you would have to..."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 2018.9,
+          "text": "Well, yeah, then you'll get treated."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 2020.2,
+          "text": "But the idea is to bring people in that really can't live on their own and need medical support in their daily activities."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 2026.5,
+          "text": "I understand that part."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 2027.0,
+          "text": "I think..."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2028.0,
+          "text": "I just want to make it clear for the record that there's no ambulatory support unless it's something."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 2032.6,
+          "text": "Unless something happens in the facility and they need some care."
+        }
+      ]
+    },
+    {
+      "end_sec": 2155.728,
+      "id": "028",
+      "slug": "chair-louis-raises-community-board-14-good-faith-concerns",
+      "start_sec": 2036.1,
+      "summary": "Chair Louis notes Community Board 14 approved the project believing it would be a nonprofit, but circumstances changed. She urges the applicant to have another conversation with the board, and Palatnik says he has updated the district manager. Chair Louis then asks colleagues for questions and the panel is not excused.",
+      "title": "Chair Louis raises Community Board 14 good-faith concerns",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2036.1,
+          "text": "So I just want to just share that we've also been joined by Councilmember Farias."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2041.2,
+          "text": "I just want to make a quick point because Community Board 14 approved this project with good faith that this project would be operating as a nonprofit."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2052.3,
+          "text": "And things have changed."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2053.8,
+          "text": "It sounds like there's a lot of conflicts."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2056.1,
+          "text": "It sounds convoluted."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2057.6,
+          "text": "So I just want to let you all know you should have another conversation with Community Board 14."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2062.5,
+          "text": "It's very important for us to have somewhat."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2066.0,
+          "text": "Good faith conversations."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 2067.7,
+          "text": "Good news."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 2068.9,
+          "text": "We already have."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 2070.0,
+          "text": "I've spoken to the district manager."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2071.5,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 2071.7,
+          "text": "I updated her as to what's going on."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2073.4,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 2073.7,
+          "text": "And I share the same concern that you're expressing to me."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 2078.4,
+          "text": "I see that we're talking very connected right now, and the same with the council member."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 2082.6,
+          "text": "We all feel the same way that you feel."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 2086.1,
+          "text": "I represented this as a not-for-profit."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 2088.1,
+          "text": "I'm very passionate towards a not-for-profit."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 2090.2,
+          "text": "And we all want to see the not-for-profit succeed and ultimately sign the contract."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 2094.7,
+          "text": "And that is what Centers is working on right now."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 2097.4,
+          "text": "I spoke to them this morning, to Aaron, same person you spoke to."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 2100.9,
+          "text": "And he said there are good faith negotiations going on right now."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2104.5,
+          "text": "And the community, when did you speak with them?"
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 2107.1,
+          "text": "Yeah, I spoke to, what's her name, the district manager about a week ago."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2111.8,
+          "text": "All right, we spoke to her last night and then again this morning."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2114.3,
+          "text": "They're very concerned."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2116.3,
+          "text": "They're still not happy."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2117.8,
+          "text": "And it's hard for them to trust this entity if they're not having honest conversations."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2122.1,
+          "text": "So I get it."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2122.6,
+          "text": "You're conflicted because you were representing them both."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2125.6,
+          "text": "You're not a part of the negotiations."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2127.6,
+          "text": "But that's not their issue, right?"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2129.4,
+          "text": "The community board approved something, believing it's going to be one thing and something else happened."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2133.9,
+          "text": "So that's a concern."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2135.6,
+          "text": "I just want to ask my colleagues, does anybody have questions for this applicant?"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2142.0,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Member of the Public - Eric Palatnik",
+          "t_sec": 2143.3,
+          "text": "Thank you all for the consideration this morning."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2145.2,
+          "text": "All right."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2145.5,
+          "text": "This panel is not excused."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2146.6,
+          "text": "Thank you so much for being here."
+        }
+      ]
+    },
+    {
+      "end_sec": 2202.128,
+      "id": "029",
+      "slug": "chair-louis-closes-first-public-hearing-after-no-public-testimony",
+      "start_sec": 2155.728,
+      "summary": "Chair Louis asks if any public members wish to testify on 1455 Coney Island Avenue; none do. She closes the public hearing and notes the items are laid over.",
+      "title": "Chair Louis closes first public hearing after no public testimony",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2155.728,
+          "text": "Council, are there any members of the public who wish to testify remotely or in person regarding this proposal?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 2160.828,
+          "text": "No, Chair."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 2161.328,
+          "text": "There is no one who signed up in person or online at this time."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2165.128,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2165.528,
+          "text": "For members of the public here to testify, please note that witnesses will stand at ease."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2176.328,
+          "text": "All right, last call."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2177.128,
+          "text": "If there are any members of the public who wish to testify regarding this proposal remotely, please press the raise hand button now."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2183.428,
+          "text": "If you are in person, please identify yourself to one of the sergeant at arms."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2187.828,
+          "text": "Got 30 seconds."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2190.028,
+          "text": "Being that there's no members of the public who wish to testify regarding pre-considered LUs relating to the 1455 Coney Island rezoning proposal, the public hearing is now closed and items are laid over."
+        }
+      ]
+    },
+    {
+      "end_sec": 2275.428,
+      "id": "030",
+      "slug": "chair-louis-opens-second-hearing-on-135-27-sapphire-street",
+      "start_sec": 2202.128,
+      "summary": "Chair Louis announces Council Member Salam has joined and opens the public hearing on pre-considered LUs for 135-27 Sapphire Street, a residential rezoning in Lindenwood, Queens. She describes a proposed 268-unit building with mandatory inclusionary housing and up to 80 permanently affordable units.",
+      "title": "Chair Louis opens second hearing on 135-27 Sapphire Street",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2202.128,
+          "text": "We've been joined by Council Member Salam."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2204.628,
+          "text": "I will now open the second hearing on pre-considered LUs regarding 135-27 Sapphire Street, a residential rezoning proposal in Lindenwood, Queens, and Council Member Ariella's district."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2216.228,
+          "text": "The applicant is seeking to develop a residential building that would have approximately 268 apartments."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2222.828,
+          "text": "Mandatory inclusionary housing would be mapped as part of the application, which would require that up to 80 of the apartments be permanently affordable."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2232.028,
+          "text": "For anyone wishing to testify regarding this proposal remotely, if you have not already done so, you must register online by visiting the council's website at council.nyc."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2242.828,
+          "text": "For anyone with us in person, please see one of the sergeant at arms to submit a speaker card."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2246.628,
+          "text": "If you would prefer to submit testimony, written testimony, you can always do so by emailing it to land use testimony at council.nyc.gov."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2269.728,
+          "text": "We've also been joined by Councilmember Areola, who will make a statement in a few minutes."
+        }
+      ]
+    },
+    {
+      "end_sec": 2332.884,
+      "id": "031",
+      "slug": "chair-louis-calls-applicant-panel-and-administers-oath-2",
+      "start_sec": 2275.428,
+      "summary": "Chair Louis calls Sheldon Lobel and the applicant team, including Richard Lobel, Daniel Ruzzo, Danielle Drake, and Christina Sapansky. Counsel administers the oath and Chair Louis limits testimony to 10 minutes.",
+      "title": "Chair Louis calls applicant panel and administers oath",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2275.428,
+          "text": "I will now call the applicant panel for this proposal, which consists of Sheldon Lobel."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2280.028,
+          "text": "Council, please call the roll."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2281.828,
+          "text": "Please administer the oath."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2285.884,
+          "text": "We got a couple of more guests."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2289.284,
+          "text": "Daniel Razu Rubin."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2293.984,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2294.684,
+          "text": "I'm Ruzzo."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2296.984,
+          "text": "Danielle Drake and Christina."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2299.884,
+          "text": "I'm going to let you all say your names."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2302.584,
+          "text": "Council, please administer the oath."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 2304.384,
+          "text": "Good morning, everyone."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 2305.584,
+          "text": "Can you please raise your right hand and say your name for the record?"
+        },
+        {
+          "speaker": "Member of the Public - Christina Sapansky",
+          "t_sec": 2309.784,
+          "text": "Christina Sapansky."
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2311.684,
+          "text": "Richard Lobel."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2313.384,
+          "text": "Daniel Ruzzo."
+        },
+        {
+          "speaker": "Member of the Public - Danielle Drake",
+          "t_sec": 2314.784,
+          "text": "Danielle Drake."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 2315.784,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 2316.184,
+          "text": "Do you swear to tell the truth and nothing but the truth in your testimony this morning in response to council member questions?"
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2321.184,
+          "text": "I do."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 2321.784,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2323.184,
+          "text": "You may all begin your testimony, which is limited to 10 minutes."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2326.084,
+          "text": "You should start concluding your presentation at eight minutes."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2328.784,
+          "text": "Please restate your name and the name of your organization."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2331.084,
+          "text": "You all may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 2420.784,
+      "id": "032",
+      "slug": "richard-lobel-presents-135-27-sapphire-street-rezoning-rationale",
+      "start_sec": 2332.884,
+      "summary": "Richard Lobel introduces the rezoning from R4 to R6A, proposing a six-story plus cellar building with about 186,000 square feet and 268 dwelling units. He notes MIH option one and support from Queens Community Board 10, the Borough President, and City Planning.",
+      "title": "Richard Lobel presents 135-27 Sapphire Street rezoning rationale",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2332.884,
+          "text": "Thank you, Chair Lewis, Council Members, Richard Lobel of Sheldon Lobel PC, joined by the applicant team and proud to bring 13527 Sapphire Street rezoning application to the subcommittee."
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2344.884,
+          "text": "And we hope that the council will join in the overwhelming support of Queens Community Board 10 in the vote of 29 to 1 in favor, as well as the Queensborough President and City Planning in supporting this application."
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2356.384,
+          "text": "I will give a brief discussion with regards to the land use rationale of this application."
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2360.184,
+          "text": "Dan Ruzzo will then talk about the architectural aspects, and then the entire applicant team is happy to answer questions."
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2365.384,
+          "text": "Next slide."
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2367.284,
+          "text": "So why are we here today?"
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2368.284,
+          "text": "This is a rezoning from an existing R4 district to an R6A district."
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2373.284,
+          "text": "Rezoning would allow for the building of a new six-story plus cellar residential building, a total floor area of roughly 186,000 square feet and roughly 268 dwelling units."
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2384.184,
+          "text": "This, of course, would be accompanied by a text amendment application for MIH, mandatory inclusionary housing."
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2390.184,
+          "text": "The app concurrently has penciled this out at option one."
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2393.684,
+          "text": "The next slide is the proposed development in terms of the numbers."
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2398.684,
+          "text": "This building, again, six stories plus cellar at 186,000 square feet, a base height of five stories and a total height of 65 feet."
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2407.684,
+          "text": "Parking would be 118 spaces in the cellar, which Dan can discuss."
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2412.584,
+          "text": "268 units with the breakdown of studios ones and twos, as you can see before you, and roughly 67 units at option one."
+        }
+      ]
+    },
+    {
+      "end_sec": 2478.584,
+      "id": "033",
+      "slug": "lobel-explains-zoning-map-context-and-prior-rezonings",
+      "start_sec": 2420.784,
+      "summary": "Lobel shows the zoning map, noting a February 2026 rezoning that allowed R7D and R6A on the block. He argues the proposal extends existing R6A context and aligns with Linden Boulevard densities.",
+      "title": "Lobel explains zoning map context and prior rezonings",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2420.784,
+          "text": "The next slide is a zoning map."
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2422.584,
+          "text": "Which I think tells part of the story in terms of why this is a meritorious rezoning."
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2427.584,
+          "text": "Most immediately, and it's tough to see, we'll see it on the coming maps, you can see that there was a prior rezoning approved in February 2026, so recently, which allowed for R7D and R6A on this block."
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2440.084,
+          "text": "It's within the circled area."
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2441.884,
+          "text": "It's that little dotted area to the right."
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2444.484,
+          "text": "So there's already a context on this block for increased zoning density."
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2449.884,
+          "text": "And that R6A, which is adjacent to our parcel, would then continue down the remainder of the block."
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2455.584,
+          "text": "So the remainder of the block after this rezoning would be R6A."
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2458.984,
+          "text": "There was also the Linden Boulevard rezoning two blocks to the west of us."
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2463.184,
+          "text": "which allowed for R7A and R6A densities."
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2467.584,
+          "text": "And, you know, generally speaking, the zoning densities along Linden, which is an extra wide street here, would support the context of these increased building heights and densities."
+        }
+      ]
+    },
+    {
+      "end_sec": 2562.384,
+      "id": "034",
+      "slug": "lobel-reviews-tax-map-area-map-and-transportation-access",
+      "start_sec": 2478.584,
+      "summary": "Lobel presents the tax map and area map, noting the R4 district dates to 1961 and the site is near wide streets and five bus lines. He argues the area supports increased residential and affordable housing density.",
+      "title": "Lobel reviews tax map, area map, and transportation access",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2478.584,
+          "text": "The next slide is the tax map."
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2481.084,
+          "text": "You can see a little bit more with a little bit more clarity the proposed zoning district boundary."
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2486.784,
+          "text": "These are the 12 remaining lots on this block, which would be rezoned with an R6A."
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2492.384,
+          "text": "Pursuant to this proposal, we note that this would take the existing boundary and drag it south."
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2498.384,
+          "text": "Which is something which is city planning looks to in terms of extending existing context."
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2503.684,
+          "text": "So it would come down to 149th Avenue."
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2506.584,
+          "text": "Next slide is the area map."
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2508.484,
+          "text": "So to note here, the R4 district, which currently covers the property, has been here since 1961."
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2516.484,
+          "text": "So over 60 years, indeed, the zoning map here could use a refresh to allow for some additional residential and affordable housing."
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2524.984,
+          "text": "And you can see the street system in the area, the streets around the site, 260 foot wide and one."
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2532.284,
+          "text": "80-foot wide street."
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2533.284,
+          "text": "The 80-foot wide street would be considered a wide street per zoning."
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2537.084,
+          "text": "Linden Boulevard here, you can see 170 feet wide, an extra wide street, and major thoroughfare in the area."
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2543.384,
+          "text": "Transportation in the area, considering this area of Queens, is relatively robust with roughly five bus lines."
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2551.984,
+          "text": "Going back and forth."
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2553.384,
+          "text": "along Linden Boulevard."
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2554.484,
+          "text": "So given that, given the density in the areas, including on this block, it's easy to see why we've had such great support for this application."
+        }
+      ]
+    },
+    {
+      "end_sec": 2587.784,
+      "id": "035",
+      "slug": "lobel-hands-presentation-to-daniel-ruzzo-for-architectural-details",
+      "start_sec": 2562.384,
+      "summary": "Lobel pages through site photos showing largely undeveloped land and then hands off to Daniel Ruzzo for the architectural presentation.",
+      "title": "Lobel hands presentation to Daniel Ruzzo for architectural details",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2562.384,
+          "text": "I would forward through, or if the slides can be forwarded through the remaining pictures of the site."
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2570.084,
+          "text": "You can just page through those."
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2571.384,
+          "text": "You can see the site is largely undeveloped, currently is very limited in terms of existing productive development."
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2579.384,
+          "text": "And with that, if you want to forward to the first plan page, Dan can discuss the architectural aspects, and then we're happy to answer questions."
+        }
+      ]
+    },
+    {
+      "end_sec": 2637.684,
+      "id": "036",
+      "slug": "daniel-ruzzo-presents-building-massing-and-unit-count",
+      "start_sec": 2587.784,
+      "summary": "Daniel Ruzzo describes a six-story building with a five-story mass and setback sixth floor to minimize height. He notes 268 units, 67 affordable, and compares the scale to nearby 12- and 14-story buildings.",
+      "title": "Daniel Ruzzo presents building massing and unit count",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2587.784,
+          "text": "Hello, committee."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2588.184,
+          "text": "Thank you for your time today."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2589.984,
+          "text": "As Richard has just said, the proposal here shows a six-story building."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2593.584,
+          "text": "It is a five-story mass with a six-floor that sets back in order to minimize the height of the building and provide a more contextual envelope to the surrounding homes around us, which"
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2607.984,
+          "text": "existing are in the three-story world."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2610.884,
+          "text": "The Lindenwood Diner, which is just to the right of the red."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2615.284,
+          "text": "The red square that you see right there along Linden Boulevard has been replaced, and that has been replaced still under construction with 12- and 14-story buildings."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2625.284,
+          "text": "So we would be smaller, but we are trying to still be sensitive toward the rest of the scale that's surrounding us in the neighborhood."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2631.984,
+          "text": "To that end, the proposal here, as Richard has said, is for 268 units, 67 of which would be affordable."
+        }
+      ]
+    },
+    {
+      "end_sec": 2695.228,
+      "id": "037",
+      "slug": "ruzzo-explains-site-plan-flood-zone-and-parking-design",
+      "start_sec": 2637.684,
+      "summary": "Ruzzo describes the U-shaped building opening toward Linden, with parking and storage in the cellar due to flooding. He notes a bidirectional driveway and above-grade parking along Sapphire.",
+      "title": "Ruzzo explains site plan, flood zone, and parking design",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2637.684,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2641.128,
+          "text": "The diner is on the left of the screen."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2642.828,
+          "text": "You can see Linden over there."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2644.228,
+          "text": "The building is a U-shape with the opening of the U facing toward Linden."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2649.828,
+          "text": "We then have a lower roof and an upper roof, which we'll see in a second."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2653.028,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2656.228,
+          "text": "On the lowest level, we are in a flood zone."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2658.828,
+          "text": "This area does tend to flood very regularly."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2661.528,
+          "text": "To that end, we have parking only and storage proposed in the cellar level."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2666.028,
+          "text": "79Th at the north of the screen is about 10 feet higher than Sapphire along the bottom of your screen."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2672.628,
+          "text": "And the grade actually lowers as you go along the right and you go down."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2677.728,
+          "text": "The proposal here shows a bidirectional driveway on the left-hand side of the screen that provides access to both 79th and to Sapphire as well as entrance into our proposed parking garage,"
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2690.428,
+          "text": "which is completely above grade along Sapphire on the bottom of the screen."
+        }
+      ]
+    },
+    {
+      "end_sec": 2743.732,
+      "id": "038",
+      "slug": "ruzzo-details-floor-setbacks-and-green-buffer",
+      "start_sec": 2695.228,
+      "summary": "Ruzzo explains the first-floor lobby and terrace, stepped massing up to the fifth floor, and a sixth-floor setback around the perimeter. He notes voluntary setbacks from the sidewalk to create a natural buffer and absorb stormwater.",
+      "title": "Ruzzo details floor setbacks and green buffer",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2695.228,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2698.332,
+          "text": "The first level and lobby entrance is primarily housing with a large terrace that occurs on the inside."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2704.732,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2707.032,
+          "text": "The building continues to grow and step up to the fifth floor."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2710.632,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2713.032,
+          "text": "And then we have a setback that occurs around the entire perimeter at the sixth floor, again, minimizing the height and feel of the building from street level."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2720.332,
+          "text": "You'll also note the green that surrounds the entire property."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2723.832,
+          "text": "We elected to push back the building from the sidewalk line voluntarily to create a natural buffer that both provides for a softer streetscape as well as greenery that would absorb water and stormwater in any type of a flooding situation."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2738.332,
+          "text": "So we felt it was a benefit for both the residents of the community and for the residents of the building."
+        }
+      ]
+    },
+    {
+      "end_sec": 2793.812,
+      "id": "039",
+      "slug": "ruzzo-addresses-dot-grade-change-and-future-proofed-driveway",
+      "start_sec": 2743.732,
+      "summary": "Ruzzo shows a section and explains a proposed DOT grade change of 2 to 10 feet. He says the driveway design allows parking access to continue and the building to remain in service during street raising.",
+      "title": "Ruzzo addresses DOT grade change and future-proofed driveway",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2743.732,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2746.712,
+          "text": "Here we'll see in section the building."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2749.112,
+          "text": "Again, the gray representing the driveway and the parking garage below."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2753.712,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2756.712,
+          "text": "There is a proposed DOT grade change for this entire area and this entire street system."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2763.312,
+          "text": "To that end, because of the way the building is designed and situated with respect to the current grade,"
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2769.712,
+          "text": "should DOT raise the grade around the perimeter, which is going to be a pretty meaningful raise of roughly 2 feet to 10 feet across, the way our driveway is designed, it allows for the building to not be taken out of service."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2782.812,
+          "text": "The parking would actually still be able to be accessed, and we would have access to effectively one street, their 79th or Sapphire, as DOT proposes and does that work."
+        }
+      ]
+    },
+    {
+      "end_sec": 2923.324,
+      "id": "040",
+      "slug": "ruzzo-presents-renderings-and-gabion-wall-flood-design",
+      "start_sec": 2793.812,
+      "summary": "Ruzzo shows renderings of the building in context, including the setback and greenscape. He describes a gabion wall system for the parking level that allows water and air movement, and a knockout panel for future DOT grade changes.",
+      "title": "Ruzzo presents renderings and gabion wall flood design",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2793.812,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2797.124,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2799.024,
+          "text": "I think the renderings will show a little bit better."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2801.124,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2803.724,
+          "text": "So here we can see the building within context."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2806.224,
+          "text": "The Lindenwood Diner development is the red and dark brown, blackish charcoal building that you're seeing to our right."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2813.024,
+          "text": "We're the white building right in the center of the screen."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2815.424,
+          "text": "As you can see, we are set back from the street, and we propose quite a bit of greenscape all around."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2821.924,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2825.024,
+          "text": "This is our corner and lobby entrance on 79th Street."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2828.524,
+          "text": "As you can see, the grade slightly dips as we go all the way around the building."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2832.724,
+          "text": "And you'll note that that sixth floor feels a little bit more de minimis from the street because it's set back."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2838.024,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2841.024,
+          "text": "Here you're seeing the driveway entrance along Sapphire, and you'll see that big blank wall right above it."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2846.524,
+          "text": "Sapphire would be raised by as much as 10 feet, so essentially the new grade one day would be at relatively the height of the top of the door right now, the garage door that you can see on the left."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2856.424,
+          "text": "So what that allows us to do is we'll have a knockout panel planned into the building as it's constructed, and when DOT raises the streets, we'll just raise the door into a panel that's already designed to be removed so that"
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2868.824,
+          "text": "the building is designed to be future-proofed for DOT to be able to do its work."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2873.824,
+          "text": "What you're seeing on the ground floor there is a gabion wall system."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2877.624,
+          "text": "That is actually walls that are used in highway design."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2880.624,
+          "text": "It's basically chicken wire or steel wire with boulders inside of it."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2885.124,
+          "text": "It creates a fully permeable envelope that allows water to freely move into and out of the building because we are in a flood zone, as well as providing for a very natural environment."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2896.224,
+          "text": "Air can also come in and out, and that is a parking level, so it's always nice to be able to have some breeze and be able to breathe in there."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2903.424,
+          "text": "When the grade is raised, we would simply pour a concrete wall, a foundation wall, behind the gabion wall system, and then that creates our bathtub, if you will, or our sealed cellar."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2915.824,
+          "text": "All of this can be done, as I said, without taking the building out of service at all."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2922.024,
+          "text": "Next slide, please."
+        }
+      ]
+    },
+    {
+      "end_sec": 3016.232,
+      "id": "041",
+      "slug": "richard-lobel-thanks-committee-and-council-member-ariola-remarks",
+      "start_sec": 2923.324,
+      "summary": "Richard Lobel thanks the chair, committee, and Council Member Ariola for her support. Council Member Ariola praises the developer for working with the community, community board, and civic associations, and says the project has her full support.",
+      "title": "Richard Lobel thanks committee and Council Member Ariola remarks",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2923.324,
+          "text": "I think that's it."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2924.724,
+          "text": "That's it."
+        },
+        {
+          "speaker": "Member of the Public - Daniel Ruzzo",
+          "t_sec": 2925.024,
+          "text": "Yeah, there we go."
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 2926.124,
+          "text": "So thank you to the chair, the committee, and we thank Councilmember Areola for her support during this process and are happy to answer any questions."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2948.932,
+          "text": "Thank you so much."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 2950.432,
+          "text": "Councilwoman Areola, do you have remarks?"
+        },
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 2954.132,
+          "text": "Yes, thank you, Chair."
+        },
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 2956.032,
+          "text": "I really want to thank Mr."
+        },
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 2957.632,
+          "text": "Lobel and the developer and the entire team for working so closely with the community, with the community board, with the civic associations, and getting all of the input they could from the community and making all the changes"
+        },
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 2971.032,
+          "text": "that were suggested."
+        },
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 2972.932,
+          "text": "As you can see, this is a..."
+        },
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 2975.832,
+          "text": "forward-thinking project."
+        },
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 2978.732,
+          "text": "It brings in resiliency."
+        },
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 2981.032,
+          "text": "It just brings in affordability, and we're looking forward to this."
+        },
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 2985.132,
+          "text": "And I think that when you look at this building and you see the kind of interaction that this particular group has had with the community and the"
+        },
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 2995.332,
+          "text": "kind of consideration that they gave the community, it really should be a best practice for all developers, and they'd get a lot less pushback when it came to development within their communities."
+        },
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 3005.532,
+          "text": "Thank you again to the team."
+        },
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 3006.932,
+          "text": "Thank you to the Subcommittee on Zoning and Franchises for hearing this project, and it does have my full support."
+        },
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 3013.732,
+          "text": "And thank you, Chair."
+        }
+      ]
+    },
+    {
+      "end_sec": 3080.332,
+      "id": "042",
+      "slug": "chair-louis-asks-about-jewel-streets-plan-consistency",
+      "start_sec": 3016.232,
+      "summary": "Chair Louis asks if the applicant is aware of the Jewel Streets neighborhood planning process and how the rezoning aligns with its goals. Danielle Drake says the project has been designed to work with the Jewel Streets plan and future road raising.",
+      "title": "Chair Louis asks about Jewel Streets plan consistency",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3016.232,
+          "text": "Thank you, Councilmember."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3019.332,
+          "text": "I have a couple of quick questions."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3022.032,
+          "text": "Is the applicant team aware of the Jewel Streets neighborhood?"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3025.032,
+          "text": "planning process and how is the rezoning consistent with the goals of this plan?"
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 3030.432,
+          "text": "We are and have had interaction with city planning as well as the other agencies regarding that."
+        },
+        {
+          "speaker": "Member of the Public - Richard Lobel",
+          "t_sec": 3035.632,
+          "text": "Danielle, do you want to address that for a moment?"
+        },
+        {
+          "speaker": "Member of the Public - Danielle Drake",
+          "t_sec": 3039.332,
+          "text": "Danielle Drake with H2M Architects and Engineers."
+        },
+        {
+          "speaker": "Member of the Public - Danielle Drake",
+          "t_sec": 3042.932,
+          "text": "So we've been talking with all the different agencies for some time now."
+        },
+        {
+          "speaker": "Member of the Public - Danielle Drake",
+          "t_sec": 3048.432,
+          "text": "This project has been, I think, going on since 2019."
+        },
+        {
+          "speaker": "Member of the Public - Danielle Drake",
+          "t_sec": 3051.532,
+          "text": "So we've been very knowledgeable of the Jewel Streets plans."
+        },
+        {
+          "speaker": "Member of the Public - Danielle Drake",
+          "t_sec": 3055.432,
+          "text": "We've discussed with various members."
+        },
+        {
+          "speaker": "Member of the Public - Danielle Drake",
+          "t_sec": 3058.432,
+          "text": "We have built the project to align with the Jewel Streets plan so that the road raising, which is the major implementation in this area that they're looking to do to"
+        },
+        {
+          "speaker": "Member of the Public - Danielle Drake",
+          "t_sec": 3068.432,
+          "text": "you know, raise the community up essentially in this low-lying area."
+        },
+        {
+          "speaker": "Member of the Public - Danielle Drake",
+          "t_sec": 3072.432,
+          "text": "You know, we've made sure that our project will work with the Jewel Streets plan in the future when that does become implemented."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3078.832,
+          "text": "Okay."
+        }
+      ]
+    },
+    {
+      "end_sec": 3179.532,
+      "id": "043",
+      "slug": "chair-louis-questions-sewer-infrastructure-capacity",
+      "start_sec": 3080.332,
+      "summary": "Chair Louis asks about sewer infrastructure and flooding. Danielle Drake says preliminary analyses submitted to DEP show existing infrastructure can support the building, with a sewer extension along 149th Street and a previously implemented catch basin.",
+      "title": "Chair Louis questions sewer infrastructure capacity",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3080.332,
+          "text": "Can you discuss some more the sewer infrastructure in the area, how this large project will connect with the sewer?"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3087.432,
+          "text": "I'm very familiar with the area, so I think you guys did an excellent job covering the fact that it's in a flood zone."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3092.932,
+          "text": "But if you could talk about the sewer infrastructure."
+        },
+        {
+          "speaker": "Member of the Public - Danielle Drake",
+          "t_sec": 3095.132,
+          "text": "Sure."
+        },
+        {
+          "speaker": "Member of the Public - Danielle Drake",
+          "t_sec": 3096.032,
+          "text": "So the sewer infrastructure there now, we have done preliminary analyses that we've submitted to DEP."
+        },
+        {
+          "speaker": "Member of the Public - Danielle Drake",
+          "t_sec": 3103.332,
+          "text": "And we've been able to ascertain that the existing infrastructure within the roadway can support this building."
+        },
+        {
+          "speaker": "Member of the Public - Danielle Drake",
+          "t_sec": 3110.332,
+          "text": "It will require a sewer extension along 149th."
+        },
+        {
+          "speaker": "Member of the Public - Danielle Drake",
+          "t_sec": 3114.232,
+          "text": "Just to get"
+        },
+        {
+          "speaker": "Member of the Public - Danielle Drake",
+          "t_sec": 3114.932,
+          "text": "physically to the building."
+        },
+        {
+          "speaker": "Member of the Public - Danielle Drake",
+          "t_sec": 3117.632,
+          "text": "But other than that, the actual sewer infrastructure within the roadway is able to support it, as well as the drainage infrastructure within the roadway."
+        },
+        {
+          "speaker": "Member of the Public - Danielle Drake",
+          "t_sec": 3128.932,
+          "text": "We actually back in, I want to say 2019, 2020,"
+        },
+        {
+          "speaker": "Member of the Public - Danielle Drake",
+          "t_sec": 3134.432,
+          "text": "made a suggestion to DEP to add a catch basin right in that area, which they have since already implemented within the roadway, which has made a big difference with the flooding in that area."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3144.932,
+          "text": "Have they added enough catch basins?"
+        },
+        {
+          "speaker": "Member of the Public - Danielle Drake",
+          "t_sec": 3147.032,
+          "text": "They have one in an area that was particularly bad."
+        },
+        {
+          "speaker": "Member of the Public - Danielle Drake",
+          "t_sec": 3151.332,
+          "text": "I know as part of this Jewel Streets plan, really the main goal there is to raise the roadways, which would then also have additional catch basins installed within the roadways."
+        },
+        {
+          "speaker": "Member of the Public - Danielle Drake",
+          "t_sec": 3162.932,
+          "text": "We still do need to make, you know, as this project goes on, we need to make applications to DEP."
+        },
+        {
+          "speaker": "Member of the Public - Danielle Drake",
+          "t_sec": 3167.732,
+          "text": "We need to make applications to DOT."
+        },
+        {
+          "speaker": "Member of the Public - Danielle Drake",
+          "t_sec": 3170.232,
+          "text": "So there's going to be an ongoing conversation with their timeline and how they see this project fitting in with their larger goals for the area."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3178.532,
+          "text": "Okay."
+        }
+      ]
+    },
+    {
+      "end_sec": 3221.832,
+      "id": "044",
+      "slug": "chair-louis-asks-about-dot-timeline-for-raising-sapphire-street",
+      "start_sec": 3179.532,
+      "summary": "Chair Louis asks if DOT has plans or a timeline to raise Sapphire Street by 10 feet. Danielle Drake says the current Jewel Streets plan has no timeline, and the elevation raise affects residents across the street.",
+      "title": "Chair Louis asks about DOT timeline for raising Sapphire Street",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3179.532,
+          "text": "And does DOT have any plans to raise Sapphire Street by 10 feet, as you mentioned in your testimony earlier, or are there any timeframes, any other timeframes?"
+        },
+        {
+          "speaker": "Member of the Public - Danielle Drake",
+          "t_sec": 3190.232,
+          "text": "So according to what I understand as the current version of the Jewel Streets plan, I don't believe that there is an actual timeline associated with it."
+        },
+        {
+          "speaker": "Member of the Public - Danielle Drake",
+          "t_sec": 3198.532,
+          "text": "The 10 feet elevation raise is addressed in their last plan that they had put together that they had put out to the"
+        },
+        {
+          "speaker": "Member of the Public - Danielle Drake",
+          "t_sec": 3204.832,
+          "text": "the public."
+        },
+        {
+          "speaker": "Member of the Public - Danielle Drake",
+          "t_sec": 3206.232,
+          "text": "And that does have a component that they have to deal with with the members of the community that live across the street from the site."
+        },
+        {
+          "speaker": "Member of the Public - Danielle Drake",
+          "t_sec": 3214.732,
+          "text": "So they are also affected by it."
+        },
+        {
+          "speaker": "Member of the Public - Danielle Drake",
+          "t_sec": 3217.032,
+          "text": "So that is, I think, the challenge for this area."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3219.632,
+          "text": "Okay."
+        }
+      ]
+    },
+    {
+      "end_sec": 3264.332,
+      "id": "045",
+      "slug": "chair-louis-excuses-applicant-panel-and-closes-second-hearing",
+      "start_sec": 3221.832,
+      "summary": "Chair Louis invites colleagues to ask questions, then excuses the panel. She calls for public testimony on 135-27 Sapphire Street; none is offered, so she closes the public hearing and lays over the items.",
+      "title": "Chair Louis excuses applicant panel and closes second hearing",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3221.832,
+          "text": "I now invite my colleagues to ask the question."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3224.632,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3226.432,
+          "text": "This panel is now excused."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3228.632,
+          "text": "Oh, stand at ease."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3233.732,
+          "text": "This panel is now excused."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3234.832,
+          "text": "Thank you so much for making time to be here."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 3237.232,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3238.032,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3239.132,
+          "text": "If there are any members of the public who wish to testify regarding this proposal remotely, please press the raise hand button now, or if you are in person, please identify yourself to one of the sergeant at arms."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3249.232,
+          "text": "This is the last call."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3252.032,
+          "text": "Being that there are no members of the public who wish to testify regarding the pre-considered relating to 135-27 Sapphire Street residential rezoning proposal, the public hearing is now closed and the items are now laid over."
+        }
+      ]
+    },
+    {
+      "end_sec": 3317.312,
+      "id": "046",
+      "slug": "chair-louis-closes-sidewalk-cafe-hearing-and-adjourns-meeting",
+      "start_sec": 3264.332,
+      "summary": "Chair Louis asks if anyone signed up to testify on the Tero de Esquina sidewalk cafe application; no one has. She notes the hearing remains closed, thanks participants, and adjourns the meeting.",
+      "title": "Chair Louis closes sidewalk cafe hearing and adjourns meeting",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3264.332,
+          "text": "Council, do we have any members of the public who have signed up to testify on the sidewalk application of federal..."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3270.832,
+          "text": "De Esquina, NYC Corp, formerly doing business as Kale Taharas Bakery and Restaurant."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 3279.532,
+          "text": "No, we don't, Chair."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3283.112,
+          "text": "Very well."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3283.512,
+          "text": "The public hearing was closed yesterday and remains closed today."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3287.512,
+          "text": "That concludes today's business."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3288.912,
+          "text": "I would like to thank members of the public, my colleagues, subcommittee council, Lanyus and council staff and the sergeant at arms for participating in today's meeting."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3296.312,
+          "text": "This meeting is hereby adjourned."
+        }
+      ]
+    }
+  ],
+  "date": "2026-09-23",
+  "duration_sec": 3317.312,
+  "slug": "2026-09-23-1000-am-subcommittee-on-zoning-and-franchises",
+  "summary": [
+    "The Subcommittee on Zoning and Franchises held public hearings on two pre-considered land use applications: a long-term care facility at 1455 Coney Island Avenue in Brooklyn and a residential rezoning at 135-27 Sapphire Street in Queens.",
+    "Applicants presented project details and answered questions from Chair Farah Louis and Council Member Simcha Felder; no members of the public testified on either proposal.",
+    "Both public hearings were closed and the items were laid over; the sidewalk cafe application for Tero de Esquina remained closed with no speakers, and the meeting was adjourned."
+  ],
+  "tags": [
+    "HEARING",
+    "LAND_USE"
+  ],
+  "time": "10:00 AM",
+  "title": "Subcommittee on Zoning and Franchises",
+  "topic": "Zoning, 158-06 Northern Boulevard Rezoning, Queens (C 260171 ZMQ)",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-3_260923-101316/video-web.mp4"
+  }
+}

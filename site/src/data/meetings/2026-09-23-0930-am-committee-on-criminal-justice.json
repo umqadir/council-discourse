@@ -1,0 +1,378 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 35.9,
+      "id": "001",
+      "slug": "council-staff-open-the-hearing-and-set-room-rules",
+      "start_sec": 16.8,
+      "summary": "Council staff greet attendees, ask that all phones be silenced, and instruct that no one approach the desk. The chair is then invited to begin the proceedings.",
+      "title": "Council staff open the hearing and set room rules",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 16.8,
+          "text": "Hello, good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 17.9,
+          "text": "Welcome to today's New York City Council vote."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 21.1,
+          "text": "At this time, please silence all phones."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 23.9,
+          "text": "Moving forward, no one is to approach the desk."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 26.5,
+          "text": "Chair, you may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 55.22,
+      "id": "002",
+      "slug": "chair-brooks-powers-opens-the-criminal-justice-committee-hearing-and-names-attending-members",
+      "start_sec": 35.9,
+      "summary": "Council Member Selvena N. Brooks-Powers identifies herself as Chair of the Committee on Criminal Justice and welcomes attendees. She notes she is joined by Council Members Morano, Narcisse, Brewer, and Cab\u00e1n.",
+      "title": "Chair Brooks-Powers opens the Criminal Justice Committee hearing and names attending members",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 35.9,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 37.0,
+          "text": "And good morning."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 38.0,
+          "text": "I am Councilmember Silvina Brooks-Powers, Chair of the Committee on Criminal Justice."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 44.0,
+          "text": "I am joined by Councilmembers Murano, Narcisse, Brewer, Caban,"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 53.42,
+          "text": "I think that's all."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 54.22,
+          "text": "Okay."
+        }
+      ]
+    },
+    {
+      "end_sec": 78.72,
+      "id": "003",
+      "slug": "chair-brooks-powers-describes-the-purpose-of-proposed-int-246-a-on-commissary-fund-returns",
+      "start_sec": 55.22,
+      "summary": "The chair announces the committee will vote on Proposed Introduction 246-A, sponsored by Council Member Crystal Hudson. She explains the bill would require the Department of Correction to inform incarcerated individuals about institutional funds remaining in their accounts before release and establish procedures for returning that money.",
+      "title": "Chair Brooks-Powers describes the purpose of Proposed Int. 246-A on commissary fund returns",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 55.22,
+          "text": "Today, the committee will vote on proposed introduction number 246A, sponsored by Councilmember Crystal Hudson."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 62.82,
+          "text": "This bill would require the Department of Correction to provide incarcerated individuals with information about the institutional funds remaining in their accounts before they are released from custody and establish procedures for returning those funds."
+        }
+      ]
+    },
+    {
+      "end_sec": 101.92,
+      "id": "004",
+      "slug": "chair-brooks-powers-outlines-cash-check-and-debit-card-disbursement-options-in-int-246-a",
+      "start_sec": 78.72,
+      "summary": "Brooks-Powers explains that under the legislation individuals could receive their institutional funds in cash, by check, or, after an implementation period, through a preloaded debit card. Those requesting cash or a debit card would receive funds immediately upon request.",
+      "title": "Chair Brooks-Powers outlines cash, check, and debit card disbursement options in Int. 246-A",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 78.72,
+          "text": "Under this legislation, individuals would be able to receive their institutional funds in cash by check or after a specified implementation period through a preloaded debit card."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 92.72,
+          "text": "Individuals requesting their funds in cash or on a preloaded debit card would receive them immediately upon request."
+        }
+      ]
+    },
+    {
+      "end_sec": 113.12,
+      "id": "005",
+      "slug": "chair-brooks-powers-details-check-procedures-and-the-ban-on-return-fees",
+      "start_sec": 101.92,
+      "summary": "The chair describes the bill's procedures for receiving funds by check. She notes the legislation would prohibit the Department of Correction from charging any fees for returning these funds.",
+      "title": "Chair Brooks-Powers details check procedures and the ban on return fees",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 101.92,
+          "text": "The bill would also establish procedures for individuals to receive funds by check and would prohibit the department from charging any fees for the return of these funds."
+        }
+      ]
+    },
+    {
+      "end_sec": 143.92,
+      "id": "006",
+      "slug": "chair-brooks-powers-explains-fund-transfers-between-correctional-facilities-under-int-246-a",
+      "start_sec": 113.12,
+      "summary": "Brooks-Powers says the bill addresses transfers of institutional funds when an incarcerated individual moves to another facility that maintains such funds. Before transfer, the individual would receive written information on how their funds can be moved to the receiving facility.",
+      "title": "Chair Brooks-Powers explains fund transfers between correctional facilities under Int. 246-A",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 113.12,
+          "text": "The legislation also addresses the transfer of institutional funds when an incarcerated individual is transferred to another correctional facility that maintains institutional funds."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 124.72,
+          "text": "Before such a transfer, the individual would receive written information about how their funds can be transferred to the receiving facility."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 132.42,
+          "text": "These provisions would provide clearer and more accessible procedures for individuals to recover money that remains in their accounts when they leave the Department of"
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 142.12,
+          "text": "correction custody."
+        }
+      ]
+    },
+    {
+      "end_sec": 155.12,
+      "id": "007",
+      "slug": "chair-brooks-powers-argues-fund-access-is-critical-for-reentry",
+      "start_sec": 143.92,
+      "summary": "The chair says the provisions create clearer, more accessible procedures for recovering money left in accounts after leaving DOC custody. She stresses that access to one's own funds on release matters for transitioning back into the community and covering immediate expenses.",
+      "title": "Chair Brooks-Powers argues fund access is critical for reentry",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 143.92,
+          "text": "Ensuring that individuals can readily access their own funds upon release is particularly important as they transition back into the community and may need those funds to address immediate expenses."
+        }
+      ]
+    },
+    {
+      "end_sec": 162.22,
+      "id": "008",
+      "slug": "chair-brooks-powers-opens-the-roll-call-and-asks-the-clerk-to-call-the-vote",
+      "start_sec": 155.12,
+      "summary": "Brooks-Powers opens the roll for a vote on Proposed Introduction 246-A. She asks the committee clerk to call the vote.",
+      "title": "Chair Brooks-Powers opens the roll call and asks the clerk to call the vote",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 155.12,
+          "text": "With that, I'd like to open the roll for a vote and I now ask the clerk to call the vote."
+        }
+      ]
+    },
+    {
+      "end_sec": 169.62,
+      "id": "009",
+      "slug": "committee-clerk-william-martin-announces-the-roll-call-on-int-246-a",
+      "start_sec": 162.22,
+      "summary": "Clerk William Martin identifies himself and announces a roll call vote of the Committee on Criminal Justice on Proposed Introduction 246-A. He begins calling members by name, starting with Chair Brooks-Powers.",
+      "title": "Committee Clerk William Martin announces the roll call on Int. 246-A",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 162.22,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 162.62,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 163.12,
+          "text": "William Martin, Committee Clerk, Roll Call Vote Committee on Criminal Justice and Proposed Introduction 246A."
+        }
+      ]
+    },
+    {
+      "end_sec": 177.412,
+      "id": "010",
+      "slug": "chair-brooks-powers-votes-aye-as-the-clerk-continues-the-roll",
+      "start_sec": 169.62,
+      "summary": "Chair Brooks-Powers votes aye on Int. 246-A. The clerk then calls Council Member Feliz, followed by Council Member Cab\u00e1n.",
+      "title": "Chair Brooks-Powers votes aye as the clerk continues the roll",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 169.62,
+          "text": "Chair Brooks Powers."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 172.32,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 173.92,
+          "text": "Feliz."
+        }
+      ]
+    },
+    {
+      "end_sec": 187.512,
+      "id": "011",
+      "slug": "council-members-cab-n-brewer-and-narcisse-vote-aye-on-int-246-a",
+      "start_sec": 177.412,
+      "summary": "Council Member Tiffany L. Cab\u00e1n votes aye, followed by Council Member Gale A. Brewer, who votes yes. Council Member Mercedes Narcisse also votes in the affirmative.",
+      "title": "Council Members Cab\u00e1n, Brewer, and Narcisse vote aye on Int. 246-A",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 177.412,
+          "text": "Kaban."
+        },
+        {
+          "speaker": "Tiffany L. Cab\u00e1n",
+          "t_sec": 178.612,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 180.312,
+          "text": "A brewer."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 181.112,
+          "text": "Yes."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 183.412,
+          "text": "Narcisse."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 184.812,
+          "text": "Avrai."
+        }
+      ]
+    },
+    {
+      "end_sec": 194.212,
+      "id": "012",
+      "slug": "council-members-salam-and-morano-complete-the-roll-call-with-aye-votes",
+      "start_sec": 187.512,
+      "summary": "The clerk calls Council Member Salam and then Council Member Morano. Council Member Frank Morano votes aye, completing the roll call.",
+      "title": "Council Members Salam and Morano complete the roll call with aye votes",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 187.512,
+          "text": "Salam."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 190.612,
+          "text": "Morano."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 191.612,
+          "text": "Aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 203.612,
+      "id": "013",
+      "slug": "int-246-a-adopted-5-0-with-no-abstentions-chair-held-open",
+      "start_sec": 194.212,
+      "summary": "The clerk reports five votes in the affirmative, zero in the negative, and no abstentions, so the item is adopted by the committee. The chair is held open at the request of the chair.",
+      "title": "Int. 246-A adopted 5-0 with no abstentions; chair held open",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 194.212,
+          "text": "With a vote of five in the affirmative, zero in the negative, and no abstention, the item has been adopted by the committee, and the chair will be held open by request of the chair."
+        }
+      ]
+    },
+    {
+      "end_sec": 214.571,
+      "id": "014",
+      "slug": "chair-brooks-powers-pauses-the-hearing-to-roll-into-the-oversight-hearing",
+      "start_sec": 203.612,
+      "summary": "Brooks-Powers thanks the members and announces the committee will pause the current hearing. She says the committee will roll directly into the oversight hearing.",
+      "title": "Chair Brooks-Powers pauses the hearing to roll into the oversight hearing",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 203.612,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 204.012,
+          "text": "We're going to pause this hearing, and we're going to roll into the oversight hearing."
+        }
+      ]
+    }
+  ],
+  "date": "2026-09-23",
+  "duration_sec": 214.571,
+  "slug": "2026-09-23-0930-am-committee-on-criminal-justice",
+  "summary": [
+    "The Committee on Criminal Justice convened a hearing at 9:30 AM on September 23, 2026, chaired by Council Member Selvena N. Brooks-Powers, to vote on Proposed Introduction 246-A.",
+    "Int. 246-A, sponsored by Council Member Crystal Hudson, would require the Department of Correction to inform incarcerated individuals of institutional funds remaining in their accounts before release and to establish fee-free procedures for returning those funds by cash, check, or preloaded debit card.",
+    "The committee adopted the bill by a roll-call vote of 5 in the affirmative, 0 in the negative, and no abstentions, after which the chair paused the hearing to roll into an oversight hearing."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "9:30 AM",
+  "title": "Committee on Criminal Justice",
+  "topic": "Returning funds remaining in commissary accounts when incarcerated individuals are released from custody",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-1_260923-100349/video-web.mp4"
+  }
+}
