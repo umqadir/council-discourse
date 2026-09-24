@@ -1,0 +1,573 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 20.1,
+      "id": "001",
+      "slug": "staff-opens-committee-on-land-use-vote-with-housekeeping-instructions",
+      "start_sec": 4.4,
+      "summary": "Council staff welcomes attendees to the New York City Council Committee on Land Use vote, asks everyone to silence phones, warns that no one may approach the desk, and invites Chair Riley to begin.",
+      "title": "Staff opens Committee on Land Use vote with housekeeping instructions",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 4.4,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 5.0,
+          "text": "Welcome to today's New York City Council vote for the Committee on Land Use."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 10.3,
+          "text": "At this time, please silence all phones."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 13.5,
+          "text": "Moving forward, no one is to approach the desk."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 16.5,
+          "text": "Chair, you may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 48.9,
+      "id": "002",
+      "slug": "chair-riley-opens-meeting-and-announces-attending-members",
+      "start_sec": 20.1,
+      "summary": "Councilmember Kevin C. Riley convenes the meeting as chair, welcomes Chair Lewis and Councilmember Brooks-Powers, and reads remote attendees including Caban, Abreu, Salaam, Zhuang, Sanchez, Thomas-Henry, and Carr.",
+      "title": "Chair Riley opens meeting and announces attending members",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 20.1,
+          "text": "Good morning and welcome to a meeting of the Committee on Land Use."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 23.1,
+          "text": "I am Councilmember Kevin Riley, Chair of this committee."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 26.0,
+          "text": "I want to welcome my esteemed colleagues joining me today, including Chair Lewis, Councilmember Savina Brooks-Powers."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 33.1,
+          "text": "We're joined remotely by Councilmember Caban, Majority Leader Abreu, Councilmember Salam, Councilmember Zhuang, and Carnation, Councilmember Justin Sanchez, Councilmember Thomas Henry, and Minority Leader Carr."
+        }
+      ]
+    },
+    {
+      "end_sec": 61.2,
+      "id": "003",
+      "slug": "chair-riley-outlines-seven-item-agenda-and-thanks-subcommittee-leaders",
+      "start_sec": 48.9,
+      "summary": "Riley says the committee will vote on seven items referred by subcommittees and thanks Chair Lewis, Zonin, Chair Marte, and Landmarks for their leadership.",
+      "title": "Chair Riley outlines seven-item agenda and thanks subcommittee leaders",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 48.9,
+          "text": "Today we are voting on seven items, including various proposals referred by our subcommittee, and I want to thank Chair Lewis and Zonin and Chair Marte and Landmarks for their ongoing leadership."
+        }
+      ]
+    },
+    {
+      "end_sec": 87.2,
+      "id": "004",
+      "slug": "chair-riley-previews-disapproval-of-cali-tajadas-sidewalk-caf-item",
+      "start_sec": 61.2,
+      "summary": "Riley announces a vote to disapprove LU 141, a sidewalk caf\u00e9 proposal by NYC Corp formerly doing business as Cali Tajadas Bakery and Restaurant in Councilmember Thomas-Henry's Queens district, citing reasons explained in the zoning subcommittee.",
+      "title": "Chair Riley previews disapproval of Cali Tajadas sidewalk caf\u00e9 item",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 61.2,
+          "text": "Today we will vote to disapprove LU's 141 related to the Sidewall Cafe proposal by Tiro de Esquina."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 70.1,
+          "text": "NYC Corp, formerly doing business as Cali Tejadas Bakery and Restaurant in Councilmember Thomas Henry District in Queens."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 80.1,
+          "text": "For the reason described earlier in the zoning subcommittee and by Councilmember Thomas Henry."
+        }
+      ]
+    },
+    {
+      "end_sec": 107.1,
+      "id": "005",
+      "slug": "chair-riley-previews-approval-of-815-hutchinson-river-parkway-rezoning",
+      "start_sec": 87.2,
+      "summary": "Riley says the committee will approve LU 120, a Bronx rezoning in Councilmember Aldebo's district, to allow a retail establishment of 10,000 or more square feet at an existing commercial center in Ferry Point.",
+      "title": "Chair Riley previews approval of 815 Hutchinson River Parkway rezoning",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 87.2,
+          "text": "We will vote to approve LU's 120 related to the"
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 90.1,
+          "text": "815 Hutchinson River Parkway rezoning in Councilmember Aldebos District in the Bronx"
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 96.4,
+          "text": "for a zoning map amendment in order to allow large retail establishment of 10,000 or more square feet at an existing commercial center in Ferry Point."
+        }
+      ]
+    },
+    {
+      "end_sec": 136.2,
+      "id": "006",
+      "slug": "chair-riley-previews-862-868-kent-avenue-approvals",
+      "start_sec": 107.1,
+      "summary": "Riley says the committee will approve LUs 121 and 122 for 862-868 Kent Avenue in Brooklyn, facilitating a mixed-use residential project in Williamsburg with about 74 apartments, approximately 19 permanently affordable through MIH.",
+      "title": "Chair Riley previews 862-868 Kent Avenue approvals",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 107.1,
+          "text": "We will also vote to approve LUs 121 and 122 related to the 862-868 Kent Avenue rezoning proposal in Councilmember Ressler's district in Brooklyn"
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 120.1,
+          "text": "for a zoning map and zoning text amendment to facilitate the development of a mixed-use residential project in Williamsburg with approximately 74 apartments, of which approximately 19 will be permanently affordable"
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 134.3,
+          "text": "through MIH."
+        }
+      ]
+    },
+    {
+      "end_sec": 189.2,
+      "id": "007",
+      "slug": "chair-riley-previews-modified-158-06-northern-boulevard-approvals",
+      "start_sec": 136.2,
+      "summary": "Riley says the committee will approve with modifications LUs 123 and 124 for 158-06 Northern Boulevard in Queens, facilitating a mixed-use project in Flushing with about 76 apartments and 19 affordable units through MIH; the modification limits the rezoned district to Northern Boulevard frontage and aligns the MIH area.",
+      "title": "Chair Riley previews modified 158-06 Northern Boulevard approvals",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 136.2,
+          "text": "We will also vote to approve with modification LUs 123 and 124 relating to the 158-06 Northern Boulevard rezoning proposal in Councilmember Ung's district in Queens"
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 148.8,
+          "text": "for a zoning map and zoning text amendment to facilitate the development of a mixed-use residential project in Flushing,"
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 156.6,
+          "text": "including approximately 76 apartments, of which approximately 19 would be permanently affordable using MIH."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 166.5,
+          "text": "Our modification will be to limit the rezoned district boundaries to sites fronting of the Northern Boulevard, which is a wide street with existing greater densities and thus better suited for the proposed R7A district."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 180.8,
+          "text": "We will also modify the proposed zone and text amendment so that the MIH area matches the modified district's boundaries."
+        }
+      ]
+    },
+    {
+      "end_sec": 220.9,
+      "id": "008",
+      "slug": "chair-riley-previews-modified-132-melrose-street-approvals",
+      "start_sec": 189.2,
+      "summary": "Riley says the committee will approve with modifications LUs 125 and 126 for 132 Melrose Street in Brooklyn, facilitating a mixed-use project in Bushwick with about 18 apartments and five permanently affordable units; the modification removes MIH option two.",
+      "title": "Chair Riley previews modified 132 Melrose Street approvals",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 189.2,
+          "text": "We will also vote to approve modifications LUs 125 and 126 related to the 132 Melrose Street rezoning proposal in Council Member Gutierrez's district in Brooklyn."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 202.4,
+          "text": "For a zoning map amendment and zoning text amendment to facilitate the development of a mixed-use residential project in Bushwick."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 210.0,
+          "text": "Including approximately 18 apartments, of which approximately five will be permanently affordable."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 216.5,
+          "text": "Our modification will to be removed MIH option two."
+        }
+      ]
+    },
+    {
+      "end_sec": 255.5,
+      "id": "009",
+      "slug": "chair-riley-previews-modified-21-36-46th-avenue-approvals",
+      "start_sec": 220.9,
+      "summary": "Riley says the committee will approve with modifications LUs 127 and 128 for 21-36 46th Avenue in Queens, facilitating a mixed-use project in Long Island City with about 84 apartments and 21 permanently affordable units; the modifications remove MIH option 2 and add option 3.",
+      "title": "Chair Riley previews modified 21-36 46th Avenue approvals",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 220.9,
+          "text": "We will also vote to approve with modifications LUs 127 and 128 related to the 21-36 46th Avenue rezoning proposal in Councilmember Juan's district in Queens."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 233.9,
+          "text": "For a zoning map and zoning text amendment to facilitate the development of a mixed-use residential project in Long Island City, including approximately 84 apartments, of which approximately 21 will be permanently affordable."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 248.9,
+          "text": "Our modifications will be to remove MIH option 2 and add MIH option 3."
+        }
+      ]
+    },
+    {
+      "end_sec": 283.4,
+      "id": "010",
+      "slug": "chair-riley-previews-intro-833-a-on-eastern-parkway-setbacks",
+      "start_sec": 255.5,
+      "summary": "Riley says the committee will approve Intro 833-A from Councilmember Sandy Nurse, removing antiquated administrative code provisions that required a 30-foot setback along portions of Eastern Parkway between Rockaway Avenue and Bushwick Avenue in Brooklyn.",
+      "title": "Chair Riley previews Intro 833-A on Eastern Parkway setbacks",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 255.5,
+          "text": "Finally, we will vote to approve Intro 833-A bill from Councilmember Sandy Nurse to address the outmoded building restrictions along portions of Eastern Parkway in Brooklyn."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 268.5,
+          "text": "Specifically, the bill will remove"
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 270.0,
+          "text": "moved the antiquated administrative code provisions requiring that developments provided a 30-foot setback along the eastern parkway frontage between Rockaway Avenue and Bushwick Avenue."
+        }
+      ]
+    },
+    {
+      "end_sec": 336.1,
+      "id": "011",
+      "slug": "chair-riley-closes-comments-and-calls-vote-on-all-seven-land-use-items",
+      "start_sec": 283.4,
+      "summary": "Riley asks colleagues for comments or questions, sees none, and calls a vote to approve Intro 833-A, approve LUs 120, 121/122, disapprove LU 141, and approve with modifications LUs 123/124, 125/126, and 127/128.",
+      "title": "Chair Riley closes comments and calls vote on all seven land use items",
+      "type": "VOTE",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 283.4,
+          "text": "I'd like to now recognize any of my colleagues for any comments or questions."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 289.5,
+          "text": "Seeing none, I now call for a vote with the support of local members to approve intro number 833-A sponsored by Council Member Nurse to approve LUs 120, the 815 Hutchinson River Parkway rezoning,"
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 305.0,
+          "text": "LUs 121 and 122 for the 862 Kent Avenue rezoning."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 310.2,
+          "text": "To disapprove L.U.'s 141, the Sidewall Cafe application."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 314.9,
+          "text": "And to approve with modifications, L.U.'s 123 and 124 for the 158-06 Northern Boulevard rezoning."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 323.1,
+          "text": "L.U.'s 125 and 126 for the 132 Murrells Avenue rezoning."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 327.9,
+          "text": "And LUs 127 and 128 for the 21-3146 Avenue rezoning."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 333.6,
+          "text": "Will the clerk please call the roll?"
+        }
+      ]
+    },
+    {
+      "end_sec": 423.136,
+      "id": "012",
+      "slug": "clerk-william-martin-calls-roll-on-coupled-items",
+      "start_sec": 336.1,
+      "summary": "Committee Clerk William Martin begins the roll-call vote and notes all items are coupled. Members respond as called, with Caban temporarily deferred, and the clerk proceeds through the remaining names.",
+      "title": "Clerk William Martin calls roll on coupled items",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 336.1,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 336.4,
+          "text": "William Martin, Committee Clerk, Roll Call Vote Committee on Land Use."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 339.5,
+          "text": "All items are coupled."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 341.2,
+          "text": "Chair Riley."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 342.3,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 344.0,
+          "text": "Lewis."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 345.0,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 346.8,
+          "text": "Brooks Powers."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 348.3,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 349.8,
+          "text": "Caban."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 358.1,
+          "text": "I was a member of Caban."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 362.6,
+          "text": "Okay, we'll come back."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 364.6,
+          "text": "Abraiu."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 367.2,
+          "text": "Oh, say."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 370.6,
+          "text": "Salam."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 372.3,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 374.5,
+          "text": "Banks."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 378.2,
+          "text": "Zhuang."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 380.0,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 381.8,
+          "text": "Encarnacion."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 383.6,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 385.8,
+          "text": "Sanchez."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 387.7,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 390.036,
+          "text": "Thomas Henry."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 391.136,
+          "text": "All right."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 395.536,
+          "text": "Car."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 396.636,
+          "text": "I don't know."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 402.736,
+          "text": "One moment, please."
+        }
+      ]
+    },
+    {
+      "end_sec": 482.912,
+      "id": "013",
+      "slug": "committee-approves-all-coupled-items-10-0",
+      "start_sec": 423.136,
+      "summary": "The clerk announces a vote of 10 in the affirmative, 0 in the negative, and no abstentions; all items are approved by the committee as described by the chair. Staff then asks members to wait a moment and thanks them.",
+      "title": "Committee approves all coupled items 10-0",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 423.136,
+          "text": "With a vote of 10 in the affirmative, 0 in the negative, and no abstentions, all items have been approved by the committee as described by the chair."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 449.412,
+          "text": "One moment, members."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 450.312,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 500.501,
+      "id": "014",
+      "slug": "chair-riley-thanks-participants-and-adjourns-meeting",
+      "start_sec": 482.912,
+      "summary": "Riley says the business is concluded, thanks the public, colleagues, council staff, and sergeant at arms, and adjourns the meeting.",
+      "title": "Chair Riley thanks participants and adjourns meeting",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 482.912,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 483.512,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 484.412,
+          "text": "That concludes today's business."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 485.812,
+          "text": "I would like to thank the members of the public, my colleagues, council staff, and the sergeant at arms for participating in today's meeting."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 492.012,
+          "text": "This meeting is hereby adjourned."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 493.212,
+          "text": "Thank you."
+        }
+      ]
+    }
+  ],
+  "date": "2026-09-24",
+  "duration_sec": 500.501,
+  "slug": "2026-09-24-1145-am-committee-on-land-use",
+  "summary": [
+    "Committee on Land Use convened at 11:45 AM with Chair Kevin C. Riley presiding and members joining in person and remotely.",
+    "Chair Riley previewed seven land use items, including rezonings in the Bronx, Brooklyn, and Queens, a sidewalk caf\u00e9 disapproval, and Intro 833-A on Eastern Parkway setbacks.",
+    "The committee approved all coupled items by a 10-0 roll-call vote, with modifications to several rezonings, and adjourned shortly afterward."
+  ],
+  "tags": [
+    "LAND_USE",
+    "VOTE"
+  ],
+  "time": "11:45 AM",
+  "title": "Committee on Land Use",
+  "topic": "Restrictions on the location of buildings and other structures on Eastern parkway",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-3_260924-115634/video-web.mp4"
+  }
+}

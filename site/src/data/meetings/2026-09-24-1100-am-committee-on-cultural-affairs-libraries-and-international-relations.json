@@ -1,0 +1,386 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 21.4,
+      "id": "001",
+      "slug": "council-staff-opens-hearing-and-issues-room-procedures",
+      "start_sec": 7.2,
+      "summary": "Council staff welcomes attendees to the New York City Council hearing and asks everyone to silence electronic devices. Staff also instructs that no one is to approach the desk going forward, then tells the chair the committee is ready to begin.",
+      "title": "Council staff opens hearing and issues room procedures",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 7.2,
+          "text": "Good morning and welcome to today's New York City Council here."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 10.8,
+          "text": "Vote."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 12.7,
+          "text": "On finance."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 14.2,
+          "text": "At this time, I would like to remind everyone to silence all electronic devices."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 17.8,
+          "text": "At this point going forward, no one is to approach the desk."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 20.0,
+          "text": "Chair, we're ready to begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 42.2,
+      "id": "002",
+      "slug": "chair-linda-lee-opens-finance-committee-meeting-and-recognizes-members",
+      "start_sec": 21.4,
+      "summary": "Council Member Linda Lee says good morning and identifies herself as Chair of the Committee on Finance. She recognizes committee members Hudson, Brooks Powers, Marano, Marte, Narcisse, Williams, Jay Sanchez, Maloney, Wong, and Abreu.",
+      "title": "Chair Linda Lee opens Finance Committee meeting and recognizes members",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 21.4,
+          "text": "Great."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 22.9,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 23.4,
+          "text": "I'm Councilmember Linda Lee, Chair of the Committee on Finance, and I would like to recognize my fellow committee members, Councilmembers Hudson, Brooks Powers, Marano,"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 32.9,
+          "text": "Marte, Narcisse, Williams, Jay Sanchez, Maloney, Wong, and Abreu."
+        }
+      ]
+    },
+    {
+      "end_sec": 60.5,
+      "id": "003",
+      "slug": "linda-lee-describes-preconsidered-transparency-resolution-on-expense-budget-designations",
+      "start_sec": 42.2,
+      "summary": "Lee states that the committee will consider and vote on a preconsidered transparency resolution sponsored by her. The resolution would approve new designations and changes in the designation of certain organizations to receive funding in the expense budget.",
+      "title": "Linda Lee describes preconsidered transparency resolution on expense budget designations",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 42.2,
+          "text": "At today's hearing, the committee will consider and vote on the following item, a pre-considered transparency resolution sponsored by myself"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 50.9,
+          "text": "to approve the new, sorry, that's weird, to approve the new designation and changes in the designation of certain organizations to receive funding in the expense budget."
+        }
+      ]
+    },
+    {
+      "end_sec": 71.8,
+      "id": "004",
+      "slug": "linda-lee-asks-for-colleague-comments-and-notes-council-member-felice-present",
+      "start_sec": 60.5,
+      "summary": "Lee invites her colleagues to offer comments or remarks on the resolution. She notes that Council Member Felice has joined, confirms there are no further comments, and thanks the members.",
+      "title": "Linda Lee asks for colleague comments and notes Council Member Felice present",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 60.5,
+          "text": "Do any of my colleagues have any comments or remarks?"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 64.4,
+          "text": "We've also been joined by Council Member Felice."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 68.8,
+          "text": "No, we're good?"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 70.2,
+          "text": "Okay, thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 86.18,
+      "id": "005",
+      "slug": "linda-lee-asks-the-clerk-to-call-the-roll",
+      "start_sec": 71.8,
+      "summary": "Chair Lee directs the clerk to call the roll on the transparency resolution. This moves the committee into the voting procedure.",
+      "title": "Linda Lee asks the clerk to call the roll",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 71.8,
+          "text": "And I now ask the clerk to call the roll."
+        }
+      ]
+    },
+    {
+      "end_sec": 104.28,
+      "id": "006",
+      "slug": "roll-call-begins-with-first-ayes-and-council-member-felice",
+      "start_sec": 86.18,
+      "summary": "The clerk begins the roll call and records an initial aye. Council Member Felice is called, followed by the majority leader, and an aye is recorded.",
+      "title": "Roll call begins with first ayes and Council Member Felice",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 86.18,
+          "text": "I."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 93.38,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 94.78,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 95.88,
+          "text": "Councilmember Felice."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 99.38,
+          "text": "Council member, majority leader, I pray you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 102.28,
+          "text": "I vote aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 114.18,
+      "id": "007",
+      "slug": "roll-call-continues-for-council-members-oss-hudson-and-marte",
+      "start_sec": 104.28,
+      "summary": "The clerk calls Council Member Oss\u00e9, rendered as 'of ELS' in the transcript, then Council Member Hudson, who votes aye. Council Member Marte is called and also votes aye.",
+      "title": "Roll call continues for Council members Oss\u00e9, Hudson, and Marte",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 104.28,
+          "text": "Council member of ELS."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 106.78,
+          "text": "Councilmember Hudson."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 108.38,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 110.48,
+          "text": "Councilmember Marte."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 112.58,
+          "text": "Aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 124.28,
+      "id": "008",
+      "slug": "roll-call-continues-for-mealy-narcisse-and-ressler",
+      "start_sec": 114.18,
+      "summary": "The clerk calls Council Member Mealy, then Council Member Narcisse, who votes aye. Council Member Ressler is called next as the roll proceeds.",
+      "title": "Roll call continues for Mealy, Narcisse, and Ressler",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 114.18,
+          "text": "Councilmember Mealy."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 117.08,
+          "text": "Councilmember Narcisse."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 119.48,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 121.48,
+          "text": "Councilmember Ressler."
+        }
+      ]
+    },
+    {
+      "end_sec": 136.424,
+      "id": "009",
+      "slug": "roll-call-continues-for-williams-aldable-and-maloney",
+      "start_sec": 124.28,
+      "summary": "Council Member Williams is called and an aye is recorded. The clerk then calls Council Member Aldable and Council Member Maloney, with an aye recorded for Maloney.",
+      "title": "Roll call continues for Williams, Aldable, and Maloney",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 124.28,
+          "text": "Councilmember Williams."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 126.48,
+          "text": "How about I?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 128.88,
+          "text": "Councilmember Aldable."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 132.124,
+          "text": "Councilmember Maloney."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 134.424,
+          "text": "Aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 148.524,
+      "id": "010",
+      "slug": "roll-call-concludes-with-sanchez-wong-and-morano",
+      "start_sec": 136.424,
+      "summary": "The clerk calls Council Member Sanchez, who votes aye, then Council Member Wong, who also votes aye. Council Member Morano is called and votes aye, completing the member roll call.",
+      "title": "Roll call concludes with Sanchez, Wong, and Morano",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 136.424,
+          "text": "Councilmember Sanchez."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 138.424,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 140.024,
+          "text": "Councilmember Wong."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 142.524,
+          "text": "I will aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 144.524,
+          "text": "Councilmember Morano."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 145.924,
+          "text": "Aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 161.824,
+      "id": "011",
+      "slug": "committee-adopts-transparency-resolution-12-0-with-no-abstentions",
+      "start_sec": 148.524,
+      "summary": "The clerk announces 12 affirmative votes, none negative, and no abstentions. The preconsidered transparency resolution is adopted.",
+      "title": "Committee adopts transparency resolution 12-0 with no abstentions",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 148.524,
+          "text": "Of 12 in the affirmative, none of the negative, and no abstentions, the item is adopted."
+        }
+      ]
+    },
+    {
+      "end_sec": 1801.813,
+      "id": "012",
+      "slug": "chair-lee-closes-the-vote-and-thanks-participants",
+      "start_sec": 161.824,
+      "summary": "Linda Lee says the committee will close the vote. She thanks those present, ending the recorded meeting.",
+      "title": "Chair Lee closes the vote and thanks participants",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 161.824,
+          "text": "Okay, and I think with that, we are going to close the vote."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 167.524,
+          "text": "Thank you."
+        }
+      ]
+    }
+  ],
+  "date": "2026-09-24",
+  "duration_sec": 1801.813,
+  "slug": "2026-09-24-1100-am-committee-on-cultural-affairs-libraries-and-international-relations",
+  "summary": [
+    "The recorded segment is a brief committee vote chaired by Council Member Linda Lee, who identifies herself as Chair of the Committee on Finance.",
+    "The committee considers a preconsidered transparency resolution approving new designations and changes to organizations receiving expense budget funding.",
+    "The roll call records 12 affirmative votes, no negative votes, and no abstentions; the resolution is adopted and Chair Lee closes the vote."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "11:00 AM",
+  "title": "Committee on Cultural Affairs, Libraries and International Relations",
+  "topic": "Declaring October 3 as Korean Cultural Awareness Day annually in the City of New York",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-1_260924-110956/video-web.mp4"
+  }
+}

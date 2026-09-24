@@ -1,0 +1,626 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 22.1,
+      "id": "001",
+      "slug": "staff-opens-subcommittee-on-zoning-and-franchises-vote-meeting",
+      "start_sec": 3.9,
+      "summary": "Council staff calls the meeting to order and asks attendees to silence phones and not approach the dais. Staff then invites Chair Farah N. Louis to begin.",
+      "title": "Staff opens Subcommittee on Zoning and Franchises vote meeting",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 3.9,
+          "text": "Hello, good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 5.1,
+          "text": "Welcome to today's New York City Council vote for the Committee on Zoning and Franchises."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 11.7,
+          "text": "At this time, please silence all phones."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 14.3,
+          "text": "Moving forward, no one is to approach the dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 17.4,
+          "text": "Chair, you may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 45.2,
+      "id": "002",
+      "slug": "chair-louis-welcomes-members-and-announces-three-proposals",
+      "start_sec": 22.1,
+      "summary": "Chair Farah N. Louis opens the Subcommittee on Zoning and Franchises meeting and introduces attending council members. She states that today's vote covers three proposals, beginning with a revocable consent application.",
+      "title": "Chair Louis welcomes members and announces three proposals",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 22.1,
+          "text": "Good morning and welcome to a meeting of the Subcommittee on Zoning and Franchises."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 26.3,
+          "text": "I'm Councilmember Farrah Lewis of the Subcommittee."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 29.1,
+          "text": "This morning we're joined by Councilmembers Encarnacion, Jay Sanchez, Thomas Henry, Minority Leader Carr, Felder, Shulman, and Salam."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 39.0,
+          "text": "Today we are voting on the following three proposals."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 41.8,
+          "text": "An application for revocable consent."
+        }
+      ]
+    },
+    {
+      "end_sec": 102.232,
+      "id": "003",
+      "slug": "technical-difficulties-pause-meeting-council-member-far-as-joins",
+      "start_sec": 45.2,
+      "summary": "Chair Louis calls for a stand at ease because of technical difficulties. After the pause, she notes that Council Member Far\u00edas has joined and tests the audio before resuming.",
+      "title": "Technical difficulties pause meeting; Council Member Far\u00edas joins",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 45.2,
+          "text": "Stand at ease."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 56.184,
+          "text": "We're having technical difficulties."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 57.984,
+          "text": "Give us a moment."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 72.684,
+          "text": "We've also been joined by Councilmember Farias."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 80.184,
+          "text": "Testing, testing, testing."
+        }
+      ]
+    },
+    {
+      "end_sec": 133.632,
+      "id": "004",
+      "slug": "chair-louis-outlines-sidewalk-caf-and-two-queens-rezoning-proposals",
+      "start_sec": 102.232,
+      "summary": "Chair Louis restates that the subcommittee is voting on three proposals. She identifies the LU 141 sidewalk caf\u00e9 application in Council Member Thomas-Henry's district and the 158-06 Northern Boulevard and 21-31 46th Avenue mixed-use rezonings in Queens.",
+      "title": "Chair Louis outlines sidewalk caf\u00e9 and two Queens rezoning proposals",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 102.232,
+          "text": "Today we are voting on the following three proposals."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 104.332,
+          "text": "An application for revocable consent by Tero de Esquina NYC Corp., formerly doing business as Cali Tejadas Bakery and Restaurant, to operate a sidewalk cafe in Councilmember Thomas Henry's district."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 119.332,
+          "text": "The 158-06 Northern Boulevard Mixed-Use Residential Rezoning and Councilmember Ung's District and the 21-3146th Avenue Mixed-Use Residential Rezoning and Councilmember Wan's District."
+        }
+      ]
+    },
+    {
+      "end_sec": 262.704,
+      "id": "005",
+      "slug": "council-member-thomas-henry-opposes-cali-tajadas-sidewalk-caf-application",
+      "start_sec": 133.632,
+      "summary": "Chair Louis presents LU 141 and notes that Council Member Thomas-Henry does not support the Cali Tajadas Bakery & Restaurant sidewalk caf\u00e9 application. Thomas-Henry cites unresolved quality-of-life concerns and lack of communication with the owner, arguing that use of shared public space requires responsibility to neighbors and other small businesses.",
+      "title": "Council Member Thomas-Henry opposes Cali Tajadas sidewalk caf\u00e9 application",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 133.632,
+          "text": "The first vote concerns LU-141, relating to an application by Tero de Esquina NYC Corp., formerly doing business as Cali Tejadas Bakery and Restaurant for a sidewalk application in Councilmember Thomas Henry's district."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 148.332,
+          "text": "Applicant is to place four tables and attached seating along the front of the restaurant, which is located in Corona, Queens."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 155.632,
+          "text": "Councilmember Thomas Henry does not support the application."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 158.532,
+          "text": "I now call on Councilmember Thomas Henry for remarks."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 162.232,
+          "text": "Good morning, and thank you, Chair Lewis, for the opportunity to speak today."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 166.032,
+          "text": "As chair of the Committee on Small Business, as the council member representing District 21, and as a former..."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 172.032,
+          "text": "I'm a small business owner myself."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 173.832,
+          "text": "I believe deeply in supporting our local entrepreneurs."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 177.432,
+          "text": "Small businesses are the backbone of communities like Corona, and when they are ready to grow, we should be working alongside them to help them succeed."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 185.832,
+          "text": "But supporting small businesses also means protecting the integrity of the entrepreneurs who work hard every day to be responsible members of the communities they serve."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 194.432,
+          "text": "That's why I called up the Sidewalk Cafe application for Calais Tejadas Bakery and Restaurant."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 200.332,
+          "text": "Our office has received numerous quality of life concerns regarding this establishment."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 207.132,
+          "text": "Most importantly, despite repeated efforts by my office to engage directly with the business owner and find community-centered solutions, we were unable to establish the communication necessary to meaningfully address those concerns."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 219.732,
+          "text": "And that matters."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 220.932,
+          "text": "We cannot effectively address concerns when there is not sufficient communication."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 227.732,
+          "text": "My office intends to use this process to make it clear that given the unresolved quality of life concerns and the lack of meaningful engagement with our office and the surrounding community,"
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 236.932,
+          "text": "we do not believe this sidewalk cafe can operate in a manner that respects the residents and businesses who share this public space."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 244.032,
+          "text": "A sidewalk cafe is not simply an expansion of a private business."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 247.332,
+          "text": "It is permission to use our shared public space."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 249.932,
+          "text": "And with that opportunity comes a responsibility to the neighbors, families, and other small businesses who share that block."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 256.432,
+          "text": "A responsibility to grow with our community."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 259.432,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 355.704,
+      "id": "006",
+      "slug": "chair-louis-presents-158-06-northern-boulevard-rezoning-with-modifications",
+      "start_sec": 262.704,
+      "summary": "Chair Louis describes the mixed-use residential rezoning in Flushing, Queens, with about 76 apartments and 19 permanently affordable units. She explains recommended modifications to limit the rezoning area to Northern Boulevard frontage and adjust the mandatory inclusionary housing text, noting Council Member Ung supports the application as modified.",
+      "title": "Chair Louis presents 158-06 Northern Boulevard rezoning with modifications",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 262.704,
+          "text": "Thank you, Councilmember."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 264.404,
+          "text": "Next, we will vote on LUs 123 and 124 regarding the 158-06 Northern Boulevard mixed-use residential rezoning proposal in Councilmember Ung's district."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 274.404,
+          "text": "Applicant is seeking to develop a mixed-use residential project in Flushing, Queens that would have approximately 76 apartments, of which approximately 19 apartments would be permanently affordable."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 286.704,
+          "text": "The proposal involves two actions."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 288.504,
+          "text": "The first is a zoning map amendment to change the existing residential R5B district with the C1-2 commercial overlay to a residential R7A district with the C2-4 overlay."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 301.404,
+          "text": "The second action is a zoning text amendment to map a mandatory inclusionary housing area."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 306.404,
+          "text": "We are recommending two modifications to this application."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 309.404,
+          "text": "The first modification is to limit..."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 312.404,
+          "text": "The rezoning area to the sites fronting on Northern Boulevard."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 316.904,
+          "text": "Northern Boulevard is a wide street along which there are existing buildings the size that the applicant is proposing."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 324.704,
+          "text": "In contrast, 159th Street is much narrower and comes to a dead end at this location."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 332.304,
+          "text": "As such, it is not appropriate to place significant residential density on lots only fronting on 159th Street."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 339.504,
+          "text": "The other modification is to reduce the proposed MIH zoning tax."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 343.904,
+          "text": "Zoning text map to make it cotormonious with the reduced rezoning area."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 350.304,
+          "text": "Councilmember Ung supports this application as modified."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 354.804,
+          "text": "She's not here."
+        }
+      ]
+    },
+    {
+      "end_sec": 419.54,
+      "id": "007",
+      "slug": "chair-louis-presents-21-31-46th-avenue-rezoning-and-deeper-affordability-modification",
+      "start_sec": 355.704,
+      "summary": "Chair Louis describes the Long Island City project with about 84 apartments and 21 permanently affordable units. She explains the zoning map and text amendments and the modification to remove MIH option two and add option three for deeper affordability, with Council Member Won's support.",
+      "title": "Chair Louis presents 21-31 46th Avenue rezoning and deeper affordability modification",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 355.704,
+          "text": "The third vote concerns LUs 127 and 128 regarding 21-3146 Street, 46th Avenue, mixed-use residential rezoning proposal and Councilmember Juan's district."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 366.304,
+          "text": "Applicant is seeking to develop a mixed-use residential project in Long Island City, Queens, that would have approximately 84 apartments, of which approximately 21 apartments would be permanently affordable."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 377.304,
+          "text": "The proposal involves two actions."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 379.704,
+          "text": "The first is a zoning map amendment change to change the existing mixed-use district that consists of a manufacturing M1-4 district and residential R6B district to a residential R7X district."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 394.404,
+          "text": "With a commercial C2-5 overlay district."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 399.104,
+          "text": "The second action is a zoning tax amendment to map a mandatory inclusionary housing area."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 404.404,
+          "text": "We are recommending one modification to remove MIH option two and adding option three, which will ensure deeper affordability."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 413.204,
+          "text": "Option one, Councilmember Juan supports this application as modified."
+        }
+      ]
+    },
+    {
+      "end_sec": 442.04,
+      "id": "008",
+      "slug": "chair-louis-calls-for-questions-no-members-seek-recognition",
+      "start_sec": 419.54,
+      "summary": "Chair Louis asks whether any council members have questions or remarks and instructs remote members to use the raise-hand button. Staff confirms that no council members have questions.",
+      "title": "Chair Louis calls for questions; no members seek recognition",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 419.54,
+          "text": "Council, are there any council members with questions or remarks at this time?"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 424.64,
+          "text": "Members appearing remotely who have questions or remarks about today's items should use the raise hand button now."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 435.34,
+          "text": "No chair, no council members have questions."
+        }
+      ]
+    },
+    {
+      "end_sec": 475.74,
+      "id": "009",
+      "slug": "chair-moves-to-disapprove-lu-141-and-approve-lus-123-124-127-and-128-with-modifications",
+      "start_sec": 442.04,
+      "summary": "Chair Louis calls a vote to disapprove the Cali Tajadas sidewalk caf\u00e9 application and approve with modifications the 158-06 Northern Boulevard and 21-31 46th Avenue rezoning applications. She directs the clerk to call the roll.",
+      "title": "Chair moves to disapprove LU 141 and approve LUs 123, 124, 127, and 128 with modifications",
+      "type": "VOTE",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 442.04,
+          "text": "I now call for a vote to disapprove LU 141 related to the application by Tero de Esquina, NYC Corp, formerly doing business with Cali, Tejadas Bakery and Restaurant to operate a sidewalk cafe."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 455.54,
+          "text": "To approve with modifications, LUs 123 and 124 related to the 158-06 Northern Boulevard rezoning mixed-use residential rezoning proposal and LUs 127 and 128 related to the..."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 470.54,
+          "text": "21-3146 Avenue, Rezoning Mixed-Use Residential Rezoning Proposal."
+        }
+      ]
+    },
+    {
+      "end_sec": 521.264,
+      "id": "010",
+      "slug": "subcommittee-roll-call-votes-aye-on-all-items",
+      "start_sec": 475.74,
+      "summary": "The clerk calls the roll and Council Members Far\u00edas, Schulman, Salaam, Felder, Encarnaci\u00f3n, Sanchez, Thomas-Henry, Carr, and Chair Louis vote aye. The roll call records affirmative votes on the combined items.",
+      "title": "Subcommittee roll call votes aye on all items",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 475.74,
+          "text": "Council, please call the roll."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 480.904,
+          "text": "Chair?"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 482.304,
+          "text": "I don't know."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 488.804,
+          "text": "Council Member Furious?"
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 490.504,
+          "text": "I vote aye on all."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 491.204,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 492.404,
+          "text": "Council Member Shulman?"
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 495.204,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 496.904,
+          "text": "Council Member Salam."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 498.704,
+          "text": "I vote aye on all."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 500.204,
+          "text": "Council Member Felder."
+        },
+        {
+          "speaker": "Simcha Felder",
+          "t_sec": 503.304,
+          "text": "Aye, I know."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 506.004,
+          "text": "Council Member Karnasian?"
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 508.104,
+          "text": "I vote aye, I know."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 510.204,
+          "text": "Council Member Jay Sanchez?"
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 512.104,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 513.304,
+          "text": "Council Member Thomas Henney?"
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 515.104,
+          "text": "Aye."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 516.504,
+          "text": "Minority Leader Carr?"
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 518.304,
+          "text": "Aye, I know."
+        }
+      ]
+    },
+    {
+      "end_sec": 530.864,
+      "id": "011",
+      "slug": "subcommittee-approves-all-items-by-9-0-vote",
+      "start_sec": 521.264,
+      "summary": "Staff announces that with nine affirmative votes, zero opposing, and zero abstentions, the items are approved as described by the chair. The items are referred to the full Land Use Committee.",
+      "title": "Subcommittee approves all items by 9-0 vote",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 521.264,
+          "text": "By a vote of nine in the affirmative, zero opposing and zero abstention, the items are approved as described by the chair, and these items are now referred to the full and use committee."
+        }
+      ]
+    },
+    {
+      "end_sec": 547.541,
+      "id": "012",
+      "slug": "chair-louis-thanks-participants-and-adjourns-meeting",
+      "start_sec": 530.864,
+      "summary": "Chair Louis concludes the business and thanks members of the public, colleagues, subcommittee and council staff, land use staff, and the sergeant at arms. She adjourns the meeting.",
+      "title": "Chair Louis thanks participants and adjourns meeting",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 530.864,
+          "text": "That concludes today's business."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 532.164,
+          "text": "I would like to thank members of the public, my colleagues, subcommittee, council, land use, and council staff, and the sergeant at arms for participating in today's meeting."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 539.264,
+          "text": "This meeting is hereby adjourned."
+        }
+      ]
+    }
+  ],
+  "date": "2026-09-24",
+  "duration_sec": 547.541,
+  "slug": "2026-09-24-1130-am-subcommittee-on-zoning-and-franchises",
+  "summary": [
+    "Subcommittee on Zoning and Franchises convened to vote on three Queens land-use items: a Corona sidewalk caf\u00e9 application and two mixed-use rezoning applications.",
+    "Council Member Thomas-Henry opposed the sidewalk caf\u00e9 over quality-of-life concerns; Chair Louis presented modified approvals for 158-06 Northern Boulevard and 21-31 46th Avenue rezonings.",
+    "The subcommittee voted 9-0 to disapprove LU 141 and approve the rezoning actions with modifications, referring them to the full Land Use Committee."
+  ],
+  "tags": [
+    "VOTE",
+    "LAND_USE"
+  ],
+  "time": "11:30 AM",
+  "title": "Subcommittee on Zoning and Franchises",
+  "topic": "Zoning, 158-06 Northern Boulevard Rezoning, Queens (C 260171 ZMQ)",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-3_260924-114108/video-web.mp4"
+  }
+}

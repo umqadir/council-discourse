@@ -1,0 +1,710 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 30.3,
+      "id": "001",
+      "slug": "council-staff-opens-the-hearing-and-sets-protocol",
+      "start_sec": 5.0,
+      "summary": "Council staff welcomes attendees to the New York City Council vote, asks everyone to silence phones, and instructs that no one approach the dais before inviting the chair to begin.",
+      "title": "Council staff opens the hearing and sets protocol",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 5.0,
+          "text": "Hello, good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 6.2,
+          "text": "Welcome to today's New York City Council vote."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 9.6,
+          "text": "At this time, please silence all phones."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 12.8,
+          "text": "Moving forward, no one is to approach the dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 15.7,
+          "text": "Chair, you may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 44.3,
+      "id": "002",
+      "slug": "chair-sanchez-convenes-housing-and-buildings-vote-on-intro-1015-a",
+      "start_sec": 30.3,
+      "summary": "Council Member Pierina Ana Sanchez identifies herself as chair of the Committee on Housing and Buildings and announces that the committee will vote on proposed Intro 1015-A to improve and extend the J-51 tax abatement program.",
+      "title": "Chair Sanchez convenes Housing and Buildings vote on Intro 1015-A",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 30.3,
+          "text": "Thank you, Sergeants, and good morning."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 32.0,
+          "text": "I'm Councilmember Pierina Sanchez, Chair of the Committee on Housing and Buildings."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 35.4,
+          "text": "Today, the committee will be voting on proposed intro number 1015A, a bill to improve and extend the J51 tax abatement program."
+        }
+      ]
+    },
+    {
+      "end_sec": 84.7,
+      "id": "003",
+      "slug": "sanchez-frames-j-51-vote-as-response-to-housing-and-climate-crises",
+      "start_sec": 44.3,
+      "summary": "Sanchez says aging New York City buildings are at the center of both the housing and climate crises, citing failing elevators, stranded seniors and disabled residents, roof boilers, electrical systems, and deadly fire hazards in the Bronx and Queens. She argues government must set safety standards while helping owners make needed investments.",
+      "title": "Sanchez frames J-51 vote as response to housing and climate crises",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 44.3,
+          "text": "New York City is facing a housing crisis and a climate crisis, and our aging buildings are at the center of both."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 50.6,
+          "text": "Our buildings are among the largest sources of greenhouse gas emissions, even as they break down around us."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 56.3,
+          "text": "Elevators are failing, stranding seniors and people with disabilities."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 60.3,
+          "text": "Roof boilers and electrical systems and other critical infrastructures need investment."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 65.4,
+          "text": "And in the Bronx and Queens, we are living the deadly consequences of aging, housing, and fire hazards."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 71.9,
+          "text": "While government has a responsibility to set high standards for owners to keep buildings safe, protect tenants, and reduce emissions, we must also help owners to make the investments being asked of them."
+        }
+      ]
+    },
+    {
+      "end_sec": 151.4,
+      "id": "004",
+      "slug": "sanchez-explains-j-51-tax-abatement-purpose-and-212-7-million-cost",
+      "start_sec": 84.7,
+      "summary": "Sanchez says Intro 1015-A would improve and extend J-51, a tax abatement for eligible multifamily housing including rentals, co-ops, and condos. She calls it a key tool for preservation, energy efficiency, and Local Law 97 compliance, noting the city dedicated $212.7 million to J-51 in fiscal year 2026.",
+      "title": "Sanchez explains J-51 tax abatement purpose and $212.7 million cost",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 84.7,
+          "text": "Today, I am proud that the Council will be voting on 1015A, which will do just that by improving and"
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 90.0,
+          "text": "extending the J51 tax abatement program."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 93.3,
+          "text": "J51 offers a tax abatement for eligible multifamily housing, including certain rental buildings, co-ops, and condos."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 100.1,
+          "text": "It's one of the city's most important financial tools for helping owners to keep up with the cost necessary to preserve and upgrade their properties, including energy efficiency work, so that buildings can better comply with local law 97."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 115.0,
+          "text": "And this is not a small program."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 117.1,
+          "text": "The mayor's report on tax expenditures reports that the city dedicated $212.7 million to the J51 program in the 2026 fiscal year."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 127.5,
+          "text": "That's foregone tax expenditures in service of improving old properties."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 132.8,
+          "text": "This program enables building owners to replace elevators, wheelchair lifts, repair roofing, install energy-efficient equipment, and J51 is only becoming more essential as older buildings continue to deteriorate and"
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 147.0,
+          "text": "climate change continues to require urgent action."
+        }
+      ]
+    },
+    {
+      "end_sec": 209.5,
+      "id": "005",
+      "slug": "sanchez-details-three-state-authorized-changes-in-intro-1015-a",
+      "start_sec": 151.4,
+      "summary": "Sanchez outlines the bill's three key changes: a 10-year extension for projects completed between June 30, 2026 and June 30, 2036; an increase from 80% to 100% recovery of reasonable rehabilitation costs; and a co-op/condo assessed valuation cap increase from $45,000 to $60,000 per unit, indexed to inflation. She says the program could reach over 300,000 co-op and condo units.",
+      "title": "Sanchez details three state-authorized changes in Intro 1015-A",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 151.4,
+          "text": "Earlier this year, New York State authorized the city to extend J51 and made three key changes."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 156.9,
+          "text": "First, the legislation will provide a longer extension than previous reauthorizations."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 161.9,
+          "text": "If passed today, 1015A will extend J51 for 10 years."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 166.8,
+          "text": "This means eligible projects that are complete between June 30, 2026 and June 30, 2036, when I will finally be 21 years old, just kidding, are able to receive this tax benefit."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 179.7,
+          "text": "Second,"
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 180.2,
+          "text": "Under 1015A, building owners would now be able to recover up to 100% of the reasonable cost of their rehabilitation work."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 187.7,
+          "text": "It used to be 80%."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 189.3,
+          "text": "And third, for co-ops and condos, this bill raises the assessed valuation cap from $45,000 per unit to $60,000 per unit and will be updated regularly to account for inflation."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 202.4,
+          "text": "With these changes, the program has the potential to reach more than 300,000 co-ops and condo units citywide."
+        }
+      ]
+    },
+    {
+      "end_sec": 246.2,
+      "id": "006",
+      "slug": "sanchez-highlights-j-51-accountability-and-new-reporting-requirements",
+      "start_sec": 209.5,
+      "summary": "Sanchez says Intro 1015-A maintains accountability mechanisms for terminating or revoking benefits, including the affidavit of no harassment. She adds that the Council is adding comprehensive reporting on which buildings receive J-51, how much they receive, work categories, locations, and rental versus homeownership breakdowns.",
+      "title": "Sanchez highlights J-51 accountability and new reporting requirements",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 209.5,
+          "text": "And in addition to these changes, 1015A will maintain previous accountability mechanisms for terminating or revoking the benefits if any building fails to comply with the program requirements, including the affidavit of no harassment."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 222.4,
+          "text": "The council is also adding comprehensive reporting on which buildings receive the new J51 benefit, how much they receive, the categories of work they are pursuing, where they are located, and the breakdown between rental and homeownership buildings."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 235.9,
+          "text": "This will provide the public with transparent information on how the city is using its resources and help to shape future iterations of the J51 program."
+        }
+      ]
+    },
+    {
+      "end_sec": 319.0,
+      "id": "007",
+      "slug": "sanchez-thanks-j-51-advocates-staff-and-departing-fellow-dylan-campos",
+      "start_sec": 246.2,
+      "summary": "Sanchez thanks the Green Co-op Council, State Senator Brian Kavanaugh, committee staff including Austin Malone, Billy Eck, Jose Conde, Dirk Spencer, Carla Naranjo, Mohamed Shadid, and Noah Slosberg, and her personal team. She gives a special farewell shout-out to legislative fellow Dylan Campos in his last stated meeting with the team.",
+      "title": "Sanchez thanks J-51 advocates, staff, and departing fellow Dylan Campos",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 246.2,
+          "text": "Finally, the thank yous."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 248.2,
+          "text": "First, I want to thank the Green Co-op Council for their persistent advocacy and State Senator Brian Kavanaugh, the Chair of Housing in the Senate, for his leadership on this issue in the legislature."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 258.1,
+          "text": "To the Housing and Buildings Committee staff, Senior Legislative Council Austin Malone, Legislative Council Billy Eck, Senior Policy Analyst Jose Conde, Senior Policy Analyst..."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 267.8,
+          "text": "Dirk Spencer, finance analyst Carla."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 270.1,
+          "text": "Naranjo, and data scientist Mohamed Shadid, and Noah Slosberg."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 275.1,
+          "text": "And last but not least, my team, Deputy Chiefs of Staff Ben Ratner and Kim Castellanos, District Director Maria Jose Mares, Gerard Fernandez, Oriana Roa Acevedo, Soraya Bonilla, Marcus Kahn, and Jacob Hayward."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 288.0,
+          "text": "I want to take this moment to send a very special shout out to Dylan Campos, our incredible legislative fellow, and who for today, this will be his last stated meeting with us."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 300.1,
+          "text": "We're just so lucky to have had you on our team."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 302.5,
+          "text": "You got us out of quite a few pickles and past, you know, some really important moments."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 307.8,
+          "text": "Thank you so much for everything you did for this team."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 310.3,
+          "text": "You will always be a part of Team Sanchez."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 313.4,
+          "text": "And I'm joined today by my colleagues, but I'll turn it over to the clerk to call the roll."
+        }
+      ]
+    },
+    {
+      "end_sec": 330.8,
+      "id": "008",
+      "slug": "clerk-begins-roll-call-on-intro-1015-a",
+      "start_sec": 319.0,
+      "summary": "Committee Clerk Ben Jacobs opens the roll call vote for Intro 1015-A. Chair Sanchez votes aye; the clerk records Council Member Riley as aye and calls Council Member Feliz.",
+      "title": "Clerk begins roll call on Intro 1015-A",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 319.0,
+          "text": "Hi, Ben Jacobs, committee clerk."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 321.0,
+          "text": "Roll call vote for intro 1015A."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 324.7,
+          "text": "Chair Sanchez."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 325.6,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 327.0,
+          "text": "Councilmember Riley."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 328.2,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 329.3,
+          "text": "Councilmember Felice."
+        }
+      ]
+    },
+    {
+      "end_sec": 340.5,
+      "id": "009",
+      "slug": "council-member-feliz-votes-aye-and-praises-j-51-for-safe-habitable-housing",
+      "start_sec": 330.8,
+      "summary": "Council Member Oswald J. Feliz votes aye and congratulates Chair Sanchez, calling the bill an important step to ensure affordable housing is in a clean, habitable, and safe condition.",
+      "title": "Council Member Feliz votes aye and praises J-51 for safe, habitable housing",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 330.8,
+          "text": "Aye and all."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 331.2,
+          "text": "Congratulations, Chair."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 332.1,
+          "text": "This is a very important step to make sure that"
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 334.5,
+          "text": "Our affordable housing is in a clean, habitable, and safe condition."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 338.0,
+          "text": "So congrats, I&L."
+        }
+      ]
+    },
+    {
+      "end_sec": 344.8,
+      "id": "010",
+      "slug": "shaun-abreu-votes-aye-and-congratulates-chair-sanchez",
+      "start_sec": 340.5,
+      "summary": "The clerk calls Council Member Shaun Abreu, who votes aye and congratulates Chair Sanchez on the J-51 measure.",
+      "title": "Shaun Abreu votes aye and congratulates Chair Sanchez",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 340.5,
+          "text": "Majority Leader O'Brien."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 342.0,
+          "text": "Aye, and congratulations, Chair."
+        }
+      ]
+    },
+    {
+      "end_sec": 375.448,
+      "id": "011",
+      "slug": "roll-call-continues-salaam-zhuang-and-wilson-vote-aye",
+      "start_sec": 344.8,
+      "summary": "The clerk continues calling members for Intro 1015-A. Council Members Yusef Salaam and Susan Zhuang vote aye and congratulate the chair, and Carl Wilson votes aye. The vote stands at seven in the affirmative with none in the negative or abstaining.",
+      "title": "Roll call continues; Salaam, Zhuang, and Wilson vote aye",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 344.8,
+          "text": "Council Member Hudson."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 347.4,
+          "text": "Councilmember Joseph."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 350.0,
+          "text": "Councilmember Wilson, Williams, I'm sorry."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 356.048,
+          "text": "Councilmember Salam."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 357.348,
+          "text": "I vote aye and congratulations."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 359.948,
+          "text": "Councilmember Zhuang."
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 362.448,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 363.148,
+          "text": "Congratulations."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 364.548,
+          "text": "Councilmember Maloney."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 366.948,
+          "text": "Councilmember Wilson."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 368.048,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 369.848,
+          "text": "The vote stands at seven in the affirmative with none in the negative and no abstentions."
+        }
+      ]
+    },
+    {
+      "end_sec": 577.732,
+      "id": "012",
+      "slug": "chair-sanchez-holds-vote-open-for-additional-colleagues",
+      "start_sec": 375.448,
+      "summary": "Sanchez thanks the clerk and colleagues and says the committee will hold the vote open for a few more members. After a procedural pause, staff request a bouncer at the dais before the roll call resumes.",
+      "title": "Chair Sanchez holds vote open for additional colleagues",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 375.448,
+          "text": "Thank you, Clerk."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 376.048,
+          "text": "We're going to hold open the vote for a few colleagues."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 378.848,
+          "text": "Thank you, colleagues."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 515.448,
+          "text": "I'm ready."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 529.532,
+          "text": "Can we have a bouncer up at the dais, please?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 544.732,
+          "text": "Thank you, Councilman."
+        }
+      ]
+    },
+    {
+      "end_sec": 600.244,
+      "id": "013",
+      "slug": "roll-call-resumes-hudson-williams-and-maloney-vote-aye",
+      "start_sec": 577.732,
+      "summary": "The clerk continues the roll call for Intro 1015-A. Council Member Crystal Hudson votes aye, Nantasha M. Williams votes aye and thanks the chair, and Virginia Maloney votes aye. The vote stands at 10 in the affirmative with no negative votes or abstentions.",
+      "title": "Roll call resumes; Hudson, Williams, and Maloney vote aye",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 577.732,
+          "text": "Continuing the roll call vote for Intro 1015A."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 581.432,
+          "text": "Councilmember Hudson."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 583.132,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 584.432,
+          "text": "Councilmember Joseph."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 587.932,
+          "text": "Councilmember Williams."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 589.932,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 590.332,
+          "text": "Thanks, Chair."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 591.732,
+          "text": "Councilmember Maloney."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 593.032,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 593.132,
+          "text": "Vote aye."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 593.632,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 594.832,
+          "text": "The vote stands at 10 in the affirmative, none in the negative, with no abstentions."
+        }
+      ]
+    },
+    {
+      "end_sec": 669.196,
+      "id": "014",
+      "slug": "clerk-pauses-then-calls-council-member-joseph-for-final-vote",
+      "start_sec": 600.244,
+      "summary": "After a brief pause, the clerk continues the roll call for Intro 1015-A and calls Council Member Rita C. Joseph; the next tally is 11 affirmative.",
+      "title": "Clerk pauses then calls Council Member Joseph for final vote",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 600.244,
+          "text": "Just one moment."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 601.244,
+          "text": "Just one moment."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 601.844,
+          "text": "Click."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 662.996,
+          "text": "Continuing the roll call vote for Intro 1015A, Councilmember Joseph."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 666.696,
+          "text": "How about I?"
+        }
+      ]
+    },
+    {
+      "end_sec": 677.196,
+      "id": "015",
+      "slug": "committee-adopts-intro-1015-a-by-11-0-vote",
+      "start_sec": 669.196,
+      "summary": "The clerk announces the vote at 11 in the affirmative, none in the negative, and no abstentions, and declares Intro 1015-A adopted.",
+      "title": "Committee adopts Intro 1015-A by 11-0 vote",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 669.196,
+          "text": "The vote is 11 in the affirmative, none in the negative, no abstentions."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 673.996,
+          "text": "The item is adopted."
+        }
+      ]
+    },
+    {
+      "end_sec": 688.704,
+      "id": "016",
+      "slug": "chair-sanchez-confirms-full-committee-and-adjourns",
+      "start_sec": 677.196,
+      "summary": "Sanchez asks the clerk whether that constitutes a full committee, then thanks everyone and adjourns the hearing.",
+      "title": "Chair Sanchez confirms full committee and adjourns",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 677.196,
+          "text": "And clerk, that's a full committee?"
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 679.396,
+          "text": "All right."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 679.696,
+          "text": "With that, thank you so much, everyone."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 681.196,
+          "text": "This hearing is adjourned."
+        }
+      ]
+    }
+  ],
+  "date": "2026-09-24",
+  "duration_sec": 688.704,
+  "slug": "2026-09-24-1100-am-committee-on-housing-and-buildings",
+  "summary": [
+    "Committee on Housing and Buildings holds a roll-call vote on proposed Intro 1015-A to improve and extend the J-51 tax abatement program.",
+    "Chair Pierina Ana Sanchez explains the bill's housing and climate rationale, 10-year extension, 100% rehabilitation cost recovery, higher co-op/condo valuation cap, and new accountability and reporting requirements.",
+    "The committee votes 11-0 to adopt Intro 1015-A, with members congratulating the chair, and the hearing adjourns."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "11:00 AM",
+  "title": "Committee on Housing and Buildings",
+  "topic": "Abatement of taxation for alterations and improvements to certain multiple dwellings",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-3_260924-111825/video-web.mp4"
+  }
+}

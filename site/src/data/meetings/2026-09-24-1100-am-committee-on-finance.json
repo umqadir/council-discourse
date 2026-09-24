@@ -1,0 +1,848 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 24.2,
+      "id": "001",
+      "slug": "council-staff-opens-cultural-affairs-committee-vote-and-asks-devices-silenced",
+      "start_sec": 6.7,
+      "summary": "Council staff welcomes attendees to the New York City Council vote for the Committee on Cultural Affairs, Libraries, and International Intergroup Relations. Staff instructs everyone to silence electronic devices, says no one may approach the front desk, and invites the Chair to begin.",
+      "title": "Council staff opens Cultural Affairs committee vote and asks devices silenced",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 6.7,
+          "text": "Good morning and welcome to today's New York City Council vote for the Committee on Cultural Affairs, Libraries, and International Intergroup Relations."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 14.3,
+          "text": "At this time, we please ask that you silence all electronic devices."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 17.8,
+          "text": "At no point in time is anyone to approach the front desk."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 20.6,
+          "text": "Chair, you may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 97.2,
+      "id": "002",
+      "slug": "chair-williams-opens-hearing-and-outlines-three-cultural-recognition-resolutions",
+      "start_sec": 24.2,
+      "summary": "Deputy Speaker Nantasha Williams convenes as Chair and announces three resolutions: Resolution 184 for Korean Cultural Awareness Day, Resolution 606 for Black Pride Month, and Resolution 607 for African Immigrant Heritage Month. She names sponsors and purposes, makes light remarks about the day's themes, and invites Council Member Stevens to speak.",
+      "title": "Chair Williams opens hearing and outlines three cultural recognition resolutions",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 24.2,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 25.1,
+          "text": "I am Deputy Speaker Nantasha Williams, Chair of the Committee on Cultural Affairs, Libraries, and International Relations."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 31.0,
+          "text": "Today, the committee will hear and vote on three resolutions."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 34.3,
+          "text": "Resolution number 184, sponsored by Councilmember Farias."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 39.0,
+          "text": "Which would declare October 3rd as Korean Cultural Awareness Day annually in the city of New York to commemorate the mythological beginning of the Korean people and to celebrate their continued pride in their shared ancestry."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 50.6,
+          "text": "Resolution number 606, sponsored by Councilmember Althea Stevens, which would declare the month of August as Black Pride Month in the city of New York, recognizing the legacy of New York City Black Pride movement of uplifting the Black LGBTQIA plus community."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 65.6,
+          "text": "And it's..."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 66.5,
+          "text": "Oh, what's the other letter?"
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 68.1,
+          "text": "Oh, and it's continuing contributions to creating a more equitable New York City."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 73.9,
+          "text": "And resolution number 607, also sponsored by Councilmember Stevens, which would declare September as African Immigrant Heritage Month in the city of New York to celebrate the contributions made by African immigrants to New York City and the United States."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 88.5,
+          "text": "A very black day."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 90.0,
+          "text": "with some Korean culture."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 91.3,
+          "text": "We love it."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 92.1,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 93.1,
+          "text": "Now, oh yeah, the gays too."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 95.7,
+          "text": "We love the gays."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 96.7,
+          "text": "Okay."
+        }
+      ]
+    },
+    {
+      "end_sec": 192.8,
+      "id": "003",
+      "slug": "council-member-stevens-delivers-remarks-on-black-pride-month",
+      "start_sec": 97.2,
+      "summary": "After Chair Williams invites her, Council Member Althea Stevens says recognition is about honoring history, culture, and people. She supports Resolution 606 declaring August Black Pride Month, traces New York City Black Pride to James Sanders in August 1997, notes Bronx connections including Lee Soldiers and an inaugural Bronx Black Pride celebration, and mentions her late uncle.",
+      "title": "Council Member Stevens delivers remarks on Black Pride Month",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 97.2,
+          "text": "Now Councilmember Stevens would like to deliver some remarks on her resolutions."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 103.9,
+          "text": "Thank you, Deputy Speaker Williams."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 107.6,
+          "text": "And all of my colleagues for recognizing the importance of two resolutions and for understanding that recognizing is not simply about placing a name on a calendar."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 117.6,
+          "text": "It is about honoring history, culture, and the people who have helped shape New York City."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 121.9,
+          "text": "First, I am proud to support Resolution 606 declaring August as Black Pride Month in New York City."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 127.9,
+          "text": "As a representative of the West Bronx, this resolution carries a particular meaning for me."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 132.0,
+          "text": "Black Pride has a history that is deeply connected to New York City."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 135.6,
+          "text": "The first New York City Black Pride event was organized by James Sanders in August 1997, creating a space where Black LGBTQ..."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 144.6,
+          "text": "IA plus New Yorkers could celebrate their identity, culture, community, and resilience."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 149.8,
+          "text": "And that history continues to have a strong Bronx connection."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 153.3,
+          "text": "Lee Soldiers, a Bronx native, later founded the New York City for Black Pride, which was continuing organizing Black Pride celebrations."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 162.3,
+          "text": "We are recognizing a movement in a community that has helped expand what inclusion is."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 167.8,
+          "text": "And visibility and belonging looks like in our city."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 171.8,
+          "text": "This year, we are proud to bring the celebration of Black Pride through its inaugural Black Pride celebration that we held in the Bronx."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 180.0,
+          "text": "That was a powerful reminder that the borough is not only a part of this history, but continues to help shape the future."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 185.9,
+          "text": "And I was very proud because my uncle who passed away, who I was very close with, he would celebrate Black Pride."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 190.5,
+          "text": "So I'm really excited that we're passing this today."
+        }
+      ]
+    },
+    {
+      "end_sec": 243.832,
+      "id": "004",
+      "slug": "council-member-stevens-speaks-on-african-immigrant-heritage-month",
+      "start_sec": 192.8,
+      "summary": "Stevens supports Resolution 607 declaring September African Immigrant Heritage Month. She cites approximately 167,000 African immigrants in New York City and about 60,000 in the Bronx, highlights contributions in businesses, healthcare, culture, civic life, and economics, and thanks colleagues for supporting both resolutions.",
+      "title": "Council Member Stevens speaks on African Immigrant Heritage Month",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 192.8,
+          "text": "I'm also proud to support Resolution 607 declaring September as African Immigrant Heritage Month."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 199.3,
+          "text": "New York City is home of approximately 167,000 African immigrants, approximately 60,000 African immigrants living in the Bronx."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 210.5,
+          "text": "And a lot of that is in the West Bronx, I must say."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 213.0,
+          "text": "Their contributions in our neighborhood, businesses, healthcare systems, culture, civic life, and economics are part of the fabric of our city."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 220.6,
+          "text": "Those resolutions remind us that our history is the strongest when we make room to recognize the communities whose stories have too often been overlooked."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 229.5,
+          "text": "I want to thank my colleagues."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 231.4,
+          "text": "For supporting both resolutions, and I look forward to continuing to celebrate the rich culture, history, and contributions that makes New York City great."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 240.5,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 268.132,
+      "id": "005",
+      "slug": "chair-williams-thanks-committee-staff-and-summer-intern",
+      "start_sec": 243.832,
+      "summary": "Chair Williams thanks her staff and committee staff who prepared for the hearing, including Alejandro and Regina. She also recognizes summer intern Stephen, a Columbia and Juilliard sophomore who drafted two of the resolutions.",
+      "title": "Chair Williams thanks committee staff and summer intern",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 243.832,
+          "text": "Thank you so much, Councilmember Stevens."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 245.732,
+          "text": "I would like to thank my staff and committee staff who worked on preparing for today, including Alejandro, Regina,"
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 254.332,
+          "text": "who drafted one of the resolutions, and our outstanding summer intern, Stephen, who is now a sophomore at Columbia and Juilliard."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 261.432,
+          "text": "Oh, he's both?"
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 263.332,
+          "text": "Oh, that's cool."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 264.532,
+          "text": "And who drafted two of the resolutions."
+        }
+      ]
+    },
+    {
+      "end_sec": 318.532,
+      "id": "006",
+      "slug": "chair-williams-opens-public-testimony-and-sets-decorum-rules",
+      "start_sec": 268.132,
+      "summary": "Williams opens the hearing for public testimony and reminds the public that this is a formal government proceeding requiring decorum and silence. She explains witness table rules, bans video and photography from the table, limits audio/video recordings as testimony, describes appearance cards, and sets a two-minute speaking limit.",
+      "title": "Chair Williams opens public testimony and sets decorum rules",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 268.132,
+          "text": "I now open the hearing for public testimony."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 271.032,
+          "text": "I remind members of the public that this is a formal government proceeding and that decorum shall be observed at all times."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 277.032,
+          "text": "As such, members of the public shall remain silent at all times."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 279.832,
+          "text": "The witness table is reserved for people who wish to testify."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 282.532,
+          "text": "No video recording or photography is allowed from the witness table."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 287.032,
+          "text": "Further, members of the public may not present audio or video recordings as testimony, but may submit transcripts of such recordings to the sergeant at arms for inclusion in the hearing record."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 298.932,
+          "text": "If you wish to speak today at today's hearing, please fill out an appearance card with the sergeant at arms and wait to be recognized."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 304.632,
+          "text": "When recognized, you will have two minutes to speak on today's hearing topic, which is the legislation I have just outlined."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 310.632,
+          "text": "If you have written statement or additional written testimony you wish to submit for the record, please provide a copy of that testimony to the sergeant at arms."
+        }
+      ]
+    },
+    {
+      "end_sec": 445.868,
+      "id": "007",
+      "slug": "siddiqui-danzo-testifies-in-support-of-african-immigrant-heritage-month",
+      "start_sec": 318.532,
+      "summary": "Chair Williams calls Siddiqui Danzo from the African Advisory Council to testify. Danzo introduces himself as chair and a community leader representing African immigrants, strongly supports Resolution 607, describes African immigrants' diverse countries and languages, and lists their roles as nurses, doctors, teachers, business owners, drivers, engineers, social workers, faith leaders, students, entrepreneurs, public servants, and organizers.",
+      "title": "Siddiqui Danzo testifies in support of African Immigrant Heritage Month",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 318.532,
+          "text": "I will now call the witness."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 320.032,
+          "text": "And we have a witness."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 321.532,
+          "text": "Sadiqi, did I say that correctly?"
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 323.532,
+          "text": "Oh, Sadiqi, please come up from the African Advisory Council."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 328.532,
+          "text": "Yay."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 330.332,
+          "text": "We never have testimony."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 332.032,
+          "text": "For our resolutions."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 332.932,
+          "text": "This is fun."
+        },
+        {
+          "speaker": "Member of the Public - Siddiqui Danzo",
+          "t_sec": 339.932,
+          "text": "Good morning, Chair, distinguished member of the New York City Council."
+        },
+        {
+          "speaker": "Member of the Public - Siddiqui Danzo",
+          "t_sec": 346.532,
+          "text": "My name is Siddiqui Danzo."
+        },
+        {
+          "speaker": "Member of the Public - Siddiqui Danzo",
+          "t_sec": 347.932,
+          "text": "I'm honored to appear before you today as the Chair of the African Advisory Council and as a community leader representing the African immigrant community."
+        },
+        {
+          "speaker": "Member of the Public - Siddiqui Danzo",
+          "t_sec": 359.332,
+          "text": "I'm here today to speak in strong support of the resolution 0607, declaring September as African Immigrant Heritage Month."
+        },
+        {
+          "speaker": "Member of the Public - Siddiqui Danzo",
+          "t_sec": 377.584,
+          "text": "For many of us, there is more than a resolution."
+        },
+        {
+          "speaker": "Member of the Public - Siddiqui Danzo",
+          "t_sec": 380.884,
+          "text": "There is a recognition and representation, which is a stigma that African immigrants are important and part of the history of New York City."
+        },
+        {
+          "speaker": "Member of the Public - Siddiqui Danzo",
+          "t_sec": 392.884,
+          "text": "African immigrants come from many different countries, speak many different languages, and represent diverse culture and traditions."
+        },
+        {
+          "speaker": "Member of the Public - Siddiqui Danzo",
+          "t_sec": 401.084,
+          "text": "But we share something very important."
+        },
+        {
+          "speaker": "Member of the Public - Siddiqui Danzo",
+          "t_sec": 404.184,
+          "text": "We have come to New York City to build, to contribute, to raise our families, and to be part of this city to this day."
+        },
+        {
+          "speaker": "Member of the Public - Siddiqui Danzo",
+          "t_sec": 413.384,
+          "text": "The African immigrants are nurses, doctors, teachers, small business owners, taxi drivers,"
+        },
+        {
+          "speaker": "Member of the Public - Siddiqui Danzo",
+          "t_sec": 421.284,
+          "text": "livery drivers, engineers, social workers, faith leaders, students, entrepreneurs, public servants, and community organizers."
+        },
+        {
+          "speaker": "Member of the Public - Siddiqui Danzo",
+          "t_sec": 433.368,
+          "text": "We are contributing to the economy, strengthening neighborhood, caring for families, educating our children, and helping make New York a diversity that it is today."
+        }
+      ]
+    },
+    {
+      "end_sec": 492.268,
+      "id": "008",
+      "slug": "siddiqui-danzo-cites-african-immigrant-population-statistics-and-personal-stories",
+      "start_sec": 445.868,
+      "summary": "Danzo notes that approximately 167,000 African immigrants live in New York City, representing about 5.4% of the foreign-born population, and roughly 60,000 live in the Bronx. He says numbers cannot tell the whole story, because behind every number is a family, a business dream, a student's future, and a story of courage and hope.",
+      "title": "Siddiqui Danzo cites African immigrant population statistics and personal stories",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Siddiqui Danzo",
+          "t_sec": 445.868,
+          "text": "The resolution before you recognize the contributions, the council resolutions know that approximately 167,000 African immigrants live in New York City, representing about 5.4%"
+        },
+        {
+          "speaker": "Member of the Public - Siddiqui Danzo",
+          "t_sec": 461.868,
+          "text": "of the city's foreign-born populations."
+        },
+        {
+          "speaker": "Member of the Public - Siddiqui Danzo",
+          "t_sec": 464.968,
+          "text": "And that is the Bronx is the home to approximately 60,000 African immigrants."
+        },
+        {
+          "speaker": "Member of the Public - Siddiqui Danzo",
+          "t_sec": 472.768,
+          "text": "But numbers cannot tell our whole stories."
+        },
+        {
+          "speaker": "Member of the Public - Siddiqui Danzo",
+          "t_sec": 476.568,
+          "text": "Behind every number, there's a family."
+        },
+        {
+          "speaker": "Member of the Public - Siddiqui Danzo",
+          "t_sec": 479.768,
+          "text": "Behind every business, there's a dream."
+        },
+        {
+          "speaker": "Member of the Public - Siddiqui Danzo",
+          "t_sec": 482.768,
+          "text": "Behind every student, there's a future."
+        },
+        {
+          "speaker": "Member of the Public - Siddiqui Danzo",
+          "t_sec": 485.568,
+          "text": "And behind every immigrant, there's a story of courage, sacrifice, and hope."
+        }
+      ]
+    },
+    {
+      "end_sec": 548.132,
+      "id": "009",
+      "slug": "siddiqui-danzo-describes-heritage-month-s-impact-on-children-and-community",
+      "start_sec": 492.268,
+      "summary": "As chair of the African Advisory Council, Danzo says he has worked with communities across the African continent and seen their talent, resilience, and commitment in the Bronx and New York City. He says declaring September African Immigrant Heritage Month lets children learn their heritage belongs in New York City, lets the community celebrate its culture and open doors, and recognizes African immigrants as New Yorkers shaping the city's future.",
+      "title": "Siddiqui Danzo describes heritage month's impact on children and community",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Siddiqui Danzo",
+          "t_sec": 492.268,
+          "text": "As the chair of the African Advisory Council, I have had the privilege of working with community across the African continent."
+        },
+        {
+          "speaker": "Member of the Public - Siddiqui Danzo",
+          "t_sec": 501.268,
+          "text": "We have seen firsthand an incredible talent, resilience, and commitment that African immigrants bring to the Bronx and the city of New York."
+        },
+        {
+          "speaker": "Member of the Public - Siddiqui Danzo",
+          "t_sec": 512.732,
+          "text": "Declaring September as African Immigrant Heritage Month gave our children an opportunity to learn that their heritage belongs in the city of New York."
+        },
+        {
+          "speaker": "Member of the Public - Siddiqui Danzo",
+          "t_sec": 524.632,
+          "text": "It gave our community an opportunity to celebrate our culture while also opening our doors wider to the rest of New York residents."
+        },
+        {
+          "speaker": "Member of the Public - Siddiqui Danzo",
+          "t_sec": 536.732,
+          "text": "And it gave the city an opportunity to recognize African immigrants not simply as newcomers, but as New Yorkers who are helping shape the future of the city."
+        }
+      ]
+    },
+    {
+      "end_sec": 618.632,
+      "id": "010",
+      "slug": "siddiqui-danzo-thanks-sponsors-and-urges-support-for-resolution-607",
+      "start_sec": 548.132,
+      "summary": "Danzo thanks Council Member Stevens for introducing the resolutions and thanks all sponsors. He also recognizes Bronx Borough President Vanessa Gibson and her office for supporting the effort, asks the Council to support Resolution 607, and concludes that African immigrant history is New York history.",
+      "title": "Siddiqui Danzo thanks sponsors and urges support for Resolution 607",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Siddiqui Danzo",
+          "t_sec": 548.132,
+          "text": "I want to thank Councilmember Atiyah Stevenson for introducing these resolutions and all of the sponsors."
+        },
+        {
+          "speaker": "Member of the Public - Siddiqui Danzo",
+          "t_sec": 554.732,
+          "text": "I also want to recognize the Brunswick Borough President, Vanessa L."
+        },
+        {
+          "speaker": "Member of the Public - Siddiqui Danzo",
+          "t_sec": 558.332,
+          "text": "Gibson, and her office for supporting this effort has reflected in the resolution."
+        },
+        {
+          "speaker": "Member of the Public - Siddiqui Danzo",
+          "t_sec": 564.332,
+          "text": "On behalf of the African Advisory Council and the African Immigrant Community,"
+        },
+        {
+          "speaker": "Member of the Public - Siddiqui Danzo",
+          "t_sec": 568.432,
+          "text": "We represent, I mean, we represent, thank you for listening to our voices."
+        },
+        {
+          "speaker": "Member of the Public - Siddiqui Danzo",
+          "t_sec": 575.132,
+          "text": "And organizing our contributions."
+        },
+        {
+          "speaker": "Member of the Public - Siddiqui Danzo",
+          "t_sec": 577.432,
+          "text": "We look forward to working with the City Council and the Borough Presidents, the"
+        },
+        {
+          "speaker": "Member of the Public - Siddiqui Danzo",
+          "t_sec": 583.832,
+          "text": "community organization, schools, cultural institutions, and our young people to make African Immigrant Heritage Month a meaningful celebration for our culture, history, achievement, education, and unity."
+        },
+        {
+          "speaker": "Member of the Public - Siddiqui Danzo",
+          "t_sec": 600.832,
+          "text": "New Yorker, that African immigrant history is New York history."
+        },
+        {
+          "speaker": "Member of the Public - Siddiqui Danzo",
+          "t_sec": 605.432,
+          "text": "I want to say thank you for the opportunity to testify today."
+        },
+        {
+          "speaker": "Member of the Public - Siddiqui Danzo",
+          "t_sec": 609.632,
+          "text": "I am respectfully asking the council to support this resolution, and thank you to every member sitting here today."
+        },
+        {
+          "speaker": "Member of the Public - Siddiqui Danzo",
+          "t_sec": 616.532,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 633.932,
+      "id": "011",
+      "slug": "chair-williams-closes-testimony-and-calls-the-vote",
+      "start_sec": 618.632,
+      "summary": "Williams thanks Danzo for his testimony and asks whether anyone else or anyone on Zoom wishes to speak. Hearing none, she says the committee is ready to vote.",
+      "title": "Chair Williams closes testimony and calls the vote",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 618.632,
+          "text": "Thank you for your testimony."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 621.132,
+          "text": "We already..."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 623.332,
+          "text": "Oh, does anybody else have anything or anyone on the Zoom?"
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 629.332,
+          "text": "Okay, great."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 630.032,
+          "text": "So I believe we are ready to vote."
+        }
+      ]
+    },
+    {
+      "end_sec": 677.784,
+      "id": "012",
+      "slug": "committee-clerk-william-martin-conducts-roll-call-on-three-coupled-resolutions",
+      "start_sec": 633.932,
+      "summary": "Committee Clerk William Martin announces a roll-call vote for the Committee on Cultural Affairs, Libraries, and International Relations and states that all three items are coupled. He calls Chair Williams, Lewis, Hudson, Osei, Stevens, Ong, and Maloney; Williams, Louis, Hudson, Stevens, and Maloney record ayes.",
+      "title": "Committee Clerk William Martin conducts roll call on three coupled resolutions",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 633.932,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 634.232,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 634.632,
+          "text": "William Martin, Committee Clerk, Roll Call Vote Committee on Cultural Affairs, Libraries, and International Relations."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 640.432,
+          "text": "All three items are coupled."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 642.132,
+          "text": "Chair Williams."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 644.132,
+          "text": "Proudly vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 645.832,
+          "text": "Lewis."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 647.332,
+          "text": "Aye on all."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 647.932,
+          "text": "Congratulations."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 649.532,
+          "text": "Hudson."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 652.232,
+          "text": "Aye, and thank you to Councilmember Stevens for being such a great ally."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 656.632,
+          "text": "Osei."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 661.284,
+          "text": "Stevens."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 665.984,
+          "text": "I am very excited for all the resolutions being passed today."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 669.884,
+          "text": "Ong."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 673.884,
+          "text": "Maloney."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 675.284,
+          "text": "I vote aye and congratulations."
+        }
+      ]
+    },
+    {
+      "end_sec": 692.584,
+      "id": "013",
+      "slug": "committee-adopts-all-three-resolutions-by-6-0-vote",
+      "start_sec": 677.784,
+      "summary": "The Clerk reports a vote of six in the affirmative, zero in the negative, and no abstentions. All items have been adopted by the committee.",
+      "title": "Committee adopts all three resolutions by 6-0 vote",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 677.784,
+          "text": "With a vote of six in the affirmative, zero in the negative, and no abstentions, all items have been adopted by the committee."
+        }
+      ]
+    },
+    {
+      "end_sec": 698.688,
+      "id": "014",
+      "slug": "chair-williams-thanks-members-and-moves-to-next-hearing",
+      "start_sec": 692.584,
+      "summary": "Williams thanks attendees and jokes that she has too much fun in her hearings. She then begins to announce the next hearing time.",
+      "title": "Chair Williams thanks members and moves to next hearing",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 692.584,
+          "text": "Okay, thanks."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 693.484,
+          "text": "I have too much fun in my hearings."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 694.984,
+          "text": "Thank you, guys."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 696.584,
+          "text": "Next hearing."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 697.484,
+          "text": "Yes, next hearing is at."
+        }
+      ]
+    }
+  ],
+  "date": "2026-09-24",
+  "duration_sec": 698.688,
+  "slug": "2026-09-24-1100-am-committee-on-finance",
+  "summary": [
+    "Deputy Speaker Nantasha Williams chaired the Committee on Cultural Affairs, Libraries, and International Relations and opened a hearing and vote on three cultural recognition resolutions.",
+    "The resolutions would designate Korean Cultural Awareness Day, Black Pride Month, and African Immigrant Heritage Month; Council Member Althea Stevens spoke in support and Siddiqui Danzo testified for Resolution 607.",
+    "The committee adopted all three coupled items by a 6-0 roll-call vote, and Chair Williams moved to the next hearing."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "11:00 AM",
+  "title": "Committee on Finance",
+  "topic": "Approving the new designation and changes in the designation of certain organizations to receive funding in the Expense Budget",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-2_260924-111403/video-web.mp4"
+  }
+}

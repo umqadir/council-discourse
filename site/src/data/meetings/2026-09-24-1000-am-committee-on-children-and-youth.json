@@ -1,0 +1,431 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 24.1,
+      "id": "001",
+      "slug": "committee-staff-opens-hearing-and-gives-housekeeping-instructions",
+      "start_sec": 9.6,
+      "summary": "Council staff welcomes attendees to the Committee on Children and Youth vote, asks that electronic devices be silenced, and instructs that no one approach the front desk chair.",
+      "title": "Committee staff opens hearing and gives housekeeping instructions",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 9.6,
+          "text": "Good morning and welcome to today's New York City Council vote for the Committee on Children and Youth."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 14.3,
+          "text": "At this time, we please ask that you silence all electronic devices."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 18.0,
+          "text": "At no point in time is anyone to approach the front desk chair."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 21.1,
+          "text": "You may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 43.8,
+      "id": "002",
+      "slug": "chair-stevens-opens-the-vote-on-resolution-142-a-and-recognizes-colleagues",
+      "start_sec": 24.1,
+      "summary": "Chair Althea V. Stevens introduces herself and the committee vote on proposed Resolution 142-A, thanking Council Members Felder and Joseph for attending on time.",
+      "title": "Chair Stevens opens the vote on Resolution 142-A and recognizes colleagues",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 24.1,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 24.8,
+          "text": "I'm Councilman Valtia Stevens, Chair of New York City Council on Committee on Children and Youth."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 28.5,
+          "text": "Thanks for joining us this morning for our committee vote on the proposed resolution number 142A."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 35.6,
+          "text": "Special shout out to my colleagues who are here on time, Councilmember Felder and Councilmember Joseph."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 40.6,
+          "text": "So we are starting expeditiously and really about that."
+        }
+      ]
+    },
+    {
+      "end_sec": 59.3,
+      "id": "003",
+      "slug": "chair-stevens-explains-resolution-142-a-and-the-center-for-fatherhood-initiatives",
+      "start_sec": 43.8,
+      "summary": "Chair Stevens describes Resolution 142-A, sponsored by Council Member Kevin Riley, which calls on New York State to pass and the Governor to sign legislation establishing the Center for Fatherhood Initiatives under the Office of Children and Family Services.",
+      "title": "Chair Stevens explains Resolution 142-A and the Center for Fatherhood Initiatives",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 43.8,
+          "text": "But back to this resolution, Resolution 142A, sponsored by my colleague Kevin Riley."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 49.9,
+          "text": "This resolution calls for New York State to pass and for the governor to sign legislation that would establish the Center for Fatherhood Initiative under the Office of Children and Family Services."
+        }
+      ]
+    },
+    {
+      "end_sec": 89.0,
+      "id": "004",
+      "slug": "chair-stevens-cites-research-on-father-engagement-and-youth-outcomes",
+      "start_sec": 59.3,
+      "summary": "Drawing on her career in the provider space, Chair Stevens says children with engaged, present fathers experience stronger cognitive and behavioral development, higher self-esteem, and improved academic performance.",
+      "title": "Chair Stevens cites research on father engagement and youth outcomes",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 59.3,
+          "text": "I have spent much of my career in the provider space, directly serving young people and families in my community."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 65.8,
+          "text": "In that work, I have seen firsthand the connection between strong potential involvement and positive youth development outcomes."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 73.0,
+          "text": "Research supports that children whose fathers are engaged, present, and active in their lives experience positive youth development outcomes."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 81.1,
+          "text": "This benefit includes strong cognitive and behavioral development, self-esteem, high self-esteem, and improved academic performance."
+        }
+      ]
+    },
+    {
+      "end_sec": 116.5,
+      "id": "005",
+      "slug": "chair-stevens-highlights-systemic-barriers-facing-fathers",
+      "start_sec": 89.0,
+      "summary": "Chair Stevens notes that many fathers face systemic barriers to engaging in their children's lives, especially co-parenting and non-custodial parents, those incarcerated or in reentry, and young teen fathers who often have few resources.",
+      "title": "Chair Stevens highlights systemic barriers facing fathers",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 89.0,
+          "text": "Yet many fathers fail."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 90.4,
+          "text": "systemic barriers that prevent them from fully engaging in their children's lives."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 95.6,
+          "text": "This is particularly true for those who are co-parenting or non-custodial parents, those who are incarcerated or undergoing reentry, and young teen fathers."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 105.2,
+          "text": "New fathers often have few resources to turn to."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 110.4,
+          "text": "To turn at to in very moments where they are required the most support in their journey in new parents."
+        }
+      ]
+    },
+    {
+      "end_sec": 141.2,
+      "id": "006",
+      "slug": "chair-stevens-expresses-hope-for-the-new-state-office-and-thanks-staff",
+      "start_sec": 116.5,
+      "summary": "Chair Stevens says she is glad the resolution is being voted on and hopeful the new state office will strengthen family dynamics and community, thanking committee staff and her District 16 team.",
+      "title": "Chair Stevens expresses hope for the new state office and thanks staff",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 116.5,
+          "text": "I'm glad that this resolution is being brought to a vote in our committee today."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 121.3,
+          "text": "I am hopeful that this new state office will provide a critical resource necessary to strengthen family dynamics and build community."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 128.9,
+          "text": "I'd like to thank committee staff for their hard work in preparing for this vote and extend an excited..."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 136.1,
+          "text": "An excellent team back in District 16, and a thanks to the excellent team back in District 16."
+        }
+      ]
+    },
+    {
+      "end_sec": 167.5,
+      "id": "007",
+      "slug": "chair-stevens-delivers-remarks-on-behalf-of-council-member-riley",
+      "start_sec": 141.2,
+      "summary": "Chair Stevens reads remarks for Council Member Kevin Riley, who is unable to attend, expressing gratitude to the committee for elevating Resolution 142 and excitement that the bill is coming to a vote.",
+      "title": "Chair Stevens delivers remarks on behalf of Council Member Riley",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 141.2,
+          "text": "I've also been asked to deliver remarks on behalf of Councilmember Riley, who is unable to join us today."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 149.2,
+          "text": "Thank you, Chair Stevens."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 150.5,
+          "text": "That would be me."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 151.4,
+          "text": "You're welcome, Councilmember Riley."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 154.3,
+          "text": "I want to give you my gratitude to the committee for elevating Resolution 142."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 159.3,
+          "text": "This request that New York State establish a dedicated resource center for fathers."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 164.7,
+          "text": "I'm excited to see this bill come to a vote at the council."
+        }
+      ]
+    },
+    {
+      "end_sec": 201.9,
+      "id": "008",
+      "slug": "riley-remarks-thank-state-leaders-and-describe-fathers-barriers",
+      "start_sec": 167.5,
+      "summary": "The remarks thank Senator Bailey and Assemblymember Diaz for their leadership in Albany, and describe how fathers navigate difficult social barriers without inherited knowledge of available services.",
+      "title": "Riley remarks thank state leaders and describe fathers' barriers",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 167.5,
+          "text": "I'm encouraged to see the conversation continue in Albany, and I want to thank Senator Bailey and Assemblymember Diaz for their leadership as they continue to advocate for this program to come across the finish line in the state."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 179.6,
+          "text": "Just a special."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 180.0,
+          "text": "Shout out to Assembly Medeas."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 181.3,
+          "text": "He's one of my assembly members."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 182.8,
+          "text": "Look at him."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 183.9,
+          "text": "As a son and a father now, I have come to understand that the father, fathers often navigate difficult social barriers than mothers and do not always have inherited knowledge of the services available for them and their children."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 195.9,
+          "text": "FALA certainly can benefit from."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 198.7,
+          "text": "Tools to be involved and support their children's lives."
+        }
+      ]
+    },
+    {
+      "end_sec": 217.7,
+      "id": "009",
+      "slug": "riley-remarks-outline-services-the-fatherhood-centers-would-offer",
+      "start_sec": 201.9,
+      "summary": "The remarks say the centers would offer statewide support including mentoring, job training, and parent supports to help fathers overcome barriers and strengthen families, calling the resolution a step toward healthier communities.",
+      "title": "Riley remarks outline services the fatherhood centers would offer",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 201.9,
+          "text": "Those centers will offer statewide support for areas such as mentoring, job training, parent supports, truly helping fathers overcome barriers and strengthening families."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 212.1,
+          "text": "This resolution is a great step towards fostering healthier communities and a more resilient city."
+        }
+      ]
+    },
+    {
+      "end_sec": 242.3,
+      "id": "010",
+      "slug": "chair-stevens-thanks-colleagues-and-legislative-division-turns-to-roll-call",
+      "start_sec": 217.7,
+      "summary": "Chair Stevens thanks colleagues who supported the legislation and Elizabeth Arts with the legislative division, then concludes Riley's remarks and turns the floor over to the clerk for the roll call.",
+      "title": "Chair Stevens thanks colleagues and legislative division, turns to roll call",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 217.7,
+          "text": "Thank you to all my colleagues who have supported this legislation and Elizabeth Arts with the legislative division who helped to ensure that the resolution acknowledged their future positive outcome of this proposal."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 230.3,
+          "text": "And with that, I am that with conclusion of both my my remarks for Councilmember Riley."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 236.4,
+          "text": "And I will now turn it over to the clerk for call the roll."
+        }
+      ]
+    },
+    {
+      "end_sec": 265.408,
+      "id": "011",
+      "slug": "clerk-ben-jacobs-conducts-roll-call-vote-on-resolution-142-a",
+      "start_sec": 242.3,
+      "summary": "Committee clerk Ben Jacobs calls the roll on Resolution 142-A; Chair Stevens and Council Member Joseph vote aye, with Council Members Osei, Williams, and Felder recorded.",
+      "title": "Clerk Ben Jacobs conducts roll call vote on Resolution 142-A",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 242.3,
+          "text": "Ben Jacobs, committee clerk."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 244.1,
+          "text": "Roll call vote on resolution 142A."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 247.3,
+          "text": "Chair Stevens."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 248.6,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 250.1,
+          "text": "Councilmember Joseph."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 252.9,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 254.1,
+          "text": "Councilmember Osei."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 257.208,
+          "text": "Councilmember Williams."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 260.308,
+          "text": "Council Member Felder."
+        }
+      ]
+    },
+    {
+      "end_sec": 293.291,
+      "id": "012",
+      "slug": "resolution-142-a-adopted-with-three-affirmative-votes",
+      "start_sec": 265.408,
+      "summary": "The clerk announces the vote of three in the affirmative, none in the negative, and no abstentions, and declares Resolution 142-A adopted. The vote is then closed.",
+      "title": "Resolution 142-A adopted with three affirmative votes",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 265.408,
+          "text": "With a vote of three in the affirmative, none in the negative, and no abstentions, the item is adopted."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 279.808,
+          "text": "The vote is closed."
+        }
+      ]
+    }
+  ],
+  "date": "2026-09-24",
+  "duration_sec": 293.291,
+  "slug": "2026-09-24-1000-am-committee-on-children-and-youth",
+  "summary": [
+    "The Committee on Children and Youth convened a hearing on Resolution 142-A, which calls on New York State to establish a Center for Fatherhood Initiatives under the Office of Children and Family Services.",
+    "Chair Althea V. Stevens delivered opening remarks on the importance of father engagement and read remarks on behalf of sponsor Council Member Kevin Riley.",
+    "The committee held a roll call vote and adopted Resolution 142-A with three affirmative votes, none opposed, and no abstentions."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "10:00 AM",
+  "title": "Committee on Children and Youth",
+  "topic": "Establish the Center for Fatherhood Initiatives under the Office of Children and Family Services",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-250-8-2_260924-100856/video-web.mp4"
+  }
+}

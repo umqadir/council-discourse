@@ -1,0 +1,44 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 59.008,
+      "id": "001",
+      "slug": "council-staff-calls-the-september-24-stated-meeting-to-order",
+      "start_sec": 4.4,
+      "summary": "Council Staff asks Council members to take their seats and announces that the Stated Meeting is about to begin in Council Chambers. This is the only recorded segment of the meeting in the available transcript, covering the call to order before the formal agenda items.",
+      "title": "Council Staff calls the September 24 Stated Meeting to order",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 4.4,
+          "text": "Council members, please take your seats."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 6.4,
+          "text": "We're about to begin."
+        }
+      ]
+    }
+  ],
+  "date": "2026-09-24",
+  "duration_sec": 59.008,
+  "slug": "2026-09-24-0130-pm-stated-meeting",
+  "summary": [
+    "The September 24, 2026 NYC Council Stated Meeting was called to order in Council Chambers at City Hall, with Council Staff directing members to their seats shortly after 1:30 PM.",
+    "The published agenda listed a full slate of business, including an invocation by Rabbi Steven Exter, adoption of the September 10 minutes, and reports from the Committees on Criminal Justice, Finance, General Welfare, Housing and Buildings, and Land Use.",
+    "The available transcript captures only the meeting's opening call-to-order; no substantive remarks, votes, or outcomes are recorded in the provided text."
+  ],
+  "tags": [
+    "STATED_MEETING"
+  ],
+  "time": "1:30 PM",
+  "title": "Stated Meeting",
+  "topic": "",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://pub-19a0d24fc348462cb48cf2c7554116df.r2.dev/NYCC-PV-CH-CHA_260924-134504/video-web.mp4"
+  }
+}
