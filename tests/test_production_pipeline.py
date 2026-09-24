@@ -849,3 +849,31 @@ def test_cost_includes_estimated_llm_charges_and_verification(tmp_path, monkeypa
     (d / "name-speakers-meta.json").unlink()
     (d / "name-speakers-chunk-1.json").write_text(json.dumps({"estimated_cost_usd": 0.01}))
     assert production._calculate_meeting_cost(db.get_meeting(conn, "cost-mixed")) == pytest.approx(0.23)
+
+
+@pytest.mark.parametrize(("days_ago", "expected"), [(0, "pending"), (10, "failed")])
+def test_process_one_waits_for_unposted_video_only_within_grace(
+    tmp_path: Path, monkeypatch, days_ago: int, expected: str
+) -> None:
+    from datetime import datetime, timedelta, timezone
+
+    from pipeline.viebit import ViebitVideoNotReady
+
+    held = (datetime.now(timezone.utc) - timedelta(days=days_ago)).strftime("%Y-%m-%dT00:00:00")
+    db_path = tmp_path / "registry.db"
+    conn = db.connect(db_path)
+    db.upsert_meeting(conn, {"meeting_key": "m1", "viebit_filename": "m1", "event_date": held})
+    monkeypatch.setattr("pipeline.production.MEETINGS_DIR", tmp_path / "meetings")
+    monkeypatch.setattr("pipeline.production._reconcile_artifacts", lambda *_args, **_kwargs: None)
+
+    def not_posted(*_args, **_kwargs):
+        raise ViebitVideoNotReady("could not resolve viebit hash for m1")
+
+    monkeypatch.setattr("pipeline.production._stage_fetch", not_posted)
+
+    result_json = tmp_path / "result.json"
+    code = process_one(db_path, "m1", result_json=result_json, fail_on_error=True)
+
+    assert json.loads(result_json.read_text())["status"] == expected
+    assert code == (0 if expected == "pending" else 1)
+    assert db.get_meeting(db.connect(db_path), "m1")["process_attempts"] == (0 if expected == "pending" else 1)

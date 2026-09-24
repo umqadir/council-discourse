@@ -230,7 +230,8 @@ jobs:
       - name: Install system tools
         run: |
           sudo apt-get update
-          sudo apt-get install -y ffmpeg poppler-utils rclone
+          sudo apt-get install -y ffmpeg poppler-utils
+          scripts/install-rclone
 
       - name: Download registry state
         uses: actions/download-artifact@v4
@@ -350,9 +351,7 @@ jobs:
         run: corepack enable
 
       - name: Install R2 sync tool
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y rclone
+        run: scripts/install-rclone
 
       - name: Download registry state
         uses: actions/download-artifact@v4
@@ -556,7 +555,7 @@ jobs:
           echo "dist digest: $digest"
           last=""
           if [ -n "${R2_ACCESS_KEY_ID:-}" ]; then
-            sudo apt-get install -y rclone >/dev/null 2>&1 || true
+            scripts/install-rclone >/dev/null 2>&1 || true
             export RCLONE_CONFIG_R2_TYPE=s3
             export RCLONE_CONFIG_R2_PROVIDER=Cloudflare
             export RCLONE_CONFIG_R2_ACCESS_KEY_ID="$R2_ACCESS_KEY_ID"

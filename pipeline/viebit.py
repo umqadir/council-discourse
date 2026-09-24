@@ -93,13 +93,17 @@ def extract_player_hash(html: str) -> str | None:
     return m.group(1) if m else None
 
 
+class ViebitVideoNotReady(RuntimeError):
+    """The VOD page exists but does not yet expose a player hash (video not posted)."""
+
+
 def resolve_viebit_hash(filename: str) -> str:
     with httpx.Client(timeout=HTTP_TIMEOUT_SECONDS, follow_redirects=True) as client:
         response = client.get(vod_url(filename))
         response.raise_for_status()
         found = extract_player_hash(response.text)
     if not found:
-        raise RuntimeError(f"could not resolve viebit hash for {filename}")
+        raise ViebitVideoNotReady(f"could not resolve viebit hash for {filename}")
     return found
 
 

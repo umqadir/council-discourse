@@ -6,6 +6,7 @@ import shutil
 import sqlite3
 import subprocess
 import sys
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
@@ -24,7 +25,7 @@ from .fetch import (
 from .prepare import prepare_meeting
 from .stages import chapterize, name_speakers, transcribe
 from .utils import utc_now_iso
-from .viebit import cdn_url, normalize_filename, resolve_viebit_hash
+from .viebit import ViebitVideoNotReady, cdn_url, normalize_filename, resolve_viebit_hash
 from .voxtral_prod import VoxtralBatchPending
 
 R2_BUCKET = "council-discourse-videos"
@@ -82,6 +83,20 @@ def select_process_candidates(
     return rows
 
 
+# Same-day meetings are often discovered before their video is posted. Within
+# this window a missing video waits for a later cycle; after it, it is a failure.
+VIDEO_NOT_READY_GRACE = timedelta(days=3)
+
+
+def _video_may_still_post(row: sqlite3.Row | None) -> bool:
+    event_date = (row["event_date"] if row is not None else None) or ""
+    try:
+        held = datetime.fromisoformat(event_date).replace(tzinfo=timezone.utc)
+    except ValueError:
+        return False
+    return datetime.now(timezone.utc) < held + VIDEO_NOT_READY_GRACE
+
+
 def process_one(
     db_path: Path,
     meeting_key: str,
@@ -126,25 +141,15 @@ def process_one(
         result["status"] = "pending"
         result["note"] = str(exc)
         print(f"process-one {meeting_key} pending: {exc}", file=sys.stderr, flush=True)
+    except ViebitVideoNotReady as exc:
+        if not _video_may_still_post(db.get_meeting(conn, meeting_key)):
+            _record_failure(conn, meeting_key, result, exc, dry_run=dry_run)
+        else:
+            result["status"] = "pending"
+            result["note"] = str(exc)
+            print(f"process-one {meeting_key} pending: video not posted yet ({exc})", file=sys.stderr, flush=True)
     except Exception as exc:
-        result["status"] = "failed"
-        result["error"] = f"{type(exc).__name__}: {exc}"
-        try:
-            row = db.get_meeting(conn, meeting_key)
-            attempts = int(row["process_attempts"] or 0) + 1
-            cost_usd = None if dry_run else _capture_meeting_cost(conn, meeting_key)
-            db.update_meeting(
-                conn,
-                meeting_key,
-                {
-                    "last_error": str(exc)[:2000],
-                    "process_attempts": attempts,
-                    **({"cost_usd": cost_usd} if cost_usd is not None else {}),
-                },
-            )
-        except Exception:
-            pass
-        print(f"process-one {meeting_key} failed: {exc}", file=sys.stderr, flush=True)
+        _record_failure(conn, meeting_key, result, exc, dry_run=dry_run)
     finally:
         result["finished_at"] = utc_now_iso()
         try:
@@ -162,6 +167,34 @@ def process_one(
             if not dry_run and not _persist_result_to_r2(meeting_key, result_json):
                 result["persist_error"] = True
     return 1 if fail_on_error and (result["status"] == "failed" or result.get("persist_error")) else 0
+
+
+def _record_failure(
+    conn: sqlite3.Connection,
+    meeting_key: str,
+    result: dict[str, Any],
+    exc: Exception,
+    *,
+    dry_run: bool,
+) -> None:
+    result["status"] = "failed"
+    result["error"] = f"{type(exc).__name__}: {exc}"
+    try:
+        row = db.get_meeting(conn, meeting_key)
+        attempts = int(row["process_attempts"] or 0) + 1
+        cost_usd = None if dry_run else _capture_meeting_cost(conn, meeting_key)
+        db.update_meeting(
+            conn,
+            meeting_key,
+            {
+                "last_error": str(exc)[:2000],
+                "process_attempts": attempts,
+                **({"cost_usd": cost_usd} if cost_usd is not None else {}),
+            },
+        )
+    except Exception:
+        pass
+    print(f"process-one {meeting_key} failed: {exc}", file=sys.stderr, flush=True)
 
 
 def _persist_result_to_r2(meeting_key: str, result_json: Path) -> bool:

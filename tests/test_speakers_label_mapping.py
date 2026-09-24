@@ -214,6 +214,8 @@ def test_name_speakers_reuses_chunk_checkpoint_without_paid_call(tmp_path, monke
         + "\n"
     )
     meeting = Meeting(meeting_key="m1", meeting_dir=tmp_path)
+    monkeypatch.setattr("pipeline.speakers.current_roster", lambda _date: [])
+    monkeypatch.setattr("pipeline.speakers.roster_csv_for_prompt", lambda _date: "name,district\n")
 
     def fail_generate_json(*_args, **_kwargs):
         raise AssertionError("cached chunk should not call the naming LLM")
@@ -231,6 +233,7 @@ def test_name_speakers_reuses_chunk_checkpoint_without_paid_call(tmp_path, monke
 
 def test_name_speakers_keeps_output_when_verification_fails(tmp_path, monkeypatch) -> None:
     monkeypatch.setattr("pipeline.speakers.current_roster", lambda _date: [])
+    monkeypatch.setattr("pipeline.speakers.roster_csv_for_prompt", lambda _date: "name,district\n")
     (tmp_path / "utterances-labeled.jsonl").write_text(
         '{"t0": 0, "t1": 1, "text": "My name is Jane Doe.", "label": "A"}\n'
     )

@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Ubuntu's apt rclone (1.60) sends X-Amz-Acl, which R2 rejects with 501 on
+# every first upload attempt. Install a pinned upstream release instead.
+set -euo pipefail
+version="v1.75.1"
+if command -v rclone >/dev/null && rclone version | head -1 | grep -q "rclone ${version}$"; then
+  exit 0
+fi
+tmp="$(mktemp -d)"
+curl -sSfL "https://downloads.rclone.org/${version}/rclone-${version}-linux-amd64.zip" -o "$tmp/rclone.zip"
+unzip -q "$tmp/rclone.zip" -d "$tmp"
+sudo install -m 0755 "$tmp/rclone-${version}-linux-amd64/rclone" /usr/local/bin/rclone
+rm -rf "$tmp"
+rclone version | head -1
