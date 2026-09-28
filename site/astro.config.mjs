@@ -6,7 +6,7 @@ import cloudflare from "@astrojs/cloudflare";
 import { defineConfig } from "astro/config";
 import sitemap from "@astrojs/sitemap";
 
-const site = "https://council-discourse.pages.dev";
+const site = "https://discourse.qqlab.io";
 const projectDir = fileURLToPath(new URL(".", import.meta.url));
 const meetingDataDir = path.join(projectDir, "src", "data", "meetings");
 const r2DataPrefix = "data/meetings";

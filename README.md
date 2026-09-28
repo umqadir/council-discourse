@@ -1,6 +1,6 @@
 # Council Discourse
 
-NYC Council meetings, transcribed with named speakers and divided into titled chapters. Live at **[council-discourse.pages.dev](https://council-discourse.pages.dev)**. Coverage runs from late May 2026, plus two meetings from April 2025.
+NYC Council meetings, transcribed with named speakers and divided into titled chapters. Live at **[discourse.qqlab.io](https://discourse.qqlab.io)**. Coverage runs from late May 2026, plus two meetings from April 2025.
 
 ## Credit
 
