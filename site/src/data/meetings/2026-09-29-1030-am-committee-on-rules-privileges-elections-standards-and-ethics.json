@@ -1,0 +1,509 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 14.5,
+      "id": "001",
+      "slug": "council-staff-welcomes-attendees-to-the-rules-committee-hearing",
+      "start_sec": 6.8,
+      "summary": "Council staff opens the meeting with a good morning greeting and welcomes everyone to the New York City Council hearing for the Committee on Rules, Privileges, Elections, Standards and Ethics. The staff then transitions to housekeeping instructions for the room.",
+      "title": "Council staff welcomes attendees to the Rules Committee hearing",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 6.8,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 8.0,
+          "text": "Good morning and welcome to today's New York City Council hearing for the Committee on Rules, Privileges, Elections, Standard, and Ethics."
+        }
+      ]
+    },
+    {
+      "end_sec": 17.9,
+      "id": "002",
+      "slug": "staff-asks-attendees-to-silence-electronic-devices",
+      "start_sec": 14.5,
+      "summary": "Council staff reminds everyone in the hearing room to silence all electronic devices. This procedural instruction is given before the chair begins the committee's business.",
+      "title": "Staff asks attendees to silence electronic devices",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 14.5,
+          "text": "At this time, I would like to remind everyone to silence all electronic devices."
+        }
+      ]
+    },
+    {
+      "end_sec": 22.4,
+      "id": "003",
+      "slug": "staff-advises-on-access-during-the-proceeding",
+      "start_sec": 17.9,
+      "summary": "Council staff states that going forward no one is approached today, likely an ASR error for a room-access or decorum instruction. The comment is part of the opening procedural guidance.",
+      "title": "Staff advises on access during the proceeding",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 17.9,
+          "text": "Also, at this point going forward, no one is approached today."
+        }
+      ]
+    },
+    {
+      "end_sec": 25.9,
+      "id": "004",
+      "slug": "staff-signals-the-chair-that-the-committee-is-ready",
+      "start_sec": 22.4,
+      "summary": "Council staff tells the chair, Sandra Ung, that the committee is ready to proceed. This brief handoff moves the meeting from staff housekeeping to the chair's opening remarks.",
+      "title": "Staff signals the chair that the committee is ready",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 22.4,
+          "text": "Chair, we're ready."
+        }
+      ]
+    },
+    {
+      "end_sec": 31.3,
+      "id": "005",
+      "slug": "chair-sandra-ung-opens-the-meeting-and-identifies-herself",
+      "start_sec": 25.9,
+      "summary": "Sandra Ung introduces herself as chair of the Committee on Rules, Privileges, Elections, Standards and Ethics. She welcomes attendees and begins the committee's formal proceedings.",
+      "title": "Chair Sandra Ung opens the meeting and identifies herself",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 25.9,
+          "text": "Good morning, I'm Sandra Ong, Chair of the Committee on Rules, Privileges, Elections, Standards, and Ethics."
+        }
+      ]
+    },
+    {
+      "end_sec": 43.0,
+      "id": "006",
+      "slug": "chair-sandra-ung-lists-attending-colleagues-and-absent-deputy-majority-leader",
+      "start_sec": 31.3,
+      "summary": "Sandra Ung notes that she is joined by Deputy Speaker Nantasha Williams, Majority Leader Shaun Abreu, Minority Leader David Carr, and others. She also notes that the deputy majority leader is not present at that moment.",
+      "title": "Chair Sandra Ung lists attending colleagues and absent deputy majority leader",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 31.3,
+          "text": "I'm joined by my colleagues, Deputy Speaker Natasha Williams, Majority Leader Shana Breaux, Minority Leader David Carr, Deputy Majority Leader, he's not here,"
+        }
+      ]
+    },
+    {
+      "end_sec": 46.9,
+      "id": "007",
+      "slug": "chair-sandra-ung-continues-recognizing-committee-members-present",
+      "start_sec": 43.0,
+      "summary": "Sandra Ung says Council Members Elsie Encarnaci\u00f3n, Shekar Krishnan, Linda Lee, and Kevin C. Riley are present, with ASR variances in their names. This completes the chair's initial attendance recognition.",
+      "title": "Chair Sandra Ung continues recognizing committee members present",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 43.0,
+          "text": "Council members Elsie Alconar-Sion, Shekhar Krishnan, Linda Lee, and Cameron Raleigh."
+        }
+      ]
+    },
+    {
+      "end_sec": 55.2,
+      "id": "008",
+      "slug": "chair-states-meeting-purpose-under-council-rule-section-10-60",
+      "start_sec": 46.9,
+      "summary": "Sandra Ung explains that the committee is meeting regarding Section 10.60 of the Rules of the Council. She frames the hearing as a matter requiring the committee to discuss confidential business.",
+      "title": "Chair states meeting purpose under Council Rule Section 10.60",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 46.9,
+          "text": "The Committee on Rules, Privileges, and Elections and Standard Ethics is meeting today regarding Section 10.60 of the Rules of the Council."
+        }
+      ]
+    },
+    {
+      "end_sec": 62.8,
+      "id": "009",
+      "slug": "chair-explains-necessity-of-confidential-business-discussion",
+      "start_sec": 55.2,
+      "summary": "Sandra Ung states that it is necessary for the committee to discuss confidential business pursuant to Section 10.60 of the Rules of the Council. This sets up the motion to move into executive session.",
+      "title": "Chair explains necessity of confidential business discussion",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 55.2,
+          "text": "It is necessary for the committee to discuss the confidential business pursuant to Section 10.60 of the Rules of the Council."
+        }
+      ]
+    },
+    {
+      "end_sec": 71.6,
+      "id": "010",
+      "slug": "chair-moves-committee-into-executive-session-under-public-officers-law",
+      "start_sec": 62.8,
+      "summary": "Sandra Ung makes a motion for the committee to move into executive session pursuant to Section 105 of the New York State Public Officers Law. The motion is offered as the procedural path for confidential discussion.",
+      "title": "Chair moves committee into executive session under Public Officers Law",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 62.8,
+          "text": "Therefore, I am making a motion for the committee to move into executive session pursuant to Section 105 of the New York State Public Offices Law."
+        }
+      ]
+    },
+    {
+      "end_sec": 73.7,
+      "id": "011",
+      "slug": "chair-calls-for-a-voice-vote-on-executive-session-motion",
+      "start_sec": 71.6,
+      "summary": "Sandra Ung asks all those in favor of the executive-session motion to say aye. The chair is taking a voice vote on whether to close the open portion of the meeting.",
+      "title": "Chair calls for a voice vote on executive-session motion",
+      "type": "VOICE_VOTE",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 71.6,
+          "text": "All those in favor say aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 74.9,
+      "id": "012",
+      "slug": "a-voice-response-is-recorded-after-aye-call",
+      "start_sec": 73.7,
+      "summary": "A brief response transcribed as 'Hi' is captured after the chair asks for ayes on the executive-session motion. It appears to reflect an affirmative response in the ASR transcript, though the exact word is unclear.",
+      "title": "A voice response is recorded after aye call",
+      "type": "VOICE_VOTE",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 73.7,
+          "text": "Hi."
+        }
+      ]
+    },
+    {
+      "end_sec": 80.1,
+      "id": "013",
+      "slug": "chair-declares-ayes-carry-motion-and-closes-open-portion",
+      "start_sec": 74.9,
+      "summary": "Sandra Ung notes that the ayes have it and says she will close that portion of the meeting and reopen the executive session. This is the chair's announced outcome of the voice vote on the executive-session motion.",
+      "title": "Chair declares ayes carry motion and closes open portion",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 74.9,
+          "text": "Noting that the eyes have it, I'm now going to close this portion of the meeting and reopen the executive session."
+        }
+      ]
+    },
+    {
+      "end_sec": 83.5,
+      "id": "014",
+      "slug": "chair-asks-committee-staff-to-clear-the-room",
+      "start_sec": 80.1,
+      "summary": "Sandra Ung asks all committee staff to clear the room as the committee moves into executive session. This instruction is part of closing the open portion of the meeting.",
+      "title": "Chair asks committee staff to clear the room",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 80.1,
+          "text": "I ask that all SF committee staff clear the room."
+        }
+      ]
+    },
+    {
+      "end_sec": 86.5,
+      "id": "015",
+      "slug": "chair-asks-sergeant-at-arms-to-stop-taping-executive-session",
+      "start_sec": 83.5,
+      "summary": "Sandra Ung asks the Sergeant at Arms to stop taping the portion of the meeting entering executive session. This ensures the confidential discussion is not recorded.",
+      "title": "Chair asks Sergeant at Arms to stop taping executive session",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 83.5,
+          "text": "I also ask the Sergeant at Arms to stop taping this portion of the meeting."
+        }
+      ]
+    },
+    {
+      "end_sec": 90.0,
+      "id": "016",
+      "slug": "chair-explains-procedure-if-executive-session-leads-to-further-action",
+      "start_sec": 86.5,
+      "summary": "Sandra Ung says that if executive session results in a decision to consider further actions and reconvene, the committee will not return. She outlines how the committee will handle potential next steps from the closed session.",
+      "title": "Chair explains procedure if executive session leads to further action",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 86.5,
+          "text": "If executive session results in decision to consider further actions and"
+        }
+      ]
+    },
+    {
+      "end_sec": 92.0,
+      "id": "017",
+      "slug": "chair-says-committee-will-not-return-if-executive-session-continues",
+      "start_sec": 90.0,
+      "summary": "Sandra Ung repeats that if the executive session results in further action and reconvening, the committee will not return. This clarifies that the open meeting will remain closed in that scenario.",
+      "title": "Chair says committee will not return if executive session continues",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 90.0,
+          "text": "reconvene, we will not return."
+        }
+      ]
+    },
+    {
+      "end_sec": 95.7,
+      "id": "018",
+      "slug": "chair-says-sergeant-at-arms-will-be-told-committee-is-not-returning",
+      "start_sec": 92.0,
+      "summary": "Sandra Ung instructs that the committee will simply let the Sergeant at Arms know if it is not returning. This is part of the chair's procedural plan for the closed session.",
+      "title": "Chair says Sergeant at Arms will be told committee is not returning",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 92.0,
+          "text": "We will simply let the Sergeant of Arms know that we are not returning."
+        }
+      ]
+    },
+    {
+      "end_sec": 104.1,
+      "id": "019",
+      "slug": "chair-explains-return-procedure-if-executive-session-produces-a-vote",
+      "start_sec": 95.7,
+      "summary": "Sandra Ung says that if executive session results in a vote, the committee will return to regular session to report the vote when executive session concludes. This sets the procedure for publicly disclosing any closed-session vote.",
+      "title": "Chair explains return procedure if executive session produces a vote",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 95.7,
+          "text": "If executive session results in a vote, we will return to regular session to report the vote when executive session concludes."
+        }
+      ]
+    },
+    {
+      "end_sec": 105.4,
+      "id": "020",
+      "slug": "chair-asks-for-all-recording-to-be-turned-off",
+      "start_sec": 104.1,
+      "summary": "Sandra Ung requests that all recording be turned off before the committee proceeds into executive session. This is a final instruction to protect the confidentiality of the closed portion.",
+      "title": "Chair asks for all recording to be turned off",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 104.1,
+          "text": "Please turn off all recording."
+        }
+      ]
+    },
+    {
+      "end_sec": 5299.0,
+      "id": "021",
+      "slug": "chair-thanks-attendees-as-open-session-closes",
+      "start_sec": 105.4,
+      "summary": "Sandra Ung says thank you as the committee closes the open portion of the meeting. The transcript then has a long gap before the committee returns to open session.",
+      "title": "Chair thanks attendees as open session closes",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 105.4,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 5300.0,
+      "id": "022",
+      "slug": "chair-sandra-ung-greets-attendees-as-committee-returns",
+      "start_sec": 5299.0,
+      "summary": "Sandra Ung says good afternoon as the committee returns to open session after the executive session. This marks the resumption of the publicly recorded meeting.",
+      "title": "Chair Sandra Ung greets attendees as committee returns",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 5299.0,
+          "text": "Good afternoon."
+        }
+      ]
+    },
+    {
+      "end_sec": 5304.5,
+      "id": "023",
+      "slug": "chair-sandra-ung-identifies-herself-on-return-to-open-session",
+      "start_sec": 5300.0,
+      "summary": "Sandra Ung again introduces herself as chair of the Rules, Privileges, Election Standards, and Ethics Committee. She resumes the public portion of the meeting after the closed session.",
+      "title": "Chair Sandra Ung identifies herself on return to open session",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 5300.0,
+          "text": "I'm Sandra Ong, Chair of the Rules, Privileges, Election Standards, and Ethics Committee."
+        }
+      ]
+    },
+    {
+      "end_sec": 5310.0,
+      "id": "024",
+      "slug": "chair-sandra-ung-recognizes-returning-colleagues",
+      "start_sec": 5304.5,
+      "summary": "Sandra Ung says she is again joined by Deputy Speaker Nantasha Williams, Minority Leader David Carr, and others. She re-establishes attendance for the resumed open session.",
+      "title": "Chair Sandra Ung recognizes returning colleagues",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 5304.5,
+          "text": "I'm again joined by my colleagues, Deputy Speaker Natasha Williams, Minority Leader David Carr,"
+        }
+      ]
+    },
+    {
+      "end_sec": 5317.9,
+      "id": "025",
+      "slug": "chair-sandra-ung-completes-recognition-of-members-present",
+      "start_sec": 5310.0,
+      "summary": "Sandra Ung lists Majority Leader Shaun Abreu, Deputy Majority Leader Chris Banks, and Council Members Elsie Encarnaci\u00f3n, Shekar Krishnan, Linda Lee, and Kevin C. Riley, with ASR name variances. This completes the post-executive-session attendance recognition.",
+      "title": "Chair Sandra Ung completes recognition of members present",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 5310.0,
+          "text": "Majority Leader Sharon Bruel, Deputy Majority Leader Chris Banks, and Council Members Elsie Akarnasian, Shekhar Krishna, Linda Lee, and Kevin Rowley."
+        }
+      ]
+    },
+    {
+      "end_sec": 5330.6,
+      "id": "026",
+      "slug": "chair-recaps-earlier-meeting-under-council-rule-section-10-60",
+      "start_sec": 5317.9,
+      "summary": "Sandra Ung reminds attendees that the committee opened a meeting earlier that day to discuss confidential business pursuant to Section 10.60 of the Rules of the Council. She is providing context before reporting the outcome.",
+      "title": "Chair recaps earlier meeting under Council Rule Section 10.60",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 5317.9,
+          "text": "The Rules Privileged Election Standard and Ethics Committee opened a meeting earlier today to discuss confidential business pursuant to Section 10.60 of the Rules of the Council."
+        }
+      ]
+    },
+    {
+      "end_sec": 5340.5,
+      "id": "027",
+      "slug": "chair-recaps-executive-session-vote-under-public-officers-law",
+      "start_sec": 5330.6,
+      "summary": "Sandra Ung says the committee voted to move into executive session pursuant to Article 7 of the Public Officers Law because confidential business was necessary. This explains the procedural basis for the closed session.",
+      "title": "Chair recaps executive-session vote under Public Officers Law",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 5330.6,
+          "text": "Because it was necessary for the committee to discuss confidential business, the committee voted to move into executive session pursuant to Article 7 of the Public Officers Law."
+        }
+      ]
+    },
+    {
+      "end_sec": 5345.0,
+      "id": "028",
+      "slug": "chair-returns-committee-to-open-session-to-report-outcome",
+      "start_sec": 5340.5,
+      "summary": "Sandra Ung states that the committee is now returning to open session to make public the outcome of today's meeting. She prepares to disclose the result of the executive-session vote.",
+      "title": "Chair returns committee to open session to report outcome",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 5340.5,
+          "text": "We are now returning to open session to make public the outcome of today's meeting."
+        }
+      ]
+    },
+    {
+      "end_sec": 5351.16,
+      "id": "029",
+      "slug": "chair-reports-executive-session-vote-to-work-toward-resolving-an-issue",
+      "start_sec": 5345.0,
+      "summary": "Sandra Ung reports that during the executive session the committee voted to work toward resolving an issue. This is the publicly disclosed outcome of the closed-session vote, with no roll-call detail provided.",
+      "title": "Chair reports executive-session vote to work toward resolving an issue",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 5345.0,
+          "text": "During the executive session, the committee voted to work toward resolving an issue."
+        }
+      ]
+    },
+    {
+      "end_sec": 5370.581,
+      "id": "030",
+      "slug": "chair-adjourns-the-meeting-after-reporting-vote-outcome",
+      "start_sec": 5351.16,
+      "summary": "Sandra Ung concludes the summary of the committee's vote and declares the meeting adjourned. No further public business or testimony is taken after the executive-session report.",
+      "title": "Chair adjourns the meeting after reporting vote outcome",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 5351.16,
+          "text": "This concludes the summary of the committee's vote during today's meeting, and this meeting is now adjourned."
+        }
+      ]
+    }
+  ],
+  "date": "2026-09-29",
+  "duration_sec": 5370.581,
+  "slug": "2026-09-29-1030-am-committee-on-rules-privileges-elections-standards-and-ethics",
+  "summary": [
+    "The Committee on Rules, Privileges, Elections, Standards and Ethics convened a hearing on September 29, 2026, chaired by Sandra Ung.",
+    "The chair moved the committee into executive session under Section 10.60 and the Public Officers Law, and the open portion was closed after a voice vote.",
+    "After an extended executive session, the committee returned to open session and reported that it voted to work toward resolving an issue, then adjourned."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "10:30 AM",
+  "title": "Committee on Rules, Privileges, Elections, Standards and Ethics",
+  "topic": "Oversight - Pursuant to Council Rule Section 10.60",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://discourse-media.qqlab.io/NYCC-250-8-1_260929-104005/video-web.mp4"
+  }
+}
