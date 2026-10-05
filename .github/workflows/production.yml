@@ -555,7 +555,7 @@ jobs:
           echo "dist digest: $digest"
           last=""
           if [ -n "${R2_ACCESS_KEY_ID:-}" ]; then
-            scripts/install-rclone >/dev/null 2>&1 || true
+            "$GITHUB_WORKSPACE/scripts/install-rclone" >/dev/null 2>&1 || true
             export RCLONE_CONFIG_R2_TYPE=s3
             export RCLONE_CONFIG_R2_PROVIDER=Cloudflare
             export RCLONE_CONFIG_R2_ACCESS_KEY_ID="$R2_ACCESS_KEY_ID"
