@@ -1,0 +1,824 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 32.364,
+      "id": "001",
+      "slug": "staff-opens-land-use-committee-vote-and-gives-procedural-instructions",
+      "start_sec": 16.0,
+      "summary": "Council staff welcomes attendees, asks that electronic devices be silenced, prohibits approaching the front desk, and invites Chair Riley to begin.",
+      "title": "Staff opens Land Use committee vote and gives procedural instructions",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 16.0,
+          "text": "Good afternoon and welcome to today's New York City Council vote for the Committee on Land Use."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 20.8,
+          "text": "Ladies and gentlemen, at this time, we please ask that you silence all electronic devices."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 25.5,
+          "text": "At no point in time is anyone to approach the front desk."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 28.3,
+          "text": "Chair, you may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 65.164,
+      "id": "002",
+      "slug": "chair-riley-opens-meeting-and-introduces-committee-members",
+      "start_sec": 32.364,
+      "summary": "Chair Kevin Riley welcomes attendees, identifies himself, and recognizes colleagues present in the chamber and remotely, including Brooks-Powers, Cab\u00e1n, Oss\u00e9, Salaam, Banks, Zhuang, Encarnaci\u00f3n, Sanchez, Thomas-Henry, and Carr.",
+      "title": "Chair Riley opens meeting and introduces committee members",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 32.364,
+          "text": "Good afternoon and welcome to a meeting of the Committee on Land Use."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 35.564,
+          "text": "I am Councilmember Kevin Riley, Chair of this committee."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 38.764,
+          "text": "I want to welcome my esteemed colleagues joining me here today, which includes remotely Councilmember Brooks Powers and Councilmember Caban."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 47.164,
+          "text": "And within the chamber is Councilmember Osei, Councilmember Salam, Councilmember Banks, Councilmember Zwang is also online,"
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 54.664,
+          "text": "Councilmember Incarna Sion, Councilmember Justin Sanchez, Councilmember Thomas Henry, and our minority leader, Councilmember David Carr."
+        }
+      ]
+    },
+    {
+      "end_sec": 77.364,
+      "id": "003",
+      "slug": "chair-riley-outlines-five-land-use-items-and-thanks-subcommittee-chairs",
+      "start_sec": 65.164,
+      "summary": "Riley says the committee will vote on five items referred by subcommittees and thanks Chairs Lewis, Zonin, and Marte for their leadership.",
+      "title": "Chair Riley outlines five land use items and thanks subcommittee chairs",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 65.164,
+          "text": "Today we are voting on five items, including various proposals referred by our subcommittee."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 71.164,
+          "text": "And I would like to thank Chair Lewis and Zonin and Chair Marte and Landmarks for their ongoing leadership."
+        }
+      ]
+    },
+    {
+      "end_sec": 105.864,
+      "id": "004",
+      "slug": "chair-riley-describes-sojourner-truth-mapes-rezoning-approval",
+      "start_sec": 77.364,
+      "summary": "Riley explains that LUs 135 and 136 would approve a zoning map and text amendment for a 100% affordable mixed-use project in the Bronx with about 457 apartments across two neighboring sites.",
+      "title": "Chair Riley describes Sojourner Truth\u2013Mapes rezoning approval",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 77.364,
+          "text": "Today, we will vote to approve L.U.'s 135 and 136 relating to the Sojourner Troop MAPES rezoning proposal in Councilmember Feliz District in the Bronx"
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 88.464,
+          "text": "for a zoning map and zoning text amendment to facilitate the development of a mixed-use,"
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 94.364,
+          "text": "100% affordable residential project, including approximately 457 apartments in total to be provided to two neighboring development sites."
+        }
+      ]
+    },
+    {
+      "end_sec": 147.964,
+      "id": "005",
+      "slug": "chair-riley-describes-fort-hamilton-mews-rezoning-modification",
+      "start_sec": 105.864,
+      "summary": "Riley says LUs 131 and 132 would approve with modification a mixed-use project in Bay Ridge with about 292 apartments, up to 88 permanently affordable, by mapping the district as R7D and adding MIH option one.",
+      "title": "Chair Riley describes Fort Hamilton Mews rezoning modification",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 105.864,
+          "text": "We will also vote to approve with modification LUs 131 and 132 related to the Fort Hamilton MUSE rezoning proposal in Councilmember Santusoso's district in Brooklyn for a zoning."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 120.064,
+          "text": "map and zone and text amendment to facilitate the development of a mixed-use residential project in Bay Ridge with approximately 292 apartments, of which up to 88 will be permanently affordable"
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 133.464,
+          "text": "using the MIH program."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 135.864,
+          "text": "Our modification will be to map the rezone district as a proposed R7D district, and we will also modify the proposed text amendment to add MIH option one."
+        }
+      ]
+    },
+    {
+      "end_sec": 185.764,
+      "id": "006",
+      "slug": "chair-riley-describes-park-avenue-brooklyn-rezoning-modification",
+      "start_sec": 147.964,
+      "summary": "Riley says LUs 133 and 134 would approve with modification a mixed-use project in Brooklyn with about 391 apartments, up to 101 permanently affordable, by removing MIH option two.",
+      "title": "Chair Riley describes Park Avenue Brooklyn rezoning modification",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 147.964,
+          "text": "We will also vote to approve with modification LUs 133 and 134 related to the Park Avenue Brooklyn Rezoning Proposal in Councilmember Ressler's district."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 160.064,
+          "text": "We're also joined by Councilmember Ressa."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 161.664,
+          "text": "Sorry, Councilmember Ressa."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 164.964,
+          "text": "In Brooklyn, for a zoning map and zoning text amendment to facilitate the development of a mixed-use residential project,"
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 172.164,
+          "text": "including approximately 391 apartments in total, of which up to 101 will be permanently affordable through the MIH program."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 181.564,
+          "text": "Our modification will be to remove MIH option 2."
+        }
+      ]
+    },
+    {
+      "end_sec": 221.464,
+      "id": "007",
+      "slug": "chair-riley-describes-69-67-108th-street-rezoning-modification",
+      "start_sec": 185.764,
+      "summary": "Riley says LUs 137 and 138 would approve with modification a mixed-use project in Forest Hills with about 59 apartments, up to 18 permanently affordable, by removing MIH option two and adding option three.",
+      "title": "Chair Riley describes 69-67 108th Street rezoning modification",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 185.764,
+          "text": "We will also vote to approve modifications LUs 137 and 138 relating to the 69-67"
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 194.064,
+          "text": "108th Street Rezoning Proposal in Councilmember Shulman's District in Queens for a zoning map and zoning text amendment to facilitate the development of a mixed-use residential project in Forest Hills,"
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 206.964,
+          "text": "including approximately 59 apartments, of which"
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 210.064,
+          "text": "which up to 18 will be permanently affordable through MIH."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 215.164,
+          "text": "Our modification will be to remove MIH option two and to add option three."
+        }
+      ]
+    },
+    {
+      "end_sec": 256.164,
+      "id": "008",
+      "slug": "chair-riley-describes-289-kent-avenue-rezoning-modification",
+      "start_sec": 221.464,
+      "summary": "Riley says LUs 139 and 140 would approve with modification a mixed-use project in Williamsburg with about 278 apartments, up to 83 permanently affordable, by removing MIH option two and adding option three.",
+      "title": "Chair Riley describes 289 Kent Avenue rezoning modification",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 221.464,
+          "text": "Finally, we will also vote to approve with modification LUs 139 and 140"
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 227.664,
+          "text": "related to the 289 Kent Avenue rezoning proposal in Councilmember Ressler's district as well in Brooklyn for a zoning map and zoning text amendment to facilitate the development of a mixed-use residential project in Williamsburg,"
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 243.164,
+          "text": "including approximately 278 apartments, of which up to 83 will be permanently affordable through MIH."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 250.964,
+          "text": "Our modification will be to remove MIH option 2 and add option 3."
+        }
+      ]
+    },
+    {
+      "end_sec": 261.564,
+      "id": "009",
+      "slug": "chair-riley-opens-floor-for-comments-and-recognizes-council-member-restler",
+      "start_sec": 256.164,
+      "summary": "Riley asks if colleagues have comments or questions and recognizes Council Member Restler.",
+      "title": "Chair Riley opens floor for comments and recognizes Council Member Restler",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 256.164,
+          "text": "I would like to recognize any of my colleagues for any comments or questions."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 259.464,
+          "text": "Councilmember Marissa."
+        }
+      ]
+    },
+    {
+      "end_sec": 351.064,
+      "id": "010",
+      "slug": "council-member-restler-discusses-park-avenue-rezoning-and-school-seats",
+      "start_sec": 261.564,
+      "summary": "Restler says he is not usually on the committee, describes the Park Avenue rezoning as a long effort with about 10 property owners, criticizes DCP and DOT processes, and highlights hundreds of housing units and 2,500 school seats for Bed-Stuy and South Williamsburg.",
+      "title": "Council Member Restler discusses Park Avenue rezoning and school seats",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 261.564,
+          "text": "Thank you so much, Chair Riley."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 263.264,
+          "text": "I don't generally have the privilege of joining you in this committee, and it's good to be here."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 267.064,
+          "text": "We're voting on two projects in my district today, or two rezonings in my district today."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 273.364,
+          "text": "One is the Park Avenue rezoning."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 276.364,
+          "text": "Community members came to me about this rezoning before I had even taken office as a council member in 2021, and we were able to work together with approximately 10 property owners to rezone their properties."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 289.864,
+          "text": "DCP insisted that this be one joint zoning action, which caused a whole lot of different challenges."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 295.564,
+          "text": "And I will tell you, the city agencies involved, especially the Department of Transportation, were entirely unqualified."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 300.064,
+          "text": "operative and the environmental review process and made me want to pull my hair out."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 303.364,
+          "text": "Parks Department was better, but not that much better."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 308.464,
+          "text": "But we were able to eventually get this project to move forward."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 311.364,
+          "text": "And it will generate many hundreds of units of housing, but even more importantly, it will generate 2,500 school seats."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 317.964,
+          "text": "And we hear from families every single day in our communities who are struggling to get by, who are struggling to afford to live in New York City."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 325.764,
+          "text": "And access to affordable housing and access to affordable, high-quality schools, child care all the way through are the things that our communities need."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 334.464,
+          "text": "And so I am thrilled that we are making this long-term investment in the future of Beds, Dye, and South Williamsburg with this rezoning that will really create"
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 345.064,
+          "text": "educational opportunity for thousands upon thousands of families for generations to come."
+        }
+      ]
+    },
+    {
+      "end_sec": 417.064,
+      "id": "011",
+      "slug": "council-member-restler-discusses-289-kent-avenue-and-thanks-staff",
+      "start_sec": 351.064,
+      "summary": "Restler describes the 289 Kent waterfront project at the old Vice headquarters, notes nearly 300 units and support for Gallion Arts, thanks his team and the land use team, and asks colleagues to support the projects.",
+      "title": "Council Member Restler discusses 289 Kent Avenue and thanks staff",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 351.064,
+          "text": "Secondly, we're rezoning 289 Kent, which is right on the waterfront in Williamsburg."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 356.264,
+          "text": "This site may be familiar to many here."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 358.264,
+          "text": "It was the old headquarters for Vice."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 360.664,
+          "text": "It's a vacant building, and we're going to be building some housing."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 364.764,
+          "text": "Modeled kind of after the building just down the block at 325 Kent, this will be a step-down kind of housing development with more density on the Kent side, less density toward White."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 373.864,
+          "text": "We'll be generating nearly 300 units of housing here, so we're adding about 1,000 units of housing across our district today."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 379.664,
+          "text": "And these are really good projects."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 381.064,
+          "text": "The owner at 289 Kent is also very graciously helping to support one of the cultural organizations in our community to help them stay in our neighborhood long term."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 390.064,
+          "text": "Gallion Arts, which I really appreciate."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 392.464,
+          "text": "I really want to thank my team for their hard work on this, particularly Hana Aida and Molly Haley."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 398.364,
+          "text": "And I want to thank the land use team for their smart and thoughtful advice."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 402.964,
+          "text": "Lena, Brian, William, Ann, and Omar, whoever else helped, thank you all."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 407.764,
+          "text": "I really appreciate you."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 408.964,
+          "text": "And I hope my colleagues will support these projects."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 411.464,
+          "text": "They're really good projects that are the right type of development for our community long term."
+        }
+      ]
+    },
+    {
+      "end_sec": 458.564,
+      "id": "012",
+      "slug": "chair-riley-calls-vote-and-asks-clerk-to-call-roll",
+      "start_sec": 417.064,
+      "summary": "Riley thanks Restler, asks for other members, calls for approval of LUs 135 and 136 and approval with modification of LUs 131-134 and 137-140, and asks the clerk to call the roll.",
+      "title": "Chair Riley calls vote and asks clerk to call roll",
+      "type": "VOTE",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 417.064,
+          "text": "Thank you, Councilman Maressler."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 418.364,
+          "text": "Any other members?"
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 422.664,
+          "text": "I will now call for a vote with the support of local members to approve LUs 135 and 136 for the Sojourner Truth MAPES rezoning."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 431.864,
+          "text": "And to approve with modification the LUs 131 and 132 for the Fort Hamilton Muse rezoning, LUs 133 and 134 for the Park Avenue Brooklyn rezoning,"
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 443.164,
+          "text": "LUs 137 and 138 for the 69-67 108th Street rezoning, and LUs 139 and 140 for the 289 Kent Avenue rezoning."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 453.464,
+          "text": "Will the clerk please call the roll?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 456.564,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 457.064,
+          "text": "Excuse me."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 457.564,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 457.864,
+          "text": "Good afternoon."
+        }
+      ]
+    },
+    {
+      "end_sec": 600.012,
+      "id": "013",
+      "slug": "clerk-conducts-roll-call-vote-on-coupled-land-use-items",
+      "start_sec": 458.564,
+      "summary": "Committee clerk William Martin calls the roll on all coupled items. Members vote, with Cab\u00e1n and Banks congratulating colleagues, Sanchez voting no on LUs 135 and 136, and Brooks-Powers voting aye while hoping for a resolution on FIPS commitments.",
+      "title": "Clerk conducts roll call vote on coupled land use items",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 458.564,
+          "text": "William Martin, committee clerk, roll call vote committee on land use."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 462.864,
+          "text": "All items are coupled."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 465.064,
+          "text": "Chair Riley."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 466.464,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 469.016,
+          "text": "Lewis."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 473.416,
+          "text": "We'll come back."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 475.016,
+          "text": "Brooks Powers."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 477.516,
+          "text": "Please come back to me."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 479.316,
+          "text": "Sure."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 480.116,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 483.616,
+          "text": "Kaban."
+        },
+        {
+          "speaker": "Tiffany L. Cab\u00e1n",
+          "t_sec": 486.816,
+          "text": "Congratulations, Councilmember Ressler, and I vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 491.016,
+          "text": "Thank you, Councilman."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 492.816,
+          "text": "Abraiu."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 495.716,
+          "text": "Oh, say."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 498.016,
+          "text": "Aye, would I."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 501.416,
+          "text": "Salam."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 503.416,
+          "text": "Congratulations, everyone."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 506.716,
+          "text": "Banks."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 508.816,
+          "text": "Congratulations to those members on their tough negotiations, and I vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 515.316,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 520.616,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 521.316,
+          "text": "Thanks."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 524.316,
+          "text": "I again."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 525.816,
+          "text": "Excuse me, sorry."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 528.716,
+          "text": "Zhuang."
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 532.808,
+          "text": "I."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 533.708,
+          "text": "Thank you, Councilman."
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 534.308,
+          "text": "Congratulations."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 536.008,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 538.408,
+          "text": "Encarnaci\u00f3n."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 540.708,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 543.008,
+          "text": "Sanchez."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 544.808,
+          "text": "I vote aye with the exceptions of LUs 135 and 136, for which I vote no."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 551.508,
+          "text": "Thomas Henry."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 553.108,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 555.208,
+          "text": "Car."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 556.308,
+          "text": "I had all."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 559.408,
+          "text": "Councilmember Lewis."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 562.108,
+          "text": "I don't know."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 563.808,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 567.308,
+          "text": "Brooks Powers."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 575.412,
+          "text": "I vote aye on all, but it's my hope that there could be a resolution before it comes to a full vote between FIPS and the commitments needed for the community."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 589.212,
+          "text": "But I support Councilmember Oswald-Belise on the project, so I'll vote aye on all for this committee hearing."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 597.612,
+          "text": "Thank you, Councilmember."
+        }
+      ]
+    },
+    {
+      "end_sec": 616.912,
+      "id": "014",
+      "slug": "clerk-announces-committee-approval-results",
+      "start_sec": 600.012,
+      "summary": "The clerk reports that all items passed 12-0 with no abstentions, except LUs 135 and 136, which passed 11-1 with no abstentions. All items were approved as described by the chair.",
+      "title": "Clerk announces committee approval results",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 600.012,
+          "text": "Following results, all items have a vote of 12 in the affirmative, 0 in the negative, and no abstentions, with the exception of land use items 135 and 136."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 608.712,
+          "text": "Have a vote of 11 in the affirmative, one of the negative, no abstentions."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 613.312,
+          "text": "All items have been approved by the committee as described by the chair."
+        }
+      ]
+    },
+    {
+      "end_sec": 629.632,
+      "id": "015",
+      "slug": "chair-riley-adjourns-the-meeting",
+      "start_sec": 616.912,
+      "summary": "Riley thanks the public, colleagues, council staff, and the sergeant at arms, and adjourns the meeting.",
+      "title": "Chair Riley adjourns the meeting",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 616.912,
+          "text": "That concludes today's business."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 618.212,
+          "text": "I would like to thank the members of the public, my colleagues, council staff, and the sergeant at arms for participating in today's meeting."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 624.012,
+          "text": "This meeting is hereby adjourned."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 625.412,
+          "text": "Thank you."
+        }
+      ]
+    }
+  ],
+  "date": "2026-10-06",
+  "duration_sec": 629.632,
+  "slug": "2026-10-06-0100-pm-committee-on-land-use",
+  "summary": [
+    "Committee on Land Use convened to vote on ten land use applications across Brooklyn, the Bronx, and Queens.",
+    "Chair Riley described five rezoning proposals, including Sojourner Truth\u2013Mapes, Fort Hamilton Mews, Park Avenue Brooklyn, 69-67 108th Street, and 289 Kent Avenue, with MIH modifications.",
+    "Council Member Restler spoke in support of two Brooklyn projects; the committee approved all items, with LUs 135 and 136 passing 11-1 and the rest 12-0."
+  ],
+  "tags": [
+    "VOTE",
+    "LAND_USE"
+  ],
+  "time": "1:00 PM",
+  "title": "Committee on Land Use",
+  "topic": "Zoning, Fort Hamilton Mews Rezoning, Brooklyn (C 260238 ZMK)",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://discourse-media.qqlab.io/NYCC-250-8-3_261006-132307/video-web.mp4"
+  }
+}
