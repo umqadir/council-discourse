@@ -31,15 +31,15 @@ jobs:
       LEGISTAR_TOKEN: ${{ secrets.LEGISTAR_TOKEN }}
     steps:
       - name: Check out repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
 
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v7
         with:
           python-version: "3.13"
 
       - name: Set up uv
-        uses: astral-sh/setup-uv@v7
+        uses: astral-sh/setup-uv@v10.2.0
 
       - name: Install system tools
         run: |
@@ -185,7 +185,7 @@ jobs:
 
       - name: Upload registry state
         if: ${{ steps.breaker.outputs.paused != 'true' }}
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: registry-state
           path: |
@@ -217,15 +217,15 @@ jobs:
       R2_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
     steps:
       - name: Check out repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
 
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v7
         with:
           python-version: "3.13"
 
       - name: Set up uv
-        uses: astral-sh/setup-uv@v7
+        uses: astral-sh/setup-uv@v10.2.0
 
       - name: Install system tools
         run: |
@@ -234,7 +234,7 @@ jobs:
           scripts/install-rclone
 
       - name: Download registry state
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: registry-state
           path: data
@@ -332,18 +332,18 @@ jobs:
       R2_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
     steps:
       - name: Check out repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
 
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v7
         with:
           python-version: "3.13"
 
       - name: Set up uv
-        uses: astral-sh/setup-uv@v7
+        uses: astral-sh/setup-uv@v10.2.0
 
       - name: Set up Node
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v7
         with:
           node-version: "24"
 
@@ -354,7 +354,7 @@ jobs:
         run: scripts/install-rclone
 
       - name: Download registry state
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: registry-state
           path: data
@@ -462,7 +462,7 @@ jobs:
         run: pnpm build
 
       - name: Upload site dist
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: site-dist
           path: site/dist
@@ -520,10 +520,10 @@ jobs:
       CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
     steps:
       - name: Check out repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
 
       - name: Set up Node
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v7
         with:
           node-version: "24"
 
@@ -531,7 +531,7 @@ jobs:
         run: corepack enable
 
       - name: Download site dist
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: site-dist
           path: site/dist
