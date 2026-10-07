@@ -1,0 +1,741 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 21.5,
+      "id": "001",
+      "slug": "council-staff-opens-education-committee-vote-and-sets-dais-rules",
+      "start_sec": 4.9,
+      "summary": "Staff welcomes attendees to the Committee on Education vote, announces no one may approach the dais, asks devices be silenced, and invites the chair to begin.",
+      "title": "Council staff opens Education Committee vote and sets dais rules",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 4.9,
+          "text": "Good afternoon and welcome to today's New York City Council vote for Committee on Education."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 11.8,
+          "text": "At this time, during today's vote, no one may approach the dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 16.5,
+          "text": "Please silence any electronic devices you may have."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 19.4,
+          "text": "Chair, you may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 44.9,
+      "id": "002",
+      "slug": "chair-dinowitz-opens-vote-and-notes-member-attendance",
+      "start_sec": 21.5,
+      "summary": "Dinowitz identifies himself as chair, welcomes colleagues present including Zhuang, De La Rosa, Schulman, Brewer, Louis, Narcisse, Wong, Krishnan, and notes Council Member Lee is on Zoom.",
+      "title": "Chair Dinowitz opens vote and notes member attendance",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 21.5,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 23.0,
+          "text": "Good afternoon, everyone."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 24.0,
+          "text": "I'm Councilmember Eric Dinowitz, Chair of the Committee on Education."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 28.3,
+          "text": "Welcome and thank you to my colleagues who are present, Councilmember Zhuang, De La Rosa, Shulman, Brewer, Lewis, Narcisse, Wong, and Krishnan."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 40.0,
+          "text": "Today the committee is, and on Zoom we have Councilmember Lee."
+        }
+      ]
+    },
+    {
+      "end_sec": 63.4,
+      "id": "003",
+      "slug": "dinowitz-announces-vote-on-intro-684-a-for-g-t-language-access-study",
+      "start_sec": 44.9,
+      "summary": "Chair states committee is voting on proposed Introduction 684-A, sponsored by Council Member Zhuang, requiring a study on how language access needs and geographic location affect access to early elementary gifted and talented programs.",
+      "title": "Dinowitz announces vote on Intro 684-A for G&T language access study",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 44.9,
+          "text": "Today, the committee is voting on proposed introduction number 684A, sponsored by Councilmember Wang, a local law in relation to requiring a study on how language access needs and geographic location"
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 58.3,
+          "text": "affect access to early elementary gifted and talented programs."
+        }
+      ]
+    },
+    {
+      "end_sec": 92.4,
+      "id": "004",
+      "slug": "dinowitz-frames-language-and-geography-barriers-to-gifted-programs",
+      "start_sec": 63.4,
+      "summary": "Dinowitz says families must know programs exist, understand consideration, and navigate deadlines often in a second or third language; access should not depend on home language or neighborhood, but city cannot currently say whether it does.",
+      "title": "Dinowitz frames language and geography barriers to gifted programs",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 63.4,
+          "text": "Before enrolling a child in kindergarten, families must know that early elementary gifted and talented programs exist, understand how a child may be considered, and navigate application deadlines, often in a second or third language."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 78.5,
+          "text": "Whether a family gets through those steps should not depend on the language spoken at home or the neighborhoods they live in."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 85.6,
+          "text": "Yet today, the city cannot tell us whether it does."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 90.4,
+          "text": "This bill seeks to change that."
+        }
+      ]
+    },
+    {
+      "end_sec": 112.4,
+      "id": "005",
+      "slug": "dinowitz-details-mandated-study-by-child-care-office-doe-and-providers",
+      "start_sec": 92.4,
+      "summary": "Bill requires Mayor's Office of Child Care and Early Childhood Education, with DOE and community-based early childhood providers, to study how language access and geography affect eligibility, nomination, and enrollment in K-3 gifted and talented programs.",
+      "title": "Dinowitz details mandated study by child care office, DOE, and providers",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 92.4,
+          "text": "It requires the Mayor's Office of Child Care and Early Childhood Education, working with the Department of Education and community-based early childhood providers, to study how language access needs and geography affect eligibility,"
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 105.3,
+          "text": "nomination, and enrollment in early elementary gifted and talented programs for kindergarten through third grade."
+        }
+      ]
+    },
+    {
+      "end_sec": 141.6,
+      "id": "006",
+      "slug": "dinowitz-outlines-four-components-of-the-g-t-access-study",
+      "start_sec": 112.4,
+      "summary": "Chair lists study components: barriers for limited English proficiency families, review of translation/interpretation/outreach, disparities by language group, borough, community district, and school district, and recommendations for multilingual households and underserved areas.",
+      "title": "Dinowitz outlines four components of the G&T access study",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 112.4,
+          "text": "The study has four components."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 114.5,
+          "text": "An evaluation of the barriers families with limited English proficiency face at each step for first hearing about these programs to enrollment."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 122.8,
+          "text": "A review of the translation, interpretation, and outreach the city currently conducts."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 129.1,
+          "text": "A breakdown of disparities by language group, borough, community district, and community school district."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 135.6,
+          "text": "And recommendations aimed at multilingual households and underserved areas."
+        }
+      ]
+    },
+    {
+      "end_sec": 179.5,
+      "id": "007",
+      "slug": "dinowitz-calls-for-public-posting-and-equal-access-supports-intro-684-a",
+      "start_sec": 141.6,
+      "summary": "Dinowitz says findings must be publicly posted within a year; recognizes diverse learning needs; says every family deserves equal opportunity regardless of zip code or English proficiency; he is a co-sponsor and supports the bill.",
+      "title": "Dinowitz calls for public posting and equal access, supports Intro 684-A",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 141.6,
+          "text": "If passed, the findings must be publicly posted within a year."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 146.2,
+          "text": "Recognizing and supporting the diverse learning needs of our children is critical to ensuring a thriving and successful school system."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 154.6,
+          "text": "Others may disagree about the importance of future of these programs, but every family deserves an equal opportunity to understand and navigate the current process."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 165.2,
+          "text": "Access to an existing public school program should not depend on family zip code or how well a parent speaks English."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 173.1,
+          "text": "This bill will give the city the information it needs to make that happen, and I'm proud to support it as a co-sponsor."
+        }
+      ]
+    },
+    {
+      "end_sec": 243.2,
+      "id": "008",
+      "slug": "chair-turns-to-council-member-zhuang-who-urges-support-for-intro-684-a",
+      "start_sec": 179.5,
+      "summary": "Dinowitz turns to sponsor Zhuang; she thanks chair, asks colleagues to support children and families, describes barriers for immigrant, low-income, and minority families, and says bill will clarify language and location gaps.",
+      "title": "Chair turns to Council Member Zhuang, who urges support for Intro 684-A",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 179.5,
+          "text": "I will now..."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 180.0,
+          "text": "Turn it to Councilmember Zhuang for comments about her bill."
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 184.2,
+          "text": "Thank you, Chair, and thank you to be the co-sponsor of the bill, Intro 684."
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 189.7,
+          "text": "Today, I'm asking our colleagues to support our children and families across New York City."
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 196.5,
+          "text": "Intro 684 takes an important step toward making sure every child has a fair opportunity to access gifted and talented education programs."
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 206.8,
+          "text": "As a mom with kids in our city's public schools, I know how important it is for families to have access to those opportunities."
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 215.8,
+          "text": "But too many families, like immigrant families, low-income and minority families, face barriers that can make these opportunities feel out of reach."
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 226.1,
+          "text": "So Intro 684 helps us better understand those gaps, like how language access, location affects who learn about those programs and who get in them."
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 237.1,
+          "text": "Passing Intro 684 is critical today for access and equality for all."
+        }
+      ]
+    },
+    {
+      "end_sec": 262.72,
+      "id": "009",
+      "slug": "zhuang-announces-doe-press-conference-and-closes-sponsor-remarks",
+      "start_sec": 243.2,
+      "summary": "Zhuang says a press conference will be held tomorrow in front of the Department of Education to advocate for increased educational access; every child deserves a fair shot; she thanks colleagues.",
+      "title": "Zhuang announces DOE press conference and closes sponsor remarks",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 243.2,
+          "text": "And better yet, tomorrow we are holding a press conference in front of the Department of Education to continue advocating for increased"
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 252.0,
+          "text": "educational access for children because every child in New York City deserves a fair shot at great education."
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 259.9,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 280.22,
+      "id": "010",
+      "slug": "dinowitz-thanks-sponsor-and-education-committee-staff",
+      "start_sec": 262.72,
+      "summary": "Dinowitz thanks Zhuang and committee staff, naming Alejandro Carvajal, Chloe Rivera, Katie Salina, Andrew Lane Lawless, and Grace Amato.",
+      "title": "Dinowitz thanks sponsor and Education Committee staff",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 262.72,
+          "text": "Thank you, Councilmember Zhuang."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 264.32,
+          "text": "And thank you to my staff and the Education Committee staff, Senior Councilor Alejandro Carvajal, Senior Policy Analyst Chloe Rivera,"
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 271.92,
+          "text": "Policy Analyst Katie Salina, as well as Principal Financial Analyst Andrew Lane Lawless and Senior Financial Analyst Grace Amato."
+        }
+      ]
+    },
+    {
+      "end_sec": 357.564,
+      "id": "011",
+      "slug": "chair-directs-clerk-to-call-roll-initial-roll-on-intro-684-a",
+      "start_sec": 280.22,
+      "summary": "Chair Dinowitz turns to Committee Clerk Ben Jacobs, who calls the roll on Intro 684-A. Members vote, including Dinowitz yes, Louis aye, Brewer aye, Krishnan aye, Lee aye, Narcisse aye, Schulman aye, Zhuang aye, and Wong aye.",
+      "title": "Chair directs clerk to call roll; initial roll on Intro 684-A",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 280.22,
+          "text": "I will now turn to the clerk to call the roll."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 283.32,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 283.72,
+          "text": "Ben Jacobs, Committee Clerk, Committee on Education."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 286.52,
+          "text": "This is the roll call vote for Intro 684A."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 289.82,
+          "text": "Chair Janowitz."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 290.62,
+          "text": "I vote yes."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 292.52,
+          "text": "Councilmember Lewis."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 294.12,
+          "text": "Aye on all."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 294.62,
+          "text": "Congratulations, Councilmember."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 296.82,
+          "text": "Councilmember Brewer."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 298.72,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 299.42,
+          "text": "I'm a supporter of G&T, even though that might be a minority view, but I am very supportive, so I vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 305.32,
+          "text": "Councilmember De La Rosa."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 308.62,
+          "text": "Councilmember Farias."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 311.764,
+          "text": "Council Member Gutierrez."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 315.064,
+          "text": "Councilmember Joseph."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 318.264,
+          "text": "Councilmember Krishnan."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 319.264,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 321.364,
+          "text": "Councilmember Lee."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 323.364,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 324.364,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 326.464,
+          "text": "Councilmember Narcisse."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 328.864,
+          "text": "I for the I and as a parent going to the system."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 331.964,
+          "text": "So, Zong, colleagues, you did a good job on that because I know I had four kids that had to go to the system."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 338.864,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 340.864,
+          "text": "Council Member Shulman."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 342.864,
+          "text": "I vote aye and congratulations to Council Member Schwing."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 346.564,
+          "text": "Council Member Schwing."
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 349.364,
+          "text": "I'm proud to vote aye."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 353.564,
+          "text": "Council member Wong."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 355.064,
+          "text": "I vote aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 361.864,
+      "id": "012",
+      "slug": "initial-tally-10-affirmative-none-negative-on-intro-684-a",
+      "start_sec": 357.564,
+      "summary": "Phil Wong announces the initial tally: 10 in the affirmative, none in the negative, and no abstentions. The vote remains open.",
+      "title": "Initial tally: 10 affirmative, none negative on Intro 684-A",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 357.564,
+          "text": "The vote stands at 10 in the affirmative, none in the negative, and with no abstentions."
+        }
+      ]
+    },
+    {
+      "end_sec": 557.168,
+      "id": "013",
+      "slug": "committee-holds-vote-open-and-confirms-council-member-lee-s-attendance",
+      "start_sec": 361.864,
+      "summary": "Krishnan says the vote will be held open; Dinowitz congratulates the sponsor. Council Member Lee asks whether her attendance was recorded, and Dinowitz confirms she is still present.",
+      "title": "Committee holds vote open and confirms Council Member Lee's attendance",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 361.864,
+          "text": "Thanks."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 362.064,
+          "text": "We'll hold the vote open."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 362.964,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 365.892,
+          "text": "Congratulations, Council Member."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 367.392,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 367.992,
+          "text": "Cheers."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 387.792,
+          "text": "Sorry, chair, did you get me for attendance?"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 389.992,
+          "text": "I'm sorry."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 391.892,
+          "text": "Yeah, I mentioned you, but I'll mention you again."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 394.492,
+          "text": "Councilmember Lee is still here."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 396.892,
+          "text": "Thanks."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 397.492,
+          "text": "Bye."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 397.892,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 398.292,
+          "text": "Congrats, everyone."
+        }
+      ]
+    },
+    {
+      "end_sec": 1221.264,
+      "id": "014",
+      "slug": "roll-call-resumes-gutierrez-votes-aye-on-intro-684-a",
+      "start_sec": 557.168,
+      "summary": "After a pause, the clerk continues the roll call for Intro 684-A. Council Member Gutierrez is recorded aye, and the vote is still held open.",
+      "title": "Roll call resumes; Gutierrez votes aye on Intro 684-A",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 557.168,
+          "text": "Thank you, Ms."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 594.08,
+          "text": "Continuing the roll call vote for interest 684A, Councilmember Gutierrez."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 598.78,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 599.18,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 602.964,
+          "text": "And we're holding the vote open still."
+        }
+      ]
+    },
+    {
+      "end_sec": 1229.364,
+      "id": "015",
+      "slug": "roll-call-resumes-for-joseph-on-intro-684-a",
+      "start_sec": 1221.264,
+      "summary": "The clerk continues the roll call for Council Member Joseph. An aye is recorded, and staff thanks the member.",
+      "title": "Roll call resumes for Joseph on Intro 684-A",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1221.264,
+          "text": "Continuing the roll call vote for intro 684A, Councilmember Joseph."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 1226.464,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1227.964,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 1253.664,
+      "id": "016",
+      "slug": "intro-684-a-adopted-12-0",
+      "start_sec": 1229.364,
+      "summary": "The clerk announces the vote stands at 12 in the affirmative, none in the negative, and no abstentions. Intro 684-A is adopted.",
+      "title": "Intro 684-A adopted 12-0",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1229.364,
+          "text": "The vote stands at 20."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1231.264,
+          "text": "12 in the affirmative, none in the negative, and no abstentions."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1235.364,
+          "text": "The item's adopted."
+        }
+      ]
+    },
+    {
+      "end_sec": 1302.315,
+      "id": "017",
+      "slug": "chair-recognizes-far-as-notes-no-quorum-and-adjourns-hearing",
+      "start_sec": 1253.664,
+      "summary": "Dinowitz recognizes Council Member Far\u00edas for attendance. She asks whether the roll call applies to the committee; Dinowitz says there is no longer quorum, thanks members, and adjourns the hearing.",
+      "title": "Chair recognizes Far\u00edas, notes no quorum, and adjourns hearing",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 1253.664,
+          "text": "I would like to recognize Councilmember Frias for attendance."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 1262.864,
+          "text": "Thank you, Councilmember Jenowitz."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 1266.064,
+          "text": "Is this roll call vote for our committee as well?"
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 1275.644,
+          "text": "There's no longer, unfortunately, there's no longer quorum."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 1281.544,
+          "text": "Okay, thank you."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 1287.944,
+          "text": "All right, thank you."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 1288.444,
+          "text": "This hearing is adjourned."
+        }
+      ]
+    }
+  ],
+  "date": "2026-10-07",
+  "duration_sec": 1302.315,
+  "slug": "2026-10-07-1200-pm-committee-on-education",
+  "summary": [
+    "Committee on Education held a vote on Intro 684-A, a local law requiring a study on how language access and geography affect access to early elementary gifted and talented programs.",
+    "Chair Eric Dinowitz and sponsor Susan Zhuang spoke in support, citing barriers for immigrant, low-income, and minority families; Zhuang announced a DOE press conference.",
+    "The committee called the roll, held the vote open for late members, and adopted Intro 684-A 12-0 before adjourning after noting quorum was lost."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "12:00 PM",
+  "title": "Committee on Education",
+  "topic": "Study on how language access needs and geographic location affect access to early elementary gifted and talented programs",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://discourse-media.qqlab.io/NYCC-250-8-3_261007-120630/video-web.mp4"
+  }
+}

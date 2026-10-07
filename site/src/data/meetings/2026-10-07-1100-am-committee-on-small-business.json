@@ -1,0 +1,777 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 26.2,
+      "id": "001",
+      "slug": "council-staff-opens-small-business-committee-vote-and-gives-room-instructions",
+      "start_sec": 11.7,
+      "summary": "Council staff welcomes attendees to the New York City Council vote on small businesses. Staff asks everyone to silence electronic devices, warns that no one should approach the dais, and invites the Chair to begin.",
+      "title": "Council staff opens Small Business Committee vote and gives room instructions",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 11.7,
+          "text": "Good morning and welcome to New York City Council vote on small businesses."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 17.3,
+          "text": "At this time, we're asking everyone to sell all electronic devices."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 20.4,
+          "text": "And at no point in time, anyone should approach the DS."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 22.9,
+          "text": "Chair, you may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 77.5,
+      "id": "002",
+      "slug": "chair-thomas-henry-opens-meeting-and-introduces-intro-799-a-and-res-328",
+      "start_sec": 26.2,
+      "summary": "Chair Shanel Thomas-Henry identifies herself and thanks colleagues Maloney, Santosuosso, Salaam, Morano, and Brooks-Powers for joining. She announces votes on Proposed Intro 799-A and Resolution 328, both sponsored by Councilmember Salaam, concerning support for small retail businesses affected by roadway construction and a state tax credit.",
+      "title": "Chair Thomas-Henry opens meeting and introduces Intro 799-A and Res 328",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 26.2,
+          "text": "Good morning, everyone."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 28.2,
+          "text": "I am Councilmember Chanel Thomas-Henry, Chair of the Committee on Small Business."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 33.9,
+          "text": "Thank you to my colleagues, Maloney, Santosuoso, Salam, Moreno on Zoom, and Brooks Powers for joining us here today."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 44.3,
+          "text": "Today, we are voting on proposed introduction 799A, sponsored by Councilmember Salam, in relation to establishing a support fund for small retail businesses affected by roadway construction."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 59.0,
+          "text": "And Resolution 328, also sponsored by Councilmember Salam, calling on the New York State Legislature to pass and the governor to sign"
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 69.1,
+          "text": "legislation providing a tax credit to businesses negatively affected by infrastructure."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 75.6,
+          "text": "construction."
+        }
+      ]
+    },
+    {
+      "end_sec": 125.1,
+      "id": "003",
+      "slug": "chair-thomas-henry-explains-construction-disruptions-to-small-businesses",
+      "start_sec": 77.5,
+      "summary": "Thomas-Henry says roadway construction is common and can bring economic benefits, but it can also block access and keep customers away from businesses. She notes businesses already face high operating costs, pandemic recovery, and tariff impacts, so long-term city construction disruptions must be addressed.",
+      "title": "Chair Thomas-Henry explains construction disruptions to small businesses",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 77.5,
+          "text": "Roadway construction is a common sight in New York City."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 80.7,
+          "text": "It's often necessary and can ultimately lead to economic benefits."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 85.3,
+          "text": "But construction can also disrupt a business by creating barriers to access"
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 92.0,
+          "text": "Construction that disrupts the flow of people can keep customers away from a business and cause temporary economic disruptions."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 101.8,
+          "text": "Businesses navigate many significant costs to operate safely and legally in New York City."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 107.8,
+          "text": "Many businesses struggled to survive the pandemic, and even more recently, many are recovering from tariffs that briefly and severely affected them."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 118.0,
+          "text": "So any long-term city construction that could further complicate a business operation must be addressed."
+        }
+      ]
+    },
+    {
+      "end_sec": 141.5,
+      "id": "004",
+      "slug": "chair-thomas-henry-cites-new-jersey-route-80-grant-program-as-model",
+      "start_sec": 125.1,
+      "summary": "Thomas-Henry describes how the New Jersey Economic Development Authority launched grants for small businesses and nonprofits impacted by Route 80 sinkhole construction closures. She presents it as a precedent for supporting businesses affected by major roadway work.",
+      "title": "Chair Thomas-Henry cites New Jersey Route 80 grant program as model",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 125.1,
+          "text": "In New Jersey, when Route 80 was under construction to address a sinkhole, the New Jersey Economic Development Authority"
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 132.3,
+          "text": "launched a grant program to support small local businesses and nonprofits impacted by the partial and full closure of the highway."
+        }
+      ]
+    },
+    {
+      "end_sec": 201.3,
+      "id": "005",
+      "slug": "chair-thomas-henry-details-intro-799-a-grant-program-and-eligibility",
+      "start_sec": 141.5,
+      "summary": "Intro 799-A would require the Department of Small Business Services to establish grants for BIDs and community-based organizations supporting small businesses near city construction projects. Qualifying projects must be DOT-permitted for at least 90 days, fully close a roadway or sidewalk, be city-performed, and be within one block of a commercial corridor; affected businesses must be within two blocks.",
+      "title": "Chair Thomas-Henry details Intro 799-A grant program and eligibility",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 141.5,
+          "text": "Proposed Introduction 799A would require the Department of Small Business Services"
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 147.5,
+          "text": "to establish a program of grants to business improvement districts and community-based organizations to help support small businesses affected by city construction projects."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 159.2,
+          "text": "To qualify, the bid or CBO would be required to demonstrate that the businesses within their purview"
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 166.3,
+          "text": "fall within a qualifying construction project area, which is defined as two blocks from a qualifying construction project."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 175.9,
+          "text": "Bids or CBOs would then be required to consult the Department of Transportation."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 180.5,
+          "text": "website to show that a construction project is authorized by a permit issued by DOT for at least 90 days."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 190.2,
+          "text": "Is performed by or on behalf of a city agency, requires full closure of a roadway or sidewalk, and is located no more than one block from a commercial corridor."
+        }
+      ]
+    },
+    {
+      "end_sec": 243.5,
+      "id": "006",
+      "slug": "chair-thomas-henry-outlines-grant-uses-caps-and-reimbursements-under-intro-799-a",
+      "start_sec": 201.3,
+      "summary": "Grants could fund district marketing, public art, creative lighting, or direct reimbursement to small retail businesses in the affected area. Total grants to a BID or CBO would be capped at $100,000, with direct reimbursements up to $10,000 per business, based on the number of businesses and scope of services.",
+      "title": "Chair Thomas-Henry outlines grant uses, caps, and reimbursements under Intro 799-A",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 201.3,
+          "text": "These grants could be used to provide services to businesses in the qualifying construction project area, such as district marketing, public art, or creative lighting."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 212.1,
+          "text": "The grants may also be used to provide direct reimbursement to small retail businesses within the affected area."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 219.5,
+          "text": "The total amount of grants given to a bid or CBO cannot exceed $100,000, and the grant amount must be determined by factoring in the amount of small retail businesses"
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 230.9,
+          "text": "within the affected area and the scope of services that the organization intends to provide."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 237.2,
+          "text": "Direct reimbursements to businesses could not exceed more than $10,000 per business."
+        }
+      ]
+    },
+    {
+      "end_sec": 266.5,
+      "id": "007",
+      "slug": "chair-thomas-henry-explains-resolution-328-state-tax-credit-call",
+      "start_sec": 243.5,
+      "summary": "Resolution 328 calls on the New York State Legislature to pass and the Governor to sign legislation providing a tax credit to businesses negatively affected by infrastructure construction. Thomas-Henry says both bills address the temporary but significant access challenges caused by road and infrastructure work.",
+      "title": "Chair Thomas-Henry explains Resolution 328 state tax credit call",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 243.5,
+          "text": "Resolution 328 considers a different avenue for a similar proposal by calling for the state to pass legislation providing a tax credit to businesses impacted by infrastructure construction."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 256.2,
+          "text": "Both bills seek to resolve the temporary yet significant challenges businesses face when road and other infrastructure construction reduces access to their business."
+        }
+      ]
+    },
+    {
+      "end_sec": 286.9,
+      "id": "008",
+      "slug": "chair-thomas-henry-thanks-staff-and-turns-to-councilmember-salaam",
+      "start_sec": 266.5,
+      "summary": "Thomas-Henry thanks Central Staff Tyler Walls and Rebecca Barilla, her own staff Franklin Richards, Sierra Smith, and Derek Slaughter, and others working behind the scenes. She then yields to Councilmember Salaam to speak about his bills.",
+      "title": "Chair Thomas-Henry thanks staff and turns to Councilmember Salaam",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 266.5,
+          "text": "I want to thank Tyler Walls and Rebecca Barilla from Central Staff."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 270.0,
+          "text": "for their support, as well as my own staff, Franklin Richards, Sierra Smith, Derek Slaughter, and everyone working in the background to help make this possible today."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 280.0,
+          "text": "I will now turn it over to Councilmember Salam to say a few words about his bills."
+        }
+      ]
+    },
+    {
+      "end_sec": 322.9,
+      "id": "009",
+      "slug": "councilmember-salaam-introduces-bills-addressing-construction-impacts-on-small-businesses",
+      "start_sec": 286.9,
+      "summary": "Salaam thanks the Chair and committee and says Intro 799-A and Resolution 328 address what happens when long-term public construction closes streets around small businesses. He notes New York City has a record 183,000 small businesses, many dependent on foot traffic and visibility, and cites Minnesota research that independent non-chain businesses are most hurt by construction and changing traffic patterns.",
+      "title": "Councilmember Salaam introduces bills addressing construction impacts on small businesses",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 286.9,
+          "text": "Thank you, Chair, and thank you to the members of this committee."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 291.0,
+          "text": "Intro 799A and Resolution 328 addresses what happens to small businesses when long-term public construction closes the streets around them."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 300.6,
+          "text": "New York City has a record 183,000, that's 183,000 small businesses in operation."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 307.8,
+          "text": "And many of them depend on foot traffic and visibility."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 310.8,
+          "text": "Research for the Minnesota Department of Transportation found that independent, non-chain businesses are the most likely to be hurt by construction and changing traffic patterns."
+        }
+      ]
+    },
+    {
+      "end_sec": 365.0,
+      "id": "010",
+      "slug": "salaam-explains-intro-799-a-grant-and-reimbursement-programs",
+      "start_sec": 322.9,
+      "summary": "Salaam says Intro 799-A creates an SBS grant program for BIDs and community organizations in commercial corridors affected by city construction that fully closes a roadway or sidewalk for at least 90 days. Qualifying projects can receive one grant up to $100,000 for marketing, wayfinding, and other services, while a reimbursement program offers up to $10,000 per small business.",
+      "title": "Salaam explains Intro 799-A grant and reimbursement programs",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 322.9,
+          "text": "Introduction 799A does two things."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 325.8,
+          "text": "First, it creates a grant program at the SBS."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 329.8,
+          "text": "For bids and community organizations in commercial corridors affected by city construction that fully closes a roadway or sidewalk for at least 90 days."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 340.6,
+          "text": "Each qualifying project can receive one grant of up to $100,000 to help nearby businesses throughout marketing, wayfinding,"
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 350.2,
+          "text": "fighting, and other services."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 352.1,
+          "text": "Second, it establishes a reimbursement program so that small businesses near the construction can be reimbursed for eligible"
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 360.1,
+          "text": "costs for up to $10,000 per business."
+        }
+      ]
+    },
+    {
+      "end_sec": 383.7,
+      "id": "011",
+      "slug": "salaam-describes-oversight-and-three-year-duration-of-intro-799-a",
+      "start_sec": 365.0,
+      "summary": "Salaam says grantees would report to SBS, SBS would audit spending, and the program would run for three years. He notes that Intro 799-A covers city projects only.",
+      "title": "Salaam describes oversight and three-year duration of Intro 799-A",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 365.0,
+          "text": "Guarantees report to SB, grantees rather, report to SBS and SBS audits the spending and program runs, and this program runs for three years."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 377.0,
+          "text": "But 799A covers city projects."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 381.1,
+          "text": "And the city cannot do this alone."
+        }
+      ]
+    },
+    {
+      "end_sec": 410.4,
+      "id": "012",
+      "slug": "salaam-cites-second-avenue-subway-business-closures-to-urge-state-action",
+      "start_sec": 383.7,
+      "summary": "Salaam says the Manhattan Chamber of Commerce reported that almost half of businesses between 68th and 95th Streets moved or closed within five years during the first phase of the Second Avenue subway due to declining revenue. He says that was state and MTA work, so the state needs to step up too.",
+      "title": "Salaam cites Second Avenue subway business closures to urge state action",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 383.7,
+          "text": "During the first phase of the Second Avenue subway and the Manhattan Chamber of Commerce, the Manhattan Chamber of Commerce reported that almost half of the businesses between 68th Street and 95th Street"
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 396.0,
+          "text": "had moved or closed within five years because of declining revenue."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 400.5,
+          "text": "That is state work."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 404.3,
+          "text": "Through the MTA and the state needs to step up too."
+        }
+      ]
+    },
+    {
+      "end_sec": 442.4,
+      "id": "013",
+      "slug": "salaam-explains-resolution-328-and-thanks-staff-before-urging-yes-vote",
+      "start_sec": 410.4,
+      "summary": "Salaam says Resolution 328 calls on the State Legislature and Governor to provide a tax credit for businesses affected by infrastructure construction. He thanks chief of staff Wilma Brown, legislative director Mufasa Hussain, committee staff Tyler Isaiah Walls and Rebecca Barilla, SBS, and co-sponsors, and urges colleagues to vote yes on both items.",
+      "title": "Salaam explains Resolution 328 and thanks staff before urging yes vote",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 410.4,
+          "text": "Resolution 328 calls on the state legislature and the governor to provide a tax credit for businesses affected by infrastructure construction."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 418.8,
+          "text": "I want to thank my chief of staff, Wilma Brown, and legislative director, Mufasa Hussain, for their tireless efforts from the beginning stages of both these items."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 427.5,
+          "text": "I also want to thank the committee staff."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 429.8,
+          "text": "Tyler Isaiah Walls and Rebecca Barilla for their work on this legislation as well as SBS and my co-sponsors."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 437.5,
+          "text": "I urge my colleagues to vote yes on both."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 439.9,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 440.6,
+          "text": "Thank you, Chair."
+        }
+      ]
+    },
+    {
+      "end_sec": 457.5,
+      "id": "014",
+      "slug": "chair-thomas-henry-thanks-salaam-and-calls-clerk-for-roll-call",
+      "start_sec": 442.4,
+      "summary": "After Salaam urges a yes vote, Chair Thomas-Henry thanks him and calls on the clerk to call the roll. Clerk Matthew DiStefano announces a roll call vote on Proposed Intro 799-A and Resolution 328, noting both items are coupled.",
+      "title": "Chair Thomas-Henry thanks Salaam and calls clerk for roll call",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 442.4,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 443.5,
+          "text": "I now call on the clerk to call the roll."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 446.5,
+          "text": "Matthew DiStefano, Committee Clerk, Committee on Small Business."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 450.2,
+          "text": "Roll call vote on proposed intro 799A and resolution 328."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 456.1,
+          "text": "Both items are coupled."
+        }
+      ]
+    },
+    {
+      "end_sec": 460.9,
+      "id": "015",
+      "slug": "clerk-calls-roll-chair-thomas-henry-votes-aye",
+      "start_sec": 457.5,
+      "summary": "Clerk DiStefano calls Chair Thomas-Henry, who votes aye on the coupled items. This begins the roll call vote.",
+      "title": "Clerk calls roll; Chair Thomas-Henry votes aye",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 457.5,
+          "text": "Chair Thomas Henry."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 459.2,
+          "text": "Aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 491.928,
+      "id": "016",
+      "slug": "brooks-powers-explains-vote-co-sponsors-res-328-and-votes-aye",
+      "start_sec": 460.9,
+      "summary": "Clerk calls Councilmember Brooks-Powers, who asks permission to explain her vote and is granted. She congratulates Salaam, says her construction-impacted district supports the bills, asks to be added as a co-sponsor of Resolution 328, and votes aye on all.",
+      "title": "Brooks-Powers explains vote, co-sponsors Res 328, and votes aye",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 460.9,
+          "text": "Brooks Powers."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 463.0,
+          "text": "Permission to explain my vote."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 467.1,
+          "text": "Permission granted."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 468.4,
+          "text": "I just wanted to congratulate Councilmember Salam on these two very important bills."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 473.2,
+          "text": "Having a district that has been impacted greatly by construction and how it's impacted our small business, I think this is a step in the right direction."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 481.9,
+          "text": "I'd also like to be added as a co-sponsor of Reso number 328."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 486.6,
+          "text": "And with that, I vote aye on all."
+        }
+      ]
+    },
+    {
+      "end_sec": 500.228,
+      "id": "017",
+      "slug": "hanif-signs-up-and-is-recorded-on-roll-call",
+      "start_sec": 491.928,
+      "summary": "Clerk calls Councilmember Hanif, who asks about a vacancy, says she will sign up, and is acknowledged. She is recorded as participating in the roll call.",
+      "title": "Hanif signs up and is recorded on roll call",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 491.928,
+          "text": "Hanif."
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 493.428,
+          "text": "Is there a vacancy?"
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 494.428,
+          "text": "I'll sign up."
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 495.328,
+          "text": "Hi."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 497.928,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 503.828,
+      "id": "018",
+      "slug": "salam-votes-aye-on-his-intro-799-a-and-res-328",
+      "start_sec": 500.228,
+      "summary": "Clerk calls Councilmember Salaam, the sponsor of both items, who votes aye. His vote is recorded on the coupled items.",
+      "title": "Salam votes aye on his Intro 799-A and Res 328",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 500.228,
+          "text": "Salam."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 501.828,
+          "text": "I vote aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 524.628,
+      "id": "019",
+      "slug": "maloney-explains-vote-and-cites-second-avenue-subway-impacts",
+      "start_sec": 503.828,
+      "summary": "Clerk calls Councilmember Maloney, who asks permission to explain her vote and is granted. She congratulates Salaam, says her district borders the Second Avenue subway where roadway construction hurt small businesses, and expresses gratitude for the legislation.",
+      "title": "Maloney explains vote and cites Second Avenue subway impacts",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 503.828,
+          "text": "Maloney."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 505.528,
+          "text": "Permission to explain my vote?"
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 508.428,
+          "text": "Permission granted."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 509.328,
+          "text": "I vote I want to congratulate Councilmember Salam and my district borders the Second Avenue subway where we saw roadway construction really impact small businesses."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 520.528,
+          "text": "So I'm really grateful for this legislation."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 522.528,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 532.228,
+      "id": "020",
+      "slug": "santosuosso-votes-aye-and-congratulates-sponsor",
+      "start_sec": 524.628,
+      "summary": "Clerk calls Councilmember Santosuosso, who votes aye on the coupled items and congratulates the sponsor. Her vote is recorded.",
+      "title": "Santosuosso votes aye and congratulates sponsor",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 524.628,
+          "text": "Santos Suoso."
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 526.828,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 527.228,
+          "text": "Congrats."
+        }
+      ]
+    },
+    {
+      "end_sec": 537.828,
+      "id": "021",
+      "slug": "morano-votes-aye-and-congratulates-sponsor",
+      "start_sec": 532.228,
+      "summary": "Clerk calls Councilmember Morano, who votes aye and congratulates the sponsor. Clerk thanks the members after his vote.",
+      "title": "Morano votes aye and congratulates sponsor",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 532.228,
+          "text": "Morano."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 534.328,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 534.628,
+          "text": "Congratulations."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 536.128,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 545.208,
+      "id": "022",
+      "slug": "committee-adopts-intro-799-a-and-res-328-by-7-0",
+      "start_sec": 537.828,
+      "summary": "Clerk DiStefano announces the vote: seven in the affirmative, zero in the negative, and no abstentions. Both coupled items, Proposed Intro 799-A and Resolution 328, are adopted.",
+      "title": "Committee adopts Intro 799-A and Res 328 by 7-0",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 537.828,
+          "text": "By a vote of seven in the Afronib, zero in the negative and no abstentions, the items have been adopted."
+        }
+      ]
+    },
+    {
+      "end_sec": 553.557,
+      "id": "023",
+      "slug": "chair-thomas-henry-adjourns-the-meeting",
+      "start_sec": 545.208,
+      "summary": "Chair Thomas-Henry thanks the members and declares the meeting adjourned. The committee session ends.",
+      "title": "Chair Thomas-Henry adjourns the meeting",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 545.208,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 545.808,
+          "text": "This meeting is now adjourned."
+        }
+      ]
+    }
+  ],
+  "date": "2026-10-07",
+  "duration_sec": 553.557,
+  "slug": "2026-10-07-1100-am-committee-on-small-business",
+  "summary": [
+    "The Committee on Small Business met to vote on Proposed Intro 799-A and Resolution 328, both sponsored by Councilmember Yusef Salaam.",
+    "Intro 799-A would create SBS grants to BIDs and community organizations and reimbursements for small retail businesses near qualifying city construction; Res 328 calls for a state tax credit for construction-impacted businesses.",
+    "Chair Shanel Thomas-Henry and members praised the bills, and the committee adopted both coupled items 7-0 with no abstentions."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "11:00 AM",
+  "title": "Committee on Small Business",
+  "topic": "Establishing a support fund for small retail businesses affected by roadway construction",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://discourse-media.qqlab.io/NYCC-250-8-3_261007-110820/video-web.mp4"
+  }
+}
