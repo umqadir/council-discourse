@@ -1,0 +1,467 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 19.8,
+      "id": "001",
+      "slug": "council-staff-open-the-finance-committee-vote-and-ask-devices-be-silenced",
+      "start_sec": 9.0,
+      "summary": "Council staff call the Committee on Finance vote to order, ask attendees to place electronic devices on vibrate, and tell Chair Lee the committee is ready to begin.",
+      "title": "Council staff open the Finance Committee vote and ask devices be silenced",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 9.0,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 9.6,
+          "text": "Welcome to today's New York City Council vote for the Committee on Finance."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 12.8,
+          "text": "At this time, please place all electronic devices to vibrate."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 16.6,
+          "text": "Chair Lee, we are ready to begin."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 18.4,
+          "text": "Great."
+        }
+      ]
+    },
+    {
+      "end_sec": 23.1,
+      "id": "002",
+      "slug": "chair-linda-lee-convenes-the-committee-on-finance",
+      "start_sec": 19.8,
+      "summary": "Council Member Linda Lee convenes the meeting as Chair of the Committee on Finance and introduces herself to the room.",
+      "title": "Chair Linda Lee convenes the Committee on Finance",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 19.8,
+          "text": "Good morning, Councilmember Linda Lee, Chair of the Committee on Finance."
+        }
+      ]
+    },
+    {
+      "end_sec": 42.9,
+      "id": "003",
+      "slug": "chair-lee-recognizes-attending-finance-committee-members",
+      "start_sec": 23.1,
+      "summary": "Chair Lee reads the roster of committee members present, naming Aldebol, Narcisse, Marte, Morano, Feliz, Aviles, Brooks-Powers, Hudson, Restler, Sanchez, Williams, Wong and Maloney, and notes Gennaro is on Zoom.",
+      "title": "Chair Lee recognizes attending Finance Committee members",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 23.1,
+          "text": "I would like to recognize my fellow committee members."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 25.8,
+          "text": "We have Councilmembers Aldabal, Narcisse, Marte, Marano, Feliz, Aviles, Brooks-Powers, Hudson, Ressler, Jay Sanchez, Williams, Wong, and Maloney."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 38.9,
+          "text": "And General on Zoom."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 40.8,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 41.6,
+          "text": "Okay."
+        }
+      ]
+    },
+    {
+      "end_sec": 55.3,
+      "id": "004",
+      "slug": "lee-outlines-two-article-11-tax-exemption-resolutions-on-the-agenda",
+      "start_sec": 42.9,
+      "summary": "Chair Lee states the committee will consider and vote on two pre-considered resolutions approving real property tax exemptions under Article 11 of the Private Housing Finance Law.",
+      "title": "Lee outlines two Article 11 tax exemption resolutions on the agenda",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 42.9,
+          "text": "At today's hearing, the committee will consider and vote on the following items."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 47.0,
+          "text": "Two pre-considered resolutions approving real property tax exemptions under Article 11 of the private housing law for the following projects."
+        }
+      ]
+    },
+    {
+      "end_sec": 64.2,
+      "id": "005",
+      "slug": "lee-names-fordham-bedford-cluster-phase-1-and-gowanus-green-a-projects",
+      "start_sec": 55.3,
+      "summary": "Chair Lee identifies the two projects: Fordham-Bedford Cluster Phase 1 in the districts of Council Members Dinowitz and Feliz, and Gowanus Green A in Council Member Hanif's district.",
+      "title": "Lee names Fordham-Bedford Cluster Phase 1 and Gowanus Green A projects",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 55.3,
+          "text": "Fordham-Bedford Cluster Phase 1 in the districts of Council Members Dinowitz and Feliz, and Gowanus Green A in Council Member Hanif's district."
+        }
+      ]
+    },
+    {
+      "end_sec": 71.1,
+      "id": "006",
+      "slug": "lee-asks-for-member-statements-none-offered",
+      "start_sec": 64.2,
+      "summary": "Chair Lee invites members to make statements or comments on either resolution; no member offers remarks.",
+      "title": "Lee asks for member statements; none offered",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 64.2,
+          "text": "Does anyone have any statements or comments they'd like to make?"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 68.1,
+          "text": "On either of these?"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 69.4,
+          "text": "No?"
+        }
+      ]
+    },
+    {
+      "end_sec": 75.9,
+      "id": "007",
+      "slug": "lee-directs-the-clerk-to-call-the-roll",
+      "start_sec": 71.1,
+      "summary": "With no discussion, Chair Lee asks the committee clerk to call the roll on the two items.",
+      "title": "Lee directs the clerk to call the roll",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 71.1,
+          "text": "Okay, thank you, and now I will ask the clerk to call the roll."
+        }
+      ]
+    },
+    {
+      "end_sec": 82.2,
+      "id": "008",
+      "slug": "clerk-ben-jacobs-announces-roll-call-on-the-two-pre-considered-items",
+      "start_sec": 75.9,
+      "summary": "Committee Clerk Ben Jacobs identifies himself and announces a roll call vote on the two pre-considered items.",
+      "title": "Clerk Ben Jacobs announces roll call on the two pre-considered items",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 75.9,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 76.3,
+          "text": "Ben Jacobs, Committee Clerk, Committee on Finance."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 78.7,
+          "text": "Roll call vote on the two pre-considered items."
+        }
+      ]
+    },
+    {
+      "end_sec": 149.588,
+      "id": "009",
+      "slug": "members-vote-aye-in-roll-call-on-both-tax-exemption-items",
+      "start_sec": 82.2,
+      "summary": "Clerk Jacobs calls each member in turn; Chair Lee, Gennaro, Brooks-Powers, Feliz, Aviles, Marte, Narcisse, Maloney, Sanchez, Wong and Morano each vote aye, with Feliz adding congratulations to everyone.",
+      "title": "Members vote aye in roll call on both tax exemption items",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 82.2,
+          "text": "Chair Lee."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 83.1,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 85.2,
+          "text": "Councilmember Gennaro."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 86.8,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 87.7,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 90.0,
+          "text": "Member Brooks-Powers."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 91.6,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 93.7,
+          "text": "Councilmember Felice?"
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 95.4,
+          "text": "Aye and all."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 95.8,
+          "text": "Congratulations, everyone."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 98.3,
+          "text": "Council Majority Leader Abreu?"
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 102.8,
+          "text": "Councilmember Aviles."
+        },
+        {
+          "speaker": "Alexa Avil\u00e9s",
+          "t_sec": 104.3,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 106.7,
+          "text": "Councilmember Hudson."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 110.3,
+          "text": "Councilmember Marte."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 111.8,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 113.7,
+          "text": "Councilmember Amelie."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 116.9,
+          "text": "Councilmember Narcisse."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 118.9,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 121.1,
+          "text": "Councilmember Ressler."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 124.388,
+          "text": "Councillor Williams."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 129.188,
+          "text": "Council Member Aldable."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 130.988,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 132.988,
+          "text": "Council Member Maloney."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 135.088,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 137.388,
+          "text": "Councilmember Sanchez."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 139.588,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 141.988,
+          "text": "Council Member Wong."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 143.388,
+          "text": "I vote yes on both."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 145.788,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 146.388,
+          "text": "Council Member Morano."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 147.588,
+          "text": "Aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 156.088,
+      "id": "010",
+      "slug": "roll-call-result-announced-15-0-no-abstentions",
+      "start_sec": 149.588,
+      "summary": "Clerk Jacobs reports the tally: 15 in the affirmative, none in the negative, and no abstentions on the two resolutions.",
+      "title": "Roll call result announced: 15-0, no abstentions",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Ben Jacobs",
+          "t_sec": 149.588,
+          "text": "Okay, that's a vote of 15 in the affirmative, none in the negative, with no abstentions."
+        }
+      ]
+    },
+    {
+      "end_sec": 197.9,
+      "id": "011",
+      "slug": "lee-holds-the-vote-open-for-majority-leader-abreu",
+      "start_sec": 156.088,
+      "summary": "Chair Lee initially says the vote will be held open for Majority Leader Abreu, who had not yet voted.",
+      "title": "Lee holds the vote open for Majority Leader Abreu",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 156.088,
+          "text": "Okay, and we're holding it open for Majority Leader Breu."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 176.7,
+          "text": "Okay, never mind."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 177.5,
+          "text": "I think we can actually close the vote."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 179.6,
+          "text": "Oh, sorry."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 188.4,
+          "text": "Okay?"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 197.4,
+          "text": "Okay, great."
+        }
+      ]
+    },
+    {
+      "end_sec": 221.888,
+      "id": "012",
+      "slug": "lee-closes-the-vote-and-thanks-members",
+      "start_sec": 197.9,
+      "summary": "Chair Lee decides to close the vote without waiting further, thanks the members, and adjourns the committee's business.",
+      "title": "Lee closes the vote and thanks members",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 197.9,
+          "text": "And with that, we are going to close the vote."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 199.6,
+          "text": "Thank you, everyone."
+        }
+      ]
+    }
+  ],
+  "date": "2026-10-08",
+  "duration_sec": 221.888,
+  "slug": "2026-10-08-1130-am-committee-on-finance",
+  "summary": [
+    "The Committee on Finance, chaired by Council Member Linda Lee, met to consider and vote on two pre-considered resolutions granting Article 11 real property tax exemptions.",
+    "The projects were Fordham-Bedford Cluster Phase 1 in the Bronx (Districts 11 and 15) and Gowanus Green A in Brooklyn (District 39).",
+    "No members offered statements; the roll call passed 15-0 with no abstentions, and Chair Lee closed the vote after briefly holding it open for Majority Leader Abreu."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE",
+    "LAND_USE"
+  ],
+  "time": "11:30 AM",
+  "title": "Committee on Finance",
+  "topic": "Fordham Bedford Cluster Phase 1: Block 3304, Lot 156; Block 3324, Lot 99, Bronx, Community District 7, Council Districts 11 and 15",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://discourse-media.qqlab.io/NYCC-PV-CH-COM_261008-114911/video-web.mp4"
+  }
+}

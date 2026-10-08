@@ -1,0 +1,738 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 16.3,
+      "id": "001",
+      "slug": "sergeant-at-arms-opens-cultural-affairs-committee-vote-and-yields-to-chair",
+      "start_sec": 4.2,
+      "summary": "Council staff calls the Committee on Cultural Affairs, Libraries, and International Relations vote to order, asks attendees to silence electronics and stay away from the dais, then yields to Chair Nantasha Williams.",
+      "title": "Sergeant at Arms opens Cultural Affairs committee vote and yields to Chair",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 4.2,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 4.9,
+          "text": "Welcome to the committee vote on cultural affairs, libraries, and international relations."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 9.2,
+          "text": "At this time, we ask that you please silence all electronics, and please do not approach the dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 14.2,
+          "text": "Chair, you may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 25.0,
+      "id": "002",
+      "slug": "chair-williams-convenes-hearing-and-identifies-committee",
+      "start_sec": 16.3,
+      "summary": "Chair Nantasha Williams thanks the Sergeant at Arms, welcomes attendees, and identifies herself as Chair of the Committee on Cultural Affairs, Libraries, and International Relations.",
+      "title": "Chair Williams convenes hearing and identifies committee",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 16.3,
+          "text": "Thank you so much, Sergeant."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 19.5,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 20.2,
+          "text": "I am Nantasha Williams, Chair of the Committee on Cultural Affairs, Libraries, and International Relations."
+        }
+      ]
+    },
+    {
+      "end_sec": 40.8,
+      "id": "003",
+      "slug": "chair-williams-introduces-resolution-458a-on-little-yemen-cultural-district",
+      "start_sec": 25.0,
+      "summary": "Chair Williams announces the committee will hear and vote on two resolutions, then outlines Proposed Resolution 458A, sponsored by Council Member Shirley Aldebol, calling on the Governor to empower the New York State Council on the Arts to designate Little Yemen as a cultural district.",
+      "title": "Chair Williams introduces Resolution 458A on Little Yemen cultural district",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 25.0,
+          "text": "Today, the committee will hear and vote on two resolutions."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 27.3,
+          "text": "Proposed Resolution No."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 28.6,
+          "text": "458A, sponsored by Councilmember Shirley Aldeball, which would call on the Governor to sign to empower the New York State Council on the Arts to designate Little Yemen as a cultural district."
+        }
+      ]
+    },
+    {
+      "end_sec": 50.6,
+      "id": "004",
+      "slug": "chair-williams-introduces-resolution-646-on-hindu-american-awareness-month",
+      "start_sec": 40.8,
+      "summary": "Chair Williams outlines Resolution 646, sponsored by Council Member Amanda Faddeus, which would declare October as Hindu American Awareness and Appreciation Month in New York City.",
+      "title": "Chair Williams introduces Resolution 646 on Hindu American Awareness Month",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 40.8,
+          "text": "And Resolution No."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 41.7,
+          "text": "646, sponsored by Councilmember Amanda Faddeus, which would declare October as Hindu American Awareness and Appreciation Month in the city of New York."
+        }
+      ]
+    },
+    {
+      "end_sec": 83.272,
+      "id": "005",
+      "slug": "council-member-aldebol-urges-support-for-little-yemen-designation-and-anti-islamophobia",
+      "start_sec": 50.6,
+      "summary": "Chair Williams calls on Council Member Shirley Aldebol, who thanks the Chair and urges support for Resolution 458A designating Little Yemen in Van Nest/Morris Park as an official New York State cultural district. Aldebol frames the vote as affirming support for the Yemeni community and opposing Islamophobia and racism.",
+      "title": "Council Member Aldebol urges support for Little Yemen designation and anti-Islamophobia",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 50.6,
+          "text": "Now, Councilmember Aldeball would like to deliver remarks on her resolution."
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 57.072,
+          "text": "Thank you, Chair Williams."
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 58.972,
+          "text": "I am so proud to be here today for the committee vote on Resolution 458A, supporting the designation of Little Yemen, the Little Yemen neighborhood in Van Ness Morris Park, as an official New York State cultural district."
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 73.772,
+          "text": "By passing this resolution, we can affirm our support for the Yemeni community and our united stance against Islamophobia and racism."
+        }
+      ]
+    },
+    {
+      "end_sec": 111.572,
+      "id": "006",
+      "slug": "aldebol-highlights-little-yemen-s-history-and-new-funding-pathways",
+      "start_sec": 83.272,
+      "summary": "Aldebol describes Little Yemen as a vibrant community she represents, noting its cultural institutions, small businesses, and residents as central to the East Bronx's identity. She says the cultural district designation would celebrate Yemeni heritage and create new funding pathways for investment.",
+      "title": "Aldebol highlights Little Yemen's history and new funding pathways",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 83.272,
+          "text": "Little Yemen is a vibrant community with a proud history that I have the honor of representing on City Council."
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 89.772,
+          "text": "Its cultural institutions, small businesses, and residents are an important part of the East Bronx's identity."
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 97.572,
+          "text": "The cultural district designation would recognize and celebrate the Yemeni community's rich cultural heritage and contributions to the East Bronx, while providing new funding pathways for investment into this important community."
+        }
+      ]
+    },
+    {
+      "end_sec": 142.732,
+      "id": "007",
+      "slug": "aldebol-thanks-state-and-city-officials-anticipates-official-recognition",
+      "start_sec": 111.572,
+      "summary": "Aldebol thanks State Senator Fernandez and Assembly Member Zacarro for championing the legislation in Albany, thanks Chair Williams and committee members for their support, and says she looks forward to official recognition of Little Yemen as a cultural district.",
+      "title": "Aldebol thanks state and city officials, anticipates official recognition",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 111.572,
+          "text": "A huge thank you to my colleagues, State Senator Fernandez and Assembly Member Zacarro, for championing this legislation in Albany."
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 121.972,
+          "text": "Thank you, Deputy Speaker Williams, for including the bill on today's agenda and to the committee members for your support."
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 128.172,
+          "text": "I look forward to continuing to stand with the East Bronx Yemeni community and to the official recognition of Little Yemen as a cultural district."
+        }
+      ]
+    },
+    {
+      "end_sec": 165.732,
+      "id": "008",
+      "slug": "chair-williams-thanks-aldebol-and-committee-staff-for-drafting-resolutions",
+      "start_sec": 142.732,
+      "summary": "Chair Williams thanks Council Member Aldebol, then thanks committee staff who prepared for the vote, including Alejandro, Committee Senior Legislative Counsel, and Regina Paul, Committee Senior Policy Analyst who drafted the resolutions.",
+      "title": "Chair Williams thanks Aldebol and committee staff for drafting resolutions",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 142.732,
+          "text": "Thank you, Council Member Aldeball."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 145.332,
+          "text": "I would like to thank my staff and committee staff who worked on preparing for today, including Alejandro, the Committee Senior Legislative Counsel, and Regina Paul."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 156.132,
+          "text": "Excuse me."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 156.932,
+          "text": "This is what I get for eating."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 158.532,
+          "text": "Committee Senior Policy Analyst who drafted these resolutions."
+        }
+      ]
+    },
+    {
+      "end_sec": 218.232,
+      "id": "009",
+      "slug": "chair-williams-opens-public-testimony-and-lays-out-hearing-rules",
+      "start_sec": 165.732,
+      "summary": "Chair Williams opens the hearing for public testimony and reminds attendees that it is a formal government proceeding. She explains decorum rules, the witness table reservation, restrictions on video and audio testimony, the two-minute speaking limit, and the process for submitting written testimony to the Sergeant at Arms.",
+      "title": "Chair Williams opens public testimony and lays out hearing rules",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 165.732,
+          "text": "Yeah, I will now open the hearing for public testimony."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 170.732,
+          "text": "Yeah, people are here."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 172.232,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 172.532,
+          "text": "I remind members of the public that this is a formal government proceeding and that decorum shall be observed at all times."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 178.132,
+          "text": "As such, members of the public shall remain silent at all times."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 181.132,
+          "text": "The witness table is reserved for people who wish to testify."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 184.232,
+          "text": "No video recording or photography is allowed from the witness table."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 187.732,
+          "text": "Further, members of the public may not present audio or video recordings as testimony, but may submit transcripts of such recordings."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 195.032,
+          "text": "To the Sergeant at Arms for inclusion in the hearing record."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 198.632,
+          "text": "If you wish to speak at today's hearing, please fill out an appearance card with the Sergeant at Arms and wait to be recognized."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 203.832,
+          "text": "When recognized, you will have two minutes to speak on today's hearing topic, which is the legislation I have just outlined."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 209.832,
+          "text": "If you have a written statement or additional written testimony you wish to submit for the record, please provide a copy of that testimony to the Sergeant at Arms."
+        }
+      ]
+    },
+    {
+      "end_sec": 234.632,
+      "id": "010",
+      "slug": "chair-williams-calls-witnesses-and-asks-speakers-to-fill-out-appearance-slips",
+      "start_sec": 218.232,
+      "summary": "Chair Williams calls witnesses to the table, notes there are no sign-in sheets, invites any other people who wish to testify, and asks speakers to fill out an appearance slip after they finish.",
+      "title": "Chair Williams calls witnesses and asks speakers to fill out appearance slips",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 218.232,
+          "text": "I will now call the witnesses."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 220.532,
+          "text": "We don't have sheets, so..."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 222.832,
+          "text": "Yep, you can go to the witness table."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 226.132,
+          "text": "Are there any other witnesses or people who wish to speak?"
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 228.032,
+          "text": "To testify?"
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 231.332,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 231.832,
+          "text": "If you could just fill out a slip after you're done, that'd be great."
+        }
+      ]
+    },
+    {
+      "end_sec": 298.332,
+      "id": "011",
+      "slug": "zaid-nagi-testifies-that-little-yemen-designation-would-draw-tourism-to-the-bronx",
+      "start_sec": 234.632,
+      "summary": "Zaid Nagi, president of the Alliance of Yemeni Americans, introduces himself and says the resolution is not only about Yemen but about the Bronx. He argues that designating Little Yemen would draw tourists and New Yorkers interested in Yemeni, Arab, and Muslim culture to the borough.",
+      "title": "Zaid Nagi testifies that Little Yemen designation would draw tourism to the Bronx",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Zaid Nagi",
+          "t_sec": 234.632,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Member of the Public - Zaid Nagi",
+          "t_sec": 238.532,
+          "text": "Hi everybody, my name is Zaid Najee."
+        },
+        {
+          "speaker": "Member of the Public - Zaid Nagi",
+          "t_sec": 240.832,
+          "text": "I'm the president of the Alliance of Yemeni Americans."
+        },
+        {
+          "speaker": "Member of the Public - Zaid Nagi",
+          "t_sec": 244.132,
+          "text": "Yemen is 7,000 years old, but this is not just about Yemen or Yemeni American community."
+        },
+        {
+          "speaker": "Member of the Public - Zaid Nagi",
+          "t_sec": 251.332,
+          "text": "This is about the Bronx."
+        },
+        {
+          "speaker": "Member of the Public - Zaid Nagi",
+          "t_sec": 254.932,
+          "text": "Using Yemen tradition and the Yemeni American culture and the Yemeni culture as a general, the ultimate goal of this resolution is to bring tourism into the Bronx."
+        },
+        {
+          "speaker": "Member of the Public - Zaid Nagi",
+          "t_sec": 269.732,
+          "text": "The Bronx is, we are a Bronx site as much as we are Yemeni Americans."
+        },
+        {
+          "speaker": "Member of the Public - Zaid Nagi",
+          "t_sec": 275.332,
+          "text": "And oftentimes the Bronx is neglected."
+        },
+        {
+          "speaker": "Member of the Public - Zaid Nagi",
+          "t_sec": 278.432,
+          "text": "This particular resolution will make it almost a must for anybody who entered the city of New York as a tourist or any other way to visit the Bronx."
+        },
+        {
+          "speaker": "Member of the Public - Zaid Nagi",
+          "t_sec": 292.832,
+          "text": "Who is interested in understanding Yemen, the Arab, the Muslim culture generally."
+        }
+      ]
+    },
+    {
+      "end_sec": 329.332,
+      "id": "012",
+      "slug": "nagi-says-cultural-district-would-create-jobs-and-break-walls-between-communities",
+      "start_sec": 298.332,
+      "summary": "Nagi says the cultural district designation would mean more jobs and prosperity for businesses. He contrasts officials who build walls between communities with those who break them, urging the Council to support the resolution, and thanks the committee.",
+      "title": "Nagi says cultural district would create jobs and break walls between communities",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Zaid Nagi",
+          "t_sec": 298.332,
+          "text": "This will mean more jobs."
+        },
+        {
+          "speaker": "Member of the Public - Zaid Nagi",
+          "t_sec": 300.732,
+          "text": "This will mean prosperities for business."
+        },
+        {
+          "speaker": "Member of the Public - Zaid Nagi",
+          "t_sec": 304.332,
+          "text": "There are finally, there are those that build walls between communities."
+        },
+        {
+          "speaker": "Member of the Public - Zaid Nagi",
+          "t_sec": 308.632,
+          "text": "And there are those"
+        },
+        {
+          "speaker": "Member of the Public - Zaid Nagi",
+          "t_sec": 311.732,
+          "text": "that destroy walls that exist between communities."
+        },
+        {
+          "speaker": "Member of the Public - Zaid Nagi",
+          "t_sec": 314.432,
+          "text": "Our ultimate goal, that everyone here and in the council"
+        },
+        {
+          "speaker": "Member of the Public - Zaid Nagi",
+          "t_sec": 318.232,
+          "text": "as a whole will be from those crowd of officials who break walls to make this great city what it is."
+        },
+        {
+          "speaker": "Member of the Public - Zaid Nagi",
+          "t_sec": 326.532,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 336.732,
+      "id": "013",
+      "slug": "chair-williams-closes-public-testimony-after-zaid-nagi",
+      "start_sec": 329.332,
+      "summary": "Chair Williams thanks Zaid Nagi for his testimony, asks whether anyone else wishes to testify, and with no additional speakers closes the public testimony portion of the hearing.",
+      "title": "Chair Williams closes public testimony after Zaid Nagi",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 329.332,
+          "text": "Thank you so much for your testimony."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 331.632,
+          "text": "Anyone else wish to testify?"
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 335.632,
+          "text": "Okay, great."
+        }
+      ]
+    },
+    {
+      "end_sec": 351.432,
+      "id": "014",
+      "slug": "chair-williams-calls-vote-as-clerk-martin-opens-roll-call-on-both-resolutions",
+      "start_sec": 336.732,
+      "summary": "Chair Williams says the committee is ready to vote. Committee Clerk William Martin identifies himself, announces a roll call vote on both coupled items, and begins the roll call with Chair Williams.",
+      "title": "Chair Williams calls vote as Clerk Martin opens roll call on both resolutions",
+      "type": "VOTE",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 336.732,
+          "text": "We are ready to vote, Billy."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 340.032,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 340.432,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 340.932,
+          "text": "William Martin, Committee Clerk, Roll Call Vote Committee on Cultural Affairs, Libraries, and International Relations."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 346.732,
+          "text": "Both items are coupled."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 348.532,
+          "text": "Chair Williams."
+        }
+      ]
+    },
+    {
+      "end_sec": 381.748,
+      "id": "015",
+      "slug": "roll-call-williams-louis-hudson-and-oss-vote-aye-stevens-unclear-maloney-absent",
+      "start_sec": 351.432,
+      "summary": "Clerk Martin calls members: Chair Williams votes aye; Council Members Louis, Hudson, and Oss\u00e9 vote aye and congratulate the Yemeni community. Stevens responds with an ASR phrase transcribed as 'I have a lie,' and Maloney is called but not present at this point.",
+      "title": "Roll call: Williams, Louis, Hudson, and Oss\u00e9 vote aye; Stevens unclear, Maloney absent",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 351.432,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 352.832,
+          "text": "Lewis."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 354.032,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 354.432,
+          "text": "And congratulations, Councilmember Audible."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 357.432,
+          "text": "Hudson."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 359.232,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 359.532,
+          "text": "Congratulations, Councilmember Aldebal and to the Yemeni community."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 363.232,
+          "text": "Osei."
+        },
+        {
+          "speaker": "Chi A. Oss\u00e9",
+          "t_sec": 364.232,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Chi A. Oss\u00e9",
+          "t_sec": 364.832,
+          "text": "And congratulations to the Yemeni community."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 368.032,
+          "text": "Stevens."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 372.948,
+          "text": "I have a lie."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 374.448,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 377.348,
+          "text": "Maloney."
+        }
+      ]
+    },
+    {
+      "end_sec": 389.948,
+      "id": "016",
+      "slug": "clerk-announces-initial-approval-of-both-resolutions-5-0",
+      "start_sec": 381.748,
+      "summary": "Clerk Martin reports five affirmative votes, zero negative, and no abstentions, so both Resolution 458A and Resolution 646 are approved by the committee in the initial roll call.",
+      "title": "Clerk announces initial approval of both resolutions, 5-0",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 381.748,
+          "text": "With a vote of five in the affirmative, zero in the negative, and no abstentions, both items have been approved by the committee."
+        }
+      ]
+    },
+    {
+      "end_sec": 1133.748,
+      "id": "017",
+      "slug": "chair-williams-holds-vote-open-for-council-member-maloney",
+      "start_sec": 389.948,
+      "summary": "After the initial 5-0 result, Chair Williams says she will hold the vote open for a bit and notes that Council Member Maloney is on her way. She then thanks attendees before the recess.",
+      "title": "Chair Williams holds vote open for Council Member Maloney",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 389.948,
+          "text": "Yeah, we'll hold it open for a bit."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 392.348,
+          "text": "She's on her way?"
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 393.148,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 393.748,
+          "text": "All right."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 394.148,
+          "text": "Thank you all."
+        }
+      ]
+    },
+    {
+      "end_sec": 1148.784,
+      "id": "018",
+      "slug": "continuation-roll-call-council-member-maloney-votes-aye",
+      "start_sec": 1133.748,
+      "summary": "The committee resumes after the vote is held open. Clerk Martin calls the continuation roll call on Resolutions 458A and 646, and Council Member Virginia Maloney votes aye.",
+      "title": "Continuation roll call: Council Member Maloney votes aye",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 1133.748,
+          "text": "Continuation."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1138.284,
+          "text": "Continuation roll call, Committee on Cultural Affairs on Resolutions 458A and Reso 646, Council Member Maloney."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 1146.984,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1148.284,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 1166.101,
+      "id": "019",
+      "slug": "final-vote-both-resolutions-approved-6-0-committee-concludes",
+      "start_sec": 1148.784,
+      "summary": "Clerk Martin announces the final vote is six in the affirmative, zero in the negative, and no abstentions, confirming both resolutions passed. Participants then say the meeting is finished and case closed.",
+      "title": "Final vote: both resolutions approved 6-0; committee concludes",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1148.784,
+          "text": "Final vote is now six in the affirmative, zero in the negative, and no abstentions."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1152.584,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1152.784,
+          "text": "We are finito."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1155.584,
+          "text": "Case closed."
+        }
+      ]
+    }
+  ],
+  "date": "2026-10-08",
+  "duration_sec": 1166.101,
+  "slug": "2026-10-08-1000-am-committee-on-cultural-affairs-libraries-and-international-relations",
+  "summary": [
+    "The Committee on Cultural Affairs, Libraries, and International Relations met to hear and vote on Resolution 458A designating Little Yemen as a cultural district and Resolution 646 declaring October Hindu American Awareness and Appreciation Month.",
+    "Council Member Shirley Aldebol spoke in support of the Little Yemen resolution, and Zaid Nagi of the Alliance of Yemeni Americans testified that the designation would draw tourism and economic benefits to the Bronx.",
+    "The committee initially approved both resolutions 5-0, held the vote open for Council Member Maloney, and then finalized approval 6-0 after she voted aye."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "10:00 AM",
+  "title": "Committee on Cultural Affairs, Libraries and International Relations",
+  "topic": "Empower the New York State Council on the Arts to designate Little Yemen as a cultural district.(S.6487C/A.7033D)",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://discourse-media.qqlab.io/NYCC-250-8-1_261008-100735/video-web.mp4"
+  }
+}
