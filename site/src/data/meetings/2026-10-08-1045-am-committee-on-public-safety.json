@@ -1,0 +1,562 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 14.4,
+      "id": "001",
+      "slug": "staff-opens-public-safety-committee-vote-and-sets-room-procedures",
+      "start_sec": 3.3,
+      "summary": "Council staff greets attendees and calls the Committee on Public Safety vote to order. Staff asks everyone to silence electronics and refrain from approaching the dais, then invites the chair to begin.",
+      "title": "Staff opens Public Safety Committee vote and sets room procedures",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 3.3,
+          "text": "Good morning, good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 4.5,
+          "text": "Welcome to the New York City Council Committee Vote on Public Safety."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 7.9,
+          "text": "At this time, we ask that you please silence all electronics."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 11.2,
+          "text": "And please do not approach the dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 12.9,
+          "text": "Chair, you may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 34.0,
+      "id": "002",
+      "slug": "chair-feliz-calls-meeting-to-order-and-introduces-committee-members",
+      "start_sec": 14.4,
+      "summary": "Chair Oswald J. Feliz greets everyone and identifies himself as chair of the Committee on Public Safety. He recognizes committee members Hanks, Justin Sanchez, Gutierrez, Hankerson, Vernikov, Wong, and Banks.",
+      "title": "Chair Feliz calls meeting to order and introduces committee members",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 14.4,
+          "text": "Thank you so much."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 15.4,
+          "text": "Good morning, everyone."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 16.2,
+          "text": "My name is Oswald Feliz, and I am the chair of the Committee on Public Safety."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 20.1,
+          "text": "I would like to recognize members of the committee, including council members Hanks, Justin Sanchez, Gutierrez, Hankerson, Council Member Vernikov, Wong, and Banks."
+        }
+      ]
+    },
+    {
+      "end_sec": 40.0,
+      "id": "003",
+      "slug": "chair-feliz-announces-vote-on-intro-489-a-sponsored-by-vernikov",
+      "start_sec": 34.0,
+      "summary": "Chair Feliz states that the committee will vote on Proposed Introduction 489-A, sponsored by Council Member Inna Vernikov. He identifies the bill as the item of business before the committee.",
+      "title": "Chair Feliz announces vote on Intro 489-A sponsored by Vernikov",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 34.0,
+          "text": "Today, the committee will vote on proposed introduction number 489A, sponsored by Councilmember Ina Vernikov."
+        }
+      ]
+    },
+    {
+      "end_sec": 71.164,
+      "id": "004",
+      "slug": "chair-feliz-explains-centralized-towed-vehicle-database-replacing-old-procedures",
+      "start_sec": 40.0,
+      "summary": "Chair Feliz says the bill would require the city to create and maintain a centralized online database for vehicles towed from public or private property by city or licensed private tow operators. He explains it would replace confusing existing procedures where owners search competing databases or call local police precincts.",
+      "title": "Chair Feliz explains centralized towed-vehicle database replacing old procedures",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 40.0,
+          "text": "This bill will require the city to create and maintain a centralized online database that allows a member of the public to search for information related to vehicles that have been towed from public or private property by the city or licensed private tow operator."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 57.064,
+          "text": "This centralized database will replace existing procedures that often frustrate vehicle owners, where individuals must search competing toll databases or contact the local police precinct to locate vehicles towed within the city."
+        }
+      ]
+    },
+    {
+      "end_sec": 99.664,
+      "id": "005",
+      "slug": "chair-feliz-describes-opt-in-notifications-and-invites-vernikov-to-speak",
+      "start_sec": 71.164,
+      "summary": "Chair Feliz outlines the database's opt-in notification system that would alert vehicle owners when their vehicle information is entered into the towing database. He urges colleagues to support the common-sense legislation and invites Council Member Ina Vernikov to say a few words on her bill.",
+      "title": "Chair Feliz describes opt-in notifications and invites Vernikov to speak",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 71.164,
+          "text": "Additionally, the centralized database will have functionality to allow vehicle owners to opt in to a notification system that allows vehicle owners"
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 79.664,
+          "text": "if their vehicle information is entered into the towing database."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 83.264,
+          "text": "I urge my colleagues to support this common sense piece of legislation that will improve the city's delivery of services and simplify the process for drivers to locate towed vehicles."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 92.964,
+          "text": "Before turning to the clerk to conduct the vote, I'd like to invite Councilmember Ina Bernikoff to say a few words on her bill."
+        }
+      ]
+    },
+    {
+      "end_sec": 116.364,
+      "id": "006",
+      "slug": "vernikov-thanks-committee-and-credits-bipartisan-work-on-towed-vehicle-bill",
+      "start_sec": 99.664,
+      "summary": "Council Member Inna Vernikov thanks Chair Feliz and Public Safety Committee members for their patience and support. She says the bill is the result of bipartisan cooperation, many meetings, and work with agencies and towing businesses.",
+      "title": "Vernikov thanks committee and credits bipartisan work on towed-vehicle bill",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Inna Vernikov",
+          "t_sec": 99.664,
+          "text": "Thank you, everyone, for being so patient."
+        },
+        {
+          "speaker": "Inna Vernikov",
+          "t_sec": 101.664,
+          "text": "Thank you, Chair Feliz, members of the Public Safety Committee."
+        },
+        {
+          "speaker": "Inna Vernikov",
+          "t_sec": 104.364,
+          "text": "I am thrilled that this bill is up for a vote today."
+        },
+        {
+          "speaker": "Inna Vernikov",
+          "t_sec": 107.664,
+          "text": "This bill is the result of a lot of bipartisan cooperation, many, many meetings, work of many agencies, towing businesses, and a lot of drafts."
+        }
+      ]
+    },
+    {
+      "end_sec": 158.264,
+      "id": "007",
+      "slug": "vernikov-details-centralized-database-to-locate-towed-vehicles",
+      "start_sec": 116.364,
+      "summary": "Vernikov explains that Intro 489-A would create one centralized online database allowing the public to search for any vehicle moved or towed by a city entity or licensed private tow operator. She says it replaces an old, non-functional system that forced owners to search multiple databases or call precincts.",
+      "title": "Vernikov details centralized database to locate towed vehicles",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Inna Vernikov",
+          "t_sec": 116.364,
+          "text": "Introduction 489A will create a centralized database, online database, that allows the public to search for information on any vehicle"
+        },
+        {
+          "speaker": "Inna Vernikov",
+          "t_sec": 124.564,
+          "text": "that has been moved or towed from public or private property by a city entity or licensed private tow operator."
+        },
+        {
+          "speaker": "Inna Vernikov",
+          "t_sec": 131.864,
+          "text": "This will replace a very old, non-functional system and procedures that have frustrated many vehicle owners, where before they'd be searching through many different old databases with little success or calling police precincts."
+        },
+        {
+          "speaker": "Inna Vernikov",
+          "t_sec": 144.964,
+          "text": "New Yorkers will be able to go on to one centralized portal to locate their towed vehicle, which will greatly limit frustration and save them time, hassle, and perhaps some money for the most difficult cases."
+        }
+      ]
+    },
+    {
+      "end_sec": 167.464,
+      "id": "008",
+      "slug": "vernikov-highlights-opt-in-notification-feature-for-towed-vehicles",
+      "start_sec": 158.264,
+      "summary": "Vernikov describes the database's optional notification function that would alert vehicle owners if their vehicle was moved or towed. She says this will save New Yorkers time, hassle, and money in difficult cases.",
+      "title": "Vernikov highlights opt-in notification feature for towed vehicles",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Inna Vernikov",
+          "t_sec": 158.264,
+          "text": "Additionally, the database will have a function to allow vehicle owners to opt in to notifications that alerts them if their vehicle was moved or towed."
+        }
+      ]
+    },
+    {
+      "end_sec": 207.864,
+      "id": "009",
+      "slug": "vernikov-thanks-speaker-agencies-staff-and-towing-industry-for-input",
+      "start_sec": 167.464,
+      "summary": "Vernikov thanks Speaker Menon, Chair Feliz, Public Safety Committee members, NYPD, DCWP, Department of Finance, and other agencies involved. She also credits Senior Legislative Attorney Josh Kingsley, Peter Spencer, Troy Olson, and members of the public and towing industry who provided input.",
+      "title": "Vernikov thanks Speaker, agencies, staff, and towing industry for input",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Inna Vernikov",
+          "t_sec": 167.464,
+          "text": "I'd like to thank all those who over the past couple of years have helped to see this bill through, Speaker Menon,"
+        },
+        {
+          "speaker": "Inna Vernikov",
+          "t_sec": 173.564,
+          "text": "Chair Feliz, members of the Public Safety Committee, NYPD, DCWP, Department of Finance, and the many different agencies involved in helping to work out the details,"
+        },
+        {
+          "speaker": "Inna Vernikov",
+          "t_sec": 183.264,
+          "text": "including Senior Legislative Attorney for New York City Council Josh Kingsley, Executive Director of the Minority Delegation Peter Spencer, my Legislative Director Troy Olson, as well as members of the public and towing industry who came to me with their input"
+        },
+        {
+          "speaker": "Inna Vernikov",
+          "t_sec": 197.164,
+          "text": "that helped inform the version you'll be voting on today."
+        },
+        {
+          "speaker": "Inna Vernikov",
+          "t_sec": 200.464,
+          "text": "Thank you very much, and I look forward to the public having the convenience of utilizing this great tool."
+        },
+        {
+          "speaker": "Inna Vernikov",
+          "t_sec": 206.264,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 212.764,
+      "id": "010",
+      "slug": "chair-feliz-thanks-vernikov-and-turns-to-clerk-for-roll-call",
+      "start_sec": 207.864,
+      "summary": "Chair Feliz thanks Council Member Vernikov for her remarks. He then turns the meeting over to the committee clerk to conduct the vote.",
+      "title": "Chair Feliz thanks Vernikov and turns to clerk for roll call",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 207.864,
+          "text": "Thank you so much, Councilmember Vernikov."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 209.664,
+          "text": "I'll now turn it to the clerk for a vote."
+        }
+      ]
+    },
+    {
+      "end_sec": 219.764,
+      "id": "011",
+      "slug": "clerk-william-martin-opens-roll-call-on-intro-489-a",
+      "start_sec": 212.764,
+      "summary": "Committee Clerk William Martin greets the committee and announces a roll-call vote on Proposed Introduction 489-A. He begins calling members by name.",
+      "title": "Clerk William Martin opens roll call on Intro 489-A",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 212.764,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 213.164,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 213.664,
+          "text": "William Martin, Committee Clerk, Roll Call Vote Committee on Public Safety."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 216.564,
+          "text": "Proposed Introduction 489A."
+        }
+      ]
+    },
+    {
+      "end_sec": 238.472,
+      "id": "012",
+      "slug": "roll-call-begins-feliz-gutierrez-hanks-banks-vote-aye",
+      "start_sec": 219.764,
+      "summary": "The clerk calls Chair Feliz, Gutierrez, Hanks, and Nurse; Feliz, Gutierrez, and Hanks vote aye. Banks is then called and votes aye while congratulating the bill's sponsor.",
+      "title": "Roll call begins: Feliz, Gutierrez, Hanks, Banks vote aye",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 219.764,
+          "text": "Chair Felice."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 221.264,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 222.764,
+          "text": "Gutierrez."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 224.364,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 225.964,
+          "text": "Hanks."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 227.064,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 228.864,
+          "text": "Nurses."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 232.372,
+          "text": "Banks."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 233.972,
+          "text": "Aye, and congratulations on your bill."
+        }
+      ]
+    },
+    {
+      "end_sec": 248.072,
+      "id": "013",
+      "slug": "chair-feliz-interjects-praise-for-vernikov-s-bill-during-roll-call",
+      "start_sec": 238.472,
+      "summary": "As the clerk reaches Hankerson in the roll call, Chair Feliz interrupts to say he loves Vernikov's bill and needed it two years ago. He thanks her for working on the legislation.",
+      "title": "Chair Feliz interjects praise for Vernikov's bill during roll call",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 238.472,
+          "text": "Hankerson."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 240.572,
+          "text": "I just want to say to Councilman Vernikov, I love this bill."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 243.472,
+          "text": "I needed it two years ago, so thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 260.172,
+      "id": "014",
+      "slug": "roll-call-resumes-sanchez-wong-ariola-vote-aye",
+      "start_sec": 248.072,
+      "summary": "The clerk resumes the roll call and calls Justin Sanchez and Wong, who vote aye. Ariola is also called before the clerk announces the tally.",
+      "title": "Roll call resumes: Sanchez, Wong, Ariola vote aye",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 248.072,
+          "text": "Justin Sanchez."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 249.872,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 251.472,
+          "text": "Wong."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 252.772,
+          "text": "I will aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 254.672,
+          "text": "Ariola."
+        }
+      ]
+    },
+    {
+      "end_sec": 266.772,
+      "id": "015",
+      "slug": "committee-adopts-intro-489-a-with-seven-affirmative-votes",
+      "start_sec": 260.172,
+      "summary": "The clerk reports a vote of seven in the affirmative, zero in the negative, and no abstentions. He declares that Intro 489-A has been adopted by the Committee on Public Safety.",
+      "title": "Committee adopts Intro 489-A with seven affirmative votes",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 260.172,
+          "text": "With a vote of seven in the affirmative, zero in the negative, and no abstentions, item has been adopted by the committee."
+        }
+      ]
+    },
+    {
+      "end_sec": 280.172,
+      "id": "016",
+      "slug": "chair-feliz-congratulates-vernikov-and-shares-personal-towing-story",
+      "start_sec": 266.772,
+      "summary": "Chair Feliz thanks everyone and congratulates Council Member Vernikov on the bill's adoption. He recounts waking up about a year ago to find his car had disappeared and says he had no idea where it went, so he appreciates the legislation.",
+      "title": "Chair Feliz congratulates Vernikov and shares personal towing story",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 266.772,
+          "text": "Thank you so much."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 267.472,
+          "text": "I want to congratulate Councilmember Vernikov."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 269.772,
+          "text": "I could have used this bill."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 270.872,
+          "text": "It could have been helpful to me."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 271.972,
+          "text": "About a year ago, I woke up, went to my car, and learned that my car had literally disappeared."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 276.572,
+          "text": "I had no idea where it went."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 277.772,
+          "text": "So congratulations."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 278.672,
+          "text": "Thank you for working on this."
+        }
+      ]
+    },
+    {
+      "end_sec": 788.488,
+      "id": "017",
+      "slug": "chair-feliz-holds-vote-open-for-additional-members",
+      "start_sec": 280.172,
+      "summary": "Chair Feliz says he will hold the vote open for a few minutes. Staff notes that a few council members will join.",
+      "title": "Chair Feliz holds vote open for additional members",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 280.172,
+          "text": "We'll hold the vote open for a few minutes."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 285.488,
+          "text": "A few council members will join."
+        }
+      ]
+    },
+    {
+      "end_sec": 807.723,
+      "id": "018",
+      "slug": "chair-feliz-closes-vote-and-announces-intro-489-a-passed-unanimously",
+      "start_sec": 788.488,
+      "summary": "After the pause, Chair Feliz thanks everyone and says the bill passes unanimously. He declares the vote closed.",
+      "title": "Chair Feliz closes vote and announces Intro 489-A passed unanimously",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 788.488,
+          "text": "Thank you so much, everyone."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 789.488,
+          "text": "The bill passes unanimously."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 790.988,
+          "text": "The vote is now closed."
+        }
+      ]
+    }
+  ],
+  "date": "2026-10-08",
+  "duration_sec": 807.723,
+  "slug": "2026-10-08-1045-am-committee-on-public-safety",
+  "summary": [
+    "The Committee on Public Safety met to vote on Proposed Introduction 489-A, a bill sponsored by Council Member Inna Vernikov to create a centralized online database and opt-in notification system for towed vehicles.",
+    "Chair Oswald J. Feliz and members discussed the bill's replacement of fragmented tow-truck lookup procedures and thanked agency and industry stakeholders for their input.",
+    "The committee adopted Intro 489-A by a 7-0 roll-call vote, then held the vote open before closing it and confirming unanimous passage."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "10:45 AM",
+  "title": "Committee on Public Safety",
+  "topic": "Requiring the creation of a centralized online database and notification system for towed vehicles, and to repeal section 20-528 of such code, relating to notification of a towed vehicle to a local police precinct",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://discourse-media.qqlab.io/NYCC-250-8-1_261008-111921/video-web.mp4"
+  }
+}
