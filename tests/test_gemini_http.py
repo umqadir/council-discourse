@@ -121,3 +121,28 @@ def test_truncated_research_preserves_charge(monkeypatch):
     with pytest.raises(RuntimeError) as exc:
         gemini.generate_grounded_research('research', 'gemini-3.8-flash')
     assert exc.value.generation_meta['estimated_cost_usd'] > 0
+
+
+def test_openai_compatible_refuses_truncated_output(monkeypatch) -> None:
+    import httpx
+
+    from pipeline import gemini
+
+    body = {
+        "id": "gen-1",
+        "provider": "SomeHost",
+        "choices": [{"finish_reason": "length", "message": {"content": '{"chapters": [{"title": "Op'}}],
+        "usage": {"completion_tokens": 10},
+    }
+    calls = []
+
+    def fake_post(*_args, **_kwargs):
+        calls.append(1)
+        return httpx.Response(200, json=body)
+
+    monkeypatch.setattr(gemini, "_post_with_retry", fake_post)
+    monkeypatch.setattr(gemini, "_attach_openrouter_cost", lambda *_a, **_k: None)
+    with pytest.raises(RuntimeError, match="output truncated") as info:
+        gemini.generate_json("p", model="m", base_url="https://example.test/v1", api_key="k")
+    assert len(calls) == 1
+    assert info.value.generation_meta["upstream_provider"] == "SomeHost"

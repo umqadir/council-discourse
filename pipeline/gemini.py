@@ -201,6 +201,12 @@ def _generate_json_gemini(
         text = "\n".join(part.get("text", "") for part in candidate.get("content", {}).get("parts", [])
                          if not part.get("thought"))
         last_text = text
+        if candidate.get("finishReason"):
+            meta["finish_reason"] = candidate["finishReason"]
+        if not text_only and candidate.get("finishReason") == "MAX_TOKENS":
+            error = RuntimeError(f"Gemini {model} hit maxOutputTokens ({max_output_tokens}); output truncated")
+            error.generation_meta = _combine_generation_attempts([*attempts, meta])
+            raise error
         try:
             if text_only and (not text.strip() or candidate.get("finishReason") == "MAX_TOKENS"):
                 raise ValueError("Incomplete search research response")
@@ -335,6 +341,20 @@ def _generate_json_openai_compatible(
         if "openrouter.ai" in base_url:
             _attach_openrouter_cost(meta, model=model, api_key=key)
 
+        choice = (body.get("choices") or [{}])[0]
+        finish_reason = choice.get("finish_reason") if isinstance(choice, dict) else None
+        if body.get("provider"):
+            meta["upstream_provider"] = body["provider"]
+        if finish_reason:
+            meta["finish_reason"] = finish_reason
+        if finish_reason == "length":
+            # Truncated JSON would be "repaired" into a silently partial
+            # result; a retry with the same budget won't fix it, so stop here.
+            error = RuntimeError(
+                f"OpenAI-compatible {model} hit max_tokens ({max_output_tokens}); output truncated"
+            )
+            error.generation_meta = _combine_generation_attempts([*attempts, meta])
+            raise error
         try:
             text = _openai_response_text(body)
             last_text = text

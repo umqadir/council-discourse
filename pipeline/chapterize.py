@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 import os
 import re
 from collections import Counter
@@ -109,8 +110,10 @@ def chapterize_meeting(
     _raise_if_chapter_prompt_too_large(prompt)
     temperature = 0.2 if meeting_type == "STATED_MEETING" else 0.3
     metas = []
-    # Gemini occasionally returns an empty or malformed chapter list; one fresh
-    # call almost always succeeds, so retry here rather than fail the job.
+    # The chaptering model has occasionally returned an empty chapter list
+    # (twice in one run on 2026-10-08, not reproducible across 37 replays on
+    # every OpenRouter provider). Allow exactly one fresh call, and log the
+    # provider/finish reason/excerpt so a recurring cause is visible.
     for attempt in range(2):
         result, meta = generate_json(
             prompt,
@@ -125,7 +128,13 @@ def chapterize_meeting(
         try:
             chapters = _resolve_chapters(result, utterances, meeting.duration_seconds)
             break
-        except EmptyChaptersError:
+        except EmptyChaptersError as exc:
+            print(
+                f"::warning::{meeting.meeting_key}: {exc} (attempt {attempt + 1}/2; "
+                f"model={meta.get('model')} provider={meta.get('upstream_provider')} "
+                f"finish={meta.get('finish_reason')}); response excerpt: {json.dumps(result)[:300]}",
+                flush=True,
+            )
             if attempt == 1:
                 raise
     chapters = _postprocess_chapters(chapters, utterances, meeting, meeting.duration_seconds)
@@ -269,7 +278,7 @@ Return JSON only:
 
 
 class EmptyChaptersError(RuntimeError):
-    """Gemini's chapter response had no usable chapters."""
+    """The chapter response had no usable chapters."""
 
 
 def _raise_if_chapter_prompt_too_large(prompt: str) -> None:
@@ -351,7 +360,7 @@ def _resolve_chapters(
 ) -> list[dict[str, Any]]:
     raw_chapters = result.get("chapters")
     if not isinstance(raw_chapters, list):
-        raise EmptyChaptersError(f"Gemini chapter response lacks chapters: {result}")
+        raise EmptyChaptersError(f"chapter response lacks chapters: {str(result)[:300]}")
 
     starts = [utterance_start(row) for row in utterances]
     chapters: list[dict[str, Any]] = []
@@ -378,7 +387,7 @@ def _resolve_chapters(
         )
 
     if not chapters:
-        raise EmptyChaptersError("Gemini returned no usable chapters")
+        raise EmptyChaptersError("model returned no usable chapters")
 
     inferred_duration = duration_seconds or (starts[-1] + 5 if starts else chapters[-1]["start_sec"] + 5)
     for index, chapter in enumerate(chapters):
