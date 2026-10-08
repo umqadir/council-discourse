@@ -1,7 +1,7 @@
 name: Auto-fix pipeline failures
 
 # A first failure gets one exact rerun of its failed jobs. A recovered rerun
-# produces one plain-English confirmation; Claude runs only when that proof
+# is noted in its run summary (no issue comment); Claude runs only when that proof
 # fails, then fixes or escalates the persistent problem.
 on:
   workflow_run:
@@ -59,24 +59,13 @@ jobs:
     if: ${{ github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.run_attempt > 1 }}
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v7
-
+      # A recovered retry needs no action, so record it in the run summary
+      # rather than commenting on an issue (each comment emailed the owner).
       - name: Report verified recovery
-        continue-on-error: true
         env:
-          GH_TOKEN: ${{ github.token }}
-          REPO: ${{ github.repository }}
           RUN_URL: ${{ github.event.workflow_run.html_url }}
         run: |
-          number="$(scripts/gh-retry gh issue list --repo "$REPO" --state open --search 'in:title "Pipeline incident log"' --json number --jq '.[0].number // empty')"
-          body="@umqadir - Recovered automatically: production run ${RUN_URL} completed successfully on retry. Nothing needed."
-          if [ -z "$number" ]; then
-            scripts/gh-retry gh issue create --repo "$REPO" --title "Pipeline incident log" \
-              --body "Verified production incident outcomes are posted here."
-            number="$(scripts/gh-retry gh issue list --repo "$REPO" --state open --search 'in:title "Pipeline incident log"' --json number --jq '.[0].number // empty')"
-          fi
-          scripts/gh-retry gh issue comment "$number" --repo "$REPO" --body "$body"
+          echo "Recovered automatically: production run ${RUN_URL} completed successfully on retry. Nothing needed." >> "$GITHUB_STEP_SUMMARY"
 
   fix:
     if: ${{ github.event_name == 'workflow_dispatch' || (github.event.workflow_run.conclusion == 'failure' && github.event.workflow_run.run_attempt > 1) }}

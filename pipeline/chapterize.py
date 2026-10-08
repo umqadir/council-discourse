@@ -108,17 +108,26 @@ def chapterize_meeting(
     prompt = _chapter_prompt(meeting, utterances)
     _raise_if_chapter_prompt_too_large(prompt)
     temperature = 0.2 if meeting_type == "STATED_MEETING" else 0.3
-    result, meta = generate_json(
-        prompt,
-        model=model,
-        temperature=temperature,
-        base_url=llm_base_url,
-        api_key=llm_api_key,
-        api_key_env=llm_api_key_env,
-        json_schema=CHAPTER_JSON_SCHEMA,
-    )
-    metas = [meta]
-    chapters = _resolve_chapters(result, utterances, meeting.duration_seconds)
+    metas = []
+    # Gemini occasionally returns an empty or malformed chapter list; one fresh
+    # call almost always succeeds, so retry here rather than fail the job.
+    for attempt in range(2):
+        result, meta = generate_json(
+            prompt,
+            model=model,
+            temperature=temperature,
+            base_url=llm_base_url,
+            api_key=llm_api_key,
+            api_key_env=llm_api_key_env,
+            json_schema=CHAPTER_JSON_SCHEMA,
+        )
+        metas.append(meta)
+        try:
+            chapters = _resolve_chapters(result, utterances, meeting.duration_seconds)
+            break
+        except EmptyChaptersError:
+            if attempt == 1:
+                raise
     chapters = _postprocess_chapters(chapters, utterances, meeting, meeting.duration_seconds)
     retry_note = _coarse_retry_note(meeting_type, len(chapters), meeting.duration_seconds)
     if retry_note:
@@ -133,9 +142,13 @@ def chapterize_meeting(
             json_schema=CHAPTER_JSON_SCHEMA,
         )
         metas.append(retry_meta)
-        retry_chapters = _resolve_chapters(retry_result, utterances, meeting.duration_seconds)
-        retry_chapters = _postprocess_chapters(retry_chapters, utterances, meeting, meeting.duration_seconds)
-        if _chapter_count_distance(meeting_type, len(retry_chapters), meeting.duration_seconds) <= _chapter_count_distance(
+        try:
+            retry_chapters = _resolve_chapters(retry_result, utterances, meeting.duration_seconds)
+        except EmptyChaptersError:
+            retry_chapters = []  # keep the coarse first pass
+        if retry_chapters:
+            retry_chapters = _postprocess_chapters(retry_chapters, utterances, meeting, meeting.duration_seconds)
+        if retry_chapters and _chapter_count_distance(meeting_type, len(retry_chapters), meeting.duration_seconds) <= _chapter_count_distance(
             meeting_type,
             len(chapters),
             meeting.duration_seconds,
@@ -255,6 +268,10 @@ Return JSON only:
 """
 
 
+class EmptyChaptersError(RuntimeError):
+    """Gemini's chapter response had no usable chapters."""
+
+
 def _raise_if_chapter_prompt_too_large(prompt: str) -> None:
     tokens = max(1, int(len(prompt) / 4))
     limit = int(os.environ.get("COUNCIL_CHAPTER_MAX_PROMPT_TOKENS", DEFAULT_MAX_CHAPTER_PROMPT_TOKENS))
@@ -334,7 +351,7 @@ def _resolve_chapters(
 ) -> list[dict[str, Any]]:
     raw_chapters = result.get("chapters")
     if not isinstance(raw_chapters, list):
-        raise RuntimeError(f"Gemini chapter response lacks chapters: {result}")
+        raise EmptyChaptersError(f"Gemini chapter response lacks chapters: {result}")
 
     starts = [utterance_start(row) for row in utterances]
     chapters: list[dict[str, Any]] = []
@@ -361,7 +378,7 @@ def _resolve_chapters(
         )
 
     if not chapters:
-        raise RuntimeError("Gemini returned no usable chapters")
+        raise EmptyChaptersError("Gemini returned no usable chapters")
 
     inferred_duration = duration_seconds or (starts[-1] + 5 if starts else chapters[-1]["start_sec"] + 5)
     for index, chapter in enumerate(chapters):

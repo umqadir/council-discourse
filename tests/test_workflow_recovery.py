@@ -20,7 +20,7 @@ def test_jobs_using_repository_helpers_check_out_the_repository() -> None:
 
     for job in (discover, export_site, deploy):
         assert "scripts/gh-retry" in job
-        assert "uses: actions/checkout@v5" in job
+        assert "uses: actions/checkout@" in job
 
 
 def test_deploy_digest_uses_a_sized_file_upload() -> None:

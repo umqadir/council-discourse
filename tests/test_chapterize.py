@@ -112,3 +112,26 @@ def test_chapterize_rejects_oversized_prompt_before_paid_call(tmp_path, monkeypa
 
     with pytest.raises(RuntimeError, match=r"transcript too long for chaptering: ~\d+k tokens"):
         chapterize_meeting(meeting, write_runlog=False)
+
+
+def test_chapterize_retries_once_when_gemini_returns_no_chapters(tmp_path, monkeypatch) -> None:
+    (tmp_path / "utterances-named.jsonl").write_text(
+        json.dumps({"t0": 0.0, "t1": 5.0, "text": "The meeting will come to order.", "speaker": "Chair"}) + "\n"
+    )
+    meeting = Meeting(meeting_key="m1", meeting_dir=tmp_path, duration_seconds=60.0)
+    responses = [
+        {"chapters": []},
+        {"tags": ["HEARING"], "chapters": [{"start": "0:00:00", "start_index": 0, "type": "REMARKS", "title": "Opening", "summary": "Opens."}]},
+    ]
+    calls = []
+
+    def fake_generate_json(*_args, **_kwargs):
+        calls.append(1)
+        return responses[len(calls) - 1], {"elapsed_sec": 0.0, "usage": {}}
+
+    monkeypatch.setattr("pipeline.chapterize.generate_json", fake_generate_json)
+    monkeypatch.setattr("pipeline.chapterize._coarse_retry_note", lambda *_a: None)
+
+    chapters_path, _ = chapterize_meeting(meeting, write_runlog=False)
+    assert len(calls) == 2
+    assert json.loads(open(chapters_path).read())["chapters"][0]["title"] == "Opening"
