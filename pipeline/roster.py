@@ -21,6 +21,34 @@ ROSTER_CACHE = DATA_DIR / "council-members-1999-present.csv"
 MEMBERSHIP_CACHE = DATA_DIR / "council-memberships.json"
 CACHE_TTL_SECONDS = 24 * 3600
 
+# HTTP statuses that signal a transient upstream condition worth retrying.
+# Mirrors the transient-retry policy the rest of the pipeline already uses
+# (see pipeline/preflight.py and gemini._post_with_retry): a momentary 5xx or
+# timeout from NYC Open Data or Legistar must not kill an otherwise-healthy run.
+# Non-transient statuses fail fast so a real problem still surfaces promptly.
+_TRANSIENT_STATUS = frozenset({429, 500, 502, 503, 504})
+_MAX_FETCH_ATTEMPTS = 4
+
+
+def _request_with_retry(do_request, *, max_attempts=_MAX_FETCH_ATTEMPTS):
+    """Call ``do_request() -> httpx.Response``, retrying transient upstream
+    failures (429/5xx and connect/timeout errors) with exponential backoff.
+    Returns the response for any non-transient status so the caller's own
+    status handling still fails fast on a persistent error."""
+    for attempt in range(1, max_attempts + 1):
+        try:
+            response = do_request()
+        except httpx.TransportError:
+            if attempt < max_attempts:
+                time.sleep(min(30, 2**attempt))
+                continue
+            raise
+        if response.status_code in _TRANSIENT_STATUS and attempt < max_attempts:
+            time.sleep(min(30, 2**attempt))
+            continue
+        return response
+    raise RuntimeError("HTTP request did not return a response")
+
 
 def _active(rows, target):
     return [row for row in rows if _date_from_socrata(row.get("term_start")) <= target
@@ -102,9 +130,10 @@ def fetch_memberships(force_refresh=False):
     # The API defaults to 1,000 rows; deterministic pagination also protects future growth.
     with httpx.Client(timeout=60, follow_redirects=True) as client:
         while True:
-            response = client.get(LEGISTAR_BASE_URL + "/OfficeRecords", params={
-                "token": token, "$filter": "OfficeRecordBodyName eq 'City Council'",
-                "$orderby": "OfficeRecordId", "$top": 1000, "$skip": len(records)})
+            response = _request_with_retry(lambda: client.get(
+                LEGISTAR_BASE_URL + "/OfficeRecords", params={
+                    "token": token, "$filter": "OfficeRecordBodyName eq 'City Council'",
+                    "$orderby": "OfficeRecordId", "$top": 1000, "$skip": len(records)}))
             if response.status_code != 200:
                 raise RuntimeError(f"Legistar membership fetch failed: HTTP {response.status_code}")
             page = response.json()
@@ -174,7 +203,7 @@ def fetch_roster(force_refresh: bool = False) -> Path:
     token = os.environ.get("NYC_OPENDATA_APP_TOKEN")
     if token:
         headers["X-App-Token"] = token
-    response = httpx.get(ROSTER_URL, headers=headers, timeout=120)
+    response = _request_with_retry(lambda: httpx.get(ROSTER_URL, headers=headers, timeout=120))
     if response.status_code != 200:
         raise RuntimeError(f"NYC Open Data roster fetch failed: {response.status_code} {response.text[:500]}")
     ROSTER_CACHE.parent.mkdir(parents=True, exist_ok=True)

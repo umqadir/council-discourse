@@ -42,6 +42,46 @@ def test_fresh_membership_cache_needs_no_network_or_token(tmp_path,monkeypatch):
     assert roster.fetch_memberships()==[{'name':'Member'}]
 
 
+class _Resp:
+    def __init__(self, status, text):
+        self.status_code = status
+        self.text = text
+
+
+def test_fetch_roster_retries_transient_5xx_then_succeeds(tmp_path, monkeypatch):
+    cache = tmp_path / 'roster.csv'
+    monkeypatch.setattr(roster, 'ROSTER_CACHE', cache)
+    monkeypatch.setattr(roster.time, 'sleep', lambda *a: None)
+    calls = {'n': 0}
+
+    def fake_get(url, headers=None, timeout=None):
+        calls['n'] += 1
+        if calls['n'] < 3:
+            return _Resp(503, 'Service unavailable')
+        return _Resp(200, 'name,district,party,term_start,term_end\nX,3,,2026-01-01,2029-12-31\n')
+
+    monkeypatch.setattr(roster.httpx, 'get', fake_get)
+    assert roster.fetch_roster(force_refresh=True) == cache
+    assert cache.read_text().startswith('name,district')
+    assert calls['n'] == 3
+
+
+def test_fetch_roster_fails_fast_on_non_transient_status(tmp_path, monkeypatch):
+    cache = tmp_path / 'roster.csv'
+    monkeypatch.setattr(roster, 'ROSTER_CACHE', cache)
+    monkeypatch.setattr(roster.time, 'sleep', lambda *a: None)
+    calls = {'n': 0}
+
+    def fake_get(url, headers=None, timeout=None):
+        calls['n'] += 1
+        return _Resp(404, 'not found')
+
+    monkeypatch.setattr(roster.httpx, 'get', fake_get)
+    with pytest.raises(RuntimeError, match='404'):
+        roster.fetch_roster(force_refresh=True)
+    assert calls['n'] == 1  # persistent failure is not retried
+
+
 def test_directory_detects_missing_successor(monkeypatch):
     class Response:
         text = '<table><tr><td>3</td><td>New Member</td><td></td><td>Manhattan</td><td>Democrat</td></tr></table>'
