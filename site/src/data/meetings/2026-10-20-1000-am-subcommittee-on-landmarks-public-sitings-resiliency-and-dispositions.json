@@ -1,0 +1,352 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 28.6,
+      "id": "001",
+      "slug": "council-staff-opens-subcommittee-meeting-and-calls-for-silence-of-electronic-devices",
+      "start_sec": 8.5,
+      "summary": "Council staff opens the meeting of the Subcommittee on Landmarks, Public Sitings, Resiliency and Dispositions, asks everyone to silence electronic devices, states that no one will be approached today, and tells the chair the panel is ready to begin.",
+      "title": "Council staff opens subcommittee meeting and calls for silence of electronic devices",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 8.5,
+          "text": "Good morning and welcome to today's New York City Council vote for the subcommittee on landmarks, public sightings, resiliency, and dispositions."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 17.0,
+          "text": "At this time, I would like to remind everyone to silence all electronic devices."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 21.1,
+          "text": "Also, at this point going forward, no one is approached today."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 24.5,
+          "text": "Chair, we're ready to begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 46.8,
+      "id": "002",
+      "slug": "chair-marte-convenes-meeting-introduces-himself-and-present-subcommittee-members",
+      "start_sec": 28.6,
+      "summary": "Chair Christopher Marte welcomes attendees, introduces himself as chair of the subcommittee, and notes that Council Members Aviles, Thomas-Henry and Hanks are joining him. He states the meeting is being held in a hybrid format.",
+      "title": "Chair Marte convenes meeting, introduces himself and present subcommittee members",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 28.6,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 29.2,
+          "text": "Welcome to the meeting of the Subcommittee on Landmarks, Public Siting, Resiliency, and Disposition."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 33.9,
+          "text": "I'm Councilmember Christopher Marte, and I'm the chair of the subcommittee."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 37.0,
+          "text": "I'm joined today by my colleagues, Councilmember Aviles, Councilmember Thomas Henry, Councilmember Hanks."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 44.1,
+          "text": "Today's meeting is being held in a hybrid format."
+        }
+      ]
+    },
+    {
+      "end_sec": 64.8,
+      "id": "003",
+      "slug": "chair-marte-announces-sole-agenda-item-vote-on-lu-129-and-130-for-48-50-convent-avenue-cluster",
+      "start_sec": 46.8,
+      "summary": "Chair Marte states that the agenda contains one vote on applications heard by the subcommittee last month: LU 129 and LU 130 for the 48-50 Convent Avenue cluster, brought forward under HPD's Affordable Neighborhood Cooperative Program.",
+      "title": "Chair Marte announces sole agenda item: vote on LU 129 and 130 for 48-50 Convent Avenue cluster",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 46.8,
+          "text": "On today's agenda, we have one vote for an application the subcommittee heard last month."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 52.6,
+          "text": "Today we'll vote on LUs 129 and 130 for 4850 Convent Avenue Cluster in furtherance of the project under HPD's Affordable Neighborhood Cooperative Programs."
+        }
+      ]
+    },
+    {
+      "end_sec": 84.3,
+      "id": "004",
+      "slug": "chair-marte-details-udaap-approval-and-40-year-article-11-tax-exemption-sought-by-hpd",
+      "start_sec": 64.8,
+      "summary": "Chair Marte explains that the applications seek Urban Development Action Area Project approval under Section 691 of the General Municipal Law and approval of a 40-year Article 11 tax exemption under Section 577 of the Private Housing Finance Law.",
+      "title": "Chair Marte details UDAAP approval and 40-year Article 11 tax exemption sought by HPD",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 64.8,
+          "text": "These applications seek an Urban Development Action Area Project UDAP approval pursuant to Section 691 of the General Municipal Law and the approval of a 40-year Article 11 tax exemption pursuant to Section"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 79.4,
+          "text": "577 of Article 11 of the Private Housing Finance Law."
+        }
+      ]
+    },
+    {
+      "end_sec": 106.0,
+      "id": "005",
+      "slug": "chair-marte-describes-preservation-of-four-buildings-and-77-homeownership-units",
+      "start_sec": 84.3,
+      "summary": "Chair Marte says the actions would preserve four buildings containing 77 homeownership units, and notes support from local leaders. He asks subcommittee members with questions or remarks on the items to signal him.",
+      "title": "Chair Marte describes preservation of four buildings and 77 homeownership units",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 84.3,
+          "text": "These actions will facilitate the preservation of four buildings, including 77 home ownership units and majority."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 90.2,
+          "text": "leaders of Brayuse District in Manhattan who is in support of the application."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 95.6,
+          "text": "Members of the SUT committee who have questions or remarks about today's items, please let me know."
+        }
+      ]
+    },
+    {
+      "end_sec": 109.5,
+      "id": "006",
+      "slug": "chair-marte-moves-to-approve-lu-129-and-130-and-orders-the-roll-call",
+      "start_sec": 106.0,
+      "summary": "Chair Marte calls for a vote to approve LU 129 and LU 130 and asks council staff to call the roll.",
+      "title": "Chair Marte moves to approve LU 129 and 130 and orders the roll call",
+      "type": "VOTE",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 106.0,
+          "text": "I now call for a vote to approve LUs 129 and 130."
+        }
+      ]
+    },
+    {
+      "end_sec": 125.9,
+      "id": "007",
+      "slug": "roll-call-on-lu-129-and-130-marte-aviles-hanks-and-thomas-henry-vote-aye",
+      "start_sec": 109.5,
+      "summary": "Staff calls the roll on LU 129 and 130. Chair Marte, Council Member Aviles, Council Member Hanks and Council Member Thomas-Henry each vote aye.",
+      "title": "Roll call on LU 129 and 130: Marte, Aviles, Hanks and Thomas-Henry vote aye",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 109.5,
+          "text": "Council, please call the roll."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 113.4,
+          "text": "Chair Marte?"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 114.3,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 115.5,
+          "text": "Councilmember Vilas?"
+        },
+        {
+          "speaker": "Alexa Avil\u00e9s",
+          "t_sec": 117.0,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 119.8,
+          "text": "Councilmember Hanks?"
+        },
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 121.4,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 122.9,
+          "text": "Councilmember Thomas Henry?"
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 124.2,
+          "text": "Aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 134.0,
+      "id": "008",
+      "slug": "lu-129-and-130-adopted-4-0-and-referred-to-full-land-use-committee",
+      "start_sec": 125.9,
+      "summary": "Staff reports a vote of four in the affirmative, zero negative and zero abstentions. The items are adopted and referred to the full Land Use Committee.",
+      "title": "LU 129 and 130 adopted 4-0 and referred to full Land Use Committee",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 125.9,
+          "text": "Via vote of four in the affirmative, zero negative and zero abstentions, the items are adopted and referred to the full Land Use Committee."
+        }
+      ]
+    },
+    {
+      "end_sec": 384.456,
+      "id": "009",
+      "slug": "chair-marte-thanks-staff-and-leaves-the-vote-open-for-late-arriving-members",
+      "start_sec": 134.0,
+      "summary": "Chair Marte thanks council staff and says the vote will remain open for any other subcommittee members who may join later.",
+      "title": "Chair Marte thanks staff and leaves the vote open for late-arriving members",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 134.0,
+          "text": "Thank you, Council."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 134.9,
+          "text": "We'll leave the vote open for any other subcommittee members who may be joining us later."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 375.256,
+          "text": "Yeah."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 378.656,
+          "text": "Should I start?"
+        }
+      ]
+    },
+    {
+      "end_sec": 393.756,
+      "id": "010",
+      "slug": "council-member-nurse-joins-and-votes-aye-as-the-roll-call-resumes",
+      "start_sec": 384.456,
+      "summary": "After a pause, Chair Marte notes that Council Member Nurse has joined the meeting and asks staff to continue the roll call. Nurse votes aye on LU 129 and 130.",
+      "title": "Council Member Nurse joins and votes aye as the roll call resumes",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 384.456,
+          "text": "We have been joined by Council Member Nurse."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 387.856,
+          "text": "Council, can you continue the roll call?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 390.556,
+          "text": "Council Member Nurse?"
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 392.156,
+          "text": "I vote aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 400.456,
+      "id": "011",
+      "slug": "final-tally-of-5-0-recorded-for-lu-129-and-130",
+      "start_sec": 393.756,
+      "summary": "Staff announces a final tally of five in the affirmative, zero negative and zero abstentions. The items are again adopted and referred to the full Land Use Committee.",
+      "title": "Final tally of 5-0 recorded for LU 129 and 130",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 393.756,
+          "text": "By a vote of five in the affirmative, zero in the negative, and zero abstentions, the items are adopted and referred to the full Land Use Committee."
+        }
+      ]
+    },
+    {
+      "end_sec": 412.416,
+      "id": "012",
+      "slug": "chair-marte-thanks-participants-and-adjourns-the-meeting",
+      "start_sec": 400.456,
+      "summary": "Chair Marte declares that today's business is concluded, thanks the public, his colleagues, subcommittee council and land use staff, and the Sergeant at Arms, and adjourns the meeting.",
+      "title": "Chair Marte thanks participants and adjourns the meeting",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 400.456,
+          "text": "That concludes today's business."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 401.856,
+          "text": "I would like to thank the members of the public, my colleagues, subcommittee, council, land use staff, and the Sergeant at Arms for your participation today."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 408.356,
+          "text": "This meeting is hereby adjourned."
+        }
+      ]
+    }
+  ],
+  "date": "2026-10-20",
+  "duration_sec": 412.416,
+  "slug": "2026-10-20-1000-am-subcommittee-on-landmarks-public-sitings-resiliency-and-dispositions",
+  "summary": [
+    "The Subcommittee on Landmarks, Public Sitings, Resiliency and Dispositions met to vote on LU 129 and LU 130, the 48-50 Convent Avenue cluster in Manhattan, under HPD's Affordable Neighborhood Cooperative Program.",
+    "The applications sought Urban Development Action Area Project approval and a 40-year Article 11 tax exemption to preserve four buildings with 77 homeownership units.",
+    "Members voted 4-0, then 5-0 after Council Member Nurse joined, adopting the items and referring them to the full Land Use Committee before Chair Marte adjourned."
+  ],
+  "tags": [
+    "LAND_USE",
+    "VOTE",
+    "STATED_MEETING"
+  ],
+  "time": "10:00 AM",
+  "title": "Subcommittee on Landmarks, Public Sitings, Resiliency and Dispositions",
+  "topic": "Landmarks, 48-50 Convent Avenue (ANCP) - UDAAP, Manhattan (G 260006 NUM)",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://discourse-media.qqlab.io/NYCC-250-8-3_261020-101516/video-web.mp4"
+  }
+}

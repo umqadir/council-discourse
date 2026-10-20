@@ -1,0 +1,2085 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 26.6,
+      "id": "001",
+      "slug": "council-staff-opens-zoning-subcommittee-meeting-and-sets-decorum-rules",
+      "start_sec": 8.2,
+      "summary": "Council staff calls the Zoning and Franchises subcommittee meeting to order, asks attendees to silence electronic devices, and states that no one may approach the dais. Staff then tells the chair the meeting is ready to begin.",
+      "title": "Council staff opens Zoning Subcommittee meeting and sets decorum rules",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 8.2,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 8.7,
+          "text": "Welcome to today's New York City Council vote for the subcommittee on zoning and franchises."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 13.9,
+          "text": "At this time, I would like to remind everyone to silence all electronic devices."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 18.5,
+          "text": "Also, at this point going forward, no one is to approach the dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 22.6,
+          "text": "Chair, we're ready to begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 42.9,
+      "id": "002",
+      "slug": "chair-louis-convenes-meeting-and-announces-attending-members",
+      "start_sec": 26.6,
+      "summary": "Chair Farah Louis welcomes attendees, identifies herself as chair, and lists the council members present, including Shulman, Salaam, Felder, Encarnaci\u00f3n, Sanchez, Thomas-Henry, and Wilson.",
+      "title": "Chair Louis convenes meeting and announces attending members",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 26.6,
+          "text": "Good morning and welcome to a meeting of the Subcommittee on Zoning and Franchises."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 30.8,
+          "text": "I am Councilmember Farrah Lewis, Chair of the Subcommittee."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 34.0,
+          "text": "This morning we are joined by Councilmembers Shulman, Salam, Felder, Encarnacion, Jay Sanchez, Thomas Henry, and Wilson."
+        }
+      ]
+    },
+    {
+      "end_sec": 72.1,
+      "id": "003",
+      "slug": "chair-louis-outlines-agenda-two-votes-and-one-studio-54-hearing",
+      "start_sec": 42.9,
+      "summary": "Chair Louis says the subcommittee will vote on two proposals\u20141455 Coney Island Avenue and 135-27 Sapphire Street\u2014and then hold a hearing on the Studio 54 Rehabilitation and Tax Amendment in Council Member Wilson's district.",
+      "title": "Chair Louis outlines agenda: two votes and one Studio 54 hearing",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 42.9,
+          "text": "Today we are voting on two proposals and holding one hearing."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 46.8,
+          "text": "The two proposals that we will vote on are 1455 Coney Island Avenue Community Facility Rezoning and Councilmember Felder's District,"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 56.8,
+          "text": "135-27 Sapphire Street Residential Rezoning and Councilmember Areola's District."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 63.6,
+          "text": "We will then hold the hearing regarding Studio 54 Rehabilitation and Tax Amendment in Councilmember Wilson's District."
+        }
+      ]
+    },
+    {
+      "end_sec": 118.6,
+      "id": "004",
+      "slug": "chair-louis-explains-hybrid-format-and-public-testimony-registration",
+      "start_sec": 72.1,
+      "summary": "Chair Louis explains the meeting is hybrid and that the public may testify in person or via Zoom. She gives registration instructions, notes that in-person speakers need a speaker card, and says remote participants remain muted until recognized, with testimony limited to two minutes per witness.",
+      "title": "Chair Louis explains hybrid format and public testimony registration",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 72.1,
+          "text": "This meeting is being held in hybrid format."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 74.2,
+          "text": "Members of the public who wish to testify may testify in person or via Zoom."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 78.7,
+          "text": "Members of the public wishing to testify remotely may register by visiting the New York City Council website at www.council.nyc.gov backslash land use."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 89.3,
+          "text": "To sign up,"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 90.4,
+          "text": "Or for those of you that are in the room today, please see one of the sergeant at arms to prepare and submit a speaker card."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 97.7,
+          "text": "Members of the public may also view a live stream broadcast of the meeting at the council's website."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 102.7,
+          "text": "When you are called to testify before the subcommittee, if you are joining us remotely, you may remain muted until recognized by myself to speak."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 112.4,
+          "text": "When you are recognized, your microphone will be unmuted."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 115.2,
+          "text": "We will limit public testimony to two minutes per witness."
+        }
+      ]
+    },
+    {
+      "end_sec": 147.9,
+      "id": "005",
+      "slug": "chair-louis-details-written-testimony-submission-and-witness-rules",
+      "start_sec": 118.6,
+      "summary": "Chair Louis explains how to submit written testimony by email up to three days after the hearing, asks witnesses to include the LU number and project name in the subject line, and requests remote witnesses remain until excused because council members may have questions.",
+      "title": "Chair Louis details written testimony submission and witness rules",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 118.6,
+          "text": "If you have additional testimony that you would like the subcommittee to consider, or if you have written testimony that you would like to submit instead of appearing in person, please email it to landyustestimony at council.nyc.gov."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 131.4,
+          "text": "Written testimony may be submitted up to three days after the hearing is closed."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 137.0,
+          "text": "Please indicate the LU number and project name in the subject line of your email."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 141.2,
+          "text": "We request that witnesses joining us remotely remain in the meeting until excused by the chair, as council members may have questions."
+        }
+      ]
+    },
+    {
+      "end_sec": 180.0,
+      "id": "006",
+      "slug": "chair-louis-sets-decorum-and-recording-rules",
+      "start_sec": 147.9,
+      "summary": "Chair Louis states that decorum must be observed at all times, that members of the public may not speak unless testifying, and that the witness table is reserved for called witnesses. She also bars video or photography from the witness table and says audio/video recordings may be submitted only as transcripts.",
+      "title": "Chair Louis sets decorum and recording rules",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 147.9,
+          "text": "Lastly, for everyone attending today's meeting, this is a government proceeding and decorum must be observed at all times."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 154.3,
+          "text": "Members of the public are asked not to speak during the meeting unless you are testifying."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 159.2,
+          "text": "The witness table is reserved for people who are called to testify and no video recording or photography is allowed from the witness table."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 168.2,
+          "text": "Further, members of the public may not present audio or video recordings as testimony, but may submit transcripts of such recordings to the Sergeant at Arms for inclusion into the hearing."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 179.1,
+          "text": "record."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 179.6,
+          "text": "We will"
+        }
+      ]
+    },
+    {
+      "end_sec": 219.0,
+      "id": "007",
+      "slug": "chair-louis-introduces-1455-coney-island-avenue-rezoning-vote",
+      "start_sec": 180.0,
+      "summary": "Chair Louis introduces LUs 142/143 for the 1455 Coney Island Avenue rezoning in Council Member Felder's district. The applicant seeks a 300-bed nursing home in Midwood, Brooklyn, requiring a zoning map change from R5/C2-3 to C4-5D and a mandatory inclusionary housing text amendment.",
+      "title": "Chair Louis introduces 1455 Coney Island Avenue rezoning vote",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 180.0,
+          "text": "Now proceed with the two votes."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 182.5,
+          "text": "The first vote concerns L.U.'s 142, 143 regarding the 1455 Coney Island Avenue rezoning proposal in Councilmember Felder's district."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 191.7,
+          "text": "Applicant is seeking to develop a nursing home with 300 beds in Midwood, Brooklyn."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 196.3,
+          "text": "The proposal involves two actions."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 198.2,
+          "text": "The first is a zoning map amendment to change the existing residential R5 district with a C2-3 commercial overlay to a commercial C4-5D."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 209.2,
+          "text": "The second action is a zoning tax amendment to map a mandatory inclusionary housing area because the rezoning would increase the allowable residential density."
+        }
+      ]
+    },
+    {
+      "end_sec": 256.7,
+      "id": "008",
+      "slug": "chair-louis-introduces-135-27-sapphire-street-rezoning-vote",
+      "start_sec": 219.0,
+      "summary": "Chair Louis introduces LUs 144/145 for the 135-27 Sapphire Street rezoning in Council Member Areola's district. The applicant proposes 268 apartments, 67 permanently affordable, requiring a zoning map change from R4 to R6A and a mandatory inclusionary housing text amendment.",
+      "title": "Chair Louis introduces 135-27 Sapphire Street rezoning vote",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 219.0,
+          "text": "The second vote concerns LUs 144 and 145 regarding the 135-27 Sapphire Boulevard rezoning proposal in Councilmember Areola's district."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 229.1,
+          "text": "Applicant is proposing to build a residential project with 268 apartments, of which 67 would be permanently affordable."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 237.3,
+          "text": "The proposal involves two actions."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 239.2,
+          "text": "The first is a zoning map amendment to change the existing residential R4 district to a residential R6A district."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 246.9,
+          "text": "The second action is a zoning tax amendment to map a mandatory inclusionary housing area."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 252.4,
+          "text": "Councilmember Areola supports this application."
+        }
+      ]
+    },
+    {
+      "end_sec": 281.6,
+      "id": "009",
+      "slug": "chair-louis-calls-vote-on-coney-island-and-sapphire-street-rezonings",
+      "start_sec": 256.7,
+      "summary": "Chair Louis asks for questions or remarks, then moves to approve LUs 142/143 for 1455 Coney Island Avenue and LUs 144/145 for 135-27 Sapphire Street together. She asks the council staff to call the roll.",
+      "title": "Chair Louis calls vote on Coney Island and Sapphire Street rezonings",
+      "type": "VOTE",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 256.7,
+          "text": "Council, are there any members, are there any council members with questions or remarks at this time?"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 263.6,
+          "text": "No, Chair."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 264.6,
+          "text": "I now call for a vote to approve L.U.'s 142 and 143 related to the 1455 Coney."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 270.1,
+          "text": "Allen Avenue and LUs 144 and 145 related to the 135-27 Sapphire Street."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 277.5,
+          "text": "Council, please call the roll."
+        }
+      ]
+    },
+    {
+      "end_sec": 310.148,
+      "id": "010",
+      "slug": "roll-call-on-lus-142-145",
+      "start_sec": 281.6,
+      "summary": "Council staff calls the roll. Chair Louis votes aye on all, and Encarnaci\u00f3n, Sanchez, Thomas-Henry, and Farias add affirmative votes as the clerk tallies the roll.",
+      "title": "Roll call on LUs 142-145",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 281.6,
+          "text": "Chair Lewis?"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 282.6,
+          "text": "Aye on all."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 286.3,
+          "text": "Council Member Shalom."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 288.9,
+          "text": "I know."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 290.3,
+          "text": "Council Member Shalom."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 294.3,
+          "text": "Council Member Felder."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 297.8,
+          "text": "Councilmember Encarnacion?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 300.4,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 301.7,
+          "text": "Councilmember Sanchez?"
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 304.8,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 305.8,
+          "text": "Councilmember Thomas Henry?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 307.3,
+          "text": "Aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 340.948,
+      "id": "011",
+      "slug": "lus-142-145-approved-and-referred-to-full-land-use-committee",
+      "start_sec": 310.148,
+      "summary": "Council staff announces the items approved by a vote of eight in the affirmative, zero opposing, and zero abstentions. The items are referred to the full Land Use Committee.",
+      "title": "LUs 142-145 approved and referred to full Land Use Committee",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 310.148,
+          "text": "By a vote of seven in the affirmative, zero opposing, and zero abstention, the items are approved."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 318.948,
+          "text": "Let's add one more vote."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 322.348,
+          "text": "Council Member Farias."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 323.648,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 325.948,
+          "text": "So, by now, by a tally of eight in the affirmative, zero opposing and zero abstentions, the items are approved as described by the chair, and these items are now referred to a full and use committee."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 336.548,
+          "text": "Perfect."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 337.248,
+          "text": "We are now joined also by Councilmember Farias."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 339.948,
+          "text": "Good morning."
+        }
+      ]
+    },
+    {
+      "end_sec": 386.248,
+      "id": "012",
+      "slug": "chair-louis-opens-studio-54-hearing-and-outlines-testimony-process",
+      "start_sec": 340.948,
+      "summary": "Chair Louis opens the hearing on LUs 153/154 for Studio 54 rehabilitation and tax amendment in Council Member Wilson's district. She explains how remote and in-person witnesses can register and notes written testimony can be emailed to the committee.",
+      "title": "Chair Louis opens Studio 54 hearing and outlines testimony process",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 340.948,
+          "text": "I will now open the hearing on L.U.'s 153 and 154 regarding Studio 54 Rehabilitation and Tax Amendment in Councilmember Wilson's district."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 350.348,
+          "text": "The applicant is seeking to restore an old theater in Midtown and transfer the development rights generated by the lot where the theater is located."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 358.748,
+          "text": "For anyone wishing to testify regarding this proposal remotely, if you have not already done so, you must register online by visiting the council's website at council.nyc.gov backslash land use."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 369.548,
+          "text": "For anyone with us in person, please see one of the sergeant at arms to submit a speaker card."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 373.548,
+          "text": "If you would prefer to submit written testimony, you can always do so by emailing it to landusestestimony at council.nyc.gov."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 383.048,
+          "text": "We've also been joined by Councilmember Carr."
+        }
+      ]
+    },
+    {
+      "end_sec": 473.248,
+      "id": "013",
+      "slug": "council-member-wilson-supports-studio-54-rehabilitation",
+      "start_sec": 386.248,
+      "summary": "Council Member Carl Wilson speaks in support of Roundabout Theatre Company's Studio 54 rehabilitation. He calls Studio 54 an iconic cultural institution and argues the renovation will support jobs, tourism, and the theater district's future.",
+      "title": "Council Member Wilson supports Studio 54 rehabilitation",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 386.248,
+          "text": "I now recognize Councilmember Wilson for remarks."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 389.548,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 390.448,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 391.448,
+          "text": "I am proud to express my support for Roundabout Theatre Company's Studio 54 Rehabilitation."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 398.148,
+          "text": "and their land use application."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 400.248,
+          "text": "Studio 54 is an iconic part of New York City's cultural history, and preserving spaces like this is essential to keeping our city's arts and entertainment industry vibrant and accessible for generations to come."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 413.348,
+          "text": "Theater is more than just entertainment."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 415.448,
+          "text": "It supports jobs, strengthens our local economy, brings visitors to our neighborhoods, and creates opportunities for artists and audience from all walks of life."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 425.248,
+          "text": "As council member for a district that hosts some of the city's most enduring cultural touchstones, I believe we have a responsibility to protect these institutions"
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 434.348,
+          "text": "that make our neighborhoods unique while ensuring they can continue to grow and serve our communities present day."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 441.448,
+          "text": "And, you know, Broadway and the theater and our culture scene doesn't just happen."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 447.248,
+          "text": "It takes investment and it takes stewardship."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 451.048,
+          "text": "And this project is a great investment in the future of our Broadway scene and our cultural landscape."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 458.948,
+          "text": "So I want to thank Roundabout Theater for its continued investment in New York City."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 463.748,
+          "text": "And I look forward to seeing Studio 54 continue to thrive as an important part of our city's theatrical future."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 470.848,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 471.948,
+          "text": "Thank you, Councilmember Wilson."
+        }
+      ]
+    },
+    {
+      "end_sec": 494.648,
+      "id": "014",
+      "slug": "carr-vote-added-lus-142-145-approved-9-0",
+      "start_sec": 473.248,
+      "summary": "Chair Louis reopens the vote for Minority Leader Carr. Council staff reports a revised tally of nine in the affirmative, zero opposing, and zero abstentions, and the items are again referred to the full Land Use Committee.",
+      "title": "Carr vote added; LUs 142-145 approved 9-0",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 473.248,
+          "text": "We will now reopen the vote for Minority Leader Carr."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 478.148,
+          "text": "Aye or no?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 479.148,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 480.648,
+          "text": "So now by a revised count for a second time, a vote of nine in the affirmative, zero opposing, and zero abstentions."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 487.148,
+          "text": "The items are approved."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 488.048,
+          "text": "As described by the chair, these items are now referred to a full land use committee."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 492.348,
+          "text": "Thank you, counsel."
+        }
+      ]
+    },
+    {
+      "end_sec": 564.2,
+      "id": "015",
+      "slug": "chair-louis-swears-in-studio-54-applicant-panel",
+      "start_sec": 494.648,
+      "summary": "Chair Louis calls Carol Rosenthal, Christopher Knave, and Francille Lim to testify as the applicant panel. Council staff administers the oath, and Chair Louis sets a 10-minute presentation limit with instruction to conclude after eight minutes.",
+      "title": "Chair Louis swears in Studio 54 applicant panel",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 494.648,
+          "text": "I will now call the applicant panel for this proposal, which consists of Carol Rosenthal, Christopher Knave, and Francille Lim."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 502.048,
+          "text": "Counsel, could you please administer the oath once they come up here?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 516.948,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 517.448,
+          "text": "You can have a seat."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 530.9,
+          "text": "Once you're settled in, yes."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 532.1,
+          "text": "Could you please raise your right hand and state your name for the record?"
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 537.7,
+          "text": "Francel Lim."
+        },
+        {
+          "speaker": "Christopher Nave",
+          "t_sec": 539.3,
+          "text": "Christopher Knave."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 540.8,
+          "text": "Carol Rosenthal."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 541.8,
+          "text": "You swear to tell the truth and nothing but the truth in your testimony this morning in response to council member questions?"
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 547.1,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 547.4,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 547.9,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 550.3,
+          "text": "Thank you, counsel."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 552.1,
+          "text": "You may now begin your testimony, which is limited to 10 minutes."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 555.4,
+          "text": "You should start to conclude your presentation after eight minutes."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 558.9,
+          "text": "When you begin your presentation, please restate your name and the name of your organization."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 562.7,
+          "text": "You may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 663.1,
+      "id": "016",
+      "slug": "christopher-knave-introduces-roundabout-theatre-company-s-mission-and-impact",
+      "start_sec": 564.2,
+      "summary": "Christopher Knave introduces Roundabout Theatre Company as the nation's largest not-for-profit theater company. He describes its five theaters, six to eight annual productions, 1,500 employees, 42 Tony Awards, and programs serving 30,000 NYC students and educators.",
+      "title": "Christopher Knave introduces Roundabout Theatre Company's mission and impact",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Christopher Nave",
+          "t_sec": 564.2,
+          "text": "Thank you, Chair Lewis and fellow members of the Zoning Subcommittee for your time today to review our ULERP application."
+        },
+        {
+          "speaker": "Christopher Nave",
+          "t_sec": 570.8,
+          "text": "My name is Chris Knave, and I am the Chief Advancement Officer at Roundabout Theatre Company."
+        },
+        {
+          "speaker": "Christopher Nave",
+          "t_sec": 575.6,
+          "text": "With us today are Kara Rosenthal from Freed Frank, Francel Lim from NEAD Architects, as well as other members of our team."
+        },
+        {
+          "speaker": "Christopher Nave",
+          "t_sec": 583.0,
+          "text": "If you're following along, you can go to the next slide."
+        },
+        {
+          "speaker": "Christopher Nave",
+          "t_sec": 586.4,
+          "text": "Before handing it off to my colleagues who will speak specifics on our requested actions and proposed rehabilitation at Studio 54, I will share an overview of our organization's mission and impact as the nation's largest not-for-profit theater company."
+        },
+        {
+          "speaker": "Christopher Nave",
+          "t_sec": 601.6,
+          "text": "Originally founded in 1965, Roundabout is one of only four nonprofits operating on Broadway."
+        },
+        {
+          "speaker": "Christopher Nave",
+          "t_sec": 607.3,
+          "text": "Our mission is to celebrate the power of theater."
+        },
+        {
+          "speaker": "Christopher Nave",
+          "t_sec": 609.7,
+          "text": "by spotlighting classics from the past, cultivating new works of the present, and educating minds for the future."
+        },
+        {
+          "speaker": "Christopher Nave",
+          "t_sec": 616.3,
+          "text": "We operate five theaters on and off Broadway within Manhattan's theater district."
+        },
+        {
+          "speaker": "Christopher Nave",
+          "t_sec": 621.0,
+          "text": "Annually, we produce six to eight classics, new plays and musicals, and reach approximately half a million theater goers."
+        },
+        {
+          "speaker": "Christopher Nave",
+          "t_sec": 627.3,
+          "text": "We employ over 1,500 full and part-time staff members, and our work has been recognized with 42 Tony Awards, three Pulitzer Prizes, and many other honors."
+        },
+        {
+          "speaker": "Christopher Nave",
+          "t_sec": 637.0,
+          "text": "We're most proud to serve 30,000 New York City students, teachers, and lifelong learners through tailored partnerships with public schools and libraries in all five boroughs."
+        },
+        {
+          "speaker": "Christopher Nave",
+          "t_sec": 646.2,
+          "text": "Most notably, we operate a nationally recognized theatrical workforce development program in partnership with IATSE and the City of New York."
+        },
+        {
+          "speaker": "Christopher Nave",
+          "t_sec": 655.2,
+          "text": "We are proud of the 150 young New Yorkers trained to date, 86% of whom are working in performing arts."
+        }
+      ]
+    },
+    {
+      "end_sec": 706.3,
+      "id": "017",
+      "slug": "knave-cites-26-6m-city-commitment-for-studio-54-renovation",
+      "start_sec": 663.1,
+      "summary": "Knave says the city has committed $26.6 million, one-third from the City Council, for the first comprehensive renovation of Studio 54 in its 100-year life cycle. He thanks Council Member Wilson, Community Board 5, and Borough President Hoylman-Siegel for their support.",
+      "title": "Knave cites $26.6M city commitment for Studio 54 renovation",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Christopher Nave",
+          "t_sec": 663.1,
+          "text": "Thanks to the city's considerable $26.6 million commitment, with one-third of that coming from City Council, this will be the first comprehensive renovation of Studio 54 in its 100-year life cycle."
+        },
+        {
+          "speaker": "Christopher Nave",
+          "t_sec": 676.8,
+          "text": "We're grateful to Councilmember Wilson and his colleagues across city government for supporting this project."
+        },
+        {
+          "speaker": "Christopher Nave",
+          "t_sec": 683.3,
+          "text": "We're also appreciative of Community Board 5 and Manhattan Borough President Brad Hoylman-Siegel for their support of our land use application."
+        },
+        {
+          "speaker": "Christopher Nave",
+          "t_sec": 691.5,
+          "text": "I just want to say before I turn it over to Carol, among our many priorities, we are committed to honoring the legacy of Studio 54 and maintaining its tradition."
+        },
+        {
+          "speaker": "Christopher Nave",
+          "t_sec": 699.7,
+          "text": "as an epicenter of creativity, connection, and artistic expression."
+        },
+        {
+          "speaker": "Christopher Nave",
+          "t_sec": 704.3,
+          "text": "And I'll hand it over to Carol."
+        }
+      ]
+    },
+    {
+      "end_sec": 795.42,
+      "id": "018",
+      "slug": "carol-rosenthal-describes-studio-54-site-and-existing-theater-conditions",
+      "start_sec": 706.3,
+      "summary": "Carol Rosenthal, counsel for Roundabout, describes Studio 54's location in the Midtown theater district, its entrance through a 19-story office building, and the same zoning lot's 43-story building. She notes existing deficiencies like the missing orchestra pit and steeply pitched upper mezzanine.",
+      "title": "Carol Rosenthal describes Studio 54 site and existing theater conditions",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 706.3,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 707.8,
+          "text": "We can turn to the next slide."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 709.3,
+          "text": "I'm Carol Rosenthal."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 710.8,
+          "text": "I'm Senior Counsel at Freed Frank, representing Roundabout today."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 715.1,
+          "text": "The theater is sort of the north part of the theater district, which you can see on the slide to the left."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 722.1,
+          "text": "In yellow, and it's located on West 53rd Street."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 726.9,
+          "text": "That's the main theater building."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 728.5,
+          "text": "The entrance is located off of West 54th Street."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 732.1,
+          "text": "It goes through a 19-story office building."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 735.8,
+          "text": "It's an easement through the ground floor."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 738.2,
+          "text": "Also on the same zoning lot is a third building, which is a 43-story building built about 25 years ago."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 746.0,
+          "text": "We can go to the next slide."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 749.68,
+          "text": "This is a picture of it showing it from the 54th Street entrance and showing it from the 53rd Street where the actual theater building is located."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 760.68,
+          "text": "And on the next slide."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 764.48,
+          "text": "You can see some of the interior as it exists today, both what's happening to the left and also the theater itself, which has certain components that are different than many theaters, including no orchestra pit."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 778.78,
+          "text": "And I don't know if you can tell from the slide, but the seats on the top mezzanine are extremely pitched."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 785.48,
+          "text": "Like you sort of feel like you're going to fly over when you're on them."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 790.28,
+          "text": "So next slide."
+        }
+      ]
+    },
+    {
+      "end_sec": 890.22,
+      "id": "019",
+      "slug": "rosenthal-recounts-studio-54-s-history-and-roundabout-ownership",
+      "start_sec": 795.42,
+      "summary": "Rosenthal traces the building's history from the 1927 Gallo Opera House through CBS studios and Studio 54, then explains Roundabout moved there in 1998 and purchased it in 2003 with city help, operating it as a not-for-profit theater since.",
+      "title": "Rosenthal recounts Studio 54's history and Roundabout ownership",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 795.42,
+          "text": "Chris mentioned that the theater has a 100-year-old history."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 798.82,
+          "text": "It started in 1927 as the Gallo Opera House."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 803.22,
+          "text": "It was to compete with the Metropolitan Opera House, and we know what happened in that competition."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 808.82,
+          "text": "So later it was purchased by CBS for its radio and television shows, studios."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 816.62,
+          "text": "And then after that, it went through kind of a fallow time until 1977, where it became the famous or something infamous Studio 54."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 828.62,
+          "text": "And between 43 and 77, for the use for television studio, the floor was straightened so that the seats came down and the orchestra pit was filled."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 842.12,
+          "text": "After Studio 54, which to my surprise only lasted two years, in our minds it looms much larger, the building went through a period of"
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 853.32,
+          "text": "difficulty and eventually went into a foreclosure and was purchased by the Allied partners."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 861.12,
+          "text": "Finally, in 1998, Roundabout, whose cabaret show was having"
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 868.12,
+          "text": "the results of an emergency, had to move to another theater quickly, and it moved to this theater because it suited cabaret with its flat floor."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 878.22,
+          "text": "In 2003, Roundabout purchased Studio 54 with the help of the"
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 882.82,
+          "text": "of the city and has run it, operated it since 2003 as a not-for-profit theater."
+        }
+      ]
+    },
+    {
+      "end_sec": 946.22,
+      "id": "020",
+      "slug": "rosenthal-explains-rehabilitation-bonus-and-transfer-text-amendment",
+      "start_sec": 890.22,
+      "summary": "Rosenthal outlines the two requested actions: using the existing theater rehabilitation bonus for additional floor area and amending the text to allow transfer of that bonus floor area elsewhere within the theater district because the theater's zoning lot cannot accommodate it.",
+      "title": "Rosenthal explains rehabilitation bonus and transfer text amendment",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 890.22,
+          "text": "Next slide."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 893.52,
+          "text": "The actions today, we have two actions."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 896.12,
+          "text": "One is there is existing in the zoning resolution a theater rehabilitation bonus."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 902.52,
+          "text": "So this 100-year-old theater with all of its ups and downs, both financially and physically, needs substantial rehabilitation."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 911.62,
+          "text": "It's time to do that, and Roundabout is putting together an amazing program to do that and bring it up to the 20th century."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 920.02,
+          "text": "First century."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 923.72,
+          "text": "So they were here for the three-year rehabilitation bonus, which will allow additional floor area in exchange for rehabilitating the theater."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 931.72,
+          "text": "The second action is a text amendment."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 934.82,
+          "text": "Because there is no place on the zoning lot to use the bonus floor area, this would allow the theater to transfer it to elsewhere within the theater district."
+        }
+      ]
+    },
+    {
+      "end_sec": 981.596,
+      "id": "021",
+      "slug": "rosenthal-details-requirements-for-theater-rehabilitation-bonus",
+      "start_sec": 946.22,
+      "summary": "Rosenthal says the rehabilitation bonus requires major structural work for commercial viability and legitimate theater use, including expanding the stage, re-raking the orchestra, and improving accessibility. She then turns the presentation over to architect Francelle Lim.",
+      "title": "Rosenthal details requirements for theater rehabilitation bonus",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 946.22,
+          "text": "Next slide."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 949.896,
+          "text": "And the requirements for rehabilitation bonus is not just ordinary work."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 955.696,
+          "text": "It's major structural changes for purposes of improving the theater for commercial viability, for legitimate theater use,"
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 964.896,
+          "text": "including work like expanding the stage, re-raking the orchestra, improving accessibility, etc."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 971.596,
+          "text": "So I'm going to turn it over now to our architect who will talk about the work that we're doing in light of these requirements."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 980.096,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 1065.696,
+      "id": "022",
+      "slug": "francelle-lim-presents-stage-and-orchestra-pit-deficiencies",
+      "start_sec": 981.596,
+      "summary": "Architect Francelle Lim explains Studio 54 lacks an orchestra pit and stage traps, forcing productions to spend $40,000-$90,000 to adapt. The rehabilitation would restore the pit and traps, rebuild the stage, and expand stage-left wing space for productions.",
+      "title": "Francelle Lim presents stage and orchestra pit deficiencies",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 981.596,
+          "text": "Francelle."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 982.796,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 984.096,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 985.096,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 985.496,
+          "text": "My name is Francelle Lim."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 986.696,
+          "text": "I'm from Inyad Architects, and we're working with the Roundabout Theater on the rehabilitation for Studio 54."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 993.196,
+          "text": "This is just a list of a lot of the deficiencies and challenges that currently exist at Studio 54 and the proposed rehabilitation."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1000.396,
+          "text": "We're going to go over each of these in the following slides, so I'm not going to read through these next."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1005.796,
+          "text": "Starting with the stage and the orchestra pit, which Carol just spoke a little bit about, this is a Broadway house."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1013.296,
+          "text": "It operates without a orchestra pit, which puts it at a very difficult position in that"
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1021.596,
+          "text": "to put in certain productions, you have to overbuild the stage or you have to overbuild the seating, which can cost anywhere from $40,000 to $90,000 per production every time it has to do that."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1033.096,
+          "text": "Also, when the orchestra pit was removed, I think it was when CBS was in the building, they also..."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1038.396,
+          "text": "Closed up the stage traps, which is also integral for theatrical productions."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1043.796,
+          "text": "Next."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1046.496,
+          "text": "So as part of the rehabilitation, not only are we restoring the orchestra pit and the stage traps, rebuilding the stage, we're also expanding the stage left area, providing some"
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1059.096,
+          "text": "offstage area, wing space that does not exist now, which will help with productions."
+        }
+      ]
+    },
+    {
+      "end_sec": 1109.38,
+      "id": "023",
+      "slug": "lim-presents-back-of-house-deficiencies-and-rehabilitation-plans",
+      "start_sec": 1065.696,
+      "summary": "Lim describes back-of-house deficiencies, including insufficient space for artists and production support, no ADA-accessible spaces, and outdated mechanical and communication systems. The project would upgrade building systems, excavate basement support space, and rearrange production areas for accessibility.",
+      "title": "Lim presents back-of-house deficiencies and rehabilitation plans",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1065.696,
+          "text": "Next."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1067.496,
+          "text": "In the back of house, there are quite a lot of challenges and deficiencies."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1071.296,
+          "text": "There's insufficient space for artists and production support."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1075.196,
+          "text": "None of the spaces are ADA accessible, and the systems, the mechanical system, the communication systems are completely outdated."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1084.38,
+          "text": "Next."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1086.88,
+          "text": "So for the back of house rehabilitation, upgrades of course will happen for all of the building systems."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1093.28,
+          "text": "Additional space will be created for back of house support by excavating below the current orchestra level in non-excavated space in the basement."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1102.78,
+          "text": "All of the spaces for support and production will be rearranged and accessible."
+        }
+      ]
+    },
+    {
+      "end_sec": 1179.48,
+      "id": "024",
+      "slug": "lim-presents-auditorium-and-balcony-rehabilitation",
+      "start_sec": 1109.38,
+      "summary": "Lim says the orchestra level will be re-raked, the lower and upper balconies rebuilt, and ADA seating redistributed beyond the front row. She says the changes will improve sight lines, comfort, and the patron experience throughout the house.",
+      "title": "Lim presents auditorium and balcony rehabilitation",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1109.38,
+          "text": "Next."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1112.58,
+          "text": "In the auditorium and patron seating, on the ground floor, the orchestra we've already spoke about, it's been flattened out."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1120.08,
+          "text": "So the orchestra will be re-raked so that the sight lines, again, will be restored in addition to the orchestra pit."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1127.88,
+          "text": "There will also be a better distribution of ADA seating, which right now, because of configuration, is limited to the front row, really sides of the orchestra level."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1136.88,
+          "text": "The balcony will be rebuilt, both the lower and upper balcony."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1141.98,
+          "text": "Because currently, Carol mentioned the pitching of the balcony, the steepness of the rake, and the sight lines, as well as there's no accessibility on the upper levels."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1151.78,
+          "text": "Next."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1153.98,
+          "text": "I think I jumped ahead a little bit on the rehabilitation."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1158.28,
+          "text": "So we are re-raking the orchestra level, rebuilding the balcony in full, which allows, again, greater patron accessibility on all levels of the seating."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1169.38,
+          "text": "It also provides for better comfort, better sight lines."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1173.68,
+          "text": "and improves the experience for the patrons."
+        }
+      ]
+    },
+    {
+      "end_sec": 1285.98,
+      "id": "025",
+      "slug": "lim-presents-front-of-house-accessibility-and-restoration-renderings",
+      "start_sec": 1179.48,
+      "summary": "Lim describes front-of-house crowding and limited circulation, then presents renderings for a restored marquee and sign, an intact original lobby, relocated and enlarged bars, a new upper overlook, and an elevator serving all levels. She stresses accessibility for patrons, artists, and staff.",
+      "title": "Lim presents front-of-house, accessibility, and restoration renderings",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1179.48,
+          "text": "Next slide."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1182.58,
+          "text": "So the front of house has a lot of deficiencies as well."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1187.38,
+          "text": "Part is there is a limited circulation."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1190.68,
+          "text": "If you could wrap it up."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1192.18,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1192.58,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1193.78,
+          "text": "And limited circulation and a lot of crowds in the lobby."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1199.38,
+          "text": "So the rehab of the patient on the next slide will..."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1204.78,
+          "text": "Redistribute patron services and this is just a slide that talks about accessibility throughout the entire building and we want to stress that this accessibility is not just for patrons it's also for artists"
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1215.38,
+          "text": "and staff as well as the public to make it a safe and accessible facility and then just to wrap up we have some renderings that show the work that in addition to all of this technical upgrades obviously go to the next slide"
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1228.78,
+          "text": "We are also doing work to restore the building."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1233.48,
+          "text": "And this is a look at the exterior of the building with a new renovated marquee and a new sign that mimics the original sign."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1243.48,
+          "text": "Next slide shows the original lobby, which is being restored pretty much intact."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1250.78,
+          "text": "Next slide shows the relocated bar taken out of the back of the orchestra to alleviate crowding, which is on the main floor."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1259.18,
+          "text": "The next slide shows the new"
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1262.98,
+          "text": "mezzanine bar enlarged to create a greater space for patrons."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1266.68,
+          "text": "It also shows an upper overlook, which provides the accessibility level to the upper balcony."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1273.28,
+          "text": "And what I forgot to mention is there is an elevator that is servicing all of the levels for the patrons."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1278.08,
+          "text": "And the last slide, I believe, is a view of the house."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1282.18,
+          "text": "In its renovated state."
+        },
+        {
+          "speaker": "Francel Lim",
+          "t_sec": 1283.68,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1285.28,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 1366.68,
+      "id": "026",
+      "slug": "chair-louis-asks-why-bonus-floor-area-is-limited-to-the-theater-site",
+      "start_sec": 1285.98,
+      "summary": "Chair Louis asks why the special permit limits additional floor area to the theater site. Carol Rosenthal explains the 44-year-old provision was designed for on-site development but has been used only three times, so the text amendment would allow transfers within the theater district.",
+      "title": "Chair Louis asks why bonus floor area is limited to the theater site",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1285.98,
+          "text": "I have a quick question regarding the proposal, and I'll hand it over to Council Member Wilson."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1290.38,
+          "text": "I would like to better understand why the use of the additional floor area available through the current special permit is limited to the site where the theater is located, if you could share with us."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 1303.98,
+          "text": "I'll address that."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 1305.38,
+          "text": "That is in the provision of the zoning resolution right now."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 1309.88,
+          "text": "It was, this text dates back about 44 years to when it's one of the original in the theater district, which was one of the first special districts."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 1321.18,
+          "text": "It was thought that it would benefit owners at the time by having their ability to build over or around where they sit, exactly where they are."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 1331.78,
+          "text": "In the many years since it's been passed, it's been used three times, so an average of like one every 15 years, once every 15 years."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 1340.28,
+          "text": "And this has been a real, this particular provision has been a real issue because you just have to happen to have a building that is going to be developed."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 1350.48,
+          "text": "We don't."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 1352.78,
+          "text": "occurred before it was legitimate theater."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 1355.18,
+          "text": "So this provision, by changing it, it will allow us to have the development rights used elsewhere within the theater district."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1364.18,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1364.88,
+          "text": "Councilmember Wilson?"
+        }
+      ]
+    },
+    {
+      "end_sec": 1426.78,
+      "id": "027",
+      "slug": "wilson-asks-how-the-text-amendment-affects-other-theaters",
+      "start_sec": 1366.68,
+      "summary": "Council Member Wilson asks how the text amendment affects other theaters and how many might benefit. Rosenthal says the zoning text applies district-wide, that one other theater has a pending application, and that the tool could help other old theaters raise renovation funds.",
+      "title": "Wilson asks how the text amendment affects other theaters",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 1366.68,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 1368.58,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 1370.08,
+          "text": "As I said in the remarks, very excited about this project, and I'm really excited to see that the application will make it possible for Studio 54 to undergo some much-needed upgrades."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 1381.98,
+          "text": "To what degree do the proposed tax amendments impact other theaters in the district?"
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 1387.58,
+          "text": "And do you have an idea of how many other theaters may benefit from these changes to how the floor area bonus may be used?"
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 1396.28,
+          "text": "The zoning resolution, like in many cases, is not for just one property."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 1401.28,
+          "text": "It's a general text for the theater district as a whole."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 1405.58,
+          "text": "We know of one other theater that has an application also coming down the pike, but that's all we know right now."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 1416.18,
+          "text": "But theoretically, this is a tool that other theaters that are very old can utilize for upgrades."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 1422.78,
+          "text": "And it will be another source of their ability to raise funds to do that."
+        }
+      ]
+    },
+    {
+      "end_sec": 1464.18,
+      "id": "028",
+      "slug": "wilson-asks-how-pre-rehab-transfer-requirement-affects-timeline",
+      "start_sec": 1426.78,
+      "summary": "Wilson asks how the requirement that substantial rehabilitation occur before bonus floor area can be used at a receiving site affects the transfer timeline. Rosenthal says the city would get the benefit of the bargain first, so Roundabout may need a contract or bridge loan to fund the interim.",
+      "title": "Wilson asks how pre-rehab transfer requirement affects timeline",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 1426.78,
+          "text": "So part of the text amendment adds that the bonus floor area can only be used by a receiving site once the substantial rehab in the theater has been completed."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 1436.78,
+          "text": "How does this impact the timeline for the transfer of development rights?"
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 1441.68,
+          "text": "There's a number of..."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 1442.48,
+          "text": "One is that the city will be able to get the benefit of the bargain, meaning the rehab work will be done before you can then sell the development rights."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 1455.48,
+          "text": "So you'll either have to have a contract ahead of time or a bridge loan or some other mechanism to fund during that interim period."
+        }
+      ]
+    },
+    {
+      "end_sec": 1487.68,
+      "id": "029",
+      "slug": "wilson-asks-whether-developers-are-interested-in-receiving-sites",
+      "start_sec": 1464.18,
+      "summary": "Wilson asks whether Roundabout has discussed transferring development rights and whether developers are interested. Rosenthal says it has been hard to sell something they do not yet have and that passing the text amendment would let them market the bonus floor area.",
+      "title": "Wilson asks whether developers are interested in receiving sites",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 1464.18,
+          "text": "Have you begun discussing the transfer of development rights to potential receiving sites?"
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 1468.68,
+          "text": "And are there developers interested in purchasing your potential bonus floor area?"
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 1472.98,
+          "text": "You know, we've been hamstrung."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 1474.58,
+          "text": "It's hard to sell something that you don't have."
+        },
+        {
+          "speaker": "Carol E. Rosenthal",
+          "t_sec": 1477.58,
+          "text": "So we have been working hard to get this text passed through and then to be able to say to people, now we have something that we can sell to you."
+        }
+      ]
+    },
+    {
+      "end_sec": 1532.48,
+      "id": "030",
+      "slug": "wilson-asks-when-renovations-begin-and-how-programming-is-affected",
+      "start_sec": 1487.68,
+      "summary": "Wilson asks when renovations will begin and how they will affect programming. Christopher Knave says construction is planned for 2028 and about two years, and that Roundabout will plan its five theaters carefully to avoid reducing offerings to students and audiences.",
+      "title": "Wilson asks when renovations begin and how programming is affected",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 1487.68,
+          "text": "And then when will renovations begin?"
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 1491.38,
+          "text": "And when they begin, how is that going to affect the programming at Roundabout and Studio 54?"
+        },
+        {
+          "speaker": "Christopher Nave",
+          "t_sec": 1497.98,
+          "text": "So right now the plan is for construction to begin in 2028 and last approximately two years."
+        },
+        {
+          "speaker": "Christopher Nave",
+          "t_sec": 1504.38,
+          "text": "Thankfully, Roundabout operates five theaters within the theater sub-district."
+        },
+        {
+          "speaker": "Christopher Nave",
+          "t_sec": 1509.98,
+          "text": "And so it's sort of a careful chess game of what goes into production and what comes offline."
+        },
+        {
+          "speaker": "Christopher Nave",
+          "t_sec": 1517.28,
+          "text": "And we're currently in the process of planning that season."
+        },
+        {
+          "speaker": "Christopher Nave",
+          "t_sec": 1519.98,
+          "text": "But our intention is not to reduce our offerings at all to the students and audiences we serve."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 1527.68,
+          "text": "Great."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 1528.98,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 1529.48,
+          "text": "That's all for me."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1531.28,
+          "text": "Thank you, Council."
+        }
+      ]
+    },
+    {
+      "end_sec": 1615.528,
+      "id": "031",
+      "slug": "chair-louis-excuses-applicant-panel-and-opens-public-testimony",
+      "start_sec": 1532.48,
+      "summary": "Chair Louis excuses the applicant panel and asks for public witnesses. Staff reports one in-person and one remote speaker, and Chair Louis explains panel procedures, remote removal after testimony, and the two-minute limit before calling Mitchell Mattson.",
+      "title": "Chair Louis excuses applicant panel and opens public testimony",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1532.48,
+          "text": "Are there any members of this panel's excuse?"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1535.68,
+          "text": "Thank you so much for your time today."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1537.48,
+          "text": "We appreciate you all."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1539.38,
+          "text": "Council, are there any members of the public who wish to testify remotely or in person regarding this proposal?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1545.28,
+          "text": "Yes, we actually have one person signed up who is here, and then we also have one person online."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1553.08,
+          "text": "For members of the public here to testify, please note that witnesses will generally be called in panels of three."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1558.78,
+          "text": "If you are a member of the public signed up to testify, please stand by when you hear your name being called and prepare to speak when I indicate that you may begin."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1569.08,
+          "text": "Please also note that once all panelists in your group have completed their testimony, if remotely, you will be removed from the meeting as a group and the next group of speakers will be introduced."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1578.78,
+          "text": "Once removed, participants may continue to view live stream broadcasts of the hearing on the council website."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1585.28,
+          "text": "Members of the public will be given up to two minutes to speak."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1588.08,
+          "text": "Please do not begin until the sergeant at arms has started the clock."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1591.78,
+          "text": "The following individuals who signed up to testify should now come to the witness table."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1597.18,
+          "text": "Mitchell Mattson."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1614.328,
+          "text": "You may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 1755.368,
+      "id": "032",
+      "slug": "mitch-mattson-reads-megan-frazier-s-testimony-supporting-studio-54-rehab",
+      "start_sec": 1615.528,
+      "summary": "Mitch Mattson reads testimony from Megan Frazier, a Local One stagehand and Roundabout workforce program alum. She describes how Studio 54 training launched her career and urges approval of the special permit and text amendment to restore the theater's technical capacities.",
+      "title": "Mitch Mattson reads Megan Frazier's testimony supporting Studio 54 rehab",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Mitch Mattson",
+          "t_sec": 1615.528,
+          "text": "Thank you, Chair Lewis, Council and other committee members."
+        },
+        {
+          "speaker": "Member of the Public - Mitch Mattson",
+          "t_sec": 1619.928,
+          "text": "I'm Mitch Mattson, and I'm reading this on behalf of a friend who is sick today and had every intention of being here."
+        },
+        {
+          "speaker": "Member of the Public - Mitch Mattson",
+          "t_sec": 1626.928,
+          "text": "Megan Frazier, a TWDP, Theatrical Workforce Development Program, alumni who has worked at Studio 54 and wished for me to share this."
+        },
+        {
+          "speaker": "Member of the Public - Mitch Mattson",
+          "t_sec": 1636.528,
+          "text": "Good morning, Chair Lewis and Council Members."
+        },
+        {
+          "speaker": "Member of the Public - Mitch Mattson",
+          "t_sec": 1638.528,
+          "text": "Thank you for the opportunity to speak today on behalf of Roundabout Theatre Company."
+        },
+        {
+          "speaker": "Member of the Public - Mitch Mattson",
+          "t_sec": 1642.728,
+          "text": "My name is Megan Frazier, and I am a Local One stagehand and alumni of Roundabout's career training program."
+        },
+        {
+          "speaker": "Member of the Public - Mitch Mattson",
+          "t_sec": 1649.828,
+          "text": "Studio 54 was a critical piece of my training as a first-year fellow in Roundabout's theatrical workforce development program."
+        },
+        {
+          "speaker": "Member of the Public - Mitch Mattson",
+          "t_sec": 1656.828,
+          "text": "I was able to observe professional stagehands in action and participate in hands-on workshops where I learned how to operate chain motors on the stage and in the fly space of the theater."
+        },
+        {
+          "speaker": "Member of the Public - Mitch Mattson",
+          "t_sec": 1666.928,
+          "text": "The training set me on a career path that altered the course of my life."
+        },
+        {
+          "speaker": "Member of the Public - Mitch Mattson",
+          "t_sec": 1670.928,
+          "text": "After working consistently as an electrician and pyrotechnician for seven years, including three years on union contracts, I was officially sworn in as a member of the IATSE Local One in 2025."
+        },
+        {
+          "speaker": "Member of the Public - Mitch Mattson",
+          "t_sec": 1685.528,
+          "text": "Today, I am currently the most extensively licensed pyrotechnician."
+        },
+        {
+          "speaker": "Member of the Public - Mitch Mattson",
+          "t_sec": 1689.128,
+          "text": "within Local One with licenses in fire performance for film, television, and theater in New York, New Jersey, and Nevada."
+        },
+        {
+          "speaker": "Member of the Public - Mitch Mattson",
+          "t_sec": 1697.028,
+          "text": "My work as a pyrotechnician can be seen in multiple Broadway shows, including the musical and Juliet, now performing at Roundabout Stephen Sondheim Theater."
+        },
+        {
+          "speaker": "Member of the Public - Mitch Mattson",
+          "t_sec": 1706.428,
+          "text": "I am in full support"
+        },
+        {
+          "speaker": "Member of the Public - Mitch Mattson",
+          "t_sec": 1707.828,
+          "text": "of the actions seeking a special permit and text amendment for the rehabilitation of Studio 54."
+        },
+        {
+          "speaker": "Member of the Public - Mitch Mattson",
+          "t_sec": 1713.928,
+          "text": "Roundabout's proposed renovations to restore Studio 54's original technical theater capacities will bring them up to the 21st century Broadway standards and will drastically improve TWDP's skill-based curriculum."
+        },
+        {
+          "speaker": "Member of the Public - Mitch Mattson",
+          "t_sec": 1729.328,
+          "text": "Year one in TWDP is critical for discovering your craft specialty and mastering those skills to stay competitive in our gig-based economy."
+        },
+        {
+          "speaker": "Member of the Public - Mitch Mattson",
+          "t_sec": 1738.628,
+          "text": "With the city's support for this application, Roundabout will be able to bring its vision for Studio 54 to life, not only for the artists and crews working, but for the next generation of technicians training up behind them."
+        },
+        {
+          "speaker": "Member of the Public - Mitch Mattson",
+          "t_sec": 1751.128,
+          "text": "Thank you for your time."
+        }
+      ]
+    },
+    {
+      "end_sec": 1836.6,
+      "id": "033",
+      "slug": "chair-louis-thanks-witness-and-calls-last-time-for-public-testimony",
+      "start_sec": 1755.368,
+      "summary": "Chair Louis thanks the witness, asks if any council member has questions, and excuses the panel. She then makes a last call for any remote or in-person public testimony on LUs 153/154 and waits 30 seconds.",
+      "title": "Chair Louis thanks witness and calls last time for public testimony",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1755.368,
+          "text": "Thank you for your testimony."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1759.168,
+          "text": "Any council member with questions?"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1760.868,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1772.868,
+          "text": "Thank you so much for being here."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1773.968,
+          "text": "This panel is excused."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1775.468,
+          "text": "This is the last call."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1776.668,
+          "text": "If there are any members of the public who wish to testify regarding this proposal remotely, please press the raise hand button now."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1782.768,
+          "text": "Or if you are in person, please identify yourself to the sergeant at arms."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1786.968,
+          "text": "30 seconds."
+        }
+      ]
+    },
+    {
+      "end_sec": 1848.6,
+      "id": "034",
+      "slug": "chair-louis-closes-studio-54-public-hearing-and-lays-over-items",
+      "start_sec": 1836.6,
+      "summary": "With no further public witnesses, Chair Louis closes the public hearing on LUs 153/154 regarding Studio 54 rehabilitation and tax amendment. She states the items are laid over.",
+      "title": "Chair Louis closes Studio 54 public hearing and lays over items",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1836.6,
+          "text": "Being that there are no members of the public who should testify regarding LUs 153 and 154 relating to the Studio 54 Rehabilitation and Tax Amendment, the public hearing is now closed."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1846.9,
+          "text": "The items are laid over."
+        }
+      ]
+    },
+    {
+      "end_sec": 1890.901,
+      "id": "035",
+      "slug": "chair-louis-concludes-meeting-and-adjourns",
+      "start_sec": 1848.6,
+      "summary": "Chair Louis says that concludes today's business and thanks the public, colleagues, subcommittee counsel, Land Use staff, and sergeant at arms. After a brief verbal mix-up, she adjourns the meeting and wishes everyone a good day.",
+      "title": "Chair Louis concludes meeting and adjourns",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1848.6,
+          "text": "That concludes today's business."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1850.1,
+          "text": "I would like to thank members of the public, my colleagues, subcommittee counsel, land use and council staff, and the sergeant at arms for participating in today's meeting."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1858.4,
+          "text": "This meeting is hereby adjourned."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1860.7,
+          "text": "Or not adjourned."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1862.3,
+          "text": "Oh, adjourned."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1863.2,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1866.82,
+          "text": "Stand at ease."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1881.12,
+          "text": "This meeting is now here adjourned."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1883.22,
+          "text": "Have a good day, everyone."
+        }
+      ]
+    }
+  ],
+  "date": "2026-10-20",
+  "duration_sec": 1890.901,
+  "slug": "2026-10-20-1100-am-subcommittee-on-zoning-and-franchises",
+  "summary": [
+    "The Subcommittee on Zoning and Franchises approved two land use applications\u20141455 Coney Island Avenue and 135-27 Sapphire Street\u2014and referred them to the full Land Use Committee.",
+    "The subcommittee then held a hearing on LUs 153/154 for Roundabout Theatre Company's Studio 54 rehabilitation, including a special permit and text amendment to transfer bonus floor area within the theater district.",
+    "Applicant representatives and a public witness testified in support; Chair Louis closed the public hearing, laid the Studio 54 items over, and adjourned the meeting."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE",
+    "LAND_USE"
+  ],
+  "time": "11:00 AM",
+  "title": "Subcommittee on Zoning and Franchises",
+  "topic": "Zoning, 1455 Coney Island Avenue Rezoning, Brooklyn (C 220449 ZMK)",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://discourse-media.qqlab.io/NYCC-250-8-3_261020-110536/video-web.mp4"
+  }
+}
