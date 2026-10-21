@@ -1,0 +1,387 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 24.6,
+      "id": "001",
+      "slug": "council-staff-calls-the-committee-on-women-and-gender-equity-vote-to-order",
+      "start_sec": 0.0,
+      "summary": "Council staff opens the meeting, asks attendees to put devices on silent and not approach the desk, and tells Chair Far\u00edas she may begin.",
+      "title": "Council staff calls the Committee on Women and Gender Equity vote to order",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 0.0,
+          "text": "Good afternoon."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 9.7,
+          "text": "Good afternoon and welcome to the New York City Council vote for the Committee on Women and Gender Equity."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 15.4,
+          "text": "At this time, please put all devices on silent and no one to approach the desk."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 19.9,
+          "text": "Chair, you may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 40.0,
+      "id": "002",
+      "slug": "chair-far-as-opens-the-vote-and-acknowledges-present-council-members",
+      "start_sec": 24.6,
+      "summary": "Chair Amanda C. Far\u00edas welcomes everyone to the vote, identifies herself as chair of the Committee on Women and Gender Equity, and acknowledges present Council members including Felder, Aldebol, Santosuosso, and Gutierrez.",
+      "title": "Chair Far\u00edas opens the vote and acknowledges present Council members",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 24.6,
+          "text": "Good afternoon, everyone."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 25.7,
+          "text": "I'm Councilmember Amanda Farias, and I'm the chair of the Committee on Women and Gender Equity."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 29.5,
+          "text": "Welcome to today's vote."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 31.2,
+          "text": "First, I'd like to acknowledge my colleagues who are present, Councilmembers Felder, Aldebar, Santos, Suoso, and Gutierrez."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 38.5,
+          "text": "Thank you all for being here."
+        }
+      ]
+    },
+    {
+      "end_sec": 50.5,
+      "id": "003",
+      "slug": "chair-far-as-introduces-int-296-a-and-its-sponsor",
+      "start_sec": 40.0,
+      "summary": "Chair Far\u00edas announces that the committee is considering proposed Introduction 296-A, sponsored by Councilmember Farrah Lewis, relating to increasing access to data regarding gender-based violence.",
+      "title": "Chair Far\u00edas introduces Int 296-A and its sponsor",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 40.0,
+          "text": "Today, the committee will be considering proposed introduction number 296-A, sponsored by Councilmember Farrah Lewis, in relation to increasing access to data regarding gender-based violence."
+        }
+      ]
+    },
+    {
+      "end_sec": 88.5,
+      "id": "004",
+      "slug": "chair-far-as-marks-domestic-violence-awareness-month-and-explains-underreporting-concerns",
+      "start_sec": 50.5,
+      "summary": "Chair Far\u00edas recognizes October as Domestic Violence Awareness Month, says the city must acknowledge survivors, and argues that underreporting of domestic and gender-based violence to police hides the true scope and trends of the problem. She notes that relying only on public NYPD data hinders prevention programs and resource allocation.",
+      "title": "Chair Far\u00edas marks Domestic Violence Awareness Month and explains underreporting concerns",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 50.5,
+          "text": "October is recognized as Domestic Violence Awareness Month."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 53.2,
+          "text": "During this month, it's important that we, as a city, acknowledge domestic violence survivors and be a voice for its victims."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 59.9,
+          "text": "But under reporting of domestic and gender-based violence incidents to the police makes it difficult to understand the true scope and trends of this type of violence in our city."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 69.2,
+          "text": "People deserve to have their needs acknowledged before a situation escalates to police intervention, but a lot of our city's reporting on domestic and gender-based violence only uses public New York Police Department data."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 81.9,
+          "text": "This fact hinders the development of effective prevention programs and resource allocation for service providers and law enforcement."
+        }
+      ]
+    },
+    {
+      "end_sec": 113.4,
+      "id": "005",
+      "slug": "chair-far-as-details-int-296-a-mandates-for-ngbv-data-review-and-dashboard",
+      "start_sec": 88.5,
+      "summary": "Chair Far\u00edas explains that Int 296-A would require the Mayor's Office to End Gender-Based Violence, or NGBV, to compile and review existing gender-based violence data, develop recommendations for agencies, and create a data dashboard sharing information from city and state agencies.",
+      "title": "Chair Far\u00edas details Int 296-A mandates for NGBV data review and dashboard",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 88.5,
+          "text": "Proposed intro number two."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 90.0,
+          "text": "296A would require the mayor's office to end gender-based violence or NGBV to compile and review all existing data related to gender-based violence and then develop a report with recommendations for agencies to improve the collection and integration"
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 103.7,
+          "text": "of data on gender-based violence."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 106.0,
+          "text": "It would also require NGBV to develop a data dashboard to share data from city and state agencies around gender-based violence."
+        }
+      ]
+    },
+    {
+      "end_sec": 126.2,
+      "id": "006",
+      "slug": "chair-far-as-outlines-acs-and-housing-authority-reporting-requirements-in-int-296-a",
+      "start_sec": 113.4,
+      "summary": "Chair Far\u00edas says Int 296-A would require reporting from the Administration for Children's Services and the Housing Authority about screenings for gender-based violence and referrals for gender-based violence services.",
+      "title": "Chair Far\u00edas outlines ACS and Housing Authority reporting requirements in Int 296-A",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 113.4,
+          "text": "Finally, it would require reporting from the Administration for Child Services and the Department of Housing Authority about screenings for gender-based violence and when they have referred individuals for services specific to gender-based violence."
+        }
+      ]
+    },
+    {
+      "end_sec": 140.1,
+      "id": "007",
+      "slug": "chair-far-as-calls-for-deeper-understanding-of-gender-based-violence-impacts",
+      "start_sec": 126.2,
+      "summary": "Chair Far\u00edas states that gender-based violence continues to plague the city and calls for a better, deeper understanding of who is affected so the city can prevent violence and meet victims' needs.",
+      "title": "Chair Far\u00edas calls for deeper understanding of gender-based violence impacts",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 126.2,
+          "text": "Gender-based violence continues to plague our city."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 129.2,
+          "text": "We need a better and deeper understanding of who is affected to properly and adequately address ways to prevent such violence and meet victims'needs."
+        }
+      ]
+    },
+    {
+      "end_sec": 146.2,
+      "id": "008",
+      "slug": "chair-far-as-notes-the-bill-sponsor-is-absent-and-thanks-her",
+      "start_sec": 140.1,
+      "summary": "Chair Far\u00edas notes that the bill sponsor is not present for remarks but thanks her for moving the bill forward.",
+      "title": "Chair Far\u00edas notes the bill sponsor is absent and thanks her",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 140.1,
+          "text": "The bill sponsor is not present today for remarks, but we thank her for moving this bill along."
+        }
+      ]
+    },
+    {
+      "end_sec": 161.9,
+      "id": "009",
+      "slug": "chair-far-as-thanks-staff-for-preparing-the-meeting",
+      "start_sec": 146.2,
+      "summary": "Chair Far\u00edas thanks her own staff, Dan Curtin and Josephine Karras, and committee staff including Senior Committee Counsel Julia Goldsmith-Pinkham, Legislative Policy Analyst Katie Salina, and Financial Analyst Ali Soffer for preparing the meeting.",
+      "title": "Chair Far\u00edas thanks staff for preparing the meeting",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 146.2,
+          "text": "Finally, I would like to thank my own staff, Dan Curtin and Josephine Karras, and the members of the Women and Gender Equity"
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 152.1,
+          "text": "Committee staff, Senior Committee Counsel Julia Goldsmith-Pinkham, and Legislative Policy Analyst Katie Salina, and Financial Analyst Ali Soffer, who worked to prepare this meeting."
+        }
+      ]
+    },
+    {
+      "end_sec": 166.9,
+      "id": "010",
+      "slug": "chair-far-as-calls-on-the-clerk-to-begin-the-vote",
+      "start_sec": 161.9,
+      "summary": "Chair Far\u00edas calls on the clerk and says the committee is ready to begin the vote. The clerk acknowledges and says good afternoon.",
+      "title": "Chair Far\u00edas calls on the clerk to begin the vote",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 161.9,
+          "text": "Clerk?"
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 163.0,
+          "text": "We are ready to begin the vote."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 165.9,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 166.3,
+          "text": "Good afternoon."
+        }
+      ]
+    },
+    {
+      "end_sec": 191.8,
+      "id": "011",
+      "slug": "committee-clerk-william-martin-conducts-roll-call-on-int-296-a",
+      "start_sec": 166.9,
+      "summary": "Committee Clerk William Martin conducts roll call for proposed Introduction 296-A. Chair Far\u00edas votes aye, followed by ayes from Gutierrez, Aldebol, and Santosuosso; no negative votes are recorded during the call.",
+      "title": "Committee Clerk William Martin conducts roll call on Int 296-A",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 166.9,
+          "text": "William Martin, Committee Clerk, Roll Call Vote Committee on Women and Gender Equity."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 170.5,
+          "text": "Proposed introduction 296A."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 173.5,
+          "text": "Chair Farias."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 174.4,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 176.4,
+          "text": "Gutierrez."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 178.1,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 180.0,
+          "text": "Shulman."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 183.2,
+          "text": "Alibaba."
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 185.8,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 187.6,
+          "text": "Santos Suoso."
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 189.1,
+          "text": "Aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 198.0,
+      "id": "012",
+      "slug": "committee-reports-four-affirmative-votes-and-approves-int-296-a",
+      "start_sec": 191.8,
+      "summary": "The clerk reports four votes in the affirmative, zero in the negative, and no abstentions. The item has been approved by the committee.",
+      "title": "Committee reports four affirmative votes and approves Int 296-A",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 191.8,
+          "text": "They vote a four in the affirmative, zero in the negative, and no abstentions."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 195.4,
+          "text": "Item has been approved by the committee."
+        }
+      ]
+    },
+    {
+      "end_sec": 209.216,
+      "id": "013",
+      "slug": "chair-far-as-thanks-the-clerk-and-adjourns-the-vote",
+      "start_sec": 198.0,
+      "summary": "Chair Far\u00edas thanks the clerk and declares the vote adjourned.",
+      "title": "Chair Far\u00edas thanks the clerk and adjourns the vote",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 198.0,
+          "text": "Thank you, clerk."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 198.8,
+          "text": "This vote is now adjourned."
+        }
+      ]
+    }
+  ],
+  "date": "2026-10-21",
+  "duration_sec": 209.216,
+  "slug": "2026-10-21-1230-pm-committee-on-women-and-gender-equity",
+  "summary": [
+    "The Committee on Women and Gender Equity held a vote on proposed Introduction 296-A, sponsored by Councilmember Farrah Lewis, relating to increasing access to data regarding gender-based violence.",
+    "Chair Amanda C. Far\u00edas described the bill's requirements for the Mayor's Office to End Gender-Based Violence, the Administration for Children's Services, and the Housing Authority to collect, report, and share data on gender-based violence.",
+    "The committee roll call resulted in four affirmative votes, zero negative votes, and no abstentions, approving Int 296-A; Chair Far\u00edas then adjourned the vote."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "12:30 PM",
+  "title": "Committee on Women and Gender Equity",
+  "topic": "Increasing access to data around gender-based violence",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://discourse-media.qqlab.io/NYCC-250-8-2_261021-130413/video-web.mp4"
+  }
+}

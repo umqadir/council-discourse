@@ -1,0 +1,414 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 25.0,
+      "id": "001",
+      "slug": "council-staff-calls-meeting-to-order-and-sets-housekeeping-rules",
+      "start_sec": 8.0,
+      "summary": "Council staff welcome attendees to the New York City Council Subcommittee on Early Childhood Education vote and instruct everyone to silence devices and stay away from the dais. The chair is then invited to begin.",
+      "title": "Council staff calls meeting to order and sets housekeeping rules",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 8.0,
+          "text": "Good morning and welcome to the New York City Council Committee vote for early childhood education."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 16.1,
+          "text": "At this time, please place all devices on silent and no one is to approach the dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 21.2,
+          "text": "Chair, you may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 48.0,
+      "id": "002",
+      "slug": "chair-guti-rrez-opens-vote-and-acknowledges-attending-members",
+      "start_sec": 25.0,
+      "summary": "Chair Jennifer Guti\u00e9rrez greets everyone, identifies herself as chair of the Subcommittee on Early Childhood Education, and welcomes attendees to the vote. She acknowledges Councilmembers Gale Brewer, Simcha Felder, Julie Won, and Rita Joseph, and notes Kevin Riley is expected shortly.",
+      "title": "Chair Guti\u00e9rrez opens vote and acknowledges attending members",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 25.3,
+          "text": "Good morning, everyone."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 26.5,
+          "text": "Thank you for waiting."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 27.3,
+          "text": "I'm Councilmember Gutierrez, chair of the Subcommittee on Early Childhood Education."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 31.4,
+          "text": "Welcome to our vote."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 32.7,
+          "text": "First, I want to acknowledge my colleagues who are all punctual and who are here waiting for me, starting with Councilmember Gail Brewer and Councilmember Simka Felder, Councilmembers Julie Wan, Councilmember Rita Joseph,"
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 44.3,
+          "text": "and I believe Councilmember Kevin Riley will be here in a minute."
+        }
+      ]
+    },
+    {
+      "end_sec": 64.0,
+      "id": "003",
+      "slug": "chair-guti-rrez-introduces-resolution-650-opposing-federal-head-start-rule",
+      "start_sec": 48.0,
+      "summary": "Chair Guti\u00e9rrez announces that the subcommittee will consider Resolution 650, which she sponsors. The resolution opposes the federally proposed rule titled 'Reducing Federal Burden for Head Start Programs' and calls on the federal government to protect and grow access to high-quality early education.",
+      "title": "Chair Guti\u00e9rrez introduces Resolution 650 opposing federal Head Start rule",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 48.7,
+          "text": "Today, the subcommittee will be considering Resolution 650, sponsored by myself, opposing the federally proposed rule change titled Reducing Federal Burden for Head Start Programs and calling on the federal government to prioritize protecting and growing access to high-quality education for young children."
+        }
+      ]
+    },
+    {
+      "end_sec": 87.0,
+      "id": "004",
+      "slug": "chair-guti-rrez-details-proposed-federal-changes-to-head-start-standards",
+      "start_sec": 64.0,
+      "summary": "Chair Guti\u00e9rrez explains that on August 6, 2026, the U.S. Department of Health and Human Services released the proposed rule. She says it would remove or weaken standards governing eligibility verification, hours of care, and teacher language by mandating English-only instruction.",
+      "title": "Chair Guti\u00e9rrez details proposed federal changes to Head Start standards",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 64.0,
+          "text": "On August 6, 2026, the United States Department of Health and Human Services released a notice of proposed rulemaking titled Reducing Federal Burden for Head Start Programs."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 73.0,
+          "text": "The proposed rule change would remove or weaken many of the standards that currently govern Head Start, including how programs verify eligibility, how many hours of care programs provide to children, and what language teachers use by mandating English-only instruction."
+        }
+      ]
+    },
+    {
+      "end_sec": 95.0,
+      "id": "005",
+      "slug": "chair-guti-rrez-praises-head-start-as-gold-standard-anti-poverty-program",
+      "start_sec": 87.0,
+      "summary": "Chair Guti\u00e9rrez notes that Head Start was established in the 1960s to fight poverty and has long been considered by experts a gold standard of early learning. She frames the program as a proven model now under threat.",
+      "title": "Chair Guti\u00e9rrez praises Head Start as gold standard anti-poverty program",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 87.2,
+          "text": "Head Start established in the 1960s to help fight poverty."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 90.1,
+          "text": "has long been considered by experts to be a gold standard of early learning programs."
+        }
+      ]
+    },
+    {
+      "end_sec": 117.0,
+      "id": "006",
+      "slug": "chair-guti-rrez-cites-research-on-head-start-cognitive-and-adult-outcomes",
+      "start_sec": 95.0,
+      "summary": "Chair Guti\u00e9rrez says research shows Head Start participants outperform peers on every cognitive and social-emotional domain measured by kindergarten entry. She adds that as adults, former participants have higher graduation and degree attainment, less public assistance use, lower poverty rates, and higher earnings.",
+      "title": "Chair Guti\u00e9rrez cites research on Head Start cognitive and adult outcomes",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 95.1,
+          "text": "Research shows that children who participate in Head Start programs outperform their peers who did not attend Head Start on every cognitive and social-emotional domain measured by the time they enter kindergarten."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 105.8,
+          "text": "It also shows that as adults, those children who attend Head Start had higher rates of high school graduation and post-secondary degree attainment, reduced use of public assistance, lower poverty rates, and enhanced earnings."
+        }
+      ]
+    },
+    {
+      "end_sec": 133.0,
+      "id": "007",
+      "slug": "chair-guti-rrez-warns-rule-would-reduce-access-for-40-000-ny-children",
+      "start_sec": 117.0,
+      "summary": "Chair Guti\u00e9rrez argues the proposed changes would make Head Start harder to access and lower quality for nearly 40,000 children across New York State. She says the rule would fundamentally change what Head Start is and urges colleagues to vote for the resolution.",
+      "title": "Chair Guti\u00e9rrez warns rule would reduce access for 40,000 NY children",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 117.1,
+          "text": "The proposed rule changes will make Head Start harder to access and lower quality for nearly 40,000 kids across New York State who participate in the program."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 124.8,
+          "text": "It will fundamentally change what Head Start is."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 127.1,
+          "text": "I stand firmly opposed to the proposed rule change and urge my colleagues to join me in this opposition by voting for this resolution."
+        }
+      ]
+    },
+    {
+      "end_sec": 149.0,
+      "id": "008",
+      "slug": "chair-guti-rrez-thanks-staff-and-calls-clerk-to-begin-vote",
+      "start_sec": 133.0,
+      "summary": "Chair Guti\u00e9rrez thanks subcommittee staff Julia Goldsmith-Pinkham, Katie Salina, Grace Amado, Andrew Lane Lawless, and Margaret Barnsley, as well as her own staff Frank, Angelica, and Madeline. She then tells the clerk the subcommittee is ready to begin.",
+      "title": "Chair Guti\u00e9rrez thanks staff and calls clerk to begin vote",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 133.7,
+          "text": "Finally, I want to thank the subcommittee staff, Julia Goldsmith-Pinkham, Katie Salina, Grace Amado, Andrew Lane Lawless, and Margaret Barnsley, as well as my own staff, Frank, Angelica, Madeline, for their work to prepare for today's vote."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 146.7,
+          "text": "Clerk, we're ready to begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 157.0,
+      "id": "009",
+      "slug": "clerk-martin-opens-roll-call-on-resolution-650",
+      "start_sec": 149.0,
+      "summary": "Committee Clerk William Martin identifies himself and announces a roll-call vote on Resolution 650 before the Subcommittee on Early Childhood Education. He begins by calling Chair Guti\u00e9rrez.",
+      "title": "Clerk Martin opens roll call on Resolution 650",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 149.1,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 149.5,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 150.0,
+          "text": "William Martin, Committee Clerk, Roll Call Vote Committee on Subcommittee on Early Childhood Education, Resolution 650."
+        }
+      ]
+    },
+    {
+      "end_sec": 165.0,
+      "id": "010",
+      "slug": "roll-call-records-chair-guti-rrez-voting-aye",
+      "start_sec": 157.0,
+      "summary": "Clerk Martin calls Chair Guti\u00e9rrez, and an aye vote is recorded. The clerk notes the first affirmative vote.",
+      "title": "Roll call records Chair Guti\u00e9rrez voting aye",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 157.2,
+          "text": "Chair Gutierrez."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 158.6,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 160.2,
+          "text": "One."
+        }
+      ]
+    },
+    {
+      "end_sec": 195.0,
+      "id": "011",
+      "slug": "roll-call-continues-through-brewer-joseph-felder-and-santosuosso",
+      "start_sec": 165.0,
+      "summary": "Clerk Martin calls Councilmembers Riley, Brewer, Joseph, Felder, and Santosuosso. Councilmember Brewer responds 'Yes' and Councilmember Joseph is recorded as voting aye; other names are called as the roll proceeds.",
+      "title": "Roll call continues through Brewer, Joseph, Felder, and Santosuosso",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 165.004,
+          "text": "Riley."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 167.404,
+          "text": "Brewer."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 168.904,
+          "text": "Yes."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 170.404,
+          "text": "Joseph."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 172.704,
+          "text": "I."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 174.204,
+          "text": "Felder."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 179.604,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 180.104,
+          "text": "Santo Suoso."
+        }
+      ]
+    },
+    {
+      "end_sec": 200.0,
+      "id": "012",
+      "slug": "councilmember-riley-arrives-and-votes-aye",
+      "start_sec": 195.0,
+      "summary": "Clerk Martin calls Councilmember Kevin Riley, who responds 'Aye.' This adds another affirmative vote to the roll call on Resolution 650.",
+      "title": "Councilmember Riley arrives and votes aye",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 195.804,
+          "text": "Councilmember Riley."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 197.104,
+          "text": "Aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 2237.0,
+      "id": "013",
+      "slug": "committee-adopts-resolution-650-6-0-with-roll-held-open",
+      "start_sec": 200.0,
+      "summary": "Clerk Martin announces six affirmative votes, zero negative, and no abstentions, so Resolution 650 is adopted by the committee. At the chair's request, the roll is held open.",
+      "title": "Committee adopts Resolution 650 6-0 with roll held open",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 200.056,
+          "text": "With a vote of six in the affirmative, zero in the negative, and no abstentions, the resolution has been adopted by the committee, and the roll will be held open at request of the chair."
+        }
+      ]
+    },
+    {
+      "end_sec": 2245.0,
+      "id": "014",
+      "slug": "continuation-roll-call-for-councilmember-santosuosso",
+      "start_sec": 2237.0,
+      "summary": "After a long pause, Clerk Martin resumes the roll call for the Subcommittee on Early Childhood Education on Resolution 650. He calls Councilmember Kayla Santosuosso, who votes aye.",
+      "title": "Continuation roll call for Councilmember Santosuosso",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 2237.8,
+          "text": "Continuation roll call subcommittee on early childhood education."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 2240.8,
+          "text": "Resolution 650, Councilmember Santos-Vosso."
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 2244.2,
+          "text": "Aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 2283.285,
+      "id": "015",
+      "slug": "final-vote-recorded-7-0-full-committee-adopts-resolution-650",
+      "start_sec": 2245.0,
+      "summary": "Clerk Martin reports the final vote as seven in the affirmative, zero in the negative, and no abstentions. He confirms to the chair that the full committee has adopted Resolution 650.",
+      "title": "Final vote recorded 7-0; full committee adopts Resolution 650",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 2245.0,
+          "text": "Final vote is now seven in the affirmative, zero in the negative."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 2248.3,
+          "text": "No abstentions."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 2249.1,
+          "text": "Madam Chair, that is a..."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 2250.5,
+          "text": "Full committee."
+        }
+      ]
+    }
+  ],
+  "date": "2026-10-21",
+  "duration_sec": 2283.285,
+  "slug": "2026-10-21-1100-am-subcommittee-on-early-childhood-education",
+  "summary": [
+    "The Subcommittee on Early Childhood Education convened a roll-call vote on Resolution 0650-2026, which opposes the federal proposed rule 'Reducing Federal Burden for Head Start Programs.'",
+    "Chair Jennifer Guti\u00e9rrez argued the rule would weaken eligibility, hours, and language standards, citing Head Start's history and research on child and adult outcomes and warning of impact on nearly 40,000 New York children.",
+    "The committee initially adopted the resolution 6-0 with the roll held open, then recorded Councilmember Kayla Santosuosso's aye for a final 7-0 vote."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "11:00 AM",
+  "title": "Subcommittee on Early Childhood Education",
+  "topic": "Opposing the federally proposed rule change titled, \u201cReducing Federal Burden for Head Start Programs\u201d and calling on the Federal Government to prioritize protecting and growing access to high-quality education for young children",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://discourse-media.qqlab.io/NYCC-250-8-2_261021-111918/video-web.mp4"
+  }
+}
