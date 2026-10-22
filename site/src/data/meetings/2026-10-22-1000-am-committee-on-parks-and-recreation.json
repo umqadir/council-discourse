@@ -1,0 +1,312 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 112.112,
+      "id": "001",
+      "slug": "staff-run-initial-microphone-check-before-the-parks-and-recreation-hearing",
+      "start_sec": 54.5,
+      "summary": "Council staff open the room's audio feed with a quick mic check, saying 'Afraid to stand tall' and confirming 'There it is.' The exchange is purely technical setup ahead of the 10:00 AM Committee on Parks and Recreation hearing.",
+      "title": "Staff run initial microphone check before the Parks and Recreation hearing",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 54.5,
+          "text": "Afraid to stand tall."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 55.5,
+          "text": "There it is."
+        }
+      ]
+    },
+    {
+      "end_sec": 115.912,
+      "id": "002",
+      "slug": "staff-test-closed-caption-audio-with-a-count-off",
+      "start_sec": 112.112,
+      "summary": "A staff member announces they are 'testing audio for closed captions' and counts 'one, two, three, four, five, six' into the microphone. The check is to verify the captioning feed is picking up room audio.",
+      "title": "Staff test closed-caption audio with a count-off",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 112.112,
+          "text": "Testing audio for closed captions."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 113.612,
+          "text": "One, two, three, four, five, six."
+        }
+      ]
+    },
+    {
+      "end_sec": 119.312,
+      "id": "003",
+      "slug": "staff-coordinate-camera-framing-and-stay-out-of-the-shot",
+      "start_sec": 115.912,
+      "summary": "Staff joke about being in the picture, with one saying 'I hope I'm not in your picture' and another offering to 'stand off to the side.' The crew is positioning people and cameras before the hearing begins.",
+      "title": "Staff coordinate camera framing and stay out of the shot",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 115.912,
+          "text": "I hope I'm not in your picture."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 117.612,
+          "text": "I will stand off to the side."
+        }
+      ]
+    },
+    {
+      "end_sec": 121.612,
+      "id": "004",
+      "slug": "staff-confirm-the-closed-hot-shot-camera-feed-is-ready",
+      "start_sec": 119.312,
+      "summary": "A staff member notes 'It's a closed hot shot' and another responds 'Excellent,' then asks to be kept out of frame. The camera feed for the room is confirmed working.",
+      "title": "Staff confirm the closed hot shot camera feed is ready",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 119.312,
+          "text": "It's a closed hot shot."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 120.512,
+          "text": "Excellent."
+        }
+      ]
+    },
+    {
+      "end_sec": 125.112,
+      "id": "005",
+      "slug": "staff-clear-the-frame-as-room-setup-wraps-up",
+      "start_sec": 121.612,
+      "summary": "With the shot confirmed, a staff member asks to be kept out of the frame. This is the final bit of camera positioning before the room-readiness check.",
+      "title": "Staff clear the frame as room setup wraps up",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 121.612,
+          "text": "Keep me out of there."
+        }
+      ]
+    },
+    {
+      "end_sec": 156.804,
+      "id": "006",
+      "slug": "staff-confirm-30-chairs-are-set-and-the-room-is-ready-to-go",
+      "start_sec": 125.112,
+      "summary": "A staff member reports 'There were 30 chairs in this room, and we are good to go.' The seating and room setup for the Committee on Parks and Recreation hearing is declared complete.",
+      "title": "Staff confirm 30 chairs are set and the room is ready to go",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 125.112,
+          "text": "There were 30 chairs in this room, and we are good to go."
+        }
+      ]
+    },
+    {
+      "end_sec": 166.332,
+      "id": "007",
+      "slug": "staff-wait-on-a-second-camera-before-proceeding",
+      "start_sec": 156.804,
+      "summary": "Staff acknowledge they were 'just waiting to get this camera as well,' holding the start until the additional camera is in place. The pause is technical, not substantive.",
+      "title": "Staff wait on a second camera before proceeding",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 156.804,
+          "text": "Oh, okay."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 157.504,
+          "text": "I was just waiting to get this camera as well."
+        }
+      ]
+    },
+    {
+      "end_sec": 171.232,
+      "id": "008",
+      "slug": "staff-note-it-is-photo-day-and-plan-a-group-photo",
+      "start_sec": 166.332,
+      "summary": "Staff remark 'Photo day' and discuss taking a group photo, with one suggesting they 'can still do that, maybe after.' The photo is deferred until the day's proceedings allow.",
+      "title": "Staff note it is photo day and plan a group photo",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 166.332,
+          "text": "Yeah."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 168.932,
+          "text": "Photo day."
+        }
+      ]
+    },
+    {
+      "end_sec": 178.932,
+      "id": "009",
+      "slug": "staff-await-the-all-clear-signal-to-begin-the-hearing",
+      "start_sec": 171.232,
+      "summary": "A staff member says they are 'just waiting for the all clear' before starting. The room is staged but the hearing has not yet been gaveled in.",
+      "title": "Staff await the all-clear signal to begin the hearing",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 171.232,
+          "text": "Great."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 171.432,
+          "text": "I'm just waiting for the all clear from."
+        }
+      ]
+    },
+    {
+      "end_sec": 190.132,
+      "id": "010",
+      "slug": "staff-agree-to-take-the-photo-after-the-state-ed-item",
+      "start_sec": 178.932,
+      "summary": "Staff settle on timing for the group photo, agreeing to do it 'after pre-state ed' or 'after state ed.' They also note 'this is me talking still,' indicating the room mic remains live.",
+      "title": "Staff agree to take the photo after the state ed item",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 178.932,
+          "text": "Oh, we were going to get a photo today."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 182.432,
+          "text": "Yeah, we can still do that, maybe after."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 186.132,
+          "text": "After pre-state ed."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 187.432,
+          "text": "Or after state ed."
+        }
+      ]
+    },
+    {
+      "end_sec": 196.732,
+      "id": "011",
+      "slug": "staff-flag-that-the-room-microphone-is-still-live",
+      "start_sec": 190.132,
+      "summary": "A staff member observes 'And yes, this is me talking still,' confirming the open mic is capturing casual conversation. It serves as a reminder that the room audio is hot before the hearing starts.",
+      "title": "Staff flag that the room microphone is still live",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 190.132,
+          "text": "And yes, this is me talking still."
+        }
+      ]
+    },
+    {
+      "end_sec": 206.532,
+      "id": "012",
+      "slug": "staff-discuss-a-member-leaving-early-for-a-child-care-matter",
+      "start_sec": 196.732,
+      "summary": "Staff note that someone 'has to deal with a child care thing,' explaining an early departure from the room. The group responds 'Okay, awesome' and moves on with setup.",
+      "title": "Staff discuss a member leaving early for a child care matter",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 196.732,
+          "text": "Oh, although y'all was leaving."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 198.432,
+          "text": "He is?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 198.832,
+          "text": "Yeah."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 200.132,
+          "text": "He has to deal with..."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 204.732,
+          "text": "A child care thing."
+        }
+      ]
+    },
+    {
+      "end_sec": 230.208,
+      "id": "013",
+      "slug": "staff-confirm-setup-is-complete-and-thank-the-crew",
+      "start_sec": 206.532,
+      "summary": "With the room, cameras, and audio ready, a staff member declares 'We're all set' and thanks the team. The Committee on Parks and Recreation hearing is poised to begin on Int 0927-2026, the renaming of Edgemere Avenue in Queens.",
+      "title": "Staff confirm setup is complete and thank the crew",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 206.532,
+          "text": "Okay, awesome."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 207.132,
+          "text": "We're all set."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 208.132,
+          "text": "Thank you."
+        }
+      ]
+    }
+  ],
+  "date": "2026-10-22",
+  "duration_sec": 230.208,
+  "slug": "2026-10-22-1000-am-committee-on-parks-and-recreation",
+  "summary": [
+    "Committee on Parks and Recreation hearing on Int 0927-2026, a local law to rename Edgemere Avenue and a public place in Queens and amend the official city map (Proposed Int. No. 927-A).",
+    "Chair Ty Hankerson leads the committee, with members including Shekar Krishnan, Linda Lee, Christopher Marte, Frank Morano, Mercedes Narcisse, Sandy Nurse, Yusef Salaam, Pierina Ana Sanchez, Kayla Santosuosso, and Sandra Ung.",
+    "The captured transcript covers only pre-hearing room setup \u2014 mic and closed-caption audio tests, camera framing, seating checks, and photo-day logistics \u2014 with no substantive testimony or votes recorded."
+  ],
+  "tags": [
+    "HEARING",
+    "LAND_USE"
+  ],
+  "time": "10:00 AM",
+  "title": "Committee on Parks and Recreation",
+  "topic": "Renaming one thoroughfare and public place in the Borough of Queens, Edgemere Avenue, and to amend the official map of the city of New York accordingly",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://discourse-media.qqlab.io/NYCC-PV-CH-COM_261022-121338/video-web.mp4"
+  }
+}
