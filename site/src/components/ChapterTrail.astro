@@ -1,5 +1,5 @@
 ---
-import { chapterTypeLabel, formatClock } from "@lib/format";
+import { chapterTypeLabel, formatClock, hasSummaryText } from "@lib/format";
 import type { Meeting } from "@lib/types";
 
 interface Props {
@@ -45,7 +45,7 @@ const dense = count > 90;
             data-badge={chapterTypeLabel(chapter.type)}
             data-clock={formatClock(chapter.start_sec)}
             data-title={chapter.title}
-            data-summary={chapter.summary}
+            data-summary={hasSummaryText(chapter.summary) ? chapter.summary : ""}
             aria-label={`Jump to: ${chapter.title}`}
             x-show="selected[$el.dataset.type]"
             x-cloak

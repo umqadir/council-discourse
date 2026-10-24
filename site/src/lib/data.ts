@@ -2,13 +2,15 @@ import fs from "node:fs";
 import path from "node:path";
 import type { BodySummary, Chapter, Meeting } from "./types";
 import { slugify } from "./slug";
+import { timeToMinutes } from "./format";
 
 const DATA_DIR = path.join(process.cwd(), "src", "data", "meetings");
 
 let meetingCache: Meeting[] | undefined;
 
+// Newest first: by ISO date, then by parsed 24-hour start time.
 function compareMeetingsDesc(a: Meeting, b: Meeting): number {
-  return `${b.date} ${b.time}`.localeCompare(`${a.date} ${a.time}`);
+  return b.date.localeCompare(a.date) || timeToMinutes(b.time) - timeToMinutes(a.time);
 }
 
 export function bodySlug(meeting: Meeting): string {

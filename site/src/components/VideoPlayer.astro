@@ -1,12 +1,11 @@
 ---
 interface Props {
   url: string;
-  poster: string;
   startSec: number;
   title: string;
 }
 
-const { url, poster, startSec, title } = Astro.props;
+const { url, startSec, title } = Astro.props;
 ---
 
 <link rel="stylesheet" href="https://vjs.zencdn.net/8.23.4/video-js.css" />
@@ -18,7 +17,6 @@ const { url, poster, startSec, title } = Astro.props;
     controls
     preload="metadata"
     playsinline
-    poster={poster}
     data-chapter-video
     data-start={startSec}
     aria-label={title}
@@ -27,7 +25,7 @@ const { url, poster, startSec, title } = Astro.props;
   </video>
 </div>
 
-<script is:inline src="https://vjs.zencdn.net/8.23.4/video.min.js"></script>
+<script is:inline defer src="https://vjs.zencdn.net/8.23.4/video.min.js"></script>
 <script is:inline>
   function setupChapterVideo() {
     const element = document.querySelector("[data-chapter-video]");
@@ -43,15 +41,21 @@ const { url, poster, startSec, title } = Astro.props;
       preload: "metadata",
     });
 
+    // Seek to the chapter start once metadata loads. No pause here: iOS loads
+    // metadata only after the first tap on play, and pausing would force a
+    // second tap. Skip the seek if a transcript timestamp was already used.
+    let seeked = false;
     player.ready(() => {
       player.one("loadedmetadata", () => {
-        player.currentTime(start);
-        player.pause();
+        if (!seeked) {
+          player.currentTime(start);
+        }
       });
       window.chapterVideoPlayer = player;
     });
 
     window.seekChapterVideo = (seconds) => {
+      seeked = true;
       const wasPaused = player.paused();
       player.currentTime(Number(seconds));
       if (wasPaused) {
@@ -60,6 +64,7 @@ const { url, poster, startSec, title } = Astro.props;
     };
   }
 
+  // video.min.js is deferred, so it has run by DOMContentLoaded.
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", setupChapterVideo, { once: true });
   } else {

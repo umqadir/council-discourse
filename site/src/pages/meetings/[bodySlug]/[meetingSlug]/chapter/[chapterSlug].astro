@@ -2,7 +2,7 @@
 import BaseLayout from "@layouts/BaseLayout.astro";
 import ChapterView from "@components/ChapterView.astro";
 import { getRuntime, loadEdgeChapter } from "@lib/edge-data";
-import { chapterOgPath } from "@lib/og";
+import { meetingOgPath } from "@lib/og";
 import { formatDate, formatDuration } from "@lib/format";
 
 export const prerender = false;
@@ -14,7 +14,8 @@ const result = await loadEdgeChapter(
 );
 
 if (result.status === "not-found") {
-  return new Response("Not found", { status: 404 });
+  // A null body lets Astro serve the prerendered 404 page with this status.
+  return new Response(null, { status: 404 });
 }
 if (result.status === "missing-binding") {
   return new Response(`${result.binding} R2 binding is not configured`, { status: 500 });
@@ -23,9 +24,18 @@ if (result.status === "missing-binding") {
 const { meeting, chapter, index } = result;
 const duration = chapter.end_sec - chapter.start_sec;
 const description = `${chapter.title}, a ${formatDuration(duration)} segment from ${meeting.title} on ${formatDate(meeting.date)}.`;
-const ogImage = chapterOgPath(String(bodySlug), meeting.slug, chapter.slug);
+// Only chapters outside the static-recent window reach this route. Their edge
+// OG render can exceed the Workers CPU limit (error 1102), so share previews
+// use the prerendered meeting card; /og/chapter/... still renders on request.
+const ogImage = meetingOgPath(String(bodySlug), meeting.slug);
+const canonicalPath = `/meetings/${bodySlug}/${meeting.slug}/chapter/${chapter.slug}/`;
 ---
 
-<BaseLayout title={`${chapter.title} - ${meeting.title}`} description={description} image={ogImage}>
+<BaseLayout
+  title={`${chapter.title} - ${meeting.title}`}
+  description={description}
+  image={ogImage}
+  canonicalPath={canonicalPath}
+>
   <ChapterView meeting={meeting} chapter={chapter} index={index} bodySlug={String(bodySlug)} />
 </BaseLayout>
