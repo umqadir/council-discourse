@@ -970,3 +970,35 @@ def test_process_one_counts_job_timeout_interrupt_as_failed_attempt(tmp_path: Pa
     assert result["row"]["process_attempts"] == 5
     # At the cap the meeting is no longer selected, so it cannot loop forever.
     assert select_process_candidates(db.connect(db_path)) == []
+
+
+def test_discovery_selects_nothing_once_daily_budget_is_spent(tmp_path: Path, monkeypatch, capsys) -> None:
+    monkeypatch.delenv("COUNCIL_DAILY_BUDGET_USD", raising=False)
+    db_path = tmp_path / "registry.db"
+    conn = db.connect(db_path)
+    db.upsert_meeting(conn, {"meeting_key": "done", "viebit_filename": "done", "event_date": "2026-10-20T10:00:00"})
+    db.upsert_meeting(conn, {"meeting_key": "next", "viebit_filename": "next", "event_date": "2026-10-21T10:00:00"})
+    db.update_meeting(conn, "done", {"cost_usd": 1.0})
+    results_dir = tmp_path / "results"
+    results_dir.mkdir()
+    row = dict(db.get_meeting(conn, "done"))
+    row.update({"cost_usd": 15.5, "process_attempts": 0})
+    (results_dir / "done.json").write_text(json.dumps({"meeting_key": "done", "row": row}) + "\n")
+
+    assert json.loads(pending_matrix_json(conn))["include"]
+    assert merge_results(db_path, results_dir) == 1
+    assert merge_results(db_path, results_dir) == 1  # re-merge books no new spend
+
+    conn = db.connect(db_path)
+    from pipeline.preflight import spend_for_day
+
+    assert spend_for_day(conn) == 14.5
+    assert json.loads(pending_matrix_json(conn))["include"]  # $14.50 < $15
+    db.update_meeting(conn, "done", {"cost_usd": 1.0})
+    assert merge_results(db_path, results_dir) == 1  # cost rises again by $14.50
+    conn = db.connect(db_path)
+    assert spend_for_day(conn) == 29.0
+    assert json.loads(pending_matrix_json(conn)) == {"include": []}
+    assert "reached the $15.00 budget" in capsys.readouterr().err
+    monkeypatch.setenv("COUNCIL_DAILY_BUDGET_USD", "50")
+    assert json.loads(pending_matrix_json(conn))["include"]

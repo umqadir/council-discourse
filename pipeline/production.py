@@ -24,6 +24,7 @@ from .fetch import (
     _require_tool,
     _write_meeting_json,
 )
+from .preflight import budget_exhausted, record_spend
 from .prepare import prepare_meeting
 from .stages import chapterize, name_speakers, transcribe
 from .utils import utc_now_iso
@@ -65,6 +66,8 @@ def select_process_candidates(
     conn: sqlite3.Connection,
     limit: int | None = None,
 ) -> list[sqlite3.Row]:
+    if budget_exhausted(conn):
+        return []
     coverage_start = os.environ.get("COUNCIL_COVERAGE_START", "2026-06-20")[:10]
     # Forward-only coverage: judge by the best-known date, so viebit-only rows
     # with no Legistar event_date can't leak the pre-floor backlog into runs.
@@ -729,6 +732,7 @@ def merge_results(db_path: Path, results_dir: Path) -> int:
     if not results_dir.exists():
         return 0
     count = 0
+    new_spend = 0.0
     # Recurse: upload-artifact@v4 roots each artifact at the least-common
     # ancestor of its paths (data/), so on download the result JSON lands at
     # data/processed-results/processed-results/<key>.json — one level below a
@@ -749,8 +753,14 @@ def merge_results(db_path: Path, results_dir: Path) -> int:
             # resurrecting it would recreate duplicates.
             print(f"merge-results: skipping result for unknown meeting {meeting_key}", file=sys.stderr, flush=True)
             continue
-        db.update_meeting(conn, meeting_key, _merge_result_values(current, values))
+        merged = _merge_result_values(current, values)
+        # Results are re-merged every run; only an increase is new spend.
+        new_spend += max(0.0, float(merged.get("cost_usd") or 0.0) - float(current["cost_usd"] or 0.0))
+        db.update_meeting(conn, meeting_key, merged)
         count += 1
+    if new_spend:
+        record_spend(conn, new_spend)
+        conn.commit()
     checkpoint_db(db_path)
     return count
 
