@@ -24,6 +24,13 @@ GEMINI_PRICING_PER_MILLION_USD = {
     "gemini-3.1-flash-lite": {"input": 0.25, "output": 1.50},
 }
 _OPENROUTER_PRICING_CACHE: dict[str, dict[str, Any]] | None = None
+# Transport-level retry for rate limits, upstream 5xx and timeouts. Separate
+# from the callers' max_attempts, which counts unparsable-JSON regenerations.
+HTTP_RETRY_STATUSES = frozenset({429, 500, 502, 503, 504})
+HTTP_MAX_ATTEMPTS = 3
+HTTP_BACKOFF_BASE_SEC = 2.0
+HTTP_BACKOFF_MAX_SEC = 30.0
+_sleep = time.sleep
 
 
 def estimate_tokens(text: str) -> int:
@@ -154,7 +161,6 @@ def _generate_json_gemini(
                 json_payload=payload,
                 headers=None,
                 timeout_seconds=timeout_seconds,
-                max_attempts=max_attempts,
             )
         except (httpx.TimeoutException, httpx.NetworkError, httpx.RemoteProtocolError):
             raise
@@ -286,7 +292,6 @@ def _generate_json_openai_compatible(
             json_payload=payload,
             headers=headers,
             timeout_seconds=timeout_seconds,
-            max_attempts=max_attempts,
         )
         if response.status_code >= 400 and structured_mode == "json_schema":
             body_excerpt = _response_excerpt(response)
@@ -305,7 +310,6 @@ def _generate_json_openai_compatible(
                     json_payload=payload,
                     headers=headers,
                     timeout_seconds=timeout_seconds,
-                    max_attempts=max_attempts,
                 )
             if response.status_code >= 400:
                 raise RuntimeError(f"OpenAI-compatible {model} failed: {_response_excerpt(response) or body_excerpt}")
@@ -407,16 +411,37 @@ def _post_with_retry(
     json_payload: dict[str, Any],
     headers: dict[str, str] | None,
     timeout_seconds: int,
-    max_attempts: int,
+    max_attempts: int = HTTP_MAX_ATTEMPTS,
 ) -> httpx.Response:
+    """POST, retrying only 429/5xx responses and timeouts/connection errors.
+
+    Bounded exponential backoff (honoring a numeric Retry-After up to the cap).
+    Other 4xx responses are returned immediately for the caller to handle; the
+    last retryable response is returned once attempts run out.
+    """
     for attempt in range(1, max_attempts + 1):
         try:
-            return httpx.post(url, json=json_payload, headers=headers, timeout=timeout_seconds)
+            response = httpx.post(url, json=json_payload, headers=headers, timeout=timeout_seconds)
         except (httpx.TimeoutException, httpx.NetworkError, httpx.RemoteProtocolError):
             if attempt >= max_attempts:
                 raise
-            time.sleep(min(30, 2**attempt))
+            _sleep(_backoff_seconds(attempt, None))
+            continue
+        if response.status_code not in HTTP_RETRY_STATUSES or attempt >= max_attempts:
+            return response
+        _sleep(_backoff_seconds(attempt, response))
     raise RuntimeError("HTTP request did not return a response")
+
+
+def _backoff_seconds(attempt: int, response: httpx.Response | None) -> float:
+    delay = HTTP_BACKOFF_BASE_SEC * 2 ** (attempt - 1)
+    retry_after = response.headers.get("retry-after") if response is not None else None
+    if retry_after:
+        try:
+            delay = max(delay, float(retry_after))
+        except ValueError:
+            pass
+    return min(HTTP_BACKOFF_MAX_SEC, delay)
 
 
 def _retry_json_prompt(prompt: str) -> str:

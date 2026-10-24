@@ -137,6 +137,68 @@ def test_truncated_research_preserves_charge(monkeypatch):
     with pytest.raises(RuntimeError) as exc:
         gemini.generate_grounded_research('research', 'gemini-3.8-flash')
     assert exc.value.generation_meta['estimated_cost_usd'] > 0
+    assert 'Partial research' not in str(exc.value)
+
+
+def _status_response(status: int, headers: dict[str, str] | None = None):
+    import httpx
+
+    return httpx.Response(status, json={'error': status}, headers=headers or {})
+
+
+def test_post_retries_rate_limits_and_server_errors_with_backoff(monkeypatch):
+    responses = iter([_status_response(429, {'retry-after': '7'}), _status_response(503), _status_response(200)])
+    sleeps = []
+    monkeypatch.setattr(gemini.httpx, 'post', lambda *a, **k: next(responses))
+    monkeypatch.setattr(gemini, '_sleep', sleeps.append)
+    response = gemini._post_with_retry('https://x.test', json_payload={}, headers=None, timeout_seconds=5)
+    assert response.status_code == 200
+    assert sleeps == [7.0, 4.0]
+
+
+def test_post_does_not_retry_client_errors(monkeypatch):
+    calls = []
+
+    def post(*_a, **_k):
+        calls.append(1)
+        return _status_response(400)
+
+    monkeypatch.setattr(gemini.httpx, 'post', post)
+    monkeypatch.setattr(gemini, '_sleep', lambda _s: None)
+    assert gemini._post_with_retry('https://x.test', json_payload={}, headers=None, timeout_seconds=5).status_code == 400
+    assert len(calls) == 1
+
+
+def test_post_retry_is_bounded_and_covers_timeouts(monkeypatch):
+    import httpx
+
+    calls = []
+
+    def post(*_a, **_k):
+        calls.append(1)
+        if len(calls) == 1:
+            raise httpx.ReadTimeout('slow')
+        return _status_response(502)
+
+    monkeypatch.setattr(gemini.httpx, 'post', post)
+    monkeypatch.setattr(gemini, '_sleep', lambda _s: None)
+    response = gemini._post_with_retry('https://x.test', json_payload={}, headers=None, timeout_seconds=5)
+    assert response.status_code == 502
+    assert len(calls) == gemini.HTTP_MAX_ATTEMPTS
+
+
+def test_openrouter_surfaces_error_after_exhausting_5xx_retries(monkeypatch):
+    calls = []
+
+    def post(*_a, **_k):
+        calls.append(1)
+        return _status_response(500)
+
+    monkeypatch.setattr(gemini.httpx, 'post', post)
+    monkeypatch.setattr(gemini, '_sleep', lambda _s: None)
+    with pytest.raises(RuntimeError, match='failed'):
+        gemini.generate_json('p', model='m', base_url='https://openrouter.ai/api/v1', api_key='k', max_attempts=1)
+    assert len(calls) == gemini.HTTP_MAX_ATTEMPTS
 
 
 def test_openai_compatible_refuses_truncated_output(monkeypatch) -> None:
