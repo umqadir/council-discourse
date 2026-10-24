@@ -935,3 +935,38 @@ def test_process_one_waits_for_unposted_video_only_within_grace(
     assert json.loads(result_json.read_text())["status"] == expected
     assert code == (0 if expected == "pending" else 1)
     assert db.get_meeting(db.connect(db_path), "m1")["process_attempts"] == (0 if expected == "pending" else 1)
+
+
+@pytest.mark.parametrize("interrupt", ["keyboard", "sigterm"])
+def test_process_one_counts_job_timeout_interrupt_as_failed_attempt(tmp_path: Path, monkeypatch, interrupt) -> None:
+    import os
+    import signal
+
+    db_path = tmp_path / "registry.db"
+    conn = db.connect(db_path)
+    db.upsert_meeting(conn, {"meeting_key": "m1", "viebit_filename": "m1", "event_date": "2026-10-21T10:00:00"})
+    db.update_meeting(conn, "m1", {"process_attempts": 4})
+    monkeypatch.setattr("pipeline.production._reconcile_artifacts", lambda *_a, **_k: None)
+    monkeypatch.setattr("pipeline.production._persist_result_to_r2", lambda *_a, **_k: True)
+
+    def timed_out_fetch(*_a, **_k):
+        if interrupt == "sigterm":
+            os.kill(os.getpid(), signal.SIGTERM)
+        raise KeyboardInterrupt
+
+    monkeypatch.setattr("pipeline.production._stage_fetch", timed_out_fetch)
+    result_json = tmp_path / "result.json"
+    previous_sigterm = signal.getsignal(signal.SIGTERM)
+
+    with pytest.raises(KeyboardInterrupt):
+        process_one(db_path, "m1", result_json=result_json, fail_on_error=True)
+
+    assert signal.getsignal(signal.SIGTERM) is previous_sigterm
+    row = db.get_meeting(db.connect(db_path), "m1")
+    result = json.loads(result_json.read_text())
+    assert result["status"] == "failed"
+    assert result["error"].startswith("KeyboardInterrupt")
+    assert row["process_attempts"] == 5
+    assert result["row"]["process_attempts"] == 5
+    # At the cap the meeting is no longer selected, so it cannot loop forever.
+    assert select_process_candidates(db.connect(db_path)) == []

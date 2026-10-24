@@ -3,9 +3,11 @@ from __future__ import annotations
 import json
 import os
 import shutil
+import signal
 import sqlite3
 import subprocess
 import sys
+import threading
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
@@ -131,6 +133,7 @@ def process_one(
         "run_id": os.environ.get("GITHUB_RUN_ID"),
         "run_attempt": os.environ.get("GITHUB_RUN_ATTEMPT"),
     }
+    restore_signals = _interrupt_on_termination_signals()
     try:
         row = db.get_meeting(conn, meeting_key)
         if not dry_run:
@@ -164,7 +167,14 @@ def process_one(
             print(f"process-one {meeting_key} pending: video not posted yet ({exc})", file=sys.stderr, flush=True)
     except Exception as exc:
         _record_failure(conn, meeting_key, result, exc, dry_run=dry_run)
+    except BaseException as exc:
+        # A job timeout or cancellation arrives as an interrupt, which
+        # `except Exception` misses: without this the result would say
+        # "complete" and the attempt would not count toward the retry cap.
+        _record_failure(conn, meeting_key, result, exc, dry_run=dry_run)
+        raise
     finally:
+        restore_signals()
         result["finished_at"] = utc_now_iso()
         try:
             result["row"] = dict(db.get_meeting(conn, meeting_key))
@@ -183,11 +193,39 @@ def process_one(
     return 1 if fail_on_error and (result["status"] == "failed" or result.get("persist_error")) else 0
 
 
+def _interrupt_on_termination_signals():
+    """Turn the first SIGINT/SIGTERM into KeyboardInterrupt; ignore repeats.
+
+    GitHub Actions stops a timed-out or cancelled step with SIGINT, then
+    SIGTERM a few seconds later. Python dies on SIGTERM without running
+    finally blocks, and a second interrupt would abort the failure bookkeeping
+    mid-write, so only the first signal raises. Returns a restore callable.
+    """
+    if threading.current_thread() is not threading.main_thread():
+        return lambda: None
+    interrupted = False
+
+    def handler(signum, _frame):
+        nonlocal interrupted
+        if interrupted:
+            return
+        interrupted = True
+        raise KeyboardInterrupt(f"interrupted by {signal.Signals(signum).name} (job timeout or cancellation)")
+
+    previous = {sig: signal.signal(sig, handler) for sig in (signal.SIGINT, signal.SIGTERM)}
+
+    def restore() -> None:
+        for sig, old in previous.items():
+            signal.signal(sig, old)
+
+    return restore
+
+
 def _record_failure(
     conn: sqlite3.Connection,
     meeting_key: str,
     result: dict[str, Any],
-    exc: Exception,
+    exc: BaseException,
     *,
     dry_run: bool,
 ) -> None:
