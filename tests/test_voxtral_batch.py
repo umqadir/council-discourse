@@ -113,7 +113,7 @@ def test_batch_reattaches_existing_job_without_resubmitting(
     meeting_dir = tmp_path / "meeting"
     meeting_dir.mkdir()
     parts = [_part(meeting_dir / "part-1.m4a", 1)]
-    params_hash = _batch_request_params_hash(parts, "voxtral-mini-2602", [])
+    params_hash = _batch_request_params_hash(parts, "voxtral-mini-2602")
     (meeting_dir / VOXTRAL_BATCH_JOB_FILENAME).write_text(
         json.dumps({"job_id": "job-existing", "request_params_hash": params_hash}) + "\n"
     )
@@ -312,3 +312,120 @@ def test_undiarized_batch_output_is_rejected_before_checkpoint(tmp_path, monkeyp
     with pytest.raises(RuntimeError, match='without speaker labels'):
         v._write_completed_batch_parts(tmp_path, parts, {}, 'test-key')
     assert not (tmp_path / 'voxtral-transcript-part-1.json').exists()
+
+
+def _source_parts(meeting_dir: Path, audio_bytes: bytes, part_bytes: bytes) -> list[dict[str, Any]]:
+    source = meeting_dir / "audio.m4a"
+    source.write_bytes(audio_bytes)
+    parts = []
+    for index in (1, 2):
+        path = meeting_dir / f"voxtral-part-{index}.m4a"
+        path.write_bytes(part_bytes)
+        part = {"index": index, "path": path, "source_audio_file": str(source), "offset_sec": float((index - 1) * 1800),
+                "speaker_suffix": "" if index == 1 else f"_part{index}", "split_end_sec": float(index * 1800)}
+        if index > 1:
+            part["split_start_sec"] = float((index - 1) * 1800)
+        parts.append(part)
+    return parts
+
+
+def test_batch_fingerprint_ignores_speech_hints_and_reencoded_part_sizes(tmp_path: Path) -> None:
+    first = _batch_request_params_hash(_source_parts(tmp_path, b"A" * 50_000, b"x" * 100), "voxtral-mini-2602")
+    reencoded = _batch_request_params_hash(_source_parts(tmp_path, b"A" * 50_000, b"y" * 137), "voxtral-mini-2602")
+    assert first == reencoded
+    other_audio = _batch_request_params_hash(_source_parts(tmp_path, b"B" * 50_000, b"x" * 100), "voxtral-mini-2602")
+    assert other_audio != first
+
+
+def test_batch_reattaches_after_speech_hint_change_without_resubmitting(tmp_path: Path, monkeypatch) -> None:
+    monkeypatch.setenv("MISTRAL_API_KEY", "test-key")
+    parts = _source_parts(tmp_path, b"A" * 50_000, b"x" * 100)
+    (tmp_path / VOXTRAL_BATCH_JOB_FILENAME).write_text(json.dumps({
+        "job_id": "job-1", "fingerprint_version": 2,
+        "request_params_hash": _batch_request_params_hash(parts, "voxtral-mini-2602")}) + "\n")
+    (tmp_path / "voxtral-part-2.m4a").write_bytes(b"z" * 333)  # re-encoded on a new runner
+
+    def fake_post(*_a: Any, **_k: Any) -> httpx.Response:
+        raise AssertionError("must reattach, not submit a second paid job")
+
+    def fake_get(url: str, **_k: Any) -> httpx.Response:
+        if url.endswith("/batch/jobs/job-1"):
+            return httpx.Response(200, json={"id": "job-1", "status": "SUCCESS", "output_file": "out-1"})
+        content = "\n".join(json.dumps({"custom_id": c, "response": {"status_code": 200, "body": _transcript(c)}}) for c in ("1", "2"))
+        return httpx.Response(200, content=(content + "\n").encode())
+
+    monkeypatch.setattr("pipeline.voxtral_prod.httpx.post", fake_post)
+    monkeypatch.setattr("pipeline.voxtral_prod.httpx.get", fake_get)
+    _run_voxtral_batch_job(tmp_path, parts, "voxtral-mini-2602", ["New Hint", "Julie Menin"], meeting_key="m1")
+    assert read_json(tmp_path / "voxtral-transcript-part-2.json")["text"] == "2"
+
+
+def test_batch_adopts_legacy_fingerprint_state_covering_same_parts(tmp_path: Path, monkeypatch) -> None:
+    monkeypatch.setenv("MISTRAL_API_KEY", "test-key")
+    parts = _source_parts(tmp_path, b"A" * 50_000, b"x" * 100)
+    (tmp_path / VOXTRAL_BATCH_JOB_FILENAME).write_text(json.dumps({
+        "job_id": "job-legacy", "request_params_hash": "old-style-hash",
+        "chunk_custom_id_map": {"1": {}, "2": {}}}) + "\n")
+
+    def fake_post(*_a: Any, **_k: Any) -> httpx.Response:
+        raise AssertionError("legacy in-flight job must be reattached")
+
+    def fake_get(url: str, **_k: Any) -> httpx.Response:
+        if url.endswith("/batch/jobs/job-legacy"):
+            return httpx.Response(200, json={"id": "job-legacy", "status": "RUNNING"})
+        raise AssertionError(url)
+
+    monkeypatch.setenv("VOXTRAL_BATCH_POLL_BUDGET_SEC", "0")
+    monkeypatch.setattr("pipeline.voxtral_prod.httpx.post", fake_post)
+    monkeypatch.setattr("pipeline.voxtral_prod.httpx.get", fake_get)
+    with pytest.raises(VoxtralBatchPending):
+        _run_voxtral_batch_job(tmp_path, parts, "voxtral-mini-2602", [], meeting_key="m1")
+
+
+def _failing_batch_api(monkeypatch, statuses: dict[str, str]) -> list[str]:
+    created: list[str] = []
+
+    def fake_post(url: str, **_k: Any) -> httpx.Response:
+        if url.endswith("/files"):
+            return httpx.Response(200, json={"id": f"file-{len(created)}"})
+        job_id = f"job-{len(created) + 1}"
+        created.append(job_id)
+        return httpx.Response(200, json={"id": job_id, "status": "QUEUED"})
+
+    def fake_get(url: str, **_k: Any) -> httpx.Response:
+        for job_id, status in statuses.items():
+            if url.endswith(f"/batch/jobs/{job_id}"):
+                return httpx.Response(200, json={"id": job_id, "status": status, "output_file": "out-1", "errors": ["boom"]})
+        assert url.endswith("/files/out-1/content")
+        return httpx.Response(200, content=(json.dumps({"custom_id": "1", "response": {"status_code": 200, "body": _transcript("Ok.")}}) + "\n").encode())
+
+    monkeypatch.setenv("MISTRAL_API_KEY", "test-key")
+    monkeypatch.setattr("pipeline.voxtral_prod.time.sleep", lambda _delay: None)
+    monkeypatch.setattr("pipeline.voxtral_prod.httpx.post", fake_post)
+    monkeypatch.setattr("pipeline.voxtral_prod.httpx.get", fake_get)
+    return created
+
+
+def test_failed_batch_job_is_resubmitted_once(tmp_path: Path, monkeypatch) -> None:
+    created = _failing_batch_api(monkeypatch, {"job-1": "FAILED", "job-2": "SUCCESS"})
+    parts = [_part(tmp_path / "part-1.m4a", 1)]
+    _run_voxtral_batch_job(tmp_path, parts, "voxtral-mini-2602", [], meeting_key="m1")
+    assert created == ["job-1", "job-2"]
+    state = read_json(tmp_path / VOXTRAL_BATCH_JOB_FILENAME)
+    assert state["job_id"] == "job-2"
+    assert [item["job_id"] for item in state["failed_jobs"]] == ["job-1"]
+    assert read_json(tmp_path / "voxtral-transcript-part-1.json")["text"] == "Ok."
+
+
+def test_failed_batch_resubmission_is_bounded_across_runs(tmp_path: Path, monkeypatch) -> None:
+    created = _failing_batch_api(monkeypatch, {"job-1": "FAILED", "job-2": "FAILED"})
+    parts = [_part(tmp_path / "part-1.m4a", 1)]
+    with pytest.raises(RuntimeError, match="already resubmitted 1x"):
+        _run_voxtral_batch_job(tmp_path, parts, "voxtral-mini-2602", [], meeting_key="m1")
+    assert created == ["job-1", "job-2"]
+    # The next run reattaches the failed job and stops without paying again.
+    with pytest.raises(RuntimeError, match="already resubmitted 1x"):
+        _run_voxtral_batch_job(tmp_path, parts, "voxtral-mini-2602", [], meeting_key="m1")
+    assert created == ["job-1", "job-2"]
+    state = read_json(tmp_path / VOXTRAL_BATCH_JOB_FILENAME)
+    assert [item["job_id"] for item in state["failed_jobs"]] == ["job-1", "job-2"]
