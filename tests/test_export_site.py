@@ -139,3 +139,74 @@ def test_export_refreshes_topic_on_kept_json_without_artifacts(tmp_path, monkeyp
         include_benchmark=False,
         allow_empty=True,
     ) == []
+
+
+def test_export_moves_kept_json_to_configured_video_base_url(tmp_path, monkeypatch):
+    import json
+
+    from pipeline import db
+    from pipeline.export_site import export_site
+
+    conn = db.connect(tmp_path / "registry.db")
+    db.upsert_meeting(
+        conn,
+        {
+            "meeting_key": "remote-only",
+            "viebit_filename": "remote-only",
+            "body_name": "Committee on Finance",
+            "event_date": "2026-06-25T00:00:00",
+            "event_time": "10:00 AM",
+        },
+    )
+    db.update_meeting(
+        conn,
+        "remote-only",
+        {
+            "transcribe_status": "transcribed",
+            "name_speakers_status": "named",
+            "chapterize_status": "chapterized",
+        },
+    )
+    monkeypatch.setattr("pipeline.db.MEETINGS_DIR", tmp_path / "meetings")
+
+    out_dir = tmp_path / "site-data"
+    out_dir.mkdir()
+    slug = "2026-06-25-1000-am-committee-on-finance"
+    committed = out_dir / f"{slug}.json"
+    old_url = "https://pub-old.r2.dev/remote-only/video-web.mp4"
+    committed.write_text(
+        json.dumps(
+            {
+                "slug": slug,
+                "topic": "",
+                "video": {"url": old_url, "poster": "/og-placeholder.svg"},
+                "chapters": [],
+            }
+        )
+        + "\n"
+    )
+
+    def export():
+        return export_site(
+            db_path=tmp_path / "registry.db",
+            out_dir=out_dir,
+            r2_out_dir=tmp_path / "r2-data",
+            include_benchmark=False,
+            allow_empty=True,
+        )
+
+    # Without a configured base URL the committed URL stands.
+    monkeypatch.delenv("VIDEO_BASE_URL", raising=False)
+    assert export() == []
+    assert json.loads(committed.read_text())["video"]["url"] == old_url
+
+    monkeypatch.setenv("VIDEO_BASE_URL", "https://media.example.org/")
+    written = export()
+    video = json.loads(committed.read_text())["video"]
+    assert video == {
+        "url": "https://media.example.org/remote-only/video-web.mp4",
+        "poster": "/og-placeholder.svg",
+    }
+    assert committed in written
+    assert any(str(p).startswith(str(tmp_path / "r2-data")) for p in written)
+    assert export() == []

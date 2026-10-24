@@ -124,6 +124,12 @@ def export_site(
                 continue
             existing = json.loads(path.read_text())
             updates = {k: v for k, v in refresh.items() if existing.get(k, "") != v}
+            # A changed VIDEO_BASE_URL must reach kept meetings too, or their
+            # pages keep pointing at the old video host.
+            video = existing.get("video") or {}
+            video_url = meeting.get("_video_url")
+            if video_url and video.get("url") != video_url:
+                updates["video"] = {**video, "url": video_url}
             if not updates:
                 continue
             existing.update(updates)
@@ -191,12 +197,17 @@ def _metadata_refresh_entry(meeting, payload: dict[str, Any]) -> dict[str, Any]:
     date = str(meeting.event_date or payload.get("date") or "")[:10]
     time = str(meeting.event_time or payload.get("time") or "")
     title = _meeting_title(meeting, payload)
-    return {
+    entry = {
         "slug": _meeting_slug(date, time, title),
         "_refresh": {
             "topic": normalize_summary_text(str(meeting.event_topic or "")),
         },
     }
+    # Only a configured base URL is authoritative; without one, the committed
+    # URL stands rather than falling back to a local /videos path.
+    if os.environ.get("VIDEO_BASE_URL", "").strip():
+        entry["_video_url"] = _video_url(meeting, payload)
+    return entry
 
 
 def _has_export_artifacts(meeting_dir: Path) -> bool:
