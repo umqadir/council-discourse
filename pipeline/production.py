@@ -31,6 +31,20 @@ from .voxtral_prod import VoxtralBatchPending
 R2_BUCKET = "council-discourse-videos"
 R2_REMOTE = "r2"
 
+# Registry columns a process-one run writes. merge-results applies only these;
+# Legistar/viebit metadata belongs to discover, and a result.json snapshot of it
+# is stale by the next run (results are re-merged every cycle).
+PROCESS_OWNED_COLUMNS = (
+    *db.STAGE_DONE_VALUES,
+    "process_attempts",
+    "last_error",
+    "cost_usd",
+    "video_web_url",
+    "duration_seconds",
+    "fetched_at",
+    "prepared_at",
+)
+
 
 def pending_matrix_json(conn: sqlite3.Connection, limit: int | None = None) -> str:
     rows = select_process_candidates(conn, limit=limit)
@@ -688,7 +702,7 @@ def merge_results(db_path: Path, results_dir: Path) -> int:
         if not isinstance(row, dict) or not row.get("meeting_key"):
             continue
         meeting_key = str(row["meeting_key"])
-        values = {key: row.get(key) for key in db.MEETING_COLUMNS if key in row}
+        values = {key: row.get(key) for key in PROCESS_OWNED_COLUMNS if key in row}
         try:
             current = db.get_meeting(conn, meeting_key)
         except KeyError:
@@ -857,13 +871,13 @@ def reset_meeting(meeting_key: str, db_path: Path = REGISTRY_DB, *, wipe_artifac
 def _merge_result_values(current: sqlite3.Row, incoming: dict[str, Any]) -> dict[str, Any]:
     merged: dict[str, Any] = {}
     for key, value in incoming.items():
-        if key == "meeting_key":
+        if key not in PROCESS_OWNED_COLUMNS:
             continue
         if key in db.STAGE_DONE_VALUES:
             value = db.merge_stage_status(key, current[key], value)
         elif key == "process_attempts":
             value = _merge_process_attempts(current[key], value)
-        elif key == "cost_usd" and value is None:
+        elif key in {"cost_usd", "video_web_url", "duration_seconds", "fetched_at", "prepared_at"} and value is None:
             value = current[key]
         merged[key] = value
     return merged

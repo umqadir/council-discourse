@@ -305,6 +305,64 @@ def test_merge_results_does_not_regress_completed_statuses(tmp_path: Path) -> No
     assert merged["cost_usd"] == 2.5
 
 
+def test_merge_results_never_reverts_newer_legistar_metadata(tmp_path: Path) -> None:
+    db_path = tmp_path / "registry.db"
+    conn = db.connect(db_path)
+    db.upsert_meeting(
+        conn,
+        {
+            "meeting_key": "m1",
+            "viebit_filename": "m1",
+            "body_name": "Committee on Health",
+            "event_date": "2026-10-21T10:00:00",
+            "agenda_pdf_url": "https://legistar.example/old.pdf",
+        },
+    )
+    stale_row = dict(db.get_meeting(conn, "m1"))
+    stale_row.update(
+        {
+            "fetch_status": "fetched",
+            "chapterize_status": "chapterized",
+            "process_attempts": 0,
+            "cost_usd": 0.42,
+            "last_error": None,
+            "video_web_url": "https://videos.example/m1/video-web.mp4",
+            "duration_seconds": 5340.0,
+        }
+    )
+    # Discover refreshes Legistar metadata after the processing run finished.
+    db.upsert_meeting(
+        conn,
+        {
+            "meeting_key": "m1",
+            "viebit_filename": "m1",
+            "body_name": "Committee on Mental Health",
+            "event_date": "2026-10-21T13:00:00",
+            "agenda_pdf_url": "https://legistar.example/final.pdf",
+            "minutes_pdf_url": "https://legistar.example/minutes.pdf",
+        },
+    )
+    db.update_meeting(conn, "m1", {"last_error": "old failure"})
+    results_dir = tmp_path / "results"
+    results_dir.mkdir()
+    (results_dir / "m1.json").write_text(json.dumps({"meeting_key": "m1", "row": stale_row}) + "\n")
+
+    assert merge_results(db_path, results_dir) == 1
+    assert merge_results(db_path, results_dir) == 1  # re-merged every run
+
+    merged = db.get_meeting(db.connect(db_path), "m1")
+    assert merged["body_name"] == "Committee on Mental Health"
+    assert merged["event_date"] == "2026-10-21T13:00:00"
+    assert merged["agenda_pdf_url"] == "https://legistar.example/final.pdf"
+    assert merged["minutes_pdf_url"] == "https://legistar.example/minutes.pdf"
+    assert merged["fetch_status"] == "fetched"
+    assert merged["chapterize_status"] == "chapterized"
+    assert merged["cost_usd"] == 0.42
+    assert merged["last_error"] is None
+    assert merged["video_web_url"] == "https://videos.example/m1/video-web.mp4"
+    assert merged["duration_seconds"] == 5340.0
+
+
 def test_merge_results_finds_nested_result_json_and_skips_artifacts(tmp_path: Path) -> None:
     # Mirrors the real CI layout: upload-artifact@v4 roots each artifact at the
     # least-common-ancestor of its paths, so the result JSON downloads to
