@@ -43,6 +43,12 @@ def _install(monkeypatch, outcomes):
     return calls
 
 
+@pytest.fixture(autouse=True)
+def _isolated_registry(tmp_path, monkeypatch):
+    monkeypatch.setattr(preflight, "REGISTRY_DB", tmp_path / "registry.db")
+    monkeypatch.delenv(preflight.DAILY_BUDGET_ENV, raising=False)
+
+
 def test_transient_503_is_retried_then_succeeds(monkeypatch):
     body = {"ok": True}
     calls = _install(monkeypatch, [_http_error(503), body])
@@ -115,3 +121,57 @@ def test_run_preflight_fails_when_provider_down(monkeypatch):
 
     monkeypatch.setattr(preflight, "_get_with_retry", fake_get)
     assert preflight.run_preflight() == 1
+
+
+def _healthy(monkeypatch):
+    monkeypatch.setenv("OPENROUTER_API_KEY", "k")
+    monkeypatch.setenv("MISTRAL_API_KEY", "k")
+    monkeypatch.setenv("GOOGLE_API_KEY", "k")
+
+    def fake_get(url, key=None, **kwargs):
+        if "openrouter" in url:
+            return {"data": {"total_credits": "10", "total_usage": "1"}}
+        return {"data": []}
+
+    monkeypatch.setattr(preflight, "_get_with_retry", fake_get)
+
+
+def test_spend_ledger_accumulates_per_new_york_day(tmp_path):
+    from datetime import datetime, timezone
+
+    from pipeline import db
+
+    conn = db.connect(tmp_path / "registry.db")
+    # 01:30 UTC on Oct 25 is still Oct 24 in New York.
+    day = preflight.spend_day(datetime(2026, 10, 25, 1, 30, tzinfo=timezone.utc))
+    assert day == "2026-10-24"
+    preflight.record_spend(conn, 4.5, day)
+    preflight.record_spend(conn, 0.25, day)
+    preflight.record_spend(conn, -3.0, day)
+    assert preflight.spend_for_day(conn, day) == 4.75
+    assert preflight.spend_for_day(conn, "2026-10-25") == 0.0
+
+
+def test_run_preflight_warns_but_stays_green_when_budget_reached(tmp_path, monkeypatch, capsys):
+    from pipeline import db
+
+    _healthy(monkeypatch)
+    db_path = tmp_path / "registry.db"
+    conn = db.connect(db_path)
+    preflight.record_spend(conn, 15.0)
+    conn.commit()
+    assert preflight.run_preflight(db_path=db_path) == 0
+    out = capsys.readouterr().out
+    assert "daily spend: $15.00 of $15.00 budget" in out
+    assert "::warning::daily spend $15.00 has reached the $15.00 budget" in out
+
+
+def test_daily_budget_is_configurable(tmp_path, monkeypatch):
+    from pipeline import db
+
+    conn = db.connect(tmp_path / "registry.db")
+    preflight.record_spend(conn, 15.0)
+    monkeypatch.setenv(preflight.DAILY_BUDGET_ENV, "40")
+    assert preflight.budget_exhausted(conn) is False
+    monkeypatch.setenv(preflight.DAILY_BUDGET_ENV, "10")
+    assert preflight.budget_exhausted(conn) is True

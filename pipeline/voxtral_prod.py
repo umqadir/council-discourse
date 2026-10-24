@@ -28,6 +28,13 @@ MISTRAL_FILES_URL = f"{MISTRAL_API_BASE_URL}/files"
 MISTRAL_BATCH_JOBS_URL = f"{MISTRAL_API_BASE_URL}/batch/jobs"
 VOXTRAL_BATCH_ENDPOINT = "/v1/audio/transcriptions"
 VOXTRAL_BATCH_JOB_FILENAME = "voxtral-batch-job.json"
+# Bumped when the job fingerprint definition changes; v2 hashes only the
+# source audio identity, model and part layout.
+VOXTRAL_BATCH_FINGERPRINT_VERSION = 2
+# A job that ends FAILED/TIMEOUT_EXCEEDED/CANCELLED is resubmitted this many
+# times per fingerprint; after that the stage fails without paying again.
+VOXTRAL_BATCH_MAX_RESUBMITS = 1
+_TERMINAL_BATCH_FAILURES = frozenset({"FAILED", "TIMEOUT_EXCEEDED", "CANCELLED"})
 
 RequestFunc = Callable[[Path, str, list[str]], tuple[dict[str, Any], dict[str, Any]]]
 
@@ -44,6 +51,13 @@ class VoxtralBatchPending(RuntimeError):
 
 class _BatchJobNotFound(RuntimeError):
     pass
+
+
+class _BatchJobFailed(RuntimeError):
+    def __init__(self, job_id: str, status: str, errors: Any) -> None:
+        self.job_id = job_id
+        self.status = status
+        super().__init__(f"Voxtral batch job {job_id} ended with status {status}: {errors}")
 
 
 def transcribe_voxtral_production(
@@ -336,9 +350,9 @@ def _run_voxtral_batch_job(
     if not key:
         raise RuntimeError("MISTRAL_API_KEY is required for Voxtral batch transcription")
 
-    params_hash = _batch_request_params_hash(parts, model, context_bias)
+    params_hash = _batch_request_params_hash(parts, model)
     state_path = meeting_dir / VOXTRAL_BATCH_JOB_FILENAME
-    state, job = _reattach_voxtral_batch_job(state_path, params_hash, key)
+    state, job = _reattach_voxtral_batch_job(state_path, params_hash, key, parts)
     if state is None:
         state, job = _create_voxtral_batch_job(
             meeting_dir,
@@ -351,7 +365,33 @@ def _run_voxtral_batch_job(
             state_path=state_path,
         )
 
-    completed_job = _poll_voxtral_batch_job(state, job, key)
+    while True:
+        try:
+            completed_job = _poll_voxtral_batch_job(state, job, key)
+            break
+        except _BatchJobFailed as exc:
+            failed_jobs = [item for item in state.get("failed_jobs") or [] if item.get("job_id") != exc.job_id]
+            failed_jobs.append({"job_id": exc.job_id, "status": exc.status, "failed_at": utc_now_iso()})
+            if len(failed_jobs) > VOXTRAL_BATCH_MAX_RESUBMITS:
+                state["failed_jobs"] = failed_jobs
+                write_json(state_path, state)
+                raise RuntimeError(
+                    f"{exc}; already resubmitted {VOXTRAL_BATCH_MAX_RESUBMITS}x for this audio "
+                    f"(failed jobs: {', '.join(item['job_id'] for item in failed_jobs)}). "
+                    f"Delete {VOXTRAL_BATCH_JOB_FILENAME} to allow another paid submission."
+                ) from exc
+            print(f"::warning::{exc}; resubmitting once", flush=True)
+            state, job = _create_voxtral_batch_job(
+                meeting_dir,
+                parts,
+                model,
+                context_bias,
+                meeting_key=meeting_key,
+                params_hash=params_hash,
+                key=key,
+                state_path=state_path,
+                failed_jobs=failed_jobs,
+            )
     _write_completed_batch_parts(meeting_dir, parts, completed_job, key)
 
 
@@ -359,6 +399,7 @@ def _reattach_voxtral_batch_job(
     state_path: Path,
     params_hash: str,
     key: str,
+    parts: list[dict[str, Any]],
 ) -> tuple[dict[str, Any] | None, dict[str, Any] | None]:
     if not state_path.exists():
         return None, None
@@ -367,7 +408,7 @@ def _reattach_voxtral_batch_job(
     except Exception:
         state_path.unlink(missing_ok=True)
         return None, None
-    if state.get("request_params_hash") != params_hash:
+    if state.get("request_params_hash") != params_hash and not _adopt_legacy_batch_state(state, params_hash, parts):
         state_path.unlink(missing_ok=True)
         return None, None
     job_id = str(state.get("job_id") or "").strip()
@@ -381,6 +422,21 @@ def _reattach_voxtral_batch_job(
         return None, None
 
 
+def _adopt_legacy_batch_state(state: dict[str, Any], params_hash: str, parts: list[dict[str, Any]]) -> bool:
+    """Keep a job submitted under the old fingerprint (which also hashed the
+    speech hints and re-encoded part sizes) when it covers the same parts, so
+    the fingerprint change itself never triggers a second paid job."""
+    if state.get("fingerprint_version"):
+        return False
+    chunk_map = state.get("chunk_custom_id_map")
+    if not isinstance(chunk_map, dict) or sorted(chunk_map) != sorted(str(int(part["index"])) for part in parts):
+        return False
+    state["legacy_request_params_hash"] = state.get("request_params_hash")
+    state["request_params_hash"] = params_hash
+    state["fingerprint_version"] = VOXTRAL_BATCH_FINGERPRINT_VERSION
+    return True
+
+
 def _create_voxtral_batch_job(
     meeting_dir: Path,
     parts: list[dict[str, Any]],
@@ -391,6 +447,7 @@ def _create_voxtral_batch_job(
     params_hash: str,
     key: str,
     state_path: Path,
+    failed_jobs: list[dict[str, Any]] | None = None,
 ) -> tuple[dict[str, Any], dict[str, Any]]:
     audio_file_ids: dict[str, str] = {}
     for part in parts:
@@ -442,9 +499,12 @@ def _create_voxtral_batch_job(
         "endpoint": VOXTRAL_BATCH_ENDPOINT,
         "model": model,
         "request_params_hash": params_hash,
+        "fingerprint_version": VOXTRAL_BATCH_FINGERPRINT_VERSION,
         "chunk_custom_id_map": chunk_map,
         "job": _batch_job_summary(job),
     }
+    if failed_jobs:
+        state["failed_jobs"] = failed_jobs
     write_json(state_path, state)
     return state, job
 
@@ -479,35 +539,45 @@ def _voxtral_batch_body_params(context_bias: list[str]) -> dict[str, Any]:
 def _batch_request_params_hash(
     parts: list[dict[str, Any]],
     model: str,
-    context_bias: list[str],
 ) -> str:
+    """Fingerprint of a batch job's stable inputs: the source audio content,
+    model and part layout. Speech hints (roster/agenda driven) and the bytes
+    of re-encoded part files can change between runs without changing what
+    is being transcribed, so they are excluded."""
+    digests: dict[str, str] = {}
     payload = {
+        "version": VOXTRAL_BATCH_FINGERPRINT_VERSION,
         "endpoint": VOXTRAL_BATCH_ENDPOINT,
         "model": model,
-        "request_body": _voxtral_batch_body_params(context_bias),
-        "parts": [_batch_part_hash_record(part) for part in parts],
+        "parts": [_batch_part_hash_record(part, digests) for part in parts],
     }
     encoded = json.dumps(payload, sort_keys=True, separators=(",", ":")).encode("utf-8")
     return hashlib.sha256(encoded).hexdigest()
 
 
-def _batch_part_hash_record(part: dict[str, Any]) -> dict[str, Any]:
-    path = Path(part["path"])
+def _batch_part_hash_record(part: dict[str, Any], digests: dict[str, str]) -> dict[str, Any]:
+    source = str(part.get("source_audio_file") or part["path"])
+    if source not in digests:
+        digests[source] = _file_sha256(Path(source))
     record: dict[str, Any] = {
         "index": int(part["index"]),
-        "path_name": path.name,
+        "source_audio_sha256": digests[source],
         "offset_sec": round_sec(float(part.get("offset_sec") or 0)),
         "speaker_suffix": str(part.get("speaker_suffix") or ""),
     }
-    try:
-        record["size_bytes"] = path.stat().st_size
-    except OSError:
-        record["size_bytes"] = None
     if "split_start_sec" in part:
         record["split_start_sec"] = round_sec(float(part["split_start_sec"]))
     if "split_end_sec" in part:
         record["split_end_sec"] = round_sec(float(part["split_end_sec"]))
     return record
+
+
+def _file_sha256(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as handle:
+        for block in iter(lambda: handle.read(1 << 20), b""):
+            digest.update(block)
+    return digest.hexdigest()
 
 
 def _poll_voxtral_batch_job(
@@ -524,8 +594,8 @@ def _poll_voxtral_batch_job(
         status = _batch_job_status(current)
         if status == "SUCCESS":
             return current
-        if status in {"FAILED", "TIMEOUT_EXCEEDED", "CANCELLED"}:
-            raise RuntimeError(f"Voxtral batch job {job_id} ended with status {status}: {current.get('errors')}")
+        if status in _TERMINAL_BATCH_FAILURES:
+            raise _BatchJobFailed(job_id, status, current.get("errors"))
         elapsed = time.monotonic() - started
         if elapsed >= budget:
             raise VoxtralBatchPending(job_id, status or "UNKNOWN", budget)

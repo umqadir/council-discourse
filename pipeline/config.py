@@ -35,6 +35,16 @@ def voxtral_mode() -> str:
 def voxtral_usd_per_audio_hour(mode: str | None = None) -> float:
     return VOXTRAL_SYNC_USD_PER_AUDIO_HOUR if (mode or voxtral_mode()) == "sync" else VOXTRAL_BATCH_USD_PER_AUDIO_HOUR
 
+
+def grounded_verification_enabled() -> bool:
+    """Opt-in for Gemini "Grounding with Google Search" speaker verification.
+
+    Off by default: the Gemini API terms (2026-04-28) limit Grounded Results to
+    display to the requesting end user and forbid caching or analyzing them, so
+    production names speakers from the roster and agenda anchors only.
+    """
+    return os.environ.get("COUNCIL_GROUNDED_VERIFICATION", "").strip().lower() in {"1", "true", "yes", "on"}
+
 # --- Naming/chaptering LLM ---
 # September review: Gemini 3.8 Flash scored 81/87 on the paired naming screen,
 # versus Pro 70 and GLM Flash 72, followed by production-prompt replay.

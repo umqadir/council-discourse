@@ -8,6 +8,7 @@ from collections import Counter
 from pathlib import Path
 from typing import Any
 
+from .config import grounded_verification_enabled
 from .artifacts import (
     normalize_utterances,
     read_json,
@@ -338,7 +339,11 @@ def name_speakers_meeting(
         if isinstance(usage, dict):
             usage_totals.update({k: v for k, v in usage.items() if isinstance(v, int | float)})
         verification_error = "; ".join(verification.get("errors", [])) or None
-        verified = verification_model is not None and not verification_error
+        verified = (
+            verification_model is not None
+            and not verification_error
+            and not verification.get("llm_skipped_reason")
+        )
         write_jsonl(output, named)
     except Exception as exc:
         verification_error = f"{type(exc).__name__}: {exc}"
@@ -1172,10 +1177,18 @@ def _verify_non_roster_speakers(
     if model is None:
         verification["llm_skipped_reason"] = "verification_model_disabled"
         return verification, {"elapsed_sec": 0.0, "usage": {}, "estimated_cost_usd": 0.0}
+    # Native Gemini verification is Google-grounded. Grounded Results may not be
+    # cached, analyzed or republished (Gemini API terms, 2026-04-28), so it is
+    # opt-in; by default names come from the roster/agenda anchors above.
+    grounded = base_url is None
+    verification["grounded"] = grounded
+    if grounded and not grounded_verification_enabled():
+        verification["llm_skipped_reason"] = "grounded_verification_disabled"
+        return verification, {"elapsed_sec": 0.0, "usage": {}, "estimated_cost_usd": 0.0}
     if not candidates:
         return verification, {"elapsed_sec": 0.0, "usage": {}, "estimated_cost_usd": 0.0}
 
-    tools = [{"google_search": {}}] if base_url is None else None
+    tools = grounded
     corrections, usages, grounded_batches, errors = [], [], [], []
     # Small batches keep search tied to each group of identities. A successful
     # text response alone is not evidence that the model actually searched.
@@ -1192,15 +1205,21 @@ def _verify_non_roster_speakers(
                     "to official or professional sources. Identify uncertain matches explicitly. "
                     "Use at most two search queries per person; stop if the identity remains uncertain.\n" + json.dumps(lookup), model)
                 usages.append(research_usage)
-                grounding = dict(research_usage.get("grounding") or {})
-                if not grounding.get("grounding_chunks"):
+                # research text/sources are used for this request only and are
+                # never persisted; only counts reach the meta artifact.
+                sources = research.get("sources") or []
+                grounded_batches.append(
+                    {
+                        "web_search_query_count": int((research_usage.get("grounding") or {}).get("web_search_query_count") or 0),
+                        "grounding_chunk_count": len(sources),
+                    }
+                )
+                if not sources:
                     errors.append(f"Verification batch {offset // 8 + 1} returned no search sources; corrections withheld")
                     continue
-                grounding["research_text"] = research["text"]
-                grounded_batches.append(grounding)
                 prompt += "\nUse ONLY these retrieved research notes and sources for corrections. Do not search again or add recalled claims. " \
                           "Preserve the original name when these notes do not establish a correction.\n" + research["text"] + \
-                          "\nRetrieved sources: " + json.dumps(grounding["grounding_chunks"])
+                          "\nRetrieved sources: " + json.dumps(sources)
             result, usage = generate_json(
                 prompt, model=model, temperature=0.0, thinking_level="low",
                 max_output_tokens=16_384, max_attempts=1,
@@ -1216,11 +1235,13 @@ def _verify_non_roster_speakers(
         except (RuntimeError, OSError, httpx.HTTPError) as exc:
             if getattr(exc, "generation_meta", None):
                 usages.append(exc.generation_meta)
-            errors.append(f"Verification batch {offset // 8 + 1}: {exc}")
+            # Grounded mode: error text can echo grounded content; keep the type only.
+            detail = type(exc).__name__ if tools else str(exc)
+            errors.append(f"Verification batch {offset // 8 + 1}: {detail}")
     meta = _combine_generation_attempts(usages)
-    verification["results"] = corrections
+    verification["results"] = [_persistable_verification_result(r, grounded=bool(tools)) for r in corrections]
     verification["grounding_batches"] = grounded_batches
-    verification["search_query_count"] = sum((u.get("grounding") or {}).get("web_search_query_count", 0) for u in usages)
+    verification["search_query_count"] = sum(batch["web_search_query_count"] for batch in grounded_batches)
     if errors:
         verification["errors"] = errors
 
@@ -1241,16 +1262,21 @@ def _verify_non_roster_speakers(
         confidence = str(correction.get("confidence") or "").strip().lower()
         if confidence not in {"high"}:
             continue
+        if not _is_close_name_correction(candidate["speaker"], corrected):
+            verification.setdefault("rejected_corrections", []).append(
+                {"id": candidate["id"], "before": candidate["speaker"], "after": corrected, "reason": "not_a_spelling_correction"}
+            )
+            continue
         speaker_map[candidate["speaker"]] = corrected
-        verification["applied_corrections"].append(
-            {
-                "id": candidate["id"],
-                "before": candidate["speaker"],
-                "after": corrected,
-                "confidence": confidence,
-                "evidence": str(correction.get("evidence") or correction.get("reason") or "").strip()[:500],
-            }
-        )
+        applied = {
+            "id": candidate["id"],
+            "before": candidate["speaker"],
+            "after": corrected,
+            "confidence": confidence,
+        }
+        if not tools:
+            applied["evidence"] = str(correction.get("evidence") or correction.get("reason") or "").strip()[:500]
+        verification["applied_corrections"].append(applied)
 
     if speaker_map:
         for row in named:
@@ -1788,6 +1814,9 @@ def _corrected_speaker(candidate: dict[str, Any], correction: dict[str, Any]) ->
         return None
     if corrected.upper() in {"UNKNOWN", "UNK"} or corrected in GENERIC_SPEAKERS:
         return None
+    # Non-officials keep the public-witness prefix whatever style the model returns.
+    if re.match(r"^Member\s+of\s+the\s+Public\s*-", original, flags=re.I):
+        corrected = _speaker_with_original_style(original, _speaker_base_name(corrected))
     if len(_speaker_base_name(corrected).split()) < 2:
         return None
     # A shorter web display name is not evidence that a spoken middle/family
@@ -1797,6 +1826,30 @@ def _corrected_speaker(candidate: dict[str, Any], correction: dict[str, Any]) ->
     if corrected_words < original_words:
         return None
     return corrected
+
+
+def _persistable_verification_result(result: dict[str, Any], *, grounded: bool) -> dict[str, Any]:
+    """Drop links and evidence prose derived from Grounded Results before storage."""
+    if not grounded:
+        return result
+    kept = {key: result.get(key) for key in ("id", "input_speaker", "corrected_speaker", "verified_name", "confidence") if key in result}
+    urls = result.get("source_urls")
+    kept["source_url_count"] = len(urls) if isinstance(urls, list) else 0
+    return kept
+
+
+def _is_close_name_correction(original: str, corrected: str) -> bool:
+    """A verification change must be a respelling of the same name, not a new person.
+
+    Compares the whole folded name so token splits ("Atham Singh" vs
+    "Uttamsingh") still count, allowing about one edit per five letters:
+    "Jann Doe" -> "Jane Doe" passes, "John Lee" -> "John Liu" does not.
+    """
+    before = "".join(_anchor_name_tokens(original))
+    after = "".join(_anchor_name_tokens(corrected))
+    if not before or not after:
+        return False
+    return _edit_distance(before, after) <= max(1, max(len(before), len(after)) // 5)
 
 
 def _speaker_with_original_style(original: str, corrected_name: str) -> str:

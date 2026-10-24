@@ -96,8 +96,9 @@ def test_native_empty_response_retains_charged_usage(monkeypatch):
 
 
 
-def test_grounded_research_retains_prose_sources_and_usage(monkeypatch):
+def test_grounded_research_returns_transient_sources_and_persists_counts_only(monkeypatch):
     monkeypatch.setenv('GOOGLE_API_KEY', 'test-key')
+    monkeypatch.setenv('COUNCIL_GROUNDED_VERIFICATION', '1')
     monkeypatch.setattr(gemini, '_post_with_retry', lambda *a, **k: FakeResponse(json.dumps({
         'candidates': [{'content': {'parts': [{'text': 'Jane Doe works at Transit Org.'}]},
                         'finishReason': 'STOP', 'groundingMetadata': {
@@ -107,13 +108,28 @@ def test_grounded_research_retains_prose_sources_and_usage(monkeypatch):
     })))
     result, meta = gemini.generate_grounded_research('research', 'gemini-3.8-flash')
     assert result['text'] == 'Jane Doe works at Transit Org.'
-    assert meta['grounding']['web_search_query_count'] == 1
-    assert meta['grounding']['grounding_chunks'][0]['uri'] == 'https://example.org/staff'
+    assert result['sources'][0]['uri'] == 'https://example.org/staff'
+    assert meta['grounding'] == {'web_search_query_count': 1, 'grounding_chunk_count': 1}
+    serialized = json.dumps(meta)
+    assert 'example.org' not in serialized and 'Jane Doe' not in serialized
     assert meta['usage']['thoughtsTokenCount'] == 200
+
+
+def test_grounded_research_is_refused_unless_opted_in(monkeypatch):
+    monkeypatch.setenv('GOOGLE_API_KEY', 'test-key')
+    monkeypatch.delenv('COUNCIL_GROUNDED_VERIFICATION', raising=False)
+
+    def no_post(*_a, **_k):
+        raise AssertionError('grounded call must not be sent when disabled')
+
+    monkeypatch.setattr(gemini, '_post_with_retry', no_post)
+    with pytest.raises(RuntimeError, match='disabled'):
+        gemini.generate_grounded_research('research', 'gemini-3.8-flash')
 
 
 def test_truncated_research_preserves_charge(monkeypatch):
     monkeypatch.setenv('GOOGLE_API_KEY', 'test-key')
+    monkeypatch.setenv('COUNCIL_GROUNDED_VERIFICATION', '1')
     monkeypatch.setattr(gemini, '_post_with_retry', lambda *a, **k: FakeResponse(json.dumps({
         'candidates': [{'content': {'parts': [{'text': 'Partial research'}]}, 'finishReason': 'MAX_TOKENS'}],
         'usageMetadata': {'promptTokenCount': 100, 'thoughtsTokenCount': 50},
@@ -121,6 +137,68 @@ def test_truncated_research_preserves_charge(monkeypatch):
     with pytest.raises(RuntimeError) as exc:
         gemini.generate_grounded_research('research', 'gemini-3.8-flash')
     assert exc.value.generation_meta['estimated_cost_usd'] > 0
+    assert 'Partial research' not in str(exc.value)
+
+
+def _status_response(status: int, headers: dict[str, str] | None = None):
+    import httpx
+
+    return httpx.Response(status, json={'error': status}, headers=headers or {})
+
+
+def test_post_retries_rate_limits_and_server_errors_with_backoff(monkeypatch):
+    responses = iter([_status_response(429, {'retry-after': '7'}), _status_response(503), _status_response(200)])
+    sleeps = []
+    monkeypatch.setattr(gemini.httpx, 'post', lambda *a, **k: next(responses))
+    monkeypatch.setattr(gemini, '_sleep', sleeps.append)
+    response = gemini._post_with_retry('https://x.test', json_payload={}, headers=None, timeout_seconds=5)
+    assert response.status_code == 200
+    assert sleeps == [7.0, 4.0]
+
+
+def test_post_does_not_retry_client_errors(monkeypatch):
+    calls = []
+
+    def post(*_a, **_k):
+        calls.append(1)
+        return _status_response(400)
+
+    monkeypatch.setattr(gemini.httpx, 'post', post)
+    monkeypatch.setattr(gemini, '_sleep', lambda _s: None)
+    assert gemini._post_with_retry('https://x.test', json_payload={}, headers=None, timeout_seconds=5).status_code == 400
+    assert len(calls) == 1
+
+
+def test_post_retry_is_bounded_and_covers_timeouts(monkeypatch):
+    import httpx
+
+    calls = []
+
+    def post(*_a, **_k):
+        calls.append(1)
+        if len(calls) == 1:
+            raise httpx.ReadTimeout('slow')
+        return _status_response(502)
+
+    monkeypatch.setattr(gemini.httpx, 'post', post)
+    monkeypatch.setattr(gemini, '_sleep', lambda _s: None)
+    response = gemini._post_with_retry('https://x.test', json_payload={}, headers=None, timeout_seconds=5)
+    assert response.status_code == 502
+    assert len(calls) == gemini.HTTP_MAX_ATTEMPTS
+
+
+def test_openrouter_surfaces_error_after_exhausting_5xx_retries(monkeypatch):
+    calls = []
+
+    def post(*_a, **_k):
+        calls.append(1)
+        return _status_response(500)
+
+    monkeypatch.setattr(gemini.httpx, 'post', post)
+    monkeypatch.setattr(gemini, '_sleep', lambda _s: None)
+    with pytest.raises(RuntimeError, match='failed'):
+        gemini.generate_json('p', model='m', base_url='https://openrouter.ai/api/v1', api_key='k', max_attempts=1)
+    assert len(calls) == gemini.HTTP_MAX_ATTEMPTS
 
 
 def test_openai_compatible_refuses_truncated_output(monkeypatch) -> None:

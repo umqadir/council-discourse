@@ -3,15 +3,18 @@ from __future__ import annotations
 import json
 import os
 import shutil
+import signal
 import sqlite3
 import subprocess
 import sys
+import threading
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
 from . import db
 from .artifacts import read_json, write_json
+from .chapterize import FIRST_PASS_CHECKPOINT
 from .config import MEETINGS_DIR, REGISTRY_DB, chaptering_llm_config, naming_llm_config, voxtral_usd_per_audio_hour
 from .fetch import (
     _download,
@@ -22,6 +25,7 @@ from .fetch import (
     _require_tool,
     _write_meeting_json,
 )
+from .preflight import budget_exhausted, record_spend
 from .prepare import prepare_meeting
 from .stages import chapterize, name_speakers, transcribe
 from .utils import utc_now_iso
@@ -30,6 +34,20 @@ from .voxtral_prod import VoxtralBatchPending
 
 R2_BUCKET = "council-discourse-videos"
 R2_REMOTE = "r2"
+
+# Registry columns a process-one run writes. merge-results applies only these;
+# Legistar/viebit metadata belongs to discover, and a result.json snapshot of it
+# is stale by the next run (results are re-merged every cycle).
+PROCESS_OWNED_COLUMNS = (
+    *db.STAGE_DONE_VALUES,
+    "process_attempts",
+    "last_error",
+    "cost_usd",
+    "video_web_url",
+    "duration_seconds",
+    "fetched_at",
+    "prepared_at",
+)
 
 
 def pending_matrix_json(conn: sqlite3.Connection, limit: int | None = None) -> str:
@@ -49,6 +67,8 @@ def select_process_candidates(
     conn: sqlite3.Connection,
     limit: int | None = None,
 ) -> list[sqlite3.Row]:
+    if budget_exhausted(conn):
+        return []
     coverage_start = os.environ.get("COUNCIL_COVERAGE_START", "2026-06-20")[:10]
     # Forward-only coverage: judge by the best-known date, so viebit-only rows
     # with no Legistar event_date can't leak the pre-floor backlog into runs.
@@ -117,6 +137,7 @@ def process_one(
         "run_id": os.environ.get("GITHUB_RUN_ID"),
         "run_attempt": os.environ.get("GITHUB_RUN_ATTEMPT"),
     }
+    restore_signals = _interrupt_on_termination_signals()
     try:
         row = db.get_meeting(conn, meeting_key)
         if not dry_run:
@@ -150,7 +171,14 @@ def process_one(
             print(f"process-one {meeting_key} pending: video not posted yet ({exc})", file=sys.stderr, flush=True)
     except Exception as exc:
         _record_failure(conn, meeting_key, result, exc, dry_run=dry_run)
+    except BaseException as exc:
+        # A job timeout or cancellation arrives as an interrupt, which
+        # `except Exception` misses: without this the result would say
+        # "complete" and the attempt would not count toward the retry cap.
+        _record_failure(conn, meeting_key, result, exc, dry_run=dry_run)
+        raise
     finally:
+        restore_signals()
         result["finished_at"] = utc_now_iso()
         try:
             result["row"] = dict(db.get_meeting(conn, meeting_key))
@@ -169,11 +197,39 @@ def process_one(
     return 1 if fail_on_error and (result["status"] == "failed" or result.get("persist_error")) else 0
 
 
+def _interrupt_on_termination_signals():
+    """Turn the first SIGINT/SIGTERM into KeyboardInterrupt; ignore repeats.
+
+    GitHub Actions stops a timed-out or cancelled step with SIGINT, then
+    SIGTERM a few seconds later. Python dies on SIGTERM without running
+    finally blocks, and a second interrupt would abort the failure bookkeeping
+    mid-write, so only the first signal raises. Returns a restore callable.
+    """
+    if threading.current_thread() is not threading.main_thread():
+        return lambda: None
+    interrupted = False
+
+    def handler(signum, _frame):
+        nonlocal interrupted
+        if interrupted:
+            return
+        interrupted = True
+        raise KeyboardInterrupt(f"interrupted by {signal.Signals(signum).name} (job timeout or cancellation)")
+
+    previous = {sig: signal.signal(sig, handler) for sig in (signal.SIGINT, signal.SIGTERM)}
+
+    def restore() -> None:
+        for sig, old in previous.items():
+            signal.signal(sig, old)
+
+    return restore
+
+
 def _record_failure(
     conn: sqlite3.Connection,
     meeting_key: str,
     result: dict[str, Any],
-    exc: Exception,
+    exc: BaseException,
     *,
     dry_run: bool,
 ) -> None:
@@ -251,7 +307,11 @@ def _calculate_meeting_cost(row: sqlite3.Row) -> float:
     total = 0.0
     total += _voxtral_cost_usd(meeting.meeting_dir / "transcribe-meta.json")
     total += _name_speakers_cost_usd(meeting.meeting_dir)
-    total += _recorded_cost(_read_json_or_none(meeting.meeting_dir / "chapters.json"))
+    chapters = _read_json_or_none(meeting.meeting_dir / "chapters.json")
+    if chapters is None:
+        # A paid first pass awaiting its quality-gate retry is still spend.
+        chapters = _read_json_or_none(meeting.meeting_dir / FIRST_PASS_CHECKPOINT)
+    total += _recorded_cost(chapters)
     return round(total, 6)
 
 
@@ -677,6 +737,7 @@ def merge_results(db_path: Path, results_dir: Path) -> int:
     if not results_dir.exists():
         return 0
     count = 0
+    new_spend = 0.0
     # Recurse: upload-artifact@v4 roots each artifact at the least-common
     # ancestor of its paths (data/), so on download the result JSON lands at
     # data/processed-results/processed-results/<key>.json — one level below a
@@ -688,7 +749,7 @@ def merge_results(db_path: Path, results_dir: Path) -> int:
         if not isinstance(row, dict) or not row.get("meeting_key"):
             continue
         meeting_key = str(row["meeting_key"])
-        values = {key: row.get(key) for key in db.MEETING_COLUMNS if key in row}
+        values = {key: row.get(key) for key in PROCESS_OWNED_COLUMNS if key in row}
         try:
             current = db.get_meeting(conn, meeting_key)
         except KeyError:
@@ -697,8 +758,14 @@ def merge_results(db_path: Path, results_dir: Path) -> int:
             # resurrecting it would recreate duplicates.
             print(f"merge-results: skipping result for unknown meeting {meeting_key}", file=sys.stderr, flush=True)
             continue
-        db.update_meeting(conn, meeting_key, _merge_result_values(current, values))
+        merged = _merge_result_values(current, values)
+        # Results are re-merged every run; only an increase is new spend.
+        new_spend += max(0.0, float(merged.get("cost_usd") or 0.0) - float(current["cost_usd"] or 0.0))
+        db.update_meeting(conn, meeting_key, merged)
         count += 1
+    if new_spend:
+        record_spend(conn, new_spend)
+        conn.commit()
     checkpoint_db(db_path)
     return count
 
@@ -857,13 +924,13 @@ def reset_meeting(meeting_key: str, db_path: Path = REGISTRY_DB, *, wipe_artifac
 def _merge_result_values(current: sqlite3.Row, incoming: dict[str, Any]) -> dict[str, Any]:
     merged: dict[str, Any] = {}
     for key, value in incoming.items():
-        if key == "meeting_key":
+        if key not in PROCESS_OWNED_COLUMNS:
             continue
         if key in db.STAGE_DONE_VALUES:
             value = db.merge_stage_status(key, current[key], value)
         elif key == "process_attempts":
             value = _merge_process_attempts(current[key], value)
-        elif key == "cost_usd" and value is None:
+        elif key in {"cost_usd", "video_web_url", "duration_seconds", "fetched_at", "prepared_at"} and value is None:
             value = current[key]
         merged[key] = value
     return merged

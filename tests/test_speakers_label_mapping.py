@@ -232,6 +232,7 @@ def test_name_speakers_reuses_chunk_checkpoint_without_paid_call(tmp_path, monke
 
 
 def test_name_speakers_keeps_output_when_verification_fails(tmp_path, monkeypatch) -> None:
+    monkeypatch.setenv("COUNCIL_GROUNDED_VERIFICATION", "1")
     monkeypatch.setattr("pipeline.speakers.current_roster", lambda _date: [])
     monkeypatch.setattr("pipeline.speakers.roster_csv_for_prompt", lambda _date: "name,district\n")
     (tmp_path / "utterances-labeled.jsonl").write_text(
@@ -260,7 +261,8 @@ def test_name_speakers_keeps_output_when_verification_fails(tmp_path, monkeypatc
     assert (tmp_path / "name-speakers-chunk-1.json").exists()
     meta = read_json(tmp_path / "name-speakers-meta.json")
     assert meta["verified"] is False
-    assert "verification unavailable" in meta["verification_error"]
+    # Grounded-mode errors record the exception type only (messages can echo grounded content).
+    assert meta["verification_error"] == "Verification batch 1: RuntimeError"
 
 
 def test_naming_response_failure_recovers_and_keeps_both_costs(monkeypatch):
@@ -284,6 +286,7 @@ def test_naming_response_failure_recovers_and_keeps_both_costs(monkeypatch):
 
 def test_verification_requires_search_sources_and_keeps_usage(monkeypatch, tmp_path):
     from pipeline import speakers as s
+    monkeypatch.setenv('COUNCIL_GROUNDED_VERIFICATION', '1')
     monkeypatch.setattr(s, '_spelling_anchor_sets', lambda m: ([], [], {}))
     monkeypatch.setattr(s, '_verification_candidates', lambda *a: [
         {'id':'v001','speaker':'Member of the Public - Jann Doe', 'name':'Jann Doe', 'role_org_hint':'Transit Org', 'quote_snippet':'My name is Jann Doe.'}])
@@ -291,13 +294,14 @@ def test_verification_requires_search_sources_and_keeps_usage(monkeypatch, tmp_p
     payload = {'results':[{'id':'v001','corrected_speaker':'Member of the Public - Jane Doe','confidence':'high','source_urls':['https://example.org/staff']}]}
     meta = {'estimated_cost_usd':.01}
     monkeypatch.setattr(s, 'generate_json', lambda *a, **k: (payload, {'estimated_cost_usd':.002}))
-    monkeypatch.setattr(s, 'generate_grounded_research', lambda *a, **k: ({'text':'Jane Doe works at Transit Org.'}, dict(meta)))
+    research = {'text': 'Jane Doe works at Transit Org.', 'sources': []}
+    monkeypatch.setattr(s, 'generate_grounded_research', lambda *a, **k: (dict(research), dict(meta)))
     meeting = Meeting(meeting_key='m1', meeting_dir=tmp_path)
     named = [{'speaker':'Member of the Public - Jann Doe'}]
     result, usage = s._verify_non_roster_speakers(named, meeting)
     assert named[0]['speaker'].endswith('Jann Doe')
     assert result['errors'] and usage['estimated_cost_usd'] == .01
-    meta['grounding'] = {'grounding_chunks':[{'uri':'https://example.org/staff'}]}
+    research['sources'] = [{'uri':'https://example.org/staff'}]
     result, usage = s._verify_non_roster_speakers(named, meeting)
     assert named[0]['speaker'].endswith('Jane Doe')
     assert not result.get('errors')
@@ -310,3 +314,91 @@ def test_verification_does_not_erase_spoken_name_parts():
                               {'corrected_speaker': 'Member of the Public - Christian Lopez'}) is None
     assert _corrected_speaker({'speaker': 'Member of the Public - Lex Atham Singh'},
                               {'corrected_speaker': 'Member of the Public - Lex Uttamsingh'}) == 'Member of the Public - Lex Uttamsingh'
+
+
+def test_grounded_verification_is_off_by_default_and_anchors_still_apply(monkeypatch, tmp_path):
+    from pipeline import speakers as s
+    monkeypatch.delenv('COUNCIL_GROUNDED_VERIFICATION', raising=False)
+    monkeypatch.setattr(s, 'current_roster', lambda _date: [{'name': 'Julie Menin'}])
+
+    def no_call(*_a, **_k):
+        raise AssertionError('no verification LLM call when grounding is disabled')
+
+    monkeypatch.setattr(s, 'generate_grounded_research', no_call)
+    monkeypatch.setattr(s, 'generate_json', no_call)
+    named = [{'speaker': 'Julie Menon', 'text': 'Thank you.'},
+             {'speaker': 'Member of the Public - Jann Doe', 'text': 'My name is Jann Doe.'}]
+    result, usage = s._verify_non_roster_speakers(named, Meeting(meeting_key='m1', meeting_dir=tmp_path))
+    assert result['llm_skipped_reason'] == 'grounded_verification_disabled'
+    assert named[0]['speaker'] == 'Julie Menin'
+    assert named[1]['speaker'] == 'Member of the Public - Jann Doe'
+    assert usage['estimated_cost_usd'] == 0.0
+
+
+def test_grounded_verification_persists_counts_only(monkeypatch, tmp_path):
+    from pipeline import speakers as s
+    monkeypatch.setenv('COUNCIL_GROUNDED_VERIFICATION', '1')
+    monkeypatch.setattr(s, 'current_roster', lambda _date: [])
+    monkeypatch.setattr(s, 'roster_csv_for_prompt', lambda _date: 'name,district\n')
+    (tmp_path / 'utterances-labeled.jsonl').write_text(
+        '{"t0": 0, "t1": 1, "text": "My name is Jann Doe from Transit Org.", "label": "A"}\n'
+    )
+    research_text = 'SECRET-RESEARCH Jane Doe is director at Transit Org.'
+    url = 'https://grounded.example/staff/jane-doe'
+    calls = 0
+
+    def fake_generate_json(*_a, **_k):
+        nonlocal calls
+        calls += 1
+        if calls == 1:
+            return ({'labels': [{'label': 'A', 'name': 'Jann Doe', 'role': 'public witness', 'confidence': 'high'}]},
+                    {'elapsed_sec': 0.1, 'usage': {}, 'estimated_cost_usd': 0.01})
+        return ({'results': [{'id': 'v001', 'corrected_speaker': 'Member of the Public - Jane Doe', 'confidence': 'high',
+                              'evidence': research_text, 'source_urls': [url]}]},
+                {'elapsed_sec': 0.1, 'usage': {}, 'estimated_cost_usd': 0.002})
+
+    monkeypatch.setattr(s, 'generate_json', fake_generate_json)
+    monkeypatch.setattr(s, 'generate_grounded_research', lambda *a, **k: (
+        {'text': research_text, 'sources': [{'title': 'Staff', 'uri': url}]},
+        {'elapsed_sec': 0.1, 'usage': {}, 'estimated_cost_usd': 0.003,
+         'grounding': {'web_search_query_count': 2, 'grounding_chunk_count': 1}}))
+
+    name_speakers_meeting(Meeting(meeting_key='m1', meeting_dir=tmp_path), write_runlog=True)
+
+    assert read_jsonl(tmp_path / 'utterances-named.jsonl')[0]['speaker'] == 'Member of the Public - Jane Doe'
+    meta = read_json(tmp_path / 'name-speakers-meta.json')
+    assert meta['verification']['grounding_batches'] == [{'web_search_query_count': 2, 'grounding_chunk_count': 1}]
+    assert meta['verification']['search_query_count'] == 2
+    for path in tmp_path.iterdir():
+        text = path.read_text()
+        assert 'SECRET-RESEARCH' not in text and 'grounded.example' not in text, path.name
+
+
+def test_verification_rejects_corrections_that_change_the_person():
+    from pipeline.speakers import _corrected_speaker, _is_close_name_correction
+    assert not _is_close_name_correction('Member of the Public - John Lee', 'Member of the Public - John Liu')
+    assert not _is_close_name_correction('Member of the Public - John Lee', 'Member of the Public - Julie Menin')
+    assert _is_close_name_correction('Member of the Public - Jann Doe', 'Member of the Public - Jane Doe')
+    assert _is_close_name_correction('Member of the Public - Jeanne Ryan', 'Member of the Public - Jean Ryan')
+    assert _is_close_name_correction('Member of the Public - Lex Atham Singh', 'Member of the Public - Lex Uttamsingh')
+    # The public-witness prefix survives a correction returned in official style.
+    assert _corrected_speaker({'speaker': 'Member of the Public - Jann Doe'},
+                              {'corrected_speaker': 'Jane Doe'}) == 'Member of the Public - Jane Doe'
+
+
+def test_non_grounded_verification_applies_only_close_respellings(monkeypatch, tmp_path):
+    from pipeline import speakers as s
+    monkeypatch.setattr(s, '_spelling_anchor_sets', lambda m: ([], [], {}))
+    monkeypatch.setattr(s, '_apply_candidate_org_anchors', lambda *a: [])
+    monkeypatch.setattr(s, '_verification_candidates', lambda *a: [
+        {'id': 'v001', 'speaker': 'Member of the Public - John Lee', 'name': 'John Lee', 'role_org_hint': '', 'quote_snippet': ''},
+        {'id': 'v002', 'speaker': 'Member of the Public - Jann Doe', 'name': 'Jann Doe', 'role_org_hint': '', 'quote_snippet': ''}])
+    payload = {'results': [
+        {'id': 'v001', 'corrected_speaker': 'Julie Menin', 'confidence': 'high', 'source_urls': ['https://x.example']},
+        {'id': 'v002', 'corrected_speaker': 'Jane Doe', 'confidence': 'high', 'source_urls': ['https://x.example']}]}
+    monkeypatch.setattr(s, 'generate_json', lambda *a, **k: (payload, {'estimated_cost_usd': 0.001}))
+    named = [{'speaker': 'Member of the Public - John Lee'}, {'speaker': 'Member of the Public - Jann Doe'}]
+    result, _usage = s._verify_non_roster_speakers(
+        named, Meeting(meeting_key='m1', meeting_dir=tmp_path), base_url='https://openrouter.ai/api/v1', api_key='k')
+    assert [row['speaker'] for row in named] == ['Member of the Public - John Lee', 'Member of the Public - Jane Doe']
+    assert result['rejected_corrections'][0]['after'] == 'Member of the Public - Julie Menin'

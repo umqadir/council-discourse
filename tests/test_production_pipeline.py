@@ -305,6 +305,64 @@ def test_merge_results_does_not_regress_completed_statuses(tmp_path: Path) -> No
     assert merged["cost_usd"] == 2.5
 
 
+def test_merge_results_never_reverts_newer_legistar_metadata(tmp_path: Path) -> None:
+    db_path = tmp_path / "registry.db"
+    conn = db.connect(db_path)
+    db.upsert_meeting(
+        conn,
+        {
+            "meeting_key": "m1",
+            "viebit_filename": "m1",
+            "body_name": "Committee on Health",
+            "event_date": "2026-10-21T10:00:00",
+            "agenda_pdf_url": "https://legistar.example/old.pdf",
+        },
+    )
+    stale_row = dict(db.get_meeting(conn, "m1"))
+    stale_row.update(
+        {
+            "fetch_status": "fetched",
+            "chapterize_status": "chapterized",
+            "process_attempts": 0,
+            "cost_usd": 0.42,
+            "last_error": None,
+            "video_web_url": "https://videos.example/m1/video-web.mp4",
+            "duration_seconds": 5340.0,
+        }
+    )
+    # Discover refreshes Legistar metadata after the processing run finished.
+    db.upsert_meeting(
+        conn,
+        {
+            "meeting_key": "m1",
+            "viebit_filename": "m1",
+            "body_name": "Committee on Mental Health",
+            "event_date": "2026-10-21T13:00:00",
+            "agenda_pdf_url": "https://legistar.example/final.pdf",
+            "minutes_pdf_url": "https://legistar.example/minutes.pdf",
+        },
+    )
+    db.update_meeting(conn, "m1", {"last_error": "old failure"})
+    results_dir = tmp_path / "results"
+    results_dir.mkdir()
+    (results_dir / "m1.json").write_text(json.dumps({"meeting_key": "m1", "row": stale_row}) + "\n")
+
+    assert merge_results(db_path, results_dir) == 1
+    assert merge_results(db_path, results_dir) == 1  # re-merged every run
+
+    merged = db.get_meeting(db.connect(db_path), "m1")
+    assert merged["body_name"] == "Committee on Mental Health"
+    assert merged["event_date"] == "2026-10-21T13:00:00"
+    assert merged["agenda_pdf_url"] == "https://legistar.example/final.pdf"
+    assert merged["minutes_pdf_url"] == "https://legistar.example/minutes.pdf"
+    assert merged["fetch_status"] == "fetched"
+    assert merged["chapterize_status"] == "chapterized"
+    assert merged["cost_usd"] == 0.42
+    assert merged["last_error"] is None
+    assert merged["video_web_url"] == "https://videos.example/m1/video-web.mp4"
+    assert merged["duration_seconds"] == 5340.0
+
+
 def test_merge_results_finds_nested_result_json_and_skips_artifacts(tmp_path: Path) -> None:
     # Mirrors the real CI layout: upload-artifact@v4 roots each artifact at the
     # least-common-ancestor of its paths, so the result JSON downloads to
@@ -877,3 +935,84 @@ def test_process_one_waits_for_unposted_video_only_within_grace(
     assert json.loads(result_json.read_text())["status"] == expected
     assert code == (0 if expected == "pending" else 1)
     assert db.get_meeting(db.connect(db_path), "m1")["process_attempts"] == (0 if expected == "pending" else 1)
+
+
+@pytest.mark.parametrize("interrupt", ["keyboard", "sigterm"])
+def test_process_one_counts_job_timeout_interrupt_as_failed_attempt(tmp_path: Path, monkeypatch, interrupt) -> None:
+    import os
+    import signal
+
+    db_path = tmp_path / "registry.db"
+    conn = db.connect(db_path)
+    db.upsert_meeting(conn, {"meeting_key": "m1", "viebit_filename": "m1", "event_date": "2026-10-21T10:00:00"})
+    db.update_meeting(conn, "m1", {"process_attempts": 4})
+    monkeypatch.setattr("pipeline.production._reconcile_artifacts", lambda *_a, **_k: None)
+    monkeypatch.setattr("pipeline.production._persist_result_to_r2", lambda *_a, **_k: True)
+
+    def timed_out_fetch(*_a, **_k):
+        if interrupt == "sigterm":
+            os.kill(os.getpid(), signal.SIGTERM)
+        raise KeyboardInterrupt
+
+    monkeypatch.setattr("pipeline.production._stage_fetch", timed_out_fetch)
+    result_json = tmp_path / "result.json"
+    previous_sigterm = signal.getsignal(signal.SIGTERM)
+
+    with pytest.raises(KeyboardInterrupt):
+        process_one(db_path, "m1", result_json=result_json, fail_on_error=True)
+
+    assert signal.getsignal(signal.SIGTERM) is previous_sigterm
+    row = db.get_meeting(db.connect(db_path), "m1")
+    result = json.loads(result_json.read_text())
+    assert result["status"] == "failed"
+    assert result["error"].startswith("KeyboardInterrupt")
+    assert row["process_attempts"] == 5
+    assert result["row"]["process_attempts"] == 5
+    # At the cap the meeting is no longer selected, so it cannot loop forever.
+    assert select_process_candidates(db.connect(db_path)) == []
+
+
+def test_discovery_selects_nothing_once_daily_budget_is_spent(tmp_path: Path, monkeypatch, capsys) -> None:
+    monkeypatch.delenv("COUNCIL_DAILY_BUDGET_USD", raising=False)
+    db_path = tmp_path / "registry.db"
+    conn = db.connect(db_path)
+    db.upsert_meeting(conn, {"meeting_key": "done", "viebit_filename": "done", "event_date": "2026-10-20T10:00:00"})
+    db.upsert_meeting(conn, {"meeting_key": "next", "viebit_filename": "next", "event_date": "2026-10-21T10:00:00"})
+    db.update_meeting(conn, "done", {"cost_usd": 1.0})
+    results_dir = tmp_path / "results"
+    results_dir.mkdir()
+    row = dict(db.get_meeting(conn, "done"))
+    row.update({"cost_usd": 15.5, "process_attempts": 0})
+    (results_dir / "done.json").write_text(json.dumps({"meeting_key": "done", "row": row}) + "\n")
+
+    assert json.loads(pending_matrix_json(conn))["include"]
+    assert merge_results(db_path, results_dir) == 1
+    assert merge_results(db_path, results_dir) == 1  # re-merge books no new spend
+
+    conn = db.connect(db_path)
+    from pipeline.preflight import spend_for_day
+
+    assert spend_for_day(conn) == 14.5
+    assert json.loads(pending_matrix_json(conn))["include"]  # $14.50 < $15
+    db.update_meeting(conn, "done", {"cost_usd": 1.0})
+    assert merge_results(db_path, results_dir) == 1  # cost rises again by $14.50
+    conn = db.connect(db_path)
+    assert spend_for_day(conn) == 29.0
+    assert json.loads(pending_matrix_json(conn)) == {"include": []}
+    assert "reached the $15.00 budget" in capsys.readouterr().err
+    monkeypatch.setenv("COUNCIL_DAILY_BUDGET_USD", "50")
+    assert json.loads(pending_matrix_json(conn))["include"]
+
+
+def test_meeting_cost_counts_a_saved_chapter_first_pass(tmp_path: Path, monkeypatch) -> None:
+    from pipeline import production
+    from pipeline.chapterize import FIRST_PASS_CHECKPOINT
+
+    monkeypatch.setattr(production, "MEETINGS_DIR", tmp_path)
+    conn = db.connect(tmp_path / "registry.db")
+    db.upsert_meeting(conn, {"meeting_key": "m1", "viebit_filename": "m1"})
+    (tmp_path / "m1").mkdir()
+    (tmp_path / "m1" / FIRST_PASS_CHECKPOINT).write_text(json.dumps({"estimated_cost_usd": 0.07}) + "\n")
+    assert production._calculate_meeting_cost(db.get_meeting(conn, "m1")) == 0.07
+    (tmp_path / "m1" / "chapters.json").write_text(json.dumps({"estimated_cost_usd": 0.12, "chapters": []}) + "\n")
+    assert production._calculate_meeting_cost(db.get_meeting(conn, "m1")) == 0.12
