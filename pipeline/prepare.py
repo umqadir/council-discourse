@@ -70,18 +70,20 @@ def _pdftotext(pdf: Path, txt: Path) -> bool:
 def prepare_meeting(conn: sqlite3.Connection, row: sqlite3.Row, meetings_dir: Path = MEETINGS_DIR) -> None:
     meeting = db.meeting_from_row(row, meetings_dir)
     meeting_dir = meeting.meeting_dir
+    # Captions are a fallback only: Voxtral produces the transcript, and
+    # re-posted recordings have no .vtt at all.
     vtt = meeting_dir / "captions.vtt"
-    if not vtt.exists():
-        raise RuntimeError(f"missing captions.vtt for {meeting.meeting_key}")
-
     jsonl = meeting_dir / "captions-clean.jsonl"
     txt = meeting_dir / "captions-clean.txt"
-    if not jsonl.exists() or not txt.exists():
+    if vtt.exists() and (not jsonl.exists() or not txt.exists()):
         frags = dedupe_rollup(parse_vtt(vtt))
-        if not frags:
-            raise RuntimeError(f"no caption fragments parsed for {meeting.meeting_key}")
-        atomic_write_text(jsonl, "\n".join(json.dumps(f) for f in frags) + "\n")
-        atomic_write_text(txt, "\n".join(caption_text_lines(frags)) + "\n")
+        if frags:
+            atomic_write_text(jsonl, "\n".join(json.dumps(f) for f in frags) + "\n")
+            atomic_write_text(txt, "\n".join(caption_text_lines(frags)) + "\n")
+        else:
+            print(f"  no caption fragments parsed for {meeting.meeting_key}; continuing without captions", flush=True)
+    elif not vtt.exists() and not jsonl.exists():
+        print(f"  no captions for {meeting.meeting_key}; continuing without them", flush=True)
 
     _pdftotext(meeting_dir / "agenda.pdf", meeting_dir / "agenda.txt")
 

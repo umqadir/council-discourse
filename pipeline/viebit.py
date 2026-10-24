@@ -6,6 +6,7 @@ from dataclasses import dataclass
 from datetime import date, datetime
 from email.utils import parsedate_to_datetime
 from pathlib import Path
+from urllib.parse import unquote, urlparse
 
 import httpx
 
@@ -15,17 +16,33 @@ FILENAME_RE = re.compile(r"(?P<stem>[A-Za-z0-9_-]+_\d{6}-\d{6})(?:fix)?(?:\.mp4)
 PLAYER_HASH_RE = re.compile(r"player\.php\?hash=([A-Za-z0-9]+)")
 
 
+MEDIA_NS = "{http://search.yahoo.com/mrss/}"
+
+
 @dataclass(frozen=True)
 class RssItem:
     filename: str
     hash: str
     pub_date: str | None
     title: str
+    # Stem of the item's CDN assets, from its media:content thumbnail URL.
+    # Usually equal to filename; renamed re-posts can differ
+    # (title NYCC-PV-CH-COM_261022-Parks, assets NYCC-PV-CH-CHA_261022-Parks).
+    cdn_filename: str | None = None
 
 
 def normalize_filename(value: str) -> str:
     filename = value.strip().split("/")[-1]
     return filename.removesuffix(".mp4")
+
+
+def cdn_filename_from_media_url(url: str | None) -> str | None:
+    """'.../counciln/<hash>/NYCC-PV-CH-CHA_261022-Parks.jpg?v=0' -> 'NYCC-PV-CH-CHA_261022-Parks'."""
+    if not url:
+        return None
+    name = unquote(urlparse(url.strip()).path.rsplit("/", 1)[-1])
+    stem, dot, _ext = name.rpartition(".")
+    return stem if dot and stem else None
 
 
 def parse_pub_date(value: str | None) -> str | None:
@@ -47,12 +64,14 @@ def parse_rss(xml_text: str) -> list[RssItem]:
         pub_date = parse_pub_date(item.findtext("pubDate"))
         if not title or not guid:
             continue
+        media = item.find(f"{MEDIA_NS}content")
         items.append(
             RssItem(
                 filename=normalize_filename(title),
                 hash=guid,
                 pub_date=pub_date,
                 title=title,
+                cdn_filename=cdn_filename_from_media_url(media.get("url") if media is not None else None),
             )
         )
     return items

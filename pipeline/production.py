@@ -18,6 +18,7 @@ from .chapterize import FIRST_PASS_CHECKPOINT
 from .config import MEETINGS_DIR, REGISTRY_DB, chaptering_llm_config, naming_llm_config, voxtral_usd_per_audio_hour
 from .fetch import (
     _download,
+    _download_optional,
     _extract_audio,
     _extract_wav,
     _has_file,
@@ -26,6 +27,7 @@ from .fetch import (
     _write_meeting_json,
 )
 from .preflight import budget_exhausted, record_spend
+from .matching import SHORT_RECORDING_HOLD_PREFIX, post_fetch_hold_note
 from .prepare import prepare_meeting
 from .stages import chapterize, name_speakers, transcribe
 from .utils import utc_now_iso
@@ -80,6 +82,7 @@ def select_process_candidates(
         WHERE viebit_filename IS NOT NULL
           AND event_date IS NOT NULL
           AND process_attempts < 5
+          AND COALESCE(last_error, '') NOT LIKE ?
           AND COALESCE(substr(event_date, 1, 10), substr(viebit_pub_date, 1, 10), substr(discovered_at, 1, 10)) >= ?
           AND (
             fetch_status != 'fetched'
@@ -91,10 +94,12 @@ def select_process_candidates(
           )
         ORDER BY COALESCE(viebit_pub_date, discovered_at) ASC, meeting_key ASC
     """
-    params: tuple[Any, ...] = (coverage_start,)
+    # A recording held after fetch (too short for a start-time pairing) waits
+    # for a human; re-dispatching it every cycle would only re-hold it.
+    params: tuple[Any, ...] = (SHORT_RECORDING_HOLD_PREFIX + "%", coverage_start)
     if limit is not None:
         sql += " LIMIT ?"
-        params = (coverage_start, limit)
+        params = (*params, limit)
     rows = list(conn.execute(sql, params))
     excluded = _process_attempts_cap_rows(conn, coverage_start)
     if excluded:
@@ -145,6 +150,7 @@ def process_one(
             row = db.get_meeting(conn, meeting_key)
         _stage_fetch(conn, row, result, dry_run=dry_run)
         row = db.get_meeting(conn, meeting_key)
+        _stage_duration_guard(conn, row, result, dry_run=dry_run)
         _stage_prepare(conn, row, result, dry_run=dry_run)
         row = db.get_meeting(conn, meeting_key)
         _stage_transcribe_voxtral(conn, row, result, dry_run=dry_run)
@@ -158,6 +164,10 @@ def process_one(
             if cost_usd is not None:
                 update["cost_usd"] = cost_usd
             db.update_meeting(conn, meeting_key, update)
+    except MeetingHeld as exc:
+        result["status"] = "held"
+        result["note"] = str(exc)
+        print(f"::warning::process-one {meeting_key} held: {exc}", file=sys.stderr, flush=True)
     except VoxtralBatchPending as exc:
         result["status"] = "pending"
         result["note"] = str(exc)
@@ -422,7 +432,8 @@ def _reconcile_artifacts(conn: sqlite3.Connection, meeting_key: str, meetings_di
     row = db.get_meeting(conn, meeting_key)
     checks = [
         ("fetch_status", "fetched", ["audio.m4a"]),
-        ("prepare_status", "prepared", ["captions-clean.jsonl"]),
+        # Captions are optional (re-posted recordings have none), so prepare
+        # has no artifact that must exist; Voxtral is the transcript source.
         ("transcribe_status", "transcribed", ["utterances-labeled.jsonl", "utterances.jsonl"]),
         ("name_speakers_status", "named", ["utterances-named.jsonl"]),
         ("chapterize_status", "chapterized", ["chapters.json"]),
@@ -451,6 +462,29 @@ def _stage_fetch(
         return
     fetch_meeting_prod(conn, row)
     _record_stage(result, "fetch-upload", "completed")
+
+
+class MeetingHeld(RuntimeError):
+    """Processing stopped for a human decision; not a failed attempt."""
+
+
+def _stage_duration_guard(
+    conn: sqlite3.Connection,
+    row: sqlite3.Row,
+    result: dict[str, Any],
+    *,
+    dry_run: bool,
+) -> None:
+    """Stop a too-short start-time pairing after fetch, before any paid stage."""
+    note = post_fetch_hold_note(row)
+    if note is None:
+        return
+    if dry_run:
+        _record_stage(result, "duration-guard", "would_hold")
+        return
+    db.update_meeting(conn, str(row["meeting_key"]), {"last_error": note})
+    _record_stage(result, "duration-guard", "held")
+    raise MeetingHeld(note)
 
 
 def _stage_prepare(
@@ -585,6 +619,9 @@ def fetch_meeting_prod(
     if not meeting.viebit_filename:
         raise RuntimeError(f"{meeting.meeting_key} has no viebit filename")
     filename = normalize_filename(meeting.viebit_filename)
+    # Assets live under the stem the feed's thumbnail URL shows, which renamed
+    # re-posts do not share with their title.
+    cdn_name = normalize_filename(row["viebit_cdn_filename"] or filename)
     viebit_hash = meeting.viebit_hash or resolve_viebit_hash(filename)
     if viebit_hash != meeting.viebit_hash:
         db.update_meeting(conn, meeting.meeting_key, {"viebit_hash": viebit_hash})
@@ -602,13 +639,13 @@ def fetch_meeting_prod(
     audio = meeting_dir / "audio.m4a"
     wav = meeting_dir / "audio-16k.wav"
 
-    _download(cdn_url(viebit_hash, filename, "vtt"), captions)
-    _download(cdn_url(viebit_hash, filename, "jpg"), thumbnail)
+    _download_optional(cdn_url(viebit_hash, cdn_name, "vtt"), captions)
+    _download(cdn_url(viebit_hash, cdn_name, "jpg"), thumbnail)
     if meeting.agenda_pdf_url:
         _download(meeting.agenda_pdf_url, agenda)
 
     if not _has_file(audio, 10_000) or not _has_file(wav, 10_000) or not _has_file(video_web, 10_000):
-        _download(cdn_url(viebit_hash, filename, "mp4"), mp4, min_size=10_000)
+        _download(cdn_url(viebit_hash, cdn_name, "mp4"), mp4, min_size=10_000)
     if not _has_file(video_web, 10_000):
         _transcode_video_web(mp4, video_web)
     if not _has_file(audio, 10_000):
@@ -792,7 +829,7 @@ def verify_run_results(results_dir: Path, matrix_json: str) -> list[str]:
         status = found.get(key)
         if status is None:
             problems.append(f"{key}: no result record found")
-        elif status not in {"complete", "pending", "failed"}:
+        elif status not in {"complete", "pending", "failed", "held"}:
             problems.append(f"{key}: unrecognized result status '{status}'")
     return problems
 

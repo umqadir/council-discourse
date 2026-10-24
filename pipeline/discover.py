@@ -44,6 +44,7 @@ def discover_viebit_rss(conn: sqlite3.Connection, rss_url: str | None = None) ->
                 "viebit_filename": normalize_filename(item.filename),
                 "viebit_hash": item.hash,
                 "viebit_pub_date": item.pub_date,
+                "viebit_cdn_filename": item.cdn_filename,
                 "discover_status": "discovered",
             },
         )
@@ -102,6 +103,8 @@ def _attach_video_filename(conn: sqlite3.Connection, client: LegistarClient, eve
                 values["viebit_filename"] = filename
     if values.get("viebit_filename") and not _clerk_link_allowed(conn, event.event_id, str(values["viebit_filename"])):
         values.pop("viebit_filename")
+    if values.get("viebit_filename"):
+        values["match_source"] = "legistar"
     if values.get("viebit_filename") and not values.get("viebit_hash"):
         try:
             values["viebit_hash"] = resolve_viebit_hash(str(values["viebit_filename"]))
@@ -219,9 +222,17 @@ def match_recordings(conn: sqlite3.Connection, coverage_start: str | None = None
     plan = plan_matches(events, recordings)
     for event_id, filename, reason in plan.links:
         print(f"match: {filename} -> event {event_id} ({reason})", file=sys.stderr, flush=True)
-        row = db.upsert_meeting(conn, {"legistar_event_id": event_id, "viebit_filename": filename})
-        if str(row["last_error"] or "").startswith(HOLD_NOTE_PREFIX):
-            db.update_meeting(conn, str(row["meeting_key"]), {"last_error": None})
+        db.upsert_meeting(
+            conn,
+            {"legistar_event_id": event_id, "viebit_filename": filename, "match_source": plan.sources[filename]},
+        )
+    # A discover-time hold describes an unpaired recording; once the recording
+    # is paired (here or by the clerk's link) the note is stale.
+    conn.execute(
+        "UPDATE meetings SET last_error = NULL WHERE legistar_event_id IS NOT NULL AND last_error LIKE ?",
+        (HOLD_NOTE_PREFIX + "%",),
+    )
+    conn.commit()
     for filename, row in unmatched.items():
         if any(link[1] == filename for link in plan.links):
             continue
@@ -270,7 +281,7 @@ def detach_event(conn: sqlite3.Connection, meeting_key: str) -> str:
     if row["legistar_event_id"] is None or not row["viebit_filename"]:
         raise ValueError(f"{meeting_key} is not a paired recording row")
     event_values = {column: row[column] for column in EVENT_COLUMNS}
-    db.update_meeting(conn, meeting_key, {column: None for column in EVENT_COLUMNS})
+    db.update_meeting(conn, meeting_key, {**{column: None for column in EVENT_COLUMNS}, "match_source": None})
     event_row = db.upsert_meeting(conn, {**event_values, "discover_status": "discovered"})
     return str(event_row["meeting_key"])
 

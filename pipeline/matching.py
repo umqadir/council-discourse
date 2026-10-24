@@ -16,13 +16,20 @@ from zoneinfo import ZoneInfo
 
 from .legistar import (
     MATCH_LATE_MINUTES,
+    viebit_filename_from_url,
     body_suffix_fit,
     location_exact_room,
     location_room_prefixes,
     parse_event_datetime,
     time_match_cost,
 )
-from .viebit import filename_body_suffix, parse_filename_date, parse_filename_timestamp, room_prefix
+from .viebit import (
+    filename_body_suffix,
+    normalize_filename,
+    parse_filename_date,
+    parse_filename_timestamp,
+    room_prefix,
+)
 
 # A committee vote can be a few minutes long, but an inferred match this short
 # is more often mic checks or a stray clip than the meeting itself.
@@ -30,6 +37,9 @@ MIN_INFERRED_RECORDING_MINUTES = 5.0
 # Recordings starting this far outside the window are reported, not linked.
 REPORT_LATE_MINUTES = 150
 HOLD_NOTE_PREFIX = "match held: "
+# last_error prefix for a paired recording stopped after fetch, before any
+# paid stage; select_process_candidates skips rows carrying it.
+SHORT_RECORDING_HOLD_PREFIX = "held before paid stages: "
 VIEBIT_TIMEZONE = ZoneInfo("America/New_York")
 
 
@@ -57,6 +67,8 @@ class MatchPlan:
     links: list[tuple[int, str, str]] = field(default_factory=list)
     # filename -> why it was not linked
     holds: dict[str, str] = field(default_factory=dict)
+    # filename -> match_source of the link ("suffix" or "time")
+    sources: dict[str, str] = field(default_factory=dict)
 
 
 def recording_max_minutes(recording: RecordingSlot) -> float | None:
@@ -145,6 +157,7 @@ def _plan_day(events: list[EventSlot], recordings: list[RecordingSlot], plan: Ma
             plan.holds[filename] = f"filename suffix '{suffix}' fits several events: {names}"
             continue
         plan.links.append((event.event_id, filename, f"filename suffix '{suffix}'"))
+        plan.sources[filename] = "suffix"
         taken_events.add(event.event_id)
         taken_recordings.add(filename)
         linked_to[event.event_id] = filename
@@ -170,6 +183,7 @@ def _plan_day(events: list[EventSlot], recordings: list[RecordingSlot], plan: Ma
         if filename in taken_recordings or event_id in taken_events:
             continue
         plan.links.append((event_id, filename, f"start time (cost {cost:.0f})"))
+        plan.sources[filename] = "time"
         taken_events.add(event_id)
         taken_recordings.add(filename)
 
@@ -200,3 +214,39 @@ def _plan_day(events: list[EventSlot], recordings: list[RecordingSlot], plan: Ma
                     f"{MATCH_LATE_MINUTES}-minute matching window"
                 )
                 break
+
+
+def pairing_source(row) -> str:
+    """How a registry row's recording was paired with its event."""
+    source = row["match_source"]
+    if source:
+        return str(source)
+    # Pairs made before match_source was recorded.
+    filename = normalize_filename(str(row["viebit_filename"] or ""))
+    video_path = row["event_video_path"]
+    if video_path and viebit_filename_from_url(video_path) == filename:
+        return "legistar"
+    if filename_body_suffix(filename):
+        return "suffix"
+    return "time"
+
+
+def post_fetch_hold_note(row) -> str | None:
+    """last_error for a start-time pairing whose fetched recording is too short.
+
+    Same floor as the discover-time guard, applied once the real duration is
+    known and before anything is paid for. Clerk-linked and body-named
+    recordings are trusted: real committee votes run one to four minutes.
+    """
+    duration = row["duration_seconds"]
+    if duration is None or float(duration) / 60 >= MIN_INFERRED_RECORDING_MINUTES:
+        return None
+    if pairing_source(row) != "time":
+        return None
+    return (
+        f"{SHORT_RECORDING_HOLD_PREFIX}{row['viebit_filename']} is {float(duration) / 60:.1f} min long, "
+        f"under the {MIN_INFERRED_RECORDING_MINUTES:.0f}-minute floor for a recording paired with "
+        f"{row['body_name'] or 'its event'} {row['event_time'] or ''} by start time; no paid stage ran. "
+        "If it is the meeting: reset-meeting, then set match_source='manual'. "
+        "If not: reset-meeting, then discover.detach_event."
+    )

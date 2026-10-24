@@ -18,6 +18,8 @@ MEETING_COLUMNS = [
     "viebit_filename",
     "viebit_hash",
     "viebit_pub_date",
+    "viebit_cdn_filename",
+    "match_source",
     "body_name",
     "event_date",
     "event_time",
@@ -92,6 +94,8 @@ def init_db(conn: sqlite3.Connection) -> None:
             viebit_filename TEXT,
             viebit_hash TEXT,
             viebit_pub_date TEXT,
+            viebit_cdn_filename TEXT,
+            match_source TEXT,
             body_name TEXT,
             event_date TEXT,
             event_time TEXT,
@@ -150,6 +154,12 @@ def _migrate_meetings_table(conn: sqlite3.Connection) -> None:
         "body_slug": "TEXT",
         "video_web_url": "TEXT",
         "event_topic": "TEXT",
+        # The CDN asset stem, when Viebit serves the file under a name other
+        # than its RSS title (the thumbnail URL in the feed shows it).
+        "viebit_cdn_filename": "TEXT",
+        # How the recording was paired with its event: legistar (clerk link),
+        # suffix (body name in the filename), time (start time), manual.
+        "match_source": "TEXT",
         "diarize_status": "TEXT NOT NULL DEFAULT 'stubbed'",
         "process_attempts": "INTEGER NOT NULL DEFAULT 0",
         "cost_usd": "REAL",

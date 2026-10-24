@@ -50,6 +50,19 @@ def _download(url: str, dest: Path, min_size: int = 1) -> bool:
     return True
 
 
+def _download_optional(url: str, dest: Path, min_size: int = 1) -> bool:
+    """Download an asset the pipeline can do without (WebVTT captions).
+
+    Re-posted recordings have no .vtt at all, so a 404 here is normal.
+    """
+    try:
+        return _download(url, dest, min_size)
+    except (subprocess.CalledProcessError, RuntimeError) as exc:
+        dest.with_name(f".{dest.name}.part").unlink(missing_ok=True)
+        print(f"  optional asset unavailable, continuing without it: {url} ({exc})", flush=True)
+        return False
+
+
 def _extract_audio(mp4: Path, audio: Path) -> bool:
     if _has_file(audio, 10_000):
         return False
@@ -117,6 +130,7 @@ def fetch_meeting(conn: sqlite3.Connection, row: sqlite3.Row, meetings_dir: Path
     if not meeting.viebit_filename:
         raise RuntimeError(f"{meeting.meeting_key} has no viebit filename")
     filename = normalize_filename(meeting.viebit_filename)
+    cdn_name = normalize_filename(row["viebit_cdn_filename"] or filename)
     viebit_hash = meeting.viebit_hash or resolve_viebit_hash(filename)
     if viebit_hash != meeting.viebit_hash:
         db.update_meeting(conn, meeting.meeting_key, {"viebit_hash": viebit_hash})
@@ -134,13 +148,13 @@ def fetch_meeting(conn: sqlite3.Connection, row: sqlite3.Row, meetings_dir: Path
     audio = meeting_dir / "audio.m4a"
     wav = meeting_dir / "audio-16k.wav"
 
-    _download(cdn_url(viebit_hash, filename, "vtt"), captions)
-    _download(cdn_url(viebit_hash, filename, "jpg"), thumbnail)
+    _download_optional(cdn_url(viebit_hash, cdn_name, "vtt"), captions)
+    _download(cdn_url(viebit_hash, cdn_name, "jpg"), thumbnail)
     if meeting.agenda_pdf_url:
         _download(meeting.agenda_pdf_url, agenda)
 
     if not _has_file(audio, 10_000) or not _has_file(wav, 10_000) or not _has_file(video_web, 10_000):
-        _download(cdn_url(viebit_hash, filename, "mp4"), mp4, min_size=10_000)
+        _download(cdn_url(viebit_hash, cdn_name, "mp4"), mp4, min_size=10_000)
     if not _has_file(video_web, 10_000):
         _remux_faststart(mp4, video_web)
     if not _has_file(audio, 10_000):
