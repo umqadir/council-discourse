@@ -1002,3 +1002,17 @@ def test_discovery_selects_nothing_once_daily_budget_is_spent(tmp_path: Path, mo
     assert "reached the $15.00 budget" in capsys.readouterr().err
     monkeypatch.setenv("COUNCIL_DAILY_BUDGET_USD", "50")
     assert json.loads(pending_matrix_json(conn))["include"]
+
+
+def test_meeting_cost_counts_a_saved_chapter_first_pass(tmp_path: Path, monkeypatch) -> None:
+    from pipeline import production
+    from pipeline.chapterize import FIRST_PASS_CHECKPOINT
+
+    monkeypatch.setattr(production, "MEETINGS_DIR", tmp_path)
+    conn = db.connect(tmp_path / "registry.db")
+    db.upsert_meeting(conn, {"meeting_key": "m1", "viebit_filename": "m1"})
+    (tmp_path / "m1").mkdir()
+    (tmp_path / "m1" / FIRST_PASS_CHECKPOINT).write_text(json.dumps({"estimated_cost_usd": 0.07}) + "\n")
+    assert production._calculate_meeting_cost(db.get_meeting(conn, "m1")) == 0.07
+    (tmp_path / "m1" / "chapters.json").write_text(json.dumps({"estimated_cost_usd": 0.12, "chapters": []}) + "\n")
+    assert production._calculate_meeting_cost(db.get_meeting(conn, "m1")) == 0.12

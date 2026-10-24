@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import hashlib
 import json
 import os
 import re
@@ -45,6 +46,14 @@ SERIAL_VOTE_PARENT_TYPES = {"VOICE_VOTE", "VOTE"}
 # context of GLM-5.2's siblings and hard-failed normal long meetings. Anything
 # past this is not a long meeting, it is a broken/looping transcript.
 DEFAULT_MAX_CHAPTER_PROMPT_TOKENS = 700_000
+# The paid first pass, kept until chapters.json is written so a failed
+# quality-gate call resumes from it. The name matches the workflow's
+# "*-meta.json" R2 persist pattern.
+FIRST_PASS_CHECKPOINT = "chapterize-first-pass-meta.json"
+# An hour-plus meeting with this few chapters is a degenerate response
+# (Oct 21 Mental Health: 89 minutes, one chapter); never publish it.
+DEGENERATE_MIN_DURATION_SEC = 3600.0
+DEGENERATE_MAX_CHAPTERS = 2
 CHAPTER_JSON_SCHEMA = {
     "type": "object",
     "properties": {
@@ -88,7 +97,14 @@ def chapterize_meeting(
 ) -> tuple[str, str]:
     chapters_path = Path(output_path) if output_path else meeting.meeting_dir / "chapters.json"
     derived_output_path = Path(derived_path) if derived_path else meeting.meeting_dir / "meeting-derived.json"
+    checkpoint_path = chapters_path.with_name(FIRST_PASS_CHECKPOINT)
     cached_meta = _cached_chapterize_meta(chapters_path)
+    if cached_meta is not None:
+        cached_chapters = cached_meta.get("chapters") or []
+        cached_duration = meeting.duration_seconds or float(cached_chapters[-1].get("end_sec") or 0.0)
+        if _degenerate_chapters_reason(len(cached_chapters), cached_duration):
+            print(f"::warning::{meeting.meeting_key}: ignoring degenerate cached chapters.json ({len(cached_chapters)} chapters)", flush=True)
+            cached_meta = None
     if cached_meta is not None:
         if write_runlog:
             append_gemini_runlog(
@@ -109,36 +125,50 @@ def chapterize_meeting(
     prompt = _chapter_prompt(meeting, utterances)
     _raise_if_chapter_prompt_too_large(prompt)
     temperature = 0.2 if meeting_type == "STATED_MEETING" else 0.3
-    metas = []
-    # The chaptering model has occasionally returned an empty chapter list
-    # (twice in one run on 2026-10-08, not reproducible across 37 replays on
-    # every OpenRouter provider). Allow exactly one fresh call, and log the
-    # provider/finish reason/excerpt so a recurring cause is visible.
-    for attempt in range(2):
-        result, meta = generate_json(
-            prompt,
-            model=model,
-            temperature=temperature,
-            base_url=llm_base_url,
-            api_key=llm_api_key,
-            api_key_env=llm_api_key_env,
-            json_schema=CHAPTER_JSON_SCHEMA,
-        )
-        metas.append(meta)
-        try:
-            chapters = _resolve_chapters(result, utterances, meeting.duration_seconds)
-            break
-        except EmptyChaptersError as exc:
-            print(
-                f"::warning::{meeting.meeting_key}: {exc} (attempt {attempt + 1}/2; "
-                f"model={meta.get('model')} provider={meta.get('upstream_provider')} "
-                f"finish={meta.get('finish_reason')}); response excerpt: {json.dumps(result)[:300]}",
-                flush=True,
+    duration = _meeting_duration_sec(meeting, utterances)
+    prompt_sha256 = hashlib.sha256(f"{model}\n{prompt}".encode("utf-8")).hexdigest()
+    first_pass = _load_first_pass(checkpoint_path, prompt_sha256)
+    if first_pass is not None:
+        result, metas = first_pass["result"], list(first_pass["metas"])
+        chapters = _resolve_chapters(result, utterances, meeting.duration_seconds)
+        print(f"{meeting.meeting_key}: resuming chaptering from the saved first pass", flush=True)
+    else:
+        metas = []
+        # The chaptering model has occasionally returned an empty chapter list
+        # (twice in one run on 2026-10-08, not reproducible across 37 replays on
+        # every OpenRouter provider). Allow exactly one fresh call, and log the
+        # provider/finish reason/excerpt so a recurring cause is visible.
+        for attempt in range(2):
+            result, meta = generate_json(
+                prompt,
+                model=model,
+                temperature=temperature,
+                base_url=llm_base_url,
+                api_key=llm_api_key,
+                api_key_env=llm_api_key_env,
+                json_schema=CHAPTER_JSON_SCHEMA,
             )
-            if attempt == 1:
-                raise
+            metas.append(meta)
+            try:
+                chapters = _resolve_chapters(result, utterances, meeting.duration_seconds)
+                break
+            except EmptyChaptersError as exc:
+                print(
+                    f"::warning::{meeting.meeting_key}: {exc} (attempt {attempt + 1}/2; "
+                    f"model={meta.get('model')} provider={meta.get('upstream_provider')} "
+                    f"finish={meta.get('finish_reason')}); response excerpt: {json.dumps(result)[:300]}",
+                    flush=True,
+                )
+                if attempt == 1:
+                    raise
+        _save_first_pass(checkpoint_path, prompt_sha256, model, result, metas)
     chapters = _postprocess_chapters(chapters, utterances, meeting, meeting.duration_seconds)
     retry_note = _coarse_retry_note(meeting_type, len(chapters), meeting.duration_seconds)
+    if retry_note is None and _degenerate_chapters_reason(len(chapters), duration):
+        retry_note = (
+            f"The draft has only {len(chapters)} chapter(s) for a {duration / 60:.0f}-minute meeting. "
+            "Divide the whole meeting into its distinct remarks, testimony, Q&A and vote segments."
+        )
     if retry_note:
         retry_prompt = f"{prompt}\n\nQUALITY GATE:\n{retry_note}\nReturn a complete replacement JSON object, not a patch."
         retry_result, retry_meta = generate_json(
@@ -164,6 +194,11 @@ def chapterize_meeting(
         ):
             result = retry_result
             chapters = retry_chapters
+    degenerate = _degenerate_chapters_reason(len(chapters), duration)
+    if degenerate:
+        # The saved first pass stays, so the next attempt pays only for the
+        # quality-gate call.
+        raise DegenerateChaptersError(f"{meeting.meeting_key}: {degenerate}; refusing to publish")
     meta = _combined_generation_meta(metas)
     derived = _meeting_derived(result, meeting)
     derived.update(
@@ -189,8 +224,11 @@ def chapterize_meeting(
         "structured_mode": meta.get("structured_mode"),
         "chapters": chapters,
     }
+    if first_pass is not None:
+        stage_meta["resumed_first_pass"] = True
     write_json(chapters_path, stage_meta)
     write_json(derived_output_path, derived)
+    checkpoint_path.unlink(missing_ok=True)
     if write_runlog:
         append_gemini_runlog(
             meeting.meeting_dir,
@@ -279,6 +317,54 @@ Return JSON only:
 
 class EmptyChaptersError(RuntimeError):
     """The chapter response had no usable chapters."""
+
+
+class DegenerateChaptersError(RuntimeError):
+    """The chapters are too coarse to publish (e.g. one chapter for an hour)."""
+
+
+def _degenerate_chapters_reason(chapter_count: int, duration_seconds: float | None) -> str | None:
+    if not duration_seconds or duration_seconds < DEGENERATE_MIN_DURATION_SEC:
+        return None
+    if chapter_count > DEGENERATE_MAX_CHAPTERS:
+        return None
+    return f"degenerate chaptering: {chapter_count} chapter(s) for a {duration_seconds / 60:.0f}-minute meeting"
+
+
+def _meeting_duration_sec(meeting: Meeting, utterances: list[dict[str, Any]]) -> float:
+    if meeting.duration_seconds:
+        return float(meeting.duration_seconds)
+    return max((float(row.get("t1") or row.get("t0") or 0.0) for row in utterances), default=0.0)
+
+
+def _save_first_pass(path: Path, prompt_sha256: str, model: str, result: dict[str, Any], metas: list[dict[str, Any]]) -> None:
+    combined = _combined_generation_meta(metas)
+    write_json(
+        path,
+        {
+            "prompt_sha256": prompt_sha256,
+            "model": model,
+            "result": result,
+            "metas": metas,
+            "estimated_cost_usd": combined.get("estimated_cost_usd"),
+            "exact_cost_usd": combined.get("exact_cost_usd"),
+        },
+    )
+
+
+def _load_first_pass(path: Path, prompt_sha256: str) -> dict[str, Any] | None:
+    """The saved first pass, if it was made for this exact prompt and model."""
+    try:
+        if not path.exists() or path.stat().st_size <= 0:
+            return None
+        payload = read_json(path)
+    except Exception:
+        return None
+    if not isinstance(payload, dict) or payload.get("prompt_sha256") != prompt_sha256:
+        return None
+    if not isinstance(payload.get("result"), dict) or not isinstance(payload.get("metas"), list):
+        return None
+    return payload
 
 
 def _raise_if_chapter_prompt_too_large(prompt: str) -> None:

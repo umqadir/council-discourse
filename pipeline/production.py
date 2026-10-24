@@ -14,6 +14,7 @@ from typing import Any
 
 from . import db
 from .artifacts import read_json, write_json
+from .chapterize import FIRST_PASS_CHECKPOINT
 from .config import MEETINGS_DIR, REGISTRY_DB, chaptering_llm_config, naming_llm_config, voxtral_usd_per_audio_hour
 from .fetch import (
     _download,
@@ -306,7 +307,11 @@ def _calculate_meeting_cost(row: sqlite3.Row) -> float:
     total = 0.0
     total += _voxtral_cost_usd(meeting.meeting_dir / "transcribe-meta.json")
     total += _name_speakers_cost_usd(meeting.meeting_dir)
-    total += _recorded_cost(_read_json_or_none(meeting.meeting_dir / "chapters.json"))
+    chapters = _read_json_or_none(meeting.meeting_dir / "chapters.json")
+    if chapters is None:
+        # A paid first pass awaiting its quality-gate retry is still spend.
+        chapters = _read_json_or_none(meeting.meeting_dir / FIRST_PASS_CHECKPOINT)
+    total += _recorded_cost(chapters)
     return round(total, 6)
 
 
