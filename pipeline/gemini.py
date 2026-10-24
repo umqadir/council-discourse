@@ -10,6 +10,7 @@ from typing import Any
 import httpx
 from json_repair import repair_json
 
+from .config import grounded_verification_enabled
 from .utils import load_dotenv
 
 API_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key}"
@@ -93,7 +94,14 @@ def generate_json(
 
 
 def generate_grounded_research(prompt: str, model: str) -> tuple[dict[str, Any], dict[str, Any]]:
-    """Retrieve cited prose before asking for JSON; structured answers can lose citations."""
+    """Retrieve cited prose before asking for JSON; structured answers can lose citations.
+
+    The result ({"text", "sources"}) is Grounded Results content: callers may
+    use it for the immediate follow-up request only and must never persist it.
+    The returned meta carries counts, not queries or links.
+    """
+    if not grounded_verification_enabled():
+        raise RuntimeError("Google-grounded verification is disabled (set COUNCIL_GROUNDED_VERIFICATION=1 to opt in)")
     load_dotenv()
     return _generate_json_gemini(
         prompt=prompt, model=model, max_output_tokens=8192, temperature=0.0,
@@ -197,7 +205,7 @@ def _generate_json_gemini(
         candidate = candidates[0]
         grounding = candidate.get("groundingMetadata")
         if grounding:
-            meta["grounding"] = _compact_grounding_metadata(grounding)
+            meta["grounding"] = _grounding_counts(grounding)
         text = "\n".join(part.get("text", "") for part in candidate.get("content", {}).get("parts", [])
                          if not part.get("thought"))
         last_text = text
@@ -210,15 +218,19 @@ def _generate_json_gemini(
         try:
             if text_only and (not text.strip() or candidate.get("finishReason") == "MAX_TOKENS"):
                 raise ValueError("Incomplete search research response")
-            parsed = {"text": text} if text_only else _parse_json_text(text)
+            if text_only:
+                parsed = {"text": text, "sources": _grounding_sources(grounding or {})}
+            else:
+                parsed = _parse_json_text(text)
         except Exception as exc:
             meta["parse_error"] = str(exc)
             attempts.append(meta)
             if attempt >= max_attempts:
                 combined = _combine_generation_attempts(attempts)
+                # Grounded research text must not reach error logs or artifacts.
+                excerpt = "" if text_only else f"; response excerpt: {last_text[:500]}"
                 error = RuntimeError(
-                    f"Gemini {model} returned unparsable JSON after {attempt} attempt(s): "
-                    f"{exc}; response excerpt: {last_text[:500]}"
+                    f"Gemini {model} returned unparsable JSON after {attempt} attempt(s): {exc}{excerpt}"
                 )
                 error.generation_meta = combined
                 raise error from exc
@@ -679,21 +691,24 @@ def _int_usage(usage: dict[str, Any], key: str) -> int:
     return int(value) if isinstance(value, int | float) else 0
 
 
-def _compact_grounding_metadata(grounding: dict[str, Any]) -> dict[str, Any]:
-    queries = [str(item) for item in grounding.get("webSearchQueries", []) if str(item).strip()]
+def _grounding_counts(grounding: dict[str, Any]) -> dict[str, int]:
+    """Persistable summary of grounding metadata: counts only.
+
+    Search queries, source links and titles are Grounded Results under the
+    Gemini API terms and must not be stored, so they never enter meta.
+    """
+    queries = [item for item in grounding.get("webSearchQueries", []) or [] if str(item).strip()]
+    return {
+        "web_search_query_count": len(queries),
+        "grounding_chunk_count": len(_grounding_sources(grounding, limit=None)),
+    }
+
+
+def _grounding_sources(grounding: dict[str, Any], limit: int | None = 40) -> list[dict[str, Any]]:
+    """Transient source list for the immediate follow-up request; never persist."""
     chunks = []
     for chunk in grounding.get("groundingChunks", []) or []:
         web = chunk.get("web") if isinstance(chunk, dict) else None
         if isinstance(web, dict):
-            chunks.append(
-                {
-                    "title": web.get("title"),
-                    "uri": web.get("uri"),
-                }
-            )
-    return {
-        "web_search_queries": queries,
-        "web_search_query_count": len(queries),
-        "grounding_chunks": chunks[:40],
-        "grounding_chunk_count": len(chunks),
-    }
+            chunks.append({"title": web.get("title"), "uri": web.get("uri")})
+    return chunks if limit is None else chunks[:limit]

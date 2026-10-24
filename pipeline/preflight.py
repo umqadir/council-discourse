@@ -98,7 +98,7 @@ def run_preflight(*, sleep: Callable[[float], Any] = time.sleep) -> int:
         )
         print("google auth: ok")
     except Exception as exc:
-        print(f"::error::Google preflight failed (naming verification depends on it): {exc}")
+        print(f"::error::Google preflight failed (speaker naming depends on it): {exc}")
         failed = True
     return 1 if failed else 0
 

@@ -96,8 +96,9 @@ def test_native_empty_response_retains_charged_usage(monkeypatch):
 
 
 
-def test_grounded_research_retains_prose_sources_and_usage(monkeypatch):
+def test_grounded_research_returns_transient_sources_and_persists_counts_only(monkeypatch):
     monkeypatch.setenv('GOOGLE_API_KEY', 'test-key')
+    monkeypatch.setenv('COUNCIL_GROUNDED_VERIFICATION', '1')
     monkeypatch.setattr(gemini, '_post_with_retry', lambda *a, **k: FakeResponse(json.dumps({
         'candidates': [{'content': {'parts': [{'text': 'Jane Doe works at Transit Org.'}]},
                         'finishReason': 'STOP', 'groundingMetadata': {
@@ -107,13 +108,28 @@ def test_grounded_research_retains_prose_sources_and_usage(monkeypatch):
     })))
     result, meta = gemini.generate_grounded_research('research', 'gemini-3.8-flash')
     assert result['text'] == 'Jane Doe works at Transit Org.'
-    assert meta['grounding']['web_search_query_count'] == 1
-    assert meta['grounding']['grounding_chunks'][0]['uri'] == 'https://example.org/staff'
+    assert result['sources'][0]['uri'] == 'https://example.org/staff'
+    assert meta['grounding'] == {'web_search_query_count': 1, 'grounding_chunk_count': 1}
+    serialized = json.dumps(meta)
+    assert 'example.org' not in serialized and 'Jane Doe' not in serialized
     assert meta['usage']['thoughtsTokenCount'] == 200
+
+
+def test_grounded_research_is_refused_unless_opted_in(monkeypatch):
+    monkeypatch.setenv('GOOGLE_API_KEY', 'test-key')
+    monkeypatch.delenv('COUNCIL_GROUNDED_VERIFICATION', raising=False)
+
+    def no_post(*_a, **_k):
+        raise AssertionError('grounded call must not be sent when disabled')
+
+    monkeypatch.setattr(gemini, '_post_with_retry', no_post)
+    with pytest.raises(RuntimeError, match='disabled'):
+        gemini.generate_grounded_research('research', 'gemini-3.8-flash')
 
 
 def test_truncated_research_preserves_charge(monkeypatch):
     monkeypatch.setenv('GOOGLE_API_KEY', 'test-key')
+    monkeypatch.setenv('COUNCIL_GROUNDED_VERIFICATION', '1')
     monkeypatch.setattr(gemini, '_post_with_retry', lambda *a, **k: FakeResponse(json.dumps({
         'candidates': [{'content': {'parts': [{'text': 'Partial research'}]}, 'finishReason': 'MAX_TOKENS'}],
         'usageMetadata': {'promptTokenCount': 100, 'thoughtsTokenCount': 50},
