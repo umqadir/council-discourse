@@ -1,0 +1,738 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 74.0,
+      "id": "001",
+      "slug": "council-staff-opens-cultural-affairs-hearing-and-calls-chair-williams-to-begin",
+      "start_sec": 49.0,
+      "summary": "Council staff welcomes attendees to the Committee on Cultural Affairs, Libraries and International Relations vote, asks everyone to silence electronic devices, and turns the floor over to Chair Nantasha M. Williams. Chair Williams thanks staff and begins the proceeding.",
+      "title": "Council staff opens Cultural Affairs hearing and calls Chair Williams to begin",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 49.8,
+          "text": "Hello."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 51.2,
+          "text": "Hello, good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 52.1,
+          "text": "Welcome to today's New York City Council vote for the Committee on Cultural Affairs, Libraries, and International Intergroup Relationships, Relations."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 62.5,
+          "text": "Today's date."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 65.828,
+          "text": "At this time, we ask everyone to sign all electronic devices, and at no point anyone should approach the desk."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 70.528,
+          "text": "Chair, you may begin."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 72.828,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 94.0,
+      "id": "002",
+      "slug": "chair-williams-announces-resolution-625-b-on-reggaeton-heritage-month",
+      "start_sec": 74.0,
+      "summary": "Chair Williams identifies herself as Deputy Speaker and Chair, then announces the committee will consider Proposed Resolution 625-B sponsored by Council Member Farah Louis. The resolution would declare October as Reggaeton Heritage Month in New York City.",
+      "title": "Chair Williams announces Resolution 625-B on Reggaeton Heritage Month",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 74.728,
+          "text": "Good morning, I am Deputy Speaker Nantasha Williams, Chair of the Committee on Cultural Affairs, Libraries, and International Relations."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 81.328,
+          "text": "Today, the committee will consider one resolution, proposed resolution 625B, sponsored by Council Member Farrah Lewis, which would declare October as Reggaeton Heritage Month in the City of New York."
+        }
+      ]
+    },
+    {
+      "end_sec": 115.0,
+      "id": "003",
+      "slug": "chair-williams-outlines-resolution-honoring-reggaeton-s-afro-caribbean-roots-and-nyc-role",
+      "start_sec": 94.0,
+      "summary": "Chair Williams explains the resolution honors reggaeton as an expression of Afro-Caribbean and Latin American identity and recognizes New York City's role in blending cultures. She then calls on Council Member Louis to deliver remarks.",
+      "title": "Chair Williams outlines resolution honoring reggaeton's Afro-Caribbean roots and NYC role",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 94.328,
+          "text": "To honor the legacy of reggaeton as a prominent expression of Afro-Caribbean and Latin American identity,"
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 102.328,
+          "text": "and to recognize New York's pivotal role in facilitating the blend of cultures that is at the heart of this grassroots musical genre."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 109.828,
+          "text": "Now, Councilmember Lewis would like to deliver remarks on her resolution."
+        }
+      ]
+    },
+    {
+      "end_sec": 135.0,
+      "id": "004",
+      "slug": "council-member-farah-louis-introduces-resolution-625-b-and-thanks-colleagues",
+      "start_sec": 115.0,
+      "summary": "Council Member Farah Louis thanks Chair Williams and presents Resolution 625-B declaring October Reggaeton Heritage Month. She expresses gratitude for the committee's focus on diverse cultural roots and communities that shaped the city.",
+      "title": "Council Member Farah Louis introduces Resolution 625-B and thanks colleagues",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 115.028,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 115.828,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 116.628,
+          "text": "Today I'm proud to bring forward Reso 625, which declares October as Reggaeton Heritage Month in New York City."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 123.928,
+          "text": "I'm grateful to Deputy Speaker Williams for uplifting the importance of celebrating our diverse cultural roots and recognizing the communities whose contributions have shaped our city."
+        }
+      ]
+    },
+    {
+      "end_sec": 161.0,
+      "id": "005",
+      "slug": "louis-traces-reggaeton-from-panama-and-puerto-rico-to-brooklyn",
+      "start_sec": 135.0,
+      "summary": "Louis traces reggaeton's origins to Afro-Caribbean communities in Panama, where artists adapted Jamaican reggae into Spanish. She describes its evolution through Puerto Rico's underground scene and the contributions of Caribbean artists and producers in Brooklyn and New York City who fused reggae, dancehall, and hip-hop.",
+      "title": "Louis traces reggaeton from Panama and Puerto Rico to Brooklyn",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 135.828,
+          "text": "Reggaeton transcends music and its roots, tracing back to the Afro-Caribbean community in Panama, where artists began adapting Jamaican reggae into Spanish."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 147.128,
+          "text": "The genre continued to evolve through Puerto Rico's underground music scene before Caribbean artists"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 153.828,
+          "text": "producers in Brooklyn and across New York City helped fuse reggae, dancehall, and hip-hop into the sound we recognize today."
+        }
+      ]
+    },
+    {
+      "end_sec": 188.0,
+      "id": "006",
+      "slug": "louis-honors-panamanian-and-caribbean-heritage-behind-reggaeton-s-global-reach",
+      "start_sec": 161.0,
+      "summary": "Louis says the resolution honors Panamanian communities that birthed reggaeton and celebrates broader Hispanic and Caribbean heritage. She emphasizes that New York City's cultural exchange helped the genre reach global audiences.",
+      "title": "Louis honors Panamanian and Caribbean heritage behind reggaeton's global reach",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 161.228,
+          "text": "This resolution honors the Panamanian communities that gave birth to reggaeton and celebrates the broader Hispanic and Caribbean heritage that made its global success possible."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 173.128,
+          "text": "From New York City to audiences around the world, reggaeton reflects the rich cultural exchange that defines us, declaring October as the Reggaeton Heritage Month"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 184.428,
+          "text": "ensures that we recognize the people and histories that made it possible."
+        }
+      ]
+    },
+    {
+      "end_sec": 223.0,
+      "id": "007",
+      "slug": "louis-thanks-advocates-and-community-groups-supporting-reggaeton-heritage-month",
+      "start_sec": 188.0,
+      "summary": "Louis thanks advocates who pushed for the resolution, naming the Panama 507 Roundtable Group, Evanita Records, I Am Wonder Woman Foundation, Disipny, and the Afro-Latino Project. She says recognizing the legacy in October creates an opportunity to celebrate Panamanian, Hispanic, and Caribbean contributions.",
+      "title": "Louis thanks advocates and community groups supporting Reggaeton Heritage Month",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 188.928,
+          "text": "I want to thank the advocates who helped tirelessly, who worked tirelessly to push for this resolution to be brought forward this month."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 198.028,
+          "text": "Panama 507 Roundtable Group, Evanita Records, I Am Wonder Woman Foundation, Disipny, and the Afro-Latino Project."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 206.528,
+          "text": "Recognizing this legacy in October creates a dedicated opportunity to celebrate the Panamanian, Hispanic, and Caribbean communities whose creativity and cultural contributions help shape a global phenomenon."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 219.628,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 241.0,
+      "id": "008",
+      "slug": "chair-williams-thanks-staff-and-opens-public-testimony",
+      "start_sec": 223.0,
+      "summary": "Chair Williams thanks Council Member Louis and committee staff, including Alejandro, Regina, and summer intern Steven who drafted the resolution. She then opens the hearing for public testimony.",
+      "title": "Chair Williams thanks staff and opens public testimony",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 223.396,
+          "text": "Thank you so much, Councilmember Lewis."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 224.896,
+          "text": "I would like to thank my staff and the committee staff who worked on preparing for today, including Alejandro, Regina, and Steven, our summer intern who drafted this resolution."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 236.096,
+          "text": "I now open the hearing for public testimony."
+        }
+      ]
+    },
+    {
+      "end_sec": 293.0,
+      "id": "009",
+      "slug": "chair-williams-lays-out-decorum-and-two-minute-testimony-rules",
+      "start_sec": 241.0,
+      "summary": "Chair Williams states that the proceeding is formal and decorum must be observed, with the public remaining silent. She explains witness-table rules, bans video or audio recording as testimony, requires appearance cards, and sets a two-minute limit for speakers.",
+      "title": "Chair Williams lays out decorum and two-minute testimony rules",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 241.496,
+          "text": "I remind members of the public that this is a formal government proceeding and that decorum shall be observed at all times."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 246.896,
+          "text": "As such, members of the public shall remain silent at all times."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 250.096,
+          "text": "The witness table is reserved for people who wish to testify."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 253.196,
+          "text": "No video recording or photography is allowed from the witness table."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 256.496,
+          "text": "Further, members of the public may not present audio or video recordings as testimony, but may submit transcripts of such recordings."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 264.096,
+          "text": "To the, can we get counsel?"
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 265.996,
+          "text": "Oh, you got water, okay."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 267.896,
+          "text": "But they submit transcripts of such recordings to the sergeant at arms for inclusion in the hearing record."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 274.396,
+          "text": "If you wish to speak at today's hearing, please fill out an appearance card with the sergeant at arms and wait to be recognized."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 279.996,
+          "text": "When recognized, you will have two minutes to speak on today's hearing topic, which is the legislation I have just outlined."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 286.696,
+          "text": "If you have a written statement or additional written testimony you wish to submit for the record, please provide a copy of that testimony to the sergeant at arms."
+        }
+      ]
+    },
+    {
+      "end_sec": 301.0,
+      "id": "010",
+      "slug": "chair-williams-calls-dr-mita-leacock-to-testify",
+      "start_sec": 293.0,
+      "summary": "Chair Williams calls Dr. Mita Leacock to the witness table to testify.",
+      "title": "Chair Williams calls Dr. Mita Leacock to testify",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 293.496,
+          "text": "I will now call the witness, Dr."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 295.696,
+          "text": "Mita Leacock."
+        }
+      ]
+    },
+    {
+      "end_sec": 329.0,
+      "id": "011",
+      "slug": "dr-mita-leacock-introduces-herself-and-endorses-resolution-625-b",
+      "start_sec": 301.0,
+      "summary": "Dr. Mita Leacock introduces herself as a Brooklyn native of Panamanian heritage, music executive, producer, and president of Avenita World Records. She states strong support for Resolution 625-B recognizing October as Reggaeton Heritage Month.",
+      "title": "Dr. Mita Leacock introduces herself and endorses Resolution 625-B",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Mita Leacock",
+          "t_sec": 301.672,
+          "text": "Good morning, everyone."
+        },
+        {
+          "speaker": "Member of the Public - Mita Leacock",
+          "t_sec": 302.772,
+          "text": "Good morning, Chair."
+        },
+        {
+          "speaker": "Member of the Public - Mita Leacock",
+          "t_sec": 303.572,
+          "text": "Good morning, Council Members."
+        },
+        {
+          "speaker": "Member of the Public - Mita Leacock",
+          "t_sec": 304.872,
+          "text": "My name is Dr."
+        },
+        {
+          "speaker": "Member of the Public - Mita Leacock",
+          "t_sec": 306.072,
+          "text": "Mita Leacock."
+        },
+        {
+          "speaker": "Member of the Public - Mita Leacock",
+          "t_sec": 306.972,
+          "text": "I am a Brooklyn native of Panamanian heritage, a music executive and producer with over 30 years plus experience in the entertainment industry, president of Avenita World Records."
+        },
+        {
+          "speaker": "Member of the Public - Mita Leacock",
+          "t_sec": 318.172,
+          "text": "I am here today in strong support of proposed resolution number 625B, recognizing October as Reggaeton Heritage Month in New York City."
+        }
+      ]
+    },
+    {
+      "end_sec": 351.0,
+      "id": "012",
+      "slug": "leacock-describes-nyc-as-cultural-bridge-for-caribbean-and-latino-music",
+      "start_sec": 329.0,
+      "summary": "Leacock describes her personal and professional connection to reggaeton, rooted in her Panamanian heritage and Brooklyn upbringing. She says New York City became a cultural bridge where Caribbean and Latino communities shared music, language, and traditions.",
+      "title": "Leacock describes NYC as cultural bridge for Caribbean and Latino music",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Mita Leacock",
+          "t_sec": 329.572,
+          "text": "My connection to reggaeton is both personal and professional."
+        },
+        {
+          "speaker": "Member of the Public - Mita Leacock",
+          "t_sec": 332.972,
+          "text": "As a Brooklyn native with Panamanian roots, this history holds a special place in my heart."
+        },
+        {
+          "speaker": "Member of the Public - Mita Leacock",
+          "t_sec": 337.572,
+          "text": "Growing up in New York City, I witnessed firsthand how Caribbean and Latino communities shared their music, language, and traditions."
+        },
+        {
+          "speaker": "Member of the Public - Mita Leacock",
+          "t_sec": 344.372,
+          "text": "New York became a cultural bridge where these sounds found new audiences and generations embraced them."
+        }
+      ]
+    },
+    {
+      "end_sec": 379.0,
+      "id": "013",
+      "slug": "leacock-reflects-on-dance-career-and-reggaeton-s-personal-impact",
+      "start_sec": 351.0,
+      "summary": "Leacock recounts beginning dance at Alvin Ailey and the Dance School of Harlem and later performing as a background dancer. She says reggaeton shaped her choreography and served as the soundtrack to family and community memories for over 30 years.",
+      "title": "Leacock reflects on dance career and reggaeton's personal impact",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Mita Leacock",
+          "t_sec": 351.272,
+          "text": "Like Councilmember Farrah Lewis, I too was a professional dancer."
+        },
+        {
+          "speaker": "Member of the Public - Mita Leacock",
+          "t_sec": 355.172,
+          "text": "Having begun dancing at Alvin Ailey and Dance School of Harlem, I went on to perform as a background dancer."
+        },
+        {
+          "speaker": "Member of the Public - Mita Leacock",
+          "t_sec": 361.172,
+          "text": "Reggaeton was a huge part of my life, not only influencing my choreography and dance routines, but also serving as a soundtrack to countless memories with families and friends."
+        },
+        {
+          "speaker": "Member of the Public - Mita Leacock",
+          "t_sec": 371.872,
+          "text": "It was the music we listened to, danced to, and celebrated together in our everyday lives for more than 30 years."
+        }
+      ]
+    },
+    {
+      "end_sec": 414.0,
+      "id": "014",
+      "slug": "leacock-details-artist-advocacy-work-and-avanita-records",
+      "start_sec": 379.0,
+      "summary": "Leacock discusses her career advocating for artists through A&R, marketing, promotions, management, and tour coordination. She now brings that experience to Avanita Records, a label dedicated to elevating Latin artists and honoring pioneers.",
+      "title": "Leacock details artist advocacy work and Avanita Records",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Mita Leacock",
+          "t_sec": 379.272,
+          "text": "I have dedicated my career to advocating for artists and helping them build successful careers, from A&R to marketing promotions."
+        },
+        {
+          "speaker": "Member of the Public - Mita Leacock",
+          "t_sec": 387.172,
+          "text": "management, coordinating tours, I've worked behind the scenes."
+        },
+        {
+          "speaker": "Member of the Public - Mita Leacock",
+          "t_sec": 390.572,
+          "text": "And while I'm proud of the many artists I've helped, I now want to bring that same passion, dedication, experience, and advocacy to my own culture and heritage."
+        },
+        {
+          "speaker": "Member of the Public - Mita Leacock",
+          "t_sec": 400.672,
+          "text": "Today, through my work at Avanita Records, a record label dedicated to elevating Latin artists,"
+        },
+        {
+          "speaker": "Member of the Public - Mita Leacock",
+          "t_sec": 406.172,
+          "text": "and expanding their reach to the global stage, I continue to champion Latin music, nurture emerging talent, and honor its pioneers."
+        }
+      ]
+    },
+    {
+      "end_sec": 441.0,
+      "id": "015",
+      "slug": "leacock-calls-reggaeton-history-identity-and-culture-not-just-music",
+      "start_sec": 414.0,
+      "summary": "Leacock argues reggaeton is more than a genre or billion-dollar industry; it is history, identity, culture, and proof of what communities can create together. She frames the resolution as a way to preserve history and educate future generations.",
+      "title": "Leacock calls reggaeton history, identity, and culture, not just music",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Mita Leacock",
+          "t_sec": 414.172,
+          "text": "For me, reggaeton is more than a genre of music."
+        },
+        {
+          "speaker": "Member of the Public - Mita Leacock",
+          "t_sec": 416.972,
+          "text": "It is an integral part of my personal journey, my cultural identity, and my lifelong commitment to individuality, creativity, and artistic expression."
+        },
+        {
+          "speaker": "Member of the Public - Mita Leacock",
+          "t_sec": 427.172,
+          "text": "Reggaeton is more than music."
+        },
+        {
+          "speaker": "Member of the Public - Mita Leacock",
+          "t_sec": 429.272,
+          "text": "It is more than a billion-dollar global industry."
+        },
+        {
+          "speaker": "Member of the Public - Mita Leacock",
+          "t_sec": 432.472,
+          "text": "It is history, identity, culture."
+        },
+        {
+          "speaker": "Member of the Public - Mita Leacock",
+          "t_sec": 435.772,
+          "text": "And a powerful example of what happens when communities come together through creativity."
+        }
+      ]
+    },
+    {
+      "end_sec": 477.0,
+      "id": "016",
+      "slug": "leacock-urges-council-to-adopt-resolution-625-b-to-preserve-reggaeton-history",
+      "start_sec": 441.0,
+      "summary": "Leacock says recognizing October as Reggaeton Heritage Month honors pioneers and acknowledges Caribbean and Latino contributions to New York City's cultural identity. She urges the Council to adopt Resolution 625-B.",
+      "title": "Leacock urges Council to adopt Resolution 625-B to preserve reggaeton history",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Mita Leacock",
+          "t_sec": 441.272,
+          "text": "Recognizing October as Reggaeton Month is not simply celebrating a genre."
+        },
+        {
+          "speaker": "Member of the Public - Mita Leacock",
+          "t_sec": 447.972,
+          "text": "It is preserving history."
+        },
+        {
+          "speaker": "Member of the Public - Mita Leacock",
+          "t_sec": 449.972,
+          "text": "It is honoring our pioneers, educating future generations, and acknowledging the contributions of a Caribbean and Latino community that came together in New York City's cultural identity."
+        },
+        {
+          "speaker": "Member of the Public - Mita Leacock",
+          "t_sec": 462.472,
+          "text": "I respectfully urge this New York City Council to please adopt Resolution No."
+        },
+        {
+          "speaker": "Member of the Public - Mita Leacock",
+          "t_sec": 468.972,
+          "text": "625B and officially recognize October as Reggaeton Heritage Month."
+        },
+        {
+          "speaker": "Member of the Public - Mita Leacock",
+          "t_sec": 476.172,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 493.0,
+      "id": "017",
+      "slug": "chair-williams-thanks-dr-leacock-and-calls-the-vote",
+      "start_sec": 477.0,
+      "summary": "Chair Williams thanks Dr. Leacock and says the committee is ready for the vote. She briefly jokes with staff about calling the clerk before the roll call begins.",
+      "title": "Chair Williams thanks Dr. Leacock and calls the vote",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 477.072,
+          "text": "to all the members for your consideration."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 482.172,
+          "text": "Thank you so much."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 483.772,
+          "text": "It's so nice to see you."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 486.372,
+          "text": "All right, we are ready for the vote, Billy."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 489.272,
+          "text": "Oh, you're not Billy."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 491.472,
+          "text": "We are ready for the vote."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 492.872,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 524.0,
+      "id": "018",
+      "slug": "committee-clerk-ben-jacobs-conducts-roll-call-vote-on-resolution-625-b",
+      "start_sec": 493.0,
+      "summary": "Committee Clerk Ben Jacobs calls the roll on Resolution 625-B. Chair Williams votes aye, Council Members Stevens, Ung, and Maloney are recorded as aye, and the clerk proceeds through the remaining names.",
+      "title": "Committee Clerk Ben Jacobs conducts roll-call vote on Resolution 625-B",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 493.372,
+          "text": "Ben Jacobs, Committee Clerk, Committee on Cultural Affairs, Libraries, and International Relations."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 498.772,
+          "text": "Chair Williams, this is the roll call vote on Resolution 625B."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 502.172,
+          "text": "Chair Williams."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 503.072,
+          "text": "Thanks, Ben."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 503.772,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 505.472,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 506.272,
+          "text": "Councilmember Lewis."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 508.272,
+          "text": "I don't know."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 510.072,
+          "text": "Councilmember Hudson."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 512.072,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 513.172,
+          "text": "Councilmember Osei."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 515.572,
+          "text": "Councilmember Stevens?"
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 517.072,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 517.772,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 518.572,
+          "text": "Councilmember Ung?"
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 520.072,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 521.472,
+          "text": "Councilmember Maloney?"
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 523.172,
+          "text": "Aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 546.73,
+      "id": "019",
+      "slug": "resolution-625-b-adopted-with-seven-affirmative-votes",
+      "start_sec": 524.0,
+      "summary": "The clerk announces seven affirmative votes, none negative, and no abstentions, so Resolution 625-B is adopted. Chair Williams thanks everyone.",
+      "title": "Resolution 625-B adopted with seven affirmative votes",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 524.772,
+          "text": "With a vote of seven in the affirmative, none in the negative, and no abstentions, the item is adopted."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 530.172,
+          "text": "Thank you so much, everyone."
+        }
+      ]
+    }
+  ],
+  "date": "2026-10-22",
+  "duration_sec": 546.73,
+  "slug": "2026-10-22-1030-am-committee-on-cultural-affairs-libraries-and-international-relations",
+  "summary": [
+    "The Committee on Cultural Affairs, Libraries and International Relations held a hearing on Proposed Resolution 625-B, declaring October as Reggaeton Heritage Month in New York City.",
+    "Chair Nantasha M. Williams and sponsor Council Member Farah N. Louis spoke about reggaeton's Afro-Caribbean and Panamanian roots and New York City's role in its global evolution.",
+    "Dr. Mita Leacock testified in support, and the committee adopted Resolution 625-B by a 7-0 roll-call vote."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "10:30 AM",
+  "title": "Committee on Cultural Affairs, Libraries and International Relations",
+  "topic": "Declaring October as Reggaeton Heritage Month",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://discourse-media.qqlab.io/NYCC-PV-CH-COM_261022-Cultural/video-web.mp4"
+  }
+}

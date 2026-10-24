@@ -1,0 +1,781 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 39.9,
+      "id": "001",
+      "slug": "committee-staff-calls-finance-committee-vote-to-order-and-asks-for-silence",
+      "start_sec": 26.0,
+      "summary": "Council staff welcomes attendees to the New York City Council Committee on Finance vote and asks everyone to silence electronic devices. Staff tells the chair she may begin.",
+      "title": "Committee staff calls Finance Committee vote to order and asks for silence",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 26.0,
+          "text": "Good morning and welcome to today's New York City Council vote for the Committee on Finance."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 30.4,
+          "text": "Ladies and gentlemen, at this time, we please ask that you silence all electronic devices."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 34.6,
+          "text": "Moving forward, no one is approached to front desk."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 37.2,
+          "text": "Chair, you may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 63.6,
+      "id": "002",
+      "slug": "chair-linda-lee-opens-meeting-and-recognizes-finance-committee-members",
+      "start_sec": 39.9,
+      "summary": "Council Member Linda Lee identifies herself as Chair of the Committee on Finance. She reads the committee members present, including Majority Leader Abreu, Morano, Marte, Narcisse, Sanchez, Hudson, Aldebol, Brooks-Powers, Wong, and Gennaro.",
+      "title": "Chair Linda Lee opens meeting and recognizes Finance Committee members",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 39.9,
+          "text": "Great."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 41.4,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 42.7,
+          "text": "I'm Councilmember Linda Lee, Chair of the Committee on Finance."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 45.3,
+          "text": "I would like to recognize my fellow committee members."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 49.0,
+          "text": "Majority Leader Abreu, Council Members Morano and Marte and Narcisse and Jay Sanchez, Hudson, Aldebal, Brooks Powers, Wong, and I, oh, and Gennaro."
+        }
+      ]
+    },
+    {
+      "end_sec": 88.6,
+      "id": "003",
+      "slug": "chair-lee-introduces-int-978-b-on-senior-and-disability-rent-increase-exemptions",
+      "start_sec": 63.6,
+      "summary": "Chair Lee says the committee will consider and vote on several items. She introduces Proposed Introduction 978-B, sponsored by Council Member Farrah Lewis, to raise the income limit for exemptions from rent increases for certain seniors and people with disabilities.",
+      "title": "Chair Lee introduces Int. 978-B on senior and disability rent increase exemptions",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 63.6,
+          "text": "At today's hearing, the committee will consider and vote on the following items."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 67.3,
+          "text": "Proposed introduction number 978B, prime sponsored by Councilmember Farrah Lewis, a local law to amend the administrative code of the City of New York"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 75.6,
+          "text": "in relation to increasing the maximum income level qualifying for exemption from rent increases granted to certain senior citizens and persons with disabilities, and adjusting the income requirements related thereto."
+        }
+      ]
+    },
+    {
+      "end_sec": 98.0,
+      "id": "004",
+      "slug": "chair-lee-describes-transparency-resolution-for-expense-budget-designations",
+      "start_sec": 88.6,
+      "summary": "Chair Lee introduces a transparency resolution sponsored by herself. It would approve new designations and changes in designations of organizations receiving funding in the expense budget.",
+      "title": "Chair Lee describes transparency resolution for expense budget designations",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 88.6,
+          "text": "A transparency resolution."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 90.2,
+          "text": "sponsored by myself to approve the designation and changes in the designation of certain organizations to receive funding in the expense budget,"
+        }
+      ]
+    },
+    {
+      "end_sec": 125.0,
+      "id": "005",
+      "slug": "chair-lee-outlines-five-hpd-article-11-tax-exemption-resolutions",
+      "start_sec": 98.0,
+      "summary": "Chair Lee describes five preconsidered resolutions sponsored by herself. They would approve Department of Housing Preservation and Development requests for real property tax exemptions under Article 11, including 300 West 17th Street, MHANY Cluster, and Albans HDFC.",
+      "title": "Chair Lee outlines five HPD Article 11 tax exemption resolutions",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 98.0,
+          "text": "and five pre-considered resolutions sponsored also by myself that would approve requests from the Department of Housing Preservation and Development for real property tax exemptions under Article 11 of the Private Housing Law for the following projects."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 111.9,
+          "text": "300 West 17th Street in the District of Councilmember Wilson, Mahaney Cluster in the Districts of Councilmembers Encarnacion, Feliz, and J."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 121.0,
+          "text": "Sanchez, and Albans in the District of Deputy Speaker Williams."
+        }
+      ]
+    },
+    {
+      "end_sec": 163.8,
+      "id": "006",
+      "slug": "chair-lee-introduces-res-666-on-eight-bid-budget-increases",
+      "start_sec": 125.0,
+      "summary": "Chair Lee introduces Proposed Resolution 666. It would schedule a November 19, 2026 public hearing on legislation to authorize budget increases for eight business improvement districts, including 34th Street, 82nd Street, East Mid-Manhattan, Myrtle Avenue, Bay Ridge 5th Avenue, Southern Boulevard, Greater JFK, and West Village.",
+      "title": "Chair Lee introduces Res. 666 on eight BID budget increases",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 125.0,
+          "text": "And finally, proposed Resolution No."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 129.0,
+          "text": "666, sponsored by myself as well, which would schedule a public hearing on Thursday, November 19, 2026, at 11 a.m."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 137.5,
+          "text": "In the Committee Room City Hall to consider legislation that would authorize an increase in the budget of eight existing bids."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 145.3,
+          "text": "The eight bids that are seeking budget increases are 34th Street in Manhattan, 82nd Street in Queens,"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 152.0,
+          "text": "East Mid-Manhattan, Myrtle Avenue in Brooklyn, Bay Ridge 5th Avenue in Brooklyn, Southern Boulevard in the Bronx, Greater JFK in Queens, and West Village in Manhattan."
+        }
+      ]
+    },
+    {
+      "end_sec": 176.396,
+      "id": "007",
+      "slug": "chair-lee-asks-for-colleague-remarks-and-recognizes-council-member-sanchez",
+      "start_sec": 163.8,
+      "summary": "Chair Lee asks whether any colleagues want to share remarks on the agenda. She then recognizes Council Member Justin Sanchez.",
+      "title": "Chair Lee asks for colleague remarks and recognizes Council Member Sanchez",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 163.8,
+          "text": "Do any of my colleagues want to share any remarks on the agenda?"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 168.7,
+          "text": "Okay, Councilmember Jay Sanchez."
+        }
+      ]
+    },
+    {
+      "end_sec": 241.696,
+      "id": "008",
+      "slug": "council-member-sanchez-details-violations-at-917-eagle-avenue-and-manny-properties",
+      "start_sec": 176.396,
+      "summary": "Council Member Sanchez says the T2026-2688 tax exemption would fund repairs at 917 Eagle Avenue, a five-story walk-up with 123 recorded violations including 41 Class C violations. He describes additional serious violations across 14 Manny properties in his district, including rats, lead, roof issues, lack of heat or hot water, mold, and exposed electrical wires.",
+      "title": "Council Member Sanchez details violations at 917 Eagle Avenue and Manny properties",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 176.396,
+          "text": "Thank you, Chair Lee."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 178.296,
+          "text": "So today's vote on T2026-2688 is providing a tax exemption specifically for repairs to 917"
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 187.596,
+          "text": "Eagle Avenue, a walk-up building that is only five stories tall but has 123 recorded violations, including 41 Class C violations."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 197.896,
+          "text": "According to across the 14 Manny properties in my district, Manny is responsible for fixing an additional 524 recorded housing violations."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 208.396,
+          "text": "Of those, 164 additional violations are Class C violations, the most serious classification of housing violations in New York City."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 218.396,
+          "text": "92 class C violations involving rats, rodents, and other vermin."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 223.696,
+          "text": "16 instances where lead was found."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 226.196,
+          "text": "15 roof-related issues."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 227.796,
+          "text": "17 units without heat or hot water."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 230.496,
+          "text": "5 with mold and 4 with exposed electrical wires."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 233.896,
+          "text": "And 17 self-closing door issues which put the safety of the entire building at risk if any of those wires created a fire."
+        }
+      ]
+    },
+    {
+      "end_sec": 282.596,
+      "id": "009",
+      "slug": "sanchez-says-tax-exemptions-require-accountability-and-safe-housing",
+      "start_sec": 241.696,
+      "summary": "Sanchez argues the violations are not just spreadsheet numbers but daily living conditions for families. He says the city cannot hand out tax exemptions without accountability and calls for developers and property managers to provide safe, stable, dignified homes after tenants move in.",
+      "title": "Sanchez says tax exemptions require accountability and safe housing",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 241.696,
+          "text": "Think about what those numbers mean for the families living there."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 244.696,
+          "text": "These aren't just violations on a spreadsheet."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 247.296,
+          "text": "These are the conditions people are expected to come home to every single day."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 251.996,
+          "text": "We cannot simply hand out tax exemptions without accountability and expect that all the problems will just disappear."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 258.196,
+          "text": "When we talk about building more affordable housing, I want to make it clear."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 262.496,
+          "text": "That the job of the developer, the property manager, the council member, and everybody else involved does not end once it's built and the tenant moves in."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 271.396,
+          "text": "The key to the door should unlock a safe, stable, and dignified home where you can build your future and rest your head at every night, knowing the roof is not about to cave in over you."
+        }
+      ]
+    },
+    {
+      "end_sec": 351.696,
+      "id": "010",
+      "slug": "sanchez-abstains-on-t2026-2688-and-demands-manny-repair-plan",
+      "start_sec": 282.596,
+      "summary": "Sanchez acknowledges the MHANY cluster extends beyond his district but announces he will abstain on T2026-2688. He says Manny provided a plan and timeline, but residents deserve independently verified repairs and lasting solutions.",
+      "title": "Sanchez abstains on T2026-2688 and demands Manny repair plan",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 282.596,
+          "text": "This cluster goes beyond the boundaries of my district, and I understand that a vote against it would put my colleagues in a difficult position."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 289.896,
+          "text": "Today, I will abstain from this vote because I want to make clear that this is not the standard in the 17th."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 297.096,
+          "text": "We will not give out tax breaks."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 299.496,
+          "text": "And handouts to people and organizations who are not doing the work that they pledged to do."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 304.496,
+          "text": "I demanded that Manny provide a clear plan and timeline to address these conditions."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 309.196,
+          "text": "Manny did so in advance of my decision on how to vote today."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 312.796,
+          "text": "Manny told our office that these violations will be corrected, but residents deserve more than promises and paperwork."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 318.896,
+          "text": "They deserve independently verified repairs and lasting solutions."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 323.096,
+          "text": "Manny has a responsibility to maintain their properties, and with this exemption that is likely to pass, they need to ensure that every dollar that they are not paying the city is going towards repairs and directly improving the quality of life of their tenants."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 336.396,
+          "text": "This is a direct signal to future applicants of tax abatements in my district."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 340.896,
+          "text": "If you need city subsidies to maintain your buildings, I expect you to come to us with a plan on how you are planning to maintain all of your properties in the 17th."
+        }
+      ]
+    },
+    {
+      "end_sec": 368.296,
+      "id": "011",
+      "slug": "clerk-clarifies-no-vote-is-underway-after-sanchez-remarks",
+      "start_sec": 351.696,
+      "summary": "After an apparent interruption, staff and Chair Lee clarify that the committee is not yet voting. Chair Lee apologizes for the confusion.",
+      "title": "Clerk clarifies no vote is underway after Sanchez remarks",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 351.696,
+          "text": "In Council District."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 359.496,
+          "text": "I vote aye on everything I'm saying."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 361.396,
+          "text": "No, we're not voting yet."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 367.696,
+          "text": "Sorry."
+        }
+      ]
+    },
+    {
+      "end_sec": 387.096,
+      "id": "012",
+      "slug": "chair-lee-notes-additional-members-and-calls-the-vote",
+      "start_sec": 368.296,
+      "summary": "Chair Lee notes that Council Members Ressler, Felice, and Felder have joined. She asks again for any comments or remarks and then calls the vote.",
+      "title": "Chair Lee notes additional members and calls the vote",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 368.296,
+          "text": "Okay, and we've also been joined by Council Members Ressler as well as Felice."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 372.396,
+          "text": "And does anyone else have any comments or remarks?"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 375.396,
+          "text": "Oh, and Council Member Felder."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 383.496,
+          "text": "And I think with that, we can call the vote."
+        }
+      ]
+    },
+    {
+      "end_sec": 395.096,
+      "id": "013",
+      "slug": "committee-clerk-ben-jacobs-begins-roll-call-on-all-items",
+      "start_sec": 387.096,
+      "summary": "Committee Clerk Ben Jacobs begins the roll call vote for the Committee on Finance. The roll call covers all items before the committee.",
+      "title": "Committee Clerk Ben Jacobs begins roll call on all items",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 387.096,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 388.096,
+          "text": "Committee on Finance, Ben Jacobs, Committee Clerk, the roll call vote for all a couple of items."
+        }
+      ]
+    },
+    {
+      "end_sec": 406.296,
+      "id": "014",
+      "slug": "roll-call-begins-with-chair-lee-and-council-member-gennaro-voting-aye",
+      "start_sec": 395.096,
+      "summary": "The clerk calls Chair Lee, who votes aye on all, and Council Member Gennaro, who also votes aye. The clerk then calls Council Member Brooks-Powers.",
+      "title": "Roll call begins with Chair Lee and Council Member Gennaro voting aye",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 395.096,
+          "text": "Chair Lee."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 396.396,
+          "text": "Aye and all."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 397.896,
+          "text": "Council Member General."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 399.096,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 400.596,
+          "text": "Council Member Brooks-Fowers."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 404.696,
+          "text": "Sorry."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 405.496,
+          "text": "Brooks Powers."
+        }
+      ]
+    },
+    {
+      "end_sec": 421.596,
+      "id": "015",
+      "slug": "brooks-powers-discloses-doe-family-connection-and-votes-aye",
+      "start_sec": 406.296,
+      "summary": "Council Member Brooks-Powers asks permission to explain her vote. She discloses that the committee is moving funds with the Department of Education and that she has a family member associated with that entity, then votes aye.",
+      "title": "Brooks-Powers discloses DOE family connection and votes aye",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 406.296,
+          "text": "Permission to explain my vote?"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 409.196,
+          "text": "Permission granted."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 410.496,
+          "text": "I'd like to disclose on the record that we are moving funds with the Department of Education, and I have a family member associated with that entity, and with that I vote aye or no."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 420.796,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 466.796,
+      "id": "016",
+      "slug": "roll-call-continues-with-remaining-members-voting-aye",
+      "start_sec": 421.596,
+      "summary": "The clerk continues the roll call through Council Members Felice, Rao, Velas, Hudson, Marte, Mealy, Narcisse, Ressler, Williams, and Aldebol. Aye votes are recorded for those called.",
+      "title": "Roll call continues with remaining members voting aye",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 421.596,
+          "text": "Council Member Felice."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 428.356,
+          "text": "Councilmember Rao?"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 429.856,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 432.156,
+          "text": "Councilmember Velas."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 434.656,
+          "text": "Councilmember Hudson."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 439.156,
+          "text": "Councilmember Marte?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 440.456,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 442.356,
+          "text": "Councilmember Mealy."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 444.856,
+          "text": "Councilmember Narcisse."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 446.656,
+          "text": "Averay."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 447.356,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 449.156,
+          "text": "Councilmember Ressler."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 454.756,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 457.596,
+          "text": "Council Member Williams."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 460.896,
+          "text": "Council Member Eldable."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 463.796,
+          "text": "I vote aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 482.096,
+      "id": "017",
+      "slug": "sanchez-abstains-on-t2026-2688-during-roll-call",
+      "start_sec": 466.796,
+      "summary": "The clerk calls Council Member Maloney and then Council Member Sanchez. Sanchez votes aye on all items except T2026-2688, for which he abstains, along with any accompanying resolutions.",
+      "title": "Sanchez abstains on T2026-2688 during roll call",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 466.796,
+          "text": "Council Member Maloney."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 469.396,
+          "text": "Council Member Sanchez."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 471.596,
+          "text": "I vote aye on all with the exception of 2688 for which I abstain."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 478.896,
+          "text": "And any accompanying resolutions."
+        }
+      ]
+    },
+    {
+      "end_sec": 489.644,
+      "id": "018",
+      "slug": "council-member-wong-votes-aye-on-all-items",
+      "start_sec": 482.096,
+      "summary": "The clerk calls Council Member Wong. Wong votes aye on all items.",
+      "title": "Council Member Wong votes aye on all items",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 482.096,
+          "text": "Council Member Wong."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 485.296,
+          "text": "I vote aye on all."
+        }
+      ]
+    },
+    {
+      "end_sec": 504.344,
+      "id": "019",
+      "slug": "council-member-morano-votes-no-on-transparency-resolution",
+      "start_sec": 489.644,
+      "summary": "The clerk calls Council Member Morano. Morano votes aye on all items except the transparency resolution, on which he votes no.",
+      "title": "Council Member Morano votes no on transparency resolution",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 489.644,
+          "text": "Councilmember Morano."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 491.344,
+          "text": "Aye and all with the exception of the transparency resolution on which I vote no."
+        }
+      ]
+    },
+    {
+      "end_sec": 534.344,
+      "id": "020",
+      "slug": "committee-adopts-items-transparency-and-mhany-cluster-votes-recorded",
+      "start_sec": 504.344,
+      "summary": "The clerk reports that all items except the MHANY cluster land use item and the transparency resolution passed 13-0. The transparency resolution passed 12-1 with no abstentions, and the MHANY cluster item passed 12-0 with one abstention; the items are adopted.",
+      "title": "Committee adopts items; transparency and MHANY cluster votes recorded",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 504.344,
+          "text": "So that is on all items except for the"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 511.344,
+          "text": "land use item, the Mahaney cluster, and the transparency for all items is 13-0 except for the transparency resolution, which is 12 in the affirmative, 1 in the negative, no abstentions,"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 524.544,
+          "text": "and the Mahaney cluster land use item, which is 12 in the affirmative, none in the negative, and 1 abstention."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 532.944,
+          "text": "The items are adopted."
+        }
+      ]
+    },
+    {
+      "end_sec": 556.117,
+      "id": "021",
+      "slug": "chair-lee-concludes-the-finance-committee-vote",
+      "start_sec": 534.344,
+      "summary": "Chair Lee thanks the committee. She declares that the Finance Committee vote is concluded.",
+      "title": "Chair Lee concludes the Finance Committee vote",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 534.344,
+          "text": "Okay, great."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 535.344,
+          "text": "Thank you so much, and that concludes the Finance Committee vote."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 537.744,
+          "text": "Thank you."
+        }
+      ]
+    }
+  ],
+  "date": "2026-10-22",
+  "duration_sec": 556.117,
+  "slug": "2026-10-22-1000-am-committee-on-finance",
+  "summary": [
+    "The Committee on Finance held a vote on Int. 978-B, a transparency resolution, five HPD Article 11 tax exemption resolutions, and Res. 666 for eight BID budget increases.",
+    "Council Member Justin Sanchez detailed serious housing violations at 917 Eagle Avenue and other Manny properties, then abstained on T2026-2688 while demanding verified repairs.",
+    "The committee adopted all items; the transparency resolution passed 12-1 and the MHANY cluster item passed 12-0 with one abstention."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE",
+    "LAND_USE"
+  ],
+  "time": "10:00 AM",
+  "title": "Committee on Finance",
+  "topic": "Increasing the maximum income level qualifying for exemption from rent increases granted to certain senior citizens and persons with disabilities and adjusting the income requirements related thereto",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://discourse-media.qqlab.io/NYCC-PV-CH-CHA_261022-101209/video-web.mp4"
+  }
+}

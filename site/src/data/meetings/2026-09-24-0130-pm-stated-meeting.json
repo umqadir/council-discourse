@@ -1,0 +1,4755 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 59.32,
+      "id": "001",
+      "slug": "staff-instructs-attendees-to-silence-electronic-devices",
+      "start_sec": 46.0,
+      "summary": "Council staff asks attendees to place electronic devices on vibrate and yields to Majority Leader.",
+      "title": "Staff instructs attendees to silence electronic devices",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 46.0,
+          "text": "Could I have your attention, please, at this time, please place all electronic devices, all electronic devices to vibrate."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 54.8,
+          "text": "Mr."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 55.0,
+          "text": "Majority Leader, it's all yours."
+        }
+      ]
+    },
+    {
+      "end_sec": 91.52,
+      "id": "002",
+      "slug": "majority-leader-abreu-opens-stated-meeting-and-outlines-decorum",
+      "start_sec": 59.32,
+      "summary": "Shaun Abreu welcomes attendees to the September 24, 2026 stated meeting, reminds public of decorum and silent approval gesture, and notes only Council members may speak.",
+      "title": "Majority Leader Abreu opens stated meeting and outlines decorum",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 59.32,
+          "text": "Good afternoon and welcome to the stated meeting of September 24, 2026."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 63.62,
+          "text": "I am Majority Leader Sean Abreu and I'd like to thank you for joining us."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 67.02,
+          "text": "As a reminder, decorum must be respected at all times."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 70.32,
+          "text": "If you would like to follow along, the agenda for today's meeting is posted on our website."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 74.62,
+          "text": "On behalf of the body, I welcome the members of the public who have joined us today."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 78.52,
+          "text": "During stated meetings, only members of the council may speak."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 81.62,
+          "text": "Members of the public shall remain silent."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 83.52,
+          "text": "If you wish to express your support of any remarks, you may make the silent approval gesture."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 89.72,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 113.032,
+      "id": "003",
+      "slug": "pledge-of-allegiance",
+      "start_sec": 91.52,
+      "summary": "Council staff leads the Pledge of Allegiance.",
+      "title": "Pledge of Allegiance",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 91.52,
+          "text": "Please join us for the Pledge of Allegiance."
+        }
+      ]
+    },
+    {
+      "end_sec": 308.188,
+      "id": "004",
+      "slug": "roll-call-of-council-members",
+      "start_sec": 113.032,
+      "summary": "The clerk conducts a roll call of all Council members, with members responding present or here.",
+      "title": "Roll Call of Council Members",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 113.032,
+          "text": "Roll call."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 115.332,
+          "text": "Aldebar."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 119.732,
+          "text": "Ariola."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 121.132,
+          "text": "Present."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 127.816,
+          "text": "Banks."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 129.216,
+          "text": "Present."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 130.716,
+          "text": "Brewer."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 132.216,
+          "text": "Here."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 133.016,
+          "text": "Brooks Powers."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 134.516,
+          "text": "Present."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 135.916,
+          "text": "Caban."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 140.516,
+          "text": "De La Rosa."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 141.916,
+          "text": "Here."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 144.016,
+          "text": "Dinnowitz."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 145.116,
+          "text": "Here."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 146.316,
+          "text": "Encarnacion."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 147.816,
+          "text": "Presente."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 149.516,
+          "text": "Epstein."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 151.016,
+          "text": "Present."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 152.716,
+          "text": "Farias."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 153.416,
+          "text": "Present."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 155.016,
+          "text": "Felder."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 159.968,
+          "text": "Feliz."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 161.668,
+          "text": "Here, presente."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 163.868,
+          "text": "Gennaro."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 169.268,
+          "text": "Gutierrez."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 173.968,
+          "text": "Hanif."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 177.468,
+          "text": "Hankerson."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 181.968,
+          "text": "Hanks."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 182.968,
+          "text": "Present."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 184.568,
+          "text": "Hudson."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 185.568,
+          "text": "Present."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 188.268,
+          "text": "Kaban."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 189.668,
+          "text": "Present."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 192.244,
+          "text": "Joseph."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 199.444,
+          "text": "Krishna."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 200.444,
+          "text": "Here."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 202.944,
+          "text": "Lee."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 204.744,
+          "text": "Here."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 205.944,
+          "text": "Lewis."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 207.744,
+          "text": "Present."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 209.444,
+          "text": "Maloney."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 211.444,
+          "text": "Present."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 212.844,
+          "text": "Marte."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 213.544,
+          "text": "Present."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 216.644,
+          "text": "Mealy."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 221.044,
+          "text": "Moreno."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 222.244,
+          "text": "Here."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 225.124,
+          "text": "Narcisse."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 226.824,
+          "text": "Here."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 229.524,
+          "text": "Nurse."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 232.924,
+          "text": "Osei."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 236.124,
+          "text": "Paladino."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 237.624,
+          "text": "Here."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 241.124,
+          "text": "Wrestler."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 245.024,
+          "text": "Riley."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 246.324,
+          "text": "Present."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 247.724,
+          "text": "Salam."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 248.624,
+          "text": "Present."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 250.824,
+          "text": "Justin Sanchez."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 252.224,
+          "text": "Here."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 253.824,
+          "text": "Pierdina Sanchez."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 255.724,
+          "text": "Presente."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 257.424,
+          "text": "Santos Suoso."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 259.124,
+          "text": "Here."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 261.024,
+          "text": "Shulman."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 261.624,
+          "text": "Here."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 263.524,
+          "text": "Stevens."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 265.324,
+          "text": "Still here."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 267.424,
+          "text": "Thomas Henry."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 268.724,
+          "text": "Present."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 271.524,
+          "text": "Present."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 273.624,
+          "text": "Vernikoff."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 277.84,
+          "text": "Williams."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 279.34,
+          "text": "I'm here."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 282.14,
+          "text": "Wilson."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 283.54,
+          "text": "Present."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 286.54,
+          "text": "One."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 288.24,
+          "text": "Here."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 290.24,
+          "text": "Wang."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 291.54,
+          "text": "Present."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 293.34,
+          "text": "Zhuang."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 294.84,
+          "text": "Here."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 297.54,
+          "text": "Carr."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 298.34,
+          "text": "Present."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 300.14,
+          "text": "Abreu."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 301.44,
+          "text": "Present."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 302.64,
+          "text": "Speaker Menon."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 303.94,
+          "text": "Here."
+        }
+      ]
+    },
+    {
+      "end_sec": 473.144,
+      "id": "005",
+      "slug": "rabbi-steven-exter-delivers-invocation",
+      "start_sec": 308.188,
+      "summary": "Majority Leader Abreu introduces Rabbi Steven Exter of Bayit Hebrew Institute of Riverdale, who delivers an invocation asking for wisdom, compromise, and peace for the City Council.",
+      "title": "Rabbi Steven Exter delivers invocation",
+      "type": "INVOCATION",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 308.188,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 308.688,
+          "text": "We will now have today's invocation, which will be delivered by Rabbi Stephen Ekster of Bayet Hebrew Institute of Riverdale, which is located at 3700 Henry Hudson Parkway in the Bronx."
+        },
+        {
+          "speaker": "Rabbi Steven Exter",
+          "t_sec": 327.588,
+          "text": "I rise as a constituent, friend, and admirer of Councilmember Eric Dinowitz with the deepest thanks."
+        },
+        {
+          "speaker": "Rabbi Steven Exter",
+          "t_sec": 343.204,
+          "text": "God who bestows your spirit upon all flesh."
+        },
+        {
+          "speaker": "Rabbi Steven Exter",
+          "t_sec": 347.604,
+          "text": "Bring your blessing upon the elected legislators of this august body, the City Council of the great city of New York, upon its Speaker and Deputy Speaker, leaders and all members."
+        },
+        {
+          "speaker": "Rabbi Steven Exter",
+          "t_sec": 361.804,
+          "text": "Grant our legislators the wisdom, strength, and moral force to faithfully represent their constituents and to hear their own inner voices"
+        },
+        {
+          "speaker": "Rabbi Steven Exter",
+          "t_sec": 375.104,
+          "text": "so that they might make laws that are fair and just for all citizens, enshrining their freedoms"
+        },
+        {
+          "speaker": "Rabbi Steven Exter",
+          "t_sec": 382.404,
+          "text": "and promoting their health, well-being, and flourishing as children of the creator of us all."
+        },
+        {
+          "speaker": "Rabbi Steven Exter",
+          "t_sec": 391.304,
+          "text": "Grant our legislators the sacred chutzpah to reach across the aisle and forge compromises for the greater good."
+        },
+        {
+          "speaker": "Rabbi Steven Exter",
+          "t_sec": 402.204,
+          "text": "For what unites us is truly greater than what divides us."
+        },
+        {
+          "speaker": "Rabbi Steven Exter",
+          "t_sec": 408.856,
+          "text": "25 years after the most hateful acts our city has known, and just two days before the Jewish holiday of Sukkot, the Feast of Booths,"
+        },
+        {
+          "speaker": "Rabbi Steven Exter",
+          "t_sec": 421.056,
+          "text": "in which Jewish tradition understands that the ultimate sukkah, the ultimate dwelling, is the Sukkot Shalom."
+        },
+        {
+          "speaker": "Rabbi Steven Exter",
+          "t_sec": 430.156,
+          "text": "The canopy of peace."
+        },
+        {
+          "speaker": "Rabbi Steven Exter",
+          "t_sec": 432.656,
+          "text": "We ask you, God, to guide our city's council members in making this city, New York City,"
+        },
+        {
+          "speaker": "Rabbi Steven Exter",
+          "t_sec": 441.056,
+          "text": "a canopy of peace and welcome for all its inhabitants, living free of prejudice and fear,"
+        },
+        {
+          "speaker": "Rabbi Steven Exter",
+          "t_sec": 450.956,
+          "text": "a model city for all cities, of civil discourse and civic friendship,"
+        },
+        {
+          "speaker": "Rabbi Steven Exter",
+          "t_sec": 457.856,
+          "text": "of righteousness and justice, of love and loving kindness, a city of peace."
+        },
+        {
+          "speaker": "Rabbi Steven Exter",
+          "t_sec": 467.456,
+          "text": "Let us say, Amen."
+        }
+      ]
+    },
+    {
+      "end_sec": 581.044,
+      "id": "006",
+      "slug": "council-member-dinowitz-moves-to-spread-invocation-and-praises-rabbi-exter",
+      "start_sec": 473.144,
+      "summary": "Eric Dinowitz thanks Rabbi Exter, describes his leadership at the Hebrew Institute of Riverdale, and moves for unanimous consent to spread the invocation in full upon the record.",
+      "title": "Council Member Dinowitz moves to spread invocation and praises Rabbi Exter",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 473.144,
+          "text": "Thank you, Rabbi Ekster."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 475.344,
+          "text": "I will now ask Councilmember Eric Dinowitz to spread the invocation on the record."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 480.644,
+          "text": "Thank you, Mr."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 481.244,
+          "text": "Majority Leader."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 483.844,
+          "text": "Rabbi Stephen Ekster serves as Senior Rabbi of the Hebrew Institute of Riverdale, the BITE, a large Orthodox synagogue in the Bronx known for inclusivity,"
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 494.744,
+          "text": "and welcome and community building for people of all backgrounds."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 499.744,
+          "text": "And it is very easy for anyone in a large group, a large congregation, to get lost, maybe not feel at home."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 508.444,
+          "text": "But when the senior rabbi of the institution greets everyone with a warm embrace,"
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 514.744,
+          "text": "both figurative and literal."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 518.244,
+          "text": "It means that everyone has a home in the Bite, and it is one of the most, and he is leading one of the most incredible congregations, I think, in our entire city."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 529.944,
+          "text": "It is felt in the air every time I go to services there, every time I bring my"
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 535.244,
+          "text": "children there."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 537.644,
+          "text": "His ordination is from Yeshivat Chovavei Torah, rabbinical school."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 542.544,
+          "text": "He's a Bronx resident for 23 years."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 545.244,
+          "text": "He's proud to call himself a New Yorker, and I am proud to call him a constituent, a constituent that I call on often to guide me"
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 554.744,
+          "text": "in Jewish matters, both large and small, even the tiny."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 560.844,
+          "text": "of rabbinical questions, I know I can call on him on any time."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 565.144,
+          "text": "And I want to even thank him today for teaching us all a new term, sacred chutzpah, something I'd never heard."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 573.344,
+          "text": "And I make a motion for unanimous consent to spread the invocation in full upon the record."
+        }
+      ]
+    },
+    {
+      "end_sec": 593.444,
+      "id": "007",
+      "slug": "adoption-of-minutes-from-september-10-2026",
+      "start_sec": 581.044,
+      "summary": "Majority Leader Abreu calls on Council Member Amanda Far\u00edas, who moves to adopt the minutes of the September 10, 2026 stated meeting as printed.",
+      "title": "Adoption of Minutes from September 10, 2026",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 581.044,
+          "text": "Thank you, Councilmember."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 582.244,
+          "text": "We will now ask Councilmember Amanda Farias for the adoption of minutes."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 586.444,
+          "text": "I make a motion that the minutes of the stated meeting of September 10, 2026 be adopted as printed."
+        }
+      ]
+    },
+    {
+      "end_sec": 606.844,
+      "id": "008",
+      "slug": "messages-communications-petitions-and-land-use-call-ups-none",
+      "start_sec": 593.444,
+      "summary": "The Council notes there are no messages or papers from the Mayor, no communications from city, county, or borough offices, no petitions or communications, and no land use call-ups.",
+      "title": "Messages, Communications, Petitions, and Land Use Call-Ups: None",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 593.444,
+          "text": "Messages and papers from the mayor."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 595.444,
+          "text": "None."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 596.644,
+          "text": "Communication from city, county, and borough offices."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 599.644,
+          "text": "None."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 600.444,
+          "text": "Petitions and communications."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 602.344,
+          "text": "None."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 603.244,
+          "text": "Land use collabs."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 604.644,
+          "text": "None."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 606.244,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 708.944,
+      "id": "009",
+      "slug": "speaker-menin-highlights-climate-week-and-environmental-initiatives",
+      "start_sec": 606.844,
+      "summary": "Speaker Julie Menin discusses the Council's Climate Week celebration, water quality testing law, and the Generative Canopy Project to map trees and address extreme heat in Hunts Point, East New York, Corona, and Elmhurst.",
+      "title": "Speaker Menin highlights Climate Week and environmental initiatives",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 606.844,
+          "text": "We will now have communication from Speaker Julie Minnin."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 609.744,
+          "text": "Good afternoon, everyone."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 611.944,
+          "text": "On Tuesday, the council hosted a Climate Week celebration, and that was just one of a thousand events held in this city where more than 100,000 people"
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 623.544,
+          "text": "from around the world came together to advance solutions for a more sustainable and safer future."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 631.144,
+          "text": "As activists sound alarms of despair, it's up to us as government officials to respond with action and play a leading part in the fight against climate change."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 642.544,
+          "text": "Back in April, the City Council passed a law to increase water quality testing and created an advisory board to develop a wildlife..."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 649.844,
+          "text": "management plan."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 651.044,
+          "text": "And in this year's budget, we allocated funding to support Cornell Tech and launch the Generative Canopy"
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 657.844,
+          "text": "Project, investing a quarter of a million dollars to protect New Yorkers from extreme heat and bring environmental justice to the streets that we walk on."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 668.744,
+          "text": "In particular, this project is going to focus on three regions that will, and the first ones are Hunts Point and Longwood and Councilmember Sanchez's district, East New York and parts of Councilmember Banks and Nurses districts,"
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 683.744,
+          "text": "Corona and Elmhurst in parts of Councilmember Thomas Henry, Krishnan's, and Wong's districts."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 690.444,
+          "text": "The initiative is going to map the location of each tree in the five boroughs as well as the cooling effect that they have, which will inform where it's most effective to plant trees."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 701.444,
+          "text": "And these efforts serve as just one example of the many ways that we are working on building a safer and healthier city."
+        }
+      ]
+    },
+    {
+      "end_sec": 782.244,
+      "id": "010",
+      "slug": "speaker-menin-discusses-fair-fares-expansion-and-intro-248",
+      "start_sec": 708.944,
+      "summary": "Speaker Menin announces the largest Fair Fares expansion, making nearly 1.3 million New Yorkers eligible, and highlights Council Member Crystal Hudson's bill to streamline enrollment.",
+      "title": "Speaker Menin discusses Fair Fares expansion and Intro 248",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 708.944,
+          "text": "As part of the budget we passed in June, the council secured the largest expansion of Fair Fares program in its history."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 719.244,
+          "text": "So that residents earning up to 200% of the federal poverty line will soon qualify for half-price transit discounts on the bus, on the subway, and on paratransit."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 730.044,
+          "text": "This expansion now means that nearly 1.3 million New Yorkers can focus on where they're going and not if they can afford to get there."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 739.244,
+          "text": "While this was"
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 739.844,
+          "text": "a major victory for transit affordability and something the council truly prioritized, we still recognize that there are unnecessary barriers to enrolling in the program."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 750.844,
+          "text": "As I said in May during our Fair Fares oversight hearing, a 40% enrollment rate is a failing grade, especially for such a vital program."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 761.644,
+          "text": "So among the bills that we're voting on today, one that Councilmember Crystal Hudson introduced will mandate a streamlined process to enroll in fare fares."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 771.144,
+          "text": "This effort is even more important given that 340,000 additional New Yorkers are now eligible due to the expansion that the council pushed for in the budget."
+        }
+      ]
+    },
+    {
+      "end_sec": 812.244,
+      "id": "011",
+      "slug": "speaker-menin-discusses-j-51-tax-abatement-extension",
+      "start_sec": 782.244,
+      "summary": "Speaker Menin highlights Council Member Pierina Sanchez's bill to extend the J-51 tax abatement for co-ops, condos, and rental buildings, benefiting up to 300,000 units and aiding retrofits.",
+      "title": "Speaker Menin discusses J-51 tax abatement extension",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 782.244,
+          "text": "Another bill introduced by Councilmember Pierina Sanchez will extend the J-51 tax abatement for certain co-ops, condos, and rental buildings, benefiting up to 300,000 of them."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 795.244,
+          "text": "This legislation will make it easier to preserve and retrofit our city's stock of aging buildings at a time when the cost of housing has truly skyrocketed,"
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 806.544,
+          "text": "making it more affordable to complete repairs without shifting the burden onto tenants."
+        }
+      ]
+    },
+    {
+      "end_sec": 874.244,
+      "id": "012",
+      "slug": "speaker-menin-announces-25-million-for-bellevue-hospital-psychiatric-expansion",
+      "start_sec": 812.244,
+      "summary": "Speaker Menin announces over $25 million allocated to Bellevue Hospital to modernize and expand its adult psychiatric department, adding about 40 inpatient beds.",
+      "title": "Speaker Menin announces $25 million for Bellevue Hospital psychiatric expansion",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 812.244,
+          "text": "Speaking of affordability, the council also had a very significant announcement yesterday."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 816.844,
+          "text": "I was so thrilled that so many colleagues were able to join."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 819.744,
+          "text": "We announced that we allocated more than $25 million to Bellevue Hospital to modernize and expand their adult psychiatric department."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 830.144,
+          "text": "Our funding is going to add approximately 40 inpatient beds, helping the hospital."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 836.244,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 837.144,
+          "text": "Yes, thank you, Councilmember Maloney, for leading the cheering on this."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 840.944,
+          "text": "It's a very important project."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 842.544,
+          "text": "Helping the hospital fulfill its function as a primary psychiatric institution for lower Manhattan and really unparalleled in the city."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 850.544,
+          "text": "Last year alone, Bellevue treated more than 11,000 adult psychiatric emergency patients with that unit operating at 98% occupancy."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 861.444,
+          "text": "No New Yorker should be forced to linger in pain during their most vulnerable moments, let alone in a crowded emergency room."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 868.844,
+          "text": "They should be met with immediate care, and that's what this investment will help ensure."
+        }
+      ]
+    },
+    {
+      "end_sec": 895.044,
+      "id": "013",
+      "slug": "speaker-menin-recognizes-national-opioid-awareness-day-and-world-heart-day",
+      "start_sec": 874.244,
+      "summary": "Speaker Menin notes National Opioid Awareness Day and World Heart Day, urging New Yorkers to talk to doctors and check the World Heart Federation website.",
+      "title": "Speaker Menin recognizes National Opioid Awareness Day and World Heart Day",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 874.244,
+          "text": "On the subject of health, Sunday was National Opioid Awareness Day, and Sunday the 29th is World Heart Day."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 882.744,
+          "text": "80% of premature cardiovascular deaths can be prevented by mitigating key risk factors."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 890.044,
+          "text": "So talk to your doctor and check out the World Heart Federation website to learn more."
+        }
+      ]
+    },
+    {
+      "end_sec": 914.744,
+      "id": "014",
+      "slug": "speaker-menin-recognizes-student-artists-in-rotunda",
+      "start_sec": 895.044,
+      "summary": "Speaker Menin thanks the New York City Arts and Education Roundtable and six student artists whose work is displayed in the rotunda.",
+      "title": "Speaker Menin recognizes student artists in rotunda",
+      "type": "CEREMONY",
+      "utterances": [
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 895.044,
+          "text": "Switching gears, we have some special observers with us here today."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 899.344,
+          "text": "So on your way in this morning, you may have noticed student art adorning the rotunda."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 904.944,
+          "text": "This was all due to six student artists, so I'd like to thank the New York City Arts and Education Roundtable for setting this up."
+        }
+      ]
+    },
+    {
+      "end_sec": 957.52,
+      "id": "015",
+      "slug": "speaker-menin-welcomes-iota-phi-theta-fraternity",
+      "start_sec": 914.744,
+      "summary": "Speaker Menin recognizes brothers from Iota Phi Theta fraternity, founded in 1963, and thanks them for their presence and values of scholarship and leadership.",
+      "title": "Speaker Menin welcomes Iota Phi Theta fraternity",
+      "type": "CEREMONY",
+      "utterances": [
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 914.744,
+          "text": "We also have brothers from Iota Phi Theta here."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 918.344,
+          "text": "On September 9th, 19..."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 919.744,
+          "text": "1963 at Morgan State College, 12 men formed the fraternity based on the values of scholarship, leadership, citizenship, fidelity, and brotherhood."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 932.144,
+          "text": "Since then, the organization has grown to over 300 chapters and has initiated over 75,000 members, making it one of the nation's largest predominantly African American social service fraternities."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 946.744,
+          "text": "You are our future and we hope that you will pursue public service beyond college."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 950.744,
+          "text": "So thank you so much for being here."
+        }
+      ]
+    },
+    {
+      "end_sec": 973.32,
+      "id": "016",
+      "slug": "speaker-menin-celebrates-birthdays-of-council-members-louis-and-banks",
+      "start_sec": 957.52,
+      "summary": "Speaker Menin wishes happy birthday to Council Member Farah Louis, celebrating tomorrow, and Council Member Chris Banks, celebrating on the 30th.",
+      "title": "Speaker Menin celebrates birthdays of Council Members Louis and Banks",
+      "type": "CEREMONY",
+      "utterances": [
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 957.52,
+          "text": "We also have some celebrations."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 959.52,
+          "text": "So happy birthday to Councilmember Farrah Lewis, who celebrates tomorrow."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 967.22,
+          "text": "And to Councilmember Chris Banks, who will celebrate his day on the 30th."
+        }
+      ]
+    },
+    {
+      "end_sec": 990.22,
+      "id": "017",
+      "slug": "speaker-menin-wishes-jewish-new-yorkers-a-happy-sukkot",
+      "start_sec": 973.32,
+      "summary": "Speaker Menin notes Sukkot begins at sundown tomorrow and wishes all Jewish New Yorkers observing a Chag Sameach.",
+      "title": "Speaker Menin wishes Jewish New Yorkers a happy Sukkot",
+      "type": "CEREMONY",
+      "utterances": [
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 973.32,
+          "text": "And lastly, Sukkot starts at sundown tomorrow."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 976.72,
+          "text": "For seven days, Jewish people across the world will eat, relax, and recite blessings in their sukkahs."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 982.12,
+          "text": "It's a joyous holiday celebrating the harvest time, and I want to wish all Jewish New Yorkers observing a Chok Samay."
+        }
+      ]
+    },
+    {
+      "end_sec": 1053.12,
+      "id": "018",
+      "slug": "speaker-menin-outlines-land-use-items-for-vote",
+      "start_sec": 990.22,
+      "summary": "Speaker Menin lists land use items: 815 Hutchinson River Parkway rezoning, 862-868 Kent Avenue rezoning, disapproval of Cali Tejadas Bakery sidewalk cafe, and Intro 833 on Eastern Parkway restrictions.",
+      "title": "Speaker Menin outlines land use items for vote",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 990.22,
+          "text": "Now we're going to move on to our stated agenda."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 992.72,
+          "text": "First, we're going to vote on the following land use items."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 995.42,
+          "text": "815 Hutchison River Parkway rezoning will facilitate the conversion of portions of an existing commercial shopping center for retail uses that are not permitted under the current zoning in Council Member Shirley Aldebar's district."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 1010.12,
+          "text": "862-868 Kent Avenue rezoning will facilitate the development of two residential buildings with 75 residential units,"
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 1018.62,
+          "text": "18 of which will be income restricted pursuant to MIH, and community facility space to include a synagogue and Council Member Lincoln Resser's district."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 1028.12,
+          "text": "The council will disapprove an application by Cali Tejadas Bakery and Restaurant for a revocable consent to operate a sidewalk cafe in Councilmember Chanel Thomas-Henry's district."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 1040.12,
+          "text": "Introduction 833, sponsored by Councilmember Sandy Nure."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 1044.12,
+          "text": "would repeal certain building setback restrictions along portions of Eastern Parkway between Rockaway Avenue and Bushwick Avenue."
+        }
+      ]
+    },
+    {
+      "end_sec": 1065.22,
+      "id": "019",
+      "slug": "speaker-menin-outlines-finance-transparency-resolution",
+      "start_sec": 1053.12,
+      "summary": "Speaker Menin notes a transparency resolution approving new designations and changes to organizations receiving expense budget funding.",
+      "title": "Speaker Menin outlines finance transparency resolution",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 1053.12,
+          "text": "Next, we're going to vote on the following finance items."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 1055.62,
+          "text": "A transparency resolution approving new designations and changes of certain organizations receiving funding in the expense budget."
+        }
+      ]
+    },
+    {
+      "end_sec": 1127.22,
+      "id": "020",
+      "slug": "speaker-menin-outlines-resolutions-on-korean-cultural-awareness-black-pride-and-african-immigran",
+      "start_sec": 1065.22,
+      "summary": "Speaker Menin describes Resolution 184 declaring Korean Cultural Awareness Day, Resolution 606 declaring Black Pride Month, and Resolution 607 declaring African Immigrant Heritage Month.",
+      "title": "Speaker Menin outlines resolutions on Korean Cultural Awareness, Black Pride, and African Immigrant Heritage",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 1065.22,
+          "text": "Today, we will also vote on the following pieces of legislation."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 1069.42,
+          "text": "Resolution 184, sponsored by Councilmember Amanda Farias, would declare October 3rd as Korean Cultural Awareness Day"
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 1077.92,
+          "text": "annually in the City of New York to commemorate the mythological beginning of the Korean people and to celebrate their continued pride in their shared ancestry."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 1087.82,
+          "text": "Resolution 606, sponsored by Councilmember Althea Stevens, would declare the month of August as Black Pride Month in the City of New York,"
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 1095.72,
+          "text": "recognizing the legacy of New York City Black Pride movement of uplifting the Black LGBTQIA plus community and its continuing contributions to creating a more equitable New York City."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 1108.82,
+          "text": "Resolution 607, also sponsored by Councilmember Althea Stevens, would declare the month of September as African Immigrant Heritage Month in the City of New York"
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 1118.72,
+          "text": "to celebrate the contributions made by African immigrants to New York City and to the United States."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 1124.92,
+          "text": "Thank you to Regina Paul."
+        }
+      ]
+    },
+    {
+      "end_sec": 1222.42,
+      "id": "021",
+      "slug": "speaker-menin-outlines-introductions-on-fatherhood-j-51-commissary-and-fair-fares",
+      "start_sec": 1127.22,
+      "summary": "Speaker Menin describes Intro 142-A for a Center for Fatherhood Initiatives, Intro 1015A extending J-51, Intro 246A on commissary funds, and Intro 248-A on Fair Fares enrollment.",
+      "title": "Speaker Menin outlines introductions on fatherhood, J-51, commissary, and Fair Fares",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 1127.22,
+          "text": "Introduction 142-A, sponsored by Councilmember Kevin Riley, would call on the New York State Legislature"
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 1133.82,
+          "text": "to pass and the governor to sign legislation to establish a Center for Fatherhood Initiatives under the Office of Children and Family Services."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 1143.72,
+          "text": "Thank you to Elizabeth Arts and to Rhea Ogasuara."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 1149.62,
+          "text": "Introduction 1015A, sponsored by Councilmember Sanchez, would extend the J-51 tax abatement for certain alterations or improvements to covered residential buildings, including certain rental buildings, co-ops, and condos."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 1163.82,
+          "text": "The program would now include projects completed on or after June 30, 2026, and before June 30, 2036."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 1173.02,
+          "text": "Thank you to William Eck, Austin Malone, Jose Conda, Dirk Spencer, and Rhea Ogasuara."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 1179.92,
+          "text": "Introduction 246A, sponsored by Councilmember Crystal Hudson, would require the Department of Correction to inform persons in custody"
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 1188.02,
+          "text": "how much money remains in their commissary account and return all unused commissary funds in cash prior to an individual leaving the department's custody."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 1199.52,
+          "text": "Introduction 248-A, sponsored also by Councilmember Crystal Hudson, would require the Commissioner of Social Services to create a streamlined process for eligible individuals to enroll in fair fairs."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 1212.72,
+          "text": "Thank you to Hannah Kahn and Aminta Kilawan."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 1217.42,
+          "text": "And thank you for your attention to that."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 1219.02,
+          "text": "I'm now going to turn it back over to our Majority Leader."
+        }
+      ]
+    },
+    {
+      "end_sec": 1232.62,
+      "id": "022",
+      "slug": "majority-leader-abreu-moves-to-discussion-of-general-orders",
+      "start_sec": 1222.42,
+      "summary": "Abreu thanks Speaker Menin and announces discussion of general orders, beginning with Council Member Pierina Sanchez, followed by Crystal Hudson.",
+      "title": "Majority Leader Abreu moves to discussion of general orders",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1222.42,
+          "text": "Thank you, Speaker Menon."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1223.52,
+          "text": "We will now move into discussion of general orders, beginning with Councilmember Pierina Sanchez, followed by Crystal Hudson."
+        }
+      ]
+    },
+    {
+      "end_sec": 1361.02,
+      "id": "023",
+      "slug": "council-member-pierina-sanchez-speaks-on-j-51-tax-abatement-extension",
+      "start_sec": 1232.62,
+      "summary": "Pierina Sanchez discusses the housing and climate crises, the need to retrofit aging buildings, and the changes to the J-51 program extending it through 2036 and increasing cost recovery to 100%.",
+      "title": "Council Member Pierina Sanchez speaks on J-51 tax abatement extension",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 1232.62,
+          "text": "Thank you, Majority Leader, and thank you, Speaker."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 1235.12,
+          "text": "We are facing a housing crisis and a climate crisis at the same time, and our aging buildings are at the center of both."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 1242.12,
+          "text": "These buildings are among our largest sources of greenhouse gas emissions, even as they break down around us."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 1247.02,
+          "text": "Elevators are failing, stranding seniors and people with disabilities."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 1250.42,
+          "text": "Roofs, boilers, electrical systems, and other critical infrastructure need investment."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 1254.62,
+          "text": "And in the Bronx and Queens, we're living the deadly consequences of aging housing and fire hazards."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 1260.92,
+          "text": "While government has a responsibility to set high standards for owners to keep buildings safe, protect tenants, and reduce emissions, we must also help owners make the investments that are being asked of them."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 1271.12,
+          "text": "The J51 program is one of the city's key financial tools to do just that, with $212.7 million spent by New York City in 2026."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 1281.72,
+          "text": "This program helps building owners keep up with the cost of necessary preservation work and upgrades, including installing energy-efficient systems so buildings can comply with Local Law 97."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 1293.32,
+          "text": "Earlier this year, the state authorized the city to extend J51 with three key changes."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 1298.02,
+          "text": "First, a 10-year program."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 1299.62,
+          "text": "This one will go through June 2036."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 1302.72,
+          "text": "Second, building owners will now be able to recover up to 100% of the reasonable cost of the rehabilitation, up from 70% in the past."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 1311.02,
+          "text": "And finally, co-ops and condos will..."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 1313.52,
+          "text": "see a raised assessed valuation cap from $45,000 per unit to $60,000 per unit, which may sound crazy to the average person, but remember these are Department of Finance assessed values."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 1324.82,
+          "text": "And these changes together bring the program's ability to expand the program's ability to reach 300,000 co-ops and condos citywide."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 1334.22,
+          "text": "1015 maintains previous accountability mechanisms and adds new comprehensive reporting to how it's being used so we can continue to improve the program."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 1342.32,
+          "text": "I want to thank the Green Co-op Council, State Senator Brian Kavanaugh, and Assemblymember Edward Bronstein for their leadership on this bill in the state, and of course the Housing and Buildings Committee staff and my staff."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 1353.52,
+          "text": "And if I, yep, want to thank Dylan Campos, our incredible fellow, for all of his work on this and everything this past year."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 1359.82,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 1456.52,
+      "id": "024",
+      "slug": "council-member-hudson-speaks-on-intro-246-and-intro-248",
+      "start_sec": 1361.02,
+      "summary": "Crystal Hudson explains her bills to streamline Fair Fares enrollment and require the Department of Correction to return commissary funds to people leaving custody, emphasizing government accessibility.",
+      "title": "Council Member Hudson speaks on Intro 246 and Intro 248",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1361.02,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1361.52,
+          "text": "Councilmember Hudson."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 1363.12,
+          "text": "Thank you so much and good afternoon."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 1364.72,
+          "text": "I'd like to speak briefly on two of my bills that we're voting on today, Intro 246 and Intro 248."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 1370.72,
+          "text": "Since entering office, I've advocated for policies that make it easier for New Yorkers to access the benefits and services they deserve."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 1377.42,
+          "text": "I got into public service to make government more accessible for more people."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 1381.22,
+          "text": "Antiquated systems and unnecessary red tape make it nearly impossible for New Yorkers to reach benefits they're entitled to, and that fuels distrust in government."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 1389.62,
+          "text": "Both of today's bills are about the same basic idea."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 1392.32,
+          "text": "Government should return to people what is already theirs without an onerous process to obtain it."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 1397.52,
+          "text": "Intro 248 bridges that gap."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 1399.42,
+          "text": "It creates a streamlined enrollment process for fair fares that allows DSS"
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 1403.82,
+          "text": "to immediately enroll individuals with their consent into fair fares if they're also applying for SNAP or cash assistance."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 1410.02,
+          "text": "Intro 246 also works to put cash into the pockets of New Yorkers by requiring the Department of Correction to tell every person in city jails exactly how much is in their account and directs the agency to return those funds via cash, check, or preloaded debit card"
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 1423.62,
+          "text": "before the individual leaves custody."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 1426.12,
+          "text": "Together, these bills send one message."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 1428.32,
+          "text": "Whether it's benefits owed to a family or money owed to someone leaving custody, as government, we owe it to our constituents to ensure they get the money and benefits they are entitled to."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 1437.52,
+          "text": "I want to thank the advocates who have pushed for these reforms for years, including Writers Alliance, CSS, Permanent Citizens Advisory Committee to the MTA,"
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 1446.52,
+          "text": "Legal Aid Society, Freedom Agenda, as well as the teams at DSS and DOC, the Council's committee staff, and my team who helped get these bills across the finish line."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 1455.32,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 1465.508,
+      "id": "025",
+      "slug": "no-further-general-orders-speakers-proceed-to-committee-reports",
+      "start_sec": 1456.52,
+      "summary": "Majority Leader Abreu thanks Hudson, notes no one else signed up for general orders, and moves to reports of special and standing committees.",
+      "title": "No further general orders speakers; proceed to committee reports",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1456.52,
+          "text": "Thank you, Council Member."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1457.42,
+          "text": "I see no one else signed up for general orders."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1460.02,
+          "text": "Go on once."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1462.22,
+          "text": "Go on twice."
+        }
+      ]
+    },
+    {
+      "end_sec": 1498.508,
+      "id": "026",
+      "slug": "committee-reports-criminal-justice-finance-general-welfare-and-housing",
+      "start_sec": 1465.508,
+      "summary": "The clerk reads reports from the Committees on Criminal Justice (Intro 246A), Finance (Reso 652), General Welfare (Intro 248A), and Housing and Buildings (Intro 1015A), each amended or coupled on general orders.",
+      "title": "Committee Reports: Criminal Justice, Finance, General Welfare, and Housing",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1465.508,
+          "text": "Report of special committees."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1467.908,
+          "text": "None."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1469.408,
+          "text": "Reports of standing committees."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1471.408,
+          "text": "Report of the Committee on Criminal Justice, Intro 246A, Commissary Accounts."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 1476.008,
+          "text": "Amended and coupled on general orders."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1478.208,
+          "text": "Report of the Committee on Finance, Preconsidered Reso 652, Organization Funding."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 1482.708,
+          "text": "Coupled on general orders."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1484.508,
+          "text": "Report of the Committee on General Welfare, Intro 248A, Fair Fares Program."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 1489.708,
+          "text": "Amended and coupled on general orders."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1492.008,
+          "text": "Report of the Committee on Housing and Buildings, Intro 1015A, Tax Abatements."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 1496.408,
+          "text": "Amended and coupled on general orders."
+        }
+      ]
+    },
+    {
+      "end_sec": 1538.808,
+      "id": "027",
+      "slug": "land-use-committee-reports-eastern-parkway-hutchinson-river-parkway-kent-avenue-and-others",
+      "start_sec": 1498.508,
+      "summary": "The clerk reads Land Use reports: Intro 833A on Eastern Parkway, LU 120/Reso 659 on 815 Hutchinson River Parkway, LU 121/Reso 660 and LU 122/Reso 661 on 862-868 Kent Avenue, LU 123-128 approved with modifications, and LU 141/Reso 662 on Cali Tejadas Bakery motion to disapprove.",
+      "title": "Land Use Committee Reports: Eastern Parkway, Hutchinson River Parkway, Kent Avenue, and Others",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1498.508,
+          "text": "Report of the Committee on Land Use, Intro 833A, Eastern Parkway Restrictions."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 1503.608,
+          "text": "Amended and coupled on general orders."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1505.508,
+          "text": "LU 120 and Reso 659."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1507.808,
+          "text": "815 Hutchinson River Parkway Rezoning."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 1510.408,
+          "text": "Coupled on general orders."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1511.908,
+          "text": "LU 121 and Reso 660 and LU 122 and Reso 661, 862-868 Kent Avenue."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 1519.408,
+          "text": "Coupled."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1520.408,
+          "text": "LU 123 through 128, various applications."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 1524.608,
+          "text": "Approved with modifications and referred to the City Planning Commission pursuant to Section 197-D of the New York City Charter."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1532.508,
+          "text": "LU 141 and Reso 662, Kali Tahadas Bakery."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 1537.408,
+          "text": "Motion to disapprove."
+        }
+      ]
+    },
+    {
+      "end_sec": 1545.508,
+      "id": "028",
+      "slug": "speaker-menin-calls-for-roll-call-vote-on-general-orders-calendar",
+      "start_sec": 1538.808,
+      "summary": "Speaker Menin asks the clerk to take a roll call vote on all items coupled on today's general orders calendar.",
+      "title": "Speaker Menin calls for roll call vote on general orders calendar",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 1538.808,
+          "text": "I would now ask that the clerk take a roll call vote on all of the items coupled on today's general orders calendar."
+        }
+      ]
+    },
+    {
+      "end_sec": 1558.908,
+      "id": "029",
+      "slug": "roll-call-vote-on-general-orders-calendar-begins",
+      "start_sec": 1545.508,
+      "summary": "The clerk begins the roll call vote, with initial votes from Aldebar, Ariola, Aviles, Banks, and Brewer.",
+      "title": "Roll Call Vote on General Orders Calendar Begins",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1545.508,
+          "text": "Aldebar."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1547.508,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1548.808,
+          "text": "Ariola."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1551.308,
+          "text": "Vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1552.408,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1553.508,
+          "text": "Aviles."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1555.308,
+          "text": "Banks."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1556.708,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1557.808,
+          "text": "Brewer."
+        }
+      ]
+    },
+    {
+      "end_sec": 1588.352,
+      "id": "030",
+      "slug": "council-member-brooks-powers-explains-vote-on-fair-fares-and-commissary-bills",
+      "start_sec": 1558.908,
+      "summary": "Selvena Brooks-Powers congratulates Council Member Hudson on her two bills streamlining Fair Fares access and returning funds to those leaving custody, and votes aye on all.",
+      "title": "Council Member Brooks-Powers explains vote on Fair Fares and commissary bills",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 1558.908,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1560.108,
+          "text": "Brooks Powers."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 1562.108,
+          "text": "Permission to explain my vote?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1563.208,
+          "text": "Permission, Granson."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 1564.708,
+          "text": "I just want to take a moment to congratulate my colleague, Councilmember Hudson, on two very important bills."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 1571.408,
+          "text": "One with the Fair Fairs program, streamlining that access for New Yorkers, which is critical."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 1577.008,
+          "text": "And then also ensuring those coming out of custody are able to receive their funds more timely."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 1584.408,
+          "text": "And with that, I vote aye on all."
+        }
+      ]
+    },
+    {
+      "end_sec": 1645.852,
+      "id": "031",
+      "slug": "council-member-dinowitz-explains-vote-on-transparency-resolution-and-journalism-for-all",
+      "start_sec": 1588.352,
+      "summary": "Eric Dinowitz highlights the new Journalism for All initiative in the transparency resolution, thanks the coalition, and votes aye on all.",
+      "title": "Council Member Dinowitz explains vote on transparency resolution and Journalism for All",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1588.352,
+          "text": "Kaban."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 1590.852,
+          "text": "Aye, aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1591.952,
+          "text": "De La Rosa."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 1593.452,
+          "text": "Aye, aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1594.752,
+          "text": "Dinowitz."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 1595.652,
+          "text": "Permission to explain my vote?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1596.852,
+          "text": "Permission granted."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 1597.752,
+          "text": "I just want to highlight that in today's transparency resolution, we're funding for the first time ever a journalism for all, a brand new initiative entitled Journalism for All."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 1608.252,
+          "text": "And as journalism in and of itself is one of the most incredible things that we can provide for the education of our students."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 1614.752,
+          "text": "But as we transition to the portrait of a graduate, it is more clear than ever we need to make sure we are doing what we can to invest in the types of rigorous education that work,"
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 1624.252,
+          "text": "ask students to be introspective and reflective, get multiple perspectives on an issue, and we in the City Council are doing that with our transparency resolution today."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 1635.352,
+          "text": "So I want to thank also publicly the Journalism for All Coalition for all of their work over the past few years on this initiative, and I vote aye on all."
+        }
+      ]
+    },
+    {
+      "end_sec": 1663.352,
+      "id": "032",
+      "slug": "council-member-brooks-powers-discloses-family-ties-to-department-of-education",
+      "start_sec": 1645.852,
+      "summary": "Selvena Brooks-Powers discloses that her family is associated with the Department of Education, which is funded in the transparency resolution.",
+      "title": "Council Member Brooks-Powers discloses family ties to Department of Education",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1645.852,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1646.252,
+          "text": "Brooks Powers for disclosure."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 1648.552,
+          "text": "Sorry about that."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 1649.252,
+          "text": "I know I was asking for permission for something."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 1651.852,
+          "text": "I just wanted to disclose that we're making some changes with the Department of Education and my family is associated with that entity."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1662.352,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 1730.996,
+      "id": "033",
+      "slug": "council-member-morano-discloses-son-in-doe-and-votes-aye-on-all",
+      "start_sec": 1663.352,
+      "summary": "After a stretch of name-only votes, Frank Morano discloses that his son, a kindergartener, is associated with the Department of Education, and votes aye on all.",
+      "title": "Council Member Morano discloses son in DOE and votes aye on all",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1663.352,
+          "text": "Encarnacion."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 1664.852,
+          "text": "Aye and all."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1666.852,
+          "text": "Epstein."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1669.396,
+          "text": "Aye and all."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1670.696,
+          "text": "Farias."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1671.496,
+          "text": "Aye and all."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1672.696,
+          "text": "Felder."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1673.696,
+          "text": "Aye and all."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1674.896,
+          "text": "Feliz."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1675.896,
+          "text": "Aye and all."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1677.496,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1678.096,
+          "text": "Gennaro."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1679.396,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1680.196,
+          "text": "Thank you, Council Member Gennaro."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1681.796,
+          "text": "Gutierrez."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1684.696,
+          "text": "Hanif."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1685.396,
+          "text": "I don't know."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1687.296,
+          "text": "Hankerson."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1687.996,
+          "text": "I don't know."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1689.796,
+          "text": "Hanks."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1690.896,
+          "text": "I don't know."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1692.196,
+          "text": "Hudson."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1694.496,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1696.196,
+          "text": "Joseph."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1699.296,
+          "text": "Krishnan."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1701.296,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1702.296,
+          "text": "Lee."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1703.396,
+          "text": "Aye on all."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1704.496,
+          "text": "Lewis."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1705.796,
+          "text": "Aye on all."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1706.696,
+          "text": "Maloney."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1708.396,
+          "text": "I vote aye on all."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1710.096,
+          "text": "Marte."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1711.096,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1712.396,
+          "text": "Mealy."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1714.396,
+          "text": "Morano."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 1716.096,
+          "text": "I'd like to disclose that the transparency resolution we're funding funds the Department of Education, and my son, who just started kindergarten, is associated with that entity."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 1726.996,
+          "text": "And with that, I'll vote aye on all."
+        }
+      ]
+    },
+    {
+      "end_sec": 1760.056,
+      "id": "034",
+      "slug": "council-member-paladino-votes-aye-on-all-except-resolution-606",
+      "start_sec": 1730.996,
+      "summary": "After name-only votes for Narcisse through Palladino, Vickie Paladino votes aye on all except Resolution 606, on which she votes no.",
+      "title": "Council Member Paladino votes aye on all except Resolution 606",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1730.996,
+          "text": "Narcisse."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1732.796,
+          "text": "Avorai."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1733.996,
+          "text": "Nurse."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1734.996,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1735.996,
+          "text": "Osei."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1737.996,
+          "text": "Palladino."
+        },
+        {
+          "speaker": "Vickie Paladino",
+          "t_sec": 1740.096,
+          "text": "Aye on all except for Rezo 606, in which I vote no."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1750.456,
+          "text": "Councilmember Paladino, I'm sorry, with Reso 6."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1755.756,
+          "text": "606."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1756.756,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1757.256,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 1774.756,
+      "id": "035",
+      "slug": "council-member-riley-discloses-children-in-doe-and-votes-aye-on-all",
+      "start_sec": 1760.056,
+      "summary": "Kevin Riley discloses that his children are scholars in the Department of Education and votes aye on all.",
+      "title": "Council Member Riley discloses children in DOE and votes aye on all",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1760.056,
+          "text": "Wrestler."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1762.256,
+          "text": "Hi."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1763.656,
+          "text": "Riley."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 1765.856,
+          "text": "I just want to state for the transparency resolution that my children are scholars in the DOE, and I vote I don't know."
+        }
+      ]
+    },
+    {
+      "end_sec": 1783.596,
+      "id": "036",
+      "slug": "council-member-salaam-discloses-ymca-association-and-votes-aye-on-all",
+      "start_sec": 1774.756,
+      "summary": "Yusef Salaam discloses that his family is associated with the YMCA and votes aye on all.",
+      "title": "Council Member Salaam discloses YMCA association and votes aye on all",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1774.756,
+          "text": "Salam."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 1777.896,
+          "text": "I'd like to disclose for the record that my family is associated with the YMCA and I own all."
+        }
+      ]
+    },
+    {
+      "end_sec": 1794.296,
+      "id": "037",
+      "slug": "council-member-pierina-sanchez-discloses-sibling-at-cuny-and-votes-aye-on-all",
+      "start_sec": 1783.596,
+      "summary": "Pierina Sanchez discloses that her sibling is associated with CUNY and votes aye on all.",
+      "title": "Council Member Pierina Sanchez discloses sibling at CUNY and votes aye on all",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1783.596,
+          "text": "Justin Sanchez."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1785.096,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1785.996,
+          "text": "Karina Sanchez."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 1788.196,
+          "text": "I'd like to disclose on the record that my sibling is associated with CUNY and I vote aye on all."
+        }
+      ]
+    },
+    {
+      "end_sec": 1824.0,
+      "id": "038",
+      "slug": "council-member-one-discloses-child-in-doe-and-votes-aye-on-all",
+      "start_sec": 1794.296,
+      "summary": "After name-only votes for Santos Suoso through One, a Council member discloses that their child is a student at the Department of Education and votes aye on all.",
+      "title": "Council Member (One) discloses child in DOE and votes aye on all",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1794.296,
+          "text": "Santos Suoso."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1795.896,
+          "text": "Aye on all."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1796.996,
+          "text": "Shulman."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1800.2,
+          "text": "Stevens."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1803.5,
+          "text": "Thomas Henry."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1804.6,
+          "text": "Aye and all."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1806.1,
+          "text": "Ong."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1807.5,
+          "text": "Aye and all."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1808.7,
+          "text": "Vernikov."
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 1809.7,
+          "text": "Aye and all."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1811.4,
+          "text": "Williams."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1813.1,
+          "text": "Aye and all."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1814.4,
+          "text": "Wilson."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1816.0,
+          "text": "Aye and all."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1817.5,
+          "text": "One."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1819.6,
+          "text": "I vote aye on all, and I'd like to put on record that my child is a student at the DOE."
+        }
+      ]
+    },
+    {
+      "end_sec": 1835.9,
+      "id": "039",
+      "slug": "council-members-wang-and-zhuang-vote-yes-and-no-disclose-children-in-public-school",
+      "start_sec": 1824.0,
+      "summary": "Council Members Wang and Zhuang vote yes and no on the items and disclose that their children attend public school.",
+      "title": "Council Members Wang and Zhuang vote yes and no, disclose children in public school",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1824.0,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1826.3,
+          "text": "Wang."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1828.4,
+          "text": "I vote yes and no."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1830.6,
+          "text": "Zhuang."
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 1832.1,
+          "text": "I vote yes and no."
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 1832.7,
+          "text": "I want to put it on the record my kids go to public school."
+        }
+      ]
+    },
+    {
+      "end_sec": 1838.7,
+      "id": "040",
+      "slug": "council-member-carr-discloses-jcc-staten-island-association-and-votes-aye-on-all",
+      "start_sec": 1835.9,
+      "summary": "David Carr discloses that the Jewish Community Center of Staten Island is funded in the transparency resolution and that he is associated with that entity, voting aye on all.",
+      "title": "Council Member Carr discloses JCC Staten Island association and votes aye on all",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 1835.9,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1837.8,
+          "text": "Carr."
+        }
+      ]
+    },
+    {
+      "end_sec": 1858.424,
+      "id": "041",
+      "slug": "council-member-farah-louis-discloses-brother-at-mta-and-parks-department-association",
+      "start_sec": 1838.7,
+      "summary": "After Abraayu votes aye, Farah Louis discloses that her brother works for the MTA and she is associated with the Parks Department.",
+      "title": "Council Member Farah Louis discloses brother at MTA and Parks Department association",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1838.7,
+          "text": "I'd like to disclose on the record that in the transparency resolution that we're voting on today that the Jewish Community Center of Staten Island is funded and I am associated with that entity."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 1847.2,
+          "text": "I vote aye on all."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1849.3,
+          "text": "Abraayu."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1850.8,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1856.024,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1856.324,
+          "text": "Councilmember Lewis."
+        }
+      ]
+    },
+    {
+      "end_sec": 1866.724,
+      "id": "042",
+      "slug": "speaker-menin-discloses-daughter-at-asphalt-green-and-votes-aye-on-all",
+      "start_sec": 1858.424,
+      "summary": "Speaker Julie Menin discloses that her daughter participates in a program at Asphalt Green and votes aye on all.",
+      "title": "Speaker Menin discloses daughter at Asphalt Green and votes aye on all",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 1858.424,
+          "text": "I'd like to disclose for the record that my brother works for the MTA and I'm associated with the Parks Department."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1864.224,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1865.224,
+          "text": "Speaker Menden."
+        }
+      ]
+    },
+    {
+      "end_sec": 1888.424,
+      "id": "043",
+      "slug": "general-orders-calendar-adopted-46-0-0",
+      "start_sec": 1866.724,
+      "summary": "Majority Leader Abreu announces that all items on today's general orders calendar are adopted by a vote of 46 in the affirmative, 0 in the negative, and 0 abstentions.",
+      "title": "General Orders Calendar adopted 46-0-0",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 1866.724,
+          "text": "I want to disclose on the record that my daughter participates in a program at Asphalt Green and I vote aye on all."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1881.524,
+          "text": "All items on today's general order calendar are adopted by a vote of 46 in the affirmative, 0 in the negative, and 0 abstentions."
+        }
+      ]
+    },
+    {
+      "end_sec": 1906.396,
+      "id": "044",
+      "slug": "introduction-and-reading-of-bills-all-bills-referred-to-committee",
+      "start_sec": 1888.424,
+      "summary": "Abreu moves to introduction and reading of bills; Speaker Menin states all bills have been referred to committee as indicated on the agenda.",
+      "title": "Introduction and reading of bills; all bills referred to committee",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1888.424,
+          "text": "All right."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1893.096,
+          "text": "Introduction and reading of bills."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 1895.496,
+          "text": "All bills have been referred to committee as indicated on today's agenda."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1899.196,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1899.796,
+          "text": "We will now move into the discussion of resolutions, beginning with Councilor Mafarias, followed by Riley, then Stevens."
+        }
+      ]
+    },
+    {
+      "end_sec": 1960.696,
+      "id": "045",
+      "slug": "council-member-far-as-speaks-on-resolution-184-for-korean-cultural-awareness-day",
+      "start_sec": 1906.396,
+      "summary": "Amanda Far\u00edas speaks in support of her resolution declaring October 3rd as Korean Cultural Awareness Day, honoring Korea's National Foundation Day and the city's Korean community.",
+      "title": "Council Member Far\u00edas speaks on Resolution 184 for Korean Cultural Awareness Day",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 1906.396,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 1906.896,
+          "text": "I'm proud to be passing my resolution declaring October 3rd as Korean Cultural Awareness Day annually in New York City."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 1913.896,
+          "text": "October 3rd marks Korea's National Foundation Day, meaning opening of heaven."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 1919.296,
+          "text": "It honors a founding story passed down through generations and remains a day of shared ancestry and cultural pride."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 1926.496,
+          "text": "Nearly 90,000 Korean and Korean American New Yorkers live across our city, and I have consistently championed culturally responsive legislation because the histories and traditions of the communities that shape New York deserve recognition here in the Council."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 1940.696,
+          "text": "This resolution gives us an annual opportunity to celebrate Korean heritage and help more New Yorkers understand why October 3rd is so meaningful."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 1950.296,
+          "text": "Thank you to Deputy Speaker and Cultural Affairs Committee Chair Dr."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 1953.296,
+          "text": "Natasha Williams, Council Members Julie Wan and Linda Lee, and my colleagues who supported and co-sponsored this resolution."
+        }
+      ]
+    },
+    {
+      "end_sec": 2032.196,
+      "id": "046",
+      "slug": "council-member-riley-speaks-on-resolution-142a-for-center-for-fatherhood-initiatives",
+      "start_sec": 1960.696,
+      "summary": "Kevin Riley speaks on his resolution supporting a statewide Center for Fatherhood Initiatives, emphasizing support for fathers facing barriers, including young, non-custodial, and reentry fathers.",
+      "title": "Council Member Riley speaks on Resolution 142A for Center for Fatherhood Initiatives",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 1960.696,
+          "text": "Councilman Riley, followed by Stevens."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 1963.096,
+          "text": "Thank you, Majority Leader."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 1964.296,
+          "text": "As a father of three, fatherhood is deeply personal to me, and I know the responsibility that comes with being present, being engaged, and showing up for our children every single day."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 1972.596,
+          "text": "But we also know that too many fathers face barriers that can make fulfilling that responsibility harder, particularly young and new fathers."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 1979.296,
+          "text": "fathers, non-custodial fathers, and fathers navigating reentry."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 1982.996,
+          "text": "That is why I'm proud to bring Resolution 142A before the Council today."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 1987.296,
+          "text": "This resolution supports the establishment of a statewide center for fatherhood initiatives, creating a robust framework to provide fathers with the resources, support, networks, and parenting education they need to strengthen their parenting knowledge, attitudes, and self-efficiency."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 2002.296,
+          "text": "Because when we give fathers the tools to succeed, the impact reaches far beyond one individual."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 2007.496,
+          "text": "We strengthen our children, our families, and our communities."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 2010.496,
+          "text": "I want to thank Senator Bailey and Assemblymember Diaz for championing this legislation in Albany and my council colleagues who have joined me in co-sponsoring this resolution."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 2019.096,
+          "text": "Today, I proudly urge my colleagues to vote yes, and I urge our state partners to advance this legislation and governor to sign it into law."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 2025.896,
+          "text": "Fatherhood matters, showing that matters, and every father who wants to be there for their child deserves support to do so."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 2030.996,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 2111.296,
+      "id": "047",
+      "slug": "council-member-stevens-speaks-on-resolutions-606-and-607",
+      "start_sec": 2032.196,
+      "summary": "Althea Stevens speaks in support of Resolution 606 declaring August as Black Pride Month and Resolution 607 declaring September as African Immigrant Heritage Month, highlighting Bronx connections and contributions.",
+      "title": "Council Member Stevens speaks on Resolutions 606 and 607",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2032.196,
+          "text": "Councilmember Stevens."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 2034.296,
+          "text": "Good afternoon."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 2034.896,
+          "text": "Thank you, Speaker Manor and Deputy Speaker Williams, the chair of the Culture Committee, and all my colleagues for supporting and recognizing these two resolutions."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 2044.996,
+          "text": "It is about honoring our history, culture, and the people who have helped shape New York City."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 2048.996,
+          "text": "First, I'm proud to speak in support of Resolution 606, declaring August as Black Pride Month in New York City."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 2056.496,
+          "text": "This history continues to have a strong Bronx connection."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 2059.596,
+          "text": "Lee Sargent and a Bronx native later founded the NYC Center for Brock Pride, which was continued organizing Black Pride celebrations."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 2067.196,
+          "text": "We're recognizing a movement in our community that has"
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 2069.296,
+          "text": "has helped expand what inclusion, visibility, and belonging looks like."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 2074.396,
+          "text": "This year we had a Black Pride celebration in the Bronx, our inaugural Black Pride celebration."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 2080.596,
+          "text": "This was a powerful reminder that the borough is not only a place, is a part of this history, but continues to shape it."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 2086.896,
+          "text": "I would like to give a special shout out to my staff, Grim Mayhew and Michael Ivory from the Borough President's Office and Destination Tomorrow, who worked really hard to make sure that this resolution came to fruition."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 2098.796,
+          "text": "I'm also in support of Resolution 607 declaring September African Heritage Month."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 2104.496,
+          "text": "I also want to give a special shout out to the Bronx Borough President African Advisory Council who helped advance this legislation."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 2110.296,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 2130.996,
+      "id": "048",
+      "slug": "majority-leader-abreu-proceeds-to-voice-votes-on-resolutions",
+      "start_sec": 2111.296,
+      "summary": "Abreu notes no one else signed up, instructs members to notify the Legislative Documents Unit for any no votes or abstentions, and reads the resolutions into the record.",
+      "title": "Majority Leader Abreu proceeds to voice votes on resolutions",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2111.296,
+          "text": "Thank you, Council Member."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2112.896,
+          "text": "Seeing no one else signed up for resolutions being voted on today, we will now have a voice vote on today's resolutions."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2119.996,
+          "text": "If you wish to vote against or abstain from any of today's resolutions, please notify the Legislative Documents Unit by email or by approaching the dais."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2128.396,
+          "text": "I'll now read today's resolutions into the record."
+        }
+      ]
+    },
+    {
+      "end_sec": 2151.096,
+      "id": "049",
+      "slug": "voice-vote-on-resolution-142a-center-for-fatherhood-initiatives",
+      "start_sec": 2130.996,
+      "summary": "Abreu reads Resolution 142A calling on the state to establish a Center for Fatherhood Initiatives; the ayes have it.",
+      "title": "Voice Vote on Resolution 142A: Center for Fatherhood Initiatives",
+      "type": "VOICE_VOTE",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2130.996,
+          "text": "Resolution 142A calls on the New York State Legislature to pass and the governor to sign legislation to establish the Center for Fatherhood Initiatives under the Office of Children and Family Services."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2142.396,
+          "text": "All those in favor say aye."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2145.396,
+          "text": "All opposed say nay."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2147.696,
+          "text": "Any abstentions?"
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2149.396,
+          "text": "The ayes have it."
+        }
+      ]
+    },
+    {
+      "end_sec": 2175.296,
+      "id": "050",
+      "slug": "voice-vote-on-resolution-184-korean-cultural-awareness-day",
+      "start_sec": 2151.096,
+      "summary": "Abreu reads Resolution 184 declaring October 3rd as Korean Cultural Awareness Day; the ayes have it.",
+      "title": "Voice Vote on Resolution 184: Korean Cultural Awareness Day",
+      "type": "VOICE_VOTE",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2151.096,
+          "text": "Resolution 184 declares October 3rd as Korean Cultural Awareness Day annually in the city of New York to commemorate"
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2159.296,
+          "text": "the mythological beginning of the Korean people, and to celebrate their continued pride in their shared ancestry."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2166.296,
+          "text": "All those in favor say aye."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2169.096,
+          "text": "All opposed say nay."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2171.496,
+          "text": "Any abstentions?"
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2172.796,
+          "text": "The ayes have it."
+        }
+      ]
+    },
+    {
+      "end_sec": 2200.996,
+      "id": "051",
+      "slug": "voice-vote-on-resolution-606-black-pride-month",
+      "start_sec": 2175.296,
+      "summary": "Abreu reads Resolution 606 declaring August as Black Pride Month; the ayes have it.",
+      "title": "Voice Vote on Resolution 606: Black Pride Month",
+      "type": "VOICE_VOTE",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2175.296,
+          "text": "Resolution 606 declares the month of August as Black Pride Month in the City of New York, recognizing the legacy of the New York City Black Pride movement of uplifting the Black"
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2186.096,
+          "text": "LGBTQIA plus community and its continuing contributions to creating a more equitable New York City."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2192.996,
+          "text": "All those in favor say aye."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2195.696,
+          "text": "All opposed say nay."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2197.796,
+          "text": "Any abstentions?"
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2199.796,
+          "text": "The ayes have it."
+        }
+      ]
+    },
+    {
+      "end_sec": 2220.496,
+      "id": "052",
+      "slug": "voice-vote-on-resolution-607-african-immigrant-heritage-month",
+      "start_sec": 2200.996,
+      "summary": "Abreu reads Resolution 607 declaring September as African Immigrant Heritage Month; the ayes have it.",
+      "title": "Voice Vote on Resolution 607: African Immigrant Heritage Month",
+      "type": "VOICE_VOTE",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2200.996,
+          "text": "Resolution 607 declares September as African Immigrant Heritage Month in the City of New York to celebrate the contributions made by African immigrants to New York City and the United States."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2212.896,
+          "text": "All those in favor say aye."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2215.596,
+          "text": "All opposed say nay."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2217.796,
+          "text": "Any abstentions?"
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2219.396,
+          "text": "The ayes have it."
+        }
+      ]
+    },
+    {
+      "end_sec": 2231.1,
+      "id": "053",
+      "slug": "general-discussion-begins-15-members-signed-up",
+      "start_sec": 2220.496,
+      "summary": "Abreu moves into general discussion, reminds members of the two-minute limit, and notes 15 members have signed up.",
+      "title": "General Discussion begins; 15 members signed up",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2220.496,
+          "text": "We will now move into general discussion."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2222.496,
+          "text": "Reminder, you have two minutes, and we have 15 folks signed up so far."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2226.096,
+          "text": "Councilmember Hanif, followed by Shulman."
+        }
+      ]
+    },
+    {
+      "end_sec": 2299.2,
+      "id": "054",
+      "slug": "council-member-hanif-speaks-on-netanyahu-visit-and-gaza",
+      "start_sec": 2231.1,
+      "summary": "Shahana Hanif describes joining civil disobedience against Prime Minister Netanyahu's visit, calls for an end to U.S. arms shipments to Israel, and argues local issues like food assistance and housing are connected to war spending.",
+      "title": "Council Member Hanif speaks on Netanyahu visit and Gaza",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 2231.1,
+          "text": "Thank you, Majority Leader."
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 2233.7,
+          "text": "This morning, I joined council colleagues, state legislators, future members of Congress, including Brad Lander and Chris Rabb, and hundreds of New Yorkers in an act of civil disobedience to reject Prime Minister Netanyahu's visit to our city"
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 2247.5,
+          "text": "and appearance before the UN."
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 2249.7,
+          "text": "Together, we called for an end to U.S."
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 2252.0,
+          "text": "Arms shipments to Israel and an end to the genocide of the Palestinian people."
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 2256.8,
+          "text": "We can't allow business as usual during a genocide."
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 2260.6,
+          "text": "Millions of people are being displaced and killed across the region."
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 2264.4,
+          "text": "Our federal government has the power to stop it."
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 2267.6,
+          "text": "This is a local issue, too."
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 2269.4,
+          "text": "Our constituents are being told there is not enough money for food assistance, health care, schools, or housing."
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 2275.8,
+          "text": "Yet, there's always money for more bombs."
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 2278.9,
+          "text": "Those are choices, and New Yorkers are living with the consequences."
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 2282.9,
+          "text": "We will not be silent while the Trump administration cuts lifelines at home and funds devastation abroad."
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 2289.2,
+          "text": "New Yorkers are done paying for endless war."
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 2292.0,
+          "text": "It is time to block the bombs, divest from genocide and endless wars, and invest in life."
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 2297.8,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 2411.2,
+      "id": "055",
+      "slug": "council-member-shulman-introduces-intro-1094-on-legionnaires-disease-reporting",
+      "start_sec": 2299.2,
+      "summary": "Lynn Schulman introduces Intro 1094 to lower the Legionella reporting threshold from 1,000 to 10 colony-forming units per milliliter, citing recent outbreaks and Canada's standard.",
+      "title": "Council Member Shulman introduces Intro 1094 on Legionnaires' disease reporting",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2299.2,
+          "text": "Councilmember Shulman, followed by Thomas Henry."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 2303.4,
+          "text": "Thank you, Majority Leader."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 2304.5,
+          "text": "Today I'm introducing Intro 1094, which would strengthen our city's ability to help prevent outbreaks of Legionnaire's disease before they occur."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 2312.8,
+          "text": "This summer, New York City experienced two devastating clusters of Legionnaire's disease, reminding us of the serious health risks."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 2318.8,
+          "text": "that Legionella composed to New Yorkers."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 2321.3,
+          "text": "Currently, building owners are only required to report Legionella test results to the Department of Health and Mental Hygiene when levels reach at least 1,000 colony-forming units per milliliter."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 2332.1,
+          "text": "But by the time Legionella reaches that level, an outbreak may already be imminent."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 2336.3,
+          "text": "This legislation would lower the reporting threshold to 10 colony-forming units per milliliter."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 2342.2,
+          "text": "This would give the department earlier notice of elevated Legionella levels, allowing the city to take action before conditions become dangerous."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 2350.6,
+          "text": "The testing level proposed in my legislation is a critical regulatory threshold across Canada."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 2356.5,
+          "text": "In fact, 10 bacteria per milliliter is the standard action level there."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 2361.3,
+          "text": "If a facility's cooling tower tests above 10 bacteria per milliliter, it triggers mandatory immediate decontamination and hyperchlorination protocols."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 2371.1,
+          "text": "This method has proven to be an effective, preventive, early warning line of defense."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 2375.5,
+          "text": "We should not wait until Legionella levels reach a point where an outbreak is imminent before the city has the information it needs to act."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 2382.9,
+          "text": "By requiring this new threshold, we can give the department a better opportunity to identify potential risks more quickly and intervene before people get sick."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 2392.0,
+          "text": "This legislation is about prevention and protecting the health of New Yorkers."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 2395.5,
+          "text": "After this year's clusters, we have an opportunity to learn from what happened and take steps to prevent the next one."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 2401.7,
+          "text": "And I also want to thank the Speaker for her leadership because we've had more legislation on Legionella this year than it did."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 2408.4,
+          "text": "any other time."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 2409.2,
+          "text": "So thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 2507.5,
+      "id": "056",
+      "slug": "council-member-thomas-henry-calls-on-fifa-to-honor-world-cup-legacy-contribution",
+      "start_sec": 2411.2,
+      "summary": "Shanel Thomas-Henry discusses New York hosting the World Cup, asks what happened to FIFA's promised $1 million legacy contribution, and introduces Resolution 655 urging FIFA to deliver it.",
+      "title": "Council Member Thomas-Henry calls on FIFA to honor World Cup legacy contribution",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2411.2,
+          "text": "Thank you, Councilmember."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2412.6,
+          "text": "Councilmember Thomas Henry, followed by Banks."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 2415.2,
+          "text": "Thank you, Majority Leader."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 2416.9,
+          "text": "We can all agree that summer 2026 will go down in history, but at the heart of it was New York welcoming the world."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 2424.0,
+          "text": "We opened our city, supported public safety and transportation, hosted watch parties, and invested nearly $90 million to make sure that the biggest sporting event in the world could have a home here in New York."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 2436.6,
+          "text": "But hosting an event of this magnitude cannot simply be about what New York gives."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 2441.6,
+          "text": "What my colleagues and I have been shouting from the rooftop is, how would an event of this magnitude benefit New Yorkers?"
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 2448.4,
+          "text": "FIFA reportedly committed to providing host cities with a million-dollar legacy contribution to support soccer pitches and other community projects."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 2456.4,
+          "text": "That's $1 million invested directly back into our communities."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 2460.2,
+          "text": "That's a goal we hope all private partners will commit to."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 2463.3,
+          "text": "But now with an estimated $15 billion in FIFA revenue, we have to ask, what happened to the million dollars?"
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 2470.2,
+          "text": "That money should have translated to the young person in Corona who deserves a safe field to play on."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 2475.4,
+          "text": "That money could have translated to park preservation where so many of our families celebrated this tournament together."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 2481.6,
+          "text": "And of course, it must translate to the small businesses and neighborhoods who preserve the culture and vibrancy of our corridors."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 2488.4,
+          "text": "My resolution 655 is simple."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 2491.2,
+          "text": "FIFA must honor its commitment and deliver a million-dollar legacy contribution promised to New York City."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 2496.7,
+          "text": "I urge my colleagues to support this."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 2498.4,
+          "text": "Resolution."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 2499.5,
+          "text": "And last but not least, happy birthday, Parker."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 2502.8,
+          "text": "Mommy loves you."
+        }
+      ]
+    },
+    {
+      "end_sec": 2629.8,
+      "id": "057",
+      "slug": "council-member-banks-introduces-bill-to-expand-scrie-and-drie-outreach",
+      "start_sec": 2507.5,
+      "summary": "Chris Banks introduces Bill 1072 to expand outreach for the rent increase exemption programs SCRIE and DRIE, add the Mayor's Office for People with Disabilities, and require annual training and reporting.",
+      "title": "Council Member Banks introduces bill to expand SCRIE and DRIE outreach",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2507.5,
+          "text": "Councilmember Banks, followed by Farias."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 2509.8,
+          "text": "Thank you, Majority Leader, and thank you, Speaker, to your leadership."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 2513.3,
+          "text": "Today I'm introducing Bill 1072, which will expand the outreach and disability of the rent increase exemption, or DREE program, and the senior citizen rent increase exemption, better known as SCRI."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 2527.7,
+          "text": "This legislation will expand the city's existing requirements for the sharing information about SCRI to include DREE and add the mayor's office for the people with disabilities as a participating agency."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 2540.7,
+          "text": "It would also require the Department of Finance to provide an annual training to designated staff and participating city agencies"
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 2548.9,
+          "text": "on eligibility requirements, application and renewal procedures, reasonable accommodations, program benefits, and applicant referrals."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 2557.5,
+          "text": "Additionally, the Department of Finance would be required to report annually to the Council on these trainings and their outcomes."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 2565.6,
+          "text": "We are in the middle of an affordability crisis, and we hear about it, its effects on every corner of our city."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 2574.1,
+          "text": "It is our duty to do everything possible to protect New Yorkers who are especially vulnerable to rising housing costs."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 2583.1,
+          "text": "That includes our seniors, many of whom are retired and living on fixed incomes, as well as"
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 2588.4,
+          "text": "people with disabilities and disabled veterans."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 2592.6,
+          "text": "Scree and Dree provide meaningful relief by freezing the rent of eligible New Yorkers, helping them remain in their homes and communities."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 2601.0,
+          "text": "However, these programs can only help people if they know the assistance exists and understand how to access it."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 2608.0,
+          "text": "No eligible New Yorkers should miss out on this critical benefit simply because they never received the right informational guidance."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 2615.2,
+          "text": "By strengthening the outreach and improving the agency staff training and increasing accountability, this bill will help connect more eligible New Yorkers with the assistance they need to remain safely and affordably in their house."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 2628.4,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 2736.4,
+      "id": "058",
+      "slug": "council-member-far-as-introduces-four-bills-on-consent-survivor-hotline-and-hindu-american-month",
+      "start_sec": 2629.8,
+      "summary": "Amanda Far\u00edas introduces Resolution 647 for Consent Awareness Week, Resolution 648 on defining consent in state law, Intro 1079 on the survivor hotline, and Resolution 646 declaring Hindu American Awareness Month.",
+      "title": "Council Member Far\u00edas introduces four bills on consent, survivor hotline, and Hindu American month",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2629.8,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2630.5,
+          "text": "Councilor Farias, followed by Wilson."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 2633.8,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 2634.3,
+          "text": "Today I'm introducing four bills that I would like members to consider supporting."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 2638.0,
+          "text": "The first, Resolution 647, would establish Consent Awareness Week during the third week of September."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 2643.7,
+          "text": "Consent affects how we respect one another's autonomy and boundaries, and education gives us a chance to build that understanding before someone is harmed."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 2651.0,
+          "text": "Secondly, Resolution 648 calls on the state legislature to pass S-5521A-1140."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 2658.5,
+          "text": "Consent appears throughout New York State's laws governing sexual offenses, but the penal law does not affirmatively define it."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 2665.0,
+          "text": "This legislation would establish a clear standard, a freely given, knowledgeable, and informed agreement by someone with the capacity to reason."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 2672.9,
+          "text": "The two resolutions work together, one advancing public education and the other calling for clarity in the"
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 2678.4,
+          "text": "state law."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 2679.5,
+          "text": "I'm also introducing Intro 1079 concerning the survivor hotline operated by the mayor's office to end domestic and gender-based violence."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 2688.0,
+          "text": "It would require reporting on calls received and answered, wait times, interpretation needs, and referrals, among other measures."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 2696.1,
+          "text": "If people are waiting too long or leaving before they can access services, the city and this council should be able to see that and be able to respond."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 2704.2,
+          "text": "And finally, Resolution 646, which would declare October as Hindu American Awareness and Appreciation Month in New York City."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 2712.3,
+          "text": "This request came directly from constituents in District 18."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 2716.7,
+          "text": "Hindu Americans come from many backgrounds, including communities like those in my district, and have contributed to our city's businesses, institutions, and cultural life."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 2725.6,
+          "text": "October offers an opportunity to recognize those contributions alongside the traditions and observances that make the month meaningful."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 2732.4,
+          "text": "I look forward to working with my colleagues to advance all four bills."
+        }
+      ]
+    },
+    {
+      "end_sec": 2856.2,
+      "id": "059",
+      "slug": "council-member-wilson-introduces-pet-act-for-veterinary-price-transparency",
+      "start_sec": 2736.4,
+      "summary": "Carl Wilson introduces the Pricing, Equity, and Transparency (PET) Act to require veterinary practices to disclose standard charges, provide estimates, and create a public website of average prices.",
+      "title": "Council Member Wilson introduces PET Act for veterinary price transparency",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2736.4,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2737.3,
+          "text": "Councilmember Wilson, followed by Marano."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 2740.4,
+          "text": "Thank you, Majority Leader."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 2742.4,
+          "text": "One-third of New York City households have a pet, yet most New Yorkers cannot afford even a basic veterinary wellness visit."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 2750.7,
+          "text": "Veterinary prices have increased by 60% over the past decade, driven by the consolidation of the veterinary industry as private equity firms and large corporations purchase independent practices."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 2763.1,
+          "text": "Today, 50% of veterinary practices and 75% of emergency vet hospitals"
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 2768.6,
+          "text": "are owned by large corporations, and pet owners are often unaware that a seemingly independent neighborhood practice is part of a larger chain."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 2776.5,
+          "text": "Pets are family, but rising costs have unfairly rendered pet care a luxury good."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 2781.6,
+          "text": "Tragically, some families face financial euthanasia, which is having to euthanize an animal because a treatable condition, they cannot afford the necessary treatment."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 2790.9,
+          "text": "My new bill, the Pricing, Equity, and Transparency, or PET Act, would require veterinary practices to clearly disclose and display standard charges and price ranges for commonly offered services."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 2804.3,
+          "text": "The PET Act will also require practices to provide written or electronic estimates for certain higher cost services upon request and provide itemized receipts."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 2813.1,
+          "text": "Additionally, the Department of Consumer and Worker Protection would establish and maintain a publicly accessible website to display average prices for common veterinary procedures."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 2822.7,
+          "text": "The PET Act will allow pet owners to compare prices, evaluate treatment options, anticipate expenses, and make more informed decisions about both their animal's care and the type of businesses they wish to support."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 2834.0,
+          "text": "By making it easier to shop around for veterinary services, the proposal would expand consumer choice, promote accountability and fair competition, promote more trusting relationships between vets and their clients, and help more New Yorkers access essential preventative and life-saving care."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 2849.1,
+          "text": "So thank you to the Ledge Division for their work on this, and I'm looking forward to working with my colleagues to pass this."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 2854.9,
+          "text": "Thanks so much."
+        }
+      ]
+    },
+    {
+      "end_sec": 2952.5,
+      "id": "060",
+      "slug": "council-member-morano-introduces-intro-1089-for-9-11-first-responders-office",
+      "start_sec": 2856.2,
+      "summary": "Frank Morano introduces Intro 1089 to create an Office of Assistance for 9/11 First Responders and Survivors, arguing they shouldn't have to navigate bureaucracy alone.",
+      "title": "Council Member Morano introduces Intro 1089 for 9/11 first responders office",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2856.2,
+          "text": "Councilmember Marano, followed by Brewer."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 2859.3,
+          "text": "Thank you, Majority Leader."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 2861.1,
+          "text": "Twenty-five years ago, after the worst day in our city's history, New York made a promise that we will never forget."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 2869.0,
+          "text": "But never forget has to be more than two words that we say every September."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 2873.1,
+          "text": "And that's why today one of the bills I'm introducing is Intro 1089 to create an Office of Assistance for 9-11 First Responders and Survivors."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 2882.2,
+          "text": "Because here's the absurd reality."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 2884.5,
+          "text": "A firefighter, a police officer, a construction worker, a volunteer, a downtown resident or survivor can spend years dealing with the consequences of September 11th"
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 2895.1,
+          "text": "and then have to become an expert in government bureaucracy just to figure out where to turn for help."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 2901.3,
+          "text": "They survived September 11th."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 2903.3,
+          "text": "They shouldn't have to survive the paperwork, too."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 2906.1,
+          "text": "This office would give first responders and survivors a dedicated place in city government to help them navigate available services, benefits, and assistance."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 2916.8,
+          "text": "We're now a quarter century removed from September 11th."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 2920.7,
+          "text": "The ceremonies will become fewer."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 2923.3,
+          "text": "The headlines will become less frequent."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 2925.8,
+          "text": "But for thousands of New Yorkers, the consequences are in history."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 2929.3,
+          "text": "They're living them right now."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 2930.8,
+          "text": "They wake up with them every morning."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 2932.8,
+          "text": "So if we really mean never forget, let's put those words into law."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 2937.5,
+          "text": "Let's make sure that when the people who were there for their city and when their city was in need, let's make sure their city is there for them."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 2946.1,
+          "text": "That's why I hope my colleagues will join me in calling."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 2948.4,
+          "text": "Post-sponsoring, Intro 1089."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 2950.7,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 3084.1,
+      "id": "061",
+      "slug": "council-member-brewer-introduces-intro-1073-for-supplemental-tree-planting",
+      "start_sec": 2952.5,
+      "summary": "Gale Brewer introduces Intro 1073 to restore a supplemental pathway for Council-funded tree planting, citing the city's nine-year rotation and her $500,000 allocation for trees.",
+      "title": "Council Member Brewer introduces Intro 1073 for supplemental tree planting",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 2952.5,
+          "text": "Council Member Brewer, followed by Santos Suoso."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 2955.3,
+          "text": "Thank you very much."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 2956.2,
+          "text": "Intro 1073 is what I'm calling the supplemental tree planting."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 2960.4,
+          "text": "We all want more trees in the ground, and the administration announced this."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 2966.9,
+          "text": "Week that the city planted 18,261 trees in 2026."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 2972.8,
+          "text": "That's a lot."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 2973.7,
+          "text": "We want to build on the progress."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 2975.8,
+          "text": "The city's urban forest plan says we need 30% tree canopy by 2040, up from 23% today."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 2984.5,
+          "text": "That means we need more trees."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 2986.4,
+          "text": "Parks'neighborhood tree planting program, I hate that program, prioritizes neighborhoods with the greatest heat vulnerability."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 2993.6,
+          "text": "I support that approach, but under the new nine-year rotation."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 2999.2,
+          "text": "Some neighborhoods, like mine, could wait nine years before we get a damn tree."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3003.7,
+          "text": "So we can fill the gap during those nine years."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3005.7,
+          "text": "That's what I'm saying."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3006.7,
+          "text": "Council members have allocated capital funding for additional tree planting in their districts."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3011.9,
+          "text": "I can do the same."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3013.2,
+          "text": "And I've already allocated half a million dollars in capital funding for trees."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3018.4,
+          "text": "But under the plan, Parks no longer accepts council funding or requests for new trees, eliminating a way to plant trees."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3027.9,
+          "text": "So I wrote to Parks, and many of you signed the letter, asking the agency to continue accepting council funding and requests for trees."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3036.9,
+          "text": "Parks did not make that change."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3038.8,
+          "text": "And that's why we have intro 1073."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3043.0,
+          "text": "It restores a supplemental pathway without changing the neighborhood-based program."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3047.6,
+          "text": "We can identify additional locations, and if it's feasible, we can plant a tree."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3053.2,
+          "text": "This is additional money for additional trees."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3055.6,
+          "text": "Parks can continue prioritizing neighborhoods with the greatest need, while dollars can plant a tree in other locations."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3062.2,
+          "text": "We all have to work together for this tree canopy, and we need every dollar."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3066.3,
+          "text": "Thank you to Chris Satori, Senior Legislative Counsel, for drafting this bill, and my Chief of Staff, Shula Puder."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3074.7,
+          "text": "And let's make sure that the program, the neighborhood tree planting program, is not the only program for planting a tree."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 3081.9,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 3168.0,
+      "id": "062",
+      "slug": "council-member-santosuosso-introduces-intro-1058-on-commercial-eviction-legal-fees",
+      "start_sec": 3084.1,
+      "summary": "Kayla Santosuosso introduces Intro 1058 to allow commercial tenants to recover legal fees if they successfully fight an eviction, leveling the playing field with landlords.",
+      "title": "Council Member Santosuosso introduces Intro 1058 on commercial eviction legal fees",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3084.1,
+          "text": "Councilmember Santos Suoso, followed by Joang."
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 3087.9,
+          "text": "Thank you, Majority Leader."
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 3089.3,
+          "text": "I want to speak about my new bill, Intro 1058."
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 3094.5,
+          "text": "Businesses across the city are struggling, including many historic institutions that bring untold value to our city."
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 3101.7,
+          "text": "Despite that, our current commercial eviction laws often favor commercial landlords and often force beloved community institutions to close without ever seeing a judge."
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 3112.1,
+          "text": "Currently, a commercial landlord can sue to evict a commercial tenant, and if they win in court, they can be reimbursed for their legal fees by the business in question."
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 3121.1,
+          "text": "But in many of these contracts, the same is not true for the tenant."
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 3125.2,
+          "text": "Even if they successfully fight off an eviction, a business..."
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 3128.4,
+          "text": "Business often cannot have a way to make back legal fees that they have accrued in the process."
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 3134.9,
+          "text": "The result is that landlords can encourage tenants to self-evict without ever having their day in court."
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 3141.4,
+          "text": "This bill simply aims to level the playing field by creating a provision wherein a commercial tenant can recover their legal fees if they successfully fight off an eviction brought by a commercial landlord."
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 3153.8,
+          "text": "It is a common sense bill which aims to give these tenants a fighting chance when they are faced with eviction and it is a much needed tool to keep these institutions open for years to come."
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 3162.9,
+          "text": "I ask my colleagues to join me in supporting Intro 1058."
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 3166.3,
+          "text": "Thank you so much."
+        }
+      ]
+    },
+    {
+      "end_sec": 3247.1,
+      "id": "063",
+      "slug": "council-member-zhuang-recognizes-mid-autumn-festival",
+      "start_sec": 3168.0,
+      "summary": "Susan Zhuang speaks about the Mid-Autumn Festival, sharing her immigrant experience and the traditions of mooncakes and family reunion, and wishes everyone a happy festival.",
+      "title": "Council Member Zhuang recognizes Mid-Autumn Festival",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3168.0,
+          "text": "Councilmember Zhuang, followed by Hankerson."
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 3170.8,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 3172.2,
+          "text": "Colleagues, today I want to recognize the Middle Autumn Festival, a holiday that means so much to me personally."
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 3179.0,
+          "text": "I came to America as an immigrant when I was 20 years old, leaving behind my family, my home, everything I know."
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 3187.6,
+          "text": "I know it feels like missing people you love and to be far away from your home."
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 3194.1,
+          "text": "For generations, Chinese family have looked up at the moon during the holidays and remember the people they love."
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 3202.1,
+          "text": "And we also burning fake money to the ancestors."
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 3206.9,
+          "text": "We share the mooncake."
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 3209.0,
+          "text": "Because the circle represents family, reunion, and the togetherness, I want to thank Councilmember Phil Wong, brought a lot of mooncake today."
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 3218.4,
+          "text": "Colleagues, you haven't tried, you should try, but don't eat too much."
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 3224.2,
+          "text": "New York City is very diverse."
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 3225.9,
+          "text": "Our differences are what makes us strong."
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 3228.4,
+          "text": "Every community brings our own traditions, stories, and hope."
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 3232.0,
+          "text": "And together we make New York City the greatest city in the world."
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 3236.2,
+          "text": "No matter where you travel, I want to wish everyone a happy Middle Autumn Festival and a happy Moon Festival."
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 3244.3,
+          "text": "And try some mooncake."
+        }
+      ]
+    },
+    {
+      "end_sec": 3359.44,
+      "id": "064",
+      "slug": "council-member-hankerson-speaks-on-climate-week-and-equitable-tree-canopy",
+      "start_sec": 3247.1,
+      "summary": "Ty Hankerson discusses Climate Week, the importance of trees and parks for cooling and stormwater management, and the disproportionate heat impacts on Black and brown communities.",
+      "title": "Council Member Hankerson speaks on Climate Week and equitable tree canopy",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3247.1,
+          "text": "Councilmember Hankerson, followed by Narcisse."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 3249.6,
+          "text": "Thank you, Majority Leader."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 3250.9,
+          "text": "This year, Climate Week comes with a heightened sense of urgency, as the United Nations has officially declared that the world will not meet the goals set by the Paris Climate Accord to cap rising temperatures at 1.5 degrees Celsius compared to pre-industrial levels."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 3264.5,
+          "text": "That is precisely why..."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 3266.2,
+          "text": "We need to invest even more heavily in reducing New York's carbon emissions and making our city more climate resilient."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 3273.0,
+          "text": "As Parks Chair, I see investing in our trees, parks, and various green spaces as one critical way that our city addresses a changing climate."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 3280.5,
+          "text": "Our 7 million trees are crucial for keeping our city cool against rising heat."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 3285.4,
+          "text": "During the peak of summer, the temperature under a single tree canopy can be up to 25 degrees cooler than the surrounding street."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 3292.6,
+          "text": "Our trees and parks also play a vital part in helping manage our city's stormwater, something we know all too well in Southeast Queens."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 3300.7,
+          "text": "As sea levels rise and flooding becomes more and more of a risk, our urban forest is a necessary tool for keeping people safe."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 3309.1,
+          "text": "But the reality is that these green assets are not distributed equally across New York."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 3314.9,
+          "text": "As our city continues to get hotter year after year, it will lead to lives being lost disproportionately in black and brown communities, which can be up to 10 degrees hotter due to a historical lack of foliage and green space."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 3329.6,
+          "text": "Black New Yorkers already die of heat stress at double the rate of their white counterparts."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 3335.5,
+          "text": "Without intervention, this number is sure to increase."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 3339.4,
+          "text": "I believe it's the duty of the council to be proactive and do everything within its power to mitigate the worst effects of climate change and to do so equitably."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 3348.0,
+          "text": "By building a greener infrastructure today, we can ensure that a resilient, thriving New York belongs to every single one of us tomorrow."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 3355.9,
+          "text": "Happy Climate Week."
+        }
+      ]
+    },
+    {
+      "end_sec": 3493.54,
+      "id": "065",
+      "slug": "council-member-narcisse-introduces-intro-1091-on-homeowner-violation-notifications",
+      "start_sec": 3359.44,
+      "summary": "Mercedes Narcisse introduces Intro 1091 to require the Department of Buildings to notify homeowners when violations may result in a tax lien, protecting against loss of homes.",
+      "title": "Council Member Narcisse introduces Intro 1091 on homeowner violation notifications",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 3359.44,
+          "text": "Councilmember Narcisse, followed by Maloney."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 3363.14,
+          "text": "Thank you, Mr."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 3364.34,
+          "text": "Chair and Madam Speaker and the Deputy for bringing the package, Nantasha Williams, and I'm part of it."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 3371.54,
+          "text": "Today, I'm proud to introduce Entry 1091 as part of the council package to protect our city's homeowners."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 3380.34,
+          "text": "Too often, we see New Yorkers losing their homes, their lifeline investment, and path to building generational wealth over small little infraction building violations that spiral into"
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 3395.64,
+          "text": "unconscionable death that we cannot control, uncontrollable death."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 3402.24,
+          "text": "Not right and is not okay, like we would say, that these minor issues can lead to the devastating loss of families'most vulnerable assets."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 3413.14,
+          "text": "My bill takes a crucial step by requiring the Department of Building to proactively notify property owners when a violation on their property may result on a tax lien."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 3427.64,
+          "text": "If left unaddressed,"
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 3431.44,
+          "text": "If left unaddressed, by equipping homeowners with this information early, we can help them take corrective action,"
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 3441.34,
+          "text": "connect with resources, and prevent a crisis that threatens their home."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 3447.74,
+          "text": "As the affordability crisis put homeowners further and further out of reach for too many."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 3456.44,
+          "text": "This package of legislation demonstrates our commitment to supporting homeowners and preserving this vital pathway to stability and equity, which is the buzzword for so many."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 3471.34,
+          "text": "But when it comes to black and brown community, we need that equity in New York City and should be our commitment to keep the dream of home ownership alive for a generation of New Yorkers."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 3485.24,
+          "text": "And thank you, Madam Speaker."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 3487.04,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 3487.94,
+          "text": "And I encourage all my colleagues to help me get this through."
+        }
+      ]
+    },
+    {
+      "end_sec": 3569.24,
+      "id": "066",
+      "slug": "council-member-maloney-introduces-bill-on-sexual-assault-prevention-at-large-events",
+      "start_sec": 3493.54,
+      "summary": "Virginia Maloney introduces legislation requiring large events to designate trained personnel and trauma-informed protocols for sexual harassment and assault prevention and response.",
+      "title": "Council Member Maloney introduces bill on sexual assault prevention at large events",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 3493.54,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 3494.04,
+          "text": "Councilmember Maloney, followed by Kavan."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 3497.44,
+          "text": "Thank you, Majority Leader."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 3499.24,
+          "text": "I am introducing legislation to strengthen sexual assault prevention and response at large public events across New York City."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 3508.94,
+          "text": "My bill would require events with more than 1,000 attendees or 500 when alcohol is being served to designate trained personnel"
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 3518.34,
+          "text": "and establish clear trauma-informed protocols to prevent sexual harassment and assault and have a response when an incident occurs."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 3527.94,
+          "text": "If you're bringing thousands of people together for a concert, a festival, or a parade, you need a plan to keep them safe."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 3535.44,
+          "text": "I'm also proud to co-"
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 3537.04,
+          "text": "co-sponsor, Councilmember Chanel Thomas-Henry's resolution number 655, calling on FIFA to show us the million bucks promised for hosting the World Cup."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 3550.14,
+          "text": "Thank you again to Speaker Menon and my council colleagues for funding Bellevue in my district, supporting psychiatric help,"
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 3558.34,
+          "text": "and again welcome New York City Arts and Education Roundtable, including Ian, who is a talented artist attending High School of Art and Design in my district."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 3567.24,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 3668.408,
+      "id": "067",
+      "slug": "council-member-marte-introduces-intro-1070-for-delivery-worker-sick-time",
+      "start_sec": 3569.24,
+      "summary": "Christopher Marte introduces Intro 1070 to provide contracted delivery workers unpaid safe and sick time without risk of punishment, building on previous delivery worker protections.",
+      "title": "Council Member Marte introduces Intro 1070 for delivery worker sick time",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3569.24,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 3569.74,
+          "text": "Councilmember Gawang, followed by Lewis."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 3572.34,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 3573.14,
+          "text": "Each day, thousands of deliveristas move through our streets in heat waves, in storms, in intense city traffic, and they bring us our meals, they keep our city functioning."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 3582.04,
+          "text": "And yet, when a deliverista or their family member gets sick or needs to seek shelter from violence, they face an impossible choice."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 3589.24,
+          "text": "Take the time and be punished by the apps, or keep riding and risk their health and safety."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 3594.84,
+          "text": "That's not a choice any worker in the city should have to make."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 3598.14,
+          "text": "I'm introducing Intro 1070."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 3600.7,
+          "text": "for flexible, safe, and sick time to give contracted delivery workers unpaid time off for their and their family's safety and health without the risk of punishment."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 3610.2,
+          "text": "This council has really led the way on protecting delivery workers, whether it's providing for minimum pay, bathroom access, or the right to be treated with basic dignity."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 3618.8,
+          "text": "And this bill represents a sensible continuation of that approach."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 3622.4,
+          "text": "And it builds on our previous recognition that no worker should have to choose between a paycheck"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 3628.1,
+          "text": "and their health when we passed earned safe and sick time for employees."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 3632.2,
+          "text": "So I urge all of you to join me as sponsor."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 3634.3,
+          "text": "And I also want to recognize that several colleagues and I joined over 400 fellow New Yorkers in a Jewish-led civil disobedience, calling on our government to stop arming Israel amidst its ongoing genocide in Gaza."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 3647.0,
+          "text": "We took this action as Prime Minister Netanyahu, a war criminal wanted by the ICC, speaks at the UN today and is embraced and funded by Trump."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 3655.6,
+          "text": "It is time for elected officials to listen to the vast majority of Americans who demand that our federal government end its support for the Israeli military and fund people, not bombs."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 3665.7,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 3773.708,
+      "id": "068",
+      "slug": "council-member-louis-introduces-bills-to-strengthen-alternative-enforcement-program",
+      "start_sec": 3668.408,
+      "summary": "Farah Louis introduces Intro 1086 to expand the Alternative Enforcement Program to at least 400 distressed buildings yearly and Intro 1085 to increase fees for inspections and uncorrected violations.",
+      "title": "Council Member Louis introduces bills to strengthen Alternative Enforcement Program",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 3668.408,
+          "text": "Councilmember Lewis, followed by Nadineowitz."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3672.008,
+          "text": "Thank you, Majority Leader."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3673.208,
+          "text": "Today I'm introducing two pieces of legislation focused on tenant safety, accountability, and advocacy to make major long-needed improvements to the city's Alternative Enforcement Program, also known as AEP,"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3686.608,
+          "text": "both by expanding its reach and strengthening the consequences for owners who allow distressed buildings to remain poor in poor condition."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3695.508,
+          "text": "Intro 1086 would expand the scope of AEP by requiring HPD to identify at least 400 distressed buildings each year, doubling the current statutory threshold."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3708.208,
+          "text": "Importantly, at least 100 of these buildings must be properties that were previously discharged from the AEP program but have once again fallen into distress."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3719.008,
+          "text": "The second bill, Intro 1085, addresses the other side of the equation, which is accountability."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3724.708,
+          "text": "It would increase fees for inspections, monitoring, and other HPD actions, establishing minimum fees of $1,000 per dwelling unit."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3734.508,
+          "text": "For building-wide inspections and monitoring along with additional fees when violations remain uncorrected."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3741.808,
+          "text": "Together, these bills give the city more tools to identify distressed properties, bring more buildings under enhanced oversight, and create meaningful financial consequences for owners who fail to correct hazardous housing conditions."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3755.808,
+          "text": "I look forward to..."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3756.608,
+          "text": "working with my colleagues, advocates, and the administration to advance these much-needed reforms and strengthen the AEP program as a whole."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3764.008,
+          "text": "Our tenants deserve nothing less than a city government with the tools and enforcement mechanisms necessary to protect them."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3770.308,
+          "text": "I encourage my colleagues to sign on to these bills."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 3772.508,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 3903.172,
+      "id": "069",
+      "slug": "council-member-dinowitz-responds-to-genocide-claims-and-defends-israel",
+      "start_sec": 3773.708,
+      "summary": "Eric Dinowitz responds to earlier comments, disputing claims of genocide, arguing the term is used before and after military action, and defending Israel against what he calls demonizing language.",
+      "title": "Council Member Dinowitz responds to genocide claims and defends Israel",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 3773.708,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 3774.008,
+          "text": "And our last speaker is Councilmember Dinowitz."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 3776.508,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 3777.208,
+          "text": "I just have to say, after hearing some of the comments about visitors to the country, however you feel about those individual visitors,"
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 3787.508,
+          "text": "you know, this word that I keep hearing, this genocide, this claim of genocide, is a claim that was made"
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 3795.108,
+          "text": "before Israel even started retaliating against Hamas after October 7th."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 3804.372,
+          "text": "when they murdered and raped over a thousand people."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 3808.972,
+          "text": "And it's just ridiculous to me that before the retaliation was claims of genocide, after"
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 3819.372,
+          "text": "after a ceasefire, that same word is being used."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 3823.072,
+          "text": "And the problem is, what does it do?"
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 3824.372,
+          "text": "It obscures the actual issues that are going on there, the actual trauma and the actual destruction that is happening in the region."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 3834.472,
+          "text": "You are unable, we are unable to have a real conversation and really address actual policy issues because of the demonizing language that existed before there was any military action and after there is a ceasefire"
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 3849.472,
+          "text": "in place."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 3851.372,
+          "text": "And the demonization causes real harm."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 3854.672,
+          "text": "And it is very specific to one country."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 3858.772,
+          "text": "And the reason we know this, the reason we say we should stop doing any aid to Israel, is because the very same people saying that, out of one side of their mouth,"
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 3874.172,
+          "text": "out of the other side say we should never sanction any country."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 3878.472,
+          "text": "We should never boycott from any country because that will only serve to hurt the citizens and the people who live in that country."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 3885.972,
+          "text": "But there is a special exception made for Israel and it is especially okay apparently to use this"
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 3892.772,
+          "text": "demonizing language without evidence before the war begins and after the ceasefire is in place."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 3901.372,
+          "text": "Thank you, Majority Leader."
+        }
+      ]
+    },
+    {
+      "end_sec": 3924.8,
+      "id": "070",
+      "slug": "speaker-menin-adjourns-stated-meeting",
+      "start_sec": 3903.172,
+      "summary": "Amanda Far\u00edas calls on Speaker Julie Menin, who adjourns the stated meeting of September 24, 2026.",
+      "title": "Speaker Menin adjourns stated meeting",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 3903.172,
+          "text": "I'll now call on Speaker Julie Mann to close today's stated meeting."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 3907.772,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Julie Menin",
+          "t_sec": 3908.372,
+          "text": "The stated meeting of September 24th, 2026 is hereby adjourned."
+        }
+      ]
+    }
+  ],
+  "date": "2026-09-24",
+  "duration_sec": 3924.8,
+  "slug": "2026-09-24-0130-pm-stated-meeting",
+  "summary": [
+    "The New York City Council held a stated meeting on September 24, 2026, beginning with roll call, an invocation by Rabbi Steven Exter, and adoption of minutes.",
+    "Speaker Julie Menin delivered communications on Climate Week, Fair Fares expansion, J-51 tax abatement, Bellevue Hospital funding, and upcoming legislation.",
+    "The Council voted on land use items, finance resolutions, and several bills, then held general discussion where members introduced new legislation on topics including Legionnaires' disease, delivery worker sick time, and 9/11 first responder assistance."
+  ],
+  "tags": [
+    "STATED_MEETING",
+    "VOTE",
+    "LAND_USE"
+  ],
+  "time": "1:30 PM",
+  "title": "Stated Meeting",
+  "topic": "",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://discourse-media.qqlab.io/NYCC-PV-CH-CHA_260924-134843/video-web.mp4"
+  }
+}

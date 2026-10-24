@@ -1,0 +1,413 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 14.2,
+      "id": "001",
+      "slug": "staff-opens-the-committee-on-finance-hearing",
+      "start_sec": 7.2,
+      "summary": "Council staff welcomes attendees to the New York City Council Committee on Finance hearing. The staff announcement identifies the committee and signals the start of proceedings.",
+      "title": "Staff opens the Committee on Finance hearing",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 7.2,
+          "text": "Good morning and welcome to today's New York City Council here."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 10.8,
+          "text": "Vote."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 12.7,
+          "text": "On finance."
+        }
+      ]
+    },
+    {
+      "end_sec": 20.0,
+      "id": "002",
+      "slug": "staff-instructs-attendees-to-silence-devices-and-stay-back-from-desk",
+      "start_sec": 14.2,
+      "summary": "Staff reminds everyone to silence electronic devices and says no one should approach the desk during the hearing. These housekeeping instructions set the room rules before Chair Lee begins.",
+      "title": "Staff instructs attendees to silence devices and stay back from desk",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 14.2,
+          "text": "At this time, I would like to remind everyone to silence all electronic devices."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 17.8,
+          "text": "At this point going forward, no one is to approach the desk."
+        }
+      ]
+    },
+    {
+      "end_sec": 22.9,
+      "id": "003",
+      "slug": "staff-tells-chair-lee-the-committee-is-ready-to-begin",
+      "start_sec": 20.0,
+      "summary": "Staff informs the Chair that the committee is ready to begin. Chair Linda Lee responds, \"Great,\" indicating she will take over the proceeding.",
+      "title": "Staff tells Chair Lee the committee is ready to begin",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 20.0,
+          "text": "Chair, we're ready to begin."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 21.4,
+          "text": "Great."
+        }
+      ]
+    },
+    {
+      "end_sec": 23.9,
+      "id": "004",
+      "slug": "chair-linda-lee-introduces-herself-as-finance-committee-chair",
+      "start_sec": 22.9,
+      "summary": "Chair Linda Lee greets the room and identifies herself as Councilmember Linda Lee, Chair of the Committee on Finance. She opens the hearing in her official capacity.",
+      "title": "Chair Linda Lee introduces herself as Finance Committee chair",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 22.9,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 23.4,
+          "text": "I'm Councilmember Linda Lee, Chair of the Committee on Finance, and I would like to recognize my fellow committee members, Councilmembers Hudson, Brooks Powers, Marano,"
+        }
+      ]
+    },
+    {
+      "end_sec": 42.2,
+      "id": "005",
+      "slug": "chair-lee-recognizes-finance-committee-members-present",
+      "start_sec": 23.4,
+      "summary": "Chair Lee recognizes fellow committee members, naming Councilmembers Hudson, Brooks-Powers, Marano, Marte, Narcisse, Williams, Sanchez, Maloney, Wong, and Abreu. The recognition continues into the next line as she completes the list.",
+      "title": "Chair Lee recognizes Finance Committee members present",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 23.4,
+          "text": "I'm Councilmember Linda Lee, Chair of the Committee on Finance, and I would like to recognize my fellow committee members, Councilmembers Hudson, Brooks Powers, Marano,"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 32.9,
+          "text": "Marte, Narcisse, Williams, Jay Sanchez, Maloney, Wong, and Abreu."
+        }
+      ]
+    },
+    {
+      "end_sec": 50.9,
+      "id": "006",
+      "slug": "chair-lee-announces-preconsidered-transparency-resolution",
+      "start_sec": 42.2,
+      "summary": "Chair Lee states that the committee will consider and vote on a preconsidered transparency resolution sponsored by her. The item concerns new designations and changes for organizations receiving Expense Budget funding.",
+      "title": "Chair Lee announces preconsidered transparency resolution",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 42.2,
+          "text": "At today's hearing, the committee will consider and vote on the following item, a pre-considered transparency resolution sponsored by myself"
+        }
+      ]
+    },
+    {
+      "end_sec": 60.5,
+      "id": "007",
+      "slug": "chair-lee-explains-expense-budget-designation-changes",
+      "start_sec": 50.9,
+      "summary": "Chair Lee describes the resolution as approving new designations and changes in designation of certain organizations to receive funding in the Expense Budget. She briefly stumbles but clarifies the item's purpose.",
+      "title": "Chair Lee explains Expense Budget designation changes",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 50.9,
+          "text": "to approve the new, sorry, that's weird, to approve the new designation and changes in the designation of certain organizations to receive funding in the expense budget."
+        }
+      ]
+    },
+    {
+      "end_sec": 64.4,
+      "id": "008",
+      "slug": "chair-lee-asks-colleagues-for-comments-or-remarks",
+      "start_sec": 60.5,
+      "summary": "Chair Lee asks whether any of her colleagues have comments or remarks on the resolution. The committee waits for member responses before proceeding to the vote.",
+      "title": "Chair Lee asks colleagues for comments or remarks",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 60.5,
+          "text": "Do any of my colleagues have any comments or remarks?"
+        }
+      ]
+    },
+    {
+      "end_sec": 68.8,
+      "id": "009",
+      "slug": "chair-lee-notes-council-member-feliz-has-joined",
+      "start_sec": 64.4,
+      "summary": "Chair Lee announces that Council Member Feliz has joined the committee hearing. She then checks whether members are ready to proceed.",
+      "title": "Chair Lee notes Council Member Feliz has joined",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 64.4,
+          "text": "We've also been joined by Council Member Felice."
+        }
+      ]
+    },
+    {
+      "end_sec": 71.8,
+      "id": "010",
+      "slug": "chair-lee-confirms-no-further-comments-before-vote",
+      "start_sec": 68.8,
+      "summary": "Chair Lee asks if the committee is good, and with no objections, thanks the members. The committee moves toward the roll-call vote.",
+      "title": "Chair Lee confirms no further comments before vote",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 68.8,
+          "text": "No, we're good?"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 70.2,
+          "text": "Okay, thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 86.18,
+      "id": "011",
+      "slug": "chair-lee-directs-clerk-to-call-the-roll",
+      "start_sec": 71.8,
+      "summary": "Chair Lee asks the clerk to call the roll on the preconsidered transparency resolution. The clerk begins recording member votes.",
+      "title": "Chair Lee directs clerk to call the roll",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 71.8,
+          "text": "And I now ask the clerk to call the roll."
+        }
+      ]
+    },
+    {
+      "end_sec": 148.524,
+      "id": "012",
+      "slug": "clerk-records-committee-votes-in-roll-call",
+      "start_sec": 86.18,
+      "summary": "The clerk calls the roll and records ayes from members, including Councilmembers Feliz, Hudson, Marte, Narcisse, Maloney, Sanchez, Wong, Morano, and Chair Lee. The roll call continues through the committee roster.",
+      "title": "Clerk records committee votes in roll call",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 86.18,
+          "text": "I."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 93.38,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 94.78,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 95.88,
+          "text": "Councilmember Felice."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 99.38,
+          "text": "Council member, majority leader, I pray you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 102.28,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 104.28,
+          "text": "Council member of ELS."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 106.78,
+          "text": "Councilmember Hudson."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 108.38,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 110.48,
+          "text": "Councilmember Marte."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 112.58,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 114.18,
+          "text": "Councilmember Mealy."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 117.08,
+          "text": "Councilmember Narcisse."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 119.48,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 121.48,
+          "text": "Councilmember Ressler."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 124.28,
+          "text": "Councilmember Williams."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 126.48,
+          "text": "How about I?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 128.88,
+          "text": "Councilmember Aldable."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 132.124,
+          "text": "Councilmember Maloney."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 134.424,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 136.424,
+          "text": "Councilmember Sanchez."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 138.424,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 140.024,
+          "text": "Councilmember Wong."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 142.524,
+          "text": "I will aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 144.524,
+          "text": "Councilmember Morano."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 145.924,
+          "text": "Aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 161.824,
+      "id": "013",
+      "slug": "clerk-announces-transparency-resolution-is-adopted",
+      "start_sec": 148.524,
+      "summary": "The clerk reports 12 in the affirmative, none in the negative, and no abstentions. The preconsidered transparency resolution is adopted.",
+      "title": "Clerk announces transparency resolution is adopted",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 148.524,
+          "text": "Of 12 in the affirmative, none of the negative, and no abstentions, the item is adopted."
+        }
+      ]
+    },
+    {
+      "end_sec": 1801.813,
+      "id": "014",
+      "slug": "chair-lee-closes-the-vote-and-thanks-members",
+      "start_sec": 161.824,
+      "summary": "Chair Lee says the committee will close the vote and thanks those present. The hearing concludes after the resolution's adoption.",
+      "title": "Chair Lee closes the vote and thanks members",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 161.824,
+          "text": "Okay, and I think with that, we are going to close the vote."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 167.524,
+          "text": "Thank you."
+        }
+      ]
+    }
+  ],
+  "date": "2026-09-24",
+  "duration_sec": 1801.813,
+  "slug": "2026-09-24-1100-am-committee-on-finance",
+  "summary": [
+    "The Committee on Finance held a brief hearing to consider and vote on a preconsidered transparency resolution approving new designations and changes for organizations receiving Expense Budget funding.",
+    "Chair Linda Lee presided, recognized committee members, and noted Council Member Feliz joining before calling for comments; no members offered remarks.",
+    "The clerk called the roll, the committee voted 12-0 in the affirmative with no abstentions, and the item was adopted before Chair Lee closed the vote."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "11:00 AM",
+  "title": "Committee on Finance",
+  "topic": "Approving the new designation and changes in the designation of certain organizations to receive funding in the Expense Budget",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://discourse-media.qqlab.io/NYCC-250-8-1_260924-110956/video-web.mp4"
+  }
+}

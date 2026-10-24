@@ -1,0 +1,413 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 119.588,
+      "id": "001",
+      "slug": "staff-conducts-microphone-check-and-opens-parks-and-recreation-vote",
+      "start_sec": 50.5,
+      "summary": "Council Staff conducts a microphone check, notes the date and recording by Simone Eno, and welcomes attendees to the NYC Council Parks and Recreation committee vote.",
+      "title": "Staff conducts microphone check and opens Parks and Recreation vote",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 50.5,
+          "text": "Hello, good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 53.3,
+          "text": "This is a microphone check for the Committee on Parks and Recreation, recorded in the committee room."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 60.2,
+          "text": "Today's date, October 22, 2026, recorded by Simone Eno."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 96.472,
+          "text": "Hello, good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 100.988,
+          "text": "Welcome to today's committee vote for the"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 111.588,
+          "text": "Good morning and welcome to New York City Council vote on parks and recreation."
+        }
+      ]
+    },
+    {
+      "end_sec": 127.188,
+      "id": "002",
+      "slug": "staff-instructs-attendees-to-silence-devices-and-yields-to-chair",
+      "start_sec": 119.588,
+      "summary": "Staff asks everyone to silence electronic devices and tells the Chair he may begin.",
+      "title": "Staff instructs attendees to silence devices and yields to Chair",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 119.588,
+          "text": "At this time, we're asking everyone to size all electronic devices, and no time, no one should approach the S."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 123.688,
+          "text": "Chair, you may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 132.788,
+      "id": "003",
+      "slug": "chair-hankerson-opens-hearing-and-introduces-himself",
+      "start_sec": 127.188,
+      "summary": "Ty Hankerson identifies himself as Chair of the Committee on Parks and Recreation and thanks attendees.",
+      "title": "Chair Hankerson opens hearing and introduces himself",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 127.188,
+          "text": "Good morning, thank you."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 130.688,
+          "text": "I'm Ty Hankerson, Chair of the Committee on Parks and Recreation."
+        }
+      ]
+    },
+    {
+      "end_sec": 142.188,
+      "id": "004",
+      "slug": "chair-announces-vote-on-intro-927a-after-september-30-hearing",
+      "start_sec": 132.788,
+      "summary": "Hankerson welcomes attendees to the hearing and states they will vote on proposed Intro 927A, which was considered by the committee on September 30, 2026.",
+      "title": "Chair announces vote on Intro 927A after September 30 hearing",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 132.788,
+          "text": "I'd like to welcome all of you to this hearing where we will vote on proposed Intro 927A, which was considered by the committee on September 30th, 2026."
+        }
+      ]
+    },
+    {
+      "end_sec": 152.288,
+      "id": "005",
+      "slug": "chair-describes-renaming-shorefront-parkway-as-edgemere-avenue",
+      "start_sec": 142.188,
+      "summary": "Hankerson explains Intro 927A would rename Shorefront Parkway between Beach 32nd Street and Beach 56th Place as Edgemere Avenue.",
+      "title": "Chair describes renaming Shorefront Parkway as Edgemere Avenue",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 142.188,
+          "text": "Proposed Intro 927A would officially rename Shorefront Parkway between Beach 32nd Street and Beach 56th Place."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 150.688,
+          "text": "As Edgemere Avenue."
+        }
+      ]
+    },
+    {
+      "end_sec": 162.688,
+      "id": "006",
+      "slug": "chair-cites-historical-name-restoration-and-mail-delivery-confusion",
+      "start_sec": 152.288,
+      "summary": "Hankerson says the renaming restores the street's original historical name and resolves years of confusion, especially mail delivery.",
+      "title": "Chair cites historical name restoration and mail delivery confusion",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 152.288,
+          "text": "This would restore the street to its original and historical name and clear up a lot of confusion, specifically relating to mail delivery that has arisen over the years."
+        }
+      ]
+    },
+    {
+      "end_sec": 171.888,
+      "id": "007",
+      "slug": "chair-congratulates-brooks-powers-and-urges-yes-vote-on-intro-927a",
+      "start_sec": 162.688,
+      "summary": "Hankerson congratulates Councilmember Selvena Brooks-Powers for proposing the bill and urges committee colleagues to vote in favor.",
+      "title": "Chair congratulates Brooks-Powers and urges yes vote on Intro 927A",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 162.688,
+          "text": "I'd like to congratulate my colleague, Councilmember Salvina Brooks-Powers,"
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 166.688,
+          "text": "who proposed this piece of legislation, and I urge all of my colleagues on the committee to vote in favor of the bill."
+        }
+      ]
+    },
+    {
+      "end_sec": 175.388,
+      "id": "008",
+      "slug": "chair-turns-roll-call-over-to-committee-clerk",
+      "start_sec": 171.888,
+      "summary": "Hankerson asks the clerk to call the roll on Intro 927A.",
+      "title": "Chair turns roll call over to committee clerk",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 171.888,
+          "text": "Now I'd like to turn it over to the clerk to call the roll."
+        }
+      ]
+    },
+    {
+      "end_sec": 182.788,
+      "id": "009",
+      "slug": "clerk-ben-jacobs-opens-roll-call-on-intro-927a",
+      "start_sec": 175.388,
+      "summary": "Committee Clerk Ben Jacobs identifies himself and announces a roll call vote on Intro 927A.",
+      "title": "Clerk Ben Jacobs opens roll call on Intro 927A",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 175.388,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 175.788,
+          "text": "Ben Jacobs, Committee Clerk, Committee on Parks and Recreation."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 179.188,
+          "text": "Roll call vote on Intro 927A."
+        }
+      ]
+    },
+    {
+      "end_sec": 222.688,
+      "id": "010",
+      "slug": "roll-call-vote-on-intro-927a",
+      "start_sec": 182.788,
+      "summary": "Clerk calls members; Chair Hankerson and members Krishnan, Lee, Marte, Nurse, Sanchez, Ung, Santosuosso, and Morano vote aye or yes.",
+      "title": "Roll call vote on Intro 927A",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 182.788,
+          "text": "Chair Hanks, Hankerson, sorry."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 185.588,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 187.088,
+          "text": "Council Member Christon."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 189.188,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 190.788,
+          "text": "Councilmember Lee."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 193.288,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 194.088,
+          "text": "Sorry, I."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 195.888,
+          "text": "Councilmember Marte."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 197.788,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 199.488,
+          "text": "Councilmember Nurse."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 200.888,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 202.688,
+          "text": "Councilmember Nurse."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 205.488,
+          "text": "That's the member Sanchez."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 210.388,
+          "text": "Council Member Ong."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 211.788,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 213.688,
+          "text": "Council Member Salam."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 216.788,
+          "text": "Councilmember Santos-Hoso."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 218.488,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 220.188,
+          "text": "Councilmember Morano."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 221.288,
+          "text": "Aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 228.688,
+      "id": "011",
+      "slug": "clerk-announces-11-0-vote-and-adoption-of-intro-927a",
+      "start_sec": 222.688,
+      "summary": "Clerk thanks members, reports 11 affirmative votes, none negative, no abstentions, and declares the item adopted.",
+      "title": "Clerk announces 11-0 vote and adoption of Intro 927A",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 222.688,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 223.288,
+          "text": "That is a vote of 11 in the affirmative, none in the negative, and no abstentions."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 226.788,
+          "text": "The item is adopted."
+        }
+      ]
+    },
+    {
+      "end_sec": 256.644,
+      "id": "012",
+      "slug": "chair-hankerson-closes-vote-and-adjourns-meeting",
+      "start_sec": 228.688,
+      "summary": "Hankerson thanks the clerk, closes the vote, and adjourns the hearing.",
+      "title": "Chair Hankerson closes vote and adjourns meeting",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 228.688,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 230.388,
+          "text": "With that, we can close the vote."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 231.488,
+          "text": "We're closing the vote."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 232.688,
+          "text": "It's adjourned."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 233.288,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 281.941,
+      "id": "013",
+      "slug": "staff-comment-after-adjournment",
+      "start_sec": 256.644,
+      "summary": "After adjournment, a Council Staff member remarks, \"Too many things today, man.\"",
+      "title": "Staff comment after adjournment",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 256.644,
+          "text": "Too many things today, man."
+        }
+      ]
+    }
+  ],
+  "date": "2026-10-22",
+  "duration_sec": 281.941,
+  "slug": "2026-10-22-1000-am-committee-on-parks-and-recreation",
+  "summary": [
+    "The Committee on Parks and Recreation held a hearing and vote on Intro 927A to rename Shorefront Parkway between Beach 32nd Street and Beach 56th Place as Edgemere Avenue in Queens.",
+    "Chair Ty Hankerson described the bill as restoring the street's historical name and reducing mail delivery confusion, and congratulated Councilmember Selvena Brooks-Powers for proposing it.",
+    "The committee voted 11-0 to adopt Intro 927A, with no abstentions, and the Chair adjourned the meeting."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE",
+    "LAND_USE"
+  ],
+  "time": "10:00 AM",
+  "title": "Committee on Parks and Recreation",
+  "topic": "Renaming one thoroughfare and public place in the Borough of Queens, Edgemere Avenue, and to amend the official map of the city of New York accordingly",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://discourse-media.qqlab.io/NYCC-PV-CH-COM_261022-Parks/video-web.mp4"
+  }
+}

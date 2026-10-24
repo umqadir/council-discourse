@@ -1,0 +1,667 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 44.084,
+      "id": "001",
+      "slug": "committee-staff-opens-education-committee-vote-and-instructs-attendees-to-silence-devices",
+      "start_sec": 11.6,
+      "summary": "Council staff announces the Committee on Education vote is about to begin, asks attendees to silence electronic devices, and tells them not to approach the dais. Staff then signals Chair Dinowitz that the committee is ready to begin.",
+      "title": "Committee staff opens Education Committee vote and instructs attendees to silence devices",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 11.6,
+          "text": "All right, we'll be starting in a minute."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 26.8,
+          "text": "Good morning and welcome to today's New York City Council vote for the Committee on Education."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 31.1,
+          "text": "At this time, I would like to remind everyone to silence all electronic devices."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 34.7,
+          "text": "Also, at this point going forward, no one is to approach the days."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 38.7,
+          "text": "Chair Dinnowitz, we're ready to begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 61.684,
+      "id": "002",
+      "slug": "chair-dinowitz-convenes-education-committee-and-welcomes-attending-members",
+      "start_sec": 44.084,
+      "summary": "Chair Eric Dinowitz opens the meeting, identifies himself as Chair of the Committee on Education, and welcomes colleagues present. He lists Council Members Gutierrez, Lewis, Zhuang, De La Rosa, Wong, Shulman, and Farias on Zoom.",
+      "title": "Chair Dinowitz convenes Education Committee and welcomes attending members",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 44.084,
+          "text": "Good morning, everyone."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 44.884,
+          "text": "I'm Councilmember Eric Dinowitz, Chair of the Committee on Education."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 49.484,
+          "text": "I'd like to welcome and thank you to my colleagues who are present."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 52.884,
+          "text": "We have Councilmembers Gutierrez, Lewis, Zhuang, De La Rosa, Wong, Shulman, and on Zoom, we have Farias."
+        }
+      ]
+    },
+    {
+      "end_sec": 95.484,
+      "id": "003",
+      "slug": "chair-dinowitz-announces-intro-853-a-and-resolution-650-for-committee-vote",
+      "start_sec": 61.684,
+      "summary": "Dinowitz states the committee is voting on two items: Proposed Introduction 853-A, sponsored by Council Member Zhuang, on social and economic factors affecting special education access, and Resolution 650, sponsored by Council Member Gutierrez, opposing the federal Head Start rule change.",
+      "title": "Chair Dinowitz announces Intro 853-A and Resolution 650 for committee vote",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 61.684,
+          "text": "Today, the committee is voting on two pieces of legislation."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 64.484,
+          "text": "Proposed Introduction No."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 65.684,
+          "text": "853A, sponsored by Councilmember Susan Zhuang, a local law in relation to requiring a study on how social and economic factors affect access to special education programs and services."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 77.384,
+          "text": "And Resolution No."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 78.384,
+          "text": "650, sponsored by Councilmember Jennifer Gutierrez, opposing the federally proposed rule change titled"
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 84.584,
+          "text": "Reducing Federal Burden for Head Start Programs, and calling on the federal government to prioritize protecting and growing access to high-quality education for young children."
+        }
+      ]
+    },
+    {
+      "end_sec": 183.084,
+      "id": "004",
+      "slug": "chair-dinowitz-explains-intro-853-a-special-education-access-study",
+      "start_sec": 95.484,
+      "summary": "Dinowitz details Intro 853-A, which requires DOE to supplement special education reporting with analysis of geographic location, home language, and household income. He notes NYC's large special education system, federal IDEA obligations, a 2023 Comptroller report on missed services, and the bill's requirement to identify barriers and recommend fixes.",
+      "title": "Chair Dinowitz explains Intro 853-A special education access study",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 95.484,
+          "text": "Proposed Introduction No."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 96.784,
+          "text": "853A requires the DOE to supplement existing special education reporting with analysis on how geographic location, home language, and household income affect students'access to special education programs and services."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 110.184,
+          "text": "New York City operates the largest special education system in the United States, with approximately 24.2% of K-12 students in the 2025-2026 school year having been classified as having a disability."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 123.884,
+          "text": "Under federal law, students with disabilities are entitled to a free and appropriate education in the least restrictive environment, as guaranteed."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 132.184,
+          "text": "by the Individuals with Disabilities Education Act."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 135.284,
+          "text": "Yet, a 2023 New York City Comptroller report found that the DOE failed to deliver mandated special education services to thousands of students."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 145.784,
+          "text": "Proposed Introduction 853A aims to enhance DOE's reporting on the delivery of special education services."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 152.784,
+          "text": "So students and families can better understand the impact of social and economic factors on access to those services."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 159.884,
+          "text": "The legislation also requires DUE to identify any barriers to access to special education programs and services and requires DUE to make recommendations on how to address those barriers."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 171.884,
+          "text": "As a council member, but more importantly, as a former special education teacher, I am proud to support this bill as a co-sponsor and want to thank Council Member Zwayne for moving this bill forward."
+        }
+      ]
+    },
+    {
+      "end_sec": 236.884,
+      "id": "005",
+      "slug": "chair-dinowitz-explains-resolution-650-opposing-head-start-rule-change",
+      "start_sec": 183.084,
+      "summary": "Dinowitz describes Resolution 650, which opposes the federal proposed rule 'Reducing Federal Burden for Head Start Programs.' He says the rule would weaken standards, allow larger classes, reduce teacher qualifications, cut health and family supports, and restrict non-English instruction, potentially harming vulnerable children.",
+      "title": "Chair Dinowitz explains Resolution 650 opposing Head Start rule change",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 183.084,
+          "text": "Resolution 650 opposes the federally proposed rule change titled Reducing Federal Burden for Head Start Programs."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 190.884,
+          "text": "The proposed rule change would remove or weaken many of the standards that currently govern Head Start, allowing larger class sizes, reducing teacher qualification requirements,"
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 201.284,
+          "text": "cutting certain health and family support requirements, and restricting instruction in languages other than English."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 206.884,
+          "text": "Research has found that Head Start prepares young children for school,"
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 210.284,
+          "text": "and over time increases educational attainment."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 213.384,
+          "text": "The proposed changes could lower the quality and safety of early childhood education for thousands of New York children, the thousands that could"
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 221.584,
+          "text": "currently benefit from Head Start, especially for vulnerable students by reducing individual attention, specialized support, and access to bilingual learning."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 233.784,
+          "text": "Thank you, Councilmember Gutierrez, for this resolution."
+        }
+      ]
+    },
+    {
+      "end_sec": 260.784,
+      "id": "006",
+      "slug": "chair-dinowitz-thanks-committee-staff-and-turns-to-clerk-for-roll-call",
+      "start_sec": 236.884,
+      "summary": "Dinowitz thanks his staff and Education Committee staff, including counsel and policy analysts, for preparing the vote. He then turns the meeting over to the clerk to conduct the roll call.",
+      "title": "Chair Dinowitz thanks committee staff and turns to clerk for roll call",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 236.884,
+          "text": "I'd like to thank my staff, Theo Solter and Jenna Klaus, and the Education Committee staff, Senior Counsel Alejandro Carvajal, Senior Policy Analyst Chloe Rivera, and Policy Analyst Katie Salina,"
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 248.284,
+          "text": "as well as Principal Financial Analyst Andrew Lane Lawless, Senior Financial Analyst Grace Amato, and Financial Fellow Emily Sosa for preparing today's vote."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 256.684,
+          "text": "I will now turn to the clerk for the roll."
+        }
+      ]
+    },
+    {
+      "end_sec": 324.684,
+      "id": "007",
+      "slug": "clerk-ben-jacobs-conducts-initial-roll-call-on-intro-853-a-and-resolution-650",
+      "start_sec": 260.784,
+      "summary": "Committee Clerk Ben Jacobs begins the roll call on both items. Chair Dinowitz votes aye; Council Members Lewis, Brewer, De La Rosa, Farias, Gutierrez, Joseph, Krishnan, Lee, Narcisse, Shulman, Zhuang, and Wong are called, with Wong voting aye on Intro 853-A and nay on Resolution 650.",
+      "title": "Clerk Ben Jacobs conducts initial roll call on Intro 853-A and Resolution 650",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 260.784,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 261.584,
+          "text": "Ben Jacobs, Committee Clerk, Committee on Education."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 264.684,
+          "text": "Roll call vote on Intro 853A and Resolution 650."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 269.084,
+          "text": "Chair Denowitz."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 269.984,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 272.084,
+          "text": "Councilmember Lewis."
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 274.384,
+          "text": "I don't know."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 276.584,
+          "text": "Councilmember Brewer."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 279.284,
+          "text": "Councilmember De La Rosa."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 280.584,
+          "text": "Aye or no."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 282.084,
+          "text": "Councilmember Farias."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 284.084,
+          "text": "Aye or no."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 285.384,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 286.984,
+          "text": "Councilmember Gutierrez."
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 288.784,
+          "text": "Aye or no."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 290.784,
+          "text": "Councilmember Joseph."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 293.584,
+          "text": "Councilmember Krishnan."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 296.784,
+          "text": "Councilmember Lee."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 299.684,
+          "text": "Councilmember Narcisse."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 302.284,
+          "text": "Councilmember Shulman."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 303.684,
+          "text": "Aye and all."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 305.884,
+          "text": "Council Member Schwang."
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 308.684,
+          "text": "I am all and I want to thank you."
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 310.984,
+          "text": "Cheer to."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 311.584,
+          "text": "For my view."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 312.584,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 314.484,
+          "text": "Councilmember Wong."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 316.684,
+          "text": "Aye to intro 853 and nay on resolution 650."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 320.684,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 424.828,
+      "id": "008",
+      "slug": "initial-tally-shows-8-0-on-intro-853-a-and-7-1-on-resolution-650-vote-held-open",
+      "start_sec": 324.684,
+      "summary": "The clerk reports 8 affirmative, 0 negative on Intro 853-A and 7 affirmative, 1 negative on Resolution 650, with no abstentions. The items are adopted, but staff says the vote will be held open, likely for absent members.",
+      "title": "Initial tally shows 8-0 on Intro 853-A and 7-1 on Resolution 650; vote held open",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 324.684,
+          "text": "Okay, that's a vote of eight in the affirmative, none of the negative, no abstentions on 853A, and seven in the affirmative, one of the negative, and no abstentions on Resolution 650."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 343.184,
+          "text": "The items are adopted."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 345.184,
+          "text": "I'm Zara Dab."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 345.684,
+          "text": "I'd like to congratulate the Councilors Wang and Gutierrez on their bills passing."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 350.784,
+          "text": "Well, we will hold the vote open."
+        }
+      ]
+    },
+    {
+      "end_sec": 528.072,
+      "id": "009",
+      "slug": "roll-call-resumes-for-council-members-lee-and-narcisse",
+      "start_sec": 424.828,
+      "summary": "After the vote is held open, the clerk continues the roll call. Council Member Linda Lee votes aye, and Council Member Mercedes Narcisse also votes aye on the two items.",
+      "title": "Roll call resumes for Council Members Lee and Narcisse",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 424.828,
+          "text": "You're going to, okay."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 426.728,
+          "text": "Continuing the roll call vote on intro 853A and resolution 650, Councilmember Lee."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 432.028,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 432.828,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 510.416,
+          "text": "Quiet, please."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 518.472,
+          "text": "You don't know what I mean."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 519.672,
+          "text": "Quiet, please."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 522.472,
+          "text": "Continuing the roll call vote, Councilmember Narcisse."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 525.872,
+          "text": "A vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 526.772,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 607.412,
+      "id": "010",
+      "slug": "chair-dinowitz-thanks-teachers-and-students-during-extended-vote",
+      "start_sec": 528.072,
+      "summary": "While the roll call remains open, Dinowitz notes the vote started at 9:00 AM and thanks teachers, students, principals, and school aides who arrive much earlier. He acknowledges educators who get to school before 8:00 AM and sometimes around 7:30 AM.",
+      "title": "Chair Dinowitz thanks teachers and students during extended vote",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 528.072,
+          "text": "I just, we're still rolling, right?"
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 529.472,
+          "text": "We're still rolling."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 530.172,
+          "text": "I just want to, if anyone's watching this vote, and to all my friends and colleagues, I want to note our vote started at 9, and I want to thank all the teachers and students out there who started their day at 8 o'clock,"
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 543.672,
+          "text": "which means they got to school long before 8 o'clock."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 547.072,
+          "text": "I know many teachers out there get in school 7.37 o'clock."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 549.972,
+          "text": "So thank you to all the teachers and principals, school aides in Paris, who get to school nice and early, maybe two hours before we start our earliest vote."
+        }
+      ]
+    },
+    {
+      "end_sec": 622.232,
+      "id": "011",
+      "slug": "clerk-continues-roll-call-with-council-member-krishnan",
+      "start_sec": 607.412,
+      "summary": "Council Member Shekar Krishnan asks if the meeting is still rolling, and the clerk continues the roll call. Krishnan votes aye and thanks the Chair.",
+      "title": "Clerk continues roll call with Council Member Krishnan",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 607.412,
+          "text": "Are we rolling?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 608.512,
+          "text": "Continuing the roll call vote in Troy 53A and Resolution 650, Councilmember Krishnan."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 613.112,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 613.612,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 614.112,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 616.012,
+          "text": "Thank you so much for finally joining us."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 618.512,
+          "text": "Appreciate it."
+        }
+      ]
+    },
+    {
+      "end_sec": 661.432,
+      "id": "012",
+      "slug": "final-tally-adopts-intro-853-a-11-0-and-resolution-650-10-1",
+      "start_sec": 622.232,
+      "summary": "The clerk announces final results: Intro 853-A passes 11 affirmative, 0 negative, no abstentions; Resolution 650 passes 10 affirmative, 1 negative, no abstentions. Both items are adopted.",
+      "title": "Final tally adopts Intro 853-A 11-0 and Resolution 650 10-1",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 622.232,
+          "text": "All right, we're going to."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 639.432,
+          "text": "Quiet, please."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 641.432,
+          "text": "It's a vote on Intro 853A of 11 in the affirmative, none of the negative, no abstentions, and on Resolution 650, 10 in the affirmative, 1 in the negative, no abstentions."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 654.732,
+          "text": "Both items are adopted."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 655.632,
+          "text": "You didn't make the sense."
+        }
+      ]
+    },
+    {
+      "end_sec": 671.53,
+      "id": "013",
+      "slug": "chair-dinowitz-adjourns-the-education-committee-vote",
+      "start_sec": 661.432,
+      "summary": "Chair Dinowitz thanks the committee and declares the vote adjourned.",
+      "title": "Chair Dinowitz adjourns the Education Committee vote",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 661.432,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 662.332,
+          "text": "This vote is adjourned."
+        }
+      ]
+    }
+  ],
+  "date": "2026-10-22",
+  "duration_sec": 671.53,
+  "slug": "2026-10-22-0900-am-committee-on-education",
+  "summary": [
+    "The Committee on Education met to vote on Intro 853-A, a special education access study bill, and Resolution 650 opposing the federal Head Start rule change.",
+    "Chair Eric Dinowitz explained both items, then the clerk conducted a roll call that was held open for late-arriving members.",
+    "Intro 853-A passed 11-0 and Resolution 650 passed 10-1, with Council Member Phil Wong voting nay on the resolution; the meeting adjourned."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "9:00 AM",
+  "title": "Committee on Education",
+  "topic": "Requiring a study on how social and economic factors affect access to special education programs and services",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://discourse-media.qqlab.io/NYCC-PV-CH-CHA_261022-Education/video-web.mp4"
+  }
+}

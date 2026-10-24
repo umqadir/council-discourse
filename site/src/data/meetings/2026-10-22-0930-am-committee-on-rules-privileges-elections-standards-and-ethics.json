@@ -1,0 +1,771 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 63.068,
+      "id": "001",
+      "slug": "council-staff-opens-the-rules-committee-meeting-and-asks-attendees-to-silence-devices",
+      "start_sec": 46.4,
+      "summary": "Council staff welcomes attendees to the New York City Council Committee on Rules, Privileges, Elections, Standards and Ethics and asks everyone to sign off or silence electronic devices. Staff confirms the chair is ready and hands the meeting over to begin.",
+      "title": "Council staff opens the Rules Committee meeting and asks attendees to silence devices",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 46.4,
+          "text": "Good morning and welcome to the New York City Council votes on committee on rules, privileges, elections, standards, and ethics."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 53.8,
+          "text": "At this time, please sign on all electronic devices."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 56.2,
+          "text": "Moving forward, knowing this approach to the days."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 58.6,
+          "text": "Chair, we're ready to begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 70.668,
+      "id": "002",
+      "slug": "chair-sandra-ung-convenes-the-committee-and-introduces-herself",
+      "start_sec": 63.068,
+      "summary": "Council Member Sandra Ung welcomes attendees to the meeting of the Committee on Rules, Privileges, Elections, Standards and Ethics and identifies herself as the committee chair.",
+      "title": "Chair Sandra Ung convenes the committee and introduces herself",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 63.068,
+          "text": "Good morning and welcome to this meeting of the Committee on Rules, Pre-Religious Elections, Standard Ethics."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 68.168,
+          "text": "I am Council Member Sandra Ong, Chair of the Committee."
+        }
+      ]
+    },
+    {
+      "end_sec": 79.768,
+      "id": "003",
+      "slug": "chair-ung-recognizes-committee-members-present",
+      "start_sec": 70.668,
+      "summary": "Chair Ung recognizes the committee members in attendance, naming Council Member Krishnan, Council Member Lee, Council Member Encarnaci\u00f3n, and Minority Leader David Carr.",
+      "title": "Chair Ung recognizes committee members present",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 70.668,
+          "text": "Before we begin, I would like to recognize the other members of this committee who are present."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 74.968,
+          "text": "Council Member Krishnan, Lee Akanasion, and Minority Leader David Carr."
+        }
+      ]
+    },
+    {
+      "end_sec": 99.468,
+      "id": "004",
+      "slug": "chair-ung-acknowledges-committee-counsel-and-public-integrity-unit-staff",
+      "start_sec": 79.768,
+      "summary": "Chair Ung thanks Council to the Committee Amanda DeGrosso and the staff who prepared the hearing, including Chief Ethics Counsel and Public Integrity Unit Director Pearl Moore, Deputy Director Alicia Vassell, and additional attorneys in the Office of the General Counsel.",
+      "title": "Chair Ung acknowledges committee counsel and Public Integrity Unit staff",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 79.768,
+          "text": "I would also like to acknowledge the Council to the Committee, Amanda DeGrosso, and the committee staff that worked on today's hearing."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 86.668,
+          "text": "Chief Ethics Counsel and Director of Public Integrity Unit, Pearl Moore, Deputy Director of Public Integrity Unit, Alicia Vassell, and the additional attorneys in the Office of the General Counsel who helped to prepare this hearing."
+        }
+      ]
+    },
+    {
+      "end_sec": 115.368,
+      "id": "005",
+      "slug": "chair-ung-describes-the-bronx-democratic-county-committee-certification-for-marricka-scott-mcfad",
+      "start_sec": 99.468,
+      "summary": "Chair Ung explains that by letter dated September 29, 2026, the Bronx Democratic County Committee submitted to the Council and the City Clerk a certification recommending Marricka Scott-McFadden for appointment as Commissioner of the Board of Elections.",
+      "title": "Chair Ung describes the Bronx Democratic County Committee certification for Marricka Scott-McFadden",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 99.468,
+          "text": "By the letter dated September 29, 2026, the Bronx Democratic County Committee submitted to the Council,"
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 106.668,
+          "text": "Vietis City Clerk, a certification that Marika Scott McFadden is recommended for appointment by the Council as the Commissioner of the Board of Elections."
+        }
+      ]
+    },
+    {
+      "end_sec": 124.168,
+      "id": "006",
+      "slug": "chair-ung-announces-the-vote-on-the-scott-mcfadden-appointment-resolution",
+      "start_sec": 115.368,
+      "summary": "Chair Ung states that the committee will vote on the resolution approving the recommendation of Marricka Scott-McFadden for appointment by the Council as Commissioner of the Board of Elections.",
+      "title": "Chair Ung announces the vote on the Scott-McFadden appointment resolution",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 115.368,
+          "text": "Today, we will vote on the resolution approving the recommendations of Marika Scott McFadden for the appointment by the Council as the Commissioner of the Board of Elections."
+        }
+      ]
+    },
+    {
+      "end_sec": 128.216,
+      "id": "007",
+      "slug": "chair-ung-directs-the-clerk-to-call-the-roll",
+      "start_sec": 124.168,
+      "summary": "Chair Ung asks the committee clerk to call the roll for the vote on the Board of Elections commissioner appointment.",
+      "title": "Chair Ung directs the clerk to call the roll",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 124.168,
+          "text": "Clerk, please call the roll."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 127.416,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 127.716,
+          "text": "Good morning."
+        }
+      ]
+    },
+    {
+      "end_sec": 154.416,
+      "id": "008",
+      "slug": "clerk-william-martin-opens-the-roll-call-ung-krishnan-and-lee-vote-aye",
+      "start_sec": 128.216,
+      "summary": "Committee clerk William Martin opens the roll call vote. Chair Ung votes aye, Council Member Krishnan votes aye, and Council Member Lee votes aye, with no response recorded for Council Member Riley.",
+      "title": "Clerk William Martin opens the roll call; Ung, Krishnan and Lee vote aye",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 128.216,
+          "text": "William Martin, committee clerk, roll call vote, committee on rules, privileges, elections, standards, and ethics."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 134.716,
+          "text": "Chair Ung."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 135.816,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 137.716,
+          "text": "Riley."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 143.016,
+          "text": "Krishnan."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 145.116,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 146.416,
+          "text": "Lee."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 147.216,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 148.716,
+          "text": "Williams."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 151.516,
+          "text": "Banks."
+        }
+      ]
+    },
+    {
+      "end_sec": 160.016,
+      "id": "009",
+      "slug": "encarnaci-n-and-carr-add-aye-votes-as-the-clerk-continues-the-roll",
+      "start_sec": 154.416,
+      "summary": "The clerk continues the roll call, with Council Member Encarnaci\u00f3n voting aye and Minority Leader David Carr voting aye. No responses are recorded for Council Members Williams or Banks at this stage.",
+      "title": "Encarnaci\u00f3n and Carr add aye votes as the clerk continues the roll",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 154.416,
+          "text": "Encarnacion."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 156.016,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 157.616,
+          "text": "Carr."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 158.416,
+          "text": "Aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 169.752,
+      "id": "010",
+      "slug": "committee-records-five-affirmative-votes-and-holds-the-roll-open",
+      "start_sec": 160.016,
+      "summary": "Clerk William Martin reports five votes in the affirmative, zero in the negative, and no abstentions, announcing the item is approved by committee. At the chair's request, the roll is held open for absent members.",
+      "title": "Committee records five affirmative votes and holds the roll open",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 160.016,
+          "text": "With a vote of five in the affirmative, zero in the negative, and no abstentions, our item has been approved by the committee, and the roll will be held open at request of the chair."
+        }
+      ]
+    },
+    {
+      "end_sec": 434.952,
+      "id": "011",
+      "slug": "committee-pauses-while-members-attend-other-committee-votes",
+      "start_sec": 169.752,
+      "summary": "With the roll held open, staff confirm no members are online and the room shifts to informal discussion. Council Member Linda Lee notes she also has Parks and Finance committee business and coordinates holding her other votes open while the Rules roll remains open.",
+      "title": "Committee pauses while members attend other committee votes",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 169.752,
+          "text": "Nobody's online, right?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 170.952,
+          "text": "No."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 171.652,
+          "text": "You're free to go."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 175.452,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 178.852,
+          "text": "Anyway, so."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 182.052,
+          "text": "I have parks and finance, actually, my committee."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 185.852,
+          "text": "I don't know how parks..."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 192.252,
+          "text": "Actually, mine's in the chambers."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 196.352,
+          "text": "Yeah, I have to sometimes do both."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 221.888,
+          "text": "Can you hold parks open for me after I do my vote?"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 224.188,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 230.188,
+          "text": "Well, unless I'm running late."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 232.788,
+          "text": "I'll do here first."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 234.488,
+          "text": "Yeah, who has more?"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 235.188,
+          "text": "Yeah."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 239.756,
+          "text": "Wow, now we have 30 minutes."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 242.356,
+          "text": "I went to 250."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 285.584,
+          "text": "Oh, yeah, yeah."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 288.084,
+          "text": "What time is she has a vote too, right?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 326.084,
+          "text": "Don't fall early."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 327.284,
+          "text": "I'm really early."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 331.936,
+          "text": "You were just leading to the first one."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 351.236,
+          "text": "Actually, I don't think, all the controversial votes, I don't think I'm a target."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 360.836,
+          "text": "They get us mixed up all the time, too."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 362.736,
+          "text": "They mix up me and Sandra."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 367.956,
+          "text": "But I think between you, me, and Julie Wan, they mix me up a lot."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 371.456,
+          "text": "The funny part is when they mix me up for Susan, because I'm like, she's so much better than I am."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 375.756,
+          "text": "Like, I don't know how you can mix her up."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 389.656,
+          "text": "Yeah, yeah, yeah."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 396.456,
+          "text": "Temporary."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 397.056,
+          "text": "You know, you've got to remind people."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 399.056,
+          "text": "Yeah, you're temporary."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 400.456,
+          "text": "We're all temporary."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 401.156,
+          "text": "We're all temporary."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 402.556,
+          "text": "There are layers to that one."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 405.656,
+          "text": "Everything was funny."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 406.356,
+          "text": "I've got to think about this one."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 407.556,
+          "text": "Wait a minute."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 412.356,
+          "text": "I've got to switch it up."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 413.556,
+          "text": "I'm glad I was asked to do that one and not this one, though."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 417.056,
+          "text": "Yeah, this one would be bad."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 418.356,
+          "text": "Yeah."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 422.352,
+          "text": "Everything's here today, apparently."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 425.352,
+          "text": "Yeah, all the votes are here."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 427.652,
+          "text": "Boys, we're good?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 429.452,
+          "text": "We're good?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 429.952,
+          "text": "We're rolling?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 433.952,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 1554.236,
+      "id": "012",
+      "slug": "continuation-roll-call-records-council-member-abreu-tally-reaches-six",
+      "start_sec": 434.952,
+      "summary": "Clerk William Martin resumes the continuation roll call for the Committee on Rules and records Council Member Abreu, bringing the vote to six in the affirmative with the roll still open.",
+      "title": "Continuation roll call records Council Member Abreu, tally reaches six",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 434.952,
+          "text": "Continuation roll call, committee and rules, Council Member Abreu."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 439.852,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 440.252,
+          "text": "Vote is currently at six and still open."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 468.452,
+          "text": "Yeah, just scooch over a little bit and then make room for Ty, you know?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 780.08,
+          "text": "Okay."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 780.48,
+          "text": "I might finance both."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 781.58,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 784.08,
+          "text": "Mark, is that 10?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 785.18,
+          "text": "Yeah, they're both at 10."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 786.808,
+          "text": "So whichever has form first, I'll just..."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 813.308,
+          "text": "Everyone's saying that."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 814.508,
+          "text": "But it's only because I was 25 minutes late to education."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 817.008,
+          "text": "That's all."
+        }
+      ]
+    },
+    {
+      "end_sec": 1564.636,
+      "id": "013",
+      "slug": "council-member-banks-votes-aye-tally-rises-to-seven",
+      "start_sec": 1554.236,
+      "summary": "After a long pause, the clerk continues the roll call and Council Member Chris Banks votes aye. The clerk reports a final vote of seven in the affirmative, zero in the negative, and no abstentions, with the item approved by committee.",
+      "title": "Council Member Banks votes aye, tally rises to seven",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 1554.236,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 1554.636,
+          "text": "Continuation roll call."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 1555.536,
+          "text": "Committee on Rules."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 1556.336,
+          "text": "Council Member Banks."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 1557.936,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 1558.836,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 1559.336,
+          "text": "Final vote is seven in the affirmative, zero in the negative, and no abstentions."
+        }
+      ]
+    },
+    {
+      "end_sec": 2569.592,
+      "id": "014",
+      "slug": "clerk-corrects-the-record-the-roll-remains-open",
+      "start_sec": 1564.636,
+      "summary": "Clerk William Martin corrects his earlier statement, clarifying that the roll call is still open and the committee is awaiting remaining members. The meeting then sits in recess for roughly twenty minutes.",
+      "title": "Clerk corrects the record: the roll remains open",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 1564.636,
+          "text": "Item is approved by committee."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 1582.136,
+          "text": "Correction, we're still open."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 2566.492,
+          "text": "Hey, how's it going?"
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 2568.192,
+          "text": "I'm all right."
+        }
+      ]
+    },
+    {
+      "end_sec": 2893.648,
+      "id": "015",
+      "slug": "council-member-nantasha-williams-arrives-and-votes-aye",
+      "start_sec": 2569.592,
+      "summary": "After the extended recess, Council Member Nantasha M. Williams votes aye. The clerk formally records her vote in the continuation roll call for the Committee on Rules.",
+      "title": "Council Member Nantasha Williams arrives and votes aye",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 2569.592,
+          "text": "I'll be right back."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 2859.652,
+          "text": "I vote aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 2904.572,
+      "id": "016",
+      "slug": "final-tally-of-eight-affirmative-votes-approves-the-scott-mcfadden-appointment",
+      "start_sec": 2893.648,
+      "summary": "Clerk William Martin announces the final vote of the Committee on Rules: eight in the affirmative, zero in the negative, and no abstentions. The resolution approving Marricka Scott-McFadden as Commissioner of the Board of Elections is approved by committee.",
+      "title": "Final tally of eight affirmative votes approves the Scott-McFadden appointment",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 2893.648,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 2896.448,
+          "text": "Continuation roll call, committee on rules, council member Williams."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 2900.148,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 2900.948,
+          "text": "Thank you so much, chair."
+        }
+      ]
+    },
+    {
+      "end_sec": 2952.64,
+      "id": "017",
+      "slug": "chair-ung-adjourns-the-meeting",
+      "start_sec": 2904.572,
+      "summary": "With the vote complete, Chair Sandra Ung closes the meeting and adjourns the Committee on Rules, Privileges, Elections, Standards and Ethics hearing.",
+      "title": "Chair Ung adjourns the meeting",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 2904.572,
+          "text": "Final vote, Committee on Rules is, excuse me, eight in the affirmative, zero in the negative, no abstentions."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 2911.872,
+          "text": "Chair Ong to close."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 2919.472,
+          "text": "The meeting is hereby adjourned."
+        }
+      ]
+    }
+  ],
+  "date": "2026-10-22",
+  "duration_sec": 2952.64,
+  "slug": "2026-10-22-0930-am-committee-on-rules-privileges-elections-standards-and-ethics",
+  "summary": [
+    "The Committee on Rules, Privileges, Elections, Standards and Ethics convened a brief hearing to vote on the Bronx Democratic County Committee's recommendation of Marricka Scott-McFadden as Commissioner of the Board of Elections.",
+    "Chair Sandra Ung opened the meeting, recognized members and staff, and described the September 29, 2026 certification from the Bronx County Democratic Committee.",
+    "The roll call was held open for roughly 45 minutes as members attended other committee votes, ending with an 8-0 affirmative vote approving the appointment before Chair Ung adjourned."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "9:30 AM",
+  "title": "Committee on Rules, Privileges, Elections, Standards and Ethics",
+  "topic": "Marricka Scott-McFadden - Democratic Elections Commissioner for Bronx County",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://discourse-media.qqlab.io/NYCC-PV-CH-COM_261022-Rules/video-web.mp4"
+  }
+}

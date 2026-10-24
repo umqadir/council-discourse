@@ -1,0 +1,891 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 225.176,
+      "id": "001",
+      "slug": "staff-arrange-dais-and-check-member-placards-before-copa-vote",
+      "start_sec": 37.86,
+      "summary": "Council staff sort name placards and confirm seating for members, including references to 'Zwayne'/'Wayne' and Hassan, before the hearing begins. No substantive committee business occurs in this pre-meeting setup.",
+      "title": "Staff arrange dais and check member placards before COPA vote",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 37.86,
+          "text": "It has to go outside."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 44.86,
+          "text": "Don't get me in trouble."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 63.26,
+          "text": "He's probably in this pile, I think."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 71.16,
+          "text": "Oh, yeah, I put them all away."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 74.136,
+          "text": "Oh, you got Zwayne?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 76.936,
+          "text": "That's Wayne."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 81.836,
+          "text": "Has sent you?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 85.636,
+          "text": "Hassan, Hassan, Hassan, Hassan."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 112.736,
+          "text": "Let me double check."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 115.736,
+          "text": "Yeah, that's it."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 116.136,
+          "text": "That's it."
+        }
+      ]
+    },
+    {
+      "end_sec": 251.036,
+      "id": "002",
+      "slug": "committee-staff-open-copa-vote-and-announce-dais-rules",
+      "start_sec": 225.176,
+      "summary": "Staff welcome attendees to the New York City Council Committee on Housing and Buildings vote, ask that electronic devices be silenced, and bar the public from approaching the front dais. The chair then thanks the sergeants before proceeding.",
+      "title": "Committee staff open COPA vote and announce dais rules",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 225.176,
+          "text": "Good morning and welcome to today's New York City Council vote for the Committee on Housing and Buildings."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 230.076,
+          "text": "Ladies and gentlemen, at this time, we please ask that you silence all electronic devices."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 234.576,
+          "text": "Moving forward, no one is to approach the front dais chair."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 237.676,
+          "text": "You may begin."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 247.136,
+          "text": "Thank you, sergeants."
+        }
+      ]
+    },
+    {
+      "end_sec": 278.496,
+      "id": "003",
+      "slug": "chair-sanchez-opens-vote-on-copa-intro-905-a",
+      "start_sec": 251.036,
+      "summary": "Councilmember Pierina Sanchez identifies herself as chair and announces the committee will vote on Proposed Intro 905-A, the Community Opportunity to Purchase Act. She notes the bill is sponsored by Councilmember Sandy Nurse and concerns qualified entities' first opportunity to submit a statement of interest and purchase certain properties.",
+      "title": "Chair Sanchez opens vote on COPA Intro 905-A",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 251.036,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 251.836,
+          "text": "I'm Councilmember Pierina Sanchez, Chair of the Committee on Housing and Buildings."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 255.736,
+          "text": "Today, the committee will be voting on Proposed Intro 905A, the Community Opportunity to Purchase Act, sponsored by Councilmember Sandy Nurse, in relation to giving qualified entities a first opportunity to submit a statement of interest."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 274.996,
+          "text": "And the first opportunity to purchase certain properties."
+        }
+      ]
+    },
+    {
+      "end_sec": 307.696,
+      "id": "004",
+      "slug": "sanchez-frames-copa-as-response-to-deteriorating-housing-stock",
+      "start_sec": 278.496,
+      "summary": "Sanchez says New York City faces a profound housing crisis beyond the need to build more, pointing to failing infrastructure, dangerous conditions, and buildings trapped in speculation, disinvestment, and neglect. She argues the city cannot build its way out while existing affordable housing falls apart.",
+      "title": "Sanchez frames COPA as response to deteriorating housing stock",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 278.496,
+          "text": "New York City is in a profound housing crisis, and while we rightly talk about our desperate need to build more, we cannot ignore another crisis that is unfolding inside the homes we already have, the deterioration of our existing housing stock."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 292.796,
+          "text": "Across our city, tenants are living with failing infrastructure, dangerous conditions, and buildings caught in cycles of speculation, disinvestment, and neglect."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 301.496,
+          "text": "Our city cannot build our way out of this crisis while allowing the affordable housing that we already have to fall apart."
+        }
+      ]
+    },
+    {
+      "end_sec": 392.196,
+      "id": "005",
+      "slug": "sanchez-explains-copa-notice-offer-and-match-process",
+      "start_sec": 307.696,
+      "summary": "Sanchez describes COPA as a tool to interrupt speculative cycles by giving mission-driven organizations a chance when buildings change hands. She explains that covered 4-to-100-unit buildings with HPD affordability agreements or physical distress would require owners to notify qualified entities, allow offers, and let a qualified entity match later private offers.",
+      "title": "Sanchez explains COPA notice, offer, and match process",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 307.696,
+          "text": "And that's why today's vote is so exciting, because with COPA, New York City gains a new tool to interrupt those cycles and put buildings on a path toward long-term stability and responsible ownership."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 318.596,
+          "text": "Championed by Councilmember Sandy Nurse and heard by this committee several times, COPA recognizes that the moment a building changes hands is a critical opportunity to change its future"
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 329.696,
+          "text": "by giving mission-driven organizations a meaningful chance to acquire the buildings and chart a different, non-speculative future for families who live there."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 338.796,
+          "text": "905 would require that if owners of a select group of multifamily residential buildings decide to sell those properties, they must offer these buildings to select nonprofits"
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 349.796,
+          "text": "called qualified entities before they can complete the sale of those buildings to a private party."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 355.196,
+          "text": "COPA would include buildings with between 4 and 100 units that either have"
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 360.196,
+          "text": "affordability agreements managed by HPD or have a baseline level of physical distress."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 366.496,
+          "text": "HPD would manage a list of qualified entities who are experienced operators of residential buildings and owners of covered buildings would be required first to notify these entities before they complete a sale,"
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 376.896,
+          "text": "then to give those entities a period of time to make an offer to purchase the building."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 382.196,
+          "text": "If the building owner rejects any offers from a qualified entity, that qualified entity would be given the opportunity to match any offers that the owner later receives from private sellers."
+        }
+      ]
+    },
+    {
+      "end_sec": 465.796,
+      "id": "006",
+      "slug": "sanchez-cites-san-francisco-model-and-nonprofit-financing-barriers",
+      "start_sec": 392.196,
+      "summary": "Sanchez says COPA is inspired by a San Francisco program that helped prevent displacement of thousands of tenants. She argues nonprofits need time to assemble financing and can better maintain lower rents, especially as affordability agreements expire and vacancy rates for low-rent apartments are extremely low.",
+      "title": "Sanchez cites San Francisco model and nonprofit financing barriers",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 392.196,
+          "text": "This program is inspired by a similar program in San Francisco that has helped prevent the displacement of thousands of tenants."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 399.296,
+          "text": "It would help mission-oriented nonprofits compete with speculative investors to acquire housing and enable them to maintain the city's affordable housing stock."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 409.696,
+          "text": "Tens of thousands of regulatory agreements requiring developers to maintain affordable rents in New York expire every year."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 415.396,
+          "text": "The vacancy rate for apartments with rents below $1,100 is estimated at just 0.39%."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 422.796,
+          "text": "It is below 1% for apartments with rents under $1,649."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 430.896,
+          "text": "The city doesn't have enough affordable housing to spare, and we must do what we can to keep those affordability agreements alive."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 438.896,
+          "text": "Nonprofits have been shown to be more effective at maintaining lower rents, but they can't give legitimate offers to purchase property at the same rate as speculative investors."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 448.296,
+          "text": "They rely too heavily on a bundle of..."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 450.196,
+          "text": "financing from across many sources."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 453.196,
+          "text": "COPA would give these nonprofits the time they need to purchase residential buildings, preventing the displacement of tenants that call those buildings their home, and enabling these nonprofits to maintain New York's affordable housing stock."
+        }
+      ]
+    },
+    {
+      "end_sec": 495.796,
+      "id": "007",
+      "slug": "sanchez-thanks-nurse-and-copa-coalition-before-inviting-sponsor",
+      "start_sec": 465.796,
+      "summary": "Sanchez recognizes Councilmember Sandy Nurse for pouring labor, political capital, and patience into the legislation. She also credits the COPA Coalition, led by the New Economy Project and including tenant leaders, before inviting Nurse to discuss her bill.",
+      "title": "Sanchez thanks Nurse and COPA Coalition before inviting sponsor",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 465.796,
+          "text": "I want to especially recognize Councilmember Sandy Nurse, who's poured so much labor, political capital, and patience."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 472.396,
+          "text": "Girl."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 473.596,
+          "text": "Into getting this legislation across the finish line."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 475.996,
+          "text": "And I also want to recognize the tireless advocacy of the COPA Coalition, led by the New Economy Project, nicely, including so many organizations and tenant leaders, shout out to our Bronx from my neck of the woods, who have been fighting for this legislation."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 491.296,
+          "text": "I'd like to invite Councilmember Nurse now to discuss her bill."
+        }
+      ]
+    },
+    {
+      "end_sec": 533.296,
+      "id": "008",
+      "slug": "nurse-recounts-six-year-copa-fight-and-revised-bill",
+      "start_sec": 495.796,
+      "summary": "Nurse thanks Chair Sanchez and says the vote ends a six-year saga involving three mayors, four introductions, three hearings, a passage and veto, and intense real estate lobbying. She says the committee is voting on the most strategic and operationally sound version, crediting the COPA Coalition and colleagues' input.",
+      "title": "Nurse recounts six-year COPA fight and revised bill",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 495.796,
+          "text": "Thank you, Chair Sanchez."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 497.996,
+          "text": "Colleagues, today we are going to end the six-year saga of the Community Opportunity to Purchase Act here in the Council."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 505.796,
+          "text": "Three mayors, four introductions, three hearings, a passage and a veto, a really intense lobbying effort by the real estate industry, all of it."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 516.796,
+          "text": "Comes down to today's vote."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 518.796,
+          "text": "We are voting on the most strategic, most operationally sound version of this bill, thanks to the relentless campaign of the COPA Coalition and also to the invaluable input of many of my colleagues here."
+        }
+      ]
+    },
+    {
+      "end_sec": 586.596,
+      "id": "009",
+      "slug": "nurse-presents-copa-as-anti-displacement-and-preservation-tool",
+      "start_sec": 533.296,
+      "summary": "Nurse says COPA lets trusted housing providers buy certain buildings, work with tenants, fix units, and keep the same tenants at permanently affordable rates. She argues building alone cannot solve the crisis, cites New Yorkers planning to leave over cost, and says COPA gives community-oriented buyers public oversight.",
+      "title": "Nurse presents COPA as anti-displacement and preservation tool",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 533.296,
+          "text": "COPA lets trusted housing providers by certain buildings work with tenants,"
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 537.996,
+          "text": "fix these units up, and put those"
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 540.096,
+          "text": "same tenants back in those units at permanently affordable rates."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 545.296,
+          "text": "It is a critical anti-displacement tool."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 548.396,
+          "text": "And as one in five New Yorkers say they plan to leave within five years because it costs too damn much to stay, we can offer a chance."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 557.996,
+          "text": "We can't only build our way out of this crisis."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 560.896,
+          "text": "If we are serious about stopping displacement, buying and preserving some of the existing housing stock has to be a priority."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 568.396,
+          "text": "And that's what COPA does."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 570.096,
+          "text": "When a building is at risk, the people who live there and the surrounding community can get a real chance to fight for it."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 577.196,
+          "text": "It gives eligible landlords a pool of community-oriented buyers who know this work and know how to do it, and it brings these buildings under public oversight."
+        }
+      ]
+    },
+    {
+      "end_sec": 645.396,
+      "id": "010",
+      "slug": "nurse-thanks-community-land-initiative-and-colleagues-asks-for-vote",
+      "start_sec": 586.596,
+      "summary": "Nurse promises a longer list of thanks later but singles out the New York City Community Land Initiative for disciplined, collaborative work that persisted through roadblocks and a veto. She thanks Progressive Caucus allies and members who opposed the bill for hearing her out, then asks for an aye vote.",
+      "title": "Nurse thanks Community Land Initiative and colleagues, asks for vote",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 586.596,
+          "text": "There are a ton of groups to name and thank."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 589.396,
+          "text": "I'll do all of that later to the annoyance of the majority leader."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 594.096,
+          "text": "But the New York City Community Land Initiative has really, really done so much work here."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 599.596,
+          "text": "And I'm just so impressed with how disciplined and unrelenting they have been, how collaborative they've been."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 606.496,
+          "text": "And they haven't let any roadblocks, vetoes, or setbacks to stop them."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 611.196,
+          "text": "And I just really want to thank my colleagues who championed this bill, the Progressive Caucus especially, but also those who have been against this bill."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 618.796,
+          "text": "I really appreciate you patiently hearing me out and letting me bug you."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 624.996,
+          "text": "Even if you vote no, I really, really value that you gave me some time to hear me out."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 630.096,
+          "text": "Because this bill has really been through the fire, it is why I believe it is the best version that we could be voting on."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 637.296,
+          "text": "It is a program that I believe this council is going to be able to stand behind in the coming years."
+        },
+        {
+          "speaker": "Sandy Nurse",
+          "t_sec": 641.296,
+          "text": "So I ask for your vote, and thank you so much."
+        }
+      ]
+    },
+    {
+      "end_sec": 694.696,
+      "id": "011",
+      "slug": "sanchez-thanks-staff-and-calls-roll-call",
+      "start_sec": 645.396,
+      "summary": "Sanchez thanks Nurse and her own team, including Deputy Chiefs of Staff Ben Ratner and Kim Castellanos, District Director Maria Jose Mares, and other staff. She also thanks Housing and Buildings Committee staff and lists members present before asking the clerk to call the roll.",
+      "title": "Sanchez thanks staff and calls roll call",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 645.396,
+          "text": "Thank you, Councilmember Nurse, and congratulations."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 647.896,
+          "text": "I'd like to also thank my team, Deputy Chiefs of Staff Ben Ratner and Kim Castellanos, District Director Maria Jose Mares, Gerard Fernandez, Soraya Bonilla, Oriana Roa Acevedo, Malia Sardinia, and Marcus Khan."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 659.696,
+          "text": "I'd also like to thank the Housing and Buildings Committee staff, Senior Legislative Council Austin Malone,"
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 665.696,
+          "text": "Legislative Council Billy X, Senior Policy Analyst Jose Conde, Senior Policy Analyst Dirk Spencer, Data Scientist Mohamed Shadid and Noah Slosberg, and Finance Analyst Carla Naranjo and Spencer Kuhn."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 679.496,
+          "text": "I'm joined today by the members of our committee, including Deputy Speaker Williams, Majority Leader Abreu, Council Members Wilson, Maloney, Salam, Riley, Felice, Hudson, Joseph, and Zhuang."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 689.996,
+          "text": "And with that, I will now ask the clerk to call the roll."
+        }
+      ]
+    },
+    {
+      "end_sec": 735.896,
+      "id": "012",
+      "slug": "clerk-opens-copa-roll-call-early-members-vote-aye",
+      "start_sec": 694.696,
+      "summary": "Committee Clerk William Martin opens the roll call on Proposed Intro 905-A. Chair Sanchez, Councilmembers Riley, Feliz, Abreu, and Hudson vote aye, with several congratulating Councilmember Nurse.",
+      "title": "Clerk opens COPA roll call; early members vote aye",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 694.696,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 695.796,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 696.296,
+          "text": "William Martin, Committee Clerk, Roll Call Vote Committee on Housing and Buildings on proposed introduction 905A."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 702.596,
+          "text": "Chair Sanchez."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 704.396,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 705.796,
+          "text": "Riley."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 707.096,
+          "text": "Proudly vote aye."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 708.196,
+          "text": "Congratulations, Council Member Nurse."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 710.796,
+          "text": "Feliz."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 714.196,
+          "text": "I vote aye or no."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 714.796,
+          "text": "I just want to congratulate you, Councilmember Sandy Nurse."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 717.696,
+          "text": "You worked tirelessly and diligently."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 720.096,
+          "text": "Finally got this to the finish line."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 721.496,
+          "text": "Really good work."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 725.696,
+          "text": "Congrats, Sandy."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 726.496,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 728.396,
+          "text": "Hudson."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 729.896,
+          "text": "I proudly vote aye and congratulations, Council Member Nurse."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 733.496,
+          "text": "Joseph."
+        }
+      ]
+    },
+    {
+      "end_sec": 822.496,
+      "id": "013",
+      "slug": "joseph-explains-aye-vote-citing-district-40-housing-conditions",
+      "start_sec": 735.896,
+      "summary": "Councilmember Rita C. Joseph asks to explain her vote and recalls telling District 40 tenants in January that the COPA fight was not over. She describes no-heat, mold, and repair complaints in Flatbush, Prospect Lefferts Gardens, Ditmas Park, and Crown Heights, arguing COPA breaks the cycle of distressed buildings being sold to developers.",
+      "title": "Joseph explains aye vote, citing District 40 housing conditions",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 735.896,
+          "text": "Permission to explain my vote?"
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 738.396,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 739.496,
+          "text": "Thank you, Madam Chair."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 740.396,
+          "text": "In January, when COPA fell short, I told tenants of District 40 that the fight was not over."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 745.996,
+          "text": "Today, we keep that promise."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 748.196,
+          "text": "I want to thank Councilmember Nurse to never backing down for years of negotiating, listening, and refusing to let this bill die."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 755.596,
+          "text": "Thank you to the tenant organizers, the community land trust, and the advocates who kept showing up."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 760.296,
+          "text": "Thank you to the speaker and the mayor for helping bring COPA home."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 763.896,
+          "text": "Let me tell you why this matter in Flatbush, Prospect, Lefferts Garden, Dittmas Park, and Crown Heights."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 769.396,
+          "text": "My office take calls, no heat in January, molds in babies'bedrooms, ceilings coming down, repairs promised and never made."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 777.696,
+          "text": "Too many of my constituents live in buildings owned by landlords who treat their home as a line on a spreadsheet."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 783.296,
+          "text": "And when those buildings are sold, they are too often go to other developers and the cycle starts all over."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 788.996,
+          "text": "COPA breaks that cycle."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 790.496,
+          "text": "When a distressed building goes up for sale, mission-driven non-for-profits and community land trusts will finally get a fair first shot at buying it and keeping it affordable, safe, and in the hands of the community."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 801.996,
+          "text": "As a forever educator for more than two decades, I learned that children cannot learn without a stable home."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 807.296,
+          "text": "And this is what is at stake for families in these buildings."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 810.296,
+          "text": "And this is why COPA matters."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 812.396,
+          "text": "Housing is not a commodity."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 813.996,
+          "text": "It is a home."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 814.896,
+          "text": "I proudly vote aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 873.908,
+      "id": "014",
+      "slug": "roll-call-continues-williams-salaam-maloney-wilson-aye-zhuang-abstains",
+      "start_sec": 822.496,
+      "summary": "The clerk continues the roll call. Councilmembers Williams, Salaam, Maloney, and Wilson vote aye, while Councilmember Zhuang abstains after thanking Chair Sanchez.",
+      "title": "Roll call continues: Williams, Salaam, Maloney, Wilson aye; Zhuang abstains",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 822.496,
+          "text": "Williams."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 824.596,
+          "text": "I vote aye again."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 826.096,
+          "text": "Congrats."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 828.496,
+          "text": "Salam."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 833.096,
+          "text": "I would like to vote aye and have my aye associated with all of the great remarks that have come before me, and congratulations, Sandy."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 845.308,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 846.908,
+          "text": "Zhuang."
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 849.708,
+          "text": "I want to thank Councilmember Sanchez working very hard."
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 853.608,
+          "text": "I'm going to abstain my vote."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 859.108,
+          "text": "Maloney."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 860.608,
+          "text": "I vote aye, and congratulations, Councilmember Nurse."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 864.808,
+          "text": "Wilson."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 866.608,
+          "text": "I vote aye and major props for your determination and hard work."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 871.508,
+          "text": "Councilmember Nurse."
+        }
+      ]
+    },
+    {
+      "end_sec": 880.208,
+      "id": "015",
+      "slug": "committee-approves-intro-905-a-10-0-with-one-abstention",
+      "start_sec": 873.908,
+      "summary": "The clerk announces 10 affirmative votes, 0 negative, and 1 abstention. The committee approves Proposed Intro 905-A.",
+      "title": "Committee approves Intro 905-A, 10-0 with one abstention",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 873.908,
+          "text": "I vote 10 in the affirmative, 0 in the negative, and 1 abstention."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 877.208,
+          "text": "Item has been approved by the committee."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 878.608,
+          "text": "Madam Chair, that is a full committee."
+        }
+      ]
+    },
+    {
+      "end_sec": 898.112,
+      "id": "016",
+      "slug": "sanchez-thanks-clerk-and-closes-committee-meeting",
+      "start_sec": 880.208,
+      "summary": "Sanchez thanks the clerk and gives a special shout-out to Billy Eck for work on the legislation. She confirms the committee is full and adjourns the meeting.",
+      "title": "Sanchez thanks clerk and closes committee meeting",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 880.208,
+          "text": "Thank you so much, Clerk, and a special shout-out to Billy Eck, also, who aged this legislation."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 886.108,
+          "text": "With that, this is a full committee, and we are closed."
+        }
+      ]
+    }
+  ],
+  "date": "2026-10-22",
+  "duration_sec": 898.112,
+  "slug": "2026-10-22-1100-am-committee-on-housing-and-buildings",
+  "summary": [
+    "The Committee on Housing and Buildings votes on Proposed Intro 905-A, the Community Opportunity to Purchase Act (COPA), after Chair Pierina Ana Sanchez and sponsor Sandy Nurse present the bill.",
+    "COPA would require owners of certain 4-to-100-unit multifamily buildings to notify and offer qualified nonprofit entities a first chance to purchase before a private sale, with a right to match later offers.",
+    "The committee approves the bill 10-0 with one abstention, as members praise Councilmember Nurse's six-year effort to pass COPA."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE",
+    "LAND_USE"
+  ],
+  "time": "11:00 AM",
+  "title": "Committee on Housing and Buildings",
+  "topic": "Giving qualified entities a first opportunity to submit a statement of interest and a first opportunity to purchase certain properties",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://discourse-media.qqlab.io/NYCC-PV-CH-CHA_261022-Housing/video-web.mp4"
+  }
+}

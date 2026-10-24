@@ -1,0 +1,481 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 61.8,
+      "id": "001",
+      "slug": "council-staff-opens-hearing-and-instructs-attendees",
+      "start_sec": 46.2,
+      "summary": "Council staff welcomes attendees to the Committee on Criminal Justice vote, asks everyone to silence electronic devices, and directs no one to approach the front desk. The chair is then invited to begin.",
+      "title": "Council staff opens hearing and instructs attendees",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 46.2,
+          "text": "Good morning and welcome to today's New York City Council vote for the Committee on Criminal Justice."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 51.0,
+          "text": "Ladies and gentlemen, at this time we please ask you to silence all electronic devices."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 55.3,
+          "text": "Moving forward, no one is to approach the front desk."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 57.7,
+          "text": "Chair, you may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 85.4,
+      "id": "002",
+      "slug": "chair-brooks-powers-calls-meeting-to-order-and-announces-bills",
+      "start_sec": 61.8,
+      "summary": "Chair Selvena N. Brooks-Powers opens the meeting, introduces herself, and lists committee members present. She announces votes on Int. 786-A, sponsored by herself, and Int. 797-A, sponsored by Public Advocate Williams.",
+      "title": "Chair Brooks-Powers calls meeting to order and announces bills",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 61.8,
+          "text": "Good morning, I'm Councilmember Sylvina Brooks-Powers, Chair of the Committee on Criminal Justice."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 66.5,
+          "text": "I'm joined by committee members Salam, Felice, Brewer, Narcisse, Murano."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 76.0,
+          "text": "Today the committee will vote on proposed introduction number 786A, sponsored by myself, and 797A, sponsored by Public Advocate Williams."
+        }
+      ]
+    },
+    {
+      "end_sec": 119.5,
+      "id": "003",
+      "slug": "chair-explains-int-786-a-ballot-correction-procedures-for-doc-custody",
+      "start_sec": 85.4,
+      "summary": "Chair Brooks-Powers describes Int. 786-A, which would require the Department of Correction to review completed ballot affirmation envelopes for correctable errors before sending them to the Board of Elections. If a defect is found, the department must give the individual an opportunity and means to correct it before submission.",
+      "title": "Chair explains Int. 786-A ballot correction procedures for DOC custody",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 85.4,
+          "text": "My bill proposed introduction number 786A would establish"
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 90.2,
+          "text": "procedures to help eligible individuals in Department of Correction custody successfully cast their early mail and absentee ballots."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 99.2,
+          "text": "Under this legislation, the department would be required to review completed ballot affirmation envelopes for certain correctable errors before transmitting ballots to the Board of Elections."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 111.0,
+          "text": "If a defect is identified, the department would provide the individual with an opportunity and the means to correct it before the ballot is submitted."
+        }
+      ]
+    },
+    {
+      "end_sec": 158.5,
+      "id": "004",
+      "slug": "chair-explains-int-797-a-reporting-on-voter-registration-in-city-jails",
+      "start_sec": 119.5,
+      "summary": "Chair Brooks-Powers explains Int. 797-A, which would strengthen annual reporting on voter registration and voting in city jails. It would require DOC to report registration forms collected, absentee ballots distributed by facility, and events held to promote voting, disaggregated by facility and demographics including race, age, gender, disability, and veteran status.",
+      "title": "Chair explains Int. 797-A reporting on voter registration in city jails",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 119.5,
+          "text": "Proposed introduction number 797A, sponsored by Public Advocate Williams, would strengthen reporting requirements regarding voter registration and voting in city jails."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 130.7,
+          "text": "The legislation would require the Department of Correction to report annually on the number of voter registration forms collected, the number of absentee ballots distributed by"
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 142.1,
+          "text": "facility, and the number of events held to promote voter registration and voting."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 147.2,
+          "text": "Registration data would also be disaggregated by facility and by demographic characteristics, including race, age, gender, disability status, and veteran status."
+        }
+      ]
+    },
+    {
+      "end_sec": 221.4,
+      "id": "005",
+      "slug": "chair-stresses-voting-rights-for-eligible-people-in-city-jails",
+      "start_sec": 158.5,
+      "summary": "With the general election less than two weeks away, Chair Brooks-Powers says the vote is a timely reminder that voting rights must be protected for every eligible New Yorker, including people in city jails. She notes that while felony convictions bar voting under state law, people held pretrial or serving misdemeanor sentences remain eligible, and the presumption of innocence requires a meaningful opportunity to vote.",
+      "title": "Chair stresses voting rights for eligible people in city jails",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 158.5,
+          "text": "With the general election less than two weeks away, today's vote is a timely reminder that the right to vote must be protected for every eligible New Yorker, including those in our city's jails."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 170.8,
+          "text": "While the laws of this state currently prevent incarcerated people serving time for a felony conviction from voting, people in city jails that are held pre-"
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 180.1,
+          "text": "trial or are serving misdemeanor sentences are in fact eligible to vote."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 187.3,
+          "text": "The presumption of innocence lies at the foundation of our criminal legal system."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 192.4,
+          "text": "Everyone is presumed innocent until their guilt is proven beyond a reasonable doubt."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 197.4,
+          "text": "That means every"
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 198.9,
+          "text": "Eligible person in our jails must have the meaningful, real, and unabridged opportunity to vote, regardless of what crime they have been charged of committing."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 209.4,
+          "text": "Together, Intro 786A and 797A address important gaps in access to the ballot and in"
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 216.8,
+          "text": "the public information available about voting in city jails."
+        }
+      ]
+    },
+    {
+      "end_sec": 277.6,
+      "id": "006",
+      "slug": "chair-cites-low-jail-voting-participation-and-barriers-in-2024-primary",
+      "start_sec": 221.4,
+      "summary": "Chair Brooks-Powers says participation among eligible people in DOC custody has been extremely low. In the June 2024 primary, 364 people on Rikers Island requested absentee or early mail ballots, but only 155 were delivered and just 72 were returned and counted, illustrating barriers from requesting a ballot to correcting errors and ensuring it is counted.",
+      "title": "Chair cites low jail voting participation and barriers in 2024 primary",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 221.4,
+          "text": "Although many individuals in Department of Correction custody remain eligible to vote, participation has been extremely low."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 230.0,
+          "text": "During the June 2024 primary election, for example, 364 individuals held on Rikers Island requested absentee or early mail ballots, but only 155 ballots were delivered"
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 244.6,
+          "text": "and just 72 were returned and counted."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 248.3,
+          "text": "These figures underscore the challenges eligible voters can face at multiple stages of the voting process."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 256.2,
+          "text": "From requesting and receiving a ballot to correct an error and ensuring that a completed ballot is counted."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 262.9,
+          "text": "Individuals in custody may also face additional obstacles accessing election information and responding to time-sensitive questions."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 270.3,
+          "text": "notices, particularly when they are transformed between housing units or released from custody."
+        }
+      ]
+    },
+    {
+      "end_sec": 325.3,
+      "id": "007",
+      "slug": "chair-says-bills-improve-accountability-and-thanks-staff-and-coalition",
+      "start_sec": 277.6,
+      "summary": "Chair Brooks-Powers says the bills seek to improve accountability and identify persistent barriers by establishing ballot-envelope correction procedures and requiring more comprehensive reporting. She thanks policy and budget director Owen Brady, chief of staff Renee Taylor, committee counsel Jahari Frazier, policy analyst Chad Benjamin, the Public Advocate, and the Vote in New York City Jails Coalition.",
+      "title": "Chair says bills improve accountability and thanks staff and coalition",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 277.6,
+          "text": "By establishing procedures to identify and correct ballot envelope defects and requiring more comprehensive reporting on voter registration and voting activities,"
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 287.5,
+          "text": "these bills seek to improve accountability and make it easier to identify where barriers persist."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 294.1,
+          "text": "Ensuring that eligible New Yorkers can exercise their right to vote regardless of their circumstances, I believe, is an important part of promoting meaningful civic participation and strengthening our democratic process."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 306.9,
+          "text": "I would like to thank my policy and budget director, Owen Brady, my chief of staff, Renee Taylor, committee council, Jahari Frazier, policy analyst, Chad Benjamin."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 317.5,
+          "text": "The Public Advocate, and the Vote in New York City Jails Coalition for their work on these important pieces of legislation."
+        }
+      ]
+    },
+    {
+      "end_sec": 388.232,
+      "id": "008",
+      "slug": "clerk-calls-roll-on-coupled-intros-786-a-and-797-a",
+      "start_sec": 325.3,
+      "summary": "Chair Brooks-Powers asks the clerk to call the roll. Committee Clerk William Martin notes both items are coupled and calls members: Chair Brooks-Powers votes aye; Feliz aye on all; Brewer aye; Narcisse aye; Salaam aye; and Morano votes aye on 797 but no on 786. Kaban is called but no vote is recorded.",
+      "title": "Clerk calls roll on coupled Intros 786-A and 797-A",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 325.3,
+          "text": "With that, I now ask the clerk to call the roll."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 329.9,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 330.2,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 330.8,
+          "text": "William Martin, Committee Clerk, Roll Call Vote Committee on Criminal Justice."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 334.0,
+          "text": "Both items are coupled."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 335.5,
+          "text": "Chair Brooks Powers."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 337.2,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 338.7,
+          "text": "Feliz."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 340.4,
+          "text": "Aye on all."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 340.8,
+          "text": "Congratulations, Chair, on these two important initiatives."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 344.3,
+          "text": "Kaban."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 347.796,
+          "text": "Brewer."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 350.196,
+          "text": "I vote aye and look forward to continuing this effort to get people."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 353.996,
+          "text": "There are 6,000 people who are eligible to vote."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 357.096,
+          "text": "Thank you very much."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 358.096,
+          "text": "On Rikers."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 359.696,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 361.496,
+          "text": "Narcisse."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 363.496,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 363.896,
+          "text": "Congratulations, Chair."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 366.396,
+          "text": "Salam."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 368.496,
+          "text": "Avri, and I'm looking forward to this positive."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 372.196,
+          "text": "Morano, excuse me, Councilmember Salam, sorry."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 374.296,
+          "text": "I vote aye on 797 and reluctantly no on 786."
+        }
+      ]
+    },
+    {
+      "end_sec": 394.232,
+      "id": "009",
+      "slug": "intro-786-a-passes-committee-5-1",
+      "start_sec": 388.232,
+      "summary": "The clerk announces that proposed Introduction 786-A has 5 affirmative votes, 1 negative vote, and no abstentions. The committee approves the measure.",
+      "title": "Intro 786-A passes committee 5-1",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 388.232,
+          "text": "Following results, proposed introduction 786 with a vote of 5 in the affirmative, 1 in the negative, and no abstentions."
+        }
+      ]
+    },
+    {
+      "end_sec": 400.032,
+      "id": "010",
+      "slug": "intro-797-a-passes-committee-6-0",
+      "start_sec": 394.232,
+      "summary": "The clerk announces that proposed Introduction 797-A has 6 affirmative votes, 0 negative votes, and no abstentions. The committee approves the measure.",
+      "title": "Intro 797-A passes committee 6-0",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 394.232,
+          "text": "And proposed introduction 797A with 6 in the affirmative, 0 in the negative, and no abstentions."
+        }
+      ]
+    },
+    {
+      "end_sec": 422.332,
+      "id": "011",
+      "slug": "committee-approves-both-criminal-justice-bills",
+      "start_sec": 400.032,
+      "summary": "The clerk announces that both proposed introductions have been approved by the Committee on Criminal Justice.",
+      "title": "Committee approves both criminal justice bills",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 400.032,
+          "text": "Both items have been approved by the committee."
+        }
+      ]
+    },
+    {
+      "end_sec": 593.578,
+      "id": "012",
+      "slug": "chair-keeps-vote-open-and-hearing-adjourns",
+      "start_sec": 422.332,
+      "summary": "The vote remains open by request of the chair. The hearing is adjourned at 9:40.",
+      "title": "Chair keeps vote open and hearing adjourns",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 422.332,
+          "text": "Vote will remain open by request of the chair."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 580.956,
+          "text": "This hearing is now adjourned."
+        }
+      ]
+    }
+  ],
+  "date": "2026-10-22",
+  "duration_sec": 593.578,
+  "slug": "2026-10-22-1030-am-committee-on-criminal-justice",
+  "summary": [
+    "The Committee on Criminal Justice held a vote on Int. 786-A and Int. 797-A, both concerning voting access and reporting for eligible voters in Department of Correction custody.",
+    "Chair Brooks-Powers explained the bills' ballot-correction procedures and annual reporting requirements, citing low participation in the June 2024 primary.",
+    "The committee approved Int. 786-A 5-1 and Int. 797-A 6-0, with Council Member Morano voting no on 786; the hearing adjourned with the vote remaining open."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "10:30 AM",
+  "title": "Committee on Criminal Justice",
+  "topic": "Procedures for early mail and absentee ballots for voters in department of correction custody",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://discourse-media.qqlab.io/NYCC-PV-CH-CHA_261022-CJ/video-web.mp4"
+  }
+}

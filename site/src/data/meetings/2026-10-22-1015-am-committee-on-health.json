@@ -1,0 +1,1486 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 36.9,
+      "id": "001",
+      "slug": "council-staff-opens-health-committee-vote-and-gives-housekeeping-instructions",
+      "start_sec": 21.5,
+      "summary": "Council staff welcomes attendees to the Committee on Health vote, asks everyone to silence electronic devices, and instructs the public not to approach the front desk. The chair is then invited to begin.",
+      "title": "Council staff opens Health Committee vote and gives housekeeping instructions",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 21.5,
+          "text": "Good morning and welcome to today's New York City Council vote for the Committee on Health."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 25.4,
+          "text": "Ladies and gentlemen, at this time we please ask you to silence all electronic devices."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 29.8,
+          "text": "Moving forward, no one is to approach the front desk."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 32.2,
+          "text": "Chair, you may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 64.4,
+      "id": "002",
+      "slug": "chair-schulman-opens-vote-on-intro-943-a-and-introduces-committee-members",
+      "start_sec": 36.9,
+      "summary": "Council Member Lynn Schulman identifies herself as Health Committee chair and welcomes attending members. She announces the committee is voting on proposed Intro 943-A, sponsored by Council Member Christopher Marte, to prohibit horse-drawn cabs and create an industry transition plan.",
+      "title": "Chair Schulman opens vote on Intro 943-A and introduces committee members",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 36.9,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 37.6,
+          "text": "I am Councilmember Lynn Schulman, Chair of the New York City Council's Committee on Health."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 41.3,
+          "text": "Thank you all for coming."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 42.8,
+          "text": "We are joined today by Councilmembers De La Rosa, Narcisse, Marte, Epstein, Areola, Gennaro, Felder, and Wilson."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 50.3,
+          "text": "Today, the committee is voting on proposed introduction 943A, sponsored by Councilmember Christopher Marte, in relation to prohibiting the operation of horse-drawn cabs and establishing a horse-drawn cab industry transition plan."
+        }
+      ]
+    },
+    {
+      "end_sec": 88.1,
+      "id": "003",
+      "slug": "chair-schulman-sets-decorum-rules-for-emotional-horse-carriage-vote",
+      "start_sec": 64.4,
+      "summary": "Schulman acknowledges the vote may be emotional and insists proceedings remain civil and respectful. She limits council member remarks to three minutes, bars public testimony, and requires members of the public to remain silent.",
+      "title": "Chair Schulman sets decorum rules for emotional horse-carriage vote",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 64.4,
+          "text": "I understand that for many this may be an emotional day."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 67.8,
+          "text": "However, we must keep these proceedings civil and respectful."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 71.1,
+          "text": "I want to remind everyone that this is a government proceeding and that decorum shall be observed at all times."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 76.9,
+          "text": "Council members who wish to speak on the bill will have three minutes to speak."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 81.3,
+          "text": "No public testimony will be accepted during this proceeding."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 84.6,
+          "text": "Members of the public shall remain silent at all times."
+        }
+      ]
+    },
+    {
+      "end_sec": 117.1,
+      "id": "004",
+      "slug": "chair-schulman-summarizes-intro-943-a-provisions",
+      "start_sec": 88.1,
+      "summary": "Schulman explains that Intro 943-A would prohibit new horse carriage operator licenses after June 1, 2028, and ban horse-drawn cab operation after that date. It also requires humane disposition of carriage horses and bars their sale or transfer for slaughter or another horse-drawn cab business.",
+      "title": "Chair Schulman summarizes Intro 943-A provisions",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 88.1,
+          "text": "Introduction 943A would prohibit the issuance of new horse carriage operator licenses after June 1, 2028, along with prohibiting the operation of horse-drawn cabs after that date."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 100.8,
+          "text": "It would require the humane disposition of carriage horses, including prohibiting their sale or transfer for slaughter or for use in another horse-drawn cab business."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 110.0,
+          "text": "And finally, the bill requires the mayor to develop and implement a holistic horse-drawn cab industry transition plan."
+        }
+      ]
+    },
+    {
+      "end_sec": 166.3,
+      "id": "005",
+      "slug": "chair-schulman-outlines-transition-plan-timeline-and-stakeholder-input",
+      "start_sec": 117.1,
+      "summary": "Schulman says the bill requires the mayor to publish and implement a horse-drawn cab industry transition plan by April 1, 2027. She notes the Council will work with the administration and stakeholders, and cites months of input and a nine-hour July hearing.",
+      "title": "Chair Schulman outlines transition plan timeline and stakeholder input",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 117.1,
+          "text": "This plan is to be published and implemented by April 1, 2027, and as Speaker Julie Menon announced last week, the"
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 124.0,
+          "text": "Council will work with the administration and other stakeholders to ensure this transition plan meets the needs of those impacted."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 131.3,
+          "text": "Over the past months, people and organizations on all sides of this debate have weighed in on the legislation before us today and have shared their visions for the future of this industry."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 141.3,
+          "text": "I want to thank everyone that participated in this robust and necessary process."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 146.0,
+          "text": "We have listened carefully to every stakeholder, drivers and owners, advocates, residents, and businesses, and we have strived to understand every perspective."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 154.9,
+          "text": "This past July, this committee held a nine-hour hearing on this legislation, giving everyone who wanted to be heard the opportunity to testify."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 163.0,
+          "text": "The bill before us today thoughtfully reflects that input."
+        }
+      ]
+    },
+    {
+      "end_sec": 196.2,
+      "id": "006",
+      "slug": "chair-schulman-cites-mahajan-death-and-bill-s-safety-animal-and-worker-balance",
+      "start_sec": 166.3,
+      "summary": "Schulman calls the death of Ramanj Mahajan a preventable tragedy that demands action. She says the legislation balances public safety, horse welfare, and the well-being of workers and owners, and charts a fair transition.",
+      "title": "Chair Schulman cites Mahajan death and bill's safety, animal, and worker balance",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 166.3,
+          "text": "Tragedies like the death of Ramanj Mahajan are impossible to ignore."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 171.4,
+          "text": "In response to that preventable loss of human life, this council, under Speaker Julie Menon's leadership, is taking action."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 178.4,
+          "text": "It's time to chart a new path forward."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 181.3,
+          "text": "This legislation is about public safety, is about the well-being of the horses, and it is about the well-being of the workers and owners."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 188.6,
+          "text": "This bill carefully balances each of those considerations and paves the way towards a fair, just, and safe transition."
+        }
+      ]
+    },
+    {
+      "end_sec": 217.5,
+      "id": "007",
+      "slug": "chair-schulman-thanks-committee-staff-speaker-and-council-member-marte",
+      "start_sec": 196.2,
+      "summary": "Schulman thanks committee staff Christopher Pepe, Joshua Newman, Elizabeth Artz, and Valeria Lazario-Rodriguez, as well as her own team. She also thanks the Speaker and Council Member Marte for their leadership on the bill.",
+      "title": "Chair Schulman thanks committee staff, Speaker, and Council Member Marte",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 196.2,
+          "text": "I want to thank the committee staff, Christopher Pepe, Joshua Newman, Elizabeth Artz, and Valeria Lazario-Rodriguez for their hard work in preparing for this vote, as well as my team, Jonathan Boucher, my chief of staff, Kevin McAleer,"
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 208.7,
+          "text": "my legislative director, and Sammy New, my communications director."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 212.3,
+          "text": "I also want to thank the speaker and his staff."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 214.5,
+          "text": "as well as Councilmember Marte for their leadership."
+        }
+      ]
+    },
+    {
+      "end_sec": 238.5,
+      "id": "008",
+      "slug": "chair-schulman-reiterates-decorum-and-turns-to-council-member-marte",
+      "start_sec": 217.5,
+      "summary": "Schulman repeats that this is a government proceeding, council members have three minutes to speak, no public testimony will be accepted, and the public must remain silent. She then turns the floor to Council Member Marte for a brief statement.",
+      "title": "Chair Schulman reiterates decorum and turns to Council Member Marte",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 217.5,
+          "text": "In closing, I want to remind everyone that this is a government proceeding and that decorum shall be observed at all times."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 223.6,
+          "text": "Council members who wish to speak on the bill will have three minutes to speak."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 227.4,
+          "text": "No public testimony will be accepted during this proceeding."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 230.8,
+          "text": "Members of the public shall remain silent at all times."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 233.8,
+          "text": "I will now turn it over to Councilmember Marte for a brief statement."
+        }
+      ]
+    },
+    {
+      "end_sec": 295.2,
+      "id": "009",
+      "slug": "marte-traces-aspca-history-and-new-york-s-evolution-past-outdated-industries",
+      "start_sec": 238.5,
+      "summary": "Council Member Christopher Marte notes the ASPCA was founded 160 years ago to address horse carriage conditions. He compares the carriage industry to milkmen, asbestos, lead paint, and pet store sales, arguing New York has thrived by evolving with the times.",
+      "title": "Marte traces ASPCA history and New York's evolution past outdated industries",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 238.5,
+          "text": "Good morning, everyone."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 240.1,
+          "text": "160 years ago, the ASPCA was formed right here in New York City, the nation's first animal welfare organization."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 248.6,
+          "text": "It was started to address one specific issue, the conditions of the horse carriages in New York City."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 256.5,
+          "text": "Now we are here nearly two centuries later to complete this mission."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 261.2,
+          "text": "Throughout these years, our city has evolved."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 264.5,
+          "text": "Milkmen no longer deliver milk to our doors."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 267.1,
+          "text": "Construction companies don't sell or use asbestos."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 270.2,
+          "text": "Paint companies don't sell lead paint."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 272.7,
+          "text": "Pet stores can't sell dogs, cats, rabbits, or guinea pigs."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 276.9,
+          "text": "With every generation, we let go of the past and embrace the future."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 281.5,
+          "text": "Despite these changes to industries, New York has not just survived, but thrived."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 287.2,
+          "text": "We are the city we are today because we have evolved with the times, and our job as legislator is to guide New York through these evolutions."
+        }
+      ]
+    },
+    {
+      "end_sec": 318.8,
+      "id": "010",
+      "slug": "marte-says-new-yorkers-are-ready-to-end-horse-carriage-industry",
+      "start_sec": 295.2,
+      "summary": "Marte cites polls, social media comments, and constituent calls showing New Yorkers want to move past the horse carriage industry. He argues Central Park can remain a destination without legalized animal cruelty that puts the public at risk.",
+      "title": "Marte says New Yorkers are ready to end horse carriage industry",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 295.2,
+          "text": "We've seen the polls, the endless comments on social media, the constant calls and emails we have received from constituents."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 302.2,
+          "text": "It is beyond clear that New Yorkers are ready."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 304.5,
+          "text": "for us to evolve past this outdated horse carriage industry."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 308.5,
+          "text": "We can keep Central Park as a destination for millions of New Yorkers and tourists without relying on legalized animal cruelty that put public at risk."
+        }
+      ]
+    },
+    {
+      "end_sec": 366.3,
+      "id": "011",
+      "slug": "marte-recounts-decades-of-inaction-and-death-of-romash-mahajan",
+      "start_sec": 318.8,
+      "summary": "Marte says the issue is not new and that decades of accidents, dead horses, and injured people produced only promises. He says inaction led to Romash Mahajan's death and calls the bill an opportunity to ensure Mahajan did not die in vain.",
+      "title": "Marte recounts decades of inaction and death of Romash Mahajan",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 318.8,
+          "text": "As we all know, this is not a new issue."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 321.4,
+          "text": "Decade after decade, as the list of carriage accidents, dead horses, and injured people piled up, elected officials made big promises."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 330.5,
+          "text": "Elections have been decided because of this."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 333.2,
+          "text": "But it's all been talk."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 334.9,
+          "text": "Despite the promises made, nothing changed."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 338.0,
+          "text": "As more horses and people were harmed,"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 341.3,
+          "text": "We are guilty of this as well."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 345.9,
+          "text": "Because of our inaction, Romash Mahajan was killed."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 350.0,
+          "text": "It is unacceptable that it took this tragedy for us to finally pass this bill."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 354.5,
+          "text": "But this is our opportunity to make sure that Romash did not die in vain."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 359.3,
+          "text": "We can honor his sacrifice by ensuring no more lives are lost to a tourist attraction."
+        }
+      ]
+    },
+    {
+      "end_sec": 427.8,
+      "id": "012",
+      "slug": "marte-thanks-speaker-mahajan-family-chair-staff-and-advocates",
+      "start_sec": 366.3,
+      "summary": "Marte thanks Speaker Menon for leadership, the Mahajan family for their strength, and Chair Schulman for taking a bold step. He also thanks Council staff, his own staff, Night Class, and advocates who fought for decades to end the industry.",
+      "title": "Marte thanks Speaker, Mahajan family, Chair, staff, and advocates",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 366.3,
+          "text": "I want to thank Speaker Menon for her leadership, for having a public statement during this crisis in our city, and to make sure that no one else is harmed."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 376.4,
+          "text": "I want to thank the Mahajan family for your strength and very, very these past six months."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 382.1,
+          "text": "I want to thank the chair, Lynn Shulman, who took a bold step when every few will."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 387.1,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 388.5,
+          "text": "And I'd also like to thank the staff of the council, Chris Pepe, Elizabeth Arts, and all the committees."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 394.3,
+          "text": "who spent countless hours on working on this bill."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 397.2,
+          "text": "I also want to thank my own staff."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 399.2,
+          "text": "I want to thank my Deputy Chief of Staff, Max, my Comms Director, Simon, for working around the clock to make sure that this bill was a win-win."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 408.5,
+          "text": "And thank you to Night Class and the countless of advocates who spent decades"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 413.3,
+          "text": "fighting this industry to end."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 415.8,
+          "text": "This could not have been possible without your organization, your willpower, and your love for animals."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 422.7,
+          "text": "Because of you, we will free the horses, and it's time to finally get this done."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 427.4,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 433.5,
+      "id": "013",
+      "slug": "chair-schulman-thanks-marte-and-turns-to-clerk-for-roll-call",
+      "start_sec": 427.8,
+      "summary": "Schulman thanks Marte for his statement and announces she will turn the meeting over to the clerk to call the roll. The clerk then begins the roll call vote on proposed Intro 943-A.",
+      "title": "Chair Schulman thanks Marte and turns to clerk for roll call",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 427.8,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 429.6,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 430.0,
+          "text": "I will now turn it over to the clerk to call the roll."
+        }
+      ]
+    },
+    {
+      "end_sec": 443.0,
+      "id": "014",
+      "slug": "clerk-calls-roll-on-intro-943-a-chair-schulman-votes-aye",
+      "start_sec": 433.5,
+      "summary": "Committee Clerk William Martin calls the roll for the Committee on Health on proposed Intro 943-A. Chair Schulman votes aye.",
+      "title": "Clerk calls roll on Intro 943-A; Chair Schulman votes aye",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 433.5,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 433.8,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 434.8,
+          "text": "William Martin, Committee Clerk, Roll Call Vote Committee on Health, proposed introduction 943A."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 439.8,
+          "text": "Chair Shulman."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 441.7,
+          "text": "Aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 556.7,
+      "id": "015",
+      "slug": "de-la-rosa-explains-vote-in-favor-and-calls-for-worker-transition-plan",
+      "start_sec": 443.0,
+      "summary": "Council Member Carmen De La Rosa asks to explain her vote and says after decades of discussion it is time for legislative action. She votes in favor but insists the phase-out include a responsible transition plan for workers, including sanctuary retirement, medallion buybacks, upskilling, and addressing worker-identified gaps.",
+      "title": "De La Rosa explains vote in favor and calls for worker transition plan",
+      "type": "VOTE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 443.0,
+          "text": "De La Rosa."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 445.2,
+          "text": "Permission to explain my vote?"
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 447.0,
+          "text": "Permission granted."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 448.1,
+          "text": "For almost a decade as a public elected official, I have prided myself on being a champion for workers'rights and worker protection, and that job does not stop today."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 457.1,
+          "text": "But today, after decades of discussion, concern, advocacy, countless hearings, it's time for this body to take legislative action."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 466.5,
+          "text": "However, I want to be very clear that while today I am voting in favor of Intro 943, we must engage in good faith with the workers and union leaders after today's vote."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 479.2,
+          "text": "This phase-out must be accompanied by a responsible transition plan for workers who"
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 484.1,
+          "text": "whose livelihoods depend on this industry."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 486.7,
+          "text": "This could include relocating the horses to safer space and sanctuaries to retire,"
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 492.7,
+          "text": "buying back medallions that many workers have paid for over the years, and figuring out what to do with equipment bought, upskilling of these workers, as well as accommodating the gaps that the workers continue to identify."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 507.7,
+          "text": "These workers built a livelihood over the years, an experience that has brought our city tourism and has brought our city an experience that many will remember."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 518.9,
+          "text": "However, today, this vote will end this industry, and we must acknowledge the responsibility that we hold as a council to redefine and reimagine what our city will look like in the future."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 533.5,
+          "text": "I want to also say clearly that my votes have never been about not caring for the animals that are in the industry."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 543.2,
+          "text": "They center around workers'rights."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 545.6,
+          "text": "And today, I vote in favor of this bill, and I want to thank the chair for her leadership, as well as my colleagues, for continuing the conversation."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 553.8,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 561.5,
+      "id": "016",
+      "slug": "marte-votes-aye-on-intro-943-a",
+      "start_sec": 556.7,
+      "summary": "Council Member Christopher Marte, the bill's sponsor, proudly votes aye on Intro 943-A.",
+      "title": "Marte votes aye on Intro 943-A",
+      "type": "VOTE",
+      "utterances": [
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 556.7,
+          "text": "Marte."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 558.3,
+          "text": "I proudly vote aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 729.176,
+      "id": "017",
+      "slug": "narcisse-explains-vote-in-favor-and-pledges-accountability-on-transition-plan",
+      "start_sec": 561.5,
+      "summary": "Council Member Mercedes Narcisse asks to explain her vote and says the city has debated horse-drawn carriages for years. She votes in favor, citing the Mahajan family's plea, but promises to hold the city accountable for a transition plan covering jobs, compensation, and horse care.",
+      "title": "Narcisse explains vote in favor and pledges accountability on transition plan",
+      "type": "VOTE",
+      "utterances": [
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 561.5,
+          "text": "Narcisse."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 563.6,
+          "text": "Permission to explain my vote."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 565.0,
+          "text": "Permission granted."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 566.3,
+          "text": "Thank you, Madam Chair."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 567.3,
+          "text": "Thank you for your leadership and the speaker."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 569.5,
+          "text": "And of course, Marty, I mean, Marty, my colleagues that really"
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 574.2,
+          "text": "It was not easy, but you made a decision."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 577.1,
+          "text": "And today I'm here."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 581.4,
+          "text": "You know, even though sometimes things are difficult, you have to make decisions and you have to wait everything."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 587.8,
+          "text": "And I'm a person that always strike a balance."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 590.6,
+          "text": "As a ER nurse, I always said, I don't want no one to die on my shift."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 594.2,
+          "text": "And unfortunately, things happen in life, but we have to make decisions."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 598.7,
+          "text": "This city has dedicated the, I mean,"
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 603.6,
+          "text": "debated the future of horse-drawn carriages for many years."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 608.8,
+          "text": "We're not new here, we've been doing it."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 611.7,
+          "text": "When Womage died earlier this year, his family came before us, this council, and asked us to make sure that no other family goes through what they've been going through."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 626.0,
+          "text": "I believe the time has come."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 628.3,
+          "text": "Even as difficult, the choices that we have to make, the decision of the future of the horses, and of course the workers, everyone matters in this picture."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 638.4,
+          "text": "And I'm so happy that the speaker understands that and she's ready to do that, to make sure that we strike a balance in this situation."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 648.1,
+          "text": "I also want to speak to the drivers."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 650.7,
+          "text": "Many of you have done this work for decades."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 654.6,
+          "text": "You have rent to pay and the horses to care for."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 661.2,
+          "text": "And this bill does not yet answer all."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 664.1,
+          "text": "how you get through this."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 666.5,
+          "text": "But this bill required the City Hall to deliver a transition plan by April 1st."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 672.8,
+          "text": "And we, myself personally, I will hold everyone accountable, including myself, because we care for all New Yorkers."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 681.7,
+          "text": "If that plan comes back without serious answers on jobs, compensation, and the care of the horses, I will gladly fight alongside of TWU Local 100."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 696.2,
+          "text": "And I mean it."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 697.3,
+          "text": "If I don't mean it, I will not say it."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 699.3,
+          "text": "These workers deserve a plan that actually takes care of them and will not let a week one, I will not let a week one make me regret the vote that I'm going to take today."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 712.1,
+          "text": "I support this ban, and I know I will work for these workers not finished yet."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 719.0,
+          "text": "And I promise you I will continue to fight."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 722.1,
+          "text": "And on that note, Madam Chair, I vote out."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 725.176,
+          "text": "Yes."
+        }
+      ]
+    },
+    {
+      "end_sec": 788.992,
+      "id": "018",
+      "slug": "epstein-explains-vote-in-favor-and-cites-new-day-for-horses-and-workers",
+      "start_sec": 729.176,
+      "summary": "After Felder is called, Council Member Harvey Epstein asks to explain his vote. He thanks Chair Schulman, the Speaker, Council Member Marte, and Night Class, and says the city can care about horses and jobs while transitioning the industry; he votes in the affirmative.",
+      "title": "Epstein explains vote in favor and cites new day for horses and workers",
+      "type": "VOTE",
+      "utterances": [
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 729.176,
+          "text": "Felder."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 736.976,
+          "text": "Epstein."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 738.776,
+          "text": "Permission to extend my vote."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 740.276,
+          "text": "Permission granted."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 741.676,
+          "text": "I want to thank Chair Shulman, the Speaker, and Councilmember Marte for their leadership."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 747.176,
+          "text": "I want to thank the organizers of the night class."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 750.376,
+          "text": "This is a new day in New York."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 752.176,
+          "text": "We have a history of caring about horses."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 754.076,
+          "text": "We have a history of caring about jobs in New Yorkers."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 757.076,
+          "text": "And this tragedy, the tragedy of romance, will not go unnoticed."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 762.376,
+          "text": "We're standing with New Yorkers, the majority of New Yorkers, and the Central Park Conservancy and saying it is time for change."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 768.076,
+          "text": "We're standing with animal rights organizations to help this transition."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 771.676,
+          "text": "We're standing with the drivers to say there will be new jobs and new opportunities, and this council will stay involved."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 777.676,
+          "text": "This is a new day, transitioning this plan for the betterment of all New York."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 782.376,
+          "text": "I'm proud to stand with you all and vote in the affirmative."
+        }
+      ]
+    },
+    {
+      "end_sec": 817.992,
+      "id": "019",
+      "slug": "wilson-explains-vote-in-favor-in-memory-of-ramach",
+      "start_sec": 788.992,
+      "summary": "Council Member Carl Wilson asks to explain his vote and thanks Council Member Marte, Chair Schulman, the Speaker, and advocates. He votes aye in memory of Ramach.",
+      "title": "Wilson explains vote in favor in memory of Ramach",
+      "type": "VOTE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 788.992,
+          "text": "Wilson."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 792.492,
+          "text": "I want to thank Councilmember Marte, Chair Shulman."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 794.692,
+          "text": "Oh, you're asking for permission to explain my vote."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 796.192,
+          "text": "Oh, excuse me."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 797.392,
+          "text": "Permission to explain my vote."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 798.592,
+          "text": "Permission granted."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 799.392,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 799.992,
+          "text": "Just briefly want to thank Councilmember Marte, Chair Shulman, and the Speaker, and all the advocates who have constantly persisted."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 810.292,
+          "text": "And in the memory of Ramach, I vote aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 867.864,
+      "id": "020",
+      "slug": "ariola-explains-vote-against-citing-lack-of-plan-for-workers",
+      "start_sec": 817.992,
+      "summary": "Council Member Joann Ariola asks to explain her vote and says she advocates for animals but also for workers and small businesses. She votes nay because there is no real plan in place and the mayor is left to study the transition while workers need money to feed their families.",
+      "title": "Ariola explains vote against, citing lack of plan for workers",
+      "type": "VOTE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 817.992,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 818.692,
+          "text": "Ariella."
+        },
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 822.464,
+          "text": "Permission to quickly explain my vote."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 824.564,
+          "text": "Permission granted."
+        },
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 825.964,
+          "text": "I am well known for advocating for animals, and I proudly do so."
+        },
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 830.464,
+          "text": "But I'm also well known for advocating for workers and their rights."
+        },
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 834.464,
+          "text": "And I stand for small businesses, and each and every one of the medallion owners and their drivers and the people who work in the industry are small business owners."
+        },
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 844.664,
+          "text": "For that, because there is no real plan in place and it is left in the hands of the mayor to find and do a study and research, you don't have time for that."
+        },
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 856.064,
+          "text": "You need to have checks, money, so you can feed and keep your families."
+        },
+        {
+          "speaker": "Joann Ariola",
+          "t_sec": 861.864,
+          "text": "For those reasons, I vote nay."
+        }
+      ]
+    },
+    {
+      "end_sec": 891.664,
+      "id": "021",
+      "slug": "gennaro-requests-to-explain-vote-and-clock-is-restarted",
+      "start_sec": 867.864,
+      "summary": "Council Member James Gennaro asks whether anyone is left to vote after him and says he was going to pass because he was still writing. He asks to speak on his vote, and the chair grants permission and restarts the clock.",
+      "title": "Gennaro requests to explain vote and clock is restarted",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 867.864,
+          "text": "I was wondering if there's anyone left to vote after me."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 871.464,
+          "text": "No?"
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 871.764,
+          "text": "I'm it?"
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 872.664,
+          "text": "Okay."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 873.664,
+          "text": "I was going to pass because I'm still writing, but I got the ball."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 878.764,
+          "text": "Madam Chair, I wish to speak on my vote."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 880.664,
+          "text": "Commission granted."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 882.864,
+          "text": "Restart the clock."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 884.564,
+          "text": "Oh."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 885.664,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 885.864,
+          "text": "You start the clock for Councilmember Gennaro."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 889.564,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 975.064,
+      "id": "022",
+      "slug": "gennaro-criticizes-aspca-and-nyclass-cites-no-animal-cruelty-convictions",
+      "start_sec": 891.664,
+      "summary": "Gennaro says the ASPCA used to be a good organization but made an illegal contribution to help start NYClass, which he calls corrupt and beholden to Steve Nislick. He notes no member of the horse carriage industry has ever been convicted of animal cruelty in 168 years.",
+      "title": "Gennaro criticizes ASPCA and NYClass, cites no animal cruelty convictions",
+      "type": "VOTE",
+      "utterances": [
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 891.664,
+          "text": "Yeah, I just took some notes on what I heard."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 894.164,
+          "text": "I have some things to say."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 897.464,
+          "text": "There was the, someone made mention of the ASPCA."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 902.764,
+          "text": "Yes, the ASPCA used to be a good organization."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 907.164,
+          "text": "18 years ago, the ASPCA"
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 910.764,
+          "text": "A 501c3 organization made a contribution to New York Class to help that organization get started."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 921.664,
+          "text": "New York Class is a 501c4 organization, so that was an illegal transaction."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 927.464,
+          "text": "No one talks about that."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 929.064,
+          "text": "And so New York Class was corrupt upon its..."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 934.164,
+          "text": "Inception and exists to do the bidding of multimillionaire, billionaire, whatever he is, Steve Nislick."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 942.464,
+          "text": "So, so much for the ASPCA being a square."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 945.464,
+          "text": "They did do a lot of, for years, they were the enforcer, they were the regulator for the horse carriage industry."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 953.464,
+          "text": "They never really found anything wrong, so they got tired of it."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 958.964,
+          "text": "And we talked, someone made mention of what's going on now is animal cruelty."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 965.164,
+          "text": "I'll point out that in the 168 years of the industry, no member of the industry has ever been convicted of animal cruelty."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 973.764,
+          "text": "So that's that."
+        }
+      ]
+    },
+    {
+      "end_sec": 1018.464,
+      "id": "023",
+      "slug": "gennaro-claims-nyclass-influences-elections",
+      "start_sec": 975.064,
+      "summary": "Gennaro says elections have been decided by this issue and cites Chris Quinn's mayoral campaign, claiming NYClass threatened to crush her campaign if she did not support banning the industry. He argues NYClass can determine winners and losers in city elections.",
+      "title": "Gennaro claims NYClass influences elections",
+      "type": "VOTE",
+      "utterances": [
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 975.064,
+          "text": "Someone mentioned that elections have been decided by this."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 979.564,
+          "text": "You can ask that of Chris Quinn, who was running for mayor."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 982.664,
+          "text": "She was running away with the election until New York class put it to her and said, if you don't support the bend of the industry, we're going to crush your campaign."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 991.964,
+          "text": "She told them to stick it."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 993.464,
+          "text": "And so she was crushed by a million dollars in an anti-Quinn."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 1000.164,
+          "text": "So, yes, the New York class does have the ability to determine winners and losers in mayor elections and borough-wide elections, and I don't think that fact has been..."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 1012.264,
+          "text": "Lost on the speaker and our political advisors and people who want to run for borough office."
+        }
+      ]
+    },
+    {
+      "end_sec": 1046.364,
+      "id": "024",
+      "slug": "gennaro-says-mahajan-lawsuit-does-not-name-carriage-industry",
+      "start_sec": 1018.464,
+      "summary": "Gennaro argues Romash Mahajan was not a victim of the carriage industry and points to the lawsuit, saying the industry is not named despite having robust insurance. He suggests the Mahajan attorneys would have named the industry if they saw liability.",
+      "title": "Gennaro says Mahajan lawsuit does not name carriage industry",
+      "type": "VOTE",
+      "utterances": [
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 1018.464,
+          "text": "Romance."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 1020.464,
+          "text": "Romance was not the victim of the carriage industry."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 1024.064,
+          "text": "Just take a look at the lawsuit."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 1026.264,
+          "text": "You know, the carriage industry has robust insurance, but that fact notwithstanding, the only entity named in the suit..."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 1034.264,
+          "text": "They are not named in the lawsuit."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 1036.464,
+          "text": "I would suspect that if the romance attorneys thought that there was liability on the part of the industry, they would have named them."
+        }
+      ]
+    },
+    {
+      "end_sec": 1082.664,
+      "id": "025",
+      "slug": "gennaro-rejects-bill-and-votes-no",
+      "start_sec": 1046.364,
+      "summary": "Gennaro calls the 'win-win' and 'free the horses' claims misleading, arguing sanctuaries would put working horses in a nursing home. He rejects the bill, the process, and everything about it, and votes no.",
+      "title": "Gennaro rejects bill and votes no",
+      "type": "VOTE",
+      "utterances": [
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 1046.364,
+          "text": "I have to go win-win."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 1047.864,
+          "text": "That's a joke."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 1048.664,
+          "text": "Just ask the people in the carriage industry."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 1052.764,
+          "text": "We were also free the horses, another..."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 1056.664,
+          "text": "Croc of manure."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 1058.564,
+          "text": "If you take the horses to sanctuaries, they will, you know, they have to work in order to be healthy."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 1067.164,
+          "text": "And so you're essentially taking horses, some as young as five years old, and putting them in a nursing home."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 1073.064,
+          "text": "I"
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 1074.264,
+          "text": "Admittedly, so I reject this bill."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 1077.364,
+          "text": "I vote no."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 1078.664,
+          "text": "I reject this process."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 1080.164,
+          "text": "I reject everything about it."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 1081.564,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 1088.064,
+      "id": "026",
+      "slug": "clerk-announces-committee-approval-of-intro-943-a-6-3",
+      "start_sec": 1082.664,
+      "summary": "After Chair Schulman thanks Gennaro, the clerk announces the vote: six in the affirmative, three in the negative, no abstentions. The item is approved by the committee.",
+      "title": "Clerk announces committee approval of Intro 943-A, 6-3",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 1082.664,
+          "text": "Thank you very much."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1083.864,
+          "text": "With a vote of six in the affirmative, three in the negative, no abstentions, item has been approved by the committee."
+        }
+      ]
+    },
+    {
+      "end_sec": 1110.741,
+      "id": "027",
+      "slug": "chair-schulman-closes-vote-and-associates-with-de-la-rosa-and-narcisse",
+      "start_sec": 1088.064,
+      "summary": "The clerk notes that is a full committee, and Chair Schulman thanks everyone. She associates herself with Council Members De La Rosa and Narcisse on ensuring workers and horses are cared for, then closes the vote.",
+      "title": "Chair Schulman closes vote and associates with De La Rosa and Narcisse",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1088.064,
+          "text": "Madam Chair, that is a full committee."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 1090.164,
+          "text": "Thank you very much."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 1090.764,
+          "text": "Before we leave, I just want to associate myself with the remarks of Councilmember De La Rosa in terms of making sure that the workers are taken care of as well as the horses and also Councilmember Narcisse."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 1102.864,
+          "text": "And with that, this vote is closed."
+        }
+      ]
+    }
+  ],
+  "date": "2026-10-22",
+  "duration_sec": 1110.741,
+  "slug": "2026-10-22-1015-am-committee-on-health",
+  "summary": [
+    "The Committee on Health held a vote on Intro 943-A, a bill to prohibit horse-drawn cabs after June 1, 2028, and establish an industry transition plan.",
+    "Chair Lynn Schulman presided, and Council Member Christopher Marte, the bill's sponsor, spoke in favor, citing animal welfare, public safety, and the death of Romash Mahajan.",
+    "The committee approved the bill 6-3 after roll-call explanations, with members debating worker protections, the transition plan, and the process leading to the vote."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "10:15 AM",
+  "title": "Committee on Health",
+  "topic": "Prohibiting the operation of horse drawn cabs and establishing a horse drawn cab industry transition plan, and to repeal multiple sections of the administrative code of the city of New York, relating to carriage horses and horse drawn cabs",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://discourse-media.qqlab.io/NYCC-PV-CH-CHA_261022-Health/video-web.mp4"
+  }
+}
