@@ -47,7 +47,7 @@ jobs:
           echo "age: ${age_hours}h"
           if [ "$age_hours" -lt 26 ]; then
             echo "pipeline healthy"
-            stale="$(scripts/gh-retry gh issue list --repo "$REPO" --state open --search "in:title \"Production pipeline has not succeeded\"" --json number --jq '.[0].number // empty')"
+            stale="$(scripts/bot-issue "Production pipeline has not succeeded" | head -n1)"
             if [ -n "$stale" ]; then
               scripts/gh-retry gh issue close "$stale" --repo "$REPO" --comment "Pipeline is healthy again (last success ${last_success}); closing."
             fi
@@ -57,7 +57,7 @@ jobs:
           # Lead with @umqadir: the maintainer does not watch this repo, so an
           # unassigned, unmentioned bot issue sends no notification.
           body="@umqadir - No successful production run since ${last_success:-ever}. The site is not updating. Check the latest runs: https://github.com/${REPO}/actions/workflows/production.yml - likely causes: circuit breaker halted after repeated failures (fix cause, then dispatch manually), exhausted API credits, or the schedule stopped firing."
-          existing="$(scripts/gh-retry gh issue list --repo "$REPO" --state open --search "in:title \"Production pipeline has not succeeded\"" --json number --jq '.[0].number // empty')"
+          existing="$(scripts/bot-issue "Production pipeline has not succeeded" | head -n1)"
           if [ -n "$existing" ]; then
             scripts/gh-retry gh issue comment "$existing" --repo "$REPO" --body "$body"
           else

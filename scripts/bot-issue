@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+# Print the numbers of open issues in $REPO whose title contains the given
+# phrase and that this repo's own automation opened. Issues anyone else opens
+# are ignored, so a public issue title can never pause or steer the pipeline.
+
+set -u
+
+if [ "$#" -ne 1 ]; then
+  echo "usage: bot-issue <title phrase>" >&2
+  exit 2
+fi
+
+"$(dirname "$0")/gh-retry" gh issue list --repo "${REPO:?REPO must be set}" --state open \
+  --search "in:title \"$1\"" --json number,author \
+  --jq '.[] | select(.author.login == "app/github-actions" or .author.login == "app/claude") | .number'
