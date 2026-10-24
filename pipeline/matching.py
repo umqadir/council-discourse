@@ -162,6 +162,27 @@ def _plan_day(events: list[EventSlot], recordings: list[RecordingSlot], plan: Ma
         taken_recordings.add(filename)
         linked_to[event.event_id] = filename
 
+    # Off-site hearings are posted with only the date (NYCC-OFFSITE_260928):
+    # the recording belongs to the day's one event held away from City Hall
+    # and 250 Broadway. Several such events: hold rather than guess.
+    for recording in recordings:
+        if recording.filename in taken_recordings or "OFFSITE" not in (room_prefix(recording.filename) or "").upper():
+            continue
+        offsite = [
+            e for e in events
+            if e.event_id not in taken_events and e.location and not location_room_prefixes(e.location)
+        ]
+        if len(offsite) > 1:
+            names = ", ".join(_label(e) for e in offsite)
+            plan.holds[recording.filename] = f"off-site recording fits several off-site events: {names}"
+            continue
+        if offsite:
+            event = offsite[0]
+            plan.links.append((event.event_id, recording.filename, "off-site recording on an off-site event's date"))
+            plan.sources[recording.filename] = "offsite"
+            taken_events.add(event.event_id)
+            taken_recordings.add(recording.filename)
+
     # Phase 2: start time. Closest pair first, each side used once.
     candidates: list[tuple[float, str, int]] = []
     short: dict[str, float] = {}

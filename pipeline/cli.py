@@ -9,6 +9,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from . import db
+from .coverage import missing_meetings, missing_meetings_markdown
 from .config import GEMINI_LLM, REGISTRY_DB, chaptering_llm_config, naming_llm_config
 from .discover import discover_legistar, discover_viebit_rss, match_recordings
 from .export_site import export_site
@@ -490,6 +491,21 @@ def cmd_ci_health(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_missing_meetings(args: argparse.Namespace) -> int:
+    """Write the missing-meetings table to --out, or remove --out when none are missing."""
+    missing = missing_meetings(db.connect(args.db))
+    if not missing:
+        print("no recent meetings missing from the site")
+        if args.out and args.out.exists():
+            args.out.unlink()
+        return 0
+    table = missing_meetings_markdown(missing)
+    print(table)
+    if args.out:
+        args.out.write_text(table + "\n")
+    return 0
+
+
 def _truncate_one_line(value, width: int) -> str:
     text = " ".join(str(value or "").split())
     if len(text) > width:
@@ -662,6 +678,13 @@ def build_parser() -> argparse.ArgumentParser:
     ci_health = subparsers.add_parser("ci-health", help="print informational CI registry health checks")
     add_common(ci_health)
     ci_health.set_defaults(func=cmd_ci_health)
+
+    missing_cmd = subparsers.add_parser(
+        "missing-meetings", help="list recent Council meetings that have no page after a day"
+    )
+    add_common(missing_cmd)
+    missing_cmd.add_argument("--out", type=Path, default=None, help="write the table here; removed when none")
+    missing_cmd.set_defaults(func=cmd_missing_meetings)
 
     preflight_cmd = subparsers.add_parser(
         "preflight", help="check provider credits/auth before a paid batch (retries transient blips)"

@@ -180,6 +180,42 @@ jobs:
             scripts/gh-retry gh issue comment "$number" --repo "$REPO" --body "$body"
           fi
 
+      # A Council meeting that took place more than a day ago and has no page.
+      # Joint hearings, deferred events and older weeks don't count. The issue
+      # exists only while something is missing: a newly missing meeting gets a
+      # comment, resolved ones are edited out silently, and an empty list
+      # closes it.
+      - name: Alert on meetings missing from the site
+        if: ${{ steps.breaker.outputs.paused != 'true' }}
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          f=/tmp/missing-meetings.md
+          uv run python -m pipeline missing-meetings --out "$f"
+          title="Meetings missing from the site"
+          number="$(scripts/bot-issue "$title" | head -n1)"
+          if [ ! -s "$f" ]; then
+            if [ -n "$number" ]; then
+              scripts/gh-retry gh issue close "$number" --repo "$REPO" --comment "Every recent meeting has a page; closing."
+            fi
+            exit 0
+          fi
+          body="$(printf '@umqadir - these Council meetings took place more than a day ago and have no page:\n\n%s' "$(cat "$f")")"
+          if [ -z "$number" ]; then
+            scripts/gh-retry gh issue create --repo "$REPO" --assignee umqadir --title "$title" --body "$body"
+            exit 0
+          fi
+          previous="$(scripts/gh-retry gh issue view "$number" --repo "$REPO" --json body --jq .body)"
+          new_ids="$(grep -o '(event [0-9]*)' "$f" | while read -r id; do
+            printf '%s' "$previous" | grep -qF "$id" || echo "$id"; done)"
+          scripts/gh-retry gh issue edit "$number" --repo "$REPO" --body "$body"
+          if [ -n "$new_ids" ]; then
+            scripts/gh-retry gh issue comment "$number" --repo "$REPO" \
+              --body "@umqadir - newly missing: $(echo "$new_ids" | tr '\n' ' ')- see the table above."
+          fi
+
       - name: Checkpoint registry
         if: ${{ steps.breaker.outputs.paused != 'true' }}
         run: uv run python -m pipeline checkpoint-db

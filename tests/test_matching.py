@@ -372,3 +372,33 @@ def test_match_recordings_ignores_dates_before_coverage(tmp_path: Path) -> None:
     _seed_event(conn, 1, "Committee on Finance", "10:00 AM", CHAMBERS, day="2026-05-01T00:00:00")
     db.upsert_meeting(conn, {"viebit_filename": "NYCC-PV-CH-CHA_260501-100500"})
     assert match_recordings(conn, coverage_start="2026-06-20").links == []
+
+
+SEP28 = "2026-09-28T00:00:00"
+SCHOMBURG = "The New York Public Library at 515 Malcolm X Boulevard, New York, NY 10037"
+
+
+def test_offsite_recording_pairs_with_the_days_offsite_event() -> None:
+    events = _events(
+        [
+            (22627, "Committee on Cultural Affairs, Libraries and International Relations", "11:00 AM", SCHOMBURG),
+            (22900, "Committee on Finance", "10:00 AM", CHAMBERS),
+        ],
+        SEP28,
+    )
+    plan = plan_matches(events, [RecordingSlot("NYCC-OFFSITE_260928", "2026-09-30T16:03:28+00:00")])
+    assert _links(plan) == {"NYCC-OFFSITE_260928": 22627}
+    assert plan.sources == {"NYCC-OFFSITE_260928": "offsite"}
+
+
+def test_offsite_recording_with_two_offsite_events_is_held() -> None:
+    events = _events(
+        [
+            (22627, "Committee on Cultural Affairs, Libraries and International Relations", "11:00 AM", SCHOMBURG),
+            (22901, "Committee on Parks and Recreation", "2:00 PM", "Brooklyn Borough Hall"),
+        ],
+        SEP28,
+    )
+    plan = plan_matches(events, [RecordingSlot("NYCC-OFFSITE_260928")])
+    assert plan.links == []
+    assert "several off-site events" in plan.holds["NYCC-OFFSITE_260928"]
