@@ -6,7 +6,7 @@ import inter500 from "@fontsource/inter/files/inter-latin-500-normal.woff?bytes"
 import inter600 from "@fontsource/inter/files/inter-latin-600-normal.woff?bytes";
 import sourceSerif600 from "@fontsource/source-serif-4/files/source-serif-4-latin-600-normal.woff?bytes";
 import sourceSerif700 from "@fontsource/source-serif-4/files/source-serif-4-latin-700-normal.woff?bytes";
-import { chapterTypeLabel, formatDate, formatDuration } from "./format";
+import { chapterTypeLabel, formatDate, formatDuration, formatTime } from "./format";
 import type { Chapter, Meeting } from "./types";
 
 // Card dimensions match the Open Graph 1.91:1 recommendation.
@@ -278,7 +278,7 @@ export function chapterOgPath(
 export function homeCard(): Promise<Uint8Array> {
   return render(
     card({
-      eyebrow: "Public meeting record",
+      eyebrow: "Independent transcripts",
       headline: "NYC Council meetings,\nchaptered by time.",
       meta: "Summaries, chapters, speaker-attributed transcripts, and click-to-seek video.",
       headlineSize: 76,
@@ -287,7 +287,7 @@ export function homeCard(): Promise<Uint8Array> {
 }
 
 export function meetingCard(meeting: Meeting): Promise<Uint8Array> {
-  const meta = `${formatDate(meeting.date)}${meeting.time ? ` · ${meeting.time}` : ""} · ${formatDuration(
+  const meta = `${formatDate(meeting.date)}${meeting.time ? ` · ${formatTime(meeting.time)}` : ""} · ${formatDuration(
     meeting.duration_sec,
   )}`;
   return render(

@@ -1,6 +1,6 @@
 ---
 import Badge from "@components/Badge.astro";
-import { formatClock, formatDuration } from "@lib/format";
+import { formatClock, formatDuration, hasSummaryText } from "@lib/format";
 import type { Chapter, Meeting } from "@lib/types";
 import { bodySlug } from "@lib/data";
 
@@ -32,9 +32,13 @@ const href = `/meetings/${bodySlug(meeting)}/${meeting.slug}/chapter/${chapter.s
       <h3 class="mt-2 font-serif text-xl font-semibold leading-tight text-ink group-hover:text-civic-dark">
         {chapter.title}
       </h3>
-      <p class="mt-2 line-clamp-6 leading-7 text-muted">
-        {chapter.summary}
-      </p>
+      {
+        hasSummaryText(chapter.summary) && (
+          <p class="mt-2 line-clamp-6 leading-7 text-muted">
+            {chapter.summary}
+          </p>
+        )
+      }
     </div>
   </article>
 </a>

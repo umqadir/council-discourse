@@ -1,7 +1,7 @@
 ---
 import Badge from "@components/Badge.astro";
 import { bodySlug } from "@lib/data";
-import { formatDate, formatDuration } from "@lib/format";
+import { formatDate, formatDuration, formatTime, hasSummaryText } from "@lib/format";
 import type { Meeting } from "@lib/types";
 
 interface Props {
@@ -10,7 +10,7 @@ interface Props {
 
 const { meeting } = Astro.props;
 const href = `/meetings/${bodySlug(meeting)}/${meeting.slug}/`;
-const summary = meeting.summary.join(" ");
+const summary = meeting.summary.filter(hasSummaryText).join(" ");
 ---
 
 <article
@@ -20,7 +20,7 @@ const summary = meeting.summary.join(" ");
 >
   <div class="text-sm tabular text-muted">
     <div>{formatDate(meeting.date)}</div>
-    <div>{meeting.time}</div>
+    <div>{formatTime(meeting.time)}</div>
   </div>
   <div class="min-w-0">
     <div class="mb-2 flex flex-wrap gap-2">
@@ -35,6 +35,6 @@ const summary = meeting.summary.join(" ");
     <div class="mt-1 text-sm tabular text-muted">
       {formatDuration(meeting.duration_sec)}
     </div>
-    <p class="mt-3 line-clamp-6 max-w-3xl leading-7 text-muted">{summary}</p>
+    {summary && <p class="mt-3 line-clamp-6 max-w-3xl leading-7 text-muted">{summary}</p>}
   </div>
 </article>

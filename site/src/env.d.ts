@@ -2,6 +2,7 @@
 
 declare module "virtual:chapter-manifest" {
   export const chapterRoutes: import("@lib/edge-data").ChapterRouteRecord[];
+  export const buildId: string;
 }
 
 declare module "*?bytes" {

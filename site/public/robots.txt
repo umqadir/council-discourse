@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://discourse.qqlab.io/sitemap-index.xml

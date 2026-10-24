@@ -61,7 +61,7 @@ function readRecentMeetings() {
     .readdirSync(meetingDataDir)
     .filter((name) => name.endsWith(".json"))
     .map((name) => JSON.parse(fs.readFileSync(path.join(meetingDataDir, name), "utf8")))
-    .sort((a, b) => `${b.date} ${b.time}`.localeCompare(`${a.date} ${a.time}`));
+    .sort((a, b) => b.date.localeCompare(a.date) || timeToMinutes(b.time) - timeToMinutes(a.time));
 
   const newest = meetings[0];
   if (!newest) {
@@ -83,6 +83,17 @@ function readRecentMeetings() {
   }
 
   return recent;
+}
+
+// Mirrors timeToMinutes() in src/lib/format.ts: minutes after midnight for a
+// 12-hour time string ("1:00 PM"); unparseable times sort first.
+function timeToMinutes(time) {
+  const match = /^\s*(\d{1,2}):(\d{2})\s*([AP])\.?M\.?\s*$/i.exec(time ?? "");
+  if (!match) {
+    return -1;
+  }
+  const hours = (Number(match[1]) % 12) + (match[3].toUpperCase() === "P" ? 12 : 0);
+  return hours * 60 + Number(match[2]);
 }
 
 // Cloudflare Pages caps _routes.json rules at 100 characters each and 100
@@ -224,7 +235,12 @@ function chapterManifestPlugin(manifest) {
       if (id !== resolvedId) {
         return null;
       }
-      return `export const chapterRoutes = ${JSON.stringify(manifest.routes)};`;
+      return [
+        `export const chapterRoutes = ${JSON.stringify(manifest.routes)};`,
+        // Changes every build so edge-cached chapter HTML is re-rendered after
+        // a deploy that changes templates but not meeting data.
+        `export const buildId = ${JSON.stringify(Date.now().toString(36))};`,
+      ].join("\n");
     },
   };
 }

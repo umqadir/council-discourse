@@ -7,7 +7,8 @@ export const prerender = false;
 export const GET: APIRoute = async ({ params, locals }) => {
   const result = await loadEdgeChapter(params, getRuntime(locals)?.env);
   if (result.status === "not-found") {
-    return new Response("Not found", { status: 404 });
+    // A null body lets Astro serve the prerendered 404 page with this status.
+    return new Response(null, { status: 404 });
   }
   if (result.status === "missing-binding") {
     return new Response(`${result.binding} R2 binding is not configured`, { status: 500 });

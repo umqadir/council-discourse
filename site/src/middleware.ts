@@ -1,4 +1,5 @@
 import { defineMiddleware } from "astro:middleware";
+import { buildId } from "virtual:chapter-manifest";
 import {
   getChapterRouteRecordForPath,
   getRuntime,
@@ -17,6 +18,15 @@ export const onRequest = defineMiddleware(async (context, next) => {
   const record = getChapterRouteRecordForPath(url.pathname);
   if (!record) {
     return next();
+  }
+
+  // Chapter pages live at trailing-slash URLs; redirect the bare form so it
+  // never renders with a second canonical.
+  if (url.pathname !== record.pathname && url.pathname !== record.ogPathname) {
+    return new Response(null, {
+      status: 301,
+      headers: { Location: `${record.pathname}${url.search}` },
+    });
   }
 
   const runtime = getRuntime(context.locals);
@@ -48,6 +58,7 @@ export const onRequest = defineMiddleware(async (context, next) => {
 
   const cacheKeyUrl = new URL(url.pathname, url.origin);
   cacheKeyUrl.searchParams.set("v", record.dataVersion);
+  cacheKeyUrl.searchParams.set("b", buildId);
   const cacheKey = new Request(cacheKeyUrl, context.request);
   const cached = await cache.match(cacheKey);
   if (cached) {
