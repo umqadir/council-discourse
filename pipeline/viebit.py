@@ -3,7 +3,7 @@ from __future__ import annotations
 import re
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
-from datetime import datetime
+from datetime import date, datetime
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 
@@ -71,6 +71,39 @@ def parse_filename_timestamp(filename: str) -> datetime | None:
     if not m:
         return None
     return datetime.strptime("".join(m.groups()), "%y%m%d%H%M%S")
+
+
+# Re-posted recordings carry the body instead of the start time:
+# NYCC-PV-CH-CHA_261022-Education, NYCC-PV-CH-CHA_261022-CJ.
+_DATE_SUFFIX_RE = re.compile(r"_(\d{6})-([A-Za-z][A-Za-z0-9]*)$")
+_DATE_ONLY_RE = re.compile(r"_(\d{6})$")
+
+
+def parse_filename_date(filename: str) -> date | None:
+    """Recording date from either filename style (time-stamped or body-suffixed)."""
+    stamp = parse_filename_timestamp(filename)
+    if stamp:
+        return stamp.date()
+    normalized = normalize_filename(filename)
+    m = _DATE_SUFFIX_RE.search(normalized) or _DATE_ONLY_RE.search(normalized)
+    if not m:
+        return None
+    try:
+        return datetime.strptime(m.group(1), "%y%m%d").date()
+    except ValueError:
+        return None
+
+
+def filename_body_suffix(filename: str) -> str | None:
+    """The body label of a re-posted recording ('CJ', 'Education'), else None."""
+    m = _DATE_SUFFIX_RE.search(normalize_filename(filename))
+    if not m:
+        return None
+    try:
+        datetime.strptime(m.group(1), "%y%m%d")
+    except ValueError:
+        return None
+    return m.group(2)
 
 
 def room_prefix(filename: str) -> str | None:

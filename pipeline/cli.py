@@ -10,7 +10,7 @@ from pathlib import Path
 
 from . import db
 from .config import GEMINI_LLM, REGISTRY_DB, chaptering_llm_config, naming_llm_config
-from .discover import discover_legistar, discover_viebit_rss
+from .discover import discover_legistar, discover_viebit_rss, match_recordings
 from .export_site import export_site
 from .fetch import fetch_meeting
 from .models import Meeting
@@ -99,11 +99,16 @@ def cmd_discover(args: argparse.Namespace) -> int:
         lambda: discover_legistar(conn, start_date=args.legistar_start, end_date=args.legistar_end),
     )
     event_count, skipped_legistar = legistar_result if legistar_result is not None else (0, True)
+    # Pair recordings with events only after both sources are read, so every
+    # candidate is visible and each side is used once.
+    plan, _ = _run_source("match", lambda: match_recordings(conn))
 
     if skipped_legistar and legistar_ok:
         print(f"viebit_rss={rss_count}; legistar=skipped (LEGISTAR_TOKEN unset)", file=log)
     else:
         print(f"viebit_rss={rss_count} (ok={rss_ok}); legistar_events={event_count} (ok={legistar_ok})", file=log)
+    if plan is not None:
+        print(f"matched={len(plan.links)}; held={len(plan.holds)}", file=log)
 
     if args.emit_pending_json:
         print(pending_matrix_json(conn, limit=args.pending_limit))

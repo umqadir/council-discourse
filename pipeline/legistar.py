@@ -10,7 +10,13 @@ from urllib.parse import parse_qs, unquote, urljoin, urlparse
 import httpx
 
 from .config import HTTP_TIMEOUT_SECONDS, LEGISTAR_BASE_URL, LEGISTAR_INSITE_BASE_URL
-from .viebit import normalize_filename, parse_filename_timestamp, room_prefix
+from .viebit import (
+    filename_body_suffix,
+    normalize_filename,
+    parse_filename_date,
+    parse_filename_timestamp,
+    room_prefix,
+)
 
 VIDEO_LINK_RE = re.compile(r"Video\.aspx\?Mode=Auto&amp;URL=([^\"'&<]+)|Video\.aspx\?Mode=Auto&URL=([^\"'<]+)")
 
@@ -63,12 +69,18 @@ def viebit_filename_from_url(url: str) -> str | None:
     return None
 
 
-def extract_viebit_filename_from_insite_html(html_text: str) -> str | None:
+def extract_viebit_filenames_from_insite_html(html_text: str) -> list[str]:
+    filenames: list[str] = []
     for url in extract_video_urls_from_insite_html(html_text):
         filename = viebit_filename_from_url(url)
-        if filename:
-            return filename
-    return None
+        if filename and filename not in filenames:
+            filenames.append(filename)
+    return filenames
+
+
+def extract_viebit_filename_from_insite_html(html_text: str) -> str | None:
+    filenames = extract_viebit_filenames_from_insite_html(html_text)
+    return filenames[0] if filenames else None
 
 
 def event_from_api(raw: dict) -> LegistarEvent:
@@ -307,18 +319,123 @@ def location_room_prefixes(location: str | None) -> set[str]:
     return prefixes
 
 
+def location_exact_room(location: str | None) -> str | None:
+    """The one recording room a location names, when it names exactly one.
+
+    "250 Broadway - 8th Floor - Hearing Room 2" -> NYCC-250-8-2. The hearing
+    room number is right for ~98% of clerk-linked recordings, so callers treat
+    a mismatch as a penalty, not a veto.
+    """
+    prefixes = location_room_prefixes(location)
+    if len(prefixes) == 1:
+        return next(iter(prefixes))
+    m = re.search(r"hearing room\s*(\d)", (location or "").lower())
+    if m and f"NYCC-250-8-{m.group(1)}" in prefixes:
+        return f"NYCC-250-8-{m.group(1)}"
+    return None
+
+
+# Matching window for a recording whose filename carries its start time,
+# relative to the scheduled event time. Clerk-linked recordings start between
+# 4 minutes early and 54 minutes late; anything later is more likely a
+# different session in the same room than a late start.
+MATCH_EARLY_MINUTES = 15
+MATCH_LATE_MINUTES = 60
+# Early starts are rare, so an early recording loses to an on-time-or-late one.
+MATCH_EARLY_WEIGHT = 5
+MATCH_ROOM_MISMATCH_PENALTY = 30
+
+
+def time_match_cost(
+    filename: str,
+    event_date: str | None,
+    event_time: str | None,
+    location: str | None = None,
+) -> float | None:
+    """Cost of pairing a time-stamped recording with an event; None = not a candidate."""
+    file_dt = parse_filename_timestamp(filename)
+    event_dt = parse_event_datetime(event_date, event_time)
+    if not file_dt or not event_dt or not event_time or file_dt.date() != event_dt.date():
+        return None
+    prefix = room_prefix(filename)
+    prefixes = location_room_prefixes(location)
+    if prefixes and prefix not in prefixes:
+        return None
+    delta = (file_dt - event_dt).total_seconds() / 60
+    if delta < -MATCH_EARLY_MINUTES or delta > MATCH_LATE_MINUTES:
+        return None
+    cost = delta if delta >= 0 else -delta * MATCH_EARLY_WEIGHT
+    exact = location_exact_room(location)
+    if exact and prefix != exact:
+        cost += MATCH_ROOM_MISMATCH_PENALTY
+    return cost
+
+
+_BODY_LEADING_WORDS = {"committee", "subcommittee", "on", "the", "to"}
+_BODY_STOPWORDS = {"and", "of", "on", "the", "for", "to"}
+
+
+def body_name_words(body_name: str | None) -> list[str]:
+    """Significant words of a body name: 'Committee on Criminal Justice' -> [criminal, justice]."""
+    words = re.findall(r"[a-z0-9]+", (body_name or "").lower())
+    while words and words[0] in _BODY_LEADING_WORDS:
+        words.pop(0)
+    return [word for word in words if word not in _BODY_STOPWORDS]
+
+
+def body_suffix_fit(suffix: str | None, body_name: str | None) -> int | None:
+    """How well a filename body suffix names a body; lower is better, None = no fit.
+
+    0 the whole name (Education, Finance), 1 its initials (CJ = Criminal
+    Justice), 2 its leading word (Parks, Cultural, Rules), 3 another word.
+    Prefixes of four or more letters count as the word (Trans, Educ).
+    """
+    if not suffix:
+        return None
+    s = suffix.lower()
+    if infer_meeting_type(body_name) == "STATED_MEETING" and s in {"stated", "statedmeeting", "cc"}:
+        return 0
+    words = body_name_words(body_name)
+    if not words:
+        return None
+
+    def names(word: str) -> bool:
+        return s == word or (len(s) >= 4 and word.startswith(s))
+
+    if s == "".join(words):
+        return 0
+    if len(s) >= 2 and len(words) >= 2 and s == "".join(word[0] for word in words):
+        return 1
+    if names(words[0]):
+        return 2
+    if any(names(word) for word in words[1:]):
+        return 3
+    return None
+
+
 def filename_matches_event(
     filename: str,
     event_date: str | None,
     event_time: str | None,
     location: str | None = None,
     tolerance_minutes: int = 150,
+    body_name: str | None = None,
 ) -> bool:
-    file_dt = parse_filename_timestamp(filename)
+    """Loose plausibility check for a recording the clerk linked to an event.
+
+    Inferred pairings go through time_match_cost/body_suffix_fit instead.
+    """
     event_dt = parse_event_datetime(event_date, event_time)
-    if not file_dt or not event_dt:
+    if not event_dt:
         return False
     prefixes = location_room_prefixes(location)
+    file_dt = parse_filename_timestamp(filename)
+    if not file_dt:
+        file_date = parse_filename_date(filename)
+        if file_date != event_dt.date():
+            return False
+        suffix = filename_body_suffix(filename)
+        return suffix is None or body_name is None or body_suffix_fit(suffix, body_name) is not None
     prefix = room_prefix(filename)
     if prefixes and prefix not in prefixes:
         return False

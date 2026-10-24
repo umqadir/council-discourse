@@ -8,14 +8,24 @@ from . import db
 from .legistar import (
     LegistarClient,
     body_slug,
+    body_suffix_fit,
     filename_matches_event,
     infer_meeting_type,
     meeting_slug,
+    parse_event_datetime,
     viebit_filename_from_url,
 )
+from .matching import HOLD_NOTE_PREFIX, EventSlot, MatchPlan, RecordingSlot, plan_matches
 from .utils import load_dotenv
 from .utils import with_retries
-from .viebit import fetch_rss, normalize_filename, resolve_viebit_hash
+from .viebit import (
+    fetch_rss,
+    filename_body_suffix,
+    normalize_filename,
+    parse_filename_date,
+    parse_filename_timestamp,
+    resolve_viebit_hash,
+)
 
 LEGISTAR_CURSOR_KEY = "legistar_event_last_modified_utc"
 # Forward-only coverage (PLAN.md section 12): bootstrap from just before the
@@ -38,26 +48,6 @@ def discover_viebit_rss(conn: sqlite3.Connection, rss_url: str | None = None) ->
             },
         )
     return len(items)
-
-
-def _join_unmatched_rss_by_backstop(conn: sqlite3.Connection, event_values: dict) -> str | None:
-    rows = conn.execute(
-        """
-        SELECT meeting_key, viebit_filename
-        FROM meetings
-        WHERE viebit_filename IS NOT NULL
-          AND legistar_event_id IS NULL
-        """
-    ).fetchall()
-    for row in rows:
-        if filename_matches_event(
-            str(row["viebit_filename"]),
-            event_values.get("event_date"),
-            event_values.get("event_time"),
-            event_values.get("event_location"),
-        ):
-            return str(row["viebit_filename"])
-    return None
 
 
 def _values_from_event(event) -> dict:
@@ -88,6 +78,11 @@ def _values_from_event(event) -> dict:
 
 
 def _attach_video_filename(conn: sqlite3.Connection, client: LegistarClient, event, values: dict) -> None:
+    """Attach the recording the clerk linked to this event, if it is plausible.
+
+    Events without a clerk link are paired later, one-to-one, by
+    match_recordings once every source has been read.
+    """
     filename = viebit_filename_from_url(event.video_path or "") if event.video_path else None
     if filename and _filename_plausible_for_event(filename, event):
         values["viebit_filename"] = filename
@@ -100,20 +95,18 @@ def _attach_video_filename(conn: sqlite3.Connection, client: LegistarClient, eve
             print(f"  detail-page fetch failed for event {event.event_id}: {exc}", file=sys.stderr, flush=True)
             html = None
         if html:
-            from .legistar import extract_viebit_filename_from_insite_html
+            from .legistar import extract_viebit_filenames_from_insite_html
 
-            filename = extract_viebit_filename_from_insite_html(html)
-            if filename and _filename_plausible_for_event(filename, event):
+            filename = _closest_plausible_filename(extract_viebit_filenames_from_insite_html(html), event)
+            if filename:
                 values["viebit_filename"] = filename
+    if values.get("viebit_filename") and not _clerk_link_allowed(conn, event.event_id, str(values["viebit_filename"])):
+        values.pop("viebit_filename")
     if values.get("viebit_filename") and not values.get("viebit_hash"):
         try:
             values["viebit_hash"] = resolve_viebit_hash(str(values["viebit_filename"]))
         except Exception:
             pass
-    if not values.get("viebit_filename"):
-        backstop = _join_unmatched_rss_by_backstop(conn, values)
-        if backstop:
-            values["viebit_filename"] = backstop
 
 
 def _filename_plausible_for_event(filename: str, event) -> bool:
@@ -123,7 +116,163 @@ def _filename_plausible_for_event(filename: str, event) -> bool:
         event.event_time,
         event.location,
         tolerance_minutes=150,
+        body_name=event.body_name,
     )
+
+
+def _closest_plausible_filename(filenames: list[str], event) -> str | None:
+    """Of the videos an InSite page links, the one starting closest to the event."""
+    event_dt = parse_event_datetime(event.event_date, event.event_time)
+    ranked = []
+    for filename in filenames:
+        if not _filename_plausible_for_event(filename, event):
+            continue
+        start = parse_filename_timestamp(filename)
+        if start and event_dt:
+            rank = abs((start - event_dt).total_seconds())
+        else:
+            fit = body_suffix_fit(filename_body_suffix(filename), event.body_name)
+            rank = float(fit) if fit is not None else float("inf")
+        ranked.append((rank, filename))
+    return min(ranked)[1] if ranked else None
+
+
+def _clerk_link_allowed(conn: sqlite3.Connection, event_id: int, filename: str) -> bool:
+    """Keep pairs one-to-one and never swap the recording under processed work."""
+    owner = conn.execute(
+        "SELECT meeting_key, legistar_event_id FROM meetings WHERE viebit_filename = ?", (filename,)
+    ).fetchone()
+    if owner and owner["legistar_event_id"] is not None and int(owner["legistar_event_id"]) != int(event_id):
+        print(
+            f"::warning::Legistar links {filename} to event {event_id}, but it already belongs to "
+            f"event {owner['legistar_event_id']}; keeping the existing pairing",
+            file=sys.stderr,
+            flush=True,
+        )
+        return False
+    current = conn.execute(
+        "SELECT meeting_key, viebit_filename, fetch_status FROM meetings WHERE legistar_event_id = ?", (event_id,)
+    ).fetchone()
+    if (
+        current
+        and current["viebit_filename"]
+        and current["viebit_filename"] != filename
+        and current["fetch_status"] != "pending"
+    ):
+        print(
+            f"::warning::Legistar now links event {event_id} to {filename}, but {current['meeting_key']} "
+            "is already processed under it; not switching (reset-meeting, then detach, to re-pair)",
+            file=sys.stderr,
+            flush=True,
+        )
+        return False
+    return True
+
+
+def match_recordings(conn: sqlite3.Connection, coverage_start: str | None = None) -> MatchPlan:
+    """Pair unmatched recordings with unmatched events, one-to-one, closest first.
+
+    Runs after both discovery sources and needs no Legistar token: events and
+    recordings both come from the registry. Existing pairs are never changed
+    here; recordings that look wrong for the only event they could belong to
+    are held and surfaced (warning + last_error note) instead of linked.
+    """
+    floor = (coverage_start or os.environ.get("COUNCIL_COVERAGE_START", "2026-06-20"))[:10]
+    rows = conn.execute(
+        """
+        SELECT meeting_key, legistar_event_id, viebit_filename, viebit_pub_date, duration_seconds,
+               body_name, event_date, event_time, event_location, last_error
+        FROM meetings
+        WHERE legistar_event_id IS NOT NULL OR viebit_filename IS NOT NULL
+        """
+    ).fetchall()
+    events: list[EventSlot] = []
+    recordings: list[RecordingSlot] = []
+    unmatched: dict[str, sqlite3.Row] = {}
+    for row in rows:
+        if row["legistar_event_id"] is not None and str(row["event_date"] or "")[:10] >= floor:
+            events.append(
+                EventSlot(
+                    event_id=int(row["legistar_event_id"]),
+                    body_name=row["body_name"],
+                    event_date=row["event_date"],
+                    event_time=row["event_time"],
+                    location=row["event_location"],
+                    linked_filename=row["viebit_filename"],
+                )
+            )
+        if row["viebit_filename"]:
+            day = parse_filename_date(str(row["viebit_filename"]))
+            if day is None or day.isoformat() < floor:
+                continue
+            recordings.append(
+                RecordingSlot(
+                    filename=str(row["viebit_filename"]),
+                    pub_date=row["viebit_pub_date"],
+                    duration_seconds=row["duration_seconds"],
+                    linked_event_id=row["legistar_event_id"],
+                )
+            )
+            if row["legistar_event_id"] is None:
+                unmatched[str(row["viebit_filename"])] = row
+
+    plan = plan_matches(events, recordings)
+    for event_id, filename, reason in plan.links:
+        print(f"match: {filename} -> event {event_id} ({reason})", file=sys.stderr, flush=True)
+        row = db.upsert_meeting(conn, {"legistar_event_id": event_id, "viebit_filename": filename})
+        if str(row["last_error"] or "").startswith(HOLD_NOTE_PREFIX):
+            db.update_meeting(conn, str(row["meeting_key"]), {"last_error": None})
+    for filename, row in unmatched.items():
+        if any(link[1] == filename for link in plan.links):
+            continue
+        note = plan.holds.get(filename)
+        current = str(row["last_error"] or "")
+        if note:
+            print(f"::warning::recording {filename} not matched: {note}", file=sys.stderr, flush=True)
+            if current != HOLD_NOTE_PREFIX + note:
+                db.update_meeting(conn, str(row["meeting_key"]), {"last_error": HOLD_NOTE_PREFIX + note})
+        elif current.startswith(HOLD_NOTE_PREFIX):
+            db.update_meeting(conn, str(row["meeting_key"]), {"last_error": None})
+    return plan
+
+
+# Columns that describe the Legistar event (not the recording or its processing).
+EVENT_COLUMNS = (
+    "legistar_event_id",
+    "legistar_event_guid",
+    "event_last_modified_utc",
+    "body_name",
+    "event_date",
+    "event_time",
+    "event_location",
+    "agenda_pdf_url",
+    "minutes_pdf_url",
+    "insite_url",
+    "event_video_path",
+    "agenda_status_name",
+    "minutes_status_name",
+    "meeting_type",
+    "meeting_slug",
+    "body_slug",
+    "event_topic",
+)
+
+
+def detach_event(conn: sqlite3.Connection, meeting_key: str) -> str:
+    """Split a wrongly paired recording row back into a recording and an event.
+
+    The recording row keeps its key, artifacts and statuses but loses the
+    event fields; the event moves to its own event-<id> row so discovery can
+    pair it again. Run `reset-meeting` on the row first so the durable R2
+    result record cannot re-merge the old pairing. Returns the event row key.
+    """
+    row = db.get_meeting(conn, meeting_key)
+    if row["legistar_event_id"] is None or not row["viebit_filename"]:
+        raise ValueError(f"{meeting_key} is not a paired recording row")
+    event_values = {column: row[column] for column in EVENT_COLUMNS}
+    db.update_meeting(conn, meeting_key, {column: None for column in EVENT_COLUMNS})
+    event_row = db.upsert_meeting(conn, {**event_values, "discover_status": "discovered"})
+    return str(event_row["meeting_key"])
 
 
 def discover_legistar(
