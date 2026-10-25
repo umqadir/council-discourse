@@ -11,10 +11,6 @@ const projectDir = fileURLToPath(new URL(".", import.meta.url));
 const meetingDataDir = path.join(projectDir, "src", "data", "meetings");
 const r2DataPrefix = "data/meetings";
 const redirectedBodyList = new URL("/meetings/new-york-city-council/", site).href;
-const chapterManifest = readChapterManifest();
-const chapterSitemapPages = chapterManifest.routes.map((route) =>
-  new URL(route.pathname, site).href,
-);
 // Match getRecentChapterRoutes() in src/lib/data.ts: newest meetings within a
 // day window, bounded by a chapter budget so dist stays well under the asset
 // ceiling.
@@ -25,6 +21,10 @@ const DAY_MS = 24 * 60 * 60 * 1000;
 // Newest meetings whose chapter pages + OG images are prerendered statically
 // (mirrors getRecentChapterRoutes() in src/lib/data.ts).
 const recentMeetings = readRecentMeetings();
+const chapterManifest = readChapterManifest(new Set(recentMeetings.map((m) => m.meetingSlug)));
+const chapterSitemapPages = chapterManifest.routes.map((route) =>
+  new URL(route.pathname, site).href,
+);
 
 export default defineConfig({
   output: "static",
@@ -182,7 +182,7 @@ function relocateDir(from, to) {
   return count;
 }
 
-function readChapterManifest() {
+function readChapterManifest(prerenderedSlugs) {
   if (!fs.existsSync(meetingDataDir)) {
     return { routes: [] };
   }
@@ -210,6 +210,7 @@ function readChapterManifest() {
         dataVersion: version,
         pathname: `/meetings/${bodySlug}/${meetingSlug}/chapter/${chapterSlug}/`,
         ogPathname: `/og/chapter/${bodySlug}/${meetingSlug}/${chapterSlug}.png`,
+        prerendered: prerenderedSlugs.has(meetingSlug),
       });
     }
   }

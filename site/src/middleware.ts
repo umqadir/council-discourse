@@ -35,10 +35,12 @@ export const onRequest = defineMiddleware(async (context, next) => {
   // are prerendered into the deploy as static assets at these same URLs.
   // _routes.json cannot carve them out per meeting (rules cap at 100
   // characters each and 100 entries total), so the worker runs for every
-  // chapter path and serves the prerendered asset when one exists; only older
-  // chapters fall through to the SSR render below.
+  // chapter path and serves the prerendered asset for meetings this build
+  // prerendered; only older chapters fall through to the SSR render below.
+  // A meeting that has left the window can still have a stale prerendered
+  // copy in the asset cache, so its record, not the asset, decides.
   const assets = runtime?.env?.ASSETS;
-  if (assets) {
+  if (assets && record.prerendered) {
     try {
       const asset = await assets.fetch(context.request.url);
       if (asset.ok) {

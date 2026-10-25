@@ -9,6 +9,9 @@ export interface ChapterRouteRecord {
   dataVersion: string;
   pathname: string;
   ogPathname: string;
+  // In this build's static-recent window; other meetings' old prerendered
+  // copies can linger in the asset cache after they leave the window.
+  prerendered: boolean;
 }
 
 export interface R2ObjectBody {
