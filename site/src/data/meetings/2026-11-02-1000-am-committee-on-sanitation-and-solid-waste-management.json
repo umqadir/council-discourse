@@ -1,0 +1,3422 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 852.152,
+      "id": "001",
+      "slug": "audio-check-and-zoom-setup-for-committee-on-sanitation-hearing",
+      "start_sec": 349.4,
+      "summary": "Council staff conduct audio checks and Zoom setup for the hearing. Chief Sergeant Terrence Rafael Perez conducts an audio check. Chair Sanchez and Council Member Santosuosso confirm they can hear.",
+      "title": "Audio check and Zoom setup for Committee on Sanitation hearing",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 349.4,
+          "text": "Hello?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 350.1,
+          "text": "Can I have a Zoom check?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 370.572,
+          "text": "Hello, can I have a Zoom check?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 431.072,
+          "text": "This is Chief Sergeant Terrence Rafael Perez conducting an audio check for Zoom."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 435.072,
+          "text": "Are you hearing us?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 436.572,
+          "text": "She can say one minute."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 488.672,
+          "text": "Hey, Raquel, can you hear me?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 492.952,
+          "text": "We can hear you."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 494.252,
+          "text": "Okay, thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 495.352,
+          "text": "Sure."
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 496.852,
+          "text": "Loud and clear."
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 497.352,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 885.052,
+      "id": "002",
+      "slug": "chair-sanchez-opens-hearing-with-humor-about-cyber-attack",
+      "start_sec": 852.152,
+      "summary": "Chair Justin E. Sanchez welcomes attendees and jokes about a cyber attack on the Committee on Sanitation. He then turns the floor over to Council Member Kayla Santosuosso for questions.",
+      "title": "Chair Sanchez opens hearing with humor about cyber attack",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 852.152,
+          "text": "And welcome back."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 855.452,
+          "text": "Thank you for joining us through the Committee on Sanitation's cyber attack."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 864.052,
+          "text": "They were so much highly sensitive information and snow materials being discussed that, you know, Los Angeles really..."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 872.852,
+          "text": "Came for us."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 875.752,
+          "text": "They needed all of our snow knowledge."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 879.152,
+          "text": "Having said that, I will now turn it over to Council Member Sanchez-Woso for some questions."
+        }
+      ]
+    },
+    {
+      "end_sec": 1136.252,
+      "id": "003",
+      "slug": "santosuosso-questions-dsny-on-pedestrian-ramp-and-crosswalk-snow-clearing",
+      "start_sec": 885.052,
+      "summary": "Council Member Kayla Santosuosso acknowledges a constituent killed by a sanitation truck, then asks about corner property responsibility for clearing pedestrian ramps. She raises concerns about plowed snow piling at crosswalks and asks about strategies to ensure entire crosswalks are cleared. DSNY officials describe prioritizing corners near bus stops and subway stops, and using emergency snow shovelers.",
+      "title": "Santosuosso questions DSNY on pedestrian ramp and crosswalk snow clearing",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 885.052,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 886.752,
+          "text": "And before I start with questions, I just want to acknowledge the constituent who was killed in my district last week by a sanitation truck."
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 896.752,
+          "text": "And I know the incident is still under investigation."
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 900.352,
+          "text": "We'll have lots of time to discuss what could have been done, but I appreciate so much the early outreach by you, Commissioner, and your commitment to finding out whatever we can do to prevent that from happening again."
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 914.952,
+          "text": "So thank you so much."
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 918.352,
+          "text": "I want to ask..."
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 920.652,
+          "text": "Primarily when it comes to snow clearing."
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 925.652,
+          "text": "We've established, I think, as a result of the last hearing, that the corner property is responsible for clearing a pedestrian ramp."
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 933.252,
+          "text": "Is that correct?"
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 934.952,
+          "text": "Corner property is responsible for clearing a path to and including a pedestrian ramp."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 941.052,
+          "text": "That is largely correct, yes."
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 942.552,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 943.252,
+          "text": "And I think at the last hearing we discussed, and I don't believe you had been appointed yet, and so my sort of pet peeve last year, because of everyone pushing a stroller and having accessibility issues, is that people were clearing the corner."
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 959.152,
+          "text": "A path to the corner and clearing the ped ramp, but then sanitation was plowing snow such that it piled up right at the end of the crosswalk."
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 968.652,
+          "text": "So there would be a mound of snow in between the crosswalk where people were crossing and then the properly cleared, hopefully, pedestrian ramp."
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 977.052,
+          "text": "Hopefully we don't get that level of snow again such that it has mounds sort of staying on the street But at the time the acting commissioner was looking into ways that we could"
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 986.752,
+          "text": "Sort of make sure that the entire crosswalk was cleared particularly when the corner property is doing their their piece in clearing the ped ramp Wondering if there's a strategy this year around around that"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 998.152,
+          "text": "Yeah, so to start, I think that's where having the emergency snow shoveler program be much more robust and also having more snow blowers and other equipment to be able to respond to those areas more quickly will be really helpful."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1013.652,
+          "text": "We've also done a lot of work in routing to those corners."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1018.352,
+          "text": "We're trying to avoid this distinction between it's a ped ramp versus it's a crosswalk versus we're just treating everything on the corner that connects the sidewalk to the street."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1030.352,
+          "text": "street as a corner."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1032.352,
+          "text": "And if we get there and it's not shoveled, we will shovel it."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1035.652,
+          "text": "If we get there and it's shoveled, great, we'll move on."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1038.552,
+          "text": "So the thing that we're doing differently from a routing perspective this year is we are trying to prioritize which corners we are doing first with our snow shovelers and our sanitation workers."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1048.752,
+          "text": "We have a couple different criteria that we're using to prioritize those."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1053.152,
+          "text": "The first is any corner that is within 200 feet of a bus stop or a subway stop is getting prioritized."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1060.652,
+          "text": "Any corner that is on DOT has a sort of five-tier ranking of crosswalks."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1067.452,
+          "text": "Any corner that's in the top three tiers of those rankings, which is the areas that have the highest number of pedestrians."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1077.852,
+          "text": "Those are prioritized."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1079.752,
+          "text": "We're also looking at corners that have the accessible pedestrian indicators."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1084.952,
+          "text": "So those are the audible indicators for the crosswalk."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1088.852,
+          "text": "Those are all prioritized."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1090.552,
+          "text": "In total, it comes out to around 20,000 corners, which we understand is still a very small share of all of the corners in New York City."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1098.552,
+          "text": "I think there's never a world where we are going to get to everything as a number one priority."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1104.752,
+          "text": "So we have to do some prioritization based on where the most people are moving in."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1111.352,
+          "text": "You know, in the days immediately after a storm."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1114.252,
+          "text": "And one of the things that we are also doing is working with the mayor's office for people with disabilities."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1120.452,
+          "text": "and the Department for the Aging to make sure that we are also prioritizing areas where we know there are high populations of people with mobility challenges or who rely on mobility devices to get around so that we are also accounting for that."
+        }
+      ]
+    },
+    {
+      "end_sec": 1198.052,
+      "id": "004",
+      "slug": "santosuosso-asks-about-clearing-snow-around-schools",
+      "start_sec": 1136.252,
+      "summary": "Council Member Santosuosso notes that schools were a major concern for constituents. She asks about ensuring corners near schools are clear during drop-off and dismissal. DSNY officials say they work closely with NYC Public Schools custodial staff and coordinate on routes to schools.",
+      "title": "Santosuosso asks about clearing snow around schools",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 1136.252,
+          "text": "If I may, I mean, it sounds like you've sort of worked out that priority structure, but schools were also what I heard the most of."
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 1142.652,
+          "text": "And granted, I know it's mostly DOE's responsibility to clear outside of school sites, but making sure those corners are clear given the heavy pedestrian traffic, especially during dismissal and drop-off as well."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1156.052,
+          "text": "Yeah, absolutely."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1156.652,
+          "text": "And I think the New York City Public Schools custodial staff do tremendous work to get schools back open, often in the hours or less than a day after the snowfall ends."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1169.852,
+          "text": "I think the thing that we try to work very close with them on is making sure that the routes to get to that school, either from the nearest public transit stop or from where parents or buses are dropping off, are also clear."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1184.352,
+          "text": "So it's not just the sidewalk immediately proximate to the school, but it's the larger area around the school."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1189.652,
+          "text": "And that's something that we work very closely with Kevin Moran, who's their chief operating officer, and his team on."
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 1195.652,
+          "text": "Great."
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 1195.952,
+          "text": "Thank you so much."
+        },
+        {
+          "speaker": "Kayla Santosuosso",
+          "t_sec": 1196.652,
+          "text": "Thanks, Chair."
+        }
+      ]
+    },
+    {
+      "end_sec": 1353.144,
+      "id": "005",
+      "slug": "wilson-questions-dsny-on-pedestrian-access-standards-and-311-complaints",
+      "start_sec": 1198.052,
+      "summary": "Chair Sanchez recognizes Council Members Vernikov and Ressler. Council Member Carl Wilson then asks about standards for clearing pedestrian intersections and ramps with the new robust shoveler team. He also asks about 311 guidance on reporting bus shelter clearing. DSNY officials say they are still building the workforce and cannot commit to specific response times.",
+      "title": "Wilson questions DSNY on pedestrian access standards and 311 complaints",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 1198.052,
+          "text": "I'd like to recognize that we've been joined by Councilmember Vernikov on Zoom."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 1204.552,
+          "text": "And I don't think I said Councilmember Ressler earlier, but I want to make sure."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 1209.752,
+          "text": "And now we will."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 1210.352,
+          "text": "Turn it over to Councilmember Wilson."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 1212.852,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 1213.752,
+          "text": "Hello, Commissioner."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 1214.452,
+          "text": "Thank you for your testimony."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 1215.352,
+          "text": "Just to follow up about the pedestrian access, is with this new robust team of shovelers,"
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 1225.052,
+          "text": "is there a certain standard that you expect to be able to have pedestrian side intersections and ped ramps cleared that perhaps you weren't able to have in the last time?"
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 1243.044,
+          "text": "And also, if, sorry, I lost my train of thought."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 1248.144,
+          "text": "When you, 311 says that I think you have to wait like 72 hours before reporting or accepting complaints about bus shelters being cleared."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 1257.944,
+          "text": "Do you expect that to remain the same, given the new robust workforce that you have doing some of the shoveling?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1264.344,
+          "text": "So I'll start by saying the robust workforce that we expect to have is one that we are still working to build."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1271.244,
+          "text": "And so we need the help of not only every city council member, but every other elected official and community leader to help us get to"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1280.144,
+          "text": "the level of pre-registration for snow shovelers that we need in order to be able to mount a really robust response."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1287.144,
+          "text": "And we have more time."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1288.744,
+          "text": "It's still 60 degrees out right now."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1290.944,
+          "text": "It's only November 2nd, but snow will be here before we know it, and we need to continue working in that direction."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1299.544,
+          "text": "As far as a specific expectation around when certain assets will be cleared, I think it's far too dependent on the characteristics of an individual snowstorm, the temperatures leading into it, the amount of snow that's already on the ground, and lots of other factors."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1314.244,
+          "text": "So I don't think we can commit to a specific response time for every single corner in the city or every single bus stop in the city, except that we will respond faster than we have in the past, and we are tracking it much better."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1328.644,
+          "text": "So we know, as the Department of Sanitation,"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1331.444,
+          "text": "which assets have been cleared by our staff or by our snow shovelers and which have not, and we'll be able to sort of move through the whole set of assets more strategically after the fact."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1344.744,
+          "text": "What was the other question?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1345.744,
+          "text": "Sorry."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 1346.044,
+          "text": "I think you..."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 1347.444,
+          "text": "Answered it."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 1347.844,
+          "text": "It was just about like the time response times and what you expect the season."
+        }
+      ]
+    },
+    {
+      "end_sec": 1509.544,
+      "id": "006",
+      "slug": "wilson-questions-dsny-on-bike-lane-snow-clearing-policy",
+      "start_sec": 1353.144,
+      "summary": "Council Member Wilson asks about conflicting policies on bike lane clearing, noting the snow plan says bike lanes are treated simultaneously with roadways while 311 guidance says they are cleared after streets. DSNY officials say the 311 language is out of date and they deploy 47 plow units for bike lanes, using salting for traction.",
+      "title": "Wilson questions DSNY on bike lane snow clearing policy",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 1353.144,
+          "text": "The so ask about bike lanes for a second."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 1356.144,
+          "text": "So the 20 the DSMY 2526 snow plan committed to treating bike lanes simultaneously with roadways."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 1363.644,
+          "text": "But I think there's some 311 guidance describes clearing bike lanes after streets and says that the clearance is not guaranteed."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 1371.344,
+          "text": "So could you clarify which policy?"
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 1374.344,
+          "text": "We can expect."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1375.644,
+          "text": "Yeah, so that 311 language is clearly out of date, and we'll make sure that we go in and clean that up, because we have 47 plow units on hand that we deploy actually generally before the snow starts."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1389.744,
+          "text": "We have tried in the past brining bike lanes."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1392.244,
+          "text": "We find that salting bike lanes works better."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1393.844,
+          "text": "It also gives good traction for people who have to use bike lanes to get around even during the snowfall."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1400.544,
+          "text": "So we have that equipment out and assigned two routes while it's snowing, after it's done snowing."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1407.444,
+          "text": "There are situations where if a bike lane is blocked by a car or if it's inaccessible for some reason and gets really heavy accumulations, it can be very difficult and very slow work to shovel that out."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1421.844,
+          "text": "using either manual shovels or our skid steers or other small equipment."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1426.444,
+          "text": "And so, you know, one of the things that I personally, not in this role, but as a New Yorker, observed last year in the January storm was some protected bike lanes that were not able to be serviced during the storm."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1441.044,
+          "text": "Were then, you know, unfortunately full of snow that turned into a block of ice and there was really no digging them out."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1446.744,
+          "text": "So I think one of the things that we're trying to do this year is have better situational awareness about where our small plows are not able to get into the bike lanes during a storm and try to respond to that either by removing vehicles or towing people out of there."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 1461.944,
+          "text": "And do you feel like you have enough equipment of the appropriate sized equipment to be able to deal with the bike lanes?"
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 1467.944,
+          "text": "I think we do."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1469.144,
+          "text": "Certainly something that we're looking at as DOT is working on their updated streets master plan and they're planning around additional"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1478.344,
+          "text": "bike infrastructure, additional pedestrian infrastructure is planning proactively so that we are buying new equipment in advance of them installing new capital assets instead of the other way around."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1489.144,
+          "text": "For a long time, we sort of played catch up after DOT would build a thing."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1494.044,
+          "text": "We'd say we need resources to take care of that thing and there's a 12 month gap between"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1499.844,
+          "text": "the thing existing and us having the resources to deal with it."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1502.644,
+          "text": "So we're trying to get ahead of that."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1504.044,
+          "text": "And hopefully in the context of the budget, that's something that we're able to talk more about next year."
+        }
+      ]
+    },
+    {
+      "end_sec": 1574.644,
+      "id": "007",
+      "slug": "wilson-asks-about-snow-removal-around-street-dining-structures",
+      "start_sec": 1509.544,
+      "summary": "Council Member Wilson asks how DSNY will handle snow removal with permanent year-round street dining structures. DSNY officials say they have experience from the temporary COVID program and work with FDNY and DOT to ensure plows can navigate and turn around structures.",
+      "title": "Wilson asks about snow removal around street dining structures",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 1509.544,
+          "text": "And then,"
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 1511.444,
+          "text": "I think over the winter months we can begin to anticipate more street bed dining structures emerging."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 1518.644,
+          "text": "How are you anticipating dealing with that new challenge in the street when it comes to snow removal?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1525.344,
+          "text": "So it's a new challenge in that they are authorized for permanent year-round placement, but we did deal with four years of the temporary COVID pandemic program,"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1537.344,
+          "text": "and there were far more dining sheds out in the streets than there are today."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1541.444,
+          "text": "I think we have a good approach as far as making sure that our routes can accommodate them."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1545.744,
+          "text": "We have a really good relationship with our sister agencies at FDNY and DOT as far as reviewing placement, making sure there's adequate room to get"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1553.944,
+          "text": "our vehicles through, and most importantly, adequate room for our vehicles to be able to turn, because a collection truck with a plow on it does have a wider turning radius than just a standard collection truck."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1563.544,
+          "text": "So we need to make sure that we can get our plows into blocks, that we can safely plow through the block, and I think we'll be in a good place this year."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 1572.844,
+          "text": "Thank you, Chair."
+        }
+      ]
+    },
+    {
+      "end_sec": 1724.18,
+      "id": "008",
+      "slug": "thomas-henry-questions-dsny-on-alleyway-trash-collection-during-snowstorms",
+      "start_sec": 1574.644,
+      "summary": "Chair Sanchez introduces Council Member Shanel Thomas-Henry. She asks about residents in alleyways who were unaware they needed to move trash to the front during snowstorms. DSNY officials say they will be more proactive in notifying residents via social media, text, and possibly mailers.",
+      "title": "Thomas-Henry questions DSNY on alleyway trash collection during snowstorms",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 1574.644,
+          "text": "And next we will hear from Councilmember Chanel Thomas-Henry."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1579.58,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1580.98,
+          "text": "My first question is as it relates to alleyways."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1584.38,
+          "text": "Last season, we saw an accumulation of trash behind homes in their alleyways because residents weren't aware that they needed to place them in front of their homes."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1593.28,
+          "text": "And these are residents who had lived there for decades."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1596.48,
+          "text": "What triggers the moving the trash from behind your house in the alleyway to the front yard, and how will those residents be alerted?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1605.38,
+          "text": "So that's something that I very much want to do differently this year."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1610.28,
+          "text": "In the past, I think we've relied too much on people just assuming the right thing to do."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1617.58,
+          "text": "And this year, I think we would like to be more clear and more proactive about telling people alley service is suspended, effective on X date, and will not resume for at least Y number of days."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1631.88,
+          "text": "So looking at the January storm, for example, from last year, we would say very proactively to people, alley service is suspended effective the day prior to the snowstorm happening, and then tell people it will not resume"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1646.68,
+          "text": "until we tell you."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1648.08,
+          "text": "Last year, unfortunately, because these alleys are not serviced by us for snow removal purposes, they are private streets."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1656.48,
+          "text": "Many of them were impassable and it was unsafe for us to put equipment back there for over two weeks."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1661.98,
+          "text": "And I think we just need to be clear with folks that if you have private alley service, you need to move your trash to the"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1667.68,
+          "text": "the front of your building, it may be two, three weeks in a row, but at least then the trash isn't piling up."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1673.78,
+          "text": "And what way are you going to notify those residents?"
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1677.08,
+          "text": "How are you going to notify them?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1678.28,
+          "text": "So we're going to be much more proactive on our social media."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1680.78,
+          "text": "We're also in the process of planning."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1684.78,
+          "text": "A mailer maybe?"
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1686.28,
+          "text": "Like some of the residents I'm talking about are older adults."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1688.88,
+          "text": "We can take a look at a mailer."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1690.98,
+          "text": "I think that may be an effective tool, but I think we want to be able to provide more real-time information to folks also."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1698.08,
+          "text": "So we're looking at text message, calling, emailing options to be able to say specifically to those alley service residents."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1707.58,
+          "text": "Put it out in the front or, you know, on a date certain, alley service will resume."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1713.68,
+          "text": "Gotcha."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1714.08,
+          "text": "And I name that because my 90-year-old grandmother is one of those, and she can't check email and is not on social media."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1720.28,
+          "text": "Maybe the Facebook, but..."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1721.68,
+          "text": "Interesting."
+        }
+      ]
+    },
+    {
+      "end_sec": 1794.58,
+      "id": "009",
+      "slug": "thomas-henry-asks-about-fines-and-property-owner-snow-removal-responsibilities",
+      "start_sec": 1724.18,
+      "summary": "Council Member Thomas-Henry asks if DSNY will proactively educate property owners about their snow removal responsibilities after many received fines. DSNY officials say they do communicate responsibilities and issued over 19,000 violations last year, but could have issued more with more resources.",
+      "title": "Thomas-Henry asks about fines and property owner snow removal responsibilities",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1724.18,
+          "text": "Along those same lines with just notification, a lot of homeowners and businesses also received fines last year because they weren't aware of exactly how much of their perimeter or adjacent to their property they needed to shovel."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1737.38,
+          "text": "Are you guys going to do the same kind of proactive just campaign letting?"
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1742.18,
+          "text": "Reinforcing to property owners and business owners what they're responsible for?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1747.18,
+          "text": "Yeah, absolutely."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1747.78,
+          "text": "We do a lot of communication to folks on what their responsibilities are."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1753.58,
+          "text": "I think that, you know, their responsibilities have not generally changed."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1756.78,
+          "text": "You are, if you own"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1757.78,
+          "text": "property or are a commercial establishment, you are responsible for clearing your sidewalk."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1762.88,
+          "text": "And that means clearing at least a four foot wide path, clearing a path to the bus stop, clearing around fire hydrants, clearing the pedestrian ramp, that all of that is part of the sidewalk."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1773.38,
+          "text": "And you're responsible for doing so within a certain number of hours."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1777.28,
+          "text": "After the snow stops."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1778.68,
+          "text": "We usually give people a good amount of leeway, but last year we did issue over 19,000 violations over the two storms."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1786.48,
+          "text": "And I think that at the end of the day, we probably could have issued another 100,000 more if we had the resources to do so."
+        }
+      ]
+    },
+    {
+      "end_sec": 1837.9,
+      "id": "010",
+      "slug": "thomas-henry-asks-about-interagency-responsibilities-for-schools-adjacent-to-parks",
+      "start_sec": 1794.58,
+      "summary": "Council Member Thomas-Henry asks who is responsible for clearing access to schools adjacent to parks. DSNY officials say schools clear around schools, Parks Department clears around parks, and they hope the agencies coordinate, with DSNY helping if needed.",
+      "title": "Thomas-Henry asks about interagency responsibilities for schools adjacent to parks",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1794.58,
+          "text": "I want to clarify, just clarity on interagency responsibilities."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1798.78,
+          "text": "I have quite a few"
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1800.0,
+          "text": "schools that are adjacent to parks."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1802.9,
+          "text": "In those instances, who is responsible for clearing access in and out of the school?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1810.7,
+          "text": "So the school is responsible for clearing the sidewalk around the school itself."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1814.8,
+          "text": "The park is, the parks department is responsible for clearing around the park."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1819.6,
+          "text": "Our hope is that those two agencies are coordinating that together."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1823.4,
+          "text": "And if either of them needs additional resources or help to make sure that we're ready to open up school in the morning, we're always happy to help where we can if we have additional resources available."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1837.2,
+          "text": "Gotcha."
+        }
+      ]
+    },
+    {
+      "end_sec": 1903.4,
+      "id": "011",
+      "slug": "thomas-henry-asks-about-nonprofit-snow-removal-assistance",
+      "start_sec": 1837.9,
+      "summary": "Council Member Thomas-Henry asks about NYC Service's work with local nonprofits and CBOs to help seniors and disabled residents clear snow. DSNY officials explain the program connects volunteers to those in need, but property owners remain responsible. She requests a list of participating nonprofits.",
+      "title": "Thomas-Henry asks about nonprofit snow removal assistance",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1837.9,
+          "text": "And then in the plan, it mentions NYC services, capacity, resources are given to local nonprofits and CBOs."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1845.3,
+          "text": "What does that mean in terms of?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1849.1,
+          "text": "Yeah, so New York City Service works with community-based organizations to develop community networks where if there's an older New Yorker or a person with disabilities who's unable to shovel their own sidewalk,"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1862.4,
+          "text": "those community organizations can try to connect them to volunteers from the community who are ready, willing, and able to do that work for them."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1871.4,
+          "text": "That said..."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1873.0,
+          "text": "Every New Yorker who owns a property or a commercial establishment is responsible for their sidewalk."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1878.6,
+          "text": "And it is critical for all New Yorkers'ability to move around following a snowstorm that they clear their sidewalk."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1887.9,
+          "text": "And just because you're an older New Yorker,"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1890.1,
+          "text": "and may not be physically able to does not alleviate that responsibility."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1894.2,
+          "text": "Is there a listing of the local nonprofits that you guys work with?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1898.3,
+          "text": "Yeah, we can work with NYC Service to get that for you."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1900.4,
+          "text": "Okay, thank you."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1901.5,
+          "text": "Thank you, Chair."
+        }
+      ]
+    },
+    {
+      "end_sec": 1972.3,
+      "id": "012",
+      "slug": "chair-sanchez-asks-about-dsny-program-for-seniors-and-disabled-new-yorkers",
+      "start_sec": 1903.4,
+      "summary": "Chair Sanchez follows up on neighbor-helping-neighbor efforts, asking if DSNY would develop its own program or volunteer registry to assist seniors and disabled residents. DSNY officials say their priority is public assets, and private property owners are expected to arrange for clearance.",
+      "title": "Chair Sanchez asks about DSNY program for seniors and disabled New Yorkers",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 1903.4,
+          "text": "To follow up on that, in its draft snow plans, the department encourages neighbors to help each other remove snow when needed."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 1910.2,
+          "text": "However, we know this does not always happen in practice."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 1912.9,
+          "text": "Has the department considered developing its own program to assist seniors and disabled New Yorkers?"
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 1917.8,
+          "text": "Could emergency snow shovelers be deployed to prioritize accessible transportation routes?"
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 1923.7,
+          "text": "Would the department consider creating its own volunteer registry similar to the city's Adopt-A-Rain Garden program?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1931.1,
+          "text": "So our priority following a snowstorm is public assets, and we assign the resources that we have, both sanitation workers and our emergency snow shovelers, to clear those public assets first."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1942.4,
+          "text": "If we get to a place where all of the public assets citywide have been cleared, then we can assign them to private assets."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1948.2,
+          "text": "But I think that would be far too slow for those properties to be cleared."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1953.0,
+          "text": "And so our expectation is private property owners arrange for the clearance of their properties."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1959.0,
+          "text": "You know, that's an obligation that comes with owning property in New York City."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 1963.7,
+          "text": "And unfortunately, that's, you know, that's our expectation for folks."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 1971.1,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 2083.892,
+      "id": "013",
+      "slug": "hankerson-questions-dsny-on-coordination-with-parks-department",
+      "start_sec": 1972.3,
+      "summary": "Chair Sanchez introduces Council Member Ty Hankerson. He asks about DSNY's work with the Parks Department for clearing public assets. DSNY officials say Parks employees sometimes work alongside sanitation and assign plow operators during snowstorms.",
+      "title": "Hankerson questions DSNY on coordination with Parks Department",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 1972.3,
+          "text": "Okay, I will turn it over to Councilmember Hankerson."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 1979.092,
+          "text": "Thank you, Chair, and thank you for hearing Intro 1042 today."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 1983.592,
+          "text": "I just want to say briefly, one thing that I'm big on is transparency, and I believe that the difference between making information publicly available and making it accessible is necessary and needed for New Yorkers."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 1995.492,
+          "text": "But for my questioning, Commissioner,"
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 2000.492,
+          "text": "I know we have the emergency snow shovelers program, but are there times where you work with the Parks Department for clearing public assets?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2011.492,
+          "text": "The Parks Department is responsible for clearing their assets, and we are responsible for clearing many of ours."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 2017.992,
+          "text": "Is it just parks that they clear, or are they responsible for other city property outside of the parks?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2025.292,
+          "text": "There have been times that parks employees have also worked alongside sanitation."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2030.492,
+          "text": "They regularly assign plow operators to the sanitation department during snowstorms."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2037.092,
+          "text": "And once the parks infrastructure was all cleared last year, I think they did expand to some other public assets."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 2043.992,
+          "text": "In those instances, who gives them directives?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2047.592,
+          "text": "Who gives the parks employees directives?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2049.892,
+          "text": "It's a combination of parks supervision and sanitation supervision."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 2053.892,
+          "text": "Who gives the emergency snow shovelers directives?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2057.392,
+          "text": "Generally, sanitation and DOT workers."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 2062.592,
+          "text": "Are they oftentimes, or in those instances, are they assigned to do similar or different things?"
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 2066.692,
+          "text": "The same work?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2069.092,
+          "text": "They may."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2070.492,
+          "text": "Many of the parks employees are still assigned doing parks work within their parks."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2076.092,
+          "text": "Parks has probably thousands of miles of paths and sidewalks they're responsible for, so there's quite a good deal of work to do."
+        }
+      ]
+    },
+    {
+      "end_sec": 2139.608,
+      "id": "014",
+      "slug": "hankerson-asks-about-pay-rates-for-emergency-snow-shovelers-vs-parks-workers",
+      "start_sec": 2083.892,
+      "summary": "Council Member Hankerson asks if Parks workers doing similar work to emergency snow shovelers should be paid comparably. DSNY officials note emergency snow shovelers are paid $30/hour, while Parks employees are full-time with benefits, so it's not apples to apples.",
+      "title": "Hankerson asks about pay rates for emergency snow shovelers vs. Parks workers",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 2083.892,
+          "text": "Are they paid at a comparable rate?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2087.392,
+          "text": "You know, I'm not familiar with exactly the pay rate that most parks employees work, but I know for our emergency snow shoveler program, we did increase the pay rate to $30 an hour,"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2097.992,
+          "text": "in part in recognition of the emergency nature of the work and the fact that we are asking people who aren't full-time employees of the city of New York to come in and do work for us."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 2110.092,
+          "text": "If parks workers are completing the same type of work as an emergency snow shoveler or a sanitation worker, do you think they should be paid at a comparable rate?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2123.792,
+          "text": "I can't speak to the nature of the compensation and benefits offered to Parks Department employees."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2128.692,
+          "text": "They are full-time employees that have pensions and health insurance and other things."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2132.692,
+          "text": "So, you know, I don't know that it's necessarily apples to apples."
+        }
+      ]
+    },
+    {
+      "end_sec": 2184.208,
+      "id": "015",
+      "slug": "hankerson-asks-about-assignments-of-sanitation-workers-and-parks-workers",
+      "start_sec": 2139.608,
+      "summary": "Council Member Hankerson asks if sanitation workers and Parks workers could be assigned together on routes. DSNY officials say generally not side by side, as sanitation workers operate mechanical equipment like plows and skid steers, while emergency snow shovelers do manual work.",
+      "title": "Hankerson asks about assignments of sanitation workers and Parks workers",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 2139.608,
+          "text": "This is, and this is forgive my ignorance, but when a sanitation worker is assigned a certain route,"
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 2148.108,
+          "text": "let's just say it's off the snow plow, it's actually shoveling, could they be assigned or could a parks worker be assigned with them on that route?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2158.408,
+          "text": "Not generally side by side."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2160.908,
+          "text": "Our sanitation workers often are operating mechanical equipment."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2165.608,
+          "text": "As I mentioned in testimony, we have 120 new snow plows."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2168.408,
+          "text": "We have over 100 skid steers."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2171.608,
+          "text": "We have the 47 bike lane plows."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2174.308,
+          "text": "So generally our sanitation workers, because they're professional drivers, will be assigned to operate equipment where the emergency snow shovelers will do more of the manual work."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 2182.508,
+          "text": "I appreciate that."
+        }
+      ]
+    },
+    {
+      "end_sec": 2224.844,
+      "id": "016",
+      "slug": "hankerson-asks-about-public-access-to-plow-nyc-historical-data",
+      "start_sec": 2184.208,
+      "summary": "Council Member Hankerson asks why residents cannot access historical GPS plowing data directly through the Plow NYC website. DSNY officials say it is technologically feasible but requires development resources and time.",
+      "title": "Hankerson asks about public access to Plow NYC historical data",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 2184.208,
+          "text": "And finally, just going back to the bill."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 2190.244,
+          "text": "During previous snowstorms, Plow NYC did not allow our office to easily review streets plowing history from the previous day."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 2198.944,
+          "text": "If DSNY maintains historical GPS records, why can't residents access that information directly through the public-facing website?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2205.544,
+          "text": "So I think that's something that we are open to."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2207.844,
+          "text": "It's just a question of the resources necessary to do that and to build it out in the manner that the bill..."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2214.444,
+          "text": "Sets forth."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2215.044,
+          "text": "So, you know, it's technologically feasible."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2218.544,
+          "text": "It's just a question of putting the development resources and time into it."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 2221.844,
+          "text": "Great."
+        },
+        {
+          "speaker": "Ty Hankerson",
+          "t_sec": 2222.144,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2222.644,
+          "text": "Yep."
+        }
+      ]
+    },
+    {
+      "end_sec": 2512.244,
+      "id": "017",
+      "slug": "restler-questions-dsny-on-intersection-clearing-and-new-technology",
+      "start_sec": 2224.844,
+      "summary": "Chair Sanchez introduces Council Member Lincoln Restler. He raises concerns about impassable intersections and asks about new technology approaches like Montreal's sidewalk clearing. DSNY officials say Montreal clears only a small portion of the city and that clearing all sidewalks would require enormous resources.",
+      "title": "Restler questions DSNY on intersection clearing and new technology",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2224.844,
+          "text": "Council Member Ressa."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2228.344,
+          "text": "Thanks so much, Chair Sanchez."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2229.644,
+          "text": "I really appreciate it."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2231.944,
+          "text": "And good to see you, Commissioner and team."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2233.344,
+          "text": "It was great to have you in Brooklyn Heights last week."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2235.744,
+          "text": "And we are really excited about commercial waste zones in CB1."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2239.444,
+          "text": "So there's great things happening with the Department of Sanitation across District 33."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2242.944,
+          "text": "I'd like to follow up on one of the items that Councilmember Santos-Woso was highlighting."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2248.944,
+          "text": "Which is just my concern around intersections."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2251.144,
+          "text": "And, you know, it's..."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2256.544,
+          "text": "For sure, for people with disabilities, I see the world anew as a young dad trying to get a stroller around."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2262.744,
+          "text": "And the number of complaints I got this past year was the sanitation department did an amazing job clearing the streets, and the intersections were totally impassable, so cars could get anywhere they needed to go, but people were utterly screwed."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2276.844,
+          "text": "I just, you know."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2278.344,
+          "text": "I appreciate a committed effort to having a workforce that's out there to clear intersections and crosswalks"
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2287.344,
+          "text": "and that we want property owners on the corners to do more, although I think that's unlikely to change much from what we saw this past winter."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2294.444,
+          "text": "I was wondering if you're considering any new technology approaches."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2298.944,
+          "text": "I'm sure you're always looking at what other cities in the Northeast are doing and how they clear snow."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2303.444,
+          "text": "Montreal."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2304.544,
+          "text": "Clear sidewalks with, you know, motorized devices."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2308.344,
+          "text": "Is that something that you think we should consider in New York City?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2311.244,
+          "text": "So a lot of people make a comparison to Montreal."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2314.844,
+          "text": "Montreal clears sidewalks in a very small portion of the city."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2319.144,
+          "text": "And the level of service they provide is similar to what our business improvement districts are providing in commercial corridors all around the city."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2326.544,
+          "text": "The city of Montreal is not clearing a standard residential sidewalk in, you know, the sort of far reaches of the city."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2336.744,
+          "text": "I think that the resources that would be required for the city to provide that service to every single property that's more than 800,000 property citywide would be enormous."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2345.544,
+          "text": "So I think it is appropriate for that to be the responsibility of the private property owner."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2350.344,
+          "text": "And certainly we at the Department of Sanitation are stepping up our capacity to be able to clear the areas that are outside of that private property responsibility."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2360.344,
+          "text": "The area from the corner into the crosswalk, the area around the bus stop, making sure that people can continue to keep moving around New York."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2368.244,
+          "text": "city, however they move."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2370.544,
+          "text": "But even still, in a best-case scenario, I don't know what you're, when you were doing the model, the tabletop exercise this weekend, how long, in a best-case scenario, you said you would hope to do 20,000 intersections."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2381.444,
+          "text": "Did I hear that right?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2382.744,
+          "text": "Correct."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2383.244,
+          "text": "How long do you think it would take to do 20,000 intersections if you're fully staffed up and things go as well as possible?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2388.344,
+          "text": "I think it depends on the weather, to be honest."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2392.644,
+          "text": "If we're operating in 40 degrees the day after a snowstorm, which oftentimes it is 40 degrees the day after a snowstorm, I think we could get to those 20,000 corners within a day or two."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2404.344,
+          "text": "I think if we're in another situation where there's prolonged extreme cold,"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2410.044,
+          "text": "You know, it may take us longer to get to those 20,000 intersection or 20,000 corners, but we would certainly,"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2417.544,
+          "text": "I think, one, have better situational awareness around what we've achieved and what we haven't, and two, be able to more clearly communicate that to the public."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2426.244,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2426.844,
+          "text": "I mean, I think we just..."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2428.744,
+          "text": "In last year's winter, in last year's storms, which were really bad, we saw intersections that were impassable for many days and in like the heart of our commercial districts in Brooklyn."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2440.544,
+          "text": "And so it was challenging for everybody to get around and, you know, waiting days to be able to walk"
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2449.644,
+          "text": "safely around the neighborhood is really tough."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2451.544,
+          "text": "And so, you know, I appreciate the focus on bringing on a greater"
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2458.144,
+          "text": "workforce that can do this work quickly, I remain concerned that we're going to be in tough situations as, you know, the nature of climate change is more extreme weather and more intense storms that are challenging for us to wrestle with."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2470.344,
+          "text": "And I think we need to think about new approaches that can actually meet these new climate dynamics."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2475.944,
+          "text": "And so, you know, whether..."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2479.944,
+          "text": "My mom is from Montreal."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2480.844,
+          "text": "I'm a half Canadian."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2482.244,
+          "text": "I spend a lot of time up there."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2484.044,
+          "text": "I think you're, you know, they do a really impressive job clearing a ton of snow all the time."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2489.844,
+          "text": "And I do think there are more lessons for us to learn."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2492.844,
+          "text": "Montreal is broken into different municipalities within the city, so it is a different structure."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2499.344,
+          "text": "But in the heart of Montreal, in their downtown area, they clear snow off sidewalks and make it passable in real time."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2505.944,
+          "text": "So I just hope that we can do more, especially in our dense urban areas of the city."
+        }
+      ]
+    },
+    {
+      "end_sec": 2708.444,
+      "id": "018",
+      "slug": "restler-presses-dsny-on-snow-clearing-on-bqe-bridges-and-overpasses",
+      "start_sec": 2512.244,
+      "summary": "Council Member Restler complains that DOT does not clear snow on BQE bridges and overpasses in his district, forcing him to shovel himself. He asks if DSNY could take responsibility. DSNY officials say they help when asked but prioritize bus stops and 20,000 priority corners.",
+      "title": "Restler presses DSNY on snow clearing on BQE bridges and overpasses",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2512.244,
+          "text": "Also just want to take this opportunity to ask you a little bit about one of my kind of chronic snow issues, which are the DOT bridges and the kind of underpasses."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2522.644,
+          "text": "I represent the BQE through much of the northern half of Brooklyn."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2527.044,
+          "text": "And it's..."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2530.344,
+          "text": "Critical for my constituents to be able to walk down the sidewalks on the BQE."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2534.444,
+          "text": "And it's often, nobody takes responsibility for it."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2537.444,
+          "text": "Not sanitation, not DOT."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2538.844,
+          "text": "I think it's supposed to be DOT's responsibility, but they never do anything."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2542.244,
+          "text": "And so could sanitation take responsibility for clearing the snow off of all bridges?"
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2546.744,
+          "text": "Is that in the sidewalk areas?"
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2548.144,
+          "text": "that are on those bridges?"
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2549.344,
+          "text": "Is that something you all would consider?"
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2551.544,
+          "text": "Or what other options do we have if DOT is going to continue to do nothing?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2555.944,
+          "text": "So I think DOT actually does a fair bit of work to try to clear overpasses."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2561.644,
+          "text": "Not in my district."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2562.244,
+          "text": "That said, there are a lot of overpasses all across the city."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2566.444,
+          "text": "And so I can't speak to exactly how they prioritize that work, but certainly when they've come to us saying we need help on these locations,"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2575.744,
+          "text": "If we have the ability to provide that help, we do so."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2577.944,
+          "text": "There has not been a storm in the five years that I've been in the city council where I haven't had to go out myself and shovel on those BQE bridges because DOT is nowhere to be found."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2586.544,
+          "text": "And that's like I'm happy to help in whatever way I can, but that's a pretty absurd process that I'm the one going out there with a shovel."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2595.244,
+          "text": "I don't know how they're prioritizing it, but they're not doing anything in District 33."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2598.244,
+          "text": "And I've asked three commissioners over five years and begged for help, and it never seems to come."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2602.744,
+          "text": "So is there a different approach that we could take that would actually get better results?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2607.544,
+          "text": "So I would say two things there."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2609.444,
+          "text": "One."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2610.444,
+          "text": "When we have more emergency snow shovelers and we have the additional mechanized equipment, we will be able to get to more places more quickly."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2618.544,
+          "text": "And we're not necessarily saying, oh, we don't do that because that's DOT."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2623.144,
+          "text": "If a place needs to be shoveled, we will shovel it."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2626.544,
+          "text": "It's just a question of how are we prioritizing the resources that we are allocating following a storm."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2632.544,
+          "text": "As I've said, our priority following storms this upcoming winter is going to be bus stops."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2638.744,
+          "text": "and those 20,000 priority corners."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2641.844,
+          "text": "I think we can talk about adding additional priorities, but once everything is a priority, then nothing is a priority."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2647.344,
+          "text": "So we are going to focus on that."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2650.044,
+          "text": "We are going to work with DOT to make sure that we have the right resources and equipment allocated to the assets that they also maintain."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2658.144,
+          "text": "I'd be thrilled if they got their act together."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2659.744,
+          "text": "It's just I've never seen it, and I've been in government a long time, and this is an issue that happens every single year."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2664.544,
+          "text": "I hear it from council members."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2665.444,
+          "text": "I've heard it when I worked in the previous administrations."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2667.544,
+          "text": "I heard it from council members all across the city."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2669.344,
+          "text": "The DOD does a terrible job here, and I've never seen it improve."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2673.244,
+          "text": "And if you go to, like, the heart of South Williamsburg on Lee Avenue,"
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2676.344,
+          "text": "You cross the BQE overpass, and it's just a pile of ice and snow that is totally blocked off, and people can't walk from one commercial corridor to the next over the BQE because it's treacherous."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2686.744,
+          "text": "And DOT doesn't care or doesn't have the resources or isn't organized to do their job."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2691.844,
+          "text": "Whatever the issue is, I don't know."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2693.644,
+          "text": "But I just think at some point we should take this out of their responsibility, and you all should just be responsible for it, and it should be Department of Sanitation's job to do it."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2701.344,
+          "text": "And we know it will get done that way because right now it's just complaining year after year and nothing changing."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 2706.644,
+          "text": "Thank you, Chair."
+        }
+      ]
+    },
+    {
+      "end_sec": 2794.444,
+      "id": "019",
+      "slug": "chair-sanchez-asks-about-dsny-snow-equipment-fleet-age-and-condition",
+      "start_sec": 2708.444,
+      "summary": "Chair Sanchez asks about the current condition and average age of DSNY's snow equipment fleet, including plows, salt spreaders, and front-end loaders. DSNY officials provide average ages: collection trucks 5.1 years, dual bins 5.7 years, salt spreaders 7.5 years, with 12% of salt spreaders over 12-year service life.",
+      "title": "Chair Sanchez asks about DSNY snow equipment fleet age and condition",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2708.444,
+          "text": "Thank you, Council Member."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2709.944,
+          "text": "What is, speaking of these conditions, what is the current condition and average age of the department's snow equipment fleet, including plows, salt spreaders, and front-end loaders?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2722.544,
+          "text": "Absolutely."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2724.144,
+          "text": "So our plows are just our standard collection trucks."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2728.244,
+          "text": "And for our realtor collection trucks, our average age is 5.1 years."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2733.744,
+          "text": "Our dual bins average age 5.7 years."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2736.944,
+          "text": "For our salt spreaders, those are a little bit older on average because they only work during the winter, so they have a longer life cycle."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2743.944,
+          "text": "And we also upgrade them every year, so we do a total rebuild of all of the key components."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2749.244,
+          "text": "Those, the average age right now is 7.5 years."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2752.144,
+          "text": "What percentage of this equipment is beyond its recommended service life?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2757.044,
+          "text": "For collection trucks, it's a relatively small share."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2760.144,
+          "text": "For salt spreaders, it's only 12% are over the 12-year service life."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2769.544,
+          "text": "But because the average age is seven and a half years, it does indicate that they're sort of in a group getting older and older."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2775.944,
+          "text": "So, you know, one of the things that we do every year is make sure that we are proactively ordering additional equipment."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2782.644,
+          "text": "We have many, many additional salt spreaders that we bring in every year."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2787.244,
+          "text": "Last year, 48 salt spreaders."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2788.744,
+          "text": "This year, another 20 on top of that have already come in."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2791.644,
+          "text": "So we do what we can to try to stay on top of that."
+        }
+      ]
+    },
+    {
+      "end_sec": 2833.344,
+      "id": "020",
+      "slug": "chair-sanchez-asks-about-operational-snow-melters",
+      "start_sec": 2794.444,
+      "summary": "Chair Sanchez asks how many snow melters are operational versus planned. DSNY officials say they have 26 melters, some in winter upgrade cycle, and operated 13 last year, with capacity dependent on DEP sewer capacity.",
+      "title": "Chair Sanchez asks about operational snow melters",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2794.444,
+          "text": "How many snow melters are currently operational versus planned?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2798.544,
+          "text": "We have 26."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2801.144,
+          "text": "Some of them are still in their winter upgrade cycle, so we couldn't necessarily put all 26 of them out today."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2808.144,
+          "text": "But we have some additional spares in that number, so we don't have 26 approved locations where we could operate melters if we wanted to because we have to."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2818.144,
+          "text": "to work with DEP to make sure that the sewer has capacity to take the additional snow melt."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2825.644,
+          "text": "But for example, last year we operated 13 melters, we had 26, so we were in a good spot."
+        }
+      ]
+    },
+    {
+      "end_sec": 2892.244,
+      "id": "021",
+      "slug": "chair-sanchez-asks-about-dsny-snow-equipment-and-supply-contracts",
+      "start_sec": 2833.344,
+      "summary": "Chair Sanchez asks about the status of requirement contracts for additional snow equipment, salt, brine, and calcium chloride, and whether vendors are pre-qualified. DSNY officials explain they have requirements contracts with standby fees and separate emergency contracts, with a list of contractors ready.",
+      "title": "Chair Sanchez asks about DSNY snow equipment and supply contracts",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2833.344,
+          "text": "What is the status of the department's requirement contracts for additional snow equipment, salt, brine, and calcium chloride?"
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2840.344,
+          "text": "And has the department conducted outreach to additional vendors for snow emergency contracts?"
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2846.544,
+          "text": "Are these vendors part of a pre-qualified list?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2850.144,
+          "text": "Absolutely."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2850.644,
+          "text": "So we have two different types of contracts that we can bring equipment in off of."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2855.844,
+          "text": "We have a requirements contract where there's a standby fee and they basically agree up front to deliver a certain amount of equipment with operators at any point during the season with 24 hours notice."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2868.644,
+          "text": "We also have separate emergency contracts, which because they're emergency contracts, they don't exist yet."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2874.344,
+          "text": "But we do a lot of preparation around making sure we have a list of contractors who can provide equipment and operators."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2879.844,
+          "text": "We know where they are."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2880.644,
+          "text": "We know where we would assign them if we had to."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2883.344,
+          "text": "And then we can really streamline that contracting process along with the controller's office when we get a declaration of emergency during the snowstorm."
+        }
+      ]
+    },
+    {
+      "end_sec": 2964.244,
+      "id": "022",
+      "slug": "chair-sanchez-questions-disparities-in-bronx-snow-plan-equipment-allocation",
+      "start_sec": 2892.244,
+      "summary": "Chair Sanchez notes that South Bronx districts 1, 2, and 3 have fewer large spreaders and plowable trucks compared to other Bronx districts. DSNY officials explain these districts are geographically smaller and less hilly, so less equipment is needed, but service levels remain the same.",
+      "title": "Chair Sanchez questions disparities in Bronx snow plan equipment allocation",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2892.244,
+          "text": "After reviewing the Bronx snow plan, it seems that there are fewer personnel and equipment in the South Bronx, particularly compared to other areas of the borough."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2901.844,
+          "text": "Specifically, districts 1, 2, and 3 have fewer large spreaders, plowable trucks, and plow bids overall compared to the South Bronx."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2908.144,
+          "text": "to the other districts."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2909.544,
+          "text": "Can you explain the reason for this difference?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2912.144,
+          "text": "So part of the reason is those are geographically some of the smallest districts in the Bronx."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2917.044,
+          "text": "So you look at some other districts like Bronx 12, for example, is geographically much larger."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2921.844,
+          "text": "And so the amount of equipment that it takes in order to have a plow assigned to every single plow route in the district is much greater."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2931.544,
+          "text": "Bronx Community District 2, for example, is geographically quite small and the routes are"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2939.344,
+          "text": "I'm trying to think about how to explain it, but they're sort of compact, and so it's much easier for equipment to sort of operate through the routes."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2948.144,
+          "text": "It's a less hilly part of the Bronx than some of the other areas."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2951.344,
+          "text": "So for all those reasons, there's less equipment assigned."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2953.744,
+          "text": "That doesn't mean that the level of service is any less, and every sector in each of those districts will have a plow assigned as soon as the snow starts."
+        }
+      ]
+    },
+    {
+      "end_sec": 3026.944,
+      "id": "023",
+      "slug": "chair-sanchez-asks-about-tracking-missed-street-cleaning-routes",
+      "start_sec": 2964.244,
+      "summary": "Chair Sanchez asks if DSNY tracks missed street cleaning routes during alternate side parking windows. DSNY officials say they do track data and report it annually, and that many missed sweeps are due to parked cars blocking curb access, advocating for automated enforcement.",
+      "title": "Chair Sanchez asks about tracking missed street cleaning routes",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2964.244,
+          "text": "Does the department log or track data regarding missed street cleaning routes during alternate side parking windows?"
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2972.144,
+          "text": "Instances where a sweeper misses its window and cannot complete the route because the parked cars have returned."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 2977.744,
+          "text": "What is the standard operational protocol or recourse?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2981.044,
+          "text": "So yes, absolutely we do."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2983.044,
+          "text": "And a lot of that data is reported in our annual sweep on YC report that we sent over to the council earlier this summer."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2992.644,
+          "text": "We also are routinely looking at 311 complaints for missed or inadequate sweeping."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 2998.144,
+          "text": "What we find is that in many cases, it's actually not missed sweeping."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3002.144,
+          "text": "The street sweeper was there but could not get to the curb because of parked cars blocking it from doing its job."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3009.644,
+          "text": "And so that's why, as we've said repeatedly in the past, we are big fans of the concept of automated enforcement."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3015.644,
+          "text": "Because right now we don't have the number of officers that we would need to be able to do enforcement on every single block of ASP every single day."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3022.744,
+          "text": "But with automated enforcement, we think compliance would improve pretty substantially."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3026.344,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 3118.52,
+      "id": "024",
+      "slug": "hanif-questions-dsny-on-ada-compliance-and-property-owner-snow-removal",
+      "start_sec": 3026.944,
+      "summary": "Chair Sanchez introduces Council Member Shahana K. Hanif. She asks if delegating curb cut clearance to property owners meets ADA and Human Rights Law responsibilities. DSNY officials say property owners largely do their job, with enforcement for non-compliance.",
+      "title": "Hanif questions DSNY on ADA compliance and property owner snow removal",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3026.944,
+          "text": "Council Member Huneeth?"
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 3031.54,
+          "text": "Thank you, chairs, and thank you for joining us."
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 3034.34,
+          "text": "I'm really grateful to hear some of my colleagues ask questions pertaining to New Yorkers with disabilities during snowstorms."
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 3043.14,
+          "text": "So New York City has the ultimate responsibility under the ADA and the New York City Human Rights Law to make sure pathways are fully accessible, including the removal of snow and ice from sidewalks and curb cuts."
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 3055.54,
+          "text": "Is the current practice of delegating the clearance of curb cuts and pathways to property owners meeting those responsibilities?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3065.72,
+          "text": "I think that, yes, in large part, property owners are doing their job and clearing their sidewalks."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3071.02,
+          "text": "There are cases where they are not, and we are doing enforcement to make sure that occurs."
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 3074.62,
+          "text": "And for those property owners who are not, do you have maybe like a worst offenders list or"
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 3082.62,
+          "text": "keeping track in any sort of way as to which property owners might not be doing their share of the work?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3090.12,
+          "text": "Yeah, we certainly had properties that last year received repeated violations for failure to clear their sidewalk, whether that's failure to clear it at all or failure to maintain a clear sidewalk."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3101.72,
+          "text": "And that's something that, you know, particularly last year."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3107.42,
+          "text": "If we conducted enforcement in the same place multiple times in a row, there were some times where we just sent our staff out and cleared the sidewalk ourselves because we didn't want to wait any longer."
+        }
+      ]
+    },
+    {
+      "end_sec": 3173.62,
+      "id": "025",
+      "slug": "hanif-asks-about-fines-for-failure-to-clear-sidewalks",
+      "start_sec": 3118.52,
+      "summary": "Council Member Hanif asks about the largest violation amount for failure to shovel sidewalks. DSNY officials say fines range from $100 to $250, and they can charge for snow removal costs but rarely do due to documentation effort.",
+      "title": "Hanif asks about fines for failure to clear sidewalks",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 3118.52,
+          "text": "And what's the largest violation amount?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3122.92,
+          "text": "I believe it's 250."
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 3124.42,
+          "text": "That's it?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3126.32,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 3126.52,
+          "text": "That's the highest a property owner is paying if they haven't shoveled their sidewalk."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3131.92,
+          "text": "So we can, under the administrative code, we can charge for the cost of snow removal."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3138.92,
+          "text": "So if we use our employees to actually shovel the sidewalk, we can charge for that."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3146.82,
+          "text": "It does require us to document what those costs are and sort of come up with a billing procedure."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3154.02,
+          "text": "That's more effort than just shovel it and move on."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3156.72,
+          "text": "So I don't think we've done that in many cases in the past, but it's something that we could look at in the future."
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 3162.62,
+          "text": "So the first violation is how much?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3166.12,
+          "text": "The first violation is $100."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3167.82,
+          "text": "The range of penalties for failure to clear sidewalk is $100 to $250."
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 3172.62,
+          "text": "Okay."
+        }
+      ]
+    },
+    {
+      "end_sec": 3278.72,
+      "id": "026",
+      "slug": "hanif-asks-about-city-support-for-disabled-and-elderly-property-owners",
+      "start_sec": 3173.62,
+      "summary": "Council Member Hanif asks what support the city offers disabled and elderly property owners to clear sidewalks. DSNY officials reiterate that sidewalk clearing is the property owner's responsibility, with NYC Service providing tools for community-based volunteer networks.",
+      "title": "Hanif asks about city support for disabled and elderly property owners",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 3173.62,
+          "text": "And then what support for property owners does the city currently offer for those property owners who are disabled, elderly, to help them clear their sidewalks?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3187.92,
+          "text": "So the responsibility for clearing the sidewalk is theirs and theirs alone."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3192.72,
+          "text": "If you own property in New York City, you have to keep your sidewalk clean."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3195.82,
+          "text": "You have to keep your sidewalk clear of snow and ice in the winter."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3198.72,
+          "text": "That's a basic premise of owning property in a city like New York City."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3204.52,
+          "text": "New York City Service does provide tools for community-based organizations who want to try to connect volunteers to those who may need help."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3214.32,
+          "text": "But at the end of the day, it is the responsibility of the property owners to clear their own sidewalk."
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 3218.12,
+          "text": "Do property owners know that they have this resource available?"
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 3223.42,
+          "text": "I'm speaking particularly about disabled homeowners and elderly homeowners."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3228.62,
+          "text": "A lot of these networks are very, very localized, and so it's an existing..."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3236.52,
+          "text": "Senior center that works with local volunteers who may already volunteer with that senior center and want to provide help."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3244.52,
+          "text": "during the winter."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3246.52,
+          "text": "So, you know, it's a hyper-localized practice."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3249.62,
+          "text": "But again, the city is not offering a service to people who own property."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3254.32,
+          "text": "If you own a property, you have certain responsibilities to maintain that property."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3258.22,
+          "text": "Those responsibilities include clearing snow and ice in the winter."
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 3261.52,
+          "text": "Got it."
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 3262.02,
+          "text": "So essentially the city doesn't..."
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 3264.82,
+          "text": "Provide any additional services, this is all, you're talking about grassroots level kind of mobilizing that's happening, that could potentially be happening, because some neighborhoods don't have those resources."
+        }
+      ]
+    },
+    {
+      "end_sec": 3444.92,
+      "id": "027",
+      "slug": "hanif-asks-about-coordination-with-disability-advocates-for-snow-plans",
+      "start_sec": 3278.72,
+      "summary": "Council Member Hanif asks about meetings between the disabled community, City Hall, and the Council to ensure an inclusive snow plan. DSNY officials say they prioritize corners near transit and are in conversations with MOPD and DFTA, but no roundtable is currently scheduled.",
+      "title": "Hanif asks about coordination with disability advocates for snow plans",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 3278.72,
+          "text": "And currently, what"
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 3282.82,
+          "text": "meetings or coordination is happening between the disabled community, City Hall, and the council to make sure that we've got a more inclusive and equitable plan for the next storms."
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 3292.92,
+          "text": "And is there a plan in place right now that is specifically about ensuring that disabled New Yorkers are able to get around during snowstorms?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3304.32,
+          "text": "So as I mentioned before, one of the things that we are doing differently this year is trying to prioritize which corners we are assigning our assets to, looking at bus routes, other transit stops."
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 3316.32,
+          "text": "Your assets to is, you're talking about like trucks and workers?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3321.02,
+          "text": "Snow shovelers, sanitation workers, snow blowers, skid steers, plows, the whole range of things that we have available to help fight snowstorms."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3330.22,
+          "text": "And we're looking at a whole range of things."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3333.12,
+          "text": "I also mentioned before,"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3334.02,
+          "text": "that we are having conversations with DIFTA and the mayor's office for people with disabilities to make sure that we are prioritizing corners in areas that would be of particular importance to the communities that those agencies serve."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3348.82,
+          "text": "At the end of the day, we can't prioritize everything, so prioritization has to mean something."
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 3352.82,
+          "text": "What do you mean by that?"
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 3354.12,
+          "text": "You can't prioritize everything?"
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 3355.12,
+          "text": "What do you mean?"
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3355.82,
+          "text": "If everything is the same priority, then nothing is prioritized."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3359.22,
+          "text": "So at the end of the day, we need to know which places to assign our assets first and then work through everything in order."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3369.92,
+          "text": "What we've said before is our priority for our resources this year is the 20,000 priority corners and all of the unsheltered bus stops across New York City."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3379.32,
+          "text": "If we can get through all of those locations, we will absolutely keep shoveling until there's nothing left to be shoveled or until Mother Nature gets there first and melts it for us."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3389.12,
+          "text": "That's our approach."
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 3389.72,
+          "text": "Is the department meeting with disabled New Yorkers or leaders?"
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 3395.62,
+          "text": "I mean, there are either task forces or existing meetings happening maybe through MOPD, but it would be really, I think, beneficial for the department to be in a space"
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 3409.22,
+          "text": "to hear directly from disabled leaders, advocates on the issue of..."
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 3415.52,
+          "text": "Storms and addressing the priority concerns."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3420.22,
+          "text": "Yeah, that's something that we've had a number of conversations with MOPD about."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3424.12,
+          "text": "would be happy to have more."
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 3426.12,
+          "text": "Got it."
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 3426.32,
+          "text": "So currently there isn't a sort of maybe like something calendared that would be like a roundtable conversation between MOPD, the sanitation department, and disability advocates."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 3439.12,
+          "text": "There's nothing immediately on the schedule, but we'd be happy to set something like that up."
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 3443.02,
+          "text": "Excellent."
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 3443.62,
+          "text": "Thank you, Chair."
+        }
+      ]
+    },
+    {
+      "end_sec": 4810.3,
+      "id": "028",
+      "slug": "chair-sanchez-announces-10-minute-recess",
+      "start_sec": 3444.92,
+      "summary": "Chair Sanchez thanks the Commissioner for testimony and announces a 10-minute recess.",
+      "title": "Chair Sanchez announces 10-minute recess",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 3444.92,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 3446.02,
+          "text": "And with that, thank you for your testimony, and we will be taking a 10-minute recess."
+        }
+      ]
+    },
+    {
+      "end_sec": 4935.4,
+      "id": "029",
+      "slug": "council-staff-opens-public-testimony-and-outlines-rules",
+      "start_sec": 4810.3,
+      "summary": "Council staff welcome everyone back and open the hearing for public testimony. They remind the public of decorum rules, the two-minute speaking limit, and how to submit written testimony. They then call the first panel of witnesses.",
+      "title": "Council staff opens public testimony and outlines rules",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 4810.3,
+          "text": "Welcome back, everyone."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 4811.4,
+          "text": "I now open the hearing for public testimony."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 4813.8,
+          "text": "I remind members of the public that this is a government proceeding and that decorum shall be observed at all times."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 4819.0,
+          "text": "As such, members of the public shall remain silent at all times."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 4822.8,
+          "text": "The witness table is reserved for people who wish to testify."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 4825.7,
+          "text": "No video recording or photography is allowed from the witness table."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 4828.8,
+          "text": "Further, members of the public may not present audio or video recordings as testimony, but may submit transcripts of such recordings to the Sergeant of Arms for inclusion in the hearing record."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 4838.8,
+          "text": "If you wish to speak at today's hearing, please fill out an appearance card with the Sergeant of Arms and wait to be recognized."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 4844.3,
+          "text": "When recognized, you will have two minutes to speak on today's hearing topics, DSNY snow preparedness or any of the legislation on our agenda today."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 4852.2,
+          "text": "If you have a written statement or additional written testimony you wish to submit for the record, please provide a copy of that testimony to the Sergeant of Arms."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 4860.9,
+          "text": "You may also email written testimony to testimony at council.nyc.gov within 72 hours of this hearing."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 4868.4,
+          "text": "Audio and video recordings will not be accepted."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 4870.9,
+          "text": "I will now call our first panel."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 4875.8,
+          "text": "We have Elizabeth Valdez."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 4881.0,
+          "text": "Evan, oh, Iman, Re, Maui, Poster."
+        }
+      ]
+    },
+    {
+      "end_sec": 5158.4,
+      "id": "030",
+      "slug": "iman-ramawi-doster-testifies-on-snow-barriers-for-disabled-new-yorkers",
+      "start_sec": 4935.4,
+      "summary": "Iman Ramawi-Doster, Senior Community Organizer at New York Lawyers for the Public Interest, testifies about the severe impact of snow and ice on people with disabilities. She describes being unable to leave her home and calls for a holistic approach including assistance for seniors and disabled residents, increased fines for non-compliant businesses, and better interagency communication.",
+      "title": "Iman Ramawi-Doster testifies on snow barriers for disabled New Yorkers",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 4935.4,
+          "text": "Thank you so much."
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 4936.0,
+          "text": "I'm going to begin."
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 4936.7,
+          "text": "All right, wonderful."
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 4937.5,
+          "text": "Thank you so much."
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 4938.7,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 4939.6,
+          "text": "Oh, afternoon."
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 4940.7,
+          "text": "My name is Iman Ramawi-Doster, and I'm Senior Community Organizer for the Disability Justice Program at New York Lawyers for the Public Interest."
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 4948.0,
+          "text": "Thank you for the opportunity to present today."
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 4950.9,
+          "text": "NOPI's Disability Justice Program works on, among other issues, reducing barriers for people with disabilities around New York City, including by supporting those seeking better access to sidewalks, curb cuts, transportation, and businesses."
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 4966.1,
+          "text": "Last winter, snow and ice was especially brutal for those of us with physical disabilities and chronic illness."
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 4972.4,
+          "text": "As an above and below knee amputee with lupus, which causes chronic pain and chronic fatigue, navigating the city is already difficult."
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 4979.6,
+          "text": "Adding snow and ice makes it even harder."
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 4982.0,
+          "text": "My husband, who doesn't have a physical disability, had to travel with me for three days after the first few snowstorms because we knew that my metal legs and walker and wheelchair were no match for the ice and the snow."
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 4994.3,
+          "text": "And I couldn't even leave the house on the second day of the storm."
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 4997.5,
+          "text": "How can the city talk about how much it wants disabled New Yorkers to work, but not make sure the city is set up for us to get around?"
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 5005.5,
+          "text": "Getting to work isn't just about transportation or workplace accommodations."
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 5009.8,
+          "text": "It's about making sure the streets, sidewalks, and curb cuts are clear for us in every borough."
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 5016.2,
+          "text": "In addition, there are many other things we're missing out on besides work, like school, doctor's appointments, cultural events, dinner with friends, and so much more."
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 5026.1,
+          "text": "These issues are not minor inconveniences."
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 5028.8,
+          "text": "They're actually immediate threats to public safety and a violation of disabled New Yorkers'rights to access streets and sidewalks."
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 5036.3,
+          "text": "We need a holistic, intersectional, proactive, and intentional..."
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 5040.3,
+          "text": "approach, including implementing of the following."
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 5044.0,
+          "text": "Assisting seniors and persons with disabilities with snow removal, help incentivize property owners who are unable to meet their snow obligations, assess fines for non-compliant property owners and businesses, evaluate weather current"
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 5059.0,
+          "text": "And I'll submit the rest of it."
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 5060.6,
+          "text": "You can finish your testimony."
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 5061.7,
+          "text": "Oh, sure."
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 5062.1,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 5063.3,
+          "text": "Consider increasing fines for businesses, especially chain businesses, with progressive fines for repeat offenders, such as proposed in 0020-2002."
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 5077.3,
+          "text": "Eliminate fines for seniors and persons with disabilities who fail to comply with snow removal mandates."
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 5083.1,
+          "text": "Prioritize areas for particular importance, like areas around curb cuts and crosswalks, as well as areas with less likely to be cleared, such as sidewalks and vacant lots."
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 5094.9,
+          "text": "Hire temporary workers to clear crosswalks."
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 5097.9,
+          "text": "Establish a youth program, such as the Summer Youth Employment, to engage with citywide snow removal."
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 5104.6,
+          "text": "Reimburse property owners."
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 5106.6,
+          "text": "Institute uniform guidance and consider expanding the standards for clear paths."
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 5112.0,
+          "text": "And of course, accountability."
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 5113.9,
+          "text": "Improve interagency communication among relevant agencies and incentivize them to work more cooperatively."
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 5121.7,
+          "text": "For example, if there's a park across the street from a public school, one agency could clear both."
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 5126.8,
+          "text": "Rate how individual DSNY districts are doing."
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 5130.0,
+          "text": "by utilizing daily surveys."
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 5132.5,
+          "text": "And communication."
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 5133.8,
+          "text": "Establish a DSNY alert system for building superintendents."
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 5138.4,
+          "text": "And learning from other cities."
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 5140.1,
+          "text": "Fines can be assessed on per daily basis rather than per violation."
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 5145.1,
+          "text": "Chicago, for example, fines noncompliant businesses up to $1,000 per day for the violation."
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 5151.3,
+          "text": "Thank you so much, and I'll sip in my testimony."
+        },
+        {
+          "speaker": "Member of the Public - Iman Ramawi-Doster",
+          "t_sec": 5153.9,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 5291.4,
+      "id": "031",
+      "slug": "elizabeth-valdez-testifies-on-inaccessible-snow-clearing-for-disabled-residents",
+      "start_sec": 5158.4,
+      "summary": "Elizabeth Valdez, systems advocate at the Brooklyn Center for Independence of the Disabled, testifies that people with disabilities were trapped by snowstorms. She supports Intro 1042 but says it must be amended to track barriers like blocked curb cuts and sidewalks, and urges the city to take ultimate responsibility for clearing sidewalks and curb cuts.",
+      "title": "Elizabeth Valdez testifies on inaccessible snow clearing for disabled residents",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Elizabeth Valdez",
+          "t_sec": 5158.4,
+          "text": "Good afternoon."
+        },
+        {
+          "speaker": "Member of the Public - Elizabeth Valdez",
+          "t_sec": 5159.2,
+          "text": "My name is Elizabeth Valdez, and I am the systems advocate at the Brooklyn Center for Independence of the Disabled and the Wheelchair User."
+        },
+        {
+          "speaker": "Member of the Public - Elizabeth Valdez",
+          "t_sec": 5167.0,
+          "text": "Earlier this year, people with disabilities across the city experienced a devastating and lengthy barrier to access from the snowstorms that occurred in January and February."
+        },
+        {
+          "speaker": "Member of the Public - Elizabeth Valdez",
+          "t_sec": 5178.1,
+          "text": "We were trapped."
+        },
+        {
+          "speaker": "Member of the Public - Elizabeth Valdez",
+          "t_sec": 5179.0,
+          "text": "The sidewalks, streets, crosswalks, curb cuts, and bus stops were completely impassable for many of us."
+        },
+        {
+          "speaker": "Member of the Public - Elizabeth Valdez",
+          "t_sec": 5188.0,
+          "text": "We have a right to be part of our communities, a right to have jobs, a right to travel freely, a right to be part of the life of this city."
+        },
+        {
+          "speaker": "Member of the Public - Elizabeth Valdez",
+          "t_sec": 5197.4,
+          "text": "All of those rights were taken away by the city's failed response to these snowstorms."
+        },
+        {
+          "speaker": "Member of the Public - Elizabeth Valdez",
+          "t_sec": 5202.3,
+          "text": "This committee must confront how the city's current snow clearing plans do not work for everyone."
+        },
+        {
+          "speaker": "Member of the Public - Elizabeth Valdez",
+          "t_sec": 5210.1,
+          "text": "Cleared streets, sidewalks, and crossings that are"
+        },
+        {
+          "speaker": "Member of the Public - Elizabeth Valdez",
+          "t_sec": 5214.5,
+          "text": "passable by able-bodied people were not passable by people with disabilities and"
+        },
+        {
+          "speaker": "Member of the Public - Elizabeth Valdez",
+          "t_sec": 5220.1,
+          "text": "older adults."
+        },
+        {
+          "speaker": "Member of the Public - Elizabeth Valdez",
+          "t_sec": 5221.9,
+          "text": "In some cases, the city's efforts to clear streets for cars push snow and ice into the crosswalks and curb cuts, making it more difficult for people with disabilities to leave their homes."
+        },
+        {
+          "speaker": "Member of the Public - Elizabeth Valdez",
+          "t_sec": 5235.9,
+          "text": "We support the idea of Intro 1042."
+        },
+        {
+          "speaker": "Member of the Public - Elizabeth Valdez",
+          "t_sec": 5239.5,
+          "text": "Before you today, but it must be amended to track barriers that impact people with disabilities."
+        },
+        {
+          "speaker": "Member of the Public - Elizabeth Valdez",
+          "t_sec": 5245.0,
+          "text": "The city must track and resolve blocked curb cuts, sidewalks, crosswalks, and other areas of passage for people with disabilities."
+        },
+        {
+          "speaker": "Member of the Public - Elizabeth Valdez",
+          "t_sec": 5253.8,
+          "text": "The city must also coordinate snow clearance among agencies, including at the MTA, and provide a way for people with disabilities"
+        },
+        {
+          "speaker": "Member of the Public - Elizabeth Valdez",
+          "t_sec": 5263.0,
+          "text": "stuck by the snow to easily get help."
+        },
+        {
+          "speaker": "Member of the Public - Elizabeth Valdez",
+          "t_sec": 5267.3,
+          "text": "Finally, we urge this committee to acknowledge the city's ultimate responsibility for the clearance of sidewalks and curb cuts."
+        },
+        {
+          "speaker": "Member of the Public - Elizabeth Valdez",
+          "t_sec": 5276.5,
+          "text": "We know and the city knows that property owners are not meeting their responsibility to keep sidewalks and curb cuts clear."
+        },
+        {
+          "speaker": "Member of the Public - Elizabeth Valdez",
+          "t_sec": 5285.1,
+          "text": "The city must step in to meet its legal obligations and clear these barriers for people with disabilities."
+        }
+      ]
+    },
+    {
+      "end_sec": 5329.596,
+      "id": "032",
+      "slug": "council-transitions-to-remote-testimony-and-calls-mary-arnold",
+      "start_sec": 5291.4,
+      "summary": "Chair Sanchez thanks the in-person witnesses. Council staff then transition to remote testimony and call on Mary Arnold.",
+      "title": "Council transitions to remote testimony and calls Mary Arnold",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 5291.4,
+          "text": "Thank you both for your testimony today."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 5308.992,
+          "text": "We will now turn to remote testimony."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 5312.192,
+          "text": "Once your name is called, a member of our staff will unmute you and the Sergeant at Arms will give you the go ahead to begin."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 5317.592,
+          "text": "Please wait for the Sergeant to announce that you may begin before delivering your testimony."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 5322.292,
+          "text": "Now call on Mary Arnold."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 5326.396,
+          "text": "You may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 5467.4,
+      "id": "033",
+      "slug": "mary-arnold-testifies-on-garbage-and-snow-pile-issues-and-waste-export",
+      "start_sec": 5329.596,
+      "summary": "Mary Arnold testifies about garbage in snow piles and broader DSNY failures, including the export of 85% of the city's waste by rail. She cites environmental and health harms, violations of state law, and asks what DSNY will do to achieve compliance and protect community health.",
+      "title": "Mary Arnold testifies on garbage and snow pile issues and waste export",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Mary Arnold",
+          "t_sec": 5329.596,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Member of the Public - Mary Arnold",
+          "t_sec": 5330.996,
+          "text": "Garbage in snow piles is a concern, but DSNY is also failing to keep garbage out of neighborhoods in other seasons."
+        },
+        {
+          "speaker": "Member of the Public - Mary Arnold",
+          "t_sec": 5339.896,
+          "text": "85% of the city's MSW is exported to landfills and incinerators by rail."
+        },
+        {
+          "speaker": "Member of the Public - Mary Arnold",
+          "t_sec": 5346.896,
+          "text": "Harms include the nauseating stench from punctured and otherwise defective cans that are not leak-proof, don't seal, and sit around in neighborhoods."
+        },
+        {
+          "speaker": "Member of the Public - Mary Arnold",
+          "t_sec": 5356.596,
+          "text": "The rats that move through neighborhoods attracted by waste management's stinking rail cans."
+        },
+        {
+          "speaker": "Member of the Public - Mary Arnold",
+          "t_sec": 5362.296,
+          "text": "Residents'loss of use and enjoyment of their property."
+        },
+        {
+          "speaker": "Member of the Public - Mary Arnold",
+          "t_sec": 5366.396,
+          "text": "Lack of achievement of DSNY's purported goals in the draft solid waste management plan for an increase in diversion."
+        },
+        {
+          "speaker": "Member of the Public - Mary Arnold",
+          "t_sec": 5374.996,
+          "text": "The fact is that these rates are going down."
+        },
+        {
+          "speaker": "Member of the Public - Mary Arnold",
+          "t_sec": 5377.496,
+          "text": "40% of waste exported is rotting organics, and DSNY's planned empire bins and automated pickup will simply mask this failure, which fuels climate change"
+        },
+        {
+          "speaker": "Member of the Public - Mary Arnold",
+          "t_sec": 5389.896,
+          "text": "and spreads environmental injustice and pollution."
+        },
+        {
+          "speaker": "Member of the Public - Mary Arnold",
+          "t_sec": 5394.196,
+          "text": "The rapidly rising MSW export cost to New York City taxpayers, which has"
+        },
+        {
+          "speaker": "Member of the Public - Mary Arnold",
+          "t_sec": 5400.1,
+          "text": "to the current affordability crisis for New Yorkers."
+        },
+        {
+          "speaker": "Member of the Public - Mary Arnold",
+          "t_sec": 5404.7,
+          "text": "Lack of sealed leak-proof MSW containment is a violation of New York's Consolidated Laws Environmental Conservation Law 27-0712."
+        },
+        {
+          "speaker": "Member of the Public - Mary Arnold",
+          "t_sec": 5416.4,
+          "text": "The idea that DSNY's current waste by rail equipment, operations, and enforcement are adequate to maintain sealed leak-proof containment is patently false."
+        },
+        {
+          "speaker": "Member of the Public - Mary Arnold",
+          "t_sec": 5427.1,
+          "text": "Reports of stinking trains started in April of this year when it was 50 degrees outside and continue."
+        },
+        {
+          "speaker": "Member of the Public - Mary Arnold",
+          "t_sec": 5434.5,
+          "text": "DSNY told you at a hearing, Chair Sanchez, that waste export by rail costs this much because DSNY does it right."
+        },
+        {
+          "speaker": "Member of the Public - Mary Arnold",
+          "t_sec": 5443.2,
+          "text": "They do not."
+        },
+        {
+          "speaker": "Member of the Public - Mary Arnold",
+          "t_sec": 5444.5,
+          "text": "What is DSNY going to do now to achieve compliance with state law and their own contract requirements?"
+        },
+        {
+          "speaker": "Member of the Public - Mary Arnold",
+          "t_sec": 5450.9,
+          "text": "Stop letting companies they do business with externalize their cost at residents'expense and protect community and environmental health."
+        },
+        {
+          "speaker": "Member of the Public - Mary Arnold",
+          "t_sec": 5461.0,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Member of the Public - Mary Arnold",
+          "t_sec": 5461.6,
+          "text": "I know you know from personal experience what a terrible thing this is."
+        },
+        {
+          "speaker": "Member of the Public - Mary Arnold",
+          "t_sec": 5466.6,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 5512.213,
+      "id": "034",
+      "slug": "chair-sanchez-closes-hearing-and-adjourns",
+      "start_sec": 5467.4,
+      "summary": "Chair Sanchez thanks Mary Arnold for her testimony and asks if anyone else wishes to testify. Seeing none, he thanks the administration and public, and adjourns the hearing.",
+      "title": "Chair Sanchez closes hearing and adjourns",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 5467.4,
+          "text": "Thank you for your testimony, Mary."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 5472.888,
+          "text": "And if we have inadvertently missed anyone that has registered to testify and has yet to be called, please use the Zoom raise hand function if you're testifying remotely, and you'll be called on in the order that your hand has been raised."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 5485.688,
+          "text": "If you are testifying in person, please come to the dais."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 5490.788,
+          "text": "Going once."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 5492.488,
+          "text": "Going twice."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 5494.888,
+          "text": "Wow, riveting."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 5495.988,
+          "text": "Riveting stuff."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 5498.288,
+          "text": "Seeing none, I will now close the hearing."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 5500.288,
+          "text": "Thank you to the members of the administration and the members of the public who have joined us today to discuss this very important topic."
+        },
+        {
+          "speaker": "Justin E. Sanchez",
+          "t_sec": 5505.988,
+          "text": "This hearing is adjourned."
+        }
+      ]
+    }
+  ],
+  "date": "2026-11-02",
+  "duration_sec": 5512.213,
+  "slug": "2026-11-02-1000-am-committee-on-sanitation-and-solid-waste-management",
+  "summary": [
+    "Committee on Sanitation and Solid Waste Management held an oversight hearing on the city's snow removal and winter storm response, plus Intro 1042 on snow plowing data publication.",
+    "Council members questioned DSNY officials on pedestrian ramp clearing, bike lane plowing, equipment readiness, and coordination with other agencies.",
+    "Public testimony highlighted the impact of snowstorms on disabled New Yorkers and called for better accessibility and enforcement."
+  ],
+  "tags": [
+    "HEARING"
+  ],
+  "time": "10:00 AM",
+  "title": "Committee on Sanitation and Solid Waste Management",
+  "topic": "Oversight - City\u2019s Snow Removal and Winter Storm Response",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://discourse-media.qqlab.io/NYCC-250-8-1_261102-104448/video-web.mp4"
+  }
+}
