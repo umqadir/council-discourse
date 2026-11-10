@@ -1,0 +1,470 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 19.3,
+      "id": "001",
+      "slug": "council-staff-opens-webinar-and-sets-land-use-committee-rules",
+      "start_sec": 2.5,
+      "summary": "Council staff announce the webinar has started, welcome attendees to the Committee on Land Use vote, and instruct devices to be silenced and no one to approach the dais. The chair is then invited to begin.",
+      "title": "Council staff opens webinar and sets Land Use Committee rules",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 2.5,
+          "text": "The webinar has started."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 5.5,
+          "text": "Good afternoon and welcome to the New York City Council vote for the Committee on Land Use."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 10.6,
+          "text": "At this time, please put all devices on silent."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 13.6,
+          "text": "And going forward, no one is to approach the dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 16.4,
+          "text": "Chair, you may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 45.8,
+      "id": "002",
+      "slug": "chair-riley-opens-meeting-and-welcomes-land-use-committee-members",
+      "start_sec": 19.3,
+      "summary": "Council Member Kevin Riley opens the meeting as Chair and introduces himself. He welcomes colleagues including Chair Lewis, Council Members Osei, Zhuang, Justin Sanchez, Thomas-Henry, Minority Leader Carr, and Majority Leader Abreu.",
+      "title": "Chair Riley opens meeting and welcomes Land Use Committee members",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 19.3,
+          "text": "Good afternoon and welcome to a meeting on the Committee on Land Use."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 22.4,
+          "text": "I'm Councilmember Kevin Riley, Chair of this committee."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 25.2,
+          "text": "I want to welcome my esteemed colleagues joining me today, including Chair Lewis, Councilmember Osei, Councilmember Zhuang, Councilmember Justin Sanchez, Councilmember Thomas Henry, and Minority Leader David Carr."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 40.5,
+          "text": "We've just also been joined by Majority Leader Sean Abreu."
+        }
+      ]
+    },
+    {
+      "end_sec": 54.6,
+      "id": "003",
+      "slug": "chair-riley-announces-four-land-use-items-and-thanks-subcommittee-chairs",
+      "start_sec": 45.8,
+      "summary": "Chair Riley states the committee will vote on four items and thanks Chair Lewis, Zonin, Chair Marte, and Landmarks for subcommittee leadership. He then previews the approvals and modifications to be considered.",
+      "title": "Chair Riley announces four Land Use items and thanks subcommittee chairs",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 45.8,
+          "text": "Today we are voting on four items and I want to thank Chair Lewis and Zonin and Chair Marte and Landmarks for their ongoing leadership in our subcommittees."
+        }
+      ]
+    },
+    {
+      "end_sec": 89.0,
+      "id": "004",
+      "slug": "chair-riley-describes-108-05-68th-road-rezoning-and-mih-modification",
+      "start_sec": 54.6,
+      "summary": "Chair Riley explains LUs 148 and 149, the 108-05 68th Road rezoning in Council Member Shulman's Queens district. The project would create about 33 apartments, eight permanently affordable through MIH, and the modification removes MIH option 2 and adds option 3.",
+      "title": "Chair Riley describes 108-05 68th Road rezoning and MIH modification",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 54.6,
+          "text": "We will vote to approve with modifications LUs 148 and 149 related to the 108-05 68th Road Rezoning Proposal in Councilmember Shulman's District in Queens."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 68.6,
+          "text": "For a zoning map and zoning text amendment to facilitate the development of a mixed-use residential project, including approximately 33 apartments, of which eight units would be permanently affordable with MIH."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 83.0,
+          "text": "Our modification will be to remove MIH option 2 and to add option 3."
+        }
+      ]
+    },
+    {
+      "end_sec": 125.1,
+      "id": "005",
+      "slug": "chair-riley-describes-100-12-queens-boulevard-rezoning-and-mih-modification",
+      "start_sec": 89.0,
+      "summary": "Chair Riley moves to LUs 150 and 151, the 100-12 Queens Boulevard rezoning also in Council Member Shulman's district. The mixed-use project would include about 389 apartments, up to 97 permanently affordable through MIH, with the same modification to remove MIH option 2 and add option 3.",
+      "title": "Chair Riley describes 100-12 Queens Boulevard rezoning and MIH modification",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 89.0,
+          "text": "We will vote to approve."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 90.1,
+          "text": "with modifications, LUs 150 and 151, related to the 100-12 Queens Boulevard rezoning proposal, also in Councilmember Shulman's district in Queens."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 103.3,
+          "text": "For a zoning map and zoning text amendment to facilitate the development of a mixed-use residential project, including approximately"
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 111.6,
+          "text": "389 apartments, of which up to 97 units will be permanently affordable through MIH."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 119.3,
+          "text": "Our modification will be to remove MIH option 2 and to add option 3."
+        }
+      ]
+    },
+    {
+      "end_sec": 159.4,
+      "id": "006",
+      "slug": "chair-riley-outlines-south-richmond-designated-open-space-amendment",
+      "start_sec": 125.1,
+      "summary": "Chair Riley describes LU 152, the South Richmond Designated Open Space Text Amendment in Council Member Marano's Staten Island district. It would make targeted corrective changes to designated open space boundaries affecting three sites, consistent with a 2023 text amendment within the Special South Richmond Development District.",
+      "title": "Chair Riley outlines South Richmond designated open space amendment",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 125.1,
+          "text": "We will also vote to approve LU 152 related to the South Richmond Designated Open Space Text Amendment and Councilmember Marano's District in Staten Island,"
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 136.0,
+          "text": "which would incorporate targeted corrective changes to designated open space boundaries affecting three sites"
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 143.9,
+          "text": "in a manner consistent with the purpose and intent of a 2023 text amendment that streamlined the way certain designated open spaces were defined and protected."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 155.8,
+          "text": "Within the special South Richmond Development District."
+        }
+      ]
+    },
+    {
+      "end_sec": 195.9,
+      "id": "007",
+      "slug": "chair-riley-outlines-studio-54-rehabilitation-text-amendment-and-special-permit",
+      "start_sec": 159.4,
+      "summary": "Chair Riley describes LUs 153 and 154, the Studio 54 Rehabilitation Text Amendment and Special Permit in Council Member Wilson's Manhattan district. The zoning text amendment and special permit would facilitate rehabilitation of the Studio 54 Theater in the Special Midtown theater subdistrict in exchange for bonus floor area transferable to eligible sites.",
+      "title": "Chair Riley outlines Studio 54 rehabilitation text amendment and special permit",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 159.4,
+          "text": "And we will also vote to approve LUs 153 and 154 related to the Studio 54"
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 165.8,
+          "text": "Rehabilitation Tax Amendment and Special Permit in Councilmember Wilson's District in Manhattan for a zoning tax amendment and a zoning special permit to facilitate the rehabilitation of Studio 54 Theater in the theater sub-"
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 180.0,
+          "text": "district of the special midtown district in exchange for a generation of bonus floor area to the applicant that could be transferred to eligible sites elsewhere within the theater sub-district."
+        }
+      ]
+    },
+    {
+      "end_sec": 233.4,
+      "id": "008",
+      "slug": "chair-riley-moves-approval-of-all-land-use-items-and-calls-roll-call",
+      "start_sec": 195.9,
+      "summary": "Chair Riley calls for a vote to approve LU 152, LUs 153 and 154, and to approve with modifications LUs 148 and 149 and LUs 150 and 151. He asks the clerk to call the roll on the coupled items.",
+      "title": "Chair Riley moves approval of all Land Use items and calls roll call",
+      "type": "VOTE",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 195.9,
+          "text": "I will now call for a vote with the support of local members to approve L.U.'s 152 for the South Richmond Designated Open Space Text Amendment,"
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 205.6,
+          "text": "L.U.'s 153 and 154 for the Studio 54 Rehabilitation Text Amendment and Special Permit."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 212.5,
+          "text": "To approve and to approve with modifications, LUs 148 and 149"
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 218.6,
+          "text": "for the 108-05 68th Road Rezoning and LUs 150 and 151 for the 100-12 Queens Boulevard Rezoning."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 229.5,
+          "text": "Will the clerk please call the roll?"
+        }
+      ]
+    },
+    {
+      "end_sec": 281.62,
+      "id": "009",
+      "slug": "clerk-william-martin-conducts-roll-call-on-coupled-land-use-items",
+      "start_sec": 233.4,
+      "summary": "Committee Clerk William Martin conducts the roll call, noting all items are coupled. Chair Riley and several members vote aye, with the clerk recording the responses before announcing the tally.",
+      "title": "Clerk William Martin conducts roll call on coupled Land Use items",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 233.4,
+          "text": "Good afternoon."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 234.5,
+          "text": "William Martin, Committee Clerk."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 235.6,
+          "text": "Roll call vote Committee on Land Use."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 237.2,
+          "text": "All items are coupled."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 238.9,
+          "text": "Chair Riley."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 240.3,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 241.8,
+          "text": "Lewis."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 243.0,
+          "text": "Aye or no."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 244.7,
+          "text": "Brooks Powers."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 248.42,
+          "text": "Kaban."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 250.82,
+          "text": "Abrayu."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 251.72,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 253.52,
+          "text": "Osei."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 255.02,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 257.02,
+          "text": "Salam."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 260.22,
+          "text": "Banks."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 261.92,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 263.32,
+          "text": "Juang."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 264.92,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 266.92,
+          "text": "Encarnaci\u00f3n."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 270.62,
+          "text": "Sanchez."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 272.92,
+          "text": "I."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 274.82,
+          "text": "Thomas Henry."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 276.42,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 278.32,
+          "text": "Car."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 279.72,
+          "text": "I don't know."
+        }
+      ]
+    },
+    {
+      "end_sec": 288.02,
+      "id": "010",
+      "slug": "committee-adopts-all-land-use-items-9-0",
+      "start_sec": 281.62,
+      "summary": "Clerk Martin announces a vote of 9 in the affirmative, 0 in the negative, and no abstentions. All items are adopted as described by the chair.",
+      "title": "Committee adopts all Land Use items 9-0",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 281.62,
+          "text": "With a vote of 9 in the affirmative, 0 in the negative, no abstentions."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 284.62,
+          "text": "All items have been adopted as described by the chair."
+        }
+      ]
+    },
+    {
+      "end_sec": 312.32,
+      "id": "011",
+      "slug": "chair-riley-notes-council-member-banks-joined-thanks-participants-and-adjourns",
+      "start_sec": 288.02,
+      "summary": "Chair Riley asks for the record to note that Council Member Banks joined the meeting. He thanks the public, colleagues, council staff, and Sergeant of Arms, then adjourns the meeting.",
+      "title": "Chair Riley notes Council Member Banks joined, thanks participants, and adjourns",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 288.02,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 289.02,
+          "text": "I just want to stay for a record."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 290.02,
+          "text": "We've been joined by Councilmember Banks."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 292.12,
+          "text": "That concludes today's business."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 293.52,
+          "text": "I would like to thank the members of the public, my colleagues, council staff, and the Sergeant of Arms for participating in today's meeting."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 299.52,
+          "text": "This meeting is hereby adjourned."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 300.72,
+          "text": "Thank you."
+        }
+      ]
+    }
+  ],
+  "date": "2026-11-10",
+  "duration_sec": 312.32,
+  "slug": "2026-11-10-1200-pm-committee-on-land-use",
+  "summary": [
+    "Committee on Land Use convened for a vote on four land use items: 108-05 68th Road and 100-12 Queens Boulevard rezonings, South Richmond open space amendment, and Studio 54 rehabilitation.",
+    "Chair Riley described modifications to remove MIH option 2 and add option 3 for the two Queens rezonings, and outlined approvals for South Richmond and Studio 54.",
+    "The committee adopted all items as coupled by a 9-0 roll call and adjourned."
+  ],
+  "tags": [
+    "VOTE",
+    "LAND_USE"
+  ],
+  "time": "12:00 PM",
+  "title": "Committee on Land Use",
+  "topic": "Zoning, 108-05 68th Road Rezoning, Queens (C 260234 ZMQ)",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://discourse-media.qqlab.io/NYCC-250-8-3_261110-120657/video-web.mp4"
+  }
+}

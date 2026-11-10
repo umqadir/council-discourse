@@ -1,0 +1,774 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 42.5,
+      "id": "001",
+      "slug": "call-to-order-and-attendance-for-zoning-and-franchises-vote",
+      "start_sec": 7.6,
+      "summary": "Council staff opens the meeting, asks that all devices be silenced, and directs that no one approach the dais. Chair Farah Louis convenes the Subcommittee on Zoning and Franchises and lists attending members including Schulman, Wilson, Felder, Sanchez, Thomas-Henry, Carr, and Farias.",
+      "title": "Call to order and attendance for Zoning and Franchises vote",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 7.6,
+          "text": "Good morning and welcome to the New York City Council vote for the Committee on Zoning and Franchises."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 14.1,
+          "text": "At this time, please put all devices on silent and no one is to approach the dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 18.8,
+          "text": "Chair, you may begin."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 24.2,
+          "text": "Good morning and welcome to a meeting of the Subcommittee on Zoning and Franchises."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 28.6,
+          "text": "I'm Councilmember Farrah Lewis, Chair of the Subcommittee."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 31.9,
+          "text": "This morning I'm joined by Councilmembers Shulman, Wilson, Felder, Sanchez will be a little bit late, Thomas Henry, Minority Leader Carr, and Farias on Zoom."
+        }
+      ]
+    },
+    {
+      "end_sec": 44.9,
+      "id": "002",
+      "slug": "chair-louis-announces-four-proposals-up-for-a-vote",
+      "start_sec": 42.5,
+      "summary": "Chair Louis states the subcommittee will vote on four proposals today. She begins with the 108-05 68th Road rezoning in Council Member Schulman's district.",
+      "title": "Chair Louis announces four proposals up for a vote",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 42.5,
+          "text": "Today we are voting on four proposals."
+        }
+      ]
+    },
+    {
+      "end_sec": 74.0,
+      "id": "003",
+      "slug": "chair-louis-presents-108-05-68th-road-rezoning-lu-148-149",
+      "start_sec": 44.9,
+      "summary": "Chair Louis describes the applicant's mixed-use project with approximately 33 apartments, up to eight permanently affordable units, and about 12,000 square feet of community facility space for a daycare center in Council Member Schulman's district.",
+      "title": "Chair Louis presents 108-05 68th Road rezoning (LU 148/149)",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 44.9,
+          "text": "The first vote concerns LUs 148 and 149 regarding the 108-0568th Road rezoning proposal and Councilmember Shulman's district."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 56.3,
+          "text": "Applicant proposes to build a mixed-use residential project with approximately 33 apartments, of which up to eight units would be permanently affordable."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 65.8,
+          "text": "The development will also have about 12,000 square feet of community facility space for a daycare center."
+        }
+      ]
+    },
+    {
+      "end_sec": 118.0,
+      "id": "004",
+      "slug": "chair-louis-details-two-actions-and-mih-modification-for-68th-road",
+      "start_sec": 74.0,
+      "summary": "The proposal involves a zoning map amendment from R1-2A to R7A and a text amendment mapping a Mandatory Inclusionary Housing area. Chair Louis recommends removing MIH option 2 and adding option 3 to ensure affordability at 40% or 60% AMI, and notes Schulman supports the application as modified.",
+      "title": "Chair Louis details two actions and MIH modification for 68th Road",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 74.0,
+          "text": "The proposal involves two actions."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 76.5,
+          "text": "The first is a zoning map amendment to change the existing residential R1-2A district to a residential R7A district."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 85.5,
+          "text": "The second action is a zoning text amendment to map a mandatory inclusionary"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 90.1,
+          "text": "housing area."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 91.3,
+          "text": "We are recommending one modification to remove MIH option two to add option three,"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 98.0,
+          "text": "which will ensure that the affordable apartments are provided at lower rents affordable to families with household incomes at an average of either 40% or 60% AMI."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 110.4,
+          "text": "Councilmember Shulman supports this application as modified."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 113.8,
+          "text": "Councilmember Shulman."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 115.5,
+          "text": "You can make your statement now."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 117.0,
+          "text": "Thanks."
+        }
+      ]
+    },
+    {
+      "end_sec": 143.9,
+      "id": "005",
+      "slug": "schulman-describes-fontaine-co-op-agreement-and-affordable-units",
+      "start_sec": 118.0,
+      "summary": "Council Member Schulman describes the agreement for 100-12 Queens Boulevard, noting the applicant reached an agreement with the abutting Fontaine co-op to invest in mitigating project impacts and benefiting the neighborhood. She highlights the 100 affordable housing units as substantial for that area of Queens.",
+      "title": "Schulman describes Fontaine co-op agreement and affordable units",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 118.0,
+          "text": "Today's agreement regarding 100-12 Queens Boulevard is multifaceted and unprecedented in that the applicant reached an agreement with the abutting co-op, the Fontaine, to invest significant resources to mitigate project impacts and to benefit the neighboring community."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 133.5,
+          "text": "In addition, the 100 units of affordable..."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 136.6,
+          "text": "Housing units that will be part of the project are substantial for that area of Queens, bringing much needed affordability to the community."
+        }
+      ]
+    },
+    {
+      "end_sec": 196.6,
+      "id": "006",
+      "slug": "schulman-on-community-board-approval-retail-preservation-and-flood-mitigation",
+      "start_sec": 143.9,
+      "summary": "Schulman notes the project was approved by Community Board 6 and the borough president, and that developer Benenson committed to preserving retail space, with emphasis on keeping the CVS drugstore. She cites wider greener sidewalks, exterior bike racks, and an enhanced water retention plan, then thanks the developer.",
+      "title": "Schulman on community board approval, retail preservation, and flood mitigation",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 143.9,
+          "text": "The project has also been approved by the local community board, Board 6, and the borough president."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 149.0,
+          "text": "Further, Benenson, the developer, has made a commitment to preserve the character of the retail space, which he has supported for over 70 years as the owner of the property."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 157.6,
+          "text": "Once the building is complete and is in the process of communicating with current retail tenants about continuing their tenancies after the building is done, with a heavy emphasis on keeping the much regarded and heavily used CVS drugstore."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 170.4,
+          "text": "The project will include wider and greener sidewalks and exterior bike racks, and in response to increased flooding in the area during major storm events, the developer"
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 180.1,
+          "text": "has agreed to enhance the already required water retention plan for the project."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 184.7,
+          "text": "I want to thank the developer and his team for working so closely with me and my staff to make this project work for the community."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 190.6,
+          "text": "And with that, I vote aye."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 192.2,
+          "text": "Oh, I'm sorry."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 192.7,
+          "text": "We didn't vote yet."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 194.4,
+          "text": "We're about to."
+        }
+      ]
+    },
+    {
+      "end_sec": 250.1,
+      "id": "007",
+      "slug": "chair-louis-presents-100-12-queens-boulevard-rezoning-lu-150-151",
+      "start_sec": 196.6,
+      "summary": "Chair Louis clarifies that Schulman's earlier remarks concerned 100-12 Queens Boulevard and introduces the second vote: a mixed-use project with approximately 389 apartments, up to 97 permanently affordable, involving a zoning map amendment from R4B and R7-1 with a C1-2 overlay to R7-1 and R9X with a C2-4 overlay.",
+      "title": "Chair Louis presents 100-12 Queens Boulevard rezoning (LU 150/151)",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 196.6,
+          "text": "Thank you, Councilmember Shulman, who included remarks about 100-12 Queens Boulevard."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 202.8,
+          "text": "Now the second vote concerns LUs 150 and 151 regarding the 100-12 Queens Boulevard rezoning proposal, which is also in Councilmember Shulman's district."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 214.6,
+          "text": "Applicant proposes to build a mixed-use residential project with approximately 389 apartments, of which up to 97 apartments would be permanently affordable."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 224.4,
+          "text": "The proposal involves two actions."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 226.7,
+          "text": "The first is a zoning map amendment to change the existing residential R4B"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 232.6,
+          "text": "and R7-1 districts with a C1-2 commercial overlay to residential R7-1 and R9X districts with a C2-4 commercial overlay."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 245.5,
+          "text": "The second action is a zoning tax amendment to map a mandatory inclusionary housing area."
+        }
+      ]
+    },
+    {
+      "end_sec": 270.1,
+      "id": "008",
+      "slug": "chair-louis-recommends-mih-option-3-for-queens-boulevard-project",
+      "start_sec": 250.1,
+      "summary": "Chair Louis recommends removing MIH option 2 and adding option 3 to ensure affordable apartments are provided at lower rents affordable to households averaging 40% or 60% AMI. She notes Council Member Schulman supports the project as modified.",
+      "title": "Chair Louis recommends MIH option 3 for Queens Boulevard project",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 250.1,
+          "text": "We are recommending one modification to remove MIH option 2 to add option 3, which will ensure the affordable apartments are provided at lower rents, affordable to families with household incomes at an average of either"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 263.4,
+          "text": "40 or 60% AMI."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 266.2,
+          "text": "Councilmember Shulman supports this project as modified."
+        }
+      ]
+    },
+    {
+      "end_sec": 294.0,
+      "id": "009",
+      "slug": "chair-louis-presents-studio-54-text-amendment-and-special-permit-lu-153-154",
+      "start_sec": 270.1,
+      "summary": "Chair Louis introduces the Studio 54 rehabilitation in Council Member Wilson's district, a listed Midtown Broadway theater governed by the theater subdistrict regulations of the zoning resolution. The proposal involves a text amendment and a special permit.",
+      "title": "Chair Louis presents Studio 54 text amendment and special permit (LU 153/154)",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 270.1,
+          "text": "Third vote concerns LUs 153 and 154 regarding the Studio 54 text amendment and special permit proposal in Councilmember Wilson's district."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 279.9,
+          "text": "Applicant is seeking to rehabilitate the Midtown Broadway Theater known as Studio 54."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 286.3,
+          "text": "The site is a listed theater that is governed by the regulations of the theater sub-district of the city zoning resolution."
+        }
+      ]
+    },
+    {
+      "end_sec": 351.3,
+      "id": "010",
+      "slug": "chair-louis-explains-theater-bonus-floor-area-transfer-mechanism",
+      "start_sec": 294.0,
+      "summary": "Chair Louis explains that the subdistrict currently grants bonus floor area when a listed theater is rehabilitated but requires it be used on the theater's own site, restricting its use. The text amendment would allow transfer of bonus floor area to other sites in the subdistrict, and Wilson supports the application.",
+      "title": "Chair Louis explains theater bonus floor area transfer mechanism",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 294.0,
+          "text": "The proposal involves two actions, a text amendment that would amend the regulations of the theater sub-district."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 300.9,
+          "text": "Currently, the sub-district provides an additional floor area when a listed theater in the sub-district is rehabilitated."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 308.3,
+          "text": "But the bonus floor area has to be used on the site that the theater is located."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 314.5,
+          "text": "This significantly restricts the use of the bonus, making the renovating of existing theaters more challenging."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 325.8,
+          "text": "The text amendment would allow the transfer of the bonus floor to the other sites within the theater sub-district."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 332.6,
+          "text": "The second action is a special permit pursuant to the modified regulations to rehabilitate Studio 54 and obtain bonus floor area that could be transferred by the applicant to another site."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 346.3,
+          "text": "Councilmember Wilson supports this application."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 348.6,
+          "text": "I now recognize Councilmember Wilson for remarks."
+        }
+      ]
+    },
+    {
+      "end_sec": 382.1,
+      "id": "011",
+      "slug": "wilson-supports-roundabout-s-studio-54-rehabilitation",
+      "start_sec": 351.3,
+      "summary": "Council Member Wilson expresses pride in supporting the applications to help Roundabout Theater Company rehabilitate Studio 54, calling it one of the most iconic cultural institutions in his district and the city. He says the proposal lets Roundabout make critical investments to preserve and improve the historic space.",
+      "title": "Wilson supports Roundabout's Studio 54 rehabilitation",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 351.3,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 352.1,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 353.1,
+          "text": "I am very proud to support these land use applications today to help Roundabout Theater."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 359.7,
+          "text": "Roundabout."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 360.0,
+          "text": "theater company facilitate the rehabilitation of Studio 54, one of the most iconic cultural institutions in my district and the entire city."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 369.5,
+          "text": "Through this proposal, Roundabout Theater Company will be able to make critical investments in the theater, preserving and improving this historic space while ensuring it can continue to serve New Yorkers and visitors for generations to come."
+        }
+      ]
+    },
+    {
+      "end_sec": 442.8,
+      "id": "012",
+      "slug": "wilson-says-proposal-creates-a-tool-for-the-entire-theater-district",
+      "start_sec": 382.1,
+      "summary": "Wilson says the proposal creates a mechanism the entire theater district can use to generate capital for improvements at old, constrained sites. He argues supporting theaters means supporting artists, stagehands, and producers, and thanks Roundabout and his colleagues.",
+      "title": "Wilson says proposal creates a tool for the entire theater district",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 382.1,
+          "text": "And by the way, this proposal doesn't just stop at Studio 54."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 387.0,
+          "text": "This creates a mechanism and tool that the entire theater district can use to generate capital to make."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 395.8,
+          "text": "Significant capital improvements in sites that are often challenging, constrained, and very old."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 400.9,
+          "text": "So I think this is a great way for the city to help facilitate investment in the theater district, which is a major part of what we love about New York City."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 412.7,
+          "text": "And when we support the theaters, it means supporting the artists, the stagehands, the producers, and everyone who works there."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 418.3,
+          "text": "And this is how we invest in our community and how we invest in the arts and culture scene."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 423.2,
+          "text": "So I want to thank Roundabout Theater Company for its continued commitment to our city and to preserving this important piece of our neighborhood history."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 430.2,
+          "text": "And I look forward to seeing this project continue and for the investment in Broadway to thrive."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 437.1,
+          "text": "And I want to thank my colleagues for their consideration of this application."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 440.2,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 441.0,
+          "text": "Thank you, Councilmember Wilson."
+        }
+      ]
+    },
+    {
+      "end_sec": 452.9,
+      "id": "013",
+      "slug": "chair-louis-presents-south-richmond-open-space-amendment-lu-152",
+      "start_sec": 442.8,
+      "summary": "Chair Louis introduces the fourth and final vote, the South Richmond Designated Open Space text amendment proposal in Council Member Morano's district.",
+      "title": "Chair Louis presents South Richmond Open Space amendment (LU 152)",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 442.8,
+          "text": "The fourth and final vote concerns LU's 152 regarding the South Richmond Designated Open Space Tax Amendment Proposal."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 450.3,
+          "text": "and Councilmember Morano's district."
+        }
+      ]
+    },
+    {
+      "end_sec": 492.036,
+      "id": "014",
+      "slug": "chair-louis-explains-special-south-richmond-development-district-changes",
+      "start_sec": 452.9,
+      "summary": "Chair Louis explains that development on Staten Island's south shore is governed by the Special South Richmond Development District, which designates open space that cannot be developed. The district was streamlined in 2023, and today's amendment corrects open space boundaries and clarifies the text; Morano supports it.",
+      "title": "Chair Louis explains Special South Richmond Development District changes",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 452.9,
+          "text": "Development on the south shore of Staten Island is governed by the Special South Richmond Development District."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 459.1,
+          "text": "The special district designates certain areas as open space that cannot be developed."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 464.7,
+          "text": "In 2023, the special district was significantly streamlined and the designated open spaces updated."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 471.1,
+          "text": "Today's text amendment would correct some of the open space boundaries that were modified in 2023 and clarify the text of the special district."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 479.8,
+          "text": "Councilmember Morano supports this application."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 483.3,
+          "text": "Council, are there any members with questions or remarks at this time?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 489.736,
+          "text": "No, Chair."
+        }
+      ]
+    },
+    {
+      "end_sec": 515.436,
+      "id": "015",
+      "slug": "chair-louis-calls-the-vote-on-all-four-proposals",
+      "start_sec": 492.036,
+      "summary": "Chair Louis calls for a vote to approve the modifications for LUs 148 and 149, LUs 150 and 151, LU 152, and LUs 153 and 154. She asks the council to call the roll.",
+      "title": "Chair Louis calls the vote on all four proposals",
+      "type": "VOTE",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 492.036,
+          "text": "I now call for a vote to approve the modifications with LUs 148 and 149 related to 108-05 68th Road and LUs 150 and 151 related to 100-12"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 504.836,
+          "text": "Queens Boulevard to approve LU 152 related to South Richmond Designated Open Space and LUs 153 and 154 related to Studio 54."
+        }
+      ]
+    },
+    {
+      "end_sec": 532.504,
+      "id": "016",
+      "slug": "roll-call-begins-lewis-and-farias-vote-aye",
+      "start_sec": 515.436,
+      "summary": "The clerk calls the roll, and Chair Lewis votes aye on all. Council Member Farias votes aye on all and congratulates her colleagues Schulman and Wilson.",
+      "title": "Roll call begins: Lewis and Farias vote aye",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 515.436,
+          "text": "Council, please call the roll."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 520.404,
+          "text": "Chair Lewis?"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 521.804,
+          "text": "Aye on all."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 524.304,
+          "text": "Councilmember Furious?"
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 527.204,
+          "text": "I vote aye on all."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 528.304,
+          "text": "Congratulations to my colleagues, Shulman and Wilson."
+        }
+      ]
+    },
+    {
+      "end_sec": 582.808,
+      "id": "017",
+      "slug": "schulman-explains-her-vote-and-votes-aye-on-all",
+      "start_sec": 532.504,
+      "summary": "Schulman requests permission to explain her vote, apologizes for mixing up the two Queens projects, and notes 108-05 68th Road was smooth while the larger project brings needed affordable housing to her district. She jokes she is the only one old enough to have gone to Studio 54 and votes aye on all.",
+      "title": "Schulman explains her vote and votes aye on all",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 532.504,
+          "text": "Councilmember Shulman?"
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 534.304,
+          "text": "Permission to explain my vote?"
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 536.004,
+          "text": "Permission granted."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 537.104,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 537.504,
+          "text": "So, I'm sorry, I mixed up the two projects before."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 542.604,
+          "text": "108-0568th Road has been so smooth in terms of the negotiations and everything else."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 547.604,
+          "text": "I'm an eye on that, so that's why I didn't have remarks for that."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 550.204,
+          "text": "And the bigger one, which is..."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 553.504,
+          "text": "In this district, there hasn't really been a whole lot of affordable housing, so this is an additional project that I've been involved with since I was elected to do that."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 563.604,
+          "text": "So I'm very proud of that."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 565.304,
+          "text": "And I also want to mention that I'm probably looking around at the panel."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 569.304,
+          "text": "I think I'm the only one that's old enough to have gone to Studio 54 in its heyday."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 577.104,
+          "text": "And so with that, I vote aye on all."
+        }
+      ]
+    },
+    {
+      "end_sec": 596.808,
+      "id": "018",
+      "slug": "thomas-henry-and-carr-vote-aye",
+      "start_sec": 582.808,
+      "summary": "The clerk calls Council Member Felder, then Council Member Thomas-Henry and Minority Leader Carr, who each vote aye.",
+      "title": "Thomas-Henry and Carr vote aye",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 582.808,
+          "text": "Council Member Felder?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 587.708,
+          "text": "Council Member Thomas Henry."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 589.108,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 591.408,
+          "text": "A minority leader car?"
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 593.208,
+          "text": "Aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 718.72,
+      "id": "019",
+      "slug": "items-approved-6-0-vote-held-open-for-sanchez",
+      "start_sec": 596.808,
+      "summary": "The clerk announces that by a vote of six in the affirmative, zero opposing, and zero abstentions, the items are approved as described by the chair. The vote is kept open for Council Member Jay Sanchez.",
+      "title": "Items approved 6-0; vote held open for Sanchez",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 596.808,
+          "text": "By a vote of six in the affirmative, zero opposing, and zero abstentions, the items are approved as described by the chair."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 603.308,
+          "text": "However, at this time, we're going to keep the vote open for Council Member Jay Sanchez."
+        }
+      ]
+    }
+  ],
+  "date": "2026-11-10",
+  "duration_sec": 718.72,
+  "slug": "2026-11-10-1100-am-subcommittee-on-zoning-and-franchises",
+  "summary": [
+    "The Subcommittee on Zoning and Franchises, chaired by Council Member Farah Louis, convened to vote on four land use proposals.",
+    "Items included the 108-05 68th Road and 100-12 Queens Boulevard rezonings in Queens, the Studio 54 rehabilitation in Manhattan, and the South Richmond Open Space amendment in Staten Island.",
+    "All items were approved 6-0 as modified, with the vote held open for Council Member Jay Sanchez."
+  ],
+  "tags": [
+    "LAND_USE",
+    "VOTE",
+    "STATED_MEETING"
+  ],
+  "time": "11:00 AM",
+  "title": "Subcommittee on Zoning and Franchises",
+  "topic": "Zoning, 108-05 68th Road Rezoning, Queens (C 260234 ZMQ)",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://discourse-media.qqlab.io/NYCC-250-8-3_261110-110711/video-web.mp4"
+  }
+}
