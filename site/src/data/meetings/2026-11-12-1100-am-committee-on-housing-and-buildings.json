@@ -1,0 +1,612 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 39.2,
+      "id": "001",
+      "slug": "sergeant-at-arms-opens-housing-and-buildings-hearing-and-calls-for-order",
+      "start_sec": 18.0,
+      "summary": "Chair Pierina Ana Sanchez asks to begin, and Majority Leader Shaun Abreu tells her to wait for the gavel and the sergeants. Council staff welcomes attendees, reminds everyone to silence devices and stay away from the dais, and tells the chair they are ready.",
+      "title": "Sergeant at Arms opens Housing and Buildings hearing and calls for order",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 18.0,
+          "text": "Can I start?"
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 18.7,
+          "text": "One second, Pi."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 19.4,
+          "text": "You're going to hear the gavel, and then you can start."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 21.0,
+          "text": "But the sergeants are going to start us off."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 23.1,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 24.7,
+          "text": "Thank you, Majority Leader."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 26.6,
+          "text": "Good morning, and welcome to today's New York City Council vote from the Committee on Housing and Buildings."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 31.0,
+          "text": "At this point, I'd like to remind everyone to silence their electronic devices, and at no point is anyone to approach the dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 36.8,
+          "text": "Chair, we are ready to begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 58.4,
+      "id": "002",
+      "slug": "chair-sanchez-opens-vote-on-intro-178-a-and-apologizes-for-remote-attendance",
+      "start_sec": 39.2,
+      "summary": "Chair Sanchez thanks the sergeant, identifies herself as chair of the Committee on Housing and Buildings, and apologizes for not being physically present due to a personal care matter. She announces the committee will vote on Intro 178-A regarding support for converting buildings to residential use.",
+      "title": "Chair Sanchez opens vote on Intro 178-A and apologizes for remote attendance",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 39.2,
+          "text": "Thank you, Sergeant."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 40.3,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 40.9,
+          "text": "I am Councilmember Pierina Sanchez, Chair of the Committee on Housing and Buildings."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 44.8,
+          "text": "My apologies and thank you for your patience, colleagues, that I'm not physically present today as I deal with a personal care matter."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 50.9,
+          "text": "Today, the committee will be voting on Intro No."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 53.3,
+          "text": "178A in relation to providing support for the conversion of buildings to a residential use."
+        }
+      ]
+    },
+    {
+      "end_sec": 105.7,
+      "id": "003",
+      "slug": "chair-sanchez-frames-office-to-residential-conversions-as-housing-crisis-response",
+      "start_sec": 58.4,
+      "summary": "Chair Sanchez frames office-to-residential conversions as a housing crisis response, noting historic low vacancy and an uptick in conversion projects with income-restricted units. She says about 38% of new housing units as of June 2026 came from conversion projects facilitated by the 467M tax incentive, and cites an August 2026 New York Times estimate of more than 10,000 permitted units that year.",
+      "title": "Chair Sanchez frames office-to-residential conversions as housing crisis response",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 58.4,
+          "text": "We begin from the reality that we all know."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 60.8,
+          "text": "Our city is in a profound housing crisis, and our housing vacancy rate has fallen to historic lows."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 66.9,
+          "text": "However, one area of opportunity to address our city's housing shortage is the uptick in office-to-residential conversion projects, where the office buildings are repurposed into apartments."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 77.7,
+          "text": "With a portion of the units set aside as income restricted."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 81.7,
+          "text": "As of June 2026, about 38% of the new housing units produced in the city have been created by conversion."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 90.3,
+          "text": "projects facilitated by the 467M tax incentive."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 95.3,
+          "text": "An August 2026 review by the New York Times estimated that the city had, that year alone, issued permits to produce more than 10,000 new units through conversion projects."
+        }
+      ]
+    },
+    {
+      "end_sec": 133.4,
+      "id": "004",
+      "slug": "chair-sanchez-details-conversion-costs-and-fragmented-city-oversight",
+      "start_sec": 105.7,
+      "summary": "Chair Sanchez says housing demand is high while office demand is low, but conversions remain difficult. Nationwide costs can range from $100 to $500 per square foot, financing is hard to obtain, and multiple city agencies impose disparate requirements without guidance for project managers.",
+      "title": "Chair Sanchez details conversion costs and fragmented city oversight",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 105.7,
+          "text": "Despite the high demand for housing and the relatively low demand for office space,"
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 109.9,
+          "text": "Conversions can be difficult."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 111.8,
+          "text": "Costs nationwide can range between $100 to $500 per square foot, and financing for this relatively new model can be difficult to obtain."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 121.2,
+          "text": "Here in the city, project managers face additional hurdles as multiple city agencies conduct oversight of conversion projects, resulting in project managers being forced to navigate disparate requirements without guidance."
+        }
+      ]
+    },
+    {
+      "end_sec": 158.6,
+      "id": "005",
+      "slug": "chair-sanchez-cites-pfizer-building-column-failure-to-stress-construction-safety",
+      "start_sec": 133.4,
+      "summary": "Chair Sanchez points to the Pfizer building in Midtown, where a buckling column raised fears and prompted a Department of Buildings enforcement sweep. She says that as the city incentivizes conversions, it must ensure the highest standards of construction safety.",
+      "title": "Chair Sanchez cites Pfizer building column failure to stress construction safety",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 133.4,
+          "text": "But as we saw with the Pfizer building in Midtown just a few months ago, strong oversight remains necessary."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 139.7,
+          "text": "In that office to residential conversion project, a buckling column raised fears from nearby residents and workers, prompting an enforcement sweep from the Department of Buildings."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 149.3,
+          "text": "As we continue to incentivize this tool for creating new housing, we must ensure that office to residential conversions meet the highest standards of construction safety."
+        }
+      ]
+    },
+    {
+      "end_sec": 213.4,
+      "id": "006",
+      "slug": "chair-sanchez-outlines-intro-178-a-centralized-technical-assistance-and-reporting",
+      "start_sec": 158.6,
+      "summary": "Chair Sanchez outlines Intro 178-A by Council Member Harvey Epstein, which would require HPD, DOB, DCP, BSA, and the Landmarks Preservation Commission to provide centralized technical assistance for conversions. It would include a liaison, a public educational website, federal and state liaison work, data collection, and a triennial report to the Speaker, Mayor, and Public Advocate.",
+      "title": "Chair Sanchez outlines Intro 178-A centralized technical assistance and reporting",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 158.6,
+          "text": "Proposed Intro 178A by Councilmember Harvey Epstein would require"
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 165.4,
+          "text": "the Department of Housing Preservation and Development, Department of Buildings, Department of City Planning, the Board of Standards and Appeals, and the Landmarks Preservation Commission to provide centralized technical assistance to developers and owners seeking to convert non-residential space to residential."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 180.9,
+          "text": "Such support would include designating a liaison to facilitate intra-agency communications and respond to inquiries from prospective and current conversion"
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 190.0,
+          "text": "applicants, maintaining a publicly available website to provide educational materials on conversions, liaising with federal and New York State authorities on permits and relevant grant, loan, and tax programs, and finally collecting data on conversions in the city."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 204.4,
+          "text": "A designated office or agency would also provide a triennial report on the fulfillment of its duties to the Speaker of the Council, the Mayor, and the Public Advocate."
+        }
+      ]
+    },
+    {
+      "end_sec": 259.856,
+      "id": "007",
+      "slug": "chair-sanchez-thanks-staff-and-sets-up-epstein-sponsor-remarks",
+      "start_sec": 213.4,
+      "summary": "Chair Sanchez thanks Deputy Chiefs of Staff Ben Ratner and Kim Castellanos, Gerard Fernandez, her district team, and committee staff including Austin Malone, Billy Eck, Jose Conde, Derek Spencer, and Carla Naranjo. She notes she is joined by committee members, turns to the clerk, and Council Member Carl Wilson yields to Council Member Epstein for opening remarks.",
+      "title": "Chair Sanchez thanks staff and sets up Epstein sponsor remarks",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 213.4,
+          "text": "Thank you to my team, Deputy Chiefs of Staff Ben Ratner and Kim Castellanos and Gerard Fernandez, the office, the district team as well."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 221.1,
+          "text": "I'd also like to thank the Housing and Buildings Committee staff, Senior Legislative Counsel Austin Malone, Legislative Counsel Billy Eck, Senior Policy Analyst Jose Conde and Derek Spencer, and Finance Analyst Carla Naranjo."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 236.1,
+          "text": "I am joined today by members of the committee and I will now turn it to the clerk to call the roll."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 243.356,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 243.956,
+          "text": "Ben Jacobs, Committee Clerk, Committee on Housing and Buildings."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 253.356,
+          "text": "Before we do the roll call, I'd like to pass it over to Councilmember Epstein to give his opening."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 258.456,
+          "text": "Thank you, Majority Leader."
+        }
+      ]
+    },
+    {
+      "end_sec": 302.956,
+      "id": "008",
+      "slug": "council-member-epstein-opens-on-intro-178-a-citing-1-4-vacancy-and-conversion-pipeline",
+      "start_sec": 259.856,
+      "summary": "Council Member Epstein thanks the Majority Leader, Chair Sanchez, Speaker Menon, and committee colleagues. He cites a 1.4% vacancy rate and less than 1% for stabilized units, says office-to-residential conversions create more than one-third of new housing units, notes over 17,000 apartments in the pipeline, and says 25% of those units are reserved for families at 80% AMI or lower.",
+      "title": "Council Member Epstein opens on Intro 178-A, citing 1.4% vacancy and conversion pipeline",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 259.856,
+          "text": "Thank you, Majority Leader, and thank you, Chair Sanchez."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 262.556,
+          "text": "I want to thank Speaker Menon and all my colleagues from the Housing and Building Committee for bringing this bill to a vote."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 267.856,
+          "text": "As we all know, according to the most recent New York City Housing and Vacancy Survey, we see a 1.4% vacancy rate, less than 1% for any stabilized units."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 277.956,
+          "text": "As the chair just clearly talked about, the Office of Residential Conversions creates significant opportunity, seeing more than one-third of new housing units coming from these conversions."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 289.256,
+          "text": "We could see over 17,000 apartments through these projects in the pipeline, according to a recent controller point."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 296.056,
+          "text": "25% of these units are reserved for families 80% of AMI or lower, which will help with their housing crisis."
+        }
+      ]
+    },
+    {
+      "end_sec": 346.356,
+      "id": "009",
+      "slug": "epstein-says-developers-struggle-with-conversion-process-and-bill-will-coordinate-support",
+      "start_sec": 302.956,
+      "summary": "Council Member Epstein says developers struggle to navigate conversion and construction issues such as demolition, interior lighting, courtyards, and additional stories on aging buildings. He says the bill would require government coordination, public information resources, liaisons, and reporting to identify barriers and find solutions.",
+      "title": "Epstein says developers struggle with conversion process and bill will coordinate support",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 302.956,
+          "text": "As we've heard many times that many of these developers struggle to navigate the process for the conversions and the construction entirely, understanding the issues around demolition, interior lighting, courtyard, additional stores on top of aging buildings."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 316.256,
+          "text": "This bill is meant to unlock the true power of these conversions, requiring government to coordinate and create public information resources and facilitate these conversions and advising those people interested in converting properties with liaisons and reporting."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 329.456,
+          "text": "It's going to be a resource for government and for..."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 332.056,
+          "text": "developers along or throughout New York City, it's an opportunity to help this system."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 336.556,
+          "text": "Providing these additional assistance with a report at the end of three years to identify potential barriers in these conversion processes and finding other ways to address them."
+        }
+      ]
+    },
+    {
+      "end_sec": 364.056,
+      "id": "010",
+      "slug": "epstein-calls-for-real-housing-solutions-and-thanks-committee-before-roll-call",
+      "start_sec": 346.356,
+      "summary": "Council Member Epstein says the city must meet the housing crisis with real solutions to increase affordable housing supply and says he looks forward to hearing from the administration and advocates. He thanks his staff and Housing and Buildings Committee staff for bringing the bill to a vote.",
+      "title": "Epstein calls for real housing solutions and thanks committee before roll call",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 346.356,
+          "text": "We must ensure that we meet the housing crisis with real solutions to increase supply of affordable housing."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 351.956,
+          "text": "I look forward to hearing from the administration and advocates about this."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 355.456,
+          "text": "I want to thank my staff."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 356.656,
+          "text": "I want to thank Housing Buildings Committee staff and across the board to be able to bring this to a vote today."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 361.856,
+          "text": "Thank you, Chair."
+        }
+      ]
+    },
+    {
+      "end_sec": 418.368,
+      "id": "011",
+      "slug": "clerk-conducts-roll-call-on-intro-178-a-members-vote-aye",
+      "start_sec": 364.056,
+      "summary": "Majority Leader Abreu directs the clerk to call the roll, and Committee Clerk Ben Jacobs announces the roll call vote on Intro 178-A. Chair Sanchez, Riley, Feliz, Abreu, Hudson, Joseph, Williams, Zhuang, Maloney, and Wilson vote aye; Salaam is called but no vote is recorded.",
+      "title": "Clerk conducts roll call on Intro 178-A; members vote aye",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 364.056,
+          "text": "Clerk, you may call the roll."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 365.656,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 366.956,
+          "text": "The Committee on Housing and Buildings, Van Jacobs, Committee Clerk, this is the roll call vote on Intro 178.8."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 372.756,
+          "text": "Chair Sanchez."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 374.356,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 375.056,
+          "text": "Congratulations, Councilmember Harvey Epstein."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 378.656,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 380.056,
+          "text": "Councilmember Riley."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 381.156,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 382.356,
+          "text": "Councilmember Felice."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 384.456,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 384.656,
+          "text": "Congratulations."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 386.456,
+          "text": "Majority Leader Abreu."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 388.256,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 390.356,
+          "text": "Councilmember Hudson."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 392.856,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 394.856,
+          "text": "Councilmember Joseph."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 395.856,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 397.456,
+          "text": "Councilmember Williams."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 399.456,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 401.456,
+          "text": "Councilmember Salam."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 404.868,
+          "text": "Council Member Schwang."
+        },
+        {
+          "speaker": "Susan Zhuang",
+          "t_sec": 407.368,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 409.768,
+          "text": "Councilmember Maloney."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 411.868,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 413.568,
+          "text": "Councilmember Wilson."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 414.868,
+          "text": "I vote aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 425.768,
+      "id": "012",
+      "slug": "committee-adopts-intro-178-a-by-10-0-vote",
+      "start_sec": 418.368,
+      "summary": "The clerk announces 10 affirmative votes, none negative, and no abstentions. Intro 178-A is adopted.",
+      "title": "Committee adopts Intro 178-A by 10-0 vote",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 418.368,
+          "text": "With a vote of 10 in the affirmative, none of the negative, and no abstentions, the item is adopted."
+        }
+      ]
+    },
+    {
+      "end_sec": 565.568,
+      "id": "013",
+      "slug": "committee-adjourns-after-intro-178-a-adoption",
+      "start_sec": 425.768,
+      "summary": "Chair Sanchez thanks the clerk and Majority Leader, Majority Leader Wilson declares the hearing adjourned, and Sanchez adds, \"We did it.\"",
+      "title": "Committee adjourns after Intro 178-A adoption",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 425.768,
+          "text": "Thank you so much, Clerk Majority Leader."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 428.968,
+          "text": "All right."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 429.568,
+          "text": "This hearing is hereby adjourned."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 436.84,
+          "text": "We did it."
+        }
+      ]
+    }
+  ],
+  "date": "2026-11-12",
+  "duration_sec": 565.568,
+  "slug": "2026-11-12-1100-am-committee-on-housing-and-buildings",
+  "summary": [
+    "The Committee on Housing and Buildings held a hearing and vote on Intro 178-A, a bill to create centralized city assistance for office-to-residential conversions.",
+    "Chair Pierina Ana Sanchez and sponsor Harvey Epstein cited the housing vacancy crisis and conversion pipeline while stressing construction safety and developer navigation challenges.",
+    "The committee adopted Intro 178-A by a 10-0 roll-call vote and adjourned."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "11:00 AM",
+  "title": "Committee on Housing and Buildings",
+  "topic": "Providing support for the conversion of buildings to a residential use",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://discourse-media.qqlab.io/NYCC-250-8-2_261112-112907/video-web.mp4"
+  }
+}

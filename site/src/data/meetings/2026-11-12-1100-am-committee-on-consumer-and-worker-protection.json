@@ -1,0 +1,489 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 26.3,
+      "id": "001",
+      "slug": "council-staff-opens-hearing-and-gives-housekeeping-instructions",
+      "start_sec": 8.8,
+      "summary": "Council staff welcomes attendees to the New York City Council Committee on Consumer and Worker Protection, asks everyone to silence their devices, and instructs that no one approach the dais before handing the floor to the chair.",
+      "title": "Council staff opens hearing and gives housekeeping instructions",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 8.8,
+          "text": "Good morning and welcome to the New York City Council vote for the Committee on Consumer and Worker Protection."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 17.2,
+          "text": "At this time, please put all devices on silent and no one should approach the dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 21.9,
+          "text": "Chair, you may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 38.5,
+      "id": "002",
+      "slug": "chair-epstein-convenes-vote-on-intro-891-a-on-surveillance-pricing",
+      "start_sec": 26.3,
+      "summary": "Chair Harvey D. Epstein welcomes everyone to the Consumer and Worker Protection Committee vote on Proposed Intro 891-A, sponsored by Speaker Menon, relating to surveillance pricing. He identifies himself as chair of the committee.",
+      "title": "Chair Epstein convenes vote on Intro 891-A on surveillance pricing",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 26.3,
+          "text": "Good morning, everyone."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 27.7,
+          "text": "Welcome to today's Consumer Worker Protection Committee vote on proposed intro 891A, sponsored by Speaker Menon, Relationships of Failure and Pricing."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 36.5,
+          "text": "I'm Harvey Epstein, chair of the committee."
+        }
+      ]
+    },
+    {
+      "end_sec": 49.3,
+      "id": "003",
+      "slug": "epstein-announces-attending-members-and-confirms-quorum",
+      "start_sec": 38.5,
+      "summary": "Chair Epstein lists the colleagues joining him \u2014 Brewer, De La Rosa, Krishnan, Osei, Shulman, Aldebol, and Wilson \u2014 and confirms that the committee has quorum to proceed.",
+      "title": "Epstein announces attending members and confirms quorum",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 38.5,
+          "text": "I'm joined by my colleagues, Brewer, De La Rosa, Krishnan, Osei, Shulman, Adabal, Wilson."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 46.2,
+          "text": "And we have quorum."
+        }
+      ]
+    },
+    {
+      "end_sec": 77.2,
+      "id": "004",
+      "slug": "epstein-recounts-the-history-of-haggling-and-fixed-prices",
+      "start_sec": 49.3,
+      "summary": "Chair Epstein explains that New Yorkers expect shelf labels with the same price for every shopper, but notes that before the 1800s consumers had to haggle, letting merchants charge different amounts based on willingness to pay.",
+      "title": "Epstein recounts the history of haggling and fixed prices",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 49.3,
+          "text": "So when New Yorkers go to the store, we generally expect that we can look at a tag or a shelf label to see how much an item costs."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 55.3,
+          "text": "These prices are typically not negotiable, and we expect them to be the same for every shopper, at least in the short term."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 61.3,
+          "text": "But shopping has not always been this way."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 63.2,
+          "text": "Before the 1800s, consumers largely had to haggle over a price of goods and services they wished to purchase."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 69.8,
+          "text": "This allowed merchants to charge different consumers different amounts for the same product, depending on the individual's willingness to pay."
+        }
+      ]
+    },
+    {
+      "end_sec": 105.9,
+      "id": "005",
+      "slug": "epstein-credits-macy-s-with-pioneering-price-tags-in-the-1870s",
+      "start_sec": 77.2,
+      "summary": "Chair Epstein describes how some viewed variable pricing as morally wrong, and how Macy's founder Roland H. Macy began putting price tags on goods in the 1870s, benefiting both consumers and shopkeepers by simplifying comparison, training, and accounting.",
+      "title": "Epstein credits Macy's with pioneering price tags in the 1870s",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 77.2,
+          "text": "Even these economic realities are always a group of people who believe it was morally wrong to charge different prices for the same goods."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 83.3,
+          "text": "One of those people was the founder of Macy's, Roland Hussie Macy's, began putting price tags."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 90.3,
+          "text": "in the 1870s."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 91.9,
+          "text": "It turned out these prices would benefit both consumers and shopkeepers."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 96.0,
+          "text": "Consumers could easily compare shops while stores can make, train new employees, simplify accounting systems, and it really saved time for everyone from all the haggling."
+        }
+      ]
+    },
+    {
+      "end_sec": 123.6,
+      "id": "006",
+      "slug": "epstein-defines-surveillance-pricing-and-the-purpose-of-intro-891",
+      "start_sec": 105.9,
+      "summary": "Chair Epstein explains that modern technology lets businesses use consumer personal data to offer different prices for the same goods and services, a practice known as surveillance pricing. He states that Intro 891 would prohibit businesses from engaging in it.",
+      "title": "Epstein defines surveillance pricing and the purpose of Intro 891",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 105.9,
+          "text": "Today's technology has changed the system."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 108.6,
+          "text": "Businesses are able to use consumer personal data to offer different price options to different consumers with the same goods and services."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 116.2,
+          "text": "It's a practice known as surveillance pricing."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 118.9,
+          "text": "To today's intro, 891, prohibit businesses from engaging in surveillance pricing."
+        }
+      ]
+    },
+    {
+      "end_sec": 131.4,
+      "id": "007",
+      "slug": "epstein-praises-speaker-and-bill-s-transparency-goals",
+      "start_sec": 123.6,
+      "summary": "Chair Epstein congratulates the Speaker on the bill, calling it a major step toward transparency and consistency in pricing and discounts offered to consumers, before moving to the vote.",
+      "title": "Epstein praises Speaker and bill's transparency goals",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 123.6,
+          "text": "I congratulate the speaker on the bill, which is a major step on transparency, consistency around pricing and discounts offered to consumers."
+        }
+      ]
+    },
+    {
+      "end_sec": 135.6,
+      "id": "008",
+      "slug": "epstein-directs-the-clerk-to-call-the-roll",
+      "start_sec": 131.4,
+      "summary": "Chair Epstein asks the committee clerk to call the roll call vote on Intro 891-A.",
+      "title": "Epstein directs the clerk to call the roll",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 131.4,
+          "text": "I now ask the clerk to call the roll call."
+        }
+      ]
+    },
+    {
+      "end_sec": 146.3,
+      "id": "009",
+      "slug": "clerk-ben-jacobs-opens-roll-call-vote-on-intro-891-a",
+      "start_sec": 135.6,
+      "summary": "Committee Clerk Ben Jacobs identifies himself and announces that this is the roll call vote on Intro 891-A, beginning with Chair Epstein.",
+      "title": "Clerk Ben Jacobs opens roll call vote on Intro 891-A",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 135.6,
+          "text": "Morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 137.4,
+          "text": "Committee on Consumer and Worker Protection, Ben Jacobs, Committee Clerk."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 140.3,
+          "text": "This is the roll call vote on Intro 891A."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 143.8,
+          "text": "Chair Epstein."
+        }
+      ]
+    },
+    {
+      "end_sec": 150.4,
+      "id": "010",
+      "slug": "chair-epstein-and-council-member-brewer-vote-yes",
+      "start_sec": 146.3,
+      "summary": "Chair Epstein votes yes, and Council Member Gale A. Brewer votes yes on Intro 891-A.",
+      "title": "Chair Epstein and Council Member Brewer vote yes",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 146.3,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 147.7,
+          "text": "Councilmember Brewer."
+        }
+      ]
+    },
+    {
+      "end_sec": 160.0,
+      "id": "011",
+      "slug": "brewer-notes-compatibility-with-pending-state-legislation",
+      "start_sec": 150.4,
+      "summary": "Council Member Brewer explains that she understands the state has passed a compatible bill awaiting the governor's signature, noting this was a concern of hers, and thanks the chair.",
+      "title": "Brewer notes compatibility with pending state legislation",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 150.4,
+          "text": "Yes, it's my understanding, too, that the state is considering, has passed, the governor hopefully will sign, and that these bills are compatible."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 156.9,
+          "text": "That was a concern of mine."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 158.1,
+          "text": "Thank you very much."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 158.9,
+          "text": "Yes."
+        }
+      ]
+    },
+    {
+      "end_sec": 195.1,
+      "id": "012",
+      "slug": "remaining-committee-members-cast-their-votes",
+      "start_sec": 160.0,
+      "summary": "The clerk continues the roll call, with Council Members De La Rosa, Krishnan, Oss\u00e9, Shulman, Banks, Aldebol, and Wilson all voting aye on Intro 891-A.",
+      "title": "Remaining committee members cast their votes",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 160.0,
+          "text": "Councilmember De La Rosa."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 162.8,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 163.4,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 164.8,
+          "text": "Councilmember Hanks."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 167.7,
+          "text": "Councilmember Krishnan."
+        },
+        {
+          "speaker": "Shekar Krishnan",
+          "t_sec": 170.1,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 172.0,
+          "text": "Councilmember Olsey."
+        },
+        {
+          "speaker": "Chi A. Oss\u00e9",
+          "t_sec": 173.7,
+          "text": "How would I?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 175.6,
+          "text": "Councilmember Shulman."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 177.0,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 178.8,
+          "text": "Councilmember Banks."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 180.9,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 182.8,
+          "text": "Councilmember Eldable."
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 184.8,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 186.7,
+          "text": "Councilmember Wilson."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 188.5,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 190.3,
+          "text": "Councilmember Areola."
+        }
+      ]
+    },
+    {
+      "end_sec": 200.8,
+      "id": "013",
+      "slug": "intro-891-a-passes-9-0-with-no-abstentions",
+      "start_sec": 195.1,
+      "summary": "The clerk announces the vote stands at nine in the affirmative, none in the negative, with no abstentions, and Chair Epstein thanks everyone.",
+      "title": "Intro 891-A passes 9-0 with no abstentions",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 195.1,
+          "text": "The vote stands at nine in the affirmative, none in the negative, with no abstentions."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 199.6,
+          "text": "Thank you, everyone."
+        }
+      ]
+    },
+    {
+      "end_sec": 207.7,
+      "id": "014",
+      "slug": "epstein-declines-to-hold-the-vote-open",
+      "start_sec": 200.8,
+      "summary": "When the clerk asks whether to hold the vote open, Chair Epstein says he does not think the rolls need to be kept open.",
+      "title": "Epstein declines to hold the vote open",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 200.8,
+          "text": "Would you like to hold the vote open?"
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 202.3,
+          "text": "I don't think we need to keep the rolls open."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 203.9,
+          "text": "I don't think."
+        }
+      ]
+    },
+    {
+      "end_sec": 244.245,
+      "id": "015",
+      "slug": "epstein-adjourns-the-meeting",
+      "start_sec": 207.7,
+      "summary": "Chair Epstein notes a member is sick and unable to attend, then adjourns the meeting, with staff and attendees exchanging thanks.",
+      "title": "Epstein adjourns the meeting",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 207.7,
+          "text": "I always heard that she's sick and unable to make it today, so I'll just now adjourn this meeting."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 213.6,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 214.3,
+          "text": "Thanks."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 214.8,
+          "text": "Thank you, everyone, for being here and appreciate your time."
+        }
+      ]
+    }
+  ],
+  "date": "2026-11-12",
+  "duration_sec": 244.245,
+  "slug": "2026-11-12-1100-am-committee-on-consumer-and-worker-protection",
+  "summary": [
+    "The Committee on Consumer and Worker Protection, chaired by Harvey D. Epstein, convened a hearing to vote on Proposed Int. No. 891-A, which would prohibit surveillance pricing in New York City.",
+    "Chair Epstein delivered opening remarks tracing the history of fixed price tags from pre-1800s haggling to Macy's innovation, and explained how modern businesses use personal data to offer different prices to different consumers.",
+    "The committee held a roll call vote on Intro 891-A, which passed 9-0 with no abstentions, and the meeting was adjourned."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "11:00 AM",
+  "title": "Committee on Consumer and Worker Protection",
+  "topic": "Prohibiting surveillance pricing",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://discourse-media.qqlab.io/NYCC-250-8-3_261112-111751/video-web.mp4"
+  }
+}

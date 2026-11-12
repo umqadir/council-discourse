@@ -1,0 +1,631 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 9.3,
+      "id": "001",
+      "slug": "committee-staff-opens-finance-committee-vote-and-calls-chair-lee",
+      "start_sec": 1.0,
+      "summary": "Council staff welcomes attendees to the New York City Council Committee on Finance vote, asks everyone to silence electronics and avoid the dais, and then turns the floor over to Chair Linda Lee.",
+      "title": "Committee staff opens Finance Committee vote and calls Chair Lee",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1.0,
+          "text": "Good morning, good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1.9,
+          "text": "Welcome to the New York City Council vote on the Committee on Finance."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 4.8,
+          "text": "At this time, please silence all electronics and do not approach the dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 7.7,
+          "text": "Chair, you may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 30.5,
+      "id": "002",
+      "slug": "chair-linda-lee-opens-hearing-and-recognizes-finance-committee-members",
+      "start_sec": 9.3,
+      "summary": "Chair Linda Lee introduces herself as Chair of the Committee on Finance and recognizes committee members, including Majority Leader Abreu, Council Members Murano, Marte, Brooks-Powers, Narcisse, Hudson, Feliz, Wong, Restler, and Maloney.",
+      "title": "Chair Linda Lee opens hearing and recognizes Finance Committee members",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 9.3,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 10.8,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 11.6,
+          "text": "I'm Councilmember Linda Lee, Chair of the Committee on Finance."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 14.2,
+          "text": "I'd like to recognize my fellow committee members."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 17.1,
+          "text": "We have Councilmember Majority Leader Abreu, Councilmembers Murano, Marte, Brooks-Powers, Narcisse, Hudson, Feliz, Wong, Ressler, and Maloney."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 29.7,
+          "text": "Okay."
+        }
+      ]
+    },
+    {
+      "end_sec": 39.9,
+      "id": "003",
+      "slug": "chair-lee-announces-four-preconsidered-real-property-tax-resolutions",
+      "start_sec": 30.5,
+      "summary": "Lee says the committee will consider and vote on four preconsidered resolutions she sponsored concerning real property tax rates. She notes the resolutions are preconsidered before describing each one.",
+      "title": "Chair Lee announces four preconsidered real property tax resolutions",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 30.5,
+          "text": "At today's hearing, the committee will consider and vote on four pre-considered resolutions sponsored by myself that concern the real property tax rates."
+        }
+      ]
+    },
+    {
+      "end_sec": 61.1,
+      "id": "004",
+      "slug": "chair-lee-describes-resolution-723-on-0-3-base-proportion-increase",
+      "start_sec": 39.9,
+      "summary": "Lee explains that preconsidered Resolution 723 would determine a 0.3 percent increase of the current base proportion of any class of real property over the adjusted base proportion of the immediately preceding year for Fiscal 2027. She jokes that the committee will translate the language into normal terms later.",
+      "title": "Chair Lee describes Resolution 723 on 0.3% base proportion increase",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 39.9,
+          "text": "First, pre-considered resolution number 723 would determine a 0.3% increase of the current base proportion of any class of real property"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 48.9,
+          "text": "over the adjusted base proportion of the immediately preceding year for purposes of determining the current base proportion for fiscal 2027."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 58.2,
+          "text": "We'll translate that into normal language later."
+        }
+      ]
+    },
+    {
+      "end_sec": 80.6,
+      "id": "005",
+      "slug": "chair-lee-describes-resolution-724-on-base-percentage-certification",
+      "start_sec": 61.1,
+      "summary": "Lee says preconsidered Resolution 724 would amend and restate the resolution computing and certifying base percentage, current percentage, and current base proportion for each class of real property for Fiscal 2027. The certification would go to the State Board of Real Property Tax Services under Section 1803-a of the Real Property Tax Law.",
+      "title": "Chair Lee describes Resolution 724 on base percentage certification",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 61.1,
+          "text": "Second, pre-considered resolution number 724 would amend and restate the resolution computing and certifying base percentage,"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 68.6,
+          "text": "current percentage, and current base proportion of each class of real property for fiscal 2027 to the State Board of Real Property Tax Services pursuant to Section 1803A of the Real Property Tax Law."
+        }
+      ]
+    },
+    {
+      "end_sec": 97.4,
+      "id": "006",
+      "slug": "chair-lee-describes-resolution-725-on-adjusted-base-proportion-certification",
+      "start_sec": 80.6,
+      "summary": "Lee explains that preconsidered Resolution 725 would amend and restate the resolution computing and certifying the adjusted base proportion of each class of real property for Fiscal 2027. It would also be submitted to the State Board of Real Property Tax Services under Section 1803-a.",
+      "title": "Chair Lee describes Resolution 725 on adjusted base proportion certification",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 80.6,
+          "text": "Third, pre-considered Resolution 725 would amend and restate the resolution computing and certifying adjusted base proportion of each class of real property for fiscal..."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 90.2,
+          "text": "2027 to the State Board of Real Property Tax Services pursuant to Section 1803A of the Real Property Tax Law."
+        }
+      ]
+    },
+    {
+      "end_sec": 127.9,
+      "id": "007",
+      "slug": "chair-lee-describes-resolution-726-on-fy2027-tax-levy",
+      "start_sec": 97.4,
+      "summary": "Lee says preconsidered Resolution 726 would amend and restate the resolution providing amounts necessary to support the City of New York and its counties and to pay indebtedness for the fiscal year beginning July 1, 2026 and ending June 30, 2027. The funding would come from levying taxes on real property under the State Constitution, Real Property Law, and City Charter.",
+      "title": "Chair Lee describes Resolution 726 on FY2027 tax levy",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 97.4,
+          "text": "And finally, Preconsidered Resolution 726 would amend and restate the resolution to provide the amounts necessary"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 104.3,
+          "text": "for the support of the government of the City of New York and the counties therein and for the payment of indebtedness thereof for the fiscal year beginning on July 1, 2026 and ending on June 30, 2027"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 116.6,
+          "text": "by the levy of taxes on the real property in the City of New York in accordance with the provisions of the Constitution of the State of New York, the real property law, and the Charter of the City of New York."
+        }
+      ]
+    },
+    {
+      "end_sec": 158.512,
+      "id": "008",
+      "slug": "chair-lee-calls-for-remarks-and-confirms-gennaro-on-zoom",
+      "start_sec": 127.9,
+      "summary": "Lee asks whether any colleagues have remarks on the agenda items. After some confusion, she notes Council Member Aldebol is present and Council Member Jim Gennaro is on Zoom; Gennaro confirms he can be heard.",
+      "title": "Chair Lee calls for remarks and confirms Gennaro on Zoom",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 127.9,
+          "text": "Do any of my colleagues have remarks regarding the agenda items?"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 133.2,
+          "text": "No?"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 133.9,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 134.4,
+          "text": "Oh, yes."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 138.912,
+          "text": "Oh, perfect."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 139.512,
+          "text": "Okay, so we have Councilmember Aldeball as well as Jim Gennaro on Zoom."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 145.312,
+          "text": "Oh, no, no, sorry."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 146.012,
+          "text": "I meant Councilmember Aldebar here and then Jim Gennaro on Zoom."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 148.912,
+          "text": "Sorry."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 150.812,
+          "text": "Thanks, Lincoln."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 152.712,
+          "text": "Madam Chair, I just want to make sure that I can be heard."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 155.312,
+          "text": "Yes, we can hear you."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 156.712,
+          "text": "Great."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 157.212,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 255.26,
+      "id": "009",
+      "slug": "clerk-martin-begins-roll-call-on-coupled-finance-resolutions",
+      "start_sec": 158.512,
+      "summary": "Chair Lee calls on Committee Clerk William Martin for the vote. Martin announces a roll-call vote on the Committee on Finance with all items coupled, then calls members including Lee, Gennaro, Brooks-Powers, Feliz, Abreu, Aviles, Hudson, Marte, Mealy, Narcisse, Restler, Aldebol, Maloney, Sanchez, and Wong; several respond aye.",
+      "title": "Clerk Martin begins roll call on coupled Finance resolutions",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 158.512,
+          "text": "Okay, and now we will call on the clerk for the vote."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 161.712,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 162.112,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 162.612,
+          "text": "William Martin, Committee Clerk, Roll Call Vote Committee on Finance."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 165.412,
+          "text": "All items are coupled."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 166.912,
+          "text": "Chair Lee."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 168.412,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 170.212,
+          "text": "Gennaro."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 171.412,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 172.212,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 173.712,
+          "text": "Brooks Powers."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 175.512,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 177.312,
+          "text": "Feliz."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 180.424,
+          "text": "Abreu."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 181.624,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 183.924,
+          "text": "Aviles."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 187.024,
+          "text": "Hudson."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 188.624,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 190.124,
+          "text": "Marte."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 191.124,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 193.324,
+          "text": "Mealy."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 197.124,
+          "text": "Narcisse."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 198.924,
+          "text": "How about I?"
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 203.324,
+          "text": "Wrestler."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 205.524,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 219.96,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 223.16,
+          "text": "Alibol."
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 227.36,
+          "text": "I wrote I."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 229.76,
+          "text": "Maloney."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 235.06,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 240.46,
+          "text": "Justin Sanchez."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 248.26,
+          "text": "No problem."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 248.76,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 249.56,
+          "text": "Wong."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 252.66,
+          "text": "No, I know."
+        }
+      ]
+    },
+    {
+      "end_sec": 391.408,
+      "id": "010",
+      "slug": "council-member-morano-votes-no-citing-veteran-exemption-and-other-concerns",
+      "start_sec": 255.26,
+      "summary": "When called on the roll, Council Member Frank Morano says the committee had a long meeting about the matter and he cannot vote yes. Asked if it concerns the veteran exemption, Morano says 'yeah, and others' and declines to explain further.",
+      "title": "Council Member Morano votes no, citing veteran exemption and other concerns",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 255.26,
+          "text": "Morano."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 256.96,
+          "text": "No, no."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 261.136,
+          "text": "We had a long meeting about this."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 263.736,
+          "text": "It's not going to do it."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 264.736,
+          "text": "I cannot vote yes."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 265.936,
+          "text": "I cannot vote yes."
+        },
+        {
+          "speaker": "Council Member",
+          "t_sec": 267.136,
+          "text": "Is it the veteran exemption?"
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 268.336,
+          "text": "Yeah, and others."
+        },
+        {
+          "speaker": "Council Member",
+          "t_sec": 269.936,
+          "text": "You don't want to spend the money?"
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 273.536,
+          "text": "I'm not going to explain."
+        },
+        {
+          "speaker": "Council Member",
+          "t_sec": 275.136,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Council Member",
+          "t_sec": 281.736,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 285.936,
+          "text": "Yes, I come prepared."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 287.136,
+          "text": "I come prepared."
+        }
+      ]
+    },
+    {
+      "end_sec": 488.5,
+      "id": "011",
+      "slug": "committee-remains-in-session-clerk-resumes-roll-call-for-sanchez",
+      "start_sec": 391.408,
+      "summary": "Council staff reminds committee members that the committee is still in session. After a pause, Clerk Martin resumes the roll call on the coupled items and calls Council Member Justin Sanchez; Chair Lee responds aye.",
+      "title": "Committee remains in session; clerk resumes roll call for Sanchez",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 391.408,
+          "text": "Just a friendly reminder, committee members, the committee is still in session."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 478.3,
+          "text": "Excuse me, everybody."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 479.6,
+          "text": "Continuation roll call, the Committee on Finance."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 482.6,
+          "text": "All items are coupled."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 483.8,
+          "text": "Council Member Justin."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 484.8,
+          "text": "Sanchez."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 485.8,
+          "text": "Aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 546.795,
+      "id": "012",
+      "slug": "finance-committee-approves-all-four-resolutions-13-2",
+      "start_sec": 488.5,
+      "summary": "Clerk Martin announces the final vote: all items are approved with 13 in the affirmative, 2 in the negative, and 0 abstentions. Chair Lee closes the vote and thanks everyone.",
+      "title": "Finance Committee approves all four resolutions 13-2",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 488.5,
+          "text": "Final vote, Committee on Finance."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 489.9,
+          "text": "As now all items have been approved with 13 in the affirmative, 2 in the negative, and 0 abstentions."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 497.1,
+          "text": "Okay, and with that, the vote is closed."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 499.0,
+          "text": "Thank you, everyone."
+        }
+      ]
+    }
+  ],
+  "date": "2026-11-12",
+  "duration_sec": 546.795,
+  "slug": "2026-11-12-1100-am-committee-on-finance",
+  "summary": [
+    "The Committee on Finance met to consider four preconsidered resolutions setting real property tax rates and base proportions for Fiscal 2027.",
+    "Chair Linda Lee described each resolution, confirmed members present and on Zoom, and called a roll-call vote with all items coupled.",
+    "The committee approved all items 13-2, with Council Member Morano voting no and citing the veteran exemption and other concerns; Chair Lee closed the vote."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "11:00 AM",
+  "title": "Committee on Finance",
+  "topic": "Determine a 0.3 percent increase of the current base proportion of any class of real property over the adjusted base proportion of the immediately preceding year for purposes of determining the current base proportion for Fiscal 2027",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://discourse-media.qqlab.io/NYCC-250-8-1_261112-110523/video-web.mp4"
+  }
+}

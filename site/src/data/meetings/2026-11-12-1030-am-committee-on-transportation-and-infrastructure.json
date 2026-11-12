@@ -1,0 +1,527 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 31.4,
+      "id": "001",
+      "slug": "council-staff-opens-transportation-and-infrastructure-hearing-and-gives-housekeeping-instruction",
+      "start_sec": 1.9,
+      "summary": "Council staff call the meeting to order, welcome attendees to the New York City Council Committee on Transportation and Infrastructure, and instruct the public not to approach the dais and to silence all electronics before turning the floor over to the Chair.",
+      "title": "Council staff opens Transportation and Infrastructure hearing and gives housekeeping instructions",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1.9,
+          "text": "Good morning, good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 3.3,
+          "text": "Welcome to the New York City Council vote on the Committee on Transportation and Infrastructure."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 11.1,
+          "text": "Hold on one moment."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 23.7,
+          "text": "Please do not approach the dais and silence all electronics."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 27.1,
+          "text": "You may begin, Chair."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 29.0,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 54.7,
+      "id": "002",
+      "slug": "chair-shaun-abreu-opens-the-hearing-and-announces-the-vote-on-intro-202-a",
+      "start_sec": 31.4,
+      "summary": "Chair Shaun Abreu welcomes attendees to the hearing and announces that the committee will vote on Proposed Intro No. 202-A, sponsored by Council Member Guti\u00e9rrez, relating to the time permitted for installation of covered safety treatments on streets adjacent to schools.",
+      "title": "Chair Shaun Abreu opens the hearing and announces the vote on Intro 202-A",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 31.4,
+          "text": "Good morning and welcome to today's hearing of the New York City Council's Committee on Transportation and Infrastructure."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 36.5,
+          "text": "I am Councilmember Sean O'Brien, Majority Leader and Chair of this committee."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 39.8,
+          "text": "At today's hearing, the committee will vote on the following legislation."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 43.1,
+          "text": "Proposed Intro No."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 44.2,
+          "text": "202A, sponsored by Councilmember Gutierrez, in relation to the time permitted for the installation of covered safety treatments on any portion of a street adjacent to a school."
+        }
+      ]
+    },
+    {
+      "end_sec": 65.6,
+      "id": "003",
+      "slug": "abreu-explains-that-intro-202-a-requires-timely-dot-safety-treatment-installation-near-schools",
+      "start_sec": 54.7,
+      "summary": "Chair Abreu describes the bill's purpose: ensuring that when DOT performs a traffic study near a school and determines a safety treatment is warranted, the treatment is implemented in a timely and efficient manner.",
+      "title": "Abreu explains that Intro 202-A requires timely DOT safety treatment installation near schools",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 54.7,
+          "text": "This bill will help ensure that when DOT performs a traffic study near a school and determines a safety treatment should be implemented, the treatment is implemented in a timely and efficient manner."
+        }
+      ]
+    },
+    {
+      "end_sec": 88.2,
+      "id": "004",
+      "slug": "abreu-thanks-committee-staff-by-name-for-preparing-the-hearing",
+      "start_sec": 65.6,
+      "summary": "Chair Abreu thanks his staff and committee staff for their work preparing the hearing, naming Jaleesa Quigley, Jake Borey, Sienna Townsend, Theo Miller, Kevin Katowski, John Brazil, and Ye Tuong.",
+      "title": "Abreu thanks committee staff by name for preparing the hearing",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 65.6,
+          "text": "Before we begin, I would like to thank my staff and the committee staff for their hard work in preparing for today's hearing."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 71.2,
+          "text": "Jaleesa Quigley, my Deputy Chief of Staff and Director of Legislation and Budget, Jake Borey."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 77.2,
+          "text": "My senior advisor, Sienna Townsend, senior counsel to the committee, Theo Miller, counsel to the committee, Kevin Katowski and John Brazil, senior policy analyst to the committee, and Ye Tuong, financial analyst to the committee."
+        }
+      ]
+    },
+    {
+      "end_sec": 112.9,
+      "id": "005",
+      "slug": "guti-rrez-opens-on-unsafe-school-zone-crossings-and-heavy-traffic-near-schools",
+      "start_sec": 88.2,
+      "summary": "After Abreu yields the floor, Council Member Jennifer Guti\u00e9rrez thanks colleagues who signed on to the bill and argues that streets near schools are among the most heavily trafficked in the city, with many children and families not sufficiently safe when crossing.",
+      "title": "Guti\u00e9rrez opens on unsafe school-zone crossings and heavy traffic near schools",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 88.2,
+          "text": "I will now allow Councilmember Gutierrez."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 91.1,
+          "text": "To read her opening statement on her bill."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 94.1,
+          "text": "Thank you so much, Chair."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 96.2,
+          "text": "And I want to thank all my colleagues who have already signed on and hope that we can obviously pass this bill today."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 103.3,
+          "text": "Streets near schools are some of the most heavily trafficked areas in the entire city, and we have a problem."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 108.0,
+          "text": "Many kids and families are not sufficiently safe when they're crossing the street at school."
+        }
+      ]
+    },
+    {
+      "end_sec": 132.8,
+      "id": "006",
+      "slug": "guti-rrez-says-families-wait-years-for-simple-traffic-calming-devices",
+      "start_sec": 112.9,
+      "summary": "Guti\u00e9rrez says that when DOT determines a street near a school needs a traffic calming device, even something as simple as a stop sign or speed bump, installation takes far too long, with families and schools waiting years.",
+      "title": "Guti\u00e9rrez says families wait years for simple traffic calming devices",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 112.9,
+          "text": "When DOT determines that a street near a school needs a traffic calming device, even something as simple as a stop sign, that amount of time that it takes for the actual installation in many cases is too damn long."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 125.9,
+          "text": "Many families and schools are waiting years for something as simple as a speed bump, for example."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 131.1,
+          "text": "And this is a matter of life and death."
+        }
+      ]
+    },
+    {
+      "end_sec": 148.6,
+      "id": "007",
+      "slug": "guti-rrez-cites-crash-data-76-killed-and-27-518-injured-near-schools-since-2021",
+      "start_sec": 132.8,
+      "summary": "Calling the issue a matter of life and death, Guti\u00e9rrez cites New York City Open Data motor vehicle collision records showing that since 2021, crashes within a .15-mile radius of a school killed 76 people and injured 27,518.",
+      "title": "Guti\u00e9rrez cites crash data: 76 killed and 27,518 injured near schools since 2021",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 132.8,
+          "text": "A study of New York City Open Data's motor vehicle collisions found that since 2021 through today, crashes within a .15 mile radius of a school have killed 76 people and have injured 27,518 people."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 146.2,
+          "text": "And today, hopefully, that changes."
+        }
+      ]
+    },
+    {
+      "end_sec": 163.2,
+      "id": "008",
+      "slug": "guti-rrez-details-intro-202-s-120-day-and-180-day-installation-deadlines",
+      "start_sec": 148.6,
+      "summary": "Guti\u00e9rrez explains that Intro 202 imposes a 120-day time limit for covered safety treatments and a 180-day limit for traffic control signals on any portion of a street adjacent to a school, calling it a simple solution that saves lives.",
+      "title": "Guti\u00e9rrez details Intro 202's 120-day and 180-day installation deadlines",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 148.6,
+          "text": "Intro 202 is a simple solution."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 151.1,
+          "text": "It saves lives by imposing a time limit of 120 days for covered safety treatments and of 180 days for traffic control signals on any portion of a street adjacent to a school."
+        }
+      ]
+    },
+    {
+      "end_sec": 189.5,
+      "id": "009",
+      "slug": "guti-rrez-argues-faster-deployment-builds-community-confidence-in-school-zone-safety",
+      "start_sec": 163.2,
+      "summary": "Guti\u00e9rrez says the law is necessary to make school zones safer and to build community confidence that the city prioritizes child safety, arguing faster deployment of traffic calming and control devices keeps preventative measures pace with identified risks, and asks colleagues to pass the bill.",
+      "title": "Guti\u00e9rrez argues faster deployment builds community confidence in school-zone safety",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 163.2,
+          "text": "Implementing this law is necessary to make school zones safer and build community confidence that the city is prioritizing safety, child safety."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 171.1,
+          "text": "Faster deployment of traffic calming and control devices ensures that preventative measures keep pace with identified risks, directly protecting students and others who travel near schools."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 180.6,
+          "text": "on a daily basis."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 182.2,
+          "text": "And I hope that you can all join me in passing this bill."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 184.9,
+          "text": "Thank you, Chair."
+        }
+      ]
+    },
+    {
+      "end_sec": 200.6,
+      "id": "010",
+      "slug": "abreu-directs-the-committee-clerk-to-call-the-roll-on-intro-202-a",
+      "start_sec": 189.5,
+      "summary": "Chair Abreu asks the committee clerk to call the roll, and Clerk William Martin announces a roll call vote on Proposed Introduction 202-A before the Committee on Transportation and Infrastructure.",
+      "title": "Abreu directs the committee clerk to call the roll on Intro 202-A",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 189.5,
+          "text": "I will now ask the committee clerk to call the roll."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 192.7,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 193.1,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 193.5,
+          "text": "William Martin, committee clerk, roll call vote, Committee on Transportation and Infrastructure, proposed introduction 202A."
+        }
+      ]
+    },
+    {
+      "end_sec": 367.992,
+      "id": "011",
+      "slug": "committee-clerk-william-martin-conducts-the-roll-call-vote-on-intro-202-a",
+      "start_sec": 200.6,
+      "summary": "Clerk William Martin calls members one by one on Intro 202-A, with Council Members Dinowitz, Louis, Abreu, Brooks-Powers, Hanif, Krishnan, Marte, Justin Sanchez, Wong, and Pierina Ana Sanchez recorded in the affirmative; several members congratulate the sponsor during the call.",
+      "title": "Committee clerk William Martin conducts the roll call vote on Intro 202-A",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 200.6,
+          "text": "Councilmember Dinowitz."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 209.1,
+          "text": "Councilmember Dinowitz?"
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 211.9,
+          "text": "Yes, congratulations."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 213.6,
+          "text": "Thank you, sir."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 216.9,
+          "text": "Marina Sanchez."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 230.788,
+          "text": "Councilmember Penina Sanchez."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 235.488,
+          "text": "Okay, we'll come back."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 237.588,
+          "text": "Councilmember Lewis."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 239.788,
+          "text": "Aye on all."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 240.388,
+          "text": "Congratulations, Councilman."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 241.888,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 243.188,
+          "text": "Abraiu."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 244.688,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 246.688,
+          "text": "Brooks Powers."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 249.888,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 252.188,
+          "text": "Hanif."
+        },
+        {
+          "speaker": "Shahana K. Hanif",
+          "t_sec": 255.44,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 256.24,
+          "text": "Thank you, Council Member."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 260.24,
+          "text": "Krishnan."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 261.54,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 263.74,
+          "text": "Marte."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 264.84,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 267.04,
+          "text": "One."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 271.24,
+          "text": "Justin Sanchez."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 273.04,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 275.04,
+          "text": "Wong."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 276.14,
+          "text": "I will."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 276.44,
+          "text": "I."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 279.64,
+          "text": "Council Member Padina Sanchez."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 291.54,
+          "text": "One moment."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 355.836,
+          "text": "I."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 358.992,
+          "text": "Thank you, Councilmember Marina Sanchez."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 364.792,
+          "text": "Council Member 1."
+        }
+      ]
+    },
+    {
+      "end_sec": 373.992,
+      "id": "012",
+      "slug": "intro-202-a-approved-10-0-0-by-the-committee",
+      "start_sec": 367.992,
+      "summary": "Clerk William Martin announces the result: with 10 votes in the affirmative, 0 in the negative, and no abstentions, Proposed Introduction 202-A has been approved by the Committee on Transportation and Infrastructure.",
+      "title": "Intro 202-A approved 10-0-0 by the committee",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 367.992,
+          "text": "With a vote of 10 in the affirmative, 0 in the negative, and no abstentions, item has been approved by the committee."
+        }
+      ]
+    },
+    {
+      "end_sec": 387.477,
+      "id": "013",
+      "slug": "chair-abreu-closes-the-vote-and-adjourns-the-hearing",
+      "start_sec": 373.992,
+      "summary": "Chair Shaun Abreu declares the vote closed, concluding the committee's business on Intro 202-A.",
+      "title": "Chair Abreu closes the vote and adjourns the hearing",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 373.992,
+          "text": "With that, this vote is closed."
+        }
+      ]
+    }
+  ],
+  "date": "2026-11-12",
+  "duration_sec": 387.477,
+  "slug": "2026-11-12-1030-am-committee-on-transportation-and-infrastructure",
+  "summary": [
+    "The Committee on Transportation and Infrastructure held a hearing and vote on Proposed Intro No. 202-A, sponsored by Council Member Jennifer Guti\u00e9rrez, which sets time limits for installing covered safety treatments near schools.",
+    "Guti\u00e9rrez argued that DOT takes far too long to install traffic calming devices near schools, citing 76 deaths and 27,518 injuries within a .15-mile radius of schools since 2021, and proposed 120-day limits for safety treatments and 180 days for traffic control signals.",
+    "The committee voted 10-0-0 to approve the bill, and Chair Shaun Abreu closed the vote."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "10:30 AM",
+  "title": "Committee on Transportation and Infrastructure",
+  "topic": "Time permitted for the installation of covered safety treatments on any portion of a street adjacent to a school",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://discourse-media.qqlab.io/NYCC-250-8-1_261112-103843/video-web.mp4"
+  }
+}

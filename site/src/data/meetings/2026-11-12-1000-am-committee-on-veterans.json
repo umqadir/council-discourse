@@ -1,0 +1,1142 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 41.9,
+      "id": "001",
+      "slug": "committee-staff-opens-hearing-and-gives-housekeeping-instructions",
+      "start_sec": 7.8,
+      "summary": "Staff calls the meeting to order and asks everyone to silence electronic devices. They instruct attendees not to approach the dais or witness table unless invited and direct anyone wishing to testify to see the sergeant-at-arms for a white slip. Chair Morano says the committee is ready to begin.",
+      "title": "Committee staff opens hearing and gives housekeeping instructions",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 7.8,
+          "text": "Quiet down, quiet down."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 8.9,
+          "text": "Everyone take your seats."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 9.8,
+          "text": "We're starting up."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 18.6,
+          "text": "Good morning and welcome to today's New York City Council vote and hearing from the Committee on Veterans."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 25.2,
+          "text": "At this point, I'd like to remind everyone to silence their electronic devices and at no point is anyone to approach the dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 30.9,
+          "text": "Additionally, no one is to approach the witness table unless invited to testify."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 34.5,
+          "text": "If you would like to testify and have not filled out a white slip, please see the sergeant arms outside in the hallway."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 40.1,
+          "text": "Chair, we're ready to begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 72.3,
+      "id": "002",
+      "slug": "chair-morano-opens-veterans-committee-vote-on-three-bills-and-one-resolution",
+      "start_sec": 41.9,
+      "summary": "Frank Morano introduces himself as chair of the Committee on Veterans and welcomes attendees. He states the committee will vote on three proposed bills and one resolution, with public testimony and sponsor remarks to follow.",
+      "title": "Chair Morano opens Veterans Committee vote on three bills and one resolution",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 41.9,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 44.2,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 45.0,
+          "text": "I am Councilmember Frank Marano."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 47.2,
+          "text": "I have the pleasure of chairing the New York City Council's Committee on Veterans."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 54.7,
+          "text": "I want to thank everyone for joining us for today's vote on three proposed bills and on one resolution."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 62.0,
+          "text": "Now, we're going to hear from members of the public in just a moment."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 65.3,
+          "text": "We're also going to hear from some of the distinguished council members that have bills that we are voting on today."
+        }
+      ]
+    },
+    {
+      "end_sec": 104.4,
+      "id": "003",
+      "slug": "chair-morano-calls-veterans-package-most-significant-in-committee-history",
+      "start_sec": 72.3,
+      "summary": "Morano says the package is the most significant legislation ever to come out of the Veterans Committee under his or previous chairs. He credits committee members, including those absent, and says the committee is sending meaningful legislation to the full Council.",
+      "title": "Chair Morano calls veterans package most significant in committee history",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 72.3,
+          "text": "I'd like to take a moment of personal privilege to just say that I really think this is the most significant package of legislation ever to come out of this Veterans Committee."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 86.8,
+          "text": "Under my chairmanship, under previous chairs ever."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 90.1,
+          "text": "I don't think there's ever been a day where we've passed this much meaningful legislation and sent it to the full council to consider."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 98.5,
+          "text": "And I think that's a testament to the members of this committee, including the handful that aren't here."
+        }
+      ]
+    },
+    {
+      "end_sec": 125.6,
+      "id": "004",
+      "slug": "chair-morano-acknowledges-committee-members-present-and-council-member-vernikov",
+      "start_sec": 104.4,
+      "summary": "Morano acknowledges Council Members Phil Wong and Carmen De La Rosa in attendance. He notes Council Member Inna Vernikov will join remotely to present one of the bills.",
+      "title": "Chair Morano acknowledges committee members present and Council Member Vernikov",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 104.4,
+          "text": "By the way, speaking of members, I'd like to acknowledge some of the distinguished members of the Veterans Committee who are here."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 111.1,
+          "text": "My colleague, Councilmember Phil Wong from Queens and Councilmember Carmen De La Rosa."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 117.8,
+          "text": "And we will hear from Councilmember Vernikoff, who has one of the bills that we're going to be voting on in a moment."
+        }
+      ]
+    },
+    {
+      "end_sec": 228.3,
+      "id": "005",
+      "slug": "chair-morano-details-intro-1051-disabled-veteran-property-tax-exemption",
+      "start_sec": 125.6,
+      "summary": "Morano explains Intro 1051, which he sponsored with all committee members, would fully exempt permanently and totally disabled veterans\u2019 primary residences from property taxes and certain charges. He notes state law authorizes the exemption but New York City must opt in, and this bill would do so.",
+      "title": "Chair Morano details Intro 1051 disabled veteran property tax exemption",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 125.6,
+          "text": "I am really proud that we are passing Intro 1051 today."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 132.9,
+          "text": "Intro 1051 is a bill that I sponsored, which is co-sponsored by every member of this committee, which provides that the primary residence of any permanently and totally disabled veteran"
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 145.8,
+          "text": "shall be fully exempt from taxation and special district charges, assessments, and special ad valorem levies, provided that such veteran meets all other applicable requirements of the state property tax law."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 159.4,
+          "text": "Under Section 458, Subsection 11 of the New York State Real Property Tax Law,"
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 166.1,
+          "text": "counties, cities, towns, villages, and school districts are authorized to provide a full exemption from real property taxation and certain related charges for the primary residences of seriously disabled veterans who sat."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 180.5,
+          "text": "the eligibility requirements established by state law."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 183.8,
+          "text": "Because the exemption is optional for local governments, however, it doesn't apply in New York City unless the city opts in."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 193.4,
+          "text": "This legislation would take that necessary step."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 196.2,
+          "text": "It would be New York City opting in."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 198.6,
+          "text": "New York City has a responsibility to recognize the extraordinary sacrifices made by veterans who've sustained the most serious disabilities as a result of their military service,"
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 210.1,
+          "text": "and this legislation would ensure that qualifying, seriously disabled veterans living in New York City receive the full, real property tax exemption that's authorized by the state law."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 223.6,
+          "text": "I'm grateful that every member of this committee sponsored this, irrespective of party."
+        }
+      ]
+    },
+    {
+      "end_sec": 320.6,
+      "id": "006",
+      "slug": "chair-morano-celebrates-bipartisan-package-and-republican-sponsorship",
+      "start_sec": 228.3,
+      "summary": "Morano calls the package the most important veterans legislation in decades and says he is proud of the work. He notes all four measures were sponsored by Republicans and argues the bills show the party\u2019s commitment to disabled veterans, housing, and the LGBTQ community.",
+      "title": "Chair Morano celebrates bipartisan package and Republican sponsorship",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 228.3,
+          "text": "I think that the package we're passing today is the most important legislation affecting New York City's veterans for decades, maybe the most significant since the post-9-11 GI Bill."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 242.9,
+          "text": "And I have to tell you, if I do nothing else in my career as a city councilman, I'll feel after today as if I've actually accomplished something pretty significant."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 253.5,
+          "text": "And I'm very, very proud of the work that we've all done together on this."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 256.8,
+          "text": "I hope we do a lot more, but I think this is a tremendous step."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 263.6,
+          "text": "I do think it says something that all four of the measures that we're passing today were"
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 270.1,
+          "text": "sponsored by Republicans."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 271.9,
+          "text": "And I'm not saying that because, you know, I'm trying to play politics or anything."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 275.8,
+          "text": "But if you look at the bills that we're passing, they have to do with helping the disabled, with helping the LGBTQ community, with helping people get housing."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 287.0,
+          "text": "And when you think of groups and issues that are historically, stereotypically associated with Republicans, you don't necessarily think of Republicans as helping the disabled,"
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 298.9,
+          "text": "people getting housing, and the LGBTQ community."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 302.6,
+          "text": "And I think it says a lot about where our party has come, at least in New York City, that all of the bills that we're passing are sponsored primarily by Republicans, and they do all of those things."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 313.5,
+          "text": "So I'm very, very proud of my party and all the Republican council members that have bills that we're considering today."
+        }
+      ]
+    },
+    {
+      "end_sec": 465.0,
+      "id": "007",
+      "slug": "chair-morano-introduces-intro-488a-council-member-vernikov-presents-mitchell-lama-veteran-prefer",
+      "start_sec": 320.6,
+      "summary": "Morano turns to Intro 488A and calls on Council Member Inna Vernikov, joining remotely. Vernikov thanks veterans, explains the bill would require HPD to report on veteran and surviving-spouse applications and selections in Mitchell-Lama developments, and says it will promote an underused preference.",
+      "title": "Chair Morano introduces Intro 488A; Council Member Vernikov presents Mitchell-Lama veteran preference report bill",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 320.6,
+          "text": "With that, I will turn things over to the distinguished council member from Brooklyn."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 327.9,
+          "text": "The second bill that we're voting on today is proposed introduction number 488A, sponsored by Council Member Ina Vernikov."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 337.6,
+          "text": "And I'll now hand it over to the council member to give a brief introduction to her bill."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 343.2,
+          "text": "Council Member Vernikov joining us remotely."
+        },
+        {
+          "speaker": "Inna Vernikov",
+          "t_sec": 347.1,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Inna Vernikov",
+          "t_sec": 347.7,
+          "text": "Can you hear me?"
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 348.6,
+          "text": "Yes, you sound great."
+        },
+        {
+          "speaker": "Inna Vernikov",
+          "t_sec": 351.4,
+          "text": "Thank you, Chair Marano, members of the Veterans Committee."
+        },
+        {
+          "speaker": "Inna Vernikov",
+          "t_sec": 353.9,
+          "text": "I'd like to start by thanking all of our amazing U.S."
+        },
+        {
+          "speaker": "Inna Vernikov",
+          "t_sec": 357.2,
+          "text": "Veterans who have sacrificed their safety to protect"
+        },
+        {
+          "speaker": "Inna Vernikov",
+          "t_sec": 360.0,
+          "text": "sector, country, and way of life."
+        },
+        {
+          "speaker": "Inna Vernikov",
+          "t_sec": 362.3,
+          "text": "On behalf of District 48, we salute you."
+        },
+        {
+          "speaker": "Inna Vernikov",
+          "t_sec": 365.3,
+          "text": "I'm pleased to bring forward my bill, Introduction 488A, today, the day after Veterans Day, and I'm glad to see so many other veterans'bills also up for a vote."
+        },
+        {
+          "speaker": "Inna Vernikov",
+          "t_sec": 376.2,
+          "text": "Intro 48A requires the Department of Housing, Preservation, and Development to produce a report on the number of veterans or their surviving spouses applying for housing in city Michilama developments"
+        },
+        {
+          "speaker": "Inna Vernikov",
+          "t_sec": 388.7,
+          "text": "and the number of veterans being selected for occupancy, creating a clear way to measure progress."
+        },
+        {
+          "speaker": "Inna Vernikov",
+          "t_sec": 395.3,
+          "text": "This bill also sends this report."
+        },
+        {
+          "speaker": "Inna Vernikov",
+          "t_sec": 398.3,
+          "text": "To not just the administration and city council, but crucially to the Department of Veteran Services, whose central mission in our city is to connect, mobilize, and empower veterans in New York City."
+        },
+        {
+          "speaker": "Inna Vernikov",
+          "t_sec": 410.5,
+          "text": "The Michilama Veteran Preference is a great benefit that is tragically underused."
+        },
+        {
+          "speaker": "Inna Vernikov",
+          "t_sec": 415.6,
+          "text": "This bill will make the benefit better known and more widely used so we can adequately house veterans and keep them in our city."
+        },
+        {
+          "speaker": "Inna Vernikov",
+          "t_sec": 423.8,
+          "text": "I'd like to thank Committee Legislative Analyst Raina Lee and for her work on refining this legislation, Legislative Policy Analyst Mahmoud Bout, the Department of Veteran Services, and HPD."
+        },
+        {
+          "speaker": "Inna Vernikov",
+          "t_sec": 436.4,
+          "text": "Thank you also to my Legislative Director Troy Olson, an Army veteran who has personally housed homeless veterans with this preference, as well as the many New York City veterans who have lived in a Mitchell Lama housing and provided in"
+        },
+        {
+          "speaker": "Inna Vernikov",
+          "t_sec": 450.0,
+          "text": "sides on their experience."
+        },
+        {
+          "speaker": "Inna Vernikov",
+          "t_sec": 452.1,
+          "text": "Too many veterans lack quality housing in our city and this bill is a meaningful step to change that."
+        },
+        {
+          "speaker": "Inna Vernikov",
+          "t_sec": 457.6,
+          "text": "This is the proper way to treat those who have served our great country and call our great city home."
+        },
+        {
+          "speaker": "Inna Vernikov",
+          "t_sec": 462.9,
+          "text": "Thank you very much everyone."
+        }
+      ]
+    },
+    {
+      "end_sec": 489.9,
+      "id": "008",
+      "slug": "chair-morano-thanks-vernikov-and-introduces-intro-928a-lgbtq-liaison-bill",
+      "start_sec": 465.0,
+      "summary": "Morano thanks Council Member Vernikov for presenting Intro 488A. He then introduces Intro 928A sponsored by Council Member Carr, noting Carr is under the weather and that public testimony on the bill will be heard shortly.",
+      "title": "Chair Morano thanks Vernikov and introduces Intro 928A LGBTQ+ liaison bill",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 465.0,
+          "text": "Thank you, Councilmember Vernikov, for that statement on your bill."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 469.3,
+          "text": "The third bill we're voting on today is proposed introduction number 928A, sponsored by Councilmember Carr."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 477.3,
+          "text": "Councilmember Carr is a little under the weather today, so he's not able to give a statement on his bill, but we are going to hear some public testimony on this bill in just a moment, and I'm proud to be a co-sponsor of this bill as well."
+        }
+      ]
+    },
+    {
+      "end_sec": 577.3,
+      "id": "009",
+      "slug": "council-member-paladino-presents-resolution-560-on-va-home-loans-for-co-ops-and-condos",
+      "start_sec": 489.9,
+      "summary": "Morano introduces Resolution 560 sponsored by Council Member Vickie Paladino and hands over. Paladino explains the resolution supports expanding VA loan eligibility to co-ops and condos, recalling her parents used a VA loan, and says it offers veterans another affordable housing avenue.",
+      "title": "Council Member Paladino presents Resolution 560 on VA home loans for co-ops and condos",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 489.9,
+          "text": "Lastly, we're going to be voting on Resolution 560, sponsored by Councilmember Palladino, a terrific"
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 499.6,
+          "text": "resolution, and I'll hand it over to Councilmember Palladino to give a brief introduction to this resolution."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 506.0,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Vickie Paladino",
+          "t_sec": 506.7,
+          "text": "Good morning, Frank."
+        },
+        {
+          "speaker": "Vickie Paladino",
+          "t_sec": 507.5,
+          "text": "How are you?"
+        },
+        {
+          "speaker": "Vickie Paladino",
+          "t_sec": 508.1,
+          "text": "Thank you for having me."
+        },
+        {
+          "speaker": "Vickie Paladino",
+          "t_sec": 510.2,
+          "text": "You know, this resolution pertains to the Veterans Act for, you know, buying homes."
+        },
+        {
+          "speaker": "Vickie Paladino",
+          "t_sec": 517.7,
+          "text": "Years ago, that's how my mother and father bought their house, through a VA loan, we called them back in those days."
+        },
+        {
+          "speaker": "Vickie Paladino",
+          "t_sec": 524.7,
+          "text": "The VA loan is a bit limited as to home ownership."
+        },
+        {
+          "speaker": "Vickie Paladino",
+          "t_sec": 529.3,
+          "text": "So this resolution, when I saddled up a little bit with Grace Mang on this, it's about co-ops and condos that they were limited to being able to purchase."
+        },
+        {
+          "speaker": "Vickie Paladino",
+          "t_sec": 540.0,
+          "text": "purchase condos and co-ops."
+        },
+        {
+          "speaker": "Vickie Paladino",
+          "t_sec": 542.7,
+          "text": "So I'm very excited about this."
+        },
+        {
+          "speaker": "Vickie Paladino",
+          "t_sec": 544.4,
+          "text": "It's another avenue for our veterans who are in great need of proper housing at a very affordable rate."
+        },
+        {
+          "speaker": "Vickie Paladino",
+          "t_sec": 552.3,
+          "text": "So it's a thrill for me to be able to present this Resolution 560 and, again, to saddle up with Ina and the rest of us here on the Veterans Committee Veterans Day yesterday."
+        },
+        {
+          "speaker": "Vickie Paladino",
+          "t_sec": 566.2,
+          "text": "This is very meaningful today to be able to get active and get moving with our veterans."
+        },
+        {
+          "speaker": "Vickie Paladino",
+          "t_sec": 572.1,
+          "text": "So thank you very much, everybody."
+        },
+        {
+          "speaker": "Vickie Paladino",
+          "t_sec": 573.5,
+          "text": "And, Frank, thank you to you, and thank you to the committee."
+        },
+        {
+          "speaker": "Vickie Paladino",
+          "t_sec": 576.5,
+          "text": "Thank you very much."
+        }
+      ]
+    },
+    {
+      "end_sec": 625.7,
+      "id": "010",
+      "slug": "chair-morano-thanks-paladino-and-committee-staff",
+      "start_sec": 577.3,
+      "summary": "Morano thanks Council Member Paladino for her veterans-related resolutions. He thanks committee staff, including Rayna Lee and Mark Norbute, as well as predecessors Alejandro and Hannah, for drafting and shepherding legislation, and thanks his chief of staff Frank Rapacciolo for work on Intro 1051.",
+      "title": "Chair Morano thanks Paladino and committee staff",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 577.3,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 578.0,
+          "text": "This is one of many great veterans-related resolutions that Councilmember Palladino has been a leader on."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 583.9,
+          "text": "So thank you for all your work on behalf of our city's veterans."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 587.6,
+          "text": "Before we get to public testimony, I also want to thank the committee staff for their hard work in drafting all this legislation, not only Rayna Lee and Mark Norbute, but"
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 599.2,
+          "text": "some of their predecessors in those roles, Alejandro and Hannah, who've been great in all the work they've done shepherding veterans legislation."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 609.4,
+          "text": "And I'd also like to thank my staff for their incredible and tireless work putting Intro 1051 together and all the chess pieces involved in getting a bill passed this quickly, especially my chief of staff,"
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 624.4,
+          "text": "Frank Rapacciolo."
+        }
+      ]
+    },
+    {
+      "end_sec": 654.4,
+      "id": "011",
+      "slug": "chair-morano-calls-public-witnesses-brian-ellicott-cook-and-gonzalo-duran",
+      "start_sec": 625.7,
+      "summary": "Morano invites two members of the public to testify on the package before the roll call. He calls Brian J. Ellicott-Cook and Gonzalo Duran to the witness table and gives Brian up to two minutes.",
+      "title": "Chair Morano calls public witnesses Brian Ellicott-Cook and Gonzalo Duran",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 625.7,
+          "text": "With that, I will invite two members of the public up to testify."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 630.8,
+          "text": "on the package that we're hearing today, and then we will call the roll on today's legislation."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 635.7,
+          "text": "We will begin with Brian J."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 638.8,
+          "text": "Ellicott-Cook."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 640.1,
+          "text": "Brian, come on up."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 641.7,
+          "text": "And we'll also hear from Gonzalo Duran."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 645.2,
+          "text": "You could come on up as well."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 647.2,
+          "text": "Grab a mic."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 649.6,
+          "text": "Brian, you can have up to two minutes."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 651.9,
+          "text": "Go ahead and begin when you're ready."
+        }
+      ]
+    },
+    {
+      "end_sec": 717.2,
+      "id": "012",
+      "slug": "brian-ellicott-cook-testifies-for-intro-928-lgbtq-veterans-liaison",
+      "start_sec": 654.4,
+      "summary": "Brian Ellicott-Cook, director of government relations at SAGE, thanks Minority Leader Carr and the committee for advancing Intro 928. He says establishing an LGBTQ+ liaison in the Department of Veterans\u2019 Services would recognize and support LGBTQ+ veterans and thanks his husband and Pete Spencer in Carr\u2019s office.",
+      "title": "Brian Ellicott-Cook testifies for Intro 928 LGBTQ+ veterans liaison",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Brian Ellicott-Cook",
+          "t_sec": 654.4,
+          "text": "Thanks, Chair."
+        },
+        {
+          "speaker": "Member of the Public - Brian Ellicott-Cook",
+          "t_sec": 655.8,
+          "text": "Again, my brand name is Brian Ellicott-Cook."
+        },
+        {
+          "speaker": "Member of the Public - Brian Ellicott-Cook",
+          "t_sec": 658.1,
+          "text": "I am the Director of Government Relations at SAGE, and I wanted to thank Minority Leader Carr and the Veterans Committee for their leadership and support and commitment to advancing Intro 928, the LGBT Veterans Liaison Bill."
+        },
+        {
+          "speaker": "Member of the Public - Brian Ellicott-Cook",
+          "t_sec": 670.4,
+          "text": "Your willingness to champion this legislation sends an important message that LGBTQ plus veterans deserve to be recognized, respected, and supported by the city they served."
+        },
+        {
+          "speaker": "Member of the Public - Brian Ellicott-Cook",
+          "t_sec": 679.9,
+          "text": "For generations, LGBTQ plus veterans have served our country, often without recognition or protections they deserved."
+        },
+        {
+          "speaker": "Member of the Public - Brian Ellicott-Cook",
+          "t_sec": 686.0,
+          "text": "Establishing an LGBTQ plus liaison in the New York City Department of Veterans is an important step towards ensuring voices, experiences, and needs are represented."
+        },
+        {
+          "speaker": "Member of the Public - Brian Ellicott-Cook",
+          "t_sec": 696.1,
+          "text": "Making sure that New York City Department of Veterans is here to support and uplift them."
+        },
+        {
+          "speaker": "Member of the Public - Brian Ellicott-Cook",
+          "t_sec": 700.2,
+          "text": "And I want to take a moment to thank my husband for listening to me for the past five months talking about this bill every night and every person that I've contacted and spoken to."
+        },
+        {
+          "speaker": "Member of the Public - Brian Ellicott-Cook",
+          "t_sec": 708.7,
+          "text": "It means a lot."
+        },
+        {
+          "speaker": "Member of the Public - Brian Ellicott-Cook",
+          "t_sec": 709.8,
+          "text": "And thank you to Pete Spencer in Minority Leader Carr's office for partnering with us on this legislation."
+        },
+        {
+          "speaker": "Member of the Public - Brian Ellicott-Cook",
+          "t_sec": 715.5,
+          "text": "So thank you very much."
+        }
+      ]
+    },
+    {
+      "end_sec": 830.4,
+      "id": "013",
+      "slug": "gonzalo-duran-testifies-on-veteran-housing-and-disabled-veteran-tax-relief",
+      "start_sec": 717.2,
+      "summary": "Morano thanks Brian and calls Gonzalo Duran. Duran, CEO of Devil Dog USA, thanks the committee for veterans legislation and describes housing as the hardest need for veterans, supporting relief for totally disabled veterans and sharing a case of a 100% disabled veteran facing cancer.",
+      "title": "Gonzalo Duran testifies on veteran housing and disabled veteran tax relief",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 717.2,
+          "text": "Thank you, Brian."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 718.3,
+          "text": "Mr."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 718.6,
+          "text": "Duran."
+        },
+        {
+          "speaker": "Member of the Public - Duran",
+          "t_sec": 720.6,
+          "text": "First of all, thank you everyone for the work that you guys are doing."
+        },
+        {
+          "speaker": "Member of the Public - Duran",
+          "t_sec": 723.5,
+          "text": "And I'd like to second the motion, the amount of legislation that has been put out in the last couple, in this last session,"
+        },
+        {
+          "speaker": "Member of the Public - Duran",
+          "t_sec": 732.4,
+          "text": "has been keeping me working extra hard because now I have to keep up with all the legislation that you guys put in for the veteran community."
+        },
+        {
+          "speaker": "Member of the Public - Duran",
+          "t_sec": 738.9,
+          "text": "So thank you all on behalf of the veteran community on that."
+        },
+        {
+          "speaker": "Member of the Public - Duran",
+          "t_sec": 742.4,
+          "text": "As my position as CEO of Devil Dog USA Incorporated, majority of my time is trying to figure out in case management work, how to get veterans housing, employment, etc."
+        },
+        {
+          "speaker": "Member of the Public - Duran",
+          "t_sec": 755.6,
+          "text": "Housing has always been the most difficult because you need to start with a hub."
+        },
+        {
+          "speaker": "Member of the Public - Duran",
+          "t_sec": 761.3,
+          "text": "You need to start your command center somewhere when you get back home."
+        },
+        {
+          "speaker": "Member of the Public - Duran",
+          "t_sec": 765.6,
+          "text": "And regarding the total disabled veterans trying to get housing, one of the stipulations, anything that we can take away from having more expenses towards them and ease the burden that they have, it's a tremendous opportunity."
+        },
+        {
+          "speaker": "Member of the Public - Duran",
+          "t_sec": 780.0,
+          "text": "For example..."
+        },
+        {
+          "speaker": "Member of the Public - Duran",
+          "t_sec": 781.6,
+          "text": "I know in one of my cases for a veteran working 100% disabled, towards the end of his becoming 70 years old, he developed cancer."
+        },
+        {
+          "speaker": "Member of the Public - Duran",
+          "t_sec": 795.3,
+          "text": "And in that time frame, any amount of money that he could save to..."
+        },
+        {
+          "speaker": "Member of the Public - Duran",
+          "t_sec": 800.8,
+          "text": "Keep his home and not have to go to any agencies to try to make the ends meet is something where I want to help."
+        },
+        {
+          "speaker": "Member of the Public - Duran",
+          "t_sec": 810.3,
+          "text": "So I hope this passes."
+        },
+        {
+          "speaker": "Member of the Public - Duran",
+          "t_sec": 813.0,
+          "text": "I don't think any veteran or any organization would oppose it."
+        },
+        {
+          "speaker": "Member of the Public - Duran",
+          "t_sec": 818.1,
+          "text": "And, you know, speaking regarding to my colleagues to the right, these opportunities are rare, and I look forward to seeing the results of it in the coming years."
+        },
+        {
+          "speaker": "Member of the Public - Duran",
+          "t_sec": 828.8,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 852.732,
+      "id": "014",
+      "slug": "chair-morano-acknowledges-council-member-gennaro-and-moves-to-roll-call",
+      "start_sec": 830.4,
+      "summary": "Morano thanks Duran and acknowledges Council Member James Gennaro, joining remotely, as a committee member and co-sponsor of Intro 1051. He then asks the clerk to call the roll.",
+      "title": "Chair Morano acknowledges Council Member Gennaro and moves to roll call",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 830.4,
+          "text": "Thank you, Mr."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 831.2,
+          "text": "Duran."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 831.8,
+          "text": "I'd also like to acknowledge our colleague, Councilmember Gennaro, who's a member of this committee who's joining us remotely."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 839.6,
+          "text": "He's also been a co-sponsor of Intro 1051 and a great advocate for veterans as well."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 845.4,
+          "text": "With that, I will ask the clerk to call the roll."
+        }
+      ]
+    },
+    {
+      "end_sec": 871.132,
+      "id": "015",
+      "slug": "clerk-calls-roll-on-intro-488a-928a-1051a-and-resolution-560a-chair-morano-votes-aye",
+      "start_sec": 852.732,
+      "summary": "Committee Clerk Ben Jacobs announces a roll call vote on all four items, which are coupled. Chair Morano votes aye on all enthusiastically.",
+      "title": "Clerk calls roll on Intro 488A, 928A, 1051A, and Resolution 560A; Chair Morano votes aye",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 852.732,
+          "text": "Morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 853.132,
+          "text": "Ben Jacobs, Committee Clerk, Committee on Veterans."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 856.232,
+          "text": "We have a roll call vote today for Intro 488A, Intro 928A, Intro 1051A, and Resolution 560A."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 865.432,
+          "text": "All items are coupled."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 866.832,
+          "text": "Chair Murano."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 868.632,
+          "text": "Eye on all, enthusiastically."
+        }
+      ]
+    },
+    {
+      "end_sec": 933.832,
+      "id": "016",
+      "slug": "council-member-gennaro-votes-aye-and-praises-sponsors-and-republican-party",
+      "start_sec": 871.132,
+      "summary": "Gennaro asks to speak on his vote, thanks the chair and sponsors, and asks to be signed on to all bills. He says he enthusiastically votes aye on all and praises the Republican Party\u2019s commitment to a full spectrum of issues.",
+      "title": "Council Member Gennaro votes aye and praises sponsors and Republican Party",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 871.132,
+          "text": "Council Member Gennaro."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 873.932,
+          "text": "Thank you, Mr."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 875.432,
+          "text": "Chairman."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 876.532,
+          "text": "If I may speak on my vote, I appreciate that."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 879.232,
+          "text": "Certainly."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 881.432,
+          "text": "Thank you, Mr."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 882.532,
+          "text": "Chairman, and all the sponsors of the great bills today."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 887.032,
+          "text": "It is really a very, very wonderful thing."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 890.932,
+          "text": "I have told the legislative document people to sign me on to all the bills."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 897.932,
+          "text": "It would be a privilege to be on them."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 901.032,
+          "text": "And I would just ask the chair not to sell his great party short."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 908.332,
+          "text": "And so, you know, many people around the country, you know, support and embrace the Republican Party and their commitment to the full spectrum of issues facing people all across the country."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 922.332,
+          "text": "And I don't want people to think any different than that."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 924.932,
+          "text": "So there you go."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 926.432,
+          "text": "It's a great party."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 927.332,
+          "text": "Be proud of it."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 928.132,
+          "text": "And with that, I enthusiastically vote aye on all."
+        }
+      ]
+    },
+    {
+      "end_sec": 968.632,
+      "id": "017",
+      "slug": "roll-call-continues-all-four-items-adopted-5-0",
+      "start_sec": 933.832,
+      "summary": "Morano jokes about sending Gennaro a voter registration change. The clerk then records aye votes from Council Members De La Rosa, Wong, and Paladino, with several asking to be added as sponsors. The clerk reports five affirmative votes, none negative, no abstentions, and all items adopted.",
+      "title": "Roll call continues; all four items adopted 5-0",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 933.832,
+          "text": "Thank you, Councilman Gennaro."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 935.732,
+          "text": "We are sending you a change of voter registration to your home right now."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 939.632,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 941.432,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 941.932,
+          "text": "Councilmember De La Rosa."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 943.632,
+          "text": "Aye on all and congrats to my colleagues."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 946.432,
+          "text": "Councilmember Wong."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 948.632,
+          "text": "I know, and I asked the clerk to sign me on to all the bills."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 952.232,
+          "text": "Will do."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 952.732,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 953.532,
+          "text": "Councilmember Paladino."
+        },
+        {
+          "speaker": "Vickie Paladino",
+          "t_sec": 955.632,
+          "text": "I on all, and if I'm not on all the bills, make sure that I am."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 959.032,
+          "text": "I have the three of you now."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 961.132,
+          "text": "So that's the vote of five in the affirmative, not in the negative, and no abstentions."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 966.532,
+          "text": "All of the items are adopted."
+        }
+      ]
+    },
+    {
+      "end_sec": 1020.032,
+      "id": "018",
+      "slug": "chair-morano-adjourns-the-veterans-committee-meeting",
+      "start_sec": 968.632,
+      "summary": "Morano thanks the public and committee members. He then adjourns the meeting.",
+      "title": "Chair Morano adjourns the Veterans Committee meeting",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 968.632,
+          "text": "Thank you very much."
+        },
+        {
+          "speaker": "Frank Morano",
+          "t_sec": 970.032,
+          "text": "With that, with gratitude to the public and to all the members of this committee, our meeting is adjourned."
+        }
+      ]
+    }
+  ],
+  "date": "2026-11-12",
+  "duration_sec": 1020.032,
+  "slug": "2026-11-12-1000-am-committee-on-veterans",
+  "summary": [
+    "Committee on Veterans held a vote and hearing on three bills and one resolution covering veteran preference reporting in Mitchell-Lama housing, an LGBTQ+ liaison in the Department of Veterans\u2019 Services, and a full property tax exemption for permanently and totally disabled veterans.",
+    "Sponsors and public witnesses testified in support, including Brian Ellicott-Cook for Intro 928 and Gonzalo Duran on veteran housing needs and disabled veteran relief.",
+    "The committee adopted all four coupled items by a 5-0 roll call vote and adjourned."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "10:00 AM",
+  "title": "Committee on Veterans",
+  "topic": "Requiring the department of housing preservation and development to submit reports on veteran preference in Mitchell-Lama developments",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://discourse-media.qqlab.io/NYCC-250-8-2_261112-101002/video-web.mp4"
+  }
+}

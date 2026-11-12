@@ -1,0 +1,442 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 18.6,
+      "id": "001",
+      "slug": "committee-staff-calls-cultural-affairs-hearing-to-order",
+      "start_sec": 5.8,
+      "summary": "Council staff welcomes attendees to the New York City Council vote of the Committee on Cultural Affairs, Libraries, and International Relations. Staff asks that electronics be silenced and turns the floor over to the chair.",
+      "title": "Committee staff calls Cultural Affairs hearing to order",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 5.8,
+          "text": "Good morning, good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 7.0,
+          "text": "Welcome to the New York City Council vote on the Committee on Cultural Affairs, Libraries, and International Relations."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 12.2,
+          "text": "At this time, please silence all electronics and do not approach the day as chair."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 16.2,
+          "text": "You may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 46.9,
+      "id": "002",
+      "slug": "chair-williams-opens-meeting-and-introduces-resolution-163a",
+      "start_sec": 18.6,
+      "summary": "Deputy Speaker Nantasha Williams convenes as chair and announces the committee will consider Res. 163A, her resolution designating the fourth week of November as The Shangri-Las Week. She says the resolution celebrates the group's indelible impact on 1960s music and beyond.",
+      "title": "Chair Williams opens meeting and introduces Resolution 163A",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 18.6,
+          "text": "Hello, good morning."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 20.0,
+          "text": "Oh, I am Deputy Speaker Nantosha Williams, Chair of the Committee on Cultural Affairs, Libraries, and International Relations."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 28.1,
+          "text": "Today, the committee will consider one resolution, Reso 163A, which I have sponsored, which would designate the fourth of November, fourth week of November as the Shangri-La Week in the City of New York and celebrate the Shangri-La"
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 43.0,
+          "text": "indelible impact on the music of the 1960s and ever since."
+        }
+      ]
+    },
+    {
+      "end_sec": 62.9,
+      "id": "003",
+      "slug": "chair-williams-places-shangri-las-resolution-in-committee-tradition",
+      "start_sec": 46.9,
+      "summary": "Williams notes the committee has passed many resolutions honoring important musicians and musical genres in recent years. She says the Shangri-Las, a groundbreaking 1960s girl group, now join that proud tradition.",
+      "title": "Chair Williams places Shangri-Las resolution in committee tradition",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 46.9,
+          "text": "Let me say a few words about my resolution."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 48.9,
+          "text": "Our committee has passed many resolutions on important musicians and musical genres in the past handful of years."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 54.2,
+          "text": "They have all been worthy of this honor."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 56.4,
+          "text": "To this proud tradition, we now add the Shangri-La, a groundbreaking girl group of the 1960s."
+        }
+      ]
+    },
+    {
+      "end_sec": 97.3,
+      "id": "004",
+      "slug": "chair-williams-recounts-shangri-las-formation-and-chart-success",
+      "start_sec": 62.9,
+      "summary": "Williams describes how lead vocalist Mary Weiss, her sister Betty, and twins Marge and Mary Ann Ganser formed the Shangri-Las at Andrew Jackson High School in Cambria Heights. She notes their Billboard No. 1 'Leader of the Pack' in November 1964 and six Top 40 singles between 1964 and 1966.",
+      "title": "Chair Williams recounts Shangri-Las formation and chart success",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 62.9,
+          "text": "Lead vocalist Mary Weiss and her oldest sister Betty, who is the sole surviving member of the group, teamed up with twins Marge and Mary Ann Ganser at Andrew Jackson High School in Cambria Heights and made history with their Billboard hit 100, number one hit."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 78.4,
+          "text": "Leader of the pack in November 1964."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 81.2,
+          "text": "While they were still teenagers, the Shangri-La had six top 40 singles between 1964 and 1966, starting in the summer of 1964."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 90.3,
+          "text": "with their heart-wrenching Remember Walking in the Sand, which climbed to number five on the Billboard Hot 100."
+        }
+      ]
+    },
+    {
+      "end_sec": 122.7,
+      "id": "005",
+      "slug": "chair-williams-credits-justin-brannon-as-original-co-sponsor",
+      "start_sec": 97.3,
+      "summary": "Williams says former Council Member Justin Brannon originally co-sponsored the resolution. She recalls his hardcore punk touring background and notes he included 'Remember Walking in the Sand' on his City and State playlist.",
+      "title": "Chair Williams credits Justin Brannon as original co-sponsor",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 97.3,
+          "text": "Originally, my former colleague, City Councilmember Justin Brannon, was the co-sponsor of this resolution."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 103.1,
+          "text": "Those of you who know Justin know that he once toured internationally with two hardcore punk rock bands."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 109.0,
+          "text": "When City and State once asked him for his own playlist, Remember Walking in the Sand was one of the 13 songs on it."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 115.3,
+          "text": "I'm sorry that he is not here today to sing you a bit of it and explain why it is so great, because I really cannot."
+        }
+      ]
+    },
+    {
+      "end_sec": 135.6,
+      "id": "006",
+      "slug": "chair-williams-discusses-shangri-las-influence-on-later-vocalists",
+      "start_sec": 122.7,
+      "summary": "Williams jokes that she cannot fully explain the group's greatness and urges people to listen to their music. She says the four teenagers from Queens influenced vocalists over 60 years, from the Ramones to Debbie Harry to Amy Winehouse.",
+      "title": "Chair Williams discusses Shangri-Las influence on later vocalists",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 122.7,
+          "text": "Because I'm like, who are these people?"
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 124.0,
+          "text": "Okay, but all you need to do is listen to it."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 126.5,
+          "text": "The Shangri-La of four teenagers from Queens have influenced vocalists of the past 60 years, from the Ramones to Debbie Harry to Amy Winehouse."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 134.2,
+          "text": "They were truly remarkable."
+        }
+      ]
+    },
+    {
+      "end_sec": 148.8,
+      "id": "007",
+      "slug": "chair-williams-thanks-staff-for-preparing-resolution-163a",
+      "start_sec": 135.6,
+      "summary": "Williams thanks her staff and committee staff who prepared for the hearing, including Alejandro, senior legislative counsel, and Regina, committee senior policy analyst who wrote the resolution.",
+      "title": "Chair Williams thanks staff for preparing Resolution 163A",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 135.6,
+          "text": "I would like to thank my staff and committee staff who worked on preparing for today, including Alejandro, the senior ledge counsel, Regina, the committee senior policy analyst who wrote the resolution, of course."
+        }
+      ]
+    },
+    {
+      "end_sec": 156.104,
+      "id": "008",
+      "slug": "chair-williams-notes-no-public-testimony-and-moves-to-vote",
+      "start_sec": 148.8,
+      "summary": "Williams states she does not think there is public testimony on the resolution. She declares the committee ready to vote on Resolution 163A.",
+      "title": "Chair Williams notes no public testimony and moves to vote",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 148.8,
+          "text": "I don't think there's public testimony."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 150.8,
+          "text": "And so with that, we are ready for the vote."
+        }
+      ]
+    },
+    {
+      "end_sec": 188.304,
+      "id": "009",
+      "slug": "committee-clerk-opens-roll-call-and-records-votes-on-resolution-163a",
+      "start_sec": 156.104,
+      "summary": "Committee Clerk William Martin calls the roll for Resolution 163A, beginning with Chair Williams. The clerk records votes from Williams, Lewis, Hudson, Osei, Stevens, and Maloney, with Osei and Williams heard voting aye.",
+      "title": "Committee Clerk opens roll call and records votes on Resolution 163A",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 156.104,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 156.504,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 157.104,
+          "text": "William Martin, Committee Clerk, Roll Call Vote Committee on Cultural Affairs, Libraries and International Relations."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 162.304,
+          "text": "Proposal Resolution 163A, Chair Williams."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 166.404,
+          "text": "I would I."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 168.804,
+          "text": "Lewis."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 171.804,
+          "text": "Hudson."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 173.704,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 175.004,
+          "text": "Osei."
+        },
+        {
+          "speaker": "Chi A. Oss\u00e9",
+          "t_sec": 176.004,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 178.004,
+          "text": "Stevens."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 181.604,
+          "text": "On."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 184.804,
+          "text": "Maloney."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 186.204,
+          "text": "Aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 206.928,
+      "id": "010",
+      "slug": "committee-adopts-resolution-163a-with-five-affirmative-votes",
+      "start_sec": 188.304,
+      "summary": "The clerk announces the resolution has been adopted by the committee with five votes in the affirmative, zero in the negative, and no abstentions.",
+      "title": "Committee adopts Resolution 163A with five affirmative votes",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 188.304,
+          "text": "With a vote of five in the affirmative, zero in the negative, and no abstentions, the resolution has been adopted by the committee."
+        }
+      ]
+    },
+    {
+      "end_sec": 595.932,
+      "id": "011",
+      "slug": "roll-remains-open-and-committee-prepares-for-council-member-lewis",
+      "start_sec": 206.928,
+      "summary": "The clerk states the roll is currently open by request of the chair. After a delay, staff conducts a sound check for Council Member Lewis and prepares to continue the roll call.",
+      "title": "Roll remains open and committee prepares for Council Member Lewis",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 206.928,
+          "text": "Roll is currently open by request of the chair."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 563.528,
+          "text": "Councilmember Lewis, can we have a sound check?"
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 579.928,
+          "text": "Councilmember Lewis."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 590.128,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 592.932,
+          "text": "Greetings, Council Member."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 593.832,
+          "text": "One moment."
+        }
+      ]
+    },
+    {
+      "end_sec": 607.532,
+      "id": "012",
+      "slug": "continuation-roll-call-adds-council-member-lewis-and-finalizes-tally",
+      "start_sec": 595.932,
+      "summary": "The clerk continues the roll call on Resolution 163A. Council Member Lewis is called, and the final tally is announced as six affirmative, zero negative, and no abstentions.",
+      "title": "Continuation roll call adds Council Member Lewis and finalizes tally",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 595.932,
+          "text": "Continuation roll call, Committee on Cultural Affairs, Resolution 163A."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 600.232,
+          "text": "Councilmember Lewis."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 602.132,
+          "text": "I don't know."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 603.032,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 603.532,
+          "text": "Voters now six in the affirmative, zero in the negative, and no abstentions."
+        }
+      ]
+    },
+    {
+      "end_sec": 618.667,
+      "id": "013",
+      "slug": "chair-williams-thanks-attendees-and-adjourns",
+      "start_sec": 607.532,
+      "summary": "Williams thanks everyone for their patience and says goodbye, concluding the committee meeting.",
+      "title": "Chair Williams thanks attendees and adjourns",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 607.532,
+          "text": "Thank you so much, everyone, for your patience."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 611.532,
+          "text": "Bye."
+        }
+      ]
+    }
+  ],
+  "date": "2026-11-12",
+  "duration_sec": 618.667,
+  "slug": "2026-11-12-1000-am-committee-on-cultural-affairs-libraries-and-international-relations",
+  "summary": [
+    "The Committee on Cultural Affairs, Libraries and International Relations met to consider Resolution 163A, designating the fourth week of November as The Shangri-Las Week in New York City.",
+    "Chair Nantasha Williams described the Shangri-Las' Queens origins, chart success, and influence on later artists, thanked staff, and noted there was no public testimony.",
+    "The committee adopted Resolution 163A by roll call, initially with five affirmative votes and later six after Council Member Lewis joined, with no negative votes or abstentions."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "10:00 AM",
+  "title": "Committee on Cultural Affairs, Libraries and International Relations",
+  "topic": "Designating the fourth week of November as The Shangri-Las Week",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://discourse-media.qqlab.io/NYCC-250-8-1_261112-101037/video-web.mp4"
+  }
+}
