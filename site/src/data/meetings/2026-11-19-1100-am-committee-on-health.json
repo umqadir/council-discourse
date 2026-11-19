@@ -1,0 +1,813 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 31.4,
+      "id": "001",
+      "slug": "committee-staff-opens-health-committee-vote-and-calls-meeting-to-order",
+      "start_sec": 9.5,
+      "summary": "Committee staff opens the New York City Council Committee on Health vote, asks attendees to silence devices and not approach the dais, and tells the Chair the committee is ready to begin. No substantive business is discussed.",
+      "title": "Committee staff opens Health Committee vote and calls meeting to order",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 9.5,
+          "text": "Good morning, good morning, and welcome to today's New York City Council vote from the Committee on Health."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 15.9,
+          "text": "At this time, I'd like to remind everyone to kindly silence your electronic devices, and at no point is anyone to approach the dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 22.9,
+          "text": "Chair, we are ready to begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 42.2,
+      "id": "002",
+      "slug": "chair-schulman-opens-vote-on-reproductive-and-maternal-health-bills",
+      "start_sec": 31.4,
+      "summary": "Chair Lynn Schulman introduces herself and welcomes attendees to the vote on two bills and three resolutions focused on reproductive and maternal health. She frames the meeting as a committee action on a package of reproductive health measures.",
+      "title": "Chair Schulman opens vote on reproductive and maternal health bills",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 31.4,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 31.9,
+          "text": "I'm Councilmember Lynn Schulman, Chair of the New York City Council's Committee on Health."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 35.7,
+          "text": "Thank you all for joining us for today's vote on two bills and three resolutions focused on reproductive and maternal health."
+        }
+      ]
+    },
+    {
+      "end_sec": 72.9,
+      "id": "003",
+      "slug": "schulman-frames-nyc-as-beacon-for-reproductive-health-access",
+      "start_sec": 42.2,
+      "summary": "Schulman says New York City is a beacon for comprehensive, high-quality reproductive health care while the federal government and other states roll back bodily autonomy. She argues that anyone, regardless of identity, origin, or income, should receive nonjudgmental care, and says the legislation builds on that foundation.",
+      "title": "Schulman frames NYC as beacon for reproductive health access",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 42.2,
+          "text": "New York City is a beacon in the United States and across the globe for comprehensive access to high-quality reproductive health care."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 49.5,
+          "text": "While the federal government and other states are trying to roll back the right to bodily autonomy and restrict access to comprehensive, inclusive care, a city has taken a stand."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 59.0,
+          "text": "Anyone, no matter who they are, where they come from, or how much they can afford, should be able to get high-quality, nonjudgmental care for the full range of reproductive health services they may need."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 69.4,
+          "text": "The legislation before us today builds on that strong foundation."
+        }
+      ]
+    },
+    {
+      "end_sec": 93.8,
+      "id": "004",
+      "slug": "schulman-presents-intro-200-a-on-doula-care-resources",
+      "start_sec": 72.9,
+      "summary": "Schulman presents Intro 200-A, sponsored by Councilmember Jennifer Gutierrez, which would require DOHMH to develop materials about obtaining doula care. She says doulas improve birth outcomes, especially for women of color, and should help shape how the city supports their work.",
+      "title": "Schulman presents Intro 200-A on doula care resources",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 72.9,
+          "text": "Proposed Intro 200-A, sponsored by Councilmember Jennifer Gutierrez, would require DOHMH to develop materials about options for obtaining doula care."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 84.3,
+          "text": "Doulas play a vital role in improving birth outcomes, especially for women of color."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 88.8,
+          "text": "This bill would be..."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 89.8,
+          "text": "Wouldn't."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 90.0,
+          "text": "make sure their voices shape how the city supports their work."
+        }
+      ]
+    },
+    {
+      "end_sec": 121.7,
+      "id": "005",
+      "slug": "schulman-presents-intro-211-a-on-fertility-treatment-outreach",
+      "start_sec": 93.8,
+      "summary": "Schulman presents Intro 211-A, sponsored by Councilmember Shahana Hanif, requiring DOHMH to run a public education and outreach campaign on fertility treatment. The campaign would explain insurance and Medicaid coverage, helping lower-income New Yorkers make informed family-building decisions.",
+      "title": "Schulman presents Intro 211-A on fertility treatment outreach",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 93.8,
+          "text": "Proposed Intro 211-A, sponsored by Councilmember Shahana Hanif, would require DOHMH to run a public education and outreach campaign on fertility treatment."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 103.7,
+          "text": "The campaign would cover, among other topics, which fertility treatment services are covered by insurance and what Medicaid covers in New York."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 111.1,
+          "text": "Many New Yorkers, especially those with lower incomes, don't know how accessible fertility care can be for them."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 117.9,
+          "text": "This bill would help them make informed decisions about building their families."
+        }
+      ]
+    },
+    {
+      "end_sec": 145.4,
+      "id": "006",
+      "slug": "schulman-presents-res-108-a-on-ivf-tax-credit",
+      "start_sec": 121.7,
+      "summary": "Schulman notes the committee will vote on three state-directed resolutions and presents Res 108-A, sponsored by Councilmember Murano. The resolution calls on the state legislature to pass and the governor to sign S-5262/A-3051, creating a refundable tax credit for up to three cycles of IVF not covered by insurance.",
+      "title": "Schulman presents Res 108-A on IVF tax credit",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 121.7,
+          "text": "We also are going to vote on three resolutions calling on the state to act."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 126.2,
+          "text": "Proposed Resolution 108-A, sponsored by Councilmember Murano, calls on the state legislature to pass and the governor to sign S-"
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 134.6,
+          "text": "5262 and A3051, which would create a refundable tax credit for up to three cycles of in vitro fertilization not covered by insurance."
+        }
+      ]
+    },
+    {
+      "end_sec": 157.8,
+      "id": "007",
+      "slug": "schulman-presents-res-447-on-pgt-a-insurance-coverage",
+      "start_sec": 145.4,
+      "summary": "Schulman presents Res 447, sponsored by Councilmember Kayla Santasoso, calling on the state to ensure insurance companies cover preimplantation genetic testing for aneuploidies. She notes the resolution is part of the committee's reproductive health package.",
+      "title": "Schulman presents Res 447 on PGT-A insurance coverage",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 145.4,
+          "text": "Resolution 447, sponsored by Councilmember Kayla Santasoso, calls on the state to make sure insurance companies cover the cost of PGT."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 156.5,
+          "text": "A testing."
+        }
+      ]
+    },
+    {
+      "end_sec": 179.5,
+      "id": "008",
+      "slug": "schulman-presents-res-89-a-on-emergency-contraception-vending-machines",
+      "start_sec": 157.8,
+      "summary": "Schulman presents Res 89-A, sponsored by Councilmember Jennifer Gutierrez, calling on the state to pass S-2058/A-9175. The bill would require every SUNY and CUNY institution to have at least one vending machine selling emergency contraception.",
+      "title": "Schulman presents Res 89-A on emergency contraception vending machines",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 157.8,
+          "text": "Proposed Resolution 89-A, sponsored by Councilmember Jennifer, I'm sorry,"
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 164.2,
+          "text": "Councilmember Jennifer Gutierrez, calls on the state legislature to pass and the governor to sign S-2058-A9175, which would require every SUNY and CUNY institution"
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 175.8,
+          "text": "to have at least one vending machine that sells emergency contraception."
+        }
+      ]
+    },
+    {
+      "end_sec": 193.4,
+      "id": "009",
+      "slug": "schulman-says-legislative-package-will-strengthen-reproductive-and-maternal-care",
+      "start_sec": 179.5,
+      "summary": "Schulman says the legislative package will strengthen access to reproductive and maternal health care regardless of income. She says the council is committed to a healthier New York City where families feel empowered to make informed decisions.",
+      "title": "Schulman says legislative package will strengthen reproductive and maternal care",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 179.5,
+          "text": "This legislature"
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 180.0,
+          "text": "The legislative package will strengthen access to reproductive and maternal health care for everyone, regardless of income."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 186.0,
+          "text": "This council is committed to building a New York City where families are healthier and feel empowered to make informed decisions about their futures."
+        }
+      ]
+    },
+    {
+      "end_sec": 218.1,
+      "id": "010",
+      "slug": "schulman-thanks-sponsors-committee-staff-and-her-team",
+      "start_sec": 193.4,
+      "summary": "Schulman thanks the sponsors and committee staff Chris Pepe, Josh Newman, Elizabeth Arts, and Valeria Lazario-Rodriguez, as well as her team Jonathan Boucher, Kevin McAleer, and Sammy New. She then turns the floor over to Councilmember Gutierrez for a statement.",
+      "title": "Schulman thanks sponsors, committee staff, and her team",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 193.4,
+          "text": "I want to thank the sponsors for their leadership on the legislation we're considering today, as well as the committee staff, Chris Pepe, Josh Newman, Elizabeth Arts, and Valeria Lazario-Rodriguez for their hard work in preparing for this vote."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 206.6,
+          "text": "I also want to thank my team, Jonathan Boucher, Kevin McAleer, and Sammy New."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 211.4,
+          "text": "Now I will turn it over to Councilmember Gutierrez to make a statement in support of her."
+        }
+      ]
+    },
+    {
+      "end_sec": 238.1,
+      "id": "011",
+      "slug": "council-member-gutierrez-thanks-chair-schulman-and-introduces-her-bills",
+      "start_sec": 218.1,
+      "summary": "Councilmember Jennifer Gutierrez thanks Chair Schulman for her support and says she is championing two measures to advance maternal and reproductive rights. She introduces Intro 200 and Res 89-A as the items she will discuss.",
+      "title": "Council Member Gutierrez thanks Chair Schulman and introduces her bills",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 218.1,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 219.0,
+          "text": "First, I just want to thank Chair Shulman, who's been completely supportive and unwavering in all legislation that this council tries to push that's forward-thinking and protecting women and women of color."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 229.3,
+          "text": "So thank you so much, Councilmember Shulman."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 231.9,
+          "text": "Today we're voting on two pieces of legislation that I've been really proud to champion, which further maternal and reproductive rights in New York City."
+        }
+      ]
+    },
+    {
+      "end_sec": 265.5,
+      "id": "012",
+      "slug": "gutierrez-explains-intro-200-a-doula-protections-and-benefits",
+      "start_sec": 238.1,
+      "summary": "Gutierrez says Intro 200 strengthens the role of doulas in hospitals and ensures respectful, consistent, informed care for birthing people. She says doulas lower preterm births and C-sections, improve birth experiences, and helped her during both of her own births.",
+      "title": "Gutierrez explains Intro 200-A doula protections and benefits",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 238.1,
+          "text": "The first, Intro 200, strengthens the role of doulas in hospitals and ensures that they are respected and that the people that are there to give birth receive respectful, consistent, and informed care across New York City."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 250.3,
+          "text": "Having doulas present lowers preterm birth, it lowers the need for a C-section, and increases positive birth experiences."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 257.7,
+          "text": "I'm someone that benefited from having a doula in the room with both of my children, and I can say that that attributed to the positive experiences that I had."
+        }
+      ]
+    },
+    {
+      "end_sec": 296.6,
+      "id": "013",
+      "slug": "gutierrez-describes-disrespect-doulas-face-and-need-for-bill-of-rights",
+      "start_sec": 265.5,
+      "summary": "Gutierrez says more New Yorkers use doulas, but doulas are often disrespected, kicked out of rooms, ignored, or told they are not medical staff. She argues a clear doula bill of rights will enforce state-protected rights and advance a more equitable maternal health system.",
+      "title": "Gutierrez describes disrespect doulas face and need for bill of rights",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 265.5,
+          "text": "And more and more New Yorkers are utilizing this invaluable service of doulas, but doulas are often"
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 270.1,
+          "text": "not respected in these hospitals."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 271.4,
+          "text": "Sometimes they're kicked out of rooms."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 273.1,
+          "text": "They're ignored."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 274.2,
+          "text": "They are told that they are not part of the medical staff."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 277.1,
+          "text": "And so this can be extremely negatively and emotional detrimental to the birthing client."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 282.7,
+          "text": "They have state protected rights, but so often they're not enforced."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 285.9,
+          "text": "And by creating a clear doula bill of rights, we strengthen doula protections."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 290.0,
+          "text": "By strengthening those protections, we can strengthen birth outcomes across the city and advance a more equitable maternal health system."
+        }
+      ]
+    },
+    {
+      "end_sec": 323.1,
+      "id": "014",
+      "slug": "gutierrez-presents-res-89-a-on-campus-emergency-contraception-vending",
+      "start_sec": 296.6,
+      "summary": "Gutierrez presents Res 89-A, which calls on the state to require SUNY and CUNY institutions to install at least one vending machine selling emergency contraception. She says machines would be in accessible locations with extended hours, providing a confidential, low-barrier option alongside student health services.",
+      "title": "Gutierrez presents Res 89-A on campus emergency contraception vending",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 296.6,
+          "text": "And my second piece of legislation, Reso 89A, calls on the state to require each SUNY, of which I am a proud alum, and CUNY institution to install at least one vending machine that makes emergency contraception available for purchase."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 309.6,
+          "text": "Machines would be placed in accessible locations with extended hours, providing a confidential and low barrier option that complements existing student health services."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 318.0,
+          "text": "This approach builds on proven models already in use at campuses in New York and across the country."
+        }
+      ]
+    },
+    {
+      "end_sec": 355.9,
+      "id": "015",
+      "slug": "gutierrez-cites-barriers-and-equity-concerns-for-student-contraception-access",
+      "start_sec": 323.1,
+      "summary": "Gutierrez says students face barriers including limited clinic hours, inconsistent campus policies, and uneven pharmacy availability. She notes Black, Hispanic, and uninsured students are at higher risk of unintended pregnancy, so on-campus access supports health, autonomy, and academic success.",
+      "title": "Gutierrez cites barriers and equity concerns for student contraception access",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 323.1,
+          "text": "Students across New York face significant barriers to accessing emergency contraception, including limited clinic hours, inconsistent campus policies, and uneven availability at pharmacies."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 333.1,
+          "text": "Young adults, particularly Black, Hispanic, and uninsured students who make up a large share of SUNY and CUNY enrollment, are at a higher risk for unintended pregnancy and more likely to need contraceptive services."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 344.1,
+          "text": "Improving on-campus access supports students'health, autonomy, and ability to remain enrolled and succeed academically."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 350.2,
+          "text": "Thank you so much."
+        },
+        {
+          "speaker": "Jennifer Guti\u00e9rrez",
+          "t_sec": 351.6,
+          "text": "And thank you to the lead staff that helped put this all together."
+        }
+      ]
+    },
+    {
+      "end_sec": 371.1,
+      "id": "016",
+      "slug": "schulman-acknowledges-members-and-turns-to-res-447-statement",
+      "start_sec": 355.9,
+      "summary": "Schulman thanks Gutierrez, acknowledges the arrival of Council Members Felder, Marte, Narcisse, De La Rosa, Epstein, and Wilson, and announces she will read a statement from Councilmember Santa Soso on Resolution 447. The statement is read into the record by Schulman.",
+      "title": "Schulman acknowledges members and turns to Res 447 statement",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 355.9,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 356.3,
+          "text": "Before we move on, I want to acknowledge that we've been joined by council members."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 360.0,
+          "text": "Felder, Marte, Norcis, De La Rosa, Epstein, and Wilson."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 364.0,
+          "text": "I am now going to read a statement from Councilmember Santa Soso on Resolution No."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 369.8,
+          "text": "447."
+        }
+      ]
+    },
+    {
+      "end_sec": 394.6,
+      "id": "017",
+      "slug": "santa-soso-statement-thanks-staff-and-introduces-res-447",
+      "start_sec": 371.1,
+      "summary": "In a statement read by Schulman, Councilmember Santa Soso thanks Chair Shulman and staff Julia Goldsmith-Pinkham and Christy Dwyer for drafting Res 447. The resolution calls on the state to expand insurance coverage of PGT-A testing for those pursuing IVF.",
+      "title": "Santa Soso statement thanks staff and introduces Res 447",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 371.1,
+          "text": "I want to start by offering my gratitude to Chair Shulman for including this item on the agenda for today's Health Committee meeting."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 376.9,
+          "text": "I also want to thank Julia Goldsmith-Pinkham and Christy Dwyer for their help drafting this resolution."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 382.3,
+          "text": "Reso 447 calls on our colleagues in the state government to expand insurance coverage of essential PGTA testing and give those striving to have children their best chance at success."
+        }
+      ]
+    },
+    {
+      "end_sec": 431.8,
+      "id": "018",
+      "slug": "santa-soso-statement-explains-pgt-a-benefits-and-cost-savings",
+      "start_sec": 394.6,
+      "summary": "The statement says gaps in insurance coverage force people to take unnecessary and costly risks during IVF. It explains that PGT-A screens for euploid embryos, reduces miscarriage and time to pregnancy, and can be cost-saving by shortening IVF treatment.",
+      "title": "Santa Soso statement explains PGT-A benefits and cost savings",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 394.6,
+          "text": "Despite all of the progress we have made in helping families realize their dream of having children, gaps in insurance coverage are still forcing people to take unnecessary and costly risks when..."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 404.8,
+          "text": "Pursuing IVF treatments."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 407.4,
+          "text": "PGT is an essential screening tool that can significantly reduce the rate of miscarriage and time to pregnancy by screening for euploid embryos."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 417.2,
+          "text": "This kind of testing reduces the physical, emotional, and financial toll that IVF can have on would-be parents by increasing the rate of success and decreasing the chances of miscarriage."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 426.4,
+          "text": "Because this testing can reduce the length of time IVF is needed, it can be seen as a cost-saving measure."
+        }
+      ]
+    },
+    {
+      "end_sec": 468.4,
+      "id": "019",
+      "slug": "santa-soso-statement-urges-state-to-cover-pgt-a-for-city-employees",
+      "start_sec": 431.8,
+      "summary": "The statement says insurance companies covering city employees still treat PGT-A as non-essential, forcing would-be parents to skip testing or pay out of pocket. It calls on the state to require coverage for all city employees, arguing that will make IVF more successful and less costly.",
+      "title": "Santa Soso statement urges state to cover PGT-A for city employees",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 431.8,
+          "text": "Despite all of this, insurance companies covering city employees still view PGT testing as non-essential, forcing would-be parents to decide to skip testing or pay costly fees out of pocket."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 442.3,
+          "text": "This places unnecessary burdens on families and often time increases the overall cost of IVF for everyone involved, including"
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 450.0,
+          "text": "including the insurance companies themselves."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 451.8,
+          "text": "We are calling on the state to pass legislation to ensure PGT."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 455.5,
+          "text": "A testing is covered for all city employees."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 457.4,
+          "text": "This will encourage more people to do PGT-A tests, making IVF procedures more successful and less costly."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 463.7,
+          "text": "Thank you to all of my colleagues on the Health Committee for taking the time to consider this critical piece of legislation."
+        }
+      ]
+    },
+    {
+      "end_sec": 486.2,
+      "id": "020",
+      "slug": "schulman-calls-for-vote-committee-clerk-begins-roll-call",
+      "start_sec": 468.4,
+      "summary": "Schulman thanks colleagues and calls for a vote on Intros 200-A and 211-A and Resos 89-A, 108-A, and 447. Committee Clerk Ben Jacobs then announces the roll call on those items.",
+      "title": "Schulman calls for vote; Committee Clerk begins roll call",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 468.4,
+          "text": "And now I call for a vote."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 471.2,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 472.2,
+          "text": "Ben Jacobs, Committee Clerk, the City Council Committee on Health."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 475.6,
+          "text": "This is the roll call vote on introductions 200A, 211A, and resolutions 89A, 108A, and 447."
+        }
+      ]
+    },
+    {
+      "end_sec": 539.692,
+      "id": "021",
+      "slug": "committee-clerk-conducts-roll-call-on-reproductive-health-package",
+      "start_sec": 486.2,
+      "summary": "The clerk calls the roll: Schulman, Marte, Narcisse, Wilson, De La Rosa, and Epstein vote aye on all items. Gennaro votes aye on all except Resolution 89-A, on which he votes no; Felder and Areola are called without recorded votes.",
+      "title": "Committee Clerk conducts roll call on reproductive health package",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 486.2,
+          "text": "Chair Shulman."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 488.0,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 491.1,
+          "text": "Council Member Marte."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 492.4,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 493.8,
+          "text": "Council Member Narcis."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 495.1,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 497.7,
+          "text": "Council Member Wilson."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 500.0,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 502.2,
+          "text": "Council Member Gennaro."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 505.96,
+          "text": "I vote aye on all, with the exception of Resolution 89A, on which I vote no."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 517.76,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 519.26,
+          "text": "Councilmember De La Rosa."
+        },
+        {
+          "speaker": "Carmen N. De La Rosa",
+          "t_sec": 520.76,
+          "text": "Aye on all and congrats."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 524.66,
+          "text": "Councilmember Felder."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 529.36,
+          "text": "Councilmember Epstein."
+        },
+        {
+          "speaker": "Harvey D. Epstein",
+          "t_sec": 531.36,
+          "text": "I vote yes on all, and congratulations to the sponsors."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 535.46,
+          "text": "And Councilmember Areola."
+        }
+      ]
+    },
+    {
+      "end_sec": 549.992,
+      "id": "022",
+      "slug": "clerk-announces-approval-of-all-items-except-res-89-a",
+      "start_sec": 539.692,
+      "summary": "The clerk reports eight affirmative votes, none negative, and no abstentions on all items except Resolution 89-A. This approves Intros 200-A and 211-A and Resos 108-A and 447.",
+      "title": "Clerk announces approval of all items except Res 89-A",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 539.692,
+          "text": "Okay, that is a vote of eight in the affirmative, none in the negative, and no abstentions on all items except for Resolution 89."
+        }
+      ]
+    },
+    {
+      "end_sec": 558.492,
+      "id": "023",
+      "slug": "clerk-announces-res-89-a-passes-7-1-and-all-items-adopted",
+      "start_sec": 549.992,
+      "summary": "The clerk reports Resolution 89-A has seven affirmative votes, one negative, and no abstentions. He declares all items adopted.",
+      "title": "Clerk announces Res 89-A passes 7-1 and all items adopted",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 549.992,
+          "text": "And on Resolution 89, it's seven in the affirmative, one in the negative, and no abstentions."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 554.892,
+          "text": "But all items are adopted."
+        }
+      ]
+    },
+    {
+      "end_sec": 584.576,
+      "id": "024",
+      "slug": "chair-schulman-acknowledges-gennaro-and-adjourns-health-committee-hearing",
+      "start_sec": 558.492,
+      "summary": "Schulman acknowledges that Council Member Gennaro voted before being formally acknowledged because he arrived late. She closes the hearing and thanks everyone.",
+      "title": "Chair Schulman acknowledges Gennaro and adjourns Health Committee hearing",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 558.492,
+          "text": "I just I also want to acknowledge that Councilmember Gennaro, I mean, he voted before I acknowledged that he was here because he came late, but that he's here."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 566.092,
+          "text": "And also."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 575.228,
+          "text": "I'm now going to close this out, and that's it for today's hearing."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 579.528,
+          "text": "Thank you very much to everybody."
+        }
+      ]
+    }
+  ],
+  "date": "2026-11-19",
+  "duration_sec": 584.576,
+  "slug": "2026-11-19-1100-am-committee-on-health",
+  "summary": [
+    "The Committee on Health held a vote on two local laws and three resolutions focused on reproductive and maternal health.",
+    "Bills included Intro 200-A on doula care resources and Intro 211-A on fertility treatment outreach; resolutions addressed IVF tax credits, PGT-A coverage, and emergency contraception vending machines.",
+    "All items were adopted, with Resolution 89-A passing 7-1 after Council Member Gennaro voted no."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "11:00 AM",
+  "title": "Committee on Health",
+  "topic": "Creating resources for access to doulas and a doula advisory council",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://discourse-media.qqlab.io/NYCC-250-8-2_261119-111105/video-web.mp4"
+  }
+}

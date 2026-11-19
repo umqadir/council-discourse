@@ -1,0 +1,1068 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 24.3,
+      "id": "001",
+      "slug": "committee-staff-opens-housing-and-buildings-vote-and-requests-silence",
+      "start_sec": 5.5,
+      "summary": "Council staff welcomes attendees to the Committee on Housing and Buildings vote, asks that electronic devices be silenced, and tells Chair Sanchez the committee is ready to begin.",
+      "title": "Committee staff opens Housing and Buildings vote and requests silence",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 5.5,
+          "text": "Good morning and welcome to today's New York City Council vote for the Committee on Housing and Buildings."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 10.4,
+          "text": "At this time, we ask that you please silence all electronic devices and at no time are you to approach the dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 16.3,
+          "text": "Chair Sanchez, we're ready to begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 56.1,
+      "id": "002",
+      "slug": "chair-sanchez-opens-vote-on-intros-717-a-and-1023-a",
+      "start_sec": 24.3,
+      "summary": "Chair Sanchez greets attendees, identifies herself as chair of the Committee on Housing and Buildings, and announces votes on Intros 717-A and 1023-A. She describes 717-A as requiring DOB to inform property owners about permit sign-off and 1023-A as authorizing electronic HPD registration and fee payment.",
+      "title": "Chair Sanchez opens vote on Intros 717-A and 1023-A",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 24.3,
+          "text": "You are muted, Councilmember."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 29.1,
+          "text": "Thank you so much, Councilmember."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 30.9,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 31.5,
+          "text": "I'm Councilmember Piedadina Sanchez, Chair of the Committee on Housing and Buildings."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 34.9,
+          "text": "Today, the committee will be voting on proposed intros number 717A in relation to requiring the Department of Buildings to inform property owners of permits and offer..."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 45.1,
+          "text": "Requirements and proposed intro number 1023A in relation to authorizing electronic development and electronic payment of the fee associated with such registration."
+        }
+      ]
+    },
+    {
+      "end_sec": 95.7,
+      "id": "003",
+      "slug": "chair-sanchez-frames-bills-as-relief-for-homeowners-facing-rising-costs",
+      "start_sec": 56.1,
+      "summary": "Sanchez recounts a joint oversight hearing on homeownership and says buying a home is hard, but holding onto one is becoming just as difficult. She cites rising property taxes, insurance, utilities, and repair costs and argues city bureaucracy should not add to the burden.",
+      "title": "Chair Sanchez frames bills as relief for homeowners facing rising costs",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 56.1,
+          "text": "On Tuesday at our joint oversight hearing with the Finance Committee on advancing and protecting homeownership, we heard a message loud and clear."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 64.4,
+          "text": "Buying a home in New York City is hard enough, but for many New Yorkers, holding on to one is becoming just as difficult."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 71.8,
+          "text": "Rising property taxes, insurance, utilities, repair costs are putting enormous pressure on homeowners, many of whom have worked their entire lives to build that stability for their families."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 82.3,
+          "text": "The last thing they need is city bureaucracy adding to that burden, which is why today we are voting on two bills that represent practical steps that we can take."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 90.5,
+          "text": "to make the city processes simpler, clearer, less burdensome for property owners."
+        }
+      ]
+    },
+    {
+      "end_sec": 185.3,
+      "id": "004",
+      "slug": "chair-sanchez-explains-dob-permit-process-and-open-permit-risks",
+      "start_sec": 95.7,
+      "summary": "Sanchez explains DOB's role in reviewing construction plans and issuing permits, noting average permit approval time has risen to about 23 days. She describes how open permits can block title transfer, delay property sales, and force owners to undo work for inspection.",
+      "title": "Chair Sanchez explains DOB permit process and open-permit risks",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 95.7,
+          "text": "The Department of Buildings is tasked with the examination of construction plans to ensure compliance with New York City construction codes and the issuance of work permits upon the approval of such plans."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 106.3,
+          "text": "Over the last three years, the average number of days from the filing of an application for a permit to the approval of such applications has increased to about 23 days."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 116.6,
+          "text": "Where opening a permit gives the department notice that construction or renovation work has commenced, closing a permit informs the OAB that the work is complete."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 126.3,
+          "text": "At the conclusion of the project, the approved work is to be inspected to ensure compliance with both the submitted and approved construction plans and the New York City construction codes."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 136.5,
+          "text": "And if necessary, a new or amended certificate of occupancy is issued by the department."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 141.9,
+          "text": "After a project is completed, the owner of the property or the representative must ensure that reports for all required special inspections are submitted,"
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 150.4,
+          "text": "city inspections are performed, self-certifications of labor completed by contractors of record, and a final inspection is performed."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 158.8,
+          "text": "Partly to confirm that the owner has completed these tasks,"
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 162.0,
+          "text": "Department of Buildings requires that the owner or the representative signs off on the completion of the permit."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 168.2,
+          "text": "When permits are left open because owners have failed to sign off on the completion of a project, owners can discover that they are unable to transfer title, delaying the sale of their property, and may even need to undo complicated"
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 180.2,
+          "text": "work for the sake of allowing inspection, further amplifying the costs."
+        }
+      ]
+    },
+    {
+      "end_sec": 228.4,
+      "id": "005",
+      "slug": "chair-sanchez-describes-hpd-paper-registration-burden-and-bill-goals",
+      "start_sec": 185.3,
+      "summary": "Sanchez says owners of properties with two or more units, or non-owner-occupied homes, must register annually with HPD. She notes the online form still must be printed, hand-signed, and mailed, causing delay and paper waste, and says the bills aim to streamline these processes.",
+      "title": "Chair Sanchez describes HPD paper registration burden and bill goals",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 185.3,
+          "text": "Separately, every year, owners of properties with two or more housing units or owners of any residential property not occupied by the owner of the family must register these properties with the Department of Housing Preservation and Development, HPD."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 199.1,
+          "text": "And while HPD offers an online system to complete property registration forms, the completed form it produces must be printed, hand-signed, and physically mailed to HPD."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 210.0,
+          "text": "This physical signature requirement causes delay for property owners, produces paper waste, and a lot of things are lost."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 216.1,
+          "text": "This is news headline."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 218.2,
+          "text": "New York City is not yet run by AI."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 220.8,
+          "text": "The bills voted on today aim to streamline these processes through educating property owners and bringing property registration completely online."
+        }
+      ]
+    },
+    {
+      "end_sec": 277.2,
+      "id": "006",
+      "slug": "chair-sanchez-details-intro-717-a-permit-sign-off-notification-requirements",
+      "start_sec": 228.4,
+      "summary": "Sanchez explains Intro 717-A, sponsored by Council Member Salaam, would require DOB to notify owners with open permits that sign-off is required. DOB would email an initial notice within seven days, send follow-ups after permit expiration, and post resource guides on its website.",
+      "title": "Chair Sanchez details Intro 717-A permit sign-off notification requirements",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 228.4,
+          "text": "Intro 717A."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 230.8,
+          "text": "By Councilmember Salam would require the Department of Buildings to notify property owners with open permits that the permits must receive DOB sign-off."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 239.0,
+          "text": "DOB would be required to email an initial notice within seven days of the issuance of a permit, with such notice informing property owners of the consequences of failing to obtain sign-off alongside instructions for accessing DOB's online self-service portal."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 253.6,
+          "text": "This bill would require the Department of Buildings to send follow-up notifications two months after the expiration of a permit and six months after the expiration of a permit if such a permit has not been renewed and yet to receive sign-off within 30 days of expiration."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 267.4,
+          "text": "Finally, this bill would also require the Department of Buildings to send follow-up notifications two months after the expiration of a permit and six months after the expiration of a permit if such a permit has not been renewed and yet to receive sign-off within 30 days of expiration."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 270.0,
+          "text": "Department of Buildings to develop a resource guide on sign-off requirements with such guides posted to the department's website."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 275.4,
+          "text": "Finally, this bill would also require the Department of Buildings to send follow-up notifications two months after the expiration of a permit and six months after the expiration of a permit if such a permit has not been renewed and yet to receive sign-off within 30 days of expiration."
+        }
+      ]
+    },
+    {
+      "end_sec": 301.6,
+      "id": "007",
+      "slug": "chair-sanchez-details-intro-1023-a-electronic-hpd-registration",
+      "start_sec": 277.2,
+      "summary": "Sanchez says Intro 1023-A, sponsored by Council Member Banks, would let property owners register with HPD electronically. Electronic signatures would be sufficient, HPD would maintain the online system, and owners could pay the filing fee electronically.",
+      "title": "Chair Sanchez details Intro 1023-A electronic HPD registration",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 277.2,
+          "text": "1023A by Councilmember Banks would give property owners that need to register their property with HPD the option of doing so through an electronic registration system."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 285.4,
+          "text": "Finally, this bill would also require the Department of Buildings to send follow-up notifications two months after the expiration of a permit and six months after the expiration of a permit if such a permit has not been renewed and yet to receive sign-off within 30 days of expiration."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 287.3,
+          "text": "Electronic signatures obtained via this method would be deemed sufficient for registration purposes."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 292.1,
+          "text": "HPD would be required to maintain the electronic registration system on its website and to accept electronic payments of the filing fee through such a system."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 297.4,
+          "text": "Finally, this bill would also require the Department of Buildings to send follow-up notifications two months after the expiration of a permit and six months after the expiration of a permit if such a permit has not been renewed and yet to receive sign-off within 30 days of expiration."
+        }
+      ]
+    },
+    {
+      "end_sec": 331.828,
+      "id": "008",
+      "slug": "chair-sanchez-thanks-staff-and-recognizes-bill-sponsors",
+      "start_sec": 301.6,
+      "summary": "Sanchez thanks her team, committee staff, legislative counsel, policy analysts, and finance analyst. She notes committee members are present and turns to colleagues to speak on their bills.",
+      "title": "Chair Sanchez thanks staff and recognizes bill sponsors",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 301.6,
+          "text": "Thank you to my team, Deputy Chiefs of Staff Ben Ratner, Kim Castellanos, Gerard Fernandez, Amelia Sardinia, as well as the district team."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 308.7,
+          "text": "I'd also like to thank the Housing and Buildings Committee staff, Senior Legislative Counsel Austin Malone, Legislative Counsel Billy Eck, Senior Policy Analyst Jose Conde and Dirk Spencer, and Finance Analyst Carla Naranjo."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 309.3,
+          "text": "Finally, this bill would also require the Department of Buildings to send follow-up notifications two months after the expiration of a permit and six months after the expiration of a permit if such a permit has not been renewed and yet to receive sign-off within 30 days of expiration."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 318.8,
+          "text": "Finally, this bill would also require the Department of Buildings to send follow-up notifications two months after the expiration of a permit and six months after the expiration of a permit if such a permit has not been renewed and yet to receive sign-off within 30 days of expiration."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 321.0,
+          "text": "I am joined today by members of the committee, which will be called during the roll, but I now want to turn it to my colleagues to speak on their bills."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 328.1,
+          "text": "Councilmember Salam?"
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 328.8,
+          "text": "Finally, this bill would also require the Department of Buildings to send follow-up notifications two months after the expiration of a permit and six months after the expiration of a permit if such a permit has not been renewed and yet to receive sign-off within 30 days of expiration."
+        }
+      ]
+    },
+    {
+      "end_sec": 375.928,
+      "id": "009",
+      "slug": "council-member-salaam-explains-open-permit-problem-behind-intro-717-a",
+      "start_sec": 331.828,
+      "summary": "Salaam thanks Chair Sanchez and committee staff, saying Intro 717-A addresses a problem that is easy to miss and expensive to learn about. He explains that permits stay open when inspection, reports, and owner sign-off do not happen, often discovered at sale when title cannot transfer.",
+      "title": "Council Member Salaam explains open-permit problem behind Intro 717-A",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 331.828,
+          "text": "Thank you, Chair Sanchez."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 333.328,
+          "text": "And thank you to the committee staff for your work on this bill."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 336.828,
+          "text": "Intro 717A deals with a problem that is easy to miss and expensive to learn about."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 340.0,
+          "text": "Finally, this bill would also require the Department of Buildings to send follow-up notifications two months after the expiration of a permit and six months after the expiration of a permit if such a permit has not been renewed and yet to receive sign-off within 30 days of expiration."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 343.728,
+          "text": "Opening a permit informs the DOB, the Department of Buildings, that work has begun."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 348.828,
+          "text": "Closing it informs the Department of Buildings"
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 350.8,
+          "text": "Finally, this bill would also require the Department of Buildings to send follow-up notifications two months after the expiration of a permit and six months after the expiration of a permit if such a permit has not been renewed and yet to receive sign-off within 30 days of expiration."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 351.628,
+          "text": "The work has been completed."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 353.428,
+          "text": "That last step requires inspection, reports, and the owner's sign-off."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 358.228,
+          "text": "When this does not happen, the permit stays open."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 358.8,
+          "text": "Finally, this bill would also require the Department of Buildings to send follow-up notifications two months after the expiration of a permit and six months after the expiration of a permit if such a permit has not been renewed and yet to receive sign-off within 30 days of expiration."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 361.328,
+          "text": "Owners can find out at the very worst time possible when they are trying to sell, and they can learn that they cannot transfer the title at that particular time."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 370.528,
+          "text": "This bill puts the information in the owner's hands at the start."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 371.4,
+          "text": "Finally, this bill would also require the Department of Buildings to send follow-up notifications two months after the expiration of a permit and six months after the expiration of a permit if such a permit has not been renewed and yet to receive sign-off within 30 days of expiration."
+        }
+      ]
+    },
+    {
+      "end_sec": 404.528,
+      "id": "010",
+      "slug": "salaam-outlines-717-a-notices-follow-ups-and-resource-guides",
+      "start_sec": 375.928,
+      "summary": "Salaam says DOB would email owners within seven days of permit issuance with the permit number, expiration date, sign-off requirements, and consequences of inaction. If a permit expires without renewal or sign-off, DOB would follow up at two and six months and post resource guides.",
+      "title": "Salaam outlines 717-A notices, follow-ups, and resource guides",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 375.928,
+          "text": "Within seven days of issuing a permit, DOB will email the owner the permit number, the expiration date, what sign-off requires, and what is the stake without it."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 383.4,
+          "text": "Finally, this bill would also require the Department of Buildings to send follow-up notifications two months after the expiration of a permit and six months after the expiration of a permit if such a permit has not been renewed and yet to receive sign-off within 30 days of expiration."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 387.728,
+          "text": "What is at stake without it?"
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 389.528,
+          "text": "If a permit expires with no renewal and no sign-off, DOB will follow up within two months and again within six months."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 395.4,
+          "text": "Finally, this bill would also require the Department of Buildings to send follow-up notifications two months after the expiration of a permit and six months after the expiration of a permit if such a permit has not been renewed and yet to receive sign-off within 30 days of expiration."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 398.228,
+          "text": "DOB will also post and maintain resource guides on its website."
+        }
+      ]
+    },
+    {
+      "end_sec": 446.728,
+      "id": "011",
+      "slug": "salaam-cites-717-a-cost-committee-history-and-urges-yes-vote",
+      "start_sec": 404.528,
+      "summary": "Salaam says the Finance Department estimates about $92,166 per year for one DOB position, with other work done using existing resources. He notes the bill was first heard on September 9, thanks supporters, calls it a notice bill, and urges colleagues to vote yes.",
+      "title": "Salaam cites 717-A cost, committee history, and urges yes vote",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 404.528,
+          "text": "The Finance Department estimates the cost at around $92,166 per year for one position at DOB."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 407.4,
+          "text": "Finally, this bill would also require the Department of Buildings to send follow-up notifications two months after the expiration of a permit and six months after the expiration of a permit if such a permit has not been renewed and yet to receive sign-off within 30 days of expiration."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 414.028,
+          "text": "Everything else is done with existing resources."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 418.428,
+          "text": "This committee..."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 419.4,
+          "text": "Finally, this bill would also require the Department of Buildings to send follow-up notifications two months after the expiration of a permit and six months after the expiration of a permit if such a permit has not been renewed and yet to receive sign-off within 30 days of expiration."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 419.628,
+          "text": "First heard this bill on September 9th."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 422.628,
+          "text": "I'm grateful to the chair, Perina and Perina and Sanchez."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 429.028,
+          "text": "To my co-sponsors and to the public advocate for their support in bringing this to a vote today."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 431.4,
+          "text": "Finally, this bill would also require the Department of Buildings to send follow-up notifications two months after the expiration of a permit and six months after the expiration of a permit if such a permit has not been renewed and yet to receive sign-off within 30 days of expiration."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 434.528,
+          "text": "This is a notice bill."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 436.528,
+          "text": "It asks the city to tell people clearly and early what is expected of them."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 441.828,
+          "text": "I urge my colleagues to vote yes."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 443.4,
+          "text": "Finally, this bill would also require the Department of Buildings to send follow-up notifications two months after the expiration of a permit and six months after the expiration of a permit if such a permit has not been renewed and yet to receive sign-off within 30 days of expiration."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 443.628,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 458.028,
+      "id": "012",
+      "slug": "chair-sanchez-recognizes-council-member-banks-to-present-intro-1023",
+      "start_sec": 446.728,
+      "summary": "Chair Sanchez thanks Council Member Salaam and calls on Council Member Banks. Banks thanks the Chair and says the committee will vote on Intro 1023.",
+      "title": "Chair Sanchez recognizes Council Member Banks to present Intro 1023",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 446.728,
+          "text": "Thank you, Councilmember Salam."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 448.128,
+          "text": "Now calling on Councilmember Banks."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 450.528,
+          "text": "Thank you, Chair Sanchez."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 452.528,
+          "text": "Today, the Committee on Housing and Buildings will vote on Intro 1023."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 454.8,
+          "text": "Finally, this bill would also require the Department of Buildings to send follow-up notifications two months after the expiration of a permit and six months after the expiration of a permit if such a permit has not been renewed and yet to receive sign-off within 30 days of expiration."
+        }
+      ]
+    },
+    {
+      "end_sec": 495.928,
+      "id": "013",
+      "slug": "banks-says-intro-1023-modernizes-hpd-registration-from-print-and-mail",
+      "start_sec": 458.028,
+      "summary": "Banks says he introduced Intro 1023 to modernize property registration by allowing owners to complete annual registration electronically. He notes owners can currently access forms online but must still print, sign, mail, and sometimes use a separate fee system.",
+      "title": "Banks says Intro 1023 modernizes HPD registration from print-and-mail",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 458.028,
+          "text": "I introduced this legislation to modernize New York City's property registration process by allowing property owners to complete their annual registration electronically."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 467.4,
+          "text": "Finally, this bill would also require the Department of Buildings to send follow-up notifications two months after the expiration of a permit and six months after the expiration of a permit if such a permit has not been renewed and yet to receive sign-off within 30 days of expiration."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 468.728,
+          "text": "This is a simple common sense reform."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 472.128,
+          "text": "While property owners can currently access registration forms online, they must still print, sign, and mail those forms to HPD."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 479.4,
+          "text": "Finally, this bill would also require the Department of Buildings to send follow-up notifications two months after the expiration of a permit and six months after the expiration of a permit if such a permit has not been renewed and yet to receive sign-off within 30 days of expiration."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 481.628,
+          "text": "In many cases, they must also use a separate system to pay the registration fee."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 488.028,
+          "text": "For a city that conducts so much business digitally, this process remains unnecessarily outdated."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 491.4,
+          "text": "Finally, this bill would also require the Department of Buildings to send follow-up notifications two months after the expiration of a permit and six months after the expiration of a permit if such a permit has not been renewed and yet to receive sign-off within 30 days of expiration."
+        }
+      ]
+    },
+    {
+      "end_sec": 549.228,
+      "id": "014",
+      "slug": "banks-explains-electronic-registration-benefits-for-small-property-owners",
+      "start_sec": 495.928,
+      "summary": "Banks explains Intro 1023 would create an end-to-end electronic registration process. He says it would reduce administrative burdens, improve record keeping, and save small property owners time and penalties caused by misplaced or lost paperwork.",
+      "title": "Banks explains electronic registration benefits for small property owners",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 495.928,
+          "text": "Intro 1023 would create a more efficient system by allowing property owners to complete the registration process electronically from start to finish."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 503.4,
+          "text": "Finally, this bill would also require the Department of Buildings to send follow-up notifications two months after the expiration of a permit and six months after the expiration of a permit if such a permit has not been renewed and yet to receive sign-off within 30 days of expiration."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 507.128,
+          "text": "It would reduce the administrative burdens."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 509.328,
+          "text": "improve record keeping, and help ensure the city maintains its accurate and updated property information."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 515.4,
+          "text": "Finally, this bill would also require the Department of Buildings to send follow-up notifications two months after the expiration of a permit and six months after the expiration of a permit if such a permit has not been renewed and yet to receive sign-off within 30 days of expiration."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 518.028,
+          "text": "For many small property owners, time matters."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 522.428,
+          "text": "They are balancing repairs, responding to tenants, paying bills, and managing their properties."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 527.4,
+          "text": "Finally, this bill would also require the Department of Buildings to send follow-up notifications two months after the expiration of a permit and six months after the expiration of a permit if such a permit has not been renewed and yet to receive sign-off within 30 days of expiration."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 529.228,
+          "text": "They should not spend additional time navigating an outdated registration process when modern technology can make compliance simpler and more reliable."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 539.4,
+          "text": "Finally, this bill would also require the Department of Buildings to send follow-up notifications two months after the expiration of a permit and six months after the expiration of a permit if such a permit has not been renewed and yet to receive sign-off within 30 days of expiration."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 539.528,
+          "text": "They also should not be penalized for the system, sometimes to the tune of thousands of dollars because paperwork was misplaced or lost."
+        }
+      ]
+    },
+    {
+      "end_sec": 618.828,
+      "id": "015",
+      "slug": "banks-credits-advocates-and-small-owners-urges-support-for-1023",
+      "start_sec": 549.228,
+      "summary": "Banks says the bill was shaped through conversations with advocates, small property owners, and organizations like Spony. He says it maintains registration requirements while making compliance easier, thanks supporters, and urges colleagues to vote in favor of Intro 1023.",
+      "title": "Banks credits advocates and small owners, urges support for 1023",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 549.228,
+          "text": "This legislation was shaped through multiple conversations with advocates,"
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 551.4,
+          "text": "Finally, this bill would also require the Department of Buildings to send follow-up notifications two months after the expiration of a permit and six months after the expiration of a permit if such a permit has not been renewed and yet to receive sign-off within 30 days of expiration."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 555.428,
+          "text": "small property owners in my district, and organizations like Spony, whose members shared firsthand experiences with the challenges of the current system."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 563.4,
+          "text": "Finally, this bill would also require the Department of Buildings to send follow-up notifications two months after the expiration of a permit and six months after the expiration of a permit if such a permit has not been renewed and yet to receive sign-off within 30 days of expiration."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 566.228,
+          "text": "Their input was invaluable to identifying a practical solution that benefits both property owners and the city."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 575.4,
+          "text": "Finally, this bill would also require the Department of Buildings to send follow-up notifications two months after the expiration of a permit and six months after the expiration of a permit if such a permit has not been renewed and yet to receive sign-off within 30 days of expiration."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 575.428,
+          "text": "But ultimately, this bill is about making government work better."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 580.428,
+          "text": "It maintains the existing registration requirement while providing a more efficient way for property owners to comply and help helping city agencies maintain accurate information."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 587.4,
+          "text": "Finally, this bill would also require the Department of Buildings to send follow-up notifications two months after the expiration of a permit and six months after the expiration of a permit if such a permit has not been renewed and yet to receive sign-off within 30 days of expiration."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 592.328,
+          "text": "I want to thank Chair Sanchez again, the committee staff, Speaker Menon, Sponey, all my colleagues for the support."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 599.4,
+          "text": "Finally, this bill would also require the Department of Buildings to send follow-up notifications two months after the expiration of a permit and six months after the expiration of a permit if such a permit has not been renewed and yet to receive sign-off within 30 days of expiration."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 599.928,
+          "text": "through this process."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 601.528,
+          "text": "I also want to thank the many small property owners who took the time to share their experiences and advocate for this much needed reform."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 609.828,
+          "text": "As this bill comes to this committee, I respectfully urge my colleagues to vote in favor of Vintro 1023."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 611.4,
+          "text": "Finally, this bill would also require the Department of Buildings to send follow-up notifications two months after the expiration of a permit and six months after the expiration of a permit if such a permit has not been renewed and yet to receive sign-off within 30 days of expiration."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 616.928,
+          "text": "Thank you, Madam Chair."
+        }
+      ]
+    },
+    {
+      "end_sec": 633.928,
+      "id": "016",
+      "slug": "chair-sanchez-thanks-sponsors-and-moves-to-roll-call",
+      "start_sec": 618.828,
+      "summary": "Chair Sanchez thanks Council Members Banks and Salaam and asks if colleagues have comments. Hearing none, she asks the clerk to call the roll.",
+      "title": "Chair Sanchez thanks sponsors and moves to roll call",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 618.828,
+          "text": "Thank you so much, Councilmember Banks and Salam, and congratulations to you both."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 623.4,
+          "text": "Finally, this bill would also require the Department of Buildings to send follow-up notifications two months after the expiration of a permit and six months after the expiration of a permit if such a permit has not been renewed and yet to receive sign-off within 30 days of expiration."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 623.428,
+          "text": "Do any of my colleagues have comments on the bills?"
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 629.928,
+          "text": "And if hearing none, I will now ask the clerk to call the roll."
+        }
+      ]
+    },
+    {
+      "end_sec": 689.196,
+      "id": "017",
+      "slug": "committee-clerk-calls-roll-on-coupled-intros-717-a-and-1023-a",
+      "start_sec": 633.928,
+      "summary": "Clerk Matthew DiStefano calls the roll with all items coupled. Chair Sanchez votes aye on all, members are called and cast affirmative votes, and Feliz and Wilson congratulate the sponsors.",
+      "title": "Committee clerk calls roll on coupled Intros 717-A and 1023-A",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 633.928,
+          "text": "Matthew DiStefano, Committee Clerk, Committee on Housing and Buildings."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 635.4,
+          "text": "Finally, this bill would also require the Department of Buildings to send follow-up notifications two months after the expiration of a permit and six months after the expiration of a permit if such a permit has not been renewed and yet to receive sign-off within 30 days of expiration."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 637.428,
+          "text": "Roll call vote."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 638.428,
+          "text": "All items are coupled."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 640.028,
+          "text": "Chair Sanchez."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 641.728,
+          "text": "Aye on all."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 643.128,
+          "text": "Riley."
+        },
+        {
+          "speaker": "Chris Banks",
+          "t_sec": 645.128,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 646.428,
+          "text": "Feliz."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 647.4,
+          "text": "Finally, this bill would also require the Department of Buildings to send follow-up notifications two months after the expiration of a permit and six months after the expiration of a permit if such a permit has not been renewed and yet to receive sign-off within 30 days of expiration."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 648.328,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 648.628,
+          "text": "Congratulations, Councilmember Salam and Banks on these two great bills."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 652.828,
+          "text": "Abreu."
+        },
+        {
+          "speaker": "Shaun Abreu",
+          "t_sec": 654.128,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 655.728,
+          "text": "Hudson."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 657.428,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 659.128,
+          "text": "Joseph."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 659.4,
+          "text": "Finally, this bill would also require the Department of Buildings to send follow-up notifications two months after the expiration of a permit and six months after the expiration of a permit if such a permit has not been renewed and yet to receive sign-off within 30 days of expiration."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 663.296,
+          "text": "Williams."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 669.196,
+          "text": "I'm not."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 671.4,
+          "text": "Finally, this bill would also require the Department of Buildings to send follow-up notifications two months after the expiration of a permit and six months after the expiration of a permit if such a permit has not been renewed and yet to receive sign-off within 30 days of expiration."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 673.396,
+          "text": "Salam."
+        },
+        {
+          "speaker": "Yusef Salaam",
+          "t_sec": 674.596,
+          "text": "Borei, congratulations."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 677.296,
+          "text": "Zhuang."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 679.196,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 681.196,
+          "text": "Maloney."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 682.696,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 683.4,
+          "text": "Finally, this bill would also require the Department of Buildings to send follow-up notifications two months after the expiration of a permit and six months after the expiration of a permit if such a permit has not been renewed and yet to receive sign-off within 30 days of expiration."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 684.896,
+          "text": "Wilson."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 686.296,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 686.896,
+          "text": "Congrats to my colleagues."
+        }
+      ]
+    },
+    {
+      "end_sec": 695.4,
+      "id": "018",
+      "slug": "clerk-announces-11-0-0-vote-and-adoption-of-both-bills",
+      "start_sec": 689.196,
+      "summary": "The clerk announces 11 affirmative votes, zero negative votes, and no abstentions. The items are declared adopted.",
+      "title": "Clerk announces 11-0-0 vote and adoption of both bills",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 689.196,
+          "text": "My vote of 11 in the affirmative, zero in the negative, and no abstentions."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 693.096,
+          "text": "The items have been adopted."
+        }
+      ]
+    },
+    {
+      "end_sec": 729.6,
+      "id": "019",
+      "slug": "chair-sanchez-thanks-clerk-and-closes-meeting-transcript-repeats-asr-line",
+      "start_sec": 695.4,
+      "summary": "Chair Sanchez thanks the clerk, says that is the whole committee, and declares the meeting closed. The remaining transcript repeats an ASR line about DOB notifications with no further speakers or actions.",
+      "title": "Chair Sanchez thanks clerk and closes meeting; transcript repeats ASR line",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 695.4,
+          "text": "Finally, this bill would also require the Department of Buildings to send follow-up notifications two months after the expiration of a permit and six months after the expiration of a permit if such a permit has not been renewed and yet to receive sign-off within 30 days of expiration."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 696.832,
+          "text": "Thank you, Clerk."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 697.532,
+          "text": "And that is the whole committee."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 698.932,
+          "text": "We are now closed."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 707.4,
+          "text": "Finally, this bill would also require the Department of Buildings to send follow-up notifications two months after the expiration of a permit and six months after the expiration of a permit if such a permit has not been renewed and yet to receive sign-off within 30 days of expiration."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 719.4,
+          "text": "Finally, this bill would also require the Department of Buildings to send follow-up notifications two months after the expiration of a permit and six months after the expiration of a permit if such a permit has not been renewed and yet to receive sign-off within 30 days of expiration."
+        }
+      ]
+    }
+  ],
+  "date": "2026-11-19",
+  "duration_sec": 729.6,
+  "slug": "2026-11-19-1115-am-committee-on-housing-and-buildings",
+  "summary": [
+    "The Committee on Housing and Buildings voted on Intros 717-A and 1023-A, both adopted 11-0-0.",
+    "Intro 717-A, sponsored by Council Member Salaam, requires DOB to notify property owners about permit sign-off requirements and consequences of open permits.",
+    "Intro 1023-A, sponsored by Council Member Banks, authorizes electronic HPD property registration and electronic payment of the associated fee."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "11:15 AM",
+  "title": "Committee on Housing and Buildings",
+  "topic": "Requiring the department of buildings to inform property owners of permit sign-off requirements",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://discourse-media.qqlab.io/NYCC-PV-CH-CHA_261119-113022/video-web.mp4"
+  }
+}

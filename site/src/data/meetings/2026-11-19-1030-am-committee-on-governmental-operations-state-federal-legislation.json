@@ -1,0 +1,376 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 28.5,
+      "id": "001",
+      "slug": "council-staff-opens-hearing-and-sets-room-rules",
+      "start_sec": 14.2,
+      "summary": "Council staff welcomes attendees to the committee vote, asks everyone to silence electronic devices, and warns that no one may approach the dais. Staff then tells the chair the committee is ready to begin.",
+      "title": "Council staff opens hearing and sets room rules",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 14.2,
+          "text": "Good morning and welcome to today's vote from the New York City Council Committee on Governmental Operations, State and Federal Legislation."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 21.4,
+          "text": "At this time, I'd like to remind everyone to please silence all electronic devices and at no point is anyone to approach the dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 27.3,
+          "text": "Chair, we are ready to begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 46.7,
+      "id": "002",
+      "slug": "chair-brewer-convenes-hearing-and-welcomes-committee-colleagues",
+      "start_sec": 28.5,
+      "summary": "Gale A. Brewer identifies herself as chair of the Committee on Governmental Operations, State & Federal Legislation and thanks attendees for coming. She welcomes Councilmembers Stevens, Wilson, Feliz, Dinowitz, and Morano.",
+      "title": "Chair Brewer convenes hearing and welcomes committee colleagues",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 28.5,
+          "text": "Thank you very much."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 30.4,
+          "text": "I am Gail Brewer."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 31.4,
+          "text": "I'm chair of the Committee on Governmental Operations, State and Federal Legislation."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 36.2,
+          "text": "I want to thank all of us for being here today."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 39.0,
+          "text": "I want to welcome my colleagues who are here, Councilmember Stevens, Wilson, Belize, Dinowitz, and Moran."
+        }
+      ]
+    },
+    {
+      "end_sec": 66.6,
+      "id": "003",
+      "slug": "brewer-introduces-intro-1127-c-to-repeal-or-amend-25-reporting-requirements",
+      "start_sec": 46.7,
+      "summary": "Brewer says the committee is voting on three bills sponsored by Deputy Speaker Williams that were first heard on October 28. She describes Intro 1127-C as repealing or amending 25 Charter and Administrative Code provisions requiring certain reports and studies.",
+      "title": "Brewer introduces Intro 1127-C to repeal or amend 25 reporting requirements",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 46.7,
+          "text": "We are voting on three bills sponsored by Deputy Speaker Williams that this committee originally heard on October 28."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 54.0,
+          "text": "Intro 1127C, which will repeal or amend 25 provisions of the Charter and Administrative Code requiring certain reports and studies."
+        }
+      ]
+    },
+    {
+      "end_sec": 92.6,
+      "id": "004",
+      "slug": "brewer-outlines-intro-1128-a-default-report-deadlines-and-intro-1129-a-compliance-attestations",
+      "start_sec": 66.6,
+      "summary": "Brewer explains that Intro 1128-A creates a uniform default due-date system for agency reports. She says Intro 1129-A establishes a Speaker-prescribed procedure for agencies to attest to the Council that they have completed operational mandates required by local law.",
+      "title": "Brewer outlines Intro 1128-A default report deadlines and Intro 1129-A compliance attestations",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 66.6,
+          "text": "Intro 1128A, which will create a uniform default reporting due date system for agency reports."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 75.9,
+          "text": "Intro 1129A, which will establish a procedure to be prescribed by the Speaker for how an agency will attest to this Council."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 86.8,
+          "text": "That it has completed operational mandates prescribed"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 90.3,
+          "text": "by local law."
+        }
+      ]
+    },
+    {
+      "end_sec": 105.5,
+      "id": "005",
+      "slug": "brewer-says-council-must-avoid-burdensome-outdated-reporting-mandates",
+      "start_sec": 92.6,
+      "summary": "Brewer argues that the Council must ensure laws are not overly burdensome on agencies and that required data is timely, relevant, and sensible. She frames the bills as correcting outdated or unnecessary reporting obligations.",
+      "title": "Brewer says Council must avoid burdensome, outdated reporting mandates",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 92.6,
+          "text": "This council takes seriously its obligation to ensure that our laws are not overly burdensome on agencies, produce data and information that is timely and relevant, and ultimately make sense."
+        }
+      ]
+    },
+    {
+      "end_sec": 123.5,
+      "id": "006",
+      "slug": "brewer-cites-past-similar-legislation-and-calls-package-good-government",
+      "start_sec": 105.5,
+      "summary": "Brewer notes she has sponsored similar legislation in the past to remove unnecessary reporting requirements from the charter and administrative code. She calls the three-bill package a good-government effort and says she looks forward to voting for all three.",
+      "title": "Brewer cites past similar legislation and calls package good government",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 105.5,
+          "text": "In the past, I have sponsored similar legislation"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 108.5,
+          "text": "to cull our charter and administrative code of unnecessary and outdated reporting obligations."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 116.4,
+          "text": "This is good government package."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 118.3,
+          "text": "This good government package makes sense, and I look forward to voting for all three."
+        }
+      ]
+    },
+    {
+      "end_sec": 140.7,
+      "id": "007",
+      "slug": "brewer-thanks-committee-compliance-and-personal-staff",
+      "start_sec": 123.5,
+      "summary": "Brewer thanks committee staff Harry Frazier, Erica Cohen, and Samul Hamid, as well as Malcolm Buttenhorn from the Compliance Division. She also thanks her staff member Cynthia Hornig and everyone else who made the hearing possible.",
+      "title": "Brewer thanks committee, compliance, and personal staff",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 123.5,
+          "text": "I'd like to thank the folks who made this hearing possible, committee staff,"
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 129.4,
+          "text": "to Harry Frazier, Erica Cohen, and Samul Hamid, and from the Compliance Division, Malcolm Buttenhorn, and from my staff, Cynthia Hornig, and everyone else."
+        }
+      ]
+    },
+    {
+      "end_sec": 160.0,
+      "id": "008",
+      "slug": "brewer-turns-to-clerk-ben-jacobs-for-roll-call-on-coupled-bills",
+      "start_sec": 140.7,
+      "summary": "Brewer hands the proceeding to the clerk. Ben Jacobs identifies himself as committee clerk and announces a roll-call vote on Int 1127-C, 1128-A, and 1129-A, noting that all items are coupled.",
+      "title": "Brewer turns to Clerk Ben Jacobs for roll call on coupled bills",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 140.7,
+          "text": "Now I will turn it over to the clerk to call the roll."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 145.0,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 145.8,
+          "text": "Ben Jacobs, Committee Clerk, City Council Committee on Government Operations, State and Federal Legislation."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 151.7,
+          "text": "This is the roll call vote on intro 1127C, 1128A, 1129A."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 158.1,
+          "text": "All items are coupled."
+        }
+      ]
+    },
+    {
+      "end_sec": 168.6,
+      "id": "009",
+      "slug": "clerk-calls-roll-brewer-dinowitz-and-feliz-vote-aye",
+      "start_sec": 160.0,
+      "summary": "The clerk begins the roll call with Chair Brewer, who votes aye. Councilmember Dinowitz then votes aye, and Councilmember Feliz votes aye on all items.",
+      "title": "Clerk calls roll; Brewer, Dinowitz, and Feliz vote aye",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 160.0,
+          "text": "Chair Brewer."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 161.1,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 162.6,
+          "text": "Councilmember Dinnowitz."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 163.9,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 165.4,
+          "text": "Councilmember Felice."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 167.0,
+          "text": "I vote aye on all."
+        }
+      ]
+    },
+    {
+      "end_sec": 183.5,
+      "id": "010",
+      "slug": "roll-call-continues-with-stevens-zhuang-wilson-and-morano-voting-aye",
+      "start_sec": 168.6,
+      "summary": "The clerk calls the remaining members, and Stevens, Zhuang, Wilson, and Morano are recorded as voting aye. The clerk thanks the members after completing the roll.",
+      "title": "Roll call continues with Stevens, Zhuang, Wilson, and Morano voting aye",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 168.6,
+          "text": "Councilmember Stevens."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 172.9,
+          "text": "Councilmember Schwang."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 175.0,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 176.6,
+          "text": "Councilmember Wilson."
+        },
+        {
+          "speaker": "Carl Wilson",
+          "t_sec": 178.4,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 180.0,
+          "text": "Councilmember Morano."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 181.0,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 182.3,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 191.1,
+      "id": "011",
+      "slug": "clerk-announces-seven-ayes-and-adopts-all-three-bills",
+      "start_sec": 183.5,
+      "summary": "The clerk reports seven votes in the affirmative, none in the negative, and no abstentions. The coupled items are therefore adopted.",
+      "title": "Clerk announces seven ayes and adopts all three bills",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 183.5,
+          "text": "By a vote of seven in the affirmative, none in the negative, and no abstentions, the item is adopted."
+        }
+      ]
+    },
+    {
+      "end_sec": 199.189,
+      "id": "012",
+      "slug": "brewer-thanks-attendees-and-adjourns-hearing",
+      "start_sec": 191.1,
+      "summary": "Chair Brewer thanks everyone for attending and declares the hearing concluded.",
+      "title": "Brewer thanks attendees and adjourns hearing",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 191.1,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 191.5,
+          "text": "This hearing has concluded."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 193.3,
+          "text": "And thank you, everybody, for showing up."
+        }
+      ]
+    }
+  ],
+  "date": "2026-11-19",
+  "duration_sec": 199.189,
+  "slug": "2026-11-19-1030-am-committee-on-governmental-operations-state-federal-legislation",
+  "summary": [
+    "The Committee on Governmental Operations, State & Federal Legislation met to vote on three reporting-reform bills sponsored by Deputy Speaker Williams.",
+    "Chair Gale A. Brewer described Int 1127-C, Int 1128-A, and Int 1129-A as a good-government package to streamline agency reporting deadlines and compliance attestations.",
+    "The committee adopted all three coupled items by a 7-0 roll-call vote with no abstentions."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "10:30 AM",
+  "title": "Committee on Governmental Operations, State & Federal Legislation",
+  "topic": "Changing the dates by when certain reports are to be transmitted to council; repeal the following provisions of the New York city charter: section 17; section 20-e; and also to repeal section 14-175 of the administrative code of the city of New York",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://discourse-media.qqlab.io/NYCC-250-8-2_261119-103420/video-web.mp4"
+  }
+}

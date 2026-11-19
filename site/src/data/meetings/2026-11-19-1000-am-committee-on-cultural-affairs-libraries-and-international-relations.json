@@ -1,0 +1,444 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 43.596,
+      "id": "001",
+      "slug": "council-staff-gives-housekeeping-instructions-for-the-hearing",
+      "start_sec": 22.0,
+      "summary": "Council staff open the hearing, ask attendees to silence all electronic devices, and warn that no one may approach the dais chair at any point.",
+      "title": "Council staff gives housekeeping instructions for the hearing",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 22.0,
+          "text": "Good morning and welcome to today's New York City Council vote for the Committee on Cultural Affairs, Libraries, and International Intergroup Relations."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 31.5,
+          "text": "At this time, we please ask that you silence all electronic devices."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 34.9,
+          "text": "At no point in time is anyone to approach the dais chair."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 38.1,
+          "text": "You may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 53.596,
+      "id": "002",
+      "slug": "sandra-ung-convenes-committee-as-acting-chair-for-williams",
+      "start_sec": 43.596,
+      "summary": "Council Member Sandra Ung opens the meeting of the Committee on Cultural Affairs, Libraries and International Relations, noting she is filling in for Deputy Speaker Nantasha Williams.",
+      "title": "Sandra Ung convenes committee as acting chair for Williams",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 43.596,
+          "text": "Good morning, I'm Councilmember Sandra Oh, filling in today for Deputy Speaker Dr."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 47.896,
+          "text": "Natasha Williams for this meeting of the Committee on Cultural Affairs, Libraries, International Relations."
+        }
+      ]
+    },
+    {
+      "end_sec": 96.096,
+      "id": "003",
+      "slug": "ung-outlines-the-three-resolutions-before-the-committee",
+      "start_sec": 53.596,
+      "summary": "Ung announces the committee will consider three resolutions: Res 28 calling on Congress to end the Puerto Rico fiscal oversight board (sponsored by Aviles), Res 186 designating Albanian Independence Day (sponsored by Farias), and Res 494 opposing the Project Esencia luxury development in Cabo Rojo (also sponsored by Aviles).",
+      "title": "Ung outlines the three resolutions before the committee",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 53.596,
+          "text": "Today, the committee will consider three resolutions."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 56.196,
+          "text": "Resolution number 28, sponsored by Councilmember Alexa Villas, will call on the United States Congress to establish a date certain for ending the Financial Oversight Management Board for Puerto Rico."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 67.596,
+          "text": "Resolution number 186, sponsored by Councilmember Amanda Farias, which would designate November 28th annually as the Albanian Independence Day in the city of New York."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 79.396,
+          "text": "And resolution number 494, also sponsored by Councilman Villas, which would stamp the people of Puerto Rico to stop the construction of Project Essentia, a luxury development in Cabo Rico."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 91.696,
+          "text": "Now, Councilmember Farias would like to deliver remarks on her resolution."
+        }
+      ]
+    },
+    {
+      "end_sec": 103.796,
+      "id": "004",
+      "slug": "farias-presents-resolution-186-on-albanian-independence-day",
+      "start_sec": 96.096,
+      "summary": "Council Member Amanda Far\u00edas introduces Resolution 186, which would designate November 28 annually as Albanian Independence Day in New York City.",
+      "title": "Farias presents Resolution 186 on Albanian Independence Day",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 96.096,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 96.996,
+          "text": "I'm proud to bring forward Resolution 186, designating November 28 annually as Albanian Independence Day in New York City."
+        }
+      ]
+    },
+    {
+      "end_sec": 112.596,
+      "id": "005",
+      "slug": "farias-recounts-albania-s-1912-declaration-of-independence",
+      "start_sec": 103.796,
+      "summary": "Farias explains that November 28 marks the day in 1912 when Albania declared independence following generations of struggle for freedom, self-determination and national identity.",
+      "title": "Farias recounts Albania's 1912 declaration of independence",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 103.796,
+          "text": "November 28 marks the day in 1912 when Albania declared itself independent, following generations of struggle for freedom, self-determination, and national identity."
+        }
+      ]
+    },
+    {
+      "end_sec": 125.896,
+      "id": "006",
+      "slug": "farias-highlights-albanian-american-community-in-the-bronx-and-staten-island",
+      "start_sec": 112.596,
+      "summary": "Farias describes the strong Albanian American community in the Bronx and Staten Island, noting that more than 100,000 New Yorkers of Albanian heritage contribute to the city's neighborhoods, businesses, culture and civic life.",
+      "title": "Farias highlights Albanian American community in the Bronx and Staten Island",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 112.596,
+          "text": "Here in New York City, and particularly in the Bronx and Staten Island, Albanian Americans have built a strong and lasting community."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 119.296,
+          "text": "More than 100,000 New Yorkers of Albanian heritage contribute to our city's neighborhoods, businesses, culture, and civic life."
+        }
+      ]
+    },
+    {
+      "end_sec": 144.096,
+      "id": "007",
+      "slug": "farias-urges-yes-vote-on-res-186-and-thanks-co-sponsors",
+      "start_sec": 125.896,
+      "summary": "Farias says the resolution recognizes Albanian New Yorkers' history and contributions, thanks co-sponsors Aldabal, Lewis and Morano, and urges colleagues to vote yes.",
+      "title": "Farias urges yes vote on Res 186 and thanks co-sponsors",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 125.896,
+          "text": "This resolution is about recognizing that history, celebrating the contributions,"
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 129.796,
+          "text": "of Albanian New Yorkers and ensuring that their heritage and traditions are reflected in the story of our city."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 135.596,
+          "text": "I want to thank my co-sponsors, Council Members Aldabal, Lewis, and Morano for their support."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 139.896,
+          "text": "I urge my colleagues to vote yes, and I look forward to the Council's support of this resolution."
+        }
+      ]
+    },
+    {
+      "end_sec": 154.996,
+      "id": "008",
+      "slug": "farias-endorses-aviles-two-puerto-rico-resolutions",
+      "start_sec": 144.096,
+      "summary": "Speaking as a Puerto Rican woman, Farias expresses strong support for both of Council Member Aviles' resolutions, saying she will always stand up for Puerto Rico's sovereignty and self-determination.",
+      "title": "Farias endorses Aviles' two Puerto Rico resolutions",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 144.096,
+          "text": "Additionally, I want to briefly express my strong support for both of Council Member Aviles'resolutions."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 149.296,
+          "text": "As a Puerto Rican woman, I will always stand up for the sovereignty and self-determination of the people of Puerto Rico."
+        }
+      ]
+    },
+    {
+      "end_sec": 162.996,
+      "id": "009",
+      "slug": "farias-backs-res-28-ending-puerto-rico-fiscal-oversight-board",
+      "start_sec": 154.996,
+      "summary": "Farias argues Resolution 28 makes clear that Puerto Rico deserves to govern itself without an unelected federal oversight board dictating its fiscal future.",
+      "title": "Farias backs Res 28 ending Puerto Rico fiscal oversight board",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 154.996,
+          "text": "Resolution 28 makes clear that Puerto Rico deserves to govern itself without an unelected federal oversight board dictating its fiscal future."
+        }
+      ]
+    },
+    {
+      "end_sec": 173.696,
+      "id": "010",
+      "slug": "farias-supports-res-494-opposing-cabo-rojo-luxury-development",
+      "start_sec": 162.996,
+      "summary": "Farias backs Resolution 494, standing with Cabo Rojo residents fighting to protect their lands, beaches, natural resources and communities from a luxury development that threatens their way of life.",
+      "title": "Farias supports Res 494 opposing Cabo Rojo luxury development",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 162.996,
+          "text": "And Resolution 494 stands with the people of Cabo Rojo who are fighting to protect their lands, beaches, natural resources, and communities from a luxury development that threatens their way of life."
+        }
+      ]
+    },
+    {
+      "end_sec": 189.496,
+      "id": "011",
+      "slug": "farias-thanks-sponsor-aviles-puerto-rico-is-not-for-sale",
+      "start_sec": 173.696,
+      "summary": "Farias thanks Council Member Alexa Aviles, prime sponsor of both Puerto Rico resolutions, for her leadership, declaring that Puerto Rico is not for sale and its future belongs to its people.",
+      "title": "Farias thanks sponsor Aviles: 'Puerto Rico is not for sale'",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 173.696,
+          "text": "I also want to thank Councilmember Alexa Aviles, the prime sponsor of both resos, for her leadership and for bringing these important fights before this committee."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 181.396,
+          "text": "Puerto Rico is not for sale."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 182.596,
+          "text": "Its future belongs to its people, and I urge my colleagues to support both of those resolutions as well."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 187.096,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 203.196,
+      "id": "012",
+      "slug": "ung-thanks-farias-and-the-committee-staff-who-drafted-the-resolutions",
+      "start_sec": 189.496,
+      "summary": "Ung thanks Council Member Farias and recognizes committee staff, including senior legislative counsel Alejandro Caravelle and senior policy analyst Regina Paul, who wrote the three resolutions.",
+      "title": "Ung thanks Farias and the committee staff who drafted the resolutions",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 189.496,
+          "text": "Thank you, Councilmember Farias."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 191.396,
+          "text": "I would also like to thank the committee staff for work on preparing today, including Alejandro Caravelle, the committee's senior legislative counsel, and Regina Paul, the committee's senior policy analyst, who wrote these three resolutions."
+        }
+      ]
+    },
+    {
+      "end_sec": 205.796,
+      "id": "013",
+      "slug": "ung-declares-the-committee-ready-for-the-vote",
+      "start_sec": 203.196,
+      "summary": "Acting Chair Ung announces the committee is now ready to proceed to the vote on the three resolutions.",
+      "title": "Ung declares the committee ready for the vote",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 203.196,
+          "text": "We are now ready for the vote."
+        }
+      ]
+    },
+    {
+      "end_sec": 244.172,
+      "id": "014",
+      "slug": "clerk-william-martin-conducts-roll-call-with-all-items-coupled",
+      "start_sec": 205.796,
+      "summary": "Committee Clerk William Martin calls the roll with all items coupled; Acting Chair Ung, Louis, Hudson, Oss\u00e9, Stevens and Maloney each vote aye, with congratulations offered to Farias and Aviles.",
+      "title": "Clerk William Martin conducts roll call with all items coupled",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 205.796,
+          "text": "Good morning, William Martin, Committee Clerk, Roll Call Vote Committee on Cultural Affairs, Libraries, and International Relations."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 211.196,
+          "text": "All items are coupled."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 212.896,
+          "text": "Acting Chair Ong."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 214.796,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 216.696,
+          "text": "Chair Williams."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 221.772,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 224.372,
+          "text": "Lewis."
+        },
+        {
+          "speaker": "Farah N. Louis",
+          "t_sec": 225.772,
+          "text": "I would I and congratulations, Councilmember Farias and Avalos."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 229.972,
+          "text": "Hudson."
+        },
+        {
+          "speaker": "Crystal Hudson",
+          "t_sec": 232.072,
+          "text": "Aye, and congrats."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 233.772,
+          "text": "Jose."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 234.772,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 236.172,
+          "text": "Stevens."
+        },
+        {
+          "speaker": "Althea V. Stevens",
+          "t_sec": 237.172,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 238.672,
+          "text": "Maloney."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 240.272,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 241.472,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 263.744,
+      "id": "015",
+      "slug": "committee-approves-all-three-resolutions-7-0",
+      "start_sec": 244.172,
+      "summary": "With seven votes in the affirmative, zero in the negative and no abstentions, all three resolutions are approved by the committee, and the clerk confirms a full committee vote.",
+      "title": "Committee approves all three resolutions 7-0",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 244.172,
+          "text": "With a vote of seven in the affirmative, zero in the negative, and no abstentions, all items have been approved by the committee."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 248.972,
+          "text": "Madam Chair, that is a full committee."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 251.472,
+          "text": "Thank you."
+        }
+      ]
+    }
+  ],
+  "date": "2026-11-19",
+  "duration_sec": 263.744,
+  "slug": "2026-11-19-1000-am-committee-on-cultural-affairs-libraries-and-international-relations",
+  "summary": [
+    "Acting Chair Sandra Ung convened the Committee on Cultural Affairs, Libraries and International Relations to consider three resolutions: Res 28 on the Puerto Rico fiscal oversight board, Res 186 designating Albanian Independence Day, and Res 494 opposing the Project Esencia development in Cabo Rojo.",
+    "Council Member Amanda Far\u00edas presented Resolution 186, recounting Albania's 1912 declaration of independence and the contributions of more than 100,000 Albanian New Yorkers, then endorsed both of Council Member Aviles' Puerto Rico resolutions.",
+    "The committee approved all three resolutions by a 7-0 roll call vote with no abstentions."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "10:00 AM",
+  "title": "Committee on Cultural Affairs, Libraries and International Relations",
+  "topic": "Establish a date certain for ending the Financial Oversight and Management Board for Puerto Rico",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://discourse-media.qqlab.io/NYCC-250-8-1_261119-101832/video-web.mp4"
+  }
+}

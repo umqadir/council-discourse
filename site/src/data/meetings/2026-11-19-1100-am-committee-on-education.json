@@ -1,0 +1,488 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 43.1,
+      "id": "001",
+      "slug": "council-staff-opens-education-committee-vote-and-sets-hearing-rules",
+      "start_sec": 6.7,
+      "summary": "An unidentified attendee asks where the clerk is. Council staff then welcomes attendees to the Committee on Education vote, asks that electronic devices be silenced, bars approach to the front desk, and invites the chair to begin.",
+      "title": "Council staff opens Education Committee vote and sets hearing rules",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 6.7,
+          "text": "Does anybody know where the clerk is?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 28.3,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 29.4,
+          "text": "Welcome to today's New York City Council vote for the Committee on Education."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 33.4,
+          "text": "At this time, we please ask that you silence all electronic devices."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 37.1,
+          "text": "Moving forward, no one is to approach the front desk."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 39.5,
+          "text": "Chair, you may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 57.9,
+      "id": "002",
+      "slug": "chair-dinowitz-opens-education-committee-meeting-and-welcomes-members",
+      "start_sec": 43.1,
+      "summary": "Councilmember Eric Dinowitz identifies himself as chair of the Committee on Education. He welcomes colleagues present, naming Councilmembers Wong, Farias, Shulman, Lee, Brewer, Gutierrez, and Joseph.",
+      "title": "Chair Dinowitz opens Education Committee meeting and welcomes members",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 43.1,
+          "text": "Good morning, everyone."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 44.1,
+          "text": "I'm Councilmember Eric Dinowitz, Chair of the Committee on Education."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 47.7,
+          "text": "Welcome, and thank you to my colleagues who are present, Councilmembers Wong, Farias, Shulman, Lee, Brewer, Gutierrez, and Joseph."
+        }
+      ]
+    },
+    {
+      "end_sec": 81.6,
+      "id": "003",
+      "slug": "chair-dinowitz-introduces-intro-259-a-on-dental-care-information",
+      "start_sec": 57.9,
+      "summary": "Dinowitz says the committee is considering Proposed Intro 259-A, sponsored by Councilmember Krishnan, requiring the Department of Education to distribute information about dental care. He cites Department of Health and Mental Hygiene data that 32% of children ages 2 to 13 had experienced tooth decay as of 2019.",
+      "title": "Chair Dinowitz introduces Intro 259-A on dental care information",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 57.9,
+          "text": "Today, the committee is considering proposed intro 259A, sponsored by Councilmember Shaker Krishnan, in relation to requiring the Department of Education to distribute information about the importance of dental care."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 69.7,
+          "text": "According to the New York City Department of Health and Mental Hygiene, 32% of children ages 2 to 13 had experienced tooth decay in New York City as of 2019."
+        }
+      ]
+    },
+    {
+      "end_sec": 93.3,
+      "id": "004",
+      "slug": "dinowitz-cites-35-untreated-cavity-rate-in-school-dental-exams",
+      "start_sec": 81.6,
+      "summary": "Dinowitz reports clinical data from school-based dental exams during the 2021-2022 school year. He says 35% of participating children had untreated cavities.",
+      "title": "Dinowitz cites 35% untreated cavity rate in school dental exams",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 81.6,
+          "text": "Clinical data from school-based dental exams during the 2021-2022 school year also showed that 35% of participants"
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 90.3,
+          "text": "children had untreated cavities."
+        }
+      ]
+    },
+    {
+      "end_sec": 110.6,
+      "id": "005",
+      "slug": "dinowitz-explains-intro-259-a-material-development-and-distribution",
+      "start_sec": 93.3,
+      "summary": "Dinowitz explains that Intro 259-A would require the Health Commissioner, in consultation with the DOE Chancellor, to develop materials on dental care and fluoride. The DOE would then post or otherwise distribute those materials to students and parents.",
+      "title": "Dinowitz explains Intro 259-A material development and distribution",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 93.3,
+          "text": "Proposed Intro 259A would require the Commissioner of Health and Mental Hygiene, in consultation with the DOE Chancellor, to develop materials relating to the importance of dental care and fluoride."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 104.3,
+          "text": "DOE would be required to post or otherwise distribute these materials to students and parents."
+        }
+      ]
+    },
+    {
+      "end_sec": 126.4,
+      "id": "006",
+      "slug": "dinowitz-says-dental-disease-causes-lost-instructional-time",
+      "start_sec": 110.6,
+      "summary": "Dinowitz argues that dental disease leads to lost instructional time for students. He says passing Intro 259-A would leverage established infrastructure to mitigate preventable dental disease and reduce academic disruption.",
+      "title": "Dinowitz says dental disease causes lost instructional time",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 110.6,
+          "text": "Dental disease leads to lost instructional time for students."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 115.3,
+          "text": "By passing Intro 259A, the city will leverage established infrastructure to mitigate preventable dental disease and reduce academic disruption for students."
+        }
+      ]
+    },
+    {
+      "end_sec": 131.0,
+      "id": "007",
+      "slug": "dinowitz-notes-lewis-zhuang-and-de-la-rosa-join-hearing",
+      "start_sec": 126.4,
+      "summary": "Dinowitz notes that Councilmembers Lewis, Zhuang, and De La Rosa have joined the meeting. The update comes before the committee moves to the roll-call vote.",
+      "title": "Dinowitz notes Lewis, Zhuang, and De La Rosa join hearing",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 126.4,
+          "text": "I'd like to add we've been joined by Council Members Lewis, Zhuang, and De La Rosa."
+        }
+      ]
+    },
+    {
+      "end_sec": 153.5,
+      "id": "008",
+      "slug": "dinowitz-thanks-education-committee-staff-for-preparing-vote",
+      "start_sec": 131.0,
+      "summary": "Dinowitz thanks his staff, Theo Solter and Jenna Klaus, and Education Committee staff including Alejandro Carvajal, Chloe Rivera, Katie Salina, Angelene Lawless, Grace Amato, and Emily Sosa. He says they prepared today's vote.",
+      "title": "Dinowitz thanks Education Committee staff for preparing vote",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 131.0,
+          "text": "Finally, I'd like to thank my staff, Theo Solter and Jenna Klaus, and the Education Committee staff, Senior Counsel Alejandro Carvajal,"
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 137.9,
+          "text": "Senior Policy Analyst Chloe Rivera, Policy Analyst Katie Salina, as well as Principal Financial Analyst Angelene Lawless, Senior Financial Analyst Grace Amato, and Financial Fellow..."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 149.7,
+          "text": "Emily Sosa for preparing today's vote."
+        }
+      ]
+    },
+    {
+      "end_sec": 203.4,
+      "id": "009",
+      "slug": "clerk-martin-calls-roll-on-intro-259-a",
+      "start_sec": 153.5,
+      "summary": "Chair Dinowitz turns to Committee Clerk William Martin, who opens roll call on Proposed Intro 259-A. Members respond as their names are called, including Dinowitz, Brewer, De La Rosa, Farias, Gutierrez, Lee, Shulman, and Wong.",
+      "title": "Clerk Martin calls roll on Intro 259-A",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 153.5,
+          "text": "I will now turn it over to the clerk to call for roll."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 157.8,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 158.2,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 158.7,
+          "text": "William Martin, Committee Clerk, Roll Call Vote Committee on Education."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 162.1,
+          "text": "Proposed Introduction 259A."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 165.0,
+          "text": "Chair Dinowitz."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 166.0,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 167.5,
+          "text": "Lewis."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 169.7,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 170.2,
+          "text": "Brewer."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 171.0,
+          "text": "Yes."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 172.3,
+          "text": "De La Rosa."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 173.2,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 174.4,
+          "text": "Farias."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 175.3,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 176.8,
+          "text": "Gutierrez."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 177.9,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 179.3,
+          "text": "Joseph."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 181.7,
+          "text": "Krishnan."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 187.1,
+          "text": "Lee."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 187.7,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 189.8,
+          "text": "Narcisse."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 193.3,
+          "text": "Shulman."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 194.8,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 196.2,
+          "text": "Zhuang."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 199.4,
+          "text": "Wong."
+        },
+        {
+          "speaker": "Phil Wong",
+          "t_sec": 200.5,
+          "text": "I will lie."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 203.0,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 219.6,
+      "id": "010",
+      "slug": "committee-adopts-intro-259-a-with-11-affirmative-votes",
+      "start_sec": 203.4,
+      "summary": "Clerk Martin announces 11 votes in the affirmative, zero in the negative, and no abstentions. He states that the item has been adopted by the committee.",
+      "title": "Committee adopts Intro 259-A with 11 affirmative votes",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 203.4,
+          "text": "With a vote of 11 in the affirmative, zero in the negative, no abstentions."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 206.9,
+          "text": "Item has been adopted by the committee."
+        }
+      ]
+    },
+    {
+      "end_sec": 229.8,
+      "id": "011",
+      "slug": "clerk-martin-completes-roll-call-for-krishnan-and-narcisse",
+      "start_sec": 219.6,
+      "summary": "The clerk continues the roll call for Councilmembers Krishnan and Narcisse. Both are recorded as aye.",
+      "title": "Clerk Martin completes roll call for Krishnan and Narcisse",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 219.6,
+          "text": "Continuation roll call, Committee on Education."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 222.4,
+          "text": "Councilmember Krishnan."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 224.7,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 226.1,
+          "text": "Narcisse."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 227.5,
+          "text": "Aye."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 229.4,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 233.7,
+      "id": "012",
+      "slug": "final-committee-vote-on-intro-259-a-is-13-0",
+      "start_sec": 229.8,
+      "summary": "Clerk Martin reports the final vote as 13 in the affirmative, zero in the negative, and no abstentions. The committee has now recorded all members.",
+      "title": "Final committee vote on Intro 259-A is 13-0",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 229.8,
+          "text": "Final vote is now 13 in the affirmative, zero in the negative, no abstentions."
+        }
+      ]
+    },
+    {
+      "end_sec": 235.3,
+      "id": "013",
+      "slug": "clerk-confirms-full-committee-vote",
+      "start_sec": 233.7,
+      "summary": "Clerk Martin tells Chair Dinowitz that the roll call reflects a full committee. The confirmation follows the final 13-0 vote tally.",
+      "title": "Clerk confirms full committee vote",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "William Martin",
+          "t_sec": 233.7,
+          "text": "Mr."
+        },
+        {
+          "speaker": "William Martin",
+          "t_sec": 233.9,
+          "text": "Chair, that is a full committee."
+        }
+      ]
+    },
+    {
+      "end_sec": 239.787,
+      "id": "014",
+      "slug": "chair-dinowitz-adjourns-education-committee-hearing",
+      "start_sec": 235.3,
+      "summary": "Dinowitz thanks the clerk and declares the hearing adjourned. The meeting ends after the committee's vote on Intro 259-A.",
+      "title": "Chair Dinowitz adjourns Education Committee hearing",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 235.3,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 235.7,
+          "text": "This hearing is adjourned."
+        }
+      ]
+    }
+  ],
+  "date": "2026-11-19",
+  "duration_sec": 239.787,
+  "slug": "2026-11-19-1100-am-committee-on-education",
+  "summary": [
+    "The Committee on Education met to vote on Proposed Intro 259-A, which would require the Department of Education to distribute information about dental care and fluoride.",
+    "Chair Eric Dinowitz cited tooth decay and untreated cavity statistics and described how the bill would use Health Department materials and DOE distribution.",
+    "The committee adopted Intro 259-A by a final 13-0 roll-call vote and adjourned."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "11:00 AM",
+  "title": "Committee on Education",
+  "topic": "Requiring the department of education to distribute information about the importance of dental care",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://discourse-media.qqlab.io/NYCC-250-8-1_261119-110229/video-web.mp4"
+  }
+}

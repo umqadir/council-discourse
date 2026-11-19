@@ -1,0 +1,471 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 38.2,
+      "id": "001",
+      "slug": "committee-staff-opens-vote-meeting-and-sets-dais-rules",
+      "start_sec": 20.3,
+      "summary": "Council staff welcomes attendees to the New York City Council vote for the Committee on Rules, Privileges, Elections, Standards, and Ethics. Staff asks that electronic devices be silenced, prohibits anyone from approaching the dais, and invites the chair to begin.",
+      "title": "Committee staff opens vote meeting and sets dais rules",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 20.3,
+          "text": "Good morning and welcome to today's New York City Council vote for the Committee on Rules, Privileges, Elections, Standards, and Ethics."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 27.1,
+          "text": "At this time, we please ask that you silence all electronic devices."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 30.5,
+          "text": "At no point in time is anyone to approach the dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 32.9,
+          "text": "Chair, you may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 57.2,
+      "id": "002",
+      "slug": "chair-sandra-ung-opens-meeting-and-recognizes-committee-members",
+      "start_sec": 38.2,
+      "summary": "Chair Sandra Ung welcomes attendees to the committee meeting and notes that she is chairing. She recognizes present members, including Council Members Lee, Encarnaci\u00f3n, Banks, Deputy Speaker Nantasha Williams, Minority Leader David Carr, and Majority Leader Shaun Abreu.",
+      "title": "Chair Sandra Ung opens meeting and recognizes committee members",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 38.2,
+          "text": "Good morning and welcome to this meeting of the Committee on Rules, Privileges, Elections, Standards, and Ethics."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 43.7,
+          "text": "Council Member Sandra Ong chaired the committee."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 45.7,
+          "text": "Before we begin, I would like to recognize the other members of this committee who are present."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 49.6,
+          "text": "Council Member Lee, Akana Sion, Banks, and Deputy Speaker Natasha Williams, Minority Leader David Carr, and Majority Leader Sean Brew."
+        }
+      ]
+    },
+    {
+      "end_sec": 76.4,
+      "id": "003",
+      "slug": "chair-ung-acknowledges-committee-counsel-and-public-integrity-staff",
+      "start_sec": 57.2,
+      "summary": "Chair Ung thanks counsel to the committee Amanda DeGrasse and committee staff for preparing the hearing. She also acknowledges Chief Ethics Counsel Pearl Moore, Deputy Director Alicia Vassell, and additional attorneys in the Office of the General Counsel.",
+      "title": "Chair Ung acknowledges committee counsel and public integrity staff",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 57.2,
+          "text": "I'd also like to acknowledge the counsel to the committee, Amanda DeGrasse, and the committee staff that worked on today's hearing."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 63.4,
+          "text": "Chief Ethics Counsel and Director of Public Integrity Unit, Pearl Moore, Deputy Director of Public Integrity Unit, Alicia Vassell, and the additional attorneys in the Office of the General Counsel who helped to prepare this hearing."
+        }
+      ]
+    },
+    {
+      "end_sec": 96.1,
+      "id": "004",
+      "slug": "chair-ung-lists-six-items-before-committee-for-vote",
+      "start_sec": 76.4,
+      "summary": "Chair Ung says the committee is voting on six items heard on November 9, 2026. The items include a resolution approving M-100, Martha King's appointment to the Board of Correction, and resolutions approving M93, M94, M95, M96, and M97.",
+      "title": "Chair Ung lists six items before committee for vote",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 76.4,
+          "text": "Today, we are voting on six items that this committee heard on November 9, 2026."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 81.9,
+          "text": "We are voting on a resolution to approve M-100, appointment of Martha King to the Board of Corrections."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 88.7,
+          "text": "We are also voting on a resolution"
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 90.4,
+          "text": "to approve M93, M94, M95, M96, and M97."
+        }
+      ]
+    },
+    {
+      "end_sec": 117.2,
+      "id": "005",
+      "slug": "chair-ung-details-cpc-appointments-and-julie-stein-withdrawal",
+      "start_sec": 96.1,
+      "summary": "Chair Ung explains the mayoral request under the City Charter for Council advice and consent on reappointments of Anthony Crowell and Kenneth Knuckles and appointments of Margaret Anadu and Meenakshi Srinivasan. She also notes the Mayor withdrew the candidacy of Julie Stein.",
+      "title": "Chair Ung details CPC appointments and Julie Stein withdrawal",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 96.1,
+          "text": "Mayor Zahra Madani's request pushed into Section 192 of the New York City Charter."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 101.3,
+          "text": "For the Council's advice and consent regarding the reappointment of Anthony Cromwell and Kenneth Knuckles, as well as the appointment of Margaret Anadu and Manakshi"
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 111.5,
+          "text": "Shishri Navasan, the Mayor has sent over a communication withdrawing the candidacy of Julie Stein."
+        }
+      ]
+    },
+    {
+      "end_sec": 159.8,
+      "id": "006",
+      "slug": "clerk-william-martin-calls-roll-on-coupled-items",
+      "start_sec": 117.2,
+      "summary": "Chair Ung asks the clerk to call the roll. Clerk William Martin identifies himself, states that all items are coupled, and records ayes from members as names are called, including Chair Ung, Riley, Abreu, Krishnan, Lee, Williams, Banks, and Encarnaci\u00f3n before reaching Carr.",
+      "title": "Clerk William Martin calls roll on coupled items",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 117.2,
+          "text": "Clerk, please call the roll."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 120.6,
+          "text": "Excuse me."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 121.0,
+          "text": "Good morning."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 121.5,
+          "text": "William Martin, committee clerk, roll call vote committee on rules, privileges, elections, standards, and ethics."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 126.7,
+          "text": "All items are coupled."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 128.4,
+          "text": "Chair, um."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 129.8,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 132.3,
+          "text": "Riley."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 135.0,
+          "text": "Abrayu."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 136.2,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 137.9,
+          "text": "Krishnan."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 139.7,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 141.5,
+          "text": "Lee."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 142.4,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 144.5,
+          "text": "Williams."
+        },
+        {
+          "speaker": "Nantasha M. Williams",
+          "t_sec": 146.6,
+          "text": "Would I?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 147.9,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 151.0,
+          "text": "Banks."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 153.0,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 154.7,
+          "text": "Encarnacion."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 156.5,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 158.3,
+          "text": "Carr."
+        }
+      ]
+    },
+    {
+      "end_sec": 228.64,
+      "id": "007",
+      "slug": "carr-discloses-ny-law-school-tie-and-abstains-on-m93",
+      "start_sec": 159.8,
+      "summary": "Council Member David Carr asks permission to explain his vote. He discloses that Anthony Crowell, the M93 appointee, is Dean of New York Law School and that he is associated with the school; he abstains on M93 out of caution and votes no on all other items.",
+      "title": "Carr discloses NY Law School tie and abstains on M93",
+      "type": "VOTE",
+      "utterances": [
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 159.8,
+          "text": "Permission to explain my vote?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 165.5,
+          "text": "Yes."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 166.4,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 167.5,
+          "text": "I'd just like to disclose on the record of these proceedings that Anthony Crowell, with appointment M93, is the Dean of New York Law School, and I am associated with that entity."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 178.5,
+          "text": "And I believe that out of an abundance of caution that I'm going to respectfully abstain on that particular appointment."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 186.7,
+          "text": "I think Anthony Crowell is an excellent appointee to the City Planning Commission and has been since 2022."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 192.7,
+          "text": "But I think, again, out of an abundance of caution and not wanting the process to be distracted because of my enrollment in a law school that he happens to lead, I will respectfully abstain on M93 and I'll vote no on all the others."
+        },
+        {
+          "speaker": "David M. Carr",
+          "t_sec": 207.9,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 211.44,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 243.54,
+      "id": "008",
+      "slug": "committee-reports-initial-adoption-of-all-items-m93-has-one-abstention",
+      "start_sec": 228.64,
+      "summary": "The clerk announces an initial tally of seven affirmative, one negative, and no abstentions, with all items adopted. M93 is reported as adopted with seven affirmative, zero negative, and one abstention.",
+      "title": "Committee reports initial adoption of all items; M93 has one abstention",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 228.64,
+          "text": "Okay, excuse me."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 229.94,
+          "text": "So with a vote of seven in the affirmative, one of the negative and no abstentions, all items are adopted with M93 being adopted by the committee with seven in the affirmative, zero in the negative, and one abstention."
+        }
+      ]
+    },
+    {
+      "end_sec": 275.708,
+      "id": "009",
+      "slug": "chair-ung-keeps-vote-open-for-council-member-riley",
+      "start_sec": 243.54,
+      "summary": "Chair Ung says she will keep the vote open, and the clerk acknowledges. The open vote allows Council Member Kevin Riley to cast a late vote.",
+      "title": "Chair Ung keeps vote open for Council Member Riley",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 243.54,
+          "text": "I will still keep the vote open."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 245.64,
+          "text": "You got it."
+        }
+      ]
+    },
+    {
+      "end_sec": 280.572,
+      "id": "010",
+      "slug": "council-member-riley-casts-late-aye",
+      "start_sec": 275.708,
+      "summary": "The clerk calls Council Member Kevin Riley, who votes aye. The clerk thanks him and proceeds to the final vote.",
+      "title": "Council Member Riley casts late aye",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 275.708,
+          "text": "Councilmember Riley."
+        },
+        {
+          "speaker": "Kevin C. Riley",
+          "t_sec": 277.108,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 279.572,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 293.872,
+      "id": "011",
+      "slug": "committee-announces-final-vote-all-items-adopted-m93-abstention",
+      "start_sec": 280.572,
+      "summary": "The clerk reports the final vote: eight affirmative, one negative, and no abstentions on all items. For M93, the vote is eight affirmative, zero negative, and one abstention; the clerk tells the chair that this is a full committee.",
+      "title": "Committee announces final vote: all items adopted, M93 abstention",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 280.572,
+          "text": "Final vote."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 281.272,
+          "text": "All items have a vote of eight in the affirmative, one in the negative, no abstention, with M93."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 289.072,
+          "text": "Eight in the affirmative, zero in the negative, and one abstention."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 292.672,
+          "text": "Madam Chair, that is a full committee."
+        }
+      ]
+    },
+    {
+      "end_sec": 298.261,
+      "id": "012",
+      "slug": "chair-ung-adjourns-the-meeting",
+      "start_sec": 293.872,
+      "summary": "Chair Ung thanks the committee and declares the meeting adjourned. The meeting ends at approximately 4:56.",
+      "title": "Chair Ung adjourns the meeting",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 293.872,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 294.272,
+          "text": "The meeting now is adjourned."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 295.472,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Sandra Ung",
+          "t_sec": 296.972,
+          "text": "All right."
+        }
+      ]
+    }
+  ],
+  "date": "2026-11-19",
+  "duration_sec": 298.261,
+  "slug": "2026-11-19-1030-am-committee-on-rules-privileges-elections-standards-and-ethics",
+  "summary": [
+    "Committee on Rules, Privileges, Elections, Standards and Ethics held a vote meeting chaired by Sandra Ung on November 19, 2026.",
+    "The committee considered six items: Martha King's appointment to the Board of Correction and mayoral communications M93-M97 for City Planning Commission appointments and reappointments.",
+    "All items were adopted; David Carr abstained on M93 due to a disclosed NY Law School affiliation and voted no on the others, and Kevin Riley cast a late aye."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "10:30 AM",
+  "title": "Committee on Rules, Privileges, Elections, Standards and Ethics",
+  "topic": "Anthony Crowell, City Planning Commission",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://discourse-media.qqlab.io/NYCC-250-8-1_261119-103613/video-web.mp4"
+  }
+}

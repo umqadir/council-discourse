@@ -1,0 +1,436 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 21.6,
+      "id": "001",
+      "slug": "bronx-delegation-opens-hearing-and-announces-dais-and-device-rules",
+      "start_sec": 6.3,
+      "summary": "Council staff welcomes attendees to the Bronx Delegation meeting, announces that no one may approach the dais during the vote, asks attendees to silence electronic devices, and invites the chair to begin.",
+      "title": "Bronx Delegation opens hearing and announces dais and device rules",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 6.3,
+          "text": "Good afternoon everyone and welcome to Bronx delegation of the New York City Council."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 11.6,
+          "text": "At this time during today's vote, no one may approach the dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 15.8,
+          "text": "Please silence any electronic devices you may have."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 18.5,
+          "text": "Chair, you may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 41.5,
+      "id": "002",
+      "slug": "co-chair-far-as-convenes-bronx-delegation-and-acknowledges-members",
+      "start_sec": 21.6,
+      "summary": "Councilmember Amanda C. Far\u00edas welcomes attendees and identifies herself as co-chair with Councilmember Justin Sanchez. She acknowledges present members Aldebol, Dinowitz, Encarnaci\u00f3n, Feliz, Riley, Stevens, and virtual Councilmember Pierina Sanchez.",
+      "title": "Co-Chair Far\u00edas convenes Bronx Delegation and acknowledges members",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 21.6,
+          "text": "Welcome to today's meeting of the Bronx delegation."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 24.0,
+          "text": "I'm Councilmember Amanda Farias, and I'm honored to co-chair the delegation with Councilmember Justin Sanchez."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 29.8,
+          "text": "I'd like to acknowledge the other members of the delegation who are present, Councilmembers Aldeball, Dinowitz, Encarnacion, Feliz, Riley, Stevens, and Councilmember Pierina Sanchez, who is virtual."
+        }
+      ]
+    },
+    {
+      "end_sec": 61.8,
+      "id": "003",
+      "slug": "far-as-states-public-officers-law-authority-and-tlc-nomination-purpose",
+      "start_sec": 41.5,
+      "summary": "Far\u00edas says the public meeting is convened under Section 103 of the Public Officers Law. She explains the delegation will vote to recommend Nivardo Lopez for mayoral appointment to the Taxi and Limousine Commission, subject to full Council advice and consent.",
+      "title": "Far\u00edas states Public Officers Law authority and TLC nomination purpose",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 41.5,
+          "text": "This public meeting of the delegation is convened pursuant to Section 103 of the Public Officers Law to conduct the following business."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 48.2,
+          "text": "Pursuant to Section 2301 of the New York City Charter, we will vote to recommend Novardo Lopez for appointment by the mayor to the New York City Taxi and Limousine Commission."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 56.7,
+          "text": "If nominated by the mayor, Mr."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 58.2,
+          "text": "Lopez's appointment will be subject to the advice and consent of the full council."
+        }
+      ]
+    },
+    {
+      "end_sec": 87.68,
+      "id": "004",
+      "slug": "far-as-invites-statements-before-tlc-vote-none-offered",
+      "start_sec": 61.8,
+      "summary": "Far\u00edas invites colleagues to make statements on the nomination. After asking for hands on Zoom and seeing none, she directs the clerk to call the roll.",
+      "title": "Far\u00edas invites statements before TLC vote; none offered",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 61.8,
+          "text": "Before we vote, I will invite my colleagues to offer any statements on the nomination before us."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 66.3,
+          "text": "Do any members have any statements they would like to put forward?"
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 75.28,
+          "text": "Are there any hands raised on the Zoom?"
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 80.58,
+          "text": "Seeing none, if there are no members of the delegation who wish to speak, I'll now ask the clerk to call the roll."
+        }
+      ]
+    },
+    {
+      "end_sec": 106.78,
+      "id": "005",
+      "slug": "clerk-opens-roll-call-on-nivardo-lopez-tlc-recommendation",
+      "start_sec": 87.68,
+      "summary": "Committee clerk Matthew DiStefano opens the roll call on Nivardo Lopez for the TLC. Co-Chairs Far\u00edas and Justin Sanchez vote aye, and Aldebol is called and recorded aye.",
+      "title": "Clerk opens roll call on Nivardo Lopez TLC recommendation",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 87.68,
+          "text": "Matthew DiStefano, committee clerk, Bronx delegation of the New York City Council."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 93.48,
+          "text": "In regards to Nevardo Lopez, TLC, co-chair Farias."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 99.48,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 100.68,
+          "text": "Co-chair Justin Sanchez."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 102.48,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 103.78,
+          "text": "Aldebar."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 105.48,
+          "text": "Aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 137.344,
+      "id": "006",
+      "slug": "dinowitz-votes-aye-praising-lopez-s-service-to-city-and-state",
+      "start_sec": 106.78,
+      "summary": "Councilmember Eric Dinowitz is called and votes aye. He praises Lopez as a friend who served the City Council and city and state Departments of Transportation, saying he will be an excellent fit for the role.",
+      "title": "Dinowitz votes aye, praising Lopez's service to city and state",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 106.78,
+          "text": "Dinowitz."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 110.68,
+          "text": "Very proudly voting aye for not just a friend, but someone who spent years serving our city in various ways, including this city council, including our city and state's Department of Transportation."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 122.78,
+          "text": "Someone who's going to be an excellent fit for this role."
+        },
+        {
+          "speaker": "Eric Dinowitz",
+          "t_sec": 126.08,
+          "text": "I'm proudly voting aye for Novardo."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 134.944,
+          "text": "All right."
+        }
+      ]
+    },
+    {
+      "end_sec": 188.144,
+      "id": "007",
+      "slug": "roll-call-continues-pierina-sanchez-explains-aye-for-lopez",
+      "start_sec": 137.344,
+      "summary": "The clerk records Feliz and Riley as aye. When Pierina Sanchez is called, she asks permission to explain her vote and then praises Lopez's transportation expertise, experience with the governor, Gateway Development Corporation, and NYC DOT, and says he understands the Bronx; she votes aye.",
+      "title": "Roll call continues; Pierina Sanchez explains aye for Lopez",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 137.344,
+          "text": "Feliz."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 139.144,
+          "text": "I."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 140.744,
+          "text": "Riley."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 141.544,
+          "text": "I."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 142.944,
+          "text": "Irina Sanchez."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 144.644,
+          "text": "Permission to explain my vote?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 146.244,
+          "text": "Permission granted."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 148.044,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 148.844,
+          "text": "I just want to congratulate Nevada Lopez, who is an incredible professional, a transportation expert who brings so much to the table."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 157.644,
+          "text": "I cannot imagine the Bronx sending anyone better to the TLC from his time serving as a secretary to the governor on transportation matters, to his time at the Gateway Development Corporation, to his time at the Department of Transportation here in the city."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 171.944,
+          "text": "He is really someone who truly understands the Bronx, but also truly understands transportation policy and what we need."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 179.644,
+          "text": "So proud to have you on the TLC."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 181.744,
+          "text": "Congratulations."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 182.644,
+          "text": "Thank you, colleagues, for supporting Navarro's nomination."
+        },
+        {
+          "speaker": "Pierina Ana Sanchez",
+          "t_sec": 185.444,
+          "text": "I vote aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 198.9,
+      "id": "008",
+      "slug": "roll-call-closes-with-8-0-vote-approving-lopez-recommendation",
+      "start_sec": 188.144,
+      "summary": "After Stevens is called, clerk Matthew DiStefano announces the appointment has been approved by a vote of 8 affirmative, 0 negative, and no abstentions.",
+      "title": "Roll call closes with 8-0 vote approving Lopez recommendation",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 188.144,
+          "text": "Stevens."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 192.5,
+          "text": "By a vote of 8 in the affirmative, 0 in the negative, and no abstention, the appointment has been approved."
+        }
+      ]
+    },
+    {
+      "end_sec": 1089.7,
+      "id": "009",
+      "slug": "far-as-holds-vote-open-for-late-member-and-adjourns-others",
+      "start_sec": 198.9,
+      "summary": "Far\u00edas thanks members and says she will hold the vote open temporarily for a member to join. She adjourns everyone else and thanks them.",
+      "title": "Far\u00edas holds vote open for late member and adjourns others",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 198.9,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 201.7,
+          "text": "I'm going to hold the vote open temporarily for our member to join in."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 207.1,
+          "text": "Everyone else is adjourned."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 208.2,
+          "text": "Thank you all."
+        }
+      ]
+    },
+    {
+      "end_sec": 1097.6,
+      "id": "010",
+      "slug": "delegation-resumes-roll-call-for-council-member-stevens",
+      "start_sec": 1089.7,
+      "summary": "After the break, Council staff announces a continuation. Clerk Matthew DiStefano resumes the Bronx Delegation roll call and calls Council Member Stevens; an aye is recorded.",
+      "title": "Delegation resumes roll call for Council Member Stevens",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1089.7,
+          "text": "Continuation."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 1090.9,
+          "text": "Roll call vote, Bronx delegation of the New York City Council."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 1094.4,
+          "text": "Council member Stevens."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 1096.4,
+          "text": "Aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 1103.2,
+      "id": "011",
+      "slug": "final-vote-stands-9-0-approving-lopez-tlc-recommendation",
+      "start_sec": 1097.6,
+      "summary": "DiStefano announces the vote now stands at nine affirmative, zero negative, and no abstentions in favor of the appointment. He thanks the delegation.",
+      "title": "Final vote stands 9-0 approving Lopez TLC recommendation",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 1097.6,
+          "text": "The vote now stands at nine any affirmative, zero any negative, and no abstentions in favor of the appointment."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 1102.5,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 1113.387,
+      "id": "012",
+      "slug": "far-as-congratulates-nivardo-lopez-and-adjourns-hearing",
+      "start_sec": 1103.2,
+      "summary": "Far\u00edas thanks the delegation, congratulates Nivardo Lopez, and declares the hearing adjourned.",
+      "title": "Far\u00edas congratulates Nivardo Lopez and adjourns hearing",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 1103.2,
+          "text": "Thank you so much, and congratulations to Novato Lopez."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 1106.3,
+          "text": "This hearing is now adjourned."
+        }
+      ]
+    }
+  ],
+  "date": "2026-11-19",
+  "duration_sec": 1113.387,
+  "slug": "2026-11-19-1130-am-bronx-delegation-of-the-new-york-city-council",
+  "summary": [
+    "The Bronx Delegation of the New York City Council held a public hearing and vote on recommending Nivardo Lopez for appointment to the Taxi and Limousine Commission.",
+    "Co-Chairs Amanda C. Far\u00edas and Justin Sanchez presided; Councilmembers Eric Dinowitz and Pierina Sanchez spoke in support, citing Lopez's transportation and government experience.",
+    "The delegation initially approved the recommendation 8-0, held the vote open for a late member, then finalized it 9-0 and adjourned."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "11:30 AM",
+  "title": "Bronx Delegation of the New York City Council",
+  "topic": "Pursuant to Section 2301 of the New York City Charter, Recommendation to the Mayor by the Council Members representing the Borough of the Bronx of Nivardo Lopez to serve as a member of the Taxi and Limousine Commission",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://discourse-media.qqlab.io/NYCC-PV-CH-COM_261119-120147/video-web.mp4"
+  }
+}

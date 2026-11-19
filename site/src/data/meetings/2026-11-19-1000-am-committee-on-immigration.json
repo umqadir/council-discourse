@@ -1,0 +1,704 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 24.4,
+      "id": "001",
+      "slug": "council-staff-opens-the-committee-on-immigration-hearing",
+      "start_sec": 9.5,
+      "summary": "Council Staff welcomes attendees to the Committee on Immigration hearing. They remind everyone to silence electronic devices and adhere to protocol before the Chair begins the proceedings.",
+      "title": "Council Staff opens the Committee on Immigration hearing",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 9.5,
+          "text": "Good morning and welcome to today's New York City Council vote from the Committee on Immigration."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 14.9,
+          "text": "At this time, I'd like to remind everyone to please silence their electronic devices and at no point is anyone to approach the dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 20.6,
+          "text": "Chair, we are ready to begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 73.6,
+      "id": "002",
+      "slug": "chair-encarnaci-n-introduces-resolution-626-regarding-haiti-tps",
+      "start_sec": 24.4,
+      "summary": "Chair Elsie Encarnaci\u00f3n introduces the resolution, Councilmember Farrah Lewis's Resolution 626. The resolution calls on the U.S. Senate and the President to pass S-4814, requiring the Secretary of Homeland Security to designate Haiti for Temporary Protected Status (TPS).",
+      "title": "Chair Encarnaci\u00f3n introduces Resolution 626 regarding Haiti TPS",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 24.4,
+          "text": "Good morning, everyone."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 25.5,
+          "text": "I'm Councilmember Elsie Encarnacion, Deputy Whip of the New York City Council and Chair of the Committee on Immigration."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 31.3,
+          "text": "Today, we are voting on Councilmember Farrah Lewis's Resolution 626, which calls upon the United States Senate to pass and the President to sign S-4814 to require the"
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 43.7,
+          "text": "Secretary of Homeland Security to designate Haiti for Temporary Protected Status, or TPS."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 50.7,
+          "text": "The committee heard this resolution on September 22nd and received ample testimony in support of this bill."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 57.6,
+          "text": "We are joined today by my council colleagues, Councilmember Aviles, Councilmember Hanks, Councilmember Joseph, and Council..."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 64.9,
+          "text": "Oh, and that's it, right?"
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 66.7,
+          "text": "I was going to keep going."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 70.7,
+          "text": "And some to be determined at a later time."
+        }
+      ]
+    },
+    {
+      "end_sec": 97.6,
+      "id": "003",
+      "slug": "chair-encarnaci-n-defines-temporary-protected-status-tps",
+      "start_sec": 73.6,
+      "summary": "Chair Encarnaci\u00f3n explains that TPS is a designation granted by the Secretary of Homeland Security to countries facing extraordinary temporary conditions, such as armed conflict or environmental disasters. She notes that TPS protects immigrants from detention and deportation based on their immigration status.",
+      "title": "Chair Encarnaci\u00f3n defines Temporary Protected Status (TPS)",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 73.6,
+          "text": "TPS is a designation made by the Secretary of the Department of Homeland Security for countries experiencing ongoing armed conflict, environmental disasters, or other extraordinary and temporary conditions."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 87.3,
+          "text": "Immigrants have been granted TPS."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 90.4,
+          "text": "that have been granted TPS are protected against detention and deportation on the basis of their immigration status."
+        }
+      ]
+    },
+    {
+      "end_sec": 128.3,
+      "id": "004",
+      "slug": "chair-encarnaci-n-details-haiti-s-history-and-the-termination-of-tps",
+      "start_sec": 97.6,
+      "summary": "The Chair details the severe crises Haiti has faced since 2010, including earthquakes, epidemics, and political instability. She highlights the critical issue that the Trump administration terminated Haiti's TPS status in July 2026.",
+      "title": "Chair Encarnaci\u00f3n details Haiti's history and the termination of TPS",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 97.6,
+          "text": "In 2010, Haiti first received a TPS designation after experiencing a massive and devastating earthquake, and since then has suffered through"
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 107.8,
+          "text": "an epidemic, another earthquake, a tropical storm, a presidential assassination, the resignation of their prime minister, and widespread gang violence."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 117.8,
+          "text": "Despite these atrocities, the Trump administration terminated Haiti's TPS status in July 2026."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 125.8,
+          "text": "In a cruel twist of irony, the U.S."
+        }
+      ]
+    },
+    {
+      "end_sec": 142.3,
+      "id": "005",
+      "slug": "chair-encarnaci-n-contrasts-u-s-travel-warnings-with-recent-deportations",
+      "start_sec": 128.3,
+      "summary": "Encarnaci\u00f3n points out the irony of the U.S. Department of State issuing travel advisories warning against Haiti due to crime and kidnapping. She notes that despite these warnings, the administration has been deporting Haitians into a country facing severe violence.",
+      "title": "Chair Encarnaci\u00f3n contrasts U.S. travel warnings with recent deportations",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 128.3,
+          "text": "Department of State's latest travel advisory about Haiti warns U.S."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 132.4,
+          "text": "Citizens against traveling there for any reasons due to the risk associated with crime, terrorism, kidnapping, unrest, and limited health care."
+        }
+      ]
+    },
+    {
+      "end_sec": 163.6,
+      "id": "006",
+      "slug": "chair-encarnaci-n-advocates-for-haitian-community-inclusion-in-new-york",
+      "start_sec": 142.3,
+      "summary": "The Chair asserts that Haitian communities have significantly enriched New York City and that TPS recipients belong in New York, not in dangerous conditions abroad. She expresses pride in co-sponsoring the resolution.",
+      "title": "Chair Encarnaci\u00f3n advocates for Haitian community inclusion in New York",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 142.3,
+          "text": "Yet, the administration has already deported more than 450 Haitians in recent weeks, landing them amid a surge in kidnapping and gang violence across Haiti."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 153.7,
+          "text": "Our Haitian communities have immeasurably enriched our city, and Haitian TPS recipients belong here in New York, not in harm's way."
+        }
+      ]
+    },
+    {
+      "end_sec": 192.2,
+      "id": "007",
+      "slug": "chair-encarnaci-n-thanks-committee-staff-and-colleagues",
+      "start_sec": 163.6,
+      "summary": "Chair Encarnaci\u00f3n thanks the committee staff, including Nicole Cata and Rebecca Barilla, and acknowledges the work of her staff and colleagues who supported the hearing.",
+      "title": "Chair Encarnaci\u00f3n thanks committee staff and colleagues",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 163.6,
+          "text": "I am proud to co-sponsor this resolution and thank Councilmember Lewis for introducing it."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 168.9,
+          "text": "I would like to thank the committee staff for their work on this hearing, including Senior Legislative Counsel Nicole Cata, Senior Legislative Policy Analyst Rebecca Barilla, Principal Financial"
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 180.3,
+          "text": "Analyst Navi Baines and Assistant Finance Director Florentine Kabor."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 184.4,
+          "text": "Finally, I'd like to thank my staff, especially my chief of staff, Stephanie Herrera, and anyone working on the background to make this hearing run smoothly."
+        }
+      ]
+    },
+    {
+      "end_sec": 196.6,
+      "id": "008",
+      "slug": "chair-encarnaci-n-opens-the-floor-for-statements",
+      "start_sec": 192.2,
+      "summary": "Chair Encarnaci\u00f3n concludes her introductory remarks and formally opens the floor to members who wish to make a statement regarding the resolution.",
+      "title": "Chair Encarnaci\u00f3n opens the floor for statements",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 192.2,
+          "text": "I would like to open it to any members who would like to make a statement."
+        }
+      ]
+    },
+    {
+      "end_sec": 224.1,
+      "id": "009",
+      "slug": "councilmember-joseph-speaks-in-support-of-the-resolution",
+      "start_sec": 196.6,
+      "summary": "Councilmember Rita C. Joseph begins her statement, thanking the Chair and Councilmember Farrah Lewis for carrying the resolution. She introduces the bill, which calls on the U.S. Senate to designate Haiti for temporary protective status through April 2029.",
+      "title": "Councilmember Joseph speaks in support of the resolution",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 196.6,
+          "text": "Councilmember Joseph."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 198.4,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 199.8,
+          "text": "Thank you, Chair, and thank you to my colleague, Councilmember Farrah Lewis, for carrying this resolution."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 204.6,
+          "text": "Today, we vote on a resolution calling on the United States Senate to pass and the President to sign S-4814."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 211.4,
+          "text": "The bill does one simple thing."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 213.2,
+          "text": "It requires the Secretary of Homeland Security to designate Haiti for temporary protective status through April 2029."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 221.7,
+          "text": "The families this bill protects live here."
+        }
+      ]
+    },
+    {
+      "end_sec": 241.8,
+      "id": "010",
+      "slug": "councilmember-joseph-details-the-impact-of-tps-on-new-york-residents",
+      "start_sec": 224.1,
+      "summary": "Councilmember Joseph emphasizes that the families protected by this bill live in New York. She notes that approximately 40,000 Haitian TPS holders reside in New York State, contributing as nurses, home health aides, and small business owners.",
+      "title": "Councilmember Joseph details the impact of TPS on New York residents",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 224.1,
+          "text": "About 40,000 Haitian TPS holders call New York State home, most of them in Brooklyn and Queens and in neighborhoods like the ones I represent."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 233.1,
+          "text": "They are nurses, home health aides."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 235.0,
+          "text": "They are parents of children in our public schools."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 237.4,
+          "text": "They pay taxes, run small businesses, and keep our hospital staff."
+        }
+      ]
+    },
+    {
+      "end_sec": 274.0,
+      "id": "011",
+      "slug": "councilmember-joseph-addresses-the-consequences-of-tps-termination",
+      "start_sec": 241.8,
+      "summary": "Joseph explains that after the Supreme Court allowed the administration to end TPS for Haiti, job authorizations disappeared, leading to weekly deportation flights. She stresses that these flights send people to a country in crisis, marked by gang violence and institutional collapse.",
+      "title": "Councilmember Joseph addresses the consequences of TPS termination",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 241.8,
+          "text": "This summer, after the Supreme Court allowed the administration to end TPS for Haiti, those protections disappeared."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 248.5,
+          "text": "Our city has had to let go of employees who lost their job authorization."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 252.9,
+          "text": "And since August, deportation flights have left for Haiti every single week."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 258.0,
+          "text": "Those flights are going to a country in crisis, gang violence, kidnappings, and the collapse of basic institution."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 264.9,
+          "text": "One recent attack killed 47 people, took a dozen hostages, including children."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 270.5,
+          "text": "Our own State Department warned Americans not to travel to Haiti."
+        }
+      ]
+    },
+    {
+      "end_sec": 286.7,
+      "id": "012",
+      "slug": "councilmember-joseph-argues-for-consistency-between-u-s-warnings-and-immigration-policy",
+      "start_sec": 274.0,
+      "summary": "She argues that the U.S. cannot tell citizens it is too dangerous to visit Haiti while allowing neighbors to live there without protection. She notes that the decision rests with Congress, as judges cannot override the administration's decision.",
+      "title": "Councilmember Joseph argues for consistency between U.S. warnings and immigration policy",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 274.0,
+          "text": "We cannot tell our citizens it is too dangerous to visit and then tell our neighbors it's safe enough to live."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 281.1,
+          "text": "The court said judges cannot override this decision."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 283.8,
+          "text": "That puts it squarely in Congress's hand."
+        }
+      ]
+    },
+    {
+      "end_sec": 307.9,
+      "id": "013",
+      "slug": "councilmember-joseph-concludes-her-testimony-urging-senate-action",
+      "start_sec": 286.7,
+      "summary": "Councilmember Joseph states that the House has already acted on a companion bill and urges the Senate to act immediately. She concludes by stating that Haitians are New Yorkers and votes 'aye' on the resolution.",
+      "title": "Councilmember Joseph concludes her testimony urging Senate action",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 286.7,
+          "text": "The House has already acted."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 288.3,
+          "text": "A bipartisan majority passed the companion bill in April."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 292.4,
+          "text": "The president has said he wants to work with Congress and immigration."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 295.7,
+          "text": "Here's the place to start."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 297.1,
+          "text": "The Senate must act, and it must act now."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 299.5,
+          "text": "Haitians are not temporary."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 300.9,
+          "text": "They are New Yorkers."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 302.0,
+          "text": "I proudly vote aye and urge my colleagues to do the same."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 305.0,
+          "text": "Merci, Ampil, and thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 316.1,
+      "id": "014",
+      "slug": "chair-encarnaci-n-acknowledges-other-members-and-closes-statements",
+      "start_sec": 307.9,
+      "summary": "Chair Encarnaci\u00f3n thanks Councilmember Joseph and acknowledges the presence of Councilmember Brewer. She asks if there are any further requests for statements, concluding the testimony phase.",
+      "title": "Chair Encarnaci\u00f3n acknowledges other members and closes statements",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 307.9,
+          "text": "Thank you so much, Council Member."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 309.4,
+          "text": "I also like to acknowledge that we've been joined by Council Member Brewer."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 313.3,
+          "text": "Any last requests for statements?"
+        }
+      ]
+    },
+    {
+      "end_sec": 333.6,
+      "id": "015",
+      "slug": "chair-encarnaci-n-moves-to-roll-call-vote",
+      "start_sec": 316.1,
+      "summary": "The Chair moves the meeting to take a roll call vote on the resolution. The Committee Clerk, Ben Jacobs, is called to the podium to conduct the vote.",
+      "title": "Chair Encarnaci\u00f3n moves to roll call vote",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 316.1,
+          "text": "No?"
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 316.9,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 317.6,
+          "text": "I now turn it over to..."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 320.3,
+          "text": "I voted too early."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 321.1,
+          "text": "Oh."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 322.5,
+          "text": "You wrote it already."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 325.6,
+          "text": "To take roll call."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 327.2,
+          "text": "Sorry."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 328.5,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 328.7,
+          "text": "Apologies."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 329.9,
+          "text": "Ben Jacobs, Committee Clerk, the City Council Committee on Immigration."
+        }
+      ]
+    },
+    {
+      "end_sec": 336.6,
+      "id": "016",
+      "slug": "roll-call-vote-on-resolution-626-begins",
+      "start_sec": 333.6,
+      "summary": "The Committee Clerk initiates the roll call vote on Resolution 626, starting with Chair Encarnaci\u00f3n.",
+      "title": "Roll call vote on Resolution 626 begins",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 333.6,
+          "text": "This is the roll call vote on Resolution 626."
+        }
+      ]
+    },
+    {
+      "end_sec": 338.0,
+      "id": "017",
+      "slug": "chair-encarnaci-n-votes-aye",
+      "start_sec": 336.6,
+      "summary": "Chair Encarnaci\u00f3n votes 'aye' on the resolution.",
+      "title": "Chair Encarnaci\u00f3n votes 'aye'",
+      "type": "VOICE_VOTE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 336.6,
+          "text": "Chair Encarnacion."
+        }
+      ]
+    },
+    {
+      "end_sec": 349.6,
+      "id": "018",
+      "slug": "councilmember-avil-s-votes-aye",
+      "start_sec": 338.0,
+      "summary": "Councilmember Alexa Avil\u00e9s votes 'aye', stating her support is in full and unapologetic solidarity with the Haitian community.",
+      "title": "Councilmember Avil\u00e9s votes 'aye'",
+      "type": "VOICE_VOTE",
+      "utterances": [
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 338.0,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 339.8,
+          "text": "Councilmember Aviles."
+        },
+        {
+          "speaker": "Alexa Avil\u00e9s",
+          "t_sec": 342.9,
+          "text": "Proudly vote aye in standing in full and unapologetic solidarity with the Haitian community."
+        }
+      ]
+    },
+    {
+      "end_sec": 356.1,
+      "id": "019",
+      "slug": "councilmember-brewer-votes-aye",
+      "start_sec": 349.6,
+      "summary": "Councilmember Gale A. Brewer votes 'aye', expressing strong support for the Haitian community.",
+      "title": "Councilmember Brewer votes 'aye'",
+      "type": "VOICE_VOTE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 349.6,
+          "text": "Councilmember Brewer."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 351.2,
+          "text": "Very supportive of the Haitian community."
+        },
+        {
+          "speaker": "Gale A. Brewer",
+          "t_sec": 353.0,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 354.7,
+          "text": "Councilmember Hanks."
+        }
+      ]
+    },
+    {
+      "end_sec": 358.0,
+      "id": "020",
+      "slug": "councilmember-hanks-votes-aye",
+      "start_sec": 356.1,
+      "summary": "Councilmember Kamillah Hanks votes 'aye' on the resolution.",
+      "title": "Councilmember Hanks votes 'aye'",
+      "type": "VOICE_VOTE",
+      "utterances": [
+        {
+          "speaker": "Kamillah Hanks",
+          "t_sec": 356.1,
+          "text": "I vote aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 362.6,
+      "id": "021",
+      "slug": "councilmember-joseph-votes-aye",
+      "start_sec": 358.0,
+      "summary": "Councilmember Rita C. Joseph votes 'aye' again.",
+      "title": "Councilmember Joseph votes 'aye'",
+      "type": "VOICE_VOTE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 358.0,
+          "text": "Councilmember Joseph."
+        },
+        {
+          "speaker": "Rita C. Joseph",
+          "t_sec": 359.3,
+          "text": "I vote aye again."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 361.8,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 378.389,
+      "id": "022",
+      "slug": "resolution-626-is-adopted-with-a-vote-of-five-zero",
+      "start_sec": 362.6,
+      "summary": "The Committee Clerk announces that the resolution has been adopted with a vote of five in the affirmative and zero in the negative. Chair Encarnaci\u00f3n thanks the members and closes the committee meeting.",
+      "title": "Resolution 626 is adopted with a vote of five-zero",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 362.6,
+          "text": "With a vote of five in the affirmative, zero in the negative, and no abstentions, the item is adopted."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 370.1,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 370.4,
+          "text": "I now close this committee meeting."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 372.4,
+          "text": "Vote."
+        }
+      ]
+    }
+  ],
+  "date": "2026-11-19",
+  "duration_sec": 378.389,
+  "slug": "2026-11-19-1000-am-committee-on-immigration",
+  "summary": [
+    "Summary pending."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "10:00 AM",
+  "title": "Committee on Immigration",
+  "topic": "Require the Secretary of Homeland Security to designate Haiti for Temporary Protected Status ( S.4814)",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://discourse-media.qqlab.io/NYCC-250-8-2_261119-101332/video-web.mp4"
+  }
+}

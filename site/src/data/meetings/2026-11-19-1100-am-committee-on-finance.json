@@ -1,0 +1,1640 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 23.3,
+      "id": "001",
+      "slug": "council-staff-opens-finance-hearing-and-sets-decorum-rules",
+      "start_sec": 0.8,
+      "summary": "Council staff welcomes attendees to the New York City Council Finance hearing and vote, instructs that no one may approach the dais, and asks everyone to silence electronic devices. The staff then turns the meeting over to Chair Linda Lee.",
+      "title": "Council staff opens Finance hearing and sets decorum rules",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 0.8,
+          "text": "Stay by, I'm gonna start."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 3.8,
+          "text": "Good morning everyone and welcome to today's New York City Council hearing and vote on finance."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 10.3,
+          "text": "During this time, during today's hearing and vote, no one may approach the dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 17.2,
+          "text": "Please silence any electronic devices you may have."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 19.9,
+          "text": "Chair, you may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 54.7,
+      "id": "002",
+      "slug": "chair-linda-lee-convenes-finance-hearing-and-recognizes-committee-members",
+      "start_sec": 23.3,
+      "summary": "Chair Linda Lee opens the meeting, introduces herself as Chair of the Committee on Finance, and recognizes members present, including Brooks-Powers, Marano, Aldebol, Restler, Aviles, Wong, Majority Leader Abreu, and Justin Sanchez. She notes that Council Member Feliz later joins.",
+      "title": "Chair Linda Lee convenes Finance hearing and recognizes committee members",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 23.3,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 27.3,
+          "text": "Sorry, we're just looking for one person."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 32.2,
+          "text": "Okay, good morning."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 33.3,
+          "text": "I'm Councilmember Linda Lee, Chair of the Committee on Finance, and I'd like to recognize my fellow committee members."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 38.7,
+          "text": "We have Councilmembers Brooks Powers, Marano, Aldebal, Ressler, Aviles, Wong, Majority Leader Abreu, and I believe Councilmember Justin Sanchez is somewhere around."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 52.0,
+          "text": "Oh, okay."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 52.5,
+          "text": "Yes."
+        }
+      ]
+    },
+    {
+      "end_sec": 102.8,
+      "id": "003",
+      "slug": "chair-lee-outlines-agenda-intro-1112-a-transparency-resolution-article-11-exemptions",
+      "start_sec": 54.7,
+      "summary": "Chair Lee states the hearing will cover proposed Intro 1112-A, which authorizes annual expenditure increases in eight business improvement districts. She also says the committee will consider and vote on a transparency resolution and three pre-considered resolutions for Article 11 real property tax exemptions, including Fordham Bedford Cluster Phase 3 and 160-159 Realty LLC.",
+      "title": "Chair Lee outlines agenda: Intro 1112-A, transparency resolution, Article 11 exemptions",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 54.7,
+          "text": "So at today's hearing, we will hear proposed intro number 1112A, sponsored by myself in relation to authorizing an increase in the amount to be expended annually in eight business improvement districts."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 67.5,
+          "text": "We will also consider and vote on the following legislation, a transparency resolution to approve the new designation and changes in the designations of certain organizations to receive funding in the expense budget, and three"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 80.4,
+          "text": "pre-considered resolutions approving real property tax exemptions under Article 11 of the Private Housing Finance Law for the following projects."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 89.0,
+          "text": "First one is Fordham."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 90.0,
+          "text": "Bedford Cluster Phase 3 in the districts of Council Members Purina Anna Sanchez and Oswald Felice, and 160-159 Realty LLC in Council Member Carmen de la Rosa's district."
+        }
+      ]
+    },
+    {
+      "end_sec": 146.748,
+      "id": "004",
+      "slug": "chair-lee-switches-order-to-hold-vote-first-before-bid-hearing",
+      "start_sec": 102.8,
+      "summary": "Chair Lee announces she will switch the order and hold the vote first because members need to get to and from other votes. She notes Council Member Feliz has joined and asks the clerk to call the vote.",
+      "title": "Chair Lee switches order to hold vote first before BID hearing",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 102.8,
+          "text": "And I think we're going to switch the order and actually, oh, and we are also joined by Council Member Felice."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 109.0,
+          "text": "We're going to switch the order and actually do the vote first because today's a bit of a hectic day and I know members need to get to and from their votes."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 118.3,
+          "text": "So let's go ahead and start with the vote first."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 122.8,
+          "text": "Oh."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 123.0,
+          "text": "Yes, but please don't leave."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 124.6,
+          "text": "Oh."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 126.8,
+          "text": "Yeah, yeah."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 127.7,
+          "text": "Until everybody votes."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 131.4,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 131.9,
+          "text": "Oh, and we also have Councilmember Gennaro, who's joining us via Zoom, and we've just been joined by Councilmember Mealy as well."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 142.548,
+          "text": "Okay, so now we can, if the clerk can call the vote."
+        }
+      ]
+    },
+    {
+      "end_sec": 197.376,
+      "id": "005",
+      "slug": "clerk-begins-roll-call-brooks-powers-discloses-family-ties-and-votes-aye",
+      "start_sec": 146.748,
+      "summary": "Committee Clerk Matthew DiStefano begins the roll call on the coupled items. Chair Lee and Council Member Gennaro vote aye; Brooks-Powers requests permission to explain her vote, discloses family associations with Larissa Jane Music School and the Department of Education, and votes aye.",
+      "title": "Clerk begins roll call; Brooks-Powers discloses family ties and votes aye",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 146.748,
+          "text": "Matthew DiStefano, Committee Clerk, Committee on Finance."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 149.448,
+          "text": "Roll call vote."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 153.748,
+          "text": "Chair Lee."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 154.848,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 157.148,
+          "text": "Gennaro."
+        },
+        {
+          "speaker": "James F. Gennaro",
+          "t_sec": 158.348,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 160.148,
+          "text": "Brooks Powers."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 163.648,
+          "text": "Permission to explain my vote."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 165.948,
+          "text": "Permission granted."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 167.848,
+          "text": "I'd like to disclose that we are appropriating funds or moving funds around with Larissa Jane Music School and a member of my family is associated."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 179.048,
+          "text": "We also are moving around funding pertaining to the Department of Education, which"
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 184.948,
+          "text": "My family is also associated with that."
+        },
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 187.248,
+          "text": "I vote aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 235.84,
+      "id": "006",
+      "slug": "roll-call-continues-feliz-and-avil-s-vote-as-members-join-on-zoom",
+      "start_sec": 197.376,
+      "summary": "Chair Lee notes Council Member Maloney has joined on Zoom. The clerk clarifies all items are coupled; Feliz votes aye on all, and Avil\u00e9s briefly comments before voting aye.",
+      "title": "Roll call continues; Feliz and Avil\u00e9s vote as members join on Zoom",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 197.376,
+          "text": "Okay, and we've also been joined by Councilmember Maloney on Zoom."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 205.276,
+          "text": "The clarification, all items are coupled."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 207.476,
+          "text": "Feliz."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 209.076,
+          "text": "Aye and all."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 210.476,
+          "text": "Abreu."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 213.176,
+          "text": "Aviles."
+        },
+        {
+          "speaker": "Alexa Avil\u00e9s",
+          "t_sec": 217.276,
+          "text": "I'd like to disclose for the record that I have actually, they're in college now."
+        },
+        {
+          "speaker": "Alexa Avil\u00e9s",
+          "t_sec": 221.276,
+          "text": "I don't have to disclose that."
+        },
+        {
+          "speaker": "Alexa Avil\u00e9s",
+          "t_sec": 223.276,
+          "text": "Okay, loco."
+        },
+        {
+          "speaker": "Alexa Avil\u00e9s",
+          "t_sec": 224.376,
+          "text": "I vote aye."
+        }
+      ]
+    },
+    {
+      "end_sec": 320.572,
+      "id": "007",
+      "slug": "clerk-continues-roll-call-hudson-maloney-and-others-vote-aye",
+      "start_sec": 235.84,
+      "summary": "More members join the hearing, including Council Member Hudson. The clerk calls Hudson, Marte, Narcisse, Restler, Williams, Aldebol, Maloney, Sanchez, Wong, Morano, Mealy, and others; several members vote aye as the roll call continues.",
+      "title": "Clerk continues roll call; Hudson, Maloney, and others vote aye",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 235.84,
+          "text": "And we've also been joined by Council Member Hudson."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 242.64,
+          "text": "Councilwoman, did you vote?"
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 244.74,
+          "text": "Okay, sorry, my apology."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 250.04,
+          "text": "Hudson."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 253.74,
+          "text": "Marit\u00e9."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 262.552,
+          "text": "Narcisse."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 266.152,
+          "text": "Wrestler."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 270.752,
+          "text": "Williams."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 278.052,
+          "text": "Aldebaran."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 279.952,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 282.252,
+          "text": "Maloney."
+        },
+        {
+          "speaker": "Virginia Maloney",
+          "t_sec": 287.052,
+          "text": "I vote aye."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 291.552,
+          "text": "Justin Sanchez."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 297.072,
+          "text": "Wong."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 299.972,
+          "text": "I know."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 302.172,
+          "text": "Morano."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 306.672,
+          "text": "Let's go up to the people who passed."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 308.772,
+          "text": "Mealy."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 314.672,
+          "text": "Wrestler."
+        }
+      ]
+    },
+    {
+      "end_sec": 343.176,
+      "id": "008",
+      "slug": "restler-votes-aye-and-says-no-transparency-disclosure-is-needed",
+      "start_sec": 320.572,
+      "summary": "Council Member Restler votes aye on all items. He says a request to be included in the transparency resolution would have required a disclosure, but because he does not see it in the resolution, he will not disclose.",
+      "title": "Restler votes aye and says no transparency disclosure is needed",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 320.572,
+          "text": "I'll vote aye on all."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 321.772,
+          "text": "I think that the request we had made to be included in this transparency resolution would have required a disclosure, but I don't actually see it in the transparency resolution, so I will not disclose."
+        },
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 340.576,
+          "text": "To all, and I have nothing to disclose."
+        }
+      ]
+    },
+    {
+      "end_sec": 349.276,
+      "id": "009",
+      "slug": "finance-committee-adopts-coupled-items-14-0",
+      "start_sec": 343.176,
+      "summary": "The clerk announces a vote of 14 in the affirmative, zero in the negative, and no abstentions. The coupled items are adopted.",
+      "title": "Finance Committee adopts coupled items 14-0",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 343.176,
+          "text": "A vote of 14 in the affirmative, zero in the negative, and no abstentions."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 346.376,
+          "text": "The items have been adopted."
+        }
+      ]
+    },
+    {
+      "end_sec": 359.676,
+      "id": "010",
+      "slug": "feliz-discloses-cuny-adjunct-role-after-vote",
+      "start_sec": 349.276,
+      "summary": "Chair Lee notes Council Member Feliz also had to disclose. Feliz says he should have done it earlier and discloses that he proudly serves as an adjunct lecturer in the CUNY system.",
+      "title": "Feliz discloses CUNY adjunct role after vote",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 349.276,
+          "text": "And Councilmember Felice also had to disclose."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 352.676,
+          "text": "Yes, should have done it earlier."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 353.676,
+          "text": "I'd like to disclose that I proudly serve as an adjunct lecturer in the CUNY system."
+        },
+        {
+          "speaker": "Oswald J. Feliz",
+          "t_sec": 357.976,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 381.096,
+      "id": "011",
+      "slug": "clerk-updates-vote-count-as-brooks-powers-returns-and-deputy-speaker-joins",
+      "start_sec": 359.676,
+      "summary": "Brooks-Powers returns, and Chair Lee notes the Deputy Speaker has joined. The clerk reports the vote is now 50 in the affirmative, zero in the negative, and no abstentions, though the number appears to be an ASR error.",
+      "title": "Clerk updates vote count as Brooks-Powers returns and Deputy Speaker joins",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Selvena N. Brooks-Powers",
+          "t_sec": 359.676,
+          "text": "I am back."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 362.976,
+          "text": "Okay, Deputy Speaker."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 365.576,
+          "text": "Oh, and we've been joined, oh, sorry, we've been joined by Deputy Speaker."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 374.776,
+          "text": "Okay, vote is now 50 in the affirmative, zero in the negative, and no abstentions."
+        }
+      ]
+    },
+    {
+      "end_sec": 395.596,
+      "id": "012",
+      "slug": "chair-lee-holds-vote-open-for-arriving-members",
+      "start_sec": 381.096,
+      "summary": "Chair Lee says she will hold the vote open for a few more Council members who are on the way. She asks members to stay so they can vote because they need to be present.",
+      "title": "Chair Lee holds vote open for arriving members",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 381.096,
+          "text": "Okay, so I'm going to hold the vote open for a couple more council members that are on the way."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 384.996,
+          "text": "And if members could stay so that they can, so we can leave the vote open and they can vote, right?"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 390.796,
+          "text": "Because they need to be here."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 391.596,
+          "text": "Okay."
+        }
+      ]
+    },
+    {
+      "end_sec": 431.216,
+      "id": "013",
+      "slug": "chair-lee-opens-bid-hearing-and-calls-sbs-deputy-commissioner-calvin-brown",
+      "start_sec": 395.596,
+      "summary": "Chair Lee announces the committee will start the hearing on the BIDs. She introduces Deputy Commissioner Calvin Brown from the Department of Small Business Services and asks him to approach the dais and read his testimony.",
+      "title": "Chair Lee opens BID hearing and calls SBS Deputy Commissioner Calvin Brown",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 395.596,
+          "text": "And we're going to go ahead and actually start with the hearing on the bids."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 400.396,
+          "text": "So today we are being joined by our deputy commissioner, who is here to testify on behalf of SBS, Calvin Brown."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 410.696,
+          "text": "So if you would like to approach the dais and read your testimony, that would be great."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 422.616,
+          "text": "Just make sure you push the, there you go."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 427.716,
+          "text": "Go ahead."
+        }
+      ]
+    },
+    {
+      "end_sec": 449.116,
+      "id": "014",
+      "slug": "calvin-brown-sworn-in-before-bid-testimony",
+      "start_sec": 431.216,
+      "summary": "Calvin Brown says he needs to be sworn in before testifying. Council staff administers the affirmation, and Brown confirms his testimony will be truthful.",
+      "title": "Calvin Brown sworn in before BID testimony",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Calvin Brown",
+          "t_sec": 431.216,
+          "text": "I can start."
+        },
+        {
+          "speaker": "Calvin Brown",
+          "t_sec": 432.916,
+          "text": "I got to be sworn in."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 436.116,
+          "text": "So you know this better."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 440.416,
+          "text": "Please raise your right hand."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 442.116,
+          "text": "Do you affirm that your testimony will be truthful to the best of your knowledge, information, and belief?"
+        },
+        {
+          "speaker": "Calvin Brown",
+          "t_sec": 447.416,
+          "text": "I do."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 448.016,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 448.416,
+          "text": "You may proceed."
+        }
+      ]
+    },
+    {
+      "end_sec": 524.416,
+      "id": "015",
+      "slug": "calvin-brown-introduces-sbs-role-in-overseeing-bid-assessment-increases",
+      "start_sec": 449.116,
+      "summary": "Calvin Brown, Deputy Commissioner for Neighborhood Development at SBS, testifies in support of Intro 1112-A. He explains SBS oversees 78 BIDs and requires board approval, written justification, and Council support letters before assessment increases reach the Council.",
+      "title": "Calvin Brown introduces SBS role in overseeing BID assessment increases",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Calvin Brown",
+          "t_sec": 449.116,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Calvin Brown",
+          "t_sec": 450.216,
+          "text": "Hello, everyone."
+        },
+        {
+          "speaker": "Calvin Brown",
+          "t_sec": 451.116,
+          "text": "I'm Chair Lee and members of the Finance Committee."
+        },
+        {
+          "speaker": "Calvin Brown",
+          "t_sec": 453.516,
+          "text": "My name is Calvin Brown."
+        },
+        {
+          "speaker": "Calvin Brown",
+          "t_sec": 454.616,
+          "text": "I'm the Deputy Commissioner for Neighborhood Development at the Department of Small Business Services, and I'm here to testify in support of Intro 112, a bill that would authorize an increase in the amount to be expended in eight business improvement districts."
+        },
+        {
+          "speaker": "Calvin Brown",
+          "t_sec": 469.416,
+          "text": "Part of the role in overseeing and support in the city's existing network of 78 bids includes guiding them through various legislative processes, such as increases to the assessment caps and changes to the district plans."
+        },
+        {
+          "speaker": "Calvin Brown",
+          "t_sec": 483.616,
+          "text": "To propose an assessment increase, bids must complete a multi-step review process overseen by SBS."
+        },
+        {
+          "speaker": "Calvin Brown",
+          "t_sec": 490.516,
+          "text": "The bid board of directors, which includes local property owners, merchants, residents, as well as representatives from the city controller, borough president, city council, and SBS must review and approve the proposed change."
+        },
+        {
+          "speaker": "Calvin Brown",
+          "t_sec": 504.716,
+          "text": "SBS requires all..."
+        },
+        {
+          "speaker": "Calvin Brown",
+          "t_sec": 506.116,
+          "text": "bids to submit an in-depth written justification, proof of board approval, and letters of support from an overlapping or overlapping city council members."
+        },
+        {
+          "speaker": "Calvin Brown",
+          "t_sec": 516.316,
+          "text": "SBS then reviews these justifications and determines whether they are sufficient to be brought before city council."
+        }
+      ]
+    },
+    {
+      "end_sec": 548.416,
+      "id": "016",
+      "slug": "brown-details-public-notice-and-timing-requirements-for-bid-assessment-increases",
+      "start_sec": 524.416,
+      "summary": "Brown says each BID published notice of the hearing in a local newspaper, specifying the time, place, and proposed assessment change. SBS confirmed the notices were completed at least 10 days before the hearing.",
+      "title": "Brown details public notice and timing requirements for BID assessment increases",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Calvin Brown",
+          "t_sec": 524.416,
+          "text": "As required by law, each bid published a notice of today's public hearing at least once in a local newspaper having general circulation in the district specifying the time and the place of today's hearing and stating a change to their assessment amount."
+        },
+        {
+          "speaker": "Calvin Brown",
+          "t_sec": 539.816,
+          "text": "SBS collected record of these notices and confirms they were completed on time at least 10 days before today's hearing."
+        }
+      ]
+    },
+    {
+      "end_sec": 604.316,
+      "id": "017",
+      "slug": "brown-says-bid-increases-will-fund-core-services-sanitation-and-public-safety",
+      "start_sec": 548.416,
+      "summary": "Brown says SBS prioritizes assessment increases that enhance district programs and services. The increases will support supplemental sanitation and public safety services affected by inflation and minimum wage increases, and they vary by budget and district size.",
+      "title": "Brown says BID increases will fund core services, sanitation, and public safety",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Calvin Brown",
+          "t_sec": 548.416,
+          "text": "It is SBS priority that assessment increase proposals focus on enhancing programs and services provided to the district."
+        },
+        {
+          "speaker": "Calvin Brown",
+          "t_sec": 556.116,
+          "text": "Each bid proposing an assessment increase today is doing so to address vital needs and changing conditions on the ground."
+        },
+        {
+          "speaker": "Calvin Brown",
+          "t_sec": 564.016,
+          "text": "The increases will further expand, reinforce, and strengthen core services currently provided in the business districts."
+        },
+        {
+          "speaker": "Calvin Brown",
+          "t_sec": 571.716,
+          "text": "This may include funds for strengthening current services, creating new and expanding programming, and or added staff capacity."
+        },
+        {
+          "speaker": "Calvin Brown",
+          "t_sec": 579.916,
+          "text": "Additionally, portions of these increases will be used to sustain or increase current levels of supplemental sanitation,"
+        },
+        {
+          "speaker": "Calvin Brown",
+          "t_sec": 587.716,
+          "text": "public safety services that are impacted by the rising costs related to inflation and minimum wage increases."
+        },
+        {
+          "speaker": "Calvin Brown",
+          "t_sec": 596.416,
+          "text": "The proposed increases vary according to budget size, district size, and proposed changes in program and services."
+        }
+      ]
+    },
+    {
+      "end_sec": 665.316,
+      "id": "018",
+      "slug": "brown-lists-proposed-bid-assessment-increases-by-borough",
+      "start_sec": 604.316,
+      "summary": "Brown enumerates the eight proposed increases: Queens 82nd Street and Greater JFK; Manhattan 34th Street, East Mid-Manhattan, and West Village; Bronx Southern Boulevard; and Brooklyn Bay Ridge Fifth Avenue and Myrtle Avenue Brooklyn. He provides the current and proposed dollar amounts for each.",
+      "title": "Brown lists proposed BID assessment increases by borough",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Calvin Brown",
+          "t_sec": 604.316,
+          "text": "The proposed increases are Queens, 82nd Street bid from $254,450 to $304,500."
+        },
+        {
+          "speaker": "Calvin Brown",
+          "t_sec": 616.016,
+          "text": "Greater JFK bid from 500,000 to 800,000."
+        },
+        {
+          "speaker": "Calvin Brown",
+          "t_sec": 621.716,
+          "text": "In Manhattan, 34th Street bid from 14,300,000 to 16,300,000."
+        },
+        {
+          "speaker": "Calvin Brown",
+          "t_sec": 630.116,
+          "text": "East Mid-Manhattan bid from 3,500,000 to 6,000,000."
+        },
+        {
+          "speaker": "Calvin Brown",
+          "t_sec": 636.516,
+          "text": "West Village bid, $594,906 to $1,400,000."
+        },
+        {
+          "speaker": "Calvin Brown",
+          "t_sec": 643.816,
+          "text": "The Bronx Southern Boulevard bid from $200,000 to $600,000."
+        },
+        {
+          "speaker": "Calvin Brown",
+          "t_sec": 649.916,
+          "text": "And in Brooklyn, Bay Ridge Fifth Avenue bid from $534,000 to $600,000."
+        },
+        {
+          "speaker": "Calvin Brown",
+          "t_sec": 657.216,
+          "text": "And Myrtle Avenue Brooklyn bid from $575,000 to $775,000."
+        }
+      ]
+    },
+    {
+      "end_sec": 694.316,
+      "id": "019",
+      "slug": "brown-explains-multi-year-phase-in-and-annual-board-votes-for-bid-increases",
+      "start_sec": 665.316,
+      "summary": "Brown says most BIDs will phase in increases over several years to minimize impact on property owners. Each year, BID boards will vote on how much to bill starting in FY28, and representatives from each named BID are present to answer specific questions.",
+      "title": "Brown explains multi-year phase-in and annual board votes for BID increases",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Calvin Brown",
+          "t_sec": 665.316,
+          "text": "Most of these bids will phase in increases over several years to minimize the impact on property owners in their district."
+        },
+        {
+          "speaker": "Calvin Brown",
+          "t_sec": 672.216,
+          "text": "Each year, the bid board of directors will vote on how much to bill for the upcoming fiscal year starting in FY28."
+        },
+        {
+          "speaker": "Calvin Brown",
+          "t_sec": 681.816,
+          "text": "Representatives from each of the bid named in the law are present to answer any questions."
+        },
+        {
+          "speaker": "Calvin Brown",
+          "t_sec": 686.216,
+          "text": "pertaining to specific requests."
+        },
+        {
+          "speaker": "Calvin Brown",
+          "t_sec": 688.716,
+          "text": "And however, I'm happy to answer any general questions that you all may have."
+        }
+      ]
+    },
+    {
+      "end_sec": 715.416,
+      "id": "020",
+      "slug": "chair-lee-thanks-brown-and-resumes-roll-call-vote",
+      "start_sec": 694.316,
+      "summary": "Chair Lee thanks Deputy Commissioner Brown for his testimony. She pauses the BID hearing to continue the roll call now that more members are present and asks the clerk to continue.",
+      "title": "Chair Lee thanks Brown and resumes roll call vote",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 694.316,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 695.316,
+          "text": "Okay, so before I open it up to questions from my members, we're just going to continue on with the vote now that the members are here."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 701.216,
+          "text": "So we'll ask the clerk to continue."
+        }
+      ]
+    },
+    {
+      "end_sec": 729.616,
+      "id": "021",
+      "slug": "clerk-resumes-roll-call-marte-and-narcisse-vote-aye-count-reaches-17",
+      "start_sec": 715.416,
+      "summary": "The clerk continues the roll call with Council Members Marte and Narcisse. Both vote aye, and the clerk reports the vote is now 17 in the affirmative, zero in the negative, and no abstentions.",
+      "title": "Clerk resumes roll call; Marte and Narcisse vote aye, count reaches 17",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 715.416,
+          "text": "Continuation of roll call."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 716.916,
+          "text": "Council Member Marte."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 718.416,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 720.616,
+          "text": "Councilmember Narcisse."
+        },
+        {
+          "speaker": "Mercedes Narcisse",
+          "t_sec": 722.116,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 723.316,
+          "text": "Okay, and I think..."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 724.116,
+          "text": "Vote is now 17 in the affirmative."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 725.616,
+          "text": "That's okay."
+        },
+        {
+          "speaker": "Matthew DiStefano",
+          "t_sec": 726.416,
+          "text": "17 in the affirmative, zero in the negative, and no abstentions."
+        }
+      ]
+    },
+    {
+      "end_sec": 749.116,
+      "id": "022",
+      "slug": "restler-discloses-mother-s-brooklyn-heights-association-board-role",
+      "start_sec": 729.616,
+      "summary": "Chair Lee recognizes Council Member Restler, who discloses that his mother serves on the board of the Brooklyn Heights Association. He notes the transparency resolution allocates funds to that organization.",
+      "title": "Restler discloses mother's Brooklyn Heights Association board role",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 729.616,
+          "text": "And I think Councilmember Ressler has an amendment."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 732.816,
+          "text": "Thank you so much."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 733.516,
+          "text": "I would like to disclose on the record that my mom serves on the board of the Brooklyn Heights Association."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 738.616,
+          "text": "My mom is pretty great, and she does a great job for the Brooklyn Heights Association, and we are allocating funds to them in this transparency resolution."
+        },
+        {
+          "speaker": "Lincoln Restler",
+          "t_sec": 747.316,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 766.216,
+      "id": "023",
+      "slug": "chair-lee-opens-member-questions-on-bid-assessment-proposals",
+      "start_sec": 749.116,
+      "summary": "Chair Lee thanks Deputy Commissioner Brown and clarifies that the committee is not voting on the BID proposals today. She opens the floor for member questions and recognizes Council Member Mealy.",
+      "title": "Chair Lee opens member questions on BID assessment proposals",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 749.116,
+          "text": "Great."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 749.816,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 750.516,
+          "text": "Thank you, Deputy Commissioner, for allowing us to finish our vote first."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 754.316,
+          "text": "Do any members have questions or comments on any of the bids that are being proposed?"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 759.116,
+          "text": "And just to clarify, we're not voting on the bids today."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 762.816,
+          "text": "So if anyone has questions, Councilmember Mealy."
+        }
+      ]
+    },
+    {
+      "end_sec": 809.616,
+      "id": "024",
+      "slug": "council-member-mealy-asks-brown-about-brooklyn-bid-funding-disparity",
+      "start_sec": 766.216,
+      "summary": "Mealy asks why Brooklyn BIDs are not seeking increases up to $1 million, wondering whether they are not applying or their needs are smaller. Brown says it depends on the BID board's appetite and what property owners feel comfortable paying.",
+      "title": "Council Member Mealy asks Brown about Brooklyn BID funding disparity",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Darlene Mealy",
+          "t_sec": 766.216,
+          "text": "I'd just like to ask, what's the disparity?"
+        },
+        {
+          "speaker": "Darlene Mealy",
+          "t_sec": 769.216,
+          "text": "Brooklyn, it's like it's not Brooklyn."
+        },
+        {
+          "speaker": "Darlene Mealy",
+          "t_sec": 772.716,
+          "text": "All the bids is not up to a million."
+        },
+        {
+          "speaker": "Darlene Mealy",
+          "t_sec": 775.016,
+          "text": "Is that because they."
+        },
+        {
+          "speaker": "Darlene Mealy",
+          "t_sec": 776.116,
+          "text": "not applying or their need is not big enough to get to a million dollars?"
+        },
+        {
+          "speaker": "Calvin Brown",
+          "t_sec": 783.016,
+          "text": "No, we do have some bids in Brooklyn that have budgets that are of a million."
+        },
+        {
+          "speaker": "Calvin Brown",
+          "t_sec": 788.316,
+          "text": "It's really based on the appetite because these increases have to go before the board of directors."
+        },
+        {
+          "speaker": "Calvin Brown",
+          "t_sec": 793.816,
+          "text": "So when they're proposing these increases, they engage the board of directors around what they feel comfortable paying additionally."
+        },
+        {
+          "speaker": "Calvin Brown",
+          "t_sec": 800.916,
+          "text": "So it's really up to the property owners, the board of directors that sit on these bids."
+        },
+        {
+          "speaker": "Darlene Mealy",
+          "t_sec": 807.216,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 819.516,
+      "id": "025",
+      "slug": "chair-lee-closes-member-questions-on-bids",
+      "start_sec": 809.616,
+      "summary": "Chair Lee asks if any other members have questions for Deputy Commissioner Brown. Seeing none, she thanks him and closes the member question period.",
+      "title": "Chair Lee closes member questions on BIDs",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 809.616,
+          "text": "Okay, great."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 811.616,
+          "text": "Does anyone else have any questions for our deputy commissioner?"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 815.516,
+          "text": "Okay, great."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 817.016,
+          "text": "Thank you so much."
+        }
+      ]
+    },
+    {
+      "end_sec": 918.516,
+      "id": "026",
+      "slug": "chair-lee-opens-public-testimony-and-outlines-two-minute-rule",
+      "start_sec": 819.516,
+      "summary": "Chair Lee opens public testimony on Intro 1112-A. She states decorum rules, limits speakers to two minutes, prohibits video and audio recordings, and explains how to submit written testimony to the Sergeant at Arms or by email within 72 hours.",
+      "title": "Chair Lee opens public testimony and outlines two-minute rule",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 819.516,
+          "text": "Okay, and now we are going to..."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 822.716,
+          "text": "Open the hearing for public testimony."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 825.016,
+          "text": "So before we begin, I want to remind members of the public that this is a formal government proceeding and that decorum shall be observed at all times."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 833.116,
+          "text": "As such, members of the public shall remain silent at all times."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 837.716,
+          "text": "The witness table is reserved for people who wish to testify on proposed intro 11128 only."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 845.316,
+          "text": "And no video recording or photography is allowed from the witness table."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 851.516,
+          "text": "Further, members of the public may not present audio or video recordings as testimony, but may submit transcripts of such recordings to the Sergeant at Arms for inclusion in the hearing record."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 861.416,
+          "text": "If you wish to speak at today's hearing, please fill out an appearance card with the Sergeant at Arms, and we'd..."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 866.016,
+          "text": "your name to be called."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 867.516,
+          "text": "Once you have been recognized, you will have two minutes to speak on proposed intro 1112A."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 873.116,
+          "text": "If you have a written statement or additional written testimony you wish to submit for the record, please provide a copy of that testimony to the Sergeant at Arms, and you may also email written testimony to"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 885.916,
+          "text": "Testimony at council.nyc.gov within 72 hours of this hearing."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 890.516,
+          "text": "Audio and video recordings will not be accepted."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 894.516,
+          "text": "And the committee staff listen to and read every single word of your written testimony."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 899.416,
+          "text": "So if you have not, if folks have not submitted, please do so."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 904.516,
+          "text": "When you hear your name, please come up to the witness panel, and I will now call."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 908.516,
+          "text": "Do we have any?"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 910.316,
+          "text": "Okay, if there's anyone here that would like to testify, if we could just fill out the card."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 914.716,
+          "text": "And if not, anyone on Zoom?"
+        }
+      ]
+    },
+    {
+      "end_sec": 948.608,
+      "id": "027",
+      "slug": "kyle-ems-asks-whether-article-11-exemption-testimony-is-in-scope-chair-lee-says-no",
+      "start_sec": 918.516,
+      "summary": "Chair Lee recognizes Kyle Ems on Zoom. Ems asks if the committee is taking testimony on the Article 11 exemptions; Lee says no, the hearing is only for Intro 1112-A on the BIDs, and Ems says that is unfortunate.",
+      "title": "Kyle Ems asks whether Article 11 exemption testimony is in scope; Chair Lee says no",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 918.516,
+          "text": "We have one person, Kyle Ems."
+        },
+        {
+          "speaker": "Member of the Public - Kyle Ems",
+          "t_sec": 924.008,
+          "text": "Yep."
+        },
+        {
+          "speaker": "Member of the Public - Kyle Ems",
+          "t_sec": 925.008,
+          "text": "Hi."
+        },
+        {
+          "speaker": "Member of the Public - Kyle Ems",
+          "t_sec": 925.608,
+          "text": "If I understood correctly, you're not taking any testimony about the Article 11 exemptions?"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 930.208,
+          "text": "Yeah, no."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 930.408,
+          "text": "Is that correct?"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 931.808,
+          "text": "No, no, no."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 932.208,
+          "text": "Yeah, this is just for Intro 1112A for the bids."
+        },
+        {
+          "speaker": "Member of the Public - Kyle Ems",
+          "t_sec": 939.608,
+          "text": "It's unfortunate."
+        },
+        {
+          "speaker": "Member of the Public - Kyle Ems",
+          "t_sec": 940.708,
+          "text": "I don't know the avenue to provide and put on those."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 944.508,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 945.508,
+          "text": "So sorry about that."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 947.908,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 1029.828,
+      "id": "028",
+      "slug": "chair-lee-moves-to-close-public-testimony-then-recognizes-late-speaker-susan-peters",
+      "start_sec": 948.608,
+      "summary": "Chair Lee begins to close public testimony because no other speakers are present. She then notices a late in-person speaker, waits for her appearance card, and recognizes Susan Peters to testify.",
+      "title": "Chair Lee moves to close public testimony, then recognizes late speaker Susan Peters",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 948.608,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 951.508,
+          "text": "Okay, so seeing none, I think."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 956.308,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 959.548,
+          "text": "Okay, so I think that's pretty much it."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 962.748,
+          "text": "We can go ahead and close out because I don't think there's anyone here for public testimony."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 966.648,
+          "text": "So thank you all for, oh, yes, one person?"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 970.448,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 971.248,
+          "text": "Oh, you made it just on time."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 972.848,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 975.048,
+          "text": "So we have one in person, so we'll just wait for her to fill out the card."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 1018.148,
+          "text": "Okay, great."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 1019.448,
+          "text": "Okay, Susan Peters, go ahead whenever you are ready."
+        }
+      ]
+    },
+    {
+      "end_sec": 1228.216,
+      "id": "029",
+      "slug": "susan-peters-testifies-on-private-commercial-banks-creating-money-as-debt",
+      "start_sec": 1029.828,
+      "summary": "Susan Peters, a frequent speaker, testifies that private commercial banks create the money supply as debt and collect interest as profit. She submits a printout and presentation, urges Council members to research the monetary system, and links it to the affordability crisis.",
+      "title": "Susan Peters testifies on private commercial banks creating money as debt",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Susan Peters",
+          "t_sec": 1029.828,
+          "text": "Great."
+        },
+        {
+          "speaker": "Member of the Public - Susan Peters",
+          "t_sec": 1031.628,
+          "text": "Let me just get my papers out here."
+        },
+        {
+          "speaker": "Member of the Public - Susan Peters",
+          "t_sec": 1053.028,
+          "text": "Oh, here it is."
+        },
+        {
+          "speaker": "Member of the Public - Susan Peters",
+          "t_sec": 1053.828,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Member of the Public - Susan Peters",
+          "t_sec": 1058.128,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Member of the Public - Susan Peters",
+          "t_sec": 1058.628,
+          "text": "How many minutes do I get?"
+        },
+        {
+          "speaker": "Member of the Public - Susan Peters",
+          "t_sec": 1061.028,
+          "text": "Two."
+        },
+        {
+          "speaker": "Member of the Public - Susan Peters",
+          "t_sec": 1061.428,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Member of the Public - Susan Peters",
+          "t_sec": 1063.516,
+          "text": "I come every month to speak to the committee."
+        },
+        {
+          "speaker": "Member of the Public - Susan Peters",
+          "t_sec": 1074.216,
+          "text": "My name is Susan Peters, a resident of New York City."
+        },
+        {
+          "speaker": "Member of the Public - Susan Peters",
+          "t_sec": 1078.816,
+          "text": "I wish to testify to this committee about the need of the council members to understand more clearly the monetary system we all depend on."
+        },
+        {
+          "speaker": "Member of the Public - Susan Peters",
+          "t_sec": 1091.916,
+          "text": "People think of it"
+        },
+        {
+          "speaker": "Member of the Public - Susan Peters",
+          "t_sec": 1093.416,
+          "text": "as the Federal Reserve."
+        },
+        {
+          "speaker": "Member of the Public - Susan Peters",
+          "t_sec": 1095.016,
+          "text": "I call it the monetary system."
+        },
+        {
+          "speaker": "Member of the Public - Susan Peters",
+          "t_sec": 1098.016,
+          "text": "The monetary system is a system that creates the money we all need for to pay our bills."
+        },
+        {
+          "speaker": "Member of the Public - Susan Peters",
+          "t_sec": 1106.816,
+          "text": "When the council speaks about the affordability crisis, you are talking about the lack of money in citizens'hands"
+        },
+        {
+          "speaker": "Member of the Public - Susan Peters",
+          "t_sec": 1115.016,
+          "text": "to pay for the goods and services to live a decent life."
+        },
+        {
+          "speaker": "Member of the Public - Susan Peters",
+          "t_sec": 1120.116,
+          "text": "Some entity has to create the money, so there exists money that people can earn."
+        },
+        {
+          "speaker": "Member of the Public - Susan Peters",
+          "t_sec": 1126.516,
+          "text": "Most people think the money comes from our government."
+        },
+        {
+          "speaker": "Member of the Public - Susan Peters",
+          "t_sec": 1130.816,
+          "text": "This is not true."
+        },
+        {
+          "speaker": "Member of the Public - Susan Peters",
+          "t_sec": 1133.516,
+          "text": "I include for the counselors a printout of a presentation proving that private commercial banks create our money as debt to borrowers"
+        },
+        {
+          "speaker": "Member of the Public - Susan Peters",
+          "t_sec": 1145.816,
+          "text": "on which these private commercial banks"
+        },
+        {
+          "speaker": "Member of the Public - Susan Peters",
+          "t_sec": 1151.216,
+          "text": "I'll wait."
+        },
+        {
+          "speaker": "Member of the Public - Susan Peters",
+          "t_sec": 1154.716,
+          "text": "On which these private commercial banks are taking interest as profit."
+        },
+        {
+          "speaker": "Member of the Public - Susan Peters",
+          "t_sec": 1160.916,
+          "text": "Hard to believe our money supply is created by private commercial banks."
+        },
+        {
+          "speaker": "Member of the Public - Susan Peters",
+          "t_sec": 1167.316,
+          "text": "The laws have allowed this and without public scrutiny."
+        },
+        {
+          "speaker": "Member of the Public - Susan Peters",
+          "t_sec": 1171.816,
+          "text": "You and the American people are kept in the dark."
+        },
+        {
+          "speaker": "Member of the Public - Susan Peters",
+          "t_sec": 1175.716,
+          "text": "And I include here, and I have copies for everybody here and here."
+        },
+        {
+          "speaker": "Member of the Public - Susan Peters",
+          "t_sec": 1184.016,
+          "text": "It's a presentation, recent presentation, of someone who has studied the laws on banking and money."
+        },
+        {
+          "speaker": "Member of the Public - Susan Peters",
+          "t_sec": 1192.816,
+          "text": "And he proves how governments turn commercial bank debt into money."
+        },
+        {
+          "speaker": "Member of the Public - Susan Peters",
+          "t_sec": 1200.316,
+          "text": "Our money is privately created and earning interest for private entities."
+        },
+        {
+          "speaker": "Member of the Public - Susan Peters",
+          "t_sec": 1206.516,
+          "text": "This is our money supply, our entire money supply."
+        },
+        {
+          "speaker": "Member of the Public - Susan Peters",
+          "t_sec": 1210.916,
+          "text": "It's kept secret because it's not talked about in the public."
+        },
+        {
+          "speaker": "Member of the Public - Susan Peters",
+          "t_sec": 1216.016,
+          "text": "It's not talked about in schools of economics."
+        },
+        {
+          "speaker": "Member of the Public - Susan Peters",
+          "t_sec": 1221.116,
+          "text": "I'm telling you to do your own research and do good by the American public."
+        },
+        {
+          "speaker": "Member of the Public - Susan Peters",
+          "t_sec": 1226.816,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 1257.685,
+      "id": "030",
+      "slug": "chair-lee-thanks-susan-peters-and-adjourns-finance-hearing",
+      "start_sec": 1228.216,
+      "summary": "Chair Lee thanks Susan Peters for her testimony. She confirms there are no other speakers and adjourns the Finance Committee hearing.",
+      "title": "Chair Lee thanks Susan Peters and adjourns Finance hearing",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 1228.216,
+          "text": "Thank you so much, Susan."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 1231.708,
+          "text": "Okay, and with no other folks, I believe, that are set to testify, I believe that is it."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 1238.708,
+          "text": "And are this, right?"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 1240.608,
+          "text": "We don't have anyone else?"
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 1241.408,
+          "text": "Okay, perfect."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 1242.708,
+          "text": "And that concludes today's finance hearing."
+        },
+        {
+          "speaker": "Linda Lee",
+          "t_sec": 1244.908,
+          "text": "Thank you all for joining us."
+        }
+      ]
+    }
+  ],
+  "date": "2026-11-19",
+  "duration_sec": 1257.685,
+  "slug": "2026-11-19-1100-am-committee-on-finance",
+  "summary": [
+    "Committee on Finance held a hearing on Intro 1112-A, which would authorize assessment increases for eight business improvement districts.",
+    "The committee voted on a transparency resolution and three Article 11 real property tax exemption resolutions, adopting the coupled items.",
+    "SBS Deputy Commissioner Calvin Brown testified on BID review and proposed increases; public testimony included Kyle Ems on hearing scope and Susan Peters on the monetary system."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE",
+    "LAND_USE"
+  ],
+  "time": "11:00 AM",
+  "title": "Committee on Finance",
+  "topic": "Authorizing an increase in the amount to be expended annually in eight business improvement districts",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://discourse-media.qqlab.io/NYCC-PV-CH-COM_261119-111416/video-web.mp4"
+  }
+}

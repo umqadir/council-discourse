@@ -1,0 +1,482 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 34.324,
+      "id": "001",
+      "slug": "council-staff-calls-hearing-to-order-and-asks-for-device-silence",
+      "start_sec": 17.6,
+      "summary": "Council staff welcomes attendees to the New York City Council hearing for the Committee on Women and Gender Equity and asks everyone to silence cell phones and electronic devices. Staff then tells the Chair the committee is ready to begin.",
+      "title": "Council staff calls hearing to order and asks for device silence",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 17.6,
+          "text": "Good morning and welcome to today's New York City Council hearing for the Committee on Women and Gender Equity."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 22.8,
+          "text": "This time we ask you to silence all cell phones and electronic devices to minimize disruptions throughout the hearing."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 27.4,
+          "text": "Chair, we are ready to begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 52.024,
+      "id": "002",
+      "slug": "chair-far-as-opens-meeting-and-acknowledges-present-colleagues",
+      "start_sec": 34.324,
+      "summary": "Council Member Amanda C. Far\u00edas identifies herself as Chair of the Committee on Women and Gender Equity and welcomes attendees to the vote. She acknowledges Council Members Gutierrez, Shulman, and Aldebol for being present.",
+      "title": "Chair Far\u00edas opens meeting and acknowledges present colleagues",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 34.324,
+          "text": "Thank you so much and good morning, everyone."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 36.624,
+          "text": "I'm Councilmember Amanda Farias, and I'm Chair of the Committee on Women and Gender Equity."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 41.624,
+          "text": "Welcome to today's vote."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 43.124,
+          "text": "I'd like to acknowledge my colleagues who are present, Council Members Gutierrez, Shulman, Aldebol,"
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 50.824,
+          "text": "Thank you all for being here."
+        }
+      ]
+    },
+    {
+      "end_sec": 54.624,
+      "id": "003",
+      "slug": "chair-far-as-announces-two-resolutions-before-committee",
+      "start_sec": 52.024,
+      "summary": "Chair Far\u00edas states that the committee will consider two resolutions. She then moves to introduce the first item.",
+      "title": "Chair Far\u00edas announces two resolutions before committee",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 52.024,
+          "text": "Today, the committee will be considering two resolutions."
+        }
+      ]
+    },
+    {
+      "end_sec": 65.124,
+      "id": "004",
+      "slug": "resolution-441-introduced-honoring-mirabal-sisters",
+      "start_sec": 54.624,
+      "summary": "Chair Far\u00edas introduces Resolution 441, sponsored by herself, which declares November 25 as the International Day for the Elimination of Violence Against Women in honor of the Mirabal sisters. She explains the resolution's symbolic purpose.",
+      "title": "Resolution 441 introduced honoring Mirabal sisters",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 54.624,
+          "text": "First up is Resolution No."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 56.124,
+          "text": "441, sponsored by myself, declaring November 25th as the International Day for the Elimination of Violence Against Women in honor of the Mirabal sisters."
+        }
+      ]
+    },
+    {
+      "end_sec": 120.324,
+      "id": "005",
+      "slug": "far-as-cites-nyc-domestic-violence-statistics-behind-resolution-441",
+      "start_sec": 65.124,
+      "summary": "Chair Far\u00edas notes that women's rights activists have observed November 25 as a day against gender-based violence since 1981. She cites the 2025 NYC Domestic Violence Fatality Review Committee finding that females are 57.4% of domestic violence homicide victims and 78.6% of intimate partner homicide victims, arguing the designation spotlights gender-based violence in the city.",
+      "title": "Far\u00edas cites NYC domestic violence statistics behind Resolution 441",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 65.124,
+          "text": "Women's rights activists have observed November 25th as a day against gender-based violence since 1981."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 71.924,
+          "text": "The International Day for the Elimination of Violence Against Women is observed annually to raise awareness about the pervasive issue of violence against women and girls and calls for governments, organizations, and individuals to take action against gender-based violence."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 85.624,
+          "text": "In New York City, violence against women remains a critical safety issue with the 2025 New York City Domestic Violence Fatality Review Committee reporting that females account for the majority, 57.4% of all domestic violence homicide victims."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 100.524,
+          "text": "And 78.6% of intimate partner homicide victims."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 104.124,
+          "text": "By designating November 25th as the International Day for the Elimination of Violence Against Women in New York City, it puts a spotlight on the prevalence of gender-based violence in the city and reaffirms the city's commitment to make"
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 117.524,
+          "text": "this place a safer place for all people."
+        }
+      ]
+    },
+    {
+      "end_sec": 139.424,
+      "id": "006",
+      "slug": "resolution-637-introduced-on-lactation-consultation-insurance-coverage",
+      "start_sec": 120.324,
+      "summary": "Chair Far\u00edas introduces Resolution 637, sponsored by Council Member Santosuosso and herself. The resolution calls on the New York State Legislature and Governor to require insurers to cover all lactation consultation and counseling services without restrictions and reimburse providers accordingly.",
+      "title": "Resolution 637 introduced on lactation consultation insurance coverage",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 120.324,
+          "text": "The committee will also be considering Resolution No."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 122.924,
+          "text": "637, sponsored by Councilmember Santos-Woso and myself, calling on the New York State Legislature to pass and the Governor to sign legislation requiring insurers to cover all lactation consultation"
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 134.724,
+          "text": "and counseling services without restrictions and reimburse providers accordingly."
+        }
+      ]
+    },
+    {
+      "end_sec": 193.424,
+      "id": "007",
+      "slug": "far-as-details-barriers-and-insurer-restrictions-on-lactation-services",
+      "start_sec": 139.424,
+      "summary": "Chair Far\u00edas says research shows breastfeeding provides the best nutrition for most infants and that lactation consultants support parents with breastfeeding challenges. She identifies high out-of-pocket costs and confusing insurance coverage as top barriers, and says insurers like UnitedHealthcare, Blue Cross Blue Shield, and Cigna have restricted billing by treating the birthing parent and baby as one patient or contracting with a single lactation provider organization.",
+      "title": "Far\u00edas details barriers and insurer restrictions on lactation services",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 139.424,
+          "text": "Research shows that breastfeeding provides the best nutrition source for most infants."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 144.824,
+          "text": "Lactation consultants are trained professionals equipped to support parents with breastfeeding challenges."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 150.124,
+          "text": "Studies have shown that the top barriers for accessing lactation consultation services were high out-of-pocket expenses for consultation, visits, and confusing insurance coverage."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 160.324,
+          "text": "In recent years, insurers like UnitedHealthcare, Blue Cross Blue Shield, and Cigna Healthcare have restricted billing and payment for lactation services by treating the birthing parent and baby as one patient"
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 172.224,
+          "text": "or by contracting with a single lactation provider organization for all in-network care."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 177.724,
+          "text": "State legislation requiring insurance carriers to pay lactation consultants for all the services they provide would recognize the importance of breastfeeding care and would enable parents who choose to breastfeed to have comprehensive support for the health of their infants and themselves."
+        }
+      ]
+    },
+    {
+      "end_sec": 234.524,
+      "id": "008",
+      "slug": "chair-reads-lead-sponsor-statement-from-council-member-santosuosso",
+      "start_sec": 193.424,
+      "summary": "Chair Far\u00edas reads a statement from Resolution 637's lead sponsor, Council Member Santosuosso, thanking Chair Far\u00edas, the bill drafter, and the Speaker's Office. The statement says that despite decades of research on lactation consultation benefits, insurance companies are still not mandated to cover these services.",
+      "title": "Chair reads lead sponsor statement from Council Member Santosuosso",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 193.424,
+          "text": "I will now read a statement from the resolution's lead sponsor, Councilmember Sanzuzoso."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 200.124,
+          "text": "I want to express my deep gratitude to Chair Farias for including Resolution 637 on the committee agenda today, and I want to give special thanks to the bill drafter and the Speaker's Office for allowing us to take"
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 210.324,
+          "text": "the lead on this critical piece of legislation."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 213.024,
+          "text": "Despite decades of research demonstrating the clear health benefits of lactation consultation for babies and their caregivers alike, insurance companies are still not mandated to cover these types of services."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 224.324,
+          "text": "This resolution calls on the state government to rectify this situation and ensure that lactation consultation and counseling services are covered and reimbursed without restrictions."
+        }
+      ]
+    },
+    {
+      "end_sec": 299.024,
+      "id": "009",
+      "slug": "santosuosso-statement-urges-state-action-on-lactation-coverage-disparities",
+      "start_sec": 234.524,
+      "summary": "The statement read by Chair Far\u00edas says early breastfeeding difficulties often force people to stop without professional support, and that disparities are rooted in systemic racism. It cites the U.S. Department of Health and Human Services on board-certified lactation consultants and calls on the Governor and Legislature to pass legislation ensuring access without out-of-pocket costs.",
+      "title": "Santosuosso statement urges state action on lactation coverage disparities",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 234.524,
+          "text": "Difficulties early"
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 236.324,
+          "text": "on often force people to discount breastfeeding many times without seeking professional advice or support."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 242.624,
+          "text": "Research suggests that many of the disparities are rooted in systemic racism, which further perpetuates health disparities later in life."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 250.424,
+          "text": "The U.S."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 250.824,
+          "text": "Department of Health and Human Services has reaffirmed that international board certification lactation consultants and other professionals are equipped to help parents navigate their challenges with breastfeeding."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 261.424,
+          "text": "This greatly improves the chance that families will reach their infant feeding goals."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 266.424,
+          "text": "Given the clear health benefits to children and caregivers, there is no reason that lactation consultation should not be covered by health insurance companies in the state of New York."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 276.324,
+          "text": "This resolution calls on the governor and state legislature to draft and pass legislation that will ensure"
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 282.124,
+          "text": "All New Yorkers have access to these critical services without having to pay out of pocket."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 286.724,
+          "text": "Thank you to all of my colleagues on the Women and Gender Equity Committee for taking the time to consider this essential piece of legislation."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 294.424,
+          "text": "That's the end of her statement, and I thank Councilmember Santos-Wilso for providing it."
+        }
+      ]
+    },
+    {
+      "end_sec": 320.724,
+      "id": "010",
+      "slug": "chair-far-as-thanks-staff-and-calls-for-the-vote",
+      "start_sec": 299.024,
+      "summary": "Chair Far\u00edas thanks her staff, Dan Curtin and Josephine Karras, and committee staff Julia Goldsmith-Pinkham, Katie Salina, and Ali Stauffer for preparing the meeting. Seeing no other hands for statements, she tells the Clerk the committee is ready to begin the vote.",
+      "title": "Chair Far\u00edas thanks staff and calls for the vote",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 299.024,
+          "text": "Finally, I would like to..."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 300.224,
+          "text": "to thank my own staff, Dan Curtin and Josephine Karras, and the members of the Women and Gender Equity Committee staff, Senior Committee Counsel Julia Goldsmith-Pinkham, and Legislative Policy Analyst Katie Salina, and Financial Analyst Ali Stauffer, who worked to prepare this meeting."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 315.624,
+          "text": "Seeing no other hands for statements, Clerk, we are ready to begin the vote."
+        }
+      ]
+    },
+    {
+      "end_sec": 350.228,
+      "id": "011",
+      "slug": "clerk-ben-jacobs-conducts-coupled-roll-call-on-res-441-and-637",
+      "start_sec": 320.724,
+      "summary": "Committee Clerk Ben Jacobs announces the roll-call vote for Resolution 441 and Resolution 637, noting both items are coupled. He calls Chair Farias and Council Members Gutierrez, Shulman, Aldebol, and Santos-Hoso, who vote aye.",
+      "title": "Clerk Ben Jacobs conducts coupled roll call on Res 441 and 637",
+      "type": "ROLL_CALL",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 320.724,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 321.624,
+          "text": "Ben Jacobs, Committee Clerk, City Council Committee on Women and Gender Equity."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 325.624,
+          "text": "This is the roll call vote for Resolution 441 and 637."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 330.224,
+          "text": "Both items are coupled."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 331.824,
+          "text": "Chair Farias."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 332.824,
+          "text": "Aye, vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 334.924,
+          "text": "Councilmember Gutierrez."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 336.724,
+          "text": "Aye, vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 337.124,
+          "text": "Congrats."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 339.024,
+          "text": "Councilmember Shulman."
+        },
+        {
+          "speaker": "Lynn C. Schulman",
+          "t_sec": 340.824,
+          "text": "Aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 342.324,
+          "text": "Councilmember Aldable."
+        },
+        {
+          "speaker": "Shirley Aldebol",
+          "t_sec": 344.324,
+          "text": "Aye, vote aye."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 346.224,
+          "text": "Councilmember Santos-Hoso."
+        }
+      ]
+    },
+    {
+      "end_sec": 356.428,
+      "id": "012",
+      "slug": "committee-adopts-res-441-and-res-637-with-all-affirmative-votes",
+      "start_sec": 350.228,
+      "summary": "The Clerk announces that all votes are in favor, none are negative, and there are no abstentions. Both coupled items are adopted.",
+      "title": "Committee adopts Res 441 and Res 637 with all affirmative votes",
+      "type": "VOTE_OUTCOME",
+      "utterances": [
+        {
+          "speaker": "Council Staff",
+          "t_sec": 350.228,
+          "text": "I vote in favor of the affirmative, none in the negative, and no abstentions."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 354.028,
+          "text": "The items are adopted."
+        }
+      ]
+    },
+    {
+      "end_sec": 363.371,
+      "id": "013",
+      "slug": "chair-far-as-thanks-clerk-and-adjourns-hearing",
+      "start_sec": 356.428,
+      "summary": "Chair Far\u00edas thanks the Clerk. She then declares the hearing adjourned.",
+      "title": "Chair Far\u00edas thanks clerk and adjourns hearing",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 356.428,
+          "text": "Thank you, clerk."
+        },
+        {
+          "speaker": "Amanda C. Far\u00edas",
+          "t_sec": 357.528,
+          "text": "This hearing is now adjourned."
+        }
+      ]
+    }
+  ],
+  "date": "2026-11-19",
+  "duration_sec": 363.371,
+  "slug": "2026-11-19-1030-am-committee-on-women-and-gender-equity",
+  "summary": [
+    "The Committee on Women and Gender Equity held a hearing and vote on Res 0441-2026 recognizing November 25 as the International Day for the Elimination of Violence Against Women in honor of the Mirabal sisters, and Res 0637-2026 urging New York State to require insurance coverage for lactation consultation and counseling.",
+    "Chair Amanda C. Far\u00edas presented both resolutions, summarized domestic violence statistics and lactation coverage barriers, and read a statement from lead sponsor Council Member Kayla Santosuosso on Res 0637.",
+    "The committee conducted a coupled roll-call vote; all members present voted aye, both resolutions were adopted, and the hearing was adjourned."
+  ],
+  "tags": [
+    "HEARING",
+    "VOTE"
+  ],
+  "time": "10:30 AM",
+  "title": "Committee on Women and Gender Equity",
+  "topic": "Declaring November 25 as the \u201cInternational day for the Elimination of Violence Against Women.\u201d",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://discourse-media.qqlab.io/NYCC-250-8-3_261119-104022/video-web.mp4"
+  }
+}
