@@ -1,0 +1,4044 @@
+{
+  "body": "New York City Council",
+  "chapters": [
+    {
+      "end_sec": 110.6,
+      "id": "001",
+      "slug": "pre-hearing-exchange-and-staff-housekeeping",
+      "start_sec": 9.3,
+      "summary": "An unidentified speaker asks Justin if he is filling in for Ted. Council staff then calls the hearing to order, asks attendees to silence devices, and directs anyone with questions or testimony to the Sergeant at Arms.",
+      "title": "Pre-hearing exchange and staff housekeeping",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "UNKNOWN",
+          "t_sec": 9.3,
+          "text": "So Justin, you're instead of Ted?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 89.0,
+          "text": "Good afternoon."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 90.0,
+          "text": "Welcome to the New York City Council Subcommittee Hearing on Landmarks, Public Siding, Resiliency, and Disposition."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 97.7,
+          "text": "At this time, please put all devices on silent."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 100.7,
+          "text": "Going forward, no one is to approach the dais."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 103.1,
+          "text": "If you have any questions or wish to testify, please see one of us, Sergeant at Arms."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 107.2,
+          "text": "Chair, you may begin."
+        }
+      ]
+    },
+    {
+      "end_sec": 153.1,
+      "id": "002",
+      "slug": "chair-marte-convenes-hearing-and-outlines-hybrid-format",
+      "start_sec": 110.6,
+      "summary": "Chair Marte opens the meeting, introduces himself and colleagues Hanks and Encarnacion, and notes three proposals on the agenda. He explains the hybrid format and gives remote testimony registration instructions.",
+      "title": "Chair Marte convenes hearing and outlines hybrid format",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 110.6,
+          "text": "Gobble, gobble."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 111.6,
+          "text": "Good afternoon."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 113.1,
+          "text": "Welcome to a meeting of the Subcommittee on Landmarks, Public Siting, Resiliency, and Disposition."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 118.9,
+          "text": "I'm Councilmember Christopher Marte."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 120.3,
+          "text": "I'm the chair of the subcommittee."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 121.9,
+          "text": "I'm joined today with my colleagues, Councilmember Hanks and Encarnacion."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 126.7,
+          "text": "Today we'll be holding hearings on three proposals."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 129.8,
+          "text": "Before we begin today's agenda, I'll remind everyone that this meeting is being held in a hybrid format."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 135.3,
+          "text": "For members of the public who wish to testify remotely, we ask that you first register online, and you may do so now by visiting www.council.nyc.gov"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 146.5,
+          "text": "slash land use to sign up and then sign into the Zoom and remain signed in until you have testified."
+        }
+      ]
+    },
+    {
+      "end_sec": 215.9,
+      "id": "003",
+      "slug": "chair-marte-details-testimony-procedures-and-decorum",
+      "start_sec": 153.1,
+      "summary": "Marte explains how in-person and written testimony will be handled, including the landusetestimony email and LU number requirement. He also lays out decorum rules, the witness table, and restrictions on video/audio recording.",
+      "title": "Chair Marte details testimony procedures and decorum",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 153.1,
+          "text": "For anybody here in person today and wish to testify, if you have not already done so, please see one of the Sergeant of Arms to fill out a speaker card and we will call your name at the appropriate time."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 165.0,
+          "text": "For anyone wishing to submit written testimony on the items being heard today, we ask that you please send it via email to landusetestimony at council.nyc.gov,"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 177.2,
+          "text": "including the LU number and or project name."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 180.1,
+          "text": "in the subject line of your email."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 182.2,
+          "text": "Video and audio testimony will not be accepted."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 185.2,
+          "text": "I remind members of the public that this is a governmental proceeding and that decorum shall be observed at all times."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 191.3,
+          "text": "As such, member of the public shall remain silent unless and until called to testify."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 196.4,
+          "text": "The witness table is reserved for people who wish to testify."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 199.6,
+          "text": "No video recording or photography is allowed from the witness table."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 203.6,
+          "text": "Further, members of the public may not present audio or video recording as testimony, but may submit transcripts of such recording to the sergeant for inclusion in the hearing record."
+        }
+      ]
+    },
+    {
+      "end_sec": 285.2,
+      "id": "004",
+      "slug": "chair-marte-opens-hearing-on-110-east-138th-street-63-exterior-street",
+      "start_sec": 215.9,
+      "summary": "Marte opens the public hearing for LU 161, 162, and 163 for 110 East 138th Street and 63 Exterior Street. He describes HPD and Phipps Housing's plan for 537 income-restricted units and the requested UDAAP, disposition, special permit, and waterfront authorizations.",
+      "title": "Chair Marte opens hearing on 110 East 138th Street/63 Exterior Street",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 215.9,
+          "text": "I now open a public hearing for LU 161, 162, and 163 for 110 East 138th Street, 63 Exterior Street."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 226.9,
+          "text": "Application by HPD and Phillips Housing seeking a series of actions to facilitate the development of two mixed-use buildings containing 537 total income-restricted units."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 240.5,
+          "text": "Commercial and..."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 241.8,
+          "text": "Community facility space, and publicly accessible open space in the Bronx Community District 1 and Councilmember Encarnacion's District."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 250.0,
+          "text": "The actions sought include the designation of an urban development action area, disposition of city-owned site,"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 258.2,
+          "text": "special permit to modify height and bulk requirements, and an authorization to modify requirements for the waterfront public access area."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 266.2,
+          "text": "Appearing today on this proposal are Justin Dolan,"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 270.8,
+          "text": "Rhea Tong and Nina."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 275.0,
+          "text": "Oh, you."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 277.3,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 278.3,
+          "text": "Villanova."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 279.2,
+          "text": "But first, we will have a statement by the local council member."
+        }
+      ]
+    },
+    {
+      "end_sec": 405.5,
+      "id": "005",
+      "slug": "council-member-encarnaci-n-supports-100-affordable-bronx-waterfront-project",
+      "start_sec": 285.2,
+      "summary": "Council Member Encarnaci\u00f3n says she has worked on the project for years and praises its 100% affordability, senior housing, waterfront access, park space, dog run, and Passive House design. She expresses support and looks forward to questioning the development team.",
+      "title": "Council Member Encarnaci\u00f3n supports 100% affordable Bronx waterfront project",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 285.2,
+          "text": "Good afternoon, and thank you, Chair, for the opportunity to give a statement regarding this proposal."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 290.6,
+          "text": "I have been involved with this project for many years."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 293.7,
+          "text": "In fact, when I first joined the office of the previous Deputy Speaker, this project was part of my portfolio."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 299.7,
+          "text": "Having not only followed its progress, but actively engaged in it, I've had the opportunity to witness the commitment and collaboration that have gone into bringing this development forward."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 309.6,
+          "text": "Throughout this process, the project team, the development partners, HPD, they have all worked alongside our office and the community to ensure that this project is responsive to the needs of the neighborhood."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 321.5,
+          "text": "This included establishing a community advisory board, conducting multiple site visits, and working to ensure that important neighborhood concerns, including traffic and transportation considerations, were brought to the attention of the Department of Transportation."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 335.6,
+          "text": "In the Bronx, many waterfront developments have been developed, and unfortunately, many of them did not take advantage of the HPD subsidies that would have brought in more affordable housing to the district."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 346.5,
+          "text": "This project, however, is 100% affordable, has dedicated senior housing, permits greater access to our waterfront, provides public park space, as well as a dog run, and as a proud member of the Animal Caucus, I support."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 360.0,
+          "text": "for that, as well as environmentally sustainable development through its passive house design, which for the South Bronx is particularly important."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 370.3,
+          "text": "This is exactly the kind of investments that our community in the Bronx needs and deserves."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 374.8,
+          "text": "We need development that does more than simply add housing."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 377.9,
+          "text": "We need projects that thoughtfully addresses the needs of existing residents, creates opportunities, improves our neighborhoods, and contributes to a more sustainable future."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 387.9,
+          "text": "I'm happy that we are finally at this point of the process, and I'm confident that the answers to the questions asked today will prove that this development will be a great benefit to this district."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 398.1,
+          "text": "So I'm here to ask questions."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 400.1,
+          "text": "I am in support of this project, and I'm looking forward to the conversation."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 404.0,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 451.504,
+      "id": "006",
+      "slug": "panel-sworn-in-for-bronx-waterfront-project",
+      "start_sec": 405.5,
+      "summary": "Marte reminds remote witnesses to register and asks panelists to turn on microphones. Council staff administers the affirmation to Rhea Tong, Justin Dolan, and Nina Villanueva.",
+      "title": "Panel sworn in for Bronx waterfront project",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 405.5,
+          "text": "Great."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 405.8,
+          "text": "Thank you, Council Member."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 407.1,
+          "text": "Again, those wishing to testify remotely must register online by visiting the Council website at council.nyc.gov."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 416.2,
+          "text": "Panelists, please ensure that your microphone is on."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 419.5,
+          "text": "Council, would you please administer the affirmation?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 422.6,
+          "text": "Would you please raise your right hand and state your names for the record?"
+        },
+        {
+          "speaker": "Member of the Public",
+          "t_sec": 428.7,
+          "text": "Rayatong."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 431.1,
+          "text": "Justin Damlin."
+        },
+        {
+          "speaker": "Member of the Public",
+          "t_sec": 432.8,
+          "text": "Nina Villanueva."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 434.3,
+          "text": "And do you affirm to tell the truth, the whole truth, and nothing but the truth in your testimony before this subcommittee and an answer to all council member questions?"
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 442.5,
+          "text": "I do."
+        },
+        {
+          "speaker": "Member of the Public",
+          "t_sec": 443.9,
+          "text": "I do."
+        },
+        {
+          "speaker": "Member of the Public",
+          "t_sec": 444.4,
+          "text": "I do."
+        }
+      ]
+    },
+    {
+      "end_sec": 532.424,
+      "id": "007",
+      "slug": "hpd-presents-site-location-and-existing-conditions-for-63-exterior-street",
+      "start_sec": 451.504,
+      "summary": "Justin Dolan of HPD presents the site south of the Madison Avenue Bridge between the Major Deegan and the Harlem River. He notes three tax lots: one privately owned former auto auction building and two city-owned lots leased to a moving company.",
+      "title": "HPD presents site location and existing conditions for 63 Exterior Street",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Justin Dolan",
+          "t_sec": 451.504,
+          "text": "Good morning, Chair Marte and members of the subcommittee."
+        },
+        {
+          "speaker": "Justin Dolan",
+          "t_sec": 458.104,
+          "text": "We're very pleased to be here to present this project for you today."
+        },
+        {
+          "speaker": "Justin Dolan",
+          "t_sec": 461.104,
+          "text": "My name is Justin Donlan."
+        },
+        {
+          "speaker": "Justin Dolan",
+          "t_sec": 462.504,
+          "text": "I'm the Deputy Director of Land Use and Stakeholder Engagement for the Government Affairs Division at HPD."
+        },
+        {
+          "speaker": "Justin Dolan",
+          "t_sec": 468.904,
+          "text": "Filling in for fan favorite Ted Weinstein."
+        },
+        {
+          "speaker": "Justin Dolan",
+          "t_sec": 473.604,
+          "text": "So if you go to the first slide, please."
+        },
+        {
+          "speaker": "Justin Dolan",
+          "t_sec": 480.504,
+          "text": "So as you can see here, the development site is located just south of the Madison Avenue Bridge between the Major Deegan Expressway and the river."
+        },
+        {
+          "speaker": "Justin Dolan",
+          "t_sec": 491.304,
+          "text": "And if you could head over to the next slide, please."
+        },
+        {
+          "speaker": "Justin Dolan",
+          "t_sec": 496.748,
+          "text": "So the site's comprised of three tax lots."
+        },
+        {
+          "speaker": "Justin Dolan",
+          "t_sec": 500.748,
+          "text": "One is privately owned by the development team, and two lots are city-owned."
+        },
+        {
+          "speaker": "Justin Dolan",
+          "t_sec": 507.348,
+          "text": "Today, the privately owned lot contains a vacant former auto auction building, which you can see in the frame there as is labeled, which will ultimately be demolished to make way for the new housing."
+        },
+        {
+          "speaker": "Justin Dolan",
+          "t_sec": 519.348,
+          "text": "The two city-owned lots are currently occupied by the padded wagon moving company, which the city leases."
+        },
+        {
+          "speaker": "Justin Dolan",
+          "t_sec": 526.548,
+          "text": "And if you could proceed to the next slide."
+        }
+      ]
+    },
+    {
+      "end_sec": 603.312,
+      "id": "008",
+      "slug": "hpd-outlines-rezoning-context-and-required-land-use-actions",
+      "start_sec": 532.424,
+      "summary": "Dolan explains that recent waterfront rezonings produced little affordable housing because developments did not use HPD programs. He lists required UDAAP, disposition, and waterfront-related actions for the project.",
+      "title": "HPD outlines rezoning context and required land use actions",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Justin Dolan",
+          "t_sec": 532.424,
+          "text": "So since the city's rezonings, the waterfront and lower concourse have experienced a wave of new development, which is illustrated on the map here."
+        },
+        {
+          "speaker": "Justin Dolan",
+          "t_sec": 542.224,
+          "text": "These developments, however, did not utilize HPD programs, and as a result, they have produced relatively little affordable housing."
+        },
+        {
+          "speaker": "Justin Dolan",
+          "t_sec": 551.324,
+          "text": "So what that means is we have a real opportunity here to provide a transformative project and an opportunity to reshape that dynamic by introducing a significant number of 100% affordable housing units on the waterfront."
+        },
+        {
+          "speaker": "Justin Dolan",
+          "t_sec": 566.824,
+          "text": "If you could proceed to the next slide."
+        },
+        {
+          "speaker": "Justin Dolan",
+          "t_sec": 572.464,
+          "text": "So there's a number of UERP and related actions required to facilitate development of this project."
+        },
+        {
+          "speaker": "Justin Dolan",
+          "t_sec": 578.664,
+          "text": "And that includes UERP land use actions, including the disposition of city-owned land and an urban development action area designation."
+        },
+        {
+          "speaker": "Justin Dolan",
+          "t_sec": 587.164,
+          "text": "And additionally, because of the unique shape of the waterfront, the site calls for additional actions to ensure that the proposed development meets applicable waterfront requirements."
+        },
+        {
+          "speaker": "Justin Dolan",
+          "t_sec": 598.764,
+          "text": "We can go to the next slide."
+        }
+      ]
+    },
+    {
+      "end_sec": 686.496,
+      "id": "009",
+      "slug": "douglaston-and-phipps-present-537-unit-affordable-housing-program",
+      "start_sec": 603.312,
+      "summary": "Rhea Tong of Douglaston Development introduces the joint venture with Phipps Houses. She describes 183 senior units in the north building and about 350 family units in the south building, with rents up to 80% AMI and average incomes below 50% AMI.",
+      "title": "Douglaston and Phipps present 537-unit affordable housing program",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 603.312,
+          "text": "Thank you, Justin."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 606.212,
+          "text": "Hi, I'm Rhea Tong with Douglaston Development."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 608.812,
+          "text": "Our development team is a joint venture between FIPS Houses and Douglaston Development."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 613.712,
+          "text": "FIPS is a nonprofit affordable housing developer with an affiliate social services company, FIPS Neighborhoods, and Douglaston Development is a New York City-based development company with affiliate construction and management companies."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 626.312,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 631.212,
+          "text": "The development will bring over 500 new affordable housing units to this waterfront site."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 636.112,
+          "text": "The north building will consist of 183 units of affordable senior housing, and the south building will consist of approximately 350 units of affordable housing geared predominantly for families."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 650.512,
+          "text": "We anticipate the development will be financed through HPD and HDC's affordable housing programs."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 655.912,
+          "text": "We also anticipate the capital stack to include investment tax credits for geothermal and solar arrays and brownfield tax credits."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 663.412,
+          "text": "Rents will be set at a maximum of 80% of AMI with incomes ranging, averaging below 50% of AMI."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 671.512,
+          "text": "There will be retail space programmed at the North Building, community facility space programmed at the South Building, and dedicated on-site social service space at the North Building as well."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 681.612,
+          "text": "Next slide, please."
+        }
+      ]
+    },
+    {
+      "end_sec": 754.384,
+      "id": "010",
+      "slug": "development-team-details-shared-lobby-and-waterfront-open-space",
+      "start_sec": 686.496,
+      "summary": "Tong highlights the shared lobby with 24/7 security and its goal of intergenerational community. She also describes over 25,000 square feet of shore public walkway, 8,000 square feet of additional open space, and a shared street on East 138th Street.",
+      "title": "Development team details shared lobby and waterfront open space",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 686.496,
+          "text": "A big feature of this development is the shared lobby."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 689.396,
+          "text": "It's designed to be transparent to encourage visibility of the waterfront for pedestrians and visibility of the street from within the lobby."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 698.696,
+          "text": "The shared lobby will also have 24-7 front desk security presence."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 703.696,
+          "text": "The philosophy of this shared lobby is twofold."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 706.496,
+          "text": "First, it's to improve safety and security at the site, and secondly, it's to promote intergenerational connections and foster a sense of community by having the senior building residents and the family building residents enter from a common entrance."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 720.296,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 724.484,
+          "text": "Another big feature of this project is the public open space we are bringing to the waterfront."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 729.584,
+          "text": "We'll be introducing over 25,000 square feet of shore public walkway space."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 734.984,
+          "text": "We'll also be providing an additional 8,000 square feet of public open space."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 740.384,
+          "text": "In addition, we're designing a shared street along East 138th Street that will predominantly serve pedestrians and incorporate various landscaping and beautification."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 749.984,
+          "text": "Next slide, please."
+        }
+      ]
+    },
+    {
+      "end_sec": 801.88,
+      "id": "011",
+      "slug": "rendering-walkthrough-highlights-oak-point-link-and-active-waterfront-uses",
+      "start_sec": 754.384,
+      "summary": "Tong walks through renderings of the site's south end, including the dog run, play area, and fitness areas. She notes the site's adjacency to the Oak Point Link freight rail line and shows the waterfront view from the Harlem River.",
+      "title": "Rendering walkthrough highlights Oak Point Link and active waterfront uses",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 754.384,
+          "text": "This is a view south and shows the access to the waterfront from the north end of the site."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 759.384,
+          "text": "It also illustrates the adjacency to the Oak Point Link."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 763.684,
+          "text": "The Oak Point Link is a freight rail line with trains that run approximately once or twice a day."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 771.584,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 775.88,
+          "text": "And this is a visual of the southern end of the site where much of the active programming is sited."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 780.58,
+          "text": "You can see the dog run located in the foreground of the site and the play area and fitness areas behind that."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 788.58,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 792.78,
+          "text": "And here's a view of the waterfront from the Harlem River."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 797.68,
+          "text": "And next I'll pass it along to Nina."
+        }
+      ]
+    },
+    {
+      "end_sec": 866.08,
+      "id": "012",
+      "slug": "phipps-presents-passive-house-and-flood-resilience-features",
+      "start_sec": 801.88,
+      "summary": "Nina Villanueva of Phipps Houses presents the project's sustainable and resilient design. Both buildings will meet Passive House standards, use solar and geothermal energy, and be raised over four feet above the required base flood elevation.",
+      "title": "Phipps presents Passive House and flood-resilience features",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Nina Villanueva",
+          "t_sec": 801.88,
+          "text": "Hello, my name is Nina Villanueva."
+        },
+        {
+          "speaker": "Nina Villanueva",
+          "t_sec": 803.68,
+          "text": "I'm with Phipps Houses, and I will continue our presentation, starting by discussing the project's sustainable and resilient design."
+        },
+        {
+          "speaker": "Nina Villanueva",
+          "t_sec": 811.78,
+          "text": "Both buildings will be designed to Passive House standards and will also be using renewable energy in the form of solar panels and geothermal heat pumps."
+        },
+        {
+          "speaker": "Nina Villanueva",
+          "t_sec": 821.08,
+          "text": "The project also has a number of green infrastructure elements, including hundreds of feet of new plantings along East 135th Street, the shared street, and the short public walkway."
+        },
+        {
+          "speaker": "Nina Villanueva",
+          "t_sec": 830.98,
+          "text": "Additionally, given the project's close proximity to the water, our design also implements flood and stormwater mitigation components, including raising the buildings above the 100-year floodplain."
+        },
+        {
+          "speaker": "Nina Villanueva",
+          "t_sec": 841.68,
+          "text": "The base flood elevation requirement is 11 feet, and our development is 15.4 feet, making it over 4 feet higher than required."
+        },
+        {
+          "speaker": "Nina Villanueva",
+          "t_sec": 851.18,
+          "text": "The project has water to the west of it and a pretty busy intersection to the east, which is why we'll also be implementing a number of site circulation improvements, which I will talk about on the next slide."
+        },
+        {
+          "speaker": "Nina Villanueva",
+          "t_sec": 862.88,
+          "text": "Next slide."
+        }
+      ]
+    },
+    {
+      "end_sec": 922.992,
+      "id": "013",
+      "slug": "phipps-details-pedestrian-bike-loading-and-senior-shuttle-circulation",
+      "start_sec": 866.08,
+      "summary": "Villanueva details site circulation improvements, including widened sidewalks, a planted buffer between pedestrians and bikes, bollards, and a loading zone. She also introduces a proposed senior shuttle with a route designed around health clinics, grocery stores, and banks.",
+      "title": "Phipps details pedestrian, bike, loading, and senior shuttle circulation",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Nina Villanueva",
+          "t_sec": 866.08,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Nina Villanueva",
+          "t_sec": 868.08,
+          "text": "So from this chart, you can see the waste pickup area in blue."
+        },
+        {
+          "speaker": "Nina Villanueva",
+          "t_sec": 872.28,
+          "text": "We'll also be widening the sidewalks to facilitate a protected pedestrian area, which wraps around the entire development in red."
+        },
+        {
+          "speaker": "Nina Villanueva",
+          "t_sec": 880.08,
+          "text": "And then on East 135th Street, the pedestrian area will be bifurcated from the purple bike area by a planted buffer zone."
+        },
+        {
+          "speaker": "Nina Villanueva",
+          "t_sec": 887.98,
+          "text": "And then we'll also have bollards at medians and corners of the sidewalk."
+        },
+        {
+          "speaker": "Nina Villanueva",
+          "t_sec": 892.38,
+          "text": "In yellow, we have our loading zone, and that's designed for convenience and safety and will also be used as a bike dismount area."
+        },
+        {
+          "speaker": "Nina Villanueva",
+          "t_sec": 898.98,
+          "text": "Additionally, the space will also be used as a pickup and drop-off location for our proposed senior shuttle."
+        },
+        {
+          "speaker": "Nina Villanueva",
+          "t_sec": 904.98,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Nina Villanueva",
+          "t_sec": 908.792,
+          "text": "This is our proposed shuttle route, and it was designed with input from local members of the community to include health clinics, grocery stores, and retail banks."
+        },
+        {
+          "speaker": "Nina Villanueva",
+          "t_sec": 917.192,
+          "text": "It also includes stops at local senior facilities to promote integration within the surrounding community."
+        }
+      ]
+    },
+    {
+      "end_sec": 1024.156,
+      "id": "014",
+      "slug": "phipps-outlines-unit-mix-changes-ami-rents-and-community-engagement",
+      "start_sec": 922.992,
+      "summary": "Villanueva explains changes to the family building's unit mix, adding one- and two-bedroom units and nearly doubling HPD's minimum for family-sized units. She also presents AMI rents and summarizes five years of community engagement.",
+      "title": "Phipps outlines unit mix changes, AMI rents, and community engagement",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Nina Villanueva",
+          "t_sec": 922.992,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Nina Villanueva",
+          "t_sec": 926.792,
+          "text": "Moving over to our unit mix, we have building one, which is intended to be our senior building."
+        },
+        {
+          "speaker": "Nina Villanueva",
+          "t_sec": 931.192,
+          "text": "So we have a mix of studios and one bedrooms."
+        },
+        {
+          "speaker": "Nina Villanueva",
+          "t_sec": 934.092,
+          "text": "Building two is intended for families."
+        },
+        {
+          "speaker": "Nina Villanueva",
+          "t_sec": 936.192,
+          "text": "And so we have a mix of studios, ones, twos, and threes."
+        },
+        {
+          "speaker": "Nina Villanueva",
+          "t_sec": 939.992,
+          "text": "Based on council member and community feedback, we've made changes to the unit mix in the family building, which also contributes to an overall balance between both buildings."
+        },
+        {
+          "speaker": "Nina Villanueva",
+          "t_sec": 950.292,
+          "text": "Decreased the amount of studios and added eight one bedrooms and 11 two bedrooms, nearly doubling HPD's term sheet minimum for twos and three bedrooms."
+        },
+        {
+          "speaker": "Nina Villanueva",
+          "t_sec": 960.192,
+          "text": "As a result, we have lost a handful of units, but we did want to incorporate feedback from the community and accommodate more family-sized units."
+        },
+        {
+          "speaker": "Nina Villanueva",
+          "t_sec": 967.292,
+          "text": "And one last note on this slide is each building will have its own on-site super."
+        },
+        {
+          "speaker": "Nina Villanueva",
+          "t_sec": 972.692,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Nina Villanueva",
+          "t_sec": 977.256,
+          "text": "So moving on to the 2026 AMIs, this chart shows the yearly income and monthly rents for the AMI tiers we are incorporating in the building."
+        },
+        {
+          "speaker": "Nina Villanueva",
+          "t_sec": 986.056,
+          "text": "From this chart, you can see that a person renting a one-bedroom earning 50% of AMI will pay $1,369 a month in rent."
+        },
+        {
+          "speaker": "Nina Villanueva",
+          "t_sec": 995.156,
+          "text": "Next slide, please."
+        },
+        {
+          "speaker": "Nina Villanueva",
+          "t_sec": 999.156,
+          "text": "And lastly, we'd like to close with a summary of community engagement we've done to date, spanning back the past five years."
+        },
+        {
+          "speaker": "Nina Villanueva",
+          "t_sec": 1006.256,
+          "text": "We've spoken to council members, senior centers, and community boards, and we've actually updated this slide since our CPC presentation to include further engagement that we've done this past year."
+        },
+        {
+          "speaker": "Nina Villanueva",
+          "t_sec": 1016.756,
+          "text": "We think this project is responsive to the needs of our community, and we look forward to what's to come with this development."
+        },
+        {
+          "speaker": "Nina Villanueva",
+          "t_sec": 1022.956,
+          "text": "Thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 1120.788,
+      "id": "015",
+      "slug": "marte-asks-how-family-sized-units-were-added-in-building-2",
+      "start_sec": 1024.156,
+      "summary": "Marte asks how the team increased family-sized units in Building 2. Rhea Tong and architect John Woelfling explain they reorganized layouts and combined units within the fixed building envelope, losing a few units in the process.",
+      "title": "Marte asks how family-sized units were added in Building 2",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1024.156,
+          "text": "Thank you for the presentation."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1026.056,
+          "text": "I just want to add we've been joined by Council Member Aviles and Council Member Thomas Henry as well."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1032.056,
+          "text": "I have a few questions before I kick it to the local council member."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1036.156,
+          "text": "The unit mix in Building 2 has been updated to increase the number of family size units."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1040.756,
+          "text": "Can you please explain how your team was able to make this happen?"
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 1046.188,
+          "text": "We reorganized the layouts within the South building and combined."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 1054.988,
+          "text": "Our architect can speak in more detail, but we reorganized the layouts to adjust to include more two- and three-bedroom units."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 1064.888,
+          "text": "So using existing studios in one bedrooms and combining spaces to include more two and threes."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1075.088,
+          "text": "Sorry, if you're going to..."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1078.388,
+          "text": "Can you state your name for the record, please?"
+        },
+        {
+          "speaker": "John Woelfling",
+          "t_sec": 1080.588,
+          "text": "John Wolfing."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1081.888,
+          "text": "And can you please raise your right hand, sorry."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1085.988,
+          "text": "And can you affirm to tell the truth, the whole truth, and nothing but the truth in your testimony before the subcommittee and an answer to all council member questions?"
+        },
+        {
+          "speaker": "John Woelfling",
+          "t_sec": 1093.288,
+          "text": "I do."
+        },
+        {
+          "speaker": "Council Staff",
+          "t_sec": 1093.988,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "John Woelfling",
+          "t_sec": 1096.388,
+          "text": "So I really don't have much to add to that."
+        },
+        {
+          "speaker": "John Woelfling",
+          "t_sec": 1097.988,
+          "text": "Ray covered it very well."
+        },
+        {
+          "speaker": "John Woelfling",
+          "t_sec": 1098.888,
+          "text": "But it was essentially, you know, the volume of the building, the south building, is fixed."
+        },
+        {
+          "speaker": "John Woelfling",
+          "t_sec": 1105.288,
+          "text": "The bulk of it is fixed."
+        },
+        {
+          "speaker": "John Woelfling",
+          "t_sec": 1107.188,
+          "text": "So we had to shuffle things around within the building, combine units, lose a few units, as it was indicated in the presentation."
+        },
+        {
+          "speaker": "John Woelfling",
+          "t_sec": 1114.288,
+          "text": "And that's how we were able to achieve the greater number of family-sized units."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1118.288,
+          "text": "Okay, thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 1214.888,
+      "id": "016",
+      "slug": "marte-questions-senior-building-studio-design-and-hpd-standards",
+      "start_sec": 1120.788,
+      "summary": "Marte asks why the senior building includes many studios and whether they differ from traditional shoebox studios. Woelfling says units meet HPD design standards with ample daylight and large windows, while Tong notes the need to maximize senior households served.",
+      "title": "Marte questions senior building studio design and HPD standards",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1120.788,
+          "text": "In contrast, the senior housing building still includes a number, includes a substantial number of studio apartments."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1127.488,
+          "text": "What drove the decision to include so many studios for seniors?"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1131.488,
+          "text": "Are there design elements, layouts, or amendments?"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1134.288,
+          "text": "that make these units different from the small traditional shoebox studios that we think of when we typically hear the word studio."
+        },
+        {
+          "speaker": "John Woelfling",
+          "t_sec": 1142.988,
+          "text": "I'll take some of that, and then I can take some of it as well."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 1146.988,
+          "text": "Yeah, maybe."
+        },
+        {
+          "speaker": "John Woelfling",
+          "t_sec": 1147.488,
+          "text": "I'll start."
+        },
+        {
+          "speaker": "John Woelfling",
+          "t_sec": 1148.588,
+          "text": "So the units are designed to comply with HPD's design standards, and it's a very difficult balance."
+        },
+        {
+          "speaker": "John Woelfling",
+          "t_sec": 1154.488,
+          "text": "You don't want to go too big because that means you're being wasteful with the limited square footage that you have."
+        },
+        {
+          "speaker": "John Woelfling",
+          "t_sec": 1161.888,
+          "text": "So we do try to make these units as efficient as possible with ample daylight, large windows."
+        },
+        {
+          "speaker": "John Woelfling",
+          "t_sec": 1168.688,
+          "text": "You can see that from the renderings."
+        },
+        {
+          "speaker": "John Woelfling",
+          "t_sec": 1170.788,
+          "text": "So the quality of the daylight that comes into these spaces is really important for making a wonderful place to live."
+        },
+        {
+          "speaker": "John Woelfling",
+          "t_sec": 1177.988,
+          "text": "But we do have some units that balance those demands of having the maximum number of units that you can have, but also meeting HPD's design requirements."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 1190.188,
+          "text": "And to add to that, in terms of the households for the North Building, we are also prioritizing maximizing the households we can serve."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 1199.288,
+          "text": "I think there was an emphasis on family units, so we were trying to increase the number of family-sized apartments in the South Building, but also still want to..."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 1208.788,
+          "text": "Be able to house as many households at the North Building that we can."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1212.988,
+          "text": "All right, thank you."
+        }
+      ]
+    },
+    {
+      "end_sec": 1281.688,
+      "id": "017",
+      "slug": "marte-presses-on-waterfront-access-delivery-and-management",
+      "start_sec": 1214.888,
+      "summary": "Marte asks what makes the waterfront public access commitment different from past South Bronx projects. Tong says the waterfront must be built with the buildings and will be required by legal documents, and Phipps Houses will manage the waterfront.",
+      "title": "Marte presses on waterfront access delivery and management",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1214.888,
+          "text": "The public waterfront access area seems really cool, and I think thank you for including that."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1222.488,
+          "text": "But we know that during public"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1223.888,
+          "text": "review, we heard community concerns that this commitment wouldn't come to fruition like other area access projects in South Bronx before."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1232.988,
+          "text": "What makes this public access commitment different?"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1236.088,
+          "text": "Why should the public be confident that the waterfront access proposed here will ultimately be delivered?"
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 1243.788,
+          "text": "Well, as part of this waterfront certification and ULERT process, we do have to build the waterfront with the buildings."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 1251.388,
+          "text": "I don't think we'll be able to occupy the buildings without building the waterfront, and we have made that commitment to do so, and there will be legal documents that require the waterfront to be constructed as designed."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1264.488,
+          "text": "And who's going to manage the public area, not just the waterfront, but kind of like the little play and dog run as well?"
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 1271.588,
+          "text": "FIPS houses will be managing the waterfront."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1274.588,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1275.088,
+          "text": "And how often will the bus routes be operating during the day?"
+        }
+      ]
+    },
+    {
+      "end_sec": 1311.088,
+      "id": "018",
+      "slug": "marte-asks-about-senior-shuttle-frequency",
+      "start_sec": 1281.688,
+      "summary": "Marte asks how often the senior shuttle will operate. Tong says plans will be firmed up closer to management but anticipates service during daytime appointment hours.",
+      "title": "Marte asks about senior shuttle frequency",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 1281.688,
+          "text": "We'll firm up the plans as it gets closer to management, but the idea behind the bus routes is to help the seniors that live in the North Building get to their appointments, run their daily errands."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 1296.588,
+          "text": "So we anticipate there will be, it should be happening during like appointment hours during the day."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1305.188,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1305.888,
+          "text": "All right."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1306.388,
+          "text": "I'll kick it to the council member who has some questions."
+        }
+      ]
+    },
+    {
+      "end_sec": 1404.944,
+      "id": "019",
+      "slug": "encarnaci-n-asks-why-project-took-years-and-what-changed",
+      "start_sec": 1311.088,
+      "summary": "Encarnaci\u00f3n asks why the project has taken so long and what has changed since inception. Tong cites the lengthy ULURP pre-certification process and describes adding active programming like the dog run, play area, and fitness area based on community feedback.",
+      "title": "Encarnaci\u00f3n asks why project took years and what changed",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 1311.088,
+          "text": "Hello."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 1312.888,
+          "text": "So it's been..."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 1314.088,
+          "text": "quite some years now that this project has been considered."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 1317.788,
+          "text": "Can you explain why this process has taken so long to get to this point and maybe list out some specific changes that have been made since the inception of this proposal to today?"
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 1334.188,
+          "text": "Well, firstly, going through the ULERP process, I think that was the longest lead item, and firming up the plans and the pre-certification process before we were able to certify into ULERP."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 1347.988,
+          "text": "I think that was mostly guiding the length of the pre-development process for this project."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 1357.244,
+          "text": "And the list of specific changes to the proposal since inception?"
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 1360.344,
+          "text": "Oh, yeah, of course."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 1361.544,
+          "text": "So along the waterfront, we had more passive recreational options towards the south public area of the site that we showed earlier."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 1372.244,
+          "text": "We made adjustments to include more active programming, including the dog run that you had mentioned previously, the play area and the fitness area."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 1380.344,
+          "text": "So through that process of the pre-certification period, we were gathering and incorporating as much community feedback that we were able to."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 1389.944,
+          "text": "And the south site, the south area of the site is one example of feedback that we incorporated to include more active programming to really activate that waterfront area for the community."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 1403.844,
+          "text": "Amazing."
+        }
+      ]
+    },
+    {
+      "end_sec": 1457.844,
+      "id": "020",
+      "slug": "encarnaci-n-questions-dot-coordination-and-street-improvements",
+      "start_sec": 1404.944,
+      "summary": "Encarnaci\u00f3n asks about coordination with DOT. Tong says the team has worked with both State and City DOT, citing a two-way bike lane, widened sidewalks, and medians at East 138th Street and the Madison Avenue Bridge.",
+      "title": "Encarnaci\u00f3n questions DOT coordination and street improvements",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 1404.944,
+          "text": "Can you talk a little bit more in depth about your conversations with DOT and how you're improving the conditions around that area?"
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 1413.544,
+          "text": "Yeah."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 1414.244,
+          "text": "So both New York State DOT and New York City DOT, we've been in coordination with."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 1420.044,
+          "text": "New York State DOT has already made improvements at the intersection."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 1424.544,
+          "text": "So they've included a two-way bike lane at the intersection, widened sidewalks, medians, and enlarged medians at the intersection of East 138th Street and the Madison Avenue Bridge."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 1437.444,
+          "text": "And then in coordination with City DOT, we've been working to, or we're planning to widen the sidewalk, include landscape."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 1445.344,
+          "text": "for zones, include a two-way bike lane along exterior street."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 1450.944,
+          "text": "So all of these designs have been in coordination with city and state DOT."
+        }
+      ]
+    },
+    {
+      "end_sec": 1506.644,
+      "id": "021",
+      "slug": "encarnaci-n-secures-commitments-on-dot-outreach-and-community-advisory-board",
+      "start_sec": 1457.844,
+      "summary": "Encarnaci\u00f3n asks whether DOT outreach and the community advisory board will continue through construction and operations. Tong commits to ongoing coordination with DOT and continued communication with the community advisory board and Community Board 1.",
+      "title": "Encarnaci\u00f3n secures commitments on DOT outreach and community advisory board",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 1457.844,
+          "text": "And do you plan on, or do you have a plan to continuously outreach and engage with DOT throughout the construction phase of the project as well as after it's built?"
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 1469.244,
+          "text": "Yeah, absolutely."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 1469.844,
+          "text": "That will be part of the process with DOT."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 1472.644,
+          "text": "And as we get closer to..."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 1476.244,
+          "text": "The building operations."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 1477.744,
+          "text": "We've already had conversations with DOT of how we can adjust the pedestrian signals to allow more time for pedestrians to cross the street at that intersection."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 1487.844,
+          "text": "And similarly, is there a commitment to continue on with the community advisory board throughout the construction period?"
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 1495.644,
+          "text": "Yeah, absolutely."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 1496.244,
+          "text": "Construction and through onto management, we intend to continue and having ongoing communication lines with the community advisory board, as well as community board one."
+        }
+      ]
+    },
+    {
+      "end_sec": 1556.644,
+      "id": "022",
+      "slug": "encarnaci-n-asks-about-senior-services-and-shuttle-route-planning",
+      "start_sec": 1506.644,
+      "summary": "Encarnaci\u00f3n asks about services for seniors and how the shuttle route was developed. Tong says Phipps Neighborhoods will provide case management and programming, with social services housed in the senior building.",
+      "title": "Encarnaci\u00f3n asks about senior services and shuttle route planning",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 1506.644,
+          "text": "And lastly, can you speak, because there is a senior building there, can you speak a little bit about the services that will be provided to the seniors, whether it be within the building or a little bit more in depth about how you came about the..."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 1522.144,
+          "text": "Map for the transportation?"
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 1525.644,
+          "text": "Yeah, typically we'll have case management workers."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 1529.344,
+          "text": "There'll be various programming that happens and is coordinated by those of FIPs"
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 1535.444,
+          "text": "Neighborhoods, I think we'll intend to have some intergenerational programming between the seniors and the family members, but a lot of the social services will be case management related and assisting seniors to access certain benefits."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 1549.844,
+          "text": "And that'll be housed in the senior building, right?"
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 1551.844,
+          "text": "Yes."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 1552.244,
+          "text": "Okay, thank you."
+        },
+        {
+          "speaker": "Elsie Encarnaci\u00f3n",
+          "t_sec": 1553.644,
+          "text": "That's all, sir."
+        }
+      ]
+    },
+    {
+      "end_sec": 1644.844,
+      "id": "023",
+      "slug": "thomas-henry-questions-retail-space-size-and-affordability",
+      "start_sec": 1556.644,
+      "summary": "Thomas-Henry asks about the retail space. Tong says it is about 2,000 square feet and intended for daily goods; Thomas-Henry urges the team to consider below-market rent for a local small business.",
+      "title": "Thomas-Henry questions retail space size and affordability",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1556.644,
+          "text": "We have a question from Councilmember Chanel Thomas-Henry."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1560.244,
+          "text": "Thank you, Chair."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1560.944,
+          "text": "Good afternoon."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1562.444,
+          "text": "I noticed you have retail space in the plans."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1565.944,
+          "text": "What's the square footage of that retail space, approximate number of retailers you would consider?"
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 1573.344,
+          "text": "That's about 2,000 square feet."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 1576.544,
+          "text": "And the idea behind that retail space at the corner is to bring a retailer that can provide for daily goods such as milks, eggs, without having residents need to walk to get to the closest grocery store."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1591.444,
+          "text": "Would you, so that sounds like a small business?"
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1594.844,
+          "text": "Per se, would the rent that you're looking to do be affordable or market rate for that space?"
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 1605.444,
+          "text": "We haven't gotten to that point of understanding the rents, but I would..."
+        },
+        {
+          "speaker": "Rhea Tong",
+          "t_sec": 1612.744,
+          "text": "FIPs houses will be managing the space, but I anticipate it will be in line with rents in the area."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1619.344,
+          "text": "Just a consideration, because a lot of small businesses are finding that the retail space rents are astronomical."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1626.244,
+          "text": "So if you guys could consider just a lower price point, especially if it's going to a small business, hopefully someone local in the area."
+        },
+        {
+          "speaker": "Shanel Thomas-Henry",
+          "t_sec": 1634.244,
+          "text": "Thanks."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1640.644,
+          "text": "Any other of my colleagues have questions?"
+        }
+      ]
+    },
+    {
+      "end_sec": 1691.756,
+      "id": "024",
+      "slug": "panel-excused-and-public-testimony-begins-with-al-gates",
+      "start_sec": 1644.844,
+      "summary": "Marte excuses the panel and calls Al Gates as the only public witness. He reminds speakers they have two minutes and to remain seated for questions.",
+      "title": "Panel excused and public testimony begins with Al Gates",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1644.844,
+          "text": "Not seeing any."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1646.244,
+          "text": "Thank you to the panel."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1647.944,
+          "text": "You are now excused."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1657.856,
+          "text": "We have one member of the public who wished to testify, Al Gates."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1673.856,
+          "text": "As a reminder, if myself or any council members have any questions, just please remain seated and you have two minutes to do your remarks, okay?"
+        },
+        {
+          "speaker": "Member of the Public - Al Gates",
+          "t_sec": 1689.756,
+          "text": "Good afternoon, members of the subcommittee."
+        }
+      ]
+    },
+    {
+      "end_sec": 1957.848,
+      "id": "025",
+      "slug": "al-gates-raises-affordability-management-and-environmental-concerns",
+      "start_sec": 1691.756,
+      "summary": "Al Gates supports expanding affordable housing but raises concerns about misleading market-rate language, permanent affordability, Phipps Houses management record, environmental testing, and oversight. He asks the Council to investigate and to establish a community and tenant oversight committee.",
+      "title": "Al Gates raises affordability, management, and environmental concerns",
+      "type": "TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Member of the Public - Al Gates",
+          "t_sec": 1691.756,
+          "text": "I support the initiative of expanding affordable housing, but I have some questions and concerns related to the project."
+        },
+        {
+          "speaker": "Member of the Public - Al Gates",
+          "t_sec": 1697.656,
+          "text": "First, while reviewing the joint waterfront permit application, I noticed several times it describes the proposed project as providing both low-income and market-rate housing."
+        },
+        {
+          "speaker": "Member of the Public - Al Gates",
+          "t_sec": 1706.356,
+          "text": "The likely explanation of what is intended by this is to say that the waterfront will serve the market-raised house residents."
+        },
+        {
+          "speaker": "Member of the Public - Al Gates",
+          "t_sec": 1712.356,
+          "text": "However, the use of the word provide is misleading, and I would appreciate it if the subcommittee could investigate why this language appears and clarify its intended meaning."
+        },
+        {
+          "speaker": "Member of the Public - Al Gates",
+          "t_sec": 1720.656,
+          "text": "Additionally, given a for-profit company is proposing the transfer of publicly owned land, I second Bronx's borough president's request that before the council signs off on anything, they secure a legally binding agreement that guarantees each apartment permanently stays affordable,"
+        },
+        {
+          "speaker": "Member of the Public - Al Gates",
+          "t_sec": 1734.356,
+          "text": "even if property changes ownership."
+        },
+        {
+          "speaker": "Member of the Public - Al Gates",
+          "t_sec": 1736.956,
+          "text": "Next, I'd like to raise some concerns regarding Phipps Houses Management under Lambert Houses."
+        },
+        {
+          "speaker": "Member of the Public - Al Gates",
+          "t_sec": 1741.856,
+          "text": "Not only has it had to make settlements following a federal class action lawsuit from tenants,"
+        },
+        {
+          "speaker": "Member of the Public - Al Gates",
+          "t_sec": 1746.156,
+          "text": "But following 20 different tenant allegations in 2024, Bronx Community Board 6 has asked the council to, quote, seriously consider whether FIPS houses has the capacity to provide"
+        },
+        {
+          "speaker": "Member of the Public - Al Gates",
+          "t_sec": 1758.556,
+          "text": "management services, end quote, and express concerns that, quote, more units for FIPS to take care of will mean the potential for further mismanagement, end quote."
+        },
+        {
+          "speaker": "Member of the Public - Al Gates",
+          "t_sec": 1767.056,
+          "text": "It was then given an unsatisfactory management score of 59 out of 100, and federal audit was unanimously requested."
+        },
+        {
+          "speaker": "Member of the Public - Al Gates",
+          "t_sec": 1773.656,
+          "text": "This audit exists in no databases, and while I've requested the documentation, I think investigation into if that audit was ever conducted and what its findings were would be appropriate."
+        },
+        {
+          "speaker": "Member of the Public - Al Gates",
+          "t_sec": 1783.056,
+          "text": "I've reviewed independent audits that identified a few reoccurring violations that I believe warrant further investigation."
+        },
+        {
+          "speaker": "Member of the Public - Al Gates",
+          "t_sec": 1789.056,
+          "text": "For example, the 2024 audit found Lambert Houses used more than $83,000 of its own funds to cover expenses for 28 Boston Roads Associate without HDUD approval."
+        },
+        {
+          "speaker": "Member of the Public - Al Gates",
+          "t_sec": 1798.256,
+          "text": "This is one of the companies involved in cleaning."
+        },
+        {
+          "speaker": "Member of the Public - Al Gates",
+          "t_sec": 1800.1,
+          "text": "up contaminated land on Lambert Houses' previous properties."
+        },
+        {
+          "speaker": "Member of the Public - Al Gates",
+          "t_sec": 1803.5,
+          "text": "Furthermore, all the other companies are FIPS associated, possibly creating conflict of interest."
+        },
+        {
+          "speaker": "Member of the Public - Al Gates",
+          "t_sec": 1807.9,
+          "text": "I haven't been able to find the records of the environmental testing that should have been published for this land."
+        },
+        {
+          "speaker": "Member of the Public - Al Gates",
+          "t_sec": 1812.2,
+          "text": "Given that Madison Landing also involves contaminated land, I think it would be appropriate that it be looked into before moving on with development."
+        },
+        {
+          "speaker": "Member of the Public - Al Gates",
+          "t_sec": 1818.5,
+          "text": "I'd also like to confirm that the Madison Landings environmental remediation plans will be reviewed and approved by the Department of Health and the Department of Environmental Conservation before the council approves the development."
+        },
+        {
+          "speaker": "Member of the Public - Al Gates",
+          "t_sec": 1829.6,
+          "text": "Lastly, given the risks associated with this project, I would like to advocate for the council to ask the HPD to establish a committee with community and tenant representation to oversee the project."
+        },
+        {
+          "speaker": "Member of the Public - Al Gates",
+          "t_sec": 1839.0,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1840.7,
+          "text": "Thank you for your remarks."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1842.9,
+          "text": "Are there any questions from my colleagues?"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1845.3,
+          "text": "All right."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1846.2,
+          "text": "Thank you for your testimony."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1852.0,
+          "text": "If there are any remote public participants who wish to testify and have not already done so, please press the raise hand button now."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1859.6,
+          "text": "And if you're here with us in person, please see one of the sergeant at arms to first fill out a speaker card."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1868.0,
+          "text": "There being no other members of the public who wish to testify regarding LU 161, 162, and 163 for 110 East 138th Street, 63 Exterior Street, the public hearing is now closed and the items are laid over."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1885.348,
+          "text": "I now open a joint public hearing for LUs 164 and 165 for two school citing applications by the New York City Construction Authority and Councilmember Wan's district."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1896.748,
+          "text": "First, LU 164, a new approximately 972 seat."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1903.948,
+          "text": "Intermediate school located at 4348 11th Street in the Long Island City neighborhood of Queens serving Community School District 30."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1913.048,
+          "text": "South 2nd LU 165, a new approximately 676 seat"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1919.948,
+          "text": "high school with District 75 program located at 4751 33rd Street in Long Island City neighborhood of Queens serving Community School District 24."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 1931.748,
+          "text": "Before I begin, I'd like to welcome Councilmember Wan to make a statement."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 1936.648,
+          "text": "Thank you so much, Chair Marte."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 1939.348,
+          "text": "Good afternoon, everybody."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 1940.848,
+          "text": "Since I took office in 2022, School District 30 has faced overcrowding, long overdue new schools, and a rapidly growing community of young families."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 1949.848,
+          "text": "Ever since I've been on the community board, even being elected, we've had promises of many new schools with every single rezoning, yet those schools were never built."
+        }
+      ]
+    },
+    {
+      "end_sec": 2034.764,
+      "id": "026",
+      "slug": "public-hearing-on-bronx-project-closed-and-items-laid-over",
+      "start_sec": 1957.848,
+      "summary": "Marte thanks Gates and, hearing no other witnesses, closes the public hearing on LU 161, 162, and 163. The items are laid over.",
+      "title": "Public hearing on Bronx project closed and items laid over",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Julie Won",
+          "t_sec": 1957.848,
+          "text": "The Baccalaureate School of Global Education is so crowded that they use the cafeteria for their learning space, for elective classes, and for gym, as well as their lunchroom."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 1968.448,
+          "text": "Students are packed like sardines competing for space to learn, play, and eat their lunch."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 1973.548,
+          "text": "I have made it a priority to follow through on broken school promises of my predecessors and expand school seats to meet the needs of our growing communities in Council District 26, adding over 6,171 school seats since 2022."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 1987.548,
+          "text": "Through the One LAC Neighborhood Plan, we secured historic wins for schools, a new expanded home for BSGE, the fulfillment of Long Promise Middle School, and two new elementary schools."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 1997.648,
+          "text": "Today's hearing marks a critical step towards relocating BSGE and developing a new middle school, but the work is not done."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 2005.648,
+          "text": "School sightings are just the first step to a too long process of opening new schools in the city, and District 30 still needs two new elementary schools as promised in 1LIC."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 2014.348,
+          "text": "I look forward to hearing from School Construction Authority about these two proposals and their plans to fulfill District 30's remaining school seat needs."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2026.164,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2027.064,
+          "text": "Appearing today on this proposal are Kelly Murphy, Roberto Perez, Maximilian Familian."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2034.464,
+          "text": "Yeah."
+        }
+      ]
+    },
+    {
+      "end_sec": 2043.164,
+      "id": "027",
+      "slug": "chair-marte-opens-school-siting-hearing-for-lus-164-and-165",
+      "start_sec": 2034.764,
+      "summary": "Marte opens the joint public hearing for LU 164 and 165, two school siting applications by the New York City School Construction Authority. He describes a 972-seat intermediate school at 43-58 11th Street and a 676-seat high school at 47-51 33rd Street in Long Island City.",
+      "title": "Chair Marte opens school siting hearing for LUs 164 and 165",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2034.764,
+          "text": "Awesome."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 2035.964,
+          "text": "Never seen this man in the flesh."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 2037.764,
+          "text": "This is my first time."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 2038.964,
+          "text": "I've only seen him on Zoom."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 2040.464,
+          "text": "I'm starstruck."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2042.364,
+          "text": "Awesome."
+        }
+      ]
+    },
+    {
+      "end_sec": 2085.764,
+      "id": "028",
+      "slug": "council-member-won-calls-for-school-seats-in-district-30",
+      "start_sec": 2043.164,
+      "summary": "Council Member Won describes severe overcrowding in School District 30 and broken promises of new schools. She highlights 6,171 seats added since 2022 and says the district still needs two new elementary schools promised in the One LIC plan.",
+      "title": "Council Member Won calls for school seats in District 30",
+      "type": "REMARKS",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2043.164,
+          "text": "Well, thank you for..."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2045.464,
+          "text": "Being here today."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2046.964,
+          "text": "Those wishing to testify remotely must register online by visiting council website at council.nyc.gov slash land use."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2055.064,
+          "text": "Panelists, please ensure that your microphones are on."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2057.764,
+          "text": "Council, would you please administer that affirmation?"
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2061.064,
+          "text": "Panelists, would you please raise your right hand and state your names for the record?"
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2065.464,
+          "text": "Kelly Murphy."
+        },
+        {
+          "speaker": "Roberto Perez",
+          "t_sec": 2067.064,
+          "text": "Roberto Perez."
+        },
+        {
+          "speaker": "Roberto Perez",
+          "t_sec": 2068.664,
+          "text": "Max Familion."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2070.364,
+          "text": "And do you affirm to tell the truth, the whole truth, and nothing but the truth in your testimony before the subcommittee and in answer to all council member questions?"
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2078.764,
+          "text": "I do."
+        },
+        {
+          "speaker": "Roberto Perez",
+          "t_sec": 2079.064,
+          "text": "I do."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2080.164,
+          "text": "Okay, we put up this one first."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2085.064,
+          "text": "11th Street."
+        }
+      ]
+    },
+    {
+      "end_sec": 2222.38,
+      "id": "029",
+      "slug": "sca-panel-sworn-in-for-school-siting-presentations",
+      "start_sec": 2085.764,
+      "summary": "Marte introduces the SCA panel and administers the affirmation to Kelly Murphy, Roberto Perez, and Maximilian Familian. Julie Won jokes that she has only seen one panelist on Zoom before.",
+      "title": "SCA panel sworn in for school siting presentations",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2085.764,
+          "text": "Okay, I'll start with that one."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2088.564,
+          "text": "Thank you so much."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2089.564,
+          "text": "Good afternoon, Chair Marte and members of the subcommittee."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2092.964,
+          "text": "My name is Kelly Murphy."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2093.964,
+          "text": "I'm the Senior Director of Real Estate for the School Construction Authority, and I'm joined by my colleagues, Roberto Perez, the Director of Intergovernmental Affairs, and Maximilian Familion, the Senior Director of Strategy at New York City Public Schools."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2109.164,
+          "text": "We're very excited to be here to present two."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2112.164,
+          "text": "site selections today and we're starting with our first new proposed new approximately 972 seat intermediate school at 4358 11th Street in Long Island City."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2124.464,
+          "text": "Next slide please."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2128.464,
+          "text": "You can see this is the area with the bullseye is the actual site and shows the surrounding area in Long Island City."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2134.864,
+          "text": "Next slide."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2138.364,
+          "text": "This is just a zoomed in and shows the actual tax lot located on the southern side of the lot."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2145.464,
+          "text": "Pursuant to Section 1731 of New York Public Authorities Law, the New York City School Construction Authority has undertaken the site selection process for a new approximately 972-seat"
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2158.264,
+          "text": "Intermediate school at 4358 11th Street, block 453, lot 1."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2163.764,
+          "text": "That's in yellow."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2164.964,
+          "text": "In the borough of Queens."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2169.28,
+          "text": "Next slide."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2171.98,
+          "text": "The site is approximately 47,255 square feet, about 1.0 acres."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2179.38,
+          "text": "It's located in Queens Community Board 2 and City Educational Council number 3, 30."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2186.58,
+          "text": "The purpose of the proposed project is to provide additional long-term capacity to relieve overcrowding in District 30."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2193.38,
+          "text": "The five-year capital plan for fiscal years 2025 to 2029 allocates capital funding to address existing overcrowding and forecasted changes in student enrollments and support DOE's policies regarding class size reduction."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2209.48,
+          "text": "If you see in this image, it's a real zoomed in image of the site and shows the existing buildings on the site, which are low rise commercial and industrial buildings."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2220.38,
+          "text": "Next slide, please."
+        }
+      ]
+    },
+    {
+      "end_sec": 2352.572,
+      "id": "030",
+      "slug": "sca-presents-972-seat-intermediate-school-site-at-43-58-11th-street",
+      "start_sec": 2222.38,
+      "summary": "Kelly Murphy of SCA presents the first site selection for a 972-seat intermediate school at 43-58 11th Street in Long Island City. She identifies the tax lot, block, and borough and shows the surrounding area.",
+      "title": "SCA presents 972-seat intermediate school site at 43-58 11th Street",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2222.38,
+          "text": "This is just the official kind of notice of filing."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2225.78,
+          "text": "We published that in AM New York and the city record on September 30th, 2026, at which time Queens Community Board 2, Community Education Council number 30, and the City Planning Commission were notified of the proposed site plan."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2241.48,
+          "text": "Next slide."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2243.98,
+          "text": "On October 19th, CEC 30 held a public hearing, and Community War 2 held their public hearing on October 21st."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2252.48,
+          "text": "All public comments received on the site were considered as part of the site selection plan."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2258.58,
+          "text": "This is just kind of just a vision of the buildings on the site."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2263.88,
+          "text": "This is facing east from 10th Street and a view facing along 11th Street on the right."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2269.38,
+          "text": "It's showing those one and two story commercial and light manufacturing buildings."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2273.18,
+          "text": "Next slide."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2275.28,
+          "text": "The SCA affirms the site plan pursuant to Section 1731 of New York Public Authorities Law."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2282.48,
+          "text": "In accordance with Section 732 of the Public Authority Law, the SCA submitted the proposed site plan to the Mayor and City Council by letter dated November 18, 2026."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2293.88,
+          "text": "This is just more images of the neighborhood."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2297.38,
+          "text": "This is the site facing north along 44th Avenue, showing the one two-story buildings, and the second photo is the streetscape along 44th Avenue."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2307.38,
+          "text": "Next slide."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2309.78,
+          "text": "Should the SCA receive approval to acquire the property, a new intermediate school will be constructed and is anticipated to open in 2031."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2317.88,
+          "text": "The school will include 30 classrooms for 6th to 8th grade, 4 special education classrooms, 8 District 75 classrooms, speech resource rooms, science labs, music and art rooms."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2330.38,
+          "text": "A library, gymatorium, kitchen and cafeteria, guidance and medical suite, and general administrative and sports spaces."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2339.38,
+          "text": "We'll also include an accurate player yard of approximately 14,000 square feet."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2346.772,
+          "text": "Next slide."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2348.072,
+          "text": "We look forward to the subcommittee's favorable consideration of the site plan."
+        }
+      ]
+    },
+    {
+      "end_sec": 2389.072,
+      "id": "031",
+      "slug": "sca-details-site-size-overcrowding-relief-and-existing-conditions",
+      "start_sec": 2352.572,
+      "summary": "Murphy says the site is about 47,255 square feet in Community Board 2 and CEC 30. The project aims to relieve overcrowding, with funding from the FY2025-2029 capital plan, and currently contains low-rise commercial and industrial buildings.",
+      "title": "SCA details site size, overcrowding relief, and existing conditions",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2352.572,
+          "text": "And we're pleased to answer any of your questions."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2354.772,
+          "text": "Thank you so much."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2358.972,
+          "text": "We're going to allow you to do the second presentation, so we'll ask questions for both."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2363.572,
+          "text": "But before you start, I just want to recognize we've been joined by Councilmember Felice."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2370.172,
+          "text": "Wait for the next one."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2384.572,
+          "text": "You can go right to the next slide, please."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2387.272,
+          "text": "So this is our second site."
+        }
+      ]
+    },
+    {
+      "end_sec": 2491.336,
+      "id": "032",
+      "slug": "sca-outlines-public-notice-hearings-and-site-plan-submission",
+      "start_sec": 2389.072,
+      "summary": "Murphy details public notice published in AM New York and the City Record on September 30, 2026. She notes hearings held by CEC 30 and Community Board 2 and says public comments were considered.",
+      "title": "SCA outlines public notice, hearings, and site plan submission",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2389.072,
+          "text": "This is for a proposed approximately 676-seat high school, and this is located at 4751 33rd Street in Long Island City."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2400.072,
+          "text": "So you can see this is the surrounding context of this site, and the red bullseye is the actual site."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2407.172,
+          "text": "Sorry, I'm going to read this into the record again, but pursuant to Section 1731 of the New York Public Authority's Law, the New York City School Construction Authority has undertaken the site selection process for a new approximately"
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2420.072,
+          "text": "676-seat facility located at 4751."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2425.272,
+          "text": "33rd Street."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2426.172,
+          "text": "This is block 251, lot 1 in the Borough of Queens."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2430.572,
+          "text": "Next slide."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2434.436,
+          "text": "This is just showing the tax lot with the existing building."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2438.736,
+          "text": "It's a multi-store commercial building that's on the site."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2441.836,
+          "text": "The site is approximately 36,750 feet, about 0.84 acres, and it's located within Queens Community Board No."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2454.236,
+          "text": "2 and the CEC No."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2456.236,
+          "text": "24."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2458.636,
+          "text": "Next slide."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2461.736,
+          "text": "Again, the purposes of this project is also to provide additional long-term capacity to relieve overcrowding in District 24,"
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2468.136,
+          "text": "and our five-year capital plan for 2025 to 2029 allocates capital funding to address existing overcrowding and forecasted changes in student enrollments and to support Dewey's effort for class size reduction."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2482.936,
+          "text": "This is just a zoomed in version of the site showing the actual building and surrounding commercial industrial buildings that surround the site."
+        }
+      ]
+    },
+    {
+      "end_sec": 2544.052,
+      "id": "033",
+      "slug": "sca-describes-972-seat-intermediate-school-program-and-2031-opening",
+      "start_sec": 2491.336,
+      "summary": "Murphy says the school is anticipated to open in 2031 with 30 classrooms, special education and District 75 rooms, science labs, arts rooms, a library, gymatorium, cafeteria, and a 14,000-square-foot play yard.",
+      "title": "SCA describes 972-seat intermediate school program and 2031 opening",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2491.336,
+          "text": "Next slide."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2493.536,
+          "text": "This is just the official notice again, which was published in AIM New York and the City Record on March 9th, 2026, at which time Citywide Council on High Schools and the"
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2507.736,
+          "text": "City Planning Commission were notified of the proposed site plan."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2513.652,
+          "text": "Sorry, losing my spot."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2516.952,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2519.752,
+          "text": "The community-wide council on high schools held a public hearing on March 11, 2026, and community board two held a public hearing on March 18, 2026."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2529.052,
+          "text": "And all public comments received for this process were incorporated as part of the site selection process."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2535.252,
+          "text": "Next slide."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2539.052,
+          "text": "This is just some of the image of the surrounding buildings."
+        }
+      ]
+    },
+    {
+      "end_sec": 2581.708,
+      "id": "034",
+      "slug": "chair-marte-proceeds-to-second-school-siting-presentation",
+      "start_sec": 2544.052,
+      "summary": "Marte allows SCA to proceed to the second presentation and recognizes Council Member Feliz. Murphy moves to the next slide for the high school site.",
+      "title": "Chair Marte proceeds to second school siting presentation",
+      "type": "PROCEDURE",
+      "utterances": [
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2544.052,
+          "text": "This first one is from the northeast, and the next one is from the southwest showing the existing three-story brick building."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2551.952,
+          "text": "Next slide."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2556.308,
+          "text": "Again, this shows more of the surrounding context of the area for the proposed site selection."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2563.908,
+          "text": "The SCA affirms the site plan pursuant to 1731 of the New York Public Authority Law."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2569.808,
+          "text": "In accordance with Section 1732 of the Public Authority Law, the SCA submitted the proposed site plan to the Mayor and City Council on November 18, 2026."
+        }
+      ]
+    },
+    {
+      "end_sec": 2666.508,
+      "id": "035",
+      "slug": "sca-presents-676-seat-high-school-site-at-47-51-33rd-street",
+      "start_sec": 2581.708,
+      "summary": "Murphy presents the second site selection for a 676-seat high school at 47-51 33rd Street in Long Island City. She identifies the tax lot, block, and surrounding context.",
+      "title": "SCA presents 676-seat high school site at 47-51 33rd Street",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2581.708,
+          "text": "Next slide."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2587.708,
+          "text": "So this, the school will contain, proposed school will contain"
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2593.708,
+          "text": "approximately 672 seats, have 14 classrooms for 9th to 12th grade, two special education classrooms, eight District 75 classrooms, speech, resource room, music, and art rooms."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2608.108,
+          "text": "Science lab, a kitchen and cafeteria, library, gymatorium, guidance and medical suites, and general administrative and support spaces."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2618.508,
+          "text": "It also includes some act right play as well."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2624.008,
+          "text": "And I guess in this one, we look forward to your favorable approval and answer any questions on either this site or the previous site on 11th Street."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2631.808,
+          "text": "Thank you so much."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2632.908,
+          "text": "Thank you for the two presentations."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2634.608,
+          "text": "I have a few questions before kicking it to Councilmember Wan."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2638.508,
+          "text": "Why were these particular sites selected?"
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2642.508,
+          "text": "We get a lot of sites, luckily."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2644.908,
+          "text": "People like the council member and the neighbors submit sites to us."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2648.008,
+          "text": "We have brokers that we work with in each borough."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2650.808,
+          "text": "And we do a kind of very rigorous process because there are certain site dimensions that we need, especially for the high school site needs to be, we have a minimum size of 35,000 square feet, where PS, it's about 25,000 square feet."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2664.808,
+          "text": "We need..."
+        }
+      ]
+    },
+    {
+      "end_sec": 2741.008,
+      "id": "036",
+      "slug": "sca-outlines-high-school-purpose-notice-and-public-hearings",
+      "start_sec": 2666.508,
+      "summary": "Murphy says the site is about 36,750 square feet in Community Board 2 and CEC 24. She outlines the purpose of relieving overcrowding, the capital plan funding, and public notice and hearings held in March 2026.",
+      "title": "SCA outlines high school purpose, notice, and public hearings",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2666.508,
+          "text": "Multiple entrances to allow for drop-off, efficient drop-off of kids, cars, buses."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2673.708,
+          "text": "And then, you know, looking for the context of the neighborhood is important as well to make sure that it's a good area for the schools."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2682.508,
+          "text": "But it's, I think as the council member knows, it's a very..."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2686.108,
+          "text": "Busy area and very competitive out there for sites."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2689.808,
+          "text": "We compete with the private sector in purchasing these land to develop, who tend to move a little faster than us, but I think we're very aggressive out there looking for sites."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2702.208,
+          "text": "Yeah, I saw some of the council members'videos on the urgency of needing school seats for her constituents."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2710.508,
+          "text": "When do we expect the site acquisitions to happen?"
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2714.508,
+          "text": "If we are both lucky to get both of these approved, we're looking to close either by the end of this month or early January."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2721.108,
+          "text": "From then, we would authorize design to start, and that would get going in earnest, and that's a 13-month process, then bidding, and then construction."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2730.708,
+          "text": "Cool."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2731.408,
+          "text": "Can you describe the recreational space at each?"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2734.608,
+          "text": "To the schools?"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2735.308,
+          "text": "Like what would they have?"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2736.108,
+          "text": "I know you mentioned a gymnasium for one."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2739.208,
+          "text": "Would there be anything else?"
+        }
+      ]
+    },
+    {
+      "end_sec": 2824.908,
+      "id": "037",
+      "slug": "sca-describes-high-school-program-and-site-plan-submission",
+      "start_sec": 2741.008,
+      "summary": "Murphy describes the proposed high school program: about 672 seats, 14 general classrooms, special education and District 75 rooms, science labs, arts rooms, a library, gymatorium, cafeteria, and at-grade play space.",
+      "title": "SCA describes high school program and site plan submission",
+      "type": "AGENCY_TESTIMONY",
+      "utterances": [
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2741.008,
+          "text": "Both of them have gymatoriums."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2742.808,
+          "text": "So that's the combined gym with the auditorium."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2745.408,
+          "text": "And both locations will have at-grade play."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2749.408,
+          "text": "The design of such doesn't happen until after we authorize design, but we have the ability to have at-grade play at both spaces, which isn't always available because sites are tiny."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2761.208,
+          "text": "So we're really lucky on both sites we will have some."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2764.108,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2764.808,
+          "text": "And am I correct that each site was exempted from..."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2769.608,
+          "text": "Secret during the because of the most recent amendment to state law?"
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2775.708,
+          "text": "That is correct."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2777.808,
+          "text": "These are both class size projects so that allows for the seeker reform to be used."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2785.608,
+          "text": "Even though that that was the case"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2788.208,
+          "text": "Has SCA done any analysis to evaluate traffic, pedestrian circulation, school bus operation, parking demand, transit capacity to ensure that the school can actually operate as attended in these sites?"
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2800.508,
+          "text": "Yeah, I mean, despite the exemption of doing the seeker, we still do."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2806.708,
+          "text": "Regardless of seeker, you know, we do our phase one and phase two, we, you know, follow DEP and their permits."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2812.508,
+          "text": "And with DOT, we have ongoing coordination with them."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2815.508,
+          "text": "We meet with them several times during the design process, early on on the site selection, the site and scheme selection."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2823.208,
+          "text": "So like where the entrance is."
+        }
+      ]
+    },
+    {
+      "end_sec": 2865.208,
+      "id": "038",
+      "slug": "marte-asks-why-these-school-sites-were-selected",
+      "start_sec": 2824.908,
+      "summary": "Marte asks why these particular sites were selected. Murphy explains SCA receives site submissions, works with brokers, and requires minimum sizes, multiple entrances, and neighborhood context, noting competition with private developers.",
+      "title": "Marte asks why these school sites were selected",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2824.908,
+          "text": "Does it make sense?"
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2826.108,
+          "text": "Are the sidewalks going to be wide enough?"
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2828.008,
+          "text": "You know, are there trees or obstructions?"
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2829.608,
+          "text": "How are the buses going to win?"
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2830.808,
+          "text": "So we meet with them multiple times in the process because, you know, safe access is very important, not only to DOT, but to the DOE and to the SEA as well."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2840.108,
+          "text": "Cool."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2840.508,
+          "text": "I'm going to kick it to Council Member Wan for questions."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 2844.008,
+          "text": "Thank you so much, Chair Marte."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 2846.208,
+          "text": "Thank you so much to the entire SCA team."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 2848.508,
+          "text": "I know you all have been working really hard with me every single day."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 2851.408,
+          "text": "And welcome to Roberto on his new role."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 2853.808,
+          "text": "Welcome back to City Hall."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 2856.008,
+          "text": "For 1LIC, this site was identified as a future expanded home for the BSGE school, which currently enrolls schools."
+        }
+      ]
+    },
+    {
+      "end_sec": 2893.608,
+      "id": "039",
+      "slug": "marte-asks-when-sca-expects-to-close-on-school-sites",
+      "start_sec": 2865.208,
+      "summary": "Marte asks when site acquisitions will happen. Murphy says if both are approved, SCA hopes to close by the end of the month or early January, then start a 13-month design process followed by bidding and construction.",
+      "title": "Marte asks when SCA expects to close on school sites",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Julie Won",
+          "t_sec": 2865.208,
+          "text": "Students from 7 to 12."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 2867.108,
+          "text": "So can you confirm on record that the proposed site will serve as a permanent relocation site for BSGE, that this will be for perpetuity?"
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 2877.208,
+          "text": "They're not going anywhere."
+        },
+        {
+          "speaker": "Max Familian",
+          "t_sec": 2878.808,
+          "text": "Yeah, we're planning to re-site."
+        },
+        {
+          "speaker": "Max Familian",
+          "t_sec": 2881.008,
+          "text": "BSGE to the new site that is pending approval by the panel for education policy."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 2885.308,
+          "text": "Okay, perfect."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 2886.208,
+          "text": "Because as you can imagine, everyone's got a lot of trust issues."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 2889.808,
+          "text": "The PTA presidents have accused all of us of lying and they don't trust us."
+        }
+      ]
+    },
+    {
+      "end_sec": 2911.408,
+      "id": "040",
+      "slug": "marte-asks-about-recreational-space-at-both-schools",
+      "start_sec": 2893.608,
+      "summary": "Marte asks about recreational space. Murphy says both schools will have gymatoriums and at-grade play areas, which is not always possible on small sites.",
+      "title": "Marte asks about recreational space at both schools",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Julie Won",
+          "t_sec": 2893.608,
+          "text": "So I need everything on record."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 2895.508,
+          "text": "Will BSGE continue to serve grades 7 to 12 at the new facility?"
+        },
+        {
+          "speaker": "Max Familian",
+          "t_sec": 2900.908,
+          "text": "There's no plans to change the grade span of BSG."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 2904.508,
+          "text": "Okay, so yes, we are going to serve grades 7 to 12 at the new facility."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 2909.008,
+          "text": "Max, everybody is listening, okay?"
+        }
+      ]
+    },
+    {
+      "end_sec": 2984.908,
+      "id": "041",
+      "slug": "marte-questions-ceqr-exemption-and-traffic-pedestrian-analysis",
+      "start_sec": 2911.408,
+      "summary": "Marte asks whether the sites were exempt from CEQR and whether SCA still analyzed traffic and circulation. Murphy confirms the class-size exemption but says SCA still does environmental review and coordinates with DEP and DOT on entrances, sidewalks, buses, and safe access.",
+      "title": "Marte questions CEQR exemption and traffic/pedestrian analysis",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Julie Won",
+          "t_sec": 2911.408,
+          "text": "We've got to be clear, and we have to be on record."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 2915.008,
+          "text": "To get their trust."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 2917.408,
+          "text": "After this location is cited, what is the anticipated timeline for opening the new school?"
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 2922.808,
+          "text": "I believe your presentation is at 2030, correct?"
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 2926.408,
+          "text": "But we want a breakdown of like, when will it go into design?"
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 2930.008,
+          "text": "When will it go into procurement?"
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 2931.508,
+          "text": "Because they want a breakdown of the overall timeline because these people have been swindled more than once and they want to keep us accountable."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2939.808,
+          "text": "So generally after, like I said, we'd close on this site by the end of December."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2945.208,
+          "text": "An authorization probably would happen January, February."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2948.508,
+          "text": "Our design process is 13 months, so it's 12 months of design and then a month for permitting."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2955.408,
+          "text": "Bidding is usually three to four months, and then it'll go out for construction."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2960.708,
+          "text": "So in this site on 33rd Street, there's a demo first, so that's step one of the process."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2969.108,
+          "text": "I can't speak to the timeline yet because that hasn't been authorized, but my guess, it would probably start while design's going on."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2977.808,
+          "text": "To catch up on time."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 2980.108,
+          "text": "I'm going to quickly recognize Councilmember Chiyose has joined us."
+        }
+      ]
+    },
+    {
+      "end_sec": 3114.008,
+      "id": "042",
+      "slug": "won-secures-on-record-commitment-for-bsge-relocation-and-grades-7-12",
+      "start_sec": 2984.908,
+      "summary": "Won asks SCA to confirm on record that the 11th Street site will permanently relocate BSGE and continue serving grades 7-12. Max Familian says BSGE will be re-sited pending approval by the Panel for Educational Policy and there are no plans to change its grade span.",
+      "title": "Won secures on-record commitment for BSGE relocation and grades 7-12",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Julie Won",
+          "t_sec": 2984.908,
+          "text": "Could you say on record again when you anticipate it to go into procurement?"
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2990.608,
+          "text": "The bidding, I have to figure out the math."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2993.308,
+          "text": "So I'm assuming authorization happens in, say, February of 27."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 2999.108,
+          "text": "12, 13 months is March of 28."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3003.708,
+          "text": "So I would guess March."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3004.808,
+          "text": "April the 28th, we go out to bid."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3007.008,
+          "text": "I'm just doing, I'm assuming, making an assumption."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3009.108,
+          "text": "Yes, with estimates."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3010.008,
+          "text": "Estimates."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3011.208,
+          "text": "And you approximate that this will be complete in 2030, you said?"
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3017.508,
+          "text": "Okay, in 2030, the school will be open."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3022.708,
+          "text": "Okay, and then moving on to 4358 11th Street, the Schumann site for the new middle school."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3030.908,
+          "text": "Under the 1LAC plan, this was considered actually for an elementary school, and this is what was voted on."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3037.008,
+          "text": "This is what was negotiated with the public."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3040.508,
+          "text": "And then SCA publicly announced June 20th."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3045.408,
+          "text": "That was announced as an elementary school on June 17th at our oversight task force hearing."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3050.908,
+          "text": "Can you please explain the process and analysis that led to the decision to pursue a middle school instead of an elementary school at this location?"
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3059.508,
+          "text": "Because we currently have a shortage of over 300 kindergarten seats in Long Island City where elementary school is a greater need and parents are confused and upset for those who are unaware of this change."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3072.408,
+          "text": "So what data or needs assessment justified your change to change to a middle school from an elementary school?"
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3079.008,
+          "text": "And how does the proposal align with current and projected seats need in this district, taking into account enrollment and demographic trends?"
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3087.608,
+          "text": "Which was forecasted by the Department of City Planning to say that we needed two elementary schools that were new in addition."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3094.808,
+          "text": "to the Court Square School."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3099.008,
+          "text": "So maybe I'll speak to the physical component."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3101.608,
+          "text": "So, you know, the site for the primary school is the Plaxall site on 44th."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3107.708,
+          "text": "That site is pretty narrow and tight."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3111.008,
+          "text": "It was lucky we got what we got from the..."
+        }
+      ]
+    },
+    {
+      "end_sec": 3264.008,
+      "id": "043",
+      "slug": "won-presses-sca-for-detailed-design-procurement-and-opening-timeline",
+      "start_sec": 3114.008,
+      "summary": "Won presses for a detailed timeline from design to procurement to opening. Murphy estimates closing, authorization in early 2027, 13 months of design, bidding in spring 2028, and construction, correcting that both schools are expected in 2031.",
+      "title": "Won presses SCA for detailed design, procurement, and opening timeline",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3114.008,
+          "text": "Developer at that time, where the Schumann site will allow for an IS-sized gym, which is much larger, and that can't be accommodated on the Plaxall site."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3125.908,
+          "text": "That and the large playground, we made sense to move the IS to that location, and that's why we switched."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3132.708,
+          "text": "But at the same time, we're able to add additional seats to that."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3136.808,
+          "text": "We've done some additional analysis."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3139.008,
+          "text": "So where it was going to be a 600-seat school, now is, make sure I get my numbers correct."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3146.308,
+          "text": "It is, I think it's 864."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3149.408,
+          "text": "I just want to make sure I'm reading the right number."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3151.808,
+          "text": "It's 864 on the Plaxall site."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3155.508,
+          "text": "So we gained 200 plus seats on that."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3157.908,
+          "text": "Maybe I'll speak to you programming for two."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3159.908,
+          "text": "For the physical site itself, why was this not raised by the school construction authority when we did the environmental review and we were reviewing the sites?"
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3168.708,
+          "text": "I got the agreement early from Plexall to build the middle school."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3173.208,
+          "text": "Why was this not addressed then that the Plexall site was not physically fit to be a middle school?"
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3178.808,
+          "text": "How come nobody ever raised that?"
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3180.208,
+          "text": "It could be a middle school, but it would have a smaller size gym."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3184.408,
+          "text": "I think."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3184.708,
+          "text": "Part of it is when you get into the details of, you know, this site's in, we're working with the state to clean up the site and also abate and demo the building."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3195.008,
+          "text": "Then you realize the other constraints of adjacent buildings that are nearby."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3199.208,
+          "text": "And as you get into more detail of it, that's when some of the stuff."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3203.308,
+          "text": "Comes to light."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3203.908,
+          "text": "I think at the time we thought we could squeeze it in, it would be very tight."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3208.008,
+          "text": "But once you learn more about the adjacencies, there's additional challenges that come to light."
+        },
+        {
+          "speaker": "Max Familian",
+          "t_sec": 3215.808,
+          "text": "Yeah, and I would just, you know, I think the physical piece did play a big role here."
+        },
+        {
+          "speaker": "Max Familian",
+          "t_sec": 3219.608,
+          "text": "I think, Councilmember, as you know, the community has been long expecting a standalone middle school for ever since I started in 10 years."
+        },
+        {
+          "speaker": "Max Familian",
+          "t_sec": 3229.308,
+          "text": "So we saw an opportunity here to get a full standalone middle school that was promised to the community."
+        },
+        {
+          "speaker": "Max Familian",
+          "t_sec": 3236.508,
+          "text": "With the appropriate facility, middle school facilities, and at the same time, able to generate a larger elementary school at Plaxall."
+        },
+        {
+          "speaker": "Max Familian",
+          "t_sec": 3245.108,
+          "text": "So I think from our perspective, the ability to get both with the proper facilities kind of made sense for this community."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3254.208,
+          "text": "And how many school seats is Schumann going to hold?"
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3257.708,
+          "text": "For sixth to eighth grade?"
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3262.808,
+          "text": "I don't know if I've broken it down."
+        }
+      ]
+    },
+    {
+      "end_sec": 3374.86,
+      "id": "044",
+      "slug": "won-challenges-switch-from-elementary-to-middle-school-at-schumann-site",
+      "start_sec": 3264.008,
+      "summary": "Won challenges the change at the Schumann site from an elementary school to a middle school, citing a 300-seat kindergarten shortage. Murphy says the Plaxall site is too narrow for an IS-sized gym and playground, and the switch allows a larger elementary school at Plaxall.",
+      "title": "Won challenges switch from elementary to middle school at Schumann site",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3264.008,
+          "text": "Because it's supposed to be a middle school?"
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3266.108,
+          "text": "I'm sorry."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3266.608,
+          "text": "Full capacity."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3267.608,
+          "text": "Yeah, I don't have that."
+        },
+        {
+          "speaker": "Max Familian",
+          "t_sec": 3268.408,
+          "text": "No, how big is the Schumann building?"
+        },
+        {
+          "speaker": "Max Familian",
+          "t_sec": 3269.708,
+          "text": "972?"
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3271.608,
+          "text": "Let's go back to that."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3272.908,
+          "text": "It is, yes, 972."
+        },
+        {
+          "speaker": "Max Familian",
+          "t_sec": 3274.908,
+          "text": "972."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3276.008,
+          "text": "972 students."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3279.508,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3280.608,
+          "text": "And when was the decision made to change the planned school use from elementary school to middle school for the site?"
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3289.008,
+          "text": "It was recent."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3291.408,
+          "text": "I would say in the last couple months."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3294.308,
+          "text": "I think that's..."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3295.308,
+          "text": "Do you remember what month it was?"
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3297.408,
+          "text": "I'd have to go back and check."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3298.508,
+          "text": "I don't want to give you the incorrect information, but I can find that out and submit that back."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3304.308,
+          "text": "I have faith in your memory, Max."
+        },
+        {
+          "speaker": "Max Familian",
+          "t_sec": 3308.108,
+          "text": "I don't remember off the top of my head."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3309.608,
+          "text": "Okay, okay."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3310.808,
+          "text": "All right."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3312.708,
+          "text": "Can you describe the outreach process used to inform the community, local education stakeholders, and elected officials of the change of the planned school use from an elementary school to middle school?"
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3322.808,
+          "text": "Because it's clear from the outreach that we're getting from our parents that they were not informed because not many people always..."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3330.508,
+          "text": "Attend the CC meetings and it wasn't voted on any of the PTAs for 78 or 384."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3340.008,
+          "text": "Those are the two only elementary schools in the district."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3342.808,
+          "text": "And also the Hunters Point Middle School, the only middle school in the neighborhood also wasn't notified."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3350.208,
+          "text": "So can you help us understand what process you did to inform parents of this change that they did not agree to yet?"
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3358.46,
+          "text": "I mean, we followed our standard site selection process where we notify, we put ads in the paper, our website, we email letters to the CEC, the district manager, the president,"
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3372.66,
+          "text": "the CEC president."
+        }
+      ]
+    },
+    {
+      "end_sec": 3472.96,
+      "id": "045",
+      "slug": "won-questions-why-plaxall-site-constraints-emerged-after-review",
+      "start_sec": 3374.86,
+      "summary": "Won asks why the Plaxall site's physical constraints were not raised during environmental review. Murphy says the site could work as a middle school but with a smaller gym, and that adjacency and cleanup details emerged later; Familian says the community long wanted a standalone middle school.",
+      "title": "Won questions why Plaxall site constraints emerged after review",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3374.86,
+          "text": "But beyond that, I don't know if you want to say anything about that."
+        },
+        {
+          "speaker": "Max Familian",
+          "t_sec": 3377.66,
+          "text": "Yeah, I mean, once those steps were taken by SCA, as you know, we've presented at every CEC meeting."
+        },
+        {
+          "speaker": "Max Familian",
+          "t_sec": 3384.86,
+          "text": "In the last six months."
+        },
+        {
+          "speaker": "Max Familian",
+          "t_sec": 3385.86,
+          "text": "So once we had the information, we included it in our presentations around our rezoning."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3391.96,
+          "text": "Okay, I just want to acknowledge that none of the PTAs were notified and they are not happy about this decision."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3397.86,
+          "text": "So I do imagine that there is going to be a growing grumbling."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3403.46,
+          "text": "As this moves forward, you know, because we're going to continue to have a school seat shortage for our elementary school students."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3410.56,
+          "text": "Whereas middle school is usually district-wide, not neighborhood civic."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3414.46,
+          "text": "So it is anticipated."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3416.56,
+          "text": "After this location is cited, what is the anticipated timeline and opening of the new school?"
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3421.56,
+          "text": "And the same thing, breakdown of when it will go into design, when it will go into procurement, and when we can expect the construction to begin, and when we expect that it will be complete."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3433.06,
+          "text": "I think the timelines are similar in terms of this one's closing in January."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3439.26,
+          "text": "Once we close, I would say, again, probably authorization in February, the 13-month design process."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3447.56,
+          "text": "three to four months bidding than construction."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3451.56,
+          "text": "Again, I would guess there's demolition involved, that this would be an early work that would start sooner."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3457.46,
+          "text": "But again, those details get worked out when the design team gets onboarded."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3462.46,
+          "text": "So I'm just speaking from generalities."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3464.96,
+          "text": "And I do want to clarify, because I think I misspoke earlier, both buildings are 2031."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3469.26,
+          "text": "I think I might have said 2030 on the other one."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3471.96,
+          "text": "I apologize."
+        }
+      ]
+    },
+    {
+      "end_sec": 3600.0,
+      "id": "046",
+      "slug": "won-asks-schumann-capacity-and-timing-of-middle-school-decision",
+      "start_sec": 3472.96,
+      "summary": "Won asks how many seats the Schumann middle school will hold and when the decision changed. Murphy confirms 972 seats but does not know the breakdown; she says the change was recent, within the last couple months, and will follow up on the exact date.",
+      "title": "Won asks Schumann capacity and timing of middle school decision",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3472.96,
+          "text": "Okay, so it's going to be 2031 for both BSGE and for Lehman."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3478.16,
+          "text": "11Th Street, yes."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3481.06,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3481.76,
+          "text": "Yeah, I could see why parents are going to be upset because it's a long, far, far away."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3486.26,
+          "text": "Okay."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3486.96,
+          "text": "And for school capacity in District 30, 1LIC created a need for 1,300 new elementary school seats in LIC, and the city has committed to building two new schools, two new elementary schools to meet this need."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3501.06,
+          "text": "How does SCA plan to address this remaining elementary school seat need if the 11th site district, I mean, 11 sites..."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3508.66,
+          "text": "The Schumann site on 11th Street is no longer being developed as an elementary school, so we're still short the number of school seats that we were promised."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3516.06,
+          "text": "And the other site in Queensbridge South also has fallen apart."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3522.76,
+          "text": "So what additional sites has SCA identified within the district for future elementary school capacity, such as the DOT site that was also given as was cited as or was referred to as an option because it wasn't cited."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3537.76,
+          "text": "for elementary school capacity and what is the status of the DOT site on Annabelle Basin?"
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3544.06,
+          "text": "That was a potential elementary school site."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3546.26,
+          "text": "And what is going to happen to make up for the lack of now almost half of those 1,300 school seats that were promised?"
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3554.86,
+          "text": "Okay, I'll start maybe with the context."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3557.86,
+          "text": "So yes, the Long Island City is going to generate over 14,000 new housing units, which in turn generate new school seats."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3566.06,
+          "text": "The build year for that is 2035."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3569.36,
+          "text": "So as the housing comes online, then the school seat will come online."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3573.56,
+          "text": "So that housing hasn't been developed yet."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3576.96,
+          "text": "It will, over the next decade, will come online."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3580.66,
+          "text": "In terms of finding additional sites, as I mentioned before, we work with brokers."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3586.06,
+          "text": "We're lucky folks send us options."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3587.96,
+          "text": "We're out, my staff's out looking, driving around, looking for undeveloped sites, if we could do assemblages."
+        },
+        {
+          "speaker": "Kelly Murphy",
+          "t_sec": 3595.56,
+          "text": "We're kind of revisiting old sites that maybe didn't work so great, but maybe"
+        }
+      ]
+    },
+    {
+      "end_sec": 3714.5,
+      "id": "047",
+      "slug": "won-questions-outreach-to-ptas-about-middle-school-change",
+      "start_sec": 3600.0,
+      "summary": "Won asks how SCA informed the community and PTAs about the change to a middle school. Murphy describes standard site selection notices and hearings; Familian says SCA presented at CEC meetings, but Won notes the PTAs and Hunters Point Middle School were not notified.",
+      "title": "Won questions outreach to PTAs about middle school change",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Roberto Perez",
+          "t_sec": 3600.0,
+          "text": "Maybe we can think, be more creative and look at some old sites that we looked at in the past."
+        },
+        {
+          "speaker": "Roberto Perez",
+          "t_sec": 3605.7,
+          "text": "In terms of the DOT site, I know you've had some correspondence with our president."
+        },
+        {
+          "speaker": "Roberto Perez",
+          "t_sec": 3611.1,
+          "text": "That is a site used by DOT still currently, and they have their operations."
+        },
+        {
+          "speaker": "Roberto Perez",
+          "t_sec": 3616.7,
+          "text": "They have started the process, I understand, to start looking for an alternative site."
+        },
+        {
+          "speaker": "Roberto Perez",
+          "t_sec": 3623.5,
+          "text": "They've yet to secure the funding, so I think the time frame is open due to that."
+        },
+        {
+          "speaker": "Roberto Perez",
+          "t_sec": 3628.3,
+          "text": "But we're committed to working with DOT and our partners at New York City Public Schools to continue to engage that process and try to advocate to move that along."
+        },
+        {
+          "speaker": "Roberto Perez",
+          "t_sec": 3639.5,
+          "text": "But I think in the time frame we have, we should be able to, you know, meet the need when the need for seats will come on, which is at 2035."
+        },
+        {
+          "speaker": "Roberto Perez",
+          "t_sec": 3648.6,
+          "text": "That's the projected date."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3650.5,
+          "text": "We're already behind thousands of school seats in Long Island City because for decades we were told."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3658.1,
+          "text": "That it was going to take 10 years for the apartments to be built."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3660.9,
+          "text": "That was not true."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3661.6,
+          "text": "The apartments are built within three years, on average, in Long Island City."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3666.0,
+          "text": "We've built more apartments than the city of Los Angeles has done in the last decade."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3669.8,
+          "text": "So for you to tell my parents that we're not going to build schools because we don't expect the apartments to be fully built by 2035 is a lie."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3677.3,
+          "text": "And it's also a slap in our face because I know for a fact, even the schools that we're citing today are not going to be open until 2031."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3683.9,
+          "text": "That is now another five years for my kids to have no school seats, as in like even my own kids."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3689.3,
+          "text": "So if we're..."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3690.0,
+          "text": "We're expecting 14,000 new units of housing."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3692.4,
+          "text": "We're not going to wait until 2035."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3694.8,
+          "text": "We're going to have to start building at a minimum and start citing at least a new school by 2030."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3701.0,
+          "text": "And that's going to be at 4459 45th Avenue, which we have multiple recordings of the city of New York telling us that the DOT public site would be both housing for affordable housing, 100% affordable housing, as well as a new school."
+        }
+      ]
+    },
+    {
+      "end_sec": 3803.3,
+      "id": "048",
+      "slug": "won-presses-for-schumann-timeline-and-sca-corrects-opening-to-2031",
+      "start_sec": 3714.5,
+      "summary": "Won says parents are unhappy and asks for the Schumann timeline. Murphy gives a similar schedule to the other site, with closing in January, authorization in February, design, bidding, and construction; she corrects that both schools are expected in 2031, not 2030.",
+      "title": "Won presses for Schumann timeline and SCA corrects opening to 2031",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3714.5,
+          "text": "So we are going to take this back."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3716.6,
+          "text": "I know that many of the parents are watching."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3718.1,
+          "text": "The PTAs are watching."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3719.5,
+          "text": "The CECs are watching."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3721.1,
+          "text": "And we're going to continue to fight until this administration gives us every single school seat that is owed to my district because we have taken on the brunt of building new housing for the entire city of New York, but we have not been given infrastructure like schools to keep up with our demand."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3734.5,
+          "text": "Thank you so much."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3735.6,
+          "text": "I have no further questions."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3737.1,
+          "text": "Oh, wait, I have one more."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3739.2,
+          "text": "In a letter to my office on November 13th, SCA shared that the potential relocation site has been identified for DOT to use at 4415 45th Avenue."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3749.4,
+          "text": "And as of yesterday, SCA was not able to provide a timeline for relocation or school development."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3755.3,
+          "text": "When can my office expect to receive a timeline for DOT relocation and the construction of an elementary school site?"
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3761.2,
+          "text": "I know that DOT is not physically here with us right now."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3763.3,
+          "text": "I'm going to bring this up at a DOT hearing."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3765.3,
+          "text": "And we're also going to have our follow-up quarterly."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3768.8,
+          "text": "Community oversight town hall along with every single agency and we will continue to make sure that there's accountability and if we have to go to press we will"
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3780.0,
+          "text": "Our district is organized."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3781.2,
+          "text": "I know Max has seen it."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3782.7,
+          "text": "People actually have pitchforks, and they can be very, very aggressive."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3788.2,
+          "text": "And I know that Roberto knows because he's from these streets."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3792.7,
+          "text": "You know, it's in our blood."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3794.2,
+          "text": "So we will fight until we get every single school seat that our children are owed."
+        },
+        {
+          "speaker": "Julie Won",
+          "t_sec": 3798.2,
+          "text": "Thank you so much."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 3801.1,
+          "text": "Thank you, Councilmember."
+        }
+      ]
+    },
+    {
+      "end_sec": 3857.512,
+      "id": "049",
+      "slug": "won-challenges-sca-on-unmet-elementary-seats-and-dot-site-status",
+      "start_sec": 3803.3,
+      "summary": "Won asks how SCA will address the remaining elementary school seats promised in the One LIC plan, including the DOT site on Annabelle Basin. Murphy cites 14,000 future housing units and a 2035 build year; Roberto Perez says DOT is seeking an alternative site but funding is not secured.",
+      "title": "Won challenges SCA on unmet elementary seats and DOT site status",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 3803.3,
+          "text": "And thank you to the panel."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 3805.1,
+          "text": "You guys are now excused."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 3806.6,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 3807.1,
+          "text": "Thank you."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 3809.6,
+          "text": "Council, are there any members of the public who wish to testify on this item?"
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 3813.4,
+          "text": "No, there are not."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 3816.412,
+          "text": "If there are any remote public participants who wish to testify and have not already done so, please press the raise hand button now."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 3824.812,
+          "text": "And if you are here in person, please see one of the Sergeant of Arms to first fill out a speaker card."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 3831.612,
+          "text": "Don't see anyone."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 3832.912,
+          "text": "There being no other members of the public who wish to testify regarding LU 164 and 165 for the two school citing application, the public hearing is now closed and the items are laid over."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 3845.612,
+          "text": "That concludes today's business."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 3847.112,
+          "text": "I'd like to thank the members of the public, my colleagues, subcommittee council, land use staff, and the sergeant at arms for your participation today."
+        },
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 3854.612,
+          "text": "This meeting is hereby adjourned."
+        }
+      ]
+    },
+    {
+      "end_sec": 3928.939,
+      "id": "050",
+      "slug": "won-denounces-2035-timeline-and-vows-to-fight-for-school-seats",
+      "start_sec": 3857.512,
+      "summary": "Won rejects the 2035 timeline, saying Long Island City builds apartments in about three years and is already behind thousands of seats. She demands a new school be cited by 2030 at 44-59 45th Avenue and vows to keep fighting with parents, PTAs, and CECs.",
+      "title": "Won denounces 2035 timeline and vows to fight for school seats",
+      "type": "QA",
+      "utterances": [
+        {
+          "speaker": "Christopher Marte",
+          "t_sec": 3857.512,
+          "text": "Thank you."
+        }
+      ]
+    }
+  ],
+  "date": "2026-11-24",
+  "duration_sec": 3928.939,
+  "slug": "2026-11-24-1200-pm-subcommittee-on-landmarks-public-sitings-resiliency-and-dispositions",
+  "summary": [
+    "The Subcommittee on Landmarks, Public Sitings, Resiliency and Dispositions heard two land use items: a 537-unit 100% affordable housing project at 110 East 138th Street/63 Exterior Street in the Bronx, and two school siting applications in Long Island City, Queens.",
+    "HPD, Phipps Houses, and Douglaston Development presented the Bronx project, facing questions from Chair Marte, Council Member Encarnaci\u00f3n, and Council Member Thomas-Henry; public witness Al Gates raised affordability, management, and environmental concerns.",
+    "SCA presented a 972-seat intermediate school and a 676-seat high school; Council Member Won pressed for timelines, elementary school seats, and transparency on the change from an elementary to middle school at the Schumann site. Both items were laid over."
+  ],
+  "tags": [
+    "HEARING",
+    "LAND_USE"
+  ],
+  "time": "12:00 PM",
+  "title": "Subcommittee on Landmarks, Public Sitings, Resiliency and Dispositions",
+  "topic": "Landmarks, 110 East 138th Street/63 Exterior Street, Bronx (C 260190 ZSX)",
+  "video": {
+    "poster": "/og-placeholder.svg",
+    "url": "https://discourse-media.qqlab.io/NYCC-250-8-3_261124-120137/video-web.mp4"
+  }
+}
